@@ -1,4 +1,4 @@
-<img src=".Database Task Manager.docx\media\image2.png" />
+<img src=".Database Task Manager\media\image2.png" />
 
 
 # Database Task Manager
@@ -23,7 +23,7 @@ details. Deze tabel genaamd adsactivitylog.adt staat in de tempnet map
 van de gebruiker. Om het scherm te openen klik je in de Navigator in het
 hoofdmenu op Systeem en dan op Database Task Manager
 
-<img src=".Database Task Manager.docx\media\image1.png" />
+<img src=".Database Task Manager\media\image1.png" />
 
 # Tijdelijke actie
 

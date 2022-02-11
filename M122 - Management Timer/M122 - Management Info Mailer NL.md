@@ -1,4 +1,4 @@
-<img src=".Management Info Mailer.docx\media\image2.png" />
+<img src=".Management Info Mailer\media\image2.png" />
 
 # Management Info Mailer  
   
@@ -15,7 +15,7 @@ De gegevens kunnen met een layout omgezet worden in een pdf of excel
 bestand. Deze worden dan verstuurd naar ingestelde email adressen.
 
 ## Constanten Scherm
-<img src=".Management Info Mailer.docx\media\image1.png" style="width:6.3in;height:5.14931in" />
+<img src=".Management Info Mailer\media\image1.png" style="width:6.3in;height:5.14931in" />
 
 ##  Naam
 De naam wordt ook gebruikt voor de bestandsnamen zoals deze in de email

@@ -1,4 +1,4 @@
-> <img src=".Basishandleiding Floriline.docx\media\image1.png" style="width:3.45972in;height:1.26389in" />
+> <img src=".Basishandleiding Floriline NL\media\image1.png" style="width:3.45972in;height:1.26389in" />
 
 # **<u>Inhoudsopgave</u>**
 
@@ -129,7 +129,7 @@ verschillende software onderdelen van Floriline en hun samenhang.
 
 ## Workflow software onderdelen Floriline
 
-<img src=".Basishandleiding Floriline.docx\media\image3.PNG" style="width:10.23758in;height:5in" alt="Dia4" />
+<img src=".Basishandleiding Floriline NL\media\image3.PNG" style="width:10.23758in;height:5in" alt="Dia4" />
 
 De Systeemgebruiker levert middels een koppeling Verkoop Functionaliteit
 aan een Verkoper (lijnrijder). Dit betekent dat de Systeemgebruiker
@@ -172,7 +172,7 @@ worden beschreven: inloggen, verdelen/retourneren.
 > <u>Actie 1:</u> Inloggen met de (systeem)gebruiker en een klant
 > (debiteur) kiezen vanuit de Zoeken lijst.
 
-<img src=".Basishandleiding Floriline.docx\media\image4.png" style="width:2.54202in;height:4.27143in" />
+<img src=".Basishandleiding Floriline NL\media\image4.png" style="width:2.54202in;height:4.27143in" />
 
 Selecteer een klant uit de keuzelijst of gebruik het zoekveld om snel
 een klant te selecteren.
@@ -180,7 +180,7 @@ een klant te selecteren.
 > <u>Actie 2</u>: Producten aan de winkelwagen toevoegen (verdelen) en
 > deze eventueel kopen.
 >
-> <img src=".Basishandleiding Floriline.docx\media\image5.png" style="width:2.55814in;height:2in" />  
+> <img src=".Basishandleiding Floriline NL\media\image5.png" style="width:2.55814in;height:2in" />  
 > Voeg producten toe aan de winkelwagen of kies ervoor om producten te
 > retourneren.
 
@@ -189,7 +189,7 @@ een klant te selecteren.
 
 > <u>Actie 3:</u> Niet verkochte producten kunnen retour geboekt worden.
 >
-> <img src=".Basishandleiding Floriline.docx\media\image6.png" style="width:5.61621in;height:2.47674in" />
+> <img src=".Basishandleiding Floriline NL\media\image6.png" style="width:5.61621in;height:2.47674in" />
 >
 > Retour functionaliteit is aanwezig om niet verkochte artikelen terug
 > te boeken in de voorraad.
@@ -199,7 +199,7 @@ een klant te selecteren.
 > Florisoft voor gebruikt. Er komt ook nog een naamoptie bij. Dit zorgt
 > er voor dat de klantnaam op de factuur geprint wordt
 >
-> .<img src=".Basishandleiding Floriline.docx\media\image7.png" style="width:3.5625in;height:4.51841in" />
+> .<img src=".Basishandleiding Floriline NL\media\image7.png" style="width:3.5625in;height:4.51841in" />
 >
 > Scherm voor het aanmaken van een factuur. Klant heeft de mogelijkheid
 > om een handtekening toe te voegen. Deze wordt mee geprint op de
@@ -226,7 +226,7 @@ Floriline. Deze mogelijkheden worden in dit hoofdstuk besproken.
 > komen de lijnfacturen netjes in de facturenbak van het hoofdsysteem
 > terecht.
 
-<img src=".Basishandleiding Floriline.docx\media\image8.png" style="width:7.05208in;height:1.74584in" />
+<img src=".Basishandleiding Floriline NL\media\image8.png" style="width:7.05208in;height:1.74584in" />
 
 > In de groep leeft de vraag of deze actie ook gelogd gaat worden in de
 > toekomst. Dit kan van belang zijn voor het leveren van support, bijv.
@@ -235,7 +235,7 @@ Floriline. Deze mogelijkheden worden in dit hoofdstuk besproken.
 > <u>Actie 2:</u> Vanuit de backoffice kan er verschillende soorten data
 > geëxporteerd worden naar de frontend. (bv. Debiteuren)
 
-<img src=".Basishandleiding Floriline.docx\media\image9.png" style="width:7.03774in;height:2.02135in" />
+<img src=".Basishandleiding Floriline NL\media\image9.png" style="width:7.03774in;height:2.02135in" />
 
 > In het scherm Handterminal kiezen voor Terminal vullen -&gt; scherm
 > Vullen handterminal -&gt; Lijncode kiezen -&gt; Na het exporteren
@@ -274,12 +274,12 @@ meer over deze instellingen.
 > te selecteren in het venster Systeemgebruikers: Constanten -&gt;
 > Tabellen -&gt; Systeem -&gt; Systeemgebruikers.
 >
-> <img src=".Basishandleiding Floriline.docx\media\image10.png" style="width:5.3125in;height:3.31424in" />
+> <img src=".Basishandleiding Floriline NL\media\image10.png" style="width:5.3125in;height:3.31424in" />
 >
 > Verkopers zijn aan te maken in het volgende venster: Constanten -&gt;
 > Tabellen -&gt; Organen -&gt; Verkopers.
 >
-> <img src=".Basishandleiding Floriline.docx\media\image11.png" style="width:0.39583in;height:0.39583in" />
+> <img src=".Basishandleiding Floriline NL\media\image11.png" style="width:0.39583in;height:0.39583in" />
 
 <u>  
 </u>
@@ -289,12 +289,12 @@ meer over deze instellingen.
 > eigenschappen van de Verkoper (dubbel klikken op de betreffende
 > verkoper).
 >
-> <img src=".Basishandleiding Floriline.docx\media\image12.png" style="width:4.73958in;height:3.30955in" />
+> <img src=".Basishandleiding Floriline NL\media\image12.png" style="width:4.73958in;height:3.30955in" />
 >
 > Naast het koppelen van Verkoper aan een debiteurgroep, moeten er ook
 > op het tabblad Webshop nog een aantal instellingen gemaakt worden:
 
-<img src=".Basishandleiding Floriline.docx\media\image13.png" style="width:4.75in;height:3.31682in" />
+<img src=".Basishandleiding Floriline NL\media\image13.png" style="width:4.75in;height:3.31682in" />
 
 > Kies op het tabblad Webshop de betreffende debiteur in het uitklapmenu
 > ‘Op basis van debiteur’. Hiermee krijgt de huidige verkoper (in dit
@@ -356,7 +356,7 @@ Een beschrijving van deze instellingen is hieronder terug te vinden.
 > Celtis debiteur (default = FLFS1) als DefaultDebiteurCeltis(2). Dit
 > ziet er als volgt uit:
 >
-> <img src=".Basishandleiding Floriline.docx\media\image14.png" style="width:5.19792in;height:1.17623in" />
+> <img src=".Basishandleiding Floriline NL\media\image14.png" style="width:5.19792in;height:1.17623in" />
 >
 > De configuratie van klanten dia via een import ingeladen worden hebben
 > dezelfde kenmerken als beschreven onder de kop ‘Klanten binnen de
@@ -377,7 +377,7 @@ open te staan op de webshop.
 
 Voor de retourvoorraad (LIJNRE) moet het volgende ingesteld worden:
 
-<img src=".Basishandleiding Floriline.docx\media\image15.png" style="width:6.53194in;height:5.93403in" />
+<img src=".Basishandleiding Floriline NL\media\image15.png" style="width:6.53194in;height:5.93403in" />
 
 Dit is nodig om de juiste verdeling op de factuur te krijgen.
 
@@ -491,7 +491,7 @@ standaard Gmail account.
 >
 > Bij Gmail moeten de volgende instellingen doorgevoerd worden.
 >
-> <img src=".Basishandleiding Floriline.docx\media\image16.png" style="width:6.45522in;height:2.90278in" />
+> <img src=".Basishandleiding Floriline NL\media\image16.png" style="width:6.45522in;height:2.90278in" />
 >
 > Op het tabblad ‘Doorsturen en POP/IMAP’, zorg ervoor dat bij punt ‘1.
 > Status POP is ingeschakeld voor alle e-mail’ de tekst ‘POP is
@@ -505,24 +505,24 @@ standaard Gmail account.
 > Als laatste moet er een beveiligingsinstelling gewijzigd worden in de
 > instellingen van Gmail. Het gaat om de volgende instelling:
 >
-> <img src=".Basishandleiding Floriline.docx\media\image17.png" style="width:5.07362in;height:1.46895in" />
+> <img src=".Basishandleiding Floriline NL\media\image17.png" style="width:5.07362in;height:1.46895in" />
 >
 > Deze is als volgt te vinden:
 
 1.  Inloggen bij Gmail met het betreffende account
 
 2.  Klik op de accountafbeelding in de rechterbovenhoek van het
-    > scherm.<img src=".Basishandleiding Floriline.docx\media\image18.png" style="width:1.59397in;height:0.60425in" />
+    > scherm.<img src=".Basishandleiding Floriline NL\media\image18.png" style="width:1.59397in;height:0.60425in" />
 
 3.  Klik in het gedeelte ‘Inloggen en beveiliging’ op ‘Apps met toegang
     > tot uw account’
 
-> <img src=".Basishandleiding Floriline.docx\media\image19.png" style="width:1.96875in;height:3.5771in" />
+> <img src=".Basishandleiding Floriline NL\media\image19.png" style="width:1.96875in;height:3.5771in" />
 
 1.  In het middelste scherm, is rechts onderin de betreffende switch te
     > zien.
 
-<img src=".Basishandleiding Floriline.docx\media\image17.png" style="width:5.07292in;height:0.53125in" />
+<img src=".Basishandleiding Floriline NL\media\image17.png" style="width:5.07292in;height:0.53125in" />
 
 Nu moeten de instellingen van Gmail doorgevoerd worden in Florisoft.
 Volg hiervoor onderstaande stappen:
@@ -531,7 +531,7 @@ Volg hiervoor onderstaande stappen:
     -&gt; Setup E-mail. Het volgende venster opent. Gebruik voor
     Floriline gebruik altijd ‘Van Florisoft naar Extern’.
 
-> <img src=".Basishandleiding Floriline.docx\media\image20.png" style="width:3.64538in;height:3.4375in" />
+> <img src=".Basishandleiding Floriline NL\media\image20.png" style="width:3.64538in;height:3.4375in" />
 >
 > Dit venster dient voor twee omgevingen ingesteld worden: de Floriline
 > omgeving en het hoofdsysteem.
@@ -539,7 +539,7 @@ Volg hiervoor onderstaande stappen:
 > Instellingen voor de Floriline omgeving: Instellingen voor het
 > hoofdsysteem:
 >
-> <img src=".Basishandleiding Floriline.docx\media\image21.png" style="width:3.38253in;height:3.82292in" /><img src=".Basishandleiding Floriline.docx\media\image22.png" style="width:2.94792in;height:3.31437in" />
+> <img src=".Basishandleiding Floriline NL\media\image21.png" style="width:3.38253in;height:3.82292in" /><img src=".Basishandleiding Floriline NL\media\image22.png" style="width:2.94792in;height:3.31437in" />
 >
 > **Let op: bovenstaande instellingen zijn bezien vanuit een Gmail
 > mailbox. Mocht er in de toekomst evt. een andere (mail)oplossing
@@ -554,7 +554,7 @@ hoofdsysteem.
 Het vullen van de handterminal met data vanuit het hoofdsysteem gaat als
 volgt:
 
-> <img src=".Basishandleiding Floriline.docx\media\image23.png" style="width:2.88611in;height:4.14097in" />Klik
+> <img src=".Basishandleiding Floriline NL\media\image23.png" style="width:2.88611in;height:4.14097in" />Klik
 > in de Navigator op ‘Terminal lijnrijders’ -&gt; kies ‘Terminal vullen’
 > -&gt; Klik op ‘Ok’ opent het volgende venster:
 
@@ -582,7 +582,7 @@ volgt:
 </tbody>
 </table>
 
-<img src=".Basishandleiding Floriline.docx\media\image24.png" style="width:2.46875in;height:2.57222in" />
+<img src=".Basishandleiding Floriline NL\media\image24.png" style="width:2.46875in;height:2.57222in" />
 
 <table>
 <thead>
@@ -633,7 +633,7 @@ volgt:
 De gegevens van de handterminal kunnen uitgelezen en ingevoerd worden in
 de database. Voer hiervoor de volgende stappen uit:
 
-> <img src=".Basishandleiding Floriline.docx\media\image25.png" style="width:3.26042in;height:2.49097in" />In
+> <img src=".Basishandleiding Floriline NL\media\image25.png" style="width:3.26042in;height:2.49097in" />In
 > de Navigator -&gt; kies ‘Terminal uitlezen’ -&gt; Klik op ‘Ok’ opent
 > het volgende venster:
 
@@ -660,7 +660,7 @@ de database. Voer hiervoor de volgende stappen uit:
 </tbody>
 </table>
 
-> <img src=".Basishandleiding Floriline.docx\media\image26.png" style="width:5.70964in;height:1.4434in" />
+> <img src=".Basishandleiding Floriline NL\media\image26.png" style="width:5.70964in;height:1.4434in" />
 
 <table>
 <thead>
