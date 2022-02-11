@@ -18,7 +18,8 @@ The first step involves the creation of a new system user that is solely intende
 4. Give the system user a clearly descriptive name in the Name field. (no. 4)
 5. Click the Ok button (no. 5) to create the new system user.
 
-![](![](.Pop-up Chat & Notification Centre EN/2021-02-12-10-51-46.png).png)
+<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-10-51-46.png" />
+
 
 ## Step 2: Adjust system settings
 The two system settings below have to be checked/set.

@@ -1,7 +1,6 @@
-**Florisoft handleiding inrichten  
-Sales**
+**Florisoft handleiding inrichten Sales**
 
-<img src=".Handleiding inrichten Sales\media\image1.jpeg" style="width:4.33958in;height:1.67917in" alt="C:\Users\babs\Pictures\offerte-logo-Florisoft.jpg" />
+<img src=".Handleiding inrichten Sales\media\image1.jpeg" style="width:4.33958in;height:1.67917in" />
 
 # 
 
