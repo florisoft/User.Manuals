@@ -17,7 +17,7 @@ De eerste stap bestaat uit het aanmaken van een nieuwe systeemgebruiker die uits
 4. Geef de systeemgebruiker een duidelijk beschrijvende naam in het veld Naam. (nr. 4)
 5. Klik op de knop Ok (nr. 5) om de nieuwe systeemgebruiker aan te maken.
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-10-51-46.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-10-51-46.png)
 
 
 ## Stap 2: Systeeminstellingen aanpassen
@@ -25,11 +25,11 @@ Nu moeten er een tweetal systeeminstellingen gecontroleerd worden.
 
 1. Klik in de Navigator op het menu Onderhoud -> Setup Systeem. (nr. 1) Het venster Florisoft.NET Systeem Setup opent. 
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-10-57-15.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-10-57-15.png)
 
 2. Klik op het tabblad Geavanceerd (nr. 2) en vul het wachtwoord in.
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-10-59-50.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-10-59-50.png)
 
 >**Let op: alle instellingen die zich bevinden onder het tabblad Geavanceerd mogen alleen worden aangepast door personeel van Florisoft. Daarom zitten deze instellingen ook achter een wachtwoord.**
 
@@ -45,18 +45,18 @@ De derde stap beschrijft de instellingen die nodig zijn in de webshop. Volg onde
 2. Open de het Management gedeelte door te klikken op de naam van de gebruiker -> Beheer. (nr. 1)
 Aan de bovenkant van de webshop verschijnt nu een menubalk met opties.
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-11-16-36.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-11-16-36.png)
 
 3. Klik op het menu Configuratie -> Webshop Instellingen. (nr. 2) De webshop instellingen worden geopend in een apart browser tabblad.
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-11-18-22.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-11-18-22.png)
 
 4. Zoek in het veld item naar chat (nr. 3)
 5. Geef de instelling SETUP -> WEBCHATAAN de waarde ON. (nr. 4)
 6. Geef de instelling SETUP -> WEBCHAT de waarde WEBCHAT. Dit is de Userid van de geserveerde systeemgebruiker die aangemaakt is in Stap 1: Gereserveerde systeemgebruiker aanmaken.
 7. Herstart de webshop.
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-11-25-24.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-11-25-24.png)
 
 ## Stap 4: Debiteurgroep(en) aanmaken
 Omdat de chatfunctie gebouwd is op de Sales add on is het noodzakelijk om de debiteuren die gebruik gaan maken van de chatfunctie ingedeeld worden in debiteurgroepen. De gedachte hierachter is dat iedere verkoper verantwoordelijk is voor het contact met een x aantal klanten. Alle klanten die horen bij een verkoper dienen gegroepeerd te worden in een debiteurgroep.
@@ -72,7 +72,7 @@ Hieronder de stappen voor het aanmaken van een debiteurgroep:
 
 6. Klik op Ok om de nieuwe groep aan te maken.
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-11-37-42.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-11-37-42.png)
 
 ## Stap 5: Webshop sales debiteur aanmaken
 Omdat vanuit technisch oogpunt in de webshop alleen maar debiteuren in kunnen loggen is er een aparte debiteur nodig die in de volgende stap aan de verkoper gekoppeld wordt. De verkoper zal later op zijn beurt weer gekoppeld worden aan de systeemgebruiker van de verkoper. Hieronder een globaal stappenplan voor het aanmaken van een sales debiteur.
@@ -89,13 +89,13 @@ Een sales debiteur is technisch gezien niets meer dan een 'normale' Florisoft de
 6. Kies in het veld Land (nr. 5) voor het land van de sales debiteur. 
 7. Vul het veld Email adres (nr. 6) met het mailadres van de verkoopdebiteur. Dit mailadres is meestal gelijk aan het adres waar de verkoper standaard mee communiceert richting zijn klanten.
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-12-11-11.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-12-11-11.png)
 
 8. Klik op het tabblad Ident. (nr. 7)
 9. Vul bij het veld Gekoppeld aan gebruiker de systeemgebruiker van de verkoper in. (nr. 8)
 10. Klik op het tabblad Internet toegang (nr. 9) 
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-12-24-51.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-12-24-51.png)
 
 11. Zet het vinkje Deze klant heeft toegang via het Internet (nr. 10) aan.
 12. Zet het vinkje Deze klant mag inloggen in Florishop (nr. 11) aan.
@@ -103,7 +103,7 @@ Een sales debiteur is technisch gezien niets meer dan een 'normale' Florisoft de
 14. Geef de debiteur een wachtwoord in het veld Password voor klant. (nr. 13)
 15. Klik op Ok om de instellingen te bevestigen. (nr. 14)
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-12-35-47.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-12-35-47.png)
 
 
 ## Stap 6: Verkoper aanmaken
@@ -115,13 +115,13 @@ Stap zes gaat over het aanmaken van een verkoper. De verkoper wordt in deze stap
 4. Geef de verkoper een duidelijk omschreven naam in het veld Naam verkoper. (nr. 3)
 5. Klik op het tabblad Webshop. (nr. 4)
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-12-36-51.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-12-36-51.png)
 
 6. Zet het vinkje Accountmanager login aan. (nr. 5)
 7. Kies de eerder aangemaakte webshop sales debiteur voor deze verkoper in het veld Op basis van debiteur (Zie Stap 5: Webshop sales debiteur aanmaken, nr. 6)
 8. Klik op Ok om de verkoper aan te maken.
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-12-42-35.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-12-42-35.png)
 
 ## Stap 7: Verkoper koppelen als accountmanager aan de debiteur(en)
 De verkoper, zoals aangemaakt in de vorige stap, moet gekoppeld worden aan alle debiteuren (klanten) die horen bij deze verkoper. Deze koppeling wordt gemaakt op de debiteur:
@@ -133,7 +133,7 @@ De verkoper, zoals aangemaakt in de vorige stap, moet gekoppeld worden aan alle 
 5. Optioneel: voer deze wijziging door voor alle debiteuren die gekoppeld dienen te worden aan de geselecteerde verkoper met behulp van de functie Wijzigen naar. (nr. 4)
 6. Klik op Ok om de instellingen te bevestigen (nr. 5)
 
-![](.Pop-up Chat & Notification Centre/![](2021-02-12-12-57-21.png).png)
+<img src=".Pop-up Chat & Notification Centre/![](2021-02-12-12-57-21.png).png)
 
 
 ## Stap 8: Verkoper koppelen aan de systeemgebruiker
@@ -144,7 +144,7 @@ Stap acht laat zien waar de verkoper gekoppeld wordt aan de systeemgebruiker van
 3. Kies in het veld Verkoper voor de verkoper die hoort bij deze systeemgebruiker. (nr. 1)
 4. Klik op Ok om de instellingen te bevestigen. (nr. 2)
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-12-50-32.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-12-50-32.png)
 
 ## Stap 9: Testen
 Deze stap laat zien hoe de chatfunctie werkt op zowel de webshop als in Florisoft. Dit gedeelte zal ook voornamelijk in een reële situatie.
@@ -154,35 +154,35 @@ Klant in de webshop:
 1. Hertstart de webshop en Florisoft.
 2. Activeer de fidgets in Florisoft door te klikken op het menu Fidgets -> Intercommunicatie chat. (nr.1) De fidgets (waar de chatfunctie een onderdeel van is verschijnen aan de rechterkant van de Navigator)
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-13-24-21.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-13-24-21.png)
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-13-26-56.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-13-26-56.png)
 
 2. Log op de webshop in met één van de debiteuren die via bovenstaande stappen zijn gekoppeld aan een verkoper en webshop sales gebruiker.
 3. Klik op het spreekwolk icoon om de Chat functie te openen. (nr. 1)
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-13-19-19.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-13-19-19.png)
 
 4. Typ een bericht voor de verkoper in het daarvoor bestemde veld (nr. 2)
 5. Druk op de knop SEND (nr. 5) of op Enter op het toetsenbord om het bericht te verzenden.
 Het bericht wordt verstuurd naar de verkoper.
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-13-21-00.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-13-21-00.png)
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-13-22-29.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-13-22-29.png)
 
 Verkoper in Florisoft:
 
 1.  Zodra een debiteur een bericht verzend vanuit de webshop opent er in de fidgets een nieuw tabblad met de debiteurcode (nr. 1) en het verzonden bericht. (nr. 2)
 
-![](.Pop-up Chat & Notification Centre/![](2021-02-12-16-58-00.png).png)
+<img src=".Pop-up Chat & Notification Centre/![](2021-02-12-16-58-00.png).png)
 
 2. Typ een antwoord in het tekst vak aan de onderkant van het fidgets scherm (nr. 3) en druk op Enter.
-![](.Pop-up Chat & Notification Centre/2021-02-12-17-05-45.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-17-05-45.png)
 
 3. Het antwoord komt binnen in het chatscherm van de webshop.
 
-![](.Pop-up Chat & Notification Centre/2021-02-12-17-08-32.png)
+<img src=".Pop-up Chat & Notification Centre/2021-02-12-17-08-32.png)
 
 Bovenstaande stappen herhalen zich om het gesprek voort te zetten.
 
@@ -206,7 +206,7 @@ Om een notificatie aan te maken, navigeer je naar de volgende plek in Florisoft:
 
 Klik nu op **Add new item** (veer met plus). Onderstaand scherm krijg je te zien:
 
-![](.Pop-up Chat & Notification Centre/2021-03-08-10-25-04.png)
+<img src=".Pop-up Chat & Notification Centre/2021-03-08-10-25-04.png)
 
 
 
@@ -266,7 +266,7 @@ Als je een notificatie qua tijdsbestek altijd wilt tonen, dan zet je een vinkje 
   
 - Om een bericht te koppelen, zet je een vinkje bij: **Is gekoppeld** 
 
-![](.Pop-up Chat & Notification Centre/2021-03-08-11-28-48.png)
+<img src=".Pop-up Chat & Notification Centre/2021-03-08-11-28-48.png)
 
 
 
@@ -274,9 +274,9 @@ Als je een notificatie qua tijdsbestek altijd wilt tonen, dan zet je een vinkje 
 
 11. Als je het juist hebt ingesteld, dan zou je een pop up moeten zien op de Webshop met daarin de notificatie:
 
-![](.Pop-up Chat & Notification Centre/2021-03-08-11-12-53.png)
+<img src=".Pop-up Chat & Notification Centre/2021-03-08-11-12-53.png)
 
 12. Rechtsboven op de webshop kan je alle notificaties terugvinden: 
 
-![](.Pop-up Chat & Notification Centre/2021-03-08-11-15-02.png)
+<img src=".Pop-up Chat & Notification Centre/2021-03-08-11-15-02.png)
 
