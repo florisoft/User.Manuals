@@ -1,4 +1,4 @@
-> <img src=".Handleiding module Commissionair Florisoft.docx\media\image1.png" style="width:3.45972in;height:1.26389in" />
+> <img src=".Commisionair handleiding NL\media\image1.png" style="width:3.45972in;height:1.26389in" />
 
 # Inhoudsopgave
 
@@ -55,7 +55,7 @@ module wordt hieronder stap voor stap uitgelegd.
 > alleen aangevinkt te worden bij het automatisch verzenden van
 > EKT-berichten via de timer (zie paragraaf 1.3).**
 >
-> <img src=".Handleiding module Commissionair Florisoft.docx\media\image2.png" style="width:6.93044in;height:5.98285in" />
+> <img src=".Commisionair handleiding NL\media\image2.png" style="width:6.93044in;height:5.98285in" />
 
 ## 1.1 Geselecteerde partijen via EKT handmatig verzenden
 
@@ -71,12 +71,12 @@ Handmatig EKT berichten verzenden gebeurd vanuit de Facturen.
 3.  Klik op de knop EKT Selectie om de geselecteerde producten te
     versturen naar het eerder opgegeven mailadres.
 
-<img src=".Handleiding module Commissionair Florisoft.docx\media\image3.png" style="width:6.7642in;height:1.26087in" />
+<img src=".Commisionair handleiding NL\media\image3.png" style="width:6.7642in;height:1.26087in" />
 
 Er verschijnt een voortgangsindicator en vervolgens een bevestiging met
 het aantal verzonden.
 
-<img src=".Handleiding module Commissionair Florisoft.docx\media\image4.png" style="width:1.44028in;height:0.85347in" /><img src=".Handleiding module Commissionair Florisoft.docx\media\image5.png" style="width:2.5375in;height:0.47708in" />
+<img src=".Commisionair handleiding NL\media\image4.png" style="width:1.44028in;height:0.85347in" /><img src=".Commisionair handleiding NL\media\image5.png" style="width:2.5375in;height:0.47708in" />
 
 > Wanneer een factuur gedeeltelijk of in z’n geheel is verstuurd krijgt
 > deze een bruine achtergrondkleur in het venster “Onderhoud facturen”.
@@ -99,7 +99,7 @@ eigenschappen te versturen. Deze eigenschappen zijn als volgt:
 Deze instellingen zijn te vinden in het venster “Onderhoud facturen”
 onder het menu “Internet”:
 
-<img src=".Handleiding module Commissionair Florisoft.docx\media\image6.png" style="width:7.26806in;height:1.27639in" />
+<img src=".Commisionair handleiding NL\media\image6.png" style="width:7.26806in;height:1.27639in" />
 
 Ook voor deze drie opties geldt dat de factuur een bruine
 achtergrondkleur krijgt.
@@ -119,13 +119,13 @@ configureren:
 
 1.  Klik met de rechtermuisknop op het stopwatch icoon in de Navigator.
 
-> <img src=".Handleiding module Commissionair Florisoft.docx\media\image7.png" style="width:2.68788in;height:1.58355in" />
+> <img src=".Commisionair handleiding NL\media\image7.png" style="width:2.68788in;height:1.58355in" />
 
 1.  Zoek in het venster “Timer Settings” naar de functie “ZEND EKT”. In
     > het rechterdeel van dit venster zijn de betreffende instellingen
     > aan te passen.
 
-> <img src=".Handleiding module Commissionair Florisoft.docx\media\image8.png" style="width:6.68696in;height:4.4354in" />
+> <img src=".Commisionair handleiding NL\media\image8.png" style="width:6.68696in;height:4.4354in" />
 
 1: Kies een gebruiker waarop de geselecteerde instellingen van
 toepassing zijn.
@@ -152,12 +152,12 @@ hiervoor de volgende acties uit:
 
 1.  Klik met de linkermuisknop op het stopwatch icoon in de Navigator.
 
-> <img src=".Handleiding module Commissionair Florisoft.docx\media\image9.png" style="width:1.72941in;height:0.81261in" />
+> <img src=".Commisionair handleiding NL\media\image9.png" style="width:1.72941in;height:0.81261in" />
 
 1.  Het venster Florisoft.NET Timer opent. Hier is een lijst van alle
     actieve timers te vinden die op dit moment draaien.
 
-> <img src=".Handleiding module Commissionair Florisoft.docx\media\image10.png" style="width:6.46956in;height:4.01303in" />
+> <img src=".Commisionair handleiding NL\media\image10.png" style="width:6.46956in;height:4.01303in" />
 
 1.  Omdat timers continu doorlopen is het belangrijk om alle timers te
     > resetten. Klik hiervoor op de knop “Annuleren” en start de timers
