@@ -1,4 +1,4 @@
-<img src=".Commerciële partijen.docx\media\2022-02-11-13-53-36.png" style="width:6.28999in;height:3.48958in" />
+<img src=".Commerciële partijen.docx\media\image13.png" />
 
 
 
