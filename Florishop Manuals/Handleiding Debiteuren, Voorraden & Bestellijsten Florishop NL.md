@@ -85,7 +85,7 @@ instellingen worden hieronder beschreven.
 **Een van de volgende modules dienen geactiveerd zijn. Zie de screenshot
 hieronder.
 
-<img src="\media\image2.png" style="width:6.3in;height:4.85694in" />
+<img src="media\image2.png" style="width:6.3in;height:4.85694in" />
 
 **  
 **
@@ -99,19 +99,19 @@ Constanten.
     icoon in de knoppenbalk aan de bovenkant van het scherm. Het
     Constanten scherm opent.
 
-<img src="\media\image3.png" style="width:2.34906in;height:0.64065in" />
+<img src="media\image3.png" style="width:2.34906in;height:0.64065in" />
 
 1.  Navigeer naar het tabblad Organen (nr. 1) -&gt; Debiteuren (nr. 2)
     Alle debiteuren in Florisoft worden onder elkaar zichtbaar. (nr. 3)
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image4.png" style="width:5.74528in;height:4.09871in" />
+<img src="media\image4.png" style="width:5.74528in;height:4.09871in" />
 
 Volg onderstaande stappen om een nieuwe debiteur toe te voegen:
 
 1.  Klik op het ‘Add new item’ icoon (nr. 4) om een nieuwe debiteur toe
     te voegen. Het debiteurenscherm opent.
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image5.png" style="width:2.43396in;height:0.79406in" />
+<img src="media\image5.png" style="width:2.43396in;height:0.79406in" />
 
 Het debiteurenscherm bevat een groot aantal tabbladen aan de linkerkant
 van het scherm. Ieder tabblad bevat debiteur specifieke functies. De
@@ -128,7 +128,7 @@ belangrijkste worden hieronder beschreven:
     biedt een extra mogelijkheid om de debiteur makkelijk terug te
     vinden in het systeem.
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image6.png" style="width:5.87736in;height:2.64032in" />
+<img src="media\image6.png" style="width:5.87736in;height:2.64032in" />
 
 1.  Vul bij de velden Bedrijfsnaam (nr. 7) tot en met Email adres
     (nr. 13) de betreffende NAW gegevens van de debiteur in.
@@ -148,7 +148,7 @@ belangrijkste worden hieronder beschreven:
 3.  **Optioneel:** Financieel debnr. (nr. 17): vul hier een nummer in
     waaronder deze debiteur weggeschreven wordt in het boekhoudbestand.
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image7.png" style="width:5.79186in;height:3.73292in" />
+<img src="media\image7.png" style="width:5.79186in;height:3.73292in" />
 
 1.  Administratie (nr. 18): kies hier een administratie waarbinnen alle
     financiële transacties van deze debiteur geregistreerd worden.
@@ -160,7 +160,7 @@ belangrijkste worden hieronder beschreven:
 1.  **Optioneel:** Bankrekening (nr. 20): vul hier het
     bankrekeningnummer in van de debiteur.
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image8.png" style="width:5.79186in;height:3.73292in" />
+<img src="media\image8.png" style="width:5.79186in;height:3.73292in" />
 
 1.  IBAN Nummer (nr. 21): vul hier het IBAN nummer van de debiteur in.
 
@@ -176,7 +176,7 @@ belangrijkste worden hieronder beschreven:
     aan. Dit zorgt ervoor dat de klant toegang heeft via het internet
     tot de webshop.
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image9.png" style="width:5.8013in;height:5.03713in" />
+<img src="media\image9.png" style="width:5.8013in;height:5.03713in" />
 
 1.  Zet het vinkje ‘Deze klant mag inloggen in Florishop’ (nr. 29) aan.
     Dit zorgt ervoor dat de klant daadwerkelijk mag inloggen op de
@@ -215,7 +215,7 @@ Volg de onderstaande stappen om een voorraad te autoriseren:
 3.  **Optioneel:** Indien nodig maak je deze aan door te klikken op het
     ‘Add new item’ icoon:
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image10.png" style="width:6.25087in;height:2.14613in" />
+<img src="media\image10.png" style="width:6.25087in;height:2.14613in" />
 
 1.  **Optioneel:** Vergeet niet om de systeemgebruikers te autoriseren
     voor de voorraad. Dit doe je door naar tabblad Autorisatie te
@@ -230,7 +230,7 @@ Volg de onderstaande stappen om een voorraad te autoriseren:
 
 4.  Druk nu op OK.
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image11.png" style="width:6.3in;height:1.25694in" />
+<img src="media\image11.png" style="width:6.3in;height:1.25694in" />
 
 1.  Navigeer naar tabblad: Webwinkel.
 
@@ -244,12 +244,12 @@ Volg de onderstaande stappen om een voorraad te autoriseren:
     onder: Omschrijvingen en Teksten. Dit is de omschrijving die
     zichtbaar is op de Webshop.
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image12.png" style="width:6.3in;height:5.74444in" />
+<img src="media\image12.png" style="width:6.3in;height:5.74444in" />
 
 1.  Klik op “Toegankelijke debiteuren” om aan te geven welke debiteuren
     deze voorraad mogen zien. Het volgende scherm opent zich nu:
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image13.png" style="width:6.3in;height:5.13958in" />
+<img src="media\image13.png" style="width:6.3in;height:5.13958in" />
 
 1.  De belangrijkste kolommen worden hieronder beschreven (vullen indien
     van toepassing):
@@ -301,7 +301,7 @@ Volg de onderstaande stappen om een voorraad te autoriseren:
 <tr class="even">
 <td>Staffel</td>
 <td><p>Stel hier voor deze klant + voorraad de code van opslagstaffel in. Staffels kan je op de volgende plek aanmaken: Constanten -&gt; Financieel -&gt; Staffels. Hieronder een voorbeeld van een staffel:</p>
-<p><img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image14.png" style="width:3.07639in;height:3.62929in" /></p></td>
+<p><img src="media\image14.png" style="width:3.07639in;height:3.62929in" /></p></td>
 </tr>
 </tbody>
 </table>
@@ -339,7 +339,7 @@ Volg de onderstaande stappen om een bestellijst te autoriseren:
     webshop. Of als deze niet bestaat, maak dan een nieuwe bestellijst
     aan. Klik op het ‘Add new item’ icoon:
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image15.png" style="width:5.54244in;height:1.98986in" />
+<img src="media\image15.png" style="width:5.54244in;height:1.98986in" />
 
 1.  Vergeet niet om hierbij de systeemgebruikers te autoriseren voor
     deze voorraad. Dit doe je door naar tabblad Autorisatie te gaan en
@@ -356,7 +356,7 @@ Volg de onderstaande stappen om een bestellijst te autoriseren:
 
 1.  Druk nu op OK.
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image16.png" style="width:5.63655in;height:2.24418in" />
+<img src="media\image16.png" style="width:5.63655in;height:2.24418in" />
 
 1.  Ga naar tabblad “Internet Toegang”
 
@@ -365,12 +365,12 @@ Volg de onderstaande stappen om een bestellijst te autoriseren:
 3.  Kies de openingstijd bij: Openingstijden” – Deze kan je aanmaken
     onder Organen -&gt; Systeem -&gt; Dagen & Tijden -&gt; Tijden.
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image17.png" style="width:4.904in;height:4.7894in" />
+<img src="media\image17.png" style="width:4.904in;height:4.7894in" />
 
 1.  Klik op Toegankelijke Debiteuren om aan te geven welke debiteuren
     deze bestellijst mogen zien. Het volgende scherm opent zich nu:
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image18.png" style="width:6.3in;height:3.37014in" />
+<img src="media\image18.png" style="width:6.3in;height:3.37014in" />
 
 1.  De belangrijkste kolommen worden hieronder beschreven (vullen indien
     van toepassing):
@@ -454,7 +454,7 @@ Bestellijst autoriseren (vanaf punt 9)**
 2.  Navigeer naar het tabblad Modulen en vink de modulen aan die de
     debiteur moet kunnen gebruiken op de webshop.
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image19.png" style="width:5.81132in;height:3.36175in" />
+<img src="media\image19.png" style="width:5.81132in;height:3.36175in" />
 
 Hieronder wordt iedere module kort toegelicht. Niet alle vinkjes zijn
 even relevant. Alleen de belangrijkste worden hieronder toegelicht met
@@ -465,7 +465,7 @@ een voorbeeld.
 Het vinkje ‘Facturen’ geeft de debiteur toegang tot zijn historische
 debiteuren op de webshop.
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image20.png" style="width:5.81111in;height:1.97611in" />
+<img src="media\image20.png" style="width:5.81111in;height:1.97611in" />
 
 > <span id="_Toc10199783" class="anchor"></span>**6.2 Overzicht per
 > klant, Factuurhistorie, Factuurhistorie (Hoofd)  
@@ -480,9 +480,9 @@ debiteuren op de webshop.
 > worden en de mogelijkheid voor de klant om zelf zijn wachtwoord te
 > wijzigen.
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image21.png" style="width:5.83019in;height:1.25878in" />
+<img src="media\image21.png" style="width:5.83019in;height:1.25878in" />
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image22.png" style="width:5.82986in;height:1.91373in" />
+<img src="media\image22.png" style="width:5.82986in;height:1.91373in" />
 
 > <span id="_Toc10199785" class="anchor"></span>**6.4 Open posten, Open
 > posten betalen  
@@ -493,7 +493,7 @@ debiteuren op de webshop.
 > ook de vinkjes Facturen, Overzicht per klant, Factuurhistorie,
 > Factuurhistorie (Hoofd) aan staan.
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image23.png" style="width:5.51805in;height:1.88679in" />**  
+<img src="media\image23.png" style="width:5.51805in;height:1.88679in" />**  
 **
 
 > <span id="_Toc10199786" class="anchor"></span>**6.5 Order overzicht,
@@ -501,23 +501,23 @@ debiteuren op de webshop.
 > **Met deze vink kan de klant via de webshop geplaatste orders
 > bekijken.
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image24.png" style="width:5.80943in;height:2.40075in" />
+<img src="media\image24.png" style="width:5.80943in;height:2.40075in" />
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image25.png" style="width:5.8013in;height:1.02699in" />
+<img src="media\image25.png" style="width:5.8013in;height:1.02699in" />
 
 > <span id="_Toc10199787" class="anchor"></span>**6.6 Aanvoer  
 > **De Aanvoer module wordt gebruik door kweker bedrijven om handel via
 > de webshop aan te bieden aan een verwerkingsbedrijf.
 >
-> <img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image26.png" style="width:5.8013in;height:2.83798in" />
+> <img src="media\image26.png" style="width:5.8013in;height:2.83798in" />
 >
 > <span id="_Toc10199788" class="anchor"></span>**6.7 Credit aanvraag  
 > **De module Credit aanvraag biedt de klant de mogelijkheid om credit
 > aanvragen te doen via de webshop.
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image27.png" style="width:5.81132in;height:2.27982in" />
+<img src="media\image27.png" style="width:5.81132in;height:2.27982in" />
 
 Klik op de knop ‘Ok’ om de instellingen in het debiteurenscherm te
 wijzigen.
 
-<img src=".Handleiding Debiteuren, Voorraden &amp; Bestellijsten (Webshop).docx\media\image28.png" style="width:3.34906in;height:1.77811in" />
+<img src="media\image28.png" style="width:3.34906in;height:1.77811in" />
