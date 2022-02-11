@@ -257,7 +257,7 @@ The most important one is the option to print or e-mail information (summaries) 
 
 Click the Menu -> Overviews to open the print function. The Summaries windows opens. See the screenshot below.
 
-<img src="media/<img src="media/2021-06-13-18-34-12.png" />.png" />
+<img src="media/2021-06-13-18-34-12.png" />
 
 **Types of summaries (no. 37)**
 Choose a type of summary in the upper left part of the Summaries screen. (no. 37) The available settings in the Selection part (no. 38) depend on the selected summary type.
