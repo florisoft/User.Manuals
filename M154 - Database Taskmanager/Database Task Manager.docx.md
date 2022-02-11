@@ -1,4 +1,4 @@
-![](2022-02-11-15-15-38.png)
+![](2022-02-11-15-24-01.png)
 
 # Database Task Manager
 
@@ -22,7 +22,7 @@ details. Deze tabel genaamd adsactivitylog.adt staat in de tempnet map
 van de gebruiker. Om het scherm te openen klik je in de Navigator in het
 hoofdmenu op Systeem en dan op Database Task Manager
 
-![](.Database%20Task%20Manager.docx/Media/image1.png)
+![](.Database Task Manager.docx\media\image1.png)
 
 # Tijdelijke actie
 
