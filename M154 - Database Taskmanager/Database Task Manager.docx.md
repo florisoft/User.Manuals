@@ -1,4 +1,5 @@
-![](2022-02-11-15-24-01.png)
+<img src=".Database Task Manager.docx\media\image2.png" />
+
 
 # Database Task Manager
 
