@@ -1,4 +1,4 @@
-> <img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image1.png" style="width:3.45972in;height:1.26389in" />
+> <img src=".Handleiding standaard EKT-berichten Florisoft\media\image1.png" style="width:3.45972in;height:1.26389in" />
 
 # **<u>Inhoudsopgave</u>**
 
@@ -137,7 +137,7 @@ Kies een geslacht. Omdat het hier een mailbox betreft met een puur technisch doe
 </tbody>
 </table>
 
-> <img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image2.png" style="width:3.563in;height:8.26157in" />
+> <img src=".Handleiding standaard EKT-berichten Florisoft\media\image2.png" style="width:3.563in;height:8.26157in" />
 
 # 2 Instellingen mailbox aanpassen
 
@@ -155,14 +155,14 @@ Voer de volgende stappen uit om de inbox-instellingen te wijzigen:
 1.  Klik vanuit de inbox van Gmail op het tandwiel-icoon. (nr.1) Klik
     vervolgens in het uitklap menu op ‘Instellingen.’ (nr. 2)
 
-> <img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image3.png" style="width:6.688in;height:3.00915in" />
+> <img src=".Handleiding standaard EKT-berichten Florisoft\media\image3.png" style="width:6.688in;height:3.00915in" />
 
 1.  Het volgende scherm verschijnt. Klik in dit scherm op het tabblad
     ‘Inbox’ (nr. 1) en zet de vinkjes voor ‘Sociaal’ en ‘Reclame’ uit.
     (nr. 2) Klik op ‘Wijzigingen opslaan’ onderaan de pagina om de
     wijzigingen op te slaan. (nr. 3)
 
-> <img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image4.png" style="width:6.728in;height:3.14093in" />
+> <img src=".Handleiding standaard EKT-berichten Florisoft\media\image4.png" style="width:6.728in;height:3.14093in" />
 
 ## 2.2 POP-instellingen & archiefinstellingen wijzigen
 
@@ -171,7 +171,7 @@ wijzigen.
 
 1.  Klik op het tabblad ‘Doorsturen en POP/IMAP.’ (nr. 1)
 
-<img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image5.png" style="width:6.776in;height:3.67028in" />
+<img src=".Handleiding standaard EKT-berichten Florisoft\media\image5.png" style="width:6.776in;height:3.67028in" />
 
 1.  Zet de optie ‘POP inschakelen voor **alle email**’ aan. (nr. 2)
 
@@ -189,13 +189,13 @@ mailbox goed te zetten.
 1.  Klik vanuit de inbox op het icoon van het mail-account. (nr. 1) Klik
     hierna op de knop ‘Mijn account’. (nr. 2)
 
-> <img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image6.png" style="width:2.232in;height:2.26895in" />
+> <img src=".Handleiding standaard EKT-berichten Florisoft\media\image6.png" style="width:2.232in;height:2.26895in" />
 
 1.  Klik in het volgende scherm op de kop ‘Inloggen en beveiliging’.
     (nr. 1) Scroll in het volgende venster naar beneden totdat je de
     volgende instelling (rechts onder) ziet.
 
-<img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image7.png" style="width:2.96736in;height:0.89583in" /><img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image8.png" style="width:2.504in;height:1.80996in" />
+<img src=".Handleiding standaard EKT-berichten Florisoft\media\image7.png" style="width:2.96736in;height:0.89583in" /><img src=".Handleiding standaard EKT-berichten Florisoft\media\image8.png" style="width:2.504in;height:1.80996in" />
 
 1.  Klik op het schuifje (nr. 2) om deze instelling aan te zetten.
 
@@ -213,7 +213,7 @@ Florisoft.
 1.  Klik in de navigator op het menu ‘Onderhoud’. (nr. 1) Kies
     vervolgens ‘Lokale instellingen’. (nr. 2)
 
-<img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image9.png" style="width:6.472in;height:1.71972in" />
+<img src=".Handleiding standaard EKT-berichten Florisoft\media\image9.png" style="width:6.472in;height:1.71972in" />
 
 1.  Klik in het volgende venster ‘Lokale instellingen’ (nr. 1) op het
     tabblad ‘Florinet’ (nr.2 )
@@ -236,7 +236,7 @@ Florisoft.
 **Password:** het wachtwoord van de mailbox zoals aangemaakt in
 hoofdstuk 1 (nr. 4)
 
-<img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image10.png" style="width:5.824in;height:3.7926in" />
+<img src=".Handleiding standaard EKT-berichten Florisoft\media\image10.png" style="width:5.824in;height:3.7926in" />
 
 Klik na het invullen van deze gegevens op ‘Ok’ (nr. 8) in het venster
 Win\_Setup\_EKTInstellingen.
@@ -246,7 +246,7 @@ Klik nu op ‘Ok’ in het venster ‘Lokale instellingen’. (nr. 9)
 1.  Vul in het veld ‘Retouradres Florinet berichten’ het e-mailadres van
     de EKT mailbox in. (nr. 10)
 
-> <img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image11.png" style="width:4.464in;height:2.90697in" />
+> <img src=".Handleiding standaard EKT-berichten Florisoft\media\image11.png" style="width:4.464in;height:2.90697in" />
 
 Nu staan de mailinstellingen correct ingesteld in Florisoft.
 
@@ -266,13 +266,13 @@ Doe het volgende voor het aanmaken van een veilingcode.
 
 1.  Klik in de Navigator op het volgende icoon.
 
-> <img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image12.png" style="width:1.98986in;height:0.7501in" />
+> <img src=".Handleiding standaard EKT-berichten Florisoft\media\image12.png" style="width:1.98986in;height:0.7501in" />
 
 1.  Het venster ‘Constanten’ opent. Klik hier op ‘Locaties’ (nr. 1) en
     daarna op ‘Veilingen’. (nr. 2) Klik nu op ‘Nieuw item toevoegen’.
     (nr. 3) Het venster Veilingen opent.
 
-> <img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image13.png" style="width:6.5849in;height:4.14246in" />
+> <img src=".Handleiding standaard EKT-berichten Florisoft\media\image13.png" style="width:6.5849in;height:4.14246in" />
 
 1.  Vul een Veilingcode (nr. 4) en Omschrijving (nr. 5) in. Klik nu op
     de knop ‘EKT instellingen’. (nr. 6) Vervolgens verschijnt het
@@ -284,7 +284,7 @@ toegestaan!!**
 1.  Stel in het venster ‘Koppeling Florinet’ verschillende standaard
     voora(a)d(en) in.
 
-<img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image14.png" style="width:4.79245in;height:5.19476in" />
+<img src=".Handleiding standaard EKT-berichten Florisoft\media\image14.png" style="width:4.79245in;height:5.19476in" />
 
 > Def. voorraad (nr. 1): kies hier de standaard voorraad. Klik hiervoor
 > op de zwarte naar beneden wijzende pijl (omcirkeld).
@@ -310,15 +310,15 @@ geconfigureerd en aangezet moet worden.
 
 1.  Klik met de rechtermuisknop op het timer-icoon in de Navigator.
 
-> <img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image15.png" style="width:6.79245in;height:3.95437in" />
+> <img src=".Handleiding standaard EKT-berichten Florisoft\media\image15.png" style="width:6.79245in;height:3.95437in" />
 
 1.  Kies de optie ‘Timer Settings’. Het venster ‘Timer Settings’ opent.
 
-> <img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image16.png" style="width:2.45868in;height:1.08348in" />
+> <img src=".Handleiding standaard EKT-berichten Florisoft\media\image16.png" style="width:2.45868in;height:1.08348in" />
 
 1.  Selecteer hier de ‘EDI’ Timer Setting. (nr. 1)
 
-<img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image17.png" style="width:6.75472in;height:4.48034in" />
+<img src=".Handleiding standaard EKT-berichten Florisoft\media\image17.png" style="width:6.75472in;height:4.48034in" />
 
 1.  Kies bij ‘Actieve gebruiker’ de gebruiker waar je de timer op in wil
     instellen. (nr. 3)
@@ -355,7 +355,7 @@ stappen uit.
 
 1.  Klik in de Navigator op de knop ‘EDI’
 
-> <img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image18.png" style="width:1.48979in;height:0.92721in" />
+> <img src=".Handleiding standaard EKT-berichten Florisoft\media\image18.png" style="width:1.48979in;height:0.92721in" />
 
 1.  Florisoft haalt alle EKT-berichten die klaar staan in de EKT mailbox
     op en slaat deze op in de map  
@@ -363,7 +363,7 @@ stappen uit.
 
 2.  Klik vervolgens op de knop ‘Florinet’ in de Navigator.
 
-> <img src=".Handleiding standaard EKT-berichten Florisoft.docx\media\image19.png" style="width:1.48979in;height:0.92721in" />
+> <img src=".Handleiding standaard EKT-berichten Florisoft\media\image19.png" style="width:1.48979in;height:0.92721in" />
 
 1.  De EKT-berichten worden nu in de geselecteerde voorraden (zie
     paragraaf 4.1) ingelezen.
