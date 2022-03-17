@@ -106,7 +106,7 @@ These are self explanatory.
 
 There is a specific combination of function which you need to be aware of.
 The process to trigger the management info mailer is a timer function.
-<img src=".Management Info Mailer\media\timer.png" />
+<img src=".Management Info Mailer\media\Timer.png" />
 
 The timer function has to be set to active (1) to enable it to run.
 In this example this timer function is active between 00:01 and 23:59 (2) with an interval of 2 minutes (3).
