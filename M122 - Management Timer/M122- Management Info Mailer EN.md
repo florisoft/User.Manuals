@@ -16,11 +16,11 @@ The data can be converted into a PDF or Excel file via a layout. **A layout is m
 ## Constants Screen
 In the folder Constants => Timer => Management Info Mailing you have to option to manage the report which you want to  have emailed automatically.
 
-<img src=".Management Info Mailer\media\constants.png" />
+<img src=".Management Info Mailer\media\Constants.png" />
 
 ##  Add/ delete a report
 In the toolbar you find an option to search for a  report.
-<img src=".Management Info Mailer\media\toolbar.png" />
+<img src=".Management Info Mailer\media\Toolbar.png" />
 
 Via the + icon you can add a new report to the configuration.
 An excisting report can be deleted via the bucket icon.
