@@ -1,3 +1,5 @@
+## **Commissie facturen**
+
 Commissie facturen worden gegenereerd tijdens het origineel printen van
 de factuur en worden in de factuurbak geplaatst. De commissie facturen
 worden gemaakt op basis van een template factuur, waar alle regels voor
