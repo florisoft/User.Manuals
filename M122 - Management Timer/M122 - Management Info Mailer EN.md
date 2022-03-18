@@ -1,6 +1,6 @@
 <img src=".Management Info Mailer\media\image2.png" />
 
-# Management Info Mailer  
+# Management Info Mailer
 
 **Introduction**
 
