@@ -1,4 +1,4 @@
-### Florisoft .Net Veilingfactuur € 850,-
+### Florisoft .Net Veilingfactuur
 
 De module Florisoft .Net Veilingfactuur is opgeleverd om veilingfacturen
 te kunnen verwerken binnen het systeem. De XML bestanden kunnen met de
