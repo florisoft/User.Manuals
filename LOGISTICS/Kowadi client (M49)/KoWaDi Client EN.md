@@ -22,7 +22,7 @@ This chapter describes the steps which are always necessary to take to get the s
 - Timer
 - KoWaDi (Torque-Car-Distribution)
 
-![](2021-12-13-15-33-12.png)
+![](media/2021-12-13-15-33-12.png)
 
 After an agreement, these modules can be activated through a license code.
 
