@@ -55,26 +55,7 @@ Second, make sure the images have a destination. Choose a path, this is where
 
 <img src=".Beeldbank_Manual_ENG/media/image8.png" style="width:6in;height:2.8in" />
 
-Once these settings have been corrected, open the Florisoft Data Architect and
- find the FOTODOWN table.
-
-#### !! You are now entering the Florisoft database, this means all information stored in Florisoft is found here. Tampering with information can seriously limit the functionality of Florisoft, so please <u>only</u> change what is described here !!
-
-Once in the FOTODOWN table, you will have to make a backup. You can do this by 
-clicking your right mouse button and navigating to Export -> Export to new Free table.
-You will now have to select a place to backup the table, we used C:\Shared\Florisoft\BuTabellen.
-
-<img src=".Beeldbank_Manual_ENG/media/image9.png" style="width:6in;height:2.8"/>
-
-Make sure this backup has been done right, since now you will be deleting all records.
-You can do that by right clicking in the table and selecting 3/17 (bottom option) -> select inverse.
-Now choose delete (bottom left).
-
-<img src=".Beeldbank_Manual_ENG/media/image10.png" style="width:6in;height:2.8in" />
-
-Once this is done, head back over to the Florisoft Navigator and access the Constants. 
-
-Select Locations -> Auctions and select an auction. Double click and select Other.
+Access the Constants. Select Locations -> Auctions and select an auction. Double click and select Other.
 Now make sure the two highlighted setting have been set correctly.
 
 <img src=".Beeldbank_Manual_ENG/media/image11.png" style="width:6in;height:2.8in" />
