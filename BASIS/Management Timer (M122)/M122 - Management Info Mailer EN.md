@@ -1,6 +1,6 @@
 <img src=".Management Info Mailer\media\image2.png" />
 
-# Management Info Mailer
+# Management Info Mailer  
 
 **Introduction**
 
@@ -14,22 +14,20 @@ The data can be converted into a PDF or Excel file via a layout. **A layout is m
 
 
 ## Constants Screen
-In the folder Constants => Timer => Management Info Mailing you have to option to manage the report which you want to  have emailed automatically.
+In the folder Constants => Timer => Management Info Mailing you have to option to manage the report which you want to  have emailed automatically.<img src=".Management Info Mailer\media\Constants.png" />
 
-<img src=".Management Info Mailer\media\constants.png" />
+
 
 ##  Add/ delete a report
 In the toolbar you find an option to search for a  report.
-<img src=".Management Info Mailer\media\toolbar.png" />
+<img src=".Management Info Mailer\media\Toolbar.png" />
 
 Via the + icon you can add a new report to the configuration.
 An excisting report can be deleted via the bucket icon.
 
 ## Editing a report
 
-When you add (+ icon) or edit a report via double clicking on an excising report you will get the following screen.
-
-<img src=".Management Info Mailer\media\EditScreen.png" />
+When you add (+ icon) or edit a report via double clicking on an excising report you will get the following screen.<img src=".Management Info Mailer\media\EditScreen.png" />
 
 
 
@@ -106,7 +104,7 @@ These are self explanatory.
 
 There is a specific combination of function which you need to be aware of.
 The process to trigger the management info mailer is a timer function.
-<img src=".Management Info Mailer\media\timer.png" />
+<img src=".Management Info Mailer\media\Timer.png" />
 
 The timer function has to be set to active (1) to enable it to run.
 In this example this timer function is active between 00:01 and 23:59 (2) with an interval of 2 minutes (3).
