@@ -23,7 +23,7 @@ Dit hoofdstuk beschrijft de stappen die altijd benodigd zijn om het scannnen van
 - Timer
 - KoWaDi
 
-![](2021-12-07-21-53-40.png)
+![](media/2021-12-07-21-53-40.png)
 
 Na akkoord kunnen deze modulen geactiveerd worden middels een licentiecode
 
@@ -37,9 +37,9 @@ Onderstaande gegevens zijn hierbij van belang en dienen ingesteld te worden door
 - Accountnaam (ook wel gebruikersnaam)
 - Wachtwoord
 
-![](2021-12-08-10-01-09.png)
+![](media/2021-12-08-10-01-09.png)
 
-![](2021-12-08-09-59-54.png)
+![](media/2021-12-08-09-59-54.png)
 
 > Let op: bovenstaande e-mail gegevens dienen ingevuld te worden op de TIMER gebruiker van Florisoft. Ga hiervoor naar het menu Onderhoud -> Lokale instellingen en klik op het tabblad Florinet.
 >
@@ -59,20 +59,20 @@ De eerste stap bij bij het kunnen scannen van KoWaDi berichten bestaat uit het c
 
 1. Stel het timer proces EDI -> NET440 als volgt in:
 
-![](2021-12-08-09-54-47.png)
+![](media/2021-12-08-09-54-47.png)
 
 2. Herstart de TIMER gebruiker.
 
 3. Bij het poppen van de ingestelde mailbox uit hoofdstuk één moet in de statusbalk van Florisoft zichtbaar zijn dat er naast alle andere typen ook DELIVERY berichten ingelezen worden. Zie onderstaand screenshot:
 
-![](2021-12-08-10-04-52.png)
+![](media/2021-12-08-10-04-52.png)
 
 ### Controleren KoWaDi berichten
 Standaard worden de DELIVERY berichten gedownload naar de map ...\Net440\User\In. Na het inlezen van deze berichten door de timer worden ze verplaatst naar de map ...\Net440\User\Backup.
 
 Zie onderstaand screenshot voor een voorbeeld van een DELIVERY bericht:
 
-![](2021-12-08-10-13-08.png)
+![](media/2021-12-08-10-13-08.png)
 
 Bij het inlezen van KoWaDi berichten wordt de betreffende data ingelezen in de KOWADI tabel van de database.
 
@@ -81,28 +81,28 @@ Iedere veilingkar heeft een unieke KoWaDi barcode die zich op een ijzeren plaat 
 
 In het KoWaDi bericht bevindt zich een TransportUnit segment. Dit is de waarde van de KoWaDi barcode. Zie onderstaand screenshot:
 
-![](2021-12-08-10-31-54.png)
+![](media/2021-12-08-10-31-54.png)
 
 Bij het inlezen van het bericht in Florisoft wordt deze waarde opeslagen in het veld KARID van de KOWADI tabel:
 
-![](2021-12-08-10-39-38.png)
+![](media/2021-12-08-10-39-38.png)
 
 Naast de TransportUnit zijn ook de goederen op de kar zichtbaar in de feram:Goods segmenten:
 
-![](2021-12-08-10-42-08.png)
+![](media/2021-12-08-10-42-08.png)
 
 Ieder feram:Goods segment staat voor een partij. Een belangrijk onderdeel van de feram:Goods segmenten zijn de feram:ReferencedDocument segmenten. Deze bevatten een uniek ID per partij. 
 
-![](2021-12-08-10-51-07.png)
+![](media/2021-12-08-10-51-07.png)
 
 Dit ID wordt opgeslagen in het veld PTYBARCODE van de KOWADI tabel:
 
-![](2021-12-08-10-57-09.png)
+![](media/2021-12-08-10-57-09.png)
 
 ### Scannen van KoWaDi barcodes in de box monitor
 Hieronder volgt een beschrijving over scannen van KoWaDi barcodes in de box monitor. Als voorbeeld onderstaande kar met een aantal partijen. Als voorbeeld partij de TU DU RED PRINCESS. 
 
-![](2021-12-08-11-47-11.png)
+![](media/2021-12-08-11-47-11.png)
 
 1. Kar komt binnen in de box.
 2. KoWaDi barcode van de kar wordt gescand.
@@ -110,16 +110,16 @@ Florisoft zoekt de barcode op in het veld KOWADI.KARID.
 3. Florisoft kijkt vervolgens naar alle unieke PTYBARCODES die horen bij een bepaald KARID (lees: alle partijen op één kar)
 4. Nu gaat FLorisoft controleren of de PTYBARCODES uit de KOWADI tabel ook voorkomen in de VPARTIJ tabel (VAPRTIJ.BARCODE)
 
-![](![](2021-12-08-12-05-36.png).png)
+![](![](media/2021-12-08-12-05-36.png).png)
 
 > **Let op: de KOWADI.PTYBARCODE wordt niet één op één overgenomen in de VAPRTIJ.BARCODE. In de KOWADI.PTYBARCODE heeft iedere waarde een 0100001(oplopend bij recentere regels)**
 >
 >**Bij het zoeken van de betreffende barcode in de VPARTIJ.BARCODE wordt dit volgnummer genegeerd. De VPARTIJ.BARCODE is dus dezelfde waarde als de KOWADI.PTYBARCODE min de laatste zeven karakters. Zie hieronder het voorbeeld van de partij TU DU RED PRINCESS:**
 >
 >**KOWADI tabel:**
->![](2021-12-08-12-23-30.png)
+>![](media/2021-12-08-12-23-30.png)
 >**VPARTIJ tabel:**
-![](![](2021-12-08-12-26-35.png).png)
+![](![](media/2021-12-08-12-26-35.png).png)
 
 5. Bij een match weet Florisoft dat dit een specifieke partij uit de box monitor betreft die binnen gemeld kan worden.
 

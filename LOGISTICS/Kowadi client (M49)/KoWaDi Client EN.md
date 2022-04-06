@@ -36,9 +36,9 @@ The information below is imporant in this regard and must be set by Florisoft:
 - Account name (also called username)
 - Password
 
-![](2021-12-13-15-40-20.png)
+![](media/2021-12-13-15-40-20.png)
 
-![](2021-12-13-15-43-13.png)
+![](media/2021-12-13-15-43-13.png)
 
 > Attention: the above e-mail information mus tbe entered on the TIMER user of Florisoft. To do this, go to the Maintenance -> Setup User and click the Florinet tab.
 >
@@ -58,20 +58,20 @@ The first step in being able to scan the KoWaDi messages consists of correctly s
 
 1. Set the timer process EDI -> NET 440 as follows:
 
-![](2021-12-21-08-56-01.png)
+![](media/2021-12-21-08-56-01.png)
 
 2. Restart TIMER user.
 
 3. When popping the mailbox set from chapter one, in the status bar from Florisoft it must be visible that in addition to all other types there are also DELIVERY messaged be read in. See the screenshot below:
 
-![](2021-12-21-09-06-53.png)
+![](media/2021-12-21-09-06-53.png)
 
 ### Checking KoWaDi Posts
 By default, the DELIVERY messages are downloaded to the folder. After reading these messages by the timer they are moved to the fodler.
 
 See the screenshot below for an example of a DELIVERY message:
 
-![](2021-12-21-09-20-50.png)
+![](media/2021-12-21-09-20-50.png)
 
 When KoWaDi messages are read in, the relevant data is read into the KOWADI table of the database.
 
@@ -80,41 +80,41 @@ Every auction carthas a unique KoWaDi barcode that is located on an iron plate o
 
 The KoWaDi message contains a Transport Unit segment. This is the value of the KoWaDi barcode. See the screenshot below:
 
-![](2021-12-21-09-32-56.png)
+![](media/2021-12-21-09-32-56.png)
 
 In addition to the TransportUnit, the goods on the cart are also visible in the feram:Goods segments:
 
-![](2021-12-21-09-34-45.png)
+![](media/2021-12-21-09-34-45.png)
 
 Each feram:Goods segment represents a lot. An important part of the feram:Goods segments are the feram:ReferencedDocument segments. these contain a unique ID per party. 
 
-![](2021-12-21-09-41-46.png)
+![](media/2021-12-21-09-41-46.png)
 
 This ID is stored in the PTYBARCODE van de KOWADI table:
 
-![](2021-12-21-09-44-51.png)
+![](media/2021-12-21-09-44-51.png)
 
 ### Scanning KoWaDi barcodes in the box monitor
 
 Below is a description about scanning KoWaDi barcodes in the box monitor. As an example the cart below with a number of parties. As an example the party TU DU RED PRINCESS.
 
-![](2021-12-21-09-52-01.png)
+![](media/2021-12-21-09-52-01.png)
 
 1. Cart enters the box.
 2. KoWaDi barcode of the cart is scanned. Florisoft looks up the barcode in the field KOWADI.KARID.
 3. Florisoft then looks at all unique PTYBARCODES that belong to a particular KARID (read: all parties on one cart)
 4. Now Florisoft will check if the PTYBARCODES from the KOWADI table also appear in the VPARTY (VPARTIJ) table (VPARTIJ.BARCODE)
 
-![](2021-12-21-10-19-03.png)
+![](media/2021-12-21-10-19-03.png)
 
 > **Note: the KOWADI.PTYBARCODE is not copied one-to-one in the VPARTIJ.BARCODE. In the KOWADI.PTYBARCODE, each value has a 0100001 (ascending with more recent rules).**
 >
 **When searching for the relevant barcode in the VPARTIJ.BARCODE, this sequence number is ignored. So the VPARTIJ.BARCODE is the same value as the KOWADI.PTYBARCODE minus the last seven characters. See below an example of the lot of TU DU RED PRINCESS:**
 >
 >**KOWADI table:**
-![](2021-12-21-10-53-58.png)
+![](media/2021-12-21-10-53-58.png)
 >**VPARTIJ table:**
-![](2021-12-21-10-54-25.png)
+![](media/2021-12-21-10-54-25.png)
 
 5. In the event of a match, Florisoft knows that this concerns a specific batch from the box monitor that can reported in.
 
