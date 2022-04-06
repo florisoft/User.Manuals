@@ -1,9 +1,5 @@
 # Documentation EKT final prices client
 
-####being updated 11-2-2022
-
-Description of the module EKT final prices (server side) in Florisoft.
-
 ## 1. Introduction
 This manual describes the (technical) operation of the EKT end prices module 9serverside). The focus in this document is mainly on the logic of this module.
 
@@ -20,7 +16,7 @@ In the example above, 0.27 cents is the price for the main customer. The 0.36 ce
 ## 2. Activating module
 The first step consists of activating the EKT final prices server module:
 
-![](2022-02-11-09-31-01.png)
+![](media/2022-02-11-09-31-01.png)
 
 This module can be added to the customer's license file by means of a license code. The license code becomes available after agreement on the corresponding quotation.
 
@@ -31,7 +27,7 @@ Prices are always calculated in Florisoft by means of a price configuration. A p
 
 Price configurations can be found in the Constants under the tab Financial -> Price configurations. See the screenshot below for an example:
 
-![](2022-02-11-09-43-05.png)
+![](media/2022-02-11-09-43-05.png)
 
 Correct prices for end customers can be roughly calculated in two ways: by using the same price configuration for both the main and sub-customer, or by choosing a seperate price configuration for the main and sub-customer.
 
@@ -42,18 +38,18 @@ The best working method must be mapped out per customer. In addition, the prices
 >**Price configuration**
 >Open the relevant price configuration and click on the Active debtors button
 >
->![](2022-02-11-09-50-42.png)
+>![](media/2022-02-11-09-50-42.png)
 >
 >Then select (click on the Select button) the debtors that should be linked to this price configuration and confirm by pressing the Ok button in all screens.
 >
->![](2022-02-11-09-53-27.png)
+>![](media/2022-02-11-09-53-27.png)
 >
 >**Debtor**
 >Open the debtor from Constants -> Community -> Debtor data -> Debtors. Then go to the Financial -> Prices tab and choose the correct > price configuration in the Price configuration field.
 >
 >Then click on the Ok button to confirm the settings. Optionally, you can also first choose the Change to option to apply the selected price configuration to multiple selected debtors.
 
-![](2022-02-11-10-11-51.png)
+![](media/2022-02-11-10-11-51.png)
 
 ## 4. Link sub-customers to main customers
 To ensure that the final price for the sub-customers is sent correctly, the sub-customers must first be linked to the main customer. This will go like this:
@@ -61,7 +57,7 @@ To ensure that the final price for the sub-customers is sent correctly, the sub-
 1. Navigate in the Constants to Community -> Debtor data -> Debtors.
 2. Open a main customer by double clicking on the relevant line of this debtor. In the screenshot below, debtor TESt had been chose as an example for a main customer.
 
-![](2022-02-11-10-32-38.png)
+![](media/2022-02-11-10-32-38.png)
 
 3. Navigate in the debtor to the tab Internet -> Internet access.
 4. Click the Subcustomers button. The screen Sub-customers of [DEBTOR-NAME] opens.
@@ -71,7 +67,7 @@ To ensure that the final price for the sub-customers is sent correctly, the sub-
 ## 5. Activate debtor setting
 To ensure that the calculated price (via the price configuration) for the end customer is sent in the EKT, the Send final price in EKT message must be checked on. See the screenshot below:
 
-![](2022-02-11-10-45-23.png)
+![](media/2022-02-11-10-45-23.png)
 
 >**Note: the Send final price in EKT message must only be activated for the main customers. This check should not be checked on the sub-customers.**
 
@@ -86,11 +82,11 @@ Distribution can be done in Florisoft in different ways: from stock, Ctrl+B, Tel
 
 See the screenshot below for an example of a main customer invoice line where the final price for the sub-customer is displayed in the Client Price column. The price for the lead customer is vivisble in the Price column.
 
-![](2022-02-11-11-27-54.png)
+![](media/2022-02-11-11-27-54.png)
 
 When sending the relevant invoice lines via EKT, this looks like this:
 
-![](2022-02-11-11-29-19.png)
+![](media/2022-02-11-11-29-19.png)
 
 It can be clearly seen that the PRI+INV segment consists of two segments: the price for the main customer (0.99 in the example above) and 1.23 for the end customer.
 

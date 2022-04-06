@@ -1,7 +1,5 @@
 # Documentatie EKT eindprijzen client
 
-Beschrijving van de module EKT eindprijzen (server kant) in Florisoft.
-
 ## 1. Inleiding
 In deze handleiding wordt de (technische) werking van de module EKT eindprijzen (server kant) beschreven. De focus ligt in dit document voornamelijk op de logica van deze module.
 
@@ -18,7 +16,7 @@ In bovenstaand voorbeeld is 0.27 ct. de prijs voor de hoofdklant. De 0.36 ct. is
 ## 2. Module  activeren
 De eerste stap bestaat uit het activeren van de module EKT Eindprijzen server:
 
-![](![](2022-01-13-12-03-16.png).png)
+![](media/2022-01-13-12-03-16.png)
 
 Deze module kan middels een licentiecode toegevoegd worden aan het licentiebestand van de klant. De licentiecode komt beschikbaar na akkoord op de bijbehorende offerte.
 
@@ -29,7 +27,7 @@ Prijzen worden in Florisoft altijd berekend middels een prijsconfiguratie. Een p
 
 Prijsconfiguraties zijn terug te vinden in de Constanten onder het tabblad Financieel -> Prijsconfiguraties. Zie onderstaand screenshot voor een voorbeeld:
 
-![](2022-02-02-09-00-25.png)
+![](media/2022-02-02-09-00-25.png)
 
 Correcte prijzen voor eindklanten kunnen grofweg op twee manieren berekend worden: door eenzelfde prijsconfiguratie te gebruiken voor zowel de hoofd als de subklant of kiezen voor een aparte prijsconfiguratie voor de hoofd en subklant.
 
@@ -40,18 +38,18 @@ Per klant moet in kaart gebracht worden wat hierin de beste werkzijze is. Daarna
 >**Prijsconfiguratie**
 >Open de betreffende prijsconfiguratie en klik op de knop Actieve debiteuren.
 >
->![](2022-02-02-09-15-23.png)
+>![](media/2022-02-02-09-15-23.png)
 >
 >Selecteer (klikken op de knop Selecteren) vervolgens de debiteuren die gekoppeld dienen te worden aan deze prijsconfiguratie en bevestig door in alle schermen op de knop Ok te drukken.
 >
->![](2022-02-02-09-19-01.png)
+>![](media/2022-02-02-09-19-01.png)
 >
 >**Debiteur**
 >Open de debiteur vanuit de Constanten -> Debiteurgegevens -> Debiteuren. Ga vervolgens naar het tabblad Financieel -> Prijzen en kies bij het veld Prijsconfiguratie voor de correcte >prijsconfiguratie.
 >
 >Klik vervolgens op de knop Ok om de instellingen te bevestigen. Optioneel kan ook eerst gekozen worden voor de optie Wijzigen naar om de geselcteerde prijsconfiguratie toe te passen op meerdere geselecteerde debiteuren.
 >
->![](2022-02-02-09-30-49.png)
+>![](media/2022-02-02-09-30-49.png)
 
 ## 4. Subklanten koppelen aan hoofdklanten
 Om ervoor te zorgen dat de eindprijs voor de subklant op de juiste manier wordt verstuurd dienen de subklanten eerst gekoppeld te worden aan de hoofdklant. Dit gaat als volgt.
@@ -59,7 +57,7 @@ Om ervoor te zorgen dat de eindprijs voor de subklant op de juiste manier wordt 
 1. Navigeer in de Constanten naar Organen -> Debiteurgegevens -> Debiteuren.
 2. Open een hoofdklant door te dubbelklikken op de betreffende regel van deze debiteur. In onderstaand screenshot is als voorbeeld voor een hoofdklant gekozen voor debiteur TEST1.
 
-![](2022-02-02-10-42-41.png)
+![](media/2022-02-02-10-42-41.png)
 
 3. Navigeer in de debiteur naar het tabblad Internet -> Internet toegang.
 4. Klik op de knop Subklanten. Het scherm Subklanten van [DEBITEURNAAM] opent.
@@ -69,7 +67,7 @@ Om ervoor te zorgen dat de eindprijs voor de subklant op de juiste manier wordt 
 ## 5. Debiteurinstelling activeren
 Om ervoor te zorgen dat de uitgerekende prijs (via de prijsconfiguratie) voor de einklant wordt verstuurd in de EKT dient het vinkje Eindprijs in EKT-bericht meezenden geactiveerd te worden. Zie onderstaand screenshot:
 
-![](2022-02-02-11-22-59.png)
+![](media/2022-02-02-11-22-59.png)
 
 >**Let op: het vinkje Eindprijs in EKT-bericht meezenden moet alleen geactiveerd worden voor de hoofdklanten. Op de subklanten moet dit vinkje niet aan staan.**
 
@@ -84,11 +82,11 @@ Verdelen kan in Florisoft op verschillende manieren: vanuit de voorraad, Ctrl+B,
 
 Zie onderstaand screenshot voor een voorbeeld van een factuurregel van een hoofdklant waarbij de eindprijs voor de subklant wordt weergegeven in de kolom Klantprijs. De prijs voor de hoofdklant is zichtbaar in de kolom Prijs.
 
-![](2022-02-02-13-06-46.png)
+![](media/2022-02-02-13-06-46.png)
 
 Bij het versturen van de betreffende factuurregels middels EKT ziet dit er als volgt uit:
 
-![](2022-02-02-21-23-34.png)
+![](media/2022-02-02-21-23-34.png)
 
 Duidelijk is te zien dat het PRI+INV segment uit twee segmenten bestaat: de prijs voor de hoofdklant (0,99 in bovenstaand voorbeeld) en 1,23 voor de eindklant.
 
