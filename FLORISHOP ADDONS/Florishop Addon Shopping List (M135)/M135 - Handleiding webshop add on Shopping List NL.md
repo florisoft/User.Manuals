@@ -1,7 +1,7 @@
 **Florishop handleiding  
 Shopping list**
 
-<img src=".Handleiding webshop add on Shopping List\media\image1.jpeg" style="width:4.33958in;height:1.67917in" alt="C:\Users\babs\Pictures\offerte-logo-Florisoft.jpg" />
+<img src=".Handleiding webshop add on Shopping List\media\image1.jpeg" style="width:4.33958in;height:1.67917in" />
 
 # 
 
@@ -82,7 +82,7 @@ beschreven.
 3.  Kopieer en plak de webshop URL vanuit het eerste tabblad (nr. 1) in
     het tweede tabblad. (nr. 2)
 
-<img src=".Handleiding webshop add on Shopping List.docx\media\image2.png" style="width:5.51119in;height:0.73969in" />
+<img src=".Handleiding webshop add on Shopping List\media\image2.png" style="width:5.51119in;height:0.73969in" />
 
 1.  Zorg ervoor dat de URL in de tweede tabblad (nr. 2) er hetzelfde
     uitziet zoals weergegeven bij nr. 3. En druk op Enter op het
@@ -90,13 +90,13 @@ beschreven.
 
 De Settings pagina van de webshop opent. Zie de afbeelding hieronder.
 
-<img src=".Handleiding webshop add on Shopping List.docx\media\image3.png" style="width:4.37092in;height:4.14583in" />
+<img src=".Handleiding webshop add on Shopping List\media\image3.png" style="width:4.37092in;height:4.14583in" />
 
 1.  Zoek op ‘voorraad’ in het ‘Section’ zoekveld. (nr. 4)
 
 2.  Zoek op ‘ zoeken’ in het veld ‘Item’ zoekveld. (nr. 5)
 
-<img src=".Handleiding webshop add on Shopping List.docx\media\image4.png" style="width:5.80208in;height:3.68706in" />
+<img src=".Handleiding webshop add on Shopping List\media\image4.png" style="width:5.80208in;height:3.68706in" />
 
 1.  Klik op de instellingen VOORRAAD – ZOEKEN (nr. 6)
 
@@ -110,7 +110,7 @@ venster. Zie de afbeelding op de volgende pagina.
     op Artikelnummer. (nr. 7) Geselecteerde waarden krijgen een blauwe
     achtergrondkleur.
 
-> <img src=".Handleiding webshop add on Shopping List.docx\media\image5.png" style="width:5.80208in;height:3.76765in" />
+> <img src=".Handleiding webshop add on Shopping List\media\image5.png" style="width:5.80208in;height:3.76765in" />
 
 1.  Vul in het veld Password (nr. 8) het wachtwoord in voor het wijzigen
     van de instelling.
@@ -135,7 +135,7 @@ mogelijk om deze waarde aan te passen.
 2.  Zoek in het veld ‘Item’ naar de setting maxdagenorderoverzicht
     (nr. 1) en open deze setting door erop te klikken. (nr. 2)
 
-<img src=".Handleiding webshop add on Shopping List.docx\media\image6.png" style="width:5.83333in;height:1.68017in" />
+<img src=".Handleiding webshop add on Shopping List\media\image6.png" style="width:5.83333in;height:1.68017in" />
 
 1.  Verander evt. de waarde in het veld achter ‘Waarde’.
 
@@ -158,7 +158,7 @@ voorraad opent.
 2.  Zoek in het veld ‘Item’ naar de setting promptordersdialoog (nr. 1)
     en open deze setting door erop te klikken. (nr. 2)
 
-<img src=".Handleiding webshop add on Shopping List.docx\media\image7.png" style="width:5.6875in;height:1.75352in" />
+<img src=".Handleiding webshop add on Shopping List\media\image7.png" style="width:5.6875in;height:1.75352in" />
 
 1.  Zet de vink achter ‘Waarde’ aan of uit naargelang de instelling moet
     werken.
@@ -182,7 +182,7 @@ beschreven.
 2.  Open een willekeurige voorraad of bestellijst. Nu opent het ‘Orders’
     scherm. Zie onderstaande afbeelding.
 
-<img src=".Handleiding webshop add on Shopping List.docx\media\image8.png" style="width:3.10439in;height:4.42708in" />
+<img src=".Handleiding webshop add on Shopping List\media\image8.png" style="width:3.10439in;height:4.42708in" />
 
 1.  Selecteer de orders die op shopping list dienen te komen door een
     vinkje voor de betreffende order(s) te plaatsen. (nr. 1)
@@ -206,7 +206,7 @@ Het tweede scherm is de shopping list zelf. Dit scherm opent automatisch
 aan de linkerkant van de webshop na het importeren van orders. (zie
 hoofdstuk 3)
 
-> <img src=".Handleiding webshop add on Shopping List.docx\media\image9.png" style="width:3.72699in;height:4.39371in" />
+> <img src=".Handleiding webshop add on Shopping List\media\image9.png" style="width:3.72699in;height:4.39371in" />
 
 <table>
 <thead>
@@ -252,11 +252,11 @@ de shopping list. Hieronder wordt beschreven hoe dit werkt.
 
 1.  Klik op het icoon om het Orderoverzicht te openen. (nr. 1)
 
-<img src=".Handleiding webshop add on Shopping List.docx\media\image10.png" style="width:3.72699in;height:2.39354in" />
+<img src=".Handleiding webshop add on Shopping List\media\image10.png" style="width:3.72699in;height:2.39354in" />
 
 Het Orderoverzicht scherm opent. Zie afbeelding hieronder.
 
-<img src=".Handleiding webshop add on Shopping List.docx\media\image11.png" style="width:4.57986in;height:2.27083in" />
+<img src=".Handleiding webshop add on Shopping List\media\image11.png" style="width:4.57986in;height:2.27083in" />
 
 1.  Klik op het shopping list icoon naast een order (nr. 2) of een
     artikel binnen een order (nr. 3)
