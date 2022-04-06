@@ -3,6 +3,7 @@
 Log in bij Florisoft en ga naar constanten.  
 Bij constanten =&gt; locaties =&gt; veilingen stel je per veiling
 waarvoor je over gaat geven je eigen kopernummer in.  
+
 <img src=".handleiding overgeven.docx\media\image1.png" style="width:6.3in;height:6.45972in" />  
   
 Op de debiteuren (constanten =&gt; organen =&gt; debiteuren) welke
@@ -14,12 +15,14 @@ worden (Aalsmeer, Naaldwijk etc.)
 
 <img src=".handleiding overgeven.docx\media\image2.png" style="width:8.24539in;height:4.78304in" />
 
-<img src=".handleiding overgeven.docx\media\image3.png" style="width:8.79005in;height:2.48507in" />Als
-dit juist staat ingesteld ga dan naar je facturen overzicht toe.
+<img src=".handleiding overgeven.docx\media\image3.png" style="width:8.79005in;height:2.48507in" />
+
+Als dit juist staat ingesteld ga dan naar je facturen overzicht toe.
 
 Na het doorboeken van de factuur naar de historie kan je de factuur
 terugzien in het overgeven scherm. Dit scherm open je vanuit de
 navigator via de knop ‘Overgeven’.  
+
 <img src=".handleiding overgeven.docx\media\image4.png" style="width:6.3in;height:2.08889in" />
 
 Klik dus op de factuur die je wilt (en kan) gaan overgeven.

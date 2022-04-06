@@ -1,6 +1,6 @@
 ## **Florisoft handleiding Overnemen/Overgeven**
 
-<img src=".Overnemen Handleiding.docx/media/image1.jpeg" />
+<img src=".Overnemen Handleiding/media/image1.jpeg" />
 
 ## Voorwoord
 
