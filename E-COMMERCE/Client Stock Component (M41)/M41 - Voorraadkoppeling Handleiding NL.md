@@ -21,13 +21,13 @@ Een nieuw scherm zal openen. Voer hier een voorraad code toe en een beschrijving
 
 <img src=".Voorraadkoppeling Handleiding/media/image4.png" />
 
-Ga nu naar de tab "autorisatie" links op het scherm. Daar vind je alle accounts van Florisoft. Omdat je net pas de voorraad heeft gemaakt, heeft geen enkele gebruiker toegang tot de voorraad. Door te dubbel klikken, of de spatie te gebruiken om meerdere te selecteren, kan je gebruikers toegang geven tot de voorraad. Als je dubbel klikt, verandert hij gelijk van autorisatie, als je meerdere gebruikers in 1 keer wilt autoriseren, gebruik dan de knop "Autoriseren/Blokkeren". Wanneer je iemand autoriseert, heeft de gebruiker toegang tot de voorraad vanaf zijn of haar eigen account. 
+Ga nu naar de tab "autorisatie" links op het scherm. Daar vind je alle accounts van Florisoft. Omdat je net pas de voorraad hebt gemaakt, heeft geen enkele gebruiker toegang tot de voorraad. Door dubbel te klikken of de spatie te gebruiken om meerdere te selecteren, kan je gebruikers toegang geven tot de voorraad. Als je dubbel klikt, verandert hij gelijk van autorisatie. Als je meerdere gebruikers in 1 keer wilt autoriseren, gebruik dan de knop "Autoriseren/Blokkeren". Wanneer je iemand autoriseert, heeft de gebruiker toegang tot de voorraad vanaf zijn of haar eigen account. 
 
-**Vergeet niet het account te autoriseren waarmee je de voorraad aanmaakt!! Ander kan je de voorraad zelf niet zien!**
+**Vergeet niet het account te autoriseren waarmee je de voorraad aanmaakt!! Anders kan je de voorraad zelf niet zien!**
 
 <img src=".Voorraadkoppeling Handleiding/media/image5.png" />
 
-Naviger nu naar "Doorboeken" aan de linker kant van het scherm. Check of de instellingen hetzelfde zijn als de onderstaande foto. Bij "Box actief", selecteer een ingangscontrole die toepasselijk is bij de voorraad. Deze instelling hoeft niet gelijk te zijn met de afbeelding.
+Navigeer nu naar "Doorboeken" aan de linker kant van het scherm. Check of de instellingen hetzelfde zijn als de onderstaande foto. Bij "Box actief", selecteer een ingangscontrole die toepasselijk is bij de voorraad. Deze instelling hoeft niet gelijk te zijn met de afbeelding.
 
 <img src=".Voorraadkoppeling Handleiding/media/image6.png" />
 
@@ -58,11 +58,11 @@ Vul nu de gemarkeerde velden in (zie afbeelding hieronder). Zorg ervoor dat Lev.
 
 <img src=".Voorraadkoppeling Handleiding/media/image10.png" />
 
-Navigeer nu naar de tab "Web Service" aan de linker kant van het scherm. Check de optie "Activeren voor vorraadkoppeling" aan. Vul nu de gegevens in over de voorraadkoppeling.
+Navigeer nu naar de tab "Web Service" aan de linker kant van het scherm. Klik de optie "Activeren voor vorraadkoppeling" aan. Vul nu de gegevens in over de voorraadkoppeling.
 
-Alle informatie die gehiglight is moet worden ingevuld. Deze informatie moet van de debiteur verkregen worden. "Type webservice","Userid" en "Wachtwoord" moet door de debiteur doorsturen.
+Alle informatie die gehighlight is moet worden ingevuld. Deze informatie moet van de debiteur verkregen worden. "Type webservice","Userid" en "Wachtwoord" moet door de debiteur worden doorgestuurd.
 
-Als de debiteur een bestand of bestanden doorstuur met deze instellingen erin, kunnen deze direct in het systeem worden geladen. Klik dan op Import en selecteer het bestand. Dit moet een ".adt" bestand zijn. (Je zal 2 bestanden ontvangen hebben, alleen hoort er maar 1 te weergeven als je zoekt)
+Als de debiteur een bestand of bestanden doorstuurt met deze instellingen erin, kunnen deze direct in het systeem worden geladen. Klik dan op Import en selecteer het bestand. Dit moet een ".adt" bestand zijn. (Je zal 2 bestanden ontvangen hebben, alleen hoort er maar 1 te weergeven als je zoekt).
 
 Als laatste moet je ook "Binnenkomende voorraad" invullen. Hier kan je de voorraad selecteren die je zojuist hebt gemaakt.
 
@@ -78,7 +78,7 @@ Ga nu naar "Partijen ontvangen", deze staat ook binnen "Webservice". Er staan ve
 
 Druk nu op OK en sla de veranderingen op. Dubbel klik weer op dezelfde leverancier om weer in de instellingen te komen.
 
-Navigeer terug naar "Webservice". Als alles goed is ingevuld kan je nu op de knop "Partijen inlezen" klikken. Zodra je het hebt geklikt, verschijnt een tweede scherm. Bu gaat Florisoft alle partijen inlezen van de leverancier. Als het klaar is, zou het scherm vergelijkbaar moeten zijn met de foto. Blijf in de tussen tijd eventjes van Florisoft af.
+Navigeer terug naar "Webservice". Als alles goed is ingevuld, kan je op de knop "Partijen inlezen" klikken. Zodra je het hebt geklikt, verschijnt een tweede scherm. Nu gaat Florisoft alle partijen inlezen van de leverancier. Als het klaar is, zou het scherm vergelijkbaar moeten zijn met de foto. Blijf in de tussentijd van Florisoft af.
 
 <img src=".Voorraadkoppeling Handleiding/media/image14.png" />
 
@@ -86,13 +86,13 @@ Ga nu weer naar de sub-setting van "Webservice, "Partijen ophalen". Ze de optie 
 
 <img src=".Voorraadkoppeling Handleiding/media/image15.png"/>
 
-Nu alle voorraad van de debiteur geimporteerd is, sluit de constanen en ga via de Navigator naar de Voorraad.
+Nu alle voorraad van de debiteur geimporteerd is, sluit de constanten en ga via de Navigator naar de Voorraad.
 
 <img src=".Voorraadkoppeling Handleiding/media/image16.png" />
 
-Als je in de voorraaden bent, dan moet de nieuwe voorraad weergeven worden. Als je op de naam klikt, worden alle partijen van de voorraad weergeven. Vanuit hier kan je partijen bestellen door en op te dubbel klikken.
+Als je in de voorraden bent, dan moet de nieuwe voorraad weergegeven worden. Als je op de naam klikt, worden alle partijen van de voorraad weergegeven. Vanuit hier kan je partijen bestellen door erop te dubbel klikken.
 
-**Pas op met partijen in de order lijst te zetten voor testen, als de leverancier een snel logistiek proces heeft kan het al verstuurt worden voordat je het kan verwiijderen. Alles wat je in de onderstaande bestellijst toevoegt, kan naar de leverancier worden gestuurd.
+**Pas op met partijen in de order lijst te zetten voor testen. Als de leverancier een snel logistiek proces heeft, kan het al verstuurt worden voordat je het kan verwijderen. Alles wat je in de onderstaande bestellijst toevoegt, kan naar de leverancier worden gestuurd.
 
 <img src=".Voorraadkoppeling Handleiding/media/image17.png" />
 
