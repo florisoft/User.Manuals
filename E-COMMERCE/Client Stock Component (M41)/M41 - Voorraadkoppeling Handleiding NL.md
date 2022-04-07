@@ -7,7 +7,7 @@ Welkom bij de handleiding voor de voorraadkoppeling module. In deze handleiding 
 Een voorraadkoppeling die gebruik maakt van E-trade of een Florisoft connectie, zal helpen doordat het een makelijke manier is om voorraad te krijgen. Volg de stappen die beneden beschreven zijn om de voorraadkoppeling op te zetten en te gebruiken.
 
 # Voorraad maken
-De eerste paar stappen vereisen dat je ene nieuwe voorraad maakt in Florisoft. In deze handleiding, gebruiken we Qualirosa als voorbeeld. Informatie eigen van Qualirosa moet natuurlijk vervangen worden met de informatie van de bedrijf waarmee je een koppeling wilt maken.
+De eerste paar stappen vereisen dat je een nieuwe voorraad maakt in Florisoft. In deze handleiding, gebruiken we Qualirosa als voorbeeld. Informatie eigen van Qualirosa moet natuurlijk vervangen worden met de informatie van de bedrijf waarmee je een koppeling wilt maken.
 
 Als eerste, ga naar de constanten in Florisoft.
 
