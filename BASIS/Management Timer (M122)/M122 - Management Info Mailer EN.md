@@ -84,7 +84,22 @@ If you want to have the report refreshed only once a day between 18:00 pm and 19
 As you can see the interval is set to a longer value than the time difference between the Start and Stop times.
 This ensures that the report will be executed only once between the Start and Stop time. In this case the interval could be set to 60 as well, but when you make the interval at least 1 minute longer than the time difference you know that it will not be run twice.
 
-### Variabels
+
+
+### Additional options
+
+Just below the times you will find the following 3 options:
+
+- Send 1 time at the end of the month only
+  When this tick box has been enabled only on day 1 of the month this report will be run and the results will be emailed.
+- Send 1 time at the beginning of the month only
+  When this tick box has been enabled only on the last day (Jan 31, Feb 28/29, Mar 31, Apr 30, etc) of the month this report will be run and the results will be emailed.
+- Do not send an email via the timer if there is no result
+  When the report does not have any result no email will be send to ‘prevent’ that an empty emails will be send. This option is particularly helpful in the case of alert emails. No alert no action needed so no email is needed as well
+
+
+
+### Variables
 
 On the right hand side of the screen you will find and white rectangle.
 If you have configured any variable in the management query in the management screen they will appear in this part of the screen.
