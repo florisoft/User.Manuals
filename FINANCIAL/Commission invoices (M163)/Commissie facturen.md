@@ -7,14 +7,14 @@ de commissie factuur al in staan.
 
 Om een commissie factuur te laten genereren moet dit bij de debiteur
 aangezet worden.  
-<img src=".Commissie facturen.docx\media\image1.png" style="width:6.26806in;height:5.44236in" />
+<img src=".Commissie facturen\media\image1.png" style="width:6.26806in;height:5.44236in" />
 
 Vervolgens kan bij de debiteur een debnr en ordnr voor de template
 commissie factuur ingevoerd worden, indien leeg worden deze uit
 systeeminstellingen ‘CommissieFactuurTemplateDebNr’ en
 ‘CommissieFactuurTemplateOrdNr’ gehaald.
 
-<img src=".Commissie facturen.docx\media\image2.png" style="width:6.26806in;height:5.44236in" />
+<img src=".Commissie facturen\media\image2.png" style="width:6.26806in;height:5.44236in" />
 
 Er worden een nieuwe orderkop aangemaakt waarbij het debiteurnummer
 wordt overgenomen van de factuur die geprint wordt en het ordernummer

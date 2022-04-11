@@ -69,11 +69,11 @@ van de eFactuur Client is als volgt:
 bijv. pdf) een daarbij een eFactuur (te herkennen aan de .xml extensie).
 In Florisoft klik je met de rechtermuisknop op de knop Historie en kies
 je voor Florisoft eFactuur inlezen:  
-![](.eFactuur%20Client%20en%20Server.docx/media/image1.png)
+![](.eFactuur%20Client%20en%20Server/media/image1.png)
 
 Daarna zal een scherm geopend worden waarin je het xml bestand kan
 kiezen:  
-![](.eFactuur%20Client%20en%20Server.docx/media/image2.png)
+![](.eFactuur%20Client%20en%20Server/media/image2.png)
 
 Na het kiezen van de xml wordt er gevraagd om het factuurnummer en het
 goederenbedrag van de originele factuur (pdf) . Dit is ter controle of
@@ -84,7 +84,7 @@ staat. Na het intikken van deze gegevens worden de inkoopregels
 opgezocht en afgeboekt (net als de knop Afboeken in de inkoophistorie of
 de knop Afboeken in het subscherm Inkoop ophogingen).
 
-![](.eFactuur%20Client%20en%20Server.docx/media/image3.png)
+![](.eFactuur%20Client%20en%20Server/media/image3.png)
 
 Daarna opent het resultaat scherm waarin je per factuurregel (van de
 eFactuur) kan zien of deze afgeboekt kon worden of niet. Zo kan het
@@ -97,20 +97,20 @@ maar je hebt wel een factuurregel dan kan het dus zijn dat de
 factuurregel niet correct is en dat de leverancier gebeld moet worden
 voor een credit.
 
-![](.eFactuur%20Client%20en%20Server.docx/media/image4.png)
+![](.eFactuur%20Client%20en%20Server/media/image4.png)
 
 Ook bevat het eFactuur inleesresultaat scherm de eFactuur barcode die
 ook weer terugkomt op de originele factuur (pdf) zodat, indien nodig er
 meer informatie nodig is van de specifieke factuurregel, deze makkelijk
 opgezocht kan worden op de originele factuur.
 
-![](.eFactuur%20Client%20en%20Server.docx/media/image5.png)
+![](.eFactuur%20Client%20en%20Server/media/image5.png)
 
 Voorbeeld van nog een resultaatscherm. 2<sup>e</sup> x dezelfde factuur
 inlezen, zie ook de tooltip waar nog meer informatie in staat over de
 specifieke status. :
 
-![](.eFactuur%20Client%20en%20Server.docx/media/image6.png)
+![](.eFactuur%20Client%20en%20Server/media/image6.png)
 
 Verder:  
 -De eFactuur heeft een door Florisoft zelf ontwikeld bestandsopbouw.

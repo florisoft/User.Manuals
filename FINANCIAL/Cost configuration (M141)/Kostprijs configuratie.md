@@ -54,7 +54,7 @@
 
 Om gebruik te maken van deze module, dient de licentie:
 “Kostprijsconfiguratie” actief te zijn.  
-<img src=".Kostprijs configuratie.docx\media\image1.png" style="width:6.3in;height:4.85278in" />
+<img src=".Kostprijs configuratie\media\image1.png" style="width:6.3in;height:4.85278in" />
 
 # Debiteur instellen
 
@@ -63,7 +63,7 @@ Om gebruik te maken van deze module, dient de licentie:
 Bij deze debiteur kunnen er een x aantal debiteuren opgegeven worden,
 waarvan de opslagen gebruikt gaan worden om de kostprijs te kunnen
 berekenen. Deze debiteur kunnen ingesteld worden onder Financieel &gt;
-Kostprijs.<img src=".Kostprijs configuratie.docx\media\image2.png" style="width:6.3in;height:5.47014in" />
+Kostprijs.<img src=".Kostprijs configuratie\media\image2.png" style="width:6.3in;height:5.47014in" />
 
 ## Kostprijs debiteur
 
@@ -80,12 +80,12 @@ teksten. De teksten kunnen opgegeven worden in de constanten onder
 Systeem -&gt; Kostprijsconfiguratie omschrijvingen. Per nummer kan er
 een eigen omschrijving opgegeven worden.
 
-<img src=".Kostprijs configuratie.docx\media\image3.png" style="width:3.1791in;height:3.44019in" />
+<img src=".Kostprijs configuratie\media\image3.png" style="width:3.1791in;height:3.44019in" />
 
 Na het instellen van deze teksten, zal er bij de “verdeel debiteur” de
 opgegeven omschrijvingen zichtbaar zijn.
 
-<img src=".Kostprijs configuratie.docx\media\image4.png" style="width:5.73275in;height:4.97761in" />
+<img src=".Kostprijs configuratie\media\image4.png" style="width:5.73275in;height:4.97761in" />
 
 # Marge
 
@@ -181,12 +181,12 @@ van de stappen en is puur visueel.
 De kolom “Kost pr. deb” kan toegevoegd worden aan het grid van de
 voorraad. Deze kolom zal standaard leeg zijn met een groene achtergrond
 kleur.
-<img src=".Kostprijs configuratie.docx\media\image5.png" style="width:6.3in;height:4.32153in" />
+<img src=".Kostprijs configuratie\media\image5.png" style="width:6.3in;height:4.32153in" />
 
 Middels de D-toets kan er een debiteur geactiveerd worden (net als de
 debiteur kolommen). Na het activeren van een debiteur, zal de kostprijs
 berekend en getoond
-worden.<img src=".Kostprijs configuratie.docx\media\image6.png" style="width:6.3in;height:4.32153in" />
+worden.<img src=".Kostprijs configuratie\media\image6.png" style="width:6.3in;height:4.32153in" />
 
 ## Televerkoop
 
@@ -194,13 +194,13 @@ De kolom “Kost prijs” heeft dezelfde werking als in de voorraad, echter
 hoeft hier geen debiteur geactiveerd te worden middels de D-toets. Deze
 kolom zal gevuld worden na het activeren van een debiteur waaraan
 verdeeld zal worden.
-<img src=".Kostprijs configuratie.docx\media\image7.png" style="width:6.3in;height:4.425in" />
+<img src=".Kostprijs configuratie\media\image7.png" style="width:6.3in;height:4.425in" />
 
 ## Verdeelscherm
 
 Na het invoeren van een verdeling via het verdeelscherm zal ook hier de
 kolom Kostprijs gevuld worden met de berekende
-kostprijs.<img src=".Kostprijs configuratie.docx\media\image8.png" style="width:6.3in;height:3.51736in" />
+kostprijs.<img src=".Kostprijs configuratie\media\image8.png" style="width:6.3in;height:3.51736in" />
 
 # Webshop cache
 

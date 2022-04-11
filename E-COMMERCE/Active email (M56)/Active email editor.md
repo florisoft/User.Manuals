@@ -43,24 +43,24 @@ minimaal van 9 september 2020 zijn.
 Log in op Florishop met een beheer account. Open het beheer en ga naar
 configuratie &gt; Mail configuratie  
   
-<img src=".Active email editor verise 0.7.docx\media\image2.png" style="width:6.3in;height:1.62778in" />
+<img src=".Active email editor verise 0.7\media\image2.png" style="width:6.3in;height:1.62778in" />
 
 Dit opent het volgende scherm:  
   
-<img src=".Active email editor verise 0.7.docx\media\image3.png" style="width:6.3in;height:2.12639in" />  
+<img src=".Active email editor verise 0.7\media\image3.png" style="width:6.3in;height:2.12639in" />  
   
 Klik hier op de knop “Wijzigen”. Het volgende dialoog komt naar voren:  
   
-<img src=".Active email editor verise 0.7.docx\media\image4.png" style="width:2.55388in;height:2.152in" />  
+<img src=".Active email editor verise 0.7\media\image4.png" style="width:2.55388in;height:2.152in" />  
 Vul hier het ADMINF wachtwoord in en druk op verstuur.  
   
 Klik vervolgens op de knop Creëer.
 
-<img src=".Active email editor verise 0.7.docx\media\image5.png" style="width:6.3in;height:2.04306in" />
+<img src=".Active email editor verise 0.7\media\image5.png" style="width:6.3in;height:2.04306in" />
 
 Het volgende Dialoog komt naar voren:  
   
-<img src=".Active email editor verise 0.7.docx\media\image6.png" style="width:2.968in;height:2.30502in" />  
+<img src=".Active email editor verise 0.7\media\image6.png" style="width:2.968in;height:2.30502in" />  
   
 **Thema Filter:** Voor welk thema is de mail.  
 **Mail type filter:** Welk lay-out type is het. Momenteel is alleen
@@ -75,7 +75,7 @@ naar **stap 2**.
 
 Na het afronden van stap 1 verschijnt het volgende scherm:  
   
-<img src=".Active email editor verise 0.7.docx\media\image7.png" style="width:6.3in;height:3.25486in" />
+<img src=".Active email editor verise 0.7\media\image7.png" style="width:6.3in;height:3.25486in" />
 
 Om alles opties te tonen vink je ook de “Show advanced” optie aan.  
 De opties is de editor zijn allemaal behoorlijk duidelijk qua tekst. We
@@ -96,7 +96,7 @@ gebruiken</u>**
 Als je klaar bent druk je op het floppydisk icoon om de active mail op
 te slaan
 
-# <img src=".Active email editor verise 0.7.docx\media\image8.png" style="width:6.3in;height:3.35556in" /> 
+# <img src=".Active email editor verise 0.7\media\image8.png" style="width:6.3in;height:3.35556in" /> 
 
 Vervolgens kun je deze in de Sales module gebruiken als active email. Je
 kunt deze lay-out **ook** gebruiken in de backoffice via de “normale”
@@ -105,11 +105,11 @@ correct ingevuld te zijn zodat Florisoft middels een API kijkt of er
 lay-outs staan in de Florishop map. De lay-outs gemaakt met de nieuwe
 editor zijn te herkennen aan de ‘FTS\_’ prefix:
 
-<img src=".Active email editor verise 0.7.docx\media\image9.png" style="width:2.96916in;height:2.04195in" />
+<img src=".Active email editor verise 0.7\media\image9.png" style="width:2.96916in;height:2.04195in" />
 
 Vervolgens stuur je de mail naar je klant en krijg je de mail binnen:  
   
-<img src=".Active email editor verise 0.7.docx\media\image10.png" style="width:6.3in;height:6.74306in" />
+<img src=".Active email editor verise 0.7\media\image10.png" style="width:6.3in;height:6.74306in" />
 
 Uiteraard is bovenstaande een lelijk voorbeeld uit een test systeem maar
 het laat wel zien hoe het er uit kan zien.
@@ -133,4 +133,4 @@ Dus bijv:
   
 C:\\inetpub\\wwwroot\\Florishop\\Themes\\Native\\MailTemplates\\Aanbieding  
   
-<img src=".Active email editor verise 0.7.docx\media\image11.png" style="width:6.3in;height:3.31736in" />
+<img src=".Active email editor verise 0.7\media\image11.png" style="width:6.3in;height:3.31736in" />

@@ -1,7 +1,7 @@
 **Handleiding  
 eCustoms**
 
-<img src=".Handleiding eCustoms.docx\media\image1.jpeg" style="width:4.33958in;height:1.67917in" alt="C:\Users\babs\Pictures\offerte-logo-Florisoft.jpg" />
+<img src=".Handleiding eCustoms\media\image1.jpeg" style="width:4.33958in;height:1.67917in" alt="C:\Users\babs\Pictures\offerte-logo-Florisoft.jpg" />
 
 # 
 
@@ -80,7 +80,7 @@ benodigde velden actief.
     aanvraag gemaild kunnen worden (momenteel alleen voor CSI Fresh.
     Mail adres moet door CSI Fresh verstrekt worden)
 
-<img src=".Handleiding eCustoms.docx\media\image2.png" style="width:8.8375in;height:3.60972in" />
+<img src=".Handleiding eCustoms\media\image2.png" style="width:8.8375in;height:3.60972in" />
 
 # eCustoms Transporteur instellen
 
@@ -94,7 +94,7 @@ Navigator Constanten Organen Transporteurs Transporteur aanmaken tabblad
 
 Hier dient de gewenste eCustoms provider ingevoerd te worden.
 
-<img src=".Handleiding eCustoms.docx\media\image3.png" style="width:7.7093in;height:5.1886in" />
+<img src=".Handleiding eCustoms\media\image3.png" style="width:7.7093in;height:5.1886in" />
 
 # eCustoms Transportroute instellen
 
@@ -144,7 +144,7 @@ tabblad *“eCustoms”*
     codes worden door de UNECE beheerd.  
     (alleen van toepassing voor LBP)*
 
-<img src=".Handleiding eCustoms.docx\media\image4.png" style="width:7.83235in;height:5.42641in" />
+<img src=".Handleiding eCustoms\media\image4.png" style="width:7.83235in;height:5.42641in" />
 
 # eCustoms Debiteur instellingen
 
@@ -173,7 +173,7 @@ tabblad Factuur Douane
     facturen voor de aangifte gemaakt worden. Indien voor elke debiteur
     apart aangifte gedaan wordt dient deze leeg te blijven.*
 
-<img src=".Handleiding eCustoms.docx\media\image5.png" style="width:8.475in;height:6.3in" />
+<img src=".Handleiding eCustoms\media\image5.png" style="width:8.475in;height:6.3in" />
 
 # eCustoms Financiële Administratie instellen
 
@@ -194,7 +194,7 @@ hier gedaan worden:
 Navigator Constanten Organen Debiteurgegevens Debiteuren Debiteur openen
 tabblad Financieel Administratie
 
-<img src=".Handleiding eCustoms.docx\media\image6.png" style="width:8.8375in;height:6.19306in" />
+<img src=".Handleiding eCustoms\media\image6.png" style="width:8.8375in;height:6.19306in" />
 
 # eCustoms Incoterms aanmaken en instellingen
 
@@ -211,7 +211,7 @@ Hier kan je dan vervolgens de incoterm koppelen aan de verzamel debiteur
 Navigator Constanten Organen Debiteurgegevens Debiteuren Debiteur openen
 tabblad Transport Incoterms
 
-<img src=".Handleiding eCustoms.docx\media\image7.png" style="width:8.27986in;height:6.3in" />
+<img src=".Handleiding eCustoms\media\image7.png" style="width:8.27986in;height:6.3in" />
 
 # eCustoms Artikelgroep splitscodes instellingen
 
@@ -222,7 +222,7 @@ invoeren op Artikel niveau.
 Navigator Constanten Artikelen Artikel gegevens Artikelgroepen
 Artikelgroep openen tabblad Algemeen Landspec openen
 
-<img src=".Handleiding eCustoms.docx\media\image8.png" style="width:8.64475in;height:6.07216in" />
+<img src=".Handleiding eCustoms\media\image8.png" style="width:8.64475in;height:6.07216in" />
 
 # eCustoms Fust Instellingen
 
@@ -236,7 +236,7 @@ Hier kan je dan de codering koppelen aan de verschillende fustcodes
 Navigator Constanten Artikelen Fust gegevens Fustsoorten Fustcode openen
 tabblad eCustoms Douane fustcode invoeren
 
-<img src=".Handleiding eCustoms.docx\media\image9.png" style="width:7.8636in;height:5.78053in" />
+<img src=".Handleiding eCustoms\media\image9.png" style="width:7.8636in;height:5.78053in" />
 
 # Fust splistcodes Instellingen
 
@@ -249,7 +249,7 @@ tabblad Fust Landspec openen
 
 Hier kan de Splits-code ingevoerd worden per land per fusttype
 
-<img src=".Handleiding eCustoms.docx\media\image10.png" style="width:6.42778in;height:6.3in" />
+<img src=".Handleiding eCustoms\media\image10.png" style="width:6.42778in;height:6.3in" />
 
 #  eCustoms Valuta Instellingen
 
@@ -261,7 +261,7 @@ de douane aangifte. De statische conversie kan hier worden ingevuld
 Navigator Constanten Financieel Artikel gegevens Valuta codes Valuta
 openen tabblad Valuta Stat.conversie invullen
 
-<img src=".Handleiding eCustoms.docx\media\image11.png" style="width:7.14494in;height:4.98896in" />
+<img src=".Handleiding eCustoms\media\image11.png" style="width:7.14494in;height:4.98896in" />
 
 # eCustoms Land instellingen
 
@@ -273,7 +273,7 @@ per land
 Navigator Constanten Locaties Regio’s Landen Land openen tabblad
 Algemeen Stat. Conversie invullen
 
-<img src=".Handleiding eCustoms.docx\media\image12.png" style="width:7.60764in;height:6.3in" />
+<img src=".Handleiding eCustoms\media\image12.png" style="width:7.60764in;height:6.3in" />
 
 # eCustoms Timers (Optineel)
 
@@ -307,7 +307,7 @@ aanmaken in de constanten
 Navigator Constanten Systeem Excel Sjabloon Excel Sjabloon openen of
 aanmaken
 
-<img src=".Handleiding eCustoms.docx\media\image13.png" style="width:8.2698in;height:5.65554in" />
+<img src=".Handleiding eCustoms\media\image13.png" style="width:8.2698in;height:5.65554in" />
 
 # eCustoms Timers
 
@@ -335,7 +335,7 @@ Hier een korte beschrijving van wat er bij welk veld verwacht wordt
 -   **Retouren debiteur:** Bedrijf zelf, waar de fusten heen moeten in
     Nederland
 
-<img src=".Handleiding eCustoms.docx\media\image14.png" style="width:7.83235in;height:5.42641in" />
+<img src=".Handleiding eCustoms\media\image14.png" style="width:7.83235in;height:5.42641in" />
 
 # eCustoms Timers
 
@@ -373,7 +373,7 @@ Hier wat uitleg van de dingen die je moet invullen
     Alle overige stappen zoals het aanmaken van de klant en douane
     facturen worden wel gewoon uitgevoerd.
 
-<img src=".Handleiding eCustoms.docx\media\image15.png" style="width:8.8375in;height:5.67083in" />
+<img src=".Handleiding eCustoms\media\image15.png" style="width:8.8375in;height:5.67083in" />
 
 # eCustoms Timers
 
@@ -392,4 +392,4 @@ Navigator Timer Settings *(Rechter muisknop op Timer icoon)* Timer
 settings Kies setting “*eCustoms resultaat ophalen*”  
 Instellingen invoeren
 
-<img src=".Handleiding eCustoms.docx\media\image16.png" style="width:8.8375in;height:5.67083in" />
+<img src=".Handleiding eCustoms\media\image16.png" style="width:8.8375in;height:5.67083in" />
