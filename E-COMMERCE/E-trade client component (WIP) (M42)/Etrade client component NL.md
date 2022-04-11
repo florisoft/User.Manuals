@@ -1,6 +1,6 @@
 # E-trade client component
 
-<img src= ".E-trade client component NL/media/image1.png" >
+<img src= "media/image1.png" >
 
 Welkom bij de handleiding voor de voorraadkoppelingen module (E-trade client component). In deze handleiding wordt er uitgelegd hoe je een voorraadkoppeling kan maken met debiteuren door een aparte voorraad en leverancier te maken. Met behulp van deze kunnen we een voorraadkoppeling maken.
 
