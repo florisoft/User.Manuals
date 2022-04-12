@@ -2,13 +2,13 @@
 
 <img src= ".E-trade client component NL/media/image1.png" >
 
-Welkom bij de handleiding voor de voorraadkoppelingen module (E-trade client component). In deze handleiding wordt er uitgelegd hoe je een voorraadkoppeling kan maken met debiteuren door een aparte voorraad en leverancier te maken. Met behulp van deze kunnen we een voorraadkoppeling maken.
+Welkom bij de handleiding voor de voorraadkoppeling module (E-trade client component). In deze handleiding wordt er uitgelegd hoe je een voorraadkoppeling kunt maken met debiteuren door een aparte voorraad en leverancier te maken. Met behulp hiervan kunnen we een voorraadkoppeling maken.
 
 # Voorraad maken
 
 De eerste paar stappen vereisen dat je een nieuwe voorraad maakt in Florisoft. In deze handleiding gebruiken we Qualirosa als voorbeeld. De informatie die eigen is van Qualirosa moet vervangen worden met de informatie van het bedrijf waarmee je een koppeling wilt maken.
 
-Ga als eerste naar de constanten in Florisoft:
+Ga eerst naar de constanten in Florisoft:
 
 <img src= ".E-trade client component NL/media/image2.png" >
 
@@ -22,7 +22,7 @@ Een nieuw scherm zal openen. Voer hier een voorraad code toe en een beschrijving
 
 <img src= ".E-trade client component NL/media/image4.png" >
 
-Ga vervolgens naar de tab "Autorisatie" links in het scherm. Daar vind je alle accounts van Florisoft. Omdat je net pas ee voorraad hebt gemaakt, heeft geen enkele gebruiker toegang tot de voorraad. Door dubbel te klikken, of de spatie te gebruiken om meerdere regels te selecteren, kan je gebruikers toegang geven tot de voorraad. Als je dubbel klikt, verandert hij gelijk van autorisatie, als je meerdere gebruikers in 1 keer wilt autoriseren, gebruik dan de knop "Autoriseren/Blokkeren". Wanneer je iemand autoriseert, heeft de gebruiker toegang tot de voorraad vanaf zijn of haar eigen account.
+Ga vervolgens naar de tab "Autorisatie" links in het scherm. Daar vind je alle accounts van Florisoft. Omdat je net pas een voorraad hebt gemaakt, heeft geen enkele gebruiker toegang tot de voorraad. Door dubbel te klikken, of de spatie te gebruiken om meerdere regels te selecteren, kun je gebruikers toegang geven tot de voorraad. Als je dubbel klikt, verandert hij gelijk van autorisatie, als je meerdere gebruikers in 1 keer wilt autoriseren, gebruik dan de knop "Autoriseren/Blokkeren". Wanneer je iemand autoriseert, heeft de gebruiker toegang tot de voorraad vanaf zijn of haar eigen account.
 
 **Vergeet niet het account te autoriseren waarmee je de voorraad aanmaakt!! Anders kan je zelf de voorraad niet zien!**
 
@@ -48,7 +48,7 @@ Zodra je alle rechten hebt verleent die je wilt verlenen, klik op OK om het op t
 
 Klik nu nog een keer op OK om de veranderingen op te slaan. Selecteer dan "Ja" als Florisoft je vraagt of je het wilt opslaan.
 
-Nu heb je een nieuwe voorraadgemaakt waarmee je een koppeling kan maken. 
+Nu heb je een nieuwe voorraad gemaakt waarmee je een koppeling kan maken. 
 
 # Een leverancier aanmaken
 
@@ -74,7 +74,7 @@ In hetzelfde scherm, klap "Webservice" uit en ga naar "Partijen ophalen". Zorg e
 
 
 <img src= ".E-trade client component NL/media/image13.png" >
-Ga nu naar "Partijen ontvangen", deze staat ook binnen "Webservice". Er staan veel instellingen op deze pagina. Op dit moment zijn er maar 2 instellingen vn belang. De andere instelingen mogen aan en uit gezet worden naar uw eigen wens. De instelling "Default Artikelgroep" moet worden gezet naar "Nieuw artikel (00000001)", en check de checkbox naast "Ingelezen informatie opslaan in ExPartij (neemt veel ruimte in)". Als het type webservice "Florisoft webservice" is, dan is deze optie er niet en hoeft hij niet aangezet te worden. Maar dat is bij deze handleiding wel het geval, aangezien het webservice type ETrade 0.7 is.
+Ga nu naar "Partijen ontvangen", deze staat ook binnen "Webservice". Er staan veel instellingen op deze pagina. Op dit moment zijn er maar 2 instellingen van belang. De andere instelingen mogen aan en uit gezet worden naar eigen wens. De instelling "Default Artikelgroep" moet worden gezet naar "Nieuw artikel (00000001)", en check de checkbox naast "Ingelezen informatie opslaan in ExPartij (neemt veel ruimte in)". Als het type webservice "Florisoft webservice" is, dan is deze optie er niet en hoeft hij niet aangezet te worden. Maar dat is bij deze handleiding wel het geval, aangezien het webservice type ETrade 0.7 is.
 
 
 <img src= ".E-trade client component NL/media/image14.png" >
