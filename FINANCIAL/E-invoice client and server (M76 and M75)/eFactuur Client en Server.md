@@ -144,4 +144,4 @@ overeenkomen en daarvoor is dus de totaalbedrag invoer nodig.
 Eventueel zou je er vanuit kunnen gaan dat de XML en PDF altijd
 overeenkomt (en die wellicht steeksproefgewijs te controleren) en zo dus
 echt puur kunnen kijken of de aantallen en credits die eventueel zijn
-doorgeven wel kloppen
+doorgeven wel kloppen.
