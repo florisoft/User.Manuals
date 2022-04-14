@@ -113,7 +113,7 @@ specifieke status. :
 ![](.eFactuur%20Client%20en%20Server/media/image6.png)
 
 Verder:  
--De eFactuur heeft een door Florisoft zelf ontwikeld bestandsopbouw.
+-De eFactuur heeft een door Florisoft zelf ontwikkeld bestandsopbouw.
 Deze staat los van de ‘veilingfactuur’. Dit is gekozen omdat de
 Florisoft eFactuur minder aanpassingen krijgt. Tenslotte zijn het
 allemaal Florisoft gebruikers die dit systeem gebruiken. Daarnaast kan
