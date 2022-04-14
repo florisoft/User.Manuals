@@ -60,7 +60,7 @@ de gebruiker zelf voor elke factuurregel de inkoopregel opzocht en deze
 afboekte als deze correct was. Dit proces kost veel tijd en is
 foutgevoelig. Zeker met de voorraadkoppeling waarbij de leverancier 8
 factuurregels kan sturen terwijl het in de inkoop maar 1 regel is of de
-leverancier stuurt 8 factuurregel (lag er maar net aan wanneer de
+leverancier stuurt 8 factuurregel (ligt er maar net aan wanneer de
 leverancier zijn factuur maakte en stuurde) terwijl het in de
 inkoophistorie 2 regels zijn was dit een langdurig proces. De werking
 van de eFactuur Client is als volgt:
