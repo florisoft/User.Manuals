@@ -29,7 +29,7 @@ Het kan zijn dat na het schuiven je de melding 'Geen voorraad geactiveerd.' krij
 <img src=".Boeket maken/media/image4.png"/>
 
 Klik hierbij op OK. Om dit weg te krijgen moet je een voorraad activeren.
-Dit doe je door op de bij opties 'Voorraadselectie' de juist voorraad in te stellen.
+Dit doe je door op de bij opties 'Voorraadselectie' de juiste voorraad in te stellen.
 
 <img src=".Boeket maken/media/image5.png"/>
 
@@ -87,7 +87,7 @@ Als je klaar bent met het boeket kan je hem printen. Selecteer de regel en druk 
 
 <img src=".Boeket maken/media/image14.png"/>
 
-Na het printen beland het boeket in de box.
+Na het printen belandt het boeket in de box.
 
 Als laatste staat het afsluiten, of gereedmelden, van het boeket. Hierna is geen weg terug meer. Het is dan ook aan te raden dat dit aan het begin of eind van de dag wordt gedaan, zodat de fouten minimaal zijn.
 
