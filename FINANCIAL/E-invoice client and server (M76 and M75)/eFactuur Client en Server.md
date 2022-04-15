@@ -3,10 +3,10 @@
 De module eFactuur Client en eFactuur Server zijn gemaakt om het
 controleren van de inkoopfactuur makkelijker te maken. Dit was voor de
 komst van deze module een handmatig proces wat veel tijd kostte en
-daarnaast foutgevoelig was. De 2 modules werken samen al betekent dat
+daarnaast foutgevoelig was. De 2 modules werken samen, al betekent dat
 niet dat de klant ze allebei nodig heeft. Zo kan de ene klant alleen de
 Client hebben en de andere kant alleen de Server. Dit werkt zowel voor
-koopjes gedaan via een voorraadkoppeling als voor EKT berichten.
+kopen die gedaan worden via een voorraadkoppeling als voor EKT berichten.
 
 *eFactuur Server*
 
@@ -18,11 +18,11 @@ controleren. De eFactuur Server bestaat uit de volgende aspecten:
 een eFactuur meegestuurd in de vorm van een xml bestand. Deze eFactuur
 bevat dezelfde factuurregels als die op de originele factuur. Om er
 zeker van te zijn dat de data op de eFactuur exact overeenkomt met de
-data op de originele factuur wordt de factuur.dbf gebruikt om de
-eFactuur te maken. Dit zelfde bestand wordt ook gebruikt om de print te
+data op de originele factuur wordt deze op hetzelfde moment en met dezelfde data gemaakt.
+Dit zelfde bestand wordt ook gebruikt om de print te
 produceren waardoor de kans op verschillen kleiner wordt. Op de
-originele factuur mogen geen filters in de lay-out van de factuur
-gebruikt worden, aangezien dan de eFactuur niet meer overeenkomt met de
+originele factuur mogen dus ook geen filters in de lay-out van de factuur
+gebruikt worden, aangezien dan de eFactuur dan niet meer overeenkomt met de
 originele factuur. 
 
 -Tijdens het verzenden van een EKT bericht wordt er per factuurregel een
@@ -45,12 +45,11 @@ Client kant.
 *-Bij de debiteuren waarna je eFacturen wilt zenden moet de vink
 aanstaan “Klant ondersteunt Florisoft eFactuur”. Dit triggert alle
 verschillende aspecten van de eFactuur.  
--Bij de klant moet iets ingevuld worden bij: “Optioneel afwijkende
+-Bij de debiteur moet een code ingevuld worden bij: “Optioneel afwijkende
 veilingcode in EKT”. Het is van groot belang dat dit nummer uniek is
 voor die klant. Dat wil zeggen dat als jij bij klant A een afwijkende
-veilingcode aangeeft van 23 dat jij de enige bent die naar die klant 23
-stuurt. Geen ene andere leverancier mag dus naar diezelfde klant 23
-sturen.
+veilingcode aangeeft van 23 dat jij de enige bent die naar die debiteur 23
+stuurt, andere leveranciers dienen dus een andere code te gebruiken. 
 
 *eFactuur Client*
 
