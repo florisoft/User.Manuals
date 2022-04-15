@@ -40,7 +40,7 @@ Als laatste, klik op "Toegankelijke debiteuren" onderaan in het scherm:
 
 <img src= ".E-trade client component NL/media/image8.png" >
 
-Hier vind je een overzicht van alle debiteuren. Hier kan je per debiteur oegang verlenen op specifieke vlakken. Gebruik de uitleg rechts op het scherm:
+Hier vind je een overzicht van alle debiteuren. Hier kan je per debiteur toegang verlenen op specifieke vlakken. Gebruik de uitleg rechts op het scherm:
 
 <img src= ".E-trade client component NL/media/image9.png" >
 
