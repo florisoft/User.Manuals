@@ -1,6 +1,7 @@
+<img src="../../fslogo.png"/>
+
 # Florisoft Beeldbank Handleiding NL
 
-<img src=".Beeldbank_Handleiding_NL/media/image1.jpeg" />
 
 Welkom bij de handleiding voor de module Beeldbank voor de desktop. Deze handleiding is ontworpen om de gebruikers de Beeldbank module aan te leren. Na het lezen van de handleiding, kan de gebruiker succesvol omgaan met de module.
 

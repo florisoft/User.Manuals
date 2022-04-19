@@ -1,4 +1,4 @@
-<img src=".Manual standard EKT-messages Florisoft/media/image1.png" />
+<img src="../../fslogo.png"/>
 
 # **Table of Contents**
 

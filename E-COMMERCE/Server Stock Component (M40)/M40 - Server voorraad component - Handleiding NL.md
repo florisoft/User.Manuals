@@ -1,4 +1,6 @@
-# Handleiding SVC
+<img src="../../fslogo.png"/>
+
+# Handleiding Server Voorraad Component
 
 Welkom bij de handleiding voor de module Server Voorraad Component. SVC wordt gebruikt om je voorraad aan te bieden aan andere organisaties zodat zij in realtime uit de voorraad kunnen kopen. Deze module synchroniseert je voorraad tussen organisaties binnen je eigen backoffice systeem.
 

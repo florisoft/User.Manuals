@@ -1,4 +1,4 @@
-<img src=".FloriShield.docx\media\image21.png" />
+<img src="../../fslogo.png"/>
 
 # FloriShield
 

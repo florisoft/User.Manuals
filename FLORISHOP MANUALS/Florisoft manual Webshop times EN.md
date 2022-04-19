@@ -1,9 +1,7 @@
+<img src="../fslogo.png"/>
+
 **Florisoft manual  
 Webshop times**
-
-<img src=".Florisoft manual Webshop times EN\media\image1.jpeg" style="width:4.33958in;height:1.67917in" />
-
-# 
 
 # Table of contents 
 

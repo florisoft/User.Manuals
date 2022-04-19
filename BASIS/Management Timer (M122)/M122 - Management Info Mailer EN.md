@@ -1,4 +1,4 @@
-<img src=".Management Info Mailer\media\image2.png" />
+<img src="../../fslogo.png"/>
 
 # Management Info Mailer  
 

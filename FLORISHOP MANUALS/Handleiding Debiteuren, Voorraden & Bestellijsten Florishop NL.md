@@ -1,9 +1,7 @@
+<img src="../fslogo.png"/>
+
 **Florisoft handleiding inrichten  
 Debiteuren, voorraden & bestellijsten (Webshop)**
-
-<img src="media\image1.jpeg" style="width:4.33958in;height:1.67917in" alt="C:\Users\babs\Pictures\offerte-logo-Florisoft.jpg" />
-
-# 
 
 # Inhoudsopgave 
 

@@ -1,5 +1,4 @@
-<img src=".Commerciële partijen\media\image13.png" />
-
+<img src="../../fslogo.png"/>
 
 
 **Commerciële partijen**

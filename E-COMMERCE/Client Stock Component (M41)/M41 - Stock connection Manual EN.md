@@ -1,6 +1,6 @@
-# Stock connection Manual
+<img src="../../fslogo.png"/>
 
-<img src=".Stock connection manual/media/image1.png" />
+# Stock connection Manual
 
 Welcome to the manual for the Stock connection module. In this module, we'll explain how to create a stock connection with debtors by creating a seperate stock and supplier. Using these, we can set up a stock connection.
 

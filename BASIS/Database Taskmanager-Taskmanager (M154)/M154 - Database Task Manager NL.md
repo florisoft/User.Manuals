@@ -1,4 +1,4 @@
-<img src=".Database Task Manager\media\image2.png" />
+<img src="../../fslogo.png"/>
 
 
 # Database Task Manager

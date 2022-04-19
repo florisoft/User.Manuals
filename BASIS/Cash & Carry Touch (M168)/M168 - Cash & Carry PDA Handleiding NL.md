@@ -1,6 +1,6 @@
-# **Florisoft Cash & Carry PDA Handleiding**
+<img src="../../fslogo.png"/>
 
-<img src=".Cash &amp; Carry PDA Handleiding\media\image1.jpeg" />
+# **Florisoft Cash & Carry PDA Handleiding**
 
 ## 1 Voorwoord
 

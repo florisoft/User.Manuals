@@ -1,6 +1,7 @@
+<img src="../../fslogo.png"/>
+
 # Voorraadkoppeling handleiding
 
-<img src=".Voorraadkoppeling Handleiding/media/image1.png" />
 
 Welkom bij de handleiding voor de voorraadkoppeling module. In deze handleiding wordt uitgelegd hoe je een voorraadkoppeling kan maken met debiteuren door een aparte voorraad en leverancier te maken. Met behulp van deze kunnen we een voorraadkoppeling maken.
 

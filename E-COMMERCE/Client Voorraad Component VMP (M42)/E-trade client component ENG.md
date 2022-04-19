@@ -1,6 +1,6 @@
-# E-trade client component
+<img src="../../fslogo.png"/>
 
-<img src= ".E-trade client component ENG/media/picture1.png" >
+# E-trade client component
 
 Welcome to the manual for the stock link module (E-trade client component). This manual explains how to create a stock link with debtors by creating a seperate stock and supplier. With the help of this we can create a stock link. 
 

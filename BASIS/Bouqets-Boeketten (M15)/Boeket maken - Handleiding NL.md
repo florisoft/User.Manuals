@@ -1,6 +1,7 @@
+<img src="../../fslogo.png"/>
+
 # Handleiding Boeket maken
 
-<img src=".Boeket maken/media/image1.jpeg"/>
 
 Welkom bij de handleiding voor het maken van een boeket. Deze handleiding legt <u>niet</u> uit hoe je de boeketverwerkings module kan installeren, maar hoe je een boeket kan samenstellen vanuit de voorraad.
 

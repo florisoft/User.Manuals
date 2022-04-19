@@ -1,6 +1,6 @@
-﻿# **Florisoft manual Commissionair**
+﻿<img src="../../fslogo.png"/>
 
-<img src=".Commissionair Manual - ENG\media\image1.jpeg" style="width:4.33958in;height:1.67917in" alt="C:\Users\babs\Pictures\offerte-logo-Florisoft.jpg" />
+# **Florisoft manual Commissionair**
 
 ##  Preface
 

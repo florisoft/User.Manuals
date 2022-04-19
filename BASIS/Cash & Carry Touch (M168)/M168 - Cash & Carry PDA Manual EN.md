@@ -1,7 +1,7 @@
+<img src="../../fslogo.png"/>
+
 # **Florisoft manual Cash & Carry PDA**
 
-
-![](.Cash%20&amp;%20Carry%20PDA%20Manual/media/image1.jpeg)
 
 ## 1 Preface
 

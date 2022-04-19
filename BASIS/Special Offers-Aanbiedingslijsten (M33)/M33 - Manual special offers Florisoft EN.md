@@ -1,4 +1,4 @@
-> <img src=".Manual Offers Florisoft/media/image1.png" />
+<img src="../../fslogo.png"/>
 
 # Introduction
 

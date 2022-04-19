@@ -1,4 +1,6 @@
-# Manual SVC
+<img src="../../fslogo.png"/>
+
+# Manual Server Stock Component (SVC)
 
 Welcome to the manual for the module Server Stock Component. SVC is used to offer your stock to other organisations so they can buy from stock in realtime. This module synchronises your stock between organisations within your own backoffice system.
 

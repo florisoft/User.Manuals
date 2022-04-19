@@ -1,6 +1,6 @@
-# Florisoft manual Image library
+<img src="../../fslogo.png"/>
 
-<img src=".Beeldbank_Manual_ENG/media/image1.jpeg" style="width:4.33958in;height:1.67917in" />
+# Florisoft manual Image library
 
 Welcome to the Florisoft Imagebank manual for desktop. This guide is
 designed to teach the users how to use the Image library module. After

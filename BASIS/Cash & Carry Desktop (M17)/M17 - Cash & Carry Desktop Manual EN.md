@@ -1,6 +1,6 @@
-﻿# **Florisoft manual Cash & Carry Desktop**
+﻿<img src="../../fslogo.png"/>
 
-<img src=".Cash &amp; Carry Desktop Manual\media\image1.jpeg" style="width:4.33958in;height:1.67917in" />
+# **Florisoft manual Cash & Carry Desktop**
 
 ## 1 Preface
 

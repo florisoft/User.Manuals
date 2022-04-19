@@ -1,6 +1,7 @@
+<img src="../../fslogo.png"/>
+
 # **Florisoft Cash & Carry Handleiding Desktop**
 
-<img src=".Cash &amp; Carry Desktop Handleiding\media\image1.jpeg" style="width:4.33958in;height:1.67917in" />
 
 ## 1 Voorwoord
 
