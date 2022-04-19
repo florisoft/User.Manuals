@@ -1,3 +1,5 @@
+<img src="../../fslogo.png"/>
+
 # (Technische) documentatie KoWaDi client
 
 (Teschnische) beschrijving over het inrichten en functioneren van KoWaDi client in Florisoft.

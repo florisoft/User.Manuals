@@ -1,17 +1,8 @@
-**Snelstart handleiding  
-Mobile foto**
+<img src="../../fslogo.png"/>
 
-<img src=".Snelstart handleiding webshop add on Mobile foto\media\image1.jpeg" style="width:4.33958in;height:1.67917in" />
+# Snelstart handleiding Mobile foto
 
-# 
-
-# Inhoudsopgave
-
-[1 Koppel foto’s met de Mobile foto add on 3](#section-1)
-
-# 
-
-# 1 Koppel foto’s met de Mobile foto add on
+## Koppel foto’s met de Mobile foto add on
 
 Vanaf nu is het mogelijk om zelf foto’s te koppelen aan zowel bestel-
 als voorraadpartijen op de webshop. Deze snelstart handleiding biedt de

@@ -1,6 +1,6 @@
-# Florisoft Handleiding Incasso
+<img src="../../fslogo.png"/>
 
-<img src=".Handleiding Incasso/media/image1.png" />
+# Florisoft Handleiding Incasso
 
 Welkom bij de handleiding voor de module Incasso van Florisoft. In deze handleiding wordt uitgelegd hoe je een incasso kan versturen naar uw klanten.
 

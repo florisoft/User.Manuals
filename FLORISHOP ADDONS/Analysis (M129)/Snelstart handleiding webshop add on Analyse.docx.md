@@ -1,22 +1,16 @@
-**Snelstart handleiding  
-Analyse**
+<img src="../../fslogo.png"/>
 
-<img src=".Snelstart handleiding webshop add on Analyse.docx\media\image1.jpeg" style="width:4.33958in;height:1.67917in" alt="C:\Users\babs\Pictures\offerte-logo-Florisoft.jpg" />
-
-# 
+# Snelstart handleiding Analyse
 
 # Inhoudsopgave
 
-[1 Instellen Google Analytics 3](#instellen-google-analytics)
+[1 Instellen Google Analytics](#instellen-google-analytics)
 
-[2 Instellen Google Tag Manager 4](#instellen-google-tag-manager)
+[2 Instellen Google Tag Manager](#instellen-google-tag-manager)
 
-[3 Koppelen van Tag Manager aan webshop
-5](#koppelen-van-tag-manager-aan-webshop)
+[3 Koppelen van Tag Manager aan webshop](#koppelen-van-tag-manager-aan-webshop)
 
-[3 Gebruik Google Analytics 6](#gebruik-google-analytics)
-
-#  
+[3 Gebruik Google Analytics](#gebruik-google-analytics)
 
 # 1 Instellen Google Analytics
 

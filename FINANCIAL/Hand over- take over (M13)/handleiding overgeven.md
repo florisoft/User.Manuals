@@ -1,3 +1,5 @@
+<img src="../../fslogo.png"/>
+
 # Handleiding Overgeven/Overnemen
 
 Log in bij Florisoft en ga naar constanten.  

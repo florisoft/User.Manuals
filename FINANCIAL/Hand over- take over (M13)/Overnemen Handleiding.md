@@ -1,6 +1,6 @@
-## **Florisoft handleiding Overnemen/Overgeven**
+<img src="../../fslogo.png"/>
 
-<img src=".Overnemen Handleiding/media/image1.jpeg" />
+## Florisoft handleiding Overnemen/Overgeven
 
 ## Voorwoord
 

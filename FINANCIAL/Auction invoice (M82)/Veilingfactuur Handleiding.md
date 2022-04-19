@@ -1,6 +1,6 @@
-# Florisoft Handleiding Veilingfactuur
+<img src="../../fslogo.png"/>
 
-<img src=".Veilingfactuur Manual/media/image1.jpeg" />
+# Florisoft Handleiding Veilingfactuur
 
 Welkom bij de handleiding voor de module Veilingfactuur. De module Florisoft .NET Veilingfactuur is gecreeërd om veilingfacturen te verwerken in het systeem. Deze handleiding beschrijft de module en legt uit hoe de gebruiker er mee om kan gaan.
 

@@ -1,28 +1,22 @@
-**Florishop handleiding  
-Shopping list**
+<img src="../../fslogo.png"/>
 
-<img src=".Handleiding webshop add on Shopping List\media\image1.jpeg" style="width:4.33958in;height:1.67917in" />
-
-# 
+# Florishop handleiding Shopping list
 
 # Inhoudsopgave
 
-[Inhoudsopgave 2](#inhoudsopgave)
+[Inhoudsopgave](#inhoudsopgave)
 
-[1 Inleiding 3](#inleiding)
+[1 Inleiding](#inleiding)
 
-[2 Webshop instellingen aanpassen voor de shopping list
-4](#webshop-instellingen-aanpassen-voor-de-shopping-list)
+[2 Webshop instellingen aanpassen voor de shopping list](#webshop-instellingen-aanpassen-voor-de-shopping-list)
 
-[3 Historische orders toevoegen aan de shopping list
-9](#historische-orders-toevoegen-aan-de-shopping-list)
+[3 Historische orders toevoegen aan de shopping list](#historische-orders-toevoegen-aan-de-shopping-list)
 
-[4 Werken met de shopping list 11](#werken-met-de-shopping-list)
+[4 Werken met de shopping list](#werken-met-de-shopping-list)
 
-[5 Orders toevoegen vanuit het Orderoverzicht
-12](#orders-toevoegen-vanuit-het-orderoverzicht)
+[5 Orders toevoegen vanuit het Orderoverzicht](#orders-toevoegen-vanuit-het-orderoverzicht)
 
-[6 Overige webshop add ons 13](#overige-webshop-add-ons)
+[6 Overige webshop add ons](#overige-webshop-add-ons)
 
 # 1 Inleiding
 

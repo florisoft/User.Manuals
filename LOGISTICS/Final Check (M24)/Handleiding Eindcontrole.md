@@ -1,3 +1,5 @@
+<img src="../../fslogo.png"/>
+
 # Florisoft Eindcontrole
 Welkom bij de handleiding voor de module Eindcontrole van Florisoft. Deze module is ontworpen om de mogelijkheid te creëren waarbij de uitgaande partijen kunnen worden gecontroleerd. Hiermee kan zeker worden gemaakt dat de bestelling compleet is en dat alles naar de juiste klant gaat.
 

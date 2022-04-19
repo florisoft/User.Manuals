@@ -1,29 +1,26 @@
-**Florisoft handleiding inrichten Sales**
+<img src="../../fslogo.png"/>
 
-<img src=".Handleiding inrichten Sales\media\image1.jpeg" style="width:4.33958in;height:1.67917in" />
-
-# 
+# Florisoft handleiding inrichten Sales
 
 # Inhoudsopgave 
 
-[Inhoudsopgave 2](#inhoudsopgave)
+[Inhoudsopgave](#inhoudsopgave)
 
-[1. Inleiding 3](#inleiding)
+[1. Inleiding](#inleiding)
 
-[2. Controleren instellingen vooraf 4](#controleren-instellingen-vooraf)
+[2. Controleren instellingen vooraf](#controleren-instellingen-vooraf)
 
-[3 Relatie leggen tussen verkoper, debiteur & systeemgebruiker
-5](#relatie-leggen-tussen-verkoper-debiteur-systeemgebruiker)
+[3 Relatie leggen tussen verkoper, debiteur & systeemgebruiker](#relatie-leggen-tussen-verkoper-debiteur-systeemgebruiker)
 
-[3.1 Verkoper 5](#verkoper)
+[3.1 Verkoper](#verkoper)
 
-[3.2 Debiteur 7](#debiteur)
+[3.2 Debiteur](#debiteur)
 
-[3.3. Systeemgebruiker 9](#systeemgebruiker)
+[3.3. Systeemgebruiker](#systeemgebruiker)
 
-[4 Sales functionaliteit Webshop 11](#sales-functionaliteit-webshop)
+[4 Sales functionaliteit Webshop](#sales-functionaliteit-webshop)
 
-[5 FAQ 12](#faq)
+[5 FAQ](#faq)
 
 # Inleiding
 

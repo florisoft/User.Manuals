@@ -1,6 +1,6 @@
-# Florisoft Dashboard Handleiding
+<img src="../../fslogo.png"/>
 
-<img src='.Dashboard Handleiding/media/image1.png'/>
+# Florisoft Dashboard Handleiding
 
 Welkom bij de handleiding voor de Dashboarding module. Deze handleiding heeft het doel de lezer te leren hoe een dashboard opgezet kan worden, en hem te ondersteunen in het toevoegen van dashboard componenten. 
 

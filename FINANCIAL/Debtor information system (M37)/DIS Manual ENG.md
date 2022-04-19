@@ -1,6 +1,6 @@
-# Florisoft DIS manual
+<img src="../../fslogo.png"/>
 
-<img src=".DIS Manual/media/image1.png" />
+# Florisoft DIS manual
 
 Welcome to the Florisoft Debtor Information System (DIS) manual. In order to create an insight into a specific customer, you can assign a file to a customer using the DIS module. Within the module, you can add documents and create an overview of all appointments made with a customer, for example appointments concerning shipments or payment.
 

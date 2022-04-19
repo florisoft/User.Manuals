@@ -1,3 +1,5 @@
+<img src="../../fslogo.png"/>
+
 # Implement Florishop Chatfunctie
 
 ## Background information

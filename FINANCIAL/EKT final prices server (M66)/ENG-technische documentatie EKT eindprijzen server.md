@@ -1,3 +1,5 @@
+<img src="../../fslogo.png"/>
+
 # Documentation EKT final prices client
 
 ## 1. Introduction

@@ -1,3 +1,5 @@
+<img src="../../fslogo.png"/>
+
 *Algemeen*
 
 De module eFactuur Client en eFactuur Server zijn gemaakt om het

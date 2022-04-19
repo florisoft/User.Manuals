@@ -1,3 +1,5 @@
+<img src="../../fslogo.png"/>
+
 # Florishop Subklanten
 
 De module “Subklanten” maakt het mogelijk dat 1 gebruiker (Hoofdklant)

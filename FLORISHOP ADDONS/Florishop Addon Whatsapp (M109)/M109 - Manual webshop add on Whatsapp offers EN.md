@@ -1,24 +1,18 @@
-**Florishop manual  
-WhatsApp offers**
+<img src="../../fslogo.png"/>
 
-<img src=".Manual webshop add on Whatsapp offers\media\image1.jpeg" style="width:4.33958in;height:1.67917in" alt="C:\Users\babs\Pictures\offerte-logo-Florisoft.jpg" />
-
-# 
+# Florishop manual WhatsApp offers
 
 # Table of contents
 
-[1. Preface 3](#preface)
+[1. Preface](#preface)
 
-[2 Creating an anonymous debtor in Florisoft
-4](#creating-an-anonymous-debtor-in-florisoft)
+[2 Creating an anonymous debtor in Florisoft](#creating-an-anonymous-debtor-in-florisoft)
 
-[3 Link the anonymous debtor to the webshop
-10](#link-the-anonymous-debtor-to-the-webshop)
+[3 Link the anonymous debtor to the webshop](#link-the-anonymous-debtor-to-the-webshop)
 
-[4 Sent offers via WhatsApp from the webshop
-13](#sent-offers-via-whatsapp-from-the-webshop)
+[4 Sent offers via WhatsApp from the webshop](#sent-offers-via-whatsapp-from-the-webshop)
 
-[5 Other available webshop add ons 16](#other-available-webshop-add-ons)
+[5 Other available webshop add ons](#other-available-webshop-add-ons)
 
 # Preface
 

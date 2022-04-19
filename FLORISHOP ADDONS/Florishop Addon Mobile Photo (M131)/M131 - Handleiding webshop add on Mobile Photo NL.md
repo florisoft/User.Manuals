@@ -1,20 +1,16 @@
-**Florishop handleiding  
-Mobile foto**
+<img src="../../fslogo.png"/>
 
-<img src=".Handleiding webshop add on Mobile Photo\media\image1.jpeg" style="width:4.33958in;height:1.67917in" />
-
-# 
+# Florishop handleiding Mobile foto
 
 # Inhoudsopgave
 
-[1 Inleiding 3](#inleiding)
+[1 Inleiding](#inleiding)
 
-[2 Autoriseer gebruikers voor het koppelen van foto's
-4](#autoriseer-gebruikers-voor-het-koppelen-van-fotos)
+[2 Autoriseer gebruikers voor het koppelen van foto's](#autoriseer-gebruikers-voor-het-koppelen-van-fotos)
 
-[3 Handmatig afbeeldingen koppelen 6](#handmatig-afbeeldingen-koppelen)
+[3 Handmatig afbeeldingen koppelen](#handmatig-afbeeldingen-koppelen)
 
-[4 Overige webshop add ons 13](#overige-webshop-add-ons)
+[4 Overige webshop add ons](#overige-webshop-add-ons)
 
 # 1 Inleiding
 

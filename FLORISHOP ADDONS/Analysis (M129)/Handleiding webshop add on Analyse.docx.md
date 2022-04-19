@@ -1,24 +1,20 @@
-**Florishop handleiding  
-Analyse**
+<img src="../../fslogo.png"/>
 
-<img src=".Handleiding webshop add on Analyse.docx\media\image1.jpeg" style="width:4.33958in;height:1.67917in" alt="C:\Users\babs\Pictures\offerte-logo-Florisoft.jpg" />
-
-# 
+# Florishop handleiding Analyse
 
 # Inhoudsopgave
 
-[1 Inleiding 3](#inleiding)
+[1 Inleiding](#inleiding)
 
-[2 Google Analytics instellen 4](#google-analytics-instellen)
+[2 Google Analytics instellen](#google-analytics-instellen)
 
-[3 Google Tag Manager instellen 11](#google-tag-manager-instellen)
+[3 Google Tag Manager instellen](#google-tag-manager-instellen)
 
-[4 Webshop instellingen wijzigen 22](#webshop-instellingen-wijzigen)
+[4 Webshop instellingen wijzigen](#webshop-instellingen-wijzigen)
 
-[5 Praktische werking add on Analyse
-24](#praktische-werking-add-on-analyse)
+[5 Praktische werking add on Analyse](#praktische-werking-add-on-analyse)
 
-[6 Overige webshop add ons 27](#overige-webshop-add-ons)
+[6 Overige webshop add ons](#overige-webshop-add-ons)
 
 # 1 Inleiding
 

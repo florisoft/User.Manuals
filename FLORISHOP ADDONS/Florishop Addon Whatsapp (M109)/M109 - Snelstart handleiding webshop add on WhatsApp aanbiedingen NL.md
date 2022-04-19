@@ -1,22 +1,16 @@
-**Snelstart handleiding Florishop  
-WhatsApp aanbiedingen**
+<img src="../../fslogo.png"/>
 
-<img src=".Snelstart handleiding webshop add on WhatsApp aanbiedingen\media\image1.jpeg" style="width:4.33958in;height:1.67917in" alt="C:\Users\babs\Pictures\offerte-logo-Florisoft.jpg" />
+# Snelstart handleiding Florishop WhatsApp aanbiedingen
 
 # Inhoudsopgave
 
-[1 Aanmaken anonieme debiteur 3](#aanmaken-anonieme-debiteur)
+[1 Aanmaken anonieme debiteur](#aanmaken-anonieme-debiteur)
 
-[2 Anonieme debiteur rechten geven op de webshop
-5](#anonieme-debiteur-rechten-geven-op-de-webshop)
+[2 Anonieme debiteur rechten geven op de webshop](#anonieme-debiteur-rechten-geven-op-de-webshop)
 
-[3 Instellen anonieme debiteur in de webshop
-6](#instellen-anonieme-debiteur-in-de-webshop)
+[3 Instellen anonieme debiteur in de webshop](#instellen-anonieme-debiteur-in-de-webshop)
 
-[4 Voorraden & partijen delen via WhatsApp
-7](#voorraden-partijen-delen-via-whatsapp)
-
-#  
+[4 Voorraden & partijen delen via WhatsApp](#voorraden-partijen-delen-via-whatsapp)
 
 # 1 Aanmaken anonieme debiteur
 

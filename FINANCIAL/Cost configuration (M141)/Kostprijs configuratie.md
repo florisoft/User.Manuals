@@ -1,3 +1,5 @@
+<img src="../../fslogo.png"/>
+
 # Inhoud
 
 [Licentie 3](#licentie)

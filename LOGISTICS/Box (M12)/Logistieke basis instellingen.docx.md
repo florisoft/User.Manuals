@@ -1,10 +1,12 @@
-[Inleiding 3](#inleiding)
+<img src="../../fslogo.png"/>
 
-[Voorraadinstellingen 4](#_Toc29294780)
+[Inleiding](#inleiding)
 
-[Debiteur instellingen 9](#_Toc29294781)
+[Voorraadinstellingen](#_Toc29294780)
 
-[Werking 11](#werking)
+[Debiteurinstellingen](#_Toc29294781)
+
+[Werking](#werking)
 
 # Inleiding
 

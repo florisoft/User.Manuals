@@ -1,3 +1,5 @@
+<img src="../../fslogo.png"/>
+
 # Documentatie EKT eindprijzen client
 
 ## 1. Inleiding

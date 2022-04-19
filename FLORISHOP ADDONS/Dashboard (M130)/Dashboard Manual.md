@@ -1,6 +1,6 @@
-# Florisoft manual Dashboard
+<img src="../../fslogo.png"/>
 
-<img src=".Dashboard Manual/media/image1.png" />
+# Florisoft manual Dashboard
 
 Welcome to the manual for the Florisoft Dashboard on the webshop. This manual will explain how to install the dashboard in your webshop, and how to add tables and charts to the page.
 

@@ -1,3 +1,5 @@
+<img src="../../fslogo.png"/>
+
 # Instructie Track & Trace module voor Florisoft gebruikers
 
 ## Inhoudsopgave

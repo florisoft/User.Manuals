@@ -1,6 +1,6 @@
-# Florisoft Manual Auction Invoice
+<img src="../../fslogo.png"/>
 
-<img src=".Veilingfactuur Manual/media/image1.jpeg" />
+# Florisoft Manual Auction Invoice
 
 Welcome to the manual for the module Auction invoice. The module Florisoft .Net Auction Invoice is created to process auction invoices in the system. In this manual the module will be explained and it will be shown how to use the module.
 

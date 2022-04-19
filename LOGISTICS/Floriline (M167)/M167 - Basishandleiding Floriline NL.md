@@ -1,6 +1,6 @@
-> <img src=".Basishandleiding Floriline NL\media\image1.png" style="width:3.45972in;height:1.26389in" />
+<img src="../../fslogo.png"/>
 
-# **<u>Inhoudsopgave</u>**
+# <u>Inhoudsopgave</u>
 
 [Inleiding 3](#inleiding)
 

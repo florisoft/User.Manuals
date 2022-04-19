@@ -1,3 +1,5 @@
+<img src="../../fslogo.png"/>
+
 # Manual Open Posts Florisoft
 
 ## Table of contents

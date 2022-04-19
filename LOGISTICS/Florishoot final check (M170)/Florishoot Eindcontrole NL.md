@@ -1,4 +1,6 @@
-# Florishoot eindcontrole
+<img src="../../fslogo.png"/>
+
+# Florishoot Eindcontrole
 
 Met de module Florishoot eindcontrole is het mogelijk om geautomatiseerd via een fotokast orderregels te eindcontroleren. Voordat de producten de vrachtwagen in gaan worden de producten gefotografeerd; eerst wordt de karbouwbarcode_245 (24 karakters lang) gescand. Dit is de barcode die ook op de pickordersticker kan worden afgedrukt. De lopende band geeft een seintje wanneer de foto moet worden gemaakt waarna er een foto wordt gemaakt. De foto's worden in een tijdelijke, instelbare map geplaatst. Middels een kopieer script worden deze lokale foto's naar een server share gekopieerd.
 

@@ -1,23 +1,18 @@
-**Florishop handleiding  
-WhatsApp aanbiedingen**
+<img src="../../fslogo.png"/>
 
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image1.jpeg" style="width:4.33958in;height:1.67917in" alt="C:\Users\babs\Pictures\offerte-logo-Florisoft.jpg" />
-
-# 
+# Florishop handleiding WhatsApp aanbiedingen
 
 # Inhoudsopgave
 
-[1 Inleiding 3](#inleiding)
+[1 Inleiding](#inleiding)
 
-[2 Aanmaken anonieme debiteur 4](#aanmaken-anonieme-debiteur)
+[2 Aanmaken anonieme debiteur](#aanmaken-anonieme-debiteur)
 
-[3 Anonieme debiteur koppelen aan de webshop
-10](#anonieme-debiteur-koppelen-aan-de-webshop)
+[3 Anonieme debiteur koppelen aan de webshop](#anonieme-debiteur-koppelen-aan-de-webshop)
 
-[4 WhatsApp aanbiedingen versturen vanuit de webshop
-13](#whatsapp-aanbiedingen-versturen-vanuit-de-webshop)
+[4 WhatsApp aanbiedingen versturen vanuit de webshop](#whatsapp-aanbiedingen-versturen-vanuit-de-webshop)
 
-[5 Overige webshop add ons 16](#overige-webshop-add-ons)
+[5 Overige webshop add ons](#overige-webshop-add-ons)
 
 # 1 Inleiding
 

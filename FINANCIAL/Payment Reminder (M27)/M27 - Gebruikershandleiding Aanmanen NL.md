@@ -1,20 +1,16 @@
-**Florisoft handleiding  
-Aanmaningen**
+<img src="../../fslogo.png"/>
 
-<img src=".Gebruikershandleiding Aanmanen\media\image1.jpeg" style="width:4.33958in;height:1.67917in" />
-
-# 
+# Florisoft handleiding aanmaningen
 
 # Inhoudsopgave 
 
-[1 Inleiding 3](#inleiding)
+[1 Inleiding](#inleiding)
 
-[2 Optioneel: mailadressen debiteuren instellen
-4](#optioneel-mailadressen-debiteuren-instellen)
+[2 Optioneel: mailadressen debiteuren instellen](#optioneel-mailadressen-debiteuren-instellen)
 
-[3 Benodigde kolommen activeren 6](#benodigde-kolommen-activeren)
+[3 Benodigde kolommen activeren](#benodigde-kolommen-activeren)
 
-[4 Aanmaningen versturen 8](#aanmaningen-versturen)
+[4 Aanmaningen versturen](#aanmaningen-versturen)
 
 # Inleiding
 

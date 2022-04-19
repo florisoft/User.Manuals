@@ -1,17 +1,8 @@
-**Snelstart handleiding  
-Shopping List**
+<img src="../../fslogo.png"/>
 
-<img src=".Snelstart handleiding webshop add on Shopping List\media\image1.jpeg" style="width:4.33958in;height:1.67917in" alt="C:\Users\babs\Pictures\offerte-logo-Florisoft.jpg" />
+# Snelstart handleiding Shopping List
 
-# 
-
-# Inhoudsopgave
-
-[1 Koppel foto’s met de Mobile foto add on 3](#section-1)
-
-# 
-
-# 1 Webshop instellingen aanpassen voor de shopping list
+## 1 Webshop instellingen aanpassen voor de shopping list
 
 De Shopping List add on fungeert als een soort boodschappenlijst in de
 webshop. Het biedt de klant een gemakkelijke manier om snel bepaalde
@@ -22,7 +13,7 @@ aantal instellingen nodig om de Shopping List werkend te maken.
 
 <img src=".Snelstart handleiding webshop add on Shopping List\media\image3.png" style="width:5.16648in;height:2.88542in" />
 
-#  2 Historische orders toevoegen aan de shopping list 
+## 2 Historische orders toevoegen aan de shopping list 
 
 Het eerste scherm van de shopping list is het ‘Orders’ scherm. In dit
 scherm kan men de keuze maken welke orders en gerelateerde producten
@@ -34,7 +25,7 @@ beschreven.
 
 <img src=".Snelstart handleiding webshop add on Shopping List\media\image4.png" style="width:2.78333in;height:3.96875in" />
 
-# 3 Werking Shopping list
+## 3 Werking Shopping list
 
 <img src=".Snelstart handleiding webshop add on Shopping List\media\image5.png" style="width:3.48958in;height:4.11394in" />Na
 het importeren van de orders/artikelen opent de shopping list aan de
@@ -53,9 +44,7 @@ handleiding webshop add on Analyse. Tijdens het instellen van Google Tag
 Manager wordt er een ID gegenereerd. Kopieer en plak deze ID in een
 tekstbestand. Dit ID is nodig om stap 3 uit te voeren.
 
-#  
-
-# 3 Koppelen van Tag Manager aan webshop
+## 4 Koppelen van Tag Manager aan webshop
 
 Na het instellen van Google Analytics en Tag Manager is het mogelijk om
 de Tag Manager te koppelen aan de webshop.
@@ -71,7 +60,7 @@ vervolgens de instellingen op met het wachtwoord voor de settings.
 <img src=".Snelstart handleiding webshop add on Shopping List\media\image10.png" style="width:4.10417in;height:2.13056in" /><img src=".Snelstart handleiding webshop add on Shopping List\media\image11.png" style="width:4.58814in;height:1.9375in" />**  
 **
 
-# 3 Gebruik Google Analytics 
+## 5 Gebruik Google Analytics 
 
 Na het invullen van de Tag Manager ID in de webshop is het mogelijk om
 Google Analytics te gebruiken. Hieronder worden een aantal screenshots

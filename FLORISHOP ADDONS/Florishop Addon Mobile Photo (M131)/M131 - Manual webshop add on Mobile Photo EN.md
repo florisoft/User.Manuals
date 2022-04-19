@@ -1,20 +1,16 @@
-**Florishop manual  
-Mobile Photo**
+<img src="../../fslogo.png"/>
 
-<img src=".Manual webshop add on Mobile Photo\media\image1.jpeg" style="width:4.33958in;height:1.67917in" />
-
-# 
+# Florishop manual Mobile Photo
 
 # Table of contents
 
-[1 Preface 3](#preface)
+[1 Preface](#preface)
 
-[2 Authorize users for linking photos
-4](#authorize-users-for-linking-photos)
+[2 Authorize users for linking photos](#authorize-users-for-linking-photos)
 
-[3 Link photos to webshop parcels 6](#link-photos-to-webshop-parcels)
+[3 Link photos to webshop parcels](#link-photos-to-webshop-parcels)
 
-[4 Other available webshop add ons 14](#other-available-webshop-add-ons)
+[4 Other available webshop add ons](#other-available-webshop-add-ons)
 
 # 1 Preface
 

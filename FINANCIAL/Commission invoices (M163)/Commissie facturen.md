@@ -1,3 +1,5 @@
+<img src="../../fslogo.png"/>
+
 ## **Commissie facturen**
 
 Commissie facturen worden gegenereerd tijdens het origineel printen van

@@ -1,6 +1,7 @@
+<img src="../../fslogo.png"/>
+
 # Florisoft DIS Handleiding
 
-<img src=".DIS Manual/media/image1.png" />
 Welkom bij de module handleiding voor Florisoft Debtor Information systems. Om een duidelijk inzicht te krijgen in een specifieke klant, kunt u met Florisoft .Net Debiteur Informatie Systeem een dossier aanleggen per klant. Hierin kunt u documenten toevoegen en een overzicht krijgen van alle afspraken die u met een klant heeft gemaakt, zoals afspraken met betrekking tot betalingen en leveringen.
 
 Als u de module Florisoft .Net Aanmaningen gebruikt, worden deze tevens in dit dossier verwerkt. Daarnaast geeft deze module uitgebreid inzicht in de open posten en het betaalgedrag van de klant in overzichten en grafieken, en kunt u bekijken wat een klant aan omzet per jaar heeft gegenereerd. De overzichtelijkheid van de contactinformatie en de mogelijkheid om snel het dossier aan te kunnen vullen en raadplegen stelt u in staat om een klant telefonisch te woord te staan en tegelijk uw dossier bij te werken. 

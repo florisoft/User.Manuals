@@ -1,3 +1,5 @@
+<img src="../../fslogo.png"/>
+
 *General*
 
 The module eFactuur (or eInvoice) Client & eFactuur (or eInvoice) Server were made to simplify the process of checking the purchase invoice. before the arrival of this module, it was a manual process that took a lot of time and was prone to errors. The 2 modules work together, although this does not mean that the customer needs them both. This way, a customer could only have the  Client and the other only have the Server. This also works for bargains made via a stock link as for EKT messages.
