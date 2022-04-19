@@ -11,5 +11,5 @@
 # [Visit Florisoft Academy](https://www.youtube.com/channel/UC_LdX_bCM0w-mTjnUp-70VQ)
 
 
-<img src="/fslogo.png">
+<img src="fslogo.png">
 
