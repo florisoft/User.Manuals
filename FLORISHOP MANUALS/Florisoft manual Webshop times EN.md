@@ -1,36 +1,28 @@
 <img src="../fslogo.png"/>
 
-**Florisoft manual  
-Webshop times**
+# Florisoft manual Webshop times
 
 # Table of contents 
 
-# 
+[1 Preface](#preface)
 
-[1 Preface 3](#preface)
+[2 Use cases webshop times](#use-cases-webshop-times)
 
-[2 Use cases webshop times 4](#use-cases-webshop-times)
+[2.1 Opening and closing of stock(s)](#opening-and-closing-of-stocks)
 
-[2.1 Opening and closing of stock(s) 4](#opening-and-closing-of-stocks)
+[2.2 Time schedules combined with departure days](#time-schedules-combined-with-departure-days)
 
-[2.2 Time schedules combined with departure days
-5](#time-schedules-combined-with-departure-days)
+[3 Creating time schedules in Florisoft](#creating-time-schedules-in-florisoft)
 
-[3 Creating time schedules in Florisoft
-8](#creating-time-schedules-in-florisoft)
+[4 Applying time schedules](#applying-time-schedules)
 
-[4 Applying time schedules 10](#applying-time-schedules)
+[4.1 Opening and closing a stock](#opening-and-closing-a-stock)
 
-[4.1 Opening and closing a stock 10](#opening-and-closing-a-stock)
+[4.2 Using time schedules combined with departure days](#using-time-schedules-combined-with-departure-days)
 
-[4.2 Using time schedules combined with departure days
-13](#using-time-schedules-combined-with-departure-days)
+[4.3 Link time schedules to stocks and debtors](#link-time-schedules-to-stocks-and-debtors)
 
-[4.3 Link time schedules to stocks and debtors
-16](#link-time-schedules-to-stocks-and-debtors)
-
-[4.4 Optional: use departure days together with Delivery days
-19](#optional-use-departure-days-together-with-delivery-days)
+[4.4 Optional: use departure days together with Delivery days](#optional-use-departure-days-together-with-delivery-days)
 
 # Preface
 
