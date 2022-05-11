@@ -18,7 +18,7 @@ Na het kiezen van een bron, bijvoorbeeld uit de voorraad, selecteer je eerst uit
 
 <img src=".Handleiding Active Email\media\2022-04-12-14-43-50.png" />
 
-Vervolgens zie je de geslecteerde partijen terug in het aanbiedings overzicht. Hier kun je ook de prijzen e.d. aanpassen. De prijs die je in de kolom 'prijs' invult, is de prijs die de klant in de aanbieding en op de webshop zal zien. Om dit scherm te sluiten, druk je op OK. Alle wijzigingen worden op deze manier opgeslagen.
+Vervolgens zie je de geselecteerde partijen terug in het aanbiedings overzicht. Hier kun je ook de prijzen e.d. aanpassen. De prijs die je in de kolom 'prijs' invult, is de prijs die de klant in de aanbieding en op de webshop zal zien. Om dit scherm te sluiten, druk je op OK. Alle wijzigingen worden op deze manier opgeslagen.
 
 <img src=".Handleiding Active Email\media\2022-04-12-14-44-34.png" />
 
