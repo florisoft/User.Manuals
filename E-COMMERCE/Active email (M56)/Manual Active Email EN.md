@@ -2,11 +2,11 @@
 
 # **Offers and Active Email**
 
-This manual is about creating an offer via the offers module and sending this offer as an active email. Customers can click on a lot in this offer to go to the offers page on their webshop.
+This manual is about making special offers through the offer module and sending this special offer as an active email. Customers can click on a parcel in this special offer to go to the concerned page on their webshop.
 
 <img src=".Manual Active Email\pic1.png" />
 
-We start by selecting which debtor we want to make the offer for. Via the 'open/add' button we can indicate for which debtor we want to do this. Please note, the order number must remain empty otherwise the offer will not be visible on the webshop
+We start by selecting which debtor we want to make the offer for. Via the 'open/add' button we can indicate for which debtor we want to do this. Please note, the order number must remain empty otherwise the offer will not be visible on the webshop.
 
 <img src=".Manual Active Email\pic2.png" />
 
@@ -18,23 +18,23 @@ After choosing a source, for example from stock, you first select from which sto
 
 <img src=".Manual Active Email\pic4.png" />
 
-You will then see the selected lots in the offer overview, where you can also adjust the prices, etc. The price you enter in the price column is the price that the customer will see in the offer and on the webshop. To close this screen press ok, all changes will be saved this way.
+You will then see the selected lots in the offer overview, where you can also adjust the prices, etc. The price you enter in the price column is the price that the customer will see in the offer and on the webshop. To close this screen press OK. All changes will be saved this way.
 
 <img src=".Manual Active Email\pic5.png" />
 
-Then we have to indicate with the button validity date until when the offer is valid, you can also indicate in the column valid from when the offer is valid.
+Then we have to indicate with the button 'validity date' until when the offer is valid. You can also indicate in the column 'valid from' when the offer is valid.
 
 <img src=".Manual Active Email\pic6.png" />
 
-Then you can use the example button to show an example of the offer on screen, for that you must first select which layout you want to use. If everything is to your liking, you can use the email webpage button to send the offer, this uses the data set in the debtor.
+Then you can use the example button to show an example of the offer on screen. For that you must first select which layout you want to use. If you're satisfied, you can use the email webpage button to send the offer. This uses the data set in the debtor.
 
 <img src=".Manual Active Email\pic7.png" />
 
-You can also set a standard layout per debtor, then use the checkbox 'Debtor set layout has priority' in the layout choice when sending.
+You can also set a standard layout per debtor. Use the checkbox 'Debtor set layout has priority' in the layout choice when sending.
 
 <img src=".Manual Active Email\pic8.png" />
 
-Below is an example of what the offer might look like
+Below is an example of what the offer might look like.
 
 <img src=".Manual Active Email\pic9.png" />
 
@@ -42,17 +42,17 @@ When an offer is active for a customer, he will also see a separate offers tab o
 
 <img src=".Manual Active Email\pic10.png" />
 
-If you want to send this offer via whatsapp, you can right click on the offer and copy the offer url, you can paste this URL into whatsapp web and send it this way.
+If you want to send this offer via Whatsapp, you can click 'right' on the offer and copy the offer url. You can paste this URL into Whatsapp web and send it this way.
 
 <img src=".Manual Active Email\pic11.png" />
 
-It is possible that you receive the message below when copying the URL, in which case you must enter your Florishop URL in the debtor data, as in the example below.
+It is possible that you receive the message below when copying the URL. In this case you must enter your Florishop URL in the debtor data, as in the example below.
 
 <img src=".Manual Active Email\pic12.png" />
 
 <img src=".Manual Active Email\pic13.png" />
 
-We have now created an offer for 1 customer, but want to use this offer for other customers as well. For this, we first select the already created offer and press the copy button, this opens the well-known selection screen where we can select the other debtors/debtor groups, etc.
+We have now created an offer for 1 customer, but want to use this offer for other customers as well. For this, we first select the already created special offer and press the copy button, this opens the well-known selection screen where we can select the other debtors/debtor groups, etc.
 
 <img src=".Manual Active Email\pic14.png" />
 
