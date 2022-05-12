@@ -3,10 +3,9 @@
 
 **Commerciële partijen**
 
-Zodra je beschikt over de module Commerciële partijen ( Staat nog niet
-tussen de modules in het module scherm ) heb je bij de
-voorraadinstellingen in de constanten een nieuw tabblad en bij de Setup
-Systeem een apart tabje voor de commerciële partijen instellingen.  
+Zodra je beschikt over de module Commerciële Voorraad Partijen heb je bij de
+voorraadinstellingen in de constanten een nieuw tabblad en bij het setup
+systeem een apart tabje voor de commerciële partijen instellingen.  
   
 In mijn onderstaande voorbeeld heb ik bij Bab Star dus een commerciële
 voorraad aangemaakt en aangegeven: “Is commerciële voorraad”.
@@ -20,14 +19,14 @@ bloemenvoorraad:
 <img src=".Commerciële partijen\media\image2.png" style="width:6.3125in;height:3.09154in" />
 
 De reden waarom deze vink belangrijk is voor het proces, is omdat de
-Timerfunctie “Commerciële partijen aantallen bijwerken”, om de opgegeven
+Timerfunctie “Commerciële partijen aantallen bijwerken” om de opgegeven
 aantal minuten de logistieke voorraad af zal gaan om de aantallen bij te
 werken bij de commerciële partij. Kan namelijk op de logistieke partij
 op verkocht zijn. Zie onderstaand;
 
 <img src=".Commerciële partijen\media\image3.png" style="width:6.3in;height:2.27847in" />
 
-Bij de commerciele voorraden en logistieke vooraden moeten ook onderstaande instellingen aangezet worden op tabblad doorboeken.
+Bij de commerciele voorraden en logistieke vooraden moeten ook onderstaande instellingen aangezet worden op tabblad 'doorboeken'.
 - Bij doorboeken vinkje voor alleen volledig gepickorderde verd. doorboeken, tonen : altijd aan
 - Verdeling doorboeken indien de klant offline is, bij controle volledig gepicked aanzetten.
 
@@ -68,9 +67,9 @@ getoond word. ( zie onderstaand voorbeeld )
 <u>Voorbeeld:</u>
 
 Als klant JELLE heb ik 320 Alstromeria Virginia gekocht, echter waren
-dit dus 2 verschillende logistieke partijen. Als klant weet ik
+dit dus 2 verschillende logistieke partijen. Als klant weet ik dit
 natuurlijk niet en daarom krijg ik ook 1 factuurregel. De Florisoft
-gebruiker kan dus WEL zien van welke van de logistieke partijen de klant
+gebruiker kan dus WEL zien van welke logistieke partijen de klant
 heeft ontvangen en kan dus ook op deze logistieke partij crediteren (
 rechtermuis op de Logistieke partij ).
 
@@ -86,8 +85,7 @@ geautoriseerd, zodat de verdelingen door geboekt worden. Zowel de
 commerciële partij verdelingen EN logistieke partij verdelingen moeten
 worden door geboekt.
 
-De commerciële voorraad kun je een naam geven zoals je zelf wilt
-natuurlijk, echter krijgt deze voorraad wel een kleur vanuit je thema
+De commerciële voorraad kun je een naam geven zoals je zelf wilt. Echter krijgt deze voorraad wel een kleur vanuit je thema
 van je navigator. Onderstaand voorbeeld is paars:
 
 <img src=".Commerciële partijen\media\image6.png" style="width:8.12472in;height:4.59344in" />

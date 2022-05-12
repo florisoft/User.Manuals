@@ -11,16 +11,16 @@
 
 # Inleiding 
 
-De handleiding aanbiedingen e-mail Florisoft beschrijft de werking van
-de module Aanbiedingen. Deze module wordt gebruikt voor het versturen
-van aanbiedingen naar de klant via mail of PDF. Op deze manier zijn
+Deze handleiding beschrijft de werking van de module Aanbiedingslijsten. 
+Deze module wordt gebruikt voor het versturen
+van aanbiedingen naar de klant via e-mail of PDF. Op deze manier zijn
 bepaalde producten beter onder de aandacht te brengen van de klant.
 
 Hoofdstuk één beschrijft in een aantal stappen, ondersteund met
-afbeeldingen, hoe een aanbieding opgemaakt en verstuurd wordt.
+afbeeldingen, hoe een aanbieding opgemaakt en verstuurt wordt.
 
 **Let op: afbeeldingen in deze handleiding kunnen enigszins afwijken van
-hetgeen u op uw scherm te zien krijgt.**
+hetgeen wat jij op jouw scherm te zien krijgt.**
 
 # 1 Aanbiedingen verzenden via e-mail
 
@@ -121,12 +121,12 @@ Om opeenvolgende producten op te nemen, voer de volgende stappen uit:
 > bepaalt de uiteindelijke vormgeving van de aanbieding. Per aanbieding
 > kan er maar één template actief zijn.
 >
-> Per debiteur kan er ook vooraf (gefixeerd) een layout (template)
-> ingesteld worden. Wanneer de optie “Per debiteur ingestelde layout
+> Per debiteur kan er ook vooraf (gefixeerd) een lay-out (template)
+> ingesteld worden. Wanneer de optie “Per debiteur ingestelde lay-out
 > heeft voorrang” is ingesteld, wordt deze template gebruikt.
 >
-> **Let op: voor het versturen van aanbiedingen via mail dient een
-> emailadres ingevuld te worden in de debiteurinstellingen. Constanten
+> **Let op: voor het versturen van aanbiedingen via e-mail dient een
+> e-mailadres ingevuld te worden in de debiteurinstellingen. Constanten
 > -&gt; Organen -&gt; Debiteuren -&gt; tabblad Adressen.**
 
 1.  Na een klik op “Ok” wordt er een browservenster geopend met een
@@ -138,14 +138,14 @@ Wanneer het voorbeeld naar wens is, kan de aanbieding verzonden of geprint worde
 
 <img src=".Manual Offers Florisoft/media/image12.png" />
 
-Selecteer de juiste instellingen, en druk op OK om te printen!
+Selecteer de juiste instellingen, en druk op OK om te printen.
 
 <img src=".Manual Offers Florisoft/media/image13.png" />
 
 Om de aanbieding te verzenden via e-mail, kies de betreffende
 debiteur in het venster “Aanbiedingen” en selecteer 'Email webpage'.
 
-Kies in het vervolgvenster opnieuw de gewenste layout en klik vervolgens
+Kies in het vervolgvenster opnieuw de gewenste lay-out en klik vervolgens
 op “Ok” om de aanbieding te versturen.
 
 <img src=".Handleiding aanbiedingen mail Florisoft\media\image12.png" style="width:6.72174in;height:4.59205in" />

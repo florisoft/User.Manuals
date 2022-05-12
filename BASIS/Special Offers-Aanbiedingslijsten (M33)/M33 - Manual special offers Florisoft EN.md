@@ -2,13 +2,13 @@
 
 # Introduction
 
-This manual for the Offers module in Florisoft describes how to make offers for debtors. This module is used to create offers for customers. This way, certain items can be brought up to the attention of the customer.
+This manual for the Special Client Offers module in Florisoft describes how to make offers for debtors. This module is used to create offers for customers. This way, certain items can be brought up to the attention of the customer.
 
 **Disclaimer: the pictures in this manual can differ from the actual product**
 
 # Creating offers
 
-This chapter describes how to make offers in Florisoft. For this manual, the module Offers / Aanbiedingen is required. The steps are described below.
+This chapter describes how to make special offers in Florisoft. For this manual, the module Special Client Offers / Aanbiedingslijsten is required. The steps are described below.
 
 1. Start up Florisoft, go to the Navigator and click on the "Offers" button.
 
@@ -22,7 +22,7 @@ This chapter describes how to make offers in Florisoft. For this manual, the mod
 
 <img src=".Manual Offers Florisoft/media/image4.png" />
 
-Once you have selected one, double click to add it to the previous scrren. Now press OK.
+Once you have selected one, double click to add it to the previous screen. Now press OK.
 
 4. If this is the first offer you make for a debtor, the following screen will show. Press Yes / Ja.
 
@@ -93,4 +93,4 @@ Select the desired settings, and your offer will print!
 
 <img src=".Manual Offers Florisoft/media/image13.png" />
 
-You can also send it via e-mail, simply select the desired debtor and press the 'Email webpage' button, in the same screen as the 'print' function, select the proper lay-out en select 'Ok' to send!
+You can also send it by email, simply select the desired debtor and press the 'Email webpage' button, in the same screen as the 'print' function, select the proper lay-out en select 'Ok' to send!
