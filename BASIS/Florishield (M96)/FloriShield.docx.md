@@ -72,7 +72,7 @@ User: Gebruikersnaam van de timer gebruiker die ingelogd moet zijn
 ## Controles
 
 Beschikbare controles:  
-1. Is Florisoft actief? Zo niet dan wordt Florisoft gestart met de
+1\. Is Florisoft actief? Zo niet dan wordt Florisoft gestart met de
 ingestelde gebruiker en wachtwoord en wordt de timer gestart.
 
 2\. Is de juiste gebruiker actief? Zo niet dan wordt er een nieuwe
@@ -127,7 +127,7 @@ weer te tonen.
 De ***FloriShield Service*** stopt automatisch als de Florisoft Client
 wordt gestopt. Het stoppen van de Florisoft Client duurt dan wel iets
 langer, omdat alle verbindingen met de ***FloriShield Service*** moeten
-worden stopt.
+worden gestopt.
 
 ## Meldingen
 
