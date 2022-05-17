@@ -76,16 +76,7 @@ These methods can be combined. An added product can also be removed by selecting
 
 <img src=".Manual Offers Florisoft/media/image9.png" />
 
-8. Close this screen aswell. Head back to the Offer screen. Now you will see the offer we just made. Here, click on "Example" to see a example of the offer.
-
-<img src=".Manual Offers Florisoft/media/image10.png" />
-
-If a screen pops up asking for a template, simply select any of the templates.
-The example:
-
-<img src=".Manual Offers Florisoft/media/image11.png" />
-
-Once the example is up to standards, press "Print" in the offer screen.
+Close this screen and press "Print" in the offer screen.
 
 <img src=".Manual Offers Florisoft/media/image12.png" />
 
@@ -93,4 +84,6 @@ Select the desired settings, and your offer will print!
 
 <img src=".Manual Offers Florisoft/media/image13.png" />
 
-You can also send it by email, simply select the desired debtor and press the 'Email webpage' button, in the same screen as the 'print' function, select the proper lay-out en select 'Ok' to send!
+The add-on module Active E-mail offers additional functionality to send special offers in an email in html format to your customers. This takes your customers to the special offer in your webshop in one click.
+
+To enable this module please ask support or reception.

@@ -2,10 +2,9 @@
 
 # **<u>Inhoudsopgave</u>**
 
-[Inleiding 3](#inleiding)
+[Inleiding](#inleiding)
 
-[1 Aanbiedingen verzenden via e-mail
-4](#aanbiedingen-verzenden-via-e-mail)
+[1 Aanbiedingen verzenden via e-mail](#aanbiedingen-verzenden-via-e-mail)
 
 # 
 
@@ -43,14 +42,14 @@ voor stap uitgelegd.
 
 <img src=".Handleiding aanbiedingen mail Florisoft\media\image4.png" style="width:3.54216in;height:6.41756in" />
 
-1.  Wanneer de gekozen debiteur nog geen lijst van aanbiedingen heeft,
+2.  Wanneer de gekozen debiteur nog geen lijst van aanbiedingen heeft,
     zie je het volgende venster:
 
 <img src=".Handleiding aanbiedingen mail Florisoft\media\image5.png" style="width:4.0839in;height:1.6669in" />
 
 Klik op ‘Ja’ om een nieuwe aanbiedingslijst te maken.
 
-1.  Nu verschijnt het venster ‘Aanbieding (Debnr:X, Order:) R9 ()
+3.  Nu verschijnt het venster ‘Aanbieding (Debnr:X, Order:) R9 ()
 
 <img src=".Handleiding aanbiedingen mail Florisoft\media\image6.png" style="width:6.53125in;height:4.32151in" />
 
@@ -60,7 +59,7 @@ Klik op ‘Ja’ om een nieuwe aanbiedingslijst te maken.
 
 Klik vervolgens op de knop ‘Toevoegen’.
 
-1.  In het venster ‘Partijen toevoegen uit…’ zijn drie mogelijkheden om
+4.  In het venster ‘Partijen toevoegen uit…’ zijn drie mogelijkheden om
     producten te selecteren voor in de aanbiedingslijst:
 
 -   Bestellijst: artikelen selecteren uit een bestellijst.
@@ -73,7 +72,7 @@ Klik vervolgens op de knop ‘Toevoegen’.
 
 In dit geval is gekozen voor Voorraad. Klik vervolgens op ‘Ok’.
 
-1.  Het volgende venster opent.
+5.  Het volgende venster opent.
 
 <img src=".Handleiding aanbiedingen mail Florisoft\media\image8.png" style="width:6.71304in;height:3.63618in" />
 
@@ -105,14 +104,12 @@ Om opeenvolgende producten op te nemen, voer de volgende stappen uit:
 4.  Blijf op de spatiebalk drukken totdat alle gewenste producten
     geselecteerd zijn.
 
-<!-- -->
-
-1.  Sluit de voorraad na het selecteren van de producten. Nu verschijnen
+5.  Sluit de voorraad na het selecteren van de producten. Nu verschijnen
     de geselecteerde producten in het volgende venster.
 
 <img src=".Handleiding aanbiedingen mail Florisoft\media\image9.png" style="width:6.5566in;height:2.14171in" />
 
-1.  Selecteer de eerder aangemaakte aanbieding in het venster
+6.  Selecteer de eerder aangemaakte aanbieding in het venster
     ‘Aanbiedingen’ en klik op ‘Voorbeeld’.
 
 <img src=".Handleiding aanbiedingen mail Florisoft\media\image10.png" style="width:6.54633in;height:2.85849in" />
@@ -142,10 +139,5 @@ Selecteer de juiste instellingen, en druk op OK om te printen.
 
 <img src=".Manual Offers Florisoft/media/image13.png" />
 
-Om de aanbieding te verzenden via e-mail, kies de betreffende
-debiteur in het venster “Aanbiedingen” en selecteer 'Email webpage'.
-
-Kies in het vervolgvenster opnieuw de gewenste lay-out en klik vervolgens
-op “Ok” om de aanbieding te versturen.
-
-<img src=".Handleiding aanbiedingen mail Florisoft\media\image12.png" style="width:6.72174in;height:4.59205in" />
+De add-on module Active E-mail biedt extra functionaliteit om opgemaakte aanbiedingen in html naar klanten te versturen. Van hieruit klikt de klant direct door naar de betreffende partij in de webshop.
+Vraag hiervoor een offerte aan via support of receptie. 
