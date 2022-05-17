@@ -1,30 +1,10 @@
 <img src="../../fslogo.png"/>
 
-# **Offers and Active Email**
+# **Active Email**
 
-This manual is about making special offers through the offer module and sending this special offer as an active email. Customers can click on a parcel in this special offer to go to the concerned page on their webshop.
+For this add-on module the module Special Offers is required.
 
-<img src=".Manual Active Email\pic1.png" />
-
-We start by selecting which debtor we want to make the offer for. Via the 'open/add' button we can indicate for which debtor we want to do this. Please note, the order number must remain empty otherwise the offer will not be visible on the webshop.
-
-<img src=".Manual Active Email\pic2.png" />
-
-When a debtor is selected you can start adding the lots. For this we press the 'add' button and choose in which source we want to select the parts. You can use lots from stock and order list in 1 offer
-
-<img src=".Manual Active Email\pic3.png" />
-
-After choosing a source, for example from stock, you first select from which stock you want to select. Then you use the space bar to select the lots that you want to have on offer, when you are done selecting you close the stock or order list screen, you do not have to save anything first.
-
-<img src=".Manual Active Email\pic4.png" />
-
-You will then see the selected lots in the offer overview, where you can also adjust the prices, etc. The price you enter in the price column is the price that the customer will see in the offer and on the webshop. To close this screen press OK. All changes will be saved this way.
-
-<img src=".Manual Active Email\pic5.png" />
-
-Then we have to indicate with the button 'validity date' until when the offer is valid. You can also indicate in the column 'valid from' when the offer is valid.
-
-<img src=".Manual Active Email\pic6.png" />
+In order to send an Active E-mail first [create a special offer in Florisoft](https://github.com/florisoft/User.Manuals/tree/main/BASIS/Special%20Offers-Aanbiedingslijsten%20(M33))
 
 Then you can use the example button to show an example of the offer on screen. For that you must first select which layout you want to use. If you're satisfied, you can use the email webpage button to send the offer. This uses the data set in the debtor.
 
