@@ -117,5 +117,5 @@ Selecteer de juiste instellingen, en druk op OK om te printen.
 
 <img src=".Manual Offers Florisoft/media/image13.png" />
 
-De add-on module Active E-mail biedt extra functionaliteit om opgemaakte aanbiedingen in html naar klanten te versturen. Van hieruit klikt de klant direct door naar de betreffende partij in de webshop.
+De add-on module [Active E-mail](https://github.com/florisoft/User.Manuals/tree/main/E-COMMERCE/Active%20email%20(M56)) biedt extra functionaliteit om opgemaakte aanbiedingen in html naar klanten te versturen. Van hieruit klikt de klant direct door naar de betreffende partij in de webshop.
 Vraag hiervoor een offerte aan via support of receptie. 

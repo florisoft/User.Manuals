@@ -84,6 +84,6 @@ Select the desired settings, and your offer will print!
 
 <img src=".Manual Offers Florisoft/media/image13.png" />
 
-The add-on module Active E-mail offers additional functionality to send special offers in an email in html format to your customers. This takes your customers to the special offer in your webshop in one click.
+The add-on module [Active E-mail](https://github.com/florisoft/User.Manuals/tree/main/E-COMMERCE/Active%20email%20(M56)) offers additional functionality to send special offers in an email in html format to your customers. This takes your customers to the special offer in your webshop in one click.
 
 To enable this module please ask support or reception.
