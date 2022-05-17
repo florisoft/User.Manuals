@@ -109,29 +109,7 @@ Om opeenvolgende producten op te nemen, voer de volgende stappen uit:
 
 <img src=".Handleiding aanbiedingen mail Florisoft\media\image9.png" style="width:6.5566in;height:2.14171in" />
 
-6.  Selecteer de eerder aangemaakte aanbieding in het venster
-    ‘Aanbiedingen’ en klik op ‘Voorbeeld’.
-
-<img src=".Handleiding aanbiedingen mail Florisoft\media\image10.png" style="width:6.54633in;height:2.85849in" />
-
-> Selecteer in het venster “Kies Template” een template. De template
-> bepaalt de uiteindelijke vormgeving van de aanbieding. Per aanbieding
-> kan er maar één template actief zijn.
->
-> Per debiteur kan er ook vooraf (gefixeerd) een lay-out (template)
-> ingesteld worden. Wanneer de optie “Per debiteur ingestelde lay-out
-> heeft voorrang” is ingesteld, wordt deze template gebruikt.
->
-> **Let op: voor het versturen van aanbiedingen via e-mail dient een
-> e-mailadres ingevuld te worden in de debiteurinstellingen. Constanten
-> -&gt; Organen -&gt; Debiteuren -&gt; tabblad Adressen.**
-
-1.  Na een klik op “Ok” wordt er een browservenster geopend met een
-    voorbeeld.
-
-<img src=".Handleiding aanbiedingen mail Florisoft\media\image11.png" style="width:3.74783in;height:4.44457in" />
-
-Wanneer het voorbeeld naar wens is, kan de aanbieding verzonden of geprint worden.
+Wanneer dit naar wens is, kan de aanbieding verzonden of geprint worden.
 
 <img src=".Manual Offers Florisoft/media/image12.png" />
 
