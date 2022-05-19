@@ -1,4 +1,4 @@
-# User Manuals toet
+# User Manuals
 
 **Starting guides per module, for Florisoft users**
 
