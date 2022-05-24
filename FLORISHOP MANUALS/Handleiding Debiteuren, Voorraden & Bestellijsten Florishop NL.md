@@ -23,19 +23,19 @@ Debiteuren, voorraden & bestellijsten (Webshop)**
 
 [4 Voorraad autoriseren (Webshop)](#4-voorraad-autoriseren-webshop)
 
-[4.1 Voorraad autoriseren](##41-voorraad-autoriseren)
+[4.1 Voorraad autoriseren](#41-voorraad-autoriseren)
 
 [4.2 Voorraad autoriseren vanuit de debiteur](#42-voorraad-autoriseren-vanuit-de-debiteur)
 
 [5 Bestellijst autoriseren (Webshop)](#5-bestellijst-autoriseren-webshop)
 
-[5.1 Voorraad autoriseren](##51-bestellijst-autoriseren)
+[5.1 Voorraad autoriseren](#51-bestellijst-autoriseren)
 
-[5.2 Bestellijst autoriseren vanuit de debiteur (Webshop)](##52-bestellijst-autoriseren-vanuit-de-debiteur-webshop)
+[5.2 Bestellijst autoriseren vanuit de debiteur (Webshop)](#52-bestellijst-autoriseren-vanuit-de-debiteur-webshop)
 
 [6 Webshop modulen](#6-webshop-modulen)
 
-[6.1 Facturen](##61-facturen)
+[6.1 Facturen](#61-facturen)
 
 [6.2 Overzicht per klant, Factuurhistorie, Factuurhistorie (Hoofd)](#_Toc10199783)
 
