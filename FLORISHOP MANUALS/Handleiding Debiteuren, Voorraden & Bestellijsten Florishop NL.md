@@ -5,54 +5,49 @@ Debiteuren, voorraden & bestellijsten (Webshop)**
 
 # Inhoudsopgave 
 
-[Inhoudsopgave 2](#inhoudsopgave)
+[Inhoudsopgave](#inhoudsopgave)
 
-[1. Inleiding 3](#inleiding)
+[1. Inleiding](#inleiding)
 
-[2. Controleren instellingen vooraf 4](#controleren-instellingen-vooraf)
+[2. Controleren instellingen vooraf](#controleren-instellingen-vooraf)
 
-[3 Debiteur instellen 5](#debiteur-instellen)
+[3 Debiteur instellen](#debiteur-instellen)
 
-[3.1 Adressen -&gt; Debiteur 6](#adressen---debiteur)
+[3.1 Adressen -&gt; Debiteur](#adressen---debiteur)
 
-[3.2 Financieel 7](#financieel)
+[3.2 Financieel](#financieel)
 
-[3.3 Bankgegevens 8](#bankgegevens)
+[3.3 Bankgegevens](#bankgegevens)
 
-[3.4 Internet -&gt; Internet toegang 9](#internet---internet-toegang)
+[3.4 Internet -&gt; Internet toegang](#internet---internet-toegang)
 
-[4 Voorraad autoriseren (Webshop) 10](#voorraad-autoriseren-webshop)
+[4 Voorraad autoriseren (Webshop)](#voorraad-autoriseren-webshop)
 
-[4.1 Voorraad autoriseren 10](#voorraad-autoriseren)
+[4.1 Voorraad autoriseren](#voorraad-autoriseren)
 
-[5.1 Voorraad autoriseren vanuit de debiteur
-14](#voorraad-autoriseren-vanuit-de-debiteur)
+[5.1 Voorraad autoriseren vanuit de debiteur](#voorraad-autoriseren-vanuit-de-debiteur)
 
-[5 Bestellijst autoriseren (Webshop)
-15](#bestellijst-autoriseren-webshop)
+[5 Bestellijst autoriseren (Webshop)](#bestellijst-autoriseren-webshop)
 
-[5.1 Voorraad autoriseren 15](#bestellijst-autoriseren)
+[5.1 Voorraad autoriseren](#bestellijst-autoriseren)
 
-[5.2 Bestellijst autoriseren vanuit de debiteur (Webshop)
-18](#bestellijst-autoriseren-vanuit-de-debiteur-webshop)
+[5.2 Bestellijst autoriseren vanuit de debiteur (Webshop)](#bestellijst-autoriseren-vanuit-de-debiteur-webshop)
 
-[6 Webshop modulen 19](#webshop-modulen)
+[6 Webshop modulen](#webshop-modulen)
 
-[6.1 Facturen 19](#facturen)
+[6.1 Facturen](#facturen)
 
-[6.2 Overzicht per klant, Factuurhistorie, Factuurhistorie (Hoofd)
-20](#_Toc10199783)
+[6.2 Overzicht per klant, Factuurhistorie, Factuurhistorie (Hoofd)](#_Toc10199783)
 
-[6.3 Klantgegevens 20](#_Toc10199784)
+[6.3 Klantgegevens](#_Toc10199784)
 
-[6.4 Open posten, Open posten betalen 20](#_Toc10199785)
+[6.4 Open posten, Open posten betalen](#_Toc10199785)
 
-[6.5 Order overzicht, Overzicht bestellingen en Hist bestellingen
-21](#_Toc10199786)
+[6.5 Order overzicht, Overzicht bestellingen en Hist bestellingen](#_Toc10199786)
 
-[6.6 Aanvoer 21](#_Toc10199787)
+[6.6 Aanvoer](#_Toc10199787)
 
-[6.7 Credit aanvraag 22](#_Toc10199788)
+[6.7 Credit aanvraag](#_Toc10199788)
 
 # Inleiding
 
