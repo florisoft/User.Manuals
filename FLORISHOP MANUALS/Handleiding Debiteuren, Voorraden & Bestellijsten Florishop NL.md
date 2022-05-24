@@ -80,8 +80,6 @@ hieronder.
 
 <img src="media\image2.png" style="width:6.3in;height:4.85694in" />
 
-**  
-**
 
 # 3 Debiteur instellen
 
@@ -334,38 +332,36 @@ Volg de onderstaande stappen om een bestellijst te autoriseren:
 
 <img src="media\image15.png" style="width:5.54244in;height:1.98986in" />
 
-1.  Vergeet niet om hierbij de systeemgebruikers te autoriseren voor
+3.  Vergeet niet om hierbij de systeemgebruikers te autoriseren voor
     deze voorraad. Dit doe je door naar tabblad Autorisatie te gaan en
     dubbel op de systeemgebruikers te klikken.
 
-2.  Geef in het veld Lijstcode op welke code je wilt gebruiken voor de
+4.  Geef in het veld Lijstcode op welke code je wilt gebruiken voor de
     bestellijst;
 
-3.  Geef in het veld Omschrijving op welke omschrijving je wilt
+5.  Geef in het veld Omschrijving op welke omschrijving je wilt
     gebruiken voor de bestellijst. Dit is de omschrijving die zichtbaar
     is in Florisoft.
 
-<!-- -->
-
-1.  Druk nu op OK.
+6.  Druk nu op OK.
 
 <img src="media\image16.png" style="width:5.63655in;height:2.24418in" />
 
-1.  Ga naar tabblad “Internet Toegang”
+7.  Ga naar tabblad “Internet Toegang”
 
-2.  Zet een vinkje bij: Deze bestellijst staat open op de webshop.
+8.  Zet een vinkje bij: Deze bestellijst staat open op de webshop.
 
-3.  Kies de openingstijd bij: Openingstijden” – Deze kan je aanmaken
+9.  Kies de openingstijd bij: Openingstijden” – Deze kan je aanmaken
     onder Organen -&gt; Systeem -&gt; Dagen & Tijden -&gt; Tijden.
 
 <img src="media\image17.png" style="width:4.904in;height:4.7894in" />
 
-1.  Klik op Toegankelijke Debiteuren om aan te geven welke debiteuren
+10.  Klik op Toegankelijke Debiteuren om aan te geven welke debiteuren
     deze bestellijst mogen zien. Het volgende scherm opent zich nu:
 
 <img src="media\image18.png" style="width:6.3in;height:3.37014in" />
 
-1.  De belangrijkste kolommen worden hieronder beschreven (vullen indien
+11.  De belangrijkste kolommen worden hieronder beschreven (vullen indien
     van toepassing):
 
 <table>
@@ -419,7 +415,7 @@ Volg de onderstaande stappen om een bestellijst te autoriseren:
 </tbody>
 </table>
 
-1.  **Optioneel:** Navigeer naar tabblad Algemeen. Geef - per taal - de
+12.  **Optioneel:** Navigeer naar tabblad Algemeen. Geef - per taal - de
     omschrijving op van de bestellijst onder: Omschrijving per Taal. Dit
     is de omschrijving die zichtbaar is op de Webshop.
 
@@ -435,9 +431,6 @@ naar:
 
 Doorloop nu dezelfde stappen zoals uitgelegd in **hoofdstuk: 5.1
 Bestellijst autoriseren (vanaf punt 9)**
-
-**  
-**
 
 # 6 Webshop modulen
 
@@ -486,8 +479,7 @@ debiteuren op de webshop.
 > ook de vinkjes Facturen, Overzicht per klant, Factuurhistorie,
 > Factuurhistorie (Hoofd) aan staan.
 
-<img src="media\image23.png" style="width:5.51805in;height:1.88679in" />**  
-**
+<img src="media\image23.png" style="width:5.51805in;height:1.88679in" />
 
 > <span id="_Toc10199786" class="anchor"></span>**6.5 Order overzicht,
 > Overzicht bestellingen en Hist bestellingen  
