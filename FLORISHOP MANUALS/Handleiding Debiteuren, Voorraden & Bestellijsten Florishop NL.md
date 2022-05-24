@@ -7,13 +7,13 @@ Debiteuren, voorraden & bestellijsten (Webshop)**
 
 [Inhoudsopgave](#inhoudsopgave)
 
-[1. Inleiding](#inleiding)
+[1 Inleiding](#inleiding)
 
-[2. Controleren instellingen vooraf](#controleren-instellingen-vooraf)
+[2 Controleren instellingen vooraf](#controleren-instellingen-vooraf)
 
 [3 Debiteur instellen](#debiteur-instellen)
 
-[3.1 Adressen -&gt; Debiteur](#adressen---debiteur)
+[3.1 Adressen -&gt; Debiteur](#adressen-debiteur)
 
 [3.2 Financieel](#financieel)
 
@@ -49,7 +49,7 @@ Debiteuren, voorraden & bestellijsten (Webshop)**
 
 [6.7 Credit aanvraag](#_Toc10199788)
 
-# Inleiding
+# 1 Inleiding
 
 Welkom bij de Florisoft handleiding die gaat over het autoriseren van
 debiteuren, voorraden en bestellijsten voor de Webshop. De handleiding
@@ -69,7 +69,7 @@ zoals factuur historie, open posten en overzicht van de bestellingen.
 **Let op: afbeeldingen in deze handleiding kunnen enigszins verschillen
 van wat u op uw eigen scherm ziet.**
 
-# Controleren instellingen vooraf
+# 2 Controleren instellingen vooraf
 
 Er dienen een aantal instellingen vooraf gecontroleerd te worden. Deze
 instellingen worden hieronder beschreven.
