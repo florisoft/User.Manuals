@@ -13,29 +13,29 @@ Debiteuren, voorraden & bestellijsten (Webshop)**
 
 [3 Debiteur instellen](#3-debiteur-instellen)
 
-[3.1 Adressen Debiteur](#3.1-adressen-debiteur)
+[3.1 Adressen Debiteur](#31-adressen-debiteur)
 
-[3.2 Financieel](#3.2-financieel)
+[3.2 Financieel](#32-financieel)
 
-[3.3 Bankgegevens](#3.3-bankgegevens)
+[3.3 Bankgegevens](#33-bankgegevens)
 
-[3.4 Internet toegang](#3.4-internet-toegang)
+[3.4 Internet toegang](#34-internet-toegang)
 
 [4 Voorraad autoriseren (Webshop)](#4-voorraad-autoriseren-webshop)
 
-[4.1 Voorraad autoriseren](##4.1-voorraad-autoriseren)
+[4.1 Voorraad autoriseren](##41-voorraad-autoriseren)
 
-[4.2 Voorraad autoriseren vanuit de debiteur](#4.2-voorraad-autoriseren-vanuit-de-debiteur)
+[4.2 Voorraad autoriseren vanuit de debiteur](#42-voorraad-autoriseren-vanuit-de-debiteur)
 
 [5 Bestellijst autoriseren (Webshop)](#5-bestellijst-autoriseren-webshop)
 
-[5.1 Voorraad autoriseren](##5.1-bestellijst-autoriseren)
+[5.1 Voorraad autoriseren](##51-bestellijst-autoriseren)
 
-[5.2 Bestellijst autoriseren vanuit de debiteur (Webshop)](##5.2-bestellijst-autoriseren-vanuit-de-debiteur-webshop)
+[5.2 Bestellijst autoriseren vanuit de debiteur (Webshop)](##52-bestellijst-autoriseren-vanuit-de-debiteur-webshop)
 
 [6 Webshop modulen](#6-webshop-modulen)
 
-[6.1 Facturen](##6.1-facturen)
+[6.1 Facturen](##61-facturen)
 
 [6.2 Overzicht per klant, Factuurhistorie, Factuurhistorie (Hoofd)](#_Toc10199783)
 
