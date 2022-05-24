@@ -13,29 +13,29 @@ Debiteuren, voorraden & bestellijsten (Webshop)**
 
 [3 Debiteur instellen](#3-debiteur-instellen)
 
-[3.1 Adressen -&gt; Debiteur](#3.1-adressen-debiteur)
+[3.1 Adressen -&gt; Debiteur](##3.1-adressen-debiteur)
 
-[3.2 Financieel](#3.2-financieel)
+[3.2 Financieel](##3.2-financieel)
 
-[3.3 Bankgegevens](#3.3-bankgegevens)
+[3.3 Bankgegevens](##3.3-bankgegevens)
 
-[3.4 Internet -&gt; Internet toegang](#3.4-internet---internet-toegang)
+[3.4 Internet -&gt; Internet toegang](##3.4-internet---internet-toegang)
 
 [4 Voorraad autoriseren (Webshop)](#4-voorraad-autoriseren-webshop)
 
-[4.1 Voorraad autoriseren](#4.1-voorraad-autoriseren)
+[4.1 Voorraad autoriseren](##4.1-voorraad-autoriseren)
 
-[5.1 Voorraad autoriseren vanuit de debiteur](#5.1-voorraad-autoriseren-vanuit-de-debiteur)
+[4.2 Voorraad autoriseren vanuit de debiteur](#4.2-voorraad-autoriseren-vanuit-de-debiteur)
 
 [5 Bestellijst autoriseren (Webshop)](#bestellijst-autoriseren-webshop)
 
-[5.1 Voorraad autoriseren](#bestellijst-autoriseren)
+[5.1 Voorraad autoriseren](##bestellijst-autoriseren)
 
-[5.2 Bestellijst autoriseren vanuit de debiteur (Webshop)](#bestellijst-autoriseren-vanuit-de-debiteur-webshop)
+[5.2 Bestellijst autoriseren vanuit de debiteur (Webshop)](##bestellijst-autoriseren-vanuit-de-debiteur-webshop)
 
 [6 Webshop modulen](#webshop-modulen)
 
-[6.1 Facturen](#facturen)
+[6.1 Facturen](##facturen)
 
 [6.2 Overzicht per klant, Factuurhistorie, Factuurhistorie (Hoofd)](#_Toc10199783)
 
@@ -297,7 +297,7 @@ Volg de onderstaande stappen om een voorraad te autoriseren:
 </tbody>
 </table>
 
-## Voorraad autoriseren vanuit de debiteur
+## 4.2 Voorraad autoriseren vanuit de debiteur
 
 Als je vanuit de debiteur voorraad wilt autoriseren, ga dan naar:
 
@@ -309,7 +309,7 @@ Als je vanuit de debiteur voorraad wilt autoriseren, ga dan naar:
 Doorloop nu dezelfde stappen zoals uitgelegd in **hoofdstuk: 4.1
 Voorraad autoriseren (vanaf stap 9)**
 
-# Bestellijst autoriseren (Webshop)
+# 5 Bestellijst autoriseren (Webshop)
 
 Per bestellijst autoriseer je debiteuren of zij toegang mogen krijgen.
 Er zijn twee mogelijkheden om dit in te stellen:
@@ -446,7 +446,7 @@ Hieronder wordt iedere module kort toegelicht. Niet alle vinkjes zijn
 even relevant. Alleen de belangrijkste worden hieronder toegelicht met
 een voorbeeld.
 
-## Facturen
+## 6.1 Facturen
 
 Het vinkje ‘Facturen’ geeft de debiteur toegang tot zijn historische
 debiteuren op de webshop.
