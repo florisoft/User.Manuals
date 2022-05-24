@@ -9,23 +9,23 @@ Debiteuren, voorraden & bestellijsten (Webshop)**
 
 [1 Inleiding](#1-inleiding)
 
-[2 Controleren instellingen vooraf](#controleren-instellingen-vooraf)
+[2 Controleren instellingen vooraf](#2-controleren-instellingen-vooraf)
 
-[3 Debiteur instellen](#debiteur-instellen)
+[3 Debiteur instellen](#3-debiteur-instellen)
 
-[3.1 Adressen -&gt; Debiteur](#adressen-debiteur)
+[3.1 Adressen -&gt; Debiteur](#3.1-adressen-debiteur)
 
-[3.2 Financieel](#financieel)
+[3.2 Financieel](#3.2-financieel)
 
-[3.3 Bankgegevens](#bankgegevens)
+[3.3 Bankgegevens](#3.3-bankgegevens)
 
-[3.4 Internet -&gt; Internet toegang](#internet---internet-toegang)
+[3.4 Internet -&gt; Internet toegang](#3.4-internet---internet-toegang)
 
-[4 Voorraad autoriseren (Webshop)](#voorraad-autoriseren-webshop)
+[4 Voorraad autoriseren (Webshop)](#4-voorraad-autoriseren-webshop)
 
-[4.1 Voorraad autoriseren](#voorraad-autoriseren)
+[4.1 Voorraad autoriseren](#4.1-voorraad-autoriseren)
 
-[5.1 Voorraad autoriseren vanuit de debiteur](#voorraad-autoriseren-vanuit-de-debiteur)
+[5.1 Voorraad autoriseren vanuit de debiteur](#5.1-voorraad-autoriseren-vanuit-de-debiteur)
 
 [5 Bestellijst autoriseren (Webshop)](#bestellijst-autoriseren-webshop)
 
