@@ -7,7 +7,7 @@ Debiteuren, voorraden & bestellijsten (Webshop)**
 
 [Inhoudsopgave](#inhoudsopgave)
 
-[1 Inleiding](#inleiding)
+[1 Inleiding](#1-inleiding)
 
 [2 Controleren instellingen vooraf](#controleren-instellingen-vooraf)
 
