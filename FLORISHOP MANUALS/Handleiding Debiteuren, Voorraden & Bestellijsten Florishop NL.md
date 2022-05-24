@@ -13,13 +13,13 @@ Debiteuren, voorraden & bestellijsten (Webshop)**
 
 [3 Debiteur instellen](#3-debiteur-instellen)
 
-[3.1 Adressen -&gt; Debiteur](##3.1-adressen-debiteur)
+[3.1 Adressen Debiteur](#3.1-adressen-debiteur)
 
-[3.2 Financieel](##3.2-financieel)
+[3.2 Financieel](#3.2-financieel)
 
-[3.3 Bankgegevens](##3.3-bankgegevens)
+[3.3 Bankgegevens](#3.3-bankgegevens)
 
-[3.4 Internet -&gt; Internet toegang](##3.4-internet---internet-toegang)
+[3.4 Internet toegang](#3.4-internet-toegang)
 
 [4 Voorraad autoriseren (Webshop)](#4-voorraad-autoriseren-webshop)
 
@@ -27,15 +27,15 @@ Debiteuren, voorraden & bestellijsten (Webshop)**
 
 [4.2 Voorraad autoriseren vanuit de debiteur](#4.2-voorraad-autoriseren-vanuit-de-debiteur)
 
-[5 Bestellijst autoriseren (Webshop)](#bestellijst-autoriseren-webshop)
+[5 Bestellijst autoriseren (Webshop)](#5-bestellijst-autoriseren-webshop)
 
-[5.1 Voorraad autoriseren](##bestellijst-autoriseren)
+[5.1 Voorraad autoriseren](##5.1-bestellijst-autoriseren)
 
-[5.2 Bestellijst autoriseren vanuit de debiteur (Webshop)](##bestellijst-autoriseren-vanuit-de-debiteur-webshop)
+[5.2 Bestellijst autoriseren vanuit de debiteur (Webshop)](##5.2-bestellijst-autoriseren-vanuit-de-debiteur-webshop)
 
-[6 Webshop modulen](#webshop-modulen)
+[6 Webshop modulen](#6-webshop-modulen)
 
-[6.1 Facturen](##facturen)
+[6.1 Facturen](##6.1-facturen)
 
 [6.2 Overzicht per klant, Factuurhistorie, Factuurhistorie (Hoofd)](#_Toc10199783)
 
@@ -108,7 +108,7 @@ Het debiteurenscherm bevat een groot aantal tabbladen aan de linkerkant
 van het scherm. Ieder tabblad bevat debiteur specifieke functies. De
 belangrijkste worden hieronder beschreven:
 
-## 3.1 Adressen -&gt; Debiteur
+## 3.1 Adressen Debiteur
 
 1.  Vul in het veld Deb. nummer (no. 5) de debiteurcode in. Deze code is
     het unieke debiteurnummer wat op alle relevante plekken in Florisoft
@@ -161,7 +161,7 @@ belangrijkste worden hieronder beschreven:
 3.  Klik op het tabblad Internet -&gt; Internet toegang (nr. 23) om
     verder te gaan.
 
-## 3.4 Internet -&gt; Internet toegang
+## 3.4 Internet toegang
 
 1.  Zet het vinkje ‘Deze klant heeft toegang via het Internet’ (nr. 28)
     aan. Dit zorgt ervoor dat de klant toegang heeft via het internet
