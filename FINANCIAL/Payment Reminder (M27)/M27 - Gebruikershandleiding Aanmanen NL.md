@@ -55,70 +55,41 @@ Het venster ‘Grid instellingen’ opent.
 
 3.  Druk op de toets combinatie Ctrl + Shift + F op het toetsenbord. Er verschijnt een zoekscherm.
 Typ in het veld ‘Snelzoeken’ op AANM1. 
-4.  Zet een vinkje in de kolom ‘Aan’. (nr. 4)
+4.  Zet een vinkje in de kolom ‘Aan’. > OK
 
 <img src=".Gebruikershandleiding Aanmanen\media\image7.png" style="width:5.84906in;height:5.88645in" />
 
+5.  Herhaal de stappen 1 t/m 4 om de volgende kolommen aan te zetten:
+    Aanm2, Aanm3, Aanm4, Aanm5, Niet Aanmanen en Opmerking. Deze kolommen bevatten de volgende informatie:
 
+> **Aanm1 t/m Aanm5:** krijgt de datum van de eerste tot en met de vijfde aanmaning.  
+> **Niet aanmanen:** vinkje waarmee bepaald kan worden dat een open post meegenomen moet worden in het overzicht naar de klant.  
+> **Opmerking:** veld waarin een opmerking gezet kan worden ter aanvulling/verduidelijking van een open post.
 
-2.  Klik op de knop ‘Ok’ (nr. 5)
+# Aanmaningen versturen
 
-3.  Herhaal de stappen 1 t/m 6 om de volgende kolommen aan te zetten:
-    Aanm2, Aanm3, Aanm4, Aanm5, Niet Aanmanen en Opmerking. Deze
-    kolommen bevatten de volgende informatie:
+1.  Met de juiste kolommen geactiveerd in het ‘Open Posten Debiteuren’ scherm is het mogelijk om vanuit dit scherm aanmaningen te versturen.
 
-> **Aanm1 t/m Aanm5:** krijgt de datum van de eerste tot en met de
-> vijfde aanmaning.  
-> **Niet aanmanen:** vinkje waarmee bepaald kan worden dat een open post
-> meegenomen moet worden in het overzicht naar de klant.  
-> **Opmerking:** veld waarin een opmerking gezet kan worden ter
-> aanvulling/verduidelijking van een open post.
-
-# 4 Aanmaningen versturen
-
-Met de juiste kolommen geactiveerd in het ‘Open Posten Debiteuren’
-scherm is het mogelijk om vanuit dit scherm aanmaningen te versturen.
-Volg onderstaande stappen om een aanmaning te versturen.
-
-1.  Klik in de Navigator op de knop ‘Debiteuren’ (nr. 1) Het venster
-    > ‘Open Posten Debiteuren’ opent.
-
-<img src=".Gebruikershandleiding Aanmanen\media\image4.png" style="width:2.5375in;height:1.26415in" />
-
-1.  Zorg ervoor dat het vinkje ‘Alle debiteuren’ (nr. 2) is
-    > uitgeschakeld.
+2.  Zorg ervoor dat het vinkje ‘Alle debiteuren’ is uitgeschakeld.
+3.  Vul het ‘Debiteurnummer’ in van de aan te manen debiteur > Druk op Enter
+4.  Aan de rechterkant van het scherm verschijnen alle facturen voor de betreffende debiteur.
+5.  **Optioneel:** Zet het vinkje ‘Alleen open posten’ aan om alleen onbetaalde facturen voor de geselecteerde debiteur te bekijken.
 
 <img src=".Gebruikershandleiding Aanmanen\media\image8.png" style="width:5.31132in;height:3.1053in" />
 
-1.  Vul in het veld ‘Debiteurnummer’ (nr. 3) het debiteurnummer in van
-    > de aan te manen debiteur.
 
-2.  Druk op Enter op het toetsenbord. Aan de rechterkant van het scherm
-    > (nr. 4) verschijnen alle facturen voor de betreffende debiteur.
+6.  Selecteer met de spatiebalk de regels die opgenomen dienen te worden in het overzicht op de aanmaning. De geselecteerde regels krijgen een gele achtergrondkleur.
+7.  Klik op ‘Menu’
+8.  Klik op ‘Aanmaningen’. Het venster ‘Meerdere facturen geselecteerd’ opent.
+9.  Klik op de knop ‘Nieuwe Printen’. Het printdialoog opent.
 
-3.  **Optioneel:** Zet het vinkje ‘Alleen open posten’ (nr. 5) aan om
-    > alleen onbetaalde facturen voor de geselecteerde debiteur te
-    > bekijken.
-
-**  
-**
-
-1.  Selecteer met de spatiebalk de regels die opgenomen dienen te worden
-    > in het overzicht op de aanmaning. De geselecteerde regels krijgen
-    > een gele achtergrondkleur. (nr. 6)
+10. Selecteer de juiste lay-out (nr. 10) in het drop down menu onder Print lay-out.
 
 <img src=".Gebruikershandleiding Aanmanen\media\image9.png" style="width:5.71698in;height:2.80682in" />
 
-1.  Klik op ‘Menu’ in de menubalk (nr. 7)
 
-2.  Klik in het menu op ‘Aanmaningen’ (nr. 8) Het venster ‘Meerdere
-    > facturen geselecteerd’ opent.
 
-3.  Klik op de knop ‘Nieuwe Printen’ (nr. 9) Het venster ‘Printen’
-    > opent.
 
-4.  Selecteer de juiste lay-out (nr. 10) in het drop down menu onder
-    > Print lay-out.
 
 <img src=".Gebruikershandleiding Aanmanen\media\image10.png" style="width:4.48113in;height:3.30651in" />
 
