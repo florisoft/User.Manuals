@@ -41,18 +41,13 @@ NB - als hier niets ingevuld wordt, gaan aanmaningen automatisch naar het standa
 
 # Benodigde kolommen activeren
 
-Volg onderstaande stappen om een aantal belangrijke kolommen in het
-scherm ‘Open Posten Debiteuren’ te activeren voor het versturen van
-aanmaningen. Het is mogelijk dat deze kolommen al zichtbaar zijn. Ga dan
-verder naar hoofdstuk vier.
-
-1.  Klik in de Navigator van Florisoft op de knop ‘Debiteuren’. (nr. 1)
-    Het venster ‘Open Posten Debiteuren’ opent.
+1.  Klik in de Navigator van Florisoft op de knop ‘Debiteuren’.
+Het venster ‘Open Posten Debiteuren’ opent.
 
 <img src=".Gebruikershandleiding Aanmanen\media\image4.png" style="width:2.5375in;height:1.26415in" />
 
-1.  Klik met de rechtermuisknop één van de bestaande kolommen. (nr. 2)
-    Het venster ‘Grid instellingen’ opent.
+2.  Klik met de rechtermuisknop één van de bestaande kolommen.
+Het venster ‘Grid instellingen’ opent.
 
 <img src=".Gebruikershandleiding Aanmanen\media\image5.png" style="width:3.12264in;height:0.62453in" />
 
