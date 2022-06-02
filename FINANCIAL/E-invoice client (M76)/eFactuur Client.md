@@ -14,7 +14,7 @@ leverancier zijn factuur maakte en stuurde) terwijl het in de
 inkoophistorie 2 regels zijn was dit een langdurig proces. De werking
 van de eFactuur Client is als volgt:
 
--In de e-mail gekregen van de leverancier zit de originele factuur (als
+- In de e-mail gekregen van de leverancier zit de originele factuur (als
 bijv. pdf) een daarbij een eFactuur (te herkennen aan de .xml extensie).
 In Florisoft klik je met de rechtermuisknop op de knop Historie en kies
 je voor Florisoft eFactuur inlezen:  
@@ -65,7 +65,7 @@ specifieke status. :
 ![](.eFactuur%20Client%20en%20Server/media/image6.png)
 
 Verder:  
--De eFactuur heeft een door Florisoft zelf ontwikkeld bestandsopbouw.
+- De eFactuur heeft een door Florisoft zelf ontwikkeld bestandsopbouw.
 Deze staat los van de ‘veilingfactuur’. Dit is gekozen omdat de
 Florisoft eFactuur minder aanpassingen krijgt. Tenslotte zijn het
 allemaal Florisoft gebruikers die dit systeem gebruiken. Daarnaast kan
@@ -79,8 +79,8 @@ zijn eigen standaard. Daarnaast kan er, indien nodig, veel sneller
 geschakeld worden qua het toevoegen van nieuwe velden.  
 -De pdf factuur en de bijbehorenden eFactuur en de edi berichten staan
 in dezelfde map als deze uitleg.  
--Zonder de eFactuur Server module kan de eFactuur niet worden verstuurd,
+- Zonder de eFactuur Server module kan de eFactuur niet worden verstuurd,
 zijn de efactuurbarcodes altijd leeg, en kan je de vink bij de debiteur
 niet aanzetten.  
--Zonder de eFactuur Client module kan je de inleesfunctie niet gebruiken
+- Zonder de eFactuur Client module kan je de inleesfunctie niet gebruiken
 
