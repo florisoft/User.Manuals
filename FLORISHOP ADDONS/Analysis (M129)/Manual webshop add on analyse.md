@@ -85,3 +85,74 @@ to keep separate.**
      appears. See next page.
 
      FOTO NODIG
+
+Now you are asked to create a new account within Google
+analytics. The webshop is linked to this account. In this way
+Google Analytics is able to monitor the webshop within this account.
+
+> It is possible to monitor multiple web applications within one
+> Google Analytics environment. Each application is linked to a
+> own account.
+
+1. Under 'What would you like to keep track of?', choose website. (no. 2)
+
+2. Enter a name for the account to be created at 'Account name'.
+     (no. 3) This can be any name. It is recommended that a clear
+     think of a name that is related to the webshop, so that it is clear
+     is that this account is used in relation to the webshop.
+
+FOTO NODIG
+
+1. Enter the name of the web application at 'Website name'. (no. 4) Also
+     this name is up to the user to come up with. It is recommended to use a
+     choose a clear name that is related to the webshop.
+
+2. Enter the address of the webshop at 'URL of website', without
+     /florishop. For example: <http://www.domainname.nl> (no. 5) On the
+     The place of domain name will then be the domain name on which the webshop is hosted
+     is becoming.
+
+3. Under 'Industry organisation', select 'Companies and industry' (no. 6)
+
+4. At 'Time zone for reporting' (no. 7) choose the country where the
+     web application is used. Choose the Netherlands with time zone
+     (GMT+02:00) Amsterdam for a Dutch webshop.
+
+5. Leave all the checks on in the screenshot below.
+
+FOTO NODIG
+
+FOTO NODIG
+
+1. Click on the 'Get Tracking ID' button (no. 8) to retrieve the unique ID (code) for this Google Analytics account.
+
+Now a window with terms of service will eappear. This looks likt this:
+1. At no. 9 choose the country in which Google Analytics is used.
+2. Check No. 10 and 11 to accept the terms of service.
+
+foto nodig
+
+1. Click on the "I agree" button (No. 12) to continue. Read more on the next page.
+The management environment of Google Analytics appears. Close any welcome messages to be able to work in the administration environment.
+
+In the screenshot below, the Tracking ID is circled in purple. A tracking ID acts as a kind of key that is used to link the web application (webshop) to Google Analytics.
+
+Note: copy and paste the Tracking ID into a text file (notepad) or write it down. It is important to remember this Tracking ID.
+
+4x foto
+
+The message 'Success' will appear at the top of the screen
+
+The last step within Google Analytics is to set the correct currency. Follow the steps as described below to set the currency correctly.
+
+1. Click on the gear (no. 18) at the bottom left of the screen of the management environment to open the settings.
+
+foto
+
+- In the 'Display' column click on 'Data Display settings' (no. 19)
+
+foto
+
+The message 'Success' will appear at the top of the screen
+
+# Set Google Tag manager
