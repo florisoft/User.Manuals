@@ -96,51 +96,26 @@ Florisoft begint met het printen van de aanmaning. Afhankelijk van het aantal ge
 
 <img src=".Gebruikershandleiding Aanmanen\media\image11.png" style="width:2.22948in;height:1.79192in" />
 
+In het venster ‘Meerdere Facturen geselecteerd’ is nu een overzicht te vinden van alle openstaande facturen die opgenomen zijn in het overzicht van de aanmaningen.
 
-> In het venster ‘Meerdere Facturen geselecteerd’ is nu een overzicht te
-> vinden van alle open staande facturen (nr. 15) die opgenomen zijn in
-> het overzicht van de aanmaningen.
->
-> <img src=".Gebruikershandleiding Aanmanen\media\image12.png" style="width:4.0566in;height:3.14977in" />
+<img src=".Gebruikershandleiding Aanmanen\media\image12.png" style="width:4.0566in;height:3.14977in" />
 
-1.  Klik op de knop ‘Sluiten’ (nr. 16) om het venster ‘Meerdere Facturen
-    > geselecteerd’ te sluiten.
+17. **Optioneel:** het is mogelijk om een aanmaning weer in te trekken door in het venster ‘Meerdere Facturen geselecteerd’ de betreffende regels te selecteren met spatiebalk en op ‘Intrekken Selectie’ te klikken.
 
-> In de kolom Aanm1 (nr. 18) wordt de datum van de eerste keer aanmanen
-> geprint.
+> Alle geselecteerde regels worden dan verwijderd en aangemerkt als niet aangemaand.
 >
-> <img src=".Gebruikershandleiding Aanmanen\media\image13.png" style="width:5.79186in;height:1.66248in" />
+> **Let op: bij het annuleren (intrekken) van één of meerdere open posten in het venster ‘Meerdere Facturen geselecteerd’ worden deze open posten in Florisoft gemarkeerd als zijnde niet aangemaand. Echter is de mail met de aanmaning dan al verstuurd naar de klant.**
 
-1.  **Optioneel:** het is mogelijk om een aanmaning weer in te trekken
-    > door in het venster ‘Meerdere Facturen geselecteerd’ de
-    > betreffende regels te selecteren met de spatiebalk en vervolgens
-    > te klikken op de knop ‘Intrekken Selectie’ (nr. 17)
+18.  In de kolom Aanm1 wordt de datum van de eerste keer aanmanen geprint.
 
-> Alle geselecteerde regels worden verwijderd en aangemerkt als niet
-> aangemaand.
->
-> **Let op: bij het annuleren (intrekken) van één of meerdere open
-> posten in het venster ‘Meerdere Facturen geselecteerd’ worden deze
-> open posten in Florisoft gemarkeerd als zijnde niet aangemaand. Echter
-> is de mail met de aanmaning dan al verstuurd naar de klant.**
->
-> Wanneer een debiteur zijn openstaande posten betaalt, worden deze
-> automatisch verwijderd uit het overzicht van open posten in het scherm
-> ‘Open Posten Debiteuren’.
->
-> Herhaal de stappen één tot en met vijftien om meerdere aanmaningen te
-> versturen. Bij het versturen van de tweede aanmaning zal de datum van
-> versturen gevuld worden in de kolom Aanm2. Bij aanmaning drie, wordt
-> kolom Aanm3 gevuld, enzovoorts.
->
-> Om een open post (tijdelijk) uit te sluiten van het overzicht van
-> aanmaningen, kun je het vinkje Niet Aanmanen (nr. 19) aanzetten. De
-> regel blijft dan als open post van kracht, maar wordt niet opgenomen
-> in het overzicht van de aanmaningen richting de klant.
->
-> Daarnaast is het mogelijk om een opmerking toe te voegen in de kolom
-> ‘Opmerking’. Hier kan een opmerking toegevoegd worden. Deze opmerking
-> is bedoeld om aan te geven waarom deze open post niet wordt meegenomen
-> in het overzicht met aanmaningen.
->
-> <img src=".Gebruikershandleiding Aanmanen\media\image14.png" style="width:3.90566in;height:1.90741in" />
+<img src=".Gebruikershandleiding Aanmanen\media\image13.png" style="width:5.79186in;height:1.66248in" />
+
+Wanneer een debiteur zijn openstaande posten betaalt, worden deze automatisch verwijderd uit het overzicht van open posten in het scherm ‘Open Posten Debiteuren’.
+
+Herhaal de stappen één tot en met vijftien om meerdere aanmaningen te versturen. Bij het versturen van de tweede aanmaning zal de datum van versturen gevuld worden in de kolom Aanm2. Bij aanmaning drie, wordt kolom Aanm3 gevuld, enzovoorts.
+
+Om een open post (tijdelijk) uit te sluiten van het overzicht van aanmaningen, kun je het vinkje Niet Aanmanen (nr. 19) aanzetten. De regel blijft dan als open post van kracht, maar wordt niet opgenomen in het overzicht van de aanmaningen richting de klant.
+
+Daarnaast is het mogelijk om een opmerking toe te voegen in de kolom ‘Opmerking’. Hier kan een opmerking toegevoegd worden. 
+
+<img src=".Gebruikershandleiding Aanmanen\media\image14.png" style="width:3.90566in;height:1.90741in" />
