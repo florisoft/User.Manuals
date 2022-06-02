@@ -1,6 +1,6 @@
 <img src="../../fslogo.png"/>
 
-# Florisoft handleiding aanmaningen
+# Florisoft handleiding aanmanen
 
 # Inhoudsopgave 
 
