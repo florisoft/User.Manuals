@@ -81,37 +81,21 @@ Typ in het veld ‘Snelzoeken’ op AANM1.
 6.  Selecteer met de spatiebalk de regels die opgenomen dienen te worden in het overzicht op de aanmaning. De geselecteerde regels krijgen een gele achtergrondkleur.
 7.  Klik op ‘Menu’
 8.  Klik op ‘Aanmaningen’. Het venster ‘Meerdere facturen geselecteerd’ opent.
-9.  Klik op de knop ‘Nieuwe Printen’. Het printdialoog opent.
-
-10. Selecteer de juiste lay-out (nr. 10) in het drop down menu onder Print lay-out.
 
 <img src=".Gebruikershandleiding Aanmanen\media\image9.png" style="width:5.71698in;height:2.80682in" />
 
+9.  Klik op de knop ‘Nieuwe Printen’. Het printdialoog opent.
+10. Selecteer de juiste lay-out (nr. 10) in het drop down menu onder Print lay-out.
+11. Kies onder ‘Uitvoer’ voor één van de beschikbare opties
+12. Controleer in het veld ‘Email adres’ of de juiste e-mailadressen staan ingevuld.
+13. OK - dit bevestigt de printactie
 
-
-
+Florisoft begint met het printen van de aanmaning. Afhankelijk van het aantal geselecteerde regels, kan dit enige tijd duren. Nadat de aanmaning succesvol is aangemaakt verschijnt onderstaand bevestigingsvenster
 
 <img src=".Gebruikershandleiding Aanmanen\media\image10.png" style="width:4.48113in;height:3.30651in" />
 
-> Lees verder op de volgende pagina.
+<img src=".Gebruikershandleiding Aanmanen\media\image11.png" style="width:2.22948in;height:1.79192in" />
 
-1.  Kies onder ‘Uitvoer’ voor één van de beschikbare opties: Printer,
-    > Scherm, Fax, Email en Bestand. Meestal wordt gekozen voor Email.
-    > (mailen)
-
-2.  Controleer in het veld ‘Email adres’ of de juiste mailadressen staan
-    > ingevuld.
-
-3.  Klik op de knop ‘Ok’ (nr. 13) om de printactie te bevestigen.
-
-> Florisoft begint met het printen van de aanmaning. Afhankelijk van het
-> aantal geselecteerde regels, kan dit enige tijd duren. Nadat de
-> aanmaning succesvol is aangemaakt verschijnt onderstaand
-> bevestigingsvenster:
->
-> <img src=".Gebruikershandleiding Aanmanen\media\image11.png" style="width:2.22948in;height:1.79192in" />
-
-1.  Klik op de knop ‘OK’ om dit venster te sluiten.
 
 > In het venster ‘Meerdere Facturen geselecteerd’ is nu een overzicht te
 > vinden van alle open staande facturen (nr. 15) die opgenomen zijn in
