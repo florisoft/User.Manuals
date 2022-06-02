@@ -4,90 +4,40 @@
 
 # Inhoudsopgave 
 
-[1 Inleiding](#inleiding)
+[E-mailadressen debiteuren instellen](#optioneel-mailadressen-debiteuren-instellen)
 
-[2 Optioneel: mailadressen debiteuren instellen](#optioneel-mailadressen-debiteuren-instellen)
+[Benodigde kolommen activeren](#benodigde-kolommen-activeren)
 
-[3 Benodigde kolommen activeren](#benodigde-kolommen-activeren)
-
-[4 Aanmaningen versturen](#aanmaningen-versturen)
+[Aanmaningen versturen](#aanmaningen-versturen)
 
 # Inleiding
 
-Welkom bij de Florisoft gebruikershandleiding Aanmanen. Deze handleiding
-is bedoeld voor Florisoft gebruikers die gebruik willen maken van de
-module Aanmanen. Deze module stelt de gebruiker in staat om aanmaningen
-te versturen naar debiteuren met open posten over de vervaldatum.
+Met behulp van deze handleiding is het mogelijk om zelfstandig aanmaningen te versturen vanuit Florisoft.
 
-De module is relatief makkelijk in gebruik. Met behulp van deze
-handleiding is het mogelijk om zelfstandig aanmaningen te versturen
-vanuit Florisoft.
 
-De handleiding is onderverdeeld in een aantal hoofdstukken.
+# E-mailadressen debiteuren instellen
 
-Na deze inleiding wordt in hoofdstuk twee een aantal mail gerelateerde
-instellingen beschreven die handig zijn bij het versturen van
-aanmaningen. Deze instellingen zijn niet verplicht, maar kunnen een
-meerwaarde bieden.
+Navigeer in de Constanten naar de Debiteuren. Deze zijn te vinden onder ‘Constanten’ -&gt; ‘Organen’ -&gt; ‘Debiteuren’.
 
-Hoofdstuk drie geeft een overzicht van een aantal belangrijke kolommen
-in het Open Posten scherm van Florisoft. Deze kolommen bevatten de
-belangrijkste informatie gerelateerd aan het versturen van aanmaningen.
+1.  Klik op het tabblad ‘Adressen’
 
-Hierna volgt in hoofdstuk vier een stappenplan voor het daadwerkelijk
-versturen van aanmaningen. Aan het einde van dit hoofdstuk zijn wat meer
-algemene functies beschreven die van belang kunnen zijn bij het
-versturen van aanmaningen.
+2.  Klik op het tabblad ‘Contactgegevens’
 
-Zoals eerder beschreven, moet de gebruiker met behulp van deze
-documentatie zelfstandig in staat zijn om aanmaningen te versturen.
-Mochten er nog vragen zijn over de module Aanmanen, neem dan telefonisch
-of per mail contact op met de helpdesk van Florisoft.
+3.  Klik in het middelste gedeelte van het debiteurenscherm op het tabblad ‘Financieel’
 
-**Telefoon:** +31 (0)71 40 806 10  
-**E-mail:** supprt@florisoft.nl
+4.  Vul in het veld ‘Omschrijving’ de naam in van de persoon die gemaild wordt
 
-# Optioneel: mailadressen debiteuren instellen
+5.  Vul in het veld ‘Adres’ het betreffende e-mailadres in.
 
-Het is mogelijk om de aanmaningen naar een alternatief mailadres te
-versturen dan het standaard mailadres van de debiteur. Daarnaast is het
-mogelijk om de aanmaning naar meerdere mailadressen van de debiteur te
-versturen. Ga verder naar hoofdstuk drie wanneer dit niet nodig is. De
-aanmaning wordt dan verstuurd naar het standaard mailadres, zoals dat is
-ingevuld op het tabblad ‘Adressen’ van het venster ‘Debiteuren’.
+6.  **Optioneel:** Zet een vinkje in de kolom ‘Inactief’ om dit e-mailadres (tijdelijk) uit te sluiten van de aanmaningsmails.
 
-1.  Navigeer in de Constanten naar de Debiteuren. Deze zijn te vinden
-    onder ‘Constanten’ -&gt; ‘Organen’ -&gt; ‘Debiteuren’.
-
-2.  Klik op het tabblad ‘Adressen’. (nr. 1)
-
-3.  Klik op het tabblad ‘Contactgegevens’. (nr. 2)
-
-4.  Klik in het middelste gedeelte van het debiteurenscherm op het
-    tabblad ‘Financieel’ (nr. 3)
-
-5.  Vul in het veld ‘Omschrijving’ (nr. 4) de naam in van de persoon
-    horend bij het te koppelen mailadres.
+7.  Klik op OK
 
 <img src=".Gebruikershandleiding Aanmanen\media\image2.png" style="width:5.19125in;height:4.5in" />
 
-Lees verder op de volgende pagina.
+NB - als hier niets ingevuld wordt, gaan aanmaningen automatisch naar het standaard e-mailadres van de debiteur.
 
-1.  Vul in de kolom ‘Adres’ (nr. 5) het betreffende mailadres in voor
-    deze debiteur.
-
-2.  **Optioneel:** Zet een vinkje in de kolom ‘Inactief’ (nr. 6) aan om
-    dit mailadres (tijdelijk) uit te sluiten van de aanmaningsmails.
-
-3.  Klik op de knop ‘Ok’ (nr. 7) in het debiteurenscherm om de
-    instellingen te bevestigen.
-
-Zoals in de inleiding van dit hoofdstuk al beschreven, zijn bovenstaande
-stappen niet verplicht. Wanneer er geen gebruikt gemaakt wordt van
-aparte mailadressen, pakt Florisoft automatisch het mailadres zoals dat
-is ingesteld op het tabblad ‘Adressen’ van de debiteur.
-
-<img src=".Gebruikershandleiding Aanmanen\media\image3.png" style="width:6.3in;height:5.45in" />
+<img src=".Gebruikershandleiding Aanmanen\media\image3.png" style="width:5in;height:4in" />
 
 # Benodigde kolommen activeren
 
