@@ -12,19 +12,17 @@ After, a screen wil open where you can choose the XML-file.
 <img src=".efact eng/media/picture2.png" />
 After choosing the xml, a screen will ask for the invoicenr and the amount of the goods of the original invoice (pdf). This is done to check if the eInvoice matches with the original invoice. If the amount of the goods of the pdf and xml match, you know for sure that there is no extra crate on the original invoice which is not on the eInvoice. After entering the information the invoice lines are looked up and written off (Like the button "Write off" in the purchase history or the subscreen Purchase Elevations).
 
-
 <img src=".efact eng/media/picture3.png" />
 After, the result screen opens where you can see per invoice line if this could be written off or not. It could be the case tthat the entire invoice line could not be found or if it was already written off. Or, if the price or amount does not match. The actions that have to be taken are the same as before with the purchase checking process. For example, when a purchase line cannot be found but you do have an invoice line, it could be that the invoiceline is incorrect and the supplier must be contacted for a credit.
-
-<img src=".eFactuur%20Client%20en%20Server.docx/media/image4.png"/>
+<img src=".efact eng/media/picture4.png" />
 
 The eInvoice read-in result screen also contains the eInvoice barcode which comes back on the original invoice (pdf) so, if theres more information needed form a specific invoice line, this easily can be found on the original invoice.
 
-<img src=".eFactuur%20Client%20en%20Server.docx/media/image5.png"/>
+<img src=".efact eng/media/picture5.png" />
 
 An example of another resultscreen. reading in the same invice twice, also see our tooltip where more information can be found about he specific status. :
 
-<img src=".eFactuur%20Client%20en%20Server.docx/media/image6.png"/>
+<img src=".efact eng/media/picture6.png" />
 
 Further more:
 - The eInvoice has an, by Florisoft designed, own filebuild-up. This is seperated from "veilingfactuur" or äuctioninvoice". This is done because the Florisoft eInvoice receives less adjustments. To concluse, the only users of this system are Florisoft users. Besides, it is possible for the file to be backwardscompatible where your system can still read in eInvoices even when they're 1 year old. The eInvoice is easy to read, because it contains less fields. The file size is also smaller because of this. There can be no misunderstandings about the content of the eInvoices, as it is Florisoft's standard. Besides, if needed, the adding of fields can be much faster.
@@ -35,6 +33,3 @@ Further more:
 
 - Without the eInvoice Client module you cannot use the read in option.
 
-*FAQ:*
-Could a automated read-in time be made?
-This could be made, but you will lose the verification step. When you read in the xml automatically there is no corresponding with the pdf and the pdf would be paid by the accountant. It could be the case that the XML is fine, but here are a lot more flowers in the pdf which you have never received. Someone has to check if the XML and PDF always match, by purely looking if the amounts and prices check out.

@@ -53,16 +53,13 @@ Het venster ‘Grid instellingen’ opent.
 
 <img src=".Gebruikershandleiding Aanmanen\media\image6.png" style="width:4.5in;height:3.14286in" />
 
-1.  Druk op de toets combinatie Ctrl + Shift + F op het toetsenbord. Er
-    verschijnt een zoekscherm.
-
-Lees verder op de volgende pagina.
-
-1.  Typ in het veld ‘Snelzoeken’ op AANM1. (nr. 3)
+3.  Druk op de toets combinatie Ctrl + Shift + F op het toetsenbord. Er verschijnt een zoekscherm.
+Typ in het veld ‘Snelzoeken’ op AANM1. 
+4.  Zet een vinkje in de kolom ‘Aan’. (nr. 4)
 
 <img src=".Gebruikershandleiding Aanmanen\media\image7.png" style="width:5.84906in;height:5.88645in" />
 
-1.  Zet een vinkje in de kolom ‘Aan’. (nr. 4)
+
 
 2.  Klik op de knop ‘Ok’ (nr. 5)
 

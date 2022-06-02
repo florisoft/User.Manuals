@@ -20,6 +20,9 @@ In Florisoft klik je met de rechtermuisknop op de knop Historie en kies
 je voor Florisoft eFactuur inlezen:  
 ![](.eFactuur%20Client%20en%20Server/media/image1.png)
 
+
+
+
 Daarna zal een scherm geopend worden waarin je het xml bestand kan
 kiezen:  
 ![](.eFactuur%20Client%20en%20Server/media/image2.png)
@@ -81,16 +84,3 @@ zijn de efactuurbarcodes altijd leeg, en kan je de vink bij de debiteur
 niet aanzetten.  
 -Zonder de eFactuur Client module kan je de inleesfunctie niet gebruiken
 
-*FAQ:*
-
-Kan er een automatische inleestimer voor worden gemaakt?  
-Zou eventueel wel kunnen, maar dan ben je wel een verificatie slag kwijt
-Als je nl. de xml automatisch inleest dan heb je geen verificatie met de
-pdf en de PDF wordt betaald door de boekhouder. Het zou dus kunnen zijn
-dat de XML helemaal klopt, terwijl er op de PDF veel meer bloemen staan
-die je nooit hebt gehad. Iemand moet dus controleren of de XML en de PDF
-overeenkomen en daarvoor is dus de totaalbedrag invoer nodig.  
-Eventueel zou je er vanuit kunnen gaan dat de XML en PDF altijd
-overeenkomt (en die wellicht steeksproefgewijs te controleren) en zo dus
-echt puur kunnen kijken of de aantallen en credits die eventueel zijn
-doorgeven wel kloppen.
