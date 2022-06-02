@@ -100,8 +100,7 @@ In het venster ‘Meerdere Facturen geselecteerd’ is nu een overzicht te vinde
 
 <img src=".Gebruikershandleiding Aanmanen\media\image12.png" style="width:4.0566in;height:3.14977in" />
 
-17. **Optioneel:** het is mogelijk om een aanmaning weer in te trekken door in het venster ‘Meerdere Facturen geselecteerd’ de betreffende regels te selecteren met spatiebalk en op ‘Intrekken Selectie’ te klikken.
-
+> 17. **Optioneel:** het is mogelijk om een aanmaning weer in te trekken door in het venster ‘Meerdere Facturen geselecteerd’ de betreffende regels te selecteren met spatiebalk en op ‘Intrekken Selectie’ te klikken.
 > Alle geselecteerde regels worden dan verwijderd en aangemerkt als niet aangemaand.
 >
 > **Let op: bij het annuleren (intrekken) van één of meerdere open posten in het venster ‘Meerdere Facturen geselecteerd’ worden deze open posten in Florisoft gemarkeerd als zijnde niet aangemaand. Echter is de mail met de aanmaning dan al verstuurd naar de klant.**
