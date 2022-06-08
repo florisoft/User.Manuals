@@ -1,6 +1,6 @@
 <img src="../../fslogo.png"/>
 
-# Florisoft handleiding aanmanen
+# Florisoft handleiding Aanmanen
 
 # Inhoudsopgave 
 
@@ -19,19 +19,19 @@ Met behulp van deze handleiding is het mogelijk om zelfstandig aanmaningen te ve
 
 Navigeer in de Constanten naar de Debiteuren. Deze zijn te vinden onder ‘Constanten’ -&gt; ‘Organen’ -&gt; ‘Debiteuren’.
 
-1.  Klik op het tabblad ‘Adressen’
+1.  Klik op het tabblad ‘Adressen’.
 
-2.  Klik op het tabblad ‘Contactgegevens’
+2.  Klik op het tabblad ‘Contactgegevens’.
 
-3.  Klik in het middelste gedeelte van het debiteurenscherm op het tabblad ‘Financieel’
+3.  Klik in het middelste gedeelte van het debiteurenscherm op het tabblad ‘Financieel’.
 
-4.  Vul in het veld ‘Omschrijving’ de naam in van de persoon die gemaild wordt
+4.  Vul in het veld ‘Omschrijving’ de naam in van de persoon die gemaild wordt.
 
 5.  Vul in het veld ‘Adres’ het betreffende e-mailadres in.
 
 6.  **Optioneel:** Zet een vinkje in de kolom ‘Inactief’ om dit e-mailadres (tijdelijk) uit te sluiten van de aanmaningsmails.
 
-7.  Klik op OK
+7.  Klik op OK.
 
 <img src=".Gebruikershandleiding Aanmanen\media\image2.png" style="width:5.19125in;height:4.5in" />
 
@@ -46,7 +46,7 @@ Het venster ‘Open Posten Debiteuren’ opent.
 
 <img src=".Gebruikershandleiding Aanmanen\media\image4.png" style="width:2.5375in;height:1.26415in" />
 
-2.  Klik met de rechtermuisknop één van de bestaande kolommen.
+2.  Klik met de rechtermuisknop op één van de bestaande kolommen.
 Het venster ‘Grid instellingen’ opent.
 
 <img src=".Gebruikershandleiding Aanmanen\media\image5.png" style="width:3.12264in;height:0.62453in" />
@@ -86,9 +86,9 @@ Typ in het veld ‘Snelzoeken’ op AANM1.
 
 9.  Klik op de knop ‘Nieuwe Printen’. Het printdialoog opent.
 10. Selecteer de juiste lay-out (nr. 10) in het drop down menu onder Print lay-out.
-11. Kies onder ‘Uitvoer’ voor één van de beschikbare opties
+11. Kies onder ‘Uitvoer’ voor één van de beschikbare opties.
 12. Controleer in het veld ‘Email adres’ of de juiste e-mailadressen staan ingevuld.
-13. OK - dit bevestigt de printactie
+13. OK - dit bevestigt de printactie.
 
 Florisoft begint met het printen van de aanmaning. Afhankelijk van het aantal geselecteerde regels, kan dit enige tijd duren. Nadat de aanmaning succesvol is aangemaakt verschijnt onderstaand bevestigingsvenster
 
