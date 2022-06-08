@@ -3,12 +3,12 @@
 ## E-factuur client
 
 
-Met de module eFactuur Client wordt het mogelijk om de inkoophistorie
+Met de module e-Factuur Client wordt het mogelijk om de inkoophistorie
 automatisch af te boeken. 
 Dit was voorheen een handmatig proces waarbij de gebruiker zelf voor elke factuurregel de inkoopregel opzocht en deze
 afboekte als deze correct was. Dit proces kost veel tijd en is foutgevoelig. 
 
-De werking van de eFactuur Client is als volgt:
+De werking van de e-Factuur Client is als volgt:
 
 - In de e-mail gekregen van de leverancier zit de originele factuur (als
 bijv. pdf) een daarbij een eFactuur (te herkennen aan de .xml extensie).
@@ -25,9 +25,9 @@ kiezen:
 
 Na het kiezen van de xml wordt er gevraagd om het factuurnummer en het
 goederenbedrag van de originele factuur (pdf). Dit is ter controle of
-de eFactuur wel overeenkomt met de originele factuur. Indien het
+de e-Factuur wel overeenkomt met de originele factuur. Indien het
 goederenbedrag van de pdf en de xml overeenkomen dan weet je zeker dat
-er geen goederen op de originele factuur staan die niet in de eFactuur
+er geen goederen op de originele factuur staan die niet in de e-Factuur
 staan. Na het intikken van deze gegevens worden de inkoopregels
 opgezocht en afgeboekt (net als de knop 'Afboeken' in de inkoophistorie of
 de knop 'Afboeken' in het subscherm Inkoop ophogingen).
@@ -47,7 +47,7 @@ voor een credit.
 
 ![](.eFactuur%20Client%20en%20Server/media/image4.png)
 
-Ook bevat het eFactuur inleesresultaat scherm de eFactuur barcode die
+Ook bevat het e-Factuur inleesresultaat scherm de e-Factuur barcode die
 ook weer terugkomt op de originele factuur (pdf) zodat, indien nodig er
 meer informatie is van de specifieke factuurregel, deze makkelijk
 opgezocht kan worden op de originele factuur.
@@ -61,11 +61,11 @@ specifieke status. :
 ![](.eFactuur%20Client%20en%20Server/media/image6.png)
 
 Verder:  
-- De eFactuur heeft een door Florisoft zelf ontwikkeld bestandsopbouw.
+- De e-Factuur heeft een door Florisoft zelf ontwikkeld bestandsopbouw.
 Deze staat los van de ‘veilingfactuur’. Dit is gekozen omdat de
-Florisoft eFactuur minder aanpassingen heeft. Ook is
+Florisoft e-Factuur minder aanpassingen heeft. Ook is
 hierdoor het bestand backwardscompatible, waardoor je met een 1 jaar
-oud systeem toch nog eFacturen kan inlezen van iemand die zijn systeem
+oud systeem toch nog e-Facturen kan inlezen van iemand die zijn systeem
 net heeft geupdate en andersom. De e-Factuur is makkelijker leesbaar,
 omdat deze minder velden bevat. De e-Factuur bestandsgrootte is hierdoor
 ook direct 10x kleiner als die van de veilingfactuur. Over de inhoud
