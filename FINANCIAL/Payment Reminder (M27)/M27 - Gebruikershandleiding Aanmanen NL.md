@@ -40,7 +40,7 @@ NB - als hier niets ingevuld wordt, gaan aanmaningen automatisch naar het standa
 <img src=".Gebruikershandleiding Aanmanen\media\image3.png" style="width:5in;height:4in" />
 
 
-Op de debiteurkaart > Financieel > Algemeen stel je ook in of en na hoeveel dagen de klant een aanmaning moet krijgen
+Bij Debiteur > Financieel > Algemeen stel je ook in of en na hoeveel dagen de klant een aanmaning moet krijgen
 
 <img src=".Gebruikershandleiding Aanmanen\media\image2-1.png" style="width:5in;height:4in" />
 
