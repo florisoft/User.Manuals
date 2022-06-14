@@ -62,6 +62,7 @@ Deze API key dient gevuld te worden in Florisoft bij de leverancier die de synch
 	-	*Webservice -> API key ->* ***Deze moet je opvragen op het floriday platform'***
 	-	*Webservice -> Region GLN ->* ***Dit is de GLN code van de regio (veiling)***
 	-	*Webservice -> Aflever GLN ->* ***Dit is de GLN code van de exacte afleverlocatie***  
+	-	*Webservice -> Trade-period vanaf ->* ***Hier geef je aan voor welke periode je assortiment wil ophalen, zet deze op 0 tot 2 dagen***
 	
 ### Alternatieve locaties
 Het is mogelijk dat een kweker (connectie) niet levert in een bepaalde regio waar een bedrijf gevestigd is. Mocht het bedrijf op meerdere locaties zitten (Rijnsburg en Aalsmeer bijv.) en daar levert de kweker wel, dan dit opgegeven worden onder alternatieve locaties.
@@ -75,7 +76,10 @@ Na een correcte inrichting kan het aanbod van Floriday ingelezen worden. Dit kan
 
 ### Connecties
 De eerste keer synchroniseren zal als eerste stap de gemaakte connecties met de verschillende kwekers op Floriday ophalen. 
-Deze kwekers worden dan opgeslagen in Florisoft, zodat de volgende synchronisatie dit niet nog eens hoeft te doen.
+Deze kwekers worden dan opgeslagen in Florisoft, zodat de volgende synchronisatie dit niet nog eens hoeft te doen. 
+
+Het voor de eerste keer synchroniseren van de koppeling kan hierdoor erg lang duren, zorg daarom dat de leverancier tijdelijk op een ander timer schema staat omdat de koppeling ook door de timer zal worden opgehaald en een uur of langer niks met andere koppelingen zal doen. 
+
 Bij nieuwe connecties of ontkoppelde connecties zal dit wel weer opnieuw uitgevoerd worden, maar enkel voor de wijzigingen.
 
 ### Aanbod verwerken
@@ -83,7 +87,7 @@ De eerste synchronisatie zal het aanbod ophalen per kweker en direct verwerken b
 Partijen worden enkel binnen Florisoft aangemaakt indien een kweker ook daadwerkelijk levert op de ingestelde regio's.
 
 ### Aanbod
-Binnen de Floriday online omgeving moet assortiment op regelniveau gemarkeerd worden als ‘favoriet’. 
+Binnen de Floriday online omgeving moet assortiment op regelniveau gemarkeerd worden als ‘favoriet’. Je kunt op het platform ook de connectie met de kweker beëindigen op deze kweker niet meer op te halen.
 Pas dan wordt het ook meegenomen in het aanbod dat Florisoft ophaalt. 
 
 

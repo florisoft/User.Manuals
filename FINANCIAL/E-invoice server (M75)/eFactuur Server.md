@@ -43,3 +43,8 @@ veilingcode in EKT”. Het is van groot belang dat dit nummer uniek is
 voor die klant. Dat wil zeggen dat als jij bij klant A een afwijkende
 veilingcode aangeeft van 23 dat jij de enige bent die naar die debiteur 23
 stuurt. Andere leveranciers dienen dus een andere code te gebruiken. 
+
+**Let op:**
+
+In het debiteuren scherm moet deze check aangezet worden:
+<img src=".efact server/media/foto1.png" />
