@@ -4,17 +4,17 @@
 
 # Table of contents
 
-[1 Create CMS zones 3](#create-cms-zones)
+[1 Create CMS zones](#create-cms-zones)
 
-[2 Link zones to debtors 4](#link-zones-to-debtors)
+[2 Link zones to debtors](#link-zones-to-debtors)
 
-[3 Create categories 5](#create-categories)
+[3 Create categories](#create-categories)
 
-[4 Create pages 8](#create-pages)
+[4 Create pages](#create-pages)
 
-[5 Creating rows 10](#creating-rows)
+[5 Creating rows](#creating-rows)
 
-[6 Create CMS elements 14](#create-cms-elements)
+[6 Create CMS elements](#create-cms-elements)
 
 #  
 
