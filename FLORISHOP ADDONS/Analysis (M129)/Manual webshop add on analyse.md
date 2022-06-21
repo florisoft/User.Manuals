@@ -84,8 +84,8 @@ to keep separate.**
 2. Click on the 'Sign Up' button. (no. 1) The 'New Account' window
      appears. See next page.
 
+<img src=".manual analyse\media\pic1.png"/>
 
- FOTO NODIG
 
 Now you are asked to create a new account within Google
 analytics. The webshop is linked to this account. In this way
@@ -95,66 +95,45 @@ Google Analytics is able to monitor the webshop within this account.
 > Google Analytics environment. Each application is linked to a
 > own account.
 
-1. Under 'What would you like to keep track of?', choose website. (no. 2)
+1. Enter a name for the account to be created at 'Account name'. This can be any name. It is recommended that a clear think of a name that is related to the webshop, so that it is clear is that this account is used in relation to the webshop.
 
-2. Enter a name for the account to be created at 'Account name'.
-     (no. 3) This can be any name. It is recommended that a clear
-     think of a name that is related to the webshop, so that it is clear
-     is that this account is used in relation to the webshop.
+<img src=".manual analyse\media\pic2.png"/>
+(the checkmarks should all be turned on)
 
-FOTO NODIG
+<img src=".manual analyse\media\pic3.png"/>
 
-1. Enter the name of the web application at 'Website name'. (no. 4) Also
-     this name is up to the user to come up with. It is recommended to use a
+**Make sure the correct currency is set!**
+
+<img src=".manual analyse\media\pic4.png"/>
+(The category is in this case: Business & industrial)
+(The checkmarks can be configured to the user's own preference)
+
+1. Enter the name of the web application at 'Website name'.  Also this name is up to the user to come up with. It is recommended to use a
      choose a clear name that is related to the webshop.
 
 2. Enter the address of the webshop at 'URL of website', without
-     /florishop. For example: <http://www.domainname.nl> (no. 5) On the
+     /florishop. For example: <http://www.domainname.nl>  On the
      The place of domain name will then be the domain name on which the webshop is hosted
      is becoming.
 
-3. Under 'Industry organisation', select 'Companies and industry' (no. 6)
+3. Under 'Industry organisation', select 'Companies and industry' 
 
-4. At 'Time zone for reporting' (no. 7) choose the country where the
-     web application is used. Choose the Netherlands with time zone
-     (GMT+02:00) Amsterdam for a Dutch webshop.
+4. At 'Time zone for reporting' choose the country where the web application is used. Choose the Netherlands with time zone (GMT+02:00) Amsterdam for a Dutch webshop.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     Click on the Settings wheel -> Account settings and you will find the Account ID, save this code.
+<img src=".manual analyse\media\pic5.png"/>
 
-5. Leave all the checks on in the screenshot below.
 
-FOTO NODIG
+Now a window with terms of service will appear.
+1. Choose the country in which Google Analytics is used.
+2. Read this and click on agree.
 
-FOTO NODIG
-
-1. Click on the 'Get Tracking ID' button (no. 8) to retrieve the unique ID (code) for this Google Analytics account.
-
-Now a window with terms of service will eappear. This looks likt this:
-1. At no. 9 choose the country in which Google Analytics is used.
-2. Check No. 10 and 11 to accept the terms of service.
-
-foto nodig
-
-1. Click on the "I agree" button (No. 12) to continue. Read more on the next page.
-The management environment of Google Analytics appears. Close any welcome messages to be able to work in the administration environment.
-
-In the screenshot below, the Tracking ID is circled in purple. A tracking ID acts as a kind of key that is used to link the web application (webshop) to Google Analytics.
-
-Note: copy and paste the Tracking ID into a text file (notepad) or write it down. It is important to remember this Tracking ID.
-
-4x foto
-
-The message 'Success' will appear at the top of the screen
-
-The last step within Google Analytics is to set the correct currency. Follow the steps as described below to set the currency correctly.
-
-1. Click on the gear (no. 18) at the bottom left of the screen of the management environment to open the settings.
-
-foto
-
-- In the 'Display' column click on 'Data Display settings' (no. 19)
-
-foto
-
-The message 'Success' will appear at the top of the screen
 
 # 3 Set Google Tag manager
 
@@ -164,218 +143,176 @@ free to use software product from google. Tag manager becomes
 used to schedule predetermined events within the web shop
 capture and then forward it to Google Analytics.
 
-foto nodig 3x
 
 Below are the steps to properly set up Google Tag Manager:
 1. In Google, search for Google Tag Manager
-2. Log into Google Tag Manager with the same account that we have used before in this manual.
-     Google Analytics (nr. 1)
-
-foto nodig
+2. Log into Google Tag Manager with the same account that we have used before in this manual.  Google Analytics.
 
 The starting page of Tag Manager appears:
 
 1. Click on the link 'Click here to create account' in the middle of the screen.
 
-foto nodig
+<img src=".manual analyse\media\pic6.png"/>
 
-The screen 'Add account' appears. 
 
-1. 1. Enter any name for the account at 'Account name' (no.3)
+The screen 'Add a new account' appears. 
+
+<img src=".manual analyse\media\pic7.png"/>
+
+1. Enter any name for the account at 'Account name' (no.1)
      account to be created. It is recommended to choose a clear name
      in relation to the webshop, so that it is easy to recognize.
 
 Foto nodig
 
-1. At 'Country' (no. 4), select the country where the webshop runs. In
-     this example is the Netherlands selected.
+1. At 'Country' (no. 2), select the country where the webshop runs. In this example is the Netherlands selected.
 
-2. Click on the 'Continue' button. (no. 5) Step 2 Set up 'Container'
-     becomes active. See the screenshot below.
+2.  Step 2 "Container Setup-> See the screenshot above
 
-3. Enter the URL of the webshop at 'Container name' (no. 6). (without
-     /Florishop) For example:
-     [www.domainname.nl](http://www.domainname.nl), where the domain name
-     should be replaced by your own domain name.
+3. Enter the URL of the webshop at 'Container name' (no. 3). (without /Florishop) For example:
+     [www.domainname.nl](http://www.domainname.nl), where the container name should be replaced by your own domain name.
 
-foto nodig
 
-1. At 'Where is the container used', choose 'Internet' (no. 7).
+4. At 'Target platform', choose 'Internet' (no. 4).
 
-2. Click on the 'CREATE' button. (no. 8)
+5. Click on the 'CREATE' button. (no. 5)
 
-3. Accept the Google Tag Manager Service Agreement by
-     checkmark 'I also agree to the data processing conditions
-     as required by the GDPR.”
+6. Accept the Google Tag Manager Service Agreement by checkmark 'I also agree to the data processing conditions as required by the GDPR.”
 
-Foto nodig
+7. Click on the 'YES' button in the top right corner of the screen.
 
-1. Click on the 'YES' button in the top right corner of the screen.
-
-foto nodig
 
 The 'Install Google Tag Manager' window appears
-
-foto nodig
 
 Click the 'OK' button to continue. The management environment of Tag Manager
 opens. See next page.
 
-1. In the Tag Manager management environment, click on 'A NEW TAG'
-     TO ADD'. (no. 9)
-
-
-foto nodig
+1. In the Tag Manager management environment, click on 'A NEW TAG (no. 1)'.
+<img src=".manual analyse\media\pic8.png"/>
 
 The window to create a new tag appears. See screenshot below.
 
-1. Enter the name for the new tag at no. 10. Page view is a
-     appropriate name for this tag. Another name is also allowed.
+1. Enter the name for the new tag at no. 1. Page view is a appropriate name for this tag. Another name is also allowed.
 
-foto nodig
+<img src=".manual analyse\media\pic9.png"/>
 
-1. Click on the 'Choose a tag type to start setup' link.
-     (no. 11)
+1. Click on the 'Choose a tag type to start setup' link. (no. 2)
 
-Foto nodig
 
 The “Choose Tag Type” window appears on the right side of the
 screen.
 
-1. Select the option 'Google Analytics – Universal Analytics'.
-     (no. 12)
+1. Select the option 'Google Analytics – Universal Analytics'. (no. 1)
 
-foto nodig
+<img src=".manual analyse\media\pic10.png"/>
 
-The 'Tag Configuration' window opens. See screenshot below.
 
-1. At 'Tracking type', choose the option 'Page view'. (no. 13)
+1. At 'Tracking type', choose the option 'Page view'. (no. 2)
 
-2. At 'Google Analytics settings', choose the option 'New variable' (no. 15)
-
-foto nodig
+2. At 'Google Analytics settings', choose the option 'New variable' (no. 3)
 
 The "Variable Configuration" window appears
 
-1. Give the variable any name. (no. 16) It is recommended to choose a clear name, so that the variable can be traced to the Florisoft webshop.
+1. Give the variable any name. It is recommended to choose a clear name, so that the variable can be traced to the Florisoft webshop. See the screenshot below. (no. 1)
 
-foto nodig
-
-The "Variable Configuration" window appears
-
-1. Give the variable any name. (no. 16) It is recommended to choose a clear name, so that the variable can be traced to the Florisoft webshop.
-
-foto nodig
 
 In the "Variable configuration" window, set the following information.
 
-1. Enter Google's tracking ID in the "Tracking ID" field (No. 17 Analytics. This is the ID from step thirteen of chapter two
+1. Enter Google's tracking ID in the "Tracking ID" field (No. 2) Analytics. This is the ID which had to be stored in an earlier step in chapter 2. It should look like this: (UA-XXXXX-X)
 
-foto nodig
+2. Click on 'More settings' (no. 3) -> E-commerce (no. 4)
 
-1. Click on 'More settings' (no. 18), E-commerce (no. 19)
+3. Check the "Enable Optimized Ecommerce Features" (No. 5) and 'Use data layer'. (no. 6)
 
-2. Check the "Enable Optimized Ecommerce Features" (No. 20) and 'Use data layer'. (no. 21)
+4. Click the 'SAVE' button in the top right corner of the screen. (no. 7)
 
-3. Click the 'SAVE' button in the top right corner of the screen. (no. 22)
+<img src=".manual analyse\media\pic11.png"/>
 
-foto nodig
 
-The "Google Analytics Settings" field in the "Tag Configuration" window looks like this:
+After saving this, a pop up will appear: 
 
-foto nodig
+<img src=".manual analyse\media\pic12.png"/>
 
-1. Click on 'Choose a trigger to activate this tag' (no. 23) to select a trigger to associate with this tag. The window a 'A trigger' opens'.
 
-foto nodig
+- Click on "Add trigger" and select "all pages". Then click save. The page looks like this:
 
-1. Click on 'All Pages' (no. 24) to view all pages of the webshop associate with this tag. Under 'Triggers', 'All pages' is now displayed.
+<img src=".manual analyse\media\pic13.png"/>
 
-foto nodig
-
-1.  Klik op de knop ‘OPSLAAN’ (nr. 25) in de rechterbovenhoek van het scherm.
-
-foto nodig
 
 Now that one tag with an associated trigger has been created. To the Analytics module to work properly there needs to be a second tag with a linked trigger are created. This tag and trigger have something settings other than the first tag.
 
-1. Perform step 12.
+1. Again go through the steps to create a tag.
 
-2. Give the tag a meaningful name, as described in step 13.
+2. Give the tag a meaningful name, just like before.
 
-3. Perform steps 14 to 16. Now choose at 'Tracking type' for the option 'Event'. (no. 26) Fill in the 'Tag configuration' window the following information:
+3. Perform the the following stepsbut, choose at 'Tracking type' for the option 'Event'. Fill in the 'Tag configuration' window the following information:
 
-foto nodig
+<img src=".manual analyse\media\pic14.png"/>
 
 1. In the 'Category' field, enter the value 'Ecommerce' (without
-     quotation marks). (no. 27)
+     quotation marks). (no. 2)
 
 2. In the 'Action' field, enter the value {{Event}} (including braces)
-     in. (no. 28)
+     in. (no. 3)
 
 3. In the 'Label' field, enter the value {{Page URL}} (including braces)
-     in. (no. 29)
+     in. (no. 4)
 
 4. Under 'Google Analytics Settings', choose the name of the variable
-     created in step 18. (no. 30) Note that this value is also
-     enclosed in double braces, as in the screenshot on the previous one
-     page.
+     created earlier. (no. 5) Note that this value is also enclosed in double braces, as in the screenshot on the previous one page.
 
 Now create a trigger for the second tag. This works like this:
 
-1. Perform step 23. The "Choose a trigger" window appears.
+1. Scroll further and click on the triggering space, just like before
 
-2. Now click on the plus icon in the top right corner of the screen. (no. 31)
+2. Now click on the plus icon in the top right corner of the screen. 
 
-foto nodig
+<img src=".manual analyse\media\pic15.png"/>
 
-1. Give the new trigger a meaningful name. (no. 32)
-foto nodig
 
-1. Click on 'Choose a trigger to start the setup...' (no. 33) The
+1. Give the new trigger a meaningful name
+
+2. Click on 'Choose a trigger to start the setup...' (no. 33) The
      'Choose trigger' window opens on the right side of the screen.
 
-foto nodig
 
-1. Select 'Custom event' (no. 34) under 'Other.' This option is at the bottom of the "Choose trigger" window.
-
-foto nodig
+3. Select 'Custom event' under 'Other.' This option is at the bottom of the "Choose trigger" window.
 
 Complete the following in the 'Trigger Configuration' window. 
-1. Fill the 'Event Name' field (#35) with the following value: addToCart|removeFromCart|transaction
+1. Fill the 'Event Name' field with the following value: addToCart|removeFromCart|transaction
 
-foto nodig
 
-1. Check the box 'Use matching regular expression' (no. 36).
+2. Check the box 'Use matching regular expression'.
 
-2. Click on the 'SAVE' button (no. 37) at the top right of the screen.
+3. Click on the 'SAVE' button at the top right of the screen.
 
-foto nodig
+It should look like this before saving:
 
-1. Click again on the 'SAVE' button at the top right of the screen of the 'Tag Configuration' window to save the second tag.
+<img src=".manual analyse\media\pic16.png"/>
+
+- Click again on the 'SAVE' button at the top right of the screen of the 'Tag Configuration' window to save the second tag.
 
 In the top right corner of the Tag Manager admin environment is a
 second ID visible. This ID is required to link the webshop to the
 Tag Manager.
 
-foto nodig
+<img src=".manual analyse\media\pic17.png"/>
+
 
 > **Note: remember the above ID. This is necessary to register the webshop
 > Tag Manager to connect.**
 
-1. Click on the 'SEND' button to confirm all changes. The "Send Changes" window opens.
+1. Click on the 'Submit' button to confirm all changes. The "Submit Changes" window opens.
 
-2. Select 'Publish and create version' (no. 39)
+2. Select 'Publish and create version' 
 
-3. Enter a descriptive name for . in the 'Version name' field (no. 40) this publication.
+3. Enter a descriptive name for . in the 'Version name' field  this publication.
 
-4. **Optional:** fill in the field 'Version description' (no. 41) what more detailed information regarding this publication.
-
-foto nodig
-
-1. Click on the 'PUBLISH' button in the top right corner of the screen 'Send changes'. (no. 42)
+4. **Optional:** fill in the field 'Version description' what more detailed information regarding this publication.
 
 foto nodig
+
+1. Click on the 'PUBLISH' button in the top right corner of the screen to "Submit changes'.
 
 A summary of the publication appears. Tag Manager can now be closed.
 
@@ -384,27 +321,30 @@ A summary of the publication appears. Tag Manager can now be closed.
 In addition to the settings in Google Analytics and Tag Manager, there must be a
 number of settings in the webshop can be adjusted.
 
-1. Log in to the webshop with a management account and activate the Management environment by ticking the box for 'Management'. (no. 1)
+1. Log in to the webshop with a management account and activate the Management environment. (Done by clicking on admin florishop and then on 'management')
 
-foto nodig
+<img src=".manual analyse\media\pic18.png"/>
 
-1. Click on the menu 'Configuration' (no. 4)
+- Click on the menu 'Configuration'
+
+<img src=".manual analyse\media\pic19.png"/>
 
 The webshop settings open in a new tab.
 
-1. 1. In the Item field, search for 'GTMID' (No. 5)
+-  In the Item field, search for 'GTMID'
 
-foto
+- Click on item GTMID The 'Change setting' window opens.
 
-1. Click on item GTMID (no. 6) The 'Change setting' window opens.
-
-foto
+<img src=".manual analyse\media\pic20.png"/>
 
 1. Enter the second ID from Tag Manager in the 'Value' field. This one is too to be found after step after step 41 in chapter three.
 
 2. Enter the management password of the webshop in the 'Password' field.
 
 3. Click on the 'Save' button to save the changes.
+
+<img src=".manual analyse\media\pic21.png"/>
+
 
 These are all the settings needed to make the add-on Analysis.
 

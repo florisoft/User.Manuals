@@ -8,6 +8,20 @@ A typical division proces can be seen below:
 
 <img src='.Manual Final Check/media/image1.png'/>
 
+## **Index**
+
+[Using the final check - desktop](using-the-final-check---desktop)
+
+[Checking the invoices](checking-the-invoices)
+
+[Checking within Transport by Carrier](checking-within-transport-by-carrier)
+
+[Using Final Check - PDA](using-final-check---pda)
+
+
+
+
+
 ## Using Final check - Desktop
 Start up Florisoft and when in the Navigator, click on final check.
 

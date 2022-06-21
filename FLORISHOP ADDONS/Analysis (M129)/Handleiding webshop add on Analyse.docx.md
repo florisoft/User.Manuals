@@ -545,8 +545,8 @@ heeft nog meer interessante uitbreidingsmogelijkheden in de vorm van add
 ons. Hieronder volgt een korte beschrijving van alle beschikbare add
 ons.
 
-**Florishop WhatsApp aanbiedingen  
-**Met de Florishop add on WhatsApp Aanbiedingen krijgen gebruikers in
+**Florishop WhatsApp aanbiedingen**  
+Met de Florishop add on WhatsApp Aanbiedingen krijgen gebruikers in
 Florishop de mogelijkheid een interessant aanbod met een contact of
 groep te delen via WhatsApp.
 
@@ -585,8 +585,8 @@ professioneel ogende lay-out.
 De credit aanvragen zijn na het voltooien van de aanvraag zichtbaar in
 het accorderen scherm binnen Florisoft en kunnen hier beoordeeld worden.
 
-**Florishop Dashboard (CMS add on is verplicht)  
-**Met de add on Dashboard kan Florishop worden gebruikt als een
+**Florishop Dashboard (CMS add on is verplicht)**  
+Met de add on Dashboard kan Florishop worden gebruikt als een
 waardevolle bron van relevante bedrijf kritische informatie. Denk
 hierbij aan verkoopcijfers per tijdseenheid, omzet, aantal kopende
 klanten op de webshop, geannuleerde kopen, voorraden en vele andere
