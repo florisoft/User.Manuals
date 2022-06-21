@@ -18,10 +18,6 @@ A typical division proces can be seen below:
 
 [Using Final Check - PDA](#using-final-check---pda)
 
-
-
-
-
 ## Using Final check - Desktop
 Start up Florisoft and when in the Navigator, click on final check.
 
