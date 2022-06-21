@@ -61,7 +61,7 @@ Binnen het Onderhoud facturen scherm kan de volgende kolom worden weergeven:
 - Tot.AfscanFacturen
     - De scan status binnen de factuur, welke berekend wordt met behulp van Kolli.
 
-### Eindcontrole & Transportplanning
+### Eindcontrole en Transportplanning
 Binnen de transport planning kunnen ook enkele kolommen worden toegevoegd. Namelijk:
 - Controle
     - Deel van de orderregels welke gecontroleerd zijn.
