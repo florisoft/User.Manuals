@@ -159,18 +159,15 @@ The screen 'Add a new account' appears.
 
 <img src=".manual analyse\media\pic7.png"/>
 
-1. Enter any name for the account at 'Account name' (no.1)
-     account to be created. It is recommended to choose a clear name
-     in relation to the webshop, so that it is easy to recognize.
+1. Enter any name for the account at 'Account name' (no.1) account to be created. It is recommended to choose a clear name in relation to the webshop, so that it is easy to recognize.
 
-Foto nodig
+
 
 1. At 'Country' (no. 2), select the country where the webshop runs. In this example is the Netherlands selected.
 
 2.  Step 2 "Container Setup-> See the screenshot above
 
-3. Enter the URL of the webshop at 'Container name' (no. 3). (without /Florishop) For example:
-     [www.domainname.nl](http://www.domainname.nl), where the container name should be replaced by your own domain name.
+3. Enter the URL of the webshop at 'Container name' (no. 3). (without /Florishop) For example:  [www.domainname.nl](http://www.domainname.nl), where the container name should be replaced by your own domain name.
 
 
 4. At 'Target platform', choose 'Internet' (no. 4).
@@ -310,7 +307,6 @@ Tag Manager.
 
 4. **Optional:** fill in the field 'Version description' what more detailed information regarding this publication.
 
-foto nodig
 
 1. Click on the 'PUBLISH' button in the top right corner of the screen to "Submit changes'.
 
