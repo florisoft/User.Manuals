@@ -11,13 +11,13 @@ Een voorbeeld van een verdeelproces is hier beneden te zien:
 
 ## **Inhoud**
 
-[Eindcontrole gebruiken - Desktop](#eindcontrole-gebruiken-desktop)
+[Eindcontrole gebruiken - Desktop](#eindcontrole-gebruiken---desktop)
 
 [Eindcontrole en Facturen](#eindcontrole-en-facturen)
 
 [Eindcontrole en Transportplanning](#eindcontrole-en-transportplanning)
 
-[Eindcontrole gebruiken - PDA](#eindcontrole-gebruiken-pda)
+[Eindcontrole gebruiken - PDA](#eindcontrole-gebruiken---pda)
 
 
 
@@ -44,7 +44,7 @@ Om de producten te controleren, kan je de barcode scannen van de doos/fust/etc. 
 
 <img src='.Manual Final Check/media/image12.png'/>
 
-### Eindcontrole & Facturen
+### Eindcontrole en Facturen
 Binnen de facturen kunnen meerdere kolommen worden toegevoegd om Eindcontrole te weergeven en de status hiervan.
 
 Binnen de factuur zelf kunnen deze velden worden aangezet:
