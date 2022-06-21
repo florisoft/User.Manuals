@@ -9,7 +9,19 @@ Een voorbeeld van een verdeelproces is hier beneden te zien:
 
 <img src='.Manual Final Check/media/image8.png'/>
 
-## Eind controle gebruiken - Desktop
+## **Inhoud**
+
+[Eindcontrole gebruiken - Desktop](#eindcontrole-gebruiken-desktop)
+
+[Eindcontrole en Facturen](#eindcontrole-en-facturen)
+
+[Eindcontrole en Transportplanning](#eindcontrole-en-transportplanning)
+
+[Eindcontrole gebruiken - PDA](#eindcontrole-gebruiken-pda)
+
+
+
+## Eindcontrole gebruiken - Desktop
 Start Florisoft op en klik op Eindcontrole in de navigator.
 
 <img src ='.Manual Final Check/media/image9.png'/>
