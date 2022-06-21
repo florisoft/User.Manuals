@@ -10,13 +10,13 @@ A typical division proces can be seen below:
 
 ## **Index**
 
-[Using the final check - desktop](using-the-final-check---desktop)
+[Using final check - desktop](#using-the-final-check---desktop)
 
-[Checking the invoices](checking-the-invoices)
+[Checking the invoices](#checking-the-invoices)
 
-[Checking within Transport by Carrier](checking-within-transport-by-carrier)
+[Checking within Transport by Carrier](#checking-within-transport-by-carrier)
 
-[Using Final Check - PDA](using-final-check---pda)
+[Using Final Check - PDA](#using-final-check---pda)
 
 
 
