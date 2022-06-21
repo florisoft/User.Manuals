@@ -12,7 +12,7 @@
 
 [4 Change webshop settings](#change-webshop-settings)
 
-[5 Practical operation add-on Analysis](#practical-operation add-on-analysis)
+[5 Practical operation add-on Analysis](#practical-operation-add-on-analysis)
 
 [6 Other webshop add-ons](#other-webshop-add-ons)
 
@@ -360,7 +360,8 @@ After logging in to Google Analytics, the home page appears. the home
 page has the appearance of a dashboard which is at your own discretion
 can be adjusted. Below are a few examples.
 
-foto
+<img src=".manual analyse\media\pic22.png"/>
+
 
 Example of number of conversions (transactions) in the last 7 days.
 This can be adjusted by clicking on 'Last 7 days' and another time frame to choose.
@@ -372,16 +373,18 @@ Another overview is the table of best-selling products. This gives
 an overview of the best-selling products via the webshop. By
 clicking on 'E-COMMERCE REVIEW' will show a more detailed view shown of the products sold.
 
-foto
+<img src=".manual analyse\media\pic23.png"/>
 
 Detailed overview of the sold products
 
-foto
+<img src=".manual analyse\media\pic24.png"/>
+The above picture is just an empty example.
 
-On the left side of the dashboard you will find the menu for more open detailed views. To do this, click on the 'CONVERSIONS' menu and
-click on 'E-commerce' to see various e-commerce related pages to open.
+The picture below is an example of how this could look like.
 
-foto
+<img src=".manual analyse\media\pic25.png"/>
+
+On the left side of the dashboard you will find the menu for more open detailed views. To do this, click on the 'Configure' menu and click on 'conversions' to see various related pages open if applicable.
 
 The screenshots above give a global impression of Google Analytics in combination with the webshop.
 
