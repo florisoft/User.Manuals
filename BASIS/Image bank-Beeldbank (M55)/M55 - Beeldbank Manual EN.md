@@ -28,8 +28,6 @@ To make sure the information that has been provided is correct, you can go to
 the URL given. An example of such a URL is:
 https://ccx-cbb-wes-prd.shared.royalfloraholland.com/commercialcustomerwebservice.asmx
 
-After logging in, the following screen should pop up:
-
 
 Now head back to Florisoft and access the timer settings by right clicking the
  timer and selecting Timer Settings.
