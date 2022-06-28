@@ -41,7 +41,7 @@ Now navigate to the right screen of the timer settings, click the tab which says
 variant "settings". There are a few settings which will have to be double checked.
 
 <img src=".Beeldbank_Manual_ENG/media/picx.png" />
- Make sure the check "xfotos opschonen" is marked as 'on'.
+ Make sure the check "xfotos opschonen"/"XFOTOCLEAN" is marked as 'on'.
 
 &nbsp;
 
