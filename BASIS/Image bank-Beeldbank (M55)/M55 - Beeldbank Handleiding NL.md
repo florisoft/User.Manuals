@@ -19,7 +19,7 @@ Vervolgens volg je het pad Organen > Beeldbank. Dubbelklik vervolgens op de desb
 
 Voer de Login-naam en Login-Wachtwoord in, deze zou verstrekt moeten zijn via (in dit geval) FloraHolland. Om zeker te maken dat de informatie klopt, kan je de URL gegeven volgen.
 
-Een voorbeeld van zo een URL is: http://services.aalsmeer.com/ccxcbb/commercialcustomerwebservice.asmx
+Een voorbeeld van zo een URL is: https://ccx-cbb-wes-prd.shared.royalfloraholland.com/commercialcustomerwebservice.asmx 
 
 <img src=".Beeldbank_Handleiding_NL/media/image3.png"/>
 
@@ -35,7 +35,7 @@ Klik met de rechter muisknop op de Timer knop en selecteer "Timer settings".
 
 <img src=".Beeldbank_Handleiding_NL/media/image5.png"/>
 
-In de Timer settings, vind de instelling "Foto Download X fotos" (of "Image Download X Images").
+
 
 Klik op het vinkje links van de naam om hem te activeren(Als dit niet werkt, selecter de checkbox aan de rechterkant van het scherm).
 
