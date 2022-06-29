@@ -134,3 +134,27 @@ Follow the steps below to set up the system user:
 
 <img src="manual sales\.media\picture8.png" />
 &nbsp;
+
+&nbsp;
+
+# 4. Sales functionality Webshop
+
+Navigate to the webshop and log in with the **<u>System user</u>**. This is connected to a seller, which is in turn connected to the debtor.
+
+After logging in, click on the op right, above the username and choose 'Sales'.
+
+<img src="manual sales\.media\picture9.png" />
+&nbsp;
+
+If everything has been set up correctly it should look like this:
+
+<img src="manual sales\.media\picture10.png" />
+&nbsp;
+
+(The picture above is just an example and could variate on other machines)
+
+# 5 FAQ
+
+Question: I created an offer for a customer but I can't open it.
+
+Answer: Check whether the customer in question has access to the Webshop (Organs -> Debtors -> Check "This customer has access via the internet").
