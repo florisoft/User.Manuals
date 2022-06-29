@@ -23,11 +23,11 @@ Een voorbeeld van zo een URL is: https://ccx-cbb-wes-prd.shared.royalflorahollan
 
 <img src=".Beeldbank_Handleiding_NL/media/image3.png"/>
 
-Na het inloggen via de URL, een soortgelijk scherm wordt zichtbaar.
+Na het inloggen via de URL, een soortgelijk scherm word zichtbaar.
 
 <img src=".Beeldbank_Handleiding_NL/media/image4.png"/>
 
-Ga terug naar Florisoft, voer de gegevens in en sla ze op.
+Ga terug naar Florisoft, en voer de gegevens in en sla ze op.
 
 Sluit de constanten en ga terug naar de Navigator (het thuis scherm).
 
@@ -35,27 +35,21 @@ Klik met de rechter muisknop op de Timer knop en selecteer "Timer settings".
 
 <img src=".Beeldbank_Handleiding_NL/media/image5.png"/>
 
-<<<<<<< HEAD
 
-=======
-In de Timer settings, vind je de instelling "Foto Download X fotos" (of "Image Download X Images").
->>>>>>> 4a1e12cb2cc5cf080d882a896234e3b667d46b4d
 
-Klik op het vinkje links van de naam om hem te activeren (Als dit niet werkt, selecteer de checkbox aan de rechterkant van het scherm).
+Klik op het vinkje links van de naam om hem te activeren(Als dit niet werkt, selecter de checkbox aan de rechterkant van het scherm).
 
 <img src=".Beeldbank_Handleiding_NL/media/image6.png"/>
 
 Navigeer nu naar de rechterkant van het scherm. Ga naar de tab "Instellingen". Daar zijn enkele instellingen die aangepast moeten worden. **!! Als de juiste instellingen niet weergeven als normale gebruiker, log in als de Timer gebruiker!!**
 
-Allereerst, zorg er voor dat de volgende instelling op "True" staat.
-
-<img src=".Beeldbank_Handleiding_NL/media/image7.png"/>
+Zorg dat je in de timer ook het 'timerproces' Xfotos opschonen aanvinkt als deze nog niet aan staat. (zo als te zien op bovenstaande foto)
 
 Tweede, zorg ervoor dat de afbeeldingen een bestemming hebben. Kies een locatie, hier worden de foto's geplaatst.
 
 <img src=".Beeldbank_Handleiding_NL/media/image8.png"/>
 
-Selecteer locaties > Veilingen en selecteer een veiling. Dubbel klik op de veiling en vervolgens naar Overige in het nieuwe scherm. Kijk nu of de uitgelichte instellingen kloppen met de afbeelding.
+Selecteer locaties > Veilingen en selecteer een veiling. Dubbel klik op de veiling, en vervolgens naar Overige in het nieuwe scherm. Kijk nu of de uitgelichte instellingen kloppen met de afbeelding.
 
 <img src=".Beeldbank_Handleiding_NL/media/image11.png"/>
 
