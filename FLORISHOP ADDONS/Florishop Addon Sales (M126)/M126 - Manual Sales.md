@@ -85,4 +85,52 @@ On the page 'Online store', fill in the following:
 
 (Other options can be turned on if instructed or if needed)
 
-##
+<img src="manual sales\.media\picture3.png" />
+&nbsp;
+
+## 3.2 Debtor
+
+Follow the steps below to set up the Seller:
+
+1. Go to the Constants -> Community -> Debtor data -> Debtors
+2. Creat a new debtor by clicking the '+' symbol at the top left of this page.
+(A new screen opens, in which the choice should be made between templates, one for debtors with BTW and one without)
+3. On the tab Addresses, fill in: 
+    - Deb. number
+    - Find
+    - Company name
+
+<img src="manual sales\.media\picture4.png" />
+&nbsp;
+
+1. Navigate tot the tab 'Internet' and fill in the following things:
+    - Go to internet acces-> check "This client has access by means of Internet' on
+    - Check the 'This customer may log into Florisoft' on
+    - Password for customer
+
+
+<img src="manual sales\.media\picture5.png" />
+&nbsp;
+
+1. To authorise the stock, go to 'Accessible stocks'
+
+<img src="manual sales\.media\picture6.png" />
+&nbsp;
+
+1. To authorise a debtor for a stock, put a checkmark in the columns:
+    - A - Entry -(toegang)
+    - T - Telesales, webshop access -(televerkoop, webshop toegang)
+
+<img src="manual sales\.media\picture7.png" />
+&nbsp;
+
+## 3.3 System user
+
+Follow the steps below to set up the system user:
+
+1. Go to the Constants -> System -> Users -> System users
+2. Select a system user
+3. At 'Seller' you connect the seller you have just created
+
+<img src="manual sales\.media\picture8.png" />
+&nbsp;
