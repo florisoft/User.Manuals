@@ -155,6 +155,6 @@ If everything has been set up correctly it should look like this:
 
 # 5 FAQ
 
-Question: I created an offer for a customer but I can't open it.
+Question: "I created an offer for a customer but I can't open it."
 
 Answer: Check whether the customer in question has access to the Webshop (Organs -> Debtors -> Check "This customer has access via the internet").
