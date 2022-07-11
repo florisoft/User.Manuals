@@ -12,7 +12,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.3 Saving or undoing progress](#43-saving-or-undoing-progress)   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.4 Customizing the header](#44-customizing-the-header)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.4.1 Adding an image](#441-adding-an-image-to-the-header)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.4.2 Background color selection](#442-background-colour-selection)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.4.2 Background colour selection](#442-background-colour-selection)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.4.3 Other header properties](#443-other-header-properties)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.5 The subheader](#45-the-subheader)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.6 The body](#46-the-body)  
@@ -29,13 +29,13 @@ Because of this a new editor was developed, the editor will change but more impo
 
 The intention of this manual to get to know the editors functionality and learn how to create e-mail lay-outs for your business. We will start with the basics of getting to the editing screen first, if you are already familiar with those steps skip ahead to [step 4](#step-4-the-editor). <br>
 
-**Note:** *The editor is still partially in developmen meaning that some functionalities might be subject to change. This document will be updated as soon as possible but might lag behind.*  
+**Note:** *The editor is still partially in development meaning that some functionalities might be subject to change. This document will be updated as soon as possible but might lag behind.*  
 
 # Step 1. Getting to the mailing configuration screen 
-Go the your florishop webpage and login with a management account. Once logged in go to:</br> *configuration* **→**  *mail configuration* as shown in the image below.
+Go the your Florishop webpage and login with a management account. Once logged in go to:</br> *configuration* **→**  *mail configuration* as shown in the image below.
 <img src=".Active Email Editior EN media/GettingToTheMailingConfigurationScreen.png" alt="getting to editor">
 <br>
-You are now faced with the screen below which shows the currently existing templates in the system along with some search functionalities. <br>
+You will be brought to a different webpage that shows the currently existing templates in the system along with some search. The image below represents the screen you should now see. <br>
 
 <img src=".Active Email Editior EN media/Mailing Configuration Screen.png" alt="Mailing Configuration Screen">
 
@@ -46,19 +46,19 @@ In the screen shown in the last step press the '*create*' button.
 A dialog screen should a appear with options for our new template (example seen below). The following options should be set for our new template:  
 
 1. **Theme filter** : Select the theme filter **TODO**!
-2. **Mail type filter**: with this drop down selector you can set the type of template you are going to create.  This is an important field to get right as only some filter types will work with backoffice functionalities such as offers.
+2. **Mail type filter**: with this drop down selector you can set the type of template you are going to create.  This is an important field to get right as only some filter types will work with the Florisoft application functionalities such as offers.
 3. **Template name** : in this field you can set the name of the new template. For the purpose of this manual we will set the name to '*ExampleOfferTemplateEN*'.
 
 <br>
 <img src=".Active Email Editior EN media/NewMailTemplateOptions.png">  
 
-After entering the rigth options for our new template press the '*create*' button. The dialog should dissapear and the mailing configuration screen should be visible again. <br> 
+After entering the right options for our new template press the '*create*' button. The dialog should disappear  and the mailing configuration screen should be visible again. <br> 
 In the image below you can see that we successfully added a new template.
 <img src=".Active Email Editior EN media/NewMailTemplateCreated.png">
 
 # Step 3. Editing an exisiting template 
 After having created a new mail template we can edit to our needs. To get to the editor simply press the '*edit*' field in the row of the template you want to edit.  
-For the purpose of the manual we are editing the template created in step 2. The image below shows an example of were to find the right edit button.
+For the purpose of the manual we are editing the template created in step 2. The image below shows an example of wh ere to find the right edit button.
 
 <img src=".Active Email Editior EN media/EditButtonForMailTemplate.png">
 
@@ -69,12 +69,12 @@ The preview screen currently shows us the set default template when creating a n
 
 ## 4.1 Show advanced
 ---
-To get the most out of the it is recommended to show the advanced customization options. To enable the advancedproperties simply check the '*show advanced*' checkbox below the e-mail template name. There is no need to refresh the page after checking this option as theproperties will simply show themselves.
+To get the most out of the it is recommended to show the advanced customization options. To enable the advanced properties simply check the '*show advanced*' checkbox below the e-mail template name. There is no need to refresh the page after checking this option as the properties will simply show themselves.
 <img src=".Active Email Editior EN media/ShowAdvancedCheckbox.png">  
 
 ## 4.2 Selecting or searching properties 
 ---
-Being shown all the e-mail customizationproperties might be a bit overwhelming, to make this a bit easier we'll select theproperties based on the part of the e-mail we are editing. In the next part we will be editing the header so let's select the header section properties. To do this simply click (left mouse button) on the '*section filter*' drop down and click on the section you are going to edit. 
+Being shown all the e-mail customization properties might be a bit overwhelming, to make this a bit easier we'll select the properties based on the part of the e-mail we are editing. In the next part we will be editing the header so let's select the header section properties. To do this simply click (left mouse button) on the '*section filter*' drop down and click on the section you are going to edit. 
 
 <img src=".Active Email Editior EN media/SectionFilter.png">
 
@@ -89,7 +89,7 @@ Meaning that if you exit the editor but open it again because you would like to 
 <img src=".Active Email Editior EN media/UndoAndSave.png">
 
 ## 4.4 Customizing the header
----
+
 
 ### **4.4.1 Adding an image to the header**
 For this manual we will start at the top of the e-mail meaning the header. We will start by adding an image to header. To do this left click on the row that says '*Image path*' this will give a prompt like the image shown below. Now to add a custom image left click the placeholder image in the prompt.  
@@ -103,12 +103,12 @@ After uploading the image will show up in the image popup screen. This image mig
 ### **4.4.2 Background colour selection**
 After adding an image we have a couple more properties we can set the customize our e-mail header. Let's start with the background colour of the header, simply left click on the '*Background colour*' field. This should give us the following prompt:  
 <img src=".Active Email Editior EN media/ColorSelection.png">  
-Simply left click the coloured button highlighed in the image above. This should prompt a new screen in which you can pick your desired colours. You can select the desired color using the color reel or by entering the color hex code in the highlighted part of the image. After having selected the right color press the '*Choose*' button to exit the color picker. Then press save to lock in the colour as the background colour.  
+Simply left click the coloured button highlighted in the image above. This should prompt a new screen in which you can pick your desired colours. You can select the desiredcolourusing the colour reel or by entering the colour hex code in the highlighted part of the image. After having selected the right colour press the '*Choose*' button to exit the colour picker. Then press save to lock in the colour as the background colour.  
 
 <img src=".Active Email Editior EN media/ColorPicker.png">  
 
 ### **4.4.3 Other header properties** 
-The other properties are pretty straight forward; to change a property simple left click on a field fill in the prompt and press save. Let's take the *height* property as an example, left mouse click on the height field. We are now prompted with the screen shown below. The top textbox is the value of our property and the drop down below can be seen as the unit of meassurement the value is intepreted as.
+The other properties are pretty straight forward; to change a property simple left click on a field fill in the prompt and press save. Let's take the *height* property as an example, left mouse click on the height field. We are now prompted with the screen shown below. The top textbox is the value of our property and the drop down below can be seen as the unit of measurement the value is interpreted as.
 
 Changing other properties such as *Image padding* follows the exact same process. It is recommended to check the preview after every change to see if the change was a positive or not.   
 
@@ -118,18 +118,19 @@ Changing other properties such as *Image padding* follows the exact same process
 
 
 ## 4.5 The Subheader
-The sub header doesn't have unique fields on it's own, to see how to change these values we'll refer you to chapter [4.4.2](#442-background-colour-selection) for colors and [4.4.3](#443-other-header-properties) for regular properties. Section specific parts will be explained in the corresponding section sub chapter.
+The sub header doesn't have unique fields on it's own, to see how to change these values we'll refer you to chapter [4.4.2](#442-background-colour-selection) for colours and [4.4.3](#443-other-header-properties) for regular properties. Section specific parts will be explained in the corresponding section sub chapter.
 
 ## 4.6 The body 
-Most of the body propertyproperties are similar as the ones in the header. An important property of the body is the '*Amount of columns*' property which by default is set to 1. This setting sets the amount of products on offer per row in the e-mail. To see which one is suited for your needs we recommend experimenting with this property to see what fits best. To change this value simply left click on the property row/field and select the drop down value that you want to use. This ofcourse can be seen in the preview immediately after having changed the property value.
+Most of the body property properties are similar as the ones in the header. An important property of the body is the '*Amount of columns*' property which by default is set to 1. This setting sets the amount of products on offer per row in the e-mail. To see which one is suited for your needs we recommend experimenting with this property to see what fits best. To change this value simply left click on the property row/field and select the drop down value that you want to use. This of course can be seen in the preview immediately after having changed the property value.  
+
 <img src=".Active Email Editior EN media/AmountOfCollumns.png">
 
-The body also contains another property type we haven't seen before a True or False binary setting. An example of this is the '*Show veilart in collumns*' property, this property allows you to enable/disable the auction article number being shown in the table. To change this property simply left click on the property row or field, check or uncheck the checkbox and press save.  
+The body also contains another property type we haven't seen before a True or False binary setting. An example of this is the '*Show veilart in columns*' property, this property allows you to enable/disable the auction article number being shown in the table. To change this property simply left click on the property row or field, check or uncheck the checkbox and press save.  
 
 <img src=".Active Email Editior EN media/ShowVeilArtProperty.png">
 
 ## 4.7 The footer
-The footer itself does not have any special properties. However it is important to remember that the fields below the footer font color are static labels only. Meaning that they are just the indicator of what is going to be shown behind it. Things like the postal code, address etc. are taken dynamically from the database and are not shown in the preview. In the current iteration of the editor we allow the label (indicators) to be changed but the dynamic values taken from the database will remain the same and are unchangable for now. **NEEDS TO BE REPHRASED**
+The footer itself does not have any special properties. However it is important to remember that the fields below the footer font colour are static labels only. Meaning that they are just the indicator of what is going to be shown behind it. Things like the postal code, address etc. are taken dynamically from the database and are not shown in the preview. In the current iteration of the editor we allow the label (indicators) to be changed but the dynamic values taken from the database will remain the same and are unchangeable for now. **NEEDS TO BE REPHRASED**
 
 **Important!:** *Now that we have gone through the entire e-mail lay-out it is important to remember to press save as described in [chapter 4.3](#43-saving-and-undoing-progress).*
 
@@ -143,13 +144,13 @@ You can search/filter based on three properties of an e-mail template: Theme fil
 
 # Step 6. Enabling an e-mail template
 
-When the e-mail template is ready for use and you want to make the template avaiable in the back office follow the following steps:
+When the e-mail template is ready for use and you want to make the template available in the back office follow the following steps:
 
 0. If needed **save** and exit the template editor.
 1. Go to the mail configuration screen (top navigator bar: *configuration* **→** *mail configuration*).
 2. If needed search for the template you need to enable.
 3. Press/check the '*Enabled*' checkbox in the template listicle row.
-4. Once enabled it will be visible in the backoffice  
+4. Once enabled it will be visible in the Florisoft application.  
 
 <img src=".Active Email Editior EN media/EnabledOptionTemplate.png">  
 
