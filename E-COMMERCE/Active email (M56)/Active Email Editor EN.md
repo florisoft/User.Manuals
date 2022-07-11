@@ -2,13 +2,24 @@
 &nbsp;
 
 # Table of contents 
-**FIX THIS!!**  
 [Introduction](#introduction)  
 [Step 1. Mailing configuration screen](#step-1-getting-to-the-mailing-configuration-screen)  
 [Step 2. Creating a new template](#step-2-creating-a-new-template)  
 [Step 3. Editing an existing template](#step-3-editing-an-exisiting-template)  
 [Step 4. The editor](#step-4-the-editor)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.1 Show advanced](#41-show-advanced)   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.2 Selecting or searching properties](#42-selecting-or-searching-properties)   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.3 Saving or undoing progress](#43-saving-or-undoing-progress)   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.4 Customizing the header](#44-customizing-the-header)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.4.1 Adding an image](#441-adding-an-image-to-the-header)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.4.2 Background color selection](#442-background-colour-selection)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.4.3 Other header properties](#443-other-header-properties)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.5 The subheader](#45-the-subheader)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.6 The body](#46-the-body)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.7 The footer](#47-the-footer)  
 [Step 5. Search functionalities](#step-5-search-functionalities-with-the-mailing-configuration-screen)  
+[Step 6. Enabling an e-mail template](#step-6-enabling-an-e-mail-template)  
+[Step 7. Finding the e-mail template in the back office](#step-7-finding-the-e-mail-template-in-the-back-office-application)
 
 # Introduction
 
@@ -16,7 +27,7 @@ The active e-mail module is a commonly used module within the Florisoft software
 
 Because of this a new editor was developed, the editor will change but more importantly simplify the process of creating e-mail layouts. For now the editor will only be accessible to Florisoft employees but in the future the editor will be accessible for you as well. <br>
 
-The intention of this manual to get to know the editors functionality and learn how to create e-mail lay-outs for your business. We will start with the basiscs of getting to the editing screen first, if you are already familiar with those steps skip ahead to [step 4](#step-4-the-editor). <br>
+The intention of this manual to get to know the editors functionality and learn how to create e-mail lay-outs for your business. We will start with the basics of getting to the editing screen first, if you are already familiar with those steps skip ahead to [step 4](#step-4-the-editor). <br>
 
 **Note:** *The editor is still partially in developmen meaning that some functionalities might be subject to change. This document will be updated as soon as possible but might lag behind.*  
 
@@ -58,12 +69,12 @@ The preview screen currently shows us the set default template when creating a n
 
 ## 4.1 Show advanced
 ---
-To get the most out of the it is recommended to show the advanced customization options. To enable the advanced settings simply check the '*show advanced*' checkbox below the e-mail template name. There is no need to refresh the page after checking this option as the settings will simply show themselves.
+To get the most out of the it is recommended to show the advanced customization options. To enable the advancedproperties simply check the '*show advanced*' checkbox below the e-mail template name. There is no need to refresh the page after checking this option as theproperties will simply show themselves.
 <img src=".Active Email Editior EN media/ShowAdvancedCheckbox.png">  
 
-## 4.2 Selecting or searching settings 
+## 4.2 Selecting or searching properties 
 ---
-Being shown all the e-mail customization settings might be a bit overwhelming, to make this a bit easier we'll select the settings based on the part of the e-mail we are editing. In the next part we will be editing the header so let's select the header section properties. To do this simply click (left mouse button) on the '*section filter*' drop down and click on the section you are going to edit. 
+Being shown all the e-mail customizationproperties might be a bit overwhelming, to make this a bit easier we'll select theproperties based on the part of the e-mail we are editing. In the next part we will be editing the header so let's select the header section properties. To do this simply click (left mouse button) on the '*section filter*' drop down and click on the section you are going to edit. 
 
 <img src=".Active Email Editior EN media/SectionFilter.png">
 
@@ -71,7 +82,7 @@ If you need to find a specific setting you can search it using one of the two fi
 
 <img src=".Active Email Editior EN media/ItemAndValueFilter.png">
 
-## 4.3 Saving and undoing progress 
+## 4.3 Saving or undoing progress 
 
 To save or undo  the changes made to the template use the *floppy disk* and *leftwards arrow* buttons respectively. These buttons can be found next to the search filters mentioned previously. Do keep in mind that the undo button can only be used for changes made in your current session. **By pressing the undo button you will undo all changes made in your session effectively resetting it to the last saved lay-out**.
 Meaning that if you exit the editor but open it again because you would like to change something you can't undo changes made in the last time you worked in the editor. 
@@ -110,7 +121,7 @@ Changing other properties such as *Image padding* follows the exact same process
 The sub header doesn't have unique fields on it's own, to see how to change these values we'll refer you to chapter [4.4.2](#442-background-colour-selection) for colors and [4.4.3](#443-other-header-properties) for regular properties. Section specific parts will be explained in the corresponding section sub chapter.
 
 ## 4.6 The body 
-Most of the body property settings are similar as the ones in the header. An important property of the body is the '*Amount of columns*' property which by default is set to 1. This setting sets the amount of products on offer per row in the e-mail. To see which one is suited for your needs we recommend experimenting with this property to see what fits best. To change this value simply left click on the property row/field and select the drop down value that you want to use. This ofcourse can be seen in the preview immediately after having changed the property value.
+Most of the body propertyproperties are similar as the ones in the header. An important property of the body is the '*Amount of columns*' property which by default is set to 1. This setting sets the amount of products on offer per row in the e-mail. To see which one is suited for your needs we recommend experimenting with this property to see what fits best. To change this value simply left click on the property row/field and select the drop down value that you want to use. This ofcourse can be seen in the preview immediately after having changed the property value.
 <img src=".Active Email Editior EN media/AmountOfCollumns.png">
 
 The body also contains another property type we haven't seen before a True or False binary setting. An example of this is the '*Show veilart in collumns*' property, this property allows you to enable/disable the auction article number being shown in the table. To change this property simply left click on the property row or field, check or uncheck the checkbox and press save.  
@@ -143,3 +154,4 @@ When the e-mail template is ready for use and you want to make the template avai
 <img src=".Active Email Editior EN media/EnabledOptionTemplate.png">  
 
 # Step 7. Finding the e-mail template in the back-office application 
+**TODO!!**
