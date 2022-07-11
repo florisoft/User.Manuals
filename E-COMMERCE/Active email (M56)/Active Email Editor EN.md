@@ -23,19 +23,19 @@
 
 # Introduction
 
-The active e-mail module is a commonly used module within the Florisoft software package. This module falls under the overarching Florishop sales module. Previous iterations of this module had a accessibility problem since it needed to be created in a HTML format. This also caused a lot more work in testing functionality and design. <br>
+The active e-mail module is a commonly used module within the Florisoft software package. This module falls under the overarching Florishop sales module. Previous iterations of this module had an accessibility problem since it needed to be created in an HTML format. This also caused a lot more work in testing and designing. <br>
 
-Because of this a new editor was developed, the editor will change but more importantly simplify the process of creating e-mail layouts. For now the editor will only be accessible to Florisoft employees but in the future the editor will be accessible for you as well. <br>
+Because of this a new editor was developed, the editor will simplify the process of creating and managing e-mail layouts. For now the editor will only be accessible to Florisoft employees but in the future the editor will be accessible to you as well. <br>
 
-The intention of this manual to get to know the editors functionality and learn how to create e-mail lay-outs for your business. We will start with the basics of getting to the editing screen first, if you are already familiar with those steps skip ahead to [step 4](#step-4-the-editor). <br>
+The intention of this manual is to get to know the editor's functionality and learn how to create and manage e-mail lay-outs for your business. We will start with the basics of getting to the editing screen first, if you are already familiar with those steps you may skip ahead to [step 4](#step-4-the-editor). <br>
 
 **Note:** *The editor is still partially in development meaning that some functionalities might be subject to change. This document will be updated as soon as possible but might lag behind.*  
 
 # Step 1. Getting to the mailing configuration screen 
-Go the your Florishop webpage and login with a management account. Once logged in go to:</br> *configuration* **→**  *mail configuration* as shown in the image below.
+Go the your Florishop webpage and login with a management account. Once logged in go to</br> *configuration* **→**  *mail configuration* as shown in the image below.
 <img src=".Active Email Editior EN media/GettingToTheMailingConfigurationScreen.png" alt="getting to editor">
 <br>
-You will be brought to a different webpage that shows the currently existing templates in the system along with some search. The image below represents the screen you should now see. <br>
+You will be brought to a different page that shows the currently existing templates in the system along with some search. The image below represents the screen you should now see. <br>
 
 <img src=".Active Email Editior EN media/Mailing Configuration Screen.png" alt="Mailing Configuration Screen">
 
@@ -97,7 +97,8 @@ For this manual we will start at the top of the e-mail meaning the header. We wi
 This will give a new prompt where we can actually upload our header image. To upload a new image left click the '*upload*' button. This should prompt us with a file explorer screen in which you can select the image file on your local system.  
 <img src=".Active Email Editior EN media/ImageUploadScreen.png">  
 
-After uploading the image will show up in the image popup screen. This image might be hard to find in this screen as the media folder is shared across the whole website. To fix this you can make use of the search functionality in the top right of the prompted screen. The search functionality searches based on the filename that was uploaded just now. To finally select the image left click on the image thumbnail which brings you back to the previous prompt. In this prompt simply press save and look at the preview header to see the newly selected header image.
+After uploading the image will show up in the image popup screen. This image might be hard to find in this screen as the media folder is shared across the whole website. To fix this you can make use of the search functionality in the top right of the prompted screen. The search functionality searches based on the filename that was uploaded just now. To finally select the image left click on the image thumbnail which brings you back to the previous prompt. In this prompt simply press save and look at the preview header to see the newly selected header image.  
+
 <img src=".Active Email Editior EN media/SearchFunctionImageSelect.png"> 
 
 ### **4.4.2 Background colour selection**
@@ -155,4 +156,10 @@ When the e-mail template is ready for use and you want to make the template avai
 <img src=".Active Email Editior EN media/EnabledOptionTemplate.png">  
 
 # Step 7. Finding the e-mail template in the back-office application 
-**TODO!!**
+
+Now that we have created an active e-mail template on the Florishop we should be able to see it in the Florisoft application too. To check this follow the following steps:
+
+1. Open the Florisoft application if you didn't do that already.
+2. Click on the '*offers*' button (may vary depending on users language)
+3. Within the offers menu click on the '*print*' button (see image 1 below)
+4. You should now be prompted with a print options menu, click on the print layout dropdown. Within this dropdown you should see your template like so 'FTS_template name here'. **Note:** the templates created within the Florishop active mail module are indicated with a 'FTS_' prefix.
