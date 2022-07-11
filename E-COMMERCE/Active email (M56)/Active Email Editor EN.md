@@ -46,11 +46,59 @@ In the image below you can see that we successfully added a new template.
 <img src=".Active Email Editior EN media/NewMailTemplateCreated.png">
 
 # Step 3. Editing an exisiting template 
-After having created a new mail template we can edit to our needs. To get to the editor simply press the '*edit*' field in the row of the template you want to edit. 
-For the purpose of the manual we are editing the template created in step 2. The image below shows an example of were to find the right edit button. 
+After having created a new mail template we can edit to our needs. To get to the editor simply press the '*edit*' field in the row of the template you want to edit.  
+For the purpose of the manual we are editing the template created in step 2. The image below shows an example of were to find the right edit button.
+
 <img src=".Active Email Editior EN media/EditButtonForMailTemplate.png">
 
 # Step 4. The editor
+After following the previous steps we are now in the editor. To make the editing process as simple as possible the screen has been split in two parts: editing and preview. The editing part on the left is where we can change values e.g. the height of the footer. The right part is the preview part this screen gives us a live preview of the changes made in the editor screen.  
+<img src=".Active Email Editior EN media/EditorBaseScreen.png">  
+The preview screen currently shows us the set default template when creating a new mailing template. An important thing of note is that the current text in preview is static and live e-mails will contain dynamic database fields. 
+
+## 4.1 Show advanced
+---
+To get the most out of the it is recommended to show the advanced customization options. To enable the advanced settings simply check the '*show advanced*' checkbox below the e-mail template name. There is no need to refresh the page after checking this option as the settings will simply show themselves.
+<img src=".Active Email Editior EN media/ShowAdvancedCheckbox.png">  
+
+## 4.2 Selecting or searching settings 
+---
+Being shown all the e-mail customization settings might be a bit overwhelming, to make this a bit easier we'll select the settings based on the part of the e-mail we are editing. In the next part we will be editing the header so let's select the header section properties. To do this simply click (left mouse button) on the '*section filter*' drop down and click on the section you are going to edit. 
+
+<img src=".Active Email Editior EN media/SectionFilter.png">
+
+If you need to find a specific setting you can search it using one of the two filters next to the section filter. You can filter by Item or Value, do note whatever you search for will only searched for in section selected in the section filter. If you want to search across all the properties regardless of sections select '*No selection*' in the section filter. The Item filter may be used to search for property names such as 'Background colour'. With the value filter you may search for the property value instead e.g. '#216289' for the background colour. 
+
+<img src=".Active Email Editior EN media/ItemAndValueFilter.png">
+
+## 4.3 Saving and undoing progress 
+
+To save or undo  the changes made to the template use the *floppy disk* and *leftwards arrow* buttons respectively. These buttons can be found next to the search filters mentioned previously. Do keep in mind that the undo button can only be used for changes made in your current session. **By pressing the undo button you will undo all changes made in your session effectively resetting it to the last saved lay-out**.
+Meaning that if you exit the editor but open it again because you would like to change something you can't undo changes made in the last time you worked in the editor. 
+<img src=".Active Email Editior EN media/UndoAndSave.png">
+
+## 4.4 Customizing the header
+---
+
+### **4.4.1 Adding an image to the header**
+For this manual we will start at the top of the e-mail meaning the header. We will start by adding an image to header. To do this left click on the row that says '*Image path*' this will give a prompt like the image shown below. Now to add a custom image left click the placeholder image in the prompt.  
+<img src=".Active Email Editior EN media/ImagePathPrompt.png">  
+This will give a new prompt where we can actually upload our header image. To upload a new image left click the '*upload*' button. This should prompt us with a file explorer screen in which you can select the image file on your local system.  
+<img src=".Active Email Editior EN media/ImageUploadScreen.png">  
+
+After uploading the image will show up in the image popup screen. This image might be hard to find in this screen as the media folder is shared across the whole website. To fix this you can make use of the search functionality in the top right of the prompted screen. The search functionality searches based on the filename that was uploaded just now. To finally select the image left click on the image thumbnail which brings you back to the previous prompt. In this prompt simply press save and look at the preview header to see the newly selected header image.
+<img src=".Active Email Editior EN media/SearchFunctionImageSelect.png"> 
+
+### **4.4.2 Background colour selection**
+After adding an image we have a couple more properties we can set the customize our e-mail header. Let's start with the background colour of the header, simply left click on the '*Background colour*' field. This should give us the following prompt:  
+<img src=".Active Email Editior EN media/ColorSelection.png">  
+Simply left click the coloured button highlighed in the image above. This should prompt a new screen in which you can pick your desired colours. You can select the desired color using the color reel or by entering the color hex code in the highlighted part of the image. After having selected the right color press the '*Choose*' button to exit the color picker. Then press save to lock in the colour as the background colour.
+<img src=".Active Email Editior EN media/ColorPicker.png">  
+
+### **4.4.3 Other header properties**
+
+## 4.5
+
 
 # Step 5. Search functionalities with the mailing configuration screen
 
