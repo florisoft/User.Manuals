@@ -92,14 +92,54 @@ After uploading the image will show up in the image popup screen. This image mig
 ### **4.4.2 Background colour selection**
 After adding an image we have a couple more properties we can set the customize our e-mail header. Let's start with the background colour of the header, simply left click on the '*Background colour*' field. This should give us the following prompt:  
 <img src=".Active Email Editior EN media/ColorSelection.png">  
-Simply left click the coloured button highlighed in the image above. This should prompt a new screen in which you can pick your desired colours. You can select the desired color using the color reel or by entering the color hex code in the highlighted part of the image. After having selected the right color press the '*Choose*' button to exit the color picker. Then press save to lock in the colour as the background colour.
+Simply left click the coloured button highlighed in the image above. This should prompt a new screen in which you can pick your desired colours. You can select the desired color using the color reel or by entering the color hex code in the highlighted part of the image. After having selected the right color press the '*Choose*' button to exit the color picker. Then press save to lock in the colour as the background colour.  
+
 <img src=".Active Email Editior EN media/ColorPicker.png">  
 
-### **4.4.3 Other header properties**
+### **4.4.3 Other header properties** 
+The other properties are pretty straight forward; to change a property simple left click on a field fill in the prompt and press save. Let's take the *height* property as an example, left mouse click on the height field. We are now prompted with the screen shown below. The top textbox is the value of our property and the drop down below can be seen as the unit of meassurement the value is intepreted as.
 
-## 4.5
+Changing other properties such as *Image padding* follows the exact same process. It is recommended to check the preview after every change to see if the change was a positive or not.   
 
+**Tip:** *Do not forget to regularly save your progress to reduce the loss of progress if something were to happen.*
+
+<img src=".Active Email Editior EN media/HeightPropertyPrompt.png">
+
+
+## 4.5 The Subheader
+The sub header doesn't have unique fields on it's own, to see how to change these values we'll refer you to chapter [4.4.2](#442-background-colour-selection) for colors and [4.4.3](#443-other-header-properties) for regular properties. Section specific parts will be explained in the corresponding section sub chapter.
+
+## 4.6 The body 
+Most of the body property settings are similar as the ones in the header. An important property of the body is the '*Amount of columns*' property which by default is set to 1. This setting sets the amount of products on offer per row in the e-mail. To see which one is suited for your needs we recommend experimenting with this property to see what fits best. To change this value simply left click on the property row/field and select the drop down value that you want to use. This ofcourse can be seen in the preview immediately after having changed the property value.
+<img src=".Active Email Editior EN media/AmountOfCollumns.png">
+
+The body also contains another property type we haven't seen before a True or False binary setting. An example of this is the '*Show veilart in collumns*' property, this property allows you to enable/disable the auction article number being shown in the table. To change this property simply left click on the property row or field, check or uncheck the checkbox and press save.  
+
+<img src=".Active Email Editior EN media/ShowVeilArtProperty.png">
+
+## 4.7 The footer
+The footer itself does not have any special properties. However it is important to remember that the fields below the footer font color are static labels only. Meaning that they are just the indicator of what is going to be shown behind it. Things like the postal code, address etc. are taken dynamically from the database and are not shown in the preview. In the current iteration of the editor we allow the label (indicators) to be changed but the dynamic values taken from the database will remain the same and are unchangable for now. **NEEDS TO BE REPHRASED**
+
+**Important!:** *Now that we have gone through the entire e-mail lay-out it is important to remember to press save as described in [chapter 4.3](#43-saving-and-undoing-progress).*
 
 # Step 5. Search functionalities with the mailing configuration screen
 
+When the using the active e-mail module you might have a variety of templates at your disposal. If you need to find a certain template quickly there is a  built-in search function within the mail configuration screen. 
+
+You can search/filter based on three properties of an e-mail template: Theme filter, Mail type filter and the template name. There is no need to press enter or refresh as the page will automatically filter the matching templates for you. If you want to remove the filters simply press the '*reset*' button next to the filters. 
+
+<img src=".Active Email Editior EN media/MailConfigurationScreenSearch.png">
+
 # Step 6. Enabling an e-mail template
+
+When the e-mail template is ready for use and you want to make the template avaiable in the back office follow the following steps:
+
+0. If needed **save** and exit the template editor.
+1. Go to the mail configuration screen (top navigator bar: *configuration* **→** *mail configuration*).
+2. If needed search for the template you need to enable.
+3. Press/check the '*Enabled*' checkbox in the template listicle row.
+4. Once enabled it will be visible in the backoffice  
+
+<img src=".Active Email Editior EN media/EnabledOptionTemplate.png">  
+
+# Step 7. Finding the e-mail template in the back-office application 
