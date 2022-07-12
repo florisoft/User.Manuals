@@ -182,4 +182,5 @@ Now that we have created an active e-mail template on the Florishop we should be
 ***Images:***
 
 **1.** <img src=".Active Email Editior EN media/BackofficeOffers.png">
+    
 **2.** <img src=".Active Email Editior EN media/Printoptions.png">
