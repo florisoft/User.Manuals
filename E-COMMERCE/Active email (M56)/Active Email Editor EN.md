@@ -23,53 +23,68 @@
 
 # Introduction
 
-The active e-mail module is a commonly used module within the Florisoft software package. This module falls under the overarching Florishop sales module. Previous iterations of this module had an accessibility problem since it needed to be created in an HTML format. This also caused a lot more work in testing and designing. <br>
+The active e-mail module is a commonly module within the Florisoft application, currently it falls under the overarching Florishop sales module but this might be subject to change. Previously custom active e-mail was to be created in HTML format which caused problems. The main problems is the cost of development and accessibility for some of our customers.
 
-Because of this a new editor was developed, the editor will simplify the process of creating and managing e-mail layouts. For now the editor will only be accessible to Florisoft employees but in the future the editor will be accessible to you as well. <br>
+To address this growing problem a new e-mail editor was developed within the Florishop website. The editors main goals are to simplify creation and management of the e-mail templates for our customers. However the editor is currently only available to Florisoft staff, but it will be made accessible to customers in the future as well .
 
-The intention of this manual is to get to know the editor's functionality and learn how to create and manage e-mail lay-outs for your business. We will start with the basics of getting to the editing screen first, if you are already familiar with those steps you may skip ahead to [step 4](#step-4-the-editor). <br>
+The intention of the user manual is to get to know the editor’s functionalities and learn how to create and manage e-mail lay-outs for your business. This document will walk you through the complete process of creating templates to starting to edit them and finally enabling them. If you are already familiar with the process of creating templates you may skip ahead to [step 4](#step-4-the-editor).
 
-**Note:** *The editor is still partially in development meaning that some functionalities might be subject to change. This document will be updated as soon as possible but might lag behind.*  
+**Note:** *The editor is still partially in development this means that some functionalities might be subject to change and the possible addition of more features. We will try our best to keep this manual as up to date as possible but know that this guide may lag behind from the current version in future.*
+
 
 # Step 1. Getting to the mailing configuration screen 
-Go the your Florishop webpage and login with a management account. Once logged in go to</br> *configuration* **→**  *mail configuration* as shown in the image below.
+Open a browser if you didn’t have one open already and navigate to your Florishop webpage and login with a management account. Once logged in go to *configuration* **→**  *mail configuration* as shown in the image below.
+
 <img src=".Active Email Editior EN media/GettingToTheMailingConfigurationScreen.png" alt="getting to editor">
-<br>
-You will be brought to a different page that shows the currently existing templates in the system along with some search. The image below represents the screen you should now see. <br>
+
+This will bring you to the mailing configuration screen, the page where you create and manage your active e-mail templates. If there are any templates already existing within your system they should be shown here. The mailing configuration screen also has some search functionalities to find the right template for you to edit.
 
 <img src=".Active Email Editior EN media/Mailing Configuration Screen.png" alt="Mailing Configuration Screen">
 
 
 # Step 2. Creating a new template
-In the screen shown in the last step press the '*create*' button.
+Continuing with the last screen click on the ‘*create*’ button highlighted in the image below. 
+
 <img src=".Active Email Editior EN media/CreateButtonMailConfig.png">
-A dialog screen should a appear with options for our new template (example seen below). The following options should be set for our new template:  
 
-1. **Theme filter** : Select the theme filter **TODO**!
-2. **Mail type filter**: with this drop down selector you can set the type of template you are going to create.  This is an important field to get right as only some filter types will work with the Florisoft application functionalities such as offers.
-3. **Template name** : in this field you can set the name of the new template. For the purpose of this manual we will set the name to '*ExampleOfferTemplateEN*'.
+A popup pop-up screen appears with options for the new template you are about to create (the image below contains an example of the prompt with some exemplary values for this manual).
+For the new e-mail template you are required to set the following properties:
 
-<br>
+1. **Theme filter**: This property contains the website wide theme the template falls under, by default this should be the right one so don’t change it unless you know what you are doing.
+2. **Mail type filter**: This property decides what type of mail this template will be. Currently there is only one ‘Aanbieding’ or offer.
+3. **Template name**: The name of template it is recommended that you set this to something that is easily recognizable later. *For the purpose of this manual we will set it to the name ‘*ExampleOfferTemplateEN*’.
+
 <img src=".Active Email Editior EN media/NewMailTemplateOptions.png">  
 
-After entering the right options for our new template press the '*create*' button. The dialog should disappear  and the mailing configuration screen should be visible again. <br> 
-In the image below you can see that we successfully added a new template.
+After entering the right property values for the new template press the ‘*create*’ button. The prompt should disappear and the mailing configuration screen should be visible once more.
+The image below shows that we see our newly created template in the mailing configuration screen template list with the properties we set just now.
+
 <img src=".Active Email Editior EN media/NewMailTemplateCreated.png">
 
 # Step 3. Editing an exisiting template 
-After having created a new mail template we can edit to our needs. To get to the editor simply press the '*edit*' field in the row of the template you want to edit.  
-For the purpose of the manual we are editing the template created in step 2. The image below shows an example of wh ere to find the right edit button.
+After having created a new mail template we can edit it to fit our needs. To get to the editor press the ‘*edit*’ field in the row of the template you want to edit. For the purpose of this manual we will be editing the template created in step 2: *ExampleOfferTemplateEN*. The image below shows an example of where to click to edit the right template.
 
 <img src=".Active Email Editior EN media/EditButtonForMailTemplate.png">
 
 # Step 4. The editor
-After following the previous steps we are now in the editor. To make the editing process as simple as possible the screen has been split in two parts: editing and preview. The editing part on the left is where we can change values e.g. the height of the footer. The right part is the preview part this screen gives us a live preview of the changes made in the editor screen.  
+After following the previous steps you should now be in the editor. To make the editing process as easy as possible the screen has been split in two parts: editing and preview. The editing screen to the left is where we can change values such as header height. These changes will change the live preview screen on the right where we can see what are our template e-mail looks like.
+
+There are a couple of important things to remember about the preview screen:
+
+1. The preview screen is live, which means that changes made on the left will automatically be rendered on the right. So there is **no** need to refresh after changes the right screen will simply be rerendered after making any changes. 
+2. Fields such as article names or product prices are replaced by placeholders in the preview. A good rule of thumb is that any text field that is changeable within the editor is non-dynamic. The actual e-mails will of course contain dynamic database variables.
+
+The preview screen currently shows us the default template that is created when making a new mailing template.
+
 <img src=".Active Email Editior EN media/EditorBaseScreen.png">  
-The preview screen currently shows us the set default template when creating a new mailing template. An important thing of note is that the current text in preview is static and live e-mails will contain dynamic database fields. 
+
 
 ## 4.1 Show advanced
 ---
 To get the most out of the it is recommended to show the advanced customization options. To enable the advanced properties simply check the '*show advanced*' checkbox below the e-mail template name. There is no need to refresh the page after checking this option as the properties will simply show themselves.
+
+*The image below shows where to find the show advanced checkbox in the editor*
+
 <img src=".Active Email Editior EN media/ShowAdvancedCheckbox.png">  
 
 ## 4.2 Selecting or searching properties 
@@ -97,21 +112,21 @@ For this manual we will start at the top of the e-mail meaning the header. We wi
 This will give a new prompt where we can actually upload our header image. To upload a new image left click the '*upload*' button. This should prompt us with a file explorer screen in which you can select the image file on your local system.  
 <img src=".Active Email Editior EN media/ImageUploadScreen.png">  
 
-After uploading the image will show up in the image popup screen. This image might be hard to find in this screen as the media folder is shared across the whole website. To fix this you can make use of the search functionality in the top right of the prompted screen. The search functionality searches based on the filename that was uploaded just now. To finally select the image left click on the image thumbnail which brings you back to the previous prompt. In this prompt simply press save and look at the preview header to see the newly selected header image.  
+After uploading the image will show up in the image popup screen. This image might be hard to find in this screen as the media folder is shared across the whole website. To find the right image faster you can make use of the search functionality in the top right of the prompted screen. The search functionality searches based on the filename that was uploaded just now. To finally select the image left click on the image thumbnail which brings you back to the previous prompt. In this prompt simply press save and look at the preview header to see the newly selected header image.  
 
 <img src=".Active Email Editior EN media/SearchFunctionImageSelect.png"> 
 
 ### **4.4.2 Background colour selection**
-After adding an image we have a couple more properties we can set the customize our e-mail header. Let's start with the background colour of the header, simply left click on the '*Background colour*' field. This should give us the following prompt:  
+After adding an image we have a couple more properties we can set to customize our e-mail header. Let's start with the background colour of the header, simply left click on the '*Background colour*' field. This should give us the following prompt:  
 <img src=".Active Email Editior EN media/ColorSelection.png">  
-Simply left click the coloured button highlighted in the image above. This should prompt a new screen in which you can pick your desired colours. You can select the desiredcolourusing the colour reel or by entering the colour hex code in the highlighted part of the image. After having selected the right colour press the '*Choose*' button to exit the colour picker. Then press save to lock in the colour as the background colour.  
+Simply left click the coloured button highlighted in the image above. This should prompt a new screen in which you can pick your desired colours. You can select the desired colour using the colour reel or by entering the colour hex code in the highlighted part of the image. After having selected the right colour press the '*Choose*' button to exit the colour picker. Then press save to lock in the colour as the background colour.  
 
 <img src=".Active Email Editior EN media/ColorPicker.png">  
 
 ### **4.4.3 Other header properties** 
 The other properties are pretty straight forward; to change a property simple left click on a field fill in the prompt and press save. Let's take the *height* property as an example, left mouse click on the height field. We are now prompted with the screen shown below. The top textbox is the value of our property and the drop down below can be seen as the unit of measurement the value is interpreted as.
 
-Changing other properties such as *Image padding* follows the exact same process. It is recommended to check the preview after every change to see if the change was a positive or not.   
+Changing other properties such as *Image padding* follows the exact same process. It is recommended to check the preview after every change to see if the change was for the better or not. 
 
 **Tip:** *Do not forget to regularly save your progress to reduce the loss of progress if something were to happen.*
 
@@ -131,7 +146,7 @@ The body also contains another property type we haven't seen before a True or Fa
 <img src=".Active Email Editior EN media/ShowVeilArtProperty.png">
 
 ## 4.7 The footer
-The footer itself does not have any special properties. However it is important to remember that the fields below the footer font colour are static labels only. Meaning that they are just the indicator of what is going to be shown behind it. Things like the postal code, address etc. are taken dynamically from the database and are not shown in the preview. In the current iteration of the editor we allow the label (indicators) to be changed but the dynamic values taken from the database will remain the same and are unchangeable for now. **NEEDS TO BE REPHRASED**
+The footer itself does not have any special properties. However it is important to remember that the fields below the footer font colour are static labels only. Meaning that they are just the indicator of what is going to be shown behind it. Things like the postal code, address etc. are taken dynamically from the database and are not shown in the preview. In the current iteration of the editor we allow the label (indicators) to be changed but the dynamic values taken from the database cannot be changed with the editor.
 
 **Important!:** *Now that we have gone through the entire e-mail lay-out it is important to remember to press save as described in [chapter 4.3](#43-saving-and-undoing-progress).*
 
@@ -162,4 +177,9 @@ Now that we have created an active e-mail template on the Florishop we should be
 1. Open the Florisoft application if you didn't do that already.
 2. Click on the '*offers*' button (may vary depending on users language)
 3. Within the offers menu click on the '*print*' button (see image 1 below)
-4. You should now be prompted with a print options menu, click on the print layout dropdown. Within this dropdown you should see your template like so 'FTS_template name here'. **Note:** the templates created within the Florishop active mail module are indicated with a 'FTS_' prefix.
+4. You should now be prompted with a print options menu, click on the print layout dropdown. Within this dropdown you should see your template like so 'FTS_template name here'(See image 2 below).**Note:** the templates created within the Florishop active mail module are indicated with a 'FTS_' prefix.  
+
+***Images:***
+
+**1.** <img src=".Active Email Editior EN media/BackofficeOffers.png">
+**2.** <img src=".Active Email Editior EN media/Printoptions.png">
