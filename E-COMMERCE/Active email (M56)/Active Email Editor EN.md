@@ -152,7 +152,7 @@ The footer itself does not have any special properties. However it is important 
 
 # Step 5. Search functionalities with the mailing configuration screen
 
-When the using the active e-mail module you might have a variety of templates at your disposal. If you need to find a certain template quickly there is a  built-in search function within the mail configuration screen. 
+When using the active e-mail module you might have a variety of templates at your disposal. If you need to find a certain template quickly there is a built-in search function within the mail configuration screen. 
 
 You can search/filter based on three properties of an e-mail template: Theme filter, Mail type filter and the template name. There is no need to press enter or refresh as the page will automatically filter the matching templates for you. If you want to remove the filters simply press the '*reset*' button next to the filters. 
 
@@ -166,7 +166,7 @@ When the e-mail template is ready for use and you want to make the template avai
 1. Go to the mail configuration screen (top navigator bar: *configuration* **→** *mail configuration*).
 2. If needed search for the template you need to enable.
 3. Press/check the '*Enabled*' checkbox in the template listicle row.
-4. Once enabled it will be visible in the Florisoft application.  
+4. Once enabled it will be visible in the Florisoft application.
 
 <img src=".Active Email Editior EN media/EnabledOptionTemplate.png">  
 
@@ -175,7 +175,7 @@ When the e-mail template is ready for use and you want to make the template avai
 Now that we have created an active e-mail template on the Florishop we should be able to see it in the Florisoft application too. To check this follow the following steps:
 
 1. Open the Florisoft application if you didn't do that already.
-2. Click on the '*offers*' button (may vary depending on users language)
+2. Click on the '*offers*' button (may vary depending on user's language)
 3. Within the offers menu click on the '*print*' button (see image 1 below)
 4. You should now be prompted with a print options menu, click on the print layout dropdown. Within this dropdown you should see your template like so 'FTS_template name here'(See image 2 below).**Note:** the templates created within the Florishop active mail module are indicated with a 'FTS_' prefix.  
 
