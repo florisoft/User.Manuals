@@ -1,4 +1,4 @@
-<img src = "../fslogo.png" alt="Florisoft logo">
+<img src = "../../fslogo.png" alt="Florisoft logo">
 
 # Table of contents
 
