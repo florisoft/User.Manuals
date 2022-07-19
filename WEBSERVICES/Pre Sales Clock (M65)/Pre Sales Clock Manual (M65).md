@@ -11,7 +11,7 @@
 
 Welcome to the Florishop Manual Clock Pre Sale. In this manual the steps required for implementing the Clock Pre Sale module are explained.
 
-Dutch auctions offer a service called Clock Pre Sale, this service is a stock connection which shows products that are ready to be auctioned off. The twist is that these products can actually be bought before they go through the auction. 
+Dutch auctions offers a service called Clock Pre Sale, this service is a stock connection which shows products that are ready to be auctioned off. The twist is that these products can actually be bought before they go through the auction. 
 
 The aim of this manual is to explain the technical implementation of the Clock Pre Sale module in Florisoft so users of the system get a basic understanding on how to work with this module. All steps required for implementing the Clock Pre Sale module are described so the user can activate and use the module on its own.
 
@@ -23,15 +23,15 @@ In chapter three the creation of a supplier is described. This is the most impor
 
 The intention of this manual is that after reading you are able to set up a Clock Pre Sale Connection independently. 
 
-**Important to note**: *Images in this manual may slightly differ from what you are seeing on your screen. The Florisoft application is continually updated so this guide may be slightly out of date. Do however note that big changes are unlikely and that the  process overall will remain the same.*
+**Important to note**: *Images in this manual may slightly differ from what you are seeing on your screen. The Florisoft application is continually updated so this guide may be slightly out of date. Do however note that big changes are unlikely and that the core process will remain the same.*
 
 # 2. Creating incoming stocks
 
 To get the Clock Pre-Sale option to work in the Florisoft application it is necessary to create incoming stocks. This is because incoming stocks is where the Florisoft system reads in all the available products in the Clock Pre Sale connection. 
 
-The Dutch Auction has three physical locations: Aalsmeer, Naaldwijk, and Rijnsburg. Each location must have its own incoming stocks. This results in you having three incoming stocsk for the Clock Pre Sale module by default; one stock per physical location. 
+The Dutch Auction has three physical locations: Aalsmeer, Naaldwijk, and Rijnsburg. Each location must have its own incoming stocks. This results in you having three incoming stocks for the Clock Pre Sale module by default; one stock per physical location. 
 
-The steps below describe the process of creating an incomming stock.
+The steps below describe the process of creating an incoming stock.
 
 1. Start the Florisoft application and log in using your UserID and password. 
 2. Navigate to the constants screen within the Florisoft navigator screen. (#1 in the image below.)
@@ -85,7 +85,7 @@ This should open the constants screen, put it on full screen if necessary. Havin
 
 18. Click the OK button to save the settings and to create a new stock. 
 
-<span style="color: red;"> <b>Important to note:</b> <i>repeat the steps four till eightteen to create additional stocks for the other locations of the auction if applicable.</i></span>
+<span style="color: red;"> <b>Important to note:</b> <i>repeat the steps four up until eightteen to create additional stocks for the other locations of the auction if applicable.</i></span>
 
 19. The newly created stock should now be visible in the stock sections of Florisoft. To check this click on the Stock button in the navigator (#17). 
 
@@ -95,7 +95,7 @@ This should open the constants screen, put it on full screen if necessary. Havin
 
 <img src="Pre Sales Clock EN Media/StocksScreen.png">
 
-By default each newly created stock should be empty unless parcels are either manually or automatically added. Later on in this manual the actual Clock Pre Sale stock will be filled with the products available on the respective locations of the auction.
+By default each newly created stock should be empty unless parcels are added manually or automatically added. Later on in this manual the actual Clock Pre Sale stock will be filled with the products available on the respective locations of the auction.
 
 # 3. Creating suppliers
 
@@ -141,7 +141,7 @@ Another mandatory part of the Clock Pre Sale module is the existence of a suppli
 
      At this step it is important to select the correct stock. As mentioned earlier in the previous chapter, each location must have its own incoming stock. 
 
-     So for the supplier Clock Pre Sale Aalsmeer, choose the Incoming Aalsmeer stock. For the supplier Clock Pre Sale Naaldwijk, choose the incoming Naaldwijk stock. The same principle counts for locatioon Rijsburg. 
+     So for the supplier Clock Pre Sale Aalsmeer, choose the Incoming Aalsmeer stock. For the supplier Clock Pre Sale Naaldwijk, choose the incoming Naaldwijk stock. The same principle counts for location Rijsburg. 
 
      <img src="Pre Sales Clock EN Media/SuppliersWebService.png">
 
@@ -201,7 +201,7 @@ Another mandatory part of the Clock Pre Sale module is the existence of a suppli
 
 32. Navigate to the '*Web Service*' tab (#33) and click the '*Receive Parcels*' button (#34).
 
-    *The system might appear to freeze but in the background it is requesting the webservice for products which are provided in the Clcok Pre Sales link for the current auction location.*
+    *The system might appear to freeze but in the background it is requesting the webservice for products which are provided in the Clock Pre Sales link for the current auction location.*
 
     *At the same time a small (Events logger) appears in the screen which shows the behaviour of the system during the communication with the Clock Pre Sale connection.*
 
