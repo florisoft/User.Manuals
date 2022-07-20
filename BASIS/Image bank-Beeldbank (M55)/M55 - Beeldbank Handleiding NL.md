@@ -5,8 +5,8 @@
 
 Welkom bij de handleiding voor de module Beeldbank voor de desktop. Deze handleiding is ontworpen om de gebruikers de Beeldbank module aan te leren. Na het lezen van de handleiding, kan de gebruiker succesvol omgaan met de module.
 
-Wanneer je op de KLOK koopt, ontvang je een PHOTOID nummer.
-Met de module beeldbank heb je de mogelijkheid om verschillende foto's te downloaden door de PHOTOID te gebruiken. Wanneer je foto's download, zal Florisoft ze omzetten in 4 formaten.
+Wanneer je op de KLOK koopt, ontvang je een FOTOID nummer.
+Met de module beeldbank heb je de mogelijkheid om verschillende foto's te downloaden door de FOTOID te gebruiken. Wanneer je foto's download, zal Florisoft ze omzetten in 4 formaten.
 
 ## Opzet
 Voordat er gebruik kan worden gemaakt van de Beeldbank module, moeten een paar instellingen worden aangepast.
@@ -21,7 +21,10 @@ Voer de Login-naam en Login-Wachtwoord in, deze zou verstrekt moeten zijn via (i
 
 Een voorbeeld van zo een URL is: https://ccx-cbb-wes-prd.shared.royalfloraholland.com/commercialcustomerwebservice.asmx 
 
+
 <img src=".Beeldbank_Handleiding_NL/media/image3.png"/>
+
+
 
 Na het inloggen via de URL, een soortgelijk scherm word zichtbaar.
 
@@ -36,8 +39,16 @@ Klik met de rechter muisknop op de Timer knop en selecteer "Timer settings".
 <img src=".Beeldbank_Handleiding_NL/media/image5.png"/>
 
 
+Foto Download X Fotos moet aangezet worden. Deze bijkomende instellingen worden aangeraden (gemarkeerd)
 
-Klik op het vinkje links van de naam om hem te activeren(Als dit niet werkt, selecter de checkbox aan de rechterkant van het scherm).
+<img src=".Beeldbank_Handleiding_NL/media/image15.png"/>
+
+De tijden zijn zo ingesteld zodat de download vaak gebeurt en niet te lang duurt, maar dit kost wel iets aan tijd, de interval kan ook hoger gezet worden (15 minuten bijvoorbeeld) maar dit zorgt ervoor dat de download langer duurt.
+
+Klik hier op, er opent zich aan de rechterkant in hetzelfde scherm een nieuw venster, activeer hier het vinkje 'Dit script activeren bij het starten van de timer'.
+
+
+
 
 <img src=".Beeldbank_Handleiding_NL/media/image6.png"/>
 

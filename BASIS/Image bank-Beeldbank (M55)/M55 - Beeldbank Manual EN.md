@@ -1,4 +1,4 @@
-<img src="../../fslogo.png"/>
+\<img src="../../fslogo.png"/>
 
 # Florisoft manual Image library
 
@@ -24,24 +24,29 @@ This information must be provided by the customer.
 
 <img src=".Beeldbank_Manual_ENG/media/pic2.png" />
 
+The link beow should be asted into the "URL" in the picture above.
+
 To make sure the information that has been provided is correct, you can go to
 the URL given. An example of such a URL is:
 https://ccx-cbb-wes-prd.shared.royalfloraholland.com/commercialcustomerwebservice.asmx
 
 
-Now head back to Florisoft and access the timer settings by right clicking the
- timer and selecting Timer Settings.
+Now head back to Florisoft and access the timer settings by right clicking the timer and selecting Timer Settings.
 
 <img src=".Beeldbank_Manual_ENG/media/image4.png" style= "width:6in;height:2.8in" />
 
+The setting X Photo Download should be turned on, the settings shown are recommended, but other intervals are also posible, but they could lead to longer loading times:
+
+<img src=".Beeldbank_Manual_ENG/media/image15.png" />
 
 
-Now navigate to the right screen of the timer settings, click the tab which says
- "Instellingen" or it's English
+Now navigate to the right screen of the timer settings, click the tab which says "Instellingen" or it's English
 variant "settings". There are a few settings which will have to be double checked.
 
 <img src=".Beeldbank_Manual_ENG/media/picx.png" />
  Make sure the check "xfotos opschonen"/"XFOTOCLEAN" is marked as 'on'.
+
+ 
 
 &nbsp;
 

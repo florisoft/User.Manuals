@@ -4,9 +4,6 @@
 Welcome to the manual for the Final Check module in Florisoft. This module is designed to give you the possibility to check your out-going stock, and to make sure the order is complete and going to the right debtor.
 By scanning the product Florisoft can register which items are missing, if it's going to the right debtor and if there are any items in there which don't belong.
 
-A typical division proces can be seen below:
-
-<img src='.Manual Final Check/media/image1.png'/>
 
 ## **Index**
 

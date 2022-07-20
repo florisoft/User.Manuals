@@ -5,9 +5,6 @@ Welkom bij de handleiding voor de module Eindcontrole van Florisoft. Deze module
 
 Door de producten een laatste keer te scannen voordat het verstuurd wordt kan Florisoft zien of dit onderdeel is van de bestelling, en of het product van de desbetreffende debiteur is.
 
-Een voorbeeld van een verdeelproces is hier beneden te zien:
-
-<img src='.Manual Final Check/media/image8.png'/>
 
 ## **Inhoud**
 
