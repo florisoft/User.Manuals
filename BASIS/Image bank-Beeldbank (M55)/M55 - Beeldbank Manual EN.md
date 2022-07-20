@@ -24,7 +24,7 @@ This information must be provided by the customer.
 
 <img src=".Beeldbank_Manual_ENG/media/pic2.png" />
 
-The link beow should be asted into the "URL" in the picture above.
+The link shown below should be asted into the "URL" in the picture above.
 
 To make sure the information that has been provided is correct, you can go to
 the URL given. An example of such a URL is:
