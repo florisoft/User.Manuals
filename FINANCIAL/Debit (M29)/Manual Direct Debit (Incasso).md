@@ -3,7 +3,7 @@
 # Florisoft Manual Direct Debit (Incasso)
 
 ## Table of content
----
+
 
 [Preface](#preface)  
 [Entering Direct Debit(Incasso data)](#entering-direct-debit-incasso-data)  
@@ -13,7 +13,7 @@
 [Business to business forms](#business-2-business-forms)  
 
 ## Preface
----
+
 
 Welcome to the manual for the Direct debit module in Florisoft. This manual will explain how you can send a Direct Debit (SEPA) message to your customers.
 
@@ -22,7 +22,7 @@ The first chapter will cover the step by step process of the set up that needs t
 **Due to Florisoft being continuously updated some screen might have changed and might thus the manuals images may differ from what is seen on your screen.**
 
 ## Entering Direct Debit (Incasso) data
----
+
 
 1. Open the Florisoft application and log in with your valid UserID and password. This should open the Navigator screen. 
 
@@ -137,7 +137,7 @@ The first chapter will cover the step by step process of the set up that needs t
     **Do note:** *this means that the invoice will be send to the customer*. 
 
 ## Creating a new payment ~ cancellation
----
+
 
 *On the bankaccount which was debited will see the payment cancellation after a couple of days.* 
 
@@ -163,7 +163,7 @@ The first chapter will cover the step by step process of the set up that needs t
 &nbsp;
 
 ## Viewing Invoices
---- 
+ 
 
 1. To view invoices go to the Debtor screen.
 
@@ -172,7 +172,6 @@ The first chapter will cover the step by step process of the set up that needs t
 3. The table on the bottom of the screen should be updated to show you the invoices made by this debtor. 
 
 
-## Business-2-Business forms
---- 
+## Business-2-Business forms 
 
 To send invoices a Business-2-Business form is used. This form is often made by our customers internally. To give an idea of what they look like and what components need to be in this form, the image below shows what Florisoft uses as an example. 
