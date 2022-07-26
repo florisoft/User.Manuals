@@ -72,7 +72,7 @@ Below you will find the steps required for setting up an rdp connection to a Res
 1. 
 
 ### Setup RDP connection Axxon florisoftcloud
-Below you will find the steps required for setting up an rdp connection to a Reset server in the florisoftcloud domain using the Remote Desktop Manager app.
+Below you will find the steps required for setting up an rdp connection to a Axxon server in the florisoftcloud domain using the Remote Desktop Manager app.
 
 1. Open the Remote Desktop Mangager app by tapping its icon on the home screen of the PDA. (no. 1)
 
@@ -82,7 +82,7 @@ The Remote Desktop Manager app starts. Please wait a few seconds.
 
 ![](images/2022-07-08-15-27-43.png)
 
-The Home screen appears when the app is ready
+The Home screen appears when the app is ready.
 
 2. Press the + button in the bottom right corner of the app screen. (no. 2)
 
@@ -98,4 +98,78 @@ The screen for adding a new rdp profile appears. See the screenshot below.
 
 ![](images/2022-07-08-16-22-46.png)
 
-5. Scroll down to the LOGON section 
+5. Scroll down to the LOGON section.<br><br>
+
+![](images/2022-07-21-10-59-02.png)
+
+6. Fill the Host field with the hostname of the server to be connected to (no. 6)<br><br>
+
+7. Fill the correct port number in het the Port field (no. 7)<br><br>
+
+8. At the Username field enter te username of the concerning PDA (no. 8)<br><br>
+
+9. Scoll down further till the password field appears.<br><br>
+
+10. Enter the password for the concerning user in the password field (no. 9)
+
+![](images/2022-07-21-11-01-54.png)
+
+11. Press the Display section to open those settings (no. 10)<br><br>
+
+12. Fill at the Custom width field the value 240 (no. 11)
+
+![](images/2022-07-21-11-13-42.png)
+
+13. Fill at the Custom width field the value 360 (no. 12)<br><br>
+
+14. Scoll down further till the password field appears.<br><br>
+
+15. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 13)<br><br>
+
+16. Scroll down to the Local Resources section and press on it. (no. 14)
+
+![](images/2022-07-21-11-18-05.png)
+
+17. Scroll down to the bottom of the screen and uncheck the Clipboard checkmark under LOCAL DEVICES AND RESOURCES. (no. 15)<br><br>
+
+18. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 16)<br><br>
+
+19. Scroll down to the Local Experience section and press on it. (no. 17)
+
+![](images/2022-07-21-11-31-33.png)
+
+20. Check the settings profile at the top of the screen. (no. 18) Be sure that the profile is set to Default.
+
+![](images/2022-07-21-11-37-01.png)
+
+21. Be sure that all checkmarks under Allow the following are **unchecked** except the Reconnect if connection is dropped one. (no. 19)<br><br>
+
+22.  Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 20)<br><br>
+
+23. Press the save icon in the upper right corner of the screen. (no. 21)
+
+![](images/2022-07-21-16-34-05.png)
+
+A small icon of a spinning circle appears when the settings are being saved. This takes a few seconds in total.
+
+![](images/2022-07-21-16-47-06.png)
+
+The PDA returns to the Home page where all defined rdp connections are visible.
+
+![](images/2022-07-21-16-57-43.png)
+
+### Connect via RDP to an Axxon florisoftcloud server
+Below you will find the steps for making an rdp connection to an Axxon server in the florisoftcloud domain using the Remote Desktop Manager app.
+
+1. Start the Remote Desktop Manager app from the start screen of the PDA. (no. 1)
+
+![](images/2022-07-08-14-51-11.png)
+
+The Remote Desktop Manager app starts. Please wait a few seconds.
+
+![](images/2022-07-08-15-27-43.png)
+
+The Home screen appears when the app is ready.
+
+2. Press the three dots behind the name of the concerning rdp profile. (no. 2) A small menu with a few options appears.
+
