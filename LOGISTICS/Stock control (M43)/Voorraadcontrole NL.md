@@ -1,4 +1,5 @@
-\<img src="../../fslogo.png"/>
+<img src="../../fslogo.png"/>
+
 
 
 # Voorraadcontrole
