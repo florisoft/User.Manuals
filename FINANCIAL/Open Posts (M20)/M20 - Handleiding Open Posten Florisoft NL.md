@@ -4,33 +4,16 @@
 
 ## Inhoudsopgave 
 
-1. [Voorwoord](#voorwoord)
-2. [Algemene proces doorloop](#algemene-proces-doorloop)
-3. [Overzicht open posten](#overzicht-open-posten)  
+1. [Algemene proces doorloop](#algemene-proces-doorloop)
+2. [Overzicht open posten](#overzicht-open-posten)  
     1. [Debiteuren sectie](#debiteuren-sectie)
     2. [Hoofd sectie](#hoofd-sectie-uitleg)
     3. [Ontvangen betalingen sectie](#ontvangen-betalingen-sectie)
-4. [Debiteuren](#debiteuren)
-5. [Hoofd sectie](#hoofd-sectie)
-6. [Ontvangen betalingen](#ontvangen-betalingen)
-7. [Extra instellingen](#extra-instellingen)  
+3. [Debiteuren](#debiteuren)
+4. [Hoofd sectie](#hoofd-sectie)
+5. [Ontvangen betalingen](#ontvangen-betalingen)
+6. [Extra instellingen](#extra-instellingen)  
     1  . [Printen / mailen](#printen--mailen-van-samenvattingen)
-
-## Voorwoord
-
-Welkom tot de Florisoft handleiding voor Open Posten, deze handleiding behandelt het debiteuren management ook wel het '*Open Posten*' scherm genoemd. 
-
-Debiteuren management is een relatief makkelijk deel van de Florisoft applicatie voor het over grootte deel van de Florisoft gebruikers. De manier hoe Florisoft omgaat met open posten heeft wel clarificatie nodig om goed te kunnen begrijpen hoe debiteur management geïmplementeerd is binnen Florisoft.
-
-Het doel van deze handleiding is om het debiteur management uit te leggen ook wel het belangrijkste gedeelte van open posten. Na het doornemen van deze handleiding zou u in staat moeten zijn om zelf debiteuren binnen uw systeem te managen. 
-
-Om het doel te bereiken is de handleiding opgesplits in meerdere hoofdstukken. Na deze korte introductie zal hoofdstuk 2 een algemene proces doorloop geven van finaciële informatie in Florisoft met een korte uitleg over hoe posten aangemaakt worden. 
-
-In hoofdstuk 3 geeft een beknopt overzicht van de meest belangrijke delen van het '*Open posten*' scherm met als doel te laten zien hoe delen gerelateerd zijn. 
-
-We hopen dat deze handleiding goed te volgen is en dat u het systeem straks iets beter begrijpt. 
-
-**Belangrijk!:** *Aangezien de Florisoft applicatie regelmatig geüpdate wordt kan het zo zijn dat sommige schermen er net iets anders uit zien. We proberen de handleidingen zo goed mogelijk te onderhouden maar het kan zijn dat het iets achterloopt. Weet wel dat in de meeste gevallen het algemene proces niet drastisch zal veranderen.*
 
 ## Algemene proces doorloop 
 
@@ -49,6 +32,8 @@ Wanneer een factuur compleet is wordt het geprint, dit betekent ook dat het een 
 
 ### **Stap 4: Boek de factuur door naar factuurgeschiedenis**
 De laatste stap is het doorboeken van uitgeprinte facturen naar factuur geschiedenis. Florisoft ziet doorgeboekte facturen altijd als open posten behalve wanneer een of meerdere betalingen zijn verricht van een factuur. Mogelijk gemaakte betalingen zijn te zien in het open posten scherm. 
+
+**Belangrijk!:** *Aangezien de Florisoft applicatie regelmatig geüpdate wordt kan het zo zijn dat sommige schermen er net iets anders uit zien. We proberen de handleidingen zo goed mogelijk te onderhouden maar het kan zijn dat het iets achterloopt. Weet wel dat in de meeste gevallen het algemene proces niet drastisch zal veranderen.*
 
 ## Overzicht Open posten
 Dit hoofdstuk behandelt de meest belangrijke secties van het Open Posten scherm in de Florisoft applicatie. 
@@ -192,7 +177,7 @@ De belangrijkste extra functionaliteit is het pritnen van e-mail informatie (sam
 <img src="media NL/EmailOverzicht.png">
 
 |#|Uitleg|
-|-|------|
+|-|---|
 |**11**| Typ hier uw e-mail onderwerp.|
 |**12**| Typ hier het e-mailadres van de ontvanger.|
 |**13**| Vul hier eventule CC e-mailadressen.|
