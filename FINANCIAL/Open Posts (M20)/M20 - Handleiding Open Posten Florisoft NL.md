@@ -124,13 +124,13 @@ De uitleg is aan de hand van de onderstaande afbeelding gevolgd door een tekst u
 
 Naast de hiervoor benoemde kolommen kan u nog meer velden aan zetten voor de hoofdtabel, dit doet u door rechtermuisknop te doen op de tabel zelf. Vervolgens komt er een popup scherm naar voren waarin u kolommen (on)zichtbaar kan maken middels de '*aan*' checkbox.
 
-<img src="Media NL/Grid Instellingen.png">
+<img src="media NL/Grid Instellingen.png">
 
 ### Ontvangen betalingen sectie
 
 De ontvangen betalingen tabel vind u onder de eerder besproken hoofdtabel. In dit scherm ziet u alle ontvangen betalingen van de geselecteerde open post zoals te zien in de onderstaande afbeelding. Volgens de standaard instellingen is alleen de meest recente betaling zichtbaar. Dit is echter aan te passen middels [knop 17](#stap_17) van hoofdstuk 1.
 
-<img src="Media NL/OntvangenBetalingenScherm.png">
+<img src="media NL/OntvangenBetalingenScherm.png">
 
 |**#**|Uitleg|
 |-|----------|
