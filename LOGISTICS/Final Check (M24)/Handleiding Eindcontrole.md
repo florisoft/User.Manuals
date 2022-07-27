@@ -31,7 +31,7 @@ Zodra je in het eindcontrole scherm moet je een debiteur en ordernummer invullen
 
 Als je alle bestellingen van een debiteur wilt zien, kan je het vinkje 'Alle ordernummers' omzetten.
 
-Zodra alles naar wens ingevukd is, klik je op 'Activeren' om de regels in te laden.
+Zodra alles naar wens ingevuld is, klik je op 'Activeren' om de regels in te laden.
 
 <img src='.Manual Final Check/media/image11.png'/>
 

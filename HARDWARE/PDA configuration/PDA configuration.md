@@ -69,8 +69,40 @@ The first device is the Skorpio X5. This PDA has a fysical keyboard available. S
 ### Setup RDP connection Reset florisoftcloud
 Below you will find the steps required for setting up an rdp connection to a Reset server in the florisoftcloud domain using the Remote Desktop Manager app.
 
-1. 
+Basisinstellingen
+1. Naam: zelf te bedenken beschrijvende naam
+2. Host: RDS03
+3. Poort: 3389
+4. Gebruikersnaam: HT3
+5. Domein: FSPC
+6. Wachtwoord: het betreffende wachtwoord
 
+Weergave
+7. Aangepaste breedte: 240
+8. Aangepast hoogte: 320
+
+Lokale bronnen (LOKALE APPARATEN en BRONNEN)
+9. Alleen vinkje Klembord aan.
+
+Programma's 
+10. Na inloggen vertraging: 1000
+
+Ervaring
+11. Alle vinkjes uit behalve Opnieuw verbinding maken als de verbinding is verbroken
+
+Verbinding
+12. Vinkje Activeer netwerk authenticatie NLA (SingleSignOn)
+
+    Gateway
+    13. Deze instellingen voor Extern bureaublad gebruiken...
+    14. Host: ve.florisoftcloud.com
+    
+    knop REFERENTIE LIJST...
+    15. radio button Gebruik aangepaste referenties
+    16. Gebruikersnaam: HT3
+    17. Domein: FSPC
+    18. Wachtwoord: het betreffende wachtwoord.
+    
 ### Setup RDP connection Axxon florisoftcloud
 Below you will find the steps required for setting up an rdp connection to a Axxon server in the florisoftcloud domain using the Remote Desktop Manager app.
 
