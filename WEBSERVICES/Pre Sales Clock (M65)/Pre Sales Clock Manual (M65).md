@@ -5,9 +5,10 @@
 ## Table of contents
 
 [Table of contents](#table-of-contents)  
-[Preface](#1-preface)  
-[Creating incoming stock](#2-creating-incoming-stocks)  
-[Creating suppliers](#3-creating-suppliers)
+[Chapter 1. Preface](#1-preface)  
+[Chapter 2. Creating incoming stock](#2-creating-incoming-stocks)  
+[Chapter 3. Creating suppliers](#3-creating-suppliers)
+[Chapter 3.1 Getting the right webservice](#31-getting-the-right-floramondo-webservice)
 
 ## 1. Preface
 
@@ -25,10 +26,12 @@ In chapter three the creation of a supplier is described. This is the most impor
 
 The intention of this manual is that after reading you are able to set up a Clock Pre Sale Connection independently. 
 
+If you are reading this manual to see what webservice you will need for your supplier see [chapter 3.1](#31-getting-the-right-floramondo-webservice).
+
 <font color="RoyalBlue">**Important to note**: *Images in this manual may slightly differ from what you are seeing on your screen. The Florisoft application is continually updated so this guide may be slightly out of date. Do however note that big changes are unlikely and that the core process will remain the same.* </font>
 
 
-## Creating incoming stocks
+## 2. Creating incoming stocks
 
 To get the Clock Pre-Sale option to work in the Florisoft application it is necessary to create incoming stocks. This is because incoming stocks is where the Florisoft system reads in all the available products in the Clock Pre Sale connection. 
 
@@ -61,7 +64,7 @@ The steps below describe the process of creating an incoming stock.
 |9| Now we need to reopen the newly created stock, to do that double left click on the row that contains the new stock record.|
 |:--|:--|
 |**10**| Now click on the *Authorization* tab in the file structure screen on the left (#9). |
-|**11**| Within the authorization screen you will find a list of users that can be authorized. You can authorize a user by checking the Authorized checkbox for that user (#10). <br><br> **Make sure to authorize the following users:** *ADMINC*, *ADMINF*, *ADMINK*, *DEFAULT*, *SUPER*, *TIMER*|
+|**11**| Within the authorization screen you will find a list of users that can be authorized. You can authorize a user by checking the Authorized checkbox for that user (#10). <br><br> **Make sure to authorize the following users:** *ADMINC*, *ADMINF*, *ADMINK*, *DEFAULT*, *SUPER*, *TIMER*, and your own users that require authorization.|
 |**12**| Click on the '*Carry out*' on the left side (#11).|
 
 <img src="Pre Sales Clock EN Media/Authorize Users.png">
@@ -75,9 +78,11 @@ The steps below describe the process of creating an incoming stock.
 
 |16| Activate / check the checkbox for '*This stock is available on the webshop*' (#15)|
 |:--|:--|
-|**17**| Set the '*Open  hours*' field to '*Always open (99)*' in the dropdown(#16)|
+|**17**| Set the '*Open  hours*' field to '*Always open (99)*' or '*Altijd open(99)*' (same but in Dutch) in the dropdown(#16)|
 |**18**|Click the OK button to save the settings and to create a new stock. |
 | :bulb: | <font color="RoyalBlue"> <b>Important to note:</b> <i>repeat the steps four up until eightteen to create additional stocks for the other locations of the auction if applicable.</i></font>|
+
+<img src="Pre Sales Clock EN Media/WebShopTab.png" alt = "WebShopTAB">
 
 <img src="Pre Sales Clock EN Media/NavigatorStock.png">
 
@@ -118,7 +123,7 @@ Another mandatory part of the Clock Pre Sale module is the existence of a suppli
 
 <img src="Pre Sales Clock EN Media/SupplierBaseScreen.png">
 
-### Getting the right FloraMondo webservice
+### 3.1 Getting the right FloraMondo webservice
 
 Within your Floramondo account you might use multiple webservices that use different filters for certain usecases E.g. one webservice filters direct sales and the other Clock Pre Sales. To see which one you want for the Supplier you are setting up follow the steps below. 
 
@@ -128,9 +133,13 @@ Within your Floramondo account you might use multiple webservices that use diffe
 |**2**|Once logged in you should be able to see your companies name on the top right. Click on it and go to the '*Accounts*' section by clicking on the corresponding button. This should bring us to the account page.<br><details><summary>Click here to reveal the image</summary> <img src="Pre Sales Clock EN Media/FloraMondoUserMenu.png" alt="webservice name"> </details> |
 |**3**| Scroll down until you see the '*Webservice*' section. In this section we can inspect and edit the webservices. Getting the right webservice is of utmost importance as some webservices work with different protocolls and have different filters.<br><details><summary>Click here to reveal the image</summary> <img src="Pre Sales Clock EN Media/FloraMondoWebservicesListed.png" alt="webservice name"> </details>|
 |**4**| To see what the webservice filters on click on the settings button next to a webservice row and scroll down to Filter. Here we see the filters which filter out the stocks we don't want.<br><details><summary>Click here to reveal the image</summary> <img src="Pre Sales Clock EN Media/Filters.png" alt="webservice name"> </details> |
+<<<<<<< HEAD
+|:memo:|**A short explanation of some of the stock filters**:<br>&nbsp;&nbsp; - **Main group**: filter based on group I.e. Flowers or Gardenplants<br>&nbsp;&nbsp; - **Sales channel**: either Direct Sales or Clock Pre sales, for the purpose &nbsp;&nbsp;&nbsp;&nbsp; of this manual the webservice needs to be Clock Pre Sales.<br>&nbsp;&nbsp; - **Delivery location**: which auction locations stock do we allow in this &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;webservice stock.<br>**For the purpose of this manual we can ignore the webservices that are Direct sales based (see sales channel)**|
+=======
 |:memo:|**A short explanation of some of the stock filters**:<br>&nbsp;&nbsp; - **Main group**: filter based on group I.e. Flowers or Gardenplants<br>&nbsp;&nbsp; - **Sales channel**: either Direct Sales or Clock Pre sales, for the purpose of this manual the webservice needs to be Clock Pre Sales.<br>&nbsp;&nbsp; - **Delivery location**: which auction locations stock do we allow in this webservice stock.|
+>>>>>>> 6527004de69bf69a62260c7de360227079cc0ff8
 |**5**|After inspecting the available webservices for your FloraMondo account select the right service for the supplier you are creating. For example if you are creating a FloraHolland Aalsmeer supplier within Florisoft select the webservice that permits the delivery location Aalsmeer.|
-|**6**|Be sure to remember the webservice's name/userid and to have its password available to you. <details><summary>Click here to reveal the image</summary> <img src="Pre Sales Clock EN Media/WebserviceNameUserID.png" alt="webservice name"> </details> |
+|**6**|Be sure to remember the webservice's name/userid and to have its password available to you. <br>If the userID and or password are unknown or lost be sure to contact FloraHolland to retrieve the credentials.<details><summary>Click here to reveal the image</summary> <img src="Pre Sales Clock EN Media/WebserviceNameUserID.png" alt="webservice name"> </details> |
 
 
 |**8**| Activate / check the checkbox for the '*Stock-linking*' property (#10).|
@@ -139,7 +148,7 @@ Within your Floramondo account you might use multiple webservices that use diffe
 |**10**| Copy and paste the URL provided by the auction in the URL field. (no. 12)|
 |**11**| Provide the correct Userid in the concerning field (no. 13)|
 |**12**| Use the field Wachtwoord (Dutch for Password) to enter the accompanying password for this Clock Pre Sale account.|
-|**13**| Select the concerning incoming stock in the field '*incoming stock*' (#15). <br><br> &nbsp;At this step it is important to select the correct stock. As mentioned earlier in the previous chapter, each location must have its own incoming stock.<br><br>So for the supplier Clock Pre Sale Aalsmeer, choose the Incoming Aalsmeer stock. For the supplier Clock Pre Sale Naaldwijk, choose the incoming Naaldwijk stock. The same principle counts for location Rijsburg.|
+|**13**| Select the concerning incoming stock in the field '*incoming stock*' (#15). <br><br> &nbsp;At this step it is important to select the correct stock. As mentioned earlier in the previous chapter, each location must have its own incoming stock.<br><br>So for the supplier Clock Pre Sale Aalsmeer, choose the Incoming Aalsmeer stock. For the supplier Clock Pre Sale Naaldwijk, choose the incoming Naaldwijk stock. The same principle counts for location Rijnsburg.|
 |**14**| Click on the '*Parcel request*' tab which resides under the Web Service tab. (#16)|
 
 <img src="Pre Sales Clock EN Media/SuppliersWebService.png">
@@ -154,17 +163,17 @@ Within your Floramondo account you might use multiple webservices that use diffe
 
 <img src="Pre Sales Clock EN Media/SupplierParcelResponse.png">
 
-|21| Fill the first row (column Aflever EAN, #24 ) with the Delivery no. which is supplied by the auction.|
+|**21**| Fill the first row (column Aflever EAN, #24 ) with the Delivery no. which is supplied by the auction.|
 |:--|:--|
 
 <img src="Pre Sales Clock EN Media/LeverancierFustInstellingWithSVC.png">
 
 |22| Fill the Voorcod column (no. 25) with the corresponding incoming stock code of the current auction location.|
 |:--|:--|
-|23| Fill the first line of the MarketCode column with the value of 002 (no. 26)|
-|24| Repeat the steps 21 up and till 23 with this exception: fill the MarketCode of the second row with the value 003.|
-|25| Click the Ok button (no. 27) to confirm the settings.|
-|26| Click the Buy request tab (no. 23) in the Supplier screen.|
+|**23**| Fill the first line of the MarketCode column with the value of 002 (no. 26)|
+|**24**| Repeat the steps 21 up and till 23 with this exception: fill the MarketCode of the second row with the value 003.|
+|**25**| Click the Ok button (no. 27) to confirm the settings.|
+|**26**| Click the Buy request tab (no. 23) in the Supplier screen.|
 
 <img src="Pre Sales Clock EN Media/SelectBuyRequest.png">
 
@@ -193,7 +202,7 @@ Within your Floramondo account you might use multiple webservices that use diffe
 |33| Click the OK button in the Message window to confirm the message. |
 |:--|:--|
 |**34**| Click the Ok button (#31) in the Suppliers Windows to close the supplier.|
-|**35**| Repeat step 31.|
+|**35**| Repeat step 31 for each authorized supplier.|
 
 <img src="Pre Sales Clock EN Media/PressOk31.png">
 
@@ -207,7 +216,7 @@ Within your Floramondo account you might use multiple webservices that use diffe
 |37| **Deactivate** the '*Always get full stock instead of modifications*' checkbox (#34).|
 |**38**|Click the OK button in the Suppliers Window to confirm the settings.|
 
-**Important to note!:** *repeat all steps in this chapter (the creation of suppliers) to create unique suppliers for all other locations of the auctions if applicable.* 
+**Important to note!:** *repeat all steps in this chapter (the creation of suppliers) to create unique suppliers for each Clock Pre Sales webservice. This may not only be for each location of the auction but also for the different main groups (product type) in a webservice.* 
 
 **This manual roughly describes the working of the Clock Pre Sale module. If things are still unclear, please contact the Florisoft helpdesk by e-mail or telephone.**
 
