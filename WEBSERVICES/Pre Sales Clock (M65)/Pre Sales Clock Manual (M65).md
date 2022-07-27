@@ -118,8 +118,22 @@ Another mandatory part of the Clock Pre Sale module is the existence of a suppli
 
 <img src="Pre Sales Clock EN Media/SupplierBaseScreen.png">
 
+### Getting the right FloraMondo webservice
 
-|**8**| Activate / check the checkbox for the '*Stock-linking' property (#10).|
+Within your Floramondo account you might use multiple webservices that use different filters for certain usecases E.g. one webservice filters direct sales and the other Clock Pre Sales. To see which one you want for the Supplier you are setting up follow the steps below. 
+
+|# Step|Explanation|
+|:-:|:--|
+|**1**|Login to Floramondo's login page with your company's user credentials. [Link here!](https://identity.royalfloraholland.com/)|
+|**2**|Once logged in you should be able to see your companies name on the top right. Click on it and go to the '*Accounts*' section by clicking on the corresponding button. This should bring us to the account page.<br><details><summary>Click here to reveal the image</summary> <img src="Pre Sales Clock EN Media/FloramondoUserMenu.png" alt="webservice name"> </details> |
+|**3**| Scroll down until you see the '*Webservice*' section. In this section we can inspect and edit the webservices. Getting the right webservice is of utmost importance as some webservices work with different protocolls and have different filters.<br><details><summary>Click here to reveal the image</summary> <img src="Pre Sales Clock EN Media/FloraMondoWebservicesListed.png" alt="webservice name"> </details>|
+|**4**| To see what the webservice filters on click on the settings button next to a webservice row and scroll down to Filter. Here we see the filters which filter out the stocks we don't want.<br><details><summary>Click here to reveal the image</summary> <img src="Pre Sales Clock EN Media/Filters.png" alt="webservice name"> </details> |
+|:memo:|**A short explanation of some of the stock filters**:<br>&nbsp;&nbsp; - **Main group**: filter based on group I.e. Flowers or Gardenplants<br>&nbsp;&nbsp; - **Sales channel**: either Direct Sales or Clock Pre sales, for the purpose &nbsp;&nbsp;&nbsp;&nbsp; of this manual the webservice needs to be Clock Pre Sales.<br>&nbsp;&nbsp; - **Delivery location**: which auction locations stock do we allow in this &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;webservice stock.|
+|**5**|After inspecting the available webservices for your FloraMondo account select the right service for the supplier you are creating. For example if you are creating a FloraHolland Aalsmeer supplier within Florisoft select the webservice that permits the delivery location Aalsmeer.|
+|**6**|Be sure to remember the webservice's name/userid and to have its password available to you. <details><summary>Click here to reveal the image</summary> <img src="Pre Sales Clock EN Media/WebserviceNameUserID.png" alt="webservice name"> </details> |
+
+
+|**8**| Activate / check the checkbox for the '*Stock-linking*' property (#10).|
 |:--|:--|
 |**9**| Select the Klokvoorverkoop 0p7 – Floramondo (Dutch for Clock Pre Sale 0p7 – Floramondo) option in the Type Webservice dropdown list (#11).|
 |**10**| Copy and paste the URL provided by the auction in the URL field. (no. 12)|
@@ -188,6 +202,7 @@ Another mandatory part of the Clock Pre Sale module is the existence of a suppli
 
 <img src="Pre Sales Clock EN Media/SupplierParcelRequest.png">
 
+|||
 |:--|:--|
 |37| **Deactivate** the '*Always get full stock instead of modifications*' checkbox (#34).|
 |**38**|Click the OK button in the Suppliers Window to confirm the settings.|
