@@ -20,8 +20,7 @@ Start up Florisoft and when in the Navigator, click on final check.
 
 <img src='.Manual Final Check/media/image2.png'/>
 
-Enter a salescode if Florisoft asks for it. This can be turned off by turning the systemsetting
-SETUP > EINDCONTROLEVERKOPERCODEINVOER to FALSE.
+Enter a salescode if Florisoft asks for it.
 
 <img src='.Manual Final Check/media/image3.png'/>
 

@@ -23,8 +23,7 @@ Start Florisoft op en klik op Eindcontrole in de navigator.
 
 <img src ='.Manual Final Check/media/image9.png'/>
 
-Voer een verkopers code in als Florisoft erom vraagt. Dit kan uit of aan worden gezet met behulp van de systeeminstelling SETUP > EINDCONTROLEVERKOPERCODEINVOER.
-
+Voer een verkopers code in als Florisoft erom vraagt.
 <img src='.Manual Final Check/media/image10.png'/>
 
 Zodra je in het eindcontrole scherm moet je een debiteur en ordernummer invullen. Dit kan handmatig of via scannen, door het vinkje 'Vullen d.m.v. scan' uit of aan te zetten. Ook externe barcodes kunnen worden gebruikt, maar dan moet je de knop onderaan omzetten.
