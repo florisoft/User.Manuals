@@ -4,12 +4,11 @@
 # Stock control
 -----
 
-It is very important that the numbers of the lots that you have in stock are correct at all times, you do not want to offer lots to customers who are not there or, on the other hand, do not offer lots that you do have because they are not in stock .
 With the stock control module on PDA you can easily walk through the stock and use a simple scan to check whether the amount you physically have in the cell corresponds to the amount in your stock in Florisoft.
 We normally scan and check the games on a PDA, this can also be done from a normal user, but that is not recommended.
  
 It is also useful if sellers have already been created in advance (Constants --> Organs --> seller data --> Sellers) before you check the stock, you must first enter your seller code. This means that it is always possible to see who has changed a lot in case of differences.
-If this is not yet the case, there must also be a barcode (with the cVar15) on the sticker on the stock lots, after all, we must be able to scan something.
+If this is not yet the case, there must also be a barcode (with the cVar15) on the sticker on the stock lots.
  <img src=".stockcontrol/.media/foto1.png" />
  
  
