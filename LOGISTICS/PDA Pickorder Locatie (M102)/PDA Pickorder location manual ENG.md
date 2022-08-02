@@ -51,7 +51,7 @@ In the stock, this parcel is given the location A01.
 
 1. On the PDA, open the Location module
 2. Scan the location barcode or entir it manuall in the scan field. In this example we use location B01.
-3. Scan the parcel you want to place at location B01. For example, Zant Sumatra.
+3. Scan the parcel you want to place at location B01. For example, Allum Miami.
 
 <img src="mediaEN/pict7.png" />
 (At location "1" there should stand "B01")

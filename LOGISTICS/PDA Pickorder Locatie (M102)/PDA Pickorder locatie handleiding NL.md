@@ -53,7 +53,7 @@ In de voorraad krijgt deze partij locatie A01.
 
 1.	Open op de PDA de module 'Locatie'.
 2.	Scan de locatie barcode of vul deze handmatig in het scanveld. In dit voorbeeld gebruiken we locatie B01.
-3.	Scan de partij die je op locatie B01 wilt zetten. Bijvoorbeeld Zant Sumatra.
+3.	Scan de partij die je op locatie B01 wilt zetten. Bijvoorbeeld Zant Capt Ventura.
 
 <img src="media/2022-04-25-10-43-53.png" />
 
