@@ -19,7 +19,7 @@
 Welcome the Florishop WhatsApp offers manual. Sending offers via
 WhatsApp to customers is a beautiful way to bring products from the
 webshop to the attention of customers. With the wide availability of
-smartphones and tablet PC’s this add on can ensure a higher turnover
+smartphones and tablet PC’s this add-on can ensure a higher turnover
 from the webshop.
 
 The first step in setting up this add-on is to set up a so-called
@@ -38,9 +38,9 @@ consists of sending individual products. Both ways are described in
 chapter four.
 
 The last chapter, chapter five, gives an overview of other available
-webshop add ons. The webshop can be extended with a large number of
-other add ons, each with its own functionality. We would like to
-introduce you to this add ons.
+webshop add-ons. The webshop can be extended with a large number of
+other add-ons, each with its own functionality. We would like to
+introduce you to these add-ons.
 
 The goal of this manual is to show how to use WhatsApp offers in the
 webshop so your products are always on top of the customers mind.
@@ -283,11 +283,11 @@ target audience.
 # 5 Other available webshop add ons 
 
 Enthusiast about sharing WhatsApp offers? The webshop has even more
-interesting expansion possibilities in the form of add ons. Below is a
-short description of all the available add ons.
+interesting expansion possibilities in the form of add-ons. Below is a
+short description of all the available add-ons.
 
-**Florishop Analyse**
-With the FloriShop addon Analyse, e-commerce data will be send to
+**Florishop Analyse  
+**With the FloriShop addon Analyse, e-commerce data will be send to
 Google Analytics. Think about the following, but not exclusive,
 information:
 
@@ -301,8 +301,8 @@ This data will be loaded in a data layer via Google Tag manager. It is
 necessary to use Google Analytics via Tag Manager and arrange the data
 with this tool.
 
-**Florishop CMS**
-With the launch of the add on CMS (Content Management System),
+**Florishop CMS**  
+With the launch of the add-on CMS (Content Management System),
 Florisoft brings your website and webshop together into one platform.
 With this addon you can provide your customers with your company
 information as well as the possibility to shop directly in your webshop.
@@ -310,8 +310,8 @@ information as well as the possibility to shop directly in your webshop.
 The management of this website is accommodated in an extensive CMS
 system that you can manage online.
 
-**Florishop Credit  
-**The Credit add on within Florishop has been developed to offer the
+**Florishop Credit**  
+The Credit add-on within Florishop has been developed to offer the
 user an easy way to credit articles by means of a step-by-step process
 where most of the information is already available and only needs to be
 supplemented. Besides the fact that it’s easier for the user, less
@@ -326,18 +326,18 @@ After completing the application, the credit applications are visible in
 the approving screen within Florisoft and can be inspected here.
 
 **Florishop Dashboard (CMS addon is required)**
-With the Dashboard add on, Florishop can be used as a valuable source
+With the Dashboard add-on, Florishop can be used as a valuable source
 of relevant business-critical information. Think of sales numbers per
 unit of time, turnover, number of purchasing customers, cancellations,
 stocks and many other types of information.
 
 In principle, all information in the database behind the webshop can be
 made available on the webshop through different view types. Think of pie
-charts, bar charts, line graphs, gauges and tables. The dashboard add on
+charts, bar charts, line graphs, gauges and tables. The dashboard add-on
 is often used work floor to show the performance of a certain process,
 like the amount of picked orders or packed boxes.
 
-This add on is delivered complete with corresponding hardware. It is a
+This add-on is delivered complete with corresponding hardware. It is a
 great way to gain insight into the performance of the company and
 customer behavior.
 
@@ -358,7 +358,7 @@ Shop in Shop principle. Your stock will be visible in the App, but the
 App will be placed in the download store under name of your customer
 with their own logo and login screen.
 
-**Florishop FloriGrow**
+**Florishop FloriGrow**  
 Are you asking yourself how much harvest you’ve grown or how much loss
 you’ve suffered?With FloriGrow you always have all the information you
 need at your fingertips.
@@ -395,18 +395,18 @@ export opportunities.
 -   Export connections to external software like accountancy
 
 **Florishop Mobile Photo**  
-The add on Mobile Photo makes it possible to manually link photographs
+The add-on Mobile Photo makes it possible to manually link photographs
 to products in the webshop both for stock and order parcels. Sometimes
 photographs from external sources doesn’t load correctly on the webshop.
-This add on fixes the gap. You can make and link your own photographs.
+This add-on fixes the gap. You can make and link your own photographs.
 
 For stock parcels it is also possible to edit the photograph with the
 photo studio in Florisoft. With this you can adjust the measures and add
-watermarks. With the Mobile Photo add on is it even possible to make a
+watermarks. With the Mobile Photo add-on is it even possible to make a
 photograph directly with your smartphone and link it to a product.
 
-**Florishop Payment gateway**
-In order to complete a Webshop solution, a payment module can be
+**Florishop Payment gateway  
+**In order to complete a Webshop solution, a payment module can be
 linked, so that customers can determine open positions before buying.
 The rules can be managed entirely from the Florisoft package, for
 example the maximum credit limit, how old the oldest open post may be or
@@ -427,8 +427,8 @@ case:
 
 Other providers can also be supported in consultation.
 
-**Florishop Sales**
-The Florishop addon Sales offers the account manager the opportunity
+**Florishop Sales  
+**The Florishop addon Sales offers the account manager the opportunity
 to work with the shop in collaboration with the customer. Functionality
 that was previously only available in Florisoft will now also be made
 available via the shop. This brings the following benefits:
@@ -449,8 +449,7 @@ management, sharing offers via WhatsApp and adjusting price has already
 been implemented. In the course of time this addon will contain a lot
 more functionality.
 
-**  
-**
+
 
 Below you find the functions that are implemented in the module:
 
@@ -476,8 +475,8 @@ Below you find the functions that are implemented in the module:
 
 -   Order processing screen
 
-**Florishop Shopping List  
-**With the addon Shopping List you can easily create a shopping list
+**Florishop Shopping List**  
+With the addon Shopping List you can easily create a shopping list
 based on recent orders. With this addon, the user can easily find and
 buy articles. It often happens that customers have the same order every
 time they buy. When customers are used to ordering in this way, this add
@@ -492,9 +491,9 @@ The order that the user made, can be unfolded, so that the user can see
 what kind of components are in the order and what there characteristics
 are. The user can also determine exactly which orders must be imported.
 
-**Interested in one or more of these add ons? Don’t hesitate to contact
+**Interested in one or more of these add-ons? Don’t hesitate to contact
 Florisoft support by telephone or e-mail. We are open for advice
-regarding the above add ons.**
+regarding the above add-ons.**
 
-**Telephone:** +31 (0)71 40 806 10**  
+**Telephone:** +31 (0)71 40 806 10  
 E-mail:** sales@florisoft.nl
