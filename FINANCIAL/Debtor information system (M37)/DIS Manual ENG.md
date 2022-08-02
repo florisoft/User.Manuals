@@ -4,7 +4,7 @@
 
 Welcome to the Florisoft Debtor Information System (DIS) manual. In order to create an insight into a specific customer, you can assign a file to a customer using the DIS module. Within the module, you can add documents and create an overview of all appointments made with a customer, for example appointments concerning shipments or payment.
 
-If you also use the module Florisoft . Net Aanmaningen (Reminders?), the created files will be processed in here. In addition, this module provides extensive insight into the open items and the customer's payment behavior in overviews and graphs, and you can see what a customer has generated in turnover per year. The clarity of the contact information and the possibility to quickly complete and consult the file enables you to speak to a customer by telephone and at the same time update your file.
+If you also use the module Florisoft . Net Aanmaningen (Payment Reminder), the created files will be processed in here. In addition, this module provides extensive insight into the open items and the customer's payment behavior in overviews and graphs, and you can see what a customer has generated in turnover per year. The clarity of the contact information and the possibility to quickly complete and consult the file enables you to speak to a customer by telephone and at the same time update your file.
 
 The Florisoft .Net Scheduling module is fully integrated in this module.
 
