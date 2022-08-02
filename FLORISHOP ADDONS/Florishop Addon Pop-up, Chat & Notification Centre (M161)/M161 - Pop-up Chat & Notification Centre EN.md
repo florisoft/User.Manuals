@@ -135,7 +135,8 @@ The seller, as created in the previous step, must be linked to all debtors (cust
 5. Optional: make this change for all debtors that should be linked to the selected seller using the Change to function. (no. 4)
 6. Click the OK button to confirm the settings (no. 5)
 
-<img src=".Pop-up Chat & Notification Centre EN/![](2021-02-12-12-57-21.png).png" />
+<img src=".Pop-up Chat & Notification Centre EN/![](2021-02-12-12-57-21.png).png).png" />
+
 
 ## Step 8: Link seller to the system user
 Step eight shows the steps involved for linking the seller to the associated sellers' system user.

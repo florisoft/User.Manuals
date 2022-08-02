@@ -10,9 +10,9 @@
 
 [3 Link the anonymous debtor to the webshop](#link-the-anonymous-debtor-to-the-webshop)
 
-[4 Sent offers via WhatsApp from the webshop](#sent-offers-via-whatsapp-from-the-webshop)
+[4 Sent offers via WhatsApp from the webshop](#4-sent-offers-via-whatsapp-from-the-webshop)
 
-[5 Other available webshop add ons](#other-available-webshop-add-ons)
+[5 Other available webshop add ons](#5-other-available-webshop-add-ons)
 
 # Preface
 
@@ -286,8 +286,8 @@ Enthusiast about sharing WhatsApp offers? The webshop has even more
 interesting expansion possibilities in the form of add-ons. Below is a
 short description of all the available add-ons.
 
-**Florishop Analyse  
-**With the FloriShop addon Analyse, e-commerce data will be send to
+**Florishop Analyse**  
+With the FloriShop addon Analyse, e-commerce data will be send to
 Google Analytics. Think about the following, but not exclusive,
 information:
 
@@ -405,8 +405,8 @@ photo studio in Florisoft. With this you can adjust the measures and add
 watermarks. With the Mobile Photo add-on is it even possible to make a
 photograph directly with your smartphone and link it to a product.
 
-**Florishop Payment gateway  
-**In order to complete a Webshop solution, a payment module can be
+**Florishop Payment gateway**  
+In order to complete a Webshop solution, a payment module can be
 linked, so that customers can determine open positions before buying.
 The rules can be managed entirely from the Florisoft package, for
 example the maximum credit limit, how old the oldest open post may be or
@@ -427,8 +427,8 @@ case:
 
 Other providers can also be supported in consultation.
 
-**Florishop Sales  
-**The Florishop addon Sales offers the account manager the opportunity
+**Florishop Sales**  
+The Florishop addon Sales offers the account manager the opportunity
 to work with the shop in collaboration with the customer. Functionality
 that was previously only available in Florisoft will now also be made
 available via the shop. This brings the following benefits:
@@ -496,4 +496,4 @@ Florisoft support by telephone or e-mail. We are open for advice
 regarding the above add-ons.**
 
 **Telephone:** +31 (0)71 40 806 10  
-E-mail:** sales@florisoft.nl
+**E-mail:** sales@florisoft.nl
