@@ -27,8 +27,8 @@ beschreven.
 
 ## 3 Werking Shopping list
 
-<img src=".Snelstart handleiding webshop add on Shopping List\media\image5.png" style="width:3.48958in;height:4.11394in" />Na
-het importeren van de orders/artikelen opent de shopping list aan de
+<img src=".Snelstart handleiding webshop add on Shopping List\media\image5.png" style="width:3.48958in;height:4.11394in" />  
+Na het importeren van de orders/artikelen opent de shopping list aan de
 linkerkant van de webshop. Deze ziet er als volgt uit:
 
 Google Tag Manager wordt gebruikt om verschillende acties op de webshop
@@ -57,8 +57,8 @@ vervolgens de instellingen op met het wachtwoord voor de settings.
 
 <img src=".Snelstart handleiding webshop add on Shopping List\media\image9.png" style="width:8.8375in;height:1.24653in" />
 
-<img src=".Snelstart handleiding webshop add on Shopping List\media\image10.png" style="width:4.10417in;height:2.13056in" /><img src=".Snelstart handleiding webshop add on Shopping List\media\image11.png" style="width:4.58814in;height:1.9375in" />**  
-**
+<img src=".Snelstart handleiding webshop add on Shopping List\media\image10.png" style="width:4.10417in;height:2.13056in" /><img src=".Snelstart handleiding webshop add on Shopping List\media\image11.png" style="width:4.58814in;height:1.9375in" />  
+
 
 ## 5 Gebruik Google Analytics 
 
@@ -68,8 +68,7 @@ weergegeven uit Google Analytics met een korte toelichting.
 
 <img src=".Snelstart handleiding webshop add on Shopping List\media\image12.png" style="width:5.22917in;height:4.00583in" />
 
-**  
-**
+ 
 
 <img src=".Snelstart handleiding webshop add on Shopping List\media\image13.png" style="width:2.73958in;height:4.38889in" />
 
@@ -77,8 +76,8 @@ weergegeven uit Google Analytics met een korte toelichting.
 
 <img src=".Snelstart handleiding webshop add on Shopping List\media\image15.png" style="width:5.19864in;height:4.59439in" />
 
-<img src=".Snelstart handleiding webshop add on Shopping List\media\image16.png" style="width:5.19864in;height:4.60481in" />**  
-**
+<img src=".Snelstart handleiding webshop add on Shopping List\media\image16.png" style="width:5.19864in;height:4.60481in" />  
+
 
 Het E-commerceoverzicht biedt een gedetailleerde weergave van de
 verkochte producten. Deze informatie kan verder verfijnd worden door te

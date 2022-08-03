@@ -1,49 +1,46 @@
 <img src="../../fslogo.png"/>
 
-# <u>Inhoudsopgave</u>
+# Inhoudsopgave
 
 [Inleiding 3](#inleiding)
 
-[1 Workflow Floriline 4](#workflow-floriline)
+[1 Workflow Floriline 4](#1-workflow-floriline)
 
-[1.1 Worklfow Floriline onderdelen op macroniveau
-4](#worklfow-floriline-onderdelen-op-macroniveau)
+[1.1 Worklfow Floriline onderdelen op macroniveau4](#11)
 
-[1.2 Workflow software onderdelen Floriline
-5](#workflow-software-onderdelen-floriline)
+[1.2 Workflow software onderdelen Floriline5](#workflow-software-onderdelen-floriline)
 
-[2 Acties binnen Florishop 7](#acties-binnen-florishop)
+[2 Acties binnen Florishop 7](#2-acties-binnen-florishop)
 
-[3 Acties binnen de backend 9](#acties-binnen-de-backend)
+[3 Acties binnen de backend 9](#3-acties-binnen-de-backend)
 
-[4 Standaard configuratie 10](#standaard-configuratie)
+[4 Standaard configuratie 10](#4-standaard-configuratie)
 
-[4.1 Verkoper instellingen 10](#verkoper-instellingen)
+[4.1 Verkoper instellingen 10](#41-verkoper-instellingen)
 
-[4.2 Klant instellingen 12](#klant-instellingen)
+[4.2 Klant instellingen 12](#42-klant-instellingen)
 
-[4.3 Klant instellingen vanuit een import
-12](#klant-instellingen-vanuit-een-import)
+[4.3 Klant instellingen vanuit een import12](#43-klant-instellingen-vanuit-een-import)
 
-[4.4 Voorraad instellingen 12](#voorraad-instellingen)
+[4.4 Voorraad instellingen 12](#44-voorraad-instellingen)
 
-[4.5 Systeeminstellingen 13](#systeeminstellingen)
+[4.5 Systeeminstellingen 13](#45-systeeminstellingen)
 
-[4.6 Webshop instellingen 14](#webshop-instellingen)
+[4.6 Webshop instellingen 14](#46-webshop-instellingen)
 
-[4.7 Modulen 14](#modulen)
+[4.7 Modulen 14](#47-modulen)
 
-[5 Import/export processen 15](#importexport-processen)
+[5 Import/export processen 15](#5-importexport-processen)
 
-[5.1 Instellingen Gmail 15](#instellingen-gmail)
+[5.1 Instellingen Gmail 15](#51-instellingen-gmail)
 
-[5.2 Vullen handterminal 18](#vullen-handterminal)
+[5.2 Vullen handterminal 18](#52-vullen-handterminal)
 
-[5.3 Uitlezen handterminal 19](#uitlezen-handterminal)
+[5.3 Uitlezen handterminal 19](#53-uitlezen-handterminaluitlezen-handterminal)
 
-[6 Hardware 20](#hardware)
+[6 Hardware 20](#6-hardware)
 
-[7 Toekomstige ontwikkelingen 21](#toekomstige-ontwikkelingen)
+[7 Toekomstige ontwikkelingen 21](#7-toekomstige-ontwikkelingen)
 
 # Inleiding 
 
@@ -255,8 +252,7 @@ Floriline. Deze mogelijkheden worden in dit hoofdstuk besproken.
 > te worden. Eén voor de verkoop voorraad en een voor de retour
 > voorraad.**
 
-**  
-**
+  
 
 # 4 Standaard configuratie
 
@@ -312,8 +308,7 @@ meer over deze instellingen.
 > verkoper makkelijker gevonden kan worden. De bedrijfsnaam staat voor
 > de naam van het bedrijf waar de verkoper in dienst is.
 
-*  
-*
+
 
 > *Financiële administratie ({LIJNNR}000000)*
 >
@@ -464,19 +459,15 @@ beschreven. Hieronder zijn alle mogelijkheden schematisch weergegeven:
 
 > **Importeren**
 >
-> **  
-> **Het hoofdsysteem importeert gegevens vanuit Floriline.
+> **Het hoofdsysteem importeert gegevens vanuit Floriline.**
 >
-> **  
-> **Floriline importeert gegevens vanuit het hoofdsysteem.
+> **Floriline importeert gegevens vanuit het hoofdsysteem.**
 >
 > **Exporteren**
 >
-> **  
-> **Het hoofdsysteem exporteert gegevens naar Floriline.
+> **Het hoofdsysteem exporteert gegevens naar Floriline.**
 >
-> **  
-> **Floriline exporteert gegevens naar het hoofdsysteem.
+> **Floriline exporteert gegevens naar het hoofdsysteem.**
 
 ## 5.1 Instellingen Gmail
 
@@ -554,8 +545,8 @@ hoofdsysteem.
 Het vullen van de handterminal met data vanuit het hoofdsysteem gaat als
 volgt:
 
-> <img src=".Basishandleiding Floriline NL\media\image23.png" style="width:2.88611in;height:4.14097in" />Klik
-> in de Navigator op ‘Terminal lijnrijders’ -&gt; kies ‘Terminal vullen’
+> <img src=".Basishandleiding Floriline NL\media\image23.png" style="width:2.88611in;height:4.14097in" />
+> Klik in de Navigator op ‘Terminal lijnrijders’ -&gt; kies ‘Terminal vullen’
 > -&gt; Klik op ‘Ok’ opent het volgende venster:
 
 <table>
@@ -618,8 +609,8 @@ volgt:
 > Map waar de bestanden worden geplaatst alvorens ze te versturen naar
 > de terminal.
 >
-> **Export SQL bestand:  
-> **C:\\Shared\\DataAdt\\Floriline\\verzendenvanfloriline\\Scripts\\Florilijn
+> **Export SQL bestand:**  
+> C:\\Shared\\DataAdt\\Floriline\\verzendenvanfloriline\\Scripts\\Florilijn
 > 1 ophalen data.txt  
 > Dit script zoekt de benodigde gegevens op in de database die verzonden
 > worden naar de terminal.
@@ -633,8 +624,9 @@ volgt:
 De gegevens van de handterminal kunnen uitgelezen en ingevoerd worden in
 de database. Voer hiervoor de volgende stappen uit:
 
-> <img src=".Basishandleiding Floriline NL\media\image25.png" style="width:3.26042in;height:2.49097in" />In
-> de Navigator -&gt; kies ‘Terminal uitlezen’ -&gt; Klik op ‘Ok’ opent
+> <img src=".Basishandleiding Floriline NL\media\image25.png" style="width:3.26042in;height:2.49097in" />
+
+> In de Navigator -&gt; kies ‘Terminal uitlezen’ -&gt; Klik op ‘Ok’ opent
 > het volgende venster:
 
 <table>
@@ -711,15 +703,15 @@ configuratie met betrekking tot de hardware.
 > De printer is een apparaat met specifieke eigenschappen die het
 > apparaat geschikt maakt voor langdurig gebruik onderweg.
 >
-> **Router (Standaard is dit een Teltonika RUT950)  
-> **De router zorgt ervoor dat de terminal printopdrachten naar de
+> **Router (Standaard is dit een Teltonika RUT950)**  
+> De router zorgt ervoor dat de terminal printopdrachten naar de
 > printer kan sturen. Verder bezit de router twee SIM-kaarten. Iedere
 > SIM-kaart is gekoppeld aan een aparte provider. Werkt de ene provider
 > niet, dan kan men terugvallen op een tweede provider gekoppeld aan de
 > andere SIM.
 >
-> **Omvormers/accu’s  
-> **De voeding voor het systeem komt uit de vrachtwagen zelf. De
+> **Omvormers/accu’s**  
+> De voeding voor het systeem komt uit de vrachtwagen zelf. De
 > standaardspanning van vrachtwagens (24V gelijkstroom) is echter niet
 > geschikt om de hardware van stroom te voorzien. Daarom moet er een
 > omvormer tussen geplaatst worden voor de juiste soort spanning (220V
@@ -747,16 +739,16 @@ configuratie met betrekking tot de hardware.
 Op het moment van schrijven (december 2017) leven de volgende ideeën
 m.b.t. het doorontwikkelen van Floriline.
 
-> **Verkoop uit Assortiment  
-> **Hierbij wordt een koppeling gemaakt met de bestellij**s**t(en)
+> **Verkoop uit Assortiment**  
+> **Hierbij wordt een koppeling gemaakt met de bestellijst(en)**  
 > i.p.v. rechtstreeks verkopen van partijen uit de voorraad.
 >
-> **Retouren kunnen invoeren op basis van historische orders  
-> **Het verkochte partijnummer wordt hierbij gelinkt aan de retouren.
+> **Retouren kunnen invoeren op basis van historische orders**  
+> Het verkochte partijnummer wordt hierbij gelinkt aan de retouren.
 > Dit heeft als voordeel dat er beter inzicht is qua cijfers.
 >
-> **Automatiseren Floriline Basis Configuratie  
-> **Het softwarematig automatiseren van de verschillende handelingen
+> **Automatiseren Floriline Basis Configuratie** 
+> Het softwarematig automatiseren van de verschillende handelingen
 > zoals beschreven in deze handleiding op basis van een aantal in te
 > voeren gegevens. Dit houdt in dat alle handelingen die nodig zijn voor
 > het inrichten van een basisconfiguratie met één druk op de knop

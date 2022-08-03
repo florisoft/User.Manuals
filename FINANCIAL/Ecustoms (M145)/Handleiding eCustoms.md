@@ -128,8 +128,8 @@ tabblad *“eCustoms”*
     route worden verwerkt.*
 
 -   **(Vinkje) Deze transportroute kan worden gekozen bij het indelen
-    van douane facturen:  
-    ***Indien aangevinkt kan deze route gekozen worden in het douane
+    van douane facturen:**  
+    *Indien aangevinkt kan deze route gekozen worden in het douane
     indelen scherm. Indien er geen enkele is aangevinkt kan uit alle
     routes gekozen worden.*
 

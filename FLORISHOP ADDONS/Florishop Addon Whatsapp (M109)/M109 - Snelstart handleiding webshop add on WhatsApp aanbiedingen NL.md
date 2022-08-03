@@ -4,13 +4,13 @@
 
 # Inhoudsopgave
 
-[1 Aanmaken anonieme debiteur](#aanmaken-anonieme-debiteur)
+[1 Aanmaken anonieme debiteur](#1-aanmaken-anonieme-debiteur)
 
 [2 Anonieme debiteur rechten geven op de webshop](#anonieme-debiteur-rechten-geven-op-de-webshop)
 
 [3 Instellen anonieme debiteur in de webshop](#instellen-anonieme-debiteur-in-de-webshop)
 
-[4 Voorraden & partijen delen via WhatsApp](#voorraden-partijen-delen-via-whatsapp)
+[4 Voorraden & partijen delen via WhatsApp](#4-voorraden--partijen-delen-via-whatsapp)
 
 # 1 Aanmaken anonieme debiteur
 
@@ -47,8 +47,9 @@ het onzichtbaar maken van prijzen.
 
 **Actie**
 
--   <img src=".Snelstart handleiding webshop add on WhatsApp aanbiedingen\media\image4.png" style="width:3.97917in;height:3.76181in" />Open
-    > het eigenschappen venster van de anonieme debiteur vanuit de
+-   <img src=".Snelstart handleiding webshop add on WhatsApp aanbiedingen\media\image4.png" style="width:3.97917in;height:3.76181in" /> 
+
+    > Open het eigenschappen venster van de anonieme debiteur vanuit de
     > Constanten (Constanten -&gt; Organen -&gt; Debiteuren)
 
 -   Navigeer in het venster Debiteuren naar het tabblad Internet -&gt;
@@ -63,7 +64,6 @@ het onzichtbaar maken van prijzen.
 -   Bevestig de wijzigingen door in alle vensters op de knop ‘OK’ te
     > klikken.
 
--   
 
 # Instellen anonieme debiteur in de webshop
 
@@ -80,9 +80,8 @@ gekoppeld te worden via de webshop settings:
 <img src=".Snelstart handleiding webshop add on WhatsApp aanbiedingen\media\image5.png" style="width:3.55208in;height:2.60417in" /><img src=".Snelstart handleiding webshop add on WhatsApp aanbiedingen\media\image6.png" style="width:3.48958in;height:2.63542in" />
 
 **Zet instelling WHATSAPPDELEN aan Zet de waarde ANONIEMEDEBNR op ANON**
+  
 
-**  
-**
 
 # 4 Voorraden & partijen delen via WhatsApp
 

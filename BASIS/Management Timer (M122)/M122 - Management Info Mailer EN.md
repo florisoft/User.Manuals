@@ -79,6 +79,7 @@ If you want to have the report refreshed every 2 hours on Sunday, Wednesday and 
 **Example 2**
 
 If you want to have the report refreshed only once a day between 18:00 pm and 19:00 PM you can configure it like this:
+
 <img src=".Management Info Mailer\media\Planning2.png" /> 
 
 As you can see the interval is set to a longer value than the time difference between the Start and Stop times.

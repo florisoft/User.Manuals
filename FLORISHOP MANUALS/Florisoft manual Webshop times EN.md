@@ -8,21 +8,21 @@
 
 [2 Use cases webshop times](#use-cases-webshop-times)
 
-[2.1 Opening and closing of stock(s)](#opening-and-closing-of-stocks)
+[2.1 Opening and closing of stock(s)](#21-opening-and-closing-of-stocks)
 
-[2.2 Time schedules combined with departure days](#time-schedules-combined-with-departure-days)
+[2.2 Time schedules combined with departure days](#22-time-schedules-combined-with-departure-days)
 
 [3 Creating time schedules in Florisoft](#creating-time-schedules-in-florisoft)
 
 [4 Applying time schedules](#applying-time-schedules)
 
-[4.1 Opening and closing a stock](#opening-and-closing-a-stock)
+[4.1 Opening and closing a stock](#41-opening-and-closing-a-stock)
 
-[4.2 Using time schedules combined with departure days](#using-time-schedules-combined-with-departure-days)
+[4.2 Using time schedules combined with departure days](#42-using-time-schedules-combined-with-departure-days)
 
-[4.3 Link time schedules to stocks and debtors](#link-time-schedules-to-stocks-and-debtors)
+[4.3 Link time schedules to stocks and debtors](#43-link-time-schedules-to-stocks-and-debtors)
 
-[4.4 Optional: use departure days together with Delivery days](#optional-use-departure-days-together-with-delivery-days)
+[4.4 Optional: use departure days together with Delivery days](#44-optional-use-departure-days-together-with-delivery-days)
 
 # Preface
 
@@ -92,8 +92,8 @@ webshop. A time schedule is hereby linked to one or more stocks or order
 lists. This time schedule determines when a stock is open or closed.
 Below an example is shown:
 
-**Time schedule  
-**The time schedule below shows that on Wednesday the concerning
+**Time schedule**  
+The time schedule below shows that on Wednesday the concerning
 stock(s)/orderlist(s) are closed. This can be recognized by the white
 marked line behind 'Wednesday'. All the other days are defined as open.
 This can be recognized by the black marked lines behind the other days.
@@ -127,8 +127,8 @@ combination with departure days, the following information is needed:
 The principle of departure days in combination with timetables works as
 follows:
 
-**Departure days on debtor level  
-**Departure days can be roughly set in two ways: on stock / order list
+**Departure days on debtor level**  
+Departure days can be roughly set in two ways: on stock / order list
 level or on debtor level. Below we see an example of departure days set
 on stock level.
 
@@ -138,8 +138,8 @@ This method is used when departure days must apply at debtor level for
 all accessible stocks/order lists for the debtor(s) This means that each
 activated departure day can be chosen by this debtor
 
-**Departure days on stock level per debtor  
-**Choose the departure days in the ‘Raises by Sale through the Internet’
+**Departure days on stock level per debtor**    
+Choose the departure days in the ‘Raises by Sale through the Internet’
 by activating the ticks in the Mon, Tue, Wen, etc. columns. This means
 that the customer can choose those days as departure days in the
 webshop.
@@ -156,8 +156,8 @@ days can be chosen.
 Time schedules in combination with departure days are described in more
 detail in chapter four.
 
-**Departure days in combination with delivery days  
-**The next use case for using time schedules on the webshop is in
+**Departure days in combination with delivery days**  
+The next use case for using time schedules on the webshop is in
 combination with delivery days. Delivery days are one or more extra days
 added to the existing departure days. Delivery days act as an extra time
 buffer for things like transport and processing. In short, the working
@@ -185,9 +185,8 @@ pick ordering, handling, transport, etc.
 
 Using departure days in combination with delivery days is described in
 section 4.4 Optional: use departure days together with Delivery days.
+  
 
-**  
-**
 
 # Creating time schedules in Florisoft
 
@@ -314,40 +313,40 @@ To work with departure days you need to define **multiple** time
 schedules. Each time schedule determines when a departure day can be
 chosen. Example:
 
-**Choose Monday as departure day  
-**<img src=".Florisoft manual Webshop times EN\media\image14.png" style="width:5.51304in;height:2.02607in" />
+**Choose Monday as departure day**  
+<img src=".Florisoft manual Webshop times EN\media\image14.png" style="width:5.51304in;height:2.02607in" />
 
 On Saturday and Sunday it is possible to choose Monday as departure day.
 The rest of the days cannot be chosen as departure day.
 
-**Choose Tuesday as departure day  
-**<img src=".Florisoft manual Webshop times EN\media\image15.png" style="width:5.52174in;height:2.02926in" />
+**Choose Tuesday as departure day**  
+<img src=".Florisoft manual Webshop times EN\media\image15.png" style="width:5.52174in;height:2.02926in" />
 
 On Monday it is possible to choose Tuesday as departure day. The rest of
 the days Tuesday cannot be chosen as departure day.
 
-**Choose Wednesday as departure day  
-**<img src=".Florisoft manual Webshop times EN\media\image16.png" style="width:5.56042in;height:2.04348in" />
+**Choose Wednesday as departure day**  
+<img src=".Florisoft manual Webshop times EN\media\image16.png" style="width:5.56042in;height:2.04348in" />
 
 On Tuesday it is possible to choose Wednesday as departure day. The rest
 of the days cannot be chosen as departure day.
 
-**Choose Thursday as departure day  
-**<img src=".Florisoft manual Webshop times EN\media\image17.png" style="width:5.58408in;height:2.05217in" />
+**Choose Thursday as departure day**  
+<img src=".Florisoft manual Webshop times EN\media\image17.png" style="width:5.58408in;height:2.05217in" />
 
 On Wednesday it is possible to choose Thursday as departure day. The
 rest of the days cannot be chosen as departure day.
 
 Read further on the next page.
 
-**Choose Friday as departure day  
-**<img src=".Florisoft manual Webshop times EN\media\image18.png" style="width:5.57391in;height:2.04844in" />
+**Choose Friday as departure day**  
+<img src=".Florisoft manual Webshop times EN\media\image18.png" style="width:5.57391in;height:2.04844in" />
 
 On Thursday it is possible to choose Friday as departure day. The rest
 of the days cannot be chosen as departure day.
 
-**Choose Saturday as departure day  
-**<img src=".Florisoft manual Webshop times EN\media\image19.png" style="width:5.57361in;height:2.04833in" />
+**Choose Saturday as departure day**  
+<img src=".Florisoft manual Webshop times EN\media\image19.png" style="width:5.57361in;height:2.04833in" />
 
 On Friday it is possible to choose Saturday as departure day. The rest
 of the days cannot be chosen as departure day.
@@ -433,4 +432,4 @@ system and the actual departure date.
 
 If there are any questions after reading the manual Webshop times, do
 not hesitate to contact Florisoft support by e-mail:
-support@florisoft.nl or by telephone: +31 (0) 71 40 806 10.
+support@florisoft.nl or by **telephone:** +31 (0) 71 40 806 10.

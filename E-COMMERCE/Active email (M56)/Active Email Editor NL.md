@@ -84,8 +84,8 @@ Hier kun je de informatie configureren die er per partij zichtbaar moet
 zijn op de active mail. Mis je hier een optie dan graag als offerte
 aanvraag aanvragen bij de webdev. Tenzij het een veld is die in de oude
 HTML Editor al werkte. Die mogen als service worden toegevoegd.  
-**  
-Body &gt; Amount of columns:**  
+    
+**Body &gt; Amount of columns:**  
 Standaard opent de editor met 1 partij per regel. Met deze optie kun je
 meerdere partijen naast elkaar laten zetten in de mail met een max op 4.
 

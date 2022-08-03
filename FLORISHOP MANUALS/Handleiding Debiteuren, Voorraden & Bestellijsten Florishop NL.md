@@ -74,8 +74,8 @@ van wat u op uw eigen scherm ziet.**
 Er dienen een aantal instellingen vooraf gecontroleerd te worden. Deze
 instellingen worden hieronder beschreven.
 
-**Benodigde module(s)  
-**Een van de volgende modules dienen geactiveerd zijn. Zie de screenshot
+**Benodigde module(s)**    
+Een van de volgende modules dienen geactiveerd zijn. Zie de screenshot
 hieronder.
 
 <img src="media\image2.png" style="width:6.3in;height:4.85694in" />
@@ -454,13 +454,13 @@ debiteuren op de webshop.
 <img src="media\image20.png" style="width:5.81111in;height:1.97611in" />
 
 > <span id="_Toc10199783" class="anchor"></span>**6.2 Overzicht per
-> klant, Factuurhistorie, Factuurhistorie (Hoofd)  
-> **Deze drie modulen hangen samen met de eerste module, Facturen. Zet
+> klant, Factuurhistorie, Factuurhistorie (Hoofd)**  
+> Deze drie modulen hangen samen met de eerste module, Facturen. Zet
 > deze drie modulen samen met de module Facturen aan om de klant toegang
 > te geven tot zijn actuele facturen en open posten.
 >
-> <span id="_Toc10199784" class="anchor"></span>**6.3 Klantgegevens  
-> **Zet deze vink aan om de klant toegang te geven tot zijn
+> <span id="_Toc10199784" class="anchor"></span>**6.3 Klantgegevens**  
+> Zet deze vink aan om de klant toegang te geven tot zijn
 > klantgegevens op de webshop. De klant gegevens bestaan uit het
 > standaard e-mailadres, een vink die aangeeft of de klant beleverd mag
 > worden en de mogelijkheid voor de klant om zelf zijn wachtwoord te
@@ -471,8 +471,8 @@ debiteuren op de webshop.
 <img src="media\image22.png" style="width:5.82986in;height:1.91373in" />
 
 > <span id="_Toc10199785" class="anchor"></span>**6.4 Open posten, Open
-> posten betalen  
-> **Deze twee modulen zorgen ervoor dat de klant zijn Open posten kan
+> posten betalen**  
+> Deze twee modulen zorgen ervoor dat de klant zijn Open posten kan
 > inzien en betalen via de webshop. Het betalen van open posten via de
 > webshop kan alleen wanneer de module Florisoft Payment actief is bij
 > de betreffende klant. Om open posten te kunnen zien en betalen moeten
@@ -482,22 +482,22 @@ debiteuren op de webshop.
 <img src="media\image23.png" style="width:5.51805in;height:1.88679in" />
 
 > <span id="_Toc10199786" class="anchor"></span>**6.5 Order overzicht,
-> Overzicht bestellingen en Hist bestellingen  
-> **Met deze vink kan de klant via de webshop geplaatste orders
+> Overzicht bestellingen en Hist bestellingen**  
+> Met deze vink kan de klant via de webshop geplaatste orders
 > bekijken.
 
 <img src="media\image24.png" style="width:5.80943in;height:2.40075in" />
 
 <img src="media\image25.png" style="width:5.8013in;height:1.02699in" />
 
-> <span id="_Toc10199787" class="anchor"></span>**6.6 Aanvoer  
-> **De Aanvoer module wordt gebruik door kweker bedrijven om handel via
+> <span id="_Toc10199787" class="anchor"></span>**6.6 Aanvoer**   
+> De Aanvoer module wordt gebruik door kweker bedrijven om handel via
 > de webshop aan te bieden aan een verwerkingsbedrijf.
 >
 > <img src="media\image26.png" style="width:5.8013in;height:2.83798in" />
 >
-> <span id="_Toc10199788" class="anchor"></span>**6.7 Credit aanvraag  
-> **De module Credit aanvraag biedt de klant de mogelijkheid om credit
+> <span id="_Toc10199788" class="anchor"></span>**6.7 Credit aanvraag**  
+> De module Credit aanvraag biedt de klant de mogelijkheid om credit
 > aanvragen te doen via de webshop.
 
 <img src="media\image27.png" style="width:5.81132in;height:2.27982in" />

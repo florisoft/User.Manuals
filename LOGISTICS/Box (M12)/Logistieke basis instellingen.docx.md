@@ -1,12 +1,5 @@
 <img src="../../fslogo.png"/>
 
-[Inleiding](#inleiding)
-
-[Voorraadinstellingen](#_Toc29294780)
-
-[Debiteurinstellingen](#_Toc29294781)
-
-[Werking](#werking)
 
 # Inleiding
 
@@ -64,13 +57,13 @@ Debiteurnummer\*
 deze debiteur, Florisoft de partij dus naar deze voorraad boekt. Verder
 op in dit bestand staat ook nog een hoofdstuk voor instellingen
 aangaande de voorraad debiteur.  
+    
+<img src=".Logistieke basis instellingen.docx\media\image7.png" style="width:4.74273in;height:4.29104in" />  
   
-**  
-**<img src=".Logistieke basis instellingen.docx\media\image7.png" style="width:4.74273in;height:4.29104in" />**  
-  
-Tabblad autorisatie**. De gebruikers die in de voorraad mogen. Sowieso
+**Tabblad autorisatie. De gebruikers die in de voorraad mogen. Sowieso
 de timer.**  
-**  
+
+
 <img src=".Logistieke basis instellingen.docx\media\image3.png" style="width:3.99444in;height:3.64167in" />
 
 **Tabblad Boxen**. De Box waar de partijen in moeten komen voor het
@@ -78,7 +71,8 @@ binnenmelden.
   
 <img src=".Logistieke basis instellingen.docx\media\image5.png" style="width:5.18946in;height:4.70896in" />
 
-<img src=".Logistieke basis instellingen.docx\media\image8.png" style="width:5.09653in;height:4.62778in" />  
+<img src=".Logistieke basis instellingen.docx\media\image8.png" style="width:5.09653in;height:4.62778in" />
+  
 **Tabblad doorboeken.** Vinkje Onderverdeelde partijen niet naar de box
 doorboeken aanzetten( we willen immers alleen verdelingen hebben)  
 Plus het vinkje Maar wel partijen met nog te pakken pickorders.  
@@ -88,9 +82,7 @@ Nul voorraad verwijderen na minimaal 1 dag.
 *LET OP*
 Box actief moet je aanzetten om er voor te zorgen dat de pickorders zichtbaar zijn in de box monitor bij webshop verdelingen uit deze voorraad.
 (16-03-2021 er ingezet nav probleem Marco bij Enigma) 
-
-
-#      
+      
 
 **Tabblad Doorboeken 2** ALTIJD pickorders aanmaken voor deze voorraad
 aanzetten.
@@ -100,8 +92,9 @@ aanzetten.
 **Live voorraad:**
 
 **Tabblad Boxen**  
-<img src=".Logistieke basis instellingen.docx\media\image10.png" style="width:6.3in;height:5.74097in" />**  
-**
+<img src=".Logistieke basis instellingen.docx\media\image10.png" style="width:6.3in;height:5.74097in" />  
+
+
 
 **Tabblad Doorboeken**
 

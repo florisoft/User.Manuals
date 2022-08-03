@@ -59,6 +59,7 @@ Select “Invoices” in the Navigator double click the relevant invoice. The
 <img src=".Commissionair Manual - ENG\media\image5.png" style="width:6.3in;height:2.07708in" /> 
 
 Select the products on the invoice that will be included in the EKT-message by pressing space. The selected products will turn yellow. Once you’ve made a selection, press “EKT selection”.
+
 <img src=".Commissionair Manual - ENG\media\image6.png" style="width:6.05069in;height:5.08542in" /> 
 
 Once pressed, a progress indicator appears where after it finishes a

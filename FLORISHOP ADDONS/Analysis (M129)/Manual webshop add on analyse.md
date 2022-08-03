@@ -390,7 +390,7 @@ desired information is displayed. This is of course per customer different.
 **Do you have specific questions regarding Google Analytics or the to set up this, please contact us by telephone or e-mail
 Florisoft.**
 
-**Telephone:** (0)71 40 806 10
+**Telephone:** (0)71 40 806 10  
 **Email:** support@florisoft.nl
 
 # 6 Other webshop add ons
@@ -549,5 +549,5 @@ Previous orders can be expanded so that the user can see what kind of products a
 to contact Florisoft by telephone or e-mail. We stand
 open to advice regarding the above add ons and how to fit them into your organization.**
 
-**Telephone:** (0)71 40 806 10
+**Telephone:** (0)71 40 806 10  
 **Email:** sales@florisoft.nl

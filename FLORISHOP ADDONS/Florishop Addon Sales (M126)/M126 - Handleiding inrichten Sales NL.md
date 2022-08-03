@@ -10,17 +10,17 @@
 
 [2. Controleren instellingen vooraf](#controleren-instellingen-vooraf)
 
-[3 Relatie leggen tussen verkoper, debiteur & systeemgebruiker](#relatie-leggen-tussen-verkoper-debiteur-systeemgebruiker)
+[3 Relatie leggen tussen verkoper, debiteur & systeemgebruiker](#3-relatie-leggen-tussen-verkoper-debiteur--systeemgebruiker)
 
-[3.1 Verkoper](#verkoper)
+[3.1 Verkoper](#31-verkoper)
 
-[3.2 Debiteur](#debiteur)
+[3.2 Debiteur](#32-debiteur)
 
-[3.3. Systeemgebruiker](#systeemgebruiker)
+[3.3. Systeemgebruiker](#33-systeemgebruiker)
 
-[4 Sales functionaliteit Webshop](#sales-functionaliteit-webshop)
+[4 Sales functionaliteit Webshop](#4-sales-functionaliteit-webshop)
 
-[5 FAQ](#faq)
+[5 FAQ](#5-faq)
 
 # Inleiding
 
@@ -46,14 +46,12 @@ Voor het correct functioneren van de module Sales dienen een aantal
 instellingen vooraf gecontroleerd/ingesteld te worden. Deze instellingen
 worden hieronder beschreven.
 
-**Benodigde module(s)  
-**De module Sales & Accountmanager moeten geactiveerd zijn. Zie de
+**Benodigde module(s)**    
+De module Sales & Accountmanager moeten geactiveerd zijn. Zie de
 screenshot hieronder.
 
 <img src=".Handleiding inrichten Sales\media\image2.png" style="width:6.3in;height:4.79514in" />
 
-**  
-**
 
 # 3 Relatie leggen tussen verkoper, debiteur & systeemgebruiker
 
@@ -151,8 +149,6 @@ Volg de onderstaande stappen om de systeemgebruiker in te stellen:
 
 <img src=".Handleiding inrichten Sales\media\image9.png" style="width:5.896in;height:3.74349in" />
 
-**  
-**
 
 # 4 Sales functionaliteit Webshop
 

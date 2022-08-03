@@ -6,15 +6,15 @@
 
 [Inleiding](#inleiding)
 
-[Constanten instellingen](#constanten)
+[Constanten instellingen](#constanten-instellingen)
 
-[Doos vullen / Karopbouw](#karopbouw)
+[Doos vullen / Karopbouw](#doos-vullen--karopbouw)
 
-[Track and Trace](#tracktrace)
+[Track and Trace](#track-and-trace-scherm)
 
-[Transportbrief printen](#printen)
+[Transportbrief printen](#printen-transportbrief)
 
-[Floritrack portal](#portal)
+[Floritrack portal](#floritrack-portal)
 
 <a name="inleiding"/>
 

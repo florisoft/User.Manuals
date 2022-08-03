@@ -46,7 +46,7 @@ Deze API key dient gevuld te worden in Florisoft bij de leverancier die de synch
 
 >This will be the stock where we will pulish the collected batches form Floriday.
 - Create a new constant **Voorraad (stock)**
-    - *Constants -> Location -> Stocks -> Stocks
+    - *Constants -> Location -> Stocks -> Stocks*
     -> **'Insert'**
 -   Authorisation of the users that have access to the stock(s)
 

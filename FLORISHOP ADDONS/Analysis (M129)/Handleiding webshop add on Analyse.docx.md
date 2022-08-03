@@ -535,8 +535,8 @@ verschillend.
 inrichting hiervan, neem dan telefonisch of per e-mail contact op met
 Florisoft.**
 
-**Telefoon:** (0)71 40 806 10**  
-E-mail:** support@florisoft.nl
+**Telefoon:** (0)71 40 806 10  
+**E-mail:** support@florisoft.nl
 
 # 6 Overige webshop add ons
 
@@ -560,8 +560,8 @@ daarin de artikelomschrijving, een foto en enkele artikelkenmerken. Als
 op het bericht geklikt wordt navigeert de webshop direct naar de
 betreffende voorraad of artikel.
 
-**Florishop CMS  
-**Met de lancering van de Florishop add on CMS, brengt Florisoft uw
+**Florishop CMS**  
+Met de lancering van de Florishop add on CMS, brengt Florisoft uw
 website en webshop samen tot één platform. Hiermee kunt u tevens klanten
 voorzien van bedrijfsinformatie alsmede de mogelijkheid om direct te
 shoppen in de webshop.  
@@ -569,8 +569,8 @@ shoppen in de webshop.
 Het beheer van deze website is ondergebracht in een uitgebreid CMS
 systeem met online beheermogelijkheid.
 
-**Florishop Credit  
-**De Credit add on binnen Florishop is ontwikkeld om de gebruiker een
+**Florishop Credit**  
+De Credit add on binnen Florishop is ontwikkeld om de gebruiker een
 makkelijke manier te bieden voor het crediteren van artikelen aan de
 hand van een stapsgewijs proces waarbij de meeste informatie al
 beschikbaar is en alleen nog aangevuld dient te worden. Naast het feit
@@ -619,8 +619,8 @@ shop in shop-principe. Uw voorraad zal zichtbaar zijn in de app, maar de
 vormgeving en gegevens binnen de app zullen zichtbaar zijn onder de naam
 van uw klant met een eigen logo en inlogscherm.
 
-**Florishop FloriGrow  
-**De add on FloriGrow geeft inzicht in de opbrengt en afschrijving van
+**Florishop FloriGrow**    
+De add on FloriGrow geeft inzicht in de opbrengt en afschrijving van
 een kwekerij binnen een bepaalde periode. Met FloriGrow heeft u altijd
 alle informatie die nodig is binnen handbereik.
 
@@ -667,8 +667,8 @@ watermerken toe te toevoegen. Met de add on Mobile Photo is het zelfs
 mogelijk om een foto rechtstreeks met een smartphone te maken en deze
 aan een product te koppelen.
 
-**Florishop Payment Gateway  
-**Om een webshop compleet te maken, kan een betalingsmodule (payment
+**Florishop Payment Gateway**    
+Om een webshop compleet te maken, kan een betalingsmodule (payment
 gateway) worden gekoppeld, zodat klanten openstaande posten kunnen
 betalen voordat ze nieuwe aankopen doen. De regels kunnen volledig
 worden beheerd vanuit het Florisoft pakket, bijvoorbeeld de maximale
@@ -690,8 +690,8 @@ gateway worden ondersteund:
 
 Andere aanbieders kunnen in overleg ook worden ondersteund.
 
-**Florishop Sales  
-**De Florishop add-on Sales biedt accountmanagers de mogelijkheid om in
+**Florishop Sales**  
+De Florishop add-on Sales biedt accountmanagers de mogelijkheid om in
 samenwerking met de klant de webshop optimaal te gebruiken.
 Functionaliteit die voorheen alleen in Florisoft beschikbaar was, wordt
 nu ook via de webshop beschikbaar gesteld. Dit levert de volgende
@@ -734,8 +734,8 @@ de functies die in de add on zijn geïmplementeerd:
 
 -   Orderverwerking
 
-**Florishop Shopping List  
-**Met de add on Shopping List kunt u gemakkelijk een ‘boodschappenlijst’
+**Florishop Shopping List**  
+Met de add on Shopping List kunt u gemakkelijk een ‘boodschappenlijst’
 maken op basis van recente bestellingen. Met deze functie
 vergemakkelijkt het vinden en kopen van producten. Het komt veel voor
 dat klanten dezelfde bestelling hebben. Wanneer klanten gewend zijn om
@@ -755,5 +755,6 @@ telefonisch of per e-mail contact op te nemen met Florisoft. We staan
 open voor advies met betrekking tot bovenstaande add ons en hoe deze in
 te passen zijn binnen uw organisatie.**
 
-**Telefoon:** (0)71 40 806 10**  
-E-mail:** sales@florisoft.nl
+**Telefoon:** (0)71 40 806 10  
+**E-mail:** sales@florisoft.nl
+    

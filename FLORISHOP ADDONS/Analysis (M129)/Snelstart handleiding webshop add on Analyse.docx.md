@@ -4,13 +4,13 @@
 
 # Inhoudsopgave
 
-[1 Instellen Google Analytics](#instellen-google-analytics)
+[1 Instellen Google Analytics](#1-instellen-google-analytics)
 
-[2 Instellen Google Tag Manager](#instellen-google-tag-manager)
+[2 Instellen Google Tag Manager](#2-instellen-google-tag-manager)
 
-[3 Koppelen van Tag Manager aan webshop](#koppelen-van-tag-manager-aan-webshop)
+[3 Koppelen van Tag Manager aan webshop](#3-koppelen-van-tag-manager-aan-webshop)
 
-[3 Gebruik Google Analytics](#gebruik-google-analytics)
+[3 Gebruik Google Analytics](#3-gebruik-google-analytics)
 
 # 1 Instellen Google Analytics
 
@@ -34,16 +34,15 @@ ingelogde gebruikers, etc.
 
 **Stap 1: maak een Google Account aan**
 
-<img src=".Snelstart handleiding webshop add on Analyse.docx\media\image2.png" style="width:5.71875in;height:0.99097in" />**Actie:**
-open een browser en zoek via Google naar Google Analytics.
+<img src=".Snelstart handleiding webshop add on Analyse.docx\media\image2.png" style="width:5.71875in;height:0.99097in" />
+
+**Actie:** open een browser en zoek via Google naar Google Analytics.
 
 Gebruik een bestaand (zakelijk) account of maak een nieuw account aan.
 
 Zie de handleiding webshop add on Analyse voor meer informatie over het
 instellen van Google Analytics.
 
-**  
-**
 
 # 2 Instellen Google Tag Manager
 
@@ -75,8 +74,9 @@ vervolgens de instellingen op met het wachtwoord voor de settings.
 
 <img src=".Snelstart handleiding webshop add on Analyse.docx\media\image6.png" style="width:8.8375in;height:1.24653in" />
 
-<img src=".Snelstart handleiding webshop add on Analyse.docx\media\image7.png" style="width:4.10417in;height:2.13056in" /><img src=".Snelstart handleiding webshop add on Analyse.docx\media\image8.png" style="width:4.58814in;height:1.9375in" />**  
-**
+<img src=".Snelstart handleiding webshop add on Analyse.docx\media\image7.png" style="width:4.10417in;height:2.13056in" /><img src=".Snelstart handleiding webshop add on Analyse.docx\media\image8.png" style="width:4.58814in;height:1.9375in" />
+
+
 
 # 3 Gebruik Google Analytics 
 
@@ -86,8 +86,6 @@ weergegeven uit Google Analytics met een korte toelichting.
 
 <img src=".Snelstart handleiding webshop add on Analyse.docx\media\image9.png" style="width:5.22917in;height:4.00583in" />
 
-**  
-**
 
 <img src=".Snelstart handleiding webshop add on Analyse.docx\media\image10.png" style="width:2.73958in;height:4.38889in" />
 
@@ -95,8 +93,8 @@ weergegeven uit Google Analytics met een korte toelichting.
 
 <img src=".Snelstart handleiding webshop add on Analyse.docx\media\image12.png" style="width:5.19864in;height:4.59439in" />
 
-<img src=".Snelstart handleiding webshop add on Analyse.docx\media\image13.png" style="width:5.19864in;height:4.60481in" />**  
-**
+<img src=".Snelstart handleiding webshop add on Analyse.docx\media\image13.png" style="width:5.19864in;height:4.60481in" />
+
 
 Het E-commerceoverzicht biedt een gedetailleerde weergave van de
 verkochte producten. Deze informatie kan verder verfijnd worden door te

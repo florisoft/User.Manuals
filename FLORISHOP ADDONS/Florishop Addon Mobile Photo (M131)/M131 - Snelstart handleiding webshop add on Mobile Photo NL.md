@@ -8,8 +8,9 @@ Vanaf nu is het mogelijk om zelf foto’s te koppelen aan zowel bestel-
 als voorraadpartijen op de webshop. Deze snelstart handleiding biedt de
 gebruiker een overzicht om de Mobile foto add on te gebruiken.
 
-<img src=".Snelstart handleiding webshop add on Mobile foto\media\image2.png" style="width:6.3in;height:3.19097in" />**Stap
-1: Autoriseer de gewenste gebruikers**
+<img src=".Snelstart handleiding webshop add on Mobile foto\media\image2.png" style="width:6.3in;height:3.19097in" />
+
+**Stap 1: Autoriseer de gewenste gebruikers**
 
 **Actie:** autoriseer één of meerdere gebruikers door het vinkje ‘Mag
 partijfoto aanpassen’ aan te zetten in de debiteur instellingen. Open
@@ -19,8 +20,7 @@ Organen -&gt; Debiteuren)
 Zet op het tabblad Internet -&gt; Webshop 2 het vinkje ‘Mag partijfoto
 aanpassen’.
 
-**  
-**
+
 
 **Stap 2: Koppel een foto aan webshop partij**
 

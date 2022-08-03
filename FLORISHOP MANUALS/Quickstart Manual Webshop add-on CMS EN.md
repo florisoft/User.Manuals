@@ -70,8 +70,9 @@ to the desired debtor(s). Below is described how this process works.
 -   Navigate in the 'Debtors' window to the 'internet' -&gt; 'Webshop2'
     > tab.
 
--   <img src=".Quickstart manual webshop add on CMS\media\image4.png" style="width:3.62778in;height:1.27292in" />Click
-    > the 'CMS Zones' button. The 'Debtor Package' window opens.
+<img src=".Quickstart manual webshop add on CMS\media\image4.png" style="width:3.62778in;height:1.27292in" />
+
+> Click the 'CMS Zones' button. The 'Debtor Package' window opens.
 
 -   Click the 'Toevoegen' (add) button. The 'CMS Zones' window opens.
 
@@ -83,8 +84,7 @@ to the desired debtor(s). Below is described how this process works.
 
 Repeat the above steps for each debtor to which you want to link CMS
 zones to.
-
--   
+ 
 
 # 3 Create categories
 
@@ -102,6 +102,8 @@ left corner of the screen) and click the 'Categories' menu. Choose
 thereafter 'New category'. The Category window pops up.
 
 > <img src=".Quickstart manual webshop add on CMS\media\image6.png" style="width:2.81597in;height:3.18819in" />
+
+
 > **‘Properties’ tab**
 
 -   Enter the name of the category under 'Category URL'. This name
@@ -118,8 +120,6 @@ thereafter 'New category'. The Category window pops up.
 -   Make sure the tick 'Is visible in navigation' is on. This ensures
     > that this category becomes visible in the navigation.
 
-**  
-**
 
 <img src=".Quickstart manual webshop add on CMS\media\image7.png" style="width:4.96181in;height:5.94306in" />**‘Translations’
 tab**
@@ -130,13 +130,11 @@ tab**
 -   Enter the translations for both the ‘Category URL’ and the ‘Category
     > display’ name.
 
-**  
-**
 
 **‘Visibility’ tab**
 
--   <img src=".Quickstart manual webshop add on CMS\media\image8.png" style="width:4.56597in;height:5.45278in" />Under
-    > the ‘Zone’ dropdown menu, check one or more zones where this
+-   <img src=".Quickstart manual webshop add on CMS\media\image8.png" style="width:4.56597in;height:5.45278in" />
+    > Under the ‘Zone’ dropdown menu, check one or more zones where this
     > category must be linked to.
 
 -   Choose under the ‘Visible’ dropdown for 'Yes' or 'No'. This
@@ -167,6 +165,7 @@ etc.
 'Pages’ menu and choose' New page'. The CmsPage window opens.
 
 <img src=".Quickstart manual webshop add on CMS\media\image10.png" style="width:4.94733in;height:2.89623in" />
+
 **‘Properties’ tab**
 
 -   The fields 'Page name' and 'Page display name' work in the same way
@@ -178,8 +177,7 @@ etc.
 -   Check the box next to 'Is visible in navigation' to make the page
     > visible on the webshop.
 
-**  
-**
+
 
 **‘Advanced’ tab**
 
@@ -192,6 +190,7 @@ a description of these settings.
 **‘Translations’ and ‘Visibility!’ tabs**
 
 <img src=".Quickstart manual webshop add on CMS\media\image11.png" style="width:3.01181in;height:3.59375in" /><img src=".Quickstart manual webshop add on CMS\media\image12.png" style="width:2.98611in;height:3.56597in" /><img src=".Quickstart manual webshop add on CMS\media\image13.png" style="width:3.01736in;height:3.59375in" />
+
 The tabs 'Translations' and 'Visibility' work in the same way as
 described in chapter two.
 
@@ -219,10 +218,12 @@ and click on the 'Row' element.
 
 <img src=".Quickstart manual webshop add on CMS\media\image15.png" style="width:5.40782in;height:3.24528in" />
 
-Read more on the next page.
 
-> <img src=".Quickstart manual webshop add on CMS\media\image16.png" style="width:4.31042in;height:5.14097in" />**‘Properties’
-> tab**
+
+> <img src=".Quickstart manual webshop add on CMS\media\image16.png" style="width:4.31042in;height:5.14097in" />
+
+
+> **‘Properties’ tab**
 >
 > After creating a new row, a column is automatically created with the
 > same size (width) as the parent row. In addition, the settings window
@@ -319,8 +320,9 @@ representative impression of the possibilities of the CMS.
 
 **Add a Carousel**
 
--   <img src=".Quickstart manual webshop add on CMS\media\image21.png" style="width:4.5625in;height:0.63958in" />Choose
-    in the 'Add component' window the ‘Carousel’ element.  
+-   <img src=".Quickstart manual webshop add on CMS\media\image21.png" style="width:4.5625in;height:0.63958in" />  
+    
+    Choose in the 'Add component' window the ‘Carousel’ element.  
     The carousel is created and the properties window of the ‘Carousel’
     automaticly opens.
 
@@ -329,13 +331,11 @@ example) doesn’t open, or you close it by mistake, it can be reopened by
 clicking the gear icon of the concerning element. See the screenshot
 above.
 
-**  
-**
 
 **‘Properties’ tab**
 
--   <img src=".Quickstart manual webshop add on CMS\media\image25.png" style="width:4.42639in;height:5.26389in" />Auto
-    height: automatically adjusts the height of the carousel according
+-   <img src=".Quickstart manual webshop add on CMS\media\image25.png" style="width:4.42639in;height:5.26389in" />  
+    Auto height: automatically adjusts the height of the carousel according
     to the height of the contents of the carousel.
 
 -   Automatically play: ensures that the carousel automatically start
@@ -379,8 +379,9 @@ creating categories and pages.
 
 **Add elements to the carousel**
 
-<img src=".Quickstart manual webshop add on CMS\media\image29.png" style="width:5.03333in;height:3.86042in" />An
-element (in this case a carousel) may in turn contain other elements
+<img src=".Quickstart manual webshop add on CMS\media\image29.png" style="width:5.03333in;height:3.86042in" />  
+
+An element (in this case a carousel) may in turn contain other elements
 (e.g. images). Which elements you can add depends on the parent element.
 
 **Step 7: add the desired element(s) to a (parent) element.**
@@ -405,8 +406,9 @@ image to the carousel.
 >
 > Open a folder to see/edit its contents.
 
--   <img src=".Quickstart manual webshop add on CMS\media\image30.png" style="width:3.59097in;height:4.29514in" />Click
-    on the image which acts as the first image in the carousel.
+<img src=".Quickstart manual webshop add on CMS\media\image30.png" style="width:3.59097in;height:4.29514in" />
+
+- Click on the image which acts as the first image in the carousel.
 
 -   A cut out preview of the selected photo is displayed behind 'Image’.
 
@@ -425,8 +427,7 @@ This is the current CMS page itself.
 
 <img src=".Quickstart manual webshop add on CMS\media\image31.png" style="width:9.50711in;height:4.97917in" />
 
-**  
-Add a textbox**
+**  Add a textbox**
 
 Under the carousel comes a new row with two columns. The left column
 contains two text boxes beneath each other. The right-hand column
@@ -442,8 +443,9 @@ and column(s) on the current page.
     on the '+' icon in the ‘CmsPage’ bar. The ‘Add Component’ window
     appears.
 
--   <img src=".Quickstart manual webshop add on CMS\media\image36.png" style="width:2.62569in;height:1.03542in" />Scroll
-    down and choose 'Row'. A new row and column is added and immediately
+-   <img src=".Quickstart manual webshop add on CMS\media\image36.png" style="width:2.62569in;height:1.03542in" />  
+    
+    Scroll down and choose 'Row'. A new row and column is added and immediately
     the 'Column' window opens.
 
 -   Adjust the alignment of the column as desired. See chapter five for
@@ -487,8 +489,6 @@ bar at the top of the text box.
 
 <img src=".Quickstart manual webshop add on CMS\media\image39.png" style="width:4.53044in;height:1.10751in" />
 
-**  
-**
 
 **Add a video**
 
@@ -515,8 +515,8 @@ boxes and the video align nicely with the carousel above.
 
 Read further on the next page.
 
-> <img src=".Quickstart manual webshop add on CMS\media\image41.png" style="width:4.74583in;height:5.39097in" />**‘Properties’
-> tab**
+> <img src=".Quickstart manual webshop add on CMS\media\image41.png" style="width:4.74583in;height:5.39097in" />
+> **‘Properties’ tab**
 >
 > On this tab you can find a number of settings regarding the behavior
 > of the video. The most important two are 'Link for the video' and
@@ -574,8 +574,8 @@ and video) Creating a footer works as follows:
 > last column contains a text box with icons below it for social media.
 > (SocialIcons element)
 >
-> <img src=".Quickstart manual webshop add on CMS\media\image48.png" style="width:1.70833in;height:0.5in" />As
-> described earlier, it is possible to design the footer completely
+> <img src=".Quickstart manual webshop add on CMS\media\image48.png" style="width:1.70833in;height:0.5in" />  
+> As described earlier, it is possible to design the footer completely
 > according to your own wishes. This works the same way as
 > creating/editing all other elements such as the carousel, text boxes
 > and video.

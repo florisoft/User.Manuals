@@ -15,19 +15,17 @@
 
 [2.2 Logging on via the homepage 5](#logging-on-via-the-homepage)
 
-[3 Working with the Florishop theme manager
-6](#working-with-the-florishop-theme-manager)
+[3 Working with the Florishop theme manager](#working-with-the-florishop-theme-manager)
 
-[3.1 Access the theme manager 6](#access-the-theme-manager)
+[3.1 Access the theme manager 6](#31-access-the-theme-manager)
 
-[3.2 Create a new theme 7](#create-a-new-theme)
+[3.2 Create a new theme 7](#32-create-a-new-theme)
 
 [4 Apply themes to the webshop 14](#apply-themes-to-the-webshop)
 
 [5 Change pictures on the webshop 17](#change-pictures-on-the-webshop)
 
-[6 Extra available options Theme Configurator
-21](#extra-available-options-theme-configurator)
+[6 Extra available options Theme Configurator 21](#6-extra-available-options-theme-configurator)
 
 # Preface
 
@@ -318,9 +316,8 @@ successfully saved.
 > **Pay attention: for the new text size, always use the format as
 > currently stated. In the screenshot above the value is 1,438. This is
 > a broken number. So use a broken number for the new value.**
+  
 
-**  
-**
 
 # Apply themes to the webshop
 
@@ -491,5 +488,5 @@ Configurator.
 > Configurator. If things are still unclear, please contact the
 > Florisoft helpdesk by e-mail or telephone.**
 >
-> **E-mail:** <support@florisoft.nl>**  
-> Telefoon:** +31 (0)71 40 806 10
+> **E-mail:** <support@florisoft.nl>  
+> **Telefoon:** +31 (0)71 40 806 10
