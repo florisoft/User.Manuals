@@ -70,15 +70,15 @@ If you are hosted on a RESET (Hosting service) server you have a sligthly differ
 
 1. Find the .RDP file on your desktop (most likely) and double left click on it. This should open a RDP screen.
 
-<img src = "Media_EN/RDP shortcut.png" alt = "RDP shortcut on desktop" >
+<img src = "Media_EN/image16.png" alt = "RDP shortcut on desktop" >
 
 <img src = "Media_EN/image14.png" alt = "RDP start screen" >
 
-2. Press the "Connect" (*Verbinding in Dutch*) button (#1).
+2. Press the "Connect" button ()
 
 <img src = "Media_EN/image15.png" alt = "Windows Authentication" >
 
-3. By pressing connect a new Windows Security screen should appear were you need to authenticate using the provided user credentials. Fill in the right username and password, if there is already a user selected click more choices (*Meer keuzes* in Dutch (The blue text)) this should allow you to re-enter the right username.
+3. By pressing connect a new Windows Security screen should appear were you need to authenticate using the provided user credentials. Fill in the right username and password, if there is already a user selected (that you don't want to log into) click on more choices and then use different account this should allow you to enter the credentials of a different user.
 
     Click on **OK** to finalize the log in process, you should soon be able to see the server's desktop screen.
 
