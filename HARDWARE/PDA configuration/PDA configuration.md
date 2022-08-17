@@ -64,6 +64,8 @@ The first device is the Skorpio X5. This PDA has a fysical keyboard available. S
 
 ![](images/2022-06-30-15-14-43.png)
 
+>**Pay attention: the image above can be slightly different then the actual device of the user.**
+
 ### Preparing the device
 
 ### Setup RDP connection Reset florisoftcloud
@@ -117,52 +119,113 @@ The screen for adding a new rdp profile appears. See the screenshot below.
 
 13. Fill at the Custom width field the value 360 (no. 12)<br><br>
 
-14. Scoll down further till the password field appears.<br><br>
+14. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 13)<br><br>
 
-15. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 13)<br><br>
-
-16. Scroll down to the Local Resources section and press on it. (no. 14)
+15. Scroll down to the Local Resources section and press on it. (no. 14)
 
 ![](images/2022-07-21-11-18-05.png)
 
-17. Scroll down to the bottom of the screen and uncheck the Clipboard checkmark under LOCAL DEVICES AND RESOURCES. (no. 15)<br><br>
+16. Scroll down to the bottom of the screen and uncheck the Clipboard checkmark under LOCAL DEVICES AND RESOURCES. (no. 15)
+
+![](images/2022-08-04-13-05-05.png)
+
+17. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 16)<br><br>
+
+18. Scroll down to the Local Experience section and press on it. (no. 17)
+
+![](images/2022-07-21-11-31-33.png)
+
+20. Check the settings profile at the top of the screen. (no. 18) Be sure that the profile is set to Default.
+
+![](images/2022-07-21-11-37-01.png)
+
+21. Be sure that all checkmarks under Allow the following are **unchecked** except the Reconnect if connection is dropped one. (no. 19)<br><br>
+
+22.  Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 20)<br><br>
+
+23. Press the Connection option (no. 21) to open the concerning settings.
+
+![](images/2022-08-04-14-45-46.png)
+
+24. Check if Default (no. 22) is selected below the sentence If the actual verification does not meet minimum policy requirements.<br><br>
+
+25. Acitvate the Ativate network level authentication NLA (SingleSignOn)<br><br>
+
+26. Select the Use these RD Gateway server settings (no. 24) below GATEWAY<br><br>
+
+27. At the Host field (no. 25) fill the RD gateway host to connect with. In most cases this host name has a format like CUSTOMERCODE.florisoftcloud.com.
+
+![](images/2022-08-04-14-34-13.png)
+
+Scroll further down this screen to see the settings below.
+
+![](images/2022-08-04-15-09-03.png)
+
+28. Press the button CREDENTIALS... (no. 26) The screen below opens.
+
+![](images/2022-08-04-15-23-50.png)
+
+29. Be sure to check the Use custom credentials option (no. 27)<br><br>
+
+30. Fill the Windows username of the PDA account in the Username field (no. 28)<br><br>
+
+31. Fill FSPC (no. 29) in the Domain field.<br><br>
+
+32. Fill in the concerning password which belongs to the username as entered in step 30 above.<br><br>
+
+33. Press the OK button (no. 31) in the bottom right corner of the screen to save the settings and return to the previous screen.
+
+![](images/2022-08-04-15-30-56.png)
+
+34. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 32)<br><br>
+
+35. Press the save icon in the upper right corner of the screen. (no. 33)
+
+![](images/2022-08-04-15-32-49.png)
+
+A small icon of a spinning circle appears when the settings are being saved. This may take a few seconds.
+
+![](images/2022-07-21-16-47-06.png)
+
+The PDA returns to the Home page where all defined rdp connections are visible.
+
+![](images/2022-08-04-15-35-46.png)
+
+### Connect via RDP to a Reset florisoftcloud server
+Below you will find the steps for making an rdp connection to a Reset server in the florisoftcloud domain using the Remote Desktop Manager app.
+
+1. Start the Remote Desktop Manager app from the start screen of the PDA. (no. 1)
+
+![](images/2022-07-08-14-51-11.png)
+
+The Remote Desktop Manager app starts. Please wait a few seconds.
+
+![](images/2022-07-08-15-27-43.png)
+
+The Home screen appears when the app is ready.
+
+2. Press the three dots behind the name of the concerning rdp profile. (no. 2) A small menu with a few options appears.
+
+![](images/2022-07-28-14-52-54.png)
+
+3. Press the Open option (no. 3)
+
+![](images/2022-08-04-15-53-52.png)
+
+A rotating indicator appears on the screen while the connection to the server is being esthablished.
+
+![](images/2022-08-04-16-12-52.png)
+
+After a few seconds the connection is made. A Windows login screen becomes visible on the PDA.
+This screen is followed by the splash (loading) screen of Florisoft. After this, the PDA software appears on the screen.
+
+![](images/2022-07-28-15-42-22.png)
+
+From here you can use a specific PDA application by tapping its icon in one of the four available screens.
 
 
 
 
-Basisinstellingen
-1. Naam: zelf te bedenken beschrijvende naam
-2. Host: RDS03
-3. Poort: 3389
-4. Gebruikersnaam: HT3
-5. Domein: FSPC
-6. Wachtwoord: het betreffende wachtwoord
-
-Weergave
-7. Aangepaste breedte: 240
-8. Aangepast hoogte: 320
-
-Lokale bronnen (LOKALE APPARATEN en BRONNEN)
-9. Alleen vinkje Klembord aan.
-
-Programma's 
-10. Na inloggen vertraging: 1000
-
-Ervaring
-11. Alle vinkjes uit behalve Opnieuw verbinding maken als de verbinding is verbroken
-
-Verbinding
-12. Vinkje Activeer netwerk authenticatie NLA (SingleSignOn)
-
-    Gateway
-    13. Deze instellingen voor Extern bureaublad gebruiken...
-    14. Host: ve.florisoftcloud.com
-    
-    knop REFERENTIE LIJST...
-    15. radio button Gebruik aangepaste referenties
-    16. Gebruikersnaam: HT3
-    17. Domein: FSPC
-    18. Wachtwoord: het betreffende wachtwoord.
     
 ### Setup RDP connection Axxon florisoftcloud
 Below you will find the steps required for setting up an rdp connection to a Axxon server in the florisoftcloud domain using the Remote Desktop Manager app.
@@ -223,7 +286,9 @@ The screen for adding a new rdp profile appears. See the screenshot below.
 
 ![](images/2022-07-21-11-18-05.png)
 
-17. Scroll down to the bottom of the screen and uncheck the Clipboard checkmark under LOCAL DEVICES AND RESOURCES. (no. 15)<br><br>
+17. Scroll down to the bottom of the screen and uncheck the Clipboard checkmark under LOCAL DEVICES AND RESOURCES. (no. 15)
+
+![](images/2022-08-04-13-05-05.png)
 
 18. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 16)<br><br>
 
@@ -270,11 +335,11 @@ The Home screen appears when the app is ready.
 
 3. Press the Open option (no. 3)
 
-![](images/2022-07-28-14-55-08.png)
+![](images/2022-08-04-16-17-37.png)
 
 A rotating indicator appears on the screen while the connection to the server is being esthablished.
 
-![](images/2022-07-28-15-39-12.png)
+![](images/2022-08-04-16-13-13.png)
 
 After a few seconds the connection is made. A Windows login screen becomes visible on the PDA.
 This screen is followed by the splash (loading) screen of Florisoft. After this, the PDA software appears on the screen.
