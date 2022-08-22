@@ -21,12 +21,12 @@ The eInvoice read-in result screen also contains the eInvoice barcode which come
 
 <img src=".efact eng/media/newpic5.png" />
 
-An example of another resultscreen. reading in the same invice twice, also see our tooltip where more information can be found about he specific status. :
+An example of another resultscreen. reading in the same invoice twice, also see our tooltip where more information can be found about he specific status:
 
 <img src=".efact eng/media/newpic6.png" />
 
 Further more:
-- The eInvoice has an, by Florisoft designed, own filebuild-up. This is seperated from "veilingfactuur" or äuctioninvoice". This is done because the Florisoft eInvoice receives less adjustments. To concluse, the only users of this system are Florisoft users. Besides, it is possible for the file to be backwardscompatible where your system can still read in eInvoices even when they're 1 year old. The eInvoice is easy to read, because it contains less fields. The file size is also smaller because of this. There can be no misunderstandings about the content of the eInvoices, as it is Florisoft's standard. Besides, if needed, the adding of fields can be much faster.
+- The eInvoice has an, by Florisoft designed, own filebuild-up. This is seperated from "veilingfactuur" or "auctioninvoice". This is done because the Florisoft eInvoice receives less adjustments. To concluse, the only users of this system are Florisoft users. Besides, it is possible for the file to be backwardscompatible where your system can still read in eInvoices even when they're 1 year old. The eInvoice is easy to read, because it contains less fields. The file size is also smaller because of this. There can be no misunderstandings about the content of the eInvoices, as it is Florisoft's standard. Besides, if needed, the adding of fields can be much faster.
 
 - The pdf invoice and the associated EDI messages are in the same file as this explanaition.
 
