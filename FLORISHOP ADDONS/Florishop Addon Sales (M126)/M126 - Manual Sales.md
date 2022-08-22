@@ -71,8 +71,7 @@ Follow the steps below to set up the 'Vendor':
 - Name Seller
 - Seller's first name:
 - Debtor group ( this is the group of debtors the Seller is allowed/can sell to)
-
-- The checkmark 'Seller not allowed to logon' should be turned on
+- Set the checkmarks (if needed)
 
 <img src="manual sales\.media\picture2.png" />
 &nbsp;
