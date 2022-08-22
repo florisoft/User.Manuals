@@ -79,7 +79,7 @@ Volg de onderstaande stappen om de verkoper in te stellen:
 -   Debiteurgroep (de groep debiteuren waar de verkoper iets aan mag
     verkopen)
 
--   Vinkje bij “Verkoper mag niet meer inloggen”, etc.
+-   Zet indien gewenst vinkjes onderaan in het scherm.
 
 <img src=".Handleiding inrichten Sales\media\image3.png" style="width:6.41628in;height:5.39287in" />
 
