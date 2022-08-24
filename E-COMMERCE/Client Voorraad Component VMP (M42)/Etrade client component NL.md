@@ -2,7 +2,7 @@
 
 # E-trade client component
 
-Welkom bij de handleiding voor de voorraadkoppeling module (E-trade client component). In deze handleiding wordt er uitgelegd hoe je een voorraadkoppeling kunt maken met debiteuren door een aparte voorraad en leverancier te maken. Met behulp hiervan kunnen we een voorraadkoppeling maken.
+In deze handleiding wordt er uitgelegd hoe je een voorraadkoppeling kunt maken met debiteuren door een aparte voorraad en leverancier te maken. Met behulp hiervan kunnen we een voorraadkoppeling maken.
 
 # Voorraad maken
 
