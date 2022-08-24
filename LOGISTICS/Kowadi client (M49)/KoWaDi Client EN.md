@@ -10,14 +10,6 @@ The most important function for auction buyers is the ability to automatically s
 
 This document has been made to provide insight into the (technical) operation of KoWaDi in Florisoft. This is because there is little information to be found at the interface level of the KoWaDi client, different from the regular box monitor screen.
 
-In the 2 chapters it is described which matters must be arranged in order to be able to scan KoWaDi barcodes in Florisoft. 
-
-Chapter 1 describes the prepatory steps required to install KoWaDi to scan barcodes. Think of this of activating this function on the side of the auction (Royal Flora Holland account) and arranging an email address where the KoWaDi messages can be received on.
-
-Chapter 2 described the different steps which play role at scanning the KoWaDi barcodes in Florisoft.
-
-## Step 1: Prepatory activities KoWaDi client
-This chapter describes the steps which are always necessary to take to get the scanned KoWaDi barcodes working in Florisoft.
 
 1. Customer must agree on the modules below:
 
@@ -122,4 +114,4 @@ Below is a description about scanning KoWaDi barcodes in the box monitor. As an 
 
 In the KOWADI table it is determined which PTYBARCODES belong to a KARID. Because the KOWADI.PTYBARCODES should also appear in the VPARTIJ.BARCODE field, all lots on a cart are reported in at once when thee is a match between the VPARTIJ.BARCODE and KOWADI.PTYBARCODE.
 
-Printing the stickers in the box monitor screen is the last step of the KoWaDi client. This ends this (technical) description.
+Printing the stickers in the box monitor screen is the last step of the KoWaDi client.
