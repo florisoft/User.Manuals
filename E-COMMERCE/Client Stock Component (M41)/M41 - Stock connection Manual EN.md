@@ -3,9 +3,8 @@
 # Stock connection Manual
 
 
-A stock connection using E-trade or a Florisoft connection, will benefit your business by creating an easy way to get stock using Florisoft. Follow the steps to create a stock connection, and to start using it.
-
-In chapter 1, we'll explain how to create a seperate stock. In chapter 2 we'll explain how to create a new supplier, and how to create a stock connection.
+Chapter 1 explains how to create seperate stock.
+Chapter 2 explains how to create a new supplier, and a stock connection.
 
 # 1 Creating stock
 The first few steps will require you to create a new stock in Florisoft. In this manual, we'll use Qualirosa as an example. Any information regarding Qualirosa should ofcourse be changed to the business you wish to make a stock connection with.
