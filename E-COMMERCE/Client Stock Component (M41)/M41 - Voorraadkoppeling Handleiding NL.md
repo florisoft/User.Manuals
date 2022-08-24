@@ -3,8 +3,6 @@
 # Voorraadkoppeling handleiding
 
 
-Welkom bij de handleiding voor de voorraadkoppeling module. In deze handleiding wordt uitgelegd hoe je een voorraadkoppeling kan maken met debiteuren door een aparte voorraad en leverancier te maken. Met behulp van deze kunnen we een voorraadkoppeling maken.
-
 Een voorraadkoppeling die gebruik maakt van E-trade of een Florisoft connectie, zal helpen doordat het een makelijke manier is om voorraad te krijgen. Volg de stappen die beneden beschreven zijn om de voorraadkoppeling op te zetten en te gebruiken.
 
 # Voorraad maken
