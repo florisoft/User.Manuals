@@ -2,7 +2,6 @@
 
 # Stock connection Manual
 
-Welcome to the manual for the Stock connection module. In this module, we'll explain how to create a stock connection with debtors by creating a seperate stock and supplier. Using these, we can set up a stock connection.
 
 A stock connection using E-trade or a Florisoft connection, will benefit your business by creating an easy way to get stock using Florisoft. Follow the steps to create a stock connection, and to start using it.
 
