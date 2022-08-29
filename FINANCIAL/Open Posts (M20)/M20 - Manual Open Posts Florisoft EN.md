@@ -17,19 +17,8 @@
 
 
 ## 1. Introduction
-Welcome to the Florisoft manual Open Posts. This manual describes the debtor management part from Florisoft, informally also called the (Debtors) Open Posts screen.
+This manual describes the debtor management part from Florisoft, informally also called the (Debtors) Open Posts screen.
 
-Debtor management is a relatively easy part of Florisoft which for most users is more or less the same. However the way Florisoft handles open posts needs some clarification to understand the way debtor management is implemented in the software.
-
-The aim of this manual is to provide this clarification by explaining the most important parts of the open post section. After reading this manual, the user is able to manage debtors in Florisoft on its own.
-
-To achieve this goal this manual is divided into several chapters. After his introduction, chapter two shows the general flow of financial information in Florisoft with a short explanation of how an open post is created in the system.
-
-Thereafter, chapter three gives a rough overview of the most important parts of the Open Posts screen. The aim of this chapter is to show how the different parts relate to each other.
-
-Chapter four up and till seven describes the individual parts of the open posts screen in more detail. Herewith the reader gets a deeper understanding of the open posts screen.
-
-We hope you enjoy and learn a lot from this manual.
 
 ## 2. General process flow
 The first important thing to understand is the way an open post is created in Florisoft. Below a simple diagram shows the different steps Florisoft need to take to create an open post.
@@ -294,5 +283,3 @@ Click the Ok button to confirm the settings made and print/email the summary.
 <img src="media/2021-06-13-19-37-59.png" />
 
 The Email subject and Email address fields can be filled automaticly per debtor. Fill the CC and BCCC field if neccesary.
-
-We hope you enjoyed reading this manual. You now have a basic understanding of debtor management in Florisoft.
