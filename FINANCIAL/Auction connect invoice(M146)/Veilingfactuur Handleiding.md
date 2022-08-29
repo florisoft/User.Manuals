@@ -34,4 +34,5 @@ Aan de linker kant vind je de status van de verschillende rijen. Hier kan je era
 
 Als je een bepaalde rij in meer detail wilt zien, kan je op de rij dubbel klikken.
 
-Sommige problemen kunnen niet zo 123 opgelost worden, benader dan de support afdeling van Florisoft zodat we je verder kunnen helpen.
+
+Als een probleem niet opgeslot kan worden, bander dan de Florisoft Support afdeling.
