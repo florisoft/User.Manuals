@@ -15,9 +15,10 @@
 ## Preface
 
 
-Welcome to the manual for the Direct debit module in Florisoft. This manual will explain how you can send a Direct Debit (SEPA) message to your customers.
+This manual will explain how you can send a Direct Debit (SEPA) message to your customers.
 
-The first chapter will cover the step by step process of the set up that needs to be done by you and the customer (the debtor). The second chapter will cover the sending of a collection message. The final chapter will give an example of a Business-2-Business form that Florisoft is able to produce.
+Chapter 1 will cover the set up process that is done by the debtor and yourself.
+Chapter 2 provides examples of a Business-2-Business form that Florisoft is able to product.
 
 **Due to Florisoft being continuously updated some screen might have changed and might thus the manuals images may differ from what is seen on your screen.**
 
