@@ -2,7 +2,7 @@
 
 # Florisoft Manual Auction Invoice
 
-Welcome to the manual for the module Auction invoice. The module Florisoft .Net Auction Invoice is created to process auction invoices in the system. In this manual the module will be explained and it will be shown how to use the module.
+The module Florisoft .Net Auction Invoice is created to process auction invoices in the system. In this manual the module will be explained and it will be shown how to use the module.
 
 *This module is for both Auction Invoice and Auction connect Invoice.*
 
@@ -35,4 +35,4 @@ On the left you will find the status of the different rows. Here you can identif
 
 If you which to see one of the rows in detail, double click on the desired row.
 
-Ofcourse some issues are not in your hands, please contact our support department so we can help you further with your problem.
+If a problem cannot be solved, contact out Support department.
