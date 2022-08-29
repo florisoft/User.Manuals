@@ -2,9 +2,12 @@
 
 # Florisoft Handleiding Incasso
 
-Welkom bij de handleiding voor de module Incasso van Florisoft. In deze handleiding wordt uitgelegd hoe je een incasso kan versturen naar uw klanten.
+In deze handleiding wordt uitgelegd hoe je een incasso kan versturen naar uw klanten.
 
-In het eerste hoofdstuk wordt stap voor stap uitglegd welke instellingen, zowel voor de debiteur als u zelf, moeten worden ingevuld. Het tweede hoofdstuk legt uit hoe je een incasso verstuurt. Als laatste wordt een voorbeeld van een Business-2-Business formulier laten zien.
+
+Hoofdstuk 1 legt in stappen uit welke instellingen moeten worden ingevuld aan beide kanten.
+Hoofdstuk 2 legt uit hoe je een incasso verstuurt.
+Als laatst wordt er een voorbeeld getoont van een Business-2-Business formulier.
 
 **De gegevens in deze handleiding kunnen afwijken van wat u ziet op uw eigen scherm**
 
