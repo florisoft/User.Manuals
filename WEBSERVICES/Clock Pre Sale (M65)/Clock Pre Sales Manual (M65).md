@@ -193,6 +193,8 @@ Within your Floramondo account you might use multiple webservices that use diffe
 |32|Navigate to the '*Web Service*' tab (#33) and click the '*Receive Parcels*' button (#34).<br><br>*The system might appear to freeze but in the background it is requesting the webservice for products which are provided in the Clock Pre Sales link for the current auction location.*<br><br>*At the same time a small (Events logger) appears in the screen which shows the behaviour of the system during the communication with the Clock Pre Sale connection.*<br><br>*When all the products are read into the system, a small message windows appears telling how many parcels were read into the incoming stock.* |
 |:--|:--|
 
+<img src="Pre Sales Clock EN Media/receiveparcels.png" alt = "receive parcels">
+
 <img src="Pre Sales Clock EN Media/RetrievedMessage.png">
 
 |33| Click the OK button in the Message window to confirm the message. |
