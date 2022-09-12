@@ -1,6 +1,6 @@
 <img src="../../fslogo.png">
 
-# Florishop Credit(M123) Manual
+# FloriShop Credit(M123) Manual
 
 
 ## Table of contents
@@ -9,12 +9,12 @@
 [Preface](#preface)  
 [Activating the required modules in Florisoft](#activating-the-required-modules-in-florisoft)  
 [Reasons for creating credit in Florisoft](#reasons-for-creating-credit-in-florisoft)  
-[Requesting credit in Florishop](#requesting-credit-in-the-florishop)  
+[Requesting credit in FloriShop](#requesting-credit-in-the-FloriShop)  
 [Approving credit requests](#approving-credit-requests)  
 
 ## Preface
 
-The credit add-on offers web shop users (customers) the option to make credit requests through the Florishop. Credit requests may also be supplemented with additional information when necessary.The advantage of this is that the most relevant information becomes available automatically.
+The credit add-on offers web shop users (customers) the option to make credit requests through the FloriShop. Credit requests may also be supplemented with additional information when necessary.The advantage of this is that the most relevant information becomes available automatically.
 
 :warning:
 **Screenshots in this manual may differ from screens on your system due to Florisoft being continuously updated. Do note that the main process flow will remain the same.**
@@ -65,7 +65,7 @@ To create  a credit reason follow the steps below accordingly:
 
 This concludes the setting up part in Florisoft, the next chapter will take place on the webshop. 
 
-## Requesting credit in the Florishop
+## Requesting credit in the FloriShop
 
 After having set up the ability for customers to amass credit with a corresponding credit reason, we can test if the credit is working on the webshop also. 
 
@@ -73,7 +73,7 @@ To do this follow the steps below:
 
 |Step#|Explanation|
 |:--|:--|
-|**1**|Go to your florishop(webshop) site and log in with a customer account.|
+|**1**|Go to your FloriShop(webshop) site and log in with a customer account.|
 |**2**|Open the your account page and go to the 'Request Credit Section.|
 |**3**|If everything went well we should be able to see our invoices here in a table. If you look at the 4 connected circles above the table you'll see one circle highlighted, this is the credit request step indicator 1/4.|
 |**4**|To go to the next step simply click on the invoice you want to create a credit request for.|
@@ -83,7 +83,7 @@ To do this follow the steps below:
 
 ## Approving credit requests
 
-Credit request made on the webshop can be approved or rejected in the Florishop application. To see the to be approved request follow the steps below:
+Credit request made on the webshop can be approved or rejected in the FloriShop application. To see the to be approved request follow the steps below:
 
 |Step#|Explanation|
 |:--|:--|

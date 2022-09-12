@@ -1,9 +1,9 @@
 <img src="../../fslogo.png"/>
 
-# Chatfunctie Florishop inrichten
+# Chatfunctie FloriShop inrichten
 
 ## Achtergrondinformatie
->Dit document beschrijft de werking van de chatfunctie in Florishop. Het idee achter deze functie is dat ingelogde klanten op de webshop rechtstreeks kunnen communiceren met hun accountmanager. (verkoper) De verkoper heeft uiteraard de mogelijkheid om 'terug' te chatten naar de klant. In de praktijk komt het vaak voor dat klanten wat meer informatie over een product willen voordat ze tot aanschaf over gaan. De chatfunctie binnen de webshop speelt hierin een belangrijke rol.
+>Dit document beschrijft de werking van de chatfunctie in FloriShop. Het idee achter deze functie is dat ingelogde klanten op de webshop rechtstreeks kunnen communiceren met hun accountmanager. (verkoper) De verkoper heeft uiteraard de mogelijkheid om 'terug' te chatten naar de klant. In de praktijk komt het vaak voor dat klanten wat meer informatie over een product willen voordat ze tot aanschaf over gaan. De chatfunctie binnen de webshop speelt hierin een belangrijke rol.
 
 ## Vooraf regelen
 Onderstaande zaken dienen vooraf geregeld/ingesteld te zijn.
@@ -100,7 +100,7 @@ Een sales debiteur is technisch gezien niets meer dan een 'normale' Florisoft de
 <img src=".Pop-up Chat & Notification Centre NL/2021-02-12-12-24-51.png" />
 
 11. Zet het vinkje Deze klant heeft toegang via het Internet (nr. 10) aan.
-12. Zet het vinkje Deze klant mag inloggen in Florishop (nr. 11) aan.
+12. Zet het vinkje Deze klant mag inloggen in FloriShop (nr. 11) aan.
 13. Klik op de knop Toegankelijke voorraden (nr. 12) om de verkoopdebiteur toegang te geven tot de gewenste voorr(a)ad(en)
 14. Geef de debiteur een wachtwoord in het veld Password voor klant. (nr. 13)
 15. Klik op Ok om de instellingen te bevestigen. (nr. 14)

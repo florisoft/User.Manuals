@@ -6,7 +6,7 @@ The module '*Sub clients*' makes it possible to have 1 main customer that can bu
 
 ## Granting permissions
 
-A logged in debtor can normally only buy for himself, but in Florishop it is possible to buy for other sub debtors as well when the Sub Clients module is enabled. 
+A logged in debtor can normally only buy for himself, but in FloriShop it is possible to buy for other sub debtors as well when the Sub Clients module is enabled. 
 
 **To do this follow the steps below:**
 
@@ -28,7 +28,7 @@ A logged in debtor can normally only buy for himself, but in Florishop it is pos
 
 # Buying for sub clients
 
-After sub client(s) were added to the main client, the debtor may buy products for the sub clients from the Florishop. This may be done in the list view but can also be done per parcel detail view. 
+After sub client(s) were added to the main client, the debtor may buy products for the sub clients from the FloriShop. This may be done in the list view but can also be done per parcel detail view. 
 
 <img src=".Sub clients/media/image5.png">
 

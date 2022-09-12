@@ -23,9 +23,9 @@
 
 # Introduction
 
-The active e-mail module is a commonly used module within the Florisoft application, it currently falls under the Florishop sales module but this might be subject to change. Previously custom active e-mail was to be created in HTML format which caused some problems with accessibility and development cost.
+The active e-mail module is a commonly used module within the Florisoft application, it currently falls under the FloriShop sales module but this might be subject to change. Previously custom active e-mail was to be created in HTML format which caused some problems with accessibility and development cost.
 
-To address this problem a new e-mail editor was developed within the Florishop website. The editors main goals are to simplify creation and management of the e-mail templates for our customers. However the editor is currently only available to Florisoft staff, but it will be made accessible to customers in the future as well .
+To address this problem a new e-mail editor was developed within the FloriShop website. The editors main goals are to simplify creation and management of the e-mail templates for our customers. However the editor is currently only available to Florisoft staff, but it will be made accessible to customers in the future as well .
 
 The intention of the user manual is to get to know the editor’s functionalities and learn how to create and manage e-mail lay-outs for your business. This document will walk you through the complete process of creating templates to editing them and finally enabling them. If you are already familiar with the process of creating templates and getting to the editor you may skip ahead to [step 4](#step-4-the-editor).
 
@@ -33,7 +33,7 @@ The intention of the user manual is to get to know the editor’s functionalitie
 
 
 # Step 1. Getting to the mailing configuration screen 
-Open a browser if you didn’t have one open already and navigate to your Florishop webpage and login with a management account. Once logged in go to *configuration* **→**  *mail configuration* as shown in the image below.
+Open a browser if you didn’t have one open already and navigate to your FloriShop webpage and login with a management account. Once logged in go to *configuration* **→**  *mail configuration* as shown in the image below.
 
 <img src=".Active Email Editior EN media/GettingToTheMailingConfigurationScreen.png" alt="getting to editor">
 
@@ -172,12 +172,12 @@ When the e-mail template is ready for use and you want to make the template avai
 
 # Step 7. Finding the e-mail template in the back-office application 
 
-Now that we have created an active e-mail template on the Florishop we should be able to see it in the Florisoft application too. To check this follow the following steps:
+Now that we have created an active e-mail template on the FloriShop we should be able to see it in the Florisoft application too. To check this follow the following steps:
 
 1. Open the Florisoft application if you didn't do that already.
 2. Click on the '*offers*' button (may vary depending on user's language)
 3. Within the offers menu click on the '*print*' button (see image 1 below)
-4. You should now be prompted with a print options menu, click on the print layout dropdown. Within this dropdown you should see your template like so 'FTS_template name here'(See image 2 below).**Note:** the templates created within the Florishop active mail module are indicated with a 'FTS_' prefix.  
+4. You should now be prompted with a print options menu, click on the print layout dropdown. Within this dropdown you should see your template like so 'FTS_template name here'(See image 2 below).**Note:** the templates created within the FloriShop active mail module are indicated with a 'FTS_' prefix.  
 
 ***Images:***
 

@@ -26,7 +26,7 @@ If you want to send this offer via Whatsapp, you can click 'right' on the offer 
 
 <img src=".Manual Active Email\pic11.png" />
 
-It is possible that you receive the message below when copying the URL. In this case you must enter your Florishop URL in the debtor data, as in the example below.
+It is possible that you receive the message below when copying the URL. In this case you must enter your FloriShop URL in the debtor data, as in the example below.
 
 <img src=".Manual Active Email\pic12.png" />
 

@@ -1,6 +1,6 @@
 <img src="../../fslogo.png"/>
 
-# Florishop Subklanten
+# FloriShop Subklanten
 
 De module “Subklanten” maakt het mogelijk dat 1 gebruiker (Hoofdklant)
 voor meerdere klanten kan kopen op de shop.

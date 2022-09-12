@@ -17,7 +17,7 @@
 # Inleiding
 
 De module active email is een module die veel gebruikt word. Sinds
-enkele maanden zit deze nu ook verwerkt in de Florishop Sales module.
+enkele maanden zit deze nu ook verwerkt in de FloriShop Sales module.
 Echter was er 1 groot probleem en dat is het type lay-out. Deze dienen
 middels html gemaakt te worden en dit geeft een hoop problemen. Dit
 omdat niet iedereen verstand heeft van HTML maar ook omdat sommige zaken
@@ -35,10 +35,10 @@ document.
 
 # Stap 1. De editor openen
 
-De editor is te vinden in Florishop. Deze versie van Florishop moet
+De editor is te vinden in FloriShop. Deze versie van FloriShop moet
 minimaal van 9 september 2020 zijn.  
   
-Log in op Florishop met een beheer account. Open het beheer en ga naar
+Log in op FloriShop met een beheer account. Open het beheer en ga naar
 configuratie &gt; Mail configuratie  
   
 <img src=".Active Email Editor\media\image2.png" style="width:6.3in;height:1.62778in" />
@@ -100,7 +100,7 @@ Vervolgens kun je deze in de Sales module gebruiken als active email. Je
 kunt deze lay-out **ook** gebruiken in de backoffice via de “normale”
 manier. Hiervoor dient de wesbhop3 url in de systeem instellingen wel
 correct ingevuld te zijn zodat Florisoft middels een API kijkt of er
-lay-outs staan in de Florishop map. De lay-outs gemaakt met de nieuwe
+lay-outs staan in de FloriShop map. De lay-outs gemaakt met de nieuwe
 editor zijn te herkennen aan de ‘FTS\_’ prefix:
 
 <img src=".Active Email Editor\media\image9.png" style="width:2.96916in;height:2.04195in" />

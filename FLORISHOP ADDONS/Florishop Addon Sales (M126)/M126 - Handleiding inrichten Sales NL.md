@@ -118,7 +118,7 @@ Volg de onderstaande stappen om de verkoper in te stellen:
 
     -   Vinkje bij “Deze klant heeft toegang via het internet”;
 
-    -   Vinkje bij “Deze klant mag inloggen in Florishop”;
+    -   Vinkje bij “Deze klant mag inloggen in FloriShop”;
 
     -   Password voor klant.
 

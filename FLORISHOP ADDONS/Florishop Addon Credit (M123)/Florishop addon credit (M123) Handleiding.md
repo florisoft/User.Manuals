@@ -1,6 +1,6 @@
 <img src = "../../fslogo.png" alt = "Florisoft logo">
 
-# M123 Florishop Credit Handleiding
+# M123 FloriShop Credit Handleiding
 
 ## Inhoudsopgave
 

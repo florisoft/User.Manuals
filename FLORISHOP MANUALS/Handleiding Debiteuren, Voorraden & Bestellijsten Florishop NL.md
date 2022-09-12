@@ -169,7 +169,7 @@ belangrijkste worden hieronder beschreven:
 
 <img src="media\image9.png" style="width:5.8013in;height:5.03713in" />
 
-1.  Zet het vinkje ‘Deze klant mag inloggen in Florishop’ (nr. 29) aan.
+1.  Zet het vinkje ‘Deze klant mag inloggen in FloriShop’ (nr. 29) aan.
     Dit zorgt ervoor dat de klant daadwerkelijk mag inloggen op de
     webshop.
 

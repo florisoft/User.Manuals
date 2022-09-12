@@ -12,7 +12,7 @@
 
 ## 1. Preface
 
-Welcome to the Florishop Manual Clock Pre Sale. In this manual the steps required for implementing the Clock Pre Sale module are explained.
+Welcome to the FloriShop Manual Clock Pre Sale. In this manual the steps required for implementing the Clock Pre Sale module are explained.
 
 Dutch auctions offers a service called Clock Pre Sale, this service is a stock connection which shows products that are ready to be auctioned off. The twist is that these products can actually be bought before they go through the auction. 
 

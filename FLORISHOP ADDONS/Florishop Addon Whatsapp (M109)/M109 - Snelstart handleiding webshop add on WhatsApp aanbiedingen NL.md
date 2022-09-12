@@ -1,6 +1,6 @@
 <img src="../../fslogo.png"/>
 
-# Snelstart handleiding Florishop WhatsApp aanbiedingen
+# Snelstart handleiding FloriShop WhatsApp aanbiedingen
 
 # Inhoudsopgave
 

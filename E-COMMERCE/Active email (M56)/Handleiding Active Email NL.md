@@ -27,7 +27,7 @@ Wanneer je deze aanbieding via Whatsapp wil versturen, kun je rechts klikken op 
 
 <img src=".Handleiding Active Email\media\2022-04-12-16-08-38.png" />
 
-Het kan voorkomen dat je bij het kopieren van de URL de onderstaande melding krijgt. Indien dit het geval is, moet je in de debiteurengegevens je Florishop URL invullen zoals in onderstaand voorbeeld.
+Het kan voorkomen dat je bij het kopieren van de URL de onderstaande melding krijgt. Indien dit het geval is, moet je in de debiteurengegevens je FloriShop URL invullen zoals in onderstaand voorbeeld.
 
 <img src=".Handleiding Active Email\media\2022-04-22-12-58-25.png" />
 

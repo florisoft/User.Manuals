@@ -1,6 +1,6 @@
 <img src="../../fslogo.png"/>
 
-# Florishop manual analysis
+# FloriShop manual analysis
 
 # Index
 
@@ -18,7 +18,7 @@
 
 # 1 Introduction
 
-Welcome to the Florishop Analsye manual. The add on Analysis gives
+Welcome to the FloriShop Analsye manual. The add on Analysis gives
 users, especially administrators and commercial employees, understand
 the behavior of customers on the webshop.
 
@@ -167,7 +167,7 @@ The screen 'Add a new account' appears.
 
 2.  Step 2 "Container Setup-> See the screenshot above
 
-3. Enter the URL of the webshop at 'Container name' (no. 3). (without /Florishop) For example:  [www.domainname.nl](http://www.domainname.nl), where the container name should be replaced by your own domain name.
+3. Enter the URL of the webshop at 'Container name' (no. 3). (without /FloriShop) For example:  [www.domainname.nl](http://www.domainname.nl), where the container name should be replaced by your own domain name.
 
 
 4. At 'Target platform', choose 'Internet' (no. 4).
@@ -398,8 +398,8 @@ Florisoft.**
 Enthusiastic about the possibilities of the Analysis add-on? The webshop
 has even more interesting expansion options in the form of add ons. Below is a brief description of all available add-ons.
 
-**Florishop WhatsApp offers**
-With the Florishop add on WhatsApp Offers, users in Florishop have the opportunity to share an interesting offer with a contact or group via WhatsApp.
+**FloriShop WhatsApp offers**
+With the FloriShop add on WhatsApp Offers, users in FloriShop have the opportunity to share an interesting offer with a contact or group via WhatsApp.
 
 A whole stock as well as a specific batch can be shared
 become. After clicking the WhatsApp button, WhatsApp is started and you can then choose the contact or group with which the stock or the item is shared.
@@ -407,14 +407,14 @@ become. After clicking the WhatsApp button, WhatsApp is started and you can then
 In WhatsApp, a party card is shown in the form of a message with
 it contains the article description, a photo and some article characteristics. If you click on the message, the webshop will navigate directly to the concerning stock or article.
 
-**Florishop CMS**
-With the launch of the Florishop add on CMS, Florisoft brings your
+**FloriShop CMS**
+With the launch of the FloriShop add on CMS, Florisoft brings your
 website and webshop together into one platform. This also allows you to provide customers with company information as well as the option to shop directly in the webshop.
   
 The management of this website is housed in an extensive CMS system with online management option.
 
-**Florishop Credit**
-The Credit add on within Florishop has been developed to give the user a provide an easy way to credit items to the through a step-by-step process where most of the information is already is available and only needs to be supplemented. Besides being easier for the user, there is also less administrative effort, because the process is completely is processed automatically.
+**FloriShop Credit**
+The Credit add on within FloriShop has been developed to give the user a provide an easy way to credit items to the through a step-by-step process where most of the information is already is available and only needs to be supplemented. Besides being easier for the user, there is also less administrative effort, because the process is completely is processed automatically.
 
 When completing an application, emails will be sent to the
 addresses set within Florisoft using a professional looking layout.
@@ -422,8 +422,8 @@ addresses set within Florisoft using a professional looking layout.
 The credit requests are visible in . after completing the request
 the approval screen within Florisoft and can be assessed here.
 
-**Florishop Dashboard (CMS add on is required)**
-With the add on Dashboard, Florishop can be used as a valuable source of relevant business critical information. Think
+**FloriShop Dashboard (CMS add on is required)**
+With the add on Dashboard, FloriShop can be used as a valuable source of relevant business critical information. Think
 this includes sales figures per unit of time, turnover, number of purchasers
 customers on the webshop, canceled purchases, stocks and many other types of information.
 
@@ -436,14 +436,14 @@ This add-on comes complete with associated hardware. It is a special way to gain
 
 **FloriShop App**
 
-The Florishop App add on makes the webshop available as an Android or Apple app that customers can download from the corresponding app stores
+The FloriShop App add on makes the webshop available as an Android or Apple app that customers can download from the corresponding app stores
 from both companies. With this app, the webshop is even closer to your customer: they can buy in their own time, wherever they are.
 
 The app is also an excellent way to build even more brand awareness; the app is published in the Google Play Store and the App Store with the company name and logo. This allows potential customers to download the app from anywhere in the world.
 
 There is also an option to offer the app to customers as a shop in shop principle. Your stock will be visible in the app, but the design and data within the app will be visible under your customer's name with its own logo and login screen.
 
-**Florishop FloriGrow**
+**FloriShop FloriGrow**
 The FloriGrow add on provides insight into the income and depreciation of
 a nursery within a certain period. With FloriGrow you always have all the information you need at your fingertips.
 
@@ -474,7 +474,7 @@ servers and various software packages are a thing of the past. FloriGrow complet
 
 - Export connections to external software such as accounting
 
-**Florishop Mobile Photo**
+**FloriShop Mobile Photo**
 The add on Mobile Photo allows you to edit photos manually
 linking to products in the webshop, both for stock and
 order parties. Sometimes photos from external sources are not displayed correctly
@@ -482,7 +482,7 @@ loaded on the web shop. This add-on solves this problem. You can take and link y
 
 For stock lots, it is also possible to process the photo with the photo studio in Florisoft. This allows you to adjust the dimensions and add watermarks. With the add on Mobile Photo it is even possible to take a photo directly with a smartphone and link it to a product.
 
-**Florishop Payment Gateway**
+**FloriShop Payment Gateway**
 To complete a webshop, a payment module (payment gateway) can be linked, so that customers can pay outstanding items before making new purchases. The rules can be fully managed from the Florisoft package, for example the maximum credit limit, how old the oldest open post can be or the maximum number of open invoices.
 
 This add-on makes it possible for the customer to create a
@@ -499,13 +499,13 @@ The following providers are in any case supported by this gateway in any case:
 
 Other providers can also be supported in consultation.
 
-**Florishop Sales**
-The Florishop add-on Sales offers account managers the opportunity to optimally use the webshop in collaboration with the customer.
+**FloriShop Sales**
+The FloriShop add-on Sales offers account managers the opportunity to optimally use the webshop in collaboration with the customer.
 Functionality that was previously only available in Florisoft is now
 now also available via the webshop. This produces the following
 benefits on:
 
-- The Florishop sales functionality is much more accessible via
+- The FloriShop sales functionality is much more accessible via
     the web shop. (at home, on the road, in the office, device independent,
     no remote desktop connection required)
 
@@ -536,7 +536,7 @@ This add-on is still under development. Debtor management, bid management, shari
 
 - Order processing
 
-**Florishop Shopping List**
+**FloriShop Shopping List**
 With the add on Shopping List you can easily create a 'shopping list' based on recent orders. This feature makes it easier to find and buy products. It is common for customers to have the same order. When customers are used to ordering in this way, this add-on certainly has added value.
 
 When the user logs in for the first time and chooses an inventory, a window with recent orders is displayed. This one

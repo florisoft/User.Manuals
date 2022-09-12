@@ -1,6 +1,6 @@
 <img src="../../fslogo.png"/>
 
-# Florishop handleiding Analyse
+# FloriShop handleiding Analyse
 
 # Inhoudsopgave
 
@@ -18,7 +18,7 @@
 
 # 1 Inleiding
 
-Welkom bij de handleiding Analsye van Florishop. De add on Analyse geeft
+Welkom bij de handleiding Analsye van FloriShop. De add on Analyse geeft
 gebruikers, met name beheerders en commerciële medewerkers, inzicht in
 het gedrag van klanten op de webshop.
 
@@ -108,7 +108,7 @@ Google Analytics in staat om de webshop te monitoren binnen dit account.
     duidelijke naam te kiezen die verband houdt met de webshop.
 
 2.  Vul bij ‘URL van website’ het adres van de webshop in, zonder
-    /Florishop. Bijvoorbeeld: <http://www.domeinnaam.nl> (nr. 5) Op de
+    /FloriShop. Bijvoorbeeld: <http://www.domeinnaam.nl> (nr. 5) Op de
     plek van domeinnaam komt dan de domeinnaam waarop de webshop gehost
     wordt.
 
@@ -239,7 +239,7 @@ Het scherm ‘Account toevoegen’ verschijnt. Zie volgende pagina.
     wordt actief. Zie onderstaand screenshot.
 
 3.  Vul bij ‘Containernaam’ (nr. 6) de URL van de webshop in. (zonder
-    /Florishop) Bijvoorbeeld:
+    /FloriShop) Bijvoorbeeld:
     [www.domeinnaam.nl](http://www.domeinnaam.nl), waarbij de domeinnaam
     vervangen dient te worden door de eigen domeinnaam.
 
@@ -545,9 +545,9 @@ heeft nog meer interessante uitbreidingsmogelijkheden in de vorm van add
 ons. Hieronder volgt een korte beschrijving van alle beschikbare add
 ons.
 
-**Florishop WhatsApp aanbiedingen**  
-Met de Florishop add on WhatsApp Aanbiedingen krijgen gebruikers in
-Florishop de mogelijkheid een interessant aanbod met een contact of
+**FloriShop WhatsApp aanbiedingen**  
+Met de FloriShop add on WhatsApp Aanbiedingen krijgen gebruikers in
+FloriShop de mogelijkheid een interessant aanbod met een contact of
 groep te delen via WhatsApp.
 
 Er kan zowel een hele voorraad als ook een specifieke partij gedeeld
@@ -560,8 +560,8 @@ daarin de artikelomschrijving, een foto en enkele artikelkenmerken. Als
 op het bericht geklikt wordt navigeert de webshop direct naar de
 betreffende voorraad of artikel.
 
-**Florishop CMS**  
-Met de lancering van de Florishop add on CMS, brengt Florisoft uw
+**FloriShop CMS**  
+Met de lancering van de FloriShop add on CMS, brengt Florisoft uw
 website en webshop samen tot één platform. Hiermee kunt u tevens klanten
 voorzien van bedrijfsinformatie alsmede de mogelijkheid om direct te
 shoppen in de webshop.  
@@ -569,8 +569,8 @@ shoppen in de webshop.
 Het beheer van deze website is ondergebracht in een uitgebreid CMS
 systeem met online beheermogelijkheid.
 
-**Florishop Credit**  
-De Credit add on binnen Florishop is ontwikkeld om de gebruiker een
+**FloriShop Credit**  
+De Credit add on binnen FloriShop is ontwikkeld om de gebruiker een
 makkelijke manier te bieden voor het crediteren van artikelen aan de
 hand van een stapsgewijs proces waarbij de meeste informatie al
 beschikbaar is en alleen nog aangevuld dient te worden. Naast het feit
@@ -585,8 +585,8 @@ professioneel ogende lay-out.
 De credit aanvragen zijn na het voltooien van de aanvraag zichtbaar in
 het accorderen scherm binnen Florisoft en kunnen hier beoordeeld worden.
 
-**Florishop Dashboard (CMS add on is verplicht)**  
-Met de add on Dashboard kan Florishop worden gebruikt als een
+**FloriShop Dashboard (CMS add on is verplicht)**  
+Met de add on Dashboard kan FloriShop worden gebruikt als een
 waardevolle bron van relevante bedrijf kritische informatie. Denk
 hierbij aan verkoopcijfers per tijdseenheid, omzet, aantal kopende
 klanten op de webshop, geannuleerde kopen, voorraden en vele andere
@@ -604,7 +604,7 @@ het bedrijf als het gedrag van de klant.
 
 **FloriShop App**
 
-De Florishop App add on maakt de webshop beschikbaar als een Android- of
+De FloriShop App add on maakt de webshop beschikbaar als een Android- of
 Apple-app die klanten kunnen downloaden uit de bijbehorende app stores
 van beide bedrijven. Met deze app staat de webshop nog dichter bij uw
 klant: zij kunnen in hun eigen tijd kopen, waar ze zich ook bevinden.
@@ -619,7 +619,7 @@ shop in shop-principe. Uw voorraad zal zichtbaar zijn in de app, maar de
 vormgeving en gegevens binnen de app zullen zichtbaar zijn onder de naam
 van uw klant met een eigen logo en inlogscherm.
 
-**Florishop FloriGrow**    
+**FloriShop FloriGrow**    
 De add on FloriGrow geeft inzicht in de opbrengt en afschrijving van
 een kwekerij binnen een bepaalde periode. Met FloriGrow heeft u altijd
 alle informatie die nodig is binnen handbereik.
@@ -654,7 +654,7 @@ de volgende functies:
 
 -   Exporteer verbindingen naar externe software zoals accountancy
 
-**Florishop Mobile Photo**  
+**FloriShop Mobile Photo**  
 De add on Mobile Photo maakt het mogelijk om foto's handmatig te
 koppelen aan producten in de webshop, zowel voor voorraad- als
 bestelpartijen. Soms worden foto's van externe bronnen niet correct
@@ -667,7 +667,7 @@ watermerken toe te toevoegen. Met de add on Mobile Photo is het zelfs
 mogelijk om een foto rechtstreeks met een smartphone te maken en deze
 aan een product te koppelen.
 
-**Florishop Payment Gateway**    
+**FloriShop Payment Gateway**    
 Om een webshop compleet te maken, kan een betalingsmodule (payment
 gateway) worden gekoppeld, zodat klanten openstaande posten kunnen
 betalen voordat ze nieuwe aankopen doen. De regels kunnen volledig
@@ -690,14 +690,14 @@ gateway worden ondersteund:
 
 Andere aanbieders kunnen in overleg ook worden ondersteund.
 
-**Florishop Sales**  
-De Florishop add-on Sales biedt accountmanagers de mogelijkheid om in
+**FloriShop Sales**  
+De FloriShop add-on Sales biedt accountmanagers de mogelijkheid om in
 samenwerking met de klant de webshop optimaal te gebruiken.
 Functionaliteit die voorheen alleen in Florisoft beschikbaar was, wordt
 nu ook via de webshop beschikbaar gesteld. Dit levert de volgende
 voordelen op:
 
--   De Florishop-verkoopfunctionaliteit is veel beter toegankelijk via
+-   De FloriShop-verkoopfunctionaliteit is veel beter toegankelijk via
     de webshop. (thuis, onderweg, op kantoor, apparaat onafhankelijk,
     geen verbinding met een externe desktop vereist)
 
@@ -734,7 +734,7 @@ de functies die in de add on zijn geïmplementeerd:
 
 -   Orderverwerking
 
-**Florishop Shopping List**  
+**FloriShop Shopping List**  
 Met de add on Shopping List kunt u gemakkelijk een ‘boodschappenlijst’
 maken op basis van recente bestellingen. Met deze functie
 vergemakkelijkt het vinden en kopen van producten. Het komt veel voor

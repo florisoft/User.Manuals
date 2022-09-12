@@ -1,10 +1,10 @@
 <img src="../../fslogo.png"/>
 
-# Implement Florishop Chatfunctie
+# Implement FloriShop Chatfunctie
 
 ## Background information
 
->This document describes the working of the chat function in Florishop. The idea behind this feature is that logged in customers on the webshop can communicate directly with their account manager. (seller) The seller of course has the option to chat 'back' to the customer. In practice, it often happens that customers want more information about a product before they make a purchase. The chat function within the webshop plays an important role in this.
+>This document describes the working of the chat function in FloriShop. The idea behind this feature is that logged in customers on the webshop can communicate directly with their account manager. (seller) The seller of course has the option to chat 'back' to the customer. In practice, it often happens that customers want more information about a product before they make a purchase. The chat function within the webshop plays an important role in this.
 
 ## Prerequisite
 The matters below must be arranged/set in advance.

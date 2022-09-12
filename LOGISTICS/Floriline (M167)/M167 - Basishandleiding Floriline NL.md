@@ -4,13 +4,13 @@
 
 [Inleiding 3](#inleiding)
 
-[1 Workflow Floriline 4](#1-workflow-floriline)
+[1 Workflow FloriLine 4](#1-workflow-FloriLine)
 
-[1.1 Worklfow Floriline onderdelen op macroniveau4](#11)
+[1.1 Worklfow FloriLine onderdelen op macroniveau4](#11)
 
-[1.2 Workflow software onderdelen Floriline5](#workflow-software-onderdelen-floriline)
+[1.2 Workflow software onderdelen FloriLine5](#workflow-software-onderdelen-FloriLine)
 
-[2 Acties binnen Florishop 7](#2-acties-binnen-florishop)
+[2 Acties binnen FloriShop 7](#2-acties-binnen-florishop)
 
 [3 Acties binnen de backend 9](#3-acties-binnen-de-backend)
 
@@ -44,31 +44,31 @@
 
 # Inleiding 
 
-Deze basishandleiding implementatie Floriline beschrijft de
-basisconfiguratie van Floriline. Floriline is een nieuw concept speciaal
+Deze basishandleiding implementatie FloriLine beschrijft de
+basisconfiguratie van FloriLine. FloriLine is een nieuw concept speciaal
 ontwikkeld voor lijnrijders. Deze handleiding is tot stand gekomen naar
 aanleiding van een interne kennissessie in december 2017.
 
-Het doel is om medewerkers en andere betrokkenen rondom Floriline
+Het doel is om medewerkers en andere betrokkenen rondom FloriLine
 inzicht te geven in de basisvereisten die nodig zijn om het product
-operationeel te krijgen. Omdat Floriline op het moment van schrijven
+operationeel te krijgen. Omdat FloriLine op het moment van schrijven
 (december 2017) een relatief nieuw product is, bestaat er behoefte aan
 basiskennis met betrekking tot de uitrol/implementatie van dit product.
 
-Het installeren van Floriline bestaat uit een aantal stappen. De
+Het installeren van FloriLine bestaat uit een aantal stappen. De
 structuur van de handleiding is gebaseerd op deze stappen. Na deze
 inleiding volgt in hoofdstuk één een beschrijving van de workflow van
-Floriline. De workflow beschrijft de benodigde stappen om Florishop
+FloriLine. De workflow beschrijft de benodigde stappen om FloriShop
 (frontend) te installeren. Daarnaast wordt de samenhang tussen de
 verschillende componenten, dataflow en interacties beschreven.
 
-Hoofdstuk twee beschrijft de verschillende acties binnen Florishop. De
+Hoofdstuk twee beschrijft de verschillende acties binnen FloriShop. De
 volgende onderwerpen komen aan bod: inloggen en een klant kiezen,
 partijen verdelen en/of retourneren, doorboeken van verdelingen vanuit
 de winkelwagen en printen/mailen. Verder wordt nog beschreven hoe
-facturen vanuit Floriline naar het hoofdsysteem gemaild kunnen worden en
+facturen vanuit FloriLine naar het hoofdsysteem gemaild kunnen worden en
 vice versa: het importeren van data vanuit het hoofdsysteem in
-Floriline.
+FloriLine.
 
 Hoofdstuk drie behandelt een aantal acties die uitgevoerd worden binnen
 het hoofdsysteem (backend). Denk hierbij aan het importeren van
@@ -76,13 +76,13 @@ verstuurde facturen, exporteren van data en het inrichten van de
 voorraad.
 
 Hoofdstuk vier bestaat uit een overzicht van instellingen in Florisoft
-met betrekking tot de standaard configuratie van Floriline. Te denken
+met betrekking tot de standaard configuratie van FloriLine. Te denken
 valt aan het koppelen van een verkoper aan een debiteur, eigenschappen
 van klanten binnen de database, het importeren van klanten, opzetten van
 voorraden, systeeminstellingen, webshopinstellingen en een overzicht van
 vereiste modulen.
 
-Floriline communiceert op verschillende manieren met Florisoft. Deze
+FloriLine communiceert op verschillende manieren met Florisoft. Deze
 communicatie komt aan bod in hoofdstuk vijf. E-mail speelt een
 belangrijke rol in dit communicatieproces. Verder wordt specifiek
 beschreven hoe de handterminal gevuld dan wel uitgelezen kan worden.
@@ -91,42 +91,42 @@ Een overzicht van de benodigde hardware en een beknopt overzicht van de
 werking is te vinden in hoofdstuk zes.
 
 Hoofdstuk zeven beschrijft in het kort een aantal scenario’s voor het
-doorontwikkelen van Floriline.
+doorontwikkelen van FloriLine.
 
 Na het lezen van deze handleiding heeft de lezer een goede basis met
-betrekking tot het inrichten van Floriline.
+betrekking tot het inrichten van FloriLine.
 
 **Let op: afbeeldingen in deze handleiding kunnen enigszins afwijken van
 hetgeen u op uw scherm te zien krijgt.**
 
-# 1 Workflow Floriline
+# 1 Workflow FloriLine
 
-Dit hoofdstuk beschrijft de workflow van Floriline. De workflow
+Dit hoofdstuk beschrijft de workflow van FloriLine. De workflow
 beschrijft de voorgedefinieerde onderdelen/stappen in het systeem en hun
 onderliggende werking/verbanden. Het hoofdstuk bestaat uit twee
 paragraven. Paragraaf 1.1 laat op hoofdlijnen zien welke onderdelen er
-nodig zijn om Floriline te draaien. Paragraaf 1.2 zoomt dieper in op de
-verschillende software onderdelen van Floriline en hun samenhang.
+nodig zijn om FloriLine te draaien. Paragraaf 1.2 zoomt dieper in op de
+verschillende software onderdelen van FloriLine en hun samenhang.
 
-## 1.1 Worklfow Floriline onderdelen op macroniveau
+## 1.1 Worklfow FloriLine onderdelen op macroniveau
 
-> <u>Onderdeel 1:</u> De basis van Floriline bestaat uit een database in
+> <u>Onderdeel 1:</u> De basis van FloriLine bestaat uit een database in
 > combinatie met een webserver. Een image fungeert als basis voor een
-> nieuwe installatie wanneer de klant reeds Floriline heeft draaien. De
-> database bevat alle Floriline gerelateerde data. Florishop wordt
+> nieuwe installatie wanneer de klant reeds FloriLine heeft draaien. De
+> database bevat alle FloriLine gerelateerde data. FloriShop wordt
 > geïnstalleerd op de webserver.
 >
 > Een image is een volledige kopie van Windows, drivers, software en
 > Florisoft. (een complete software configuratie)
 >
-> <u>Onderdeel 2:</u> Florishop (De PDA omgeving die draait in een
+> <u>Onderdeel 2:</u> FloriShop (De PDA omgeving die draait in een
 > browser of op de Zebra) instellen.
 
 <u>Onderdeel 3:</u> Hardware installeren.
 
-## Workflow software onderdelen Floriline
+## Workflow software onderdelen FloriLine
 
-<img src=".Basishandleiding Floriline NL\media\image3.PNG" style="width:10.23758in;height:5in" alt="Dia4" />
+<img src=".Basishandleiding FloriLine NL\media\image3.PNG" style="width:10.23758in;height:5in" alt="Dia4" />
 
 De Systeemgebruiker levert middels een koppeling Verkoop Functionaliteit
 aan een Verkoper (lijnrijder). Dit betekent dat de Systeemgebruiker
@@ -145,8 +145,8 @@ Voor iedere individuele klant kunnen de voorraad/partijen geïmporteerd
 worden vanuit het hoofdsysteem.
 
 Vervolgens worden de aankopen van een debiteur door geboekt vanuit
-Florishop. Dit gebeurt wanneer een klant een product koopt. Er wordt dan
-een factuur binnen de Floriline database aangemaakt. Deze kan op zijn
+FloriShop. Dit gebeurt wanneer een klant een product koopt. Er wordt dan
+een factuur binnen de FloriLine database aangemaakt. Deze kan op zijn
 beurt weer doorgestuurd worden naar het hoofdsysteem.
 
 In de verdere ontwikkeling moet het mogelijk worden om een Verkoper
@@ -159,10 +159,10 @@ soorten synchronisaties:
 Voorraadkoppeling (CSV (SQL), bestellijstkoppeling en debiteurenimport
 op basis van CSL (SQL).
 
-#  2 Acties binnen Florishop
+#  2 Acties binnen FloriShop
 
 Dit hoofdstuk beschrijft een aantal acties die een gebruiker voor handen
-heeft bij het gebruik van Florishop (frontend). Dit is de webshop die
+heeft bij het gebruik van FloriShop (frontend). Dit is de webshop die
 draait op de handterminal of in een webbrowser. De volgende acties
 worden beschreven: inloggen, verdelen/retourneren.
 
@@ -214,7 +214,7 @@ een klant te selecteren.
 # 3 Acties binnen de backend
 
 Ook de backend kent een aantal mogelijkheden met betrekking tot
-Floriline. Deze mogelijkheden worden in dit hoofdstuk besproken.
+FloriLine. Deze mogelijkheden worden in dit hoofdstuk besproken.
 
 > <u>Actie 1:</u> Importeren van de verstuurde lijn facturen.
 >
@@ -240,7 +240,7 @@ Floriline. Deze mogelijkheden worden in dit hoofdstuk besproken.
 > kan vervolgens ingelezen worden binnen de betreffende lijn.
 >
 > <u>Actie 3:</u> Klaarzetten van voorraden op basis van de koppelingen
-> met het Floriline systeem.
+> met het FloriLine systeem.
 >
 > Er zijn altijd twee voorraden: een verkoop voorraad en een retour
 > voorraad. De verkoop voorraad is de voorraad in de vrachtwagen,
@@ -257,7 +257,7 @@ Floriline. Deze mogelijkheden worden in dit hoofdstuk besproken.
 # 4 Standaard configuratie
 
 De standaardconfiguratie beschrijft de standaardinstellingen die nodig
-zijn voor het standaard functioneren/uitleveren van Floriline zoals door
+zijn voor het standaard functioneren/uitleveren van FloriLine zoals door
 ons ontwikkeld. Uiteraard kan hier vanaf geweken worden inzake
 specifieke klantwensen. Een aantal van deze standaardinstellingen
 bestaat uit het instellen van verkoper, klanten, voorraden, systeem
@@ -335,7 +335,7 @@ Klanten binnen de database hebben de volgende eigenschappen:
 > Klanten zijn lid van de debiteurgroep die gekoppeld staat aan de
 > verkoper.
 >
-> De layout(s) die gebruikt worden binnen Floriline. De klant heeft één
+> De layout(s) die gebruikt worden binnen Floriine. De klant heeft één
 > of meerdere layouts.  
 > Bij meerdere layouts kan de klant kiezen. Er kan echter maar één
 > layout tegelijk actief zijn.
@@ -360,7 +360,7 @@ Een beschrijving van deze instellingen is hieronder terug te vinden.
 
 ## 4.4 Voorraad instellingen
 
-Er zijn binnen Floriline altijd twee voorraden. Een LIJNVE-voorraad en
+Er zijn binnen FloriLine altijd twee voorraden. Een LIJNVE-voorraad en
 een LIJNRE-voorraad. De LIJNVE-voorraad is de verkoopvoorraad. Deze
 voorraad bevindt zich in de vrachtwagen. De LIJNRE-voorraad is de
 retourvoorraad. Dit zijn artikelen die mee terug komen. Deze artikelen
@@ -388,9 +388,9 @@ laten functioneren. Het gaat om de volgende instellingen:
 
 -   DefaultDebiteurCeltis
 
--   FlorilineSysteem
+-   FloriLineSysteem
 
--   PublishFlorilineVisible (indien werkend met bestellijsten)
+-   PublishFloriLineVisible (indien werkend met bestellijsten)
 
 <!-- -->
 
@@ -404,28 +404,28 @@ laten functioneren. Het gaat om de volgende instellingen:
 
 Deze instellingen zijn nodig om de webshop goed te laten werken:
 
--   FlorilineFuncties = Inschakelen van de Floriline werkwijze zoals
+-   FloriLineFuncties = Inschakelen van de FloriLine werkwijze zoals
     > beschreven in deze documentatie.
 
--   FlorilineBackend = Pad naar FSNET directory.
+-   FloriLineBackend = Pad naar FSNET directory.
 
--   FlorilineBetalen = In- of uitschakelen betaalmethodes bij
+-   FloriLineBetalen = In- of uitschakelen betaalmethodes bij
     > doorboeken.
 
--   Floriline(Factuur/Paklijst)Layout = Standaard layout printen/mailen.
+-   FloriLine(Factuur/Paklijst)Layout = Standaard layout printen/mailen.
 
 -   FloriLijnCode = Lijncode voor exports.
 
--   FlorilineFust = In- of uitschakelen van fust functionaliteiten.
+-   FloriLineFust = In- of uitschakelen van fust functionaliteiten.
 
 -   FlorlinePrinter = Printernaam voor versturen van opdrachten.
 
--   FlorilineUser = Backend user voor uitvoeren acties.
+-   FloriLineUser = Backend user voor uitvoeren acties.
 
--   Floriline(Retour)PartijAanmaken = Mogelijkheid om een nieuwe partij
+-   FloriLine(Retour)PartijAanmaken = Mogelijkheid om een nieuwe partij
     > toe te mogen voegen.
 
--   FlorilineFinAdminOvernemen = Mogelijkheid om een accountmanager over
+-   FloriLineFinAdminOvernemen = Mogelijkheid om een accountmanager over
     > te nemen.
 
 ## 4.7 Modulen
@@ -433,13 +433,13 @@ Deze instellingen zijn nodig om de webshop goed te laten werken:
 Florisoft is opgebouwd uit verschillende modules. Een combinatie van
 deze modules is verplicht binnen een bepaalde use case. Hieronder een
 overzicht van alle minimaal benodigde modules voor een juiste werking
-van Floriline.
+van FloriLine.
 
 -   Toevoer vanuit het hoofdsysteem
 
 **Module**: Bestel/Voorraad Component (E-trade) via de server.
 
--   Ontvangst binnen Floriline
+-   Ontvangst binnen FloriLine
 
 > **Module:** Client Bestel/Voorraad Component (E-trade)
 
@@ -447,11 +447,11 @@ van Floriline.
 
 -   Koppeling met de handterminal van de lijnrijders
 
--   Florishop
+-   FloriShop
 
 # 5 Import/export processen
 
-Floriline communiceert op verschillende manieren met het hoofdsysteem
+FloriLine communiceert op verschillende manieren met het hoofdsysteem
 (Florisoft). Tijdens dit communicatieproces wordt er verschillende
 soorten data over en weer gestuurd. Dit heet im- en exporteren. In dit
 hoofdstuk worden de instellingen met betrekking tot im/exporteren
@@ -459,22 +459,22 @@ beschreven. Hieronder zijn alle mogelijkheden schematisch weergegeven:
 
 > **Importeren**
 >
-> **Het hoofdsysteem importeert gegevens vanuit Floriline.**
+> **Het hoofdsysteem importeert gegevens vanuit FloriLine.**
 >
-> **Floriline importeert gegevens vanuit het hoofdsysteem.**
+> **FloriLine importeert gegevens vanuit het hoofdsysteem.**
 >
 > **Exporteren**
 >
-> **Het hoofdsysteem exporteert gegevens naar Floriline.**
+> **Het hoofdsysteem exporteert gegevens naar FloriLine.**
 >
-> **Floriline exporteert gegevens naar het hoofdsysteem.**
+> **FloriLine exporteert gegevens naar het hoofdsysteem.**
 
 ## 5.1 Instellingen Gmail
 
 Om het im- en exportproces te faciliteren wordt gebruik gemaakt van een
 standaard Gmail account.
 
-> De primaire mailbox is bestemd voor Floriline. De secundaire mailbox
+> De primaire mailbox is bestemd voor FloriLine. De secundaire mailbox
 > is bestemd voor het hoofdsysteem.
 >
 > Alle lijnen kunnen verwerkt worden in één mailbox omdat de software
@@ -520,14 +520,14 @@ Volg hiervoor onderstaande stappen:
 
 1.  Kies in de Navigator -&gt; Rechtsklikken op Terminal Lijnrijders
     -&gt; Setup E-mail. Het volgende venster opent. Gebruik voor
-    Floriline gebruik altijd ‘Van Florisoft naar Extern’.
+    FloriLine gebruik altijd ‘Van Florisoft naar Extern’.
 
 > <img src=".Basishandleiding Floriline NL\media\image20.png" style="width:3.64538in;height:3.4375in" />
 >
-> Dit venster dient voor twee omgevingen ingesteld worden: de Floriline
+> Dit venster dient voor twee omgevingen ingesteld worden: de FloriLine
 > omgeving en het hoofdsysteem.
 >
-> Instellingen voor de Floriline omgeving: Instellingen voor het
+> Instellingen voor de FloriLine omgeving: Instellingen voor het
 > hoofdsysteem:
 >
 > <img src=".Basishandleiding Floriline NL\media\image21.png" style="width:3.38253in;height:3.82292in" /><img src=".Basishandleiding Floriline NL\media\image22.png" style="width:2.94792in;height:3.31437in" />
@@ -616,7 +616,7 @@ volgt:
 > worden naar de terminal.
 >
 > **Let op: .ini-bestanden altijd centraal houden. Dit is standaard en
-> moet voor een juiste werking van Floriline ook zo blijven. Ook het
+> moet voor een juiste werking van FloriLine ook zo blijven. Ook het
 > Export pad is altijd hetzelfde.**
 
 ## 5.3 Uitlezen handterminal
@@ -679,9 +679,9 @@ de database. Voer hiervoor de volgende stappen uit:
 
 # 6 Hardware
 
-Floriline kent een aantal hardware componenten om het systeem te laten
+FloriLine kent een aantal hardware componenten om het systeem te laten
 functioneren. Hieronder wordt deze hardware nader toegelicht. Belangrijk
-om te vermelden is het feit dat Floriline volledig hardware
+om te vermelden is het feit dat FloriLine volledig hardware
 onafhankelijk kan werken. Dit betekent dat er geen merk-specifieke
 hardware benodigd is. Daarom kan het zo zijn dat onderstaande apparaten
 in de toekomst anders kunnen zijn. Dit verandert niets aan de basis
@@ -693,7 +693,7 @@ configuratie met betrekking tot de hardware.
 > registeren. De terminal heeft een SIM-kaart aan boord voor
 > communicatie met de printer en de rest van het systeem.
 >
-> **Floriline PC**
+> **FloriLine PC**
 >
 > Dit is een compacte (shuttle) PC gemonteerd op de printer. Hierop
 > draaien: Windows, de database en webserver.
@@ -737,7 +737,7 @@ configuratie met betrekking tot de hardware.
 # 7 Toekomstige ontwikkelingen
 
 Op het moment van schrijven (december 2017) leven de volgende ideeën
-m.b.t. het doorontwikkelen van Floriline.
+m.b.t. het doorontwikkelen van FloriLine.
 
 > **Verkoop uit Assortiment**  
 > **Hierbij wordt een koppeling gemaakt met de bestellijst(en)**  
@@ -747,7 +747,7 @@ m.b.t. het doorontwikkelen van Floriline.
 > Het verkochte partijnummer wordt hierbij gelinkt aan de retouren.
 > Dit heeft als voordeel dat er beter inzicht is qua cijfers.
 >
-> **Automatiseren Floriline Basis Configuratie** 
+> **Automatiseren FloriLine Basis Configuratie** 
 > Het softwarematig automatiseren van de verschillende handelingen
 > zoals beschreven in deze handleiding op basis van een aantal in te
 > voeren gegevens. Dit houdt in dat alle handelingen die nodig zijn voor
