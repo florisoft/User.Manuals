@@ -26,7 +26,7 @@ De API key kan worden opgevraagd via de Floriday portal. De API key is van cruci
 |:--|:--|
 |**1**| Log in op het Floriday portaal: <a href="https://idm.floriday.io/">Floriday portal login pagina</a>|
 |**2**|U ziet rechts bovenin een menu dropdown(#1), klik hier op en navigeer vervolgens naar '*Instellingen*'.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media NL/image12.png" width=600px></details>|
-|**3**|In de instellingen navigeer naar '*Apps & Koppelingen*(#2)'<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media NL/image12.png" width=600px></details>|
+|**3**|In de instellingen navigeer naar '*Apps & Integrations*(#2)'<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media NL/image12.png" width=600px></details>|
 |**4**|In het zoekveld(#3) zoekt u naar Florisoft.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media NL/image12.png" width=600px></details>|
 |**5**|Klik vervolgens op Florisoft(#4) of op de puntjes(#5) en dan vervolgens bekijken.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media NL/image12.png" width=600px></details>|
 |**6**|Klik vervolgens op '*Applicatie toevoegen*', er hoort nu een API key te verschijnen.(#1)<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media NL/image13.png" width=600px></details>|
