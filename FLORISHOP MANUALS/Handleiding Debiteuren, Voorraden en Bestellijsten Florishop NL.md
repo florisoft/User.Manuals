@@ -152,4 +152,3 @@ Hieronder wordt iedere module kort toegelicht. Niet alle vinkjes zijn even relev
 |**3**|Dit opent een nieuw scherm, vul de volgende velden in *Code* & '*Omschrijving* |
 |**4**|Klik vervolgens op de '*Bekijk tijden*' knop. Dit opent weer een nieuw scherm waar in u de uw tijden kan invullen met behulp van de spatiebalk.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media\media NL\image20.png"></details>|
 
-

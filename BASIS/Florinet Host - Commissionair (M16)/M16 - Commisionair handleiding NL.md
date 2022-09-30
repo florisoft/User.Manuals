@@ -1,171 +1,90 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png">
 
-# Inhoudsopgave
+# Florisoft Commisionair Handleiding (M16)
+  
 
-[Inleiding 3](#inleiding)
+De handleiding module Commissionair Florisoft beschrijft de werking van de module Commissionair binnen Florisoft. Deze module wordt gebruikt voor het versturen van partijgegevens tussen een commissionair en klant via EKT-berichten. Op deze manier wordt het mogelijk om verkochte/gekochte producten te im- en exporteren tussen verschillende systemen.
 
-[1 Factuurpartijen via EKT-verzenden
-4](#factuurpartijen-via-ekt-verzenden)
+**Let op: afbeeldingen in deze handleiding kunnen enigszins afwijken van hetgeen u op uw scherm te zien krijgt.**
 
-[1.1 Geselecteerde partijen via EKT handmatig verzenden
-5](#geselecteerde-partijen-via-ekt-handmatig-verzenden)
 
-[1.2 Verzendopties facturen vanuit factuuroverzicht
-6](#verzendopties-facturen-vanuit-factuuroverzicht)
+## Inhoudsopgave
 
-[1.3 EKT-berichten automatisch versturen middels een timer
-7](#ekt-berichten-automatisch-versturen-middels-een-timer)
+[Inhoudsopgave](#inhoudsopgave)  
+[Geselecteerde partijen via EKT handmatig verzenden](#11-geselecteerde-partijen-via-ekt-handmatig-verzenden)  
+[Verzendopties facturen vanuit factuuroverzicht](#12-verzendopties-facturen-vanuit-factuuroverzicht)  
+[EKT-berichten automatisch versturen middels een timer](#13-ekt-berichten-automatisch-versturen-middels-een-timer)  
+[Timerinstellingen configureren](#timerinstellingen-configureren)  
+[Timer activeren](#timer-activeren)
 
-# Inleiding 
 
-De handleiding module Commissionair Florisoft beschrijft de werking van
-de module Commissionair binnen Florisoft. Deze module wordt gebruikt
-voor het versturen van partijgegevens tussen een commissionair en klant
-via EKT-berichten. Op deze manier wordt het mogelijk om
-verkochte/gekochte producten te im- en exporteren tussen verschillende
-systemen.
+## 1 Factuurpartijen via EKT-verzenden
 
-**Let op: afbeeldingen in deze handleiding kunnen enigszins afwijken van
-hetgeen u op uw scherm te zien krijgt.**
+Dit hoofdstuk beschrijft de stappen die nodig zijn voor het versturen van aanbiedingen vanuit Florisoft. Hiervoor is de module
+‘Commissionair’ vereist. Deze module maakt het mogelijk om verkochte partijen in het systeem van de klant te krijgen. De werking van deze module wordt hieronder stap voor stap uitgelegd.
 
-# 1 Factuurpartijen via EKT-verzenden
+|Stap|Uitleg|
+|:--|:--|
+|**1.**|Open het constanten scherm en navigeer naar:<br> *Organen*(#1) → *Debiteurgegevens*(#2) → (*Debiteuren*)(#4) → Desbetreffende debiteur in tabel.|
+|**2.**|In het debiteurinstellingen scherm klikt u op het mapje '*EKT*'.|
+|**3.**|U past hier de volgende instellingen aan:<br>**1.** **Leveringen emailen bij Zenden EKT**: *deze instelling zorgt ervoor dat de debiteur gemaild wordt bij het automatisch verzenden van EKT-berichten via de timer.* <br> **2.** **E-mail adres**: *het mailadres waarop de klant EKT-berichten ontvangt.* <br> **3.** **Optioneel afwijkende veilingcode in EKT**: *deze code dient afgestemd te worden met de klant en is bedoeld om de verschillende veilingen van elkaar te onderscheiden in het EKT bericht*<details><summary><b>Klik hier voor uw voorbeeld afbeelding<b></summary><img src=".Commisionair handleiding NL/media/image1.png"></details>|  
+|**4.**|**Let op: de instelling “Leveringen emailen bij Zenden EKT” dient alleen aangevinkt te worden bij het automatisch verzenden van EKT-berichten via de timer (zie paragraaf 1.3).**|
 
-Dit hoofdstuk beschrijft de stappen die nodig zijn voor het versturen
-van aanbiedingen vanuit Florisoft. Hiervoor is de module  
-‘Commissionair’ vereist. Deze module maakt het mogelijk om verkochte
-partijen in het systeem van de klant te krijgen. De werking van deze
-module wordt hieronder stap voor stap uitgelegd.
 
-> “Leveringen emailen bij Zenden EKT”, “E-mail adres” en “Optioneel
-> afwijkende veilingcode in EKT”-instellen.
->
-> Deze instellingen zijn te vinden onder Constanten -&gt; Debiteuren
-> -&gt; zoek de betreffende debiteur -&gt; tabblad EKT.
->
-> Leveringen emailen bij Zenden EKT: deze instelling zorgt ervoor dat de
-> debiteur gemaild wordt bij het automatisch verzenden van EKT-berichten
-> via de timer.
->
-> Email adres: het mailadres waarop de klant EKT-berichten ontvangt.  
-> Optioneel afwijkende veilingcode in EKT: deze code dient afgestemd te
-> worden met de klant en is bedoeld om de verschillende veilingen van
-> elkaar te onderscheiden in het EKT bericht.
->
-> **Let op: de instelling “Leveringen emailen bij Zenden EKT” dient
-> alleen aangevinkt te worden bij het automatisch verzenden van
-> EKT-berichten via de timer (zie paragraaf 1.3).**
->
-> <img src=".Commisionair handleiding NL\media\image2.png" style="width:6.93044in;height:5.98285in" />
 
 ## 1.1 Geselecteerde partijen via EKT handmatig verzenden
 
 Handmatig EKT berichten verzenden gebeurd vanuit de Facturen.
 
-1.  Klik in de Navigator op Facturen -&gt; zoek de betreffende factuur
-    -&gt; open deze door te dubbelklikken. Het venster ”Wijzigen
-    factuur” opent.
+|Stap|Uitleg|
+|:--|:--|
+|**1.**|Open de navigator en klik op de '*Facturen*' knop(#1).|
+|**2.**|In het facturen scherm zoekt u naar de desbetreffende factuur, klik er vervolgens tweemaal op met de linkermuisknop. Dit opent het '*Wijzigen factuur*' scherm.|
+|**3.**|Selecteer de producten op de factuur door het gebruik van de spatiebalk.|
+|**4.**|Klik vervolgens op de knop '*EKT Selectie*'(#1)<details><summary><b>Klik hier voor uw voorbeeld afbeelding<b></summary><img src=".Commisionair handleiding NL/media/image3.png"></details>|
+|**5.**|Indien uw EKT bericht veel producten bevat ziet u een voortgangsscherm en daarna een verzendbevestiging met het aantal verzonden.<details><summary><b>Klik hier voor uw voorbeeld afbeelding<b></summary><img src=".Commisionair handleiding NL/media/image5.png"><br><img src=".Commisionair handleiding NL/media/image4.png"></details> |
+|**6.**|Wanneer een factuur gedeeltelijk of in z’n geheel is verstuurd krijgt deze een bruine achtergrondkleur in het venster “Onderhoud facturen”.|
 
-2.  Selecteer de producten (Spatie) op de factuur die in het EKT-bericht
-    opgenomen moeten worden.
-
-3.  Klik op de knop EKT Selectie om de geselecteerde producten te
-    versturen naar het eerder opgegeven mailadres.
-
-<img src=".Commisionair handleiding NL\media\image3.png" style="width:6.7642in;height:1.26087in" />
-
-Er verschijnt een voortgangsindicator en vervolgens een bevestiging met
-het aantal verzonden.
-
-<img src=".Commisionair handleiding NL\media\image4.png" style="width:1.44028in;height:0.85347in" /><img src=".Commisionair handleiding NL\media\image5.png" style="width:2.5375in;height:0.47708in" />
-
-> Wanneer een factuur gedeeltelijk of in z’n geheel is verstuurd krijgt
-> deze een bruine achtergrondkleur in het venster “Onderhoud facturen”.
 
 ## 1.2 Verzendopties facturen vanuit factuuroverzicht
 
-Naast het handmatig verzenden van artikelen op een factuur biedt
-Florisoft ook een aantal mogelijkheden om artikelen met specifieke
-eigenschappen te versturen. Deze eigenschappen zijn als volgt:
+Naast het handmatig verzenden van artikelen op een factuur biedt Florisoft ook een aantal mogelijkheden om artikelen met specifieke eigenschappen te versturen. Deze eigenschappen zijn als volgt:
 
--   Verzenden nieuwe transacties: verzend alle transacties (artikelen)
-    die na de laatste zending zijn toegevoegd aan de factuur.
+|Verzendoptie|Uitleg|
+|:--|:--|
+|**Verzenden nieuwe transacties:**|*verzend alle transacties (artikelen) die na de laatste zending zijn toegevoegd aan de factuur*|
+|**Verzenden alle transacties vandaag:**|*verzend alle transacties (artikelen) die vandaag op de factuur terecht zijn gekomen.*|
+|**Verzenden alle transacties factuur:**|*verzend alle transacties (alle artikelen) op de factuur.*|
 
--   Verzenden alle transacties vandaag: verzend alle transacties
-    (artikelen) die vandaag op de factuur terecht zijn gekomen.
+Deze instellingen zijn te vinden in het vinden in het scherm '*Onderhoud facturen*' onder het tabje internet. 
 
--   Verzenden alle transacties factuur: verzend alle transacties (alle
-    artikelen) op de factuur.
-
-Deze instellingen zijn te vinden in het venster “Onderhoud facturen”
-onder het menu “Internet”:
-
-<img src=".Commisionair handleiding NL\media\image6.png" style="width:7.26806in;height:1.27639in" />
-
-Ook voor deze drie opties geldt dat de factuur een bruine
-achtergrondkleur krijgt.
+|Stap|Uitleg|
+|:--|:--|
+|**1.**|Klik op de '*Facturen*' knop dit opent het '*Facturen onderhoud*'.|
+|**2.**|Klik vervolgens op het '*Internet*' tabje hier ziet u de drie eerder genoemde opties.<details><summary><b>Klik hier voor uw voorbeeld afbeelding<b></summary><img src=".Commisionair handleiding NL/media/image11.png"></details>|
+|**3.**|Ook voor deze drie opties geldt dat de factuur een bruine achtergroundkleur krijgt.|
 
 ## 1.3 EKT-berichten automatisch versturen middels een timer
 
-Florisoft biedt naast de handmatige optie om EKT-berichten te versturen
-ook de mogelijkheid om automatisch berichten te laten versturen met
-behulp van een timer. Het instellen van de timer bestaat uit twee
-stappen. De eerste stap is het configureren van de timerinstellingen. De
-tweede instelling is het activeren van de timer.
+Florisoft biedt naast de handmatige optie om EKT-berichten te versturen ook de mogelijkheid om automatisch berichten te laten versturen met behulp van een timer. Het instellen van de timer bestaat uit twee stappen. De eerste stap is het configureren van de timerinstellingen. De tweede instelling is het activeren van de timer.
 
-**Timerinstellingen configureren**
+### Timerinstellingen configureren
 
-Voer de volgende stappen uit om de instellingen van de timer te
-configureren:
+Voer de volgende stappen uit om de instellingen van de timer te configureren:
 
-1.  Klik met de rechtermuisknop op het stopwatch icoon in de Navigator.
+|Stap|Uitleg|
+|:--|:--|
+|**1.**|Open de Florisoft navigator en klik met de rechtermuisknop op het Timer icoontje. U ziet nu een klein optie schermpje klik hier op '*Timer settings*'.<details><summary><b>Klik hier voor uw voorbeeld afbeelding<b></summary><img src=".Commisionair handleiding NL/media/image7.png"></details>|
+|**2.**|Dit opent het '*Timer Settings*' zoek in de linker tabel naar de instelling '*ZEND EKT*' vink deze aan. In het rechterdeel zijn vervolgens de instellingen aan te passen. |
+|**3.**|In het rechterdeel van het scherm zijn de volgende acties mogelijk:<br>**1.** Kies eeen gebruiker waarop de geselecteerde instellingen van toepassing zijn. **Selecteer hier '*TIMER*'**<br>**2.** Datum en tijdsweergave van de laatste run van deze timer.<br>**3.** Deze optie bepaalt of de hier ingestelde opties geactiveerd worden.<br>**4.** Kies hier de dagen, begin- en eindtijd(uren:minuten), en d einterval instellingen waarop de timer moet draaien.<br>**5.** Knop om de timer met bovenstaande instellingen eenmalig uit te voeren.<br>**6.** Bevestig de ingevoerde instellingen.|
 
-> <img src=".Commisionair handleiding NL\media\image7.png" style="width:2.68788in;height:1.58355in" />
 
-1.  Zoek in het venster “Timer Settings” naar de functie “ZEND EKT”. In
-    > het rechterdeel van dit venster zijn de betreffende instellingen
-    > aan te passen.
+### Timer activeren
 
-> <img src=".Commisionair handleiding NL\media\image8.png" style="width:6.68696in;height:4.4354in" />
+Na het instellen van de timer dient deze geactiveerd te worden. Voer hiervoor de volgende acties uit:
 
-1: Kies een gebruiker waarop de geselecteerde instellingen van
-toepassing zijn.
-
-2: Datum en tijdweergave van de laatste run van deze timer.
-
-3: Op het tabblad Tijdschema zijn de tijdinstellingen voor de timer aan
-te passen.
-
-4: Deze optie bepaalt of de hier ingestelde opties geactiveerd worden.
-
-5: Kies hier de dagen, begin- en eindtijd (uren:minuten) en de interval
-instellingen waarop de timer moet draaien.
-
-6: Knop om de timer met bovenstaande instellingen eenmalig uit te
-voeren.
-
-7: Bevestig de ingevoerde instellingen.
-
-**Timer activeren**
-
-Na het instellen van de timer dient deze geactiveerd te worden. Voer
-hiervoor de volgende acties uit:
-
-1.  Klik met de linkermuisknop op het stopwatch icoon in de Navigator.
-
-> <img src=".Commisionair handleiding NL\media\image9.png" style="width:1.72941in;height:0.81261in" />
-
-1.  Het venster Florisoft.NET Timer opent. Hier is een lijst van alle
-    actieve timers te vinden die op dit moment draaien.
-
-> <img src=".Commisionair handleiding NL\media\image10.png" style="width:6.46956in;height:4.01303in" />
-
-1.  Omdat timers continu doorlopen is het belangrijk om alle timers te
-    > resetten. Klik hiervoor op de knop “Annuleren” en start de timers
-    > opnieuw door met de linkermuisknop op het stopwatch-icoon in de
-    > Navigator te klikken.
-
-> **Let op: voor een juiste werking van de EKT-timer dient de instelling
-> “Leveringen emailen bij Zenden EKT” aangezet te worden in de
-> constanten (Constanten -&gt; Organen -&gt; Debiteuren). Vervolgens per
-> debiteur op het tabblad EKT deze instelling activeren waar je
-> automatisch EKT’s voor wil versturen.**
+|Stap|Uitleg|
+|:--|:--|
+|**1.**|Klik met de linkermuisknop op het stopwatch icoon in de navigator.<details><summary><b>Klik hier voor uw voorbeeld afbeelding<b></summary><img src=".Commisionair handleiding NL/media/image9.png"></details>|
+|**2.**|Het venster Florisoft.NET Timer opent. Hier is een lijst van alle actieve timers te vinden die op dit moment draaien.<details><summary><b>Klik hier voor uw voorbeeld afbeelding<b></summary><img src=".Commisionair handleiding NL/media/image10.png"></details>|
+|**3.**|**Omdat timers continu doorlopen is het belangrijk om alle timers te resetten. Klik hiervoor op de knop “Annuleren” en start de timers opnieuw door met delinkermuisknop op het stopwatch-icoon in de Navigator te klikken.**|
