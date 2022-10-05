@@ -39,7 +39,7 @@ Eerst moeten we de informatie van uw eigen bedrijf correct invullen. Volg hiervo
 |**12**|Check hier of de juiste factuurlayout geselecteerd is voor uw gebruik.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image6.png"></details>|
 |**13**|Navigeer nu binnen hetzelfde scherm naar de volgende map:<br>*Financieel* → *Algemeneen*.|
 |**14**|Check of het *Financieel debiteurnummer debnr* uniek is voor de klant. Dit is namelijk de kenmerkmachtiging en deze **moet** uniek zijn!<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image7.png"></details>|
-|**15**|Selecteer onder '*Betalings Condities*' een betalingsconditie, mocht er geen geschikte bij staan kan u er zelf een aanmaken.<br> In de onderstaande afbeelding ziet u een goed voorbeeld van betalingskenmerken.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image13.png"></details>|
+|**15**|Selecteer on betalingskenmerken een betalingskenmerk, mocht er geen geschikte bij staan kan u er zelf een aanmaken.<br> In de onderstaande afbeelding ziet u een goed voorbeeld van betalingskenmerken.|
 
 ## Incasso sturen
 
