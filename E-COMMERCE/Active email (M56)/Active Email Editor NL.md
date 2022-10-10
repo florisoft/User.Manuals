@@ -4,7 +4,6 @@
 
 [Inhoud](#inhoud)
 
-[Inleiding](#inleiding)
 
 [Stap 1. De editor openen](#stap-1.-de-editor-openen)
 
@@ -13,25 +12,6 @@
 [Stap 3. Opslaan en gebruiken](#_Toc51670611)
 
 [Kopieren van lay-outs](#kopieren-van-lay-outs)
-
-# Inleiding
-
-De module active email is een module die veel gebruikt word. Sinds
-enkele maanden zit deze nu ook verwerkt in de FloriShop Sales module.
-Echter was er 1 groot probleem en dat is het type lay-out. Deze dienen
-middels html gemaakt te worden en dit geeft een hoop problemen. Dit
-omdat niet iedereen verstand heeft van HTML maar ook omdat sommige zaken
-heel lastig te doen zijn en veel testwerk kost. Mede om die redenen
-hebben we deze nieuwe editor laten ontwikkelen. Deze editor zal het
-maken en aanpassen van active e-mail lay-outs drastisch veranderen en
-makkelijker maken voor ons. In de verre toekomst zou het mogelijk zijn
-deze editor open te zetten voor onze klanten. Voor nu zal deze optie
-alleen door ons gebruikt kunnen worden.  
-  
-Dit document zal stap voor stap in grote lijnen uitleggen hoe je de
-editor kunt gebruiken. Uiteraard zullen er in de toekomst nog wel
-aanpassingen voor komen die later verwerkt moeten worden in dit
-document.
 
 # Stap 1. De editor openen
 
