@@ -2,7 +2,7 @@
 
 # Handleiding KoWaDi client (M49)
 
-(Teschnische) beschrijving over het inrichten en functioneren van KoWaDi client in Florisoft.
+(Technische) beschrijving over het inrichten en functioneren van KoWaDi client in Florisoft.
 
 ## Inleiding
 
@@ -10,9 +10,9 @@ KoWaDi is een afkorting die wordt gebruikt binnen het Nederlandse veilingbedrijf
 
 De belangrijkste functie voor veilingkopers is het automatisch binnen kunnen scannen van een volledige kar bij de ingangscontrole. Dit levert een efficiëntie voordeel op omdat het binnen melden van een complete kar sneller verloopt dan het scannen van losse partijen.
 
-Florisoft verzorgd de tecnische set up voor de KoWaDi client in Florisoft. Deze handleiding is dus niet van technische aard maar dient als uitleg en om het functioneren te controleren.
+Florisoft verzorgd de technische set up voor de KoWaDi client in Florisoft. Deze handleiding is dus niet van technische aard maar dient als uitleg en om het functioneren te controleren.
 
-Wat u wel zelf moet doen is het instellen van de Royal Flora Holland connectie. De KoWaDi berichten worden namelijk verstuurd worden namelijk gestuurd naar een e-mail adres dat gekoppeld is aan uw account. Wees er dus zeker van dat op accountniveau alles goed is ingesteld bij de veiling, en dat u e-mails kan ontvangen op hetzelfde adres als de EKT bericht e-mailadres.
+Wat u wel zelf moet doen is het instellen van de Royal Flora Holland connectie. De KoWaDi berichten worden namelijk verstuurd naar een e-mail adres dat gekoppeld is aan uw account. Wees er dus zeker van dat op accountniveau alles goed is ingesteld bij de veiling, en dat u e-mails kan ontvangen op hetzelfde adres als het EKT bericht e-mailadres.
 
 ## Het openen van het KoWaDi-scherm
 
