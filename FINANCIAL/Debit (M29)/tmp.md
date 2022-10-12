@@ -1,80 +1,79 @@
 <img src="../../fslogo.png">
 
-# Florisoft Handleiding incasso
+# Florisoft Manual Direct Debit (M29)
 
-In deze handleiding wordt uitgelegd hoe je een incasso kan versturen naar uw klanten.
+This manual will explain how you can send a Direct Debit (SEPA) message to your customers.
 
-Hoofdstuk 1 legt in stappen uit welke instellingen moeten worden ingevuld aan beide kanten. Hoofdstuk 2 legt uit hoe je een incasso verstuurt. Als laatst wordt er een voorbeeld getoont van een Business-2-Business formulier.
+Chapter 1 will cover the set up process that is done by the debtor and yourself. Chapter 2 provides examples of a Business-2-Business form that Florisoft is able to product.
 
-**De gegevens in deze handleiding kunnen afwijken van wat u ziet op uw eigen scherm.**
+**Due to Florisoft being continuously updated some screen might have changed and might thus the manuals images may differ from what is seen on your screen.**
 
-## Inhoudsopgave
+## Table of contents
 
-[Inhoudsopgave](#inhoudsopgave)  
-[Invoeren incasso gegevens](#invoeren-incasso-gegevens)  
-[Betalingskenmerken aanmaken](#betalingskenmerken-aanmaken)
-[Incasso sturen](#incasso-sturen)  
-[Aanmaken nieuwe betaling ~ Stornerning](#aanmaken-nieuwe-betaling--stornering)  
-[Incasso's inzien](#incassos-inzien)  
-[Business-2-Business formulier](#business-2-business-formulier)
+[Table of contents](#table-of-contents)  
+[Entering direct debit data](#entering-direct-debit-incasso-data)  
+[Sending invoices](#sending-invoices)  
+[Creating new payments & Cancellations](#creating-a-new-payment--cancellation)  
+[Viewing invoices](#viewing-invoices)  
+[Business-2-Business forms](#business-2-business-forms)
 
 
-## Invoeren incasso gegevens
+## Entering Direct Debit (Incasso) data
 
-Eerst moeten we de informatie van uw eigen bedrijf correct invullen. Volg hiervoor de onderstaande stappen:
+First we'll need to enter our own company's data correctly into Florisoft. Follow the steps below to do this:
 
-|Stap|Uitleg|
+|Step|Explanation|
 |:--|:--|
-|**1**|Open het constantenscherm en navigeer naar het volgende pad in de bestandsstructuur:<br>'*Financieel*' → '*Financiele administratie*'.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image2.png"></details>|
-|**2**|Klik tweemaal met de linkermuisknop op de regel met uw eigen bedrijfsnaam.|
-|**3**|In het zojuist geopende scherm klikt u op het mapje '*Incasso*'.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image3.png"></details>|
-|**4**|Vul hier de benodigde gegevens in en sla deze vervolgens op door op de '**Ok**' te drukken en de wijzigingen op te slaan in de bevestigingsprompt.|
-|**5**|In het constantenscherm navigeert u nu naar:<br>*Organen* → *Debiteurgegevens* → *Debiteuren*.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image4.png"></details>|
-|**6**|U ziet nu debiteuren in de tabel aan de rechterkant van het scherm. Klik nu tweemaal op de desbetreffende debiteur in deze tabel.|
-|**7**|In het debiteurinstellingenscherm navigeert u naar het volgende pad:<br>*Financieel* → *Bankgegevens*.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image5.png"></details>|
-|**8**|In dit scherm vult u de volgende gegevens in:<br>- IBAN nr.<br>- IBAN banknaam<br>- BIC/SWIFT code<br>- SEPA machtiging ID,|
-|**9**|Vink hier de volgende opties aan:<br>- Incasso klant<br>- Verplicht (**Optioneel**: deze optie geeft aan dat deze klant de incasso **moet** betalen).|
-|**10**|Als je niet meteen alle facturen wilt incasseren, maar deze pas wilt incasseren na bijv. 14 dagen na factuurdatum dan is het nodig om bij de debiteur ook aan te geven het veld BETTERMIJN. Deze zorgt ervoor dat de aangemaakte openposten een vervaldatum krijgen van 14 dagen later dan de factuurdatum. Best practice is ook om ook de sys.instelling 'IncassoOverDatum' aan te zetten zodat elke keer als je een incasso bestand maakt alleen de openposten in het incasso bestand komen die over de vervaldatum zijn|
-|**11**|Blijf in hetzelfde debiteureninstellingenscherm maar navigeer nu naar het mapje:<br>*Facturen* → *Printen*.|
-|**12**|Check hier of de juiste factuurlayout geselecteerd is voor uw gebruik.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image6.png"></details>|
-|**13**|Navigeer nu binnen hetzelfde scherm naar de volgende map:<br>*Financieel* → *Algemeneen*.|
-|**14**|Check of het *Financieel debiteurnummer debnr* uniek is voor de klant. Dit is namelijk de kenmerkmachtiging en deze **moet** uniek zijn!<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image7.png"></details>|
-|**15**|Selecteer on betalingskenmerken een betalingskenmerk, mocht er geen geschikte bij staan kan u er zelf een aanmaken.<br> In de onderstaande afbeelding ziet u een goed voorbeeld van betalingskenmerken.|
+|**1**|Open the constants screen and navigate to the following path (in the file structure on the left):<br> '*Financial*' → '*Financial administration*'.<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media EN/image1.png"></details>|
+|**2**|Left click twice on the table row with your own company name.|
+|**3**|In the just opened screen navigate to the folder called '*Debit*'.<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media/image3.png"></details>|
+|**4**|Enter the required data and save it by clicking on the '**Ok**' button, confirm it by clicking yes on the confirmation prompt.|
+|**5**|In the constants screen you should navigate to the following path:<br> '*Community*' → '*Debtor data*' → '*Debtor*'.<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media/image4.png"></details>|
+|**6**| You'll now see the debtors in the table on the right side of the screen. Click twice on the concerning debtor in the table.|
+|**7**|In the debtor screen you'll need to navigate to: <br> *Financial* → *Bank details*.<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media/image5.png"></details>|
+|**8**|In the debtor settings screen you will need to enter data in the following fields: <br>- IBAN nr. <br>- IBAN bank name <br>- BIC/SWIFT code<br>- SEPA authorization ID|
+|**9**|Check the following checkboxes: <br>- payment <br>- Required (**Optional**: this option makes it so that the customer **has** to pay).|
+|**10**|If you don't want to collect on all invoices immediately but want to for example collect after 14 days after invoice date. You'll need to set this up in the field '*To urge*' after enabling the checkbox called '*After*'.This makes it so that open posts will have a experation date 14 days after the invoice date.|
+|**11**| Stay in the debtor setting screen and navigate to the following path:<br>*Invoices* → *Print*.|
+|**12**|Check if the correct invoice layout has been selected for your usecase.<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media/image6.png"></details>|
+|**13**|Again stay in the debtor setting screen and go to the path: '*Financial*' → '*General*'|
+|**14**|Also check if the financial debtor number is unique for the debtor. This is a unique identifier for a payment authorization so it **has** to be unique!.<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media/image7.png"></details>|
+|**15**|Select the right payment condition in the '*Payment conditions*' dropdown, if there is no right payment condition for your situation. You can also make your own.<br><br>The image below shows a good example of payment conditions in a system.<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media/image13.png"></details>|
 
-## Incasso sturen
+## Sending invoice(s)
 
-|Stap|Uitleg|
+|Step|Explanation|
 |:--|:--|
-|**1**|Open de Florisoft navigator en klik vervolgens met uw rechtermuisknop op de *Debiteuren* knop.|
-|**2**|In het optie dialoog dat nu naar voren komt klikt u op de optie *Incasso generen*.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image8.png"></details>|
-|**3**|U ziet nu het scherm *Incasso opdracht generen*'voor u. In dit scherm klikt u op de knop '*Incassobestand Testen*'. U ontvangt vervolgens een test bestand waarin u kan controleren of alles klopt op de lijst. Dit bestand kan u op de aangegeven locatie terugvinden.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image9.png"></details>|
-|**3.a**|Mocht de incasso test niet gelukt zijn kan u dat aanpassen via de debiteur de incasso aanpassen.|
-|**4**|Wanneer u uw aanpassingen verricht heeft ga dan terug naar het '*Incasso opdracht genereren*' scherm om het incasso bestand te testen. U kan nu ook gelijk op '**Ok**' drukken.<br>Je krijgt dan een melding waar de incasso is geplaatst. Met direct daarna de mogelijkheid om de incasso te printen. <br>Dit bestand kan dan worden verzonden naar de desbetreffende klant.|
+|**1**|Open the Florisoft navigator and click on the '*Debtors*' button with the right mouse button.|
+|**2**|In the option dialog that just appeared click on the option '*Generate Incasso File*'.<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media/image8.png"></details>|
+|**3**|This will open the screen '*Generate cashing assignment*' in this screen click on the button '*test*'. You should receive a text file in which you can check if everything is correctly set. The text file is to be found on the indicated path on the screen..<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media/image9.png"></details>|
+|**3.a**|If the test has failed, you can change the incasso settings using the debtor.|
+|**4**|If the corrections are made go back to the '*Generate cashing assignment*'. You should also be able to immediately press the **Ok** button..|
 
-## Aanmaken nieuwe betaling ~ Stornering
+## Creating a new payment ~ Cancellation
 
-Op de bankrekening waar vanaf geïncasserd is, zie je na een aantal dagen de stornering terug.
+On the bank account that has been debited from, you will see the reversal/cancellation after a few days.
 
-|Stap|Uitleg|
+|Step|Explanation|
 |:--|:--|
-|**1**|In de Florisoft navigator, klikt u op de knop '*Debiteuren*' dit opent het debiteurenscherm.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image10.png"></details>|
-|**2**|Selecteer nu de desbetreffende debiteur en het desbetreffende rekeningnummer.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image11.png"></details>|
-|**3**|Dit opent het scherm voor het maken van een nieuwe betaling.|
-|**4**|Vul bij het tekstvak '*Betaald bedrag* het gestorneerde factuurbedrag in met een min teken (-) ervoor.|
-|**5**|Vul bij de '*Betaalwijze*' een '**S**' in dit geeft aan dat het bedrag een stornering is.<br>De desbetreffende factuur staat nu weer open.|
+|**1**|In the Florisoft navigator click on the '*Debtor*' button, this will open the debtor screen.<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media/image10.png"></details>|
+|**2**|Select the concerning debtor and and bankaccountnumber.<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media/image11.png"></details>|
+|**3**|This will open a new screen which you'll use to create a new payment.|
+|**4**|Fill in the textfield '*Paid amount*' with the canccelled/reversed amount prefixed with a minus sign (**-**).|
+|**5**|Fill in the field '*Means of payment*' with the letter s to indicate the payment to be a cancellation.<br>This should reopen the concerning invoice.|
 
 
-## Incasso's inzien
+## Viewing invoices
 
-Om incasso's in te zien die gemaakte zijn door een debiteur volgt u de onderstaande stappen.
+To view invoices made by a debtor follow the steps below:
 
-|Stap|Uitleg|
+|Step|Explanation|
 |:--|:--|
-|**1**|Open de Florisoft Navigator, in deze navigator klikt u op de knop '*Debiteuren*'.|
-|**2**|Dit opent het debiteurenscherm, selecteer uit dit scherm vervolgens een debiteur.<br>Dit zorgt ervoor dat dat bijhorende incasso's onderaan het scherm komen te staan in een tabel.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image12.png"></details>|
+|**1**|Open the Florisoft Navigator screen, in the navigator screen you'll click on the '*Debtor*' button.|
+|**2**|This opens the debtor screen, select a debtor from the tabel.<br> By selecting a debtor its invoices will be shown in the table in the table below.<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media/image12.png"></details>|
 
-## Business-2-Business formulier
+## Business-2-Business forms
 
-Om incasso's te versturen wordt er ook gebruik gemaakt van een Business-2-Business formulier. In principe moet u deze zelf opstellen. Om een idee te geven welke componenten in dit formulier moeten staan, staat hieronder een voorbeeld formulier zoals Florisoft het zelf gebruikt.
+To send invoices a Business-2-Business form is used. This form is often made by our customers internally. To give an idea of what they look like and what components need to be in this form, the image below shows what Florisoft uses as an example.
 
 <details><summary><b>Klik hier voor uw voorbeeld B2B formulier</b></summary><img src=".Handleiding Incasso/media/image15.png"></details>

@@ -1,285 +1,187 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png">
 
-# Manual Open Posts Florisoft
+# Florisoft manual Open Posts (M20)
 
 ## Table of contents
-1. [Introduction](#Introduction)
-2. [General process flow](#General-process-flow)
-3. [Overview Open Posts section](#Overview-Open-Posts-section)
-    * [3.1 Debtor section](#3.1-Debtor-section)
-    * [3.2 Main section](#3.2-Main-section)
-    * [3.3 Received payments section](#3.3-Received-payments-section)
-4. [Debtor section](#Debtor-section)
-5. [Main section](#Main-section)
-6. [Received payments section](#Received-payments-section)
-7. [Extra features](#Extra-features)
-    * [7.1 Print/e-mail summaries](#7.1-Print/e-mail-summaries)
+
+[Required setting per debtor](#required-setting-per-debtor)  
+[Main process walkthrough](#main-process-walkthrough)
+[Overview open posts](#overview-open-posts) 
+[Debtor section]()  
+[Creating new open post debtor](#creating-new-open-post-debtor)  
+[Main table explanation](#main-table-explanation)  
+[Setting up the table layout](#setting-up-the-table-layout)  
+[Received payments section](#received-payments-section)
+[Extra features](#extra-features)  
+[Printing or e-mailing summaries](#printing-and-or-e-mailing-summaries)
 
 
-## 1. Introduction
-This manual describes the debtor management part from Florisoft, informally also called the (Debtors) Open Posts screen.
+## Required setting per debtor
+
+A debtor can only have open posts if they have the required settings. Remember that changing this setting does **not** automatically retroactively make the previous posts open posts. You **can** however change the older posts to be open posts afterwards.
+
+You can inspect or change this setting by following the staps below:
+
+|# Step|Explanation|
+|:--|:--|
+|**1.**|From the navigator open the constants screen.|
+|**2.**|Within the filestructure on the leftside of the screen you'll need to navigate to: <br> *Community*(#1) → *Debtor data*(#2) → *Debtors*(#3).<details><summary><b>Click here for your example image</b></summary><img src="media/image1.png" width = 400></details>|
+|**3.**|Left click twice on a debtor's row in the table(#4) this should open a new screen.|
+|**4.**|In the new window prompt navigate to *Invoice*(#1) → *Invoice*(#2) in the file structure.<details><summary><b>Click here for your example image</b></summary><img src="media/image21.png" width = 400></details>|
+|**5**|In this tab there should be a option checkbox called *Book as open posts*(#3).<details><summary><b>Click here for your example image</b></summary><img src="media/image21.png" width = 400></details>|
 
 
-## 2. General process flow
-The first important thing to understand is the way an open post is created in Florisoft. Below a simple diagram shows the different steps Florisoft need to take to create an open post.
 
-<img src="media/2021-06-03-21-11-52.png" />
+## Main process walkthrough
 
-### Step 1: Make divisions
-The first step consists of the creation of divisions of stock parcels. This can be done manually or by customers themselfs via a webshop.
+Before we begin it is import that we know how to create an open post.The diagram below shows a simplified version of the steps that need to be taken to create an open post. The chapters after the diagram will describe the steps in more detail.
 
-### Step 2: Carry out divisions to invoice
-The second step involves carrying out the divisions from te stock to the invoice. This can be done manually (Carry out option or F2 key) 
+<img src="media/image3.png">
 
-### Step 3: Print invoice
-When an invoice is complete it is printed officialy which means it gets an invoice number. Invoices with an invoicenumber cannot be changed anymore and must be seen as closed. (definitive)
+|Stap|Uitleg|
+|:--|:--|
+|**1. Make divisions**|The first step is to create a division on a stock. This is done by customers using the webshop or us by using the backoffice's stock screen.|
+|**2. Carry divisions out into invoice**|After making a stock division you can carry out the division to invoices.|
+|**3. Print the invoice**|When an invoices is finished it is possible to print it. During the printing process a unique invoicenumber is assigned to the invoice and afterwards it can't be changed anymore.|
+|**4. Carry invoice out to invoice history**| The last step is carrying out printed invoices to the invoice history. Only invoices which are in the invoice history are visisble in the open posts section. Florisoft sees carried out invoices always as open posts unless one ore more payments are made on those invoices. Possibly made payments can be seen in the Open Posts screen..|
 
-### Step 4: Carry out invoice to invoice history
-The last step is carrying out printed invoices to the invoice history. Only invoices which are in the invoice history are visisble in the open posts section. Florisoft sees carried out invoices always as open posts unless one ore more payments are made on those invoices. Possibly made payments can be seen in the Open Posts screen.
+:warning: **Because Florisoft is updated regularly the application may seem different on your screen since this manual's version might be out dated. Do however note that the general process flow won't change.**:warning:
 
-## 3. Overview Open Posts section
-This chapter describes the most important sections of the Open Posts screen in Florisoft. Click on the Debtors button in the Navigator to open the Open Posts window:
+## Overview open posts
 
-<img src="media/2021-06-03-21-43-37.png" />
+In this chapter the functionalities and layout of the Open Post screen are explained.
 
-See the screenshot below for an overview of the Unpaid Items Debtor screen. This is the default name of the Opens Posts section in Florisoft. Read further below the screenshot.   
+|#|Explanation|
+|:--|:--|
+|**1**|Open the Florisoft navigator and click on the '*Debtors*' button(#1).<details><summary><b>Click here for your example image</b></summary><img src="media/image10.png" width = 400></details>|
+|**2**|You should now see the debtor screen, below you'll find a short description of the screens layout. <br> **1**.: *The left column of the Open Posts screen is used for selecting the right debtors to then show them in sections 2 & 3.*<br>**2.**: *The main section of the open posts screen shows every open post for the selected debtor. Here you'll find important information pertaining to the invoice such as invoice numbers, dates, original and open payment amounts.*<br>**3.**: *The lower section of the screen shows the received payments.* <details><summary><b>Click here for your example image</b></summary><img src="media/image11.png" width = 600px></details>|
 
-<img src="media/2021-06-03-21-52-57.png" />
+## The debtor section
 
-No. 1: The left column of the Open Posts screen is used for making the correct selection regarding the debtor(s) to be show in part no. 2 and 3.
+To show all open posts on a single screen we'll need to change some settings on the left side of the screen. To learn which setting does what read the table below.
 
-Several (filter)settings can be applied and important financial information is presented.
+|# + Setting|Explanation|
+|:--|:--|
+|**1. Searchbar for debtors**|Enter the debtor you want to filter on.|
+|**2. Execute search query**|Click here to exectute the filter based search based on the input of the textfield 1.|
+|**3. All debtors**|This checkbox is an alternative to option 1 & 2, this option just shows the open posts for every debtor. **Important**: *Enabling this may lag the system in cases where the data is of a substantial size.|
+|**4. Show subclients**|This checkbox can be used to also show the open posts of the subclients associated with the selected debtor(s) as choosen with the aforementioned options to selected (a) debtor(s).|
+|**5. Only open posts**|This checkbox can be used to only show open posts in the main section. Without this check mark Florisoft shows (partially) paid and unpaid invoicves in the Open posts screen. With this check mark activated only unpaid invoices are shown.|
+|**6. Only Expired open posts**|When activating this check mark only open posts after the expiration date are shown. The expiration of open posts can be set up per debtor.|
+|**7. Show history**|After activating this check mark a date range selector is presented in the screen. Choose a start and end date and click on the Ok button to show only open posts that fall within the selected date range.|
+|**8. Only show visibile**|Shows only the visible open posts. Those are open posts with the Not visible check mark unchecked. This check mark can be set in the Not visible column of the main part of the screen.|
+|**9. Invoice date**|Activating the invoice date check mark gives a date selector at which a date range selection can be made regarding invoice dates. When activated only invoices with an invoicedate within the date range are shown in the main section.|
+|**10. Button New**|The button '*new*' gives you the option to manually craete a new open post that is linked to the invoice number. When you press this button a new screen will appear. The functionalities of this screen are described below this table.|
+|**11. Rate used**|This column shows the debtors default currency.|
+|**12. Balance selection**|The total unpaid amount of the selected open posts in the main section of the screen.|
+|**13. Amount selection**|The total amount (paid + unpaid) of the selected open posts in the main section of the screen.|
+|**14. Grade**|This asigns a number (score) to the selected debtor at which the willingness to pay can be determined. If all selected invoices are paid before they expire, the score will be 10.<br><br>If the selected invoices are open for 90 days or longer, the number will be 0. The calculation is done dynamicly based on the amount of lines visible in the screen, the total amount of the invoices and the amount of invoices which are expired.|
+|**15. Payment selection (**|The total paid amount of all the selected open posts.|
+|**16. Payments New button**|First select an open post in the main part of the screen and click the New button in the Payments part to register a new payment.<br>The meaning of the different fields is described before in no.'s 11.9 up and till 11.13.|
+|**17. All payments switch**|This switch can be used to only show the last or all actual (not carried out) historical payments registrerd on the selected open post.|
+|**18. Payment history**|Use this checkmark to see the historical payments. Historical payments are payments carried out to invoice history.|
 
-No. 2: the main section of the Open Posts screen shows all the individual open posts for the selected debtor(s) Important information like the concerning invoice numbers, dates, original-, outstanding- and paid amounts are shown here.
+<details><summary><b>Click here for your example image</b></summary><img src="media NL/image1.png" width = 600px></details>
 
-No. 3: The below part of the screen is called Received payments. This screen shows the received payments per invoice. (open post)
+### Creating new open post debtor
 
-## 4. Debtor selection
-The first step to show open posts is activating some settings in the left column of the screen. Below the most used settings will be explained.
+|# + Setting|Explanation|
+|:--|:--|
+|**Image**|<details><summary><b>Click here for your example image</b></summary><img src="media/image13.png" width = 600px></details>|
+|**1. Debtor number**| The debtor number field has a fixed value and shows the debtornumber and debtorname.|
+|**2. Invoice number**|The Invoice number field is mandatory an must contain an existing or new invoicenumber to link the new open post to.|
+|**3. Invoice date**|The Invoice date field must contain a date to which this invoice will be registrered to.|
+|**4. Experation date**|The expiration date of the invoice. By dafault the expiration time which is assigned to the debtor is applied so the newly created open post follows the default financial flow for the concerning debtor.|
+|**5. Invoice amount**|Fill this field with the amount of the new open post.<br><br>**Pay attention:** take into account the amount of decimals the system is in. Eg. if the system functions in two decimals use two decimals (0.01) when entering a value.|
+|**6. Currency**| Choose the concerning currency in the dropdown field for the open post.|
+|**7. Comment**| The value of the comment field is optional and can be used to enter a remark linked to the open post.|
+|**8. Don't collect**|Activate this check mark to assign that this open post must not be charged..|
+|**9. Paid amount**|Use the Paid Amount field with an amount the open post will be registrerd as already paid.|
+|**10. Balance**| Fixed value which represents the the total amount of the open post.|
+|**11. Date of payment**|Date selector which can be used to select a date at which the current payment will be registrerd to.|
+|**12. Means of payment**|Use this field to enter the letter of the payment method. Only letters of payments methods which are defined in the **Constants** -> **Financial** -> Means of Paymenta re allowed to use.|
+|**13. Rate used**|This field shows the default currency rate linked to the selected debtor.|
 
-<img src="media/2021-06-04-09-24-43.png" />
+## Main table explanation
 
-As seen in the screenshot above the left column of the Open Posts screen is divided into several parts: Debtor, Filter, Recent, Open post, Currency and Payments. Each part contains several realted settings/information.
-
-**Debtor selction (no. 1 & 2)**
-Use the Debtornumber field (no. 1) or the Selection button (no. 2) to select the debtor(s) whose open posts can be seen.
-
-**All debtors (no. 3)**
-This check mark is an alternative to the Debtornumber field (no. 1) or the Selection option (no. 2) When activating this check mark the open posts from all debtors in the system will be shown.
-
-> **Pay attention:** it can take up a lot of time to generate the open posts for a system with a large amount of debtors when using the check mark All debtors.
-
-**Show subclients (no. 4)**
-This check mark can be used to also show the open posts of the subclients associated with the selected debtor(s) as choosen with the aforementioned options to selected (a) debtor(s).
-
-**Only open posts (no. 5)**
-This check mark can be used to only show open posts in the main section. Without this check mark Florisoft shows (partially) paid and unpaid invoicves in the Open posts screen. With this check mark activated only unpaid invoices are shown.
-
-**Only Expired open posts (no. 6)**
-When activating this check mark only open posts after the expiration date are shown. The expiration of open posts can be set up per debtor.
-
-**Show history (no. 7)**
-After activating this check mark a date range selector is presented in the screen. Choose a start and end date and click on the Ok button to show only open posts that fall within the selected date range.
-
-**Only show visibile (no. 8)**
-Shows only the visible open posts. Those are open posts with the Not visible check mark **unchecked**. This check mark can be set in the Not visible column of the main part of the screen.
-
-**Invoice date (no. 9)**
-Activating the invoice date check mark gives a date selector at which a date range selection can be made regarding invoice dates. When activated only invoices with an invoicedate within the date range are shown in the main section.
-
-**Button New (no. 10)**
-The new button gives the option to manually create a new open post linked to an invoice number. When clicking the New button the New unpaid item Debtor [DEBTOR_NAME] opens. See the screenshot below:
-
-<img src="media/2021-06-11-10-35-13.png" />
-
-In this window several information can/must be entered regarding the open post to be created. See the explanation below.
-
-**Debtor number (no. 11.1)**
-The debtor number field has a fixed value and shows the debtornumber and debtorname.
-
-**Debtor number (no. 11.2)**
-The Invoice number field is mandatory an must contain an existing or new invoicenumber to link the new open post to.
-
-By pressing the F2 key on the keyboard it is possible to automaticly assign the next available invoice number in the system to this open post.
-
-**Invoicedate (no. 11.3)**
-The Invoicedate field must contain a date to which this invoice will be registrered to.
-
-**Expiration date (no. 11.4)**
-The expiration date of the invoice. By dafault the expiration time which is assigned to the debtor is applied so the newly created open post follows the default financial flow for the concerning debtor.
-
-**InvoiceAmount (no. 11.5)**
-Fill this field with the amount of the new open post.
-
-> **Pay attention:** take into account the amount of decimals the system is in. Eg. if the system functions in two decimals use two decimals (0.01) when entering a value.
-
-If the the system functions in three decimals use three decimals (0.001) when entering a value.
-
-**Currency (no. 11.6)**
-Choose the concerning currency in the dropdown field for the open post.
-
-**Comment (no. 11.7)**
-The value of the comment field is optional and can be used to enter a remark linked to the open post.
-
-**Don't collect (no. 11.8)**
-Activate this check mark to assign that this open post must not be charged.
-
-**Paid Amount (no. 11.9)**
-Use the Paid Amount field with an amount the open post will be registrerd as already paid.
-
-**Balance (no. 11.10)**
-Fixed value which represents the the total amount of the open post.
-
-**Date of payment (no. 11.11)**
-Date selector which can be used to select a date at which the current payment will be registrerd to.
-
-**Means of payment (no. 11.12)**
-Use this field to enter the letter of the payment method. Only letters of payments methods which are defined in the Constants -> Financial -> Means of Paymenta re allowed to use.
-
-**Rate used (no. 11.13)**
-This field shows the default currency rate linked to the selected debtor.
-
-After entering all the required information click the Ok button in the New Unpaid Item Debtor screen to create a new open post for the selected debtor.
-
-**Balance selection (no. 12)**
-The total unpaid amount of the selected open posts in the main section of the screen.
-
-**Amount selection (no. 13)**
-The total amount (paid + unpaid) of the selected open posts in the main section of the screen.
-
-**Grade (no. 14)**
-This asigns a number (score) to the selected debtor at which the willingness to pay can be determined. If all selected invoices are paid before they expire, the score will be 10.
-
-If the selected invoices are open for 90 days or longer, the number will be 0. The calculation is done dynamicly based on the amount of lines visible in the screen, the total amount of the invoices and the amount of invoices which are expired.
-
-**Payment selection (no. 15)**
-The total paid amount of all the selected open posts.
-
-**Payments New button (no. 16)**
-First select an open post in the main part of the screen and click the New button in the Payments part to register a new payment.
-
-The meaning of the different fields is described before in no.'s 11.9 up and till 11.13.
-
-**All payments switch (no. 17)**
-This switch can be used to only show the last or all actual (not carried out) historical payments registrerd on the selected open post.
-
-**Payment history (no. 18)**
-Use this checkmark to see the historical payments. Historical payments are payments carried out to invoice history.
-
-## 5. Main section
 The main section of the open post screen consists of lines related to invoices. Those lines are called open posts. Lines will only appear if invoices are carried out from the invoice section to the invoice history.
 
-Below an example of the main section is shown with an explanation of the most imporant information.
+Below an example of the main section is shown with an explanation of each column.
 
-<img src="media/2021-06-11-15-43-41.png" />
+|# + Column|Explanation|
+|:--|:--|
+|**Image**|<details><summary><b>Click here for your example image</b></summary><img src="media/image14.png" width = 600px></details>|
+|**1. Debtor.**| The debtor number to which the current open post is linked to.|
+|**2. Name**|The debtorname to which the current open post is linked to.|
+|**3. Invoicenr**|The invoice number the current open post is linked to.|
+|**4. Invoicedate**|The invoice date the current open post is registrerd to.|
+|**5. Date of maturity/paymen**|The expiration date of the current open post.|
+|**6. Amount** |The total amount of the current open post.|
+|**7. Paid**|The total paid amount of the current open post.|
+|**8. Balance**|This is the rest amount by reducing the paid amount from the total amount. Eg: Amount - Paid = Balance.|
+|**9. Historical**| Check mark which is activated when the concerning open post is an historical one. Those open posts are only visible when the check mark Payment history is checked.|
+|**10. Ordernr**| The ordernumber which is linked to the current open post line.|
+|**10. Not visible**|Check mark which can be activated to make the current open post line invisible when the '*Only show visible*' check mark is activated.|
 
-**Debtor (no. 19)** 
-The debtor number to which the current open post is linked to.
+### Setting up the table layout
 
-**Name (no. 20)**
-The debtorname to which the current open post is linked to.
+It is possible to add extra columns in the main section by right clicking on one of the existing columns and place check marks in the '*Aan*' column for the columns you want to add or remove.
 
-**Invoicenr (no. 21)**
-The invoice number the current open post is linked to.
+|Step|Explanation|
+|:--|:--|
+|**1.**|Open the gridsettings (table layout) by clicking on the table with the right mouse button. This should open a new screen.<details><summary><b>Click here for your example image</b></summary><img src="media NL/image6.png" width = 600px></details>|
+|**2.**|In this screen you are able to enable/disable column by checking the checkbox '*Aan*'.|
+|**3.**|If you want to change a columns place in the table column order then change the '*Volgorde*' (Volgorde = Order in Dutch)field for the concerning row.|
+|**4.**|You can also set the width of the column by adjusting the number in the column '*breedte*'.|
 
-**Invoicedate (no. 22)**
-The invoice date the current open post is registrerd to.
+## Received payments section
 
-**Date of maturity/payment (no. 23)**
-The expiration date of the current open post.
-
-**Amount (no. 24)**
-The total amount of the current open post.
-
-**Paid (no. 25)**
-The total paid amount of the current open post.
-
-**Balance (no. 26)**
-This is the rest amount by reducing the paid amount from the total amount. Eg: Amount - Paid = Balance.
-
-**Historical (no. 27)**
-Check mark which is activated when the concerning open post is an historical one. Those open posts are only visible when the check mark Payment history (no. 18) is checked.
-
-**Ordnr (no. 28)**
-The ordernumber which is linked to the current open post line.
-
-**Not visible (no. 29)**
-Check mark which can be activated to make the current open post line invisible when the Only show visible check mark (no. 8) is activated.
-
-It is possible to add extra columns in the main section by right clicking on one of the existing columns and place check marks in the Aan column for the columns you want to add or remove.
-
-<img src="media/2021-06-11-16-32-47.png" />
-
-## 6. Received payments section
 The Received payments section is the section below the main section. In this section all received payments on the selected open post are visible. By default only the most recent payment is shown.
 
-However by turning the All payments switch (no. 17) also earlier made payments become visible.
+However by turning the '*All payments*' switch also earlier made payments become visible.
 
 The screenshot below shows the default columns which are activated.
 
-<img src="media/2021-06-11-16-45-49.png" />
+Below you'll find an explanation about the table columns of the received payments table.
 
-**Debtor (no. 30)**
-The debtor number the payment is registered to.
+|# + Column|Explanation|
+|:--|:--|
+|**1. Debtor**|The debtornumber the payment is linked to.|
+|**2. Name**|The debtorname to which the current open post is linked to.|
+|**3. Invoicenr**|The invoice number that the payment is linked to.|
+|**4. Date of payment**|The date that the selected payment took place on.|
+|**5. Currency**|The currency used in the selected payment.|
+|**6. Amount**|The payment amount for the open post.|
+|**7. Means of payment**|The payment method used for the payment.|
 
-**Name (no. 31)**
-The debtor number the payment is registered to.
+## Extra features
 
-**Invoicenr (no. 32)**
-The invoice number the payment is linked to.
-
-**Date of payment (no. 33)**
-The date the selected payment is done.
-
-**Currency (no. 34)**
-The currency of the selected payment.
-
-**Amount (no. 35)**
-The paid amount linked to this open post.
-
-**Means of payment (no. 36)**
-The payment method used to pay for the selected open post.
-
-## 7. Extra features
 Beside the main functions of the Debtors Open Posts screen, there are a few extra features available often used by customers.
 
-### 7.1 Print/e-mail summaries
-The most important one is the option to print or e-mail information (summaries) related to open posts.
+### Printing and or e-mailing summaries
 
-Click the Menu -> Overviews to open the print function. The Summaries windows opens. See the screenshot below.
+The most important one is the option to print or e-mail information (summaries) related to open posts. To do this follow the steps below:
 
-<img src="media/2021-06-13-18-34-12.png" />
+|Step #|Explanation|
+|:--|:--|
+|**1.**|Click the '*Menu*' button(#1) and in the new shown dropdown click on '*Overviews*' (#2). A new screen should appear in which the next steps take place.<details><summary><b>Click here for your example image</b></summary><img src="media/image18.png" width = 600px></details> |
+|**2.**|Choose the type of summary you want to see, **the sub settings will change on the type of summary**.|
+|**3.**|As said before the optons that are available on the right side of the screen depend on the chosen layout. Examples of availabel options are: *debtor*, *invoice series*, *date period*.<details><summary><b>Click here for your example image</b></summary><img src="media/image18.png" width = 600px></details> |
+|**4**|	Using these checkboxes you can set the begin and end date for a summary, if you don't set these fields the Florisoft application will decide for you.|
+|**5.**|Opens the print/e-mail function to print or send the generated data via e-mail. A short explanation is given below.<details><summary><b>Click here for your example image</b></summary><img src="media/image20.png" width = 600px></details>|
+|**6.**|This button lets you generate a summary using the table below the button.|
+|**7.**|The output selection is used to choose a export  method for the summary. You can change the following options: printer (on paper), screen (on the display), E-mail (sending the summary using e-mail) and file (saving it as a file on the computer).|
+|**8.**|When choosing the file as an output option you'll get to choose from a couple of file types in the dropdown called '*File type*'.|
+|**9.**|If you clicked on the '**Ok**' button you'll confirm the settings in the summary and print/e-mail the summary..|
 
-**Types of summaries (no. 37)**
-Choose a type of summary in the upper left part of the Summaries screen. (no. 37) The available settings in the Selection part (no. 38) depend on the selected summary type.
+**If you selected the e-mail option you'll get some additional options to fill out these options are explained below:**
 
-**Selection (no. 38)**
-In the Selection part some options are available to make a selection tailored to a specific situation. A debtor or invoice range, tour code in combination with a date range. See the date selectors below the Period title.
-
-**Begin and End check marks (no. 39)**
-Use those check marks to let Florisoft automaticly determines the begin and end date of the summary type chosen.
-
-**Show in grid (no. 40)**
-Click this button to generate the actual summary data and show it in the grid in the below part of the Summaries screen.
-
-**To print (no. 41)**
-Opens the print/e-mail function to print or send the generated data via e-mail. A short explanation is given below.
-
-<img src="media/2021-06-13-19-20-53.png" />
-
-**Print layout (no. 42)**
-The default layout for the summary to be printed.
-
-**Export (no. 43)**
-Choose the export method to which the data is sent to: Printer (fysical print), Screen (Show summary on screen), Email (send summary via email), File (save summary to a file)
-
-The different supported file types to which Florisoft can export the summary data are available in the Type file section (greyed out in the screenshot)
-
-**Button Ok (no. 45)**
-Click the Ok button to confirm the settings made and print/email the summary.
-
-> If the Email option is chosen in the Export section, additional settings become available which are related to the Email export option. See the screenshot below:
-
-<img src="media/2021-06-13-19-37-59.png" />
-
-The Email subject and Email address fields can be filled automaticly per debtor. Fill the CC and BCCC field if neccesary.
+|Step|Explanation|
+|:--|:--|
+|**Image**|<details><summary><b>Click here for your example image</b></summary><img src="media/image19.png" width = 600px></details>|
+|**1.**|Type the e-mail header here.|
+|**2.**|Enter the e-mail receipients here|
+|**3.**|Enter any CC .|
+|**4.**|Enter the actual message here (this is the e-mail body).|
+|**5.**|If the e-mail message contains HTML enable the HTML checkbox otherwise the HTML won't render on the readers screen.|
+|**6.**|Click '**Ok**'if you want to send the message, after sending there is no way to retract the sent message.|
