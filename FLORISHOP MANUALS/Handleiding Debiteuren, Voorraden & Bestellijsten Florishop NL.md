@@ -1,508 +1,231 @@
-<img src="../fslogo.png"/>
+<img src="../fslogo.png">
 
-**Florisoft handleiding inrichten  
-Debiteuren, voorraden & bestellijsten (Webshop)**
+# Florisoft Handleiding inrichten van Debiteuren, Voorraden & Bestellijsten (Webshop)
 
-# Inhoudsopgave 
+Welkom bij de Florisoft handleiding die gaat over het autoriseren van debiteuren, voorraden en bestellijsten voor de Webshop. De handleiding is onderverdeeld in een aantal hoofdstukken.
 
-[Inhoudsopgave](#inhoudsopgave)
+Na deze inleiding wordt in hoofdstuk twee een aantal instellingen beschreven, welke vooraf ingesteld/gecontroleerd dienen te worden. Hoofdstuk drie gaat over de instellingen die je doet bij de debiteur, zodat deze toegang krijgt tot de Webshop.
 
-[1 Inleiding](#1-inleiding)
+Hoofdstuk vier en vijf gaan over welke stappen doorlopen moeten worden om de voorraden en bestellijsten open te zetten.
 
-[2 Controleren instellingen vooraf](#2-controleren-instellingen-vooraf)
+Het laatste hoofdstuk, hoofdstuk zes, beschrijft de Webshop modulen, zoals factuur historie, open posten en overzicht van de bestellingen.
 
-[3 Debiteur instellen](#3-debiteur-instellen)
+**Let op: afbeeldingen in deze handleiding kunnen enigszins verschillen van wat u op uw eigen scherm ziet.**
 
-[3.1 Adressen Debiteur](#31-adressen-debiteur)
+## Inhoudsopgave
 
-[3.2 Financieel](#32-financieel)
+[Debiteur instellen](#debiteur-instellen)  
+[Financieel](#financieel)  
+[Internet toegang](#internet-toegang)  
+[Voorraad autoriseren](#voorraad-autoriseren)  
+[Voorraad autoriseren mogelijkheid 1 - vanuit debiteur](#voorraad-autoriseren-vanuit-de-debiteur)  
+[Voorraad autoriseren mogelijkheid 2 - vanuit voorraad](#voorraad-autoriseren-vanuit-voorraad)  
+[Bestellijsten autoriseren](#bestellijsten-autoriseren)  
+[Bestellijst autoriseren mogelijkheid 1 - vanuit debiteur](#bestellijst-autoriseren-vanuit-de-debiteur)  
+[Bestellijsten autoriseren mogelijkheid 2 - vanuit debiteur webshop ](#bestellijst-autoriseren-vanuit-de-debiteur-vanuit-de-webshop)  
+[Webshop modulen](#webshop-modulen)  
+[Modulen](#modulen)
 
-[3.3 Bankgegevens](#33-bankgegevens)
 
-[3.4 Internet toegang](#34-internet-toegang)
+Er dienen een aantal instellingen vooraf gecontroleerd te worden. Hoe u dit moet checken en welke instellingen het zijn wordt hieronder beschreven:
 
-[4 Voorraad autoriseren (Webshop)](#4-voorraad-autoriseren-webshop)
+|#|Uitleg|
+|:--|:--|
+|**1**|Open de Florisoft Navigator en klik op het Florisoft logo. Dit opent een nieuw schermpje.|
+|**2.**|Klik op de knop '*Modulen*' dit opent het modulenscherm. Kijk hier of de volgende modules aan staan: <br><br>- *Complete*<br>- *Trader*<br>- *Buyer* <details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image1.png"></details>|
 
-[4.1 Voorraad autoriseren](#41-voorraad-autoriseren)
+## Debiteur instellen
 
-[4.2 Voorraad autoriseren vanuit de debiteur](#42-voorraad-autoriseren-vanuit-de-debiteur)
+In Florisoft zijn de debiteuren terug te vinden op een centrale plek: de Constanten. Volg de onderstaande stappen:
 
-[5 Bestellijst autoriseren (Webshop)](#5-bestellijst-autoriseren-webshop)
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Open de constanten u doet dat via de Florisoft navigator (#1) in de onderstaande afbeelding. Dit opent het constantenscherm.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/openConstanten.png"></details>|
+|**2**|In de bestandsstructuur van het constantenscherm navigeert u naar <br>*Organen*(#1) → *Debiteuren*(#2) alle debiteuren worden niet zichtbaar in de tabel rechts(#4).<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image3.png"></details>|
+|**3**|Klik vervolgens op het plusje (#5) om een nieuwe debtiteur aan te maken.|
+|**4**|Het kan zijn dat u een template keuze scherm te zien krijgt. Deze kan leeg zijn of gevuld zijn met een aantal templates. Kies een template dat volgens de omschrijving relevant is voor scenario. Mocht het leeg zijn kan u op de '**Ok**' drukken om een blanko debiteur aan te maken.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image4.png"></details>|
+|**5**|We zitten nu in het debiteuren-creatie/instellingen scherm. Vul nu de volgende velden in:<br>*Deb.nummer*:<br>*Zoek*:<br>*Bedrijfsnaam*:<br>*E-mail adres:*<br>*Cont. persoon*:de naam van de contactpersoon bij de debiteur.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image5.png"></details>|
 
-[5.1 Voorraad autoriseren](#51-bestellijst-autoriseren)
+## Debiteur - Financieel
 
-[5.2 Bestellijst autoriseren vanuit de debiteur (Webshop)](#52-bestellijst-autoriseren-vanuit-de-debiteur-webshop)
+De volgende stappen vinden plaats in het tablad '*financieel*'.
 
-[6 Webshop modulen](#6-webshop-modulen)
+|Stap|Uitleg|
+|:--|:--|
+|**6**|Klik op het tablad *Financieel*.|
+|**7**|Vul hier de volgende gegevens in:<br>- **BTWnr debiteur:** *vul hier het debiteurnummer in van de debiteur.*<br>- **Optioneel: KVK-nummer**: *vul hier het KVK-nummer van de debiteur*<br>- **Optioneel Financieel debnr.** *vul hier een nummer in waaronder deze debiteur weggeschreven wordt in het boekhoudbestand.*<br>- **Administratie:** *kies hier een administratie waarbinnen alle financiële transacties van deze debiteur geregistreerd worden.*<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image6.png"></details>|
+|**8**|Klik op het tablad **Bankgegevens**(#5) om door te gaan.|
+|**9**|Vul hier de volgende gegevens in: <br>- **Bankrekening:** *bankrekeningnummer van de debiteur*<br>- **IBAN Nummer**: *vul hier het IBAN-nummer van de debiteur in.*<br>- **Optioneel - IBAN Banknaam**: Vul hier het IBAN Nummer van de debiteur in.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image7.png"></details>|
+|**10**|Klik op het tablad **Internet** om het mapje te openen en klik vervolgens op het mapje **Internet toegang**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image8.png"></details>|
 
-[6.1 Facturen](#61-facturen)
+## Internet toegang
 
-[6.2 Overzicht per klant, Factuurhistorie, Factuurhistorie (Hoofd)](#_Toc10199783)
+De volgende stappen vinden plaats in het tablad '*Internet / Internet toegang*'.
 
-[6.3 Klantgegevens](#_Toc10199784)
+|Stap|Uitleg|
+|:--|:--|
+|**11**|Vink het vinkje '*Deze klant heeft toegang via het internet*(#1) aan, om de klant toegang tot de webshop te geven.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image22.png"></details>|
+|**12**|Zet het vinkje '*Deze klant mag inloggen op Florishop*'(#2) aan, dit zorgt ervoor dat de klant daadwerkelijk kan inloggen.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image222.png"></details>|
+|**13**|**Optioneel:** *Inlognaam vul hier een gebruikersnaam in voor deze debiteur om in te loggen op de webshop. Zoals eerder vermeld is dit optioneel, indien het veld leeg blijft is de inlognaam hetzelfde als het debiteurnummer.*(#3) <details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image8.png"></details>|
+|**14**|**Password voor klant** *vul hier een wachtwoord in voor de debiteur om in te loggen op de webshop. Door op de genereer knop te drukken naast het invoerveld genereert u een random wachtwoord.*(#4)<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image8.png"></details>|
 
-[6.4 Open posten, Open posten betalen](#_Toc10199785)
+## Voorraad autoriseren
 
-[6.5 Order overzicht, Overzicht bestellingen en Hist bestellingen](#_Toc10199786)
+Per voorraad autoriseer je debiteuren of zij toegang mogen krijgen. Er zijn twee mogelijkheden om dit in te stellen:
 
-[6.6 Aanvoer](#_Toc10199787)
+1. Vanuit de gebruiker (debiteur) instellen welke voorraden hij/zij mag zien. Hierover gaat hoofdstuk: [Voorraad autoriseren vanuit voorraad](#voorraad-autoriseren-vanuit-voorraad).
+2. Vanuit de voorraad instellen welke gebruikers (debiteuren) hiertoe toegang hebben. Hierover gaat hoofdstuk: [Voorraad autoriseren vanuit de debiteur](#voorraad-autoriseren-vanuit-de-debiteur).
 
-[6.7 Credit aanvraag](#_Toc10199788)
-
-# 1 Inleiding
-
-Welkom bij de Florisoft handleiding die gaat over het autoriseren van
-debiteuren, voorraden en bestellijsten voor de Webshop. De handleiding
-is onderverdeeld in een aantal hoofdstukken.
-
-Na deze inleiding wordt in hoofdstuk twee een aantal instellingen
-beschreven, welke vooraf ingesteld/gecontroleerd dienen te worden.
-Hoofdstuk drie gaat over de instellingen die je doet bij de debiteur,
-zodat deze toegang krijgt tot de Webshop.
-
-Hoofdstuk vier en vijf gaan over welke stappen doorlopen moeten worden
-om de voorraden en bestellijsten open te zetten.
-
-Het laatste hoofdstuk, hoofdstuk zes, beschrijft de Webshop modulen,
-zoals factuur historie, open posten en overzicht van de bestellingen.
-
-**Let op: afbeeldingen in deze handleiding kunnen enigszins verschillen
-van wat u op uw eigen scherm ziet.**
-
-# 2 Controleren instellingen vooraf
-
-Er dienen een aantal instellingen vooraf gecontroleerd te worden. Deze
-instellingen worden hieronder beschreven.
-
-**Benodigde module(s)**    
-Een van de volgende modules dienen geactiveerd zijn. Zie de screenshot
-hieronder.
-
-<img src="media\image2.png" style="width:6.3in;height:4.85694in" />
-
-
-# 3 Debiteur instellen
-
-In Florisoft zijn de debiteuren terug te vinden op een centrale plek: de
-Constanten.
-
-1.  Klik in de Navigator (hoofdscherm) van Florisoft op het Constanten
-    icoon in de knoppenbalk aan de bovenkant van het scherm. Het
-    Constanten scherm opent.
-
-<img src="media\image3.png" style="width:2.34906in;height:0.64065in" />
-
-1.  Navigeer naar het tabblad Organen (nr. 1) -&gt; Debiteuren (nr. 2)
-    Alle debiteuren in Florisoft worden onder elkaar zichtbaar. (nr. 3)
-
-<img src="media\image4.png" style="width:5.74528in;height:4.09871in" />
-
-Volg onderstaande stappen om een nieuwe debiteur toe te voegen:
-
-1.  Klik op het ‘Add new item’ icoon (nr. 4) om een nieuwe debiteur toe
-    te voegen. Het debiteurenscherm opent.
-
-<img src="media\image5.png" style="width:2.43396in;height:0.79406in" />
-
-Het debiteurenscherm bevat een groot aantal tabbladen aan de linkerkant
-van het scherm. Ieder tabblad bevat debiteur specifieke functies. De
-belangrijkste worden hieronder beschreven:
-
-## 3.1 Adressen Debiteur
-
-1.  Vul in het veld Deb. nummer (no. 5) de debiteurcode in. Deze code is
-    het unieke debiteurnummer wat op alle relevante plekken in Florisoft
-    terug komt. Het debiteurnummer mag zowel letters als cijfers
-    bevatten.
-
-2.  Vul in het veld Zoek (nr. 6) een unieke sleutel in. Deze zoeksleutel
-    biedt een extra mogelijkheid om de debiteur makkelijk terug te
-    vinden in het systeem.
-
-<img src="media\image6.png" style="width:5.87736in;height:2.64032in" />
-
-1.  Vul bij de velden Bedrijfsnaam (nr. 7) tot en met Email adres
-    (nr. 13) de betreffende NAW gegevens van de debiteur in.
-
-2.  Cont. persoon (nr. 8): de naam van de contactpersoon bij de
-    debiteur.
-
-3.  Klik hierna op het tabblad Financieel (nr. 14)
-
-## 3.2 Financieel
-
-1.  BTWnr debiteur (nr. 15): vul hier het BTW nummer in van de debiteur.
-
-2.  **Optioneel:** KVK nummer (nr. 16): vul hier het KVK nummer in van
-    de debiteur.
-
-3.  **Optioneel:** Financieel debnr. (nr. 17): vul hier een nummer in
-    waaronder deze debiteur weggeschreven wordt in het boekhoudbestand.
-
-<img src="media\image7.png" style="width:5.79186in;height:3.73292in" />
-
-1.  Administratie (nr. 18): kies hier een administratie waarbinnen alle
-    financiële transacties van deze debiteur geregistreerd worden.
-
-2.  Klik op het tabblad Bankgegevens (nr. 19) om door te gaan.
-
-## 3.3 Bankgegevens
-
-1.  **Optioneel:** Bankrekening (nr. 20): vul hier het
-    bankrekeningnummer in van de debiteur.
-
-<img src="media\image8.png" style="width:5.79186in;height:3.73292in" />
-
-1.  IBAN Nummer (nr. 21): vul hier het IBAN nummer van de debiteur in.
-
-2.  **Optioneel:** IBAN Banknaam (nr. 21): vul hier het IBAN nummer van
-    de debiteur in.
-
-3.  Klik op het tabblad Internet -&gt; Internet toegang (nr. 23) om
-    verder te gaan.
-
-## 3.4 Internet toegang
-
-1.  Zet het vinkje ‘Deze klant heeft toegang via het Internet’ (nr. 28)
-    aan. Dit zorgt ervoor dat de klant toegang heeft via het internet
-    tot de webshop.
-
-<img src="media\image9.png" style="width:5.8013in;height:5.03713in" />
-
-1.  Zet het vinkje ‘Deze klant mag inloggen in FloriShop’ (nr. 29) aan.
-    Dit zorgt ervoor dat de klant daadwerkelijk mag inloggen op de
-    webshop.
-
-2.  **Optioneel:** Inlognaam (nr. 30): vul hier een gebruikersnaam in
-    voor deze debiteur om in te loggen op de webshop. Dit veld is
-    optioneel. Wanneer dit veld leeg blijft, is de inlognaam van de
-    debiteur gelijk aan de debiteurcode.
-
-3.  Password voor klant (nr. 31): vul hier een wachtwoord in voor de
-    debiteur om in te loggen op de webshop.
-
-# 4 Voorraad autoriseren (Webshop)
-
-Per voorraad autoriseer je debiteuren of zij toegang mogen krijgen. Er
-zijn twee mogelijkheden om dit in te stellen:
-
-1.  Vanuit de gebruiker (debiteur) instellen welke voorraden hij/zij mag
-    zien. Hierover gaat hoofdstuk: **4.1 Voorraad autoriseren**
-
-2.  Vanuit de voorraad instellen welke gebruikers (debiteuren) hiertoe
-    toegang hebben. Hierover gaat hoofdstuk: **4.2 Voorraad autoriseren
-    vanuit de debiteur**
-
-## 4.1 Voorraad autoriseren
+### Voorraad autoriseren vanuit voorraad
 
 Volg de onderstaande stappen om een voorraad te autoriseren:
 
-1.  Navigeer naar Constanten -&gt; Locaties -&gt; Voorraden -&gt;
-    Voorraden.
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Open het constantenscherm navigeer in de bestandsstructuur naar het volgende pad: <br>**Constanten**(#1) → **Locaties**(#2) → **Voorraden**(#3) → **Voorraden**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image9.png"></details>|
+|**2**|Open de voorraad die je beschikbaar wilt stellen op de Webshop. Dit doe je door er dubbel op te klikken.(#4)<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image9.png"></details>|
+|**3**|**Optioneel:** Indien nodig maak je deze aan door te klikken op het ‘Add new item’ icoon (**+**).(#4)<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image9.png"></details>|
+|**4**|**Optioneel:** Vergeet niet om de systeemgebruikers te autoriseren voor de voorraad. Dit doe je door naar tabblad Autorisatie te navigeren en dubbel te klikken op de systeemgebruikers.|
+|**5**|Geef in het veld Voorraadcode op welke code je wilt gebruiken voor de voorraad.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image23.png"></details>||
+|**6**|Geef in het veld Omschrijving op welke omschrijving je wilt gebruiken voor de voorraad. Dit is de omschrijving die zichtbaar is in Florisoft.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image23.png"></details>||
+|**7**|Druk nu op OK. En heropen de zojuist aangemaakte voorraad door tweemaal met de linkermuisknop op de voorraadregel te klikken.|
+|**8**|Navigeer naar het tablad **Webwinkel**.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image23.png"></details>|
+|**9**|Zet het vinkje '*Deze voorraad staat open op de webshop*'(#1) aan.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image24.png"></details>|
+|**10**|Kies onder de openingstijden de juiste openingstijden, mocht deze er nog niet bij staan of moet er een nieuwe aangemaakt worden kan dat onder:<br>**Constanten** → **Systeem**(#1) → **Dagen & Tijden**(#2) → **Tijden**(#3)<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image20.png"></details>.
+|**11**|**Optioneel**: *Geef – per taal - de omschrijving op van de voorraad onder: Omschrijvingen en Teksten.(#5) Dit is de omschrijving die zichtbaar is op de Webshop.*|
+|**12**|Klik vervolgens op de knop '*Toegankelijke debiteuren*'(#4) om aan te geven welke debiteuren deze voorraad mogen zien. Dit opent het onderstaande scherm.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image21.png"></details>|
 
-2.  Open de voorraad die je beschikbaar wilt stellen op de Webshop. Dit
-    doe je door er dubbel op te klikken.
+Hieronder vind u een korte legende voor de tabel die open staat in het zojuist geopende scherm.
 
-3.  **Optioneel:** Indien nodig maak je deze aan door te klikken op het
-    ‘Add new item’ icoon:
+|Kolom|Betekenis|
+|:--|:--|
+|Voorr.|Voorraad (u ziet een omschrijving wanneer u erover heen hoovert)|
+|Debnr| Debiteurnummer (Bij hoveren ziet u de bedrijfsnaam.|
+|Perc|Opslag in een percentage|
+|A|Toegang|
+|R|Alleen lezen (**Klanten kunnen dan dus niet kopen**)|
+|T|Televerkoop Webshop toegang|
+|K|Kolliverkoop|
+|Per VE|Klant mag alleen per **V**erkoop **E**enheid kopen en dus niet per kolli.|
+|PrePerc|Eerst gaat dit percentage over de prijs alvorens de Perc overheen gaat.|
 
-<img src="media\image10.png" style="width:6.25087in;height:2.14613in" />
+### Voorraad autoriseren vanuit de debiteur
 
-1.  **Optioneel:** Vergeet niet om de systeemgebruikers te autoriseren
-    voor de voorraad. Dit doe je door naar tabblad Autorisatie te
-    navigeren en dubbel te klikken op de systeemgebruikers.
+Om voorraden te autoriseren vanuit de debiteur volgt u de onderstaande stappen:
 
-2.  Geef in het veld Voorraadcode op welke code je wilt gebruiken voor
-    de voorraad;
+|#|Uitleg|
+|:--|:--|
+|**1**|Open het constanten scherm en navigeer naar het pad:<br>**Organen**(#1) → **Debiteurgegevens**(#2) → **Debiteuren**(#3) → *Open desbetreffende debiteur*(#4) → **Internet**(#5) → **Internet toegang**(#6)<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image25.png"></details>|
+|**2**|Klik in dit scherm op de knop '*Toegankelijke voorraden*'(#7).<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image25.png"></details>|
+|**3**|Autoriseer nu de juiste gebruikers (**en systeem gebruikers**) aan de hand van stap 12 van het vorige hoofdstuk.|
 
-3.  Geef in het veld Omschrijving op welke omschrijving je wilt
-    gebruiken voor de voorraad. Dit is de omschrijving die zichtbaar is
-    in Florisoft.
+## Bestellijsten autoriseren
 
-4.  Druk nu op OK.
+Per bestellijst autoriseer je debiteuren of zij toegang krijgen. Er zijn twee mogelijkheden om dit in te stellen: <br>
+1. Vanuit de gebruiker (debiteur) instellen welke bestellijsten hij/zij mag zien. [zie hier](#bestellijst-autoriseren-vanuit-de-debiteur)
+2. Vanuit de bestellijsten instellen welke gebruikers (debiteuren) hier toe toegang hebben.[zie hier](#bestellijst-autoriseren-vanuit-de-debiteur-vanuit-de-webshop)
 
-<img src="media\image11.png" style="width:6.3in;height:1.25694in" />
-
-1.  Navigeer naar tabblad: Webwinkel.
-
-2.  Zet een vinkje bij: Deze voorraad staat open op de webshop.
-
-3.  Kies de openingstijd bij: Openingstijden. Deze kan je aanmaken onder
-    Constanten -&gt; Organen -&gt; Systeem -&gt; Dagen & Tijden -&gt;
-    Tijden.
-
-4.  **Optioneel:** Geef – per taal - de omschrijving op van de voorraad
-    onder: Omschrijvingen en Teksten. Dit is de omschrijving die
-    zichtbaar is op de Webshop.
-
-<img src="media\image12.png" style="width:6.3in;height:5.74444in" />
-
-1.  Klik op “Toegankelijke debiteuren” om aan te geven welke debiteuren
-    deze voorraad mogen zien. Het volgende scherm opent zich nu:
-
-<img src="media\image13.png" style="width:6.3in;height:5.13958in" />
-
-1.  De belangrijkste kolommen worden hieronder beschreven (vullen indien
-    van toepassing):
-
-<table>
-<thead>
-<tr class="header">
-<th><strong>Kolom</strong></th>
-<th><strong>Betekenis</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Voorr.</td>
-<td>Voorraad (Als je hier overheen hoovert dan zie je de omschrijving).</td>
-</tr>
-<tr class="even">
-<td>Debnr</td>
-<td>Debiteurnummer (Als je hier overheen hoovert dan zie je de bedrijfsnaam).</td>
-</tr>
-<tr class="odd">
-<td>Perc</td>
-<td>Opslag in een percentage.</td>
-</tr>
-<tr class="even">
-<td>A</td>
-<td>Toegang.</td>
-</tr>
-<tr class="odd">
-<td>R</td>
-<td>Alleen lezen (klant kan dus niets kopen).</td>
-</tr>
-<tr class="even">
-<td>T</td>
-<td>Televerkoop, Webshop toegang.</td>
-</tr>
-<tr class="odd">
-<td>K</td>
-<td>Kolliverkoop.</td>
-</tr>
-<tr class="even">
-<td>Per VE</td>
-<td>Klant mag alleen per (V)erkoop(E)enheid kopen en dus niet per kolli.</td>
-</tr>
-<tr class="odd">
-<td>PrePerc</td>
-<td>Eerst gaat dit percentage over de prijs alvorens de Perc eroverheen gaat.</td>
-</tr>
-<tr class="even">
-<td>Staffel</td>
-<td><p>Stel hier voor deze klant + voorraad de code van opslagstaffel in. Staffels kan je op de volgende plek aanmaken: Constanten -&gt; Financieel -&gt; Staffels. Hieronder een voorbeeld van een staffel:</p>
-<p><img src="media\image14.png" style="width:3.07639in;height:3.62929in" /></p></td>
-</tr>
-</tbody>
-</table>
-
-## 4.2 Voorraad autoriseren vanuit de debiteur
-
-Als je vanuit de debiteur voorraad wilt autoriseren, ga dan naar:
-
-1.  Constanten -&gt; Organen -&gt; Debiteuren -&gt; Internet -&gt;
-    Internet toegang
-
-2.  Kies vervolgens voor “Toegankelijke voorraden”.
-
-Doorloop nu dezelfde stappen zoals uitgelegd in **hoofdstuk: 4.1
-Voorraad autoriseren (vanaf stap 9)**
-
-# 5 Bestellijst autoriseren (Webshop)
-
-Per bestellijst autoriseer je debiteuren of zij toegang mogen krijgen.
-Er zijn twee mogelijkheden om dit in te stellen:
-
-1.  Vanuit de gebruiker (debiteur) instellen welke bestellijst(en)
-    hij/zij mag zien;
-
-2.  Vanuit de bestellijst(en) instellen welke gebruikers (debiteuren)
-    hiertoe toegang hebben.
-
-## 5.1 Bestellijst autoriseren
+### Bestellijst autoriseren vanuit de debiteur
 
 Volg de onderstaande stappen om een bestellijst te autoriseren:
 
-1.  Navigeer naar Constanten -&gt; Locaties -&gt; Bestellijsten;
+|#|Uitleg|
+|:--|:--|
+|**1**|Open het constanten scherm en navigeer in de bestandsstructuur naar het volgende pad:<br>**Locaties**(#1) → **Bestellijsten**(#2) → **Bestellijsten**(#3)<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image14.png"></details>|
+|**2**|Klik nu tweemaal met de linkermuisknop op de bestellijst(#4) die u beschikbaar wilt stellen op de webshop. Indien deze bestellijst nog niet bestaat maakt deze dan aan dmv. het plus icoontje(#4). <br><br>**Als u een al bestaande bestellijst gebruikt sla dan stap 3 t/m 6 over.**|
+|**3**|Vergeet niet om hierbij de systeemgebruikers te autoriseren voor deze voorraad. Dit doe je door naar tabblad Autorisatie(#3) te gaan en dubbel op de systeemgebruikers te klikken.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image25.png"></details>|
+|**4**|Geef in het veld Lijstcode(#1) op welke code je wilt gebruiken voor de bestellijst.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image26.png"></details>|
+|**5**|Geef in het veld Omschrijving(#2) op welke omschrijving je wilt gebruiken voor de bestellijst. Dit is de omschrijving die zichtbaar is in Florisoft.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image26.png"></details>|
+|**6**|Druk nu op OK.(#4)|
+|**7**|Ga naar het tablad '*Internet Toegang*'(#5)<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image25.png"></details>|
+|**8**|Zet het vinkje '*Deze bestellijst staat open op de webshop*'*(#2).<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image27.png"></details>|
+|**9**|Kies de openingstijd bij *openingstijden*(#3), indien nodig kan u deze aanmaken onder het pad: <br> **Organen** → **Systeem** → **Dagen & Tijden** → **Tijden**.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image27.png"></details>|
+|**10**|Klik op *Toegankelijke Debiteuren*(#4) om aan te geven welke debiteuren deze bestellijst mogen zien. Het volgende scherm opent zich nu.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image28.png"></details>|
 
-2.  Dubbelklik op de bestellijst die je beschikbaar wilt stellen op de
-    webshop. Of als deze niet bestaat, maak dan een nieuwe bestellijst
-    aan. Klik op het ‘Add new item’ icoon:
+De belangrijkste kolommen worden hieronder beschreven (vullen indien van toepassing):
 
-<img src="media\image15.png" style="width:5.54244in;height:1.98986in" />
+|Kolom|Uitleg|
+|:--|:--|
+|Voorr.|Bestellijst (Als je hier overhene hoovert dan zie de omschrijving).|
+|Debnr|Debiteurnummer (Als je hier overheen hoovert dan zie je de bedrijfsnaam).|
+|Dgn|Aantal dagen dat het duurt voordat de klant deze klant de bestlling krijgt.|
+|Iperc|Opslag in een percentage|
+|A|Toegang|
+|R|Alleen lezen (klant kan dus niet kopen)|
+|T|Televerkoop, Webshop toegang|
+|K|Kolliverkoop|
+|Stoffel|Stel hier voor deze klant en bestellijst de opslagstaffel in.|
+|Pre perc|Deze opslag wordt voor Iperc over de prijs berekend.|
 
-3.  Vergeet niet om hierbij de systeemgebruikers te autoriseren voor
-    deze voorraad. Dit doe je door naar tabblad Autorisatie te gaan en
-    dubbel op de systeemgebruikers te klikken.
+|11|Optioneel: Navigeer naar tabblad Algemeen. Geef - per taal - de omschrijving op van de bestellijst onder: Omschrijving per Taal. Dit is de omschrijving die zichtbaar is op de Webshop.|
+|:--|:--|
 
-4.  Geef in het veld Lijstcode op welke code je wilt gebruiken voor de
-    bestellijst;
+### Bestellijst autoriseren vanuit de debiteur (Vanuit de webshop)
 
-5.  Geef in het veld Omschrijving op welke omschrijving je wilt
-    gebruiken voor de bestellijst. Dit is de omschrijving die zichtbaar
-    is in Florisoft.
+Als je voorraden wil autoriseren vanuit de debiteur doet u dat als volgt:
 
-6.  Druk nu op OK.
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Open het constanten scherm en navigeer in de bestandsstructuur naar het volgende pad:<br>**Organen**(#1)→**Debiteur**(#2)→**Debiteurgegevens**(#3)→*Open de desbetreffende debiteur*(#4)→**Internet**(#5)→**Internettoegang**(#6)|
+|**2**|Klik hier op de knop *Toegankelijke bestellijsten*.(#7)<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image29.png"></details>|
+|**3**|Autoriseer in dit scherm de gebruiker om met de juiste voorraden te kunnen laten werken. De legenda is te vinden in stap 11 van het vorige hoofdstuk.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image30.png"></details>|
 
-<img src="media\image16.png" style="width:5.63655in;height:2.24418in" />
+## Webshop modulen
 
-7.  Ga naar tabblad “Internet Toegang”
+Volg de onderstaande stappen:
 
-8.  Zet een vinkje bij: Deze bestellijst staat open op de webshop.
+|#|Uitleg|
+|:--|:--|
+|**1**|Open het constanten scherm en navigeer naar het volgende pad:<br>**Organen**→**Debiteurgegevens**→**Debiteuren**→*Open nu de desbetreffende debiteur*.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image31.png"></details>|
+|**2**|Navigeer in het zojuist geopende scherm naar het mapje modulen deze is te vinden onder de map *Internet*.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Debiteuren, voorraden & bestellijsten media/media NL/image31.png"></details>|
+|**3**|In het onderstaande hoofdstuk wordt iedere module kort toegelicht. Niet iedere module is even relevant hieronder vind u dus alleen de belangrijkste.|
 
-9.  Kies de openingstijd bij: Openingstijden” – Deze kan je aanmaken
-    onder Organen -&gt; Systeem -&gt; Dagen & Tijden -&gt; Tijden.
+### Modulen
 
-<img src="media\image17.png" style="width:4.904in;height:4.7894in" />
+In dit hoofdstuk staan kort wat modulen beschreven die relevant zijn voor deze handleiding.
 
-10.  Klik op Toegankelijke Debiteuren om aan te geven welke debiteuren
-    deze bestellijst mogen zien. Het volgende scherm opent zich nu:
+#### Facturen
 
-<img src="media\image18.png" style="width:6.3in;height:3.37014in" />
+Het vinkje '*Facturen*' geeft de debiteur toegang tot zijn historische debiteuren op de webshop.
 
-11.  De belangrijkste kolommen worden hieronder beschreven (vullen indien
-    van toepassing):
+<details><summary><b>Klik hier voor de module voorbeeld afbeelding</b></summary><img src = "media/image20.png"></details>
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>Kolom</strong></th>
-<th><strong>Betekenis</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Voorr.</td>
-<td>Bestellijst (Als je hier overheen hoovert dan zie je de omschrijving).</td>
-</tr>
-<tr class="even">
-<td>Debnr</td>
-<td>Debiteurnummer (Als je hier overheen hoovert dan zie je de bedrijfsnaam).</td>
-</tr>
-<tr class="odd">
-<td>Dgn</td>
-<td>Aantal dagen dat het duurt voordat de klant deze klant de bestelling krijgt.</td>
-</tr>
-<tr class="even">
-<td>Iperc</td>
-<td>Opslag in een percentage.</td>
-</tr>
-<tr class="odd">
-<td>A</td>
-<td>Toegang.</td>
-</tr>
-<tr class="even">
-<td>R</td>
-<td>Alleen lezen (klant kan dus niets kopen).</td>
-</tr>
-<tr class="odd">
-<td>T</td>
-<td>Televerkoop, Webshop toegang.</td>
-</tr>
-<tr class="even">
-<td>K</td>
-<td>Kolliverkoop.</td>
-</tr>
-<tr class="odd">
-<td>Staffel</td>
-<td>Stel hier voor deze klant en bestellijst de opslagstaffel in.</td>
-</tr>
-<tr class="even">
-<td>Pre perc.</td>
-<td>Deze opslag wordt voor Iperc over de prijs berekend.</td>
-</tr>
-</tbody>
-</table>
+#### Overzicht per klant, Factuurhistorie, Factuurhistorie (Hoofd)
 
-12.  **Optioneel:** Navigeer naar tabblad Algemeen. Geef - per taal - de
-    omschrijving op van de bestellijst onder: Omschrijving per Taal. Dit
-    is de omschrijving die zichtbaar is op de Webshop.
+Deze drie modulen hangen samen met de eerste module, Facturen. Zet deze drie modulen samen met de module Facturen aan om de klant toegang te geven tot zijn actuele facturen en open posten.
 
-## 5.2 Bestellijst autoriseren vanuit de debiteur (Webshop)
+<details><summary><b>Klik hier voor de module voorbeeld afbeelding</b></summary><img src = ""></details>
 
-Als je voorraad wilt autoriseren vanuit de debiteur, dan ga je hiervoor
-naar:
+#### Klantgegevens
 
-1.  Constanten -&gt; Organen -&gt; Debiteuren -&gt; Internet -&gt;
-    Internet toegang
+Zet deze vink aan om de klant toegang te geven tot zijn klantgegevens op de webshop. De klant gegevens bestaan uit het standaard e-mailadres, een vink die aangeeft of de klant beleverd mag worden en de mogelijkheid voor de klant om zelf zijn wachtwoord te wijzigen.
 
-2.  Kies vervolgens voor “Toegankelijke bestellijsten”.
+<details><summary><b>Klik hier voor de module voorbeeld afbeelding</b></summary><img src = "media/image22.png"></details>
 
-Doorloop nu dezelfde stappen zoals uitgelegd in **hoofdstuk: 5.1
-Bestellijst autoriseren (vanaf punt 9)**
+#### Open posten, Open posten betalen
 
-# 6 Webshop modulen
+Deze twee modulen zorgen ervoor dat de klant zijn Open posten kan inzien en betalen via de webshop. Het betalen van open posten via de webshop kan alleen wanneer de module Florisoft Payment actief is bij de betreffende klant. Om open posten te kunnen zien en betalen moeten ook de vinkjes Facturen, Overzicht per klant, Factuurhistorie, Factuurhistorie (Hoofd) aan staan.
 
-1.  Ga naar Constanten -&gt; Organen -&gt; Debiteuren en open de
-    desbetreffende debiteur.
+<details><summary><b>Klik hier voor de module voorbeeld afbeelding</b></summary><img src = "media/image23.png"></details>
 
-2.  Navigeer naar het tabblad Modulen en vink de modulen aan die de
-    debiteur moet kunnen gebruiken op de webshop.
+#### Order overzicht, Overzicht bestellingen en Hist bestellingen
 
-<img src="media\image19.png" style="width:5.81132in;height:3.36175in" />
+Met deze vink kan de klant via de webshop geplaatste orders bekijken.
 
-Hieronder wordt iedere module kort toegelicht. Niet alle vinkjes zijn
-even relevant. Alleen de belangrijkste worden hieronder toegelicht met
-een voorbeeld.
+<details><summary><b>Klik hier voor de module voorbeeld afbeelding</b></summary><img src = "media/image25.png"></details>
 
-## 6.1 Facturen
+#### Aanvoer
 
-Het vinkje ‘Facturen’ geeft de debiteur toegang tot zijn historische
-debiteuren op de webshop.
+De Aanvoer module wordt gebruik door kweker bedrijven om handel via de webshop aan te bieden aan een verwerkingsbedrijf.
 
-<img src="media\image20.png" style="width:5.81111in;height:1.97611in" />
+<details><summary><b>Klik hier voor de module voorbeeld afbeelding</b></summary><img src = "media/image26.png"></details>
 
-> <span id="_Toc10199783" class="anchor"></span>**6.2 Overzicht per
-> klant, Factuurhistorie, Factuurhistorie (Hoofd)**  
-> Deze drie modulen hangen samen met de eerste module, Facturen. Zet
-> deze drie modulen samen met de module Facturen aan om de klant toegang
-> te geven tot zijn actuele facturen en open posten.
->
-> <span id="_Toc10199784" class="anchor"></span>**6.3 Klantgegevens**  
-> Zet deze vink aan om de klant toegang te geven tot zijn
-> klantgegevens op de webshop. De klant gegevens bestaan uit het
-> standaard e-mailadres, een vink die aangeeft of de klant beleverd mag
-> worden en de mogelijkheid voor de klant om zelf zijn wachtwoord te
-> wijzigen.
+#### Credit Aanvraag
 
-<img src="media\image21.png" style="width:5.83019in;height:1.25878in" />
+De module Credit aanvraag biedt de klant de mogelijkheid om credit aanvragen te doen via de webshop.
 
-<img src="media\image22.png" style="width:5.82986in;height:1.91373in" />
+<details><summary><b>Klik hier voor de module voorbeeld afbeelding</b></summary><img src = "media/image27.png"></details>
 
-> <span id="_Toc10199785" class="anchor"></span>**6.4 Open posten, Open
-> posten betalen**  
-> Deze twee modulen zorgen ervoor dat de klant zijn Open posten kan
-> inzien en betalen via de webshop. Het betalen van open posten via de
-> webshop kan alleen wanneer de module Florisoft Payment actief is bij
-> de betreffende klant. Om open posten te kunnen zien en betalen moeten
-> ook de vinkjes Facturen, Overzicht per klant, Factuurhistorie,
-> Factuurhistorie (Hoofd) aan staan.
+Klik op de knop ‘Ok’ om de instellingen in het debiteurenscherm te wijzigen.
 
-<img src="media\image23.png" style="width:5.51805in;height:1.88679in" />
-
-> <span id="_Toc10199786" class="anchor"></span>**6.5 Order overzicht,
-> Overzicht bestellingen en Hist bestellingen**  
-> Met deze vink kan de klant via de webshop geplaatste orders
-> bekijken.
-
-<img src="media\image24.png" style="width:5.80943in;height:2.40075in" />
-
-<img src="media\image25.png" style="width:5.8013in;height:1.02699in" />
-
-> <span id="_Toc10199787" class="anchor"></span>**6.6 Aanvoer**   
-> De Aanvoer module wordt gebruik door kweker bedrijven om handel via
-> de webshop aan te bieden aan een verwerkingsbedrijf.
->
-> <img src="media\image26.png" style="width:5.8013in;height:2.83798in" />
->
-> <span id="_Toc10199788" class="anchor"></span>**6.7 Credit aanvraag**  
-> De module Credit aanvraag biedt de klant de mogelijkheid om credit
-> aanvragen te doen via de webshop.
-
-<img src="media\image27.png" style="width:5.81132in;height:2.27982in" />
-
-Klik op de knop ‘Ok’ om de instellingen in het debiteurenscherm te
-wijzigen.
-
-<img src="media\image28.png" style="width:3.34906in;height:1.77811in" />
+<details><summary><b>Klik hier voor de module voorbeeld afbeelding</b></summary><img src = "media/image28.png"></details>
