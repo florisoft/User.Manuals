@@ -29,7 +29,8 @@ We hope you enjoy working with the webshop in combination with the Theme Configu
 [Loggin on as administrator on the webshop](#logging-on-as-an-administrator-on-the-the-webshop)  
 [Accessing the theme manager](#accessing-the-theme-manager)  
 [Creating a new theme](#creating-a-new-theme)  
-[Customizing a theme](#customizing-the-new-theme)  
+[Customizing a theme](#customizing-the-new-theme) 
+[Changing fonts](#changing-fonts)   
 [Applying themes to the webshop](#applying-themes-to-the-webshop)  
 [Changing pictures on the webshop](#changing-pictures-on-the-webshop)  
 [Extra available options in the configurator](#extra-available-options-in-the-theme-configurator)  
@@ -123,6 +124,16 @@ The operation of a setting like this is as follows: the webshop tries to apply t
 In addition to the font (type), the size of the text can also be changed. An example is the h4 font size.
 
 The size of the text can be expressed in different units. At this moment pixels, percent and letter units (font units) are supported.
+
+*To change the font follow the steps below:*
+
+|#|Explanation|
+|:--|:--|
+|**1**|Open the theme manager on your specific theme, follow the steps in [this chapter](#accessing-the-theme-manager) to learn how to access it. Make sure to set the selected theme to the one you want(#1)<details><summary><b>Click here for the example image</b></summary><img src=".Manual theme management Florishop/media/image49.png"></details>|
+|**2**|Using the item filter(#2) to search for '*Font*'.|
+|**3**|Left click the property called '*Font*' (#3), look at the image below to see the right setting|
+|**4**|By left clicking the property you'll open the property modification screen, enter the right formula for your purposes and click save.<details><summary><b>Click here for the example image</b></summary><img src=".Manual theme management Florishop/media/image50.png"></details>|
+|**5**|**Do remember to save the changes made to the theme by clicking on the Floppy Disk icon**|
 
 **Pay attention: for the new text size, always use the format as currently stated. In the screenshot above the value is 1,438. This is a broken number. So use a broken number for the new value.**
 
