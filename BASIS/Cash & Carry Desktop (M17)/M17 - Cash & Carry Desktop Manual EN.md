@@ -1,85 +1,47 @@
-﻿<img src="../../fslogo.png"/>
+﻿<img src="../../fslogo.png">
 
-# **Florisoft manual Cash & Carry Desktop**
+# Handleiding Florisoft Cash & Carry (M17)
 
-## 1 Preface
+Welcome to the Florisoft Cash & Carry manual for desktop. This guide is designed to teach the users how to use the Cash & Carry module. After reading the guide, the user is able to successfully use the Cash & Carry module.
 
-Welcome to the Florisoft Cash & Carry manual for desktop. This guide is
-designed to teach the users how to use the Cash & Carry module. After
-reading the guide, the user is able to successfully use the Cash & Carry
-module.
+The first chapter will explain how to start-up the Cash & carry module so it can be ready to use.
 
-The first chapter will explain how to start-up the Cash & carry module
-so it can be ready to use.
+Chapter two will describe how to enter items into the order manually and with a scanner.
 
-Chapter two will describe how to enter items into the order manually and
-with a scanner.
+The third and last chapter will show the different options the Cash & Carry module has, once the order has been filled with the desired items.
 
-The third and last chapter will show the different options the Cash &
-Carry module has, once the order has been filled with the desired items.
+If the user experiences any difficulties with the Cash & Carry module at any time, or if the current manual does not cover the desired functionalities, please contact support.
 
-If the user experiences any difficulties with the Cash & Carry module at
-any time, or if the current manual does not cover the desired
-functionalities, please contact support.
+## 1 Starting the Cash & Carry Module
 
-## 2 Starting the Cash & Carry Module
+*Volg de onderstaande stappen om de Cash & Carry module te starten*
 
-Once logged into the Florisoft application, start up the Cash & Carry module.
+*Follow the steps below to start the Cash & Carry module.*
 
-<img src=".Cash &amp; Carry Desktop Manual\media\image2.png" style="width:7.33542in;height:2.58403in" /> 
-
-To select from which stocks the order will consist of, select “Module” -> “select pay-desk”. After which you will see all available stocks.
-Select the different stock used for the order by pressing “spacebar”,
-these stocks will turn yellow once selected.
-
-Make sure “Cash & Carry” is selected.
-<img src=".Cash &amp; Carry Desktop Manual\media\image3.png" style="width:7.29583in;height:3.64792in" />
-
-Press OK to continue.
-
-To open the pay-desk, select “Pay-desk” -> “Open pay-desk”.
-
-Enter the Seller code. Once the code has been entered, press “Enter”. The full name of the selected seller will appear in red beneath.
-
-<img src=".Cash &amp; Carry Desktop Manual\media\image4.png" style="width:6.88264in;height:3.44097in" />
-
-Press OK to continue.
+|Step|Explanation|
+|:--|:--|
+|**0**|Once logged into the Florisoft application, start up the Cash & Carry module. By clicking the '*Cash & Carry*' button on the navigator.<details><summary><b>Click here for the example image</b></summary><img src=".Cash &amp; Carry Desktop Manual\media\image2.png"></details>|
+|**1**|To select from which stocks the order will consist of, Click on '*Module*' → '*Select paydesk*'. Make sure the option '*Cash & Carry*' is enabled.<details><summary><b>Click here for the example image</b></summary><img src=".Cash &amp; Carry Desktop Manual\media\image3.png"></details>|
+|**2**|in this screen you'll select which stocks will be used in the order. Select them by utilizing the spacebar, press the **Ok** button to continue with the selected stocks.<details><summary><b>Click here for the example image</b></summary><img src=".Cash &amp; Carry Desktop Manual\media\image3.png"></details> |
+|**3**|Click on the '*Pay-desk*' option in the top menu bar, click it and continue by clicking on the option '*Open pay-desk*'.<details><summary><b>Click here for the example image</b></summary><img src=".Cash &amp; Carry Desktop Manual\media\image3.png"></details>|
+|**4**|This opens a small menu in which you need to fill in the seller code. After entering the code press enter. The seller's full name will now be shown in red text. <details><summary><b>Click here for the example image</b></summary><img src=".Cash &amp; Carry Desktop Manual\media\image4.png"></details>|
 
 ## 3 Filling the order
 
-Now you can add different products to the order, but first enter a
-Debtor code. Once the code has been entered, press “Enter”. The full
-name will once again be displayed next to the code.
-
-The focus has now been automatically switched to the Scan field, now you can scan products with a suitable barcode.
-<img src=".Cash &amp; Carry Desktop Manual\media\image5.png" style="width:6.55556in;height:4.50625in" />
-
-You can also lookup products manually, by clicking the “Search” button
-above the scan number.
-
-By default the products from the primary selected stock are shown. You can find products by clicking the Groups tab and then double clicking the
-desired product group.
-<img src=".Cash &amp; Carry Desktop Manual\media\image6.png" style="width:7.02778in;height:2.3375in" />
-
-Double click the desired product to add it to the order. Once added, you
-can change the amount and price of the product. A standard price is
-assigned to all products, this does not have to be done manually. The
-values displayed will differ accordingly to the items added to the
-order.
-
-<img src=".Cash &amp; Carry Desktop Manual\media\image7.png" style="width:2.77122in;height:0.46882in" />
+|Step|Explanation|
+|:--|:--|
+|**1**|A new screen got opened. The focus of this screen is automatically switched to the scan-field, you can now enter products with a barcode.<br>You can now add different products to an order, but first you will need to enter a debtor code. After the debtor code is filled in the debtor's full name will be shown in red just like the seller's name before.<details><summary><b>Click here for the example image</b></summary><img src=".Cash &amp; Carry Desktop Manual\media\image5.png"></details>|
+|**2**|It is also possible to manually search for products. Do this by by presing the search button above the scan button..<details><summary><b>Click here for the example image</b></summary><img src=".Cash &amp; Carry Desktop Manual\media\image6.png"></details>|
+|**3**|By default the products from the primary selected stock are shown. You can find products by clicking the Groups tab and then double clicking the desired product group.<details><summary><b>Click here for the example image</b></summary><img src=".Cash &amp; Carry Desktop Manual\media\image6.png"></details>|
+|**4**|Double click the desired product to add it to the order.| 
+|**5**|Once added, you can change the amount and price of the product.|
+|**6**|A standard price is assigned to all products, this does not have to be done manually. The values displayed will differ accordingly to the items added to the order.<details><summary><b>Click here for the example image</b></summary><img src=".Cash &amp; Carry Desktop Manual\media\image7.png"></details>|
 
 ## 4 Finishing up
 
-When you are done selling, you can choose to print a Packing list, Invoice or neither one (No Paper). 
-<img src=".Cash &amp; Carry Desktop Manual\media\image8.png" style="width:6.3in;height:4.33403in" />
-
-An example of an Invoice:
-
-<img src=".Cash &amp; Carry Desktop Manual\media\image9.png" style="width:5.21528in;height:3.40556in" /> 
-
-After printing the invoice, the system will automatically allow you to enter a payment on the invoice that was just created. If applicable, you can also enter payments on multiple invoices. Select the invoice(s) that
-is/are to be paid by pressing the spacebar. The selection will be made
-yellow.
-
-<img src=".Cash &amp; Carry Desktop Manual\media\image10.png" style="width:6.19514in;height:5.81806in" />
+|Step|Explanation|
+|:--|:--|
+|**1**|When you are done selling, you can choose to print a Packing list, Invoice or neither one (No Paper).<details><summary><b>Click here for the example image</b></summary><img src=".Cash &amp; Carry Desktop Manual\media\image8.png"></details>|
+|**2**|An example of an Invoice:<details><summary><b>Click here for the example image</b></summary><img src=".Cash &amp; Carry Desktop Manual\media\image9.png"></details>|
+|**3**|After printing the invoice, the system will automatically allow you to enter a payment on the invoice that was just created. If applicable, you can also enter payments on multiple invoices.<details><summary><b>Click here for the example image</b></summary><img src=".Cash &amp; Carry Desktop Manual\media\image10.png"></details>|
+|**4**|Select the invoice(s) that is/are to be paid by pressing the spacebar. The selection will be made yellow.<details><summary><b>Click here for the example image</b></summary><img src=".Cash &amp; Carry Desktop Manual\media\image10.png"></details>|
