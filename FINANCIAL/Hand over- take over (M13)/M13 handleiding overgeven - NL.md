@@ -1,43 +1,54 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png">
 
-# Handleiding Overgeven/Overnemen
+# Florisoft Handleiding Overnemen/Overgeven (M17)
 
-Log in bij Florisoft en ga naar constanten.  
-Bij constanten =&gt; locaties =&gt; veilingen stel je per veiling
-waarvoor je over gaat geven je eigen kopernummer in.  
+[Kopernummers instellen](#1---kopernummers-instellen)  
+[Debiteuren laten overgeven](#2---debiteuren-laten-overgeven)  
+[In werking](#3---in-werking)  
+[Overgeven scherm](#4---overgeven-scherm)    
 
-<img src=".handleiding overgeven\media\image1.png" style="width:6.3in;height:6.45972in" />  
-  
-Op de debiteuren (constanten =&gt; organen =&gt; debiteuren) welke
-overgegeven moeten worden stel je het volgende in:
+## 1 - Kopernummers instellen
 
-Bij ‘factuur’ =&gt; ‘factuur’ de juiste zaken zijn ingesteld.  
-Bij de veiling stel je de veiling in waarop deze klant overgegeven moet
-worden (Aalsmeer, Naaldwijk etc.)
+Om de module correct te kunnen gebruiken moeten er eerst een paar instellingen worden aangepast. <br> *Volg de onderstaande stappen:*'
 
-<img src=".handleiding overgeven\media\image2.png" style="width:8.24539in;height:4.78304in" />
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Open het constantenscherm.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".handleiding overgeven/media/image11.png"></details>|
+|**2**|Navigeer naar het volgende pad:<br>**Locaties**→**Veilingen**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".handleiding overgeven/media/image12.png"></details>|
+|**3**|Open elke veiling en vul het veld '*Kopernummer*' in met uw eigen kopernummer.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".handleiding overgeven/media/image13.png"></details>|
 
-<img src=".handleiding overgeven\media\image3.png" style="width:8.79005in;height:2.48507in" />
+## 2 - Debiteuren laten overgeven
 
-Als dit juist staat ingesteld ga dan naar je facturen overzicht toe.
+Om het mogelijk te maken voor debiteuren om over te laten geven volgt u de onderstaande stappen:
 
-Na het doorboeken van de factuur naar de historie kan je de factuur
-terugzien in het overgeven scherm. Dit scherm open je vanuit de
-navigator via de knop ‘Overgeven’.  
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Open het constanten scherm indien u deze gesloten had, navigeer naar het pad:<br>**Organen**→**Debiteur gegevens**→**Debiteuren**.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".handleiding overgeven/media/image14.png"></details>|
+|**2**|Open de debiteuren waarvoor u het overgeven wilt mogelijk maken en voer de onderstaande stappen uit voor elke van de debiteuren.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".handleiding overgeven/media/image14.png"></details>|
+|**3**|Met het debiteurinstellingscherm open navigeert u naar:<br>**Factuur**→**Factuur**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".handleiding overgeven/media/image14.png"></details>|
+|**4**|Vul rechtsbovenin onder het tabje: '*Factureren via Overgeven of Connect*' de volgende instellingen in:<br>- **Overgeven**: Zet het vinkje aan<br>- **Veiling**: Vul hier de veiling in waar aan overgegeven wordt (**Belangrijk!**: *Aan veiling Rijnsburg kan niet worden overgegeven*)<br>- **Veiling debiteurnummer**: Druk in dit veld op de F3 toets, dit opent een scherm waarin u het veiling debiteurnummer kan opzoeken. **Let op:** pak wel het corresponderende veilingnummer.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".handleiding overgeven/media/image14.png"></details>|
 
-<img src=".handleiding overgeven\media\image4.png" style="width:6.3in;height:2.08889in" />
+## 3 - In werking
 
-Klik dus op de factuur die je wilt (en kan) gaan overgeven.
+In dit hoofdstuk word er een verdeling en factuur aangemaakt ter illustratie voor wat er uiteindelijk te zien is van de overgeven instelling. Deze facturen worden ook in het volgende hoofdstuk gebruikt ter voorbeeld van het overgeven scherm.
 
-Vervolgens kan je vanuit je navigatiescherm op de knop ‘overgeven’
-klikken.
+|Stap|Uitleg|
+|:--|:--|
+|**1**|In het voorraadscherm word er een verdeling gemaakt. Deze word doorgeboekt naar het facturen scherm.|
+|**2**|Open het facturen scherm, wellicht ziet u nu een extra kolom staan genaamd (DSK). De rijen met een '**O**' in deze kolom hebben de mogelijkheid om overgegeven te worden.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".handleiding overgeven/media/image16.png"></details>|
+|**3**|De facturen kunnen nu doorgeboekt worden waardoor ze uiteindelijk in het overgeven scherm te zien zijn.|
 
-Zorg ervoor dat je alles goed instelt, zoals juiste veiling en datum.
+## 4 - Overgeven scherm
 
-<img src=".handleiding overgeven\media\image5.png" style="width:8.26015in;height:4.49254in" />
+In dit hoofdstuk word het overgeven scherm uitgelegd en doorlopen. <br>*Volg de onderstaande stappen*.
 
-Er is 1 keer per dag over te geven per veiling. Wanneer er iets om wat
-voor reden niet goed is gegaan kan je de dag nadat je een factuur hebt
-overgegeven deze selecteren en op de knop ‘Opnieuw overgeven’ klikken.
-Daarmee wordt de geselecteerde factuur op de huidige dag gezet en kan je
-hem opnieuw overgenomen
+|Stap|Uitleg|
+|:--|:--|
+|**0**|Open het *Overgeven* scherm vanuit de navigator door op de Overgeven knop te drukken.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".handleiding overgeven/media/image17.png"></details>|
+|**1**|Selecteer onder de dropdown '*Overgegeven / Overgenomen op veiling*' de juiste veiling voor uw doeleinden. (**Herinnering**: *De veiling Rijnsburg werkt niet met overgeven*.)(#1)<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".handleiding overgeven/media/image18.png"></details>|
+|**2**|Gebruik de datum filters om op facturen te filteren in een bepaalde tijdsperiode.(#2)<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".handleiding overgeven/media/image18.png"></details>|
+|**3**|Met '*Overgegeven produkten*' & '*Overgenomen produkten*' kan u nog verder filteren op overgenomen & overgegeven producten.(#3)<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".handleiding overgeven/media/image18.png"></details>|
+|**4**|Selecteer vervolgens de te overgeven factuurregels in de tabel doormiddel van de spatiebalk. Geselecteerde regels worden in geel highlight(#4).<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".handleiding overgeven/media/image18.png"></details>|
+|**5**|Klik vervolgens op de verzenden knop om ze te verzenden.(#5)<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".handleiding overgeven/media/image18.png"></details>|
+
+*Er is 1 keer per dag over te geven per veiling. Wanneer er iets om wat voor reden niet goed is gegaan kan je de dag nadat je een factuur hebt overgegeven deze selecteren en op de knop ‘Opnieuw overgeven’ klikken. Daarmee wordt de geselecteerde factuur op de huidige dag gezet en kan je hem opnieuw overgenomen*
