@@ -1,6 +1,6 @@
 <img src="../../fslogo.png">
 
-# Florisoft Manual Hand-over (M17)
+# Florisoft Manual Hand-over (M13)
 
 [Setting the buyer number](#1---setting-the-buyer-number)  
 [Handing over](#2---handing-over-debtors)  
@@ -19,7 +19,7 @@ For this module to work some settings are required to be set first. <br>*Follow 
 
 ## 2 - Handing over debtors
 
-Om het mogelijk te maken voor debiteuren om over te laten geven volgt u de onderstaande stappen:
+Using the steps below you can allow the debtor to be handed over:
 
 |Step|Explanation|
 |:--|:--|
@@ -36,7 +36,7 @@ In this chapter we will a simple stock division and invoice as an example for th
 |Step|Explanation|
 |:--|:--|
 |**1**|In the stockscreen a division is made, this will then be carried through to the invoice screen.|
-|**2**|Open the invoice screen. In the table you will see a new column called "*Disk*". Rows that are filed with an '**O**' in the Disk column have the ability to be handed over.</b></summary><img src=".Handover Manual/media/image5.png"></details>|
+|**2**|Open the invoice screen. In the table you will see a new column called "*Disk*". Rows that are filed with an '**O**' in the Disk column have the ability to be handed over.<details><summary><b>Click here for the example image</b></summary><img src=".Handover Manual/media/image5.png"></details>|
 |**3**|The only thing to do in the invoice screen this time is to carry the invoice through. This way we will see it in the handover screen in the next chapter.|
 
 
