@@ -1,57 +1,57 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png">
 
-# Florisoft manual Handover
+# Florisoft Manual Hand-over (M17)
 
-##  Preface
+[Setting the buyer number](#1---setting-the-buyer-number)  
+[Handing over](#2---handing-over-debtors)  
+[The working process](#3---the-working-process)  
+[Handover screen](#4---handover-screen)    
 
-Welcome to the Florisoft Handover manual. This guide is designed to
-teach the users how to use the Handover building module. After reading
-the guide, the user is able to successfully use the Handover module.
+## 1 - Setting the Buyer number
 
-If the user experiences any difficulties with the Handover module at any
-time, or if the current manual does not cover the desired
-functionalities, please contact support.
+For this module to work some settings are required to be set first. <br>*Follow the steps below*:
 
-## 1 Adjusting the settings
+|Step|Explanation|
+|:--|:--|
+|**1**|Open the constants screen<details><summary><b>Click here for the example image</b></summary><img src=".Handover Manual/media/image1.png"></details>|
+|**2**|Navigate to the following path: <br>**Locaties**→**Veilingen**<details><summary><b>Click here for the example image</b></summary><img src=".Handover Manual/media/image2.png"></details>|
+|**3**|Open every auction instance and fill in the field '*Buyer number*'<details><summary><b>Click here for the example image</b></summary><img src=".Handover Manual/media/image3.png"></details>|
 
-In order to correctly use the Handover module, there are a few settings
-that will need to be adjusted/confirmed before the handover of items.
+## 2 - Handing over debtors
 
-First, log into Florisoft and access the Constants -> Locations -> Auctions.
-<img src=".Handover Manual\media\image2.png" style="width:6.3in;height:3.26111in" />
+Om het mogelijk te maken voor debiteuren om over te laten geven volgt u de onderstaande stappen:
 
-Enter your own buyer number per auction where you will be handing over items to.
+|Step|Explanation|
+|:--|:--|
+|**1**|Open the constants screen if you had closed it before and navigate tot the following path:<br>**Community**→**Debtor data**→**Debtors**<details><summary><b>Click here for the example image</b></summary><img src=".Handover Manual/media/image4.png"></details>|
+|**2**|Open the debtors that you want to be able to hand over. Follow the steps below to do this.<details><summary><b>Click here for the example image</b></summary><img src=".Handover Manual/media/image4.png"></details>|
+|**3**|In the debtor card/settingscreen you'll need to navigate to the path:<br>**Invoice**→**Invoice**.<details><summary><b>Click here for the example image</b></summary><img src=".Handover Manual/media/image4.png"></details>|
+|**4**|In the top right you will find a subsection called "*Invoice through handover*" change the following settings here:<br>- **Activate**: check this checkbox to activate the handover capabilities for this debtor.<br>- **Auction**:"Enter the auction here that will be handed over to.(**Important**: Auction Rijnsburg can't be handed over to!)<br>- **Debtor number:"** Press the F3 button in this field, this opens a screen in which you can search for the debtor number. **Make sure this number corresponds to the auction number!**<details><summary><b>Click here for the example image</b></summary><img src=".Handover Manual/media/image4.png"></details>|
 
-<img src=".Handover Manual\media\image3.png" style="width:3.69767in;height:3.79101in" />
 
-Press OK to continue.
+## 3 - The working process
+ 
+In this chapter we will a simple stock division and invoice as an example for the *Handover* screen in the next chapter. You may skip this chapter as it is optional we do however recommend reading step 2.
 
-Now switch over to the debtors (Constants -> Community -> Debtors) and double
-click on a debtor to handover. Then head to Invoice -> Invoice. Fill in the
-appropriate information. At “Auction”, fill in the auction where you
-handover the debtor to.
+|Step|Explanation|
+|:--|:--|
+|**1**|In the stockscreen a division is made, this will then be carried through to the invoice screen.|
+|**2**|Open the invoice screen. In the table you will see a new column called "*Disk*". Rows that are filed with an '**O**' in the Disk column have the ability to be handed over.</b></summary><img src=".Handover Manual/media/image5.png"></details>|
+|**3**|The only thing to do in the invoice screen this time is to carry the invoice through. This way we will see it in the handover screen in the next chapter.|
 
-<img src=".Handover Manual\media\image4.png" style="width:10.55486in;height:5.72083in" />
 
-To check if this has been done correctly, go back to the Navigator and
-access the Invoices. If the relevant invoice shows and “O” under “disk”,
-it is ready to be handed over.
+## 4 - Handover screen
 
-<img src=".Handover Manual\media\image6.png" style="width:6.70417in;height:2.24375in" />
+This chapter will walk you through the handover screen.<br>*Follow the steps below*:
 
-After passing the invoice to the history you can see the invoice in the
-handover tab. This screen is opened from the Navigator via the
-“Handover” button.
+|Step|Explanation|
+|:--|:--|
+|**0**|Open the handover screen  by pressing the '*Handover*' button in the navigator.<details><summary><b>Click here for the example image</b></summary><img src=".Handover Manual/media/image6.png"></details>|
+|**1**|Open the dropdown '*Handover / purchased on Auction*' and select the right auction for your purposes. (**Reminder:** *the Rijnsburg auction does not support handing over.*)(#1)<details><summary><b>Click here for the example image</b></summary><img src=".Handover Manual/media/image7.png"></details>|
+|**2**|Use the date filters to filter invoices based on a period in time.(#2))<details><summary><b>Click here for the example image</b></summary><img src=".Handover Manual/media/image7.png"></details>|
+|**3**|With the radio buttons "*Handover products*" & "*purchased products*" you can filter the invoices even more.(#3)<details><summary><b>Click here for the example image</b></summary><img src=".Handover Manual/media/image7.png"></details>|
+|**4**|Select the to be handed over invoice lines using the spacebar. Selected invoice lines will be highlighted in yellow.(#4).<details><summary><b>Click here for the example image</b></summary><img src=".Handover Manual/media/image7.png"></details>|
+|**5**|Click on the button with the text "*Disc*" <details><summary><b>Click here for the example image</b></summary><img src=".Handover Manual/media/image7.png"></details>|
 
-<img src=".Handover Manual\media\image5.png" style="width:6.70417in;height:2.24375in" />
 
-Select the invoice you wish to handover.
-First, check if the correct auctions and date has been selected.
-
-If those settings are correct, you can click "Send" on the bottom right of the screen.
-
-<img src=".Handover Manual\media\image7.png" style="width:6.70417in;height:2.24375in" />
-
-You can handover once per day. When someting is not right (for any reason) you can handover
-the invoice again the day after the original handover by pressing "Opnieuw Overgeven" or "Handover Again".
-Using the option, the selected invoice will be put on the current day so you can hand it over again. 
+*You may only hand over once per day to each auction. When something went wrong with the invoice that you handed over you may only correct it the day after. You can do this by clicking on the button* '*Execute Auction Direct Debit again*' *button. With this the selected invoices will be be set for to day so they can be handed over again.*
