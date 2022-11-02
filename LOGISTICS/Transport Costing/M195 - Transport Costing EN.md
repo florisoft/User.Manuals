@@ -25,7 +25,7 @@ The basis of Transport Costing is the departure/delivery day system, and you can
 
 |Step|Explanation|
 |:--|:--|
-|**1**|Click the calendar icon in the top left of te screen, this will show the following wizard.<details><summary><b>Click here for the example image</b></summary><img src="media_ENG/image1.png"></details>|
+|**1**|Click the calendar icon in the top left of te screen, this will show the following wizard.<details><summary><b>Click here for the example image</b></summary><img src="./media_ENG/image1.png"></details>|
 |**2**|After choosing a date you will be given the choice of whether it should be delivered or whether it will be picked up.<details><summary><b>Click here for the example image</b></summary><img src="media_ENG/image2.png"></details>|
 
 ## Setting up Order Numbers
