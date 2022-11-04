@@ -77,7 +77,7 @@ Next we are going to create an Assortment, follow the steps below:
 |:--|:--|
 |**1**|Open the constants screen if you didn't have it open already.|
 |**2**|Navigate to the following path:<br>**Articles**→**Assortment information**→**Assortment**<details><summary><b>Click here for the example image</b></summary><img src="Media_ENG/image16.png"></details>|
-|**3**|Creat a new assortment by clicking on the add new button (**+** icon). This opens a new screen.|
+|**3**|Create a new assortment by clicking on the add new button (**+** icon). This opens a new screen.|
 |**4**|Fill in the following fields:<br>- **Assortment**: *Give the newly created assortment a unique identifier* <br>- **Description**: Description of the assortment that is visible in the backoffice and webshop.  <br>- **Purchase price**: The cost of transport <br>- **Sales price**: The cost of transport that is offered to the debtor <br>- **Department**: *Set this to your transport or logistics department*. <br>- **Article group**: *It's important to select the Article group which you've created/checked at previous step.*<details><summary><b>Click here for the example image</b></summary><img src="Media_ENG/image7.png"></details>|
 
 ### Order number
