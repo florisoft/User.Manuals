@@ -1,71 +1,33 @@
-\<img src="../../fslogo.png"/>
+<img src="../../fslogo.png">
 
-# Florisoft manual Image library
+# Florisoft Manual Image Library (M55)
 
-Welcome to the Florisoft Imagebank manual for desktop. This guide is
-designed to teach the users how to use the Image library module. After
-reading the guide, the user is able to successfully use the Photolibrary
-module.
+Welcome to the Florisoft manual for the desktop application. This guide was made to teach user how to use the Image library module. After reading this guide, the user should be able to use the Image library module successfully.
 
-When you buy on the KLOK, you will get a number (PHOTOID).
-With the Image library you will be able to download specific photo's using the
-PHOTOID. When downloading photo's, Florisoft will scale them to 4 formats.
+When buying on the KLOK (Clock) you should get a photoID number. With the image library you are able to download the specific photo's for you purchase using this photoID. When dowloading the images Florisoft will scale them to 4 different formats.
 
 ## Setting up
-In order to start using the Image library module, a few settings have to be adjusted.
 
-Start by starting up the Florisoft application and accessing the Constants -> Community -> Image library.
+In order to start using the image libary module a couple of settings will need to be set up first. Follow the steps below to set it up:
 
-<img src=".Beeldbank_Manual_ENG/media/pic1.png" />
-
-
-Double click an image library and enter the Flora Holland username and password. 
-This information must be provided by the customer.
-
-<img src=".Beeldbank_Manual_ENG/media/pic2.png" />
-
-The link shown below should be asted into the "URL" in the picture above.
-
-To make sure the information that has been provided is correct, you can go to
-the URL given. An example of such a URL is:
-https://ccx-cbb-wes-prd.shared.royalfloraholland.com/commercialcustomerwebservice.asmx
-
-
-Now head back to Florisoft and access the timer settings by right clicking the timer and selecting Timer Settings.
-
-<img src=".Beeldbank_Manual_ENG/media/image4.png" style= "width:6in;height:2.8in" />
-
-The setting X Photo Download should be turned on, the settings shown are recommended, but other intervals are also posible, but they could lead to longer loading times:
-
-<img src=".Beeldbank_Manual_ENG/media/image15.png" />
-
-
-Now navigate to the right screen of the timer settings, click the tab which says "Instellingen" or it's English
-variant "settings". There are a few settings which will have to be double checked.
-
-<img src=".Beeldbank_Manual_ENG/media/picx.png" />
- Make sure the check "xfotos opschonen"/"XFOTOCLEAN" is marked as 'on'.
-
- 
-
-&nbsp;
-
-Make sure the images have a destination. Choose a path, this is where
- your images will end up.
-
-<img src=".Beeldbank_Manual_ENG/media/image8.png" style="width:6in;height:2.8in" />
-
-Access the Constants. Select Locations -> Auctions and select an auction. Double click and select Other.
-Now make sure the two highlighted setting have been set correctly.
-
-<img src=".Beeldbank_Manual_ENG/media/image11.png" style="width:6in;height:2.8in" />
-
-Now turn on the timer. Click the stopwatch icon to open up the Timer.
-
-<img src=".Beeldbank_Manual_ENG/media/image12.png" style="width:6in;height:2.8in" />
-
-A list of active timers will show, click "Annuleren" or its English variant "Cancel"
-and restart the timer by clicking the stopwatch icon again.
-
-<img src=".Beeldbank_Manual_ENG/media/image13.png" style="width:6in;height:2.8in" />
-
+|Step|Explanation|
+|:--|:--|
+|**1**|Launch the Florisoft application and open the constants screen<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Manual_ENG/media/image1.png"></details>|
+|**2**|Navigate to the following path in the constants screen:<br>**Community**→**Image library**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Manual_ENG/media/image2.png"></details>|
+|**3**|Double click an image library, in the example image the Auction FloraHolland Aalsmeer was chosen.|
+|**4**|Enter the login username and password, the login credentials should have been provided.|
+|**5**|The link below should be pasted in the '*URL*' field. To make sure the information that has been provided is correct, you can go to the URL given. An example of such a URL is: https://ccx-cbb-wes-prd.shared.royalfloraholland.com/commercialcustomerwebservice.asmx|
+|**6**|Close the Image library setting screen and go back to the Florisoft Navigator.|
+|**7**|Click on the timer icon with the right mouse button and select the option '*Timer Settings*'.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Manual_ENG/media/image16.png"></details>|
+|**8**|The setting X Photo Download should be turned on, the settings shown are recommended, but other intervals are also posible, but they could lead to longer loading times. Find the setting in the table by using the key combination: **CTRL + SHIFT + F**. This opens a search prompt that can be used to search for the setting.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Manual_ENG/media/image17.png"></details>|
+|**8.b**|If you can't find the setting even using the search screen you may want to log in as a different user such as the timer user.|
+|**9**|Once you have found the right setting click it once to open the configuration screen on the right side of the window. Configure the time in which the timer process needs to be working and on which time interval it is executed.|
+|**10**|**Do NOT forget**: check the checkbox **Activate this script on timer startup**.
+|**11**|Do the same for the Timer setting **Clean X Photos** if it wasn't already configured.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Manual_ENG/media/image18.png"></details>|
+|**12**|Check if the advanced setting **ImageDestination** is configured right. If you do not have access to this setting contact Florisoft support so that they can check and or configure the property.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Manual_ENG/media/image8.png"></details>|
+|**13**|Open the constants screen once again and navigate to the following path: <br>**Locations**→**Auctions**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Manual_ENG/media/image19.png"></details>|
+|**14**|Click twice on a auction to open it, navigate to the folder called **Other**.|
+|**15**|Check if the settings in this folder are set correctly:**Use Photo ID of the image auction**: *needs to enabled.*<br>**Image library for photos**: *needs to be set to the corresponding auction*.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Manual_ENG/media/image19.png"></details>|
+|**16**|Save the changed settings by clicking on the **Ok** button and confirming the made changes. Go back to the navigator.|
+|**17**|Turn the timer on by clicking on the timer icon in the navigator.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Handleiding_NL/media/image12.png"></details>|
+|**18**|A list of active timers will show, click "Annuleren" or its English variant "Cancel" and restart the timer by clicking the stopwatch icon again.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Manual_ENG/media/image13.png"></details>|

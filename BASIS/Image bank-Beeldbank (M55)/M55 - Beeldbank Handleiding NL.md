@@ -1,75 +1,31 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png">
 
-# Florisoft Beeldbank Handleiding NL
+# Florisoft Handleiding Beeldbank M55
 
-
-Welkom bij de handleiding voor de module Beeldbank voor de desktop. Deze handleiding is ontworpen om de gebruikers de Beeldbank module aan te leren. Na het lezen van de handleiding, kan de gebruiker succesvol omgaan met de module.
-
-Wanneer je op de KLOK koopt, ontvang je een FOTOID nummer.
-Met de module beeldbank heb je de mogelijkheid om verschillende foto's te downloaden door de FOTOID te gebruiken. Wanneer je foto's download, zal Florisoft ze omzetten in 4 formaten.
+Welkom bij de handleiding voor de module Beeldbank voor de desktop Florisoft applicatie. Deze handleiding is ontworpen om de gebruikers de Beeldbank module aan te leren. Na het lezen van deze handleiding, kan de gebruiker succesvol omgaan met de Beeldbank module.
 
 ## Opzet
-Voordat er gebruik kan worden gemaakt van de Beeldbank module, moeten een paar instellingen worden aangepast.
 
-Start Florisoft op en ga naar de constanten.
+Voordat er gebruik gemaakt kan worden van de Beeldbank module moeten er eerst een paar instellingen worden aangepast. Volg hiervoor de onderstaande stappen:
 
-<img src=".Beeldbank_Handleiding_NL/media/image2.png" />
-
-Vervolgens volg je het pad Organen > Beeldbank. Dubbelklik vervolgens op de desbetreffende Beeldbank, in het voorbeeld hebben we FloraHolland Aalsmeer gekozen.
-
-Voer de Login-naam en Login-Wachtwoord in, deze zou verstrekt moeten zijn via (in dit geval) FloraHolland. Om zeker te maken dat de informatie klopt, kan je de URL gegeven volgen.
-
-Een voorbeeld van zo een URL is: https://ccx-cbb-wes-prd.shared.royalfloraholland.com/commercialcustomerwebservice.asmx 
-
-
-<img src=".Beeldbank_Handleiding_NL/media/image3.png"/>
-
-
-
-Na het inloggen via de URL, een soortgelijk scherm word zichtbaar.
-
-<img src=".Beeldbank_Handleiding_NL/media/image4.png"/>
-
-Ga terug naar Florisoft, en voer de gegevens in en sla ze op.
-
-Sluit de constanten en ga terug naar de Navigator (het thuis scherm).
-
-Klik met de rechter muisknop op de Timer knop en selecteer "Timer settings".
-
-<img src=".Beeldbank_Handleiding_NL/media/image5.png"/>
-
-
-Foto Download X Fotos moet aangezet worden. Deze bijkomende instellingen worden aangeraden (gemarkeerd)
-
-<img src=".Beeldbank_Handleiding_NL/media/image15.png"/>
-
-De tijden zijn zo ingesteld zodat de download vaak gebeurt en niet te lang duurt, maar dit kost wel iets aan tijd, de interval kan ook hoger gezet worden (15 minuten bijvoorbeeld) maar dit zorgt ervoor dat de download langer duurt.
-
-Klik hier op, er opent zich aan de rechterkant in hetzelfde scherm een nieuw venster, activeer hier het vinkje 'Dit script activeren bij het starten van de timer'.
-
-
-
-
-<img src=".Beeldbank_Handleiding_NL/media/image6.png"/>
-
-Navigeer nu naar de rechterkant van het scherm. Ga naar de tab "Instellingen". Daar zijn enkele instellingen die aangepast moeten worden. **!! Als de juiste instellingen niet weergeven als normale gebruiker, log in als de Timer gebruiker!!**
-
-Zorg dat je in de timer ook het 'timerproces' Xfotos opschonen aanvinkt als deze nog niet aan staat. (zo als te zien op bovenstaande foto)
-
-Tweede, zorg ervoor dat de afbeeldingen een bestemming hebben. Kies een locatie, hier worden de foto's geplaatst.
-
-<img src=".Beeldbank_Handleiding_NL/media/image8.png"/>
-
-Selecteer locaties > Veilingen en selecteer een veiling. Dubbel klik op de veiling, en vervolgens naar Overige in het nieuwe scherm. Kijk nu of de uitgelichte instellingen kloppen met de afbeelding.
-
-<img src=".Beeldbank_Handleiding_NL/media/image11.png"/>
-
-Sla de aanpassingen op (als die gemaakt zijn) en ga terug naar de Navigator.
-
-Nu moet de Timer aangezet worden, klik op de stopwatch om deze te starten.
-
-<img src=".Beeldbank_Handleiding_NL/media/image12.png"/>
-
-Een lijst van alle actieve Timers wordt weergeven, klik hier op annuleren om de timer te stoppen. Nadat hij succesvol gestopt is, klik nogmaals op de stopwatch om hem opnieuw op te starten.
-
-<img src=".Beeldbank_Handleiding_NL/media/image13.png"/>
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Start Florisoft en open het constantenscherm.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Handleiding_NL/media/image1.png"></details>|
+|**2**|In de constanten navigeer je naar het volgende pad:<br>**Organen**→**Beeldbank**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Handleiding_NL/media/image2.png"></details>|
+|**3**|Dubbelklik vervolgens op de desbetreffende Beeldbank. In het voorbeeld is er gekozen voor FloraHolland Aalsmeer.|
+|**4**|Voer de Login-naam en Login-Wachtwoord in, deze zou verstrekt moeten zijn via (in dit geval) FloraHolland. Om zeker te maken dat de informatie klopt, kan je de URL gegeven volgen.<br><br>Een voorbeeld van zo'n URL is:  https://ccx-cbb-wes-prd.shared.royalfloraholland.com/commercialcustomerwebservice.asmx|
+|**5**|Na het inloggen krijgt u een soortgelijk scherm te zien.|
+|**6**|U kan nu terug gaan naar de Florisoft navigator door de constanten te sluiten.|
+|**7**|Klik met de rechter muisknop op het timer icoon in de navigator en selecteer '*Timer settings*'.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Handleiding_NL/media/image3.png"></details>|
+|**8**|In de timer willen we de instelling 'Foto Download X Fotos' aanzetten. Vind de instelling in de tabel. **Tip:** Klik op de tabel en druk dan de toetsencombinatie **CTRL + SHIFT +  F** in, dit opent het zoeken scherm.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Handleiding_NL/media/image16.png"></details>|
+|**8.b**|Als de juiste instellingen niet weergeven als normale gebruiker, log in als de Timer gebruiker!!|
+|**9**|Als u de instelling eenmaal gevonden heeft klikt u er een keer op om de instelling te openen aan de rechterkant van het timer scherm. Stel de tijden in waar tussen het proces moet draaien en met welke interval het proces word uitgevoerd tijdens de start en stop tijd.|
+|**10**|**Niet vergeten**: zet ook de checkbox "*Dit script activeren bij het starten van timer*" ook aan!|
+|**11**|Doe hetzelfde voor het timerproces 'Xfotos opschonen' als deze nog niet aan staat.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Handleiding_NL/media/image6.png"></details>|
+|**12**|Check voor controle ook of de geavanceerde instelling '*ImageDestination*' correct is ingevuld. Mocht u hier geen toegang tot hebben neem dan contact op met Florisoft om de instelling correct in te laten vullen.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Handleiding_NL/media/image8.png"></details>|
+|**13**|Open nu het constantenscherm en navigeer naar het volgende pad: <br> **Locaties**→**Veilingen**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Handleiding_NL/media/image11.png"></details>|
+|**14**|Klik nu tweemaal op een veiling om het te openen, navigeer in dit veilingscherm naar de map '*Overige*'.|
+|**15**|Kijk in dit scherm of de volgende instellingen goed zijn ingesteld:<br>**Foto ID van de beeldveiling gebruiken**: *Hoort aan te staan*. <br>**Beeldbank voor Foto's**: *Staat op de bijhorende beeldbank voor de veiling*<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Handleiding_NL/media/image11.png"></details>|
+|**16**|Sla de aangepaste instellingen op door op '**Ok**' te drukken. Ga terug naar de navigator.|
+|**17**|Zet nu de timer aan dit doen we door op het stopwatch icoontje te drukken in de navigator.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Handleiding_NL/media/image12.png"></details>|
+|**18**|Een lijst van alle actieve Timers wordt weergeven, klik hier op annuleren om de timer te stoppen. Nadat hij succesvol gestopt is, klik nogmaals op de stopwatch om hem opnieuw op te starten.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Handleiding_NL/media/image13.png"></details>|
