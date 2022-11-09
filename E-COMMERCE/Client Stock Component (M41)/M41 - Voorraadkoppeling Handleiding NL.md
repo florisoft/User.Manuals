@@ -31,7 +31,7 @@ Hoe u dit doet word in dit hoofdstuk beschreven, volg hier voor de onderstaande 
 |**13**|Gebruik de legenda om de gebruikers te autoriseren die je rechten wil verlenen en druk dan op **Ok** om op te slaan.<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src=".Voorraadkoppeling Handleiding/media/image8.png"></details>|
 |**14**|Klik vervolgens nog een keer op **Ok** om de veranderingen op te slaan in de voorraad. Bevestig de veranderingen vervolgens nog een keer door op **ja** te drukken.|
 
-*U heeft zojuist een nieuwe voorraad angemakt waarmee een koppeling gemaakt kan worden.*
+*U heeft zojuist een nieuwe voorraad aangemakt waarmee een koppeling gemaakt kan worden.*
 
 
 ## Aanmaken van leverancier
