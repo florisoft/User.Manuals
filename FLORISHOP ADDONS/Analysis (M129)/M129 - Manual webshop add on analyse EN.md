@@ -312,7 +312,7 @@ Tag Manager.
 
 A summary of the publication appears. Tag Manager can now be closed.
 
-# 4 Change webhop settings
+# 4 Change webshop settings
 
 In addition to the settings in Google Analytics and Tag Manager, there must be a
 number of settings in the webshop can be adjusted.
@@ -387,11 +387,6 @@ The screenshots above give a global impression of Google Analytics in combinatio
 Google Analytics can be further configured according to your own wishes, so that the
 desired information is displayed. This is of course per customer different.
 
-**Do you have specific questions regarding Google Analytics or the to set up this, please contact us by telephone or e-mail
-Florisoft.**
-
-**Telephone:** (0)71 40 806 10  
-**Email:** support@florisoft.nl
 
 # 6 Other webshop add ons
 
@@ -546,8 +541,7 @@ shopping list.
 Previous orders can be expanded so that the user can see what kind of products are associated with them. The user can determine exactly which orders should be imported.
 
 **Interested in one or more of these add ons? Do not hesitate to
-to contact Florisoft by telephone or e-mail. We stand
-open to advice regarding the above add ons and how to fit them into your organization.**
+to contact Florisoft by telephone or e-mail.**
 
 **Telephone:** (0)71 40 806 10  
 **Email:** sales@florisoft.nl
