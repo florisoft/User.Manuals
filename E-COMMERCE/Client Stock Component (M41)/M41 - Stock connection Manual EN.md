@@ -1,97 +1,60 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png">
 
-# Stock connection Manual
+# Florisoft Manual Stock Connection (M41)
 
+Chapter 1 explains how to create seperate stock. Chapter 2 explains how to create a new supplier, and a stock connection. Follow the steps below to create/set up a stock connection.
 
-Chapter 1 explains how to create seperate stock.
-Chapter 2 explains how to create a new supplier, and a stock connection.
+## Table of contents 
 
-# 1 Creating stock
-The first few steps will require you to create a new stock in Florisoft. In this manual, we'll use Qualirosa as an example. Any information regarding Qualirosa should ofcourse be changed to the business you wish to make a stock connection with.
+[Creating a stock](#creating-a-stock)  
+[Creating a supplier](#creating-a-supplier)  
 
-First, navigate to the Constants in Florisoft.
+## Creating a stock
 
-<img src=".Stock connection manual/media/image2.png" />
+The first steps require the creation of a new stock in Florisoft application.
+Below you will find the steps to create stock:
 
-Now go to Location -> Stocks -> Stocks and create a new stock by pressing the feather (nr.1). Select "Template VMP koppeling"(nr.2) and press OK.
+|Step|Explanation|
+|:--|:--|
+|**1**|Open Florisoft and the constants screen.<details><summary><b>Click here for your example image!</b></summary><img src=".Stock connection manual/media/image1.png"></details>|
+|**2**|In the constants screen you will navigate to the following path:<Br>**Locations**(#1)→**Stocks**(#2)→**Stocks**(#3).<details><summary><b>Click here for your example image!</b></summary><img src=".Stock connection manual/media/image2.png"></details>|
+|**3**|Click on the plus icon '**+**' (#4) to create a new stock.|
+|**4**|The previous step opens a small window in which you can choose template. Select the template called '*Template VMP koppeling*'(#1) and press **Ok**(#2).<details><summary><b>Click here for your example image!</b></summary><img src=".Stock connection manual/media/image3.png"></details>|
+|**5**|A new screen opens; the stock creation / set up screen. Fill in the following fields: <br>- **Stock code**: *unique identifier code for the stock, to make this stock easily distinguishable put VMP in the stock code. This way you can make it clearly visible that this stock is a live stock*.<br>- **Description**: *The visible description of the stock, to make it even clearer you can put LIVE in the description field.*.<details><summary><b>Click here for your example image!</b></summary><img src=".Stock connection manual/media/image4.png"></details>|
+|**6**|Save the stock by pressing the **Ok** button. Reopen the newly created stock by double clicking its row in the constants screen.|
+|**7**|Navigate to the folder **Authorization**, you'll now see a table fith all the users on your screen. Authorize the users that need access to the stock. Don't forget to authorize your own users.<details><summary><b>Click here for your example image!</b></summary><img src=".Stock connection manual/media/image5.png"></details>|
+|**8**|After authorizing the right users navigate to the '**Carry out**' folder.|
+|**9**|Check if the following settups are set correctly like the example image below. <br>- **Box active**: Needs to be enabled, the field to the right of the checkbox does not need to be set to the same value as in the screenshot but needs to set to the right *Entrance control*.<br>- **Rest active**: Leave this disabled<br>- **Temporary stock active**: leave this disabled.<br>- **Don't carry out undivided parcels to the box**: Set this to enabled.<br>- **But do so with parcels with active pickorders**:  Set this to enabled<br>- **Carry out numbers**: Set to the dropdown option '*Full quantity, except for external parcels*'<br>**Remove zero-stock automatically**: Set this to enabled<br>**Minimal age for a parcel to be removed**: Set this to 2.<details><summary><b>Click here for your example image!</b></summary><img src=".Stock connection manual/media/image6.png"></details>|
+|**10**|After having checked the settings described in the previous step navigate to the tab '*Webshop*'.|
+|**11**|Check this tab for the follow settings:<br>- **Only make a sale visible after carrying out the division in the box**: disabled<br>- **This stock is available on the webshop**: enabled<br>- **Open hours**: Always open(99)<br>- **End time**: checkbox enabled and the textbox on 00:00:00<details><summary><b>Click here for your example image!</b></summary><img src=".Stock connection manual/media/image18.png"></details>|
+|**12**|Click on the button '*Accessible debtors*' this opens a new overview of all debtors. On the right side of the screen you'll find a legend of all the columns.|
+|**13**|Use the legend to authorize the debtors you want to be able to make changes in the stock. Click the **Ok* button to save the made changes.<details><summary><b>Click here for your example image!</b></summary><img src=".Stock connection manual/media/image7.png"></details>|
+|**14**|Click on the **Ok** button once more to confirm the made changes in the stock. You might be prompted with a confirmation windows simply click yes or ja. |
 
-<img src=".Stock connection manual/media/image3.png" />
+*You just made a new stock that will be used for the stock connection.*
 
-A new screen will open. Now enter a Stock code and a description. Make sure to add "VMP" before the business name and "live" after. This will make the stock easier to differentiate from other stocks.
+## Creating a supplier
 
-<img src=".Stock connection manual/media/image4.png" />
+A stock connection requires two things a stock and a supplier. In this chapter the process of creating a supplier is explained. If you already created a supplier for this connection you may start the steps below at step 6.
 
-Navigate to "Authorization" on the left side of the screen. There you will find all accounts. Because you're just made the stock, no user has been authorized to access it. By double clicking, or using space to select multiple, you can authorize users. If you've selected multiple, use the "Authorize / Block" button (nr.1). When you authorize a user, this user can access the stock from his/her own account. Make sure the right people have access to the stock.
+|Step|Explanation|
+|:--|:--|
+|**1**|Open the constants screen.<details><summary><b>Clik here for your example image!</b></summary><img src=".Stock connection manual/media/image1.png"></details>|
+|**2**|Navigate to the following path:<br>**Community**→**Supplier data**→**Suppliers**<details><summary><b>Clik here for your example image!</b></summary><img src=".Stock connection manual/media/image8.png"></details>|
+|**3**|Create a new supplier by clicking on the plus icon (+) #4. This should open a new supplier window.|
+|**4**|Fill out the the following fields:<br>- **Delivery code**: *Unique identifier*<br>- **Company name**: Complete company name<details><summary><b>Clik here for your example image!</b></summary><img src=".Stock connection manual/media/image9.png"></details>|
+|**5**|Navigate to the tab *Webservice* in the left side of the screen.|
+|**6**|Check the checkbox '*Activate for Stock-linking*'. The greyed out settings should now return to normal.|
+|**7**|Fill out the following settings under the header **Settings**<br>- **Type Webservice**: *Select the type of webservice the connection is based on. Is your supplier a Florisoft customer? If that is the case we recommend the usage of the Florisoft webservice option. If the supplier is not a customer then in most cases the webservice type will be 0p7. If it is neither of the aforementioned types then contact your supplier to see which webservice type you should select.*<br>- **URL**: *the link that Florisoft uses to approach the connection, this should be supplied by the supplier.*<br>- **UserID & Password**: *Enter the the login credentials for the coonection, this again should be supplied by the supplier.*<br>- **Incoming stock**: *Select the stock in which the the connection will place the stocks. Select the stock we created in the previous chapter.*.<details><summary><b>Clik here for your example image!</b></summary><img src=".Stock connection manual/media/image10.png"></details>|
+|**8**|Open the folder called '*Webservice*' in the left side of the screen and navigate to the subfolder '*Parcel request*'.|
+|**9**|Enable the checkbox '*Always get full stock instead of modifications*'. This only needs to done once as we need to disable this checkbox again later on in this manual.|
+|**10**|Navigate to the subfolder '*Parcel response*'|
+|**11**|In this screen you'll need to change the follow settings:<br>- **Default Articlegroup**: Set it to this '*Nieuw artikel (000000001)*' (New article in Dutch)<br>- **Store information in Expartij (uses a lot of space)**: enable this checkbox (Only visible for webservice type e-trade 0p7!)|
+|**12**|Click on **Ok** to confirm the made changes for the supplier. Reopen the supplier by clicking on twice on its row.<details><summary><b>Clik here for your example image!</b></summary><img src=".Stock connection manual/media/image11.png"></details>|
+|**13**|Navigate back to the folder '*Webservice*' after having filled out the previous fields correctly you should now be able to click on the button **Receive parcels**|
+|**14**|After pressing this button, a second screen will appear. Florisoft will now read all parcels, **DO NOT** interact with Florisoft during this process. Once its done a new screen should appear, see the example image below.<details><summary><b>Clik here for your example image!</b></summary><img src=".Stock connection manual/media/image14.png"></details>|
+|**15**|Once the process is done you should navigate back to the subfolder '*Webservice*' / '*Parcel request*'. Disable the checkbox '*Always get full stock instead of modifications*'<details><summary><b>Clik here for your example image!</b></summary><img src=".Stock connection manual/media/image19.png"></details>|
+|**16**|Since we have just imported the stock using the stock connection you may close the constants screen and go back to the Florisoft Navigator. Once in the navigator you should click on the '**Stocks** button. <details><summary><b>Clik here for your example image!</b></summary><img src=".Stock connection manual/media/image13.png"></details>|
+|**17**|When you have clicked the stocks, the newly made stock will appear in the stock list. Now when you click on the name, all imported parcels will show. When you duuble click on any line, an extra screen below will appear. You can add parcels there on the order list.<details><summary><b>Clik here for your example image!</b></summary><img src=".Stock connection manual/media/image17.png"></details><br><br>**Watch out with putting items in the lower screen for testing. If the debtor has a fast logistical process, items can actually be packed and shipped before you can remove it. Anything put in the lines that you finish, will be send to the debtor.**|
 
-**Make sure to also authorize the account you are creating the stock with! Otherwise you will not be able to see it.**
-
-<img src=".Stock connection manual/media/image5.png" />
-
-Navigate to "Carry out" on the left side of the screen. Once selected, make sure all boxes have been checked like in the picture below. Regarding "Box active" (nr.1), select a entrance check which is applicable to the stock. This does not have to be similair to the picture.
-
-<img src=".Stock connection manual/media/image6.png" />
-
-Laslty, navigate to "Webshop" on the left side of the screen. Make sure the settings are the same as in the picture below. Open hours: "Altijd Open" translates to "Always Open". This is the best option.
-
-<img src=".Stock connection manual/media/image7.png" />
-
-Lastly, access "Accessible debtors" on the bottom right of your screen. There you will see an overview of all debtors. You can give debtors permission based on what you want. Use the guide on the right of the screen to determine who can do what.
-
-<img src=".Stock connection manual/media/image9.png" />
-
-Once you have given the different debtors the rights, press OK.
-
-Now you can press OK again, to close the screen. If a window pops up asking to save the settings, click YES.
-
-Now you have made a new stock which you can use to make a connection
-
-# 2 Creating a supplier
-Execute the steps below to create a supplier which you can use in the stock connection.
-
-First, in the constants navigate to Community->Suppliers and create a new supplier by pressing the feather on the top of the screen.
-
-Now fill in the highlighted fields. Make sure that the deliverycode and "Find" are the same and contains "VMP". Also fill in the company name, make sure this is the name of the business which you are making a connection with.
-
-<img src=".Stock connection manual/media/image10.png" />
-
-Now navigate to "Web Service" on the left side of the screen. Once clicked, check the box next to "Activate for Stock-linking". Now you can fill in the information regarding the stock connection.
-
-All information which have to be filled in are hightlighted. This information has to be received by the debtor with whom you want to make a stock connection. The "Type Webservice", "Userid" and "Password" has to be received from the supplier.
-
-If the debtor has send files regarding these settings, these can be loaded into the system by pressing "Import" and selecting the file they send. This will be a ".adt" file. (There should be 2 files, when selecting a file only one should appear. This is enough.)
-
-Lastly, you will also have to fill in "Incoming stock". Here you can select the stock you have made before.
-
-<img src=".Stock connection manual/media/image11.png" />
-
-Now navigate to "Parcel request", which is a sub-setting of "Web Service". Here you will have to check "Always get full stock instead of modifications". **This only has to be once, after getting the stock you will have to turn this off.**
-
-<img src=".Stock connection manual/media/image12.png" />
-
-Now navigate to "Parcel response", which is also a sub-setting of "Web Service". On this page, there are a lot of settings. Only 2 of these are of importance for this manual. Other settings can be turned on/off anytime. The setting "Default Articlegroup" will have to be set to "Nieuw Artikel" or "New Article", and the box next to "Store information in ExPartij" will have to be checked.
-
-<img src=".Stock connection manual/media/image13.png" />
-
-Now press OK and save the changes. Then doubble click on the newly made supplier to get back in the settings.
-
-Now, navigate back to just "Web Service". When everything has been filled in correctly, you can press the button "Receive Parcels". Once clicked a seperate window will appear. Now Florisoft will load in the parcels from the debtor. Once it has been finished, the screen should look something like the picture below.
-
-<img src=".Stock connection manual/media/image14.png" />
-
-Now navigate back to the sub-setting of "Web Service", "Parcel request". Turn off "Always get full stock instead of modifications".
-
-<img src=".Stock connection manual/media/image15.png" />
-
-
-Now all the stock of the debtor has been imported. Close the constant and head back to the Florisoft Navigator. Click on Stocks.
-
-<img src=".Stock connection manual/media/image16.png" />
-
-When you have clicked the stocks, the newly made stock will appear in the stock list. Now when you click on the name, all imported parcels will show. When you duuble click on any line, an extra screen below will appear. You can add parcels there on the order list.
-
-**Watch out with putting items in the lower screen for testing. If the debtor has a fast logistical process, items can actually be packed and shipped before you can remove it. Anything put in the lines that you finish, will be send to the debtor.**
-
-<img src=".Stock connection manual/media/image17.png" />
-
-Now you have succesfully installed a stock connection with a debtor. Repeat the steps to do this with other debtors.
-
+*Now you have succesfully installed a stock connection with a debtor. Repeat the steps to do this with other debtors.*

@@ -63,7 +63,7 @@ Als u ook gebruik maakt van de Florishop modulen en dus een webshop afneemt via 
 |:--|:--|
 |**1**|Open een webbrowser (bij voorkeur Google Chrome) door tweemaal op het webbrowser icoon te drukken.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media_NL/image10.png"></details>|
 |**2**|Kopieer en plak (CTRL + C & CTRL + V) de webshop link/URL in de adresbalk (#2) en druk op de enter toets.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media_NL/image111.png"></details>|
-|**3**|Vul de gebruikersnaam van het management account in bij het veld Gebruikersnaam|
+|**3**|Vul de gebruikersnaam van het management account in bij het veld Gebruikersnaam<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media_NL/image11.png"></details>|
 |**4**|Vul het wachtwoord in bij het wachtwoord veld|
 |**5**|Klik op enter of klik de LOGIN knop(#5). U hoort nu ingelogd te zijn in de Florishop met uw account.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media_NL/image13.png"></details>|
 
