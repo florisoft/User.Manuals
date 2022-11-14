@@ -1,50 +1,33 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png">
 
-# Snelstart handleiding Mobile foto
+# Snelstart handleiding Mobile Photo - M131
 
-## Koppel foto’s met de Mobile foto add on
+Vanaf nu is het mogelijk om zelf foto’s te koppelen aan zowel bestel- als voorraadpartijen op de webshop. Deze snelstart handleiding biedt de gebruiker een overzicht om de Mobile foto add on te gebruiken.
 
-Vanaf nu is het mogelijk om zelf foto’s te koppelen aan zowel bestel-
-als voorraadpartijen op de webshop. Deze snelstart handleiding biedt de
-gebruiker een overzicht om de Mobile foto add on te gebruiken.
+## Koppel foto's met de Mobile Photo add-on (Backoffice gedeetle)
 
-<img src=".Snelstart handleiding webshop add on Mobile foto\media\image2.png" style="width:6.3in;height:3.19097in" />
+*Volg hier voor de onderstaande stappen*:
 
-**Stap 1: Autoriseer de gewenste gebruikers**
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Open het constantenscherm en navigeer naar het pad: <br>**Organen**→**Debiteurgegevens**→**Debiteuren**|
+|**2**|Open een debiteur door tweemaal op de bijhorende rij te drukken met de linkermuisknop.|
+|**3**|U heeft als het goed is zojuist een debiteurs instelling geopend. Navigeer in dit scherm naar het submapje: **Internet**→**Internet toegang**.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Snelstart handleiding webshop add on Mobile foto/media/image2.png"></details>|
+|**4**|Vink vervolgens het vinkje "*Mag partijfoto aanpassen*" aan.|
+|**5**|Herhaal deze stappen voor andere gebruikers die geautoriseerd horen te zijn.|
 
-**Actie:** autoriseer één of meerdere gebruikers door het vinkje ‘Mag
-partijfoto aanpassen’ aan te zetten in de debiteur instellingen. Open
-hiervoor de betreffende debiteur(en) in de Constanten (Constanten -&gt;
-Organen -&gt; Debiteuren)
+## Koppel foto's met de Mobile Photo add-on (Florishop gedeelte)
 
-Zet op het tabblad Internet -&gt; Webshop 2 het vinkje ‘Mag partijfoto
-aanpassen’.
+*De onderstaande stappen vinden plaats op de webshop, u kan de backoffice applicatie nu minimaliseren. Open vervolgens uw Florishop. Volg nu de onderstaande stappen:*
 
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Log in op uw Florisoft met een geautoriseerde gebruiker (een login met administratorrechten).|
+|**2**|Zoek vervolgens naar een partij (dit mag zowel voorraad als bestel zijn) waarvan de foto gewijzigd dient te worden.|
+|**3**|Klik vervolgens op het camera icoon om de foto te koppelen.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Snelstart handleiding webshop add on Mobile foto/media/image5.png"></details>|
+|**4**|Klik op de tekst '*Wijzig afbeelding*', dit opent een pop-up scherm.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Snelstart handleiding webshop add on Mobile foto/media/image4.png"></details>|
+|**5**|Voeg in dit scherm een afbeelding van uw lokale systeem (uw PC of telefoon) toe aan de webshop. U heeft hierna ook de keuze om de geselecteerde afbeelding bij te snijden.|
+|**6**|Zodra u klaar bent met het toevoegen van een afbeelding en het eventuele bijsnijden kan op de knop '**OPSLAAN**' druken.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Snelstart handleiding webshop add on Mobile foto/media/image3.png"></details>|
+|**7**|Er verschijnt nu een nieuwe foto op de webshop.|
 
-
-**Stap 2: Koppel een foto aan webshop partij**
-
-Zoek in de webshop de partij waaraan een foto gekoppeld moet worden. Dit
-mogen zowel bestel- als voorraad partijen zijn.
-
-<img src=".Snelstart handleiding webshop add on Mobile foto\media\image3.png" style="width:2.51042in;height:3.54722in" /><img src=".Snelstart handleiding webshop add on Mobile foto\media\image4.png" style="width:2.34375in;height:1.78194in" /><img src=".Snelstart handleiding webshop add on Mobile foto\media\image5.png" style="width:1.77083in;height:1.15849in" />
-
-**Actie:** log in met één van de geautoriseerde gebruikers en zoek de
-partij op de webshop waarvan de foto gewijzigd dient te worden.
-
--   Klik vervolgens op het camera icoon om de foto te koppelen.
-
--   Kies ‘Wijzig afbeelding’.
-
-<!-- -->
-
--   Selecteer een foto op een PC of mobile device.
-
--   **Optioneel:** maak een uitsnede van de foto.
-
--   Klik op de knop ‘OPSLAAN’
-
--   De nieuwe foto verschijnt nu op de webshop.
-
-Voor een meer gedetailleerde beschrijving van deze add on zie de
-handleiding webshop add on Mobile foto.
+**Voor een meer gedetailleerde beschrijving van deze add on zie de handleiding webshop add on Mobile foto.**
