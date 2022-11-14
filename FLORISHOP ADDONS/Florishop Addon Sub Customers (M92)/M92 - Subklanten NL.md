@@ -1,52 +1,44 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png">
 
-# FloriShop Subklanten
+# Florisoft Handleiding FloriShop Subklanten
 
-De module “Subklanten” maakt het mogelijk dat 1 gebruiker (Hoofdklant)
-voor meerdere klanten kan kopen op de shop.
+De module “Subklanten” maakt het mogelijk dat 1 gebruiker (Hoofdklant) voor meerdere klanten kan kopen op de shop.
+
+## Inhoudsopgave
+
+[Inhoudsopgave](#inhoudsopgave)  
+[Rechten toekennen](#rechten-toekennen)    
+[Kopen voor subklanten](#kopen-voor-subklanten)  
+[Mijn account](#mijn-account)  
 
 ## Rechten toekennen
 
-Een ingelogde debiteur kan normaal alleen koopjes voor zichzelf doen.
-Maar in Florisoft kan je bij de debiteur ook subklanten toevoegen. Voer
-hiervoor de volgende stappen uit:
+Een ingelogde debiteur kan normaal alleen koopjes voor zichzelf doen. Maar in Florisoft kan je bij de debiteur ook subklanten toevoegen. *Volg de onderstaande stappen uit*:
 
-1.  Open het constanten scherm
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Open het constantenscherm en navigeer naar het volgende pad:<br>**Organen**→**Debiteurgegevens**→**Debiteuren**<details><summary><b>Klik hier voor uw voorbeeld afbeeldingen</b></summary><img src=".Subklanten NL/media/image5.png"></details>|
+|**2**|Open de desbtreffende debiteur die je wil configureren als hoofdklant door er tweemaal op te klikken met de linkermuisknop.|
+|**3**|Navigeer binnen de debiteurkaart naar het submapje **Internet**/**Internet toegang**.|
+|**3**|In het scherm van het mapje *Internet toegang* klikt u op de knop *subklanten*.|
+|**4**|Een klein schermpje wordt geopend hier in kan u subklanten toevoegen.<details><summary><b>Klik hier voor uw voorbeeld afbeeldingen</b></summary><img src=".Subklanten NL/media/image1.png"></details>|
+|**5**|U heeft zojuist succesvol subklanten aan een hoofdklant toegevoegd.|
 
-2.  Open Organen -&gt; Debiteuren
-
-3.  Open de debiteur die je als hoofdklant wilt configureren
-
-4.  Open de tab Internet-&gt; Internet toegang
-
-5.  Druk op de knop subklanten
-
-6.  Voeg de subklanten toe waar de hoofdklant ook koopjes voor mag doen.
-
-<img src=".Subklanten NL\media\image1.png" style="width:6.26806in;height:5.39375in" />
 
 ## Kopen voor subklanten
 
-Nadat er subklanten aan de debiteur zijn toegekend waar je mee inlogt
-dan kan je ook kopen voor deze subklanten doen. Dit kan in de
-lijstweergave maar ook in het detail van elke partij
+Nadat er subklanten aan de debiteur zijn toegekend waar je mee inlogt dan kan je ook kopen voor deze subklanten doen. Dit kan in de lijstweergave maar ook in het detail van elke partij
 
-<img src=".Subklanten NL\media\image2.png" style="width:6.26806in;height:3.78958in" />
-
-<img src=".Subklanten NL\media\image3.png" style="width:6.26806in;height:4.16875in" />
+<details><summary><b>Klik hier voor uw voorbeeld afbeeldingen</b></summary><img src=".Subklanten NL/media/image2.png"><img src=".Subklanten NL/media/image3.png"></details>
 
 ## Mijn account
 
-Daarnaast kan je onder “Mijn account”ook informatie opvragen voor de
-gekoppelde subklanten. In de volgende schermen kan je opvragen voor de
-geselecteerde subklant:
+Daarnaast kan je onder “Mijn account”ook informatie opvragen voor de gekoppelde subklanten. In de volgende schermen kan je opvragen voor de geselecteerde subklant:
 
--   Klantgegevens
+* Klantgegevens
+* Facturen
+* Open posten
+* Commissies
 
--   Facturen
+<details><summary><b>Klik hier voor uw voorbeeld afbeeldingen</b></summary><img src=".Subklanten NL/media/image4.png"></details>
 
--   Open posten
-
--   Commissies
-
-<img src=".Subklanten NL\media\image4.png" style="width:6.00084in;height:5.92791in" />
