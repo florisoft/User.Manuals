@@ -1,8 +1,8 @@
 <img src="../../fslogo.png">
 
-# Handleiding Florisoft Aanbiedingslijsten (M33)
+# Handleiding Florisoft Special offers (M33)
 
-Deze handleiding beschrijft de werking van de module Aanbiedingslijsten. Deze module wordt gebruikt voor het versturen van aanbiedingen naar de klant via e-mail of PDF. Op deze manier zijn bepaalde producten beter onder de aandacht te brengen van de klant.
+Deze handleiding beschrijft de werking van de module Special offers. Deze module wordt gebruikt voor het versturen van aanbiedingen naar de klant via e-mail of PDF. Op deze manier zijn bepaalde producten beter onder de aandacht te brengen van de klant.
 
 Hoofdstuk één beschrijft in een aantal stappen, ondersteunt met afbeeldingen, hoe een aanbieding opgemaakt en verstuurt wordt.
 
