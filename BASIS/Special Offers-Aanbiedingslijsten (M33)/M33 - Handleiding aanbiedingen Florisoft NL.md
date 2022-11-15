@@ -4,7 +4,7 @@
 
 Deze handleiding beschrijft de werking van de module Aanbiedingslijsten. Deze module wordt gebruikt voor het versturen van aanbiedingen naar de klant via e-mail of PDF. Op deze manier zijn bepaalde producten beter onder de aandacht te brengen van de klant.
 
-Hoofdstuk één beschrijft in een aantal stappen, ondersteund met afbeeldingen, hoe een aanbieding opgemaakt en verstuurt wordt.
+Hoofdstuk één beschrijft in een aantal stappen, ondersteunt met afbeeldingen, hoe een aanbieding opgemaakt en verstuurt wordt.
 
 **Let op: afbeeldingen in deze handleiding kunnen enigszins afwijken van hetgeen wat jij op jouw scherm te zien krijgt.**
 
