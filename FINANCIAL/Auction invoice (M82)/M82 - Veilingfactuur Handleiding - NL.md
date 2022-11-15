@@ -41,4 +41,4 @@ Zodra je de informatie hebt ingevuld, en dit klopt, krijg je het volgende scherm
 |**7**|Aan de linker kant vind je de status van de verschillende rijen. Hier kan je erachter komen wat Florisoft gedaan heeft met de factuur. Florisoft geeft ook foutmeldingen als er iets niet klopt, vaak is dit zelf op te lossen. Probeer het dan opnieuw.
 |**8**|Als je een bepaalde rij in meer detail wilt zien, kan je op de rij dubbel klikken.
 
-Sommige problemen kunnen niet zo 123 opgelost worden, benader dan de support afdeling van Florisoft zodat we je verder kunnen helpen.
+> :memo: Sommige problemen kunnen niet zo 123 opgelost worden, benader dan de support afdeling van Florisoft zodat we je verder kunnen helpen.
