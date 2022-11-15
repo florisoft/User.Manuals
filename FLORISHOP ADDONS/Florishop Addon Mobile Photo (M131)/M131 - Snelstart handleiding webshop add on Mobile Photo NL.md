@@ -26,8 +26,7 @@ Vanaf nu is het mogelijk om zelf foto’s te koppelen aan zowel bestel- als voor
 |**2**|Zoek vervolgens naar een partij (dit mag zowel voorraad als bestel zijn) waarvan de foto gewijzigd dient te worden.|
 |**3**|Klik vervolgens op het camera icoon om de foto te koppelen.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Snelstart handleiding webshop add on Mobile foto/media/image5.png"></details>|
 |**4**|Klik op de tekst '*Wijzig afbeelding*', dit opent een pop-up scherm.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Snelstart handleiding webshop add on Mobile foto/media/image4.png"></details>|
-|**5**|Voeg in dit scherm een afbeelding van uw lokale systeem (uw PC of telefoon) toe aan de webshop. U heeft hierna ook de keuze om de geselecteerde afbeelding bij te snijden.|
+|**5**|Voeg in dit scherm een afbeelding van uw lokale systeem (uw PC of telefoon) toe aan de webshop. U heeft hierna ook de keuze om de geselecteerde afbeelding bij te snijden. Zie hier een aantal voorbeelden: <details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Snelstart handleiding webshop add on Mobile foto/media/image7.png"></details> en <details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Snelstart handleiding webshop add on Mobile foto/media/image7.png"></details>|
 |**6**|Zodra u klaar bent met het toevoegen van een afbeelding en het eventuele bijsnijden kan op de knop '**OPSLAAN**' druken.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Snelstart handleiding webshop add on Mobile foto/media/image3.png"></details>|
 |**7**|Er verschijnt nu een nieuwe foto op de webshop.|
 
-**Voor een meer gedetailleerde beschrijving van deze add on zie de handleiding webshop add on Mobile foto.**
