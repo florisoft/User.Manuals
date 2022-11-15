@@ -1,6 +1,6 @@
 <img src="../../fslogo.png">
 
-# Florisoft Handleiding incasso
+# Florisoft Handleiding Automatic Bank Withdrawl (SEPA)
 
 In deze handleiding wordt uitgelegd hoe je een incasso kan versturen naar uw klanten.
 

@@ -1,6 +1,6 @@
 <img src="../../fslogo.png">
 
-# Florisoft Manual Direct Debit (M29)
+# Florisoft Automatic Bank Withdrawl (M29)
 
 This manual will explain how you can send a Direct Debit (SEPA) message to your customers.
 
@@ -18,7 +18,7 @@ Chapter 1 will cover the set up process that is done by the debtor and yourself.
 
 ## Entering Direct Debit (Incasso) data
 
-First we'll need to enter our own company's data correctly into Florisoft. Follow the steps below to do this:
+First we will need to enter our own company's data correctly into Florisoft. Follow the steps below to do this:
 
 |Step|Explanation|
 |:--|:--|
