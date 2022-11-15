@@ -37,5 +37,5 @@ Dit hoofdstuk beschrijft de stappen die nodig zijn voor het versturen van aanbie
 |**20**|Druk op de "**Print**" knop om te printen, dit opent het printen scherm.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding aanbiedingen mail Florisoft/media/image14.png"></details>|
 |**21**|Selecteer de juiste instellingen, en druk op OK om te printen. Hieronder een korte beschrijving van de instellingen aan de hand van de onderstaande afbeeldingen.<br><details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding aanbiedingen mail Florisoft/media/image15.png"></details>|
 
-De add-on module [Active E-mail](https://github.com/florisoft/User.Manuals/tree/main/E-COMMERCE/Active%20email%20(M56)) biedt extra functionaliteit om opgemaakte aanbiedingen in html naar klanten te versturen. Van hieruit klikt de klant direct door naar de betreffende partij in de webshop.
-Vraag hiervoor een offerte aan via support of receptie. 
+
+> :memo: De add-on module [Active E-mail](https://github.com/florisoft/User.Manuals/tree/main/E-COMMERCE/Active%20email%20(M56)) biedt extra functionaliteit om opgemaakte aanbiedingen in html naar klanten te versturen. Van hieruit klikt de klant direct door naar de betreffende partij in de webshop. Vraag hiervoor een offerte aan via support of receptie. 
