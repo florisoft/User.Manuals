@@ -34,5 +34,4 @@ This chapter describes how to make special offers in Florisoft. For this manual,
 |**20**|Close this screen and press "**Print**" in the offer screen..<details><summary><b>Click here for your example image</b></summary><img src=".Handleiding aanbiedingen mail Florisoft/media/image14.png"></details>|
 |**21**|Select the desired settings, and your offer will print!<br><details><summary><b>Click here for your example image</b></summary><img src=".Handleiding aanbiedingen mail Florisoft/media/image15.png"></details>|
 
-The add-on module [Active E-mail](https://github.com/florisoft/User.Manuals/tree/main/E-COMMERCE/Active%20email%20(M56)) offers additional functionality to send special offers in an email in html format to your customers. This takes your customers to the special offer in your webshop in one click.
-To enable this module please ask support or reception.
+> :memo: The add-on module [Active E-mail](https://github.com/florisoft/User.Manuals/tree/main/E-COMMERCE/Active%20email%20(M56)) offers additional functionality to send special offers in an email in html format to your customers. This takes your customers to the special offer in your webshop in one click. To enable this module please ask support or reception.

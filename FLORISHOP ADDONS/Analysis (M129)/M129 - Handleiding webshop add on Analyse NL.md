@@ -29,27 +29,6 @@ lijndiagrammen en andere statistische elementen. Deze elementen worden
 gezamenlijk weergegeven op een dashboard, zodat alle relevante
 informatie overzichtelijk in één scherm wordt weergegeven.
 
-Het dashboard is vervolgens volledig naar eigen inzicht in te richten.
-Daarnaast biedt Google Analytics ook de mogelijkheid om meer
-gedetailleerde weergaven te tonen over de verkopen via de webshop.
-
-Hoofdstuk twee beschrijft het aanmaken en instellen van Google
-Analytics. Dit is de software die gebruikt wordt voor het weergeven van
-informatie in de vorm van grafieken, staafdiagrammen, tabellen, etc.
-
-In hoofdstuk drie wordt de werking van Google Tag Manager beschreven. De
-Tag Manager is software op de achtergrond die verschillende activiteiten
-op de webshop afvangt en deze doorstuurt naar Google Analytics.
-
-Hierna beschrijft hoofdstuk vier het koppelen van Google Analytics aan
-de webshop, zodat deze data door kan sturen naar de Tag Manager en
-Analytics.
-
-Tenslotte wordt in hoofdstuk vijf een overzicht gegeven van de overige
-add ons. Naast de Analyse add on biedt de webshop nog meer interessante
-uitbreidingen. Voor iedere add on wordt in het kort beschreven wat deze
-qua functie doet.
-
 Het doel van deze handleiding is dat de gebruiker zelf de add on Analyse
 kan inrichten en gebruiken.
 
@@ -77,14 +56,10 @@ bestaat. Mocht er al een Google account beschikbaar zijn, dan kan deze
 gebruikt worden. Aangeraden wordt om zakelijke en privé accounts
 gescheiden te houden.**
 
-1.  Zoek via Google naar ‘Google Analytics’ en login of maak een nieuw
-    Google Account aan. Na de eerste keer inloggen bij Google Analytics
-    verschijnt er een welkomstscherm.
 
-2.  Klik op de knop ‘Aanmelden’. (nr. 1) Het venster ‘Nieuw account’
-    verschijnt. Zie volgende pagina.
+1. Zoek via Google naar ‘Google Analytics’ en login of maak een nieuw Google Account aan. Na de eerste keer inloggen bij Google Analytics verschijnt er een welkomstscherm.
+2. Klik op de knop ‘Aanmelden’. (nr. 1) Het venster ‘Nieuw account’ verschijnt. <details><img src=".Handleiding webshop add on Analyse.docx\media\image2.png" style="width:3.4203in;height:1.41346in" /><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary></details>
 
-<img src=".Handleiding webshop add on Analyse.docx\media\image2.png" style="width:3.4203in;height:1.41346in" />
 
 Nu wordt gevraagd om een nieuw account aan te maken binnen Google
 Analytics. De webshop wordt gekoppeld aan dit account. Op deze manier is
@@ -94,12 +69,8 @@ Google Analytics in staat om de webshop te monitoren binnen dit account.
 > Google Analytics omgeving. Iedere applicatie is gekoppeld aan een
 > eigen account.
 
-1.  Kies bij ‘Wat wilt u graag bijhouden?’ voor website. (nr. 2)
-
-2.  Vul bij ‘Accountnaam’ een naam in voor het aan te maken account.
-    (nr. 3) Dit mag iedere naam zijn. Aangeraden wordt om een duidelijke
-    naam te bedenken die gerelateerd is aan de webshop, zodat duidelijk
-    is dat dit account gebruikt in relatie tot de webshop.
+1. Kies bij ‘Wat wilt u graag bijhouden?’ voor website. (nr. 2)
+2. Vul bij ‘Accountnaam’ een naam in voor het aan te maken account. (nr. 3) Dit mag iedere naam zijn. Aangeraden wordt om een duidelijke naam te bedenken die gerelateerd is aan de webshop, zodat duidelijk is dat dit account gebruikt in relatie tot de webshop.
 
 <img src=".Handleiding webshop add on Analyse.docx\media\image3.png" style="width:5.78125in;height:5.21472in" />
 
