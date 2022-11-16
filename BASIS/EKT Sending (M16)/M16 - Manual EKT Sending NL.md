@@ -1,9 +1,9 @@
 <img src="../../fslogo.png">
 
-# Florisoft Commisionair Handleiding (M16)
+# Florisoft EKT Sending Handleiding (M16)
   
 
-De handleiding module Commissionair Florisoft beschrijft de werking van de module Commissionair binnen Florisoft. Deze module wordt gebruikt voor het versturen van partijgegevens tussen een commissionair en klant via EKT-berichten. Op deze manier wordt het mogelijk om verkochte/gekochte producten te im- en exporteren tussen verschillende systemen.
+De handleiding module EKT Sending Florisoft beschrijft de werking van de module EKT Sending binnen Florisoft. Op deze manier wordt het mogelijk om verkochte/gekochte producten te im- en exporteren tussen verschillende systemen.
 
 **Let op: afbeeldingen in deze handleiding kunnen enigszins afwijken van hetgeen u op uw scherm te zien krijgt.**
 
@@ -21,7 +21,7 @@ De handleiding module Commissionair Florisoft beschrijft de werking van de modul
 ## 1 Factuurpartijen via EKT-verzenden
 
 Dit hoofdstuk beschrijft de stappen die nodig zijn voor het versturen van aanbiedingen vanuit Florisoft. Hiervoor is de module
-‘Commissionair’ vereist. Deze module maakt het mogelijk om verkochte partijen in het systeem van de klant te krijgen. De werking van deze module wordt hieronder stap voor stap uitgelegd.
+EKT Sending vereist. Deze module maakt het mogelijk om verkochte partijen in het systeem van de klant te krijgen. De werking van deze module wordt hieronder stap voor stap uitgelegd.
 
 |Stap|Uitleg|
 |:--|:--|

@@ -1,19 +1,9 @@
 ﻿<img src="../../fslogo.png">
 
-# Florisoft Commisionair Manual (M16)
+# Florisoft EKT Sending Manual (M16)
   
-Welcome to the Florisoft Commissionair manual for the PDA. This guide is
-designed to teach the users how to use the Commissionair module on a PDA.
-After reading the guide, the user is able to successfully use the Commissionair module.
-
-This module is used when data from parties has to be exchanged between
-customer and the commission agent using EKT-messages. Using the module,
-it makes it possible to import and export sold/bought products in
+Welcome to the Florisoft EKT Sending manual for the PDA. This module is used when data from parties has to be exchanged between customer and the commission agent using EKT-messages. Using the module, it makes it possible to import and export sold/bought products in
 different systems.
-
-If the user experiences any difficulties with the Commissionair module at
-any time, or if the current manual does not cover the desired
-functionalities, please contact support.
 
 **Screenshots used in this manual might differ from what you'll see on your screen. This is due to Florisoft being updated continually, do however note that the core process will remain the same.**
 
