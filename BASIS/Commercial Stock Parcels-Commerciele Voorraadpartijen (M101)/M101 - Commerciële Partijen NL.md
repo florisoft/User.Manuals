@@ -1,7 +1,7 @@
 <img src="../../fslogo.png"/>
 
 
-**Commerciële partijen**
+# Florisoft Handleiding Commerciële Partijen (M101)
 
 Zodra je beschikt over de module Commerciële Voorraad Partijen heb je bij de
 voorraadinstellingen in de constanten een nieuw tabblad en bij het setup

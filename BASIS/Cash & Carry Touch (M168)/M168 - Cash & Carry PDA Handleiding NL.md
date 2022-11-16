@@ -1,8 +1,6 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png">
 
-# **Florisoft Cash & Carry PDA Handleiding**
-
-## 1 Voorwoord
+# Florisoft Handleiding Cash & Carry PDA (M168)
 
 Welkom bij de Florisoft Cash & Carry handleiding voor het gebruik op de PDA. Deze handleiding is gemaakt om de gebruiker de Cash & Carry module te leren. Na het lezen van de handleiding, kan de gebruiker succesvol de module gebruiken.
 
@@ -14,74 +12,42 @@ Het derde en laatste hoofdstuk laat de verschillende opties zien die de Cash & C
 
 Als de gebruiker problemen ervaart tijdens het gebruik van de module of de handleiding, wordt aangeraden om het support nummer te bellen.
 
-## 2 De Cash & Carry module starten
+## Table of contents
 
-Stap 1: Om de Cash & Carry module te starten, start via het thuisscherm de Florisoft applicatie op.
+[De cash & carry module starten](#de-cash--carry-module-starten)  
+[Het vullen van bestellingen](#het-vullen-van-de-bestelling)  
+[Laatste dingen](#laatste-dingen)
 
-<img src=".Cash &amp; Carry PDA Handleiding\media\image2.png" />
+## De Cash & Carry module starten
 
-Stap 2: Gebruik de Sales-functie in de Florisoft applicatie.
+*Volg de onderstaande instructies om de cash & carry module op uw PDA te starten*:
 
-<img src=".Cash &amp; Carry PDA Handleiding\media\image3.png" />
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Om de Cash & Carry module te srtaten, start u via het thuisscherm de Florisoft applicatie op.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image2.png"></details>|
+|**2**|Eenmaal in de Florisoft applicatie klikt u op de menu kop '*Sales*' om de sales functie in Florisoft te starten.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image3.png"></details>|
+|**3**|Voer in het lege veld naast de tekst '*Seller*' uw verkoper code in. Dit doet u door op het veld te klikken en de code in te typen in het zojuist verschenen toetsenbord.<Br> **Hoe het toetsenbord er uit ziet kan per apparaat verschillen.**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image4.png">      <img src=".Cash & Carry PDA Handleiding/media/image5.png"></details>|
+|**4**|Als de verkoper door het systeem herkent wordt zal de volledige naam in rood weergeven worden onder de ingevoerde code.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image6.png"></details>|
+|**5**|Vul nu een debiteurcode in bij het lege veld naast '*Debtor*'. U tikt/klikt eenmaal op het lege veld en typt de debtieurcode in met het pop-up toetsenbord. De volledige naam van de debiteur zal rood weergeven worden onder het invoerveld.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image7.png"></details>|
+|**6**|Klik vervolgens op de **Ok** knop om door te gaan.|
+|**7**|U krijgt nu een scherm te zien waar in u een ordernummer kan toevoegen.<br>Om de verschillende bestellingen bij te houden, staat de Cash & Carry module de gebruiker toe om eigen ordernummers te creeren. Deze nummer kunnen Alpha-numeriek zijn, ofwel het mag zowel nummers als letters bevatten. Druk op het open veld en voer het unieke ordernummer in. Er is een limiet op 10 karakters.<br><br>**!!De ordernummer moet uniek zijn, anders kan het systeem de verschillende bestellingen niet van elkaar onderscheiden.!!**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image8.png"></details>|
+|**8**|Klik nu op de *Ok* om door te gaan|
 
-Stap 3: Voer een verkoper code in. Dit doe je door op het lege veld te klikken, vlak naast "Seller" Gebruik het keyboard dat verschijnt om de code in te voeren.
+## Het vullen van de bestelling
 
-**Hoe het keyboard eruit ziet kan verschillen per apparaat**
+Na het instellen en opstarten van de PDA + Florisoft zoals beschreven in het vorige hoofdstuk, is de PDA klaar voor gebruik. *Hieronder vind u beschrijving van het gebruik van de PDA.*
 
-<img src=".Cash &amp; Carry PDA Handleiding\media\image4.png" />
+|#|Uitleg|
+|:--|:--|
+|**1**|De PDA kan nu gebruikt worden om producten te scannen om ze toe te voegen aan de bestelling. De code van het gescande product zal onder worden weergeven. Een overzicht van alle gescande producten zal daarboven worden weergeven. *Een product kan ook handmatig worden ingevoerd.*<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image9.png"></details>|
+|**2**|Producten kunnen ook handmatig ingevoerd worden door op de '*search*' knop te drukken boven het open veld.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image10.png"></details>|
+|**3**|Een selectie van producten kan gemaakt worden en toegevoegd aan de bestelling, klik op de verschillende producten. Deze krijgen een gele gloed als ze geselecteerd zijn, klik enter om ze toe te voegen.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image11.png"></details>|
+|**4**|Om makkelijker te zoeken, kan de gebruiker gebruik maken van de 'Groups' functie. Zodra het geklikt is, laat de PDA verschillende productgroepen zien. Selecteer een van de groepen en klik enter, alle producten binnen de productgroep zullen weergeven. Selecteer de gewilde producten en klik enter.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image12.png"></details>|
+|**5**|Om de hoeveelheid te veranderen, klik op het open veld onder 'package'.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image14.png">       <img src=".Cash & Carry PDA Handleiding/media/image13.png"></details>|
+|**6**|Zodra de producten toegevoegd zijn aan de bestelling, moet het scherm vergelijkbaar zijn met de onderstaande foto. De waardes zullen afwijken. Klik de 'Finish' knop om verder te gaan.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image15.png"></details>|
 
-<img src=".Cash &amp; Carry PDA Handleiding\media\image5.png" />
+## Laatste dingen
 
-Als de verkoper herkent wordt door het systeem, zal de volledige naam in rood weergeven onder de ingevoerde code.
+*<p style="color : blue">Zodra de bestelling gevuld is, druk op de 'finish' knop, waarna je 8 verschillende opties hebt. Bijvoorbeeld het printen van een paklijst, een factuur en/of adres stikkers, resetten van alle sales (void sales) en het versturen van de sales naar een kassa medewerker.</p>*
 
-<img src=".Cash &amp; Carry PDA Handleiding\media\image6.png" />
-
-Stap 4: Voer een debiteur code in. Net zoals de verkoper code, tik op het open veld naast "Debtor" om toegang te krijgen tot het pop-up keyboard. De volledige naam van de debiteur zal in rood worden weergeven onder het veld.
-
-<img src=".Cash &amp; Carry PDA Handleiding\media\image7.png" />
-
-Druk op OK om verder te gaan.
-
-Stap 5: Voeg een ordernummer toe. Om de verschillende bestellingen bij te houden, staat de Cash & Carry module de gebruiker toe om eigen ordernummers te creeren. Deze nummer kunnen Alpha-numeriek zijn, ofwel het mag zowel nummers als letters bevatten. Druk op het open veld en voer het **<u>unieke</u>** ordernummer in. Er is een limiet op 10 karakters.
-
-**!!De ordernummer moet uniek zijn, anders kan het systeem de verschillende bestellingen niet van elkaar onderscheiden.!!**
-
-<img src=".Cash &amp; Carry PDA Handleiding\media\image8.png" />
-
-Klik op OK om verder te gaan.
-
-## 3 Het vullen van de bestelling
-
-Na het instellen en opstarten van de PDA + Florisoft zoals beschreven in het vorige hoofdstuk, is de PDA klaar voor gebruik.
-
-De PDA kan nu gebruikt worden om producten te scannen om ze toe te voegen aan de bestelling. De code van het gescande product zal onder worden weergeven. Een overzicht van alle gescande producten zal daarboven worden weergeven. *Een product kan ook handmatig worden ingevoerd*
-
-<img src=".Cash &amp; Carry PDA Handleiding\media\image9.png" />
-
-Producten kunnen ook handmatig ingevoerd worden door op de 'search' knop te drukken boven het open veld.
-
-<img src=".Cash &amp; Carry PDA Handleiding\media\image10.png" />
-
-Een selectie van producten kan gemaakt worden en toegevoegd aan de bestelling, klik op de verschillende producten. Deze krijgen een gele gloed als ze geselecteerd zijn, klik enter om ze toe te voegen.
-
-<img src=".Cash &amp; Carry PDA Handleiding\media\image11.png" />
-
-<img src=".Cash &amp; Carry PDA Handleiding\media\image12.png" />
-
-Om makkelijker te zoeken, kan de gebruiker gebruik maken van de 'Groups' funcite. Zodra het geklikt is, laat de PDA verschillende productgroepen zien. Selecteer een van de groepen en klik enter, alle producten binnen de productgroep zullen weergeven. Selecteer de gewilde producten en klik enter.
-
-Om de hoeveelheid te veranderen, klik op het open veld onder 'package'.
-
-<img src=".Cash &amp; Carry PDA Handleiding\media\image14.png" />
-<img src=".Cash &amp; Carry PDA Handleiding\media\image13.png" />
-
-Zodra de producten toegevoegd zijn aan de bestelling, moet het scherm vergelijkbaar zijn met de onderstaande foto. De waardes zullen afwijken. Klik de 'Finish' knop om verder te gaan.
-
-<img src=".Cash &amp; Carry PDA Handleiding\media\image15.png" />
-
-## 4 Laatste dingen
-
-Zodra de bestelling gevuld is, druk op de 'finish' knop, waarna je 8 verschillende opties hebt. Bijvoorbeeld het printen van een paklijst, een factuur en/of adres stikkers, resetten van alle sales (void sales) en het versturen van de sales naar een kassa medewerker.
-
-<img src=".Cash &amp; Carry PDA Handleiding\media\image16.png" />
-<img src=".Cash &amp; Carry PDA Handleiding\media\image17.png" />
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image16.png">       <img src=".Cash & Carry PDA Handleiding/media/image17.png"></details>
