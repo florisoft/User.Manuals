@@ -1,10 +1,10 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png">
 
-# Florishield
+# Florisoft Handleiding FloriShield (M96)
 
 ## License
 
-to use the florisoft monitor the license for "*~Florishield*" is required. After activation in the license file, a license update has to be done in the client.
+To use the florisoft monitor the license for "*Florishield*" is required. After activation in the license file, a license update has to be done in the client.
 
 ## Operation
 
@@ -18,73 +18,77 @@ In the future, a ***FloriShield IT Client*** and ***FloriShield Support Client**
 
 To ensure that a Florisoft client can be monitored, this must be enabled for the logged in user. For this, *FS-2000 FloriShield setting* must be set to **True**.
 
-<img src="florishield.eng\foto15.png">
+<details><summary><b>Click here for your example image!</b></summary><img src="florishield.eng/foto15.png"></details>
 
-When this user starts Florisoft, the ***FloriShield service*** is also started and this Florisoft can be controlled by the ***FloriShield Client***
+*To do this follow the steps below*:
 
-<img src="florishield.eng\foto1.png">
+|Step|Explanation|
+|:--|:--|
+|**1**|Click twice on the username in the bottom left corner of the Florisoft navigator screen, this opens a new window.|
+|**2**|Click on the '*inifiles* button in the left side of the screen. This again opens a new screen.|
+|**3**|In the *Inifile* dropdown select '**FS2000**' this updates the table below.|
+|**4**|In the table scroll down to the setting tab '*FloriShield*' and set the setting '*FloriShield*' to true.|
+
+When this user starts Florisoft, the FloriShield service is also started and this Florisoft can be controlled by the ***FloriShield Client***.
+
+<details><summary><b>Click here for your example image!</b></summary><img src="florishield.eng/foto1.png"></details>
 
 The selected icon indicates that the service is active. Make sure that the "MEER" parameter is also included in the shortcut to start the Florisoft Client.
 
-To start the ***FloriShield Client***, a shortcut must be made to Florisoft 2000.exe with the option /MONITOR MEER
+#### Starting the FloriShield Client
 
-C:\fsnet\Splash\florisoft 2000.exe /MONITOR MEER
+|Step|Explanation|
+|:--|:--|
+|**1**|Create a new shortcut to the Florisoft2000 executable with the launch option "**/MONITOR MEER**" (without " "). You can do this by creating a new shortcut on your desktop by rightclicking choosing **new** and then clicking on the option "**shortcut**". <details><summary><b>Click here for your example image!</b></summary><img src="florishield.eng/image21.png"></details>|
+|**2**|You should now be prompted with an input screen where you have to enter the path to the florisoft2000 executable. Most of the times you can use the following path:<br>"*C:\fsnet\Splash\florisoft 2000.exe*".|
+|**3**|Click on the '*next*' button, enter the name for the shortcut and click on the '*finish*' button.|
+|**4**|Click on the newly created shortcut with the right mouse button and click ont the menu option '*properties*'<details><summary><b>Click here for your example image!</b></summary><img src="florishield.eng/image23.png"></details>|
+|**5**|In the input field called '*Target*' you will see the Florisoft2000 path you entered before. In this field you'll need to add the following behind the path " /MONITOR MEER" (Without the " ", but with the whitespace)<details><summary><b>Click here for your example image!</b></summary><img src="florishield.eng/image24.png"></details>|
+|**6**|Click on the '*apply*' button and close the properties screen.|
+|**7**|You may now open the FloriShield client by launching the shortcut.|
 
-When started, you will get the following screen:
+Open the Florisoft backoffice application so that we can check some FloriShield settings.
 
-<img src="florishield.eng\image16.png">
-
-
-And in the Constants under System > FloriShield
-
-<img src="florishield.eng\image17.png">
-
-Email: Not working. We work with Telegram. SMS Number: Not working. We work with Telegram
-Interval: Time in seconds between 2 checks
-ProcessTime: The maximum time a timer process is allowed to last in seconds
-Uri: The address of the monitor service in the Florisof Client default is: net.tcp://localhost:8733/Design_Time_Addresses/Florisoft_Monitor_Service/MonitorService/
-Password: The password of the timer user who must be logged in
-User: Username of the timer user who must be logged in
+|Step|Explanation|
+|:--|:--
+|**1**|Open the constants screen and navigate to the following path:<br>**System**→**FloriShield**<details><summary><b>Click here for your example image!<b></summary><img src="florishield.eng/image26.png">|
+|**2**|**Email:** Not working. We work with Telegram. <br>**Interval:** Time in seconds between 2 checks <br>**ProcessTime:** The maximum time a timer process is allowed to last in seconds <br>**Uri:** The address of the monitor service in the Florisof Client default is: net.tcp://localhost:8733/Design_Time_Addresses/Florisoft_Monitor_Service/MonitorService/ <br> **Password:** The password of the timer user who must be logged in<br> **User:** Username of the timer user who must be logged in|
 
 ## Controls
 
-Available controls:
-1\. Is Florisoft active? If not, Florisoft is started with the set user and password and the timer is started.
-2\. Is the correct user active? If not, a new Floirosft is started with the set user and password and the timer is started.
-3\. Is the timer active? If not, the timer is started.
-4\. Is there any recent timer activity? A process can take up to as long as set in ProcessTimer. If a process has been running for longer than the set time, a notification will be sent to the set email address. No action is being taken yet.
+In this modules the following controls are available:
 
-If all tests are successful, then it will look like this:
-<img src="florishield.eng\image19.png">
+|#|Control|Action|
+|:--|:--|:--|
+|**1**|Florisoft active?|If not, Florisoft is started with the set user and password and the timer is started.|
+|**2**|Is the correct user active?|If not, a new Floirosft is started with the set user and password and the timer is started.|
+|**3**|Is the timer active?|If not, the timer is started.|
+|**4**|Is there any recent timer activity?|A process can take up to as long as set in ProcessTimer. If a process has been running for longer than the set time, a notification will be sent to the set email address. No action is being taken yet.|
 
-> Florisoft has been started
-> The right user is active
-> The Timer is active
-> Timer activity is recent
+If all test were sucessful you should see the same FloriShield like in the image below:
 
-**ATTENTION**
+<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/image19.png"></details>
 
-If multiple monitors are to run on the same machine (for example a virtual machine), the port number must be different from each other
+:warning: **Pay attention!!** :warning:
 
-<img src="florishield.eng\image18.png">
+*If multiple monitors are to run on the same machine (for example a virtual machine), the port number must be different from each other*.
 
-The number in the red box should be put one higher.
+<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/image18.png"></details>
 
-> **ATTENTION**: In the DOTNET version, communication is no longer via TCP but via HTTP
-> the Windows user running the Florishield Server must be given permissions to listen to HTTP:
-> `netsh http add urlacl url=http://+:8733/Design_Time_Addresses/Florisoft_Monitor_Service/MonitorService/ user=DOMAIN\Username`
+> **ATTENTION:** In the DOTNET version, communication is no longer via TCP but via HTTP the Windows user running the Florishield Server must be given permissions to listen to HTTP: ```netsh http add urlacl url=http://+:8733/Design_Time_Addresses/Florisoft_Monitor_Service/MonitorService/ user=DOMAIN\Username```
+
 
 ## Stopping the FloriShield Client
 
 The FloriShield Client cannot be stopped by clicking on the cross. This is done to prevent someone from accidentally stopping the FloriShield Client. If you click on the cross anyway, the FloriShield Client is minimized to the System tray and continues to check.
 
-<img src="florishield.eng\foto2.png">
+<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto2.png"></details>
 
-The FloriShield Client can be stopped by right clicking on the icon and choosing "Close Florisoft monitor" (This did not work on my system for some odd reason)
+The FloriShield Client can be stopped by right clicking on the icon and choosing "Close Florisoft monitor" (This did not work on my system for some odd reason).
 
-<img src="florishield.eng\foto3.png">
+<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto3.png"></details>
+
 After which you have to confirm to stop the FloriShield Client.
-
 The **FloriShield Service** stops automatically when the Florisoft Client is stopped. Stopping the Florisoft Client will take a little longer, because all connections to the **FloriShield Service** must be stopped.
 
 ## Notifications
@@ -95,9 +99,9 @@ The FloriShield Client sends various messages to Telegram users (See how to conf
 
 The ***FloriShield Client*** runs along with *scheduled updates*. As soon as a scheduled update is scheduled, the FloriShield Client will also pick it up, just like the Florisoft Client running on the machine in question. At the set time, both the Florisoft Client and the FloriShield Client are closed, with the difference that the FloriShield Client is instructed to restart.
 
-The following screen is displayed:
+*The following screen is displayed:*
 
-<img src="florishield.eng\foto4.png">
+<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto4.png"></details>
 
 After the scheduled update has ended, a restart of the ***FloriShield Client*** will take place, which immediately performs the update, as happens with any Florisoft Client. After the update, the ***FloriShield Client*** will restart and it will start Florisoft and the timer as part of the set controls.
 
@@ -105,74 +109,44 @@ After the scheduled update has ended, a restart of the ***FloriShield Client*** 
 
 To set up Telegram, you have to go through a number of steps.
 
-### 1. Create Telegram account
+### Configuring Telegram
 
-In your browser go to: https://web.telegram.org/#/login
-Enter the correct country and mobile number here that you want to use to connect your bot. Pleasenot, use an existing numbers, because an SMS with the login code will be sent to it.
+#### Creating a Telegram account
 
-<img src="florishield.eng\foto5.png">
+|Step|Explanation|
+|:--|:--|
+|**1**|Open your webbrowser and go to the following link:<br>https://web.telegram.org/#/login|
+|**2**|Enter the correct country and celphone number that you want to connect to the Telegram bot. **Do however use an existing number that you own, because you will receive a verification login code via SMS.** <details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto5.png"></details>|
+|**3**|After entering the phonenumber click on '*next*'. Then enter a authorization code and other required data. You should now be redirected to the web-version of the Telegram-app.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto7.png"></details>|
 
-After entering the number, click on "next(volgende)". Enter the received authorization code and then your details. You are now in the web version of the Telegram App.
+##### Creating a Telegram bot
 
-<img src="florishield.eng\foto6.png">
+|Step|Explanation|
+|:--|:--|
+|**1**|Now that you are logged in on Telegram you are able to create Telegram bots. To do this you will need to start a new conversation with the **BotFather**. Search for the user @botfather in the searchbar, there should only be one result.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto7.png"></details>|
+|**2**|Now click on **begin**.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto8.png"></details>|
+|**3**|You have now started a conversation with the BotFather.|
+|**4**|Now send the following command": /newbot (including the "/")<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto9.png"></details>|
+|**5**|You will be asked to name your bot. Enter the desired name.|
+|**6**|You will then be asked for the username of your newly created bot. There cannot be apces in it and it must end with "bot", which is not case sensitive and everything can be in front of it, the chosen name must be a unique one in Telegram.|
+|**7**|The bot has been created and you will receive the API Token, we will need this token later.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto11.png"></details>|
 
-### Create a Telegram bot
+#### Log in to your Telegram bot
 
-Now that you are logged in to Telegram you can create a bot. To do this, start a new conversation with the "BotFather". Enter @botfather in the Search Field and click on the only result.
+To log in to your newly created Telegram bot, you'll need to configure some settings in Florisoft. So open your Florisoft backoffice application if you haven't already.
 
-<img src="florishield.eng\foto7.png">
+|Step|Explanation|
+|:--|:--|
+|**1**|Click on the **maintenance** in the top bar of the navigator screen.Click on the dropdown option '**Setup system**. This opens small screen within this screen click on the folder **Telegram IT Bot**. Fill out the textfield with the Telegram API key we got in the previous chapter.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/image27.png"></details>|
+|**2**|Next, the FloriShield IT Bot must be turned on for 1 user. Only if this Florisoft is online, users can login to the bot to receive messages.|
+|**3**|Now start the Florisoft with the user with the FloriShield IT Bot turned on.e<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/image20.png"></details>|
+|**4**|In Telegram, type your bot's username in the search box and click on the desired result.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto12.png"></details>|
+|**5**|At the bottom, click on "Begin"<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto13.png"></details>|
+|**6**|Now send your username and then your password.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto12.png"></details>|
+|**7**|You are now logged in to the bot.|
+|**8**|:warning:**Note!** A known Florisoft username and password must be entered (system user) and the user must not be blocked.|
+|**9**|To unsubscribe, send "/unsubscribe" to the bot and you will be removed from the recipient list.|
 
-Now at the bottom, click on "Begin"
+#### Telegram messages from Florisoft.
 
-<img src="florishield.eng\foto8.png">
-
-You can now start a "conversation" with the BotFather.
-
-<img src="florishield.eng\foto9.png">
-
-Now send the following command": /newbot (including the "/")
-
-You will be asked to name your bot. Enter the desired name.
-
-You will then be asked for the username of your newly created bot. There cannot be apces in it and it must end with "bot", which is not case sensitive and everything can be in front of it, the chosen name must be a unique one in Telegram.
-
-The bot has been created and you will receive the API Token, we need it:
-
-<img src="florishield.eng\foto10.png">
-
-### Log in to your Telegram bot
-
-To log in to the newly created Telegram bot, this must be set in Florisoft.
-
-Go maintenance -> setup system -> Telegram IT Bot
-
-
-<img src="florishield.eng\foto11.png">
-
-Next, the FloriShield IT Bot must be turned on for 1 user. Only if this Florisoft is online, users can login to the bot to receive messages.
-
-<img src="florishield.eng\image20.png">
-
-Now start the Florisoft with the user with the FloriShield IT Bot turned on.
-
-In Telegram, type your bot's username in the search box and click on the desired result.
-
-<img src="florishield.eng\foto12.png">
-
-At the bottom, click on "Begin"
-
-<img src="florishield.eng\foto13.png">
-
-Now send your username and then your password
-
-<img src="florishield.eng\foto14.png">
-
-You are now logged in to the bot.
-
-**Note!** A known Florisoft username and password must be entered (system user) and the user must not be blocked. 
-
-To unsubscribe, send "/unsubscribe" to the bot and you will be removed from the recipient list.
-
-## 4. Telegram messages from FloriShield
-
-If FloriShield now detects or resolves a problem, the text from the Invoice texts is sent to all registered Telegram users. No additional settings are required for this. As soon as the Telegram Bot API key has been entered and the FloriShield is restarted, the messages are sent.
+If FloriShield now detects or resolves a problem, the text from the Invoice texts is sent to all registered Telegram users. No additional settings are required for this. As soon as the Telegram Bot API key has been entered and the FloriShield is restarted, the messages are sent
