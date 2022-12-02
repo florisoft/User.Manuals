@@ -1,14 +1,14 @@
 <img src="../../fslogo.png">
 
-# Manual Florisoft Offers (M33)
+# Manual Florisoft Special Offers (M33)
 
-This manual for the Special Client Offers module in Florisoft describes how to make offers for debtors. This module is used to create offers for customers. This way, certain items can be brought up to the attention of the customer.
+This manual for the Special Offers module in Florisoft describes how to make offers for debtors. This module is used to create offers for customers. This way, certain items can be brought up to the attention of the customer.
 
 **Disclaimer: the pictures in this manual can differ from the actual product**
 
-## Aanbiedingen verzenden via e-mail
+## Send Special Offers by email
 
-This chapter describes how to make special offers in Florisoft. For this manual, the module Special Client Offers / Aanbiedingslijsten is required. The steps are described below.
+This chapter describes how to make Special Offers in Florisoft. For this manual, the module Special Offers is required. The steps are described below.
 
 |Step|Explanation|
 |:--|:--|
