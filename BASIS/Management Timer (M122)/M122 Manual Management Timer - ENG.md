@@ -1,6 +1,6 @@
 <img src="../../fslogo.png"/>
 
-# Management Info Mailer  
+# Management Timer (M122) 
 
 **Introduction**
 
@@ -12,10 +12,8 @@ The data which you see in the management screen we the query is executed will be
 The data can be converted into a PDF or Excel file via a layout. **A layout is mandatory for the management info mailer to execute a query sucessfully. **
 
 
-
 ## Constants Screen
 In the folder Constants => Timer => Management Info Mailing you have to option to manage the report which you want to  have emailed automatically.<img src=".Management Info Mailer\media\Constants.png" />
-
 
 
 ##  Add/ delete a report
@@ -28,7 +26,6 @@ An excisting report can be deleted via the bucket icon.
 ## Editing a report
 
 When you add (+ icon) or edit a report via double clicking on an excising report you will get the following screen.<img src=".Management Info Mailer\media\EditScreen.png" />
-
 
 
 ### ID

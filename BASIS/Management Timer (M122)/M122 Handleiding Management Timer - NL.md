@@ -1,6 +1,6 @@
 <img src="../../fslogo.png"/>
 
-# Management Info Mailer  
+# Management Timer (M122)
   
 **Introductie**
 
