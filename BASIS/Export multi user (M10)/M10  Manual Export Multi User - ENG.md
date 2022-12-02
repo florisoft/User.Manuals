@@ -4,7 +4,6 @@
 
 Welcome to the Florisoft manual for the Export Multi User module. This module is required when you export your product to other countries. The module Export contains all the required information which you have to send to the CBS (Statistics the Netherlands) and the Bedrijfsschap (The Dutch Agricultural Wholesale Board/Flowers and Plants). Besides sending the required documents, the module Export contains the possibility to accomplish your ICT declaration and creating your PD forms (Plant Protection Service of the Netherlands).
 
-The manual will contain multiple chapter explaining the different aspects of the Export module. Starting with chapter 1, where the breakdown of product groups will be explained.
 
 ## Table of contents
 
