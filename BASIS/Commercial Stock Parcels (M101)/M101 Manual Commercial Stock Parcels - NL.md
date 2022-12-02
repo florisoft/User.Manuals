@@ -1,7 +1,7 @@
 <img src="../../fslogo.png"/>
 
 
-# Florisoft Handleiding Commerciële Partijen (M101)
+# Florisoft Handleiding Commercial Stock Parcels (M101)
 
 Zodra je beschikt over de module Commerciële Voorraad Partijen heb je bij de
 voorraadinstellingen in de constanten een nieuw tabblad en bij het setup
@@ -19,9 +19,9 @@ bloemenvoorraad:
 <img src=".Commerciële partijen\media\image2.png" style="width:6.3125in;height:3.09154in" />
 
 De reden waarom deze vink belangrijk is voor het proces, is omdat de
-Timerfunctie “Commerciële partijen aantallen bijwerken” om de opgegeven
+Timerfunctie “Commerciële partijen (Commercial Stock Parcels) aantallen bijwerken” om de opgegeven
 aantal minuten de logistieke voorraad af zal gaan om de aantallen bij te
-werken bij de commerciële partij. Kan namelijk op de logistieke partij
+werken bij de Commercial Stock Parcels. Kan namelijk op de logistieke partij
 op verkocht zijn. Zie onderstaand;
 
 <img src=".Commerciële partijen\media\image3.png" style="width:6.3in;height:2.27847in" />
@@ -33,15 +33,15 @@ Bij de commerciele voorraden en logistieke vooraden moeten ook onderstaande inst
 <img src=".Commerciële partijen\media\image12.png" style="width:6.3125in;height:3.09154in" />
 
 
-De systeem instellingen m.b.t. commerciële partijen staan allemaal bij
-elkaar onder het tabje commerciële partijen;
+De systeem instellingen m.b.t. Commercial Stock Parcels staan allemaal bij
+elkaar onder het tabje Commercial Stock Parcels (Commerciële partijen);
 
 <img src=".Commerciële partijen\media\image4.png" style="width:6.3in;height:2.02014in" />
 
 Uitgelicht even de volgende 4 instellingen.  
 <u>CompartijDetails</u>
 
-Sneltoets voor openen Commerciële partij detail scherm. Instelbaar naar
+Sneltoets voor openen Commercial Stock Parcel detail scherm. Instelbaar naar
 vrije keuze.
 
 <u>CPartijNrNietTonenWebshop</u>

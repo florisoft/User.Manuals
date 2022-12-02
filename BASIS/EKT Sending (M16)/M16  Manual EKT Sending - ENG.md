@@ -1,6 +1,6 @@
 ﻿<img src="../../fslogo.png">
 
-# Florisoft EKT Sending Manual (M16)
+# Florisoft Manual EKT Sending (M16)
   
 Welcome to the Florisoft EKT Sending manual for the PDA. This module is used when data from parties has to be exchanged between customer and the commission agent using EKT-messages. Using the module, it makes it possible to import and export sold/bought products in
 different systems.

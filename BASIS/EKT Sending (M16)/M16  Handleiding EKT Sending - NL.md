@@ -1,6 +1,6 @@
 <img src="../../fslogo.png">
 
-# Florisoft EKT Sending Handleiding (M16)
+# Florisoft Handleiding EKT Sending (M16)
   
 
 De handleiding module EKT Sending Florisoft beschrijft de werking van de module EKT Sending binnen Florisoft. Op deze manier wordt het mogelijk om verkochte/gekochte producten te im- en exporteren tussen verschillende systemen.
