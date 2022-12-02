@@ -1,36 +1,25 @@
 <img src="../../fslogo.png">
 
-# Florisoft Handleiding Cash & Carry PDA (M168)
-
-Welkom bij de Florisoft Cash & Carry handleiding voor het gebruik op de PDA. Deze handleiding is gemaakt om de gebruiker de Cash & Carry module te leren. Na het lezen van de handleiding, kan de gebruiker succesvol de module gebruiken.
-
-Het eerste hoofdstuk zal uitleggen hoe je de Cash & Carry module opstart en klaar maakt voor gebruik.
-
-Hoofdstuk 2 beschrijft hoe je producten in de bestelling zet, handmatig en met de PDA.
-
-Het derde en laatste hoofdstuk laat de verschillende opties zien die de Cash & Carry module heeft, nadat de bestelling gevuld is met de prodcuten.
-
-Als de gebruiker problemen ervaart tijdens het gebruik van de module of de handleiding, wordt aangeraden om het support nummer te bellen.
+# Florisoft Handleiding Cash & Carry Touch (M168)
 
 ## Table of contents
 
-[De cash & carry module starten](#de-cash--carry-module-starten)  
+[De Cash & Carry Touch module starten](#de-cash-&-carry-touch-module-starten)  
 [Het vullen van bestellingen](#het-vullen-van-de-bestelling)  
 [Laatste dingen](#laatste-dingen)
 
-## De Cash & Carry module starten
+## De Cash & Carry Touch module starten
 
-*Volg de onderstaande instructies om de cash & carry module op uw PDA te starten*:
 
 |Stap|Uitleg|
 |:--|:--|
-|**1**|Om de Cash & Carry module te srtaten, start u via het thuisscherm de Florisoft applicatie op.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image2.png"></details>|
+|**1**|Om de Cash & Carry Touch module te starten, start u via het thuisscherm de Florisoft applicatie op.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image2.png"></details>|
 |**2**|Eenmaal in de Florisoft applicatie klikt u op de menu kop '*Sales*' om de sales functie in Florisoft te starten.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image3.png"></details>|
 |**3**|Voer in het lege veld naast de tekst '*Seller*' uw verkoper code in. Dit doet u door op het veld te klikken en de code in te typen in het zojuist verschenen toetsenbord.<Br> **Hoe het toetsenbord er uit ziet kan per apparaat verschillen.**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image4.png">      <img src=".Cash & Carry PDA Handleiding/media/image5.png"></details>|
 |**4**|Als de verkoper door het systeem herkent wordt zal de volledige naam in rood weergeven worden onder de ingevoerde code.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image6.png"></details>|
 |**5**|Vul nu een debiteurcode in bij het lege veld naast '*Debtor*'. U tikt/klikt eenmaal op het lege veld en typt de debtieurcode in met het pop-up toetsenbord. De volledige naam van de debiteur zal rood weergeven worden onder het invoerveld.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image7.png"></details>|
 |**6**|Klik vervolgens op de **Ok** knop om door te gaan.|
-|**7**|U krijgt nu een scherm te zien waar in u een ordernummer kan toevoegen.<br>Om de verschillende bestellingen bij te houden, staat de Cash & Carry module de gebruiker toe om eigen ordernummers te creeren. Deze nummer kunnen Alpha-numeriek zijn, ofwel het mag zowel nummers als letters bevatten. Druk op het open veld en voer het unieke ordernummer in. Er is een limiet op 10 karakters.<br><br>**!!De ordernummer moet uniek zijn, anders kan het systeem de verschillende bestellingen niet van elkaar onderscheiden.!!**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image8.png"></details>|
+|**7**|U krijgt nu een scherm te zien waar in u een ordernummer kan toevoegen.<br>Om de verschillende bestellingen bij te houden, staat de Cash & Carry Touch module de gebruiker toe om eigen ordernummers te creeren. Deze nummer kunnen Alpha-numeriek zijn, ofwel het mag zowel nummers als letters bevatten. Druk op het open veld en voer het unieke ordernummer in. Er is een limiet op 10 karakters.<br><br>**!!De ordernummer moet uniek zijn, anders kan het systeem de verschillende bestellingen niet van elkaar onderscheiden.!!**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image8.png"></details>|
 |**8**|Klik nu op de *Ok* om door te gaan|
 
 ## Het vullen van de bestelling

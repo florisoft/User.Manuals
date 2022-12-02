@@ -2,17 +2,10 @@
 
 # Handleiding Florisoft Cash & Carry (M17)
 
-Welcome to the Florisoft Cash & Carry manual for desktop. This guide is designed to teach the users how to use the Cash & Carry module. After reading the guide, the user is able to successfully use the Cash & Carry module.
+Welcome to the Florisoft Cash & Carry manual for desktop.
 
-The first chapter will explain how to start-up the Cash & carry module so it can be ready to use.
 
-Chapter two will describe how to enter items into the order manually and with a scanner.
-
-The third and last chapter will show the different options the Cash & Carry module has, once the order has been filled with the desired items.
-
-If the user experiences any difficulties with the Cash & Carry module at any time, or if the current manual does not cover the desired functionalities, please contact support.
-
-## 1 Starting the Cash & Carry Module
+##  Starting the Cash & Carry Module
 
 *Volg de onderstaande stappen om de Cash & Carry module te starten*
 
@@ -26,7 +19,7 @@ If the user experiences any difficulties with the Cash & Carry module at any tim
 |**3**|Click on the '*Pay-desk*' option in the top menu bar, click it and continue by clicking on the option '*Open pay-desk*'.<details><summary><b>Click here for the example image</b></summary><img src=".Cash &amp; Carry Desktop Manual\media\image3.png"></details>|
 |**4**|This opens a small menu in which you need to fill in the seller code. After entering the code press enter. The seller's full name will now be shown in red text. <details><summary><b>Click here for the example image</b></summary><img src=".Cash &amp; Carry Desktop Manual\media\image4.png"></details>|
 
-## 3 Filling the order
+##  Filling the order
 
 |Step|Explanation|
 |:--|:--|
@@ -37,7 +30,7 @@ If the user experiences any difficulties with the Cash & Carry module at any tim
 |**5**|Once added, you can change the amount and price of the product.|
 |**6**|A standard price is assigned to all products, this does not have to be done manually. The values displayed will differ accordingly to the items added to the order.<details><summary><b>Click here for the example image</b></summary><img src=".Cash &amp; Carry Desktop Manual\media\image7.png"></details>|
 
-## 4 Finishing up
+##  Finishing up
 
 |Step|Explanation|
 |:--|:--|

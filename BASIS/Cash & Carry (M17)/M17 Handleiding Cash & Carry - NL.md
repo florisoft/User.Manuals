@@ -2,17 +2,8 @@
 
 # Handleiding Florisoft Cash & Carry (M17)
 
-Welkom bij de Florisoft Cash & Carry handleiding voor de desktop. Deze handleiding is gemaakt om de gebruiker de Cash & Carry module aan te leren. Na het lezen van de handleiding, is de gebruiker in staat de module Cash & Carry te gebruiken.
 
-Het eerste hoofdstuk zal uitleggen hoe de Cash & Carry module opgestart kan worden zodat hij kan worden gebruikt.
-
-Hoofdstuk 2 beschrijft hoe producten handmatig in de bestelling worden geplaatst of met een scanner.
-
-Het derde (en laatste) hoofdstuk zal de verschillende opties laten zien die de Cash & Carry module heeft, zodra de bestelling is gevuld met de gewenste producten.
-
-Als de gebruiker tegen problemen aanloopt tijdens het gebruik van de handleiding en/of de gebruik van de Cash & Carry module, of als de handleiding niet de gewenste functionaliteiten omvat, word aangeraden de support afdeling te contacten.
-
-## 2 De Cash & Carry module starten
+## De Cash & Carry module starten
 
 *Volg de onderstaande stappen om de Cash & Carry module te starten*
 
@@ -23,7 +14,7 @@ Als de gebruiker tegen problemen aanloopt tijdens het gebruik van de handleiding
 |**3**|Klik op de '*Kassa*' optie in de menubalk bovenaan, klik vervolgens op de menu optie '*Kassa Openen*'.<details><summary><b>Klik hier voor uw voorbeeld</b></summary><img src=".Cash &amp; Carry Desktop Handleiding\media\image13.png"></details>|
 |**4**|Dit opent een klein menu waarin u de verkopercode invult. Zodra deze erin staat, druk op enter. De volledige naam van de verkoper wordt weergeven in het rood.<details><summary><b>Klik hier voor uw voorbeeld</b></summary><img src=".Cash &amp; Carry Desktop Handleiding\media\image12.png"></details>|
 
-## 2 Bestelling vullen
+##  Bestelling vullen
 
 |Stap|Uitleg|
 |:--|:--|
@@ -34,7 +25,7 @@ Als de gebruiker tegen problemen aanloopt tijdens het gebruik van de handleiding
 |**5**|Zodra je het toegevoegd hebt, kan je de aantallen en prijs van het product aanpassen.|
 |**6**|Elk product heeft een standaard prijs, dit hoeft dus niet altijd handmatig gedaan te worden. De waardes weergeven in de foto's zijn afhankelijk van de producten die geselecteerd zijn en de instellingen van uw Florisoft.<details><summary><b>Klik hier voor uw voorbeeld</b></summary><img src=".Cash &amp; Carry Desktop Handleiding\media\image7.png"></details>|
 
-## 3 Voltooien van de bestelling
+##  Voltooien van de bestelling
 
 |Stap|Uitleg|
 |:--|:--|
