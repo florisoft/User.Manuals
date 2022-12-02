@@ -1,14 +1,14 @@
 <img src="../../fslogo.png">
 
-# Florisoft Manual Image Library (M55)
+# Manual Auction Image Bank (M55)
 
-Welcome to the Florisoft manual for the desktop application. This guide was made to teach user how to use the Image library module. After reading this guide, the user should be able to use the Image library module successfully.
+Welcome to the Florisoft manual for the Auction Image Bank.
 
-When buying on the KLOK (Clock) you should get a photoID number. With the image library you are able to download the specific photo's for you purchase using this photoID. When dowloading the images Florisoft will scale them to 4 different formats.
+When buying on the KLOK (Clock) you should get a photoID number. With the Image Bank you are able to download the specific photo's for you purchase using this photoID. When dowloading the images Florisoft will scale them to 4 different formats.
 
 ## Setting up
 
-In order to start using the image libary module a couple of settings will need to be set up first. Follow the steps below to set it up:
+In order to start using the Auction Image Bank module a couple of settings will need to be set up first. Follow the steps below to set it up:
 
 |Step|Explanation|
 |:--|:--|

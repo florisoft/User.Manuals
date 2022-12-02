@@ -1,12 +1,11 @@
 <img src="../../fslogo.png">
 
-# Florisoft Handleiding Beeldbank M55
+# Handleiding Auction Image Bank (M55)
 
-Welkom bij de handleiding voor de module Beeldbank voor de desktop Florisoft applicatie. Deze handleiding is ontworpen om de gebruikers de Beeldbank module aan te leren. Na het lezen van deze handleiding, kan de gebruiker succesvol omgaan met de Beeldbank module.
-
+Welkom bij de handleiding voor de module Auction Image Bank
 ## Opzet
 
-Voordat er gebruik gemaakt kan worden van de Beeldbank module moeten er eerst een paar instellingen worden aangepast. Volg hiervoor de onderstaande stappen:
+Voordat er gebruik gemaakt kan worden van de Auction Image Bank module moeten er eerst een paar instellingen worden aangepast. Volg hiervoor de onderstaande stappen:
 
 |Stap|Uitleg|
 |:--|:--|
