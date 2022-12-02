@@ -1,10 +1,10 @@
 <img src="../../fslogo.png"/>
 
-# **Active Email**
+# Manual **Active Email**
 
 For this add-on module the module Special Offers is required.
 
-In order to send an Active E-mail first [create a special offer in Florisoft](https://github.com/florisoft/User.Manuals/tree/main/BASIS/Special%20Offers-Aanbiedingslijsten%20(M33))
+In order to send an Active Email first [create a special offer in Florisoft](https://github.com/florisoft/User.Manuals/tree/main/BASIS/Special%20Offers-Aanbiedingslijsten%20(M33))
 
 Then you can use the example button to show an example of the offer on screen. For that you must first select which layout you want to use. If you're satisfied, you can use the email webpage button to send the offer. This uses the data set in the debtor.
 

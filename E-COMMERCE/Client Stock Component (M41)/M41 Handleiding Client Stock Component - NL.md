@@ -1,10 +1,7 @@
 <img src="../../fslogo.png">
 
-# Florisoft Handleiding Voorraadkoppeling - (M41)
+# Florisoft Handleiding Client Stock Component (M41)
 
-Een voorraadkoppeling die gebruik maakt van E-trade of een Florisoft connectie, zal helpen doordat het een makelijke manier is om voorraad te krijgen. Volg de stappen die beneden beschreven zijn om de voorraadkoppeling op te zetten en te gebruiken.
-
-## Inhoudsopgave
 
 [Aanmaken van voorraad](#aanmaken-van-voorraad)  
 [Aanmaken van leverancier](#aanmaken-van-leverancier)  

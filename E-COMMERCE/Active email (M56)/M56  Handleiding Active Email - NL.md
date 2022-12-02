@@ -1,8 +1,8 @@
 <img src="../../fslogo.png"/>
 
-# **Active E-mail**
+#  Handleiding **Active Email**
 
-Voor deze add-on module heb je de module Aanbiedingslijsten nodig. 
+Voor deze add-on module heb je de module Special Offers nodig. 
 
 Om een Active E-mail te versturen moet je eerst een [aanbieding maken in Florisoft](https://github.com/florisoft/User.Manuals/tree/main/BASIS/Special%20Offers-Aanbiedingslijsten%20(M33))
 

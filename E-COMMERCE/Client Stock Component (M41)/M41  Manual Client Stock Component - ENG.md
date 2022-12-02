@@ -1,8 +1,7 @@
 <img src="../../fslogo.png">
 
-# Florisoft Manual Stock Connection (M41)
+# Florisoft Manual Client Stock Component (M41)
 
-Chapter 1 explains how to create seperate stock. Chapter 2 explains how to create a new supplier, and a stock connection. Follow the steps below to create/set up a stock connection.
 
 ## Table of contents 
 
