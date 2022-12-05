@@ -166,7 +166,7 @@ The most important one is the option to print or e-mail information (summaries) 
 |:--|:--|
 |**1.**|Click the '*Menu*' button(#1) and in the new shown dropdown click on '*Overviews*' (#2). A new screen should appear in which the next steps take place.<details><summary><b>Click here for your example image</b></summary><img src="media/image18.png" width = 600px></details> |
 |**2.**|Choose the type of summary you want to see, **the sub settings will change on the type of summary**.|
-|**3.**|As said before the optons that are available on the right side of the screen depend on the chosen layout. Examples of availabel options are: *debtor*, *invoice series*, *date period*.<details><summary><b>Click here for your example image</b></summary><img src="media/image18.png" width = 600px></details> |
+|**3.**|As said before the optons that are available on the right side of the screen depend on the chosen layout. Examples of available options are: *debtor*, *invoice series*, *date period*.<details><summary><b>Click here for your example image</b></summary><img src="media/image18.png" width = 600px></details> |
 |**4**|	Using these checkboxes you can set the begin and end date for a summary, if you don't set these fields the Florisoft application will decide for you.|
 |**5.**|Opens the print/e-mail function to print or send the generated data via e-mail. A short explanation is given below.<details><summary><b>Click here for your example image</b></summary><img src="media/image20.png" width = 600px></details>|
 |**6.**|This button lets you generate a summary using the table below the button.|
