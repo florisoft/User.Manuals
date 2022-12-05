@@ -68,7 +68,7 @@ With the correct columns activated in the '*Open Item Debtors*' screen, it is po
 |**2**|Make sure the checkmark '*All debtors*' is turned off.<details><summary><b>Click here to show the example image</b></summary><img src=".manual eng/.media/image8.png" width = 500px></details>|
 |**3**|Enter the debtor number in the 'debtor number field' of the debtor to be charged<details><summary><b>Click here to show the example image</b></summary><img src=".manual eng/.media/image8.png" width = 500px></details>|
 |**4**|Press enter on the keyboard. On the right side of the screen all invoices for the relevant debtor appear.|
-|**5**|**Optional:** check the box 'Only open posts to view only unpaid invoices for the selected debtor.|
+|**5**|**Optional:** check the box 'Only open posts' to view only unpaid invoices for the selected debtor.|
 |**6**|Use the spacebar to select the lines to be included in the overview on the reminder. The selected lines will be given a yellow background color. This is not applicable right now because this was made in a testing environment.|
 |**7**|Click on the menu tab on the left of the screen. This opens a dropdown menu from this menu click on '*Reminders*'. This opens the window '*Mulitple Invoices Selected*'.<details><summary><b>Click here to show the example image</b></summary><img src=".manual eng/.media/image9.png" width = 500px></details>|
 |**8**|Click on the button '*Print new*' this opens the print screen.<details><summary><b>Click here to show the example image</b></summary><img src=".manual eng/.media/image10.png" width = 500px></details>|
