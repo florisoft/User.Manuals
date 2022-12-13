@@ -2,9 +2,9 @@
 
 # Florisoft Handleiding Floriday Server (M127)
 
-Dit document beschrijft wat er benodigd is om een koppeling met Floriday in te richten voor de kweker omgeving. Er wordt staps gewijs uitgelegd welke instellingen er benodig zijn, daarbij zal er uitgelegd worden hoe de synchronisatie met Floriday werkt.
+Dit document beschrijft wat er benodigd is om een koppeling met Floriday in te richten voor de kweker omgeving. Er wordt stapsgewijs uitgelegd welke instellingen er benodigd zijn, daarbij zal er uitgelegd worden hoe de synchronisatie met Floriday werkt.
 
-Eerst zullen de benodigdheden in volgorde worden beschreven en daarna wordt stapgewijs uitgelegd hoe deze in te richten componenten in elkaar vallen om een Floriday connectie aan te maken.
+Eerst zullen de benodigdheden in volgorde worden beschreven en daarna wordt stapsgewijs uitgelegd hoe deze in te richten componenten in elkaar vallen om een Floriday connectie aan te maken.
 
 ## Inhoudsopgave
 
@@ -98,16 +98,16 @@ Bij de leverancier wordt de koppeling met Floriday vast gelegd. Hiervoor kan wor
 |**3**|Vul de volgende velden in:<br>- **Lev.code**: vul hier FLRDY in om het herkenbaar te maken als Floriday leverancier.<br>- **Zoek**: vul hier de zoekcode, hier nogmaals iets Floriday gerelateerd invullen zoals: **FLRDY**.<br>- **Bedrijfsnaam**: vul bij de bedrijfsnaam Floriday om het herkenbaar te maken.|
 |**4**|Sla de nieuwe leverancier op door op **Ok** te drukken en het opslaan te bevestigen.|
 |**5**|(Her)open de (zojuist aangemaakte) leverancier door tweemaal met de linkermuisknop op de leverancier's regel te klikken.|
-|**6**|Navigeer naar het mapje *Webservice* in het leverancierinstelling scherm. *Pas hier de volgende instellingen aan*:<Br>- **Activeren voor voorraadkoppeling**: *vink deze optie aan*.<br>- **Type webservice**: *zet de dropdown op de optie "Floriday Kweker Api_v2"*<br>- **URL**: *Vul hier de floriday webservice URL in (URL + /floriday.asmx)*<br>- **Userid**:*Vul hier het debiteurnummer die zojuist is aangemaakt voor Floriday*<br>- **Wachtwoord**: *Vul hier het wachtwoord in wat ingevuld is bij de debiteur*<br>- **Binnenkomende voorraad**: *Dit wordt de back-up voorraad*<br>- **API key**: *Vul hier de API key in die gegenereerd is door Floriday* <br>- **Default warehouse:** *Via "Select warehouse" kan de voorraad gekozen worden waarin het aanbod in geplaatst wordt, deze is nodig om de sales-orders te synchroniseren*|
-|**6.a**|De volgende instellingen zijn optioneel:<br>- **Prefix ordernummer**: *Hier kan een voorletter/cijfer geven aan de orders die binnenkomen vanaf floriday*<br>- **Aanbod leveranciers**: *Hier is het mogelijk om leverancierscodes in te vullen waarvan de bestelpartijen en voorraadpartijen ook van gesynchroniseerd moeten worden richting Floriday.*|
+|**6**|Navigeer naar het mapje *Webservice* in het leverancierinstelling scherm. *Pas hier de volgende instellingen aan*:<Br>- **Activeren voor voorraadkoppeling**: *vink deze optie aan*.<br>- **Type webservice**: *zet de dropdown op de optie "Floriday Kweker Api_v2"*<br>- **URL**: *Vul hier de Floriday webservice URL in (URL + /floriday.asmx)*<br>- **Userid**:*Vul hier het debiteurnummer die zojuist is aangemaakt voor Floriday*<br>- **Wachtwoord**: *Vul hier het wachtwoord in wat ingevuld is bij de debiteur*<br>- **Binnenkomende voorraad**: *Dit wordt de back-up voorraad*<br>- **API key**: *Vul hier de API key in die gegenereerd is door Floriday* <br>- **Default warehouse:** *Via "Select warehouse" kan de voorraad gekozen worden waarin het aanbod in geplaatst wordt, deze is nodig om de sales-orders te synchroniseren*|
+|**6.a**|De volgende instellingen zijn optioneel:<br>- **Prefix ordernummer**: *Hier kan een voorletter/cijfer geven aan de orders die binnenkomen vanaf Floriday*<br>- **Aanbod leveranciers**: *Hier is het mogelijk om leverancierscodes in te vullen waarvan de bestelpartijen en voorraadpartijen ook van gesynchroniseerd moeten worden richting Floriday.*|
 
 ## Aanmaken van een back-up voorraad
 
-De back-up voorraad is een voorraad die wordt gebruikt op het moment dat er een koop gedaan wordt op floriday maar er geen match gemaakt kan worden met een partij in de voorraad die aangeboden wordt. Indien deze situatie zich voor doet, dan wordt er een nieuwe partijregel aangemaakt in de back-up voorraad met daarop de verdeling van de koop. De partij wordt voorzien van de opmerking: Missing: Partij onbekend.
+De back-up voorraad is een voorraad die wordt gebruikt op het moment dat er een koop gedaan wordt op Floriday maar er geen match gemaakt kan worden met een partij in de voorraad die aangeboden wordt. Indien deze situatie zich voor doet, dan wordt er een nieuwe partijregel aangemaakt in de back-up voorraad met daarop de verdeling van de koop. De partij wordt voorzien van de opmerking: Missing: Partij onbekend.
 
-Qua het instellen van de backup voorraad verschilt niks met een reguliere voorraad in Florisoft. Het is dus een standaar voorraad waar niks speciaals voor ingesteld moet worden.
+Qua het instellen van de backup voorraad verschilt niks met een reguliere voorraad in Florisoft. Het is dus een standaard voorraad waar niks speciaals voor ingesteld moet worden.
 
-Dit is alleen een voorraad die gevuld wordt bij de Leverancier als binnenkomende voorraad. U heeft dus enkel alleen een vooraad aan te maken met de verplichte velden, om vervolgens deze voorraad aan te geven in de leverancier instelling '*Binnenkomende voorraad*'.
+Dit is alleen een voorraad die gevuld wordt bij de Leverancier als binnenkomende voorraad. U heeft dus enkel alleen een voorraad aan te maken met de verplichte velden, om vervolgens deze voorraad aan te geven in de leverancier instelling '*Binnenkomende voorraad*'.
 
 ## Koppelen van veilingkopers aan debiteuren
 
@@ -183,7 +183,7 @@ De API key kan opgevraagd worden via de portal van Floriday. Deze is nodig om de
 
 |Stap|Uitleg|
 |:--|:--|
-|**1**|Log in op het Florisoft platform.|
+|**1**|Log in op het Floriday platform.|
 |**2**|Via het menu rechts bovenin, navigeer naar “Instellingen”|
 |**3**|Navigeer naar Apps & koppelingen|
 |**4**|Zoek hier naar Florisoft|
@@ -204,4 +204,6 @@ Het is mogelijk om dezelfde partijen nogmaals te uploaden naar Floriday (nadat z
 |**1**|Open de Florisoft navigator en klik op de knop '*Bestellijsten*' om het bestellijstenscherm te openen.|
 |**2**|Klik ik de bovenste balk en klik op de optie **Opties**, dit opent een klein dialoog scherm.|
 |**3**|Klik vervolgens op de optie/knop "**Reset Floriday Guids**|
+
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Floriday Server NL/.media/image2.png"></details>
 
