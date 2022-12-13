@@ -3,7 +3,7 @@
 # Chatfunctie FloriShop inrichten
 
 ## Achtergrondinformatie
->Dit document beschrijft de werking van de chatfunctie in FloriShop. Het idee achter deze functie is dat ingelogde klanten op de webshop rechtstreeks kunnen communiceren met hun accountmanager. (verkoper) De verkoper heeft uiteraard de mogelijkheid om 'terug' te chatten naar de klant. In de praktijk komt het vaak voor dat klanten wat meer informatie over een product willen voordat ze tot aanschaf over gaan. De chatfunctie binnen de webshop speelt hierin een belangrijke rol.
+>Dit document beschrijft de werking van de chatfunctie in FloriShop. Het idee achter deze functie is dat ingelogde klanten op de webshop rechtstreeks kunnen communiceren met hun accountmanager (verkoper). De verkoper heeft uiteraard de mogelijkheid om 'terug' te chatten naar de klant. In de praktijk komt het vaak voor dat klanten wat meer informatie over een product willen voordat ze tot aanschaf over gaan. De chatfunctie binnen de webshop speelt hierin een belangrijke rol.
 
 ## Vooraf regelen
 Onderstaande zaken dienen vooraf geregeld/ingesteld te zijn.
