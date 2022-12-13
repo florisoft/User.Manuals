@@ -1,6 +1,6 @@
 <img src="../../fslogo.png">
 
-# FloriShop Credit(M123) Manual
+# Manual FloriShop addon Credit (M123)
 
 
 ## Table of contents
@@ -93,4 +93,4 @@ Credit request made on the webshop can be approved or rejected in the FloriShop 
 |**3**|The table shows each credit request as a seperate line, to approve(#1) or reject(#2) a request is simply place a checkmark on the respective columns(1 & 2) of a request's row.<br> <details><summary>Click here to reveal the image</summary><img src="Media/image15.png"></details>|
 |**4**|After selecting one of the checkboxes click on the 'Approve' button(#1) in the bottom left.<br> <details><summary>Click here to reveal the image</summary><img src="Media/image16.png"></details>This should open a new smaller screen. |
 |**5**|With this screen you can make changes to the credit request, the following changes can be made: <br> - Change the debtor, **do note changing this means the credit goes to another debtor**.<br> - Change the invoice, you can select a different invoice from the same debtor<br> - Order, in this textbox you can enter the order number for the credit invoice. This field may be ignored if your company invoice policy doesn't use order numbers.<br>'*Keep order number*, this checkbox may be left as is if you don't use ordernumbers it won't affect the invoice. <br><br> **If no changes need to be made this screen can just be skipped by immediately pressing the 'Ok' button.**|
-|**6**|After pressing the '**Ok**' button a confirmation mail will be sent out, if the request was rejected the issuer wil get a confirmation mail for the resulting decision and if it is approved a cedit invoice will be sent to the debtor.<br><br>In addition, a negative division is made in the pick order screen. From here the credited rules can be debited or redeemed in the stock.|
+|**6**|After pressing the '**Ok**' button a confirmation mail will be sent out, if the request was rejected the issuer wil get a confirmation mail for the resulting decision and if it is approved a cedit invoice will be sent to the debtor.<br><br>In addition, a negative division is made in the pick order screen. From here the credited rules can be debited or redeemed in the stock.|Fmodule
