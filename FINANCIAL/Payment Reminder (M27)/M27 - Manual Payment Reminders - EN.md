@@ -1,6 +1,6 @@
 <img src="../../fslogo.png">
 
-# Florisoft Manual: Payment Reminder (M27)
+# Florisoft Manual Payment Reminders (M27)
 
 ## Preface
 

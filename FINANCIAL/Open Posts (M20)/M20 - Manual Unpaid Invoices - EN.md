@@ -1,6 +1,6 @@
 <img src="../../fslogo.png">
 
-# Florisoft manual Open Posts (M20)
+# Florisoft Manual Unpaid Invocies (M20)
 
 ## Table of contents
 
@@ -49,7 +49,7 @@ Before we begin it is import that we know how to create an open post.The diagram
 
 ## Overview open posts
 
-In this chapter the functionalities and layout of the Open Post screen are explained.
+In this chapter the functionalities and layout of the open Posts screen are explained.
 
 |#|Explanation|
 |:--|:--|

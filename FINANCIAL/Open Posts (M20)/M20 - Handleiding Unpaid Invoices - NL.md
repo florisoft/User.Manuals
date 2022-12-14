@@ -1,6 +1,6 @@
 <img src="../../fslogo.png">
 
-# Handleiding open posten (M20)
+# Florisoft Handleiding Unpaid Invoices (M20)
 
 ## Inhoudsopgave
 
