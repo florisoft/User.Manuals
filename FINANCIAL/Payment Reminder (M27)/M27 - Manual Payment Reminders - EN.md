@@ -2,22 +2,6 @@
 
 # Florisoft Manual Payment Reminders (M27)
 
-## Preface
-
-Welcome to the Florisoft user manual: Payment reminders. This manual is intended for Florisoft users who want to use the Payment Reminder module. This module allows the user to send reminders to debtors with open items about the due date.
-
-The module is relatively easy to use. With the help of this manual it is possible to independently send reminders from Florisoft.
-
-The manual is divided into a number of chapters.
-
-After this introduction, chapter two describes a number of mail-related settings that are useful when sending reminders. These setings are not mandatory, but can offer added value.
-
-Chapter three gives an overview of a number of important columns in the Open Posts screen of Florisoft. These columns contain the most important information related to sending reminders.
-
-A step-by-step plan for the actual sending of reminders follows in chapter four. At the end of this chapter, some more general functions are described that can be important when sending reminders.
-
-As described earlier, the user must be able to send reminders independently with the help of this documentation, If you have any questions about the Payment Reminder module, please contact the Florisoft helpdesk by phone or email.
-
 ## Table of contents
 
 [Introduction](#introduction)
@@ -25,6 +9,11 @@ As described earlier, the user must be able to send reminders independently with
 [Optional: set debtor email addresses]()  
 [Activate required column]()  
 [Send reminder]()
+
+
+## Preface
+
+This module allows the user to send reminders to debtors with open items about the due date.
 
 
 ## Optional set debtor email addresses
