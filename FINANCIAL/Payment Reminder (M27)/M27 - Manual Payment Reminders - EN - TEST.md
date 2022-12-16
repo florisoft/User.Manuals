@@ -21,8 +21,17 @@ This module allows the user to send reminders to debtors with open items about t
 Navigate in the Constants to Debtors
 . You can find these under: "Constants" -> "Community" -> "Debtors" 
 
+
 |Step|Explanation|
 |:--|:--|
+|**1**| Click on the tab "Addresses"
+|**2**| Click on the tab "contact details"
+|**3**| In the middle part of the debtor screen, click on the "Financial" tab
+|**4**| Enter the name of the person being emailed in the "Description" field
+|**5**| 
+
+
+
 |**1**|Open the Florisoft Navigator and navigate to the constants.|
 |**2**|Within the constants file structure navigate to the following path: <br>'*Community*' → '*Debtor data*' → '*Debtors*'.<details><summary><b>Click here to show the example image</b></summary><img src=".manual eng/.media/image1.png" width = 500px></details>|
 |**3**|Click on the debtor that we want to set up with an e-mail adress.|
@@ -32,7 +41,7 @@ Navigate in the Constants to Debtors
 |**7**|Enter the relevant email address for this debtor in the 'Address' column.|
 |**8**|**Optional:** Put a check in the column 'inactive'. |
 |**9**|Click on the 'Ok' in the debtor screen to confirm the settings.|
-
+|**10**|**Reminder**: *As described in the introduction to this chapter, the above steps are not mandatory. If no seperate e-mail addresses are used, Florisoft automatically uses the e-mail address as set on the 'Addresses' tab of the debtor.*|
 
 ## Activate Required Columns
 
