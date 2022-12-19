@@ -18,32 +18,13 @@
 
 Welcome the FloriShop WhatsApp offers manual. Sending offers via
 WhatsApp to customers is a beautiful way to bring products from the
-webshop to the attention of customers. With the wide availability of
-smartphones and tablet PC’s this add-on can ensure a higher turnover
-from the webshop.
-
-The first step in setting up this add-on is to set up a so-called
-anonymous debtor. This is done in Florisoft and is described in chapter
-two. This chapter also describes the authorization settings for the
-anonymous debtor. These settings are important for the behavior and
-visibility of stocks on the webshop.
-
-Chapter three shows the steps for linking the anonymous debtor to the
-webshop, so the WhatsApp functionality becomes activated.
+webshop to the attention of customers.
 
 The manual describes two ways WhatsApp can be used in relation to the
 webshop. The first way is to send full stocks. This is widely used for
 stocks with daily offers. The second way of sharing offers via WhatsApp
 consists of sending individual products. Both ways are described in
 chapter four.
-
-The last chapter, chapter five, gives an overview of other available
-webshop add-ons. The webshop can be extended with a large number of
-other add-ons, each with its own functionality. We would like to
-introduce you to these add-ons.
-
-The goal of this manual is to show how to use WhatsApp offers in the
-webshop so your products are always on top of the customers mind.
 
 **Pay attention: images in this manual may slightly differ from what you
 see on your own screen.**
