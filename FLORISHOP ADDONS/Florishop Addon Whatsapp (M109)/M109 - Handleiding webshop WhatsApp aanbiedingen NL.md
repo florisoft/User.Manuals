@@ -89,12 +89,6 @@ Ga verder op de volgende pagina.
     ‘Debiteuren’. Het venster ‘Opslagen bij verkoop via Internet’ opent.
     Lees verder op de volgende pagina.
 
-> Controleer of de kolom ‘Perc’ aan staat in het venster ‘Opslagen bij
-> verkoop via internet’.
->
-> 11\. Klik met de rechtermuisknop op een willekeurige kolom naam. (nr.
-> 16) Het venster met beschikbare kolommen verschijnt.
-
 <img src=".Handleiding webshop WhatsApp aanbiedingen\media\image7.png" style="width:5.87572in;height:4.76042in" />
 
 1.  Zet de 'A'- en' R'-vinkjes (nr. 20) aan voor de voorraden die u
