@@ -97,28 +97,6 @@ Ga verder op de volgende pagina.
 
 <img src=".Handleiding webshop WhatsApp aanbiedingen\media\image7.png" style="width:5.87572in;height:4.76042in" />
 
-1.  Zoek de kolom ‘Perc’ in de lijst en controleer of er een vinkje
-    staat in de kolom ‘Aan’. Mocht er geen vinkje staan zet deze dan
-    aan. (nr. 17)
-
-2.  Klik op de knop ‘Ok’ (nr. 18) in het kolommenoverzicht.
-
-De kolom ‘Perc’ verschijnt nu in het venster ‘Opslagen bij verkoop via
-Internet’. Het kan zijn dat de kolom niet zichtbaar is, omdat deze te
-veel naar rechts is geplaatst.
-
-Gebruik de horizontale schuifbalk om de kolom zichtbaar te maken. Klik
-op de naam van de ‘Perc’ kolom en houd de linkermuisknop ingedrukt. Druk
-tegelijkertijd op de Ctrl-toets (ingedrukt houden) en sleep de kolom
-naar de gewenste positie.
-
-1.  Geef de kolom ‘Perc' de waarde -100 (nr. 19) voor de voorraden die
-    via WhatsApp gedeeld worden. Dit zorgt ervoor dat de anonieme
-    debiteur geen prijzen ziet op de webshop voor de betreffende
-    voorraden.
-
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image8.png" style="width:5.77083in;height:2.89687in" />
-
 1.  Zet de 'A'- en' R'-vinkjes (nr. 20) aan voor de voorraden die u
     toegankelijk wil maken via de webshop.
 
