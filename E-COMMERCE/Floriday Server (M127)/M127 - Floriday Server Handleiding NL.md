@@ -34,11 +34,11 @@ De bestellijst wordt gebruikt voor het vullen van de Catalogus op Floriday. Hier
 |**4**|Open de zojuist aangemaakte of desbetreffende bestellijst.|
 |**5**|Navigeer naar de volgende map:<Br>**Internet toegang**|
 |**6**|Zet in dit instellingen scherm de checkbox "*Deze bestellijst staat open op de webshop*" aan.|
-|**7**|Stel vervolgens een openingstijd in voor de bestellijst op de webshop doormiddel van de "*Openingstijden webshop*" dropdown. <br>**Optioneel**: *Mocht u andere openingstijden aan willen maken kan u dat ook doen in de constanten in het pad:*<br>**Systeem**→**Dagen en tijden**→**Tijden**|
+|**7**|Stel vervolgens een openingstijd in voor de bestellijst op de webshop doormiddel van de "*Openingstijden webshop*" dropdown. <br>**Optioneel**: *Mocht u andere openingstijden aan willen maken kunt u dat ook doen in de constanten in het pad:*<br>**Systeem**→**Dagen en tijden**→**Tijden**|
 
 ## Aanmaken van een voorraad
 
-De voorraad wordt gebruikt om het aanbod te publiceren op Floriday voor de kopers. Ook hier is het belangrijk dat de artikelen die gepubliceerd worden, gekoppeld zijn aan de gebruikte leverancier om te synchroniseren of in de aanbod leveranciers aanwezig is. Omdat Floriday werkt op basis van de Catalogus die vanuit Florisoft als bestellijst gebruiken, is het belangrijk dat de artikelen in de voorraad een match hebben met de gepubliceerde bestellijst. Het bestelpartijnummer van de voorraad moet een match hebben met de artikelen in de bestellijst. Is deze relatie er niet dan worden de artikelen uit de voorraad niet gepubliceerd op Floriday.
+De voorraad wordt gebruikt om het aanbod te publiceren op Floriday voor de kopers. Ook hier is het belangrijk dat de artikelen die gepubliceerd worden, gekoppeld zijn aan de gebruikte leverancier om te synchroniseren of in het aanbod leveranciers aanwezig is. Omdat Floriday werkt op basis van de Catalogus die vanuit Florisoft als bestellijst gebruiken, is het belangrijk dat de artikelen in de voorraad een match hebben met de gepubliceerde bestellijst. Het bestelpartijnummer van de voorraad moet een match hebben met de artikelen in de bestellijst. Is deze relatie er niet dan worden de artikelen uit de voorraad niet gepubliceerd op Floriday.
 
 *Volg de onderstaande stappen om een voorraad aan te maken of in te stellen (Indien u werkt met een bestaande voorraad start dan op stap **4**)*
 
@@ -48,7 +48,7 @@ De voorraad wordt gebruikt om het aanbod te publiceren op Floriday voor de koper
 |**2**|Klik vervolgens op het plus icoontje om een nieuwe voorraad aan te maken. Dit opent een template keuze scherm voor het aanmaken van een voorraad voor onze doeleinden kiezen we voor het template '*Template Cel voorraad*' en klikken we vervolgens op "**Ok**". |
 |**3**|We zijn zojuist in het voorraad creatie/instelling scherm terecht gekomen. *Pas hier de volgende instellingen aan:*<br>- **Voorraadcode**: unieke identificatie code voor de voorraad.<br>- **Omschrijving**: de in het systeem zichtbare beschrijving van de voorraad.|
 |**4**|Sla de nieuwe voorraad vervolgens op door op de **Ok** knop te drukken. En de aanpassingen te bevestigen.|
-|**5**|Open de zojuist aangemaakte of desbetreffende voorraad door tweemaal op een voorraad's rij te klikken met de linker muisknop.|
+|**5**|Open de zojuist aangemaakte of desbetreffende voorraad door tweemaal op een voorraad rij te klikken met de linker muisknop.|
 |**6**|Navigeer nu naar het mapje *Webwinkel* → (*Algemeen*). Pas hier de volgende instellingen aan:<br>- **Deze voorraad staat open op de webshop**: staat aangevinkt.<br>- **Openingstijden**: kies hier de juiste openingstijd.<br><br>*Mocht u andere openingstijden aan willen maken kan u dat ook doen in de constanten in het pad:*<br>**Systeem**→**Dagen en tijden**→**Tijden**|
 
 *Op basis van de bestellijst dienen voorraadpartijen aangemaakt te worden ( door bijv. overhevelen ). Alle verplichte velden zijn nodig voor de catalogus. Voorraad aanbod heeft minimale informatie nodig ( prijs, totaal aantal stelen, periode van aanbieden )*
@@ -151,7 +151,7 @@ Het volume wordt vervolgens automatisch berekend in m3.
 
 ## Verplichte waardes voor bestelpartijen
 
-Voor het publiceren van een bestelpartij op Floriday moet een bestelpartij aan een bepaald aantal voorwaardes voldoen.
+Voor het publiceren van een bestelpartij op Floriday moet een bestelpartij aan een bepaald aantal voorwaarden voldoen.
 
 De volgende waardes moeten gevuld worden:
 
