@@ -98,28 +98,6 @@ debtor and stocks.
 
 <img src=".Manual webshop add on Whatsapp offers\media\image7.png" style="width:5.83333in;height:4.73315in" />
 
-1.  Check if there is a tick in the ‘Aan’ column for the ‘Perc’ column.
-    If not, put the tick on. If the tick is already on, the ‘Perc’
-    column is already visible.
-
-2.  Click the ‘Ok’ button (no. 18) in the bottom right corner of the
-    columns screen.
-
-Now the column becomes visible in the ‘Raises by Sale through the
-Internet’ screen. It is possible that the ‘Perc’ column is stated as the
-last column to the right.
-
-Use the horizontal scroll bar to make the column visible. Click on the
-name of the column and hold down the left mouse button. Press the Ctrl
-key simultaneously and drag the column to the desired position.
-
-1.  Fill in the value -100 in the ‘Perc’ column (no. 19) for the stocks
-    you want to be able to share via WhatsApp. This ensures that the
-    anonymous debtor doesn’t see prices on the webshop.
-
-2.  Put the ‘A’ and ‘R’ ticks (no. 20) on for the stocks you want to
-    have accessible on the webshop.
-
 In the example below the stocks TEST, TEST17 and 777 have the ‘A’ and
 ‘R’ columns ticked. This means that those stocks are visible for the
 anonymous debtor.
