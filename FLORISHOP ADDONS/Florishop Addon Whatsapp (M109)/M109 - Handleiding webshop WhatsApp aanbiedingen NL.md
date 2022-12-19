@@ -31,7 +31,7 @@ manier wordt het voor iedereen mogelijk om producten in de webshop te
 delen via WhatsApp.
 
 Na het aanmaken van de anonieme debiteur in Florisoft moet deze aan de
-webshop gekoppeld worden. Dit gebeurd in de webshop settings. Hoofdstuk
+webshop gekoppeld worden. Dit gebeurt in de webshop settings. Hoofdstuk
 drie beschrijft het koppelen van de anonieme debiteur aan de webshop.
 
 De handleiding beschrijft twee manieren waarop WhatsApp kan worden
