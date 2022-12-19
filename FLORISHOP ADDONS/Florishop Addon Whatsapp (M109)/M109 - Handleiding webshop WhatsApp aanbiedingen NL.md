@@ -18,37 +18,13 @@
 
 Welkom bij de handleiding Whatsapp aanbiedingen van FloriShop. Het
 versturen van aanbiedingen via WhatsApp is een mooie manier om producten
-uit de webshop onder de aandacht van klanten te brengen. Met de
-inburgering van smartphones en tablet-pc's kan deze add-on zorgen voor
-een hogere omzet vanuit de webshop.
-
-Er dienen een aantal zaken ingericht te worden om het delen van
-voorraden/partijen mogelijk te maken.
-
-De eerste stap is het aanmaken van een anonieme debiteur. Deze is nodig
-om voorraden zichtbaar te maken voor niet ingelogde gebruikers. Op deze
-manier wordt het voor iedereen mogelijk om producten in de webshop te
-delen via WhatsApp.
-
-Na het aanmaken van de anonieme debiteur in Florisoft moet deze aan de
-webshop gekoppeld worden. Dit gebeurt in de webshop settings. Hoofdstuk
-drie beschrijft het koppelen van de anonieme debiteur aan de webshop.
+uit de webshop onder de aandacht van klanten te brengen. 
 
 De handleiding beschrijft twee manieren waarop WhatsApp kan worden
 gebruikt om aanbiedingen te versturen. De eerste manier is om een
 voorraad te verzenden. Dit wordt veel gebruikt in combinatie met
 dagelijkse aanbiedingen. De tweede manier om aanbiedingen te delen via
-WhatsApp bestaat uit het verzenden van individuele producten. Beide
-manieren worden beschreven in hoofdstuk vier.
-
-Het laatste hoofdstuk, hoofdstuk vijf, geeft een overzicht van de
-overige beschikbare add ons voor de webshop. Naast het delen via
-WhatsApp heeft de webshop nog meer uitbreidingen met ieder z’n eigen
-unieke functionaliteit. Deze zijn beschreven in hoofdstuk vijf.
-
-Het doel van deze handleiding is om te laten zien hoe u
-WhatsApp-aanbiedingen in de webshop kunt gebruiken, zodat uw producten
-altijd ‘on top of the mind’ zijn bij de klant.
+WhatsApp bestaat uit het verzenden van individuele producten. 
 
 **Let op: afbeeldingen in deze handleiding kunnen enigszins verschillen
 van wat u op uw eigen scherm ziet.**
