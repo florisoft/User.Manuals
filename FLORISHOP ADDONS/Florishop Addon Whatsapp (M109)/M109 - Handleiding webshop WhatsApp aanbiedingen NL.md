@@ -99,6 +99,8 @@ Ga verder op de volgende pagina.
 
 1.  Zet de 'A'- en' R'-vinkjes (nr. 20) aan voor de voorraden die u
     toegankelijk wil maken via de webshop.
+    
+> <img src=".Manual webshop add on Whatsapp offers\media\image8.png" style="width:5.78125in;height:2.83837in" />
 
 In het bovenstaande voorbeeld zijn voor de voorraden TEST, BLOEM, DECO
 en TEST17 de vinkjes 'A' en 'R' aangevinkt. Dit betekent dat deze
