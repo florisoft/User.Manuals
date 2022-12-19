@@ -12,8 +12,6 @@
 
 [4 WhatsApp aanbiedingen versturen vanuit de webshop](#4-whatsapp-aanbiedingen-versturen-vanuit-de-webshop)
 
-[5 Overige webshop add ons](#5-overige-webshop-add-ons)
-
 # 1 Inleiding
 
 Welkom bij de handleiding Whatsapp aanbiedingen van FloriShop. Het
