@@ -12,8 +12,6 @@
 
 [4 Sent offers via WhatsApp from the webshop](#4-sent-offers-via-whatsapp-from-the-webshop)
 
-[5 Other available webshop add ons](#5-other-available-webshop-add-ons)
-
 # Preface
 
 Welcome the FloriShop WhatsApp offers manual. Sending offers via
