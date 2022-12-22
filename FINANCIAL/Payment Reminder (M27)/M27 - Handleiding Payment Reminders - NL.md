@@ -41,7 +41,6 @@ Bij Debiteur > Financieel > Algemeen stel je ook in of en na hoeveel dagen de kl
 <details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Gebruikershandleiding Aanmanen\media\image2-1.png"/></details>
 
 
-
 # Benodigde kolommen activeren
 
 |Stap|Uitleg|
@@ -98,6 +97,7 @@ In het venster ‘Meerdere Facturen geselecteerd’ is nu een overzicht te vinde
 |Stap|Uitleg|
 |:--|:--|
 |**1**|In de kolom Aanm1 wordt de datum van de eerste keer aanmanen geprint. <details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Gebruikershandleiding Aanmanen\media\image13.png"/></details>
+
 &nbsp;
 Wanneer een debiteur zijn openstaande posten betaalt, worden deze automatisch verwijderd uit het overzicht van open posten in het scherm ‘Open Posten Debiteuren’.
 
