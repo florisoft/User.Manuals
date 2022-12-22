@@ -12,43 +12,17 @@
 
 [4 WhatsApp aanbiedingen versturen vanuit de webshop](#4-whatsapp-aanbiedingen-versturen-vanuit-de-webshop)
 
-[5 Overige webshop add ons](#5-overige-webshop-add-ons)
-
 # 1 Inleiding
 
 Welkom bij de handleiding Whatsapp aanbiedingen van FloriShop. Het
 versturen van aanbiedingen via WhatsApp is een mooie manier om producten
-uit de webshop onder de aandacht van klanten te brengen. Met de
-inburgering van smartphones en tablet-pc's kan deze add-on zorgen voor
-een hogere omzet vanuit de webshop.
-
-Er dienen een aantal zaken ingericht te worden om het delen van
-voorraden/partijen mogelijk te maken.
-
-De eerste stap is het aanmaken van een anonieme debiteur. Deze is nodig
-om voorraden zichtbaar te maken voor niet ingelogde gebruikers. Op deze
-manier wordt het voor iedereen mogelijk om producten in de webshop te
-delen via WhatsApp.
-
-Na het aanmaken van de anonieme debiteur in Florisoft moet deze aan de
-webshop gekoppeld worden. Dit gebeurd in de webshop settings. Hoofdstuk
-drie beschrijft het koppelen van de anonieme debiteur aan de webshop.
+uit de webshop onder de aandacht van klanten te brengen. 
 
 De handleiding beschrijft twee manieren waarop WhatsApp kan worden
 gebruikt om aanbiedingen te versturen. De eerste manier is om een
 voorraad te verzenden. Dit wordt veel gebruikt in combinatie met
 dagelijkse aanbiedingen. De tweede manier om aanbiedingen te delen via
-WhatsApp bestaat uit het verzenden van individuele producten. Beide
-manieren worden beschreven in hoofdstuk vier.
-
-Het laatste hoofdstuk, hoofdstuk vijf, geeft een overzicht van de
-overige beschikbare add ons voor de webshop. Naast het delen via
-WhatsApp heeft de webshop nog meer uitbreidingen met ieder z’n eigen
-unieke functionaliteit. Deze zijn beschreven in hoofdstuk vijf.
-
-Het doel van deze handleiding is om te laten zien hoe u
-WhatsApp-aanbiedingen in de webshop kunt gebruiken, zodat uw producten
-altijd ‘on top of the mind’ zijn bij de klant.
+WhatsApp bestaat uit het verzenden van individuele producten. 
 
 **Let op: afbeeldingen in deze handleiding kunnen enigszins verschillen
 van wat u op uw eigen scherm ziet.**
@@ -113,38 +87,12 @@ Ga verder op de volgende pagina.
     ‘Debiteuren’. Het venster ‘Opslagen bij verkoop via Internet’ opent.
     Lees verder op de volgende pagina.
 
-> Controleer of de kolom ‘Perc’ aan staat in het venster ‘Opslagen bij
-> verkoop via internet’.
->
-> 11\. Klik met de rechtermuisknop op een willekeurige kolom naam. (nr.
-> 16) Het venster met beschikbare kolommen verschijnt.
-
 <img src=".Handleiding webshop WhatsApp aanbiedingen\media\image7.png" style="width:5.87572in;height:4.76042in" />
-
-1.  Zoek de kolom ‘Perc’ in de lijst en controleer of er een vinkje
-    staat in de kolom ‘Aan’. Mocht er geen vinkje staan zet deze dan
-    aan. (nr. 17)
-
-2.  Klik op de knop ‘Ok’ (nr. 18) in het kolommenoverzicht.
-
-De kolom ‘Perc’ verschijnt nu in het venster ‘Opslagen bij verkoop via
-Internet’. Het kan zijn dat de kolom niet zichtbaar is, omdat deze te
-veel naar rechts is geplaatst.
-
-Gebruik de horizontale schuifbalk om de kolom zichtbaar te maken. Klik
-op de naam van de ‘Perc’ kolom en houd de linkermuisknop ingedrukt. Druk
-tegelijkertijd op de Ctrl-toets (ingedrukt houden) en sleep de kolom
-naar de gewenste positie.
-
-1.  Geef de kolom ‘Perc' de waarde -100 (nr. 19) voor de voorraden die
-    via WhatsApp gedeeld worden. Dit zorgt ervoor dat de anonieme
-    debiteur geen prijzen ziet op de webshop voor de betreffende
-    voorraden.
-
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image8.png" style="width:5.77083in;height:2.89687in" />
 
 1.  Zet de 'A'- en' R'-vinkjes (nr. 20) aan voor de voorraden die u
     toegankelijk wil maken via de webshop.
+    
+> <img src=".Manual webshop add on Whatsapp offers\media\image8.png" style="width:5.78125in;height:2.83837in" />
 
 In het bovenstaande voorbeeld zijn voor de voorraden TEST, BLOEM, DECO
 en TEST17 de vinkjes 'A' en 'R' aangevinkt. Dit betekent dat deze
@@ -302,221 +250,3 @@ Hiermee zijn de iconen te verbergen.
 >
 > Het is een moderne manier om rechtstreeks te adverteren voor de
 > doelgroep. Dat is de meerwaarde van deze add on.
-
-# 5 Overige webshop add ons 
-
-Enthousiast over het delen van WhatsApp-aanbiedingen? De webshop heeft
-nog meer interessante uitbreidingsmogelijkheden in de vorm van add ons.
-Hieronder volgt een korte beschrijving van alle beschikbare add ons.
-
-**FloriShop Analyse**   
-Met de FloriShop add-on Analyse wordt e-commerce data verzonden naar
-Google Analytics. Voorbeelden van doorgestuurde informatie (niet
-exclusief) zijn:
-
--   Toegevoegde producten aan de winkelmand
-
--   Verwijderde producten uit winkelmand
-
--   Aantallen afgeronde kopen
-
-Deze data wordt ingeladen in de datalayer van Google Tag manager. Het is
-dus nodig om Google Analytics via Tag Manager te gebruiken.
-
-**FloriShop CMS**    
-Met de lancering van de FloriShop add on CMS, brengt Florisoft uw
-website en webshop samen tot één platform. Hiermee kunt u tevens klanten
-voorzien van bedrijfsinformatie alsmede de mogelijkheid om direct te
-shoppen in de webshop.  
-  
-Het beheer van deze website is ondergebracht in een uitgebreid CMS
-systeem met online beheermogelijkheid.
-
-**FloriShop Credit**    
-De Credit add on binnen FloriShop is ontwikkeld om de gebruiker een
-makkelijke manier te bieden voor het crediteren van artikelen aan de
-hand van een stapsgewijs proces waarbij de meeste informatie al
-beschikbaar is en alleen nog aangevuld dient te worden. Naast het feit
-dat het makkelijker is voor de gebruiker, is er ook minder
-administratieve inspanning vereist, omdat het proces volledig
-automatisch verwerkt wordt.
-
-Bij het voltooien van een aanvraag worden er mails verstuurd naar de
-adressen die ingesteld zijn binnen Florisoft met behulp van een
-professioneel ogende lay-out.
-
-De credit aanvragen zijn na het voltooien van de aanvraag zichtbaar in
-het accorderen scherm binnen Florisoft en kunnen hier beoordeeld worden.
-
-**FloriShop Dashboard (CMS add on is verplicht)**    
-Met de add on Dashboard kan FloriShop worden gebruikt als een
-waardevolle bron van relevante bedrijf kritische informatie. Denk
-hierbij aan verkoopcijfers per tijdseenheid, omzet, aantal kopende
-klanten op de webshop, geannuleerde kopen, voorraden en vele andere
-soorten informatie.
-
-In principe kan alle informatie in de database via verschillende soorten
-weergaven beschikbaar worden gemaakt in een dashboard. Denk aan cirkel-
-en staafdiagrammen, lijngrafieken, meters en tabellen. De dashboard add
-on wordt veel gebruikt op de werkvloer om de prestaties van een bepaald
-proces te meten, zoals het aantal gepikte orders of ingepakte dozen.
-
-Deze add-on wordt compleet met bijbehorende hardware geleverd. Het is
-een bijzondere manier om inzicht te krijgen in de prestaties van zowel
-het bedrijf als het gedrag van de klant.
-
-**FloriShop App**
-
-De FloriShop App add on maakt de webshop beschikbaar als een Android- of
-Apple-app die klanten kunnen downloaden uit de bijbehorende app stores
-van beide bedrijven. Met deze app staat de webshop nog dichter bij uw
-klant: zij kunnen in hun eigen tijd kopen, waar ze zich ook bevinden.
-
-De app is ook een uitstekende manier om nog meer naamsbekendheid te
-creëren; de app wordt gepubliceerd in de Google Play Store en de App
-Store met de naam en het logo van het bedrijf. Hierdoor kunnen
-potentiële klanten de app overal ter wereld downloaden.
-
-Er is ook een mogelijkheid om de app aan te bieden aan klanten als een
-shop in shop-principe. Uw voorraad zal zichtbaar zijn in de app, maar de
-vormgeving en gegevens binnen de app zullen zichtbaar zijn onder de naam
-van uw klant met een eigen logo en inlogscherm.
-
-**FloriShop FloriGrow**    
-De add on FloriGrow geeft inzicht in de opbrengt en afschrijving van
-een kwekerij binnen een bepaalde periode. Met FloriGrow heeft u altijd
-alle informatie die nodig is binnen handbereik.
-
-FloriGrow is een succesvol softwarepakket dat speciaal is ontwikkeld
-voor kwekers. Deze professionele en eenvoudig te gebruiken software
-geeft het bedrijf meer inzicht geven in de stand van zaken. Eigen
-servers en verschillende softwarepakketten zijn verleden tijd. FloriGrow
-ontzorgt volledig. Wil je met andere pakketten werken? Geen probleem:
-FloriGrow heeft uitstekende exportmogelijkheden. FloriGrow ondersteunt
-de volgende functies:
-
--   Importeren van oogst
-
--   Voorspellen van oogstopbrengst
-
--   Sorteren
-
--   Voorraadbeheer
-
--   Klant verdelingen & order picken
-
--   Verkopen en pre-ordes
-
--   Facturatie, paklijst en consolidatie
-
--   Elektronische productinformatie met behulp van EKT
-
--   Beleidsinformatie
-
--   Omzet- en voordeelberekening
-
--   Exporteer verbindingen naar externe software zoals accountancy
-
-**FloriShop Mobile Photo**  
-De add on Mobile Photo maakt het mogelijk om foto's handmatig te
-koppelen aan producten in de webshop, zowel voor voorraad- als
-bestelpartijen. Soms worden foto's van externe bronnen niet correct
-geladen op de webshop. Deze add on lost dit probleem op. U kunt eigen
-foto's maken en koppelen.
-
-Voor voorraad partijen is het ook mogelijk om de foto te verwerken met
-de fotostudio in Florisoft. Hiermee zijn de afmetingen aan te passen en
-watermerken toe te toevoegen. Met de add on Mobile Photo is het zelfs
-mogelijk om een foto rechtstreeks met een smartphone te maken en deze
-aan een product te koppelen.
-
-**FloriShop Payment Gateway**  
-Om een webshop compleet te maken, kan een betalingsmodule (payment
-gateway) worden gekoppeld, zodat klanten openstaande posten kunnen
-betalen voordat ze nieuwe aankopen doen. De regels kunnen volledig
-worden beheerd vanuit het Florisoft pakket, bijvoorbeeld de maximale
-kredietlimiet, hoe oud de oudste open post kan zijn of het maximale
-aantal openstaande facturen.
-
-Deze add-on maakt het voor de klant mogelijk om in de webshop een
-betaling uit te voeren met behulp van een externe betaalprovider.
-Onderstaande providers worden in ieder geval die in elk geval door deze
-gateway worden ondersteund:
-
--   OmniKassa
-
--   SagePay
-
--   Multisafepay
-
--   Buckaroo
-
-Andere aanbieders kunnen in overleg ook worden ondersteund.
-
-**FloriShop Sales**    
-De FloriShop add-on Sales biedt accountmanagers de mogelijkheid om in
-samenwerking met de klant de webshop optimaal te gebruiken.
-Functionaliteit die voorheen alleen in Florisoft beschikbaar was, wordt
-nu ook via de webshop beschikbaar gesteld. Dit levert de volgende
-voordelen op:
-
--   De FloriShop-verkoopfunctionaliteit is veel beter toegankelijk via
-    de webshop. (thuis, onderweg, op kantoor, apparaat onafhankelijk,
-    geen verbinding met een externe desktop vereist)
-
--   De accountmanager krijgt meer inzicht in de klant en zijn
-    koopgedrag.
-
--   De accountmanager kan eenvoudig aankopen doen voor zijn klanten. De
-    klant kan beter worden bediend met aanbiedingen.
-
-Deze add on is nog in ontwikkeling. Debiteurenbeheer, biedingsbeheer,
-het delen van aanbiedingen via WhatsApp en het aanpassen van de prijzen
-is al geïmplementeerd. In de loop van de tijd zal deze add on veel meer
-functionaliteit gaan bevatten. Hieronder een vindt u een overzicht van
-de functies die in de add on zijn geïmplementeerd:
-
--   Debiteurenbeheer (debiteuren raadplegen, aanmaken en wijzigen)
-
--   Aanbiedingen (met de volgende media: e-mail, WhatsApp, MailChimp,
-    push notificatie op de app)
-
--   Gebeurtenissen opnemen
-
--   Tijdlijn (met informatie over: klantenbezoek, telefoongesprek,
-    e-mail conversatie, login, koop momenten, kredietaanvragen, het
-    instellen van aanbiedingen)
-
--   Kopen voor debiteuren sub debiteuren
-
--   Aanpassen van prijzen
-
--   Transportplanning
-
--   Openingstijden per voorraad regelen
-
--   Orderverwerking
-
-**FloriShop Shopping List**    
-Met de add on Shopping List kunt u gemakkelijk een ‘boodschappenlijst’
-maken op basis van recente bestellingen. Met deze functie
-vergemakkelijkt het vinden en kopen van producten. Het komt veel voor
-dat klanten dezelfde bestelling hebben. Wanneer klanten gewend zijn om
-op deze manier te bestellen, heeft deze add on zeker meerwaarde.
-
-Wanneer de gebruiker zich de eerste keer aanmeldt en een voorraad kiest,
-wordt een venster met recente bestellingen weergegeven. Deze
-bestellingen kunnen worden gecontroleerd en geïmporteerd naar de
-shopping list.
-
-Eerdere bestellingen kunnen worden uitgevouwen, zodat de gebruiker kan
-zien wat voor soort producten hieraan gekoppeld zitten. De gebruiker kan
-precies bepalen welke bestellingen geïmporteerd moeten worden.
-
-**Geïnteresseerd in één of meer van deze add ons? Aarzel niet om
-telefonisch of per e-mail contact op te nemen met Florisoft. We staan
-open voor advies met betrekking tot bovenstaande add ons en hoe deze in
-te passen zijn binnen uw organisatie.**
-
-**Telefoon:** (0)71 40 806 10  
-**E-mail:** sales@florisoft.nl
