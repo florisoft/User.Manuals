@@ -4,10 +4,6 @@
 
 Welkom tot de Florisoft handleiding voor de Klokvoorverkoop module. In deze handleiding worden de stappen beschreven voor het implementeren van de Klokvoorverkoop module.
 
-Nederlandse veilingen bieden een service aan genaamd Klok voor verkoop, deze service is een voorraad connectie dat de producten laat zijn die klaar zijn om onder de hamer te gaan. De unieke draai hier aan is dat deze producten al gekocht kunnen worden voor dat ze door het veiling proces heen gaan.
-
-Het doel van deze module is het uitleggen en het technisch implementeren van de Klok Voor Verkoop module in Florisoft. Dit zodat gebruikers een basis level begrip hebben van het systeem en hoe gewerkt wordt met deze module. De stappen voor het opzetten van een connectie voor deze module worden beschreven in deze handleiding zodat een gebruiker de module zelf kan opzetten en gebruiken.
-
 ## Inhoudsopgave
 
 [Vooraf te regelen door u](#vooraf-te-regelen-door-u)  
@@ -38,8 +34,8 @@ Het doel van deze module is het uitleggen en het technisch implementeren van de 
 |:--|:--|
 |**1**|Log in op het FloraHolland doormiddel van de onderstaande link:<br>https://floramondo.royalfloraholland.com/settings/accounts.|
 |**2**|Klik bij het webservice account op de knop 'Instellingen'.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="tmp/image1.png"></details>|
-|**3**|Vervolgens wordt er een pagina geopend waar filters in kunnen worden gesteld voor dit webservice account. Stel hier de volgende dingen in:<br>- **Standaard afleverlocatie** <br>- **Filter** voeg via filter een filter toe op het verkoopkanaal.|
-|**4**|Met het filterkan filteren op basis van:<br>- **Verkoopkanaal**: *altijd klokvoorverkoop*.<br>- **Afleverlocaties**: *Hier kunnen meerdere afleverlocaties toegevoegd worden.* <br>- **Hoofdgroep**: *Kies hier óf bloemen of (tuin-/kamer-)planten.<details><summary><b>Klik hier voor uw voorbeeld afbeelding*</b></summary><img src="tmp/image2.png"></details>|
+|**3**|Vervolgens wordt er een pagina geopend waar filters in kunnen worden gesteld voor dit webservice account. Stel hier de volgende dingen in:<br>- **Standaard afleverlocatie** <br>- **Filter** voeg een filter toe op het verkoopkanaal.|
+|**4**|Met het filter kan filteren op basis van:<br>- **Verkoopkanaal**: *altijd klokvoorverkoop*.<br>- **Afleverlocaties**: *Hier kunnen meerdere afleverlocaties toegevoegd worden.* <br>- **Hoofdgroep**: *Kies hier óf bloemen of (tuin-/kamer-)planten.<details><summary><b>Klik hier voor uw voorbeeld afbeelding*</b></summary><img src="tmp/image2.png"></details>|
 |**5**|Wilt u zowel bloemen als planten inlezen? Maak hier dan een tweede webservice account voor aan.|
 
 ### Dienstcontracten
@@ -51,8 +47,8 @@ Om ervoor te zorgen dat na het kopen de juiste EKT-berichten worden verstuurd, m
 |Stap|Uitleg|
 |:--|:--|
 |**1**|Ga naar de onderstaande link en log indien nodig in met uw FloraHolland account.https://portal.royalfloraholland.com/nl-NL/diensten/mijn-dienstcontracten.|
-|**2**|Activeer de onderstaande opties (afhankelijk vna afleverlocatie's):<br> - **EKT bestelling webshop v3.7**<br> - **EKT bestelling website v3.7**<br>- **Voorlopige EKT Aalsmeer v3.7**<br><br>*Zie ook de onderstaande afbeelding*.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="tmp/image3.png"></details>|
-|**3**|Nadata u de wijzigingen heeft opgeslagen krijgt u mogelijk de onderstaande melding:<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="tmp/image4.png"></details>|
+|**2**|Activeer de onderstaande opties (afhankelijk van afleverlocatie's):<br> - **EKT bestelling webshop v3.7**<br> - **EKT bestelling website v3.7**<br>- **Voorlopige EKT Aalsmeer v3.7**<br><br>*Zie ook de onderstaande afbeelding*.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="tmp/image3.png"></details>|
+|**3**|Nadat u de wijzigingen heeft opgeslagen krijgt u mogelijk de onderstaande melding:<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="tmp/image4.png"></details>|
 |**4**|*Voeg bij 'Adressen voor dienstberichten' uw EKT e-mailadres in voor het ontvangen van de voorlopige en de definitieve EKT's.*|
 
 ## Inrichten van Florisoft
@@ -110,8 +106,8 @@ Om ervoor te zorgen dat na het kopen de juiste EKT-berichten worden verstuurd, m
 |**5**|U heeft zojuist instellingen geïmporteerd voor het gebruik van een FloraMondo koppeling. U moet alleen nog de volgende instellingen invullen:<br>- **Userid**: gebruikersId van het webservice account <br>- **Wachtwoord**: wachtwoord van het webservice account <br>- **Binnenkomende voorraad**: voorraad waarin de partijen worden ingelezen.<details><summary><b>Klik hier voor uw voorbeeld afbeeldingen</b></summary><img src="tmp/image13.png"></details>|
 |**6**|Navigeer nu naar de map: **Webservice→Partijen Ontvangen**|
 |**7**|Klik hier op de knop **Afleverlocaties voorraden** dit opent een nieuw scherm. U kan in dit scherm instellen waar de hoofdgroep partijen (bloemen of planten) naar toe gaan op basis van de EAN afleverlocatiecode.<details><summary><b>Klik hier voor uw voorbeeld afbeeldingen</b></summary><img src="tmp/image14.png"></details>|
-|**8**|Navigeer nu naar de map **Webservice→Koop aanvraag**|
-|**9**|Vul in het veld **Customer party EAN-Code** uw eigen EAN code in.<details><summary><b>Klik hier voor uw voorbeeld afbeeldingen</b></summary><img src="tmp/image15.png"></details>|
+|**8**|Navigate to the folder **Webservice→Koop aanvraag**|
+|**9**|Vul het veld **Customer party EAN-Code** in met uw eigen EAN code in.<details><summary><b>Klik hier voor uw voorbeeld afbeeldingen</b></summary><img src="tmp/image15.png"></details>|
 |**10**|Wanneer u deze gegevens heeft ingevuld, kan de koppeling ingelezen worden. Let erop dat het klokvoorverkoop aanbod pas vanaf 12:00 uur online komt. Voor deze tijd zullen er dus nog geen partijen ingelezen worden.|
 |**11**|Navigeer naar de map **Webservice→Partijen ophalen**|
 |**12**|Bij de eerste keer inlezen van de koppeling dient u de instelling **Altijd volledig aanbod ophalen ipv wijzigingen** aan te zetten.<details><summary><b>Klik hier voor uw voorbeeld afbeeldingen</b></summary><img src="tmp/image16.png"></details>|
