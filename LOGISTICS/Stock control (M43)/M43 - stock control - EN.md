@@ -1,8 +1,6 @@
 <img src="../../fslogo.png"/>
 
-
-# Stock control
------
+# Florisoft Manual Stock control - M43
 
 With the stock control module on PDA you can easily walk through the stock and use a simple scan to check whether the amount you physically have in the cell corresponds to the amount in your stock in Florisoft.
 We normally scan and check the games on a PDA, this can also be done from a normal user, but that is not recommended.
