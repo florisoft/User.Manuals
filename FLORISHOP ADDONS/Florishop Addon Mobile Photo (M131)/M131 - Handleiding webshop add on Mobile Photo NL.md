@@ -2,18 +2,6 @@
 
 # FloriShop handleiding Mobile foto
 
-# Inhoudsopgave
-
-[1 Inleiding](#inleiding)
-
-[2 Autoriseer gebruikers voor het koppelen van foto's](#autoriseer-gebruikers-voor-het-koppelen-van-fotos)
-
-[3 Handmatig afbeeldingen koppelen](#handmatig-afbeeldingen-koppelen)
-
-[4 Overige webshop add ons](#overige-webshop-add-ons)
-
-# 1 Inleiding
-
 Welkom bij de handleiding FloriShop add on Mobile foto. Deze add on
 wordt gebruikt om foto's toe te voegen aan producten op de webshop.
 Meestal zijn er standaard al foto’s gekoppeld.  
@@ -44,6 +32,14 @@ externe partijen.
 
 **Let op: afbeeldingen in deze handleiding kunnen enigszins afwijken van
 wat u op uw eigen scherm ziet.**
+
+# Inhoudsopgave
+
+[1 Autoriseer gebruikers voor het koppelen van foto's](#autoriseer-gebruikers-voor-het-koppelen-van-fotos)
+
+[2 Handmatig afbeeldingen koppelen](#handmatig-afbeeldingen-koppelen)
+
+[3 Overige webshop add ons](#overige-webshop-add-ons)
 
 #  Autoriseer gebruikers voor het koppelen van foto's
 

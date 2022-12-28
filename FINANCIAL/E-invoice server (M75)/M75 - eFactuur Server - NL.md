@@ -1,6 +1,6 @@
 <img src="../../fslogo.png"/>
 
-## e-Factuur Server
+## Floriday Hanleiding E-factuur server (M75)
 
 Met de module e-Factuur Server wordt het mogelijk om informatie naar de
 klant te sturen zodat de klant makkelijker de inkoopfactuur kan
