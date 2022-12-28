@@ -89,7 +89,8 @@ In het venster ‘Meerdere Facturen geselecteerd’ is nu een overzicht te vinde
 
 |Stap|Uitleg|
 |:--|:--|
-|**1**| **Optioneel:** het is mogelijk om een aanmaning weer in te trekken door in het venster ‘Meerdere Facturen geselecteerd’ de betreffende regels te selecteren met spatiebalk en op ‘Intrekken Selectie’ te klikken.
+|**1**| Optioneel: het is mogelijk om een aanmaning weer in te trekken door in het venster ‘Meerdere Facturen geselecteerd’ de betreffende regels te selecteren met spatiebalk en op ‘Intrekken Selectie’ te klikken.
+
 :memo:Alle geselecteerde regels worden dan verwijderd en aangemerkt als niet aangemaand.
 
 :warning:**Let op: bij het annuleren (intrekken) van één of meerdere open posten in het venster ‘Meerdere Facturen geselecteerd’ worden deze open posten in Florisoft gemarkeerd als zijnde niet aangemaand. Echter is de mail met de aanmaning dan al verstuurd naar de klant.**
