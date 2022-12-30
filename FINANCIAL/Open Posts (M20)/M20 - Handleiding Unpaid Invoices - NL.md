@@ -4,7 +4,7 @@
 
 ## Inhoudsopgave
 
-[Verplichte instelling per debiteur](#verplichtte-instelling-per-debiteur)  
+[Verplichte instelling per debiteur](#verplichte-instelling-per-debiteur)  
 [Algemene proces doorloop](#algemene-proces-doorloop)  
 [Overzicht open posten](#overzicht-open-posten)  
 [Debiteuren sectie](#de-debiteuren-sectie)  
@@ -78,7 +78,7 @@ Om alle open posten op een scherm te laten zien moeten er wat instellingen inges
 |**14. Cijfer**|Dit veld bevat een scoringssysteem voor betalingsbereidheid van een klant. Indien alle posten betaald zijn binnen het gezette termijn is de score een 10. Als de geselecteerde facturen openstaan voor 90 dagen of langer zal het nummer 0 zijn. De score calculatie vind dynamisch plaats op basis van de hoeveelheid facturen op het scherm zichtbaarzijn en hoeveel er verlopen zijn.|
 |**15. Betaling selectie**|Het totaal bedrag van alle al betaalde geselecteerde posten.|
 |**16. Betalingen - Nieuw**|Selecteer een post in de hoofd sectie van het scherm en klik op de 'new' knop. Het verschil tussen beide velden is beschreven onder de tabel in 10.9 - 10.13|
-|**17. Alle betalingen**|Deze schakelaar knop kan gebruikt worden om de laatste of alle historische betalingen die geregristreerd staan aan debiteur te laten zien.|
+|**17. Alle betalingen**|Deze schakelaar knop kan gebruikt worden om de laatste of alle historische betalingen die geregistreerd staan aan debiteur te laten zien.|
 |**18. Bet. historie**|Gebruik deze checkbox om alle historische (al doorgeboekte) facturen te zien in de factuur geschiedenis.|
 
 <details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="media NL/image3.png" width = 600px></details>
@@ -112,20 +112,20 @@ De uitleg is aan de hand van de onderstaande afbeelding gevolgd door een tekst u
 |:--|:--|
 |**Afbeelding**|<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="media NL/image5.png" width = 600px></details>|
 |**1. Debnr.**| het debiteurnummer waaraan de open post gekoppeld is.|
-|**2. Naam**|de debiteurnaam waaran de open post gekoppeld is.|
+|**2. Naam**|de debiteurnaam waaraan de open post gekoppeld is.|
 |**3. Factuurnr**|het factuurnummer waaraan de open post gekoppeld is.|
-|**4. Factuurdatum**|de factuurdatum waaran de open post gekoppeld is.|
+|**4. Factuurdatum**|de factuurdatum waaraan de open post gekoppeld is.|
 |**5. Vervaldatum**|de vervaldatum van de open post|
 |**6. Bedrag** |het totaalbedrag van de open post|
 |**7. Betaald**|het totaal al betaalde bedrag van open post.|
 |**8. Saldo**|de resterende hoeveelheid van de open post oftewel: bedrag - betaald = balans|
-|**9. Historisch**|checkbox dat aangevinkt word of de open post een historische post is.  De historische posten zijn alleen zichtbaar wanneer de schakelaar vna nummer 17 van het vorige hoofdstuk aan staat.|
+|**9. Historisch**|checkbox dat aangevinkt word of de open post een historische post is.  De historische posten zijn alleen zichtbaar wanneer de schakelaar van nummer 17 van het vorige hoofdstuk aan staat.|
 |**10. Ordernr**|het order/bestelling -snummer waaraan de open post gekoppeld is.|
 |**10. Niet Zichtbaar**|met deze checkbox kan u bij activeren de bijhorende post onzichtbaar maken. Deze post is dan alleen zichtbaar wanneer optie 8 van de vorige stap uit staat.|
 
 ### Instellen tabel layout
 
-Naast de hiervoor benoemde kolommen kan u nog meer velden aan zetten voor de hoofdtabel. Dit u door de volgende stappen te volgen:
+Naast de hiervoor benoemde kolommen kan u nog meer velden aan zetten voor de hoofdtabel. Dit doet u door de volgende stappen te volgen:
 
 |Stap|Uitleg|
 |:--|:--|
@@ -178,7 +178,7 @@ De belangrijkste extra functionaliteit is het printen van e-mail informatie (sam
 |**Afbeelding**|<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="media NL/image10.png" width = 600px></details>|
 |**1.**|Typ hier uw e-mail onderwerp.|
 |**2.**|Typ hier het e-mailadres van de ontvanger.
-|**3.**|Vul hier eventule CC e-mailadressen.|
+|**3.**|Vul hier eventuele CC e-mailadressen.|
 |**4.**|Vul hier het tekstbericht in voor het te verzenden e-mail bericht.|
 |**5.**|Mocht u HTML elementen hebben gebruikt in uw berichtlichaam is het van belang dat dit u deze optie aanvinkt.|
 |**6.**|Klik op OK als u het bericht wil verzenden, er is geen manier om de mail terug te draaien na het verzenden.|
