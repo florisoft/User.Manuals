@@ -84,7 +84,7 @@ Voer de volgende stappen uit om de inbox-instellingen te wijzigen:
 
 |Stap|Uitleg|
 |:--|:--|
-|**1**| Klik vanuit de inbox van Gmail op he ttandwiel icoon (nr.1) en klik vervolgens in het uitgeklapte menu op "Instellingen" (nr.2) <details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Handleiding standaard EKT-berichten Florisoft\media\image3.png"/></details>
+|**1**| Klik vanuit de inbox van Gmail op het tandwiel icoon (nr.1) en klik vervolgens in het uitgeklapte menu op "Instellingen" (nr.2) <details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Handleiding standaard EKT-berichten Florisoft\media\image3.png"/></details>
 |**2**| Het volgende scherm verschijnt. Klik in dit scherm op het tabblad "Inbox" (nr.1) en zet de vinkjes voor "Sociaal" en "Reclame" uit. (nr.2) klik op "Wijzigingen opslaan" onderaan de pagina (nr.3) <details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Handleiding standaard EKT-berichten Florisoft\media\image4.png" /></details>
 
 
