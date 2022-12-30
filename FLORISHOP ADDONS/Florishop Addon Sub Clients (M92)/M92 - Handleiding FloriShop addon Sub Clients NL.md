@@ -13,7 +13,7 @@ De module “Subklanten” maakt het mogelijk dat 1 gebruiker (Hoofdklant) voor 
 
 ## Rechten toekennen
 
-Een ingelogde debiteur kan normaal alleen koopjes voor zichzelf doen, maar in Florisoft kan je bij de debiteur ook subklanten toevoegen. *Volg de onderstaande stappen uit*:
+Een ingelogde debiteur kan normaal alleen koopjes voor zichzelf doen, maar in Florisoft kan je bij de debiteur ook subklanten toevoegen. *Voer de onderstaande stappen uit*:
 
 |Stap|Uitleg|
 |:--|:--|
