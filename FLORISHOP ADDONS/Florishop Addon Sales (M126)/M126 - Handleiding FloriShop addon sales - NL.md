@@ -57,7 +57,7 @@ Geef op het tabje Webshop het volgende op:
 
 - [X] Vinkje bij “Accountmanager login”;
 - [x] Wachtwoord;
-- [x] Debiteur waaraan verkoper is gekoppeld (o.a. belangrijk voor deautorisatie van de voorraden);
+- [x] Debiteur waaraan verkoper is gekoppeld (o.a. belangrijk voor de autorisatie van de voorraden);
 - [x] Vinkje bij “Debiteurkaart”, etc.
 <details><summary><b>Klik hier voor een voorbeeld</b></summary><img src=".Handleiding inrichten Sales\media\image4.png"/></details>
 
