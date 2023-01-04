@@ -17,7 +17,7 @@ Voordat er gebruik gemaakt kan worden van de Auction Image Bank module moeten er
 |**6**|U kan nu terug gaan naar de Florisoft navigator door de constanten te sluiten.|
 |**7**|Klik met de rechter muisknop op het timer icoon in de navigator en selecteer '*Timer settings*'.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Handleiding_NL/media/image3.png"></details>|
 |**8**|In de timer willen we de instelling 'Foto Download X Fotos' aanzetten. Vind de instelling in de tabel. **Tip:** Klik op de tabel en druk dan de toetsencombinatie **CTRL + SHIFT +  F** in, dit opent het zoeken scherm.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Handleiding_NL/media/image16.png"></details>|
-|**8.b**|Als de juiste instellingen niet weergeven als normale gebruiker, log in als de Timer gebruiker!!|
+|**8.b**|Als de juiste instellingen niet worden weergegeven als normale gebruiker, log dan in als de Timer gebruiker!!|
 |**9**|Als u de instelling eenmaal gevonden heeft klikt u er een keer op om de instelling te openen aan de rechterkant van het timer scherm. Stel de tijden in waar tussen het proces moet draaien en met welke interval het proces word uitgevoerd tijdens de start en stop tijd.|
 |**10**|**Niet vergeten**: zet ook de checkbox "*Dit script activeren bij het starten van timer*" ook aan!|
 |**11**|Doe hetzelfde voor het timerproces 'Xfotos opschonen' als deze nog niet aan staat.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Beeldbank_Handleiding_NL/media/image6.png"></details>|

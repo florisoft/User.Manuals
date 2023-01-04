@@ -1,10 +1,10 @@
 <img src="../../fslogo.png"/>
 
-## Floriday Hanleiding E-factuur server (M75)
+## Handleiding E-Invoice Server (M75)
 
-Met de module e-Factuur Server wordt het mogelijk om informatie naar de
-klant te sturen zodat de klant makkelijker de inkoopfactuur kan
-controleren. De e-Factuur Server bestaat uit de volgende aspecten:  
+Met de module E-Invoice Server wordt het mogelijk om informatie naar de
+klant te sturen zodat de klant gemakkelijk de inkoopfactuur kan
+controleren. De E-Invoice Server bestaat uit de volgende aspecten:  
 
 - Tijdens het verzenden van de originele factuur naar de klant wordt er
 een e-Factuur meegestuurd in de vorm van een xml bestand. Deze e-Factuur

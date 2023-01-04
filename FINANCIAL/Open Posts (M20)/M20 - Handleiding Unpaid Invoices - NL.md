@@ -4,7 +4,7 @@
 
 ## Inhoudsopgave
 
-[Verplichtte inselling per debiteur](#verplichtte-instelling-per-debiteur)  
+[Verplichte instelling per debiteur](#verplichte-instelling-per-debiteur)  
 [Algemene proces doorloop](#algemene-proces-doorloop)  
 [Overzicht open posten](#overzicht-open-posten)  
 [Debiteuren sectie](#de-debiteuren-sectie)  
@@ -16,9 +16,9 @@
 [Printen en of mailen van samenvattingen](#printen-en-of-mailen-van-samenvattingen)
 
 
-## Verplichtte instelling per debiteur
+## Verplichte instelling per debiteur
 
-Een debiteur kan alleen open posten hebben als dit daadwerkelijk is ingesteld. Onthoud ook dat Open posten **niet** automatisch (met terugwerkende kracht) worden aangemaakt maar dat het **wel** mogelijk is om deze nader hand aan te maken.
+Een debiteur kan alleen open posten hebben als dit daadwerkelijk is ingesteld. Onthoud ook dat Open posten **niet** automatisch (met terugwerkende kracht) worden aangemaakt maar dat het **wel** mogelijk is om deze naderhand aan te maken.
 
 U kan deze bestelling in zien of wijzigen door de volgende stappen te volgen:
 
@@ -34,7 +34,7 @@ U kan deze bestelling in zien of wijzigen door de volgende stappen te volgen:
 
 ## Algemene proces doorloop
 
-Voordat we beginnen is het belangrijk dat we weten hoe een open post gecreëerd wordt. Hieronder staat een versimpelt diagram waarin de stappen voor het maken van een open post beschreven staan. De stappen worden vervolgens nader beschreven in de uitleg tabel onder het diagram.
+Voordat we beginnen is het belangrijk dat we weten hoe een open post gecreëerd wordt. Hieronder staat een versimpeld diagram waarin de stappen voor het maken van een open post beschreven staan. De stappen worden vervolgens nader beschreven in de uitleg tabel onder het diagram.
 
 <img src="media NL/AlgemeneProcesFlow.png">
 
@@ -42,7 +42,7 @@ Voordat we beginnen is het belangrijk dat we weten hoe een open post gecreëerd 
 |:--|:--|
 |**1. Verdeling maken**|De eerste stap is het maken van een verdeling op een voorraadpartij. Dit wordt gedaan door de klanten via de webshop of door u doormiddel van een verdeling op het voorraadscherm.|
 |**2. Verdeling doorboeken naar factuur**|Na het maken van een verdeling moet deze worden doorgeboekt|
-|**3. Print de factuur**|Wanneer een factuur compleet is kan deze worden geprint. Bij het printen krijgt de factuur een uniek factuurnummer deze kunnen hier na dus ook niet meer verandert worden. Deze facturen zijn dus onveranderlijk en gesloten.  |
+|**3. Print de factuur**|Wanneer een factuur compleet is kan deze worden geprint. Bij het printen krijgt de factuur een uniek factuurnummer deze kunnen hier na dus ook niet meer veranderd worden. Deze facturen zijn dus onveranderlijk en gesloten.  |
 |**4. Factuur naar de factuurhistorie**| De laatste stap is het doorboeken van uitgeprinte facturen naar de factuurhistorie. Florisoft ziet doorgeboekte facturen altijd als open posten behalve wanneer een of meerdere betalingen zijn verricht van een factuur. Mogelijk gemaakte betalingen zijn te zien in het open posten scherm.|
 
 :warning: **Aangezien de Florisoft applicatie regelmatig geüpdate wordt kan het zo zijn dat sommige schermen er net iets anders uit zien. We proberen de handleidingen zo goed mogelijk te onderhouden maar het kan zijn dat het iets achterloopt. Weet wel dat in de meeste gevallen het algemene proces niet drastisch zal veranderen.**:warning:
@@ -64,10 +64,10 @@ Om alle open posten op een scherm te laten zien moeten er wat instellingen inges
 |:--|:--|
 |**1. Zoekveld voor filteren op deb.**|Vul hier het debiteur waar op u wilt filteren|
 |**2. Knop zoekopdracht uitvoeren**|Klik hier om de filter opdracht uit te voeren|
-|**3. Alle debiteuren laten zien**|Deze checkbox is een alternatief tot optie 1 & 2 en door deze optie aan te zetten krijgt u alle debiteuren te zien. Belangrijk: bij grootte databases kan het lang duren om een complete lijst te genereren|
-|**4. Subklanten tonen**|Als deze checkbox aangevinkt staat ziet u ook de sub-klanten die aan de opgefilterde debiteuren vast hangen.|
-|**5. Alleen open posten**|Deze checkbox kan gebruikt worden om alleen open posten te laten zien. Als deze instelling uit staat zie je ook deels en helemaal betaalde facturen, zodra u het aan zet ziet u alleen compleet onbetaalde facturen.|
-|**6. Alleen verlopen open posten**|Bij het aanvinken van deze checkbox krijgt u alleen facturen te zien die de bijhorende verloopdatum voorbij zijn. De verloop van open posten kan ingesteld worden per debiteur.|
+|**3. Alle debiteuren laten zien**|Deze checkbox is een alternatief tot optie 1 & 2 en door deze optie aan te zetten krijgt u alle debiteuren te zien. Belangrijk: bij grote databases kan het lang duren om een complete lijst te genereren|
+|**4. Subklanten tonen**|Als deze checkbox aangevinkt staat ziet u ook de sub-klanten die aan de gefilterde debiteuren vast hangen.|
+|**5. Alleen open posten**|Deze checkbox kan gebruikt worden om alleen open posten te laten zien. Als deze instelling uit staat ziet u ook deels en helemaal betaalde facturen, zodra u het aan zet ziet u alleen compleet onbetaalde facturen.|
+|**6. Alleen verlopen open posten**|Bij het aanvinken van deze checkbox krijgt u alleen facturen te zien die de bijhorende verloopdatum voorbij zijn. Het verloop van open posten kan ingesteld worden per debiteur.|
 |**7. Historie tonen**|Bij het aanvinken van deze checkbox krijgt u een datumselectievenster te zien. Binnen dit venster vult u een start- en einddatum in en vervolgens klikt u op OK. U heeft zojuist een datum filter ingesteld hierdoor krijgt u alleen open posten te zien die in uw gestelde tijdsvak passen.|
 |**8. Alleen zichtbaar tonen**|Deze checkbox maakt het zo dat alleen de zichtbare open posten te zien zijn. Dit betekent dus dat de 'zichtbaar' checkbox van een post niet aangevinkt moet zijn in de bijhorende kolom.|
 |**9. Factuurdatum**|Bij het activeren van deze checkbox krijgt u een datumselectievenster te zien waar u een start- en einddatum selecteert. Door het instellen van dit datum filter krijgt u alleen facturen te zien die binnen deze tijdsperiode vallen.|
@@ -78,7 +78,7 @@ Om alle open posten op een scherm te laten zien moeten er wat instellingen inges
 |**14. Cijfer**|Dit veld bevat een scoringssysteem voor betalingsbereidheid van een klant. Indien alle posten betaald zijn binnen het gezette termijn is de score een 10. Als de geselecteerde facturen openstaan voor 90 dagen of langer zal het nummer 0 zijn. De score calculatie vind dynamisch plaats op basis van de hoeveelheid facturen op het scherm zichtbaarzijn en hoeveel er verlopen zijn.|
 |**15. Betaling selectie**|Het totaal bedrag van alle al betaalde geselecteerde posten.|
 |**16. Betalingen - Nieuw**|Selecteer een post in de hoofd sectie van het scherm en klik op de 'new' knop. Het verschil tussen beide velden is beschreven onder de tabel in 10.9 - 10.13|
-|**17. Alle betalingen**|Deze schakelaar knop kan gebruikt worden om de laatste of alle historische betalingen die geregristreerd staan aan debiteur te laten zien.|
+|**17. Alle betalingen**|Deze schakelaar knop kan gebruikt worden om de laatste of alle historische betalingen die geregistreerd staan aan debiteur te laten zien.|
 |**18. Bet. historie**|Gebruik deze checkbox om alle historische (al doorgeboekte) facturen te zien in de factuur geschiedenis.|
 
 <details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="media NL/image3.png" width = 600px></details>
@@ -90,7 +90,7 @@ Om alle open posten op een scherm te laten zien moeten er wat instellingen inges
 |**Afbeelding**|<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="media NL/image4.png" width = 600px></details>|
 |**1. Debiteurnummer**|Het veld 'Debiteurnummer' heeft een onwijzigbare waarde wat de debiteur naam en nummer bevat.|
 |**2. Factuurnummer**|Het factuurnummer is een verplicht veld dat een al bestaand factuurnummer moet bevatten om de open post aan te koppelen.Door op de F2 toets te drukken vul je automatisch het volgende beschikbare factuurnummer in.|
-|**3. Factuurdatum**|In het factuurdatum vult u de datum in waar aan de factuur geregristreerd word.|
+|**3. Factuurdatum**|In het factuurdatum vult u de datum in waar aan de factuur geregistreerd word.|
 |**4. Vervaldatum**|De verloopdatum van de factuur. Nomaal word dit veld gevuld met de standaard verloopdatum van een debiteur zodat nieuwe open posten de standaard financiële regel volgen van de betreffende debiteur.|
 |**5. Factuurbedrag**|Het Factuurbedrag word gevuld met het te betalen bedrag voor deze factuur. <br>Belangrijk: Houd rekening met de hoeveelheid decimalen dat gehanteerd wordt binnen uw systeem. Gebruikt uw systeem over het gehele systeem bijvoorbeeld 2 decimale waarden gebruik dan een getal met 2 cijfers achter de komma (bijv.: 0.01).|
 |**6. Valuta**|Kies in dit veld de te gebruiken munteenheid voor deze nieuwe open post.|
@@ -112,20 +112,20 @@ De uitleg is aan de hand van de onderstaande afbeelding gevolgd door een tekst u
 |:--|:--|
 |**Afbeelding**|<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="media NL/image5.png" width = 600px></details>|
 |**1. Debnr.**| het debiteurnummer waaraan de open post gekoppeld is.|
-|**2. Naam**|de debiteurnaam waaran de open post gekoppeld is.|
+|**2. Naam**|de debiteurnaam waaraan de open post gekoppeld is.|
 |**3. Factuurnr**|het factuurnummer waaraan de open post gekoppeld is.|
-|**4. Factuurdatum**|de factuurdatum waaran de open post gekoppeld is.|
+|**4. Factuurdatum**|de factuurdatum waaraan de open post gekoppeld is.|
 |**5. Vervaldatum**|de vervaldatum van de open post|
 |**6. Bedrag** |het totaalbedrag van de open post|
 |**7. Betaald**|het totaal al betaalde bedrag van open post.|
 |**8. Saldo**|de resterende hoeveelheid van de open post oftewel: bedrag - betaald = balans|
-|**9. Historisch**|checkbox dat aangevinkt word of de open post een historische post is.  De historische posten zijn alleen zichtbaar wanneer de schakelaar vna nummer 17 van het vorige hoofdstuk aan staat.|
+|**9. Historisch**|checkbox dat aangevinkt word of de open post een historische post is.  De historische posten zijn alleen zichtbaar wanneer de schakelaar van nummer 17 van het vorige hoofdstuk aan staat.|
 |**10. Ordernr**|het order/bestelling -snummer waaraan de open post gekoppeld is.|
 |**10. Niet Zichtbaar**|met deze checkbox kan u bij activeren de bijhorende post onzichtbaar maken. Deze post is dan alleen zichtbaar wanneer optie 8 van de vorige stap uit staat.|
 
 ### Instellen tabel layout
 
-Naast de hiervoor benoemde kolommen kan u nog meer velden aan zetten voor de hoofdtabel. Dit u door de volgende stappen te volgen:
+Naast de hiervoor benoemde kolommen kan u nog meer velden aan zetten voor de hoofdtabel. Dit doet u door de volgende stappen te volgen:
 
 |Stap|Uitleg|
 |:--|:--|
@@ -178,7 +178,7 @@ De belangrijkste extra functionaliteit is het printen van e-mail informatie (sam
 |**Afbeelding**|<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="media NL/image10.png" width = 600px></details>|
 |**1.**|Typ hier uw e-mail onderwerp.|
 |**2.**|Typ hier het e-mailadres van de ontvanger.
-|**3.**|Vul hier eventule CC e-mailadressen.|
+|**3.**|Vul hier eventuele CC e-mailadressen.|
 |**4.**|Vul hier het tekstbericht in voor het te verzenden e-mail bericht.|
 |**5.**|Mocht u HTML elementen hebben gebruikt in uw berichtlichaam is het van belang dat dit u deze optie aanvinkt.|
 |**6.**|Klik op OK als u het bericht wil verzenden, er is geen manier om de mail terug te draaien na het verzenden.|
