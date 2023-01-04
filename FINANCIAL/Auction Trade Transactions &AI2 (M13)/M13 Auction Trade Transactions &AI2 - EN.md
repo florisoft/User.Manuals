@@ -1,6 +1,6 @@
 <img src="../../fslogo.png">
 
-# Florisoft Manual Hand-over (M13)
+# Florisoft Manual Autcion Trade Traansactions & A12 (M13)
 
 [Setting the buyer number](#1---setting-the-buyer-number)  
 [Handing over](#2---handing-over-debtors)  
