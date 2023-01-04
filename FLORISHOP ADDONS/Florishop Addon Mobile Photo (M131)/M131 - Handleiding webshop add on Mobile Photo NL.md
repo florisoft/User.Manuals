@@ -1,6 +1,6 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png">
 
-# FloriShop handleiding Mobile foto
+# Florisoft Manual Mobile Photo (M131)
 
 Welkom bij de handleiding FloriShop add on Mobile foto. Deze add on
 wordt gebruikt om foto's toe te voegen aan producten op de webshop.
@@ -30,164 +30,52 @@ afbeeldingen aan producten in de webshop kunnen toevoegen en hiermee
 alle producten kunnen voorzien van foto’s, zonder tussenkomst van
 externe partijen.
 
-**Let op: afbeeldingen in deze handleiding kunnen enigszins afwijken van
+:warning:**Let op: afbeeldingen in deze handleiding kunnen enigszins afwijken van
 wat u op uw eigen scherm ziet.**
 
-# Inhoudsopgave
+## Autoriseer gebruikers voor het koppelen van foto's
 
-[1 Autoriseer gebruikers voor het koppelen van foto's](#autoriseer-gebruikers-voor-het-koppelen-van-fotos)
-
-[2 Handmatig afbeeldingen koppelen](#handmatig-afbeeldingen-koppelen)
-
-[3 Overige webshop add ons](#overige-webshop-add-ons)
-
-#  Autoriseer gebruikers voor het koppelen van foto's
-
-Alleen geautoriseerde gebruikers mogen foto’s aanpassen op de webshop.
+*Alleen geautoriseerde gebruikers mogen foto’s aanpassen op de webshop.
 Dit kan worden ingesteld in Florisoft. De volgende stappen beschrijven
-hoe deze autorisatie werkt.
+hoe deze autorisatie werkt:*
 
-1.  Open de ‘Constanten’ door in Florisoft te klikken op het volgende
-    icoon:
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Open het '*Constanten*' scherm vanuit de Florisoft Navigator.|
+|**2**|Navigeer in het constantenscherm naar het volgende pad:<br>**Organen→Debiteur gegevens→Debiteuren**<details><summary><b>Klik hier voor de voorbeeld afbeelding!</b></summary><img src=".Handleiding webshop add on Mobile Photo/media/image3.png"></details>|
+|**3**|Open een debiteur door tweemaal met de linkermuisknop op een debiteurrij te klikken.|
+|**4**|In het debiteurenscherm navigeert u naar het volgende pad:<br>**Internet→webshop2**<details><summary><b>Klik hier voor de voorbeeld afbeelding!</b></summary><img src=".Handleiding webshop add on Mobile Photo/media/image3.png"></details>|
+|**5**|Pas de instelling "*Mag de partij foto aanpassen*" aan (aanzetten)|
+|**6**|Bevestig de gemaakte veranderingen door op de **Ok** knop te klikken, sluit vervolgens het debiteur instellingen scherm.<details><summary><b>Klik hier voor de voorbeeld afbeelding!</b></summary><img src=".Handleiding webshop add on Mobile Photo/media/image3.png"></details>|
 
-<img src=".Handleiding webshop add on Mobile Photo\media\image2.png" style="width:2.75038in;height:0.7501in" />
-
-Nu opent het venster ‘Constanten’.
-
-1.  Navigeer naar het tabblad ‘Organen’ (nr. 1), ‘Debiteuren’ (nr. 2) en
-    dubbelklik op de debiteur die geautoriseerd dient te worden. (nr. 3)
-    In onderstaand voorbeeld is gekozen voor debiteur 007.
-
-> <img src=".Handleiding webshop add on Mobile Photo\media\image3.png" style="width:5.77083in;height:4.32622in" />
->
-> Nu opent het eigenschappenvenster van de geselecteerde debiteur. Zie
-> volgende pagina.
-
-1.  Navigeer in het eigenschappenvenster van de gekozen debiteur naar
-    het tabblad Internet (nr. 4), Webshop 2 (nr. 5) en zet het vinkje
-    ‘Mag partijfoto aanpassen’ aan. (nr. 6)
-
-> <img src=".Handleiding webshop add on Mobile Photo\media\image4.png" style="width:5.80369in;height:5.01042in" />
-
-1.  Klik op de knop ‘OK’ knop in het eigenschappenvenster van de
-    debiteur. (nr. 7)
-
-2.  Sluit het ‘Constanten’ venster.
-
-Nu is deze gebruiker geautoriseerd om foto’s te wijzigen op de webshop.
-
-Het is mogelijk om meerdere gebruikers te autoriseren voor het aanpassen
+*Deze gebruiker is nu geautoriseerd om foto’s te wijzigen op de webshop.<br><br>Het is mogelijk om meerdere gebruikers te autoriseren voor het aanpassen
 van foto’s. Herhaal voor iedere te autoriseren gebruiker de stappen één
-t/m vijf.
+t/m vijf.*
 
-# Handmatig afbeeldingen koppelen
+## Handmatig afbeeldingen koppelen
 
-Hieronder staan de stappen beschreven om handmatig foto’s aan producten
-te koppelen.
+*Volg de onderstaande stappen om handmatig afbeeldingen te koppelen aan webshop partijen:*
 
-**Let op: voor het maken en koppelen van eigen foto's in de webshop is
-een mobiel apparaat (smartphone of tablet) nodig.**
+:bulb: **Belangrijk**: *het zelf maken van foto's en deze linken aan webshop producten vereist een smart device zoals uw smart phone of een tablet PC.*
 
-Onderstaande schermafbeeldingen tonen de webshop in mobiele vorm en zijn
-afkomstig van een smartphone. Bij het wijzigen van foto's via de
-desktopversie ziet de webshop er iets anders uit, maar de te nemen
-stappen blijven gelijk.
+**De onderstaande screenshots zijn gemaakt op een mobiel apparaat, dit betekent dat de webshop er anders uit zal zien dan uw desktop versie.**
 
-1.  Navigeer naar de webshop met behulp van het standaard adres (URL) en
-    log in met het beheerdersaccount.
-
-2.  Klik/tik op het Florisoft logo in de linkerbovenhoek van het scherm.
-    (nr. 1)
-
-3.  Klik/tik op het bloem icoon. (nr. 2) Aan de linkerkant verschijnt
-    een overzicht van de voorraden, bestellijsten en eventuele andere
-    pagina's, indien van toepassing.
-
-<img src=".Handleiding webshop add on Mobile Photo\media\image5.png" style="width:2.88074in;height:4.23958in" />
-
-1.  Klik/tik op een voorraad/bestellijst om deze te openen. (nr. 3) In
-    het bovenstaande voorbeeld is de 'Bloemen'-voorraad gekozen. Nu
-    verschijnt een lijst met alle beschikbare sub
-    voorraden/productgroepen voor de betreffende voorraad.
-
-2.  Klik/tik op een productgroep om alle artikelen te tonen die zich in
-    de geselecteerde productgroep bevinden. (nr. 4)
-
-<img src=".Handleiding webshop add on Mobile Photo\media\image6.png" style="width:2.80233in;height:4.1183in" />
-
-Lees verder op de volgende pagina.
-
-Een voorraad/bestellijst met in de mobiele weergave ziet er als volgt
-uit. In het onderstaande voorbeeld is een voorbeeld te zien van een
-product zonder foto. Het is ook mogelijk om foto's te veranderen van
-partijen die wel een foto hebben.
-
-1.  Klik/tik op een product waarvan u de foto wilt wijzigen. (nr. 5) Nu
-    wordt de detailpagina van het geselecteerde product geopend. Zie
-    volgende pagina
-
-<img src=".Handleiding webshop add on Mobile Photo\media\image7.png" style="width:2.70556in;height:4.5309in" />
-
-1.  Klik/tik op het camera pictogram. (nr. 6)
-
-<img src=".Handleiding webshop add on Mobile Photo\media\image8.png" style="width:2.96875in;height:4.96285in" />
-
-Nu verschijnt het venster 'Wijzig afbeelding'. Zie volgende pagina.
-
-1.  Zorg ervoor dat het vinkje 'Afbeelding optimaliseren' (nr. 8) aan
-    staat en klik op de link ‘Wijzig afbeelding.’ (nr. 7) Nu wordt een
-    toegangsscherm getoond voor de camera roll of camera van uw mobiele
-    apparaat.
-
-<img src=".Handleiding webshop add on Mobile Photo\media\image9.png" style="width:2.91667in;height:5.19375in" />
-
-1.  Maak de keuze om een nieuwe foto te maken met de camera of selecteer
-    een bestaande afbeelding uit de fotobibliotheek. (nr. 9)
-
-**Maak een nieuwe foto**
-
-Activeert de camera en maakt een foto. Ga hierna door naar stap 11.
-
-> **Selecteer een bestaande foto uit de camera roll**  
-> Opent de camera roll van uw mobiele apparaat. Ga hierna door naar
-> stap 9.
-
-1.  Selecteer de foto die u wilt koppelen vanuit de camera roll.
-    (nr. 10)
-
-<img src=".Handleiding webshop add on Mobile Photo\media\image10.png" style="width:2.85417in;height:5.07647in" />
-
-Nu wordt de geselecteerde foto zichtbaar in het venster 'Wijzigen
-afbeelding'.
-
-<img src=".Handleiding webshop add on Mobile Photo\media\image11.png" style="width:1.9375in;height:2.75393in" />  
-
-
-Ga naar stap 11 om de foto bij te snijden. Wanneer de foto bij het
-importeren al naar wens is, ga dan verder met stap 12.
-
-1.  **Optioneel:** Het is mogelijk om de afbeelding bijsnijden door op
-    het pictogram ‘bijsnijden’ te tikken/klikken in het venster ‘Wijzig
-    afbeelding’. Zie hieronder.
-
-<img src=".Handleiding webshop add on Mobile Photo\media\image12.png" style="width:0.46882in;height:0.48965in" />
-
-Gebruik de blauwe handvatten (paars omcirkeld) en/of het witte kruis in
-het midden van de foto om deze te bij te snijden. Wanneer de uitsnede
-naar wens is, klik dan op de knop ‘OPSLAAN’.
-
-<img src=".Handleiding webshop add on Mobile Photo\media\image13.png" style="width:3.06893in;height:4.375in" />
-
-1.  Klik op de knop 'OPSLAAN' om de geselecteerde foto aan dit product
-    te koppelen.
-
-Nu is de nieuwe foto zichtbaar bij de betreffende partij.
-
-Zoals reeds beschreven in de inleiding is het met de Mobile foto add on
-mogelijk om zowel bestel- als voorraad partijen te voorzien van (eigen)
-foto’s. Vanaf nu heeft de eindgebruiker de volledige controle over de
-foto’s op de webshop. Dit brengt de webshop kwalitatief naar een nóg
-hoger plan.
-
-**Telefoon:** (0)71 40 806 10  
-**E-mail:** sales@florisoft.nl
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Navigeer naar de webshop met behulp van het standaard adres (URL) en log in met het beheerdersaccount.|
+|**2**|Klik/tik op het Florisoft logo in de linkerbovenhoek van het scherm.(nr. 1)<details><summary><b>Klik hier voor de voorbeeld afbeelding!</b></summary><img src=".Handleiding webshop add on Mobile Photo/media/image5.png"></details>|
+|**3**|Klik/tik op het bloem icoon. (nr. 2) Aan de linkerkant verschijnt een overzicht van de voorraden, bestellijsten en eventuele andere pagina's, indien van toepassing.|
+|**4**|Klik/tik op een voorraad/bestellijst om deze te openen. (nr. 3) In het bovenstaande voorbeeld is de 'Bloemen'-voorraad gekozen. Nu verschijnt een lijst met alle beschikbare sub voorraden/productgroepen voor de betreffende voorraad.|
+|**5**|Klik/tik op een productgroep om alle artikelen te tonen die zich in de geselecteerde productgroep bevinden. (nr. 4)<details><summary><b>Klik hier voor de voorbeeld afbeelding!</b></summary><img src=".Handleiding webshop add on Mobile Photo/media/image6.png"></details>|
+|**6**|Een voorraad/bestellijst met in de mobiele weergave ziet er als volgt uit. In het onderstaande voorbeeld is een voorbeeld te zien van een product zonder foto. Het is ook mogelijk om foto's te veranderen van partijen die wel een foto hebben.|
+|**7**|Klik/tik op een product waarvan u de foto wilt wijzigen. (nr. 5) Nu wordt de detailpagina van het geselecteerde product geopend.<details><summary><b>Klik hier voor de voorbeeld afbeelding!</b></summary><img src=".Handleiding webshop add on Mobile Photo/media/image7.png"></details>|
+|**8**|Klik/tik op het camera pictogram. (nr. 6)<details><summary><b>Klik hier voor de voorbeeld afbeelding!</b></summary><img src=".Handleiding webshop add on Mobile Photo/media/image8.png"></details>|
+|**9**|Nu verschijnt het venster 'Wijzig afbeelding'. Zie volgende pagina.|
+|**10**|Zorg ervoor dat het vinkje 'Afbeelding optimaliseren' (nr. 8) aan staat en klik op de link ‘Wijzig afbeelding.’ (nr. 7) Nu wordt een toegangsscherm getoond voor de camera roll of camera van uw mobiele apparaat.<details><summary><b>Klik hier voor de voorbeeld afbeelding!</b></summary><img src=".Handleiding webshop add on Mobile Photo/media/image9.png"></details>|
+|**11**|Nu wordt een toegangsscherm tot de beeldrol van uw mobiele apparaat getoond.|
+|**12**|Maak de keuze om een nieuwe foto te maken met de camera of selecteer een bestaande afbeelding uit de fotobibliotheek. (nr. 9)<details><summary><b>Klik hier voor de voorbeeld afbeelding!</b></summary><img src=".Handleiding webshop add on Mobile Photo/media/image10.png"></details>|
+|**13**|**Maak een nieuwe foto** Activeert de camera en maakt een foto. Ga hierna door naar stap 11.|
+|**14**|**Selecteer een bestaande foto uit de camera roll**<br>Opent de camera roll van uw mobiele apparaat. Ga hierna door naarstap 9.|
+|**15**|Selecteer de foto die u wilt koppelen vanuit de camera roll.(nr. 10)<details><summary><b>Klik hier voor de voorbeeld afbeelding!</b></summary><img src=".Handleiding webshop add on Mobile Photo/media/image11.png"></details>|
+|**16**|Ga naar stap 11 om de foto bij te snijden. Wanneer de foto bij het importeren al naar wens is, ga dan verder met stap 12.<Br><br>**Optioneel:** Het is mogelijk om de afbeelding bijsnijden door op het pictogram ‘bijsnijden’ te tikken/klikken in het venster ‘Wijzig afbeelding’.<details><summary><b>Klik hier voor de voorbeeld afbeelding!</b></summary><img src=".Handleiding webshop add on Mobile Photo/media/image12.png"></details> Zie hieronder.<br><br>Gebruik de blauwe handvatten (paars omcirkeld) en/of het witte kruis in het midden van de foto om deze te bij te snijden. Wanneer de uitsnede naar wens is, klik dan op de knop ‘OPSLAAN’.<details><summary><b>Klik hier voor de voorbeeld afbeelding!</b></summary><img src=".Handleiding webshop add on Mobile Photo/media/image13.png"></details>|
+|**17**|Nu is de nieuwe foto zichtbaar bij de betreffende partij.<br><br>Zoals reeds beschreven in de inleiding is het met de Mobile foto add on mogelijk om zowel bestel- als voorraad partijen te voorzien van (eigen) foto’s. Vanaf nu heeft de eindgebruiker de volledige controle over de foto’s op de webshop. Dit brengt de webshop kwalitatief naar een nóg hoger plan.|

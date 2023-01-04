@@ -1,6 +1,6 @@
 <img src="../fslogo.png">
 
-# Florisoft Handleiding Prepaid Kooplimiet - M199
+# Florisoft Handleiding Prepaid - M199
 
 Dit document gaat over de implementatie en werkwijze van PrePaid kooplimieten op de Florishop. **Let op!** Het gebruik van de PrePaid wallet werkt op dit moment alleen nog wanneer Buckaroo als betaalprovider wordt gebruikt. Andere providers kunnen op aanvraag worden toegevoegd.
 

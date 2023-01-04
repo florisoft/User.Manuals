@@ -1,18 +1,6 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png">
 
-# FloriShop manual Mobile Photo
-
-# Table of contents
-
-[1 Preface](#1-preface)
-
-[2 Authorize users for linking photos](#authorize-users-for-linking-photos)
-
-[3 Link photos to webshop parcels](#link-photos-to-webshop-parcels)
-
-[4 Other available webshop add ons](#4-other-available-webshop-add-ons)
-
-# 1 Preface
+# Florisoft Manual Mobile Photo (M131)
 
 Welcome to the manual FloriShop add on Mobile Photo. This add on is used
 to add photos to products on the webshop. Usually product photos are
@@ -36,140 +24,51 @@ add on and the added value for your organization.
 The purpose of this manual is that webshop administrators can add images
 to products on the web shop themselves.
 
-**Pay attention: images in this manual may differ slightly from what you
-see on your own screen.**
+:warning:**Pay attention:** *images in this manual may differ slightly from what you
+see on your own screen.*
 
-# Authorize users for linking photos
+## Authorize users to link photos
 
-Changing photos on the web shop can only be done by authorized users.
-This can be set in Florisoft. The following describes how this works.
+*Changing photos on the web shop can only be done by authorized users.
+This can be set in Florisoft. The following describes how it works:*
 
-1.  Open the ‘Constants’ menu from Florisoft by clicking the following
-    icon:
+|Step|Explanation|
+|:-:|:--|
+|**1**|Open the ‘Constants’ menu from Florisoft.|
+|**2**|Navigate to the following path (in the constants):<br>**Community→Debtor data→Debtors**<details><summary><b>Click here for the example image!</b></summary><img src=".Manual webshop add on Mobile Photo/media/image3.png"></details>|
+|**3**|Open a debtor by double left clicking on a debtor table row.|
+|**4**|In the debtor screen you just opened navigate to the folder:<br>**Internet→webshop2**<details><summary><b>Click here for the example image!</b></summary><img src=".Manual webshop add on Mobile Photo/media/image3.png"></details>|
+|**5**|Enable the setting "*May adjust parcel photo*")|
+|**6**|Confirm the changes made by clicking on the **Ok** button, close the debtor settings window.<details><summary><b>Click here for the example image!</b></summary><img src=".Manual webshop add on Mobile Photo/media/image3.png"></details>|
 
-<img src=".Manual webshop add on Mobile Photo\media\image2.png" style="width:2.417in;height:0.7501in" />
-
-Now the ‘Constants’ window opens.
-
-1.  Navigate to the debtors tab by first clicking on the ‘Community’ tab
-    (no. 1) then ‘Debtors’ (no. 2) and open the settings for the debtor
-    you want to authorize for linking photos. (no. 3) Now the settings
-    screen for the selected debtor opens. See next page.
-
-In this example debtor 007 is chosen as the one to be authorized for
-changing photos.
-
-> <img src=".Manual webshop add on Mobile Photo\media\image3.png" style="width:5.55208in;height:4.32991in" />
-
-1.  In the debtor settings window navigate to the ‘internet’ tab (no. 4)
-    then the ‘webshop2’ tab. (no. 5)
-
-<img src=".Manual webshop add on Mobile Photo\media\image4.png" style="width:5.78125in;height:4.99104in" />
-
-1.  Put the ‘Mag partijfoto aanpassen’ (may change parcelphoto)’ tick
-    on. (no. 6)
-
-2.  Click the ‘OK’ button in the debtor settings window. (no. 7)
-
-3.  Close the ‘Constants’ window.
-
-Now this debtor is authorized to change parcel photo’s on the webshop.
+*Now this debtor is authorized to change parcel photo’s on the webshop.
 It is possible to authorize multiple webshop users to modify parcel
 photos. Do this by repeating steps one through six for each user you
-want to authorize.
+want to authorize.*
 
-# Link photos to webshop parcels 
+## Link photos to webshop parcels
 
-Below are the steps described to link images to webshop parcels
-manually.
+*Follow the steps below to manually link images to webshop parcels:*
 
-**Pay attention: making your own photos and link them to products in the
-webshop requires a mobile device such as a smartphone or tablet PC.**
+:bulb: **Important**: *taking pictures yourself and linking them to products in the webshop requires a mobile device e.g.: smart phones and tablet PC's.*
 
-**Note:** the screenshots below shows the webshop in mobile form and are
-taken from a smartphone. When changing photos via the desktop version
-the webshop looks a little bit different, but the steps below can be
-performed as well.
+**The screenshots below are taken on a mobile device, this means that the webshop might look different from your desktop version.**
 
-1.  Navigate to the webshop using the standard webshop address (URL) and
-    log in with the administrator account.
-
-2.  Click/tap the Florisoft logo icon in the upper left corner of the
-    screen. (no. 1) On the left side of the screen stocks, order lists
-    and other pages appear if applicable.
-
-<img src=".Manual webshop add on Mobile Photo\media\image5.png" style="width:2.84335in;height:4.16667in" />
-
-1.  Click/tap a stock to enter it. (no. 2) In the example above the
-    ‘Flowers’ stock is chosen. Now a list with all the available product
-    groups for the concerning stock appear.
-
-2.  Click/tap one of the available product groups to show all the
-    articles which resides in the selected product group. (no. 4)
-
-> <img src=".Manual webshop add on Mobile Photo\media\image6.png" style="width:3.10347in;height:5.19697in" />
-
-In the example below you see an example of a product without a photo. It
-is also possible to change photos from products which already have a
-photo.
-
-1.  Click/tap a product whose photo you want to change. (no. 5) Now the
-    details page of the selected product opens. See next page
-
-<img src=".Manual webshop add on Mobile Photo\media\image7.png" style="width:2.70556in;height:4.5309in" />
-
-1.  Click/tap the camera icon. (no. 6)
-
-<img src=".Manual webshop add on Mobile Photo\media\image8.png" style="width:2.96875in;height:4.96285in" />
-
-Now the ‘Change image’ window pops up. See next page.
-
-1.  Click/tap the ‘Change image’ link. (no. 7) and be sure that the tick
-    ‘Optimize image’ (no. 8) is put on.
-
-<img src=".Manual webshop add on Mobile Photo\media\image9.png" style="width:3.05208in;height:5.09576in" />
-
-Now an access screen to the image roll of your mobile device is shown.
-See next page.
-
-1.  Now there are two options: take a new photo with the camera of your
-    mobile device or select an existing image form the camera roll.
-    (no. 9)
-
-<img src=".Manual webshop add on Mobile Photo\media\image10.png" style="width:2.99669in;height:4.77083in" />
-
-**Take a new photo**  
-Activate the camera and take the photo. Go to step 10.
-
-> **Select an existing photo from the camera roll**  
-> Open the camera roll from your mobile device. Go to step 9.
-
-1.  Select the photo to be linked from the camera roll. (no. 10)
-
-<img src=".Manual webshop add on Mobile Photo\media\image11.png" style="width:3.40625in;height:4.66306in" />
-
-If you want to crop the photo go to step 10. If the photo is already
-right as you wish, proceed to step 11.
-
-1.  **Optional:** You can crop the image by clicking the crop icon.
-    (no. 11)
-
-Use the blue handles (purple circled) and/or the white cross in the
-middle of the photo to crop. Click on the 'SAVE' button to save when the
-crop is as desired.
-
-<img src=".Manual webshop add on Mobile Photo\media\image12.png" style="width:3.80208in;height:4.72917in" />
-
-1.  Click the ‘SAVE’ button to couple the selected photo to this
-    product.
-
-Now the new photo should appear as photo next to the concerning parcel.
-
-As described in the preface this is possible for both stock and order
-parcels. With the Mobile Photo add on it is possible to provide both
-order and stock parcels with (your own) photos. From now on the end user
-has complete control over the photos on the webshop. This brings the
-webshop qualitatively to an even higher level.
-
-**Telephone:** +31 (0)71 40 806 10  
-**E-mail:** sales@florisoft.nl
+|Step|Explanation|
+|:-:|:--|
+|**1**|Navigate to the webshop using the standard webshop address (URL) and log in with the administrator account.|
+|**2**|Click/tap the Florisoft logo icon in the upper left corner of the screen. (no. 1) On the left side of the screen stocks, order lists and other pages appear if applicable.<details><summary><b>Click here for the example image!</b></summary><img src=".Manual webshop add on Mobile Photo/media/image5.png"></details>|
+|**3**|Click/tap a stock to enter it. (no. 2) In the example above the ‘Flowers’ stock is chosen. Now a list with all the available product groups for the concerning stock appear.|
+|**4**|Click/tap one of the available product groups to show all the articles which resides in the selected product group. (no. 4)<details><summary><b>Click here for the example image!</b></summary><img src=".Manual webshop add on Mobile Photo/media/image6.png"></details>|
+|**5**|In the example below you see an example of a product without a photo. It is also possible to change photos from products which already have a photo.<br><br>|
+|**6**|Click/tap a product whose photo you want to change. (no. 5) Now the details page of the selected product opens.<details><summary><b>Click here for the example image!</b></summary><img src=".Manual webshop add on Mobile Photo/media/image7.png"></details>|
+|**7**|Click/tap the camera icon. (no. 6)<details><summary><b>Click here for the example image!</b></summary><img src=".Manual webshop add on Mobile Photo/media/image8.png"></details>|
+|**8**|Now the ‘Change image’ window pops up.|
+|**9**|Click/tap the ‘Change image’ link. (no. 7) and be sure that the tick ‘Optimize image’ (no. 8) is put on.<details><summary><b>Click here for the example image!</b></summary><img src=".Manual webshop add on Mobile Photo/media/image9.png"></details>|
+|**10**|Now an access screen to the image roll of your mobile device is shown.|
+|**11**|Now there are two options: take a new photo with the camera of your mobile device or select an existing image form the camera roll.(no. 9)<details><summary><b>Click here for the example image!</b></summary><img src=".Manual webshop add on Mobile Photo/media/image10.png"></details>|
+|**12**|**Take a new photo** Activate the camera and take the photo. Go to step 10. |
+|**13**|**Select an existing photo from the camera roll**<br>Open the camera roll from your mobile device. Go to step 9.|
+|**14**|Select the photo to be linked from the camera roll. (no. 10)<details><summary><b>Click here for the example image!</b></summary><img src=".Manual webshop add on Mobile Photo/media/image11.png"></details>|
+|**15**|If you want to crop the photo go to step 10. If the photo is already right as you wish, proceed to step 11.<Br><br>**Optional**: You can crop the image by clicking the crop icon(no. 11).<br><br>Use the blue handles (purple circled) and/or the white cross in the middle of the photo to crop. Click on the '**SAVE**' button to save when the crop is as desired.<details><summary><b>Click here for the example image!</b></summary><img src=".Manual webshop add on Mobile Photo/media/image12.png"></details>|
+|**16**|Now the new photo should appear as photo next to the concerning parcel.<br><br>As described in the preface this is possible for both stock and order parcels. With the Mobile Photo add on it is possible to provide both order and stock parcels with (your own) photos. From now on the end user has complete control over the photos on the webshop. This brings the webshop qualitatively to an even higher level.|
