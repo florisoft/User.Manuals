@@ -16,16 +16,9 @@ The data can be converted into a PDF or Excel file via a layout. **An existing p
 In the folder Constants => Timer => Management Info Mailing you have to option to manage the report which you want to  have emailed automatically.<img src=".Management Info Mailer\media\Constants.png" />
 
 
-##  Add/ delete a report
-In the toolbar you find an option to search for a  report.
-<img src=".Management Info Mailer\media\Toolbar.png" />
+## Add/Edit a report mailing
 
-Via the + icon you can add a new report to the configuration.
-An excisting report can be deleted via the bucket icon.
-
-## Editing a report
-
-When you add (+ icon) or edit a report via double clicking on an excising report you will get the following screen.<img src=".Management Info Mailer\media\EditScreen.png" />
+When you add (+ icon) or edit a report via double clicking on an existing report you will see the following screen.<img src=".Management Info Mailer\media\EditScreen.png" />
 
 
 ### ID
@@ -47,7 +40,7 @@ The actual script which you have created in the Management screen
 ### Layout
 
 A Print layout (aka 'Report' which can be maintained in the Constants => System => Print Layouts.
-The data in the query should be reflected in the layout. SO the layout has to be designed before the data can emailed automatically.
+The data in the query should be reflected in the layout. So the layout has to be designed before the data can emailed automatically.
 If the layout hasn't been designed you will get an empty report.
 
 ### Export as
