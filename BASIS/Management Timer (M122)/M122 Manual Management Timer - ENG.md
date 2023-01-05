@@ -4,12 +4,12 @@
 
 **Introduction**
 
-This is a module with which a management report can be generated which will be send to the configured e-mail addresses at a set interval. 
+This is a module with which management reports can be generated and sent to the configured e-mail addresses at set intervals. 
 
 The management information is generated with the queries that can be maintained in the existing Management screen. 
-The data which you see in the management screen we the query is executed will be 'the same.' The difference is that the data will be generated at runtime, so that you will get the same fields, but different data.
+The data which you see in the management screen when the query is executed will be 'the same.' The difference is that the data will be generated at runtime, so that you will get the same fields, but different data.
 
-The data can be converted into a PDF or Excel file via a layout. **A layout is mandatory for the management info mailer to execute a query sucessfully. **
+The data can be converted into a PDF or Excel file via a layout. **An existing print layout is mandatory for the management info mailer to execute a query sucessfully. **
 
 
 ## Constants Screen
