@@ -38,13 +38,11 @@ We'll start by creating an order number, to do this follow the steps below:
 |**2**|Click on the add new button (**+**) #4, a new window opens for the creation of a new order number.|
 |**3**|Fill in a order number.**Important**:*Keep in mind that the order number can't be longer than 4 characters, because next to this it will add a 6 character code for pickup/delivery. And in total the order number can be 10 characters long.* (#5)|
 |**4**|Write a description (#6) in the description textbox.|
-|**5**|Click on the button '*details*'(#7). You will be prompted with a message asking you to confirm the creation of a new order number, click on '*yes*'. Click on '*yes*'again.<details><summary><b>Click here for the example image</b></summary><img src="Media_ENG/image13.png"></details>|
+|**5**|Click on the button '*details*' (#7). You will be prompted with a message asking you to confirm the creation of a new order number, click on '*yes*'. Click on '*yes*' again.<details><summary><b>Click here for the example image</b></summary><img src="Media_ENG/image13.png"></details>|
 |**6**|Click on the '*Add*' button to add a new ordernumber, this should make a new window appear in the ordernumber window in which we'll enter the following information: <br><br>- **Code:** *nothing more than a identifier code*<br>- **Ordernumber**:*remember a maximum of four characters!*<br> - **Time to select**: Here you'll specify when you want the ordernumber to be active in the web shop.<br>- **Ordernumber type**: Pickup or delivery<br>- **Assortiment Artikelnummer**: here you can link an assortiment for things like delivery costs, more on this later.<br>- **Translations**: this text will come back in the wizard e.g. whether it's Pickup vs. Delivery. <details><summary><b>Click here for a filled in example image</b></summary><img src="Media_ENG/image3.png"></details>|
 |**7**|Click on the '*Ok*' buttons to save the newly created Order numbers.|
 
 ## Configuring debtors
-
-In this chapter we will configure an existing debtor or create a new one if needed. To do this follow the steps below:
 
 |Step|Explanation|
 |:--|:--|
@@ -98,15 +96,12 @@ To enable the Transport Costing Wizard on the webshop follow the steps below:
 
 |Step|Explanation|
 |:--|:--|
-|**1**|Go to your Florishop website and log in with an admin priveliged user.|
-|**2**|Click on the user icon in the top right of the webshop, this opens a dropdown. Now click on the *management* option in the dropdown menu.<details><summary><b>Click here for the example image</b></summary><img src="Media_ENG/image18.png"></details>|
-|**3**|A blackbar should now appear above the webpage, click on the configuration option to once again open a dropdown.|
-|**4**|Click on the dropdown option called *Webshop settings*<details><summary><b>Click here for the example image</b></summary><img src="Media_ENG/image19.png"></details>|
-|**5**|The webshop settings page should now be opened use the search bar to search for the following setting: **ORDERNUMMERWIZARD**<details><summary><b>Click here for the example image</b></summary><img src="Media_ENG/image12.png"></details>|
-|**6**|Open the setting by clicking on one of the value cell. This opens a new screen, change the value by enabling the checkbox called '*waarde*' (Dutch for value). <br> The checkbox should be checked to enable the wizard.|
-|**7**|Click on the **save** button, to save the made changes.|
+|**1**|Click on the dropdown option called *Webshop settings*<details><summary><b>Click here for the example image</b></summary><img src="Media_ENG/image19.png"></details>|
+|**2**|The webshop settings page should now be opened use the search bar to search for the following setting: **ORDERNUMMERWIZARD**<details><summary><b>Click here for the example image</b></summary><img src="Media_ENG/image12.png"></details>|
+|**3**|Open the setting by clicking on one of the value cell. This opens a new screen, change the value by enabling the checkbox called '*waarde*' (Dutch for value). <br> The checkbox should be checked to enable the wizard.|
+|**4**|Click on the **save** button, to save the made changes.|
 
-## End Result
+## Result
 
 When configured correctly, you should see following wizard on the shop:
 

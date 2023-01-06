@@ -1,6 +1,6 @@
 <img src="../../fslogo.png"/>
 
-# FloriShop manual WhatsApp offers
+# Manual FloriShop addon Whatsapp
 
 # Table of contents
 
@@ -14,15 +14,8 @@
 
 # Preface
 
-Welcome the FloriShop WhatsApp offers manual. Sending offers via
-WhatsApp to customers is a beautiful way to bring products from the
-webshop to the attention of customers.
-
 The manual describes two ways WhatsApp can be used in relation to the
-webshop. The first way is to send full stocks. This is widely used for
-stocks with daily offers. The second way of sharing offers via WhatsApp
-consists of sending individual products. Both ways are described in
-chapter four.
+webshop.
 
 **Pay attention: images in this manual may slightly differ from what you
 see on your own screen.**

@@ -18,7 +18,7 @@ De module transport kosten bevat de volgende functionaliteiten die ook samen met
 [Assortiment](#assortiment)  
 [Order nummers](#order-nummer)  
 [Webshop instellingen](#webshop-instellingen)  
-[Eind resultaat](#eind-resultaat)  
+[Eindresultaat](#eindresultaat)  
 
 
 ## De module Transport Kosten
@@ -47,8 +47,6 @@ Eerst moet er een order nummer aangemaakt worden doe dit door de onderstaande af
 |**7**|Klik op de **Ok** knop om de zojuist aangemaakte order nummers daadwerkelijk aan te maken.|
 
 ## Debiteuren instellen
-
-In dit hoofdstuk stellen we een debiteur in (of maken we een nieuwe aan indien nodig). *Volg de onderstaande stappen*:
 
 |Stap|Uitleg|
 |:--|:--|
@@ -102,16 +100,13 @@ Om de transport kosten wizard aan te zetten op de webshop, volgt u de onderstaan
 
 |Stappen|Uitleg|
 |:--|:--|
-|**1**|Ga naar uw Florishop en log in met een administrator gebruiker.|
-|**2**|Klik op het gebruikersicoon rechtsbovin in de webshop, dit opent een dropdown menu'tje klik nu op de optie **beheer**.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media_NL/image20.png"></details>|
-|**3**|Een zwarte balk hoort nu boven in het scherm te verschijnen, klik in deze zwarte balk op de optie '*configuratie*'.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media_NL/image21.png"></details>|
-|**4**|Klik op de dropdown optie *webshop settings*|
-|**5**|Dit opent de webshop instellingen webpagina gebruik de zoekfunctie om te zoeken naar de instelling: **ORDERNUMMERWIZARD**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media_NL/image12.png"></details>|
-|**6**|Open de instelling door op de waarde cell te drukken. Dit opent een nieuw scherm, verander de waarde door de checkbox aan te vinken . Dit hoort de wizard aan te zetten.|
-|**7**|Druk nu op de opslaan knop om de gemaakte wijzigingen op te slaan.|
+|**1**|Klik op de dropdown optie *webshop settings*|
+|**2**|Dit opent de webshop instellingen webpagina gebruik de zoekfunctie om te zoeken naar de instelling: **ORDERNUMMERWIZARD**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media_NL/image12.png"></details>|
+|**3**|Open de instelling door op de waarde cell te drukken. Dit opent een nieuw scherm, verander de waarde door de checkbox aan te vinken . Dit hoort de wizard aan te zetten.|
+|**4**|Druk nu op de opslaan knop om de gemaakte wijzigingen op te slaan.|
 
 
-## Eind resultaat
+## Eindresultaat
 
 Wanneer alles correct ingesteld is hoort u het volgende te zien in de webshop:
 

@@ -1,6 +1,6 @@
 <img src="../../fslogo.png"/>
 
-# FloriShop handleiding WhatsApp aanbiedingen
+# Handleiding FloriShop addon Whatsapp
 
 # Inhoudsopgave
 
@@ -14,15 +14,8 @@
 
 # 1 Inleiding
 
-Welkom bij de handleiding Whatsapp aanbiedingen van FloriShop. Het
-versturen van aanbiedingen via WhatsApp is een mooie manier om producten
-uit de webshop onder de aandacht van klanten te brengen. 
-
 De handleiding beschrijft twee manieren waarop WhatsApp kan worden
-gebruikt om aanbiedingen te versturen. De eerste manier is om een
-voorraad te verzenden. Dit wordt veel gebruikt in combinatie met
-dagelijkse aanbiedingen. De tweede manier om aanbiedingen te delen via
-WhatsApp bestaat uit het verzenden van individuele producten. 
+gebruikt om aanbiedingen te versturen. 
 
 **Let op: afbeeldingen in deze handleiding kunnen enigszins verschillen
 van wat u op uw eigen scherm ziet.**
@@ -38,61 +31,30 @@ aanmaken van een anonieme debiteur in z’n werk gaat.
 **Let op: het aanmaken van een anonieme debiteur is alleen nodig wanneer
 deze nog niet bestaat.**
 
-1.  Open de ‘Constanten’ in Florisoft door te klikken op het
-    onderstaande icoon:
+|Stap|Uitleg|
+|:--|:--|
+|**1**| Open de ‘Constanten’ in Florisoft door te klikken op het onderstaande icoon: <details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image2.png"/></details>
+|**2**|Open het tabblad Debiteuren via Organen (nr. 1) -&gt; Debiteuren (nr. 2)
+|**3**|Klik één keer in de kolom ‘Deb. nr.’<details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image3.png"/></details>
+|**4**|Typ in het zoekveld ‘anon’ (zonder aanhalingstekens) en druk op Enter of klik op de knop ‘Zoek’ (nr. 5)
+|**5**|Wanneer er een anonieme debiteur bestaat in het systeem wordt deze nu als resultaat weergegeven in de lijst met debiteuren. (nr. 6) Ga in dit geval door naar hoofdstuk drie.
 
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image2.png" style="width:2.75038in;height:0.7501in" />
+:memo: Wanneer er geen anonieme debiteur gevonden wordt, dient deze aangemaakt
+te worden. 
 
-1.  Open het tabblad Debiteuren via Organen (nr. 1) -&gt; Debiteuren
-    (nr. 2)
+|Stap|Uitleg|
+|:--|:--|
+|**1**| Klik op de knop ‘Add new item’ op het tabblad ‘Debiteuren’ van het venster ‘Constanten’. Het venster ‘Debiteuren :’ opent.<details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image4.png"/></details>
+|**2**| Vul op het tabblad ‘Adressen’ in het venster ‘Debiteuren :’ de volgende gegevens in:<details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image5.png"/></details>7 = ANON, 8 = ANON en 9 = Anonieme debiteur
+-----
 
-2.  Klik één keer in de kolom ‘Deb. nr.’
-
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image3.png" style="width:5.94875in;height:3.02126in" />
-
-1.  Typ in het zoekveld ‘anon’ (zonder aanhalingstekens) en druk op
-    Enter of klik op de knop ‘Zoek’ (nr. 5)
-
-2.  Wanneer er een anonieme debiteur bestaat in het systeem wordt deze
-    nu als resultaat weergegeven in de lijst met debiteuren. (nr. 6) Ga
-    in dit geval door naar hoofdstuk drie.
-
-Wanneer er geen anonieme debiteur gevonden wordt, dient deze aangemaakt
-te worden. Zie de volgende pagina.
-
-1.  Klik op de knop ‘Add new item’ op het tabblad ‘Debiteuren’ van het
-    venster ‘Constanten’. Het venster ‘Debiteuren :’ opent.
-
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image4.png" style="width:5.80208in;height:1.40118in" />
-
-1.  Vul op het tabblad ‘Adressen’ in het venster ‘Debiteuren :’ de
-    volgende gegevens in:
-
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image5.png" style="width:5.80208in;height:1.06487in" />
-
-7 = ANON, 8 = ANON en 9 = Anonieme debiteur
-
-Ga verder op de volgende pagina.
-
-1.  Navigeer naar het tabblad ‘Internet’ (nr. 10), Internet toegang
-    (nr. 11) en zet de vinkjes ‘Deze klant heeft toegang via het
-    Internet’ (nr. 12) en ‘Deze klant mag inloggen in Florisoft’.
-    (nr. 13)
-
-2.  Vul in het veld ‘Password voor klant’ de waarde ANON! in. (nr. 14)
-
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image6.png" style="width:5.8125in;height:5.01802in" />
-
-1.  Klik op de knop ‘Toegankelijke voorraden’ (nr. 15) in het venster
-    ‘Debiteuren’. Het venster ‘Opslagen bij verkoop via Internet’ opent.
-    Lees verder op de volgende pagina.
-
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image7.png" style="width:5.87572in;height:4.76042in" />
-
-1.  Zet de 'A'- en' R'-vinkjes (nr. 20) aan voor de voorraden die u
-    toegankelijk wil maken via de webshop.
+|Stap|Uitleg|
+|:--|:--|
+|**1**| Navigeer naar het tabblad ‘Internet’ (nr. 10), Internet toegang (nr. 11) en zet de vinkjes ‘Deze klant heeft toegang via het Internet’ (nr. 12) en ‘Deze klant mag inloggen in Florisoft’. (nr. 13)
+|**2**|Vul in het veld ‘Password voor klant’ de waarde ANON! in. (nr. 14)<details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image6.png"/></details>
+|**3**| Klik op de knop ‘Toegankelijke voorraden’ (nr. 15) in het venster ‘Debiteuren’. Het venster ‘Opslagen bij verkoop via Internet’ opent. Lees verder op de volgende pagina.<details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image7.png"/></details>
+|**4**|Zet de 'A'- en' R'-vinkjes (nr. 20) aan voor de voorraden die u toegankelijk wil maken via de webshop.<details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image8.png"/></details>
     
-> <img src=".Manual webshop add on Whatsapp offers\media\image8.png" style="width:5.78125in;height:2.83837in" />
 
 In het bovenstaande voorbeeld zijn voor de voorraden TEST, BLOEM, DECO
 en TEST17 de vinkjes 'A' en 'R' aangevinkt. Dit betekent dat deze
@@ -102,19 +64,18 @@ Het vinkje ‘T’ (nr. 21) bepaalt of de debiteur mag kopen via de webshop.
 Voor de anonieme debiteur geldt in de regel dat deze **nooit** mag kopen
 via de webshop.
 
-1.  Zet het ‘T’-vinkje (nr. 21) voor de betreffende voorraden **aan**.
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Zet het ‘T’-vinkje (nr. 21) voor de betreffende voorraden **aan**.
 
 **Let op: zorg er voor dat voorraden die gebruikt worden in combinatie
 met WhatsApp delen altijd de vinkjes A en R hebben ingeschakeld en het T
 vinkje uit staat.**
 
-1.  Klik op de knop 'Ok' (nr. 22) in het venster 'Opslagen bij verkoop
-    via internet' om de wijzigingen aan de voorraad autorisatie voor de
-    anonieme debiteur te bevestigen.
-
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image9.png" style="width:1.85443in;height:0.70843in" />
-
-1.  Klik op de knop 'OK' in het venster 'Debiteuren: ANON' om alle
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Klik op de knop 'Ok' (nr. 22) in het venster 'Opslagen bij verkoop via internet' om de wijzigingen aan de voorraad autorisatie voor de anonieme debiteur te bevestigen.<details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image9.png"/></details>
+|**2**| Klik op de knop 'OK' in het venster 'Debiteuren: ANON' om alle
     instellingen te bevestigen.
 
 De anonieme debiteur is nu aangemaakt met de juiste instellingen wat
