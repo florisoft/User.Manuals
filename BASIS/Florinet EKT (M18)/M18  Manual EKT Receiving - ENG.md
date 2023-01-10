@@ -1,208 +1,103 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png" alt="Florisoft Corporate Logo">
 
+# Florisoft Manual EKT Receiving
 
-# Manual EKT Receiving
+Florisoft can both send (export) and receive EKT messages
+(import). This manual describes importing
+EKT files. In many cases this process will be fully automatic (via
+a Timer) take place. However, there is also a possibility to
+manually import EKT messages.
 
-##**Table of Contents**
+We assume in this manual that you already have an EKT address or if not that you have the necessary knowledge.
 
-[Introduction 3](#introduction)
+**Please note: pictures in this manual may differ slightly from
+what you will see on your screen.**
 
-[1 Creating a mailbox 4](#creating-a-mailbox)
+## Table of contents
 
-[2 Adjusting mailbox settings 5](#adjusting-mailbox-settings)
+[Creating a mailbox](#mail-settings-in-florisoft)  
+[Pop Settings](#pop-settings)  
+[Read this when using Office365](#read-this-when-using-office365)  
+[Creating supplier auction codes](#creating-supplier-auction-codes)  
+[Creating auction codes](#creating-auction-codes)  
+[Reading in EKT-messages automatically using the timer](#reading-in-ekt-messages-automatically-using-the-timer)  
+[Reading in EKT-messages manually](#reading-in-ekt-messages-manually)    
 
-[2.1 Change inbox-settings 5](#modify-inbox-settings)
+## Mail settings in Florisoft
 
-[2.2 Change POP-settings & archive-settings 6](#change-pop-settings-archive-settings)
+After creating a mailbox a couple of settings need to set in Florisoft. These settings are described below.
 
-[2.3 Change securtiy settings 6](#change-security-settings)
+### POP-Settings
 
-[3 Mail settings Florisoft 8](#mail-settings-Florisoft)
+|Step|Explanation|
+|:-:|:--|
+|**1**|In the Florisoft navigator click on the button "*Maintenance*", then click on the option "*Setup user*". <details><summary><b>Click here to show the example image!</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image1.png"></details> |
+|**2**|Click on the setting tab called "*Florinet*".<details><summary><b>Click here to show the example image!</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image2.png"></details>|
+|**3**|Click on the "*Settings*" next to the production radio button, This opens a new screen. |
+|**4**|Fill out the fields of this new screen with the following data:<br>**POP3 Server:** enter the POP-server address<br>**POP3 Port:** almost always port 995<br>**SSL**: enable this setting<br>**Account name**: e-mail address of the EKT-mailbox<br>**Password**: the password of the mailbox.<details><summary><b>Click here to show the example image!</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image3.png"></details>|
+|**5**|Click on the "**Ok**" button next to the input fields in order to then click on the "**Ok**" button of the tab itself.|
+|**6**|Fill out the field "*Return address Florinet messages*" with the EKT-mailbox e-mail address.|
 
-[3.1 POP settings 8](#pop-settings)
+#### Read this when using Office365!
 
-[4 Creating suppliers auctioncodes 10](#creating-suppliers-auctioncodes)
+*Office365 makes use of OAUTH2 which results in some additional settings that need to be set in order to get a working EKT mailbox.*
 
-[4.1 Creating auctioncode 10](#creating-auctioncode)
+|Step|Explanation|
+|:-:|:--|
+|**1**|Open the constants screen and navigate to the path:<br>**System→Email login data**<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image4.png"></details>|
+|**2**|Create a new variable by clicking on the plus icon, this opens a new window.|
+|**3**|Fill out the following fields:<br>**Description**: *fill out this field with a concise description (this is visible in the system)*<br><br>**POP-data**:<br><br>**Server**: *fill this field with the POP-server address*<br>**Port:** *fill this field with the POP-server port*<br>**SSL**: *Enable this setting by checking the checkbox*<br><br>**SMTP Data:**<br><br>**Server**: *Fill this field with the SMTP server address*<br>**Port**: *Fill this field with the SMTP server port*<br>**TLS**: *Enable this setting by checking the checkbox*<br><br>**Login data**:<br><br>**User:** *Enter the username here*<br>**Pasword**: Set this dropdown to the value '*Microsoft OAuth2*", this will replace the password input field with a token field*<br>**Setup OAuth2.0**: *Click this button and follow the steps below*<br>**Token**: *the token field will get filled automatically by walking through the steps of clicking on the **OAuth2.0** button.|
+|**4**|Click on the button **Set up OAuth 2.0** and follow the steps below:|
+|**5**|A web browser screen/tab will now be opened.|
+|**6**|Log in with your EKT-mailbox (Office365 account)|
+|**7**|You should now get prompted with a permission request for Florisoft to get access to the following settings:<br>- Maintain access to data through which you have granted Florisfoto access<br>- Access to sending emails from your inbox<br>- Read your profile<br>- Send e-mails as you<br>- Read your e-mails<br>- Read & Write access to your e-mail.<br><br>**After reading the permissions click yes**.<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image5.png"></details>|
+|**8**|You'll now be redirected to the screen shown below. Once you see the screen below via OAUTH2.0 is completed you can use the account.<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image6.png"></details>||
+|**9**|Now click the **Ok** button to save the settings.|
 
-[5 Automatically read EKT-messages via a timer 12](#automatically-read-ekt-messages-via-a-timer)
+*The Florisoft mail settings should now be set correctly.*
 
-[6 Read EKT-messages manually 14](#read-ekt-messages-manually)
+## Creating Supplier Auction codes
 
-# Introduction
-Most information regarding trade between parties are sent digitally and automatically via EKT messages. These are data files with information about purchased / sold products.
+Each supplier sends EKT messages using a unique auction code. In addition, this auction code also determines which stock(s) the trade goes into. This section describes how to create an auction code. (Paragraph 4.1)
 
-Florisoft can send (export) and receive EKT messages (import). This manual describes how to import EKT files. In many cases, this process will be fully automatic (via a Timer). However, there is also a possibility to manually import EKT messages.
+In addition, paragraph 4.2 describes how various standard stocks can be linked to the auction code
 
-This manual describes how to import EKT messages. A number of settings are required for this. Chapter one describes creating a Gmail box. This mailbox is provided by suppliers
-used for sending EKT messages. Note that it does not have to be a gmail box.
+### Creating auction codes
 
-
-**Please note that images in this manual may differ slightly from what you see on your screen**
-
-# 1 Creating a mailbox
-Florisoft uses a standard Gmail account to read EKT-messages. This chapter describes the steps needed to creat a mailbox. Please note, as said earlier. That it is not required to make a Gmail mailbox. If you are able to recreate it in an other mailbox, that can also be used. This manual will explain how to create a Gmail mailbox.
+*To create an auction code, follow the steps below:*
 
 |Step|Explanation|
 |:--|:--|
-|**1**| Create a gmail account
-|**2**| Enter the following information.
------
-<table>
-<thead>
-<tr class="header">
-<th><strong>Step</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Name: First name of the customer</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Surname: Last name of the customer</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td><p>
-Create a Username.<br />
-This will be the mailadres of the EKT-mailbox</p>
-<p>Make sure the name contains EKT so it is easy to recognise</p></td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>
-Think of a password</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>
-Confirm the password thought of at nr. 4</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>
-Select a random date. Keep in mind to make sure the account is 18 years old.</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Choose a gender. Because it will be a mailbox, "Other" will be the best option.</td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td><p>Click "Next" to continue.</p></td>
-</tr>
-</tbody>
-</table>
+|**1**|Open the constants screen and navigate to the following path:<br>**Locations→Auctions**<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image7.png"></details>|
+|**2**|Add a new item here by pressing the plus icon. This will open a new screen.<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image7.png"></details>|
+|**3**|Enter the auction code (Make sure that is unique and is **HIGHER** than 30!) and description.<br><br>*Auction codes under 30 are reserved for the default Royal Flora Holland auction locations. Setting the stocks need to be done on he Timer user.*<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image7.png"></details>|
+|**4**|Click the button '*EKT-settings*', this opens the '*Link Florinet*' window.<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image7.png"></details>|
+|**5**|In the window **Link Florinet** set various default stock(s) |
+|**6**|This opens a window (at the bottom of the image) where you can choose a stock. Find a stock by typing the name of a stock in the Quick Search field.<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image8.png"></details>|
 
-<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image2.png" /></details>
+## Reading in EKT-messages automatically using the timer
 
-<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image3.png" /></details>
-
------
-# 2 Adjusting mailbox settings
-
-After creating the EKT-mailbox there will have to be a few adjustments to the settings of the mailbox. The adjustment will make sure that he mailbox will communicate with Florisoft.
-
-Adjust the following settings: Inbox-settings, POP-settings, Archive-settings and security-settings.
-
-## 2.1 Change inbox-settings
-
-First, go to gmail. Do this by typing in the URL or googling "gmail". You should be signed in automatically. If not, log in.
-
-To change the inbox settings, complete the following steps.
+*In most cases, EKT messages will be read automatically using a timer. This section describes how to configure and enable a timer.*
 
 |Step|Explanation|
 |:--|:--|
-|**1**|Once in the gmail inbox, click the gear-icon (nr.1). Then click "See all settings"(nr.2)<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image4.png" /></details>
-|**2**|The next screen will appear. Click here on Inbox (nr.1) en deselect "Social" and "Promotions" (nr.2). Now select "Save changes" (nr.3) on the bottom of the page.<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image5.png" /></details>
+|**1**|Click on the navigator's timer icon using the right mouse button.|
+|**2**|Select the option '*Timer Settings*' this will open the '*Timer Settings*' screen. <details><summary><b>Click here to show the example image!</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image9.png"></details>|
+|**3**|Search and select the '*EDI*' timer settings.|
+|**4**|Under 'Active user', select the user you want to set the timer to.|
+|**5**|Zet het vinkje achter ‘Dit script activeren bij het starten van de timer’ aan|
+|**6**|Enter the times (hours:minutesminutes) at which the timer is activated. 'Start' is the start time, 'Stop' the end time. At 'Interval in minutes', enter the interval time of the timer.|
+|**7**|Choose to run the timer once OR always with these settings.<details><summary><b>Click here to show the example image!</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image10.png"></details>|
+|**8**|To keep the timer running all the time: Click 'OK' in the 'Timer Settings' window.|
 
-## 2.2 Change POP-settings & archive-settings
+## Reading in EKT-messages manually
 
-Take the following steps to modify the POP & archive-settings.
-|Step|Explanation|
-|:--|:--|
-|**1**|Click the tab "Forwarding and POP/IMAP". (nr.1)<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image6.png" /></details>
-|**2**|Enable the option "Enable POP for all mail". (nr.2)
-|**3**|Choose the dropdown menu (nr.3) and select "Archive Gmail's copy"
-|**4**|Save the changes by pressing "Save changes" (nr.4)
-
-## 2.3 Change security settings
+*Many times EKT messages will be read automatically using a timer function. 9see chapter five) Florisoft also offers the possibility to read EKT messages manually. To do this, perform the following steps.*
 
 |Step|Explanation|
-|:--|:--|
-|**1**|When in the inbox, click the profile icon (top right, nr.1) of the mail account. Then click "Manage your Google account"(nr.2)<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image7.png" /></details> 
-|**2**|Once in the new screen, access the "Security"(nr.1) tab on the right of the screen. Now scroll down untill you see "Less secure app access"(nr.2). Turn this option ON. <details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image8.png" /></details>
-
-# 3 Mail settings Florisoft
-After creating an inbox, a few settings will have to be adjusted in Florisoft. The specific settings are described below.
-
-## 3.1 POP settings
-Execute the next steps to adjust the POP settings in Florisoft. **Make sure you are logged in as user TIMER before adjusting anything!**
-
-|Step|Explanation|
-|:--|:--|
-|**1**|Go to the Florisoft Navigator and go to Maintenance (nr.1) -> Setup User (nr.2).<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image9.png" /></details>
-|**2**|Now navigate to Florisoft (nr.1) and select "settings"(nr.2) next to production. Now enter the following information: <br>**POP3 Server:** pop.gmail.com (nr.3).<br>**POP3 Port:** 995 (nr.4).<br>**SSL:** turn on (nr.5).<br>**Account:** Enter the emailadress of the inbox(nr.6).<br>**Password:** Enter the password of the mailbox(nr.7).
-|**3**|Once everything has been filled, press OK (nr.8). After, pres OK again (nr.9).<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image10.png" /></details>
-|**4**|Lastly, enter the emailadress of the mailbox (nr.11) and press OK.<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image11.png" /></details>
-
-# 4 Creating suppliers auctioncodes
-Each supplier sends EKT messages using a unique auction code. In addition, this auction code also determines in which stock(s) the trade ends up. This chapter describes how an auction code is created. (section 4.1)
-
-In addition, section 4.2 describes how various standard stocks can be linked to the auction code.
-
-## 4.1 Creating auctioncodes
-Execute the following steps to create an actioncode
-
-|Step|Explanation|
-|:--|:--|
-|**1**|In the Florisoft Navigator, open up the constants. <details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image12.png" /></details>
-|**2**|In the constants, navigate to Location(nr.1) -> Auctions(nr.2). Create a new auction by pressing the feather (nr.3). A new screen opens. <details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image13.png" /></details>
-|**3**|Enter an Auctioncode (nr.4) and a Description (nr.5). Once filled, press EKT Settings (nr.6).<br> :warning:**Only auctioncodes higher than 30 are allowed!!** 
-|**4**|The screen "Link Florinet" will open. Now, set standard stocks in nr. 1, 2 & 3.<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image14.png" /></details>
-
-> Def. stock (nr.1): Choose a standard stock. Click the downwards arrow to access the different stocks.
->
-> This will open a screen (lower part of image) you can choose a stock.(nr.4)
->
-> Or you can search for a stock using "Fast search" (nr.5)
-> 
-> Choose a stock by clicking on the name.
->
-> The press OK (nr.6), and again OK (nr.7).
-
-Repeat Step 4 to link the remainging stocks in the standard settings.
-
-# 5 Automatically read EKT-Messages via a timer
-In most cases, the EKT-messages wil be read automatically via a timer. This chapter will describe how a timer can be configured and turned on.
-
-|Step|Explanation|
-|:--|:--|
-|**1**|Right mouse click on the timer in the Florisoft Navigator, and choose "Timer Settings".<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image15.png" /></details>
-|**2**|Select the setting "EDI" (nr.1)<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image16.png" /></details>
-|**3**|Choose a user where you want the timer to be set (nr.3)
-|**4**|Enable "Activate this script on timer startup" (nr.4).
-|**5**|At nr.5, enter the times (hourshours:minutesminutes) when the timer will be activated. "Start" is the starting time, "Stop" is the ending time. At "Frequency", enter how frequent the timer will act.
-
-> **Example:** Start: 10:00 Stop: 11:00 Frequency Min: 5 Sec: 30
-
-**Meaning** The timer will be active between 10 and 11 AM every 5 minutes and 30 seconds.
-
-|Step|Explanation|
-|:--|:--|
-|**6**|Choose if you want to execute the timer this once(nr.6), or always(nr.7).
-|**7**|Also execute the steps 4 through 7 for "Florinet"(nr.2)
-
-# 6 Read EKT-messages manually
-Usually, EKT-messages will be read automcatically via a timer(see chapter 6). Florisoft also has the ability to read EKT-messages manually. Execute the following steps.
-
-|Step|Explanation|
-|:--|:--|
-|**1**|In the Florisoft navigator, select "EDI".<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image17.png" /></details>
-|**2**|Florisoft retrieves all EKT-messages that are ready in the EKT mailbox and saves them in the file C:\NET440\USER\IN
-|**3**|Now click "Florinet"<details><summary><b>Click here for the example image</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image18.png" /></details>
-|**4**|The EKT-messages are now read in the selected stocks (see section 4.1).
-|**5**|After importing he EKT messages in Florisoft using the "Florinet-button", the EKT-messages will be deleted from file C:\NET440\USER\IN and moved to file C:\NET440\USER\BACKUP
+|:-:|:--|
+|**1**|Click on the Florisoft Navigator button "*EDI*"<details><summary><b>Click here to show the example image!</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image11.png"></details>|
+|**2**|Florisoft retrieves all EKT-messages that are ready in the EKT mailbox and saves it in this folder:<br>**C:\NET440\USER\IN**|
+|**3**|Click on the **Florinet** button in the navigator.<details><summary><b>Click here to show the example image!</b></summary><img src=".Manual standard EKT-messages Florisoft/media/image12.png"></details>||
+|**4**|The EKT messages will now be read in the selected stocks (see section 4.1)|
+|**5**|After importing the EKT-messages in Florisoft using the **Florinet** button the EKT-messages will be deleted from:<br>**C:\NET440\USER\IN**<br>and get placed in:<br>**C:\NET440\USER\BACKUP**|
