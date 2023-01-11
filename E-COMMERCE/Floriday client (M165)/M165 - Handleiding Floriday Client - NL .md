@@ -108,6 +108,7 @@ Binnen de Floriday online omgeving moet assortiment op regelniveau gemarkeerd wo
 
 Deze koppeling werkt nu met de Custom sync. Dit staat bij een recente versie van Florisoft standaard aan (versie vanaf 15 dec 2022).
 Echter moet er wel contact opgenomen worden met de veiling om dit in te stellen aan de kant van Floriday. Klik
-[hier]([https://www.floricode.com/en-us/distribution/finding-codes/company-code-search](https://helpcenter-customers.floriday.com/nl/articles/6811442-koppeling-beheer-aanbodsregels#h_d9df0d4bb3) voor meer informatie. 
+[hier](https://helpcenter-customers.floriday.com/nl/articles/6811442-koppeling-beheer-aanbodsregels#h_d9df0d4bb3) voor meer informatie. 
  
+
 
