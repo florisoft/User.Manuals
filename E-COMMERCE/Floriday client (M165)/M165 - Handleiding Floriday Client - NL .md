@@ -103,3 +103,12 @@ De eerste synchronisatie zal het aanbod ophalen per kweker en direct verwerken b
 ### Aanbod
 
 Binnen de Floriday online omgeving moet assortiment op regelniveau gemarkeerd worden als ‘favoriet’. Je kunt op het platform ook de connectie met de kweker beëindigen op deze kweker niet meer op te halen. Pas dan wordt het ook meegenomen in het aanbod dat Florisoft ophaalt.
+
+### LET OP
+
+Deze koppeling werkt nu met de Custom sync. Dit staat bij een recente versie van Florisoft standaard aan (versie vanaf 15 dec 2022).
+Echter moet er wel contact opgenomen worden met de veiling om dit in te stellen aan de kant van Floriday. Klik
+[hier](https://helpcenter-customers.floriday.com/nl/articles/6811442-koppeling-beheer-aanbodsregels#h_d9df0d4bb3) voor meer informatie. 
+ 
+
+

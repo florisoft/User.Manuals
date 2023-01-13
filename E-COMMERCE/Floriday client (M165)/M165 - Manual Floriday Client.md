@@ -87,3 +87,9 @@ As said before the first time synchronizing will store the various growers but a
 ### Offer
 
 Within the Floriday online environment assortment needs to be marked as a favourite on row level. If needed you may also end a connection to a grower on the Floriday platform if they are no longer needed. The changes in Florisoft will only happen if the assortment on offer is changed on the Floriday API. 
+
+
+### Pay attention
+
+This link now works with the Custom sync. This is enabled by default with a recent version of Florisoft (version from 15 Dec 2022).
+However, the auction must be contacted to set this up on the Floriday side. Click [here](https://helpcenter-customers.floriday.com/nl/articles/6811442-koppeling-beheer-aanbodsregels#h_d9df0d4bb3) for more information.
