@@ -35,4 +35,4 @@ On the left you will find the status of the different rows. Here you can identif
 
 If you which to see one of the rows in detail, double click on the desired row.
 
-If a problem cannot be solved, contact out Support department.
+If a problem cannot be solved, contact our Support department.
