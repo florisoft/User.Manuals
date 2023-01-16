@@ -70,3 +70,12 @@ To view invoices made by a debtor follow the steps below:
 |**1**|Open the Florisoft Navigator screen, in the navigator screen you'll click on the '*Debtor*' button.|
 |**2**|This opens the debtor screen, select a debtor from the tabel.<br> By selecting a debtor its invoices will be shown in the table in the table below.<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media/image12.png"></details>|
 
+## Business-2-Business forms
+
+To send collections, a Business-2-Business form is also used. Basically, you need to set this up yourself. To give you an idea of what components should be in this form, below is a sample form as Florisoft itself uses it.
+
+Below you will find the download links to the B2B forms that Florisoft uses:
+
+1. [**English version**](https://downgit.github.io/#/home?url=https://github.com/florisoft/User.Manuals/blob/main/FINANCIAL/Automatic%20Bank%20Withdrawal%20SEPA%20(M29)/B2B%20Formulieren/Continuous%20authorization%20Business.docx)
+
+2. [**Dutch version**](https://downgit.github.io/#/home?url=https://github.com/florisoft/User.Manuals/blob/main/FINANCIAL/Automatic%20Bank%20Withdrawal%20SEPA%20(M29)/B2B%20Formulieren/Doorlopende%20machtiging%20Bedrijven%20SEPA%20.DOCX%20%20ALLFLO.DOCX)
