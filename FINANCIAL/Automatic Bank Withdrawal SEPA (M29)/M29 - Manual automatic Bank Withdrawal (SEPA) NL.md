@@ -61,7 +61,13 @@ Op de bankrekening waar vanaf geïncasserd is, zie je na een aantal dagen de sto
 |**2**|Selecteer nu de desbetreffende debiteur en het desbetreffende factuurnummer.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image11.png"></details>|
 |**3**|Dit opent het scherm voor het maken van een nieuwe betaling.|
 |**4**|Vul bij het tekstvak '*Betaald bedrag* het gestorneerde factuurbedrag in met een min teken (-) ervoor.|
-|**5**|Vul bij de '*Betaalwijze*' een '**S**' in dit geeft aan dat het bedrag een stornering is.<br>De desbetreffende factuur staat nu weer open.|
+|**5**|Vul bij de '*Betaalwijze*' een '**S**' in dit geeft aan dat het bedrag een stornering is.<br>De desbetreffende factuur staat nu weer open. In de onderstaande stappen ziet u hoe u betaalwijzes aanmaakt.|
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Vanuit de constanten navigeer naar: <br>**Financial→Betaalwijzen**<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src=".Handleiding Incasso/media/image16.png"></details>|
+|**2**|Maak een nieuwe betaalwijze aan door op het + icoon te drukken.|
+|**3**|Vul de noodzakelijke gegevens in en sla de betaalwijze op door op de **Ok** knop en het aanmaken te bevestigen.|
 
 
 ## Incasso's inzien
@@ -71,7 +77,11 @@ Om incasso's in te zien die gemaakte zijn door een debiteur volgt u de onderstaa
 |Stap|Uitleg|
 |:--|:--|
 |**1**|Open de Florisoft Navigator, in deze navigator klikt u op de knop '*Debiteuren*'.|
-|**2**|Dit opent het debiteurenscherm, selecteer uit dit scherm vervolgens een debiteur.<br>Dit zorgt ervoor dat dat bijhorende incasso's onderaan het scherm komen te staan in een tabel.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image12.png"></details>|
+|**2**|Klik in het debiteuren scherm vervolgens op de "*Menu*" knop en dan vervolgens op de "*Overzichten*" knop.(#1)|
+|**3**|Selecteer in het zojuist geopende scherm de overzicht optie:<br>**Betalingen per periode**|
+|**4**|Klik vervolgens op de "**Toon in grid**" knop.|
+|**5**|Sorteer nu op de **Betaalcode** knop door op de kolom header te klikken.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image17.png"></details>|
+
 
 ## Business-2-Business formulier
 
