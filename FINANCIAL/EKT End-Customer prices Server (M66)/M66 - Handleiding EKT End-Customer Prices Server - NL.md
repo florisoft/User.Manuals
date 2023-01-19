@@ -4,7 +4,7 @@
 
 ## Inhoud
 [Inleiding](#1-inleiding)
-[Debiteurintstelling activeren](#2-debiteurinstelling-activeren)
+[Debiteurinstelling activeren](#2-debiteurinstelling-activeren)
 [Verdelen met eindprijzen subklanten](#3-verdelen-met-eindprijzen-subklanten)
 
 
