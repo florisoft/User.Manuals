@@ -15,7 +15,7 @@ Veel webshops worden door hoofdklanten gebruikt die daarachter hun eigen automat
 
 
 ## 2. Debiteurinstelling activeren
-Om ervoor te zorgen dat de uitgerekende prijs (via de prijsconfiguratie) voor de einklant wordt verstuurd in de EKT dient het vinkje Eindprijs in EKT-bericht meezenden geactiveerd te worden. Zie onderstaand screenshot:
+Om ervoor te zorgen dat de uitgerekende prijs (via de prijsconfiguratie) voor de eindklant wordt verstuurd in de EKT dient het vinkje Eindprijs in EKT-bericht meezenden geactiveerd te worden. Zie onderstaand screenshot:
 
 
 <details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".mediaNL/foto1.png"></details>
