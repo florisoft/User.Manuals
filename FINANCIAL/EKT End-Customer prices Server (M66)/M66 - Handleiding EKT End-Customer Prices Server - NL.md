@@ -44,4 +44,4 @@ Duidelijk is te zien dat het PRI+INV segment uit twee segmenten bestaat: de prij
 
 Op het momement dat het systeem van de hoofdklant correct geconfigureerd is voor het inlezen van deze prijzen kan hij bovenstaande informatie gebruiken voor het automatisch verwerken van orders inclusief de verdere financiele afhandeling.
 
-Bovenstaande zes stappen hebben globaal de logica achter de module EKT eindprijzen server beschreven.
+Bovenstaande zes stappen hebben globaal de logica achter de module EKT esindprijzen server beschreven.
