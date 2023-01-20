@@ -1,6 +1,6 @@
 <img src="../../fslogo.png"/>
 
-# Documentation EKT final prices client
+# Documentation EKT final prices Server
 
 ## Table of Contents
 [Introduction](#1-introduction)

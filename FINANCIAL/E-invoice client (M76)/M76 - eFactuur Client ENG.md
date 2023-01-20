@@ -1,6 +1,6 @@
 <img src="../../fslogo.png"/>
 
-## e-invoice client
+## E-Invoice Client
 
 With the eFactuur Client module (e-invoice client), it becomes possible to book the purchase history automatically. This was previously a manual process in which the user himself looked up the purchase line for each invoice line and check if it was correct. This process takes a lot of time and is error-prone. Especially with the stock coupling where the supplier could send 8 invoice lines while in the purchase it is only 1 line or the supplier sends 8 invoice line (only depended on when the supplier made and sent his invoice) while in the purchase history it was 2 lines. This was a lengthy process. 
 

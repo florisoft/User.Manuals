@@ -60,7 +60,6 @@ On the bank account that has been debited from, you will see the reversal/cancel
 |**4**|Fill in the textfield '*Paid amount*' with the canccelled/reversed amount prefixed with a minus sign (**-**).|
 |**5**|Fill in the field '*Means of payment*' with the letter s to indicate the payment to be a cancellation.<br>This should reopen the concerning invoice.|
 
-
 ## Viewing invoices
 
 To view invoices made by a debtor follow the steps below:
@@ -69,4 +68,22 @@ To view invoices made by a debtor follow the steps below:
 |:--|:--|
 |**1**|Open the Florisoft Navigator screen, in the navigator screen you'll click on the '*Debtor*' button.|
 |**2**|This opens the debtor screen, select a debtor from the tabel.<br> By selecting a debtor its invoices will be shown in the table in the table below.<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media/image12.png"></details>|
+|**3**|Click on the *Menu* button in the top left of the debtor screen, then click on the *Overviews* button in the resulting dropdown.<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media/image19.png"></details>|
+|**4**|In the summaries list select the "*Payments per period*" option and click on the "*Show in grid*" button.|
+|**5**|The table below should update to show data (if that is not the case check if the date filters are set correctly). You can also sort by column values by clicking on a column header like Payment code. |
 
+|Step|Explanation|
+|:--|:--|
+|**1**|From the contants screen navigate to the following path:<br>**Finacial→Means of Payment**|
+|**2**|Create a new payment method by clicking on the + icon.|
+|**3**|Fill out the required fields and save the payment method by clicking on the **Ok** button and confirming the creation<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media/image18.png"></details>|
+
+## Business-2-Business forms
+
+To send collections, a Business-2-Business form is also used. Basically, you need to set this up yourself. To give you an idea of what components should be in this form, below is a sample form as Florisoft itself uses it.
+
+Below you will find the download links to the B2B forms that Florisoft uses:
+
+1. [**English version**](https://downgit.github.io/#/home?url=https://github.com/florisoft/User.Manuals/blob/main/FINANCIAL/Automatic%20Bank%20Withdrawal%20SEPA%20(M29)/B2B%20Formulieren/Continuous%20authorization%20Business.docx)
+
+2. [**Dutch version**](https://downgit.github.io/#/home?url=https://github.com/florisoft/User.Manuals/blob/main/FINANCIAL/Automatic%20Bank%20Withdrawal%20SEPA%20(M29)/B2B%20Formulieren/Doorlopende%20machtiging%20Bedrijven%20SEPA%20.DOCX%20%20ALLFLO.DOCX)
