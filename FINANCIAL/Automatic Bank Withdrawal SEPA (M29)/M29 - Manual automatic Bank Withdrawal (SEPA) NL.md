@@ -46,7 +46,7 @@ Eerst moeten we de informatie van uw eigen bedrijf correct invullen.<br>*Volg hi
 |**1**|Open de Florisoft navigator en klik vervolgens met uw rechtermuisknop op de *Debiteuren* knop.|
 |**2**|In het optie dialoog dat nu naar voren komt klikt u op de optie *Incasso generen*.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image8.png"></details>|
 |**3**|U ziet nu het scherm '*opdracht generen*' voor u. In dit scherm klikt u op de knop '*bestand Testen*'. U ontvangt vervolgens een test bestand waarin u kan controleren of alles klopt op de lijst. Dit bestand kan u op de aangegeven locatie terugvinden (**C:\Incasso**).<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image9.png"></details>|
-|**4**|Wanneer u uw aanpassingen verricht heeft ga dan terug naar het '* opdracht genereren*' scherm om het  bestand te testen. U kan nu ook gelijk op '**Ok**' drukken.<br>Je krijgt dan een melding waar de  is aangemaakt. Met direct daarna de mogelijkheid om de  te printen. <br>Dit bestand kan dan worden verzonden naar de desbetreffende bank.|
+|**4**|Wanneer u uw aanpassingen verricht heeft ga dan terug naar het '*opdracht genereren*' scherm om het  bestand te testen. U kan nu ook gelijk op '**Ok**' drukken.<br>Je krijgt dan een melding waar de  is aangemaakt. Met direct daarna de mogelijkheid om de  te printen. <br>Dit bestand kan dan worden verzonden naar de desbetreffende bank.|
 
 ## Aanmaken nieuwe betaling ~ Stornering
 
