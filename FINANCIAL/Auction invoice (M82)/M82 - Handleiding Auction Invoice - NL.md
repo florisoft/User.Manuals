@@ -1,10 +1,10 @@
 <img src="../../fslogo.png"/>
 
-# Florisoft Handleiding Veilingfactuur
+# Florisoft Handleiding Auction Invoice (M82)
 
-Welkom bij de handleiding voor de module Veilingfactuur. De module Florisoft .NET Veilingfactuur is gecreeërd om veilingfacturen te verwerken in het systeem. Deze handleiding beschrijft de module en legt uit hoe de gebruiker er mee om kan gaan.
+Welkom bij de handleiding voor de module Auction Invoice. De module Florisoft .NET Auction Invoice is gecreeërd om veilingfacturen te verwerken in het systeem. Deze handleiding beschrijft de module en legt uit hoe de gebruiker er mee om kan gaan.
 
-*Deze module is voor zowel Veilingfactuur als Veiling connect factuur*
+*Deze module is voor zowel Auction Invoice als Veiling connect factuur*
 
 ## XML van de factuur
 
