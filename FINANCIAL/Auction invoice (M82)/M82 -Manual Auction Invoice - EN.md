@@ -1,6 +1,6 @@
 <img src="../../fslogo.png"/>
 
-# Florisoft Manual Auction Invoice
+# Florisoft Manual Auction Invoice (M82)
 
 Welcome to the manual for the module Auction invoice. The module Florisoft .Net Auction Invoice is created to process auction invoices in the system. In this manual the module will be explained and it will be shown how to use the module.
 
