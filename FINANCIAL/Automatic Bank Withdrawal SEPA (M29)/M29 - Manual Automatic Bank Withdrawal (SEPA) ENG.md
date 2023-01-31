@@ -1,6 +1,6 @@
 <img src="../../fslogo.png" alt="Florisoft Corporate Logo">
 
-# Florisoft Mnaual Automatic Bank Withdrawal (SEPA)
+# Florisoft Manual Automatic Bank Withdrawal (SEPA)
 
 This manual will explain how you can send a Direct Debit (SEPA) message to your customers.
 
