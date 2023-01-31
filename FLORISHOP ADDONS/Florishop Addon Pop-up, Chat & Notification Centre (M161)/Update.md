@@ -81,7 +81,7 @@ De verkoper, zoals aangemaakt in de vorige stap, moet gekoppeld worden aan alle 
 |:-:|:--|
 |**1**|Navigeer in de constanten naar:<br>**Organen→Debiteurgegevens→Debiteuren**|
 |**2**|Open de debiteur die je wilt koppelen|
-|**3**|Ga naar het tablad:<Br>**Internet→Internet toegang**|
+|**3**|Ga naar het tablad:<Br>**Internet→Internet toegang**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".tmp/image8.png"></details>|
 |**4**|Kies in het veld Account Manager de verkoper die contact heeft met deze debiteur.|
 |**5**|Sla de debiteur op door het te sluiten.|
 |**6**|Herhaal de stappen van de afgelopen paar hoofdstukken voor elke verkoper.|
@@ -94,7 +94,7 @@ De verkoper, zoals aangemaakt in de vorige stap, moet gekoppeld worden aan alle 
 |:-:|:--|
 |**1**|Navigeer in de constanten naar het volgende pad:<br>**Systeem→Users→Systeemgebruikers**|
 |**2**|Open vervolgens een systeemgebruiker|
-|**3**|Selecteer in het veld **verkoper** de verkoper die gekoppeld moet worden aan de systeemgebruiker.|
+|**3**|Selecteer in het veld **verkoper** de verkoper die gekoppeld moet worden aan de systeemgebruiker. <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".tmp/image9.png"></details>|
 |**4**|Sla de wijzigingen op.|
 
 ## Testen
