@@ -35,7 +35,6 @@ Chapter 1 will cover the set up process that is done by the debtor and yourself.
 |**11**|Again stay in the debtor setting screen and go to the path: '*Financial*' → '*General*'|
 |**12**|Also check if the financial debtor number is unique for the debtor. This is a unique identifier for a payment authorization so it **has** to be unique!.<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media EN/image7.png"></details>|
 
-
 ## Sending invoice(s)
 
 |Step|Explanation|
@@ -69,6 +68,14 @@ To view invoices made by a debtor follow the steps below:
 |**3**|Select the "**payments per period**" option.|
 |**4**|Click on the "**Show in grid**" button to update the table below.|
 |**5**|Sort the table by clicking on the **payment code** by clicking on its column header.<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media EN/image21.png"></details|
+
+|Step|Explanation|
+|:--|:--|
+|**1**|From the contants screen navigate to the following path:<br>**Finacial→Means of Payment**|
+|**2**|Create a new payment method by clicking on the + icon.|
+|**3**|Fill out the required fields and save the payment method by clicking on the **Ok** button and confirming the creation<details><summary><b>Click here to show the example image</b></summary><img src=".Handleiding Incasso/media EN/image15.png"></details>|
+
+
 
 ## Business-2-Business forms
 
