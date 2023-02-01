@@ -70,9 +70,9 @@ Volg de onderstaande stappen voor het aanmaken of instellen van een debiteur, in
 |**3**|Sla vervolgens de debiteur op door op de **Ok** knop te drukken en vervolgens de aanpassingen te bevestigen.|
 |**4**|(Her)open de zojuist aangemaakte of desbetreffende debiteur door tweemaal met linker muisknop op de bijhorende tabelrij te klikken.|
 |**5**|Navigeer in debiteurinstellingen scherm naar het volgende pad:<br> **Internet**→**Internet toegang**|
-|**6**|Maak een bestellijst toegankelijk voor de webshop, deze word gebruikt om de catalogus van Floridya te vullen. <br>*Doe dit door op de knop 'Toegankelijke bestellijsten' te drukken.*|
+|**6**|Maak een bestellijst toegankelijk voor de webshop, deze word gebruikt om de catalogus van Floriday te vullen. <br>*Doe dit door op de knop 'Toegankelijke bestellijsten' te drukken.*|
 |**7**|In het nieuw te voorschijn gekomen scherm vinkt u in de tabel de '**A**' en '**T**' bij de Floriday bestellijst. Druk vervolgens op '**Ok**' om te bevestigen.|
-|**8**|Maak een voorraad toegankelijk voor de webshop, deze word gebruikt om de catalogus van Floridya te vullen. <br>*Doe dit door op de knop 'Toegankelijke voorraden' te drukken.*|
+|**8**|Maak een voorraad toegankelijk voor de webshop, deze word gebruikt om de catalogus van Floriday te vullen. <br>*Doe dit door op de knop 'Toegankelijke voorraden' te drukken.*|
 |**9**|In het nieuw te voorschijn gekomen scherm vinkt u in de tabel de '**A**' en '**T**' bij de Floriday voorraad. Druk vervolgens op '**Ok**' om te bevestigen.|
 |**10**|Vul een webshop wachtwoord in voor de debiteur in het veld '**Password voor klant**|
 |**11**|Vink de optie '*Deze klant heeft toegang tot internet*' aan om de debiteur toegang te geven tot de webshop.|
@@ -179,7 +179,7 @@ De volgende waardes moeten gevuld worden:
 
 De API key kan opgevraagd worden via de portal van Floriday. Deze is nodig om de connectie op te zetten tussen de Florisoft en Floriday.
 
-*Volg de onderstaande stappen*
+*Volg de onderstaande stappen:*
 
 |Stap|Uitleg|
 |:--|:--|

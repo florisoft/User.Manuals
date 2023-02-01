@@ -33,9 +33,9 @@ Welcome to the Florisoft Clock Pre-Sales manual. This manual describes the step-
 |Step|Explanation|
 |:--|:--|
 |**1**|Log in to FloraHolland using the link below: <br>https://floramondo.royalfloraholland.com/settings/accounts.|
-|**2**|At the Web service account, click the "Settings" button.<details><summary><b>Click here for your example image!</b></summary><img src="Pre Sales Clock EN Media/image1.png"></details>|
+|**2**|At the Web service account, click the "Settings" button.<details><summary><b>Click here for your example image!</b></summary><img src="Pre Sales Clock EN Media/image20.png"></details>|
 |**3**|Next, a page will open where filters can be set for this web service account. Change the following settings here:<br>- **Default delivery location** <br>- **Filter:** adds a filter on the sales channel.|
-|**4**|The filter can filter on:<br>- **Sales channel**: *always select clock pre-sales*.<br>- **Delivery locations**: *Multiple delivery locations can be added here.* <br>- **Main (product) group**: *Choose one of the following product groups: (house/garden)- plants.<details><summary><b>Click here for your example image!*</b></summary><img src="Pre Sales Clock EN Media/image2.png"></details>|
+|**4**|The filter can filter on:<br>- **Sales channel**: *always select clock pre-sales*.<br>- **Delivery locations**: *Multiple delivery locations can be added here.* <br>- **Main (product) group**: *Choose one of the following product groups: (house/garden)- plants.<details><summary><b>Click here for your example image!*</b></summary><img src="Pre Sales Clock EN Media/image19.png"></details>|
 |**5**|Do you want to import both flowers and plants? Then create a second web service account for this.|
 
 ### Service contracts
@@ -47,8 +47,8 @@ To ensure that appropriate EKT messages are sent after purchasing, service contr
 |Step|Explanation|
 |:--|:--|
 |**1**|Go to the link below and login to your FloraHolland account: https://portal.royalfloraholland.com/nl-NL/diensten/mijn-dienstcontracten.|
-|**2**|Activate the options below: (depends on delivery location):<br> - **EKT bestelling webshop v3.7**<br> - **EKT bestelling website v3.7**<br>- **Voorlopige EKT Aalsmeer v3.7**<br><br>*See the image below:*<details><summary><b>Click here for your example image!</b></summary><img src="Pre Sales Clock EN Media/image3.png"></details>|
-|**3**|After you save the changes, you may get the message below:<details><summary><b>Click here for your example image!</b></summary><img src="Pre Sales Clock EN Media/image4.png"></details>|
+|**2**|Activate the options below: (depends on delivery location):<br> - **EKT bestelling webshop v3.7**<br> - **EKT bestelling website v3.7**<br>- **Voorlopige EKT Aalsmeer v3.7**<br><br>*See the image below:*<details><summary><b>Click here for your example image!</b></summary><img src="Pre Sales Clock EN Media/image21.png"></details>|
+|**3**|After you save the changes, you may get the message below|
 |**4**|*Under 'Addresses for service messages', insert your EKT e-mail address to receive the preliminary and final EKTs*|
 
 ## Setting up Florisoft
