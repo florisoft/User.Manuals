@@ -26,6 +26,12 @@ Florisoft medewerkers horen de Florisoft systeeminstellingen al doorlopen te heb
 |**3**|Selecteer vervolgens in de onderstaande tabel alle debiteuren die in deze groep vallen.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".tmp/image5.png"></details>|
 |**4**|Sla de nieuwe groep op.|
 
+## Opzetten van verkopers voor de chatfunctie
+
+Voor het gebruik van de chatfunctie is het van belang dat de verkopers goed zijn ingesteld en toegang hebben tot de webshop. Hier moeten een aantal onderlinge koppelingen tussen debiteuren en systeemgebruikers voor worden opgezet. Hieronder een simpele representatie over hoe dit in elkaar zit.
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".tmp/picasso.png"></details>
+
 ## Webshop Sales debiteur aanmaken
 
 *Omdat vanuit technisch oogpunt in de webshop alleen maar debiteuren in kunnen loggen is er een aparte debiteur nodig die in de volgende stap aan de verkoper gekoppeld wordt. De verkoper zal later op zijn beurt weer gekoppeld worden aan de systeemgebruiker van de verkoper. Hieronder een globaal stappenplan voor het aanmaken van een sales debiteur.<br><br>Een sales debiteur is technisch gezien niets meer dan een 'normale' Florisoft debiteur. Andere benamingen voor een webshop sales debiteur zijn: webshop verkoopdebiteur, verkoopdebiteur of salesdebiteur.*
@@ -40,7 +46,7 @@ Florisoft medewerkers horen de Florisoft systeeminstellingen al doorlopen te heb
 |**2**|Maak een nieuwe debiteur aan door op het plus icoontje te drukken.|
 |**3**|Indien er een sales debiteur template bestaat gebruikt u deze zo niet kan u er een aanmaken. Hoe u dit doet leest u [hier](#aanmaken-debiteur-template).|
 |**4**|Vul de volgende  in:<br>- **Deb.nummer**: vul dit in met een herkenbare waarde door SALES hierin te verwerken<br>- **Zoek:** doe hier hetzelfde<br>- **Bedrijfsnaam**: Maak hier weer duidelijk dat het gaat om een sales debiteur door hier bijvoorbeeld "*Florishop Sales Debiteur*" neer te zetten.<br>- **Land**: land waarin de verkoper actief is.<br>- **E-mail adres**: vul hier het e-mailadres van de verkoper (waarmee hij/zij communiceeert naar de klanten).<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".tmp/image2.png"></details>|
-|**5**|Navigeer naar het mapje "**ident**|
+|**5**|Navigeer naar het mapje "**ident**"|
 |**6**|Vul bij het veld Gekoppeld aan gebruiker de systeemgebruiker van de verkoper in. (nr. 8)<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".tmp/image3.png"></details>|
 |**7**|Navigeer naar het mapje **Internet→Internet Toegang**|
 |**8**|Zet de volgende instellingen aan:<Br>- **Deze klant heeft toegang via het internet**<br>- **Deze klant mag inloggen in FloriShop**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".tmp/image4.png"></details>
@@ -70,7 +76,7 @@ Florisoft medewerkers horen de Florisoft systeeminstellingen al doorlopen te heb
 |**2**|Druk op het plus icoontje om een verkoper aan te maken.|
 |**3**|Vul de volgende verplichten velden in:<br>- **Code verkoper**:<br>- **Naam Verkoper**:<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".tmp/image6.png"></details>|
 |**4**|Navigeer naar het tablad **Webshop**|
-|**5**|Pas hier de volgende instellingen aan:<br>- **Accountmanager login**: zet dit aan<br>- **Op basis van debiteur**: selecteer hier de eerder aangemaakte debiteur waaraan de verkoper gelinkt dient te worden.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=""></details>|
+|**5**|Pas hier de volgende instellingen aan:<br>- **Accountmanager login**: zet dit aan<br>- **Op basis van debiteur**: selecteer hier de eerder aangemaakte debiteur waaraan de verkoper gelinkt dient te worden.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".tmp/image7.png"></details>|
 |**6**|Sla de debiteur op door het te sluiten.|
 
 ## Verkoper koppelen als accountmanager aan de debiteur(en)
