@@ -162,7 +162,7 @@ De belangrijkste kolommen worden hieronder beschreven (vullen indien van toepass
 
 ### Bestellijst autoriseren vanuit de debiteur (Vanuit de webshop)
 
-Als je voorraden wil autoriseren vanuit de debiteur doet u dat als volgt:
+Als je bestellijsten wil autoriseren vanuit de debiteur doet u dat als volgt:
 
 |Stap|Uitleg|
 |:--|:--|

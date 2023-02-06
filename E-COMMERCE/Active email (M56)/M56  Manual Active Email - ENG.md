@@ -1,39 +1,55 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png" alt="Florisoft Corporate Logo">
 
-# Manual **Active Email**
+# Florisoft Manual Active E-Mail - (M56)
 
-For this add-on module the module Special Offers is required.
+Welcome to the Florisoft manual about Active E-mail, in order to use this module it needs to be activated in your Florisoft system. There also need to be offers present in your Florisoft system. <br> Read [this manual](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Special%20Offers%20(M33)/M33%20-%20Manual%20Special%20Offers%20-%20EN.md) to learn how to create special offers in Florisoft.
 
-In order to send an Active Email first [create a special offer in Florisoft](https://github.com/florisoft/User.Manuals/tree/main/BASIS/Special%20Offers-Aanbiedingslijsten%20(M33))
+## Sending special offers or showing examples 
 
-Then you can use the example button to show an example of the offer on screen. For that you must first select which layout you want to use. If you're satisfied, you can use the email webpage button to send the offer. This uses the data set in the debtor.
+|Step|Explanation|
+|:-:|:--|
+|**1**|Using the Florisoft navigator open the "**Offers**" screen.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**2**|Click on the "**Example**" or "**Email Webpage**" button.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**3**|You will then be presented with a prompt screen where you can choose an offer template. If everything is to your liking, you can use the e-mail webpage button to send the offer. The data set in the debtor will be used for this.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**3.a**|You can also set a default layout per debtor. You can give the debtor layout preference by enabling the checkbox "*A debtor selected has priority*"<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
 
-<img src=".Manual Active Email\pic7.png" />
+## Set debtor default layout
 
-You can also set a standard layout per debtor. Use the checkbox 'Debtor set layout has priority' in the layout choice when sending.
+|Step|Explanation|
+|:-:|:--|
+|**1**|Navigate to the constants screen and navigate to the following path:<br>**Community→Debtor data→Debtors**<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**2**|Open the concerning debtor and navigate to the **offers** tab.|
+|**3**|Select the debtor standard layout in the dropdown field "**Active-email Layout**"<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
 
-<img src=".Manual Active Email\pic8.png" />
+## Example offers
 
-Below is an example of what the offer might look like.
+The screenshot below shows what an offer active email can look lile:
 
-<img src=".Manual Active Email\pic9.png" />
+<details><summary><b>Click here for the example image!</b></summary><img src=""></details>
 
-When an offer is active for a customer, he will also see a separate offers tab on the webshop.
+When an offer is active for a debtor it will be shown on the special offers webshop tab.
 
-<img src=".Manual Active Email\pic10.png" />
+<details><summary><b>Click here for the example image!</b></summary><img src=""></details>
 
-If you want to send this offer via Whatsapp, you can click 'right' on the offer and copy the offer url. You can paste this URL into Whatsapp web and send it this way.
 
-<img src=".Manual Active Email\pic11.png" />
+## Sending offers via Whatsapp
 
-It is possible that you receive the message below when copying the URL. In this case you must enter your FloriShop URL in the debtor data, as in the example below.
+|Step|Explanation|
+|:-:|:--|
+|**1**|If you want to send this offer via Whatsapp, you can right click on the offer and copy the offer url.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**2**|You can paste this URL into Whatsapp web and send it this way.|
+|**3**|You may get the following message when copying the URL.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**4**|If this is the case, you must enter your FloriShop URL in the debtor data as shown in the example below.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
 
-<img src=".Manual Active Email\pic12.png" />
+## Copying offers to other debtors
 
-<img src=".Manual Active Email\pic13.png" />
+We have now created an offer for 1 customer but want to use this offer for other customers as well.
 
-We have now created an offer for 1 customer, but want to use this offer for other customers as well. For this, we first select the already created special offer and press the copy button, this opens the well-known selection screen where we can select the other debtors/debtor groups, etc.
+*Follow the steps below:*
 
-<img src=".Manual Active Email\pic14.png" />
-
-<img src=".Manual Active Email\pic15.png" />
+|Step|Explanation|
+|:-:|:--|
+|**1**|Select already existing offers on the screen.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**2**|Then click the 'Copy' button, this will open a new screen.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**3**|Now click on the 'Select' button, here select the debtors to whom you want to send the offers. (You can also enter debtor numbers in the table)<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**4**|Then click the Ok button, the selected debtors are now shown in the offer screen.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|

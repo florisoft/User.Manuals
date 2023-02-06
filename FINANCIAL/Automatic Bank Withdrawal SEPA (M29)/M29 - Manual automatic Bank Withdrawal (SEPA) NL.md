@@ -2,7 +2,7 @@
 
 # Florisoft Handleiding Automatic Bank Withdrawal (SEPA)
 
-In deze handleiding wordt uitgelegd hoe je een incasos kan versturen naar uw klanten.
+In deze handleiding wordt uitgelegd hoe je een incassos kan versturen naar uw klanten.
 
 Hoofdstuk 1 legt in stappen uit welke instellingen moeten worden ingevuld aan beide kanten. Hoofdstuk 2 legt uit hoe je een incasso verstuurt. Als laatste wordt er een voorbeeld getoond van een Business-to-business formulier.
 
@@ -26,18 +26,16 @@ Eerst moeten we de informatie van uw eigen bedrijf correct invullen.<br>*Volg hi
 |**1**|Open het constantenscherm en navigeer naar het volgende pad in de bestandsstructuur:<br>**Financieel→Financiele administratie**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding Incasso/media/image2.png"></details>|
 |**2**|Klik tweemaal met de linkermuisknop op de regel met uw eigen bedrijfsnaam.|
 |**3**|In het zojuist geopende scherm klikt u op het mapje '*Incasso*'.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding Incasso/media/image3.png"></details>|
-|**4**|In dit scherm vult u de volgende gegevens in:<br>- **Incasso soort**: selecteer hier SEPA <br>- **SEPA type**: selecteer B2B<br>- **SEPA Versie**: selecteer het juiste type voor uw bank<br>- **Bedrijfsnaam**: naam van uw bedrijf<br>- **IBAN nr.:** IBAN adres van debiteur<br>- **BIC/SWIFT code**: het aan een bank toegewezen SWIFT-adres om geautomatiseerde betalingen snel en accuraat naar de betrokken banken te sturen.<br>- **Crediteur ID**: crediteur ID<Br>- **Incassant ID**: ID van het incassant <br><br>Vul hier de benodigde gegevens in en sla deze vervolgens op door op de '**Ok**' te drukken en de wijzigingen op te slaan in de bevestigingsprompt.|
+|**4**|In dit scherm vult u de volgende gegevens in:<br>- **Incasso soort**: selecteer hier SEPA <br>- **SEPA type**: selecteer B2B<br>- **SEPA Versie**: selecteer het juiste type voor uw bank<br>- **Bedrijfsnaam**: naam van uw bedrijf<br>- **IBAN nr.:** IBAN adres van debiteur<br>- **BIC/SWIFT code**: het aan een bank toegewezen SWIFT-adres om geautomatiseerde betalingen snel en accuraat naar de betrokken banken te sturen.<br>- **Crediteur ID**: crediteur ID<Br>- **Incassant ID**: ID van het incassant <br><br>Vul hier de benodigde gegevens in en sla deze vervolgens op door op de '**Ok**' te drukken en de wijzigingen op te slaan in de bevestigingsprompt.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding Incasso/media/image3.png"></details>|
 |**5**|In het constantenscherm navigeert u nu naar:<Br>**Organen→Debiteurgegevens→Debiteuren**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding Incasso/media/image4.png"></details>|
 |**6**|U ziet nu debiteuren in de tabel aan de rechterkant van het scherm. Klik nu tweemaal op de desbetreffende debiteur in deze tabel.|
 |**7**|In het debiteurinstellingenscherm navigeert u naar het volgende pad:<br>**Financieel→Bankgegevens**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding Incasso/media/image20.png"></details>|
-|**8**|Vul de volgende gegevens in:<br>**Bankrekening**: *bankrekening van de klant*<br>**IBAN Nummer:** *IBAN nummer van de klant*<br>**IBAN Banknaam**: *Corresponderende nummer*<Br>**BIC/SWIFT code**: *BIC/SWIFT code van de bank*<br>**SEPA Machtiging id**: *het SEPA machtiging van de klant*|
-|**9**|Vink hier de volgende opties aan:<br>-  klant<br>- Verplicht (**Optioneel**: deze optie geeft aan dat deze klant de  **moet** betalen).|
+|**8**|Vul de volgende gegevens in:<br>**Bankrekening**: *bankrekening van de klant*<br>**IBAN Nummer:** *IBAN nummer van de klant*<br>**IBAN Banknaam**: *Corresponderende nummer*<Br>**BIC/SWIFT code**: *BIC/SWIFT code van de bank*<br>**SEPA Machtiging id**: *het SEPA machtiging van de klant*<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding Incasso/media/image20.png"></details>|
+|**9**|Vink hier de volgende opties aan indien de klant een bedrijf is (B2B):<br>-  Klant<br>- Verplicht: heeft geen recht op storneren.|
 |**10**|Als je niet meteen alle facturen wilt incasseren, maar deze pas wilt incasseren na bijv. 14 dagen na factuurdatum dan is het nodig om bij de debiteur ook aan te geven het veld '*Aanmanen*' u moet hier voor wel eerst de checkbox '*Na*' aan zetten.<br><br> Deze zorgt ervoor dat de aangemaakte openposten een vervaldatum krijgen van 14 dagen later dan de factuurdatum. Best practice is ook om ook de sys.instelling 'OverDatum' aan te zetten zodat elke keer als je een  bestand maakt alleen de openposten in het  bestand komen die over de vervaldatum zijn. Vraag aan Florisoft support of dit aan staat mocht u vermoeden dat dit niet het geval is.|
-|**11**|Blijf in hetzelfde debiteureninstellingenscherm maar navigeer nu naar het mapje:<br>*Facturen* → *Printen*.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image6.png"></details>|
-|**12**|Check hier of de juiste factuurlayout geselecteerd is voor uw gebruik.|
-|**13**|Navigeer nu binnen hetzelfde scherm naar de volgende map:<br>*Financieel* → *Algemeneen*.|
-|**14**|Check of het *Financieel debiteurnummer debnr* uniek is voor de klant. Dit is namelijk de kenmerkmachtiging en deze **moet** uniek zijn!<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image7.png"></details>|
-|**15**|Selecteer onder '*Betalings Condities*' een betalingsconditie, mocht er geen geschikte bij staan kan u er zelf een aanmaken.<br> In de onderstaande afbeelding ziet u een goed voorbeeld van betalingskenmerken.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image13.png"></details>|
+|**11**|Navigeer nu binnen hetzelfde scherm naar de volgende map:<br>*Financieel* → *Algemeneen*.|
+|**12**|Check of het *Financieel debiteurnummer debnr* uniek is voor de klant. Dit is namelijk de kenmerkmachtiging en deze **moet** uniek zijn!<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image7.png"></details>|
+
 
 ## Betalingskenmerken aanmaken sturen
 
