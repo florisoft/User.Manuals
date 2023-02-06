@@ -61,28 +61,23 @@ en TEST17 de vinkjes 'A' en 'R' aangevinkt. Dit betekent dat deze
 voorraden zichtbaar zijn voor de anonieme debiteur.
 
 Het vinkje ‘T’ (nr. 21) bepaalt of de debiteur mag kopen via de webshop.
-Voor de anonieme debiteur geldt in de regel dat deze **nooit** mag kopen
-via de webshop.
+Voor de anonieme debiteur geldt in de regel dat deze **nooit** mag kopen via de webshop.
 
 |Stap|Uitleg|
 |:--|:--|
 |**1**|Zet het ‘T’-vinkje (nr. 21) voor de betreffende voorraden **aan**.
-
 **Let op: zorg er voor dat voorraden die gebruikt worden in combinatie
-met WhatsApp delen altijd de vinkjes A en R hebben ingeschakeld en het T
-vinkje uit staat.**
+met WhatsApp delen altijd de vinkjes A en R hebben ingeschakeld en het T - vinkje uit staat.**
 
 |Stap|Uitleg|
 |:--|:--|
 |**1**|Klik op de knop 'Ok' (nr. 22) in het venster 'Opslagen bij verkoop via internet' om de wijzigingen aan de voorraad autorisatie voor de anonieme debiteur te bevestigen.<details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image9.png"/></details>
-|**2**| Klik op de knop 'OK' in het venster 'Debiteuren: ANON' om alle
-    instellingen te bevestigen.
+|**2**| Klik op de knop 'OK' in het venster 'Debiteuren: ANON' om alle instellingen te bevestigen.
 
-De anonieme debiteur is nu aangemaakt met de juiste instellingen wat
-betreft de autorisatie.
+De anonieme debiteur is nu aangemaakt met de juiste instellingen wat betreft de autorisatie.
 
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image10.png" style="width:5.8229in;height:3.25694in" />
 
+<details><summary><b>Klik hier voor uw voorbeeld</b></summary><img src=""><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image10.png"/></details>
 Wanneer een gebruiker nu op de webshop terecht komt, ziet deze er uit
 als bovenstaande afbeelding.
 
@@ -93,59 +88,33 @@ in Florisoft bestaat de volgende stap uit het koppelen van de anonieme
 debiteur aan de webshop. Hieronder zijn de stappen beschreven om dit te
 doen.
 
-1.  Log in op de webshop met een beheeraccount.
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Log in op de webshop met een beheeraccount.|
+|**2**|Activeer de beheeromgeving van de webshop door het vinkje 'Beheer' (nr. 1) in de linkerbovenhoek van het scherm aan te zetten.<details><summary><b>Klik hier voor uw voorbeeld</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image11.png"/></details>|
+|**3**|Klik op het menu 'Configuratie' (nr. 2)|
+|**4**|Rechtsklik op het menu item ‘Webshop Instellingen’ (nr. 3) en klik op ‘Link openen in nieuw tabblad’ (nr. 4) De webshop settings openen in een nieuw tabblad.<details><summary><b>Klik hier voor uw voorbeeld</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image12.png"/></details>|
+|**5**|Zoek in het 'Item' veld naar WhatsApp (nr. 5) en open de instelling > WHATSAPPDELEN (nr. 6) door erop te klikken.<details><summary><b>Klik hier voor uw voorbeeld</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image13.png"/></details>|
+|**6**|Zet het vinkje achet 'Waarde' aan (no. 7)<details><summary><b>Klik hier voor uw voorbeeld</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image14.png"/></details>|
+|**7**|Vul in het veld 'Wachtwoord' het wachtwoord in voor het aanpassen van webshopinstellingen. Dit wachtwoord is  verstrekt aan beheer gebruikers tijdens de implementatie van de webshop|
+|**8**|Klik op de knop 'Opslaan' om de wijzigingen te bevestigen|
+|**9**|Controleer of de instelling "WHATSAPPDELEN" de waarde "ON" heeft:<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image15.png"/></details>
 
-2.  Activeer de beheeromgeving van de webshop door het vinkje 'Beheer'
-    (nr. 1) in de linkerbovenhoek van het scherm aan te zetten.
+:memo:Met deze instelling ‘weet’ de webshop dat de functie WhatsApp delen actief moet worden. Lees verder op de volgende pagina.
+:memo:De tweede instelling bestaat uit het koppelen van de anonieme debiteur
+aan de webshop. Hieronder is beschreven hoe dit werkt.
 
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image11.png" style="width:1.64606in;height:0.46882in" />
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Zoek in het veld "Item" van de webshop settings naar anon (nr. 10)<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image16.png"/></details>|
+|**2**|Klik op de setting "ANONIEMEDEBNR" (nr. 11)|
+|**3**|Vul het veld "WAARDE" met ANON (nr. 12), wachtwoord (nr. 13)e  klik op "SAVE" (nr. 14) <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image17.png"/></details>|
+|**4**||
+|**5**||
 
-1.  Klik op het menu 'Configuratie' (nr. 2)
 
-2.  Rechtsklik op het menu item ‘Webshop Instellingen’ (nr. 3) en klik
-    op ‘Link openen in nieuw tabblad’ (nr. 4) De webshop settings openen
-    in een nieuw tabblad.
 
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image12.png" style="width:4.87568in;height:2.37533in" />
-
-1.  Zoek in het 'Item' veld naar WhatsApp (nr. 5) en open de instelling
-    > WHATSAPPDELEN (nr. 6) door erop te klikken.
-
-> <img src=".Handleiding webshop WhatsApp aanbiedingen\media\image13.png" style="width:5.60417in;height:1.63764in" />
->
-> 6\. Zet het vinkje achter ‘Waarde’ aan. (no. 7)
->
-> <img src=".Handleiding webshop WhatsApp aanbiedingen\media\image14.png" style="width:5.83753in;height:4.10417in" />
->
-> 7\. Vul in het veld ‘Wachtwoord’ het wachtwoord in voor het aanpassen
-> van webshopinstellingen. Dit wachtwoord is verstrekt aan beheer
-> gebruikers tijdens de implementatie van de webshop.
->
-> 8\. Klik op de knop ‘Opslaan’ om de wijzigingen te bevestigen.
->
-> 9\. Controleer of de instelling ‘WHATSAPPDELEN’ de waarde ‘ON’ heeft.
-> Zie onderstaand screenshot.
->
-> <img src=".Handleiding webshop WhatsApp aanbiedingen\media\image15.png" style="width:5.8125in;height:1.17249in" />
->
-> Met deze instelling ‘weet’ de webshop dat de functie WhatsApp delen
-> actief moet worden. Lees verder op de volgende pagina.
->
-> De tweede instelling bestaat uit het koppelen van de anonieme debiteur
-> aan de webshop. Hieronder is beschreven hoe dit werkt.
-
-1.  Zoek in het veld ‘Item’ van de webshop settings naar anon. (nr. 10)
-
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image16.png" style="width:5.79167in;height:3.39635in" />
-
-1.  Klik op de setting ‘ANONIEMEDEBNR’. (nr. 11)
-
-2.  Vul het veld ‘Waarde’ met ANON (nr. 12), wachtwoord (nr. 13) en klik
-    op ‘Save’. (nr. 14)
-
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image17.png" style="width:5.52036in;height:3.23958in" />
-
-Het is nu mogelijk om voorraden/partijen te delen via WhatsApp. Zie het
+:memo:Het is nu mogelijk om voorraden/partijen te delen via WhatsApp. Zie het
 volgende hoofdstuk.
 
 # 4 WhatsApp aanbiedingen versturen vanuit de webshop
@@ -158,44 +127,25 @@ of tablet-pc te gebruiken om aanbiedingen via WhatsApp te verzenden.
 Verder is het noodzakelijk dat het apparaat op de een of andere manier
 toegang heeft tot WhatsApp.**
 
-1.  Open een browser en navigeer naar de webshop met behulp van het
-    standaard webshop adres.
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Open een browser en navigeer naar de webshop met behulp van het standaard webshop adres|
+|**2**|Open de voorraad die gedeeld moet worden via WhatsApp. In het onderstaande voorbeeld is de voorraad "Bloemen" gekozen<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image18.png"/></details><details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image19.png"/></details>||
 
-2.  Open de voorraad die gedeeld moet worden via WhatsApp. In het
-    onderstaande voorbeeld is de voorraad 'Bloemen' gekozen.
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Rechtsonder in het scherm ziet staan een aantal pictogrammen waaronder een naar boven wijzende pijl. (met rode vierkant in bovenstaande afbeelding)-> Tik op het pictogram met de naar boven wijzende pijl. Nu wordt het WhatsApp pictogram zichtbaar. In de bovenstaande afbeelding is dit het bovenste icoon.|
+|**1.1**|:memo: Het icoon met de pijl veranderd nu in een naar beneden wijzende pijl. Hiermee zijn de iconen te verbergen|
+|**2**|Tik op het WhatsApp-pictogram. WhatsApp wordt geopend op uw mobile apparaat|
+|**3**|Selectreer het contact of de groep waarnaar de aanbieding verzonden dient te worden|
+|**4**|Bevestig in WhatsApp om de aanbieding te versturen|
 
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image18.png" style="width:2.39583in;height:3.73818in" />
 
-In de voorraad heeft bestaat de mogelijkheid om een complete voorraad of
-een individueel artikel te verzenden. De stappen 3 tot en met 6 werken
-hetzelfde voor voorraden en artikelen.
+:memo: De ontvangende partij(en) zien een bericht zoals hieronder afgebeeld.
+:memo: Het bericht bestaat uit een kleine kaart met een productafbeelding en een aantal productkenmerken.
 
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image19.png" style="width:2.40021in;height:3.74032in" />
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image20.png"/></details>
 
-Rechtsonder in het scherm ziet staan een aantal pictogrammen waaronder
-een naar boven wijzende pijl. (met rode vierkant in bovenstaande
-afbeelding)
-
-1.  Tik op het pictogram met de naar boven wijzende pijl. Nu wordt het
-    WhatsApp-pictogram zichtbaar. In bovenstaande afbeelding is dit het
-    bovenste icoon.
-
-Het icoon met de pijl veranderd nu in een naar beneden wijzende pijl.
-Hiermee zijn de iconen te verbergen.
-
-1.  Tik op het WhatsApp-pictogram. WhatsApp wordt geopend op uw mobiele
-    apparaat.
-
-2.  Selecteer het contact of de groep waarnaar de aanbieding verzonden
-    dient te worden.
-
-3.  Bevestig in WhatsApp om de aanbieding te versturen.
-
-> De ontvangende partij(en) zien een bericht zoals hieronder afgebeeld.
-> Het bericht bestaat uit een kleine kaart met een productafbeelding en
-> een aantal productkenmerken.
-
-<img src=".Handleiding webshop WhatsApp aanbiedingen\media\image20.png" style="width:3.17708in;height:1.84435in" />
 
 > Als u op de afbeelding tikt, wordt de voorraad automatisch geopend in
 > de browser van de ontvanger. Als de gebruiker nog niet is ingelogd,

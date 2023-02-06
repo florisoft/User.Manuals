@@ -31,69 +31,42 @@ works.
 **Please note: creating an anonymous debtor is only necessary if it does
 not already exist.**
 
-1.  Open the 'Constants' in Florisoft by clicking on the icon below:
+|Step|Explanation|
+|:--|:--|
+|**1**|Open the 'Constants' in Florisoft by clicking on the icon below:<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image2.png"/></details>
+|**2**|Open the Debtors tab via Community (no. 1) -&gt; Debtors (no. 2)
+|**3**|Click once in the column 'Deb. nr.’ (no. 3)<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image3.png"/></details>
+|**4**|Type in the search field 'anon' (without quotes) and press Enter or click on the 'Search' button (no. 5)
+|**5**|If an anonymous debtor already exists in the system, it is now displayed as a result in the list of debtors. (no. 6) Go further to step 10.
 
-<img src=".Manual webshop add on Whatsapp offers\media\image2.png" style="width:2.43784in;height:0.7501in" />
+:memo: If no anonymous debtor is found, go to step 6 on the next page.
 
-1.  Open the Debtors tab via Community (no. 1) -&gt; Debtors (no. 2)
+|Step|Explanation|
+|:--|:--|
+|**1**|Click the 'Add new item' button on the 'Debtors' tab of the 'Constants' window. The 'Debtors:' window opens.<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image4.png"/></details>
+|**2**|On the 'Addresses' tab in the 'Debtors :’ window, enter the following information:<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image5.png"/></details>7 = ANON, 8 = ANON and 9 = Anonymous debtor
 
-2.  Click once in the column 'Deb. nr.’ (no. 3)
+-----
 
-> <img src=".Manual webshop add on Whatsapp offers\media\image3.png" style="width:5.69792in;height:3.05766in" />
-
-1.  Type in the search field 'anon' (without quotes) and press Enter or
-    click on the 'Search' button (no. 5)
-
-2.  If an anonymous debtor already exists in the system, it is now
-    displayed as a result in the list of debtors. (no. 6) Go further to
-    step 10.
-
-If no anonymous debtor is found, go to step 6 on the next page.
-
-1.  Click the 'Add new item' button on the 'Debtors' tab of the
-    'Constants' window. The 'Debtors:' window opens.
-
-<img src=".Manual webshop add on Whatsapp offers\media\image4.png" style="width:5.76042in;height:1.82479in" />
-
-1.  On the 'Addresses' tab in the 'Debtors :’ window, enter the
-    following information:
-
-<img src=".Manual webshop add on Whatsapp offers\media\image5.png" style="width:5.75464in;height:1.07639in" />
-
-7 = ANON, 8 = ANON and 9 = Anonymous debtor
-
-Read more on the next page.
-
-1.  Navigate to the tab 'Internet' (no. 10), Internet access (no. 11)
-    and check the boxes 'This customer has access by means Internet'
-    (no. 12) and 'This client can log in Webshop 3.' (no. 13)
-
-2.  Enter the ANON! value in the 'Password for customer' field in.
-    (no. 14)
-
-<img src=".Manual webshop add on Whatsapp offers\media\image6.png" style="width:5.74336in;height:4.95833in" />
-
-Click the ‘Accessible stocks’ button (no. 15) to open the authorization
-settings for the available stocks and/or order lists in the system. Read
-more on the next page.
+|Step|Explanation|
+|:--|:--|
+|**1**|Navigate to the tab 'Internet' (no. 10), Internet access (no. 11) and check the boxes 'This customer has access by means Internet' (no. 12) and 'This client can log in Webshop 3.' (no. 13)
+|**2**|Enter the ANON! value in the 'Password for customer' field in. (no. 14)<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image6.png"/></details>
+|**3**|Click the ‘Accessible stocks’ button (no. 15) to open the authorization
+settings for the available stocks and/or order lists in the system.
 
 The steps below describes the authorization settings for the anonymous
 debtor and stocks.
 
-1.  Click the ‘Accessible stocks’ button (no. 15) to open the ‘Raises by
-    Sale through the Internet window.
+|Step|Explanation|
+|:--|:--|
+|**1**|Click the ‘Accessible stocks’ button (no. 15) to open the ‘Raises by Sale through the Internet window.
+|**2*|Check if the column ‘Perc’ is visible by right clicking one of the existing columns. (no. 16) Now a window pops up with all the available columns for the ‘Raises by Sale through the Internet’.<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image7.png"/></details>
 
-2.  Check if the column ‘Perc’ is visible by right clicking one of the
-    existing columns. (no. 16) Now a window pops up with all the
-    available columns for the ‘Raises by Sale through the Internet’.
+In the example below the stocks TEST, TEST17 and 777 have the ‘A’ and ‘R’ columns ticked. This means that those stocks are visible for the anonymous debtor.
 
-<img src=".Manual webshop add on Whatsapp offers\media\image7.png" style="width:5.83333in;height:4.73315in" />
-
-In the example below the stocks TEST, TEST17 and 777 have the ‘A’ and
-‘R’ columns ticked. This means that those stocks are visible for the
-anonymous debtor.
-
-1.  Uncheck ‘T’ tick (no. 21) for the concerning stocks. This means that
+|Step|Explanation|
+|**1**| Uncheck ‘T’ tick (no. 21) for the concerning stocks. This means that
     the anonymous debtor is not possible to buy from these stocks.
 
 > <img src=".Manual webshop add on Whatsapp offers\media\image8.png" style="width:5.78125in;height:2.83837in" />
