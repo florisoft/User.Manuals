@@ -20,7 +20,7 @@ webshop.
 **Pay attention: images in this manual may slightly differ from what you
 see on your own screen.**
 
-# Creating an anonymous debtor in Florisoft
+# Creating an anonymous debtor
 
 An anonymous debtor is required to share stocks/parcels via WhatsApp.
 The anonymous debtor is a webshop user who has access to the webshop,
