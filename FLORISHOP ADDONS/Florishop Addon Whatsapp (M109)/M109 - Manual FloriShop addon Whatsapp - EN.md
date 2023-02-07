@@ -66,28 +66,12 @@ debtor and stocks.
 In the example below the stocks TEST, TEST17 and 777 have the ‘A’ and ‘R’ columns ticked. This means that those stocks are visible for the anonymous debtor.
 
 |Step|Explanation|
-|**1**| Uncheck ‘T’ tick (no. 21) for the concerning stocks. This means that
-    the anonymous debtor is not possible to buy from these stocks.
-
-> <img src=".Manual webshop add on Whatsapp offers\media\image8.png" style="width:5.78125in;height:2.83837in" />
->
-> **Pay attention: for the stocks used in combination with WhatsApp
-> offers, be sure that the ‘A’, ‘R’ and ‘T’ ticks are checked.**
-
-1.  Click the ‘OK’ button (no. 22) in the ‘Raises by Sale through the
-    Internet’ to confirm the changes to the stock authorization for the
-    anonymous debtor.
-
-<img src=".Manual webshop add on Whatsapp offers\media\image9.png" style="width:1.77618in;height:0.78125in" />
-
-1.  Click the ‘OK’ button in the ‘Debtors : ANON’ window to confirm all
-    the settings.
-
-The anonymous debtor has now been created.
-
-<img src=".Manual webshop add on Whatsapp offers\media\image10.png" style="width:5.8229in;height:3.25694in" />
-
-When a user now reaches the webshop, it looks like the image above.
+|:--|:--|
+|**1**| Uncheck ‘T’ tick (no. 21) for the concerning stocks. This means that the anonymous debtor is not possible to buy from these stocks. <details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image8.png"></details>
+|**1.1**|**Pay attention: for the stocks used in combination with WhatsApp offers, be sure that the ‘A’, ‘R’ and ‘T’ ticks are checked.**
+|**2**|Click the ‘OK’ button (no. 22) in the ‘Raises by Sale through the Internet’ to confirm the changes to the stock authorization for the anonymous debtor. <details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image9.png"></details>
+|**3**|Click the ‘OK’ button in the ‘Debtors : ANON’ window to confirm all the settings.
+|**4**|The anonymous debtor has now been created.<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image10.png"></details> When a user now reaches the webshop, it looks like the image above.
 
 # Link the anonymous debtor to the webshop
 
@@ -95,61 +79,30 @@ After changing the related settings for the anonymous debtor in
 Florisoft. The next step is to link the anonymous debtor to the webshop.
 Below are the steps described for doing this.
 
-1.  Log on to the webshop with an administrator account.
+|Step|Explanation|
+|:-:|:--|
+|**1**|Log onto the webshop with an administrator acount|
+|**2**|Check the "Management" tick (no. 1) in the upper left corner of the webshop to activate the management environment of the webshop <details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image11.png"></details>|
+|**3**|Click the "Configuration" menu (no. 2)<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image12.png"></details>|
+|**4**|Right click the "Webshop Settings" menu (no. 3) and choose the option "Open link in new tab" (no. 4). Now the webshop settings will open in a new tab|
+|**5**|Search in the "Item" field for WhatsApp (no. 1) and open the setting "WHATSAPPDELEN (np. 2) by clicking on it <details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image13.png"></details>|
+|**6**|Turn on the tick behind "Waarde" (Value) (no. 3)<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image14.png"></details>|
+|**7**|Fill in the password for changing settings on the webshop. This is the password provided during the implementation of the webshop (no. 4)
+|**8**| Click the "Save" button (no. 5) to save the setting.|
 
-2.  Check the ‘Management’ tick (no. 1) in the upper left corner of the
-    webshop to activate the management environment of the webshop.
-
-<img src=".Manual webshop add on Whatsapp offers\media\image11.png" style="width:1.8961in;height:0.51049in" />
-
-1.  Click the ‘Configuration’ menu (no. 2)
-
-<img src=".Manual webshop add on Whatsapp offers\media\image12.png" style="width:4.69857in;height:2.42742in" />
-
-1.  Right click the ‘Webshop Settings’ menu (no. 3) and choose the
-    option ‘Open link in new tab’ (no. 4) Now the webshop settings open
-    in a new tab.
-
-2.  Search in the ‘Item’ field for WhatsApp (no.1) and open the setting
-    WHATSAPPDELEN (no. 2) by clicking on it.
-
-<img src=".Manual webshop add on Whatsapp offers\media\image13.png" style="width:5.71875in;height:1.61691in" />
-
-1.  Put on the tick behind ‘Waarde’ (Value) on. (no. 3)
-
-<img src=".Manual webshop add on Whatsapp offers\media\image14.png" style="width:5.71857in;height:3.93125in" />
-
-1.  Fill in the password for changing settings on the webshop. This
-    password is provided during the implementation of the webshop.
-    (no. 4)
-
-2.  Click the ‘Save’ button (no. 5) to save the setting.
-
-Now the WhatsApp functionality is activated in the webshop. Read further
-on the next page.
-
-The last thing to do in the webshop settings is linking the anonymous
+:memo: Now the WhatsApp functionality is activated in the webshop.
+:memo: The last thing to do in the webshop settings is linking the anonymous
 debtor. Below is described how this works.
 
-1.  Fill in the ‘Item’ field ‘anon’ to search the concerning setting.
+|Step|Explanation|
+|:--|:--|
+|**1**|Fill in the "Item" field to "anon" to search the concerning setting<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image15.png"></details>|
+|**2**|Click the "ANONIEMDEBNR" setting (no. 7) to edit it.|
+|**3**|Fill in the "Password" field (no. 9) with the password for changing the webshop settings. <details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image16.png"></details>
+|**4**|Click the "Save" button to confirm the activation of the anonymous debtor in the webshop 
+<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image17.png"></details>
 
-<img src=".Manual webshop add on Whatsapp offers\media\image15.png" style="width:5.5625in;height:3.26748in" />
-
-1.  Click the ‘ANONIEMEDEBNR’ setting (no. 7) to edit it.
-
-2.  Fill the ‘Waarde’ (value) field with the value ANON. (no. 8)
-
-3.  Fill in the ‘Password’ field (no. 9) with the password for changing
-    the webshop settings.
-
-<img src=".Manual webshop add on Whatsapp offers\media\image16.png" style="width:5.55069in;height:1.82893in" />
-
-1.  Click the ‘Save’ button to confirm the activation of the anonymous
-    debtor in the webshop.
-
-<img src=".Manual webshop add on Whatsapp offers\media\image17.png" style="width:0.875in;height:0.53125in" />
-
-Now all the required webshop settings are set correctly.
+:bulb: Now all the required webshop settings are set correctly.
 
 # 4 Sent offers via WhatsApp from the webshop
 
@@ -160,45 +113,32 @@ smartphone or tablet PC to send offers via WhatsApp. Furthermore it is
 necessary that your device has access to WhatsApp in one way or the
 other.**
 
-1.  Open a browsers and navigate to the webshop using the default
-    webshop URL.
-
-2.  Open the stock you want to send. In the example below the stock
-    ‘Stock UK’ is chosen.
-
-<img src=".Manual webshop add on Whatsapp offers\media\image18.jpeg" style="width:2.43318in;height:4.32292in" alt="cid:image002.jpg@01D3651A.BC7510A0" />
-
-In the stock you have the option to send a complete stock or an
+|Step|Explanation|
+|:-:|:--|
+|**1**|Open a browser and navigate to the webshop using the default webshop url|
+|**2**|Open the stock you want to send. In the example below the stock "Stock UK" is chosen<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image18.png"></details>|
+|**3**|In the stock you have the option to send a complete stock or an
 individual article. The steps 3 up and till 6 works the same for stocks
-and articles.
-
-<img src=".Manual webshop add on Whatsapp offers\media\image19.jpeg" style="width:2.33333in;height:4.14815in" alt="cid:image012.jpg@01D3651A.BC7510A0" />
+and articles.|<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image19.png"></details>
 
 In the lower right corner of the screen you see a number of icons
 including an upward pointing arrow.
 
-1.  Tap the icon with the upward-pointing arrow. Now the WhatsApp icon
-    becomes visible.
+|Step|Explanation|
+|:-:|:--|
+|**1**|Tap the icon with the upward-point arrow. Now the WhatsApp icon becomes visible|
+|**2**|Tap the WhatsApp icon, now Whatsapp opens on your mobile device|
+|**3**|Select the contact or group to whom you want to send the offer|
+|**4**|Confirm the offer to be sent in WhatsApp|
+|**5**| The message you send will display a small card complete with a short summary. It looks like the image below <details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image20.png"></details>|
 
-2.  Tap the WhatsApp icon. Now WhatsApp opens on your mobile device.
 
-3.  Select the contact or group to whom you want to send the offer.
-
-4.  Confirm the offer to be sent in WhatsApp.
-
-5.  The message you send will display a small card complete with a short
-    summary. It looks like the image below.
-
-<img src=".Manual webshop add on Whatsapp offers\media\image20.jpeg" style="width:2.48958in;height:4.43359in" alt="cid:image005.jpg@01D3651B.28D61F00" />
-
-Clicking on the image will automatically open the stock within the
+> Clicking on the image will automatically open the stock within the
 receivers browser. If the user isn’t logged in already, you’ll be logged
 in with a demo account.
-
-This account can display appointed stocks, but won’t have the
+> This account can display appointed stocks, but won’t have the
 possibility to purchase anything. Using any purchase function, will
 prompt a message stating you have to log in.
-
-This way you can send stocks or individual products to (potential)
+> This way you can send stocks or individual products to (potential)
 customers via WhatsApp. It is a modern way to advertise directly to your
 target audience.
