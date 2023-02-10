@@ -33,7 +33,7 @@ Eerst moeten we de informatie van uw eigen bedrijf correct invullen.<br>*Volg hi
 |**8**|Vul de volgende gegevens in:<br>**Bankrekening**: *bankrekening van de klant*<br>**IBAN Nummer:** *IBAN nummer van de klant*<br>**IBAN Banknaam**: *Corresponderende nummer*<Br>**BIC/SWIFT code**: *BIC/SWIFT code van de bank*<br>**SEPA Machtiging id**: *het SEPA machtiging van de klant*<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding Incasso/media/image20.png"></details>|
 |**9**|Vink hier de volgende opties aan indien de klant een bedrijf is (B2B):<br>-  Klant<br>- Verplicht: heeft geen recht op storneren.|
 |**10**|Als je niet meteen alle facturen wilt incasseren, maar deze pas wilt incasseren na bijv. 14 dagen na factuurdatum dan is het nodig om bij de debiteur ook aan te geven het veld '*Aanmanen*' u moet hier voor wel eerst de checkbox '*Na*' aan zetten.<br><br> Deze zorgt ervoor dat de aangemaakte openposten een vervaldatum krijgen van 14 dagen later dan de factuurdatum. Best practice is ook om ook de sys.instelling 'OverDatum' aan te zetten zodat elke keer als je een  bestand maakt alleen de openposten in het  bestand komen die over de vervaldatum zijn. Vraag aan Florisoft support of dit aan staat mocht u vermoeden dat dit niet het geval is.|
-|**11**|Navigeer nu binnen hetzelfde scherm naar de volgende map:<br>*Financieel* → *Algemeneen*.|
+|**11**|Navigeer nu binnen hetzelfde scherm naar de volgende map:<br>*Financieel* → *Algemeen*.|
 |**12**|Check of het *Financieel debiteurnummer debnr* uniek is voor de klant. Dit is namelijk de kenmerkmachtiging en deze **moet** uniek zijn!<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Handleiding Incasso/media/image7.png"></details>|
 
 
