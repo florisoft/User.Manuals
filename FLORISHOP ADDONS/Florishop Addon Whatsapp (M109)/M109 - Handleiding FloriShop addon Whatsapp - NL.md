@@ -100,7 +100,7 @@ doen.
 |**8**|Klik op de knop 'Opslaan' om de wijzigingen te bevestigen|
 |**9**|Controleer of de instelling "WHATSAPPDELEN" de waarde "ON" heeft:<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image15.png"/></details>
 
-:memo:Met deze instelling ‘weet’ de webshop dat de functie WhatsApp delen actief moet worden. Lees verder op de volgende pagina.
+:memo:Met deze instelling ‘weet’ de webshop dat de functie WhatsApp delen actief moet worden.
 :memo:De tweede instelling bestaat uit het koppelen van de anonieme debiteur
 aan de webshop. Hieronder is beschreven hoe dit werkt.
 
@@ -109,9 +109,6 @@ aan de webshop. Hieronder is beschreven hoe dit werkt.
 |**1**|Zoek in het veld "Item" van de webshop settings naar anon (nr. 10)<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image16.png"/></details>|
 |**2**|Klik op de setting "ANONIEMEDEBNR" (nr. 11)|
 |**3**|Vul het veld "WAARDE" met ANON (nr. 12), wachtwoord (nr. 13)e  klik op "SAVE" (nr. 14) <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding webshop WhatsApp aanbiedingen\media\image17.png"/></details>|
-|**4**||
-|**5**||
-
 
 
 :memo:Het is nu mogelijk om voorraden/partijen te delen via WhatsApp. Zie het
