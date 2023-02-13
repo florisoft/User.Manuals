@@ -50,9 +50,9 @@ not already exist.**
 
 |Step|Explanation|
 |:--|:--|
-|**1**|Navigate to the tab 'Internet' (no. 10), Internet access (no. 11) and check the boxes 'This customer has access by means Internet' (no. 12) and 'This client can log in Webshop 3.' (no. 13)
-|**2**|Enter the ANON! value in the 'Password for customer' field in. (no. 14)<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image6.png"/></details>
-|**3**|Click the ‘Accessible stocks’ button (no. 15) to open the authorization
+|**1**| Navigate to the tab 'Internet' (no. 10), Internet access (no. 11) and check the boxes 'This customer has access by means Internet' (no. 12) and 'This client can log in Webshop 3.' (no. 13)
+|**2**| Enter the ANON! value in the 'Password for customer' field in. (no. 14)<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image6.png"/></details>
+|**3**| Click the ‘Accessible stocks’ button (no. 15) to open the authorization
 settings for the available stocks and/or order lists in the system.
 
 The steps below describes the authorization settings for the anonymous
