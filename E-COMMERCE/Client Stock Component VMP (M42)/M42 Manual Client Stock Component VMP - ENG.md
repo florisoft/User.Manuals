@@ -1,102 +1,63 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png" alt="Florisoft Corporate Logo/Banner">
 
-# Manual Florisoft Client Stock Component VMP (M42)
+# Florisoft Manual Client Stock Component (M42)
 
+This manual explains how to create stock connection using debtors by making a seperate stock and supplier. Using these components we can make a stock connection.
 
-# Making stock
+## Table of contents
 
-The first few steps require you to create a new stock in Florisoft. in this guide we will use Qualirosa as an example. The information that belongs to Qualirosa must be replaced with the information of the company you want to link to.
+[Creating a stock](#creating-a-stock)  
+[Creating a supplier](#create-a-supplier)  
+[Creating a stock template](#creating-a-stock-template)
 
-First go to the constants in Florisoft:
+## Creating a stock
 
-<img src= ".E-trade client component ENG/media/picture2.png" >
+*The first steps require you to create a new stock in Florisoft. For the purpose of this manual we are creating a stock connection with a rose grower.*
 
-Navigate to Locations -> Stocks -> Stocks and create a new |stock by clicking on the '+' icon (No. 1). Select 'Template VMP link' and press ok.
+|Step|Explanation|
+|:-:|:--|
+|**1**|Create a new stock.<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image21.png"></details>|
+|**2**|If stock templates exist in your Florisoft application you will be prompted with a template choice for your new stock.<br><br>If you are creating multiple stocks at once and have no existing templates read [this chapter](#creating-a-stock-template) to learn how to create one.|
+|**3**|Close the newly opened screen by clicking the **Ok** button. Now confirm the newly made stock variable. After creating (saving) the stock **reopen** it by left clicking twice on its row.|
+|**4**|Navigate to the stock's **Authorization** tab.<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image22.png"></details>|
+|**5**|In this tab you'll find all the Florisoft users (accounts) listed. Since we have just created this stock no one can access it yet.<br><br>We can authorize users by checking the checkmark in the **Authorized** column. An easy way of doing this is by using the spacebar to authorize the user. <br>**Make sure to authorize the account you are working on now otherwise you won't be able to see the stock**.<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image22.png"></details>|
+|**6**|Now navigate to the "*Carry out*" tab. In this tab you'll need to fill out the following fields:<br>- **Box active**: *enable this checkbox*<br> - **Box dropdown**: *select the entry check applicable to this stock*<br>- **Temporary stock active**: *enable this checkbox*<br>- **Remove zero-stock automatically**: *enable this checkbox*<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image23.png"></details>|
+|**7**|Navigate to the stock's **Webshop** tab. |
+|**8**|Make sure your settings match the settings shown below:<br>**Only make a sale visible after carrying out the division in the box**: not active/not checked<br>**This stock is available on the webshop**: active/checked<br>**Open hours**: Select the correct open hours for your usecase.<br>**End time**: enable the checkbox<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image24.png"></details>|
+|**9**|Click on the "**Accessible debtors**" button, this will open a new window.<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image25.png"></details>|
+|**10**|In this screen you can grant permissions and once you have granted the permission you want press **Ok** to save. The right side of the accessible debtors window explains the way you can grant permissions.<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image26.png"></details>|
 
-<img src= ".E-trade client component ENG/media/picture3.png" >
+*We have just created a stock on which we will create a stock connection*
 
-**Note: the screen above wll only appear if the templates are actually set, otherwise it will continue the the screen in the next photo!**
+## Create a supplier
 
-A new screen will open. Enter a stock code and description here. Just to be sure, put “VMP” before the name and “live” after it. This ensures that the stock is easier to distinguish from the rest.
+*Follow the steps below to create a supplier that is used to create a stock connection*:
 
-<img src= ".E-trade client component ENG/media/picture4.png" >
+|Step|Explanation|
+|:-:|:--|
+|**1**|Create a new supplier in Florisoft.<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image27.png"></details>|
+|**2**|Navigate to the **Web Service** tab.<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image29.png"></details>|
+|**3**|Activate the setting **Stock-linking**.<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image29.png"></details>|
+|**4**|We are now able to fill out information about the stock connection:<br>**Type Webservice**: select "*ETrade 0.7*"<br>**URL**: the API URL for requesting the stock<br>**Userid**: user login for API access<br>**Wachtwoord(Dutch for Password):** API account password<br>**Incomming stock**: set this to the newly created stock in which the connection will be read in on.<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image29.png"></details>|
+|**5**|Open the **Web Service** folder and navigate to its sub folder **Parcel request**.|
+|**6**|Enable the checkbox "*Always get full stock instead of modifications*".<br><br>*This only needs to happen once when retrieving the connection for the first time. Afterwards it needs to be disabled*<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image30.png"></details>|
+|**7**|Navigate to the **Web Service** sub folder **Parcel reponse**|
+|**8**|Change the following settings: <br>**Default article**: *Set this to "Nieuw artikel 000000001"*<br> **Store information in ExPartij(uses a lot of space)**: *enable this checkbox*<br><br>*The last option won't be present when the web service type is not ETrade 0.7*|
+|**9**|Press the **Ok** button to save the made changes. Then reopen the supplier by double clicking it with the left mouse button.
+|**10**|Navigate to the **Webservice→General** subfolder.
+|**11**|Click on the "**Receive Parcels**, note that this may temporarely freeze your Florisoft system. **Do not interact with your system whilst it is reading in the connection.**<br><br>*When the reading in process is completed your screen will be like the screenshot shown below.*<details><summary><b>Click here for the example image!</b></summary><img src=".E-trade client component ENG/media/picture15.png"></details>|
+|**12**|Navigate back to the subfolder **Web Service→Parcel request**<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image32.png"></details>|
+|**13**|Make sure to disable the checkbox "*Always get full stock instead modifications*".<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image32.png"></details>|
+|**14**|We can check if the stocks were read in by going back to Florisoft navigator and opening the Stocks screen, by clicking the "**Stocks**" button.<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image33.png"></details>|
 
-Then go to the "Authorisation" tab on the left side of the screen. There you will find all Florisoft accounts. Since you just created a stock, no user can access the stock. By double clicking, or using the space to select multiple lines, you can give users access to the inventory. If you double click, it immediately changes authorization, if you want to authorize multiple users at once, use the button "Authorize/Block". When you authorize someone, the user can access the inventory from their own account.
+## Creating a stock template
 
-**Do not forget to authorise the account the account you are using to create the stock. Otherwise you will not be able to see the stock yourself!**
+*This chapter gives you a short tutorial on how to make a stock template.*
 
-<img src= ".E-trade client component ENG/media/picture5.png" >
-
-Now navigate to the "Carry out" tab on the left side of the screen. Check if the settings are the same as the photo below. At "Box active", select an entry check that is applicable to the stock. This setting does not have to be the same as the image.
-
-<img src= ".E-trade client component ENG/media/picture6.png" >
-
-Then go to the "Webshop" tab and check whether these settings are the same as the photo below:
-
-<img src= ".E-trade client component ENG/media/picture7.png" >
-
-Finally, click on "Accessible debtors" at the bottom of the screen:
-
-<img src= ".E-trade client component ENG/media/picture8.png" >
-
-Here you will find an overview of all debtors. Here you can grant access to specific areas per debtor. Use the explanation on the right of your screen:
-
-<img src= ".E-trade client component ENG/media/picture9.png" >
-
-Once you've granted all the permissions you want to grant, click OK to save it.
-
-Now click OK again to save the changes. Then select "Yes" when Florisoft asks you if you want to save it.
-
-Now you have created a new stock with which you can make a link.
-
-# Create a supplier
-
-Follow the steps below to create a supplier with which you can create a stock link.
-
-First navigate to the constants and to the constants and to "Community" -> "Supplier data" -> "Supplier" and create a new supplier by clicking on the "+"
-
-<img src= ".E-trade client component ENG/media/picture10.png" >
-
-Now navigate to the "Web Service" tab on the left side of the screen. Check the "Activate for stock link" option. Now fill in the information about the stock coupling,
-
-All information that is highlighted must be filled in. This information must be obtained from the debtor. "Web service type", "Userid" and "Password" mus tbe forwarded by the debtor. 
-
-If the debtor forwards a file or files containing these settings, tey can be loaded directly into the systems. Then click Import and select the file. This must be an ".adt" file (You will have received 2 files, only 2 should be displayed when you search).
-
-Finally, you also have to fill in "Incoming stock". Here can you select the stock you just made. 
-
-<img src= ".E-trade client component ENG/media/picture11.png" >
-
-In the same screen, expand "Web Service" and go to "Parcel request". Make sure that the checkbox "Always get full stock instead of modifications".  is checked. **This only needs to be done once, as soon as the stock hasbeen collected you have to switch it off again.**
-
-<img src= ".E-trade client component ENG/media/picture12.png" >
-
-Now go to "Parcel response", this is also within "Web service". There are many settings on this page. At the moment only 2 settings are important. The other settings can be turned on and off as you wish . The setting "Default article group" must be set to "New article (00000001)", and check the checkbox next to "Store information in ExPartij (takes up a lot of space)". If the webservice type is "Florisoft webservice" his option is not there and does not need to be enabled. But that is the case with this manual, since the web service type is ETrade 0.7 is.
-
-<img src= ".E-trade client component ENG/media/picture13.png" >
-
-Press OK and save the changes, Double click on the same supplier again to return to the settings. Navigate back to "Web service". If everything has been entered corrrectly, you can now click on the "Receive parcels" button. Once you click, a second screen will appear. Now Florisoft will read in all parties from the supplier. When it is done, the screen should be similar to the photo. In the meantime, stay away form florisoft for a while.
-
-<img src= ".E-trade client component ENG/media/picture14.png" >
-
-Now go back to the sub-setting of "Web service" ->"Parcel request"
-
-<img src= ".E-trade client component ENG/media/picture15.png" >
-
-Now that all the debtor's stock has been imported, close the constants and go to the Stock via the Navigator.
-
-<img src= ".E-trade client component ENG/media/picture16.png" >
-
-If you are in the Stock, the new stock should be displayed. If you click on the name, all losts of the stock will be displayed. From here you can order lots by double clicking on them. 
-
-<img src= ".E-trade client component ENG/media/picture17.png" >
-
-**Be careful with putting lots in the order list for testing, if the supplier has a fast logistics process, it may already be sent before you can delete it. ANything you add in the order list below can be sent to the supplier.**
-
-
-<img src= ".E-trade client component ENG/media/picture18.png" >
-
-
-(In the index should be a "VMP Qualirosa live". For now it has been blurred")
-
-You have now successfully created a stock link with the supplier. The steps can be repeated for other suppliers you want to link to.
+|Step|Explanation|
+|:-:|:--|
+|**1**|Create a new stock by clicking on the + sign.<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image21.png"></details>|
+|**2**|Fill out the stock code and description fields, make sure that the description is especially descriptive of what the template is for since it visible as the template description.|
+|**3**|Do also check the checkbox "**Template stock**"<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image34.png"></details>|
+|**4**|Now set the right settings for your template and save them by clicking the **Ok** button.|
+|**5**|When creating a new stock you should now be prompted with a template selection screen that includes the newly created template.<details><summary><b>Click here for your example image!</b></summary><img src=".E-trade client component ENG/media/image35.png"></details>|
