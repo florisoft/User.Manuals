@@ -1,6 +1,6 @@
 <img src="../../fslogo.png" alt="Florisoft corporate logo">
 
-# Florisoft Manual (M129)
+# Florisoft Manual Florishop Add-on Analysis(M129)
 
 Welcome to the manual Analysis for the Florishop. This add on gives users (mainly admins and commerce employees) insights in the behaviour of customers on their webshop.
 
