@@ -1,6 +1,6 @@
 <img src="../../fslogo.png">
 
-# Florisoft Handleiding (M129)
+# Florisoft Handleiding Florishop Add-on Analysis(M129)
 
 Welkom bij de handleiding Analsye van FloriShop. De add on Analyse geeft gebruikers, met name beheerders en commerciële medewerkers, inzicht in het gedrag van klanten op de webshop.
 
