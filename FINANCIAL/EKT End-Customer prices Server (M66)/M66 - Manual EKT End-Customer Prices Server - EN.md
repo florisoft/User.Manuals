@@ -3,9 +3,9 @@
 # Documentation EKT final prices Server
 
 ## Table of Contents
-[Introduction](#1-introduction)
-[Activate debtor setting](#2-activate-debtor-setting)
-[Divide with final prices sub-customers](#3-divide-with-final-prices-sub-customers)
+[Introduction](#1-introduction)   
+[Activate debtor setting](#2-activate-debtor-setting)  
+[Divide with final prices sub-customers](#3-divide-with-final-prices-sub-customers)  
 
 ## 1. Introduction
 This manual describes the (technical) operation of the EKT end prices module 9serverside). The focus in this document is mainly on the logic of this module.
