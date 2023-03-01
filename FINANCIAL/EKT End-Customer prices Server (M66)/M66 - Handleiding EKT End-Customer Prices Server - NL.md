@@ -3,9 +3,9 @@
 # Handleiding EKT End-Customer Prices Server M66
 
 ## Inhoud
-[Inleiding](#1-inleiding)
-[Debiteurinstelling activeren](#2-debiteurinstelling-activeren)
-[Verdelen met eindprijzen subklanten](#3-verdelen-met-eindprijzen-subklanten)
+[Inleiding](#1-inleiding)  
+[Debiteurinstelling activeren](#2-debiteurinstelling-activeren)  
+[Verdelen met eindprijzen subklanten](#3-verdelen-met-eindprijzen-subklanten)  
 
 
 ## 1. Inleiding
