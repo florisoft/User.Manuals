@@ -1,19 +1,18 @@
 <img src="../../fslogo.png"/>
 
-# Inhoud
+# Handleiding Active E-mail (editor) - M56
 
-[Inhoud](#inhoud)
+Welkom bij de Florisoft handleiding voor de active e-mail editor. Deze handleiding behandelt de web-gebaseerde e-mail editor.
 
+## Inhoud
 
-[Stap 1. De editor openen](#stap-1.-de-editor-openen)
-
-[Stap 2. De editor](#stap-2.-de-editor)
-
-[Stap 3. Opslaan en gebruiken](#_Toc51670611)
-
+[Inhoud](#inhoud)  
+[Stap 1. De editor openen](#stap-1.-de-editor-openen)  
+[Stap 2. De editor](#stap-2.-de-editor)  
+[Stap 3. Opslaan en gebruiken](#_Toc51670611)    
 [Kopieren van lay-outs](#kopieren-van-lay-outs)
 
-# Stap 1. De editor openen
+## Stap 1. De editor openen
 
 De editor is te vinden in FloriShop. Deze versie van FloriShop moet
 minimaal van 9 september 2020 zijn.  
@@ -49,7 +48,7 @@ webshopbevestigingsmails.
 Als bovenstaande gegevens zijn ingevuld druk je op Creëer. We gaan nu
 naar **stap 2**.
 
-# Stap 2. De editor
+## Stap 2. De editor
 
 Na het afronden van stap 1 verschijnt het volgende scherm:  
   
@@ -92,7 +91,7 @@ Vervolgens stuur je de mail naar je klant en krijg je de mail binnen:
 Uiteraard is bovenstaande een lelijk voorbeeld uit een test systeem maar
 het laat wel zien hoe het er uit kan zien.
 
-# Kopieren van lay-outs
+## Kopieren van lay-outs
 
 Je kunt de lay-outs vinden in de standaard themes folder in de map
 MailTemplates die bij dit specifieke thema past. Houd er rekening mee
@@ -111,4 +110,6 @@ Dus bijv:
   
 C:\\inetpub\\wwwroot\\Florishop\\Themes\\Native\\MailTemplates\\Aanbieding  
   
-<img src=".Active Email Editor\media\image11.png" style="width:6.3in;height:3.31736in" />
+
+
+<details><summary><b>Click here for the example image!</b></summary><img src=".Active Email Editor\media\image11.png" style="width:6.3in;height:3.31736in" /></details>
