@@ -1,34 +1,32 @@
 <img src="../../fslogo.png"/>
 
-# Basic Setup - Logistics
-
-[Introduction](#introduction)
-
-[Stock Settings](#stocksettings)
-
-[Debtor Settings](#debtorsettings)
-
-[Workflow](#workflow)
-
-# Introduction
+# Florisoft Manual Basic Logistics Settings - M12
 
 The goal of this document is to show which settings will have to be adjusted in order to create the basic layout of the logistics regarding the Stocks, Box & pickorders. Ofcourse, there are a lot of different ways to do this.
 
 This is the best design and kay-out to give a customer who want to work with the "Pickorder-divide" strategy. This means that everything in transit should be in the box, and everything that has been deliverd in the pickorders. With this layout, this can be installed (almost) fully. The only difference is that the pickorders can be printed directly in the box, so you basically already removed some divisions. 
 You can see everthing in the pickorders, but you can filter the pickorders so you can only see the parcels which are in.
 
-### Stock Settings
+## Table of contents
+
+[Introduction](#introduction)  
+[Stock Settings](#stocksettings)   
+[Debtor Settings](#debtorsettings)  
+[Workflow](#workflow)  
+
+## Stock Settings
 We usually set up a purchasing stock (where the EKT purchases are received) and a CEL stock (where we divide parcels which, for example, need to be shown on the shop or can't be directly divided after purchase.)
 
 **Purchasing stock**:
 
-**Stock Tab**. The stockcode and description.
+- **Stock Tab**. The stockcode and description.
 
 <img src=".Basic logistics settings/media/image1.png"/>
 
-**Authorization Tab**. The users which are allowed in the stock. This has to include the Timer.
+- **Authorization Tab**. The users which are allowed in the stock. This has to include the Timer.
 
 <img src=".Basic logistics settings/media/image2.png"/>
+
 
 **Box Tab**. The Box where the parcels have to enter before they can be reported in.
 
