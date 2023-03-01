@@ -1,30 +1,17 @@
 <img src="../../fslogo.png"/>
 
-# Client component Floriday
-
-## Index
-
-[Introduction](#Introduction)
-
-[Request API key](#apikey)
-
-[Create an inventory](#stock)
-
-[Create a supplier](#supplier)
-
-[Operation](#operation)
-
-<a name="introduction"/>
-
-# Introduction manual
-
-### What is this manual for
+# Florisoft Manual Client component Floriday - M165
 
 This document descibes what is required to set up a link with Floriday for the buyr environment. It is explained step by step which settings are required, it will also be explained how the synchronization with Floriday works.
 
-<a name="apikey"/>
+## Index
 
-### Request API key
+[Request API key](#request-api-key)  
+[Create an inventory](#setting-up-stock)  
+[Create a supplier](#setting-up-a-supplier)  
+[Operation](#operation) 
+
+## Request API key
 
 The API key can be requested via the Floriday portal.
 This is necessary to set up the connection between the Florisoft and Floriday.

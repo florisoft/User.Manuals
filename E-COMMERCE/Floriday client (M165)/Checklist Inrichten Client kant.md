@@ -1,31 +1,18 @@
 <img src="../../fslogo.png"/>
 
-# Client component Floriday				
-
-## Inhoudsopgave
-
-[Inleiding](#inleiding)
-
-[Aanvragen API key](#apikey)
-
-[Aanmaken van een voorraad](#voorraad)
-
-[Aanmaken van een leverancier](#leverancier)
-
-[Werking](#werking)
-
-<a name="inleiding"/>
-
-## Inleiding handleiding
-
-### Waarvoor dient deze handleiding
+# Florisoft Manual Client component Floriday - M165
 
 Dit document beschrijft wat er benodigd is om een koppeling met Floriday in te richten voor de koper omgeving.
 Er wordt staps gewijs uitgelegd welke instellingen er benodigd zijn. Daarbij zal er uitgelegd worden hoe de synchronisatie met Floriday werkt.
 
-<a name="apikey"/>
+## Inhoudsopgave
 
-### Aanvragen API key
+[Aanvragen API key](#aanvragen-api-key)  
+[Aanmaken van een voorraad](#voorraad)  
+[Aanmaken van een leverancier](#leverancier)  
+[Werking](#werking)  
+
+## Aanvragen API key
 
 De API key kan opgevraagd worden via de portal van Floriday.
 Deze is nodig om de connectie op te zetten tussen de Florisoft en Floriday.
