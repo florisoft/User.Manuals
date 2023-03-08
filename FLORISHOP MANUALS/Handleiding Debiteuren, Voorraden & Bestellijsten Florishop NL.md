@@ -26,7 +26,6 @@ Het laatste hoofdstuk, hoofdstuk zes, beschrijft de Webshop modulen, zoals factu
 [Webshop modulen](#webshop-modulen)  
 [Modulen](#modulen)
 
-
 Er dienen een aantal instellingen vooraf gecontroleerd te worden. Hoe u dit moet checken en welke instellingen het zijn wordt hieronder beschreven:
 
 |#|Uitleg|
