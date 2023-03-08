@@ -1,6 +1,6 @@
 <img src="../../fslogo.png">
 
-# Florisoft Handleiding Debtor Information System (DIS) - M37
+# Florisoft Handleiding Customer Relationship Management (CRM) - M37
 
 Welkom bij de modulehandleiding voor Florisoft Debtor Information System (DIS). Met deze module kunt u een dossier aanleggen per klant, waarin u opmerkingen en documenten toevoegt, zoals afspraken met betrekking tot betalingen en leveringen. Zou houdt u overzichtelijk welke afspraken er zijn gemaakt.
 
