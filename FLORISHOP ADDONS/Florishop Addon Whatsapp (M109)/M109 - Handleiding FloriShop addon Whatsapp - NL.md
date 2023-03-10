@@ -65,9 +65,7 @@ Voor de anonieme debiteur geldt in de regel dat deze **nooit** mag kopen via de 
 
 |Stap|Uitleg|
 |:--|:--|
-|**1**|Zet het ‘T’-vinkje (nr. 21) voor de betreffende voorraden **aan**.
-**Let op: zorg er voor dat voorraden die gebruikt worden in combinatie
-met WhatsApp delen altijd de vinkjes A en R hebben ingeschakeld en het T - vinkje uit staat.**
+|**1**|Zet het ‘T’-vinkje (nr. 21) voor de betreffende voorraden **aan**<br>**Let op: zorg er voor dat voorraden die gebruikt worden in combinatie met WhatsApp delen altijd de vinkjes A en R hebben ingeschakeld en het T - vinkje uit staat.**
 
 |Stap|Uitleg|
 |:--|:--|

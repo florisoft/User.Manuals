@@ -2,7 +2,7 @@
 
 # Florisoft Handleiding Prepaid - M199
 
-Dit document gaat over de implementatie en werkwijze van PrePaid kooplimieten op de Florishop. **Let op!** Het gebruik van de PrePaid wallet werkt op dit moment alleen nog wanneer Buckaroo als betaalprovider wordt gebruikt. Andere providers kunnen op aanvraag worden toegevoegd.
+Dit document gaat over de implementatie en werkwijze van PrePaid kooplimieten op de Florishop. **Let op!** Het gebruik van de PrePaid wallet werkt op dit moment alleen nog wanneer Buckaroo of Saferpay als betaalprovider wordt gebruikt. Andere providers kunnen op aanvraag worden toegevoegd.
 
 Het idee van dit systeem is dat klanten op de webshop slechts op een vooruitbetaald tegoed kunnen shoppen. Hieronder kan niet worden gekocht, en er is ook sprake van een deel wat niet besteed kan worden. Een soort ‘onderpand’ of ‘prepaid minimum tegoed’. Men wenst dit prepaid tegoed op de webshop direct te kunnen ophogen, via vooruitbetalingen. In de backoffice is dit per klant (debiteur) instelbaar, en de betalingen die gedaan zijn op de webshop kunnen hier uiteindelijk worden getoond. Nadat deze zijn verwerkt.
 
@@ -22,3 +22,13 @@ Het idee van dit systeem is dat klanten op de webshop slechts op een vooruitbeta
 |**8**|Wanneer deze aan staat en in de debiteur is aangegeven dat deze met een prepaid tegoed werkt zul je bij het klikken op de accountnaam op de Florishop de optie krijgen je prepaid wallet in te zien en op te hogen.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Pre Paid Kooplimiet/image8.png"></details>|
 |**9**|Wanneer je deze wallet opent kan de klant zien wat hij nog te besteden heeft, ook kun je hier je prepaid tegoed opwaarderen, het drempelbedrag dat we in de debiteur hebben ingesteld is hier ook terug te zien.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Pre Paid Kooplimiet/image9.png"></details>|
 |**10**|Wanneer je een bedrag intypt waarmee je je tegoed wilt opwaarderen wordt je naar de payment gateway van je betaalprovider verwezen.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Pre Paid Kooplimiet/image10.png"></details>|
+
+Heeft een debiteur een afwijkende betaalmethode (payment provider)?<br>Dan stelt u deze in op debiteur niveau, volg hiervoor de onderstaande stappen.
+
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Open Florisoft en ga naar het constantenscherm, navigeer naar het volgende pad:<br>**Organen→Debiteur gegevens→Debiteur**.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Pre Paid Kooplimiet/image14.png"></details>|
+|**2**|Open de desbetreffende debiteur.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Pre Paid Kooplimiet/image14.png"></details>|
+|**3**|Navigeer in de debiteur naar:<br>**Internet→Webshop 2**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Pre Paid Kooplimiet/image14.png"></details>|
+|**4**|Stel vervolgens in de instelling **Webshop betaaltype** het afwijkende betaaltype in.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Pre Paid Kooplimiet/image14.png"></details>|
+|**5**|Mocht uw gewenste betaaltype/payment provider er niet tussen staan laat deze dan aanmaken door Florisoft.|
