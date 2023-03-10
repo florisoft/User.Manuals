@@ -60,7 +60,7 @@ debtor and stocks.
 |Step|Explanation|
 |:--|:--|
 |**1**|Click the ‘Accessible stocks’ button (no. 15) to open the ‘Raises by Sale through the Internet window.
-|**2*|Check if the column ‘Perc’ is visible by right clicking one of the existing columns. (no. 16) Now a window pops up with all the available columns for the ‘Raises by Sale through the Internet’.<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image7.png"/></details>
+|**2**|Check if the column ‘Perc’ is visible by right clicking one of the existing columns. (no. 16) Now a window pops up with all the available columns for the ‘Raises by Sale through the Internet’.<details><summary><b>Click here for the example image</b></summary><img src=".Manual webshop add on Whatsapp offers\media\image7.png"/></details>
 
 In the example below the stocks TEST, TEST17 and 777 have the ‘A’ and ‘R’ columns ticked. This means that those stocks are visible for the anonymous debtor.
 
