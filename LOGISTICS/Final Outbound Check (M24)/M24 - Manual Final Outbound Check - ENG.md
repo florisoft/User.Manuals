@@ -35,6 +35,8 @@ By scanning the product Florisoft can register which items are missing, if it's 
 ### Checking the invoices
 Within the invoice, there are multiple rows available to showcase the Final check and it's status.
 
+In the screenshot below the following columns are of importance:
+
 - Endcheck/EindCheck
     - Indicates if the invoice line has been checked.
 - Final check amount/EindControle aantal
@@ -49,6 +51,9 @@ Within the Maintenance invoice screen, there is one row available.
     - The scanned status for this invoice, which is calculated by Colli.
 
 ### Checking within Transport by Carrier
+
+In the screenshot below the following columns are of importance:
+
 Within this screen there are multiple rows available to be shown.
 - Check
     - The part of the invoiceline to be checked.
