@@ -39,6 +39,8 @@ Door de producten een laatste keer te scannen voordat het verstuurd wordt kan Fl
 ### Eindcontrole en Facturen
 Binnen de facturen kunnen meerdere kolommen worden toegevoegd om Eindcontrole te weergeven en de status hiervan.
 
+In onderstaande screenshots zijn de volgende colommen van belang:
+
 Binnen de factuur zelf kunnen deze velden worden aangezet:
 - Eindcheck
     - Geeft aan of de factuur regel gecontroleerd is.
@@ -54,6 +56,9 @@ Binnen het Onderhoud facturen scherm kan de volgende kolom worden weergeven:
     - De scan status binnen de factuur, welke berekend wordt met behulp van Kolli.
 
 ### Eindcontrole en Transportplanning
+
+In onderstaande screenshots zijn de volgende colommen van belang:
+
 Binnen de transport planning kunnen ook enkele kolommen worden toegevoegd. Namelijk:
 - Controle
     - Deel van de orderregels welke gecontroleerd zijn.
