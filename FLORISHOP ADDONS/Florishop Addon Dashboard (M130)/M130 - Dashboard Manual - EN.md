@@ -1,0 +1,233 @@
+<img src="../../fslogo.png" alt="Florisoft Corporate Logo">
+
+# Florisoft Manual Dashboard - M130
+
+Welcome to the Florisoft manual about making changes to the dashboard.<br>This manual requires you to have the Florishop Dashboard addon module in your Florisoft license.
+
+The first chapter covers the CMS-zones and their role in dashboarding, the second chapter covers the different settings accesible for each dashboard user. In chapter three you will learn how to make a dashboard page only visible to specific users.
+
+Lastly chapters four to nine cover the various functionalities that the dashboard addon module has.
+
+:warning: **Images in this manual may vary from what you will see on your screen.**
+
+## Table of contents
+
+[1. Setting up CMS-zones](#setting-up-cms-zones)  
+[2. Setting up dashboard users](#setting-up-dashboard-users)  
+[3. Creating and editing pages](#creating-and-editing-pages)  
+[4. Creating visuals](#creating-visuals)  
+[5. Creating and configuring tables](#creating-and-configuring-tables)  
+[6. Creating pie charts](#creating-pie-charts)  
+[7. Creating a counter](#creating-a-counter)  
+[8. Creating a progressbar](#creating-a-progressbar)  
+[9. Query filters](#query-filters)  
+
+## Setting up CMS zones
+
+CMS zones are so-called 'labels' that are assigned to debtors and webshop pages in order to manage which debtors see which pages. A debtor with a label/CMS zone assigned will see all pages that also have this label/CMS zone. Pages without a CMS zone/label are visible to everyone, unless otherwise indicated in the visibility of the page. A visualization of this can be found below:
+
+<details open><summary><b>Click here for the example image!</b></summary><img src=""></details>
+
+## Setting up dashboard users
+
+Stay in the constants screen and follow the steps below:
+
+|Step|Explanation|
+|:-:|:--|
+|**1**|Navigate the constants screen to the debtor settings in the following path:<br>*Community→Debtor data→Debtors*<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**2**|Create a new dashboard debtor or use an existing debtor(#4)|
+|**3**|In de debtor settings screen navigate to:<br>*Internet(#1)→CMS(#2)*<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**4**|Click on the 'CMS Zones' button(#3) and type in the code for the newly created CMS zone in the column named 'zone' and press enter. The complete name of the CMS zone is now shown in the grid.|
+|**5**|Save the made changes.<br>:warning: **Make sure that your default dashboard user does not have admin privileges on the webshop. If needed create multiple users.**|
+
+## Creating and editing pages
+
+Log in to the webshop with a user that has admin privileges.<br>
+:memo: If you use a user that does not have access to the concerning CMS zone the newly created page won't be visible.
+
+|Step|Explanation|
+|:-:|:--|
+|**1**|Once logged in open the user options(#1), select 'management'(#2) and navigate to 'CMS'(#3).|
+|**2**|Inside the 'CMS' click on the plus sign next to the 'Categories' option. |
+|**3**|A new screen should open, fill out the follwing fields:<br>1. **Category URL**: this will be visible in the URL. In the example below it would be: [www.webshop.nl/testdashboard/]()<br>2. **Category display name**: This is how the user will see in webshop navigator<br>3. **Is visible in the navigator**: By enabling this you make sure the category is visible on the webshop<br>4. Navigate to the tab 'Visibility'. <details><summary><b>Click here for the example image!</b></summary><img src=""></details> |
+|**4**|In the tab 'visibility' select the newly created CMS zone(#5) and save it.|
+|**5**|After saving the category, go back to the black bar above and once again select CMS. Click on the plus sign next to pages.|
+|**6**|A new screen will open, fill out the following fields:<br> 1. **URL**: this is also visible in the URL but next to the category. The example image below would lead to the following URL: [www.webshop.nl/testdashboard/testdashboardpagina]()<br>2. **Page display name**: page name that is visible to the user on the webshop.<br.|
+|**7**|Within the tab 'Visibility' add the newly created CMS zone and save it.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+
+The new page will be visible in the webshop's navigator for debtor's that have access to the page's CMS zone.
+
+<details><summary><b>Click here for the example image!</b></summary><img src=""></details>
+
+:warning: **If you haven't coupled the CMS zone to your administrator account it won't be visible. Log in with a user that has access to the right CMS zone in order to view the new page.**
+
+## Creating visuals
+
+Navigate to an existing dashboard page and log in with a user that has administrative rights.
+
+:warning: This dashboard component makes use of SQL (or Sequel), a database querying language used to extract data. Please exercise caution when devising and implementing bespoke SQL queries, as creating suboptimal queries may lead to performance issues in your webshop. It is incumbent upon you to assume any risks associated with crafting and executing self-designed SQL queries. By utilizing this component, you acknowledge and accept these terms.
+
+Follow the steps below to set up graph/diagram:
+
+|Step|Explanation|
+|:-:|:--|
+|**1**|Start the editor mode by turning on management (1#) and then starting the editor (#2).<br><details><summary><b>Click here for your image</b></summary><img src=".Dashboard Handleiding\media\image14.png"/></details>|
+|**2**|Add the chart under a column, the location of which is irrelevant. Use the plus sign in the column.<br><details><summary><b>Click here for your image</b></summary><img src=".Dashboard Handleiding\media\image15.png"/></details><br> :memo: Make sure there is enough space for the chart to be clearly visible.|
+|**3**|Select the 'Dashboard' tab (1#) and then add the 'Chart' component using the green plus sign (2#).<br><details><summary><b>Click here for your image</b></summary><img src=".Dashboard Handleiding\media\image16.png"/></details>|
+|**4**|	After adding the component, give the chart a title (1#) and indicate what type of chart this is (2#).<br><details><summary><b>Click here for your image</b></summary><img src=".Dashboard Handleiding\media\image17.png"/></details>|
+|**5**|Navigate to the 'Datasets' tab (3#) and add a new item (4#). Then give this item a name (5#) and optionally a color (6#). Next, add your query to the query editor by clicking on the white area or green button (7#).<br><details><summary><b>Click here for your image</b></summary><img src=".Dashboard Handleiding\media\image18.png"/></details><br>:memo: You can add multiple items (#4) to show multiple lines/bars side by side|
+|**6**|Before saving your query, you need to validate it. Do this by clicking on the green checkmark button (#1). If it can execute the query, it will display a message (#2). If the query cannot be executed, you will receive an error message on the screen. Only when the query works can you save it.<br><details><summary><b>Click here for your image</b></summary><img src=".Dashboard Handleiding\media\image19.png"/></details> <br>:warning: Make sure your queries do not take longer than 1500ms to execute!|
+
+When writing a correct SQL query a chart should appear.
+<details><summary><b>Click here for the example image!</b></summary><img src=""></details>
+
+## Creating and configuring tables
+
+Navigate to a dashboard page using a user that has access to the CMS zone.
+
+:warning: This dashboard component makes use of SQL (or Sequel), a database querying language used to extract data. Please exercise caution when devising and implementing bespoke SQL queries, as creating suboptimal queries may lead to performance issues in your webshop. It is incumbent upon you to assume any risks associated with crafting and executing self-designed SQL queries. By utilizing this component, you acknowledge and accept these terms.
+
+|Step|Explanation|
+|:-:|:--|
+|**1**|Enable **mangement** mode and start the editor.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**2**|Add a table under a column using the plus sign, the location itself is irrelevant.<details><summary><b>Click here for the example image!</b></summary><img src=""></details><br>:memo: : Make sure that there is enough space for the table to be clearly visbile.|
+|**3**|Select the tab 'Dashboard'(#1) and add a 'Tableview' component using the green plus sign.(#2)|
+|**4**||
+|**5**|Add your query to the query editor by clicking on the white input field or the gereen button(#5).|
+|**6**|Before saving your query make sure to validate it. Do this by clicking on the green button that contains the checkmark. If the query is correct a notification should appear it executed succesfully, it the query was erroneous an error message should appear instead.|
+
+If you have written a correct SQL query a pie chart should appear.
+
+## Creating pie-charts
+
+
+
+## Creating a counter
+
+Navigate to a dashboard using a user that has administrative privileges.
+
+:warning: This dashboard component makes use of SQL (or Sequel), a database querying language used to extract data. Please exercise caution when devising and implementing bespoke SQL queries, as creating suboptimal queries may lead to performance issues in your webshop. It is incumbent upon you to assume any risks associated with crafting and executing self-designed SQL queries. By utilizing this component, you acknowledge and accept these terms.
+
+:bulb: SQL can be written in two dialects: ADS SQL or PostgreSQL. If you want to write in PostgreSQL you to add the indicator '--pg'. ADS SQL does not require an indicator.
+
+Follow the steps below to configure a counter:
+
+|Step|Explanation|
+|:-:|:--|
+|**1**|Enable management mode and start the editor.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**2**|Add a CMS component to a column, the location of the counter itself is irrelevant but do make sure it is clearly visible.|
+|**3**|Select the 'Dashboard' tab(#1) and add a CMS element called 'Gauge' using the green plus sign.|
+|**4**|After adding the component, give the gauge a title(#1), minimimum & maximum values(#2), range of possible colours(#3), the amount of segments in the counter(#4) and the amount of decimals.(#5)|
+|**5**|Now add your query to the query editor to the white input field or by clicking on the green button(#6)|
+|**6**|Make sure to validate both queries before saving them, do this by clicking on the green button(#1). If the SQL query is correct it will prompt a success message, and if the query is erroneous an error message will show. Only if the SQL query is syntactically you may save it.<br><br>:warning: **Do also make sure that the query doesn't take longer than 1500ms to complete.**|
+
+## Creating a progressbar
+
+Navigate to a dashboard page logged in as a user that has administrative rights.
+
+:warning: This dashboard component makes use of SQL (or Sequel), a database querying language used to extract data. Please exercise caution when devising and implementing bespoke SQL queries, as creating suboptimal queries may lead to performance issues in your webshop. It is incumbent upon you to assume any risks associated with crafting and executing self-designed SQL queries. By utilizing this component, you acknowledge and accept these terms.
+
+:bulb: SQL can be written in two dialects: ADS SQL or PostgreSQL. If you want to write in PostgreSQL you to add the indicator '--pg'. ADS SQL does not require an indicator.
+
+Follow the steps below to configure a progressbar:
+
+|Step|Explanation|
+|:-:|:--|
+|**1**|Enable management mode and start the editor. <details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**2**|Add a counter under the colum using the plus sign, the location of the counter itself is irrelevant.<br><br>:memo: Do however make sure that the resulting counter is clearly visible.|
+|**3**|Select the 'Dashboard' tab and add a 'Progressbar' CMS component using the green plus sign.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**4**|After adding the component, give the progressbar a title(#1), colour(#2) and an amount of decimals(#3).<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**5**|Add two queries: one that returns the total value E.G. total stems sold and one that returns the partial value E.G. amount of stems sold online.<details><summary><b>Click here for the example image!</b></summary><img src=""></details> |
+|**6**|Make sure to validate both queries before saving them, do this by clicking on the green button(#1). If the SQL query is correct it will prompt a success message, and if the query is erroneous an error message will show. Only if the SQL query is syntactically you may save it.<br><br>:warning: **Do also make sure that the query doesn't take longer than 1500ms to complete.**|
+
+If you have written a correct query a progressbar should appear.
+
+<details><summary><b>Click here for the example image!</b></summary><img src=""></details>
+
+## Configuring filters
+
+Filters can be used to retrieve a selection of the available data. There are different kinds of filters, they are described in the text below.
+
+Navigate to a dashboard page using a user that has administrator privileges.
+
+:warning: This dashboard component makes use of SQL (or Sequel), a database querying language used to extract data. Please exercise caution when devising and implementing bespoke SQL queries, as creating suboptimal queries may lead to performance issues in your webshop. It is incumbent upon you to assume any risks associated with crafting and executing self-designed SQL queries. By utilizing this component, you acknowledge and accept these terms.
+
+:bulb: SQL can be written in two dialects: ADS SQL or PostgreSQL. If you want to write in PostgreSQL you to add the indicator '--pg'. ADS SQL does not require an indicator.
+
+Follow the steps below to set up a filter:
+
+|Step|Explanation|
+|:-:|:--|
+|**1**|Enable the management mode and start the editor.|
+|**2**|Add a filter under the column using the plus sign, the location itself is irrelevant.<br><br>:memo: Do however make sura that there is enough space for the filter to be clearly visible.|
+|**3**|Select the 'Dashboard' tab(#1) and add a 'FilterToolbar' CMS component using the green plus sign(#2).<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**4**|You can direcly save this component, we don't need to configure this any further.|
+|**5**|Click on the plus sign in the Filtertoolbar to show the various filters that are available.<details><summary><b>Click here for the example image!</b></summary><img src=""></details> |
+
+The following filters are available in the FilterToolbar component:
+
+- [Query filter](#query-filters)
+    - Make a selection using an SQL query to filter data.
+
+- [PresetValueFilter](#preset-value-filter)
+    - Filter the data using predetermined data.
+
+- [QueryFilterDate](#query-filter-date)
+    - Filter the data using a extendable calendar to select date ranges to fitler the data.
+
+In [this chapter](#the-use-of-filters) you can read how to use these filters.
+
+:memo: Multiple filters can be added to the same FilterToolBar.
+
+## Query filters
+
+|Step|Explanation|
+|:-:|:--|
+|**1**|Add a query filter using the green plus sign.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**2**|Add a Keyword name and label(#1), make sure these apptly describe the Keyword in the description field. You can also give it a default value and decide if the keyword accepts multiple values.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**3**|Add a query to the SQL query editor, to do this click on the white field or green button. **Make sure that the query returns one column!**|
+|**4**|Before saving your query, you need to validate it. You can do this by clicking on the green button with the checkmark (#1). If the query can be executed, a message will be displayed (#2). If the query cannot be executed, you will receive an error message on the screen. Only when the query is working, you can save it.<details><summary><b>Click here for the example image!</b></summary><img src=""></details><br>:warning:**Make sure that your queries do not take longer than 1500ms**<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+
+
+### Preset value filter
+
+|Step|Explanation|
+|:-:|:--|
+|**1**|Add a PresetValueFilter to the FilterToolbar using the green plus sign.|
+|**2**|Add a Keyword name and label, make sure these apptly describe their functionalities. Give the filter a default value and if a user can enter multiple values in to the filter.|
+|**3**|Navigate to the 'Waardes' or 'Values' tab (#4).|
+|**4**|In the tab 'Values' or 'Waardes' you'll need to add all your PresetValue. Add an item (#1), enter a name(#2) and value(#3).<details><summary><b>Click here for the example image!</b></summary><img src=""></details><br>:bulb: The name is the visual display of the value. In this screen you can create a descriptive name or more cryptic code.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+
+If the PresetValueFilter is set correctly the dropdown can now be used to make a selection. The example image below in combination with the previous image gives a good insight in how the filter workds.
+
+### Query filter date
+
+|Step|Explanation|
+|:-:|:--|
+|**1**|Add the query filter to the filter toolbar using the green plus sign.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**2**|Give the QueryFilterDate a name and label(#1) and set a default value(#2). The default value can be a regular date (YYYYMMDD) or '=today'. This makes it so that the standard value of this filter is always the current date. <br><Br>You can also add or remove days from the '=today' value by using + X or - X e.g. =today+1.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+
+If the QueryFilterDate is set up correctly the dropdown should now show a selection in a calendar element.
+
+### The use of filters
+
+After setting up a filter they need to be used in the SQL queries behind the dashboard components. This needs to be done in the 'WHERE' part of the SQL query. You can refer to the filters by using the given Keyword naam, which needs to be in between ##. 
+
+In the situation below we will use a graph as an example. If we want to change the date range using filters we need to use two QueryFilterDate filers. The keywords for these filters are 'DatumVan' (From Date) and 'DatumTot' (Till Date)
+
+```sql
+where date_variable >= '#DateFrom#'
+    and date_variable <= '#DateTill#'
+```
+
+:bulb: '#Keywordnaam#' gets replaced by the value of the selection, for example: '2023-01-11'
+
+When using the PresetValueFilter mulitple values are possible, you can fix this by doing the following:
+
+```sql
+where variable in ('#attribute1#', #attribute2#)
+```
+
+If you want to use multiple variables sepereate them with coma's in the parenthesis.
+
+:bulb: Apostrophs ('') are only necessary when the parameters (variables) are strings or dates. Do not use '' with numeric datatypes like floats or integers.
