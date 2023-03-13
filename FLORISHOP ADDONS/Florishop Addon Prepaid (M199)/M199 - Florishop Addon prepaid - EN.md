@@ -1,4 +1,4 @@
-<img src="../fslogo.png" alt="Corporate Logo">
+<img src="../../fslogo.png" alt="Corporate Logo">
 
 # Florisoft Manual Prepaid - M199
 
