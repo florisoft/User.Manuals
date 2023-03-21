@@ -137,10 +137,6 @@ Deze stap laat zien hoe de chatfunctie werkt op zowel de webshop als in Florisof
 
 ### Weergave op de Webshop
 
-Als je het juist hebt ingesteld, dan zou je een pop up moeten zien op de Webshop met daarin de notificatie:
+Als je het juist hebt ingesteld, dan zou je een pop up moeten zien op de Webshop.
 
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Pop-up Chat & Notification Centre NL/image18.png"></details>
-
-U kan notificaties ook terug vinden in het notificatiescherm op de webshop (zie onderstaande afbeelding).
-
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Pop-up Chat & Notification Centre NL/image19.png"></details>
+U kan notificaties ook terug vinden in het notificatiescherm op de webshop, klick op het "bel icoontje"
