@@ -23,7 +23,7 @@ Florisoft medewerkers horen de Florisoft systeeminstellingen al doorlopen te heb
 |:-:|:--|
 |**1**|Navigeer in de constanten naar het volgende pad:<br>**Organen→Debiteurgegevens→Debiteurgroepen**|
 |**2**|Maak hier een nieuwe debiteurgroep aan door op het plusje te drukken. Vul hier vervolgens een passende omschrijving in. |
-|**3**|Selecteer vervolgens in de onderstaande tabel alle debiteuren die in deze groep vallen.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Pop-up Chat & Notification Centre NL/image5.png"></details>|
+|**3**|Selecteer vervolgens in de onderstaande tabel alle debiteuren die in deze groep vallen.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Pop-up Chat & Notification Centre NL/image1.png"></details>|
 |**4**|Sla de nieuwe groep op.|
 
 ## Opzetten van verkopers voor de chatfunctie
