@@ -79,7 +79,7 @@ Nu gaan we een assortiment aan maken, volg de onderstaande stappen:
 |Stappen|Uitleg|
 |:--|:--|
 |**1**|Open het constanten scherm als u deze nog niet open had staan.|
-|**2**|Navigeer naar het onderstaande pad:<br>**Artikelen**→**Assorti gegevens**→**Assorti**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media_NL/image6.png"></details>|
+|**2**|Navigeer naar het onderstaande pad:<br>**Artikelen**→**Assorti gegevens**→**Assorti**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media_NL/image7.png"></details>|
 |**3**|Maak een nieuw assortiment aan door op het plus icoontje (+) te drukken. Dit opent een nieuw scherm.|
 |**4**|Vul de volgende velden in:<br>- **Assortimentnr**: unieke identificatie code voor het assortiment <br>- **Omschrijving**: Zichtbare beschrijving van het assortiment <br> **Inkoopprijs**: de kosten van transport <br>**Verkoopprijs:** de kosten van het transport die aan de debiteur verrekent worden.<br>**Afdeling**: Zet de afdeling op uw Transport of logistiek afdeling.<br>**Artikelgroep**: Zet deze dropdown op de zojuist aangemaakte  <details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media_NL/image7.png"></details>|
 
