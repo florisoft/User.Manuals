@@ -32,8 +32,7 @@ This tutorial is about creating anonymous debtors. For example, an anonymous deb
 |**3**|Click the 'Accessible Stocks' button (#5) in the 'Debtors' window. The 'Stocks on Internet Sales' window opens. Continue reading on the next page.|
 |**4**|<details><summary>**Click here for the sample image**</summary><img src=".anonymous/photo6.png"></details>|
 |**5**|Tick the 'A' and 'R' checkboxes for the stocks you want to make accessible through the webshop.<details><summary>**Click here for the sample image**</summary><img src=".anonymous/photo7.png"></details>|
-
-**Note**: enter "-100,000" in the "PERC" column here. This way, the anonymous debtor cannot see a price on this particular stock. That person will only see "---"
+|**6**|Enter "-100,000" in the "PERC" column here. This way, the anonymous debtor cannot see a price on this particular stock. That person will only see "---"
 
 In the above example, for the stocks TEST, BLOEM, DECO and TEST17, the checkmarks "A" and "R" are checked. This means that these stocks are visible to the anonymous debtor.
 
