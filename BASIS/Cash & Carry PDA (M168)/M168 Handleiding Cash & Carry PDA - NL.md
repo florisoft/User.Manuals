@@ -1,6 +1,6 @@
 <img src="../../fslogo.png">
 
-# Florisoft Handleiding Cash & Carry Touch (M168)
+# Florisoft Handleiding PDA (M168)
 
 ## Table of contents
 
@@ -8,12 +8,12 @@
 [Het vullen van bestellingen](#het-vullen-van-de-bestelling)  
 [Laatste dingen](#laatste-dingen)
 
-## De Cash & Carry Touch module starten
+## De PDA module starten
 
 
 |Stap|Uitleg|
 |:--|:--|
-|**1**|Om de Cash & Carry Touch module te starten, start u via het thuisscherm de Florisoft applicatie op.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image2.png"></details>|
+|**1**|Om de PDA module te starten, start u via het thuisscherm de Florisoft applicatie op.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image2.png"></details>|
 |**2**|Eenmaal in de Florisoft applicatie klikt u op de menu kop '*Sales*' om de sales functie in Florisoft te starten.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image3.png"></details>|
 |**3**|Voer in het lege veld naast de tekst '*Seller*' uw verkoper code in. Dit doet u door op het veld te klikken en de code in te typen in het zojuist verschenen toetsenbord.<Br> **Hoe het toetsenbord er uit ziet kan per apparaat verschillen.**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image4.png">      <img src=".Cash & Carry PDA Handleiding/media/image5.png"></details>|
 |**4**|Als de verkoper door het systeem herkend wordt zal de volledige naam in rood weergeven worden onder de ingevoerde code.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image6.png"></details>|
