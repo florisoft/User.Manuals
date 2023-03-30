@@ -6,7 +6,7 @@ Deze handleiding beschrijft het versturen van aanbiedingen via Whatsapp op uw Fl
 Voor het uitvoeren van de handelingen beschreven in deze handleiding is een anonieme debiteur nodig.
 Hoe u een anonieme debiteur aanmaakt of check of het correct ingesteld staat leest u <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20ADDONS/Florishop%20Anonymous%20Debtor/Anonymous%20debtor%20-%20NL.md">hier<a>.
   
-**Let op**: Deze module richt zich op het versturen van WhatsApp-aanbiedingen op mobiele apparaten. Voor het gebruik van deze module is een mobiel apparaat vereist dat over WhatsApp beschikt.
+**Let op**: Deze module richt zich op het versturen van WhatsApp-aanbiedingen op mobiele apparaten. Voor het gebruik van deze module is een mobiel apparaat  dat over WhatsApp beschikt vereist.
 
 ## Inhoudsopgave
 
