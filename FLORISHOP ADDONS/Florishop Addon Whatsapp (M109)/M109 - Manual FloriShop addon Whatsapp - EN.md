@@ -3,6 +3,8 @@
 # Manual Florishop addon Whatsapp (M109)
 
 This manual describes the sending of offers via Whatsapp from your Florishop. In order to follow the steps contained in this manual you will need an anonymous debtor. How an anonymous debtor is created or how to check if it was set up correctly can be founds <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20ADDONS/Florishop%20Anonymous%20Debtor/anonymous%20debtor%20-%20ENG.md">here<a>.
+  
+  **Important to note:** This module focuses on sending WhatsApp promotions on mobile devices. To use this module, a mobile device that has WhatsApp is required.
 
 ## Table of contents
 
