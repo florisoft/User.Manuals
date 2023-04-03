@@ -2,8 +2,6 @@
 
 # Florisoft manual Cash & Carry Touch (M168)
 
-
-
 ## Table of contents
 
 [Table of contents](#table-of-contents)  
@@ -42,6 +40,5 @@ After setting up the Cash & Carry Touch module as instructed in the previous cha
 ## Finishing up
 
 Once the order has been filled, press the finish button, after which you will have eight different options, including printing a Packinglist, an Invoice and/or Address stickers, resetting all sales (Void sales) and transferring the sales to a Till user.
-
 
 <details><summary><b>Click here to show the example image!</b></summary><img src=".Cash & Carry PDA Manual/media/image16.png">     <img src=".Cash & Carry PDA Manual/media/image17.png"></details>

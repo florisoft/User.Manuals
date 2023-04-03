@@ -1,0 +1,21 @@
+# QR-Codes apps for Florisoft cloud applications
+
+The QR codes below will take you to the download page for each application, the download will start automatically. 
+
+:bulb: **Note**: the QR codes in this document are .PNG images, if you want a more scalable format for printing use the SVG images found **[here](../Cloud%20App%20QR-Codes/SVG%20images/)**.
+
+## Cash & Carry App
+
+<img src="PNG images/C&C App QR.png" width="500" height="500">
+
+## Price Sticker App
+
+<img src="PNG images/Sticker App QR.png" width="500" height="500">
+
+## Karopbouw App / Trolly Build App
+
+<img src="PNG images/Karopbouw App QR.png" width="500" height="500">
+
+## Pickorder App
+
+<img src="PNG images/Pickorder App QR.png" width="500" height="500">

@@ -5,6 +5,8 @@
 Deze handleiding beschrijft het versturen van aanbiedingen via Whatsapp op uw Florishop.
 Voor het uitvoeren van de handelingen beschreven in deze handleiding is een anonieme debiteur nodig.
 Hoe u een anonieme debiteur aanmaakt of check of het correct ingesteld staat leest u <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20ADDONS/Florishop%20Anonymous%20Debtor/Anonymous%20debtor%20-%20NL.md">hier<a>.
+  
+**Let op**: Deze handleiding beschrijft het versturen van een link via Whatsapp op een mobiel apparaat.
 
 ## Inhoudsopgave
 
