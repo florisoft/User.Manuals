@@ -8,14 +8,22 @@ The QR codes below will take you to the download page for each application, the 
 
 <img src="PNG images/C&C App QR.png" width="500" height="500">
 
+https://app.florisoft.nl/cc/fase2/cc.apk
+
 ## Price Sticker App
 
 <img src="PNG images/Sticker App QR.png" width="500" height="500">
+
+https://app.florisoft.nl/Florisoft.PDA/florisoft-pda.apk
 
 ## Karopbouw App / Trolly Build App
 
 <img src="PNG images/Karopbouw App QR.png" width="500" height="500">
 
+https://app.florisoft.nl/Karopbouw/karopbouw.apk
+
 ## Pickorder App
 
 <img src="PNG images/Pickorder App QR.png" width="500" height="500">
+
+https://app.florisoft.nl/Pickorders/pickorders.apk
