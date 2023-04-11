@@ -76,7 +76,7 @@ Follow the steps below to set up graph/diagram:
 |**3**|Select the 'Dashboard' tab (1#) and then add the 'Chart' component using the green plus sign (2#).<br><details><summary><b>Click here for your image</b></summary><img src=".Dashboard Handleiding\media\image16.png"/></details>|
 |**4**|	After adding the component, give the chart a title (1#) and indicate what type of chart this is (2#).<br><details><summary><b>Click here for your image</b></summary><img src=".Dashboard Handleiding\media\image17.png"/></details>|
 |**5**|Navigate to the 'Datasets' tab (3#) and add a new item (4#). Then give this item a name (5#) and optionally a color (6#). Next, add your query to the query editor by clicking on the white area or green button (7#).<br><details><summary><b>Click here for your image</b></summary><img src=".Dashboard Handleiding\media\image18.png"/></details><br>:memo: You can add multiple items (#4) to show multiple lines/bars side by side|
-|**6**|Before saving your query, you need to validate it. Do this by clicking on the green checkmark button (#1). If it can execute the query, it will display a message (#2). If the query cannot be executed, you will receive an error message on the screen. Only when the query works can you save it.<br><details><summary><b>Click here for your image</b></summary><img src=".Dashboard Handleiding\media\image19.png"/></details> <br>:warning: Make sure your queries do not take longer than 1500ms to execute!|
+|**6**|Before saving your query, you need to validate it. Do this by clicking on the green checkmark button (#1). If it can execute the query, it will display a message (#2). If the query cannot be executed, you will receive an error message on the screen. Only when the query works can you save it.<br><details><summary><b>Click here for your image</b></summary><img src=".Dashboard Handleiding\media EN\image19.png"/></details> <br>:warning: Make sure your queries do not take longer than 1500ms to execute!|
 
 When writing a correct SQL query a chart should appear.
 <details><summary><b>Click here for the example image!</b></summary><img src=""></details>
@@ -89,10 +89,10 @@ Navigate to a dashboard page using a user that has access to the CMS zone.
 
 |Step|Explanation|
 |:-:|:--|
-|**1**|Enable **mangement** mode and start the editor.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
-|**2**|Add a table under a column using the plus sign, the location itself is irrelevant.<details><summary><b>Click here for the example image!</b></summary><img src=""></details><br>:memo: : Make sure that there is enough space for the table to be clearly visbile.|
+|**1**|Enable **mangement** mode and start the editor.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image14.png"></details>|
+|**2**|Add a table under a column using the plus sign, the location itself is irrelevant.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media\image15.png"></details><br>:memo: : Make sure that there is enough space for the table to be clearly visbile.|
 |**3**|Select the tab 'Dashboard'(#1) and add a 'Tableview' component using the green plus sign.(#2)|
-|**4**||
+|**4**|After adding the component, give the table a title <details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image25.png"></details><br>|
 |**5**|Add your query to the query editor by clicking on the white input field or the gereen button(#5).|
 |**6**|Before saving your query make sure to validate it. Do this by clicking on the green button that contains the checkmark. If the query is correct a notification should appear it executed succesfully, it the query was erroneous an error message should appear instead.|
 
@@ -110,9 +110,9 @@ Navigate to an existing dashboard page and login with a user that has administra
 
 |Stap|Uitleg|
 |:--|:--|
-|**1**|Enable management mode and start the editor.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
-|**2**|Add the pie chart to a column, the location of which is irrelevant by making use of the plus icon.<details><summary><b>Click here for the example image!</b></summary><img src=""></details><br>:bulb: Make sure that there is enough space for the piechart to be visible.|
-|**3**|Select the 'Dashboard' tab(#1) and add a CMS element called 'Piechart' using the green plus sign.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**1**|Enable management mode and start the editor.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image14.png"></details>|
+|**2**|Add the pie chart to a column, the location of which is irrelevant by making use of the plus icon.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image15.png"></details><br>:bulb: Make sure that there is enough space for the piechart to be visible.|
+|**3**|Select the 'Dashboard' tab(#1) and add a CMS element called 'Piechart' using the green plus sign.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image24.png"></details>|
 |**4**|After adding the component, give the piechart a name and title(#1), decide what kind of piechart it is, whether it is percentages or numbers and the amount of decimals.
 |**5**||
 |**6**|Make sure to validate both queries before saving them, do this by clicking on the green button(#1). If the SQL query is correct it will prompt a success message, and if the query is erroneous an error message will show. Only if the SQL query is syntactically you may save it.<br><br>:warning: **Do also make sure that the query doesn't take longer than 1500ms to complete.**|
@@ -130,9 +130,9 @@ Follow the steps below to configure a counter:
 
 |Step|Explanation|
 |:-:|:--|
-|**1**|Enable management mode and start the editor.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**1**|Enable management mode and start the editor.
 |**2**|Add a CMS component to a column, the location of the counter itself is irrelevant but do make sure it is clearly visible.|
-|**3**|Select the 'Dashboard' tab(#1) and add a CMS element called 'Gauge' using the green plus sign.|
+|**3**|Select the 'Dashboard' tab(#1) and add a CMS element called 'Gauge' using the green plus sign<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image46.png"></details>
 |**4**|After adding the component, give the gauge a title(#1), minimimum & maximum values(#2), range of possible colours(#3), the amount of segments in the counter(#4) and the amount of decimals.(#5)|
 |**5**|Now add your query to the query editor to the white input field or by clicking on the green button(#6)|
 |**6**|Make sure to validate both queries before saving them, do this by clicking on the green button(#1). If the SQL query is correct it will prompt a success message, and if the query is erroneous an error message will show. Only if the SQL query is syntactically you may save it.<br><br>:warning: **Do also make sure that the query doesn't take longer than 1500ms to complete.**|
@@ -149,16 +149,16 @@ Follow the steps below to configure a progressbar:
 
 |Step|Explanation|
 |:-:|:--|
-|**1**|Enable management mode and start the editor. <details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**1**|Enable management mode and start the editor.
 |**2**|Add a counter under the colum using the plus sign, the location of the counter itself is irrelevant.<br><br>:memo: Do however make sure that the resulting counter is clearly visible.|
-|**3**|Select the 'Dashboard' tab and add a 'Progressbar' CMS component using the green plus sign.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
-|**4**|After adding the component, give the progressbar a title(#1), colour(#2) and an amount of decimals(#3).<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
-|**5**|Add two queries: one that returns the total value E.G. total stems sold and one that returns the partial value E.G. amount of stems sold online.<details><summary><b>Click here for the example image!</b></summary><img src=""></details> |
+|**3**|Select the 'Dashboard' tab and add a 'Progressbar' CMS component using the green plus sign.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image29.png"></details>|
+|**4**|After adding the component, give the progressbar a title(#1), colour(#2) and an amount of decimals(#3).<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image30.png"></details>|
+|**5**|Add two queries: one that returns the total value E.G. total stems sold and one that returns the partial value E.G. amount of stems sold online.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image31.png"></details> |
 |**6**|Make sure to validate both queries before saving them, do this by clicking on the green button(#1). If the SQL query is correct it will prompt a success message, and if the query is erroneous an error message will show. Only if the SQL query is syntactically you may save it.<br><br>:warning: **Do also make sure that the query doesn't take longer than 1500ms to complete.**|
 
 If you have written a correct query a progressbar should appear.
 
-<details><summary><b>Click here for the example image!</b></summary><img src=""></details>
+<details><summary><b>Click here for the example image!</b></summary><img src=". Dashboard Handleiding\media En\image32.png"></details>
 
 ## Configuring filters
 
@@ -176,9 +176,9 @@ Follow the steps below to set up a filter:
 |:-:|:--|
 |**1**|Enable the management mode and start the editor.|
 |**2**|Add a filter under the column using the plus sign, the location itself is irrelevant.<br><br>:memo: Do however make sura that there is enough space for the filter to be clearly visible.|
-|**3**|Select the 'Dashboard' tab(#1) and add a 'FilterToolbar' CMS component using the green plus sign(#2).<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**3**|Select the 'Dashboard' tab(#1) and add a 'FilterToolbar' CMS component using the green plus sign(#2).<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image33.png"></details>|
 |**4**|You can direcly save this component, we don't need to configure this any further.|
-|**5**|Click on the plus sign in the Filtertoolbar to show the various filters that are available.<details><summary><b>Click here for the example image!</b></summary><img src=""></details> |
+|**5**|Click on the plus sign in the Filtertoolbar to show the various filters that are available.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image34.png"></details> |
 
 The following filters are available in the FilterToolbar component:
 
@@ -199,10 +199,10 @@ In [this chapter](#the-use-of-filters) you can read how to use these filters.
 
 |Step|Explanation|
 |:-:|:--|
-|**1**|Add a query filter using the green plus sign.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
-|**2**|Add a Keyword name and label(#1), make sure these apptly describe the Keyword in the description field. You can also give it a default value and decide if the keyword accepts multiple values.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**1**|Add a query filter using the green plus sign.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image35.png"></details>|
+|**2**|Add a Keyword name and label(#1), make sure these apptly describe the Keyword in the description field. You can also give it a default value and decide if the keyword accepts multiple values.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image38.png"></details>|
 |**3**|Add a query to the SQL query editor, to do this click on the white field or green button. **Make sure that the query returns one column!**|
-|**4**|Before saving your query, you need to validate it. You can do this by clicking on the green button with the checkmark (#1). If the query can be executed, a message will be displayed (#2). If the query cannot be executed, you will receive an error message on the screen. Only when the query is working, you can save it.<details><summary><b>Click here for the example image!</b></summary><img src=""></details><br>:warning:**Make sure that your queries do not take longer than 1500ms**<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**4**|Before saving your query, you need to validate it. You can do this by clicking on the green button with the checkmark (#1). If the query can be executed, a message will be displayed (#2). If the query cannot be executed, you will receive an error message on the screen. Only when the query is working, you can save it.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image19.png"></details><br>:warning:**Make sure that your queries do not take longer than 1500ms**<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image36"></details>|
 
 If the Query filter is set up correctly, the dropdown can be used to create a selection. The image below shows an example of it working on debtor numbers.
 
