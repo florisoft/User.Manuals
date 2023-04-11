@@ -26,7 +26,7 @@ Lastly chapters four to nine cover the various functionalities that the dashboar
 
 CMS zones are so-called 'labels' that are assigned to debtors and webshop pages in order to manage which debtors see which pages. A debtor with a label/CMS zone assigned will see all pages that also have this label/CMS zone. Pages without a CMS zone/label are visible to everyone, unless otherwise indicated in the visibility of the page. A visualization of this can be found below:
 
-<details open><summary><b>Click here for the example image!</b></summary><img src=""></details>
+<details open><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image1.png"></details>
 
 ## Setting up dashboard users
 
@@ -34,9 +34,9 @@ Stay in the constants screen and follow the steps below:
 
 |Step|Explanation|
 |:-:|:--|
-|**1**|Navigate the constants screen to the debtor settings in the following path:<br>*Community→Debtor data→Debtors*<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**1**|Navigate the constants screen to the debtor settings in the following path:<br>*Community→Debtor data→Debtors*<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image2.png"></details>|
 |**2**|Create a new dashboard debtor or use an existing debtor(#4)|
-|**3**|In de debtor settings screen navigate to:<br>*Internet(#1)→CMS(#2)*<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**3**|In de debtor settings screen navigate to:<br>*Internet(#1)→CMS(#2)*<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image3.png"></details>|
 |**4**|Click on the 'CMS Zones' button(#3) and type in the code for the newly created CMS zone in the column named 'zone' and press enter. The complete name of the CMS zone is now shown in the grid.|
 |**5**|Save the made changes.<br>:warning: **Make sure that your default dashboard user does not have admin privileges on the webshop. If needed create multiple users.**|
 
@@ -49,11 +49,11 @@ Log in to the webshop with a user that has admin privileges.<br>
 |:-:|:--|
 |**1**|Once logged in open the user options(#1), select 'management'(#2) and navigate to 'CMS'(#3).|
 |**2**|Inside the 'CMS' click on the plus sign next to the 'Categories' option. |
-|**3**|A new screen should open, fill out the follwing fields:<br>1. **Category URL**: this will be visible in the URL. In the example below it would be: [www.webshop.nl/testdashboard/]()<br>2. **Category display name**: This is how the user will see in webshop navigator<br>3. **Is visible in the navigator**: By enabling this you make sure the category is visible on the webshop<br>4. Navigate to the tab 'Visibility'. <details><summary><b>Click here for the example image!</b></summary><img src=""></details> |
+|**3**|A new screen should open, fill out the follwing fields:<br>1. **Category URL**: this will be visible in the URL. In the example below it would be: [www.webshop.nl/testdashboard/]()<br>2. **Category display name**: This is how the user will see in webshop navigator<br>3. **Is visible in the navigator**: By enabling this you make sure the category is visible on the webshop<br>4. Navigate to the tab 'Visibility'. <details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image4.png"></details> |
 |**4**|In the tab 'visibility' select the newly created CMS zone(#5) and save it.|
-|**5**|After saving the category, go back to the black bar above and once again select CMS. Click on the plus sign next to pages.|
-|**6**|A new screen will open, fill out the following fields:<br> 1. **URL**: this is also visible in the URL but next to the category. The example image below would lead to the following URL: [www.webshop.nl/testdashboard/testdashboardpagina]()<br>2. **Page display name**: page name that is visible to the user on the webshop.<br.|
-|**7**|Within the tab 'Visibility' add the newly created CMS zone and save it.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**5**|After saving the category, go back to the black bar above and once again select CMS. Click on the plus sign next to pages.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image5.png"></details>|
+|**6**|A new screen will open, fill out the following fields:<br> 1. **URL**: this is also visible in the URL but next to the category. The example image below would lead to the following URL: [www.webshop.nl/testdashboard/testdashboardpagina]()<br>2. **Page display name**: page name that is visible to the user on the webshop.<br><details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image6.png"></details>|
+|**7**|Within the tab 'Visibility' add the newly created CMS zone and save it.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image7.png"></details>|
 
 The new page will be visible in the webshop's navigator for debtor's that have access to the page's CMS zone.
 
@@ -100,6 +100,22 @@ If you have written a correct SQL query a pie chart should appear.
 
 ## Creating pie-charts
 
+Navigate to an existing dashboard page and login with a user that has administrative privileges.
+
+:warning: This dashboard component makes use of SQL (or Sequel), a database querying language used to extract data. Please exercise caution when devising and implementing bespoke SQL queries, as creating suboptimal queries may lead to performance issues in your webshop. It is incumbent upon you to assume any risks associated with crafting and executing self-designed SQL queries. By utilizing this component, you acknowledge and accept these terms.
+
+:bulb: SQL can be written in two dialects: ADS SQL or PostgreSQL. If you want to write in PostgreSQL you to add the indicator '--pg'. ADS SQL does not require an indicator.
+
+*Follow the steps below to set up a pie chart dashboard component:*
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Enable management mode and start the editor.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**2**|Add the pie chart to a column, the location of which is irrelevant by making use of the plus icon.<details><summary><b>Click here for the example image!</b></summary><img src=""></details><br>:bulb: Make sure that there is enough space for the piechart to be visible.|
+|**3**|Select the 'Dashboard' tab(#1) and add a CMS element called 'Piechart' using the green plus sign.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**4**|After adding the component, give the piechart a name and title(#1), decide what kind of piechart it is, whether it is percentages or numbers and the amount of decimals.
+|**5**||
+|**6**|Make sure to validate both queries before saving them, do this by clicking on the green button(#1). If the SQL query is correct it will prompt a success message, and if the query is erroneous an error message will show. Only if the SQL query is syntactically you may save it.<br><br>:warning: **Do also make sure that the query doesn't take longer than 1500ms to complete.**|
 
 
 ## Creating a counter
@@ -188,15 +204,19 @@ In [this chapter](#the-use-of-filters) you can read how to use these filters.
 |**3**|Add a query to the SQL query editor, to do this click on the white field or green button. **Make sure that the query returns one column!**|
 |**4**|Before saving your query, you need to validate it. You can do this by clicking on the green button with the checkmark (#1). If the query can be executed, a message will be displayed (#2). If the query cannot be executed, you will receive an error message on the screen. Only when the query is working, you can save it.<details><summary><b>Click here for the example image!</b></summary><img src=""></details><br>:warning:**Make sure that your queries do not take longer than 1500ms**<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
 
+If the Query filter is set up correctly, the dropdown can be used to create a selection. The image below shows an example of it working on debtor numbers.
+
+<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image39.png"></details>
+
 
 ### Preset value filter
 
 |Step|Explanation|
 |:-:|:--|
-|**1**|Add a PresetValueFilter to the FilterToolbar using the green plus sign.|
-|**2**|Add a Keyword name and label, make sure these apptly describe their functionalities. Give the filter a default value and if a user can enter multiple values in to the filter.|
+|**1**|Add a PresetValueFilter to the FilterToolbar using the green plus sign.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image36.png"></details>|
+|**2**|Add a Keyword name and label, make sure these apptly describe their functionalities. Give the filter a default value and if a user can enter multiple values in to the filter.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image40.png"></details>|
 |**3**|Navigate to the 'Waardes' or 'Values' tab (#4).|
-|**4**|In the tab 'Values' or 'Waardes' you'll need to add all your PresetValue. Add an item (#1), enter a name(#2) and value(#3).<details><summary><b>Click here for the example image!</b></summary><img src=""></details><br>:bulb: The name is the visual display of the value. In this screen you can create a descriptive name or more cryptic code.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**4**|In the tab 'Values' or 'Waardes' you'll need to add all your PresetValue. Add an item (#1), enter a name(#2) and value(#3).<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image41.png"></details><br>:bulb: The name is the visual display of the value. In this screen you can create a descriptive name or more cryptic code.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image42.png"></details>|
 
 If the PresetValueFilter is set correctly the dropdown can now be used to make a selection. The example image below in combination with the previous image gives a good insight in how the filter workds.
 
@@ -204,10 +224,12 @@ If the PresetValueFilter is set correctly the dropdown can now be used to make a
 
 |Step|Explanation|
 |:-:|:--|
-|**1**|Add the query filter to the filter toolbar using the green plus sign.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
-|**2**|Give the QueryFilterDate a name and label(#1) and set a default value(#2). The default value can be a regular date (YYYYMMDD) or '=today'. This makes it so that the standard value of this filter is always the current date. <br><Br>You can also add or remove days from the '=today' value by using + X or - X e.g. =today+1.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**1**|Add the query filter to the filter toolbar using the green plus sign.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image37.png"></details>|
+|**2**|Give the QueryFilterDate a name and label(#1) and set a default value(#2). The default value can be a regular date (YYYYMMDD) or '=today'. This makes it so that the standard value of this filter is always the current date. <br><Br>You can also add or remove days from the '=today' value by using + X or - X e.g. =today+1.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image44.png"></details>|
 
 If the QueryFilterDate is set up correctly the dropdown should now show a selection in a calendar element.
+
+<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image45.png"></details>
 
 ### The use of filters
 
