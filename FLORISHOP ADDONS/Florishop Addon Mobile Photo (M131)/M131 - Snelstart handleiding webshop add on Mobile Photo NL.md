@@ -4,7 +4,7 @@
 
 Vanaf nu is het mogelijk om zelf foto’s te koppelen aan zowel bestel- als voorraadpartijen op de webshop. Deze snelstart handleiding biedt de gebruiker een overzicht om de Mobile foto add on te gebruiken.
 
-## Koppel foto's met de Mobile Photo add-on (Backoffice gedeetle)
+## Koppel foto's met de Mobile Photo add-on (Backoffice gedeelte)
 
 *Volg hier voor de onderstaande stappen*:
 
