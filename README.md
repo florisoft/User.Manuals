@@ -4,14 +4,14 @@ Om onze gebruikers te ondersteunen bij het gebruik van onze oplossingen is er va
 
 Op de hoofdpagina vind je een overzicht van de diverse subgroepen waarin onze modulen zijn onderverdeeld. 
 
-BASIS – Handleidingen van de basis modulen
-CLOUD APPLICATIONS – Handleidingen van de cloud applicaties
-E-COMMERCE – Handleidingen van de e-commerce oplossingen
-FINANCIAL – Handleidingen van de financiële modulen
-FLORISHOP ADDONS – Handleidingen van de FloriShop add-ons
-FLORISHOP MANUALS – Handleidingen van de FloriShop
-HARDWARE – Handleidingen met betrekking tot de inrichting van de hardware
-LOGISTICS – Handleidingen van de logistieke modulen.
+BASIS – Handleidingen van de basis modulen<br>
+CLOUD APPLICATIONS – Handleidingen van de cloud applicaties<br>
+E-COMMERCE – Handleidingen van de e-commerce oplossingen<br>
+FINANCIAL – Handleidingen van de financiële modulen<br>
+FLORISHOP ADDONS – Handleidingen van de FloriShop add-ons<br>
+FLORISHOP MANUALS – Handleidingen van de FloriShop<br>
+HARDWARE – Handleidingen met betrekking tot de inrichting van de hardware<br>
+LOGISTICS – Handleidingen van de logistieke modulen.<br>
 
 Wanneer je op één van deze subgroepen klikt, kom je in een volgend scherm en worden er diverse modulen getoond.
 Door op de desbetreffende module te klikken, kom je in de omgeving met de handleiding.
@@ -26,13 +26,17 @@ Je kunt contact opnemen met ons kantoor voor meer informatie hierover
 
 # Usermanuals
 
-BASIS – Manuals for the basic Florisoft modules
-CLOUD APPLICATIONS – Manuals related to our cloud applications
-FINANCIAL – Manuals related to our financial modules
-FLORISHOP ADDONS – Manuals related to our Florishop Add-ons
-FLORISHOP MANUALS – Manuals related to the Florishop
-HARDWARDE – Manuals related to the set-up of hardware
-LOGISTICS – Manuals related to our logistics modules
+To support our users in the use of our solutions we have documentated various modules as a user manual.
+
+On the mainpage of our GitHub document repository you'll find an overview of the following sub groups over which our modules are divided.
+
+BASIS – Manuals for the basic Florisoft modules<br>
+CLOUD APPLICATIONS – Manuals related to our cloud applications<br>
+FINANCIAL – Manuals related to our financial modules<br>
+FLORISHOP ADDONS – Manuals related to our Florishop Add-ons<br>
+FLORISHOP MANUALS – Manuals related to the Florishop<br>
+HARDWARDE – Manuals related to the set-up of hardware<br>
+LOGISTICS – Manuals related to our logistics modules<br>
 
 Clicking on any of the folders listed above will show its sub folders, which each contain a specific module manual. Clicking on a module’s folder will take you to the folder in which the manual is stored. The folder will contain both an English and Dutch version of our manual and may contain some additional information like a quick start guide.
 
