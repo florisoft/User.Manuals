@@ -44,7 +44,7 @@ The information contained in these manuals is used as an aid, no rights can be d
 
 Seeing as Florisoft is in continuous development, manuals are updated constantly in order to keep the manuals relevant. Hence, why we discourage the offline storage of these documents. Are you looking for information on a module that isn’t documented yet? Some module manuals are in the release pipeline, for others we have made a conscious choice to not include It as it requires the aid of a consultant.
 
-For more information or documentation requests, you can contact us.  
+You can contact us for requests for further module documentation or additional information. 
 
 # [Visit Florisoft Academy](https://www.youtube.com/channel/UC_LdX_bCM0w-mTjnUp-70VQ)
 
