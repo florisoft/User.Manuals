@@ -149,8 +149,8 @@ Follow the steps below to configure a progressbar:
 
 |Step|Explanation|
 |:-:|:--|
-|**1**|Enable management mode and start the editor.
-|**2**|Add a counter under the colum using the plus sign, the location of the counter itself is irrelevant.<br><br>:memo: Do however make sure that the resulting counter is clearly visible.|
+|**1**|Enable management mode and start the editor <details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image14.png"></details>|
+|**2**|Add a counter under the colum using the plus sign, the location of the counter itself is irrelevant.<br><br>:memo: Do however make sure that the resulting counter is clearly visible.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image15.png"></details>||
 |**3**|Select the 'Dashboard' tab and add a 'Progressbar' CMS component using the green plus sign.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image29.png"></details>|
 |**4**|After adding the component, give the progressbar a title(#1), colour(#2) and an amount of decimals(#3).<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image30.png"></details>|
 |**5**|Add two queries: one that returns the total value E.G. total stems sold and one that returns the partial value E.G. amount of stems sold online.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image31.png"></details> |
@@ -174,8 +174,8 @@ Follow the steps below to set up a filter:
 
 |Step|Explanation|
 |:-:|:--|
-|**1**|Enable the management mode and start the editor.|
-|**2**|Add a filter under the column using the plus sign, the location itself is irrelevant.<br><br>:memo: Do however make sura that there is enough space for the filter to be clearly visible.|
+|**1**|Enable the management mode and start the editor.|<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image34.png"></details>|
+|**2**|Add a filter under the column using the plus sign, the location itself is irrelevant.<br><br>:memo: Do however make sura that there is enough space for the filter to be clearly visible.|<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image15.png"></details>|
 |**3**|Select the 'Dashboard' tab(#1) and add a 'FilterToolbar' CMS component using the green plus sign(#2).<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image33.png"></details>|
 |**4**|You can direcly save this component, we don't need to configure this any further.|
 |**5**|Click on the plus sign in the Filtertoolbar to show the various filters that are available.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image34.png"></details> |
