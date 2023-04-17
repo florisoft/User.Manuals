@@ -174,7 +174,7 @@ Follow the steps below to set up a filter:
 
 |Step|Explanation|
 |:-:|:--|
-|**1**|Enable the management mode and start the editor.|<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image34.png"></details>|
+|**1**|Enable the management mode and start the editor.|
 |**2**|Add a filter under the column using the plus sign, the location itself is irrelevant.<br><br>:memo: Do however make sura that there is enough space for the filter to be clearly visible.|<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image15.png"></details>|
 |**3**|Select the 'Dashboard' tab(#1) and add a 'FilterToolbar' CMS component using the green plus sign(#2).<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image33.png"></details>|
 |**4**|You can direcly save this component, we don't need to configure this any further.|
