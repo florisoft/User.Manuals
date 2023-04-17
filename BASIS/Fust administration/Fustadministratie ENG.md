@@ -2,7 +2,7 @@
 
 # Florisoft Manual Package Administration
 
-Welcome to the Florisoft manual for the Package administration module. In Florisoft the issue and return of all packaging can be administered.
+Welcome to the Florisoft manual for the Package administration module. In Florisoft the issuing and return of all packaging can be administered.
 
 ## Package Administration
 
