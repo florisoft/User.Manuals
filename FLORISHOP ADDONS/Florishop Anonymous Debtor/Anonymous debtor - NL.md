@@ -31,11 +31,12 @@ Deze handleiding gaat over het aanmaken van anonieme debiteuren. Een anonieme de
 |**2**|Vul in het veld "Password voor de klant" de waarde **ANON!** in (#14)<details><summary>**Klik hier voor de voorbeeld afbeelding**</summary><img src=".anoniem/foto5.png"></details>
 |**3**|Klik op de knop ‘Toegankelijke voorraden’ (#15) in het venster ‘Debiteuren’. Het venster ‘Opslagen bij verkoop via Internet’ opent. Lees verder op de volgende pagina.|
 |**4**|<details><summary>**Klik hier voor de voorbeeld afbeelding**</summary><img src=".anoniem/foto6.png"></details>|
-|**5**|Zet de 'A'- en' R'-vinkjes (nr. 20) aan voor de voorraden die u toegankelijk wil maken via de webshop.<details><summary>**Klik hier voor de voorbeeld afbeelding**</summary><img src=".anoniem/foto7.png"></details>|
+|**5**|Zet de 'A' ,' R' en 'T'-vinkjes (nr. 20) aan voor de voorraden die u toegankelijk wil maken via de webshop.<details><summary>**Klik hier voor de voorbeeld afbeelding**</summary><img src=".anoniem/foto7.png"></details>|
 |**6**|Vul hier in de "PERC" kolom "-100.000" in. Zo kan de anonieme debiteur geen prijs zien op deze specifieke voorraad. Diegene ziet dan alleen "---"
 
-In het bovenstaande voorbeeld zijn voor de voorraden TEST, BLOEM, DECO en TEST17 de vinkjes 'A' en 'R' aangevinkt. Dit betekent dat deze voorraden zichtbaar zijn voor de anonieme debiteur.
+In het bovenstaande voorbeeld zijn voor de voorraden TEST, BLOEM, DECO en TEST17 de vinkjes 'A','R' & 'T' aangevinkt. Dit betekent dat deze voorraden zichtbaar zijn voor de anonieme debiteur maar dat hij er niet vanuit kan kopen omdat het read-only is (R).
 
+<!--
 Het vinkje ‘T’ (#21) bepaalt of de debiteur mag kopen via de webshop. Voor de anonieme debiteur geldt in de regel dat deze nooit mag kopen via de webshop.
 
 |Stap|Uitleg|
@@ -45,6 +46,6 @@ Het vinkje ‘T’ (#21) bepaalt of de debiteur mag kopen via de webshop. Voor d
 |**3**|Klik op de knop "OK" in het venster **Debiteuren: ANON" om alle instellingen te bevestigen
 
 <br>
-
+-->
 De anonieme debiteur is nu aangemaakt met de juiste instellingen wat betreft de autorisatie
 
