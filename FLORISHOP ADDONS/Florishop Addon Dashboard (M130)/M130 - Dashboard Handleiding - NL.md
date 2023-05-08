@@ -31,7 +31,7 @@ Bij vragen of problemen, bel onze support afdeling.
 CMS zones zijn zogehete 'labels' welke toegewezen worden aan debiteuren en webshop pagina's, om zo te managen welke debiteuren welke pagina's zien. Een debiteur met een label/CMS zone toegewezen, ziet alle pagina's welk ook dit label/CMS zone heeft. Pagina's zonder CMS zone/label zijn zichtbaar voor iedereen, tenzij anders aangegeven in de zichtbaarheid van de pagina. Een visualisatie hiervan is hieronder te vinden:
 
 <details open>
-    <summary><b>:bulb: Klik hier voor uw afbeelding</b></summary>
+    <summary><b> Klik hier voor uw afbeelding</b></summary>
     <img src=".Dashboard Handleiding\media\image1.png"/>
 </details>
 
