@@ -11,7 +11,7 @@ Make sure the module is activated in your system before you start
 ## Table of contents
 
 [Operation](#operation)  
-[Choose handling on the Florishop](#handling-choose-on-the-florishop)  
+[Choose handling on the Florishop](#choose-handling-on-the-florishop)  
 [Create handling](#create-handling)
 
 ## Operation
