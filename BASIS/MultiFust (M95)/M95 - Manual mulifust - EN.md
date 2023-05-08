@@ -14,6 +14,8 @@ Make sure the module is activated in your system before you start
 [Choose handling on the Florishop](#handling-choose-on-the-florishop)  
 [Create handling](#create-handling)
 
+## Operation
+
 |Step|Explanation|
 |:-:|:--|
 |**1**|Navigate to the following path in the constants<Br> **System-> Handlings-> Handling codes** <details><summary><b>Click here for the example</b></summary><img src="Media en/image1.png"></details>|
