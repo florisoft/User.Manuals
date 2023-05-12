@@ -4,7 +4,7 @@
 
 Deze handleiding betreft de Florisoft module MultiFust volg de onderstaande stappen om deze module in te richten.
 
-Zorg ervoor dat de module geactiveerd is in uw systeem voodat u begint met de stappen van deze handleiding. 
+Zorg ervoor dat de module geactiveerd is in uw systeem voordat u begint met de stappen van deze handleiding. 
 
 **Let op:** *omdat Florisoft in constante doorontwikkeling is kan het zo zijn dat de screenshots afwijken met wat u op uw scherm ziet.*
 
