@@ -14,7 +14,7 @@ https://app.florisoft.nl/cc/fase2/cc.apk
 
 ## Cash & Carry App - Datalogic
 
-<img src="PNG images/QR Code CC-App datalogic.png" width="500" height="500">
+<img src="PNG images/Datalogic CC App QR.png" width="500" height="500">
 
 https://app.florisoft.nl/cc/Fase2/datalogic/cc.apk
 
