@@ -16,6 +16,8 @@ https://app.florisoft.nl/cc/fase2/cc.apk
 
 <img src="PNG images/QR Code CC-App datalogic.png" width="500" height="500">
 
+https://app.florisoft.nl/cc/Fase2/datalogic/cc.apk
+
 ## Price Sticker App
 
 <img src="PNG images/Sticker App QR.png" width="500" height="500">
