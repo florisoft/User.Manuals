@@ -82,4 +82,3 @@ Volg de onderstaande stappen om een artikelgroep een featuregroup te geven.
 |**1**|Indien de vorige stappen goed zijn doorlopen ziet u niet hartjes onder de artikelen op uw webshop.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Favourites Handleiding\image11.png"></details>|
 |**2**|Bij het aanklikken van een hartje favoriet u een artikel op de webshop. Artikelen met hetzelfde CARTNR krijgen automatisch een ingevuld hartje. <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Favourites Handleiding\image12.png"></details>|
 |**3**|Als u op het hartje klikt of op de favorieten productgroep ziet u uw favorieten artikelen. <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Favourites Handleiding\image13.png"></details>|
-
