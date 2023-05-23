@@ -69,7 +69,7 @@ Dit hoofdstuk gaat verder in op de hiervoor benoemde transport kosten.
 |**1**|Open het constanten scherm indien u die nog niet geopend had.|
 |**2**|Navigeer naar het volgende pad:<br>**Artikelen**→**Artikel informatie**→**Artikel groepen**|
 |**3**|Als er geen bestaande artikel groepen zijn kan u er een aan maken door op het + knopje te drukken.|
-|**4**|Bij het aanmaken van een nieuwe artikelgroep vult u de volgende informatie in: <br>- **Artikel groep**: artikel groep ID<br> - **Omschrijving**: de in het systeem zichtbare beschrijving van de artikel groep.<Br>- **Product groep:** Zet deze dropdown naar de optie '**Overig (888800)**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media_NL/image5.png"></details>|
+|**4**|Bij het aanmaken van een nieuwe artikelgroep vult u de volgende informatie in: <br>- **Artikel groep**: artikel groep ID<br> - **Omschrijving**: de in het systeem zichtbare beschrijving van de artikel groep.<Br>- **Product groep:** Zet deze dropdown naar de optie '**Overig (888800)**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media_NL/image6.png"></details>|
 |**5**|Klik de **Ok** knop om de nieuwe artikel groep op te slaan.|
 
 ### Assortiment

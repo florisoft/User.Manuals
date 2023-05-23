@@ -24,12 +24,12 @@ This module only works for lots with a commercial article number (CARTNR). For t
 
 |Step|Explanation|
 |:-:|:--|
-|**1**|Go to the constants and navigate to the following path: **Articles->Featuregroup commercial parcels**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Favourites Manual\image1.png"></details>|
+|**1**|Go to the constants and navigate to the following path: **Articles->Featuregroup commercial parcels**<details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image1.png"></details>|
 |**2**|Click on the "+" sign to add a feature group.|
-|**3**|Fill in the following values: <br>- **Code**: numirical identification code for the feature group.<br>- **Commercial articlenr.** Fill in a recognizable description in the system<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Favourites Manual\image2.png"></details>|
+|**3**|Fill in the following values: <br>- **Code**: numirical identification code for the feature group.<br>- **Commercial articlenr.** Fill in a recognizable description in the system<details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image2.png"></details>|
 |**4**|Under **Unique Commerical Artnr.** you can check values to include in the hash. In short, this means that the more values you check here, the more specific the feature group is.<br> <br>For example: Red naomi roses, if I only include the S1 (stem length) in a characteristic group, then every Red naomi with the same stem length will have the same commercial article number (CARTNR)<br> <br>But when ticking grower and S1 in the feature group, only articles with identical article number, stem length and grower have the same CARTNR. This means that when you favorite an article on the webshop, all articles with the same CARTNR will automatically be favoured.|
-|**5**|Check the values which you want to connect to the feature group. We suggest to start with S01 and the grower<br> **Pay attention**: *the articlenumber is always on, this is standardized.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Favourites Manual\image3.png"></details>|
-|**6**|Under the header **Uniqueness commercial parcel**you can change the feature group even further<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Favourites Manual\image4.png"></details>|
+|**5**|Check the values which you want to connect to the feature group. We suggest to start with S01 and the grower<br> **Pay attention**: *the articlenumber is always on, this is standardized.<details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image3.png"></details>|
+|**6**|Under the header **Uniqueness commercial parcel**you can change the feature group even further<details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image4.png"></details>|
 |**7**|Press the **OK** button to save|
 
 ## Linking commercial feature group to article group
@@ -38,9 +38,9 @@ Following the steps to give an article group a featuregroup.
 
 |Step|Explanation|
 |:-:|:--|
-|**1**|Navigate to the Constants screen:<br> **Articles->Article information->article groups**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Favourites Manual\image5.png"></details>|
-|**2**|Open the relevant article group and navigate to the folder **Commercial parcel**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Favourites Manual\image5.png"></details>|
-|**3**|In the dropdown feature group, fill in the relevant feature group<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Favourites Manual\image5.png"></details>|
+|**1**|Navigate to the Constants screen:<br> **Articles->Article information->article groups**<details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image5.png"></details>|
+|**2**|Open the relevant article group and navigate to the folder **Commercial parcel**<details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image5.png"></details>|
+|**3**|In the dropdown feature group, fill in the relevant feature group<details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image5.png"></details>|
 |**4**|This does not mean that all articles that fall under the article group now have a commercial article number. These will have to be created by scanning in the new stock|
 
 
@@ -50,9 +50,9 @@ Following the steps to give an article group a featuregroup.
 
 |Step|Explanation|
 |:-:|:--|
-|**1**|Navigate in the constants to" <br>**Articles-> article information-> article codes** <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Favourites Manual\image6.png"></details>|
-|**2**|Open a article code value and navigate to the tab: <br> **Commercial parcel**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Favourites Manual\image6.png"></details>|
-|**3**|In the dropdown field **Feature group** fill in the connected feature group. <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Favourites Manual\image6.png"></details>|
+|**1**|Navigate in the constants to" <br>**Articles-> article information-> article codes** <details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image6.png"></details>|
+|**2**|Open a article code value and navigate to the tab: <br> **Commercial parcel**<details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image6.png"></details>|
+|**3**|In the dropdown field **Feature group** fill in the connected feature group. <details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image6.png"></details>|
 |**4**|This does not mean that all articles that fall under this reference group automatically receive a CARTNR. This is only when reloading the items in stock|
 
 **It is not possible to put these changes over to other article codes**
@@ -60,19 +60,19 @@ Following the steps to give an article group a featuregroup.
 ## Transfer changes to other article groups
 |Step|Explanation|
 |:-:|:--|
-|**1**|WHen altering a feature group in an article group, you can use the button **Changes to**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Favourites Manual\image7.png"></details>|
+|**1**|WHen altering a feature group in an article group, you can use the button **Changes to**<details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image7.png"></details>|
 |**2**|Now you get to see a list of arcticle groups, make a saelection of the article groups which have the same feature groups|
-|**3**|Confirm your selection by pressing the **OK** button<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Favourites Manual\image8.png"></details>|
-|**4**|If everything went correcrlt, you should get an order confirmation <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Favourites Manual\image9.png"></details>|
+|**3**|Confirm your selection by pressing the **OK** button<details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image8.png"></details>|
+|**4**|If everything went correcrlt, you should get an order confirmation <details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image9.png"></details>|
 
 
 ## Turning on favourites on the florishop
 |Step|Explanation|
 |:-:|:--|
 |**1**|To use the favorites module on your webshop, you must also enable it on the webshop. Log in with a webshop management account|
-|**2**|Turn on admin(beheer) mode by clicking on the user icon and in the dropdown click on the **Management**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Favourites Manual\image10.png"></details>|
-|**3**|Next, click on **Configuration** and then on **Webshop settings**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Favourites Manual\image11.png"></details>|
-|**4**|You are now in the wbshop settings menu, search for the setting **FAVORIETCARTNR**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Favourites Manual\image12.png"></details>|
+|**2**|Turn on admin(beheer) mode by clicking on the user icon and in the dropdown click on the **Management**<details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image10.png"></details>|
+|**3**|Next, click on **Configuration** and then on **Webshop settings**<details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image11.png"></details>|
+|**4**|You are now in the wbshop settings menu, search for the setting **FAVORIETCARTNR**<details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image12.png"></details>|
 |**5**| Turn on this setting
 
 
