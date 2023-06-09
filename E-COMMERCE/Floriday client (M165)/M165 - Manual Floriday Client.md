@@ -2,7 +2,7 @@
 
 # Florisoft Manual Floriday Client Module (M165)
 
-This document describes what describes what is required and how to set up a Floriday Connection for a buyer with Florisoft. The stepwise explanation explains each setting and how it works with Floriday.
+This document describes what is required and how to set up a Floriday Connection for a buyer with Florisoft. The stepwise explanation explains each setting and how it works with Floriday.
 
 ## Table of contents
 
