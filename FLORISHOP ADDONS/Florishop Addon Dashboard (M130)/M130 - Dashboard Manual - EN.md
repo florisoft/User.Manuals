@@ -57,12 +57,12 @@ Log in to the webshop with a user that has admin privileges.<br>
 
 |Step|Explanation|
 |:-:|:--|
-|**1**|Once logged in open the user options(#1), select 'management'(#2) and navigate to 'CMS'(#3).|
+|**1**|Once logged in open the user options(#1), select 'management'(#2) and navigate to 'CMS'(#3).<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image4.png"></details>|
 |**2**|Inside the 'CMS' click on the plus sign next to the 'Categories' option.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image5.png"></details> |
 |**3**|A new screen should open, fill out the follwing fields:<br>1. **Category URL**: this will be visible in the URL. In the example below it would be: [www.webshop.nl/testdashboard/]()<br>2. **Category display name**: This is how the user will see in webshop navigator<br>3. **Is visible in the navigator**: By enabling this you make sure the category is visible on the webshop<br>4. Navigate to the tab 'Visibility'. <details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image6.png"></details> |
 |**4**|In the tab 'visibility' select the newly created CMS zone(#5) and save it.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image7.png"></details>|
 |**5**|After saving the category, go back to the black bar above and once again select CMS. Click on the plus sign next to pages.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image8.png"></details>|
-|**6**|A new screen will open, fill out the following fields:<br> 1. **URL**: this will be added at the end of the URL. The example image below would lead to the following URL: [www.webshop.nl/testdashboard/testdashboardpagina]()<br>2. **Page display name**: page name that is visible to the user on the webshop.<br>3. **Select a category**: Select the category that was created. <br>4. **Is visible in navigation**: This checkmark makes sure the page is visible for users (if the user has the rights). <br>5. **Zicthbaar in andere CMS componenten**: This makes sure the component is visible for other components. <br>6. Navigate to the tab 'visibility'.<br><details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image9.png"></details>|
+|**6**|A new screen will open, fill out the following fields:<br> 1. **URL**: this will be added at the end of the URL. The example image below would lead to the following URL: [www.webshop.nl/testdashboard/testdashboardpagina]()<br>2. **Page display name**: page name that is visible to the user on the webshop.<br>3. **Select a category**: Select the category that was created. <br>4. **Is visible in navigation**: This checkmark makes sure the page is visible for users (if the user has the rights). <br>5. **Zichtbaar in andere CMS componenten**: This makes sure the component is visible for other components. <br>6. Navigate to the tab 'visibility'.<br><details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image9.png"></details>|
 |**7**|Within the tab 'Visibility' add the newly created CMS zone and save it.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image10.png"></details>|
 
 The new page will be visible in the webshop's navigator for debtor's that have access to the page's CMS zone.
@@ -99,15 +99,16 @@ Navigate to a dashboard page using a user that has access to the CMS zone.
 
 :warning: This dashboard component makes use of SQL (or Sequel), a database querying language used to extract data. Please exercise caution when devising and implementing bespoke SQL queries, as creating suboptimal queries may lead to performance issues in your webshop. It is incumbent upon you to assume any risks associated with crafting and executing self-designed SQL queries. By utilizing this component, you acknowledge and accept these terms.
 
+:warning: SQL can be written in two dialects: ADS SQL and PostgreSQL. The editor uses ADS SQL as a standard. However, you can write in PostgreSQL by adding '--pg' at the top of your query.
 
 |Step|Explanation|
 |:-:|:--|
 |**1**|Enable **mangement** mode and start the editor.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image14.png"></details>|
 |**2**|Add a table under a column using the plus sign, the location itself is irrelevant.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media\image15.png"></details><br>:memo: : Make sure that there is enough space for the table to be clearly visbile.|
-|**3**|Select the tab 'Dashboard'(#1) and add a 'Tableview' component using the green plus sign.(#2)|
+|**3**|Select the tab 'Dashboard'(#1) and add a 'Tableview' component using the green plus sign.(#2)<details><summary><b>Click here for your image</b></summary><img src=".Dashboard Handleiding\media EN\image21.png"/></details><br>|
 |**4**|After adding the component, give the table a title <details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image25.png"></details><br>|
 |**5**|Add your query to the query editor by clicking on the white input field or the gereen button(#5).|
-|**6**|Before saving your query make sure to validate it. Do this by clicking on the green button that contains the checkmark. If the query is correct a notification should appear it executed succesfully, it the query was erroneous an error message should appear instead.|
+|**6**|Before saving your query make sure to validate it. Do this by clicking on the green button that contains the checkmark. If the query is correct a notification should appear it executed succesfully, it the query was erroneous an error message should appear instead.<details><summary><b>Click here for your image</b></summary><img src=".Dashboard Handleiding\media EN\image19.png"/></details><br><br> :warning: Make sure that the queries don't take longer than 1500ms!|
 
 If you have written a correct SQL query a table should appear.<details><summary><b>Click here for your image</b></summary><img src=".Dashboard Handleiding\media EN\image23.png"/></details><br>
 
@@ -173,7 +174,7 @@ Follow the steps below to configure a progressbar:
 |**3**|Select the 'Dashboard' tab and add a 'Progressbar' CMS component using the green plus sign.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image29.png"></details>|
 |**4**|After adding the component, give the progressbar a title(#1), colour(#2) and an amount of decimals(#3).<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image30.png"></details>|
 |**5**|Add two queries: one that returns the total value E.G. total stems sold and one that returns the partial value E.G. amount of stems sold online.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image31.png"></details> |
-|**6**|Make sure to validate both queries before saving them, do this by clicking on the green button(#1). If the SQL query is correct it will prompt a success message, and if the query is erroneous an error message will show. Only if the SQL query is syntactically you may save it.<br><br>:warning: **Do also make sure that the query doesn't take longer than 1500ms to complete.**|
+|**6**|Make sure to validate both queries before saving them, do this by clicking on the green button(#1). If the SQL query is correct it will prompt a success message, and if the query is erroneous an error message will show. Only if the SQL query is syntactically you may save it.<details><summary><b>Click here for your image</b></summary><img src=".Dashboard Handleiding\media EN\image19.png"/></details><br><br><br>:warning: **Do also make sure that the query doesn't take longer than 1500ms to complete.**|
 
 If you have written a correct query a progressbar should appear.
 
@@ -235,7 +236,7 @@ If the Query filter is set up correctly, the dropdown can be used to create a se
 |**1**|Add a PresetValueFilter to the FilterToolbar using the green plus sign.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image36.png"></details>|
 |**2**|Add a Keyword name and label, make sure these apptly describe their functionalities. Give the filter a default value and if a user can enter multiple values in to the filter.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image40.png"></details>|
 |**3**|Navigate to the 'Waardes' or 'Values' tab (#4).|
-|**4**|In the tab 'Values' or 'Waardes' you'll need to add all your PresetValue. Add an item (#1), enter a name(#2) and value(#3).<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image41.png"></details><br>:bulb: The name is the visual display of the value. In this screen you can create a descriptive name or more cryptic code.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image42.png"></details>|
+|**4**|In the tab 'Values' or 'Waardes' you'll need to add all your PresetValue. Add an item (#1), enter a name(#2) and value(#3).<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image41.png"></details><br>:bulb: The name is the visual display of the value. In this screen you can create a descriptive name for otherwise more cryptic code.<details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image42.png"></details>|
 
 If the PresetValueFilter is set correctly the dropdown can now be used to make a selection. The example image below in combination with the previous image gives a good insight in how the filter works.
 <details><summary><b>Click here for the example image!</b></summary><img src=".Dashboard Handleiding\media EN\image43.png"></details>
