@@ -32,7 +32,7 @@ You can set this up by following the steps below:
 |:-:|:--|
 |**1**|Open the constants and navigate to the following path: <br> Community-> supplierdata> suppliers|
 |**2**|Open the specific supplier and go to the subfolder **Connect**|
-|**3**|Use the dropdown under the heading **Floriday Connect** and select the right non-standard supplier|
+|**3**|Use the dropdown under the heading **Floriday Connect** and select the right non-standard supplier<details><summary><b>Click here for the example image!</b></summary><img src="Connect En/img3.png"></details>|
 
 
 
@@ -47,3 +47,4 @@ You can set this up by following the steps below:
 |**Debtor delivery times**|Constants -> community -> debtor data -> debtors -> debtorcard/internet/webservice :Delivery locations, delivery and order times per weekday|
 |**Debtor delivery locations**|Constants -> community -> debtor data -> debtors -> debtor card/addresses/delivery address: GLN code|
 
+<details><summary><b>Click here for the example image!</b></summary><img src="Connect En/img2.png"></details>
