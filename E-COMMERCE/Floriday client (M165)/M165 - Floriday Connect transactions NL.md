@@ -1,6 +1,6 @@
 <img src="../../fslogo.png" alt="Florisoft Corporate Logo">
 
-# Handleiding Floriday Connect - M165
+# Handleiding Floriday Connect NL - M165
 
 Welkom bij de Floriday Connect API handleiding. Met deze module kunt u verkooporders in sturen naar Floriday via de API. In deze handleiding leest u over de benodigde instellingen en welke informatie u moet verzamelen voor het versturen van verkooporders.
 
