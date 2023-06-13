@@ -47,5 +47,3 @@ In het geval een factuurregel een andere leverancierscode heeft dan de Floriday 
 *Bij het correct invullen van deze informatievelden kan er per orderregel een verzoek naar Floriday worden verstuurd. De onderstaande afbeelding geeft een voorbeeld van een verstuurde orderregel in de Floriday omgeving.*
 
 <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Connect/image2.png"></details>
-
-
