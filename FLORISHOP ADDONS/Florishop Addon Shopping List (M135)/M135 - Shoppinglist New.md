@@ -4,7 +4,7 @@
 
 Welkom bij de handleiding Florishop Shopping List Addon. In deze handleiding leest u wat er ingesteld moet worden en hoe je het kan gebruiken.
 
-**Disclaimer #1:** Deze module is alleen geschikt voor voorraden en werkt niet in combinatie met bestel- of hybridelijsten.
+**Disclaimer #1:** Deze module is op dit moment alleen geschikt voor voorraden en werkt niet in combinatie met bestel- of hybridelijsten.
 
 **Disclaimer #2:** De shopping list is op dit moment alleen beschikbaar voor de desktopweergave en niet voor de app of mobiele weergave.
 
