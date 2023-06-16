@@ -11,7 +11,7 @@ Welkom bij de handleiding Florishop Shopping List Addon. In deze handleiding lee
 
 ## Instellingen back-office
 
-*Debiteuren moeten gemachtigd zijn om partijen aan het orderoverzicht toe te voegen. Als dit niet het geval is dan worden de partijen niet weergegeven in de shoppin glist.*
+*Debiteuren moeten gemachtigd zijn om partijen aan het orderoverzicht toe te voegen. Als dit niet het geval is dan worden de partijen niet weergegeven in de shopping list.*
 
 *Volg de onderstaande stappen om dit in te stellen:*
 
