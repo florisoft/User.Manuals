@@ -2,7 +2,7 @@
 
 # Florisoft handleiding Florishop Addon Shopping List (M135)
 
-Welkom tot de Florishop Shopping List Addon handleiding. In deze handleiding leest u hoe wat er ingesteld moet worden en over het gebruik van deze module. 
+Welkom bij de handleiding Florishop Shopping List Addon. In deze handleiding leest u wat er ingesteld moet worden en hoe je het kan gebruiken.
 
 **Disclaimer #1:** Deze module is alleen geschikt voor voorraadlijsten en werkt niet met bestel- of hybridelijsten.
 
