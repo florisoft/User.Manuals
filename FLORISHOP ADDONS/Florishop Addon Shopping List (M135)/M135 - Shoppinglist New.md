@@ -39,12 +39,12 @@ Welkom bij de handleiding Florishop Shopping List Addon. In deze handleiding lee
 
 *In de Shopping list module zijn er verschillende manieren om een shopping list aan te maken. Hieronder worden ze beschreven:*
 
-### Shopping list aanmaken op een partij
+### Shopping list aanmaken vanuit een partij
 
 | Stap | Uitleg |
 |:----:|:-------|
 |  **1**  | In de voorraad ziet u bij elke voorraadpartij een shoppinglist-icoon. Klik op dit icoontje om het pop-upscherm te openen. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="new/image7.png"></details> |
-|  **2**  | In dit pop-upscherm kunt u ervoor kiezen om een bestaande shoppinglist te gebruiken of er zelf een aan te maken. |
+|  **2**  | In dit pop-up scherm kunt u ervoor kiezen om een bestaande shoppinglist te gebruiken of er zelf een aan te maken. |
 |  **2.a**  | Wilt u gebruikmaken van een bestaande lijst? Kies dan een shoppinglist uit de lijst met bestaande shoppinglists en klik op **Ok**. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="new/image8.png"></details> |
 |  **2.b**  | Wilt u een nieuwe lijst aanmaken? Klik dan op **Nieuwe shoppinglist toevoegen**, voer een naam in en klik op Ok. De partij waarvoor u de nieuwe shoppinglist heeft aangemaakt, wordt automatisch toegevoegd. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="new/image9.png"></details> |
 
