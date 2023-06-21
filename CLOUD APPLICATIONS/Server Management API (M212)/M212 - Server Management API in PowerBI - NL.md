@@ -84,3 +84,4 @@ in
 |Constants/Users|
 |Constants/Vats|
 |SalesHistory|
+|PurchaseHistory|
