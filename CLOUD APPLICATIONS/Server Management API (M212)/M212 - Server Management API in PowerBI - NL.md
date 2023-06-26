@@ -3,7 +3,7 @@
 In deze korte handleiding leest u hoe je de Florisoft Server Management API inleest in PowerBI.
 Deze handleiding is geschikt voor zowel intern als extern gebruik aangezien  het geen gevoellige gegevens bevat. Het is niet zo dat dit de meest efficiënte/makkelijkste manier van werken is, maar dit is de enige manier dat ik het werkend heb gekregen.
 
-**Voor het PowerBI query script dat gebruikt word in deze handleiding zie <a href="PowerBI_API_Query.txt">bijlage</a>**.
+**Voor het PowerBI query script dat gebruikt word in deze handleiding zie <a href="PowerBI Fotos/PowerBI_Query">bijlage</a>**.
 
 *Voor het uitvoeren van de onderstaande stappen is het van belang dat u beschikt over de volgende gegevens*:
 
