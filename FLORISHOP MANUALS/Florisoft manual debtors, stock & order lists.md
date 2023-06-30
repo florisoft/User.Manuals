@@ -162,8 +162,7 @@ Go through the following steps to authorize the order list:
 |**5**|In the field "Description" (#2) fill in the description you want to use for the order list, this is the description that can be seen in Florisoft<details><summary><b>Click here for the example image</b></summary><img src=".DSO/.media/img26.png"></details>|
 |**6**| Press OK (#4)|
 |**7**|Go to the tab Internet Access (#5) <details><summary><b>Click here for the example image</b></summary><img src=".DSO/.media/img25.png"></details>|
-|**8**|
-Turn on the checkmark "This orderlist is visible on the webshop"<details><summary><b>Click here for the example image</b></summary><img src=".DSO/.media/img27.png"></details>|
+|**8**|Turn on the checkmark "This orderlist is visible on the webshop"<details><summary><b>Click here for the example image</b></summary><img src=".DSO/.media/img27.png"></details>|
 |**9**|Choose the opening hours on the webshop (#3). If needed you can create them here: Community -> System -> Days and times -> times <details><summary><b>Click here for the example image</b></summary><img src=".DSO/.media/img27.png"></details>|
 |**10**|Click on "Debtors with access" to set up which debtors can see this order list. the following screen will open <details><summary><b>Click here for the example image</b></summary><img src=".DSO/.media/img28.png"></details>|
 

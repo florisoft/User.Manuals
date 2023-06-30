@@ -38,7 +38,7 @@ Wanneer er een aanbieding actief is voor een klant zal deze ook een aparte aanbi
 |:-:|:--|
 |**1**|Wanneer je deze aanbieding via Whatsapp wil versturen, kun je rechts klikken op de aanbieding en de aanbieding url kopieren.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding Active Email/media/image9.png"></details>|
 |**2**|Deze URL kun je plakken in Whatsapp web en op deze manier versturen.|
-|**3**|Het kan voorkomen dat je bij het kopieren van de URL de onderstaande melding krijgt. <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=""><img src=".Handleiding Active Email/media/image10.png"></details>
+|**3**|Het kan voorkomen dat je bij het kopieren van de URL de onderstaande melding krijgt. <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding Active Email/media/image10.png"></details>
 |**4**|Indien dit het geval is, moet je in de debiteurengegevens je FloriShop URL invullen zoals in onderstaand voorbeeld.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Handleiding Active Email/media/image11.png"></details>|
 
 ## Aanbiedingen kopiëren naar andere klanten
