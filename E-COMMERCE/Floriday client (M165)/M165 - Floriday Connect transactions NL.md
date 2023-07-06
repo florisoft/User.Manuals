@@ -47,3 +47,26 @@ In het geval een factuurregel een andere leverancierscode heeft dan de Floriday 
 *Bij het correct invullen van deze informatievelden kan er per orderregel een verzoek naar Floriday worden verstuurd. De onderstaande afbeelding geeft een voorbeeld van een verstuurde orderregel in de Floriday omgeving.*
 
 <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Connect/image2.png"></details>
+
+## Benodige informatie op de orderregels
+
+Voor het insturen van een aanvoerbrief op deze manier wordt de check of alle gegevens op de partijen vooraf gedaan ( in tegenstelling tot de 'oude' manier waar deze check achteraf gebeurde ( aperak/PTYVWD ). Om deze check uit te voeren hebben alle partijen die we willen afrekenen een TradeItemID nodig. Dit TradeItemID komt voort uit een bestelpartij, het komt er dus op neer dat alle factuurregels een bestelpartijnummer nodig hebben, de kolom hiervoor kun je aanzetten in het factuur wijzigen scherm.
+
+Dit TradeItemID komt dus voort uit een bestelpartij, deze bestelpartij moet worden gesycnhroniseerd zijn naar de Catalogus op het Floriday kwekers platform. We hebben 2 manieren om een TradeItemID te verkrijgen:
+
+Inrichten van de floriday module voor het aanbieden van partijen. Ook voor het plaatsen van aanbod op floriday is een TradeItem vereist, dit doen we door de bestellijst met aanbod open te zetten in de toegankelijke bestellijsten op de floridat debiteur.
+
+Wanneer je niet wilt aanbieden maar alleen wil afrekenen via Floriday kunnen we ook een TradeItem aanmaken bij het insturen van de aanvoerbrief, dit gaat als volgt:
+
+Op de leverancier waar we de API key hebben ingevuld kun je in het tabje Webservice --> Webservice Specifiek de bestellijst aangeven waarin de bestelpartijen moeten worden aangemaakt indien ze niet bestaan. Wanneer een factuurregel nog geen bestelpartijnr heeft maken we deze hier aan en daarnaa proberen we hem meteen te synchroniseren naar Floriday om een TradeItemID te verkrijgen. Wanneer een orderregel al wel een bestelpartijnummer proberen we de partij meteen te syncen. 
+Om een bestelpartij succesvol op floriday te krijgen moet de partij aan een aantal criteria voldoen:
+De partij moet een foto hebben.
+De sorteringskernmerken moeten gevuld zijn zoals verplicht volgens Floricode.
+Het aantal fusten per laag moet gevuld zijn.
+Het aantal lagen per kar moet gevuld zijn.
+
+Het kan best voorkomen dat een partij die je probeert te syncen niet aan aan van deze criteria voldoet, voor deze situaties kunnen we een template partij invullen ook in het tabje Webservice --> Webservice Specifiek op de Floriday leverancier.
+Hiervoor maak je dus een voorbeeld bestelpartij aan met daarin alle benodigde gegevens gevuld, wanneer we proberen te syncen en we missen gegevens dan zullen deze uit de template partij worden gehaald.
+
+![afbeelding](https://github.com/florisoft/User.Manuals/assets/78345253/95a25091-a82e-4f8c-8426-09ec0d7499dd)
+
