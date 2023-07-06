@@ -60,13 +60,14 @@ Wanneer je niet wilt aanbieden maar alleen wil afrekenen via Floriday kunnen we 
 
 Op de leverancier waar we de API key hebben ingevuld kun je in het tabje Webservice --> Webservice Specifiek de bestellijst aangeven waarin de bestelpartijen moeten worden aangemaakt indien ze niet bestaan. Wanneer een factuurregel nog geen bestelpartijnr heeft maken we deze hier aan en daarnaa proberen we hem meteen te synchroniseren naar Floriday om een TradeItemID te verkrijgen. Wanneer een orderregel al wel een bestelpartijnummer proberen we de partij meteen te syncen. 
 Om een bestelpartij succesvol op floriday te krijgen moet de partij aan een aantal criteria voldoen:
-De partij moet een foto hebben.
-De sorteringskernmerken moeten gevuld zijn zoals verplicht volgens Floricode.
-Het aantal fusten per laag moet gevuld zijn.
-Het aantal lagen per kar moet gevuld zijn.
+
+- De partij moet een foto hebben.
+- De sorteringskernmerken moeten gevuld zijn zoals verplicht volgens Floricode.
+- Het aantal fusten per laag moet gevuld zijn.
+- Het aantal lagen per kar moet gevuld zijn.
 
 Het kan best voorkomen dat een partij die je probeert te syncen niet aan aan van deze criteria voldoet, voor deze situaties kunnen we een template partij invullen ook in het tabje Webservice --> Webservice Specifiek op de Floriday leverancier.
 Hiervoor maak je dus een voorbeeld bestelpartij aan met daarin alle benodigde gegevens gevuld, wanneer we proberen te syncen en we missen gegevens dan zullen deze uit de template partij worden gehaald.
 
-![afbeelding](https://github.com/florisoft/User.Manuals/assets/78345253/95a25091-a82e-4f8c-8426-09ec0d7499dd)
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Connect/image4.png"></details>
 

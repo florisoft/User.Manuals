@@ -48,3 +48,26 @@ You can set this up by following the steps below:
 |**Debtor delivery locations**|Constants -> community -> debtor data -> debtors -> debtor card/addresses/delivery address: GLN code|
 
 <details><summary><b>Click here for the example image!</b></summary><img src="Connect EN/img2.png"></details>
+
+# Required information on the order lines
+
+Before submitting a delivery note in this way, the check whether all data on the lots is done in advance (in contrast to the 'old' way where this check was done afterwards ( aperak/PTYVWD ). To perform this check, all parties that we need a TradeItemID to pay.This TradeItemID originates from an order batch, so it comes down to the fact that all invoice lines require an order lot number, you can activate the column for this in the invoice change screen.
+
+This TradeItemID therefore originates from an order batch, this order batch must be synchronized to the Catalog on the Floriday growers platform. We have 2 ways to obtain a TradeItemID:
+
+Setting up the floriday module for offering batches. A TradeItem is also required for placing an offer on floriday. We do this by opening the order list with the offer in the accessible order lists on the florida debtor.
+
+If you do not want to offer, but only want to pay via Floriday, we can also create a TradeItem when submitting the delivery note, this is done as follows:
+
+At the supplier where we have entered the API key, you can indicate the order list in the Web service --> Web service Specific tab in which the order batches must be created if they do not exist. If an invoice line does not yet have an order lot number, we create it here and then immediately try to synchronize it to Floriday to obtain a TradeItemID. If an order line already has an order lot number, we try to sync the lot immediately.
+To successfully get an order batch on floriday, the batch must meet a number of criteria:
+
+- The parcel must have a photo.
+- The grading characteristics must be filled as required by Floricode.
+- The number of kegs per layer must be filled.
+- The number of layers per cart must be filled.
+
+It is quite possible that a party you are trying to sync does not meet these criteria, for these situations we can also fill in a template party in the tab Webservice --> Webservice Specific on the Floriday supplier.
+For this you create an example order batch with all the necessary data filled in, when we try to sync and we miss data, it will be removed from the template batch.
+
+<details><summary><b>Click here for the example image!</b></summary><img src="Connect EN/img4.png"></details>
