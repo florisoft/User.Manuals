@@ -91,7 +91,7 @@ Als alle testen succesvol zijn verlopen ziet u het onderstaande scherm:
 
 :warning: **LET OP!** :warning:
 
-*Als er op dezelfde machine meerdere monitors dienen te draaien (denk bijv. aan een virtual machine). Dan moeten de poortnummers afwijkend van elkaar zijn.*
+*Als er op dezelfde machine meerdere monitors dienen te draaien (denk bijv. aan een virtual machine) dan moeten de poortnummers afwijkend van elkaar zijn.*
 
 <details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src=".FloriShield.docx/media/image6.png"></details>
 
@@ -99,7 +99,7 @@ Als alle testen succesvol zijn verlopen ziet u het onderstaande scherm:
 
 ## FloriShield Client stoppen
 
-De FloriShield client kan niet gestop worden door op het kruisje te klikken. Dit is gedaan om te voorkomen dat iemand zomaar, per ongeluk de FloriShield client stopt. Als je toch op het kruisje klikt, dan wordt de FloriShield Client geminimaliseerd naar de System Tray en blijft gewoon doorlopen met controleren. 
+De FloriShield client kan niet gestopt worden door op het kruisje te klikken. Dit is gedaan om te voorkomen dat iemand zomaar, per ongeluk de FloriShield client stopt. Als je toch op het kruisje klikt, dan wordt de FloriShield Client geminimaliseerd naar de System Tray en blijft gewoon doorlopen met controleren. 
 
 <details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src=".FloriShield.docx/media/image7.png"></details>
 
