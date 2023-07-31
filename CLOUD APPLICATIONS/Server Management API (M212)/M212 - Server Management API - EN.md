@@ -416,9 +416,7 @@ The server management API has many different endpoints they are described in the
 
 **Request parameters:**
 
-- **productCode:** A string representing the code of the product for which the sales history is being retrieved.
-- **startDate:** A string representing the start date of the sales history period in the format YYYY-MM-DD.
-- **endDate:** A string representing the end date of the sales history period in the format YYYY-MM-DD.
+- **Version:** A long integer representing the version of the VAT. Only VATs with a version greater than this value will be returned.
 
 **Response parameters:**
 
