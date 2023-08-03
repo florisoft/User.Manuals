@@ -44,7 +44,7 @@ Om te zorgen dat een Florisoft client gemonitord kan worden dient dit aangezet t
 
 |Stap|Uitleg|
 |:--|:--|
-|**1**|Klik tweemaal op de gebruikersnaam links onder in de Florisoft Navigator. Dit opent een nieuw scherm.|
+|**1**|Klik tweemaal op de gebruikersnaam rechtsonder in de Florisoft Navigator. Dit opent een nieuw scherm.|
 |**2**|Klik nu op de knop '*inifiles*' aan de linkerkant van het scherm. Dit opent weer een nieuw scherm|
 |**3**|Selecteer nu in de '*inifile*' drop down '**FS2000**'. Dit update de onderstaand tabel.|
 |**4**|Scroll nu door naar de het instellingen tabje FloriShield en zet hier de FloriShield instelling op '**True**'. |
