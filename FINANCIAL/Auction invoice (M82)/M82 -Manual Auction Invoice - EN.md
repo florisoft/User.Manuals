@@ -11,28 +11,16 @@ Welcome to the manual for the module Auction invoice. The module Florisoft .Net 
 |Step|Explanation|
 |:--|:--|
 |**1**|In order to use the module properly, you will need to tell the auction you want to receive the auction invoice in .xml also.
-|**2**|Once you have received the .xml file, store it on your computer (don't make it too difficult to find), open Florisoft and right click on History.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Veilingfactuur Manual/media/image2.png" /></details> 
+|**2**|Once you have received the .xml file, store it on your computer (don't make it too difficult to find), open Florisoft and right click on History.<details><summary><b>Click here for the example image</b></summary><img src=".Veilingfactuur Manual/media/image2.png" /></details> 
 |**3**|Select "Veilingfactuur verwerken" or "Connect factuur inlezen" (based on which you would like to do).
-|**4**|Here you will have to select the .xml file from your computer in order for it to be read by Florisoft.
-
-*For both Veilingfactuur and Veiling connect factuur the steps below are the same.*
-
-
-<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Veilingfactuur Manual/media/image3.png" /></details>
- <br/>
-
-|Step|Explanation|
-|:--|:--|
-|**5**|Here you will have to fill in 2 fields, the invoicenr. and the total goods amount. Usually you will have a paper copy near, if not, the file name of the .xml should be the invoicenr. 
-|**6**|If you have the invoice as a .pdf, it is ofcourse easier and smarter to look there for the total goods amount.But you can also find the total goods amount in the .xml file. When opening the .xml file, you'll have to search for the total goods amount. This will be between 2 of </feram:ActualBillingMonetarySummation>, see image below. In this case the total goods amount is 360.900 .
-
-
-<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Veilingfactuur Manual/media/image4.png" /></details>
+|**4**|Here you will have to select the .xml file from your computer in order for it to be read by Florisoft.<Br>*For both Veilingfactuur and Veiling connect factuur the steps below are the same.*<details><summary><b>Click here for the example image</b></summary><img src=".Veilingfactuur Manual/media/image3.png" /></details>|
+|**5**|Here you will have to fill in 2 fields, the invoicenr. and the total goods amount. Usually you will have a paper copy near, if not, the file name of the .xml should be the invoicenr.| 
+|**6**|If you have the invoice at hand, on paper or .pdf you should be able to easily find the goods amount on it. In case you don't have this available to you, open the .xml file.<br> In the xml file you'll need to look for two pieces of code: <br><br> 1. Search the file for the following piece of text: Product aankopen. <br>2. On the line we found the piece of text look for </feram:ActualBillingMonetarySummation>, this should be shown twice on this line, in between the two pieces of code the goods amount is shown.<br><br>In this case, the amount is 360,900.<br>And in another example, the amount is 1,700.780. <details><summary><b>Click here for the example image</b></summary><img src=".Veilingfactuur Manual/media/image6.png" /></details>|
 
 
 Once you've entered the information and it's correct, the following screen will show.
 
-<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Veilingfactuur Manual/media/image5.png" /></details>
+<details><summary><b>Click here for the example image</b></summary><img src=".Veilingfactuur Manual/media/image5.png" /></details>
 
 <br/>
 
