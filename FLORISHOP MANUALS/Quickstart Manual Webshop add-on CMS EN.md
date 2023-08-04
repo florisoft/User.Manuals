@@ -18,7 +18,7 @@
 
 ## Creating CMS Zones
 
-Welcome to the quick start manual Content Management System. (CMS) The CMS offers customers the opportunity to merge the website and webshop into one attractive e-commerce platform. The first step in using the CMS is to create CMS zones.
+Welcome to the quick start manual Content Management System. (CMS) The CMS offers customers the opportunity to merge the website and webshop into one attractive e-commerce platform. The first step in using the CMS is creating CMS zones.
 
 A CMS zone is a defined area to which one or more debtors can be linked to. This means that the customers linked to a certain zone have access to the CMS components that are linked to the relevant zone. Zones act as a type of authorization for the CMS.
 

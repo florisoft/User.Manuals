@@ -54,4 +54,4 @@ This chapter will walk you through the handover screen.<br>*Follow the steps bel
 |**5**|Click on the button with the text "*Disc*" <details><summary><b>Click here for the example image</b></summary><img src=".Handover Manual/media/image7.png"></details>|
 
 
-*You may only hand over once per day to each auction. When something went wrong with the invoice that you handed over you may only correct it the day after. You can do this by clicking on the button* '*Execute Auction Direct Debit again*' *button. With this the selected invoices will be be set for to day so they can be handed over again.*
+*You can only hand over once per day to each auction. When something goes wrong with the invoice that you handed over you can only correct it the day after. You can do this by clicking on the button* '*Execute Auction Direct Debit again*' *button. With this the selected invoices will be be set for to day so they can be handed over again.*

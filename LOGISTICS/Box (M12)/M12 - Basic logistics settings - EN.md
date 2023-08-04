@@ -4,7 +4,7 @@
 
 The goal of this document is to show which settings will have to be adjusted in order to create the basic layout of the logistics regarding the Stocks, Box & pickorders. Ofcourse, there are a lot of different ways to do this.
 
-This is the best design and kay-out to give a customer who want to work with the "Pickorder-divide" strategy. This means that everything in transit should be in the box, and everything that has been deliverd in the pickorders. With this layout, this can be installed (almost) fully. The only difference is that the pickorders can be printed directly in the box, so you basically already removed some divisions. 
+This is the best design and lay-out to give a customer who want to work with the "Pickorder-divide" strategy. This means that everything in transit should be in the box, and everything that has been deliverd in the pickorders. With this layout, this can be installed (almost) fully. The only difference is that the pickorders can be printed directly in the box, so you basically already removed some divisions. 
 You can see everthing in the pickorders, but you can filter the pickorders so you can only see the parcels which are in.
 
 ## Table of contents
@@ -62,7 +62,7 @@ Activate Box active + the right stock. Also activate ' Don't carry out undivided
 <img src=".Basic logistics settings/media/image8.png"/>
 
 **Carry out 2 Tab**
-Activate ' Always create pickorder in thi stock'.
+Activate ' Always create pickorder in this stock'.
 
 <img src=".Basic logistics settings/media/image9.png"/>
 
@@ -111,12 +111,12 @@ Parcels which have been registerd in and the divisions will be shown in the pick
 
 ### Redividing
 
-If you have divided to a debtor, which in hindsight has to go to another debtor. You can redivide within the invoices.
+If you have divided to a debtor, which in hindsight has to go to another debtor, you can redivide within the invoices.
 
 <img src=".Basic logistics settings/media/image20.png"/>
 
 If the pickorder from the original customer has not yet been collected, so just has been printed. Then the existing pickorder will be converted to the new debtor.
-This applies to when the whole parcel is redivided, or when it's only a part of it.
+This applies both to when the whole parcel is redivided, and when it's only a part of it.
 
 You can also put certain variables on the sticker:
 HerverdelingDebnr(debnr from who had the division first)

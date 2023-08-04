@@ -16,7 +16,7 @@ In the future, a ***FloriShield IT Client*** and ***FloriShield Support Client**
 
 ### Florisoft client
 
-To ensure that a Florisoft client can be monitored, this must be enabled for the logged in user. For this, *FS-2000 FloriShield setting* must be set to **True**.
+To ensure that a Florisoft client can be monitored, this has to be enabled for the logged in user. For this, *FS-2000 FloriShield setting* has to be set to **True**.
 
 <details><summary><b>Click here for your example image!</b></summary><img src="florishield.eng/foto15.png"></details>
 
@@ -52,7 +52,7 @@ Open the Florisoft backoffice application so that we can check some FloriShield 
 |Step|Explanation|
 |:--|:--
 |**1**|Open the constants screen and navigate to the following path:<br>**System**→**FloriShield**<details><summary><b>Click here for your example image!<b></summary><img src="florishield.eng/image26.png">|
-|**2**|**Email:** Not working. We work with Telegram. <br>**Interval:** Time in seconds between 2 checks <br>**ProcessTime:** The maximum time a timer process is allowed to last in seconds <br>**Uri:** The address of the monitor service in the Florisof Client default is: net.tcp://localhost:8733/Design_Time_Addresses/Florisoft_Monitor_Service/MonitorService/ <br> **Password:** The password of the timer user who must be logged in<br> **User:** Username of the timer user who must be logged in|
+|**2**|**Email:** Does not work. We work with Telegram. <br>**Interval:** Time in seconds between 2 checks <br>**ProcessTime:** The maximum time a timer process is allowed to last in seconds <br>**Uri:** The address of the monitor service in the Florisof Client default is: net.tcp://localhost:8733/Design_Time_Addresses/Florisoft_Monitor_Service/MonitorService/ <br> **Password:** The password of the timer user who must be logged in<br> **User:** Username of the timer user who must be logged in|
 
 ## Controls
 

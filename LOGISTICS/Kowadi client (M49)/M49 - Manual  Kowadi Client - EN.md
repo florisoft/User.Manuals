@@ -21,7 +21,7 @@ Before working with the KoWaDi client some prerequisite requirements must be met
 
 *[Here you will find the way to check if the modules are enabled in Florisoft](#how-to-check-if-you-have-the-required-modules-enabled)*
 
-**2**. The customer must now arrenge an email account which is able to communicate with Florisoft through POP.
+**2**. The customer must now arrange an email account which is able to communicate with Florisoft through POP.
 
 *The information below is important in that regard and must be set by Florisoft*:
 

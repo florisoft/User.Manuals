@@ -12,7 +12,7 @@ Welcome to the Florisoft manual for the Export Multi User module. This module is
 
 ## Product Breakdown
 
-You can set various breakdowns per productgroup per country. You must create a separate invoice breakdown for this per country that you want to break down.
+You can set various breakdowns per productgroup per country. You have to create a separate invoice breakdown for this per country that you want to break down.
 
 In this example we split Azalea with the country of origin Turkey from other countries of origin.
 
@@ -25,7 +25,7 @@ In this example we split Azalea with the country of origin Turkey from other cou
 |**3**|You can now indicate a split code per article group, per country of origin. Navigate to the following path in the constants screen:<br>**Articles** → **Article Information** → **Article groups**.<details><summary><b>Click here for your example image</b></summary><img src=".Export_Multi_User_Manual/media/image3.png"></details>|
 |**4**|Now find and dubble click on the corresponding article group. This should open the article group configuration screen.|
 |**5**|Once in the next screen press the "Countryspec" button.<details><summary><b>Click here for your example image</b></summary><img src=".Export_Multi_User_Manual/media/image4.png"></details>|
-|**6**|Here are already split codes. To be able to split per country of origin, we have to click on the detail button. This way you can indicate per country how the articles should be divided. **NOTE:** Before you press the detail button, you must select the country you want to set it for. In the example above, we open a detail screen of the Netherlands.<details><summary><b>Click here for your example image</b></summary><img src=".Export_Multi_User_Manual/media/image5.png"></details>|
+|**6**|Here are already split codes. To be able to split per country of origin, we have to click on the detail button. This way you can indicate per country how the articles should be divided. **NOTE:** Before you press the detail button, you have to select the country you want to set it for. In the example above, we open a detail screen of the Netherlands.<details><summary><b>Click here for your example image</b></summary><img src=".Export_Multi_User_Manual/media/image5.png"></details>|
 |**7**|Type the splitcode you have made behind the country of origin. In this example we have made an extra splitcode for the Azalea Turkey which we would like to split.<details><summary><b>Click here for your example image</b></summary><img src=".Export_Multi_User_Manual/media/image6.png"></details>|
 
 ## IT Declaration
