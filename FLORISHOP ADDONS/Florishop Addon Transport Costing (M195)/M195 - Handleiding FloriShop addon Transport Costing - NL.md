@@ -94,6 +94,8 @@ Nu we een assortiment hebben aangemaakt kunnen we deze koppelen aan het order nu
 |**3**|In het assortiment dropdown selecteerd u hier het zojuist aangemaakte assortiment van het vorige hoofdstuk.|
 |**4**|U kan het ordernummerscherm nu sluiten|
 
+Let op: als bij de debiteur geen ordernummer staat ingesteld dan wordt op de webshop de 'gewone' vertrekdag kalender getoond.
+
 ### Webshop instellingen
 
 Om de transport kosten wizard aan te zetten op de webshop, volgt u de onderstaande stappen:
