@@ -42,6 +42,8 @@ We'll start by creating an order number, to do this follow the steps below:
 |**6**|Click on the '*Add*' button to add a new ordernumber, this should make a new window appear in the ordernumber window in which we'll enter the following information: <br><br>- **Code:** *nothing more than a identifier code*<br>- **Ordernumber**:*remember a maximum of four characters!*<br> - **Time to select**: Here you'll specify when you want the ordernumber to be active in the web shop.<br>- **Ordernumber type**: Pickup or delivery<br>- **Assortiment Artikelnummer**: here you can link an assortiment for things like delivery costs, more on this later.<br>- **Translations**: this text will come back in the wizard e.g. whether it's Pickup vs. Delivery. <details><summary><b>Click here for a filled in example image</b></summary><img src="Media_ENG/image3.png"></details>|
 |**7**|Click on the '*Ok*' buttons to save the newly created Order numbers.|
 
+Please note: if no order number has been set for the debtor, the 'normal' departure day calendar will be displayed on the webshop.
+
 ## Configuring debtors
 
 |Step|Explanation|
