@@ -85,3 +85,12 @@ in
 |Constants/Vats|
 |SalesHistory|
 |PurchaseHistory|
+|BandRef|
+|BandRefLog|
+|CustomerOrders|
+|OrderlistAssortment|
+|OrderlistComponents|
+|Constants/Bands|
+|Constants/Carriers|
+|Constants/CustomerGroups|
+|Constants/CustomerGroupRelations|
