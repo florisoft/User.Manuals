@@ -65,7 +65,7 @@ in
     output
 ```
 
-|Endpoint|
+|Endpoints|
 |:--|
 |Constants/ArticleGroups|
 |Constants/Articles|
@@ -94,3 +94,9 @@ in
 |Constants/Carriers|
 |Constants/CustomerGroups|
 |Constants/CustomerGroupRelations|
+|DivisionPriceLog|
+|InvoiceCredits|
+|OutstandingInvoices|
+|PackageHistory|
+|Payments|
+|Shoplog|
