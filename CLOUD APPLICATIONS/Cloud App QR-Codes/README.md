@@ -10,7 +10,7 @@ The QR codes below will take you to the download page for each application, the 
 
 <img src="PNG images/C&C App QR.png" width="500" height="500">
 
-https://app.florisoft.nl/cc/fase2/cc.apk
+https://app.florisoft.nl/Apps/Sales.POS/latest/Android/com.Florisoft.Sales.POS-Signed.apk
 
 ## Cash & Carry App - Datalogic
 
