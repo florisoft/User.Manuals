@@ -64,6 +64,58 @@ let
 in
     output
 ```
+If you want to read in the API with multiple version numbers:
+
+```power query language
+let
+    GetDataFromAPI = (relativePath, versionNumber) =>
+        let
+            // ENTER BASE URL HERE
+            PARAM_API_BASE_URL = "URL HERE/" & "api/Management/",
+            Requestbody = "{""version"": """ & Text.From(versionNumber) & """}",
+            // ENTER USERNAME HERE
+            PARAM_USER = "USERNAME!",
+            // ENTER PASSWORD HERE
+            PARAM_PW = "PASSWORD !",
+            Bron = Json.Document(
+                Web.Contents(
+                    PARAM_API_BASE_URL,
+                    [
+                        RelativePath = relativePath,
+                        Content = Text.ToBinary(Requestbody),
+                        Headers = 
+                        [
+                            Authorization = "Basic " & Binary.ToText(Text.ToBinary(PARAM_USER & ":" & PARAM_PW), BinaryEncoding.Base64)
+                        ]
+                    ]
+                )
+            ),
+            veldnaam = List.First(Record.FieldValues(Bron)),
+            tabel = Table.FromRecords(veldnaam)
+        in
+            tabel,
+
+    // Function to make API calls with version numbers in steps of 1000
+    GetAPIResults = (relativePath, optional maxVersionNumber) =>
+        let
+            // Set the default maximum version number and step
+            defaultMaxVersion = 10000, // You can change this default value
+            step = 2000,
+            maxVersion = if maxVersionNumber <> null then maxVersionNumber else defaultMaxVersion,
+            versionList = List.Generate(
+                () => 0,
+                each _ <= maxVersion,
+                each _ + step
+            ),
+            results = List.Combine(List.Transform(versionList, each {GetDataFromAPI(relativePath, _)}))
+        in
+            Table.Combine(results),
+
+    // Call the function with the desired relative path and maximum version number
+    output = GetAPIResults("Constants/Growers",10000) // No version number specified, default is 0
+in
+    output
+```
 
 |Endpoints|
 |:--|
