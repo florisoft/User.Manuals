@@ -64,19 +64,19 @@ let
 in
     output
 ```
-If you want to read in the API with multiple version numbers:
+If you want to read in the API with multiple version numbers **warning** this might slow down your dashboard, use cautiously!
 
 ```power query language
 let
     GetDataFromAPI = (relativePath, versionNumber) =>
         let
             // ENTER BASE URL HERE
-            PARAM_API_BASE_URL = "URL HERE/" & "api/Management/",
+            PARAM_API_BASE_URL = "URL HERE!" & "api/Management/",
             Requestbody = "{""version"": """ & Text.From(versionNumber) & """}",
             // ENTER USERNAME HERE
-            PARAM_USER = "USERNAME!",
+            PARAM_USER = "USERNAME HERE!",
             // ENTER PASSWORD HERE
-            PARAM_PW = "PASSWORD !",
+            PARAM_PW = "PASSWORD HERE!",
             Bron = Json.Document(
                 Web.Contents(
                     PARAM_API_BASE_URL,
@@ -94,25 +94,33 @@ let
             tabel = Table.FromRecords(veldnaam)
         in
             tabel,
-
-    // Function to make API calls with version numbers in steps of 1000
-    GetAPIResults = (relativePath, optional maxVersionNumber) =>
+    
+    CollectData = (relativePath) =>
         let
-            // Set the default maximum version number and step
-            defaultMaxVersion = 10000, // You can change this default value
-            step = 2000,
-            maxVersion = if maxVersionNumber <> null then maxVersionNumber else defaultMaxVersion,
-            versionList = List.Generate(
-                () => 0,
-                each _ <= maxVersion,
-                each _ + step
-            ),
-            results = List.Combine(List.Transform(versionList, each {GetDataFromAPI(relativePath, _)}))
-        in
-            Table.Combine(results),
+            initial_data = GetDataFromAPI(relativePath, 0),
 
-    // Call the function with the desired relative path and maximum version number
-    output = GetAPIResults("Constants/Growers",10000) // No version number specified, default is 0
+            GetHighestVersion = (data) =>
+            let
+                highest_version = List.Max(Table.Column(data, "version"))
+            in
+                highest_version,
+
+            initial_version = GetHighestVersion(initial_data),
+
+            RecursiveFunction = (data, version) =>
+                let
+                    temp_data = GetDataFromAPI(relativePath, version),
+                    returnData = 
+                        if Table.RowCount(temp_data) <> 0 then
+                            @RecursiveFunction(Table.Combine({data, temp_data}), GetHighestVersion(temp_data))
+                        else
+                            data
+                in
+                    returnData
+        in
+            RecursiveFunction(initial_data, initial_version),
+
+output = CollectData("Constants/Articles")
 in
     output
 ```
