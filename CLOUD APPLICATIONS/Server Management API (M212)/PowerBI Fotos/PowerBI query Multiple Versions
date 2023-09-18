@@ -1,0 +1,56 @@
+let
+    GetDataFromAPI = (relativePath, versionNumber) =>
+        let
+            // ENTER BASE URL HERE
+            PARAM_API_BASE_URL = "URL HERE!" & "api/Management/",
+            Requestbody = "{""version"": """ & Text.From(versionNumber) & """}",
+            // ENTER USERNAME HERE
+            PARAM_USER = "USERNAME HERE",
+            // ENTER PASSWORD HERE
+            PARAM_PW = "PASSWORD HERE",
+            Bron = Json.Document(
+                Web.Contents(
+                    PARAM_API_BASE_URL,
+                    [
+                        RelativePath = relativePath,
+                        Content = Text.ToBinary(Requestbody),
+                        Headers = 
+                        [
+                            Authorization = "Basic " & Binary.ToText(Text.ToBinary(PARAM_USER & ":" & PARAM_PW), BinaryEncoding.Base64)
+                        ]
+                    ]
+                )
+            ),
+            veldnaam = List.First(Record.FieldValues(Bron)),
+            tabel = Table.FromRecords(veldnaam)
+        in
+            tabel,
+    
+    CollectData = (relativePath) =>
+        let
+            initial_data = GetDataFromAPI(relativePath, 0),
+
+            GetHighestVersion = (data) =>
+            let
+                highest_version = List.Max(Table.Column(data, "version"))
+            in
+                highest_version,
+
+            initial_version = GetHighestVersion(initial_data),
+
+            RecursiveFunction = (data, version) =>
+                let
+                    temp_data = GetDataFromAPI(relativePath, version),
+                    returnData = 
+                        if Table.RowCount(temp_data) <> 0 then
+                            @RecursiveFunction(Table.Combine({data, temp_data}), GetHighestVersion(temp_data))
+                        else
+                            data
+                in
+                    returnData
+        in
+            RecursiveFunction(initial_data, initial_version),
+
+output = CollectData("Constants/Articles")
+in
+    output
