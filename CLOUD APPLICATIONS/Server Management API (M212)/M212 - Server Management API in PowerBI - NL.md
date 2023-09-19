@@ -74,9 +74,9 @@ let
             PARAM_API_BASE_URL = "URL HERE!" & "api/Management/",
             Requestbody = "{""version"": """ & Text.From(versionNumber) & """}",
             // ENTER USERNAME HERE
-            PARAM_USER = "USERNAME HERE!",
+            PARAM_USER = "USERNAME HERE",
             // ENTER PASSWORD HERE
-            PARAM_PW = "PASSWORD HERE!",
+            PARAM_PW = "PASSWORD HERE",
             Bron = Json.Document(
                 Web.Contents(
                     PARAM_API_BASE_URL,
