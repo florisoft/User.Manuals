@@ -15,8 +15,23 @@ Dit document bescrhijft de werking van de Cash & Carry touch applicatie. De Cash
 
 ## Inhoudsopgave
 
+
+[Systeem gebruiker instelling verkoper of kassa](#systeem-gebruiker-instelling-verkoper-of-kassa)
 [Stappen vanuit de verkoper](#stappen-vanuit-de-verkoper)  
 [Afrekenen](#afrekenen)  
+
+## Systeem gebruiker instelling verkoper of kassa
+
+U kunt per gebruiker aangeven of deze een kassa of verkoper gebruiker is.
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Open de constanten en navigeer naar het pad:<br>**Systeem→Users→System users**|
+|**2**|Open een gebruiker en klik op de INIfiles knop. |
+|**3**|Klik op de dropdown en kies voor de optie **FS_KASSA**.|
+|**4**|Zoek naar de optie (F3) **CashCarryTouchModusType**, zet deze instelling op **Koop invoer** als de gebruiker een verkoper is en op **afrekenen** als de gebruiker bij de kassa gebruikt word.|
+
+
 
 ## Stappen vanuit de verkoper
 
