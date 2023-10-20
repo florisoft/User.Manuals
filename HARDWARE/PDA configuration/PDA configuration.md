@@ -23,9 +23,9 @@ To get this done certain settings need to be set on the (domain)user accounts of
 
 1. Log into the environment (server) where the user accounts are defined. In most cases this will be a machine which acts as a domain controller.<br><br>
 
-2. Open the concerning PDA user, eg. PDA1 or HT1 by double clicking on its name. The users' Properties windows open. See the screenshot below:<br><br>
+2. Open the concerning PDA user, eg. PDA01 or HT11 by double clicking on its name. The users' Properties windows open. See the screenshot below:<br><br>
 
-![](images/2022-07-08-13-04-22.png)
+![](images/2023-08-03-15-50-02.png)
 
 3. Navigate to the Account tab. (no. 1)<br><br>
 
@@ -33,15 +33,23 @@ To get this done certain settings need to be set on the (domain)user accounts of
 
 5. Select the concerning domain in the adjacent dropdown (no. 3)<br><br>
 
-6. Fill in FLORISOFTCLOUD\ in the User logon name (pre-Windows 2000): field (no. 4)<br><br>
+6. Fill in the correct domain in the User logon name (pre-Windows 2000): field (no. 4)
 
-7. Fill in the value [machinename_username] in the adjacent field. (no. 5)<br><br>
+How to know the correct domain name? This depends on the type of cloud environment. See below for the most common cloud environments that are used in combination with Florisoft:
+
+**Reset:** FPC\
+**Reset (private cloud):** FSPC\
+**Axxon:** FLORISOFTCLOUD\
+**Auton:** FLORICLOUD\
+**BMP:** FLORISOFT-CLOUD
+
+7. Fill in the value [username_customercode] in the adjacent field. (no. 5)<br><br>
 
 8. Check the Password never expires tick (no. 6) in the Account options section.<br><br>
 
 9. Click the Environment tab (no. 7)<br><br>
 
-![](images/2022-07-08-13-28-35.png)
+![](images/2023-08-03-16-22-52.png)
 
 10. Tick the Start the following program at logon: checkmark. (no. 8)<br><br>
 
@@ -49,7 +57,7 @@ To get this done certain settings need to be set on the (domain)user accounts of
 
 >**Pay attention: please add the /U: and /P: parameters after the closing double apostrophe behind florisoft 2000.exe. Give them the Florisoft username and password as values. This ensures that this Windows user is linked to a specific PDA user in Florisoft.**
 
-The default way of working with PDA's in Florisoft is to give them their own client folder. In most cases the client folder for PDA's is called something like FSNETHT, FSNETPDA, or one of those names followed by a serial number like FSNETHT1, FSNETPDA2, etc. (no. 10)
+The default way of working with PDA's in Florisoft is to give them their own client folder. In most cases the client folder for PDA's is called something like FSNETHT, FSNETPDA, or one of those names followed by a serial number like FSNETHT01, FSNETPDA02, etc. (no. 10)
 
 12. Fill in the Start in field (no. 11) the same value as in the Program file name field (no. 9) but remove everyting after Splash\ <br><br>
 
