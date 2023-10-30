@@ -13,7 +13,7 @@ In deze handleiding leest u over de werking van de Florisoft karopbouw app in sa
 [Downloaden en installeren](#downloaden-en-installeren)  
 [Werkproces karopbouw app](#werkproces-karopbouw-app)  
 [Correcties maken](#correcties-maken)  
-[Kar overzetten](#kar-overzetten)
+[Kar overzetten](#kar-overzetten)  
 [Fustdragers instellen](#fustdragers-instellen)  
 
 ## Downloaden en installeren
