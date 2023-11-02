@@ -9,22 +9,47 @@ Welcome to the Florisoft manual about the Server Management API module. This mod
 [Table of contents](#table-of-contents)  
 [Authorizing a user](#authorizing-a-user)  
 [Endpoints](#endpoints)  
-[Article groups](#articlegroups)  
 [Articles](#articles)  
+[Articlegroups](#articlegroups)  
+[Band](#band)  
+[Carriers](#carriers)  
 [Customers](#customers)  
-[Customercountries](#customerscountries)  
+[CustomerGroups](#customergroups)  
+[CustomerGroupRelations](#customergrouprelations)  
+[Countries](#countries)  
+[Currencies](#currencies)  
 [Divisions](#divisions)  
-[Division methods](#divisionmethods)  
-[Grower](#grower)
-[Financial administration](#financial-administration)  
+[Divisionmethods](#divisionmethods)  
+[Financial administrations](#financialadministrations)  
+[Growers](#growers)  
 [Packages](#packages)  
-[Productgroups](#productgroups)  
+[Producgroups](#productgroups)  
 [Sellers](#sellers)  
-[Suppliers](#suppliers)  
 [Stocks](#stocks)  
+[Suppliers](#suppliers)  
 [Users](#users)  
-[VATS](#vats)  
-[Sales history](#sales-history)
+[Vats](#vats)  
+[Bandref](#bandref)  
+[Bandreflog](#bandreflog)  
+[Customer orders](#customerorders)  
+[Sales Divisions](#salesdivisions)  
+[Division Price Log](#divisionpricelog)  
+[Invoice credits](#invoicecredits)  
+[Orderlist Assortment](#orderlistassortment)  
+[Orderlist components](#orderlistcomponents)  
+[Outstanding invoices](#outstandinginvoices)  
+[Package history](#packagehistory)  
+[Payment History](#paymenthistory)  
+[Purchase History](#purchasehistory)  
+[Payments](#payments)  
+[Shipments](#shipments)  
+[Sales History](#saleshistory)  
+[Order approvals](#orderapprovals)  
+[Sales History Cost and Rebates](#saleshistorycostandrebates)  
+[Sales History Bouquets](#saleshistorybouquets)  
+[Sales History Invoice Headers](#saleshistoryinvoiceheaders)   
+[Shoplog](#shoplog)   
+
 
 ## Authorizing a user
 
@@ -43,447 +68,1156 @@ System users must be granted special permission to do so. Please follow the step
 
 The server management API has many different endpoints they are described in the following chapters.
 
-## ArticleGroups
-
-**Endpoint name:** ArticleGroups  
-**Description:** This endpoint is used to retrieve a list of article groups from the database.
-
-**Request parameters:**
-
-- **Version:** A long integer representing the version of the article groups. Only article groups with a version greater than this value will be returned.
-
-**Response parameters:**  
-
-- **ArticleGroupRows:** A list of Domain.ArticleGroupRow objects representing the retrieved article groups. Each article group has the following properties:id: A string representing the article group code.
-
-- **Description:** A string representing the description of the article group.
-
-- **Version**: A long integer representing the version of the article group.
-
-**Error message**: A string representing an error message if an error occurs during the retrieval process. This parameter is set to null if there is no error.
-
-**User constraints:**"
-
-- The endpoint is restricted to users who have the Management API module activated and the required authorization code (971).
-
-- The maximum number of article groups that can be retrieved is 70000.
-
-## Articles
-
-**Endpoint name:** Articles  
-**Description:** This endpoint is used to retrieve a list of articles from the database.  
-**Request parameters:**  
-
-- **Version:** A long integer representing the version of the articles. Only articles with a version greater than this value will be returned.
-
-**Response parameters:**
-
-- **ArticleRows**: A list of Domain.ArticleRow objects representing the retrieved articles. Each article has the following properties:id: A string representing the article code.
-
-- **Description**: A string representing the description of the article.
-
-- **Version:** A long integer representing the version of the article.
-
-**Error message**: A string representing an error message if an error occurs during the retrieval process. This parameter is set to null if there is no error.
-
-**User constraints:**"
-
-- The endpoint is restricted to users who have the Management API module activated and the required authorization code (971).
-
-- The maximum number of article groups that can be retrieved is 70000.
-
-## Customers
-
-**Endpoint name:** Customers  
-**Description:** This endpoint is used to retrieve a list of customers from the database.  
-
-**Request parameters:**
-
-- Version: A long integer representing the version of the customer. Only customers with a version greater than this value will be returned.
-
-**Response parameters**:
-
-- **customerRows:** A list of Domain.customerRow objects representing the retrieved customers. Each customer has the following properties  A string representing the customer code.
-
-- **Name:** A string representing the name of the customer.
-
-- **Version:** A long integer representing the version of the customer.
-
-**ErrorMessage:** A string representing an error message if an error occurs during the retrieval process. This parameter is set to null if there is no error.
-
-**Usage constraints**:
-
-- The endpoint is restricted to users who have the Management API module activated and the required authorization code (971).
-- The maximum number of customers that can be retrieved is 70000.
-
-## CustomersCountries
-
-**Endpoint name:** CustomersCountries  
-**Description**: This endpoint is used to retrieve a list of customers countries from the database.  
-
-**Request parameters:**
-
-- **Version:**  A long integer representing the version of the customer countries. Only customer countries with a version greater than this value will be returned.
-
-**Response parameters:**
-
-- **customerCountryRows:** A list of Domain.customerCountryRow objects representing the retrieved customers. Each customer has the following properties  A string representing the customer country code.
-- **Description:** A string representing the description of the customer country.
-- **Version:** A long integer representing the version of the customer country.
-
-**ErrorMessage:** A string representing an error message if an error occurs during the retrieval process. This parameter is set to null if there is no error.
-
-**Usage constraints:**
-
-- The endpoint is restricted to users who have the Management API module activated and the required authorization code (971).
-- The maximum number of customer countries that can be retrieved is 70000.
-
-## Currencies
-
-**Endpoint name:** Currencies  
-**Description:** This endpoint is used to retrieve a list of currencies from the database.  
-
-**Request parameters:**
-
-- **Version:** A long integer representing the version of the currencies. Only currencies with a version greater than this value will be returned.
-
-**Response parameters:**
-
-- **currencyRows:** A list of Domain.currencyRow objects representing the retrieved currency. Each currency has the following properties  A string representing the currency code.
-
-- **Description:** A string representing the description of the currency.
-- **Version:** A long integer representing the version of the currency.
-
-**ErrorMessage:** A string representing an error message if an error occurs during the retrieval process. This parameter is set to null if there is no error.
-
-**Usage constraints**:
-
-- The endpoint is restricted to users who have the Management API module activated and the required authorization code (971).
-- The maximum number of currencies that can be retrieved is 70000.
-
-## Divisions
-
-**Endpoint name:** Divisions  
-**Description:** This endpoint is used to retrieve a list of divisions from the database.  
-
-**Request parameters:**
-
-- Version: A long integer representing the version of the divisions. Only divisions with a version greater than this value will be returned.
-
-**Response parameters:**
-
-- **divisionRows:** A list of Domain.divisionRow objects representing the retrieved division. Each division has the following properties  A string representing the division code.
-
-- **Description:** A string representing the description of the division.
-- **Version:** A long integer representing the version of the division.
-
-**ErrorMessage:** A string representing an error message if an error occurs during the retrieval process. This parameter is set to null if there is no error.
-
-**Usage constraints:**
-
-- The endpoint is restricted to users who have the Management API module activated and the required authorization code (971).
-- The maximum number of divisions that can be retrieved is 70000.
-
-## DivisionMethods
-
-**Endpoint name:** DivisionMethods  
-**Description:** This endpoint is used to retrieve a list of division methods from the database. 
-
-**Request parameters:**
-
-- **Version:** A long integer representing the version of the division methods. Only division methods with a version greater than this value will be returned.
-
-**Response parameters:**
-
-- **DivisionMethodsRows:** A list of Domain.divisionMethodRows objects representing the retrieved division method. Each division method has the following properties  A string representing the division method code.
-
-- **Description:** A string representing the description of the division method.
- ErrorMessage: A string representing an error message if an error occurs during the retrieval process. This parameter is set to null if there is no error.
-
-**Usage constraints:**
-
-- The endpoint is restricted to users who have the Management API module activated and the required authorization code (971).
-- The maximum number of division methods that can be retrieved is 70000.
-
-## Grower
-
-**Endpoint name:** Growers  
-**Description:** This endpoint is used to retrieve a list of growers from the database.  
-**Request parameters:**
-
-- **Version:** A long integer representing the version of the growers. Only growers with a version greater than this value will be returned.
-
-**Response parameters:**
-
-- **growerRows:** A list of Domain.growerRow objects representing the retrieved grower. Each grower has the following properties  A string representing the grower code.
-- **Description:** A string representing the description of the grower.
-- **Version:** A long integer representing the version of the grower.
-- **EAN-code:** A long integer representing the EANcode of the grower
-
-**ErrorMessage:** A string representing an error message if an error occurs during the retrieval process. This parameter is set to null if there is no error.
-
-**Usage constraints:**
-
-- The endpoint is restricted to users who have the Management API module activated and the required authorization code (971).
-- The maximum number of growers that can be retrieved is 70000.
-
-## Financial Administration
-
-**Endpoint name:** Financial administration
-**Description:** This endpoint is used to retrieve a list of the financial administrations from the database.
-**Request parameters:**
-
-- **Version:** A long integer representing the version of the financial administrations. Only the financial administrations with a version greater than this value will be returned.
-
-**Response parameters:**
-
-- **BLANK:** A list of Domain.BLANK objects representing the retrieved financial administration. Each financial administration has the following properties  A string representing the financial administration code.
-- **Description:** A string representing the description of the financial administration.
-- **Version:** A long integer representing the version of the financial administration.
-
-**ErrorMessage**: A string representing an error message if an error occurs during the retrieval process. This parameter is set to null if there is no error.
-
-**Usage constraints:**
-
-- The endpoint is restricted to users who have the Management API module activated and the required authorization code (971).
-- The maximum number of financial administrations that can be retrieved is 70000.
-
-## Packages
-
-**Endpoint name:** Packages
-
-**Description:** This endpoint is used to retrieve a list of packages from the database.
-
-**Request parameters:**
-
-- **Version:** A long integer representing the version of the package. Only packages with a version greater than this value will be returned.
-
-**Response parameters:**
-
-- **PackageRows:** A list of Domain.packageRow objects representing the retrieved package. Each package has the following properties:
-    - A string representing the package code.
-    - Description: A string representing the description of the package.
-    - Version: A long integer representing the version of the package.
-
-- **ErrorMessage:** A string representing an error message if an error occurs during the retrieval process. This parameter is set to null if there is no error.
-
-**Usage constraints:**
-
-- The endpoint is restricted to users who have the Management API module activated and the required authorization code (971).
-- The maximum number of packages that can be retrieved is 70000.
-
-## Productgroups
-
-**Endpoint name:** ProductGroups
-
-**Description:** This endpoint is used to retrieve a list of product groups from the database.
-
-**Request parameters:**
-
-- **Version:** A long integer representing the version of the product group. Only product groups with a version greater than this value will be returned.
-
-**Response parameters:**
-
-- **ProductGroupRows:** A list of Domain.productGroupRow objects representing the retrieved product group. Each product group has the following properties:
-    - A string representing the product group code.
-    - Description: A string representing the description of the product group.
-    - Version: A long integer representing the version of the product group.
-
-- **ErrorMessage:** A string representing an error message if an error occurs during the retrieval process. This parameter is set to null if there is no error.
-
-**Usage constraints:**
-
-- The endpoint is restricted to users who have the Management API module activated and the required authorization code (971).
-- The maximum number of product groups that can be retrieved is 70000.
-
-## Sellers
-
-**Endpoint name:** Sellers
-
-**Description:** This endpoint is used to retrieve a list of sellers from the database.
-
-**Request parameters:**
-
-- **Version:** A long integer representing the version of the seller. Only sellers with a version greater than this value will be returned.
-
-**Response parameters:**
-
-- **SellerRows:** A list of Domain.sellerRow objects representing the retrieved seller. Each seller has the following properties:
-    - A string representing the seller code.
-    - Name: A string representing the name of the seller.
-    - Version: A long integer representing the version of the seller.
-
-- **ErrorMessage:** A string representing an error message if an error occurs during the retrieval process. This parameter is set to null if there is no error.
-
-**Usage constraints:**
-
-- The endpoint is restricted to users who have the Management API module activated and the required authorization code (971).
-- The maximum number of sellers that can be retrieved is 70000.
-
-## Suppliers
-
-**Endpoint name:** Suppliers
-**Description:** This endpoint is used to retrieve a list of suppliers from the database.
-
-**Request parameters:**
-- **Version:** A long integer representing the version of the supplier. Only suppliers with a version greater than this value will be returned.
-
-**Response parameters:**
-- **supplierRows:** A list of Domain.supplierRow objects representing the retrieved supplier. Each supplier has the following properties: A string representing the supplier code.
-- **Name:** A string representing the name of the supplier.
-- **Version:** A long integer representing the version of the supplier.
-- **ErrorMessage:** A string representing an error message if an error occurs during the retrieval process. This parameter is set to null if there is no error.
-
-**Usage constraints:**
-- The endpoint is restricted to users who have the Management API module activated and the required authorization code (971).
-- The maximum number of suppliers that can be retrieved is 70000.
-
-
-## Stocks
-
-**Endpoint name:** Stocks
-
-**Description:** This endpoint is used to retrieve a list of stocks from the database.
-
-**Request parameters:**
-
-- **Version:** A long integer representing the version of the stock. Only stocks with a version greater than this value will be returned.
-
-**Response parameters:**
-
-- **stockRows:** A list of Domain.stockRow objects representing the retrieved stock. Each stock has the following properties:
-    - A string representing the stock code.
-    - Description: A string representing the description of the stock.
-    - Version: A long integer representing the version of the stock.
-
-- **ErrorMessage:** A string representing an error message if an error occurs during the retrieval process. This parameter is set to null if there is no error.
-
-**Usage constraints:**
-
-- The endpoint is restricted to users who have the Management API module activated and the required authorization code (971).
-- The maximum number of stocks that can be retrieved is 70000.
-
-## Users
-
-**Endpoint name:** Users
-**Description:** This endpoint is used to retrieve a list of users from the database.
-**Request parameters:**
-
-- **Version:** A long integer representing the version of the user. Only users with a version greater than this value will be returned.
-
-**Response parameters:**
-
-- **userRows:** A list of Domain.userRow objects representing the retrieved user. Each user has the following properties:
-  - **UserCode:** A string representing the user code.
-  - **Name:** A string representing the name of the user.
-  - **Version:** A long integer representing the version of the user.
-
-- **ErrorMessage:** A string representing an error message if an error occurs during the retrieval process. This parameter is set to null if there is no error.
-
-**Usage constraints:**
-
-- The endpoint is restricted to users who have the Management API module activated and the required authorization code (971).
-- The maximum number of users that can be retrieved is 70000.
-
-
-## VATs
-
-**Endpoint name:** VAT
-
-**Description:** This endpoint is used to retrieve a list of VATs from the database.
-
-**Request parameters:**
-
-- **Version:** A long integer representing the version of the VAT. Only VATs with a version greater than this value will be returned.
-
-**Response parameters:**
-
-- **vatRows:** A list of Domain.vatRow objects representing the retrieved VAT. Each VAT has the following properties: 
-  - A string representing the VAT code.
-  - Description: A string representing the name of the VAT.
-  - Version: A long integer representing the version of the VAT.
-- **ErrorMessage:** A string representing an error message if an error occurs during the retrieval process. This parameter is set to null if there is no error.
-
-**Usage constraints:**
-
-- The endpoint is restricted to users who have the Management API module activated and the required authorization code (971).
-- The maximum number of VATs that can be retrieved is 70000.
-
-## Sales History
-
-**Endpoint name:** SaleHistory
-**Description:** This endpoint is used to retrieve the sales history of a specific product from the database.
-
-**Request parameters:**
-
-- **Version:** A long integer representing the version of the VAT. Only VATs with a version greater than this value will be returned.
-
-**Response parameters:**
-
-- **saleHistoryRows:** A list of Domain.saleHistoryRow objects representing the retrieved sales history. Each sale history row has the following properties:
-  - **articleGroupId:** A string representing the article group ID.
-  - **articleId:** A string representing the article ID.
-  - **contentBox:** An integer representing the content box.
-  - **contentBunch:** An integer representing the content bunch.
-  - **contentColli:** An integer representing the content colli.
-  - **currencyId:** A string representing the currency ID.
-  - **customerCompanyName:** A string representing the name of the customer's company.
-  - **customerCountryId:** A string representing the ID of the customer's country.
-  - **customerFinId:** A string representing the financial ID of the customer.
-  - **customerId:** A string representing the customer ID.
-  - **department:** A string representing the department.
-  - **description:** A string representing the description of the product.
-  - **divisionId:** An integer representing the division ID.
-  - **divisionMethodId:** An integer representing the division method ID.
-  - **financialAdmId:** A string representing the financial administration ID.
-  - **growerEAN:** A string representing the EAN of the grower.
-  - **growerId:** A string representing the ID of the grower.
-  - **invoiceDate:** A string representing the date of the invoice in the format YYYY-MM-DDTHH:MM:SS.
-  - **invoiceGoodsAmount:** A float representing the amount of goods on the invoice.
-  - **invoiceNo:** A string representing the invoice number.
-  - **invoiceTotalAmount:** A float representing the total amount on the invoice.
-  - **orderDate:** A string representing the date of the order in the format YYYY-MM-DDTHH:MM:SS.
-  - **orderNo:** A string representing the order number.
-  - **packageAmount:** An integer representing the package amount.
-  - **packagePrice:** A float representing the package price.
-  - **packageId:** A string representing the package ID.
-  - **parcelDate:** A string representing the date of the parcel in the format YYYY-MM-DDTHH:MM:SS.
-  - **parcelNo:** An integer representing the parcel number.
-  - **parcelPurchaseNo:** An integer representing the parcel purchase number.
-  - **parcelS01Id:** An integer representing the S01 ID of the parcel.
-  - **parcelS02Id:** An integer representing the S02 ID of the parcel.
-  - **parcelS03Id:** An integer representing the S03 ID of the parcel.
-  - **parcelS04Id:** An integer representing the S04 ID of the parcel.
-  - **parcelS05Id:** An integer representing the S05 ID of the parcel.
-  - **parcelS06Id:** An integer representing the S06 ID of the parcel.
-  - **parcelS07Id:** An integer representing the S07 ID of the parcel.
-  - **pKey:** An integer representing the primary key.
-  - **priceBare:** A float representing the bare price.
-- **priceEndCustomer:** A float representing the price for the end customer.
-- **priceOnInvoicePurchase:** A float representing the price on the purchase invoice.
-- **priceOnInvoiceSales:** A float representing the price on the sales invoice.
-- **priceOnPurchase:** A float representing the price on the purchase.
-- **priceParcelPurchase:** A float representing the price of the parcel at the time of purchase.
-- **priceParcelSales:** A float representing the price of the parcel at the time of sale.
-- **priceWithCostsReductions:** A float representing the price of the parcel after any cost reductions have been applied.
-- **productGroupId:** A string representing the ID of the product group.
-- **regDate:** A string representing the registration date of the parcel in the format YYYY-MM-DDTHH:MM:SS.
-- **s01:** An integer representing the quantity of S01 items in the parcel.
-- **s02:** An integer representing the quantity of S02 items in the parcel.
-- **s03:** An integer representing the quantity of S03 items in the parcel.
-- **s04:** An integer representing the quantity of S04 items in the parcel.
-- **s05:** An integer representing the quantity of S05 items in the parcel.
-- **s06:** An integer representing the quantity of S06 items in the parcel.
-- **s07:** An integer representing the quantity of S07 items in the parcel.
-- **salesUnit:** An integer representing the number of items in a sales unit.
-- **sellerId:** A string representing the ID of the seller.
-- **stockId:** A string representing the ID of the stock.
-- **subCustomerId:** A string representing the ID of the sub-customer.
-- **supplierId:** A string representing the ID of the supplier.
-- **totalStems:** An integer representing the total number of stems in the parcel.
-- **userId:** A string representing the ID of the user.
-- **vatId:** An integer representing the VAT ID of the parcel.
-- **version:** An integer representing the version number of the parcel.
-
-
-
+# ArticleGroups
+
+|Variables|
+|:--|
+|id|
+|description|
+|version|
+|productGroupId|
+|productCharacteristic1|
+|productCharacteristic2|
+|productCharacteristic3|
+|productCharacteristic4|
+|productCharacteristic5|
+|productCharacteristic6|
+|productCharacteristic7|
+|description_D|
+|description_E|
+|description_F|
+|maxAgeInDays|
+
+# Articles
+
+|Variables|
+|:--|
+|id|
+|description|
+|version|
+|productCharacteristic1|
+|productCharacteristic2|
+|productCharacteristic3|
+|productCharacteristic4|
+|productCharacteristic5|
+|productCharacteristic6|
+|productCharacteristic7|
+|botanicalName|
+|eanCode|
+|colorId|
+|auctionArticleNumber|
+|packageId|
+|supplierId|
+|articleGroupId|
+|productGroupId|
+|description_D|
+|description_E|
+|french|
+|description_F|
+
+# Band
+
+|Variables|
+|:--|
+|productionLineId|
+|description|
+|version|
+
+# Cariers
+
+|Variables|
+|:--|
+|carrierId|
+|name|
+|address|
+|zipCode|
+|place|
+|countryID|
+|phoneNr|
+|contactPerson|
+|email|
+|version|
+|niwOcod|
+|trolleyHeight|
+|inActive|
+|glnCode|
+|faxNr|
+
+# Customers
+
+| Variable |
+|:--------|
+| version |
+| customerId |
+| customerKey |
+| companyName |
+| contact |
+| address |
+| postal |
+| city |
+| countryId |
+| regionId |
+| profile |
+| phoneNr |
+| mobile |
+| faxNr |
+| email |
+| customerEANCode |
+| customerGLNAddress |
+| offerTreeId |
+| customerTreeId |
+| priceTree2Id |
+| priceTree3Id |
+| customerGroupId |
+| seatNo |
+| plateNr |
+| sellerId |
+| vatnr |
+| cocNr |
+| debtorFinancialNr |
+| paymentConditionId |
+| financialAdministrationId |
+| businessUnitId |
+| priceConfigurationId |
+
+# CustomerGroups
+
+| Variable |
+|:--------|
+| customerGroupId |
+| description |
+| version |
+| mainGroup |
+| saleUnit |
+| logisticsUnit |
+
+# CustomerGroupRelations
+
+| Variable |
+|:--------|
+| customerId |
+| customerGroupId |
+| version |
+| sequenceNumber |
+
+# Countries
+
+| Variable |
+|:--------|
+| id |
+| description |
+| version |
+| currencyCode |
+
+# Carriers
+
+| Variable |
+|:--------|
+| carrierId |
+| name |
+| address |
+| zipCode |
+| place |
+| countryID |
+| phoneNr |
+| contactPerson |
+| email |
+| version |
+| niwOcod |
+| trolleyHeight |
+| inActive |
+| glnCode |
+| faxNr |
+
+# Currencies
+
+| Variable |
+|:--------|
+| id |
+| description |
+| version |
+
+# Divisions
+
+| Variable |
+|:--------|
+| id |
+| description |
+| version |
+
+# Divisionmethods
+
+| Variable |
+|:--------|
+| id |
+| description |
+
+# FinancialAdministrations
+
+| Variable |
+|:--------|
+| id |
+| description |
+| version |
+
+# Growers
+
+| Variable |
+|:--------|
+| growerId |
+| name |
+| address |
+| zipCode |
+| place |
+| countryId |
+| growerEAN |
+| phone |
+| email |
+| varbNr |
+| customerId |
+| webserviceRaise |
+| plantPasport |
+| remark |
+| accManager |
+| mps |
+| mpsNr |
+| mpsType |
+| mpsCert |
+| mpsStart |
+| mpsEnd |
+| mps2Nr |
+| mps2Type |
+| mps2Cert |
+| mps2Start |
+| mps2End |
+| version |
+
+# Packages
+
+| Variable |
+|:--------|
+| packageId |
+| packagePrice |
+| packageGrpID |
+| description |
+| description_D |
+| description_E |
+| description_F |
+| packageType |
+| transportType |
+| packagePrice2 |
+| packagePrice3 |
+| packagePrice4 |
+| packagePurchaseAmount |
+| packageRentAmount |
+| packageRentAmount2 |
+| rentBTWCod |
+| btwCod |
+| packageCombi1 |
+| packageCombi2 |
+| packageCombi3 |
+| packageCombi4 |
+| ledgerAccount |
+| costUnit |
+| costUnitRent |
+| auctionPackage |
+| ownPackage |
+| lockPlate |
+| supplierId |
+| germanVBNcod |
+| barcodePrefix |
+| markCod |
+| material |
+| netWeight |
+| grossWeight |
+| volumeWeight |
+| collectionCode |
+| amountPerPallet |
+| packageLength |
+| packageWidth |
+| packageHeight |
+| plateHeight |
+| standardPackageContent |
+| standardAmountPerLayer |
+| standardAmountPerCart |
+| calculateVolume |
+| isBox |
+| loadCarrier |
+| version |
+
+# ProductGroups
+
+| Variable |
+|:--------|
+| id |
+| description |
+| version |
+
+# Sellers
+
+| Variable |
+|:--------|
+| id |
+| description |
+| version |
+
+# Stocks
+
+| Variable |
+|:--------|
+| id |
+| description |
+| version |
+
+# Suppliers
+
+| Variable |
+|:--------|
+| supplierId |
+| name |
+| contact |
+| address |
+| postal |
+| city |
+| countryId |
+| supplierPhoneNr |
+| supplierFax |
+| supplierEmail |
+| eanCode |
+| glnCode |
+| glnLocCode |
+| supplierIdCod |
+| customerId |
+| staff |
+| certCod |
+| growerAuction |
+| growerId |
+| finBTWCod |
+| btwNr |
+| version |
+
+# Users
+
+| Variable |
+|:--------|
+| id |
+| description |
+| version |
+
+# Vats
+
+| Variable |
+|:--------|
+| id |
+| description |
+| version |
+
+# BandRef
+
+| Variable |
+|:--------|
+| productionLineId |
+| parcelId |
+| vParcelId |
+| bouquetTask |
+| bouquetDebtor |
+| status |
+| bouquetPriority |
+| deadline |
+| quantityInProcess |
+| quantityDone |
+| productionLineReferenceId |
+| start |
+| end |
+| paused |
+| timePaused |
+| workerOnLine |
+| part |
+| packageQuantity |
+| divisionId |
+| contentColli |
+| creation |
+| packageId |
+| readyForProduction |
+| printTime |
+| printUser |
+| totalQuantity |
+| malfunction |
+| planned |
+| startDivision |
+| endDivision |
+| version |
+| pKey |
+
+# BandRefLog
+
+| Variable |
+|:--------|
+| lineReferenceID |
+| logType |
+| logTime |
+| userId |
+| productionLineId |
+| status |
+| quantity |
+| workerOnLine |
+| reason |
+| processId |
+| processCode |
+| version |
+| pKey |
+
+# CustomerOrders
+
+| Variable |
+|:--------|
+| parcelId |
+| orderListId |
+| orderlistSubId |
+| customerId |
+| orderNr |
+| description |
+| quantity |
+| colli |
+| original |
+| orginalColli |
+| contentColli |
+| packageQuantity |
+| packageId |
+| priceParcelPurchase |
+| price |
+| qualityId |
+| delivery |
+| barcode |
+| currencyId |
+| registrationDate |
+| registrationTime |
+| colliText |
+| remark |
+| handling |
+| userId |
+| code |
+| orderDate |
+| deliveryTime |
+| contentPlate |
+| contentTrolley |
+| contentPackage |
+| sellerId |
+| externalOrderId |
+| compositionOrderId |
+| orderId |
+| remark2 |
+| packageCarrier |
+| externalSupplierId |
+| auctionGrp |
+| creation |
+| bouquet |
+| deliveryDate |
+| orderApprovalId |
+| priceFixed |
+| shipmentNo |
+| maxPurchasePrice |
+| purchaseDate |
+| productionDate |
+| contentBunch |
+| monoBouquetContent |
+| priced |
+| orderType |
+| shippingId |
+| s01 |
+| s02 |
+| s03 |
+| s04 |
+| s05 |
+| s06 |
+| s07 |
+| customerOrderNr |
+| remark3 |
+| priceBase |
+| confirmationUser |
+| confirmationTime |
+| eanCode |
+| divisionId |
+| customerPriceInCurrency |
+| externalBarcode |
+| holdOrder |
+| bouquetId |
+| scanCode |
+| deadlineNr |
+| supplierNote |
+| version |
+
+# SalesDivisions
+
+| Variable |
+|:--------|
+| parcelId |
+| orderListId |
+| orderlistSubId |
+| customerId |
+| orderNr |
+| description |
+| quantity |
+| colli |
+| original |
+| orginalColli |
+| contentColli |
+| packageQuantity |
+| packageId |
+| priceParcelPurchase |
+| price |
+| qualityId |
+| delivery |
+| barcode |
+| currencyId |
+| registrationDate |
+| registrationTime |
+| colliText |
+| remark |
+| handling |
+| userId |
+| code |
+| orderDate |
+| deliveryTime |
+| contentPlate |
+| contentTrolley |
+| contentPackage |
+| sellerId |
+| externalOrderId |
+| compositionOrderId |
+| orderId |
+| remark2 |
+| packageCarrier |
+| externalSupplierId |
+| auctionGrp |
+| creation |
+| bouquet |
+| deliveryDate |
+| orderApprovalId |
+| priceFixed |
+| shipmentNo |
+| maxPurchasePrice |
+| purchaseDate |
+| productionDate |
+| contentBunch |
+| monoBouquetContent |
+| priced |
+| orderType |
+| shippingId |
+| s01 |
+| s02 |
+| s03 |
+| s04 |
+| s05 |
+| s06 |
+| s07 |
+| customerOrderNr |
+| remark3 |
+| priceBase |
+| confirmationUser |
+| confirmationTime |
+| eanCode |
+| divisionId |
+| customerPriceInCurrency |
+| externalBarcode |
+| holdOrder |
+| bouquetId |
+| scanCode |
+| deadlineNr |
+| supplierNote |
+| version |
+
+# DivisionPriceLog
+
+--
+
+# InvoiceCredits
+
+| Variable |
+|:--------|
+| historicalBarcode |
+| barcode |
+| creditReason |
+| returnToStock |
+| sellerId |
+| date |
+| vParcelId |
+| creditQuantity |
+| creditPrice |
+| remark |
+| processingChoice |
+| userId |
+| creditReasonId |
+| pKey |
+| version |
+
+# OrderlistAssortment
+
+| Variable |
+|:--------|
+| parcelId |
+| stockId |
+| articleKey |
+| lineArticleId |
+| orgParcelId |
+| growerArticleId |
+| exArticleId |
+| articleId |
+| description |
+| qualityId |
+| externalSupplierId |
+| supplierId |
+| basePrice |
+| consumerPrice |
+| priceBare |
+| costPrice |
+| price |
+| contentColli |
+| packageId |
+| auctionGrp |
+| volume |
+| deselect |
+| packageContent |
+| remark |
+| exCode |
+| newDate |
+| scanCode |
+| code |
+| valid |
+| priceParcelPurchase |
+| buyerId |
+| minPurchase |
+| amount2 |
+| amount3 |
+| price2 |
+| price3 |
+| contentBunch |
+| contentPlate |
+| contentTrolley |
+| s01 |
+| s02 |
+| s03 |
+| s04 |
+| s05 |
+| s06 |
+| s07 |
+| parcelS01Id |
+| parcelS02Id |
+| parcelS03Id |
+| parcelS04Id |
+| parcelS05Id |
+| parcelS06Id |
+| parcelS07Id |
+| raiseCnt |
+| available |
+| countryId |
+| sellerId |
+| priceGroup1 |
+| priceGroup2 |
+| priceGroup3 |
+| priceGroup4 |
+| priceGroup5 |
+| priceGroup6 |
+| priceGroup7 |
+| priceGroup8 |
+| priceGroup9 |
+| priceGroup10 |
+| priceGroup11 |
+| priceGroup12 |
+| priceGroup13 |
+| priceGroup14 |
+| priceGroup15 |
+| priceGroup16 |
+| priceGroup17 |
+| priceGroup18 |
+| priceGroup19 |
+| priceGroup20 |
+| priceModified |
+| exDecription |
+| feature |
+| creation |
+| growerEan |
+| modified |
+| contenBox |
+| volumeKilo |
+| priceModifyUser |
+| bestOrigin |
+| volumeStem |
+| bouquet |
+| exPhotoURL |
+| raisePrcnt |
+| featureCod |
+| colorId |
+| remark2 |
+| minRest |
+| priceInCurrency |
+| orderApproval |
+| location |
+| xdays |
+| monoBouquetDescription |
+| monoBouquetContent |
+| description_D |
+| description_E |
+| description_F |
+| description_G |
+| description_H |
+| description_I |
+| description_J |
+| description_K |
+| description_L |
+| eanCode |
+| brokenColliRaise |
+| fromParcelId |
+| volumeTrolleyPackageId |
+| priceFixed |
+| version |
+
+# OrderlistComponents
+
+| Variable |
+|:--------|
+| articleId |
+| description |
+| colorId |
+| priceParcelPurchase1 |
+| priceParcelPurchase2 |
+| quantity |
+| parcelId |
+| bParcelId |
+| s01 |
+| s02 |
+| remark |
+| supplierId |
+| contentColli |
+| componentWeight |
+| version |
+| pKey |
+
+# OutstandingInvoices
+
+| Variable |
+|:--------|
+| productionLineId |
+| reminder1 |
+| reminder2 |
+| reminder3 |
+| reminder4 |
+| reminder5 |
+| invoiceAmount |
+| dontCollect |
+| calculateInterest |
+| log |
+| hasUnprocessedPayments |
+| realCustomerId |
+| customerId |
+| invoiceNr |
+| currency |
+| lineId |
+| userId |
+| remark |
+| orderNr |
+| financialAdministrationid |
+| processed |
+| pKey |
+| version |
+
+# PackageHistory
+
+| Variable |
+|:--------|
+| customerId |
+| auctionDate |
+| date |
+| packageId |
+| invoiceNr |
+| totalPackageOut |
+| totalPackageIn |
+| customerPrice |
+| amountOfDaysInvoiced |
+| rentFree |
+| rentPrice |
+| exportTime |
+| remark |
+| sellerId |
+| treePrice |
+| registrationDate |
+| orderNr |
+| colliTrackerTransactionID |
+| colliTrackerExport |
+| colliTrackerTransactionID1 |
+| trackOnlineGUID |
+| id |
+| pKey |
+| version |
+
+# PaymentHistory
+
+--
+
+# PurchaseHistory
+
+| Variable         |
+| :--------------   |
+| articleId        |
+| description      |
+| colli            |
+| contentColli     |
+| restQuantity     |
+| packageQuantity  |
+| packageId        |
+| vParcelId        |
+| auctionId        |
+| transId          |
+| transIdLong      |
+| clockTrans       |
+| buyerNo          |
+| growerId         |
+| plateNo          |
+| seatNo           |
+| s01              |
+| s02              |
+| s03              |
+| s04              |
+| s05              |
+| s06              |
+| s07              |
+| parcelS01Id      |
+| parcelS02Id      |
+| parcelS03Id      |
+| parcelS04Id      |
+| parcelS05Id      |
+| parcelS06Id      |
+| parcelS07Id      |
+| countryId        |
+| contentBunch     |
+| supplierId       |
+| parcelDate       |
+| writeOffQuantity |
+| writeOffId       |
+| paymentDate      |
+| paymentTime      |
+| paymentUSer      |
+| remark           |
+| barePrice        |
+| price            |
+| priceIncl        |
+| creation         |
+| shipmentNo       |
+| eInvoiceBarcode  |
+| stockId          |
+| version          |
+| pKey             |
+| deadlineNr       |
+
+# Payments
+
+| Variable |
+|:--------|
+| customerId |
+| invoiceNr |
+| invoiceDate |
+| paymentDate |
+| paymentId |
+| amount |
+| currency |
+| userId |
+| checkId |
+| description |
+| creation |
+| feature |
+| uniqueId |
+| webPaymentId |
+| terminalId |
+| sendEmail |
+| printInvoiceNr |
+| surchargePrcnt |
+| surchargeRaise |
+| adherrentLedgerNr |
+| pKey |
+| version |
+
+# Shipments
+
+| Variable |
+|:--------|
+| shipmentId |
+| departurePort |
+| arrivalPort |
+| shipmentType |
+| shipmentNumber |
+| shipmentDate |
+| offloadDate |
+| expectedOffloadDate |
+| offloadCarrier |
+| creationDate |
+| transportCost |
+| shipName |
+| arrivalDate |
+| quantity |
+| departurePortId |
+| arrivalPortId |
+| final |
+| loadingCarrier |
+| clearanceCountry |
+| clearningAgentId |
+| logisticalAgentId |
+| freightForwarderLocation |
+| freightContainerNumber |
+| awbNumber |
+| customsInspection |
+| airportDepartureID |
+| airportArrivalId |
+| deliveryLocationId |
+| version |
+| pKey |
+
+# SalesHistory
+
+| Variable |
+|:--------|
+| articleGroupId |
+| articleId |
+| contentBox |
+| contentBunch |
+| contentColli |
+| currencyId |
+| customerCompanyName |
+| customerCountryId |
+| customerFinId |
+| customerId |
+| department |
+| description |
+| divisionId |
+| divisionMethodId |
+| financialAdmId |
+| growerEAN |
+| growerId |
+| invoiceDate |
+| invoiceGoodsAmount |
+| invoiceNr |
+| invoiceTotalAmount |
+| orderDate |
+| orderNr |
+| packageQuantity |
+| packagePrice |
+| packageId |
+| parcelDate |
+| parcelNo |
+| parcelPurchaseNo |
+| parcelS01Id |
+| parcelS02Id |
+| parcelS03Id |
+| parcelS04Id |
+| parcelS05Id |
+| parcelS06Id |
+| parcelS07Id |
+| pKey |
+| priceBare |
+| priceEndCustomer |
+| priceOnInvoicePurchase |
+| priceOnInvoiceSales |
+| priceOnPurchase |
+| priceParcelPurchase |
+| priceParcelSales |
+| priceWithCostsReductions |
+| productGroupId |
+| regDate |
+| s01 |
+| s02 |
+| s03 |
+| s04 |
+| s05 |
+| s06 |
+| s07 |
+| salesUnit |
+| sellerId |
+| stockId |
+| subCustomerId |
+| supplierId |
+| totalStems |
+| userId |
+| vatId |
+| version |
+
+# OrderApprovals
+
+| Variable |
+|:--------|
+| orderId |
+| state |
+| deadlineNr |
+| supplierId |
+| divisionId |
+| deadline |
+| shippingDate |
+| confirmationDate |
+| salesUser |
+| orderDate |
+| contentColli |
+| articleID |
+| transportCostPerStem |
+| growerConfirmationStatus |
+| growerConfirmationDate |
+| confirmedPrice |
+| loadCarrier |
+| deliveryLocationId |
+| deliveryMethodId |
+| shipmentId |
+| version |
+| pKey |
+
+# SalesHistoryCostAndRebates
+
+| Variable           |
+|:------------------|
+| id                 |
+| customerId       |
+| orderNr         |
+| invoiceNr        |
+| department     |
+| description     |
+| amount           |
+| percentage      |
+| calculationMethod |
+| vatId             |
+| exchangeRate |
+| totalAmount   |
+| totalAmountOver |
+| creation           |
+| version           |
+| costCode       |
+
+# SalesHistoryBouquets
+
+| Variable                |
+| :---------------------- |
+| articleGroupId          |
+| articleId               |
+| contentBox              |
+| contentBunch            |
+| contentColli            |
+| currencyId              |
+| customerCompanyName     |
+| customerCountryId       |
+| customerFinId           |
+| customerId              |
+| department              |
+| description             |
+| divisionId              |
+| divisionMethodId        |
+| financialAdmId          |
+| growerEAN               |
+| growerId                |
+| invoiceDate             |
+| invoiceGoodsAmount      |
+| invoiceNr               |
+| invoiceTotalAmount      |
+| orderDate               |
+| orderNr                 |
+| packageQuantity         |
+| packagePrice            |
+| packageId               |
+| parcelDate              |
+| parcelNo                |
+| parcelPurchaseNo        |
+| parcelS01Id             |
+| parcelS02Id             |
+| parcelS03Id             |
+| parcelS04Id             |
+| parcelS05Id             |
+| parcelS06Id             |
+| parcelS07Id             |
+| pKey                    |
+| priceBare               |
+| priceEndCustomer        |
+| priceOnInvoicePurchase  |
+| priceOnInvoiceSales     |
+| priceOnPurchase         |
+| priceParcelPurchase     |
+| priceParcelSales        |
+| priceWithCostsReductions |
+| productGroupId          |
+| regDate                 |
+| s01                     |
+| s02                     |
+| s03                     |
+| s04                     |
+| s05                     |
+| s06                     |
+| s07                     |
+| salesUnit               |
+| sellerId                |
+| stockId                 |
+| subCustomerId           |
+| supplierId              |
+| totalStems              |
+| userId                  |
+| vatId                   |
+| version                 |
+
+# SalesHistoryInvoiceHeaders
+
+| Variable                    |
+| :-------------------------- |
+| customerId                  |
+| orderNr                     |
+| customerName                |
+| invoiceNr                   |
+| currencyId                  |
+| exchangeRate                |
+| exhangeRateActual           |
+| invoiceDate                 |
+| commission                  |
+| oneTimePackageAmount        |
+| returnablePackageAmount     |
+| packageRentAmount           |
+| vatLow                      |
+| vatHigh                     |
+| vatLowOver                  |
+| vatHighOver                 |
+| vatZeroOver                 |
+| invoiceTotalAmount          |
+| vatCharged                  |
+| financialAdministrationId    |
+| goodsAmount                 |
+| carrierId                   |
+| auctionTradeTransaction     |
+| printedBy                   |
+| exchangeRateActual          |
+| printedByUserId             |
+| packageQuantity             |
+| packageAmount               |
+| totalPurchaseValue          |
+| oneTimePackageValue         |
+| returnablePackageValue      |
+| printTime                   |
+| packagePurchaseAmount       |
+| version                     |
+
+# ShopLog
+
+| Variable           |
+| :----------------- |
+| logId              |
+| userId             |
+| customerId         |
+| stockId            |
+| logTime            |
+| productGroupID     |
+| articleGroupId     |
+| searchDescription  |
+| s01                |
+| color              |
+| feature            |
+| parcelId           |
+| quantity           |
+| customerIP         |
+| orderlistSubId     |
+| orderNr            |
+| description        |
+| webshop            |
+| barcode            |
+| divisionType       |
+| remark             |
+| pKey               |
+| version            |
