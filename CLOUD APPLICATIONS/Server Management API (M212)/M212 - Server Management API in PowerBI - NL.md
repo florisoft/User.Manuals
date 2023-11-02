@@ -160,3 +160,6 @@ in
 |PackageHistory|
 |Payments|
 |Shoplog|
+|SalesHistoryCostAndRebates|
+|Shipments|
+|OrderApprovals|
