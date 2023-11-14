@@ -6,6 +6,9 @@ Dit document beschrijft de werking van de cash & carry applicatie van Florisoft.
 
 ## Inhoudsopgave
 
+[Installeren en downloaden van de app](#installeren-en-downloaden-van-de-app)  
+[Algemene werking vana de app (een doorloop)](#algemene-werking-van-de-app-doorloop)
+
 ## Installeren en downloaden van de app
 
 U zal eerst de app moeten downloaden en installeren, u kan de app downloaden via de onderstaande QR code of link:
