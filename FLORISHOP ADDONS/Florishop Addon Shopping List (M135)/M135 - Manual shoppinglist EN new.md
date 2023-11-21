@@ -51,7 +51,7 @@ Welcome to the Florishop Shoppinglist Addon, this manual shows you how to set up
 |:-:|:--|
 |**1**|Click on the shopping list icon on the left side of the screen. This opens a pop-up screen.Click on the pen/edit icon next to the shoppinglist row.<details><summary><b>Click here for the example image!</b></summary><img src="Shopping List Media EN/img10.png"></details>|
 |**2**|In this pop-up screen you can choose to use an existing or create a new shopping list.|
-|**2.a**|In case you want to use an existing shopping list, choose a list item from the list and press **Ok**.Click on the pen/edit icon next to the shoppinglist row.<details><summary><b>Click here for the example image!</b></summary><img src=""></details>|
+|**2.a**|In case you want to use an existing shopping list, choose a list item from the list and press **Ok**.Click on the pen/edit icon next to the shoppinglist row.|
 |**2.b**|If you want to create a new shoppinglist then do the following, click on the option **Add new shopping list** this opens a pop-up screen, enter a name and click on **Ok**.Click on the pen/edit icon next to the shoppinglist row.<details><summary><b>Click here for the example image!</b></summary><img src="Shopping List Media EN/img10.png"></details>|
 
 ### Adding orders to the shopping list
@@ -59,7 +59,7 @@ Welcome to the Florishop Shoppinglist Addon, this manual shows you how to set up
 |Step|Explanation|
 |:-:|:--|
 |**1**|Click on the shopping list icon in the left sidebar, this opens the shoppinglist sidebar option.|
-|**2**|In the order overview screen you'll see the orders made on your account.Click on the pen/edit icon next to the shoppinglist row.<details><summary><b>Click here for the example image!</b></summary><img src="Shopping List Media EN/img6.png"></details>|
+|**2**|In the order overview screen you'll see the orders made on your account.Click on the pen/edit icon next to the shoppinglist row.<details><summary><b>Click here for the example image!</b></summary><img src="Shopping List Media EN/img11.png"></details>|
 |**3**|In the order overview you'll see the orders linked to your account with purchased parcels per order. In this screen you can add entire orders(#1) or individual items(#2) in the order to the shoppinglist. <details><summary><b>Click here for the example image!</b></summary><img src="Shopping List Media EN/img12.png"></details>|
 |**4**|When you click on the shopping list icon a a pop-up appears asking you to use an existing or create a new shoppinglist.Click on the pen/edit icon next to the shoppinglist row.<details><summary><b>Click here for the example image!</b></summary><img src="Shopping List Media EN/img11.png"></details>|
 |**5**|If you don't see your orders on screen, they may be filtered out based on the datefilter settings.Click on the pen/edit icon next to the shoppinglist row.<details><summary><b>Click here for the example image!</b></summary><img src="Shopping List Media EN/img13.png"></details>|
