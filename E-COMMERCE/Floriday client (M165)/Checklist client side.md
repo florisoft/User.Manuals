@@ -2,7 +2,7 @@
 
 # Florisoft Manual Client component Floriday - M165
 
-This document descibes what is required to set up a link with Floriday for the buyr environment. It is explained step by step which settings are required, it will also be explained how the synchronization with Floriday works.
+This document descibes what is required to set up a link with Floriday for the buyer environment. It is explained step by step which settings are required, it will also be explained how the synchronization with Floriday works.
 
 ## Index
 
@@ -25,13 +25,13 @@ Request the API key:
 - Select Add application?
 - An API key will now be displayed.
 
-Deze API key dient gevuld te worden in Florisoft bij de leverancier die de synchronisatie zal uitvoeren.
+This API key must be entered in Florisoft at the supplier who will carry out the synchronization.
 
 <a name="stock"/>
 
 ## Setting up stock
 
->This will be the stock where we will pulish the collected batches form Floriday.
+>This will be the stock where we will read in the collected parcels from Floriday.
 - Create a new stock.
     - *Constants -> Location -> Stocks -> Stocks*
     -> **'Insert'**
@@ -41,7 +41,7 @@ Deze API key dient gevuld te worden in Florisoft bij de leverancier die de synch
 
 ## Setting up a supplier
 
-> Dit wordt de leverancier die het aanbod binnen gaat halen van Floriday
+> This will be the supplier that will receive the parcels from Floriday.
 
 - Creation of a new **supplier**
     - *Constants -> Community -> supplier data -> suppliers -> ***'Insert'****
