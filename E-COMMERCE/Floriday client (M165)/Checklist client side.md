@@ -31,7 +31,7 @@ This API key must be entered in Florisoft at the supplier who will carry out the
 
 ## Setting up stock
 
->This will be the stock where we will read in the collected parcels from Floriday.
+>This will be the stock where the system will read in the parcels from Floriday.
 - Create a new stock.
     - *Constants -> Location -> Stocks -> Stocks*
     -> **'Insert'**
