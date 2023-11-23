@@ -44,12 +44,11 @@ Deze API key dient gevuld te worden in Florisoft bij de leverancier die de synch
 	-	*Constanten -> Organen -> Leveranciersgegevens -> Levernaciers ->* ***'Insert'***
 -	De volgende instellingen moeten aangezet worden:
 	-	*Webservice -> Activeren voor voorraadkoppeling ->* ***vinkje aanzetten***
-	-	*Webservice -> Type webservice ->* ***'Floriday koper Api'***
+	-	*Webservice -> Type webservice ->* ***'Floriday Koper API Express'***
 	-	*Webservice -> Binnenkomende voorraad ->* ***'De voorraad die eerder is aangemaakt'***
-	-	*Webservice -> API key ->* ***Deze moet je opvragen op het floriday platform'***
+	-	*Webservice -> API key ->* ***Deze moet je opvragen op het Floriday platform'***
 	-	*Webservice -> Region GLN ->* ***Dit is de GLN code van de regio (veiling)***
 	-	*Webservice -> Aflever GLN ->* ***Dit is de GLN code van de exacte afleverlocatie***  
-	-	*Webservice -> Trade-period vanaf ->* ***Hier geef je aan voor welke periode je assortiment wil ophalen, zet deze op 0 tot 2 dagen***
 	
 ### Alternatieve locaties
 Het is mogelijk dat een kweker (connectie) niet levert in een bepaalde regio waar een bedrijf gevestigd is. Mocht het bedrijf op meerdere locaties zitten (Rijnsburg en Aalsmeer bijv.) en daar levert de kweker wel, dan dit opgegeven worden onder alternatieve locaties.
