@@ -15,7 +15,7 @@ U zal eerst de app moeten downloaden en installeren, u kan de app downloaden via
 
 <img src="../Cloud App QR-Codes/PNG images/C&C App QR.png" height=350px>
 
-https://app.florisoft.nl/Apps/Sales.POS/latest/Android/com.Florisoft.Sales.POS-Signed.apk
+https://app.florisoft.nl/Apps/latest/Sales.POS/Android/com.Florisoft.Sales.POS-Signed.apk
 
 Om de app te kunnen installeren zal u in sommige gevallen moeten toestaan dat er apps geïnstalleerd mogen worden van externe bronnen. 
 
