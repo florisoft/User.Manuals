@@ -4,6 +4,18 @@
 
 This document describes what is required and how to set up a Floriday Connection for a buyer with Florisoft. The stepwise explanation explains each setting and how it works with Floriday.
 
+**Floriday Buyer API Express:**
+
+Previously, this was the Floriday Buyer API Simple web service. It has now been changed to Floriday Buyer API Express. This connection was developed in collaboration with Floriday and features an entirely new synchronization method. It now operates through database synchronization. A smart local copy of the Floriday database is created, and only the changes are retrieved. After synchronizing the database, the offering is determined based on the local database copy. The initial synchronization takes approximately 1 hour, but subsequent synchronizations average about 1 minute.
+
+- The local data also ensures that all received data is available. Having a local copy of the data makes it easier to trace how the data was received, enabling much quicker resolution of issues.
+
+- The retrieval of the connection can now be canceled, but it remembers where you left off. When you retrieve the connection again, you resume from where you stopped.
+
+- All updates occur instantly. With the old connection, some changes, such as modifying the description of the selected offering, required waiting until the new offering was made available (Thursday evening).
+
+- To ensure that the back office, shops, cloud server, and connection continue to respond as usual, the maximum number of parties is limited to 25,000. In the past, there were instances where someone accidentally followed all growers, resulting in more than a million parties that needed to be processed, leading to various consequences. Now, the connection stops in such cases.
+
 ## Table of contents
 
 [Table of contents](#Table-of-contents)  
@@ -51,7 +63,7 @@ This chapter will explain the process of setting up a stock for the incomming Fl
 |**2**|Within the file structure on the left side of the screen navigate to:<br>*Community*(#1) **→** *Supplier data*(#2) **→** *Suppliers*(#3)<br>Click on the plus icon(#4) to add a new supplier.<details><summary><b>Click here to show the example image</b></summary><img src="Media EN/image7.png" width=600px></details>|
 |**3**|This opens the supplier creation/setting screen, here wen need to fill the following fields:<br>- **Delivery code**(#1): Unique supplier identifier, enter something unique and identifiable.<br>- **Find**(#2): This field can be used to search the system for this supplier, for ease of use enter the delivery code entered previously.<br>- **Company name**: Enter the company name here an idea is to adding plants or flowers as a suffix to make it easier to see which supplier does what.|
 |**4**|After closing the supplier screen reopen the supplier by double clicking on its row in the table.|
-|**5**|With the supplier screen open again navigate to the '*Webservice*' in the file structure on the leftside of the screen. <br>Change the following systems:<br><br>- **Activate for stock-linking**: enable this by checking the checkbox. <br>-  **Type Webservice**: set this dropdown to '*Floriday koper API*' <br>- **Incoming stock**: set this to stock that we created in the previous chapter. <br>- **API key**: enter the API key you obtained in the first chapter.<br>- **Region GLN**: This is the region GLN code for the auction.<br>- **Aflever GLN**: This is the exact GLN code of the delivery location, if you don't know this you can find it using <a href="https://www.floricode.com/en-us/distribution/finding-codes/company-code-search">Floricode</a>.<br>- **Trade-period vanaf**: in the first field enter 0 and in the second enter 2. |
+|**5**|With the supplier screen open again navigate to the '*Webservice*' in the file structure on the leftside of the screen. <br>Change the following systems:<br><br>- **Activate for stock-linking**: enable this by checking the checkbox. <br>-  **Type Webservice**: set this dropdown to '*Floriday koper API Express*' <br>- **Incoming stock**: set this to stock that we created in the previous chapter. <br>- **API key**: enter the API key you obtained in the first chapter.<br>- **Region GLN**: This is the region GLN code for the auction.<br>- **Aflever GLN**: This is the exact GLN code of the delivery location, if you don't know this you can find it using <a href="https://www.floricode.com/en-us/distribution/finding-codes/company-code-search">Floricode</a>.<br>- **Trade-period vanaf**: in the first field enter 0 and in the second enter 2. <details><summary><b>Click here to show the example image</b></summary><img src="Media EN/16.png" width=600px></details>|
 
 ## Alternative locations 
 
@@ -65,6 +77,14 @@ It is possible that a grower(connection) doesn't deliver in the region your comp
 
 
 ## Requesting the incomming stock
+
+### Pay attention
+
+This link now works with the Custom sync. This is enabled by default with a recent version of Florisoft (version from 15 Dec 2022).
+However, the auction must be contacted to set this up on the Floriday side. Click [here](https://helpcenter-customers.floriday.com/nl/articles/6811442-koppeling-beheer-aanbodsregels#h_d9df0d4bb3) for more information.
+
+----
+
 
 After having set up the stock and supplier the Floriday API may be loaded in. This can be done using the button '*Receive parcels*' or automatically using the timer. To receive parcels manually follow the steps below.
 
@@ -87,9 +107,3 @@ As said before the first time synchronizing will store the various growers but a
 ### Offer
 
 Within the Floriday online environment assortment needs to be marked as a favourite on row level. If needed you may also end a connection to a grower on the Floriday platform if they are no longer needed. The changes in Florisoft will only happen if the assortment on offer is changed on the Floriday API. 
-
-
-### Pay attention
-
-This link now works with the Custom sync. This is enabled by default with a recent version of Florisoft (version from 15 Dec 2022).
-However, the auction must be contacted to set this up on the Floriday side. Click [here](https://helpcenter-customers.floriday.com/nl/articles/6811442-koppeling-beheer-aanbodsregels#h_d9df0d4bb3) for more information.

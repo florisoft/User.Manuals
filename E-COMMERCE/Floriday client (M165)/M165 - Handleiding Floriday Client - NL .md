@@ -4,6 +4,15 @@
 
 Dit document beschrijft wat nodig is voor het opzetten van een koppeling met Floriday voor de koper. Dit word stapgewijs gedaan waarbij per instelling uitgelegd zal worden hoe de synchronisatie met Floriday werkt.
 
+Vroeger was dit de webservice Floriday Koper API Simple. Deze is nu veranderd naar Floriday Koper API Express. Deze koppeling is gemaakt in samenspraak met Floriday en heeft een compleet nieuwe synchronisatie manier. Deze gaat nu d.m.v. een database synchronisatie. Lokaal wordt er een slimme kopie gemaakt van de Floriday database en alleen de wijzigen worden opgehaald. Na synchroniseren van de database wordt het aanbod bepaald op basis van de lokale database kopie. Eerste keer van de  synchronisatie duurt ongeveer 1 uur, maar daarna duurt het synchroniseren gemiddeld 1 minuut.
+
+- De lokale data zorgt er tevens voor dat alle ontvangen data beschikbaar is. Door een lokale kopie te hebben van de data kan makkelijker teruggevonden worden hoe de data is ontvangen. Dit zorgt voor het veel sneller kunnen oplossen van problemen.
+
+- Het ophalen van de koppeling is nu annuleerbaar, maar onthoudt wel waar je was. Haal je daarna de koppeling op dan ga je weer verder waar je was.
+
+- Alle updates komen direct door. Bij de oude koppeling moest er voor sommige wijzigingen, zoals het aanpassen van de omschrijving van het geselecteerde aanbod, gewacht worden tot het nieuwe aanbod beschikbaar gesteld werd (donderdagavond).
+
+- Om te waarborgen dat de backoffice, de shops, de cloudserver en de koppeling blijven reageren zoals gewend, is het aantal maximale partijen gelimiteerd op 25000. In het verleden kon het gebeuren dat iemand per ongeluk alle kwekers op volgen had gezet waardoor er meer dan een miljoen partijen verwerkt moesten worden met alle gevolgen van dien. Nu stopt de koppeling. 
 
 ## Inhoudsopgave 
 
@@ -59,7 +68,7 @@ In dit hoofdstuk stellen we de leverancier in die de voorraad binnen gaat halen 
 |**2**|Binnen de bestandsstructuur aan de linkerkant van het scherm navigeert u naar:<br>*Organen*(#1) → *Leveranciergegevens*(#2) → *Leveranciers*(#2). <br>Klik vervolgens op het plus icoontje(#4) om een nieuwe leverancier toe te voegen.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media NL/image7.png" width=600px></details>|
 |**3**|Dit opent het Leverancier creatie/instelling scherm, vul hier voor nu de volgende instellingen in en klik verolgens op '*Ok*' en bevestigen. <br>- **Lev.code**(#1): *Unieke leveranciers code, vul hier wat kenmerkelijks in*<br> - **Zoek**(#2): hiermee kan de leverancier terug gevonden worden in het systeem, meestal gebruik je hier ook de lev. code.<br>- **Bedrijfsnaam**(#3): Vul hier de bedrijfsnaam in met evt. er achter waarop gefilterd word bijv. bloemen of planten indien nodig. <details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media NL/image8.png" width=600px></details>|
 |**4**|Na het sluiten van het leveranciersscherm open het scherm opnieuw door er dubbel op te klikken in de tabel.|
-|**5**|Nu het scherm open is navigeert u naar '*Webservice*' in de bestandsstructuur aan de linkerkant. In dit scherm past u de volgende instellingen aan:<br><br>- **Activeren voor voorraadkoppeling**: aanvinken. <br>- **Type webservice**: zet dit op '*Floriday koper Api*'.<br>- **Binnenkomende voorraad**: Selecteer hier de voorraad die u eerder heeft aangemaakt.<br>- **API key**: deze is eerder verkregen via Floriday in [hoofdstuk 1](#aanvragen-api-key).<br> - **Region GLN**: Dit is de GLN code van de regio (veiling)<br> - **Trade-period vanaf**: Vul in het eerste veld 0 in en in veld twee (dus na de t/m) 2<br> - **Aflever GLN**: Dit is de GLN code van de exacte afleverlocatie, mocht u dit niet weten zoek dit dan op via [Floricode](https://www.floricode.com/en-us/distribution/finding-codes/company-code-search).<br> :warning: **LET OP PAK DE LOCATION CODE EN NIET DE COMPANY CODE!**|
+|**5**|Nu het scherm open is navigeert u naar '*Webservice*' in de bestandsstructuur aan de linkerkant. In dit scherm past u de volgende instellingen aan:<br><br>- **Activeren voor voorraadkoppeling**: aanvinken. <br>- **Type webservice**: zet dit op '*Floriday koper Api Express*'.<br>- **Binnenkomende voorraad**: Selecteer hier de voorraad die u eerder heeft aangemaakt.<br>- **API key**: deze is eerder verkregen via Floriday in [hoofdstuk 1](#aanvragen-api-key).<br> - **Region GLN**: Dit is de GLN code van de regio (veiling)<br> - **Aflever GLN**: Dit is de GLN code van de exacte afleverlocatie, mocht u dit niet weten zoek dit dan op via [Floricode](https://www.floricode.com/en-us/distribution/finding-codes/company-code-search).<br> :warning: **LET OP PAK DE LOCATION CODE EN NIET DE COMPANY CODE!**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media NL/image15.png" width=600px></details>|
 
 :warning: **Het eerste keer ophalen en inlezen van een koppeling kan erg lang duren! Zet daarom deze koppeling op een ander timer schema, anders kan de timer deze koppeling ook op gaan halen wat er tot leid dat het voor een uur of langer vast komt te staan.** :warning: 
 
@@ -84,6 +93,12 @@ Na het correct instellen van het Floriday aanbod kan het ingelezen worden. Dit k
 
 :warning: **Het eerste keer ophalen en inlezen van een koppeling kan erg lang duren!** **Zet daarom deze koppeling op een ander timer schema, anders kan de timer deze koppeling ook op gaan halen wat er tot leid dat het voor een uur of langer vast komt te staan** :warning: 
 
+### LET OP
+
+Deze koppeling werkt nu met de Custom sync. Dit staat bij een recente versie van Florisoft standaard aan (versie vanaf 15 dec 2022).
+Echter moet er wel contact opgenomen worden met de veiling om dit in te stellen aan de kant van Floriday. Klik
+[hier](https://helpcenter-customers.floriday.com/nl/articles/6811442-koppeling-beheer-aanbodsregels#h_d9df0d4bb3) voor meer informatie. 
+
 *Vergeet het timer schema daarna ook niet terug te zetten op het standaard schema waarmee je koppelingen ophaalt ( in de meeste gevallen 'default'*
 
 |Stap|Uitleg|
@@ -104,11 +119,7 @@ De eerste synchronisatie zal het aanbod ophalen per kweker en direct verwerken b
 
 Binnen de Floriday online omgeving moet assortiment op regelniveau gemarkeerd worden als ‘favoriet’. Je kunt op het platform ook de connectie met de kweker beëindigen op deze kweker niet meer op te halen. Pas dan wordt het ook meegenomen in het aanbod dat Florisoft ophaalt.
 
-### LET OP
 
-Deze koppeling werkt nu met de Custom sync. Dit staat bij een recente versie van Florisoft standaard aan (versie vanaf 15 dec 2022).
-Echter moet er wel contact opgenomen worden met de veiling om dit in te stellen aan de kant van Floriday. Klik
-[hier](https://helpcenter-customers.floriday.com/nl/articles/6811442-koppeling-beheer-aanbodsregels#h_d9df0d4bb3) voor meer informatie. 
  
 
 
