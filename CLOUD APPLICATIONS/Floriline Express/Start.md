@@ -5,3 +5,7 @@
 
 
 ## F.A.Q.
+* Factuurnummer reeks aanpassen
+
+## Factuurnummer reeks aanpassen
+Wanneer het nieuwe jaar begint zal Floriline het begin van de factuurnummer reeks wijzigen naar het nieuwe jaartal.  Om met factuurnummer 1 te starten moet het volgende gewijzigd worden;
