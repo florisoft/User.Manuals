@@ -13,8 +13,10 @@ Wanneer het nieuwe jaar begint zal Floriline het begin van de factuurnummer reek
 #### In de backoffice
 Ga naar het Floriline beheerscherm en klik met je rechtermuisknop op een rit:
 Kies voor Rit instellingen.
-
-< >
+<details>
+<summary><b>Klik hier om voorbeeld te zien</b></summary>
+    <img src="Pictures\Factuurreeks1.png" >
+</details><br>
 
 Zet ‘Laatst uitgegeven factuurnummer’ op 1
 
