@@ -2,12 +2,12 @@
 
 Ga naar de playstore en installeer de app Brother Print Service Plugin  
 <details>
-    <summary><b>Klik hier voor uw afbeelding</b></summary>
+    <summary><b>Klik hier om voorbeeld te zien</b></summary>
     <img src="Pictures\AnyDesk_JC1wwGf5IJ.gif" >
 </details><br>
 Ga daarna naar de bluetooth instellingen op de pda/terminal en verbind met de printer  
 <details>
-    <summary><b>Klik hier voor uw afbeelding</b></summary>
+    <summary><b>Klik hier om voorbeeld te zien</b></summary>
     <img src="Pictures\AnyDesk_QCDh411SZf.gif" >
 </details><br>
 Nu kan je met de brother printer printen in de floriline app.  
