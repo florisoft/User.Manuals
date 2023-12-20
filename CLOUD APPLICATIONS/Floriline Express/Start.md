@@ -2,3 +2,6 @@
 |Backoffice|Printer|App|
 |---|---|---|
 |[Floriline Scherm](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Floriline%20Express/Start.md)|[Printer Installeren](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Floriline%20Express/Docu/Brother%20printer.md)| [Werkwijze](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Floriline%20Express/Docu/App.md)|
+
+
+## F.A.Q.
