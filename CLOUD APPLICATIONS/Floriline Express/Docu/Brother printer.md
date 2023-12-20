@@ -3,5 +3,5 @@
 Ga naar de playstore en installeer de app Brother Print Service Plugin  
 <details>
     <summary><b>Klik hier voor uw afbeelding</b></summary>
-    <img src="Pictures\InloggenPDA.png" >
+    <img src="Pictures\AnyDesk_JC1wwGf5IJ.gif" >
 </details><br>
