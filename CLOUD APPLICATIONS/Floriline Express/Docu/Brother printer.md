@@ -5,3 +5,8 @@ Ga naar de playstore en installeer de app Brother Print Service Plugin
     <summary><b>Klik hier voor uw afbeelding</b></summary>
     <img src="Pictures\AnyDesk_JC1wwGf5IJ.gif" >
 </details><br>
+Ga daarna naar de bluetooth instellingen op de pda/terminal en verbind met de printer  
+<details>
+    <summary><b>Klik hier voor uw afbeelding</b></summary>
+    <img src="Pictures\InloggenPDA.png" >
+</details><br>
