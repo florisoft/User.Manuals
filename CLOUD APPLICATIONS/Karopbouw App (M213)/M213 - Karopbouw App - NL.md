@@ -20,7 +20,7 @@ In deze handleiding leest u over de werking van de Florisoft karopbouw app in sa
 
 De Florisoft karopbouw app is **[hier](https://app.florisoft.nl/Karopbouw/karopbouw.apk)** te downloaden of door het scannen van de onderstaande QR-code. Open vervolgens de APK om de App te installeren.
 
-<img src="../Cloud App QR-codes/PNG images/Karopbouw App QR.png" width="350px">
+<img src="../../CLOUD APPLICATIONS/Cloud App QR-Codes/PNG images/Karopbouw App QR.png" width="350px">
 
 ## Werkproces Karopbouw app
 
