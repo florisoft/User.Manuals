@@ -1,6 +1,6 @@
 <img src="../../fslogo.png" alt="Florisoft Corporate Logo">
 
-# Florisoft manual for reading in Connect/BB messages
+# Florisoft Connection Transactions
 
 If you are used to receiving and reading in EKT messages, rading in BB/Connect messages works largely the same. These messages should be sent to the same mailbox as the one for EKT-messages.
 

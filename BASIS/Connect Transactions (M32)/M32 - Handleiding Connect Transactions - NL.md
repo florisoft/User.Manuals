@@ -1,6 +1,6 @@
 <img src="../../fslogo.png" alt="Florisoft Corporate Logo">
 
-# Florisoft handleiding voor het inlezen van Connect/BB berichten
+# Florisoft handleiding Connect Transactions
 
 Als u gewend bent om EKT's te ontvangen en in te lezen werkt het inlezen van Connect/BB hetzelfde.
 Deze berichten dienen dus ook naar dezelfde mailbox verzonden te worden als de EKT-berichten. 
