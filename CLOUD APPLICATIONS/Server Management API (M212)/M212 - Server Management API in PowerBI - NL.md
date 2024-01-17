@@ -3,6 +3,26 @@
 In deze korte handleiding leest u hoe je de Florisoft Server Management API inleest in PowerBI.
 Deze handleiding is geschikt voor zowel intern als extern gebruik aangezien  het geen gevoellige gegevens bevat. Het is niet zo dat dit de meest efficiënte/makkelijkste manier van werken is, maar dit is de enige manier dat ik het werkend heb gekregen.
 
+## Veel voorkomende problemen
+
+Aangezien PowerBI een aparte applicatie is van Florisoft leveren wij geen ondersteuning bij het opzetten en troubleshooten van PowerBI. Mocht u hier zelf niet uit komen is het aan te raden om hier een externe partij voor in te schakelen. 
+
+*Florisoft zelf is enkel verantwoordelijk voor het correct functioneren van de cloudserver en management api zelf.*
+
+Hieronder staan wel enkele problemen die we zelf ondervonden hebben en een direct oplossing voor hebben. Mocht dit uw probleem niet oplossen adviseren wij u een externe partij in te schakelen met expertise in PowerBI.
+
+### PowerBI melding referenties bewerken
+
+Dit probleem doet zich voor wanneer u deze onderstaande melding te zien krijgt.
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="PowerBI Fotos/image17.png"></details>
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Zorg dat het tabje **Anoniem** geselecteerd is (#1).<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="PowerBI Fotos/image16.png"></details>|
+|**2**|Klik op de dropdown in deze melding en selecteer de optie, <**cloud server**>/api/management/ (#2).<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="PowerBI Fotos/image16.png"></details>|
+|**3**|Klik op verbinden.|
+
+
 **Voor het PowerBI query script dat gebruikt word in deze handleiding zie <a href="PowerBI Fotos/PowerBI_Query">bijlage</a>**.
 
 *Voor het uitvoeren van de onderstaande stappen is het van belang dat u beschikt over de volgende gegevens*:
