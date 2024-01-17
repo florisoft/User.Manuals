@@ -7,7 +7,7 @@ Deze handleiding is geschikt voor zowel intern als extern gebruik aangezien  het
 
 Aangezien PowerBI een aparte applicatie is van Florisoft leveren wij geen ondersteuning bij het opzetten en troubleshooten van PowerBI. Mocht u hier zelf niet uit komen is het aan te raden om hier een externe partij voor in te schakelen. 
 
-*Florisoft zelf is enkel verantwoordelijk voor het correct functioneren van de cloudserver en management api zelf.*
+*Florisoft zelf is enkel verantwoordelijk voor het correct functioneren van de cloudserver en management api.*
 
 Hieronder staan wel enkele problemen die we zelf ondervonden hebben en een direct oplossing voor hebben. Mocht dit uw probleem niet oplossen adviseren wij u een externe partij in te schakelen met expertise in PowerBI.
 
@@ -84,7 +84,7 @@ let
 in
     output
 ```
-If you want to read in the API with multiple version numbers **warning** this might slow down your dashboard, use cautiously!
+*De onderstaande code kunt u gebruiken om meerdere versienummers in te lezen **waarschuwing** ⚠️: dit maakt u dashboard langzaam om te verversen en resulteert in dubbele gegevens (dit moet u apart zelf doen)*
 
 ```power query language
 let
