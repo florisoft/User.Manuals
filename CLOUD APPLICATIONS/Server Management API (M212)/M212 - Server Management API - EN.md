@@ -31,25 +31,31 @@ Welcome to the Florisoft manual about the Server Management API module. This mod
 [Vats](#vats)  
 [Bandref](#bandref)  
 [Bandreflog](#bandreflog)  
-[Customer orders](#customerorders)  
-[Sales Divisions](#salesdivisions)  
+[CustomerOrders](#customerorders)  
+[SalesDivisions](#salesdivisions)  
 [Division Price Log](#divisionpricelog)  
-[Invoice credits](#invoicecredits)  
+[Invoice credits](#invoicecreditw)  
 [Orderlist Assortment](#orderlistassortment)  
 [Orderlist components](#orderlistcomponents)  
 [Outstanding invoices](#outstandinginvoices)  
 [Package history](#packagehistory)  
-[Payment History](#paymenthistory)  
-[Purchase History](#purchasehistory)  
+[PaymentHistory](#paymenthistory)  
+[PurchaseHistory](#purchasehistory)  
 [Payments](#payments)  
 [Shipments](#shipments)  
-[Sales History](#saleshistory)  
+[SalesHistory](#saleshistory)  
 [Order approvals](#orderapprovals)  
 [Sales History Cost and Rebates](#saleshistorycostandrebates)  
 [Sales History Bouquets](#saleshistorybouquets)  
 [Sales History Invoice Headers](#saleshistoryinvoiceheaders)   
 [Shoplog](#shoplog)   
-
+[Colors](#colors)  
+[ComponentTypes](#componenttypes)  
+[SortCodes](#sortcodes)   
+[ReservationTexts](#reservationtexts)  
+[InvoiceApproval](#invoiceapproval)  
+[PaymentConditions](#paymentconditions)  
+[Sources](#sources)  
 
 ## Authorizing a user
 
@@ -179,6 +185,10 @@ The server management API has many different endpoints they are described in the
 | financialAdministrationId |
 | businessUnitId |
 | priceConfigurationId |
+| dueDateInDays|
+| customerTypeId|
+| customerCategory|
+| accountManager|
 
 # CustomerGroups
 
@@ -395,6 +405,8 @@ The server management API has many different endpoints they are described in the
 | finBTWCod |
 | btwNr |
 | version |
+|debtorFinancialNumber|
+|accountManager|
 
 # Users
 
@@ -546,6 +558,7 @@ The server management API has many different endpoints they are described in the
 | deadlineNr |
 | supplierNote |
 | version |
+| ReservationTextId|
 
 # SalesDivisions
 
@@ -631,7 +644,7 @@ The server management API has many different endpoints they are described in the
 
 --
 
-# InvoiceCredits
+# InvoiceCredit
 
 | Variable |
 |:--------|
@@ -908,6 +921,9 @@ The server management API has many different endpoints they are described in the
 | version          |
 | pKey             |
 | deadlineNr       |
+|debtorFinancialNumber|
+|accountManager|
+|orderParcelid|
 
 # Payments
 
@@ -1038,6 +1054,7 @@ The server management API has many different endpoints they are described in the
 | userId |
 | vatId |
 | version |
+| packListId|
 
 # OrderApprovals
 
@@ -1221,3 +1238,124 @@ The server management API has many different endpoints they are described in the
 | remark             |
 | pKey               |
 | version            |
+
+# Colors
+
+|Variable|
+|:-------|
+|colorId|
+|color|
+|description_D|
+|description_E|
+|description_F|
+|s50_Feature|
+
+# ComponentTypes
+
+|Variable|
+|:-------|
+|id|
+|description|
+
+# CreditReasons
+
+|Variable|
+|:-------|
+|creditReasonCode|
+|description|
+|description_E|
+|description_D|
+|description_F|
+|creditCategory|
+|webShop|
+|toReturn|
+|refund|
+|version|
+
+# SortCodes
+
+|Variable|
+|:-------|
+|productCharacteristicCode|
+|feature|
+|productCharacteristicDescription|
+|description_D|
+|description_E|
+|description_F|
+|version|
+
+# ReservationTexts
+
+|Variable|
+|:-------|
+|reservationTextId|
+|description|
+|reservationTextCode|
+|version|
+
+# InvoiceApproval
+
+|Variable|
+|:-------|
+|toDebtor|
+|toOrderNr|
+|customerId|
+|orderNr|
+|articleId|
+|invoiceNr|
+|amount|
+|date|
+|divisionId|
+|processingDate|
+|creditVia|
+|userId|
+|packageCredit|
+|packageQuantity|
+|reasonForCredit|
+|approvingSalesUser|
+|processingChoice|
+|creditRemark|
+|processinText|
+|doneProcessing|
+|creditQuantity|
+|parcelDate|
+|supplierId|
+|returnedProduct|
+|registrationDate|
+|statusId|
+|s01|
+|countryId|
+|accountManager|
+|stateColor|
+|historicalShipmentNo|
+|packageCode|
+|everythingCredited|
+|reasonForCreditId|
+|invoiceCreditStatus|
+|pKey|
+|version|
+
+# PaymentConditions
+
+|Variable|
+|:-------|
+|paymentCondtionId|
+|conditionCode|
+|conditionCode_G|
+|conditionCode_E|
+|conditionCode_F|
+|conditionCode_I|
+|description|
+|description_D|
+|description_E|
+|description_F|
+|description_I|
+|pKey|
+|version|
+
+# Sources
+
+|Variable|
+|:-------|
+|id|
+|description|
