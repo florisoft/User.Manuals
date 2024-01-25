@@ -33,6 +33,8 @@ Nadat u op de link heeft geklikt, is er een .zip bestand gedownload.
 |12| Na het downloaden, kunt u het pijltje gebruiken om de app te openen. <details><summary>**Klik hier om de voorbeeld afbeelding te zien!**</summary><img src="Media/Installatie Hub-App/image11.png"></details>|
 |13| De applicatie is ook te vinden binnen de verkenner. Op het pad C:\Gebruikers\UWGEBRUIKER\ kunt u de desbetreffende apps vinden, de map heeft dezelfde naam als de app die u gedownload heeft. Binnen deze map vindt u een toepassingsbestand. Hiervan kan u een snelkoppeling maken en op uw bureaublad voor gemakkelijke toegang.<details><summary>**Klik hier om de voorbeeld afbeelding te zien!**</summary><img src="Media/Installatie Hub-App/image23.png"></details>|
 
+:warning: Houd er rekening mee dat zodra u inlogt met een gebruiker op de Hub app, deze vervolgens niet gebruikt kan worden om in te loggen met andere apps. Het is mogelijk om deze gebruiker te forceren om uit te loggen, maar het is aan te raden 1 specifieke debiteur aan te maken met welke ingelogd kan worden op de hub-app, zodat deze elkaar niet in de weg zitten.
+
 Het is belangrijk dat u de Hub-app ten alle tijden geinstalleerd houdt als u andere Florisoft apps gebruikt. Mocht er in de toekomst een nieuwe versie van een app beschikbaar komen, is de Hub App benodigd om deze te updaten.
 
 
@@ -47,10 +49,12 @@ Nadat u de link heeft over getikt, of de QR-code heeft gescand, is er een app ge
 |4| Voer de URL van de cloudserver in bij 1. Bij 2 de versie (dit zal altijd 'latest' zijn), en kies uw taal bij 3. Sla vervolgens de wijzigingen op.  <details><summary>**Klik hier om de voorbeeld afbeelding te zien!**</summary><img src="Media/Installatie Hub-App/image14.png"></details>|
 |5| Hierna zal de app zich herstarten, klik hier op 'Ja'/'Yes'. <details><summary>**Klik hier om de voorbeeld afbeelding te zien!**</summary><img src="Media/Installatie Hub-App/image15.png"></details>
 |6| Klik vervolgens op de 'Catalog'/'Catalogus' knop. <details><summary>**Klik hier om de voorbeeld afbeelding te zien!**</summary><img src="Media/Installatie Hub-App/image16.png"></details>|
-|7| Log vervolgens in met uw account.<details><summary>**Klik hier om de voorbeeld afbeelding te zien!**</summary><img src="Media/Installatie Hub-App/image17.png" ></details>|
+|7| Log vervolgens in met uw Florisoft gebruiker (dit kan de Hub-app gebruiker, of elk ander FS systeemgebruiker die nog niet is ingelogd is).<details><summary>**Klik hier om de voorbeeld afbeelding te zien!**</summary><img src="Media/Installatie Hub-App/image17.png" ></details>|
 |8| U komt op een scherm met een overzicht van de beschikbare apps. Om een app te downloaden, klik en houdvast, terwijl u naar links swiped. Er verschijnen twee iconen rechts van; de app downloaden (1) of verwijderen (2) <details><summary>**Klik hier om de voorbeeld afbeelding te zien!**</summary><img src="Media/Installatie Hub-App/image18.png"><img src="Media/Installatie Hub-App/image19.png"></details> |
 |9| Na het downloaden, kunt u het pijltje gebruiken om de app te openen. <details><summary>**Klik hier om de voorbeeld afbeelding te zien!**</summary><img src="Media/Installatie Hub-App/image20.png"></details>|
 |10| De apps zijn ook te vinden op uw apparaat, uw kunt zoeken op de titel van de app zoals in de Hub-app beschreven staat.|
+
+:warning: Houd er rekening mee dat zodra u inlogt met een gebruiker op de Hub app, deze vervolgens niet gebruikt kan worden om in te loggen met andere apps. Het is mogelijk om deze gebruiker te forceren om uit te loggen, maar het is aan te raden 1 specifieke debiteur aan te maken met welke ingelogd kan worden op de hub-app, zodat deze elkaar niet in de weg zitten.
 
 Hierna is de Hub-app geinstalleerd en kunnen de apps worden gedownload en gebruikt.
 
