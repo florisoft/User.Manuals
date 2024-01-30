@@ -31,45 +31,52 @@ Welkom bij de handleiding over de Florisoft Server Management API. Deze module v
 [Vats](#vats)  
 [Bandref](#bandref)  
 [Bandreflog](#bandreflog)  
-[Customer orders](#customerorders)  
-[Sales Divisions](#salesdivisions)  
+[CustomerOrders](#customerorders)  
+[SalesDivisions](#salesdivisions)  
 [Division Price Log](#divisionpricelog)  
-[Invoice credits](#invoicecredits)  
+[Invoice credits](#invoicecreditw)  
 [Orderlist Assortment](#orderlistassortment)  
 [Orderlist components](#orderlistcomponents)  
 [Outstanding invoices](#outstandinginvoices)  
 [Package history](#packagehistory)  
-[Payment History](#paymenthistory)  
-[Purchase History](#purchasehistory)  
+[PaymentHistory](#paymenthistory)  
+[PurchaseHistory](#purchasehistory)  
 [Payments](#payments)  
 [Shipments](#shipments)  
-[Sales History](#saleshistory)  
+[SalesHistory](#saleshistory)  
 [Order approvals](#orderapprovals)  
 [Sales History Cost and Rebates](#saleshistorycostandrebates)  
 [Sales History Bouquets](#saleshistorybouquets)  
 [Sales History Invoice Headers](#saleshistoryinvoiceheaders)   
 [Shoplog](#shoplog)   
+[Colors](#colors)  
+[ComponentTypes](#componenttypes)  
+[SortCodes](#sortcodes)   
+[ReservationTexts](#reservationtexts)  
+[InvoiceApproval](#invoiceapproval)  
+[PaymentConditions](#paymentconditions)  
+[Sources](#sources)  
 
-## Autoriseren van een gebruiker
+## Authorizing a user
 
-Niet elke systeemgebruiker kan gegevens ophalen van de Florisoft API, systeemgebruikers moeten hier speciaal permissie voor krijgen. Volg de onderstaande stappen om hier een systeemgebruik voor te autoriseren.
+Not all system users have the ability to retrieve data from the Florisoft API. 
+System users must be granted special permission to do so. Please follow the steps below to authorize a system user.
 
-
-|Stap|Uitleg|
+|Step|Explanation|
 |:-:|:--|
-|**1**|Open het constantenscherm en navigeer naar:<br>**Systeem→Users→Systeemgebruikers**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="media NL/image4.png"></details>|
-|**2**|Open de desbetreffende systeem gebruiker. <br>Klik vervolgens op de autorisatie knop.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="media NL/image2.png"></details>|
-|**3**|Zoek vervolgens in het autorisatie scherm (met de F3 knop) naar 971.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="media NL/image3.png"></details>|
-|**4**|Open de instelling en zet dit op de optie 'Alle handelingen toegestaan'<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="media NL/image1.png"></details>|
-|**5**|Druk op de ok knop om de wijzigingen op te slaan.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="media NL/image1.png"></details>|
+|**1**|Open the constants screen and navigate to the following path:<br>**System→Users→System users**<details><summary><b>Click here for the example image!</b></summary><img src="media EN/image4.png"></details>|
+|**2**|Open the concerning user. <br> Now click the authorisation button.<details><summary><b>Click here for the example image!</b></summary><img src="media EN/image2.png"></details>|
+|**3**|Zoek vervolgens in het autorisatie scherm (met de F3 knop) naar 971.<details><summary><b>Click here for the example image!</b></summary><img src="media EN/image3.png"></details>|
+|**4**|Open the setting and click on the radio button called 'Allow all processes'<details><summary><b>Click here for the example image!</b></summary><img src="media EN/image1.png"></details>|
+|**5**|Press the OK button to save the made changes<details><summary><b>Click here for the example image!</b></summary><img src="media EN/image1.png"></details>|
 
 # Endpoints
 
-De server management API heeft verschillende endpoints deze worden hieronder beschreven. 
+The server management API has many different endpoints they are described in the following chapters.
 
 # ArticleGroups
 
-|Variabeles|
+|Variables|
 |:--|
 |id|
 |description|
@@ -89,7 +96,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # Articles
 
-|Variabeles|
+|Variables|
 |:--|
 |id|
 |description|
@@ -116,7 +123,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # Band
 
-|Variabeles|
+|Variables|
 |:--|
 |productionLineId|
 |description|
@@ -124,7 +131,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # Cariers
 
-|Variabeles|
+|Variables|
 |:--|
 |carrierId|
 |name|
@@ -144,7 +151,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # Customers
 
-| Variabele |
+| Variable |
 |:--------|
 | version |
 | customerId |
@@ -178,10 +185,14 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 | financialAdministrationId |
 | businessUnitId |
 | priceConfigurationId |
+| dueDateInDays|
+| customerTypeId|
+| customerCategory|
+| accountManager|
 
 # CustomerGroups
 
-| Variabele |
+| Variable |
 |:--------|
 | customerGroupId |
 | description |
@@ -192,7 +203,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # CustomerGroupRelations
 
-| Variabele |
+| Variable |
 |:--------|
 | customerId |
 | customerGroupId |
@@ -201,7 +212,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # Countries
 
-| Variabele |
+| Variable |
 |:--------|
 | id |
 | description |
@@ -210,7 +221,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # Carriers
 
-| Variabele |
+| Variable |
 |:--------|
 | carrierId |
 | name |
@@ -230,7 +241,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # Currencies
 
-| Variabele |
+| Variable |
 |:--------|
 | id |
 | description |
@@ -238,7 +249,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # Divisions
 
-| Variabele |
+| Variable |
 |:--------|
 | id |
 | description |
@@ -246,14 +257,14 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # Divisionmethods
 
-| Variabele |
+| Variable |
 |:--------|
 | id |
 | description |
 
 # FinancialAdministrations
 
-| Variabele |
+| Variable |
 |:--------|
 | id |
 | description |
@@ -261,7 +272,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # Growers
 
-| Variabele |
+| Variable |
 |:--------|
 | growerId |
 | name |
@@ -293,7 +304,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # Packages
 
-| Variabele |
+| Variable |
 |:--------|
 | packageId |
 | packagePrice |
@@ -346,7 +357,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # ProductGroups
 
-| Variabele |
+| Variable |
 |:--------|
 | id |
 | description |
@@ -354,7 +365,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # Sellers
 
-| Variabele |
+| Variable |
 |:--------|
 | id |
 | description |
@@ -362,7 +373,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # Stocks
 
-| Variabele |
+| Variable |
 |:--------|
 | id |
 | description |
@@ -370,7 +381,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # Suppliers
 
-| Variabele |
+| Variable |
 |:--------|
 | supplierId |
 | name |
@@ -394,10 +405,12 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 | finBTWCod |
 | btwNr |
 | version |
+|debtorFinancialNumber|
+|accountManager|
 
 # Users
 
-| Variabele |
+| Variable |
 |:--------|
 | id |
 | description |
@@ -405,7 +418,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # Vats
 
-| Variabele |
+| Variable |
 |:--------|
 | id |
 | description |
@@ -413,7 +426,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # BandRef
 
-| Variabele |
+| Variable |
 |:--------|
 | productionLineId |
 | parcelId |
@@ -450,7 +463,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # BandRefLog
 
-| Variabele |
+| Variable |
 |:--------|
 | lineReferenceID |
 | logType |
@@ -468,7 +481,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # CustomerOrders
 
-| Variabele |
+| Variable |
 |:--------|
 | parcelId |
 | orderListId |
@@ -545,10 +558,11 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 | deadlineNr |
 | supplierNote |
 | version |
+| ReservationTextId|
 
 # SalesDivisions
 
-| Variabele |
+| Variable |
 |:--------|
 | parcelId |
 | orderListId |
@@ -630,9 +644,9 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 --
 
-# InvoiceCredits
+# InvoiceCredit
 
-| Variabele |
+| Variable |
 |:--------|
 | historicalBarcode |
 | barcode |
@@ -652,7 +666,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # OrderlistAssortment
 
-| Variabele |
+| Variable |
 |:--------|
 | parcelId |
 | stockId |
@@ -773,7 +787,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # OrderlistComponents
 
-| Variabele |
+| Variable |
 |:--------|
 | articleId |
 | description |
@@ -794,7 +808,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # OutstandingInvoices
 
-| Variabele |
+| Variable |
 |:--------|
 | productionLineId |
 | reminder1 |
@@ -822,7 +836,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # PackageHistory
 
-| Variabele |
+| Variable |
 |:--------|
 | customerId |
 | auctionDate |
@@ -855,7 +869,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # PurchaseHistory
 
-| Variabele         |
+| Variable         |
 | :--------------   |
 | articleId        |
 | description      |
@@ -907,10 +921,14 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 | version          |
 | pKey             |
 | deadlineNr       |
+|debtorFinancialNumber|
+|accountManager|
+|orderParcelid|
+|priceInCurrency|
 
 # Payments
 
-| Variabele |
+| Variable |
 |:--------|
 | customerId |
 | invoiceNr |
@@ -937,7 +955,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # Shipments
 
-| Variabele |
+| Variable |
 |:--------|
 | shipmentId |
 | departurePort |
@@ -972,7 +990,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # SalesHistory
 
-| Variabele |
+| Variable |
 |:--------|
 | articleGroupId |
 | articleId |
@@ -1037,10 +1055,11 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 | userId |
 | vatId |
 | version |
+| packListId|
 
 # OrderApprovals
 
-| Variabele |
+| Variable |
 |:--------|
 | orderId |
 | state |
@@ -1067,7 +1086,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # SalesHistoryCostAndRebates
 
-| Variabele           |
+| Variable           |
 |:------------------|
 | id                 |
 | customerId       |
@@ -1088,7 +1107,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # SalesHistoryBouquets
 
-| Variabele                |
+| Variable                |
 | :---------------------- |
 | articleGroupId          |
 | articleId               |
@@ -1156,7 +1175,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # SalesHistoryInvoiceHeaders
 
-| Variabele                    |
+| Variable                    |
 | :-------------------------- |
 | customerId                  |
 | orderNr                     |
@@ -1195,7 +1214,7 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 
 # ShopLog
 
-| Variabele           |
+| Variable           |
 | :----------------- |
 | logId              |
 | userId             |
@@ -1220,3 +1239,124 @@ De server management API heeft verschillende endpoints deze worden hieronder bes
 | remark             |
 | pKey               |
 | version            |
+
+# Colors
+
+|Variable|
+|:-------|
+|colorId|
+|color|
+|description_D|
+|description_E|
+|description_F|
+|s50_Feature|
+
+# ComponentTypes
+
+|Variable|
+|:-------|
+|id|
+|description|
+
+# CreditReasons
+
+|Variable|
+|:-------|
+|creditReasonCode|
+|description|
+|description_E|
+|description_D|
+|description_F|
+|creditCategory|
+|webShop|
+|toReturn|
+|refund|
+|version|
+
+# SortCodes
+
+|Variable|
+|:-------|
+|productCharacteristicCode|
+|feature|
+|productCharacteristicDescription|
+|description_D|
+|description_E|
+|description_F|
+|version|
+
+# ReservationTexts
+
+|Variable|
+|:-------|
+|reservationTextId|
+|description|
+|reservationTextCode|
+|version|
+
+# InvoiceApproval
+
+|Variable|
+|:-------|
+|toDebtor|
+|toOrderNr|
+|customerId|
+|orderNr|
+|articleId|
+|invoiceNr|
+|amount|
+|date|
+|divisionId|
+|processingDate|
+|creditVia|
+|userId|
+|packageCredit|
+|packageQuantity|
+|reasonForCredit|
+|approvingSalesUser|
+|processingChoice|
+|creditRemark|
+|processinText|
+|doneProcessing|
+|creditQuantity|
+|parcelDate|
+|supplierId|
+|returnedProduct|
+|registrationDate|
+|statusId|
+|s01|
+|countryId|
+|accountManager|
+|stateColor|
+|historicalShipmentNo|
+|packageCode|
+|everythingCredited|
+|reasonForCreditId|
+|invoiceCreditStatus|
+|pKey|
+|version|
+
+# PaymentConditions
+
+|Variable|
+|:-------|
+|paymentCondtionId|
+|conditionCode|
+|conditionCode_G|
+|conditionCode_E|
+|conditionCode_F|
+|conditionCode_I|
+|description|
+|description_D|
+|description_E|
+|description_F|
+|description_I|
+|pKey|
+|version|
+
+# Sources
+
+|Variable|
+|:-------|
+|id|
+|description|

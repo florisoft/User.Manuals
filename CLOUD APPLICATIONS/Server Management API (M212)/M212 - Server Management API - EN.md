@@ -924,6 +924,7 @@ The server management API has many different endpoints they are described in the
 |debtorFinancialNumber|
 |accountManager|
 |orderParcelid|
+|priceInCurrency|
 
 # Payments
 
