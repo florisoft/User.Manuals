@@ -13,8 +13,8 @@ In deze handleiding leest u hoe een gebruiker aan maakt en deze vervolgens autor
 |:--|:--|
 |**1**|Open vanuit de navigator het constanten scherm en navigeer hierbinnen naar het volgende pad:<br>**Systeem→Users→Systeemgebruikers**.<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src="media NL/5.png"></details>|
 |**2**|Klik op het **+** icoon om een nieuwe gebruiker aan te maken.<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src="media NL/5.png"></details>|
-|**2**|Vul vervolgens de volgende velden in:<br>**1. UserID**: dit is de username die straks gebruikt word voor API login.<br>**2. Password**: het wachtwoord voor uw API-gebruiker, zorg dat deze enige complexiteit heeft.<br>**3. Naam**: deze is niet vereist voor de API maar is handig om deze makkelijk kenbaar te maken in uw Florisoft systeem.<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src="media NL/6.png"></details>|
-|**3**|Klik vervolgens op **Ok** om de gebruiker op te slaan in uw systeem.|
+|**3**|Vul vervolgens de volgende velden in:<br>**1. UserID**: dit is de username die straks gebruikt word voor API login.<br>**2. Password**: het wachtwoord voor uw API-gebruiker, zorg dat deze enige complexiteit heeft.<br>**3. Naam**: deze is niet vereist voor de API maar is handig om deze makkelijk kenbaar te maken in uw Florisoft systeem.<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src="media NL/6.png"></details>|
+|**4**|Klik vervolgens op **Ok** om de gebruiker op te slaan in uw systeem.|
 
  ## Autoriseren van de gebruiker door middel van het Policy scherm
 
