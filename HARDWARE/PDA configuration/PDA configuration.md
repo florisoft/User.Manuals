@@ -23,15 +23,15 @@ To get this done certain settings need to be set on the (domain)user accounts of
 
 1. Log into the environment (server) where the user accounts are defined. In most cases this will be a machine which acts as a domain controller.<br>
 
-2. Open the concerning PDA user, eg. PDA01 or HT11 by double clicking on its name. The users' Properties windows open. See the screenshot below:<br><br>
+2. Open the concerning PDA user, eg. PDA01 or HT11 by double clicking on its name. The users' Properties windows open. See the screenshot below:<br>
 
 ![](images/2023-08-03-15-50-02.png)
 
-3. Navigate to the Account tab. (no. 1)<br><br>
+3. Navigate to the Account tab. (no. 1)<br>
 
-4. Fill in the username in the User logon name: field. (no. 2)<br><br>
+4. Fill in the username in the User logon name: field. (no. 2)<br>
 
-5. Select the concerning domain in the adjacent dropdown. (no. 3)<br><br>
+5. Select the concerning domain in the adjacent dropdown. (no. 3)<br>
 
 6. Fill in the correct domain in the User logon name (pre-Windows 2000): field (no. 4)
 
@@ -43,15 +43,15 @@ How to know the correct domain name? This depends on the type of cloud environme
 **Auton:** FLORICLOUD\
 **BMP:** FLORISOFT-CLOUD
 
-7. Fill in the value [username_customercode] in the adjacent field. (no. 5)<br><br>
+7. Fill in the value [username_customercode] in the adjacent field. (no. 5)<br>
 
-8. Check the Password never expires tick in the Account options section. (no. 6)<br><br> 
+8. Check the Password never expires tick in the Account options section. (no. 6)<br> 
 
-9. Click the Environment tab. (no. 7)<br><br>
+9. Click the Environment tab. (no. 7)<br>
 
 ![](images/2023-08-03-16-22-52.png)
 
-10. Tick the Start the following program at logon: checkmark. (no. 8)<br><br>
+10. Tick the Start the following program at logon: checkmark. (no. 8)<br>
 
 11. Fill in the correct path to the concerning florisoft 2000.exe in the Program file name: field. (no. 9)
 
@@ -59,9 +59,9 @@ How to know the correct domain name? This depends on the type of cloud environme
 
 The default way of working with PDA's in Florisoft is to give them their own client folder. In most cases the client folder for PDA's is called something like FSNETHT, FSNETPDA, or one of those names followed by a serial number like FSNETHT01, FSNETPDA02, etc. (no. 10)
 
-12. Fill in the Start in field (no. 11) the same value as in the Program file name field (no. 9) but remove everyting after Splash\. <br><br>
+12. Fill in the Start in field (no. 11) the same value as in the Program file name field (no. 9) but remove everyting after Splash\.<br>
 
-13. Click the Apply button (no. 12) to confirm the settings.<br><br>
+13. Click the Apply button (no. 12) to confirm the settings.<br>
 
 14. Click the OK button (no. 13) to close the users properties window.
 
@@ -105,7 +105,7 @@ The screen for adding a new rdp profile appears. See the screenshot below.
 
 ![](images/2023-11-02-13-48-37.png)
 
-5. Scroll down to the LOGON section.<br><br>
+5. Scroll down to the LOGON section.<br>
 
 6. Fill the Host field with the internal servername of the customers' server. Reset servers often do have a name following the pattern RDS[number]. (no. 5)<br>
 
@@ -119,7 +119,7 @@ A settings screen opens where you can find the internal name of the server.
 
 ![](images/2023-11-02-14-14-55.png)
 
-7. Fill the correct port number (3389) in het the Port field. (no. 6)<br><br>
+7. Fill the correct port number (3389) in het the Port field. (no. 6)<br>
 
 8. At the Username field enter te username of the concerning PDA. (no. 7)
 
@@ -129,21 +129,21 @@ A settings screen opens where you can find the internal name of the server.
 
 ![](images/2023-11-02-14-33-46.png)
 
-10. Scoll down further till the password field appears.<br><br>
+10. Scoll down further till the password field appears.<br>
 
 10. Enter the password for the concerning user in the password field. (no. 9)
 
 ![](images/2022-07-21-11-01-54.png)
 
-11. Press the Display section to open those settings. (no. 10)<br><br>
+11. Press the Display section to open those settings. (no. 10)<br>
 
 12. Fill at the Custom width field the value 240. (no. 11)
 
 ![](images/2022-07-21-11-13-42.png)
 
-13. Fill at the Custom width field the value 360. (no. 12)<br><br>
+13. Fill at the Custom width field the value 360. (no. 12)<br>
 
-14. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 13)<br><br>
+14. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 13)<br>
 
 15. Scroll down to the Local Resources section and press on it. (no. 14)
 
@@ -153,7 +153,7 @@ A settings screen opens where you can find the internal name of the server.
 
 ![](images/2022-08-04-13-05-05.png)
 
-17. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 16)<br><br>
+17. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 16)<br>
 
 18. Scroll down to the Experience section and press on it. (no. 17)
 
@@ -163,9 +163,9 @@ A settings screen opens where you can find the internal name of the server.
 
 ![](images/2022-07-21-11-37-01.png)
 
-21. Be sure that all checkmarks under Allow the following are **unchecked** except the Reconnect if connection is dropped one. (no. 19)<br><br>
+21. Be sure that all checkmarks under Allow the following are **unchecked** except the Reconnect if connection is dropped one. (no. 19)<br>
 
-22.  Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 20)<br><br>
+22.  Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 20)<br>
 
 23. Press the Connection option (no. 21) to open the concerning settings.
 
@@ -175,9 +175,9 @@ A settings screen opens where you can find the internal name of the server.
 
 ![](images/2022-08-04-14-45-46.png)
 
-25. Check the Ativate network level authentication NLA (SingleSignOn) tickbox. (no. 23)<br><br>
+25. Check the Ativate network level authentication NLA (SingleSignOn) tickbox. (no. 23)<br>
 
-26. Select the Use these RD Gateway server settings (no. 24) below GATEWAY.<br><br>
+26. Select the Use these RD Gateway server settings (no. 24) below GATEWAY.<br>
 
 27. At the Host field (no. 25) fill the RD gateway host to connect with. In most cases this host name has a format like CUSTOMERCODE.florisoftcloud.com.
 
@@ -191,21 +191,21 @@ Scroll further down this screen to see the settings below.
 
 ![](images/2023-11-03-08-42-45.png)
 
-29. Be sure to check the Use custom credentials option. (no. 27)<br><br>
+29. Be sure to check the Use custom credentials option. (no. 27)<br>
 
 30. Fill the Windows username of the PDA account in the Username field. (no. 28)<br>
 
 **The @-character in the username must be replaced with an underscore character (_)**
 
-31. Fill the internal domain name of the server in the Domain field. (no. 29)<br><br>
+31. Fill the internal domain name of the server in the Domain field. (no. 29)<br>
 
-32. Fill in the concerning password which belongs to the username as entered in step 30 above.<br><br>
+32. Fill in the concerning password which belongs to the username as entered in step 30 above.<br>
 
 33. Press the OK button (no. 31) in the bottom right corner of the screen to save the settings and return to the previous screen.
 
 ![](images/2022-08-04-15-30-56.png)
 
-34. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 32)<br><br>
+34. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 32)<br>
 
 35. Press the save icon in the upper right corner of the screen. (no. 33)
 
@@ -285,29 +285,29 @@ The screen for adding a new rdp profile appears. See the screenshot below.
 
 ![](images/2022-07-21-10-59-02.png)
 
-6. Fill the Host field with the hostname of the server to be connected to. (no. 6)<br><br>
+6. Fill the Host field with the hostname of the server to be connected to. (no. 6)<br>
 
-7. Fill the correct port number in het the Port field. (no. 7)<br><br>
+7. Fill the correct port number in het the Port field. (no. 7)<br>
 
-8. At the Username field enter te username of the concerning PDA. (no. 8)<br><br>
+8. At the Username field enter te username of the concerning PDA. (no. 8)<br>
 
-9. Scoll down further till the password field appears.<br><br>
+9. Scoll down further till the password field appears.<br>
 
 10. Enter the password for the concerning user in the password field. (no. 9)
 
 ![](images/2022-07-21-11-01-54.png)
 
-11. Press the Display section to open those settings. (no. 10)<br><br>
+11. Press the Display section to open those settings. (no. 10)<br>
 
 12. Fill at the Custom width field the value 240. (no. 11)
 
 ![](images/2022-07-21-11-13-42.png)
 
-13. Fill at the Custom width field the value 360. (no. 12)<br><br>
+13. Fill at the Custom width field the value 360. (no. 12)<br>
 
-14. Scoll down further till the password field appears.<br><br>
+14. Scoll down further till the password field appears.<br>
 
-15. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 13)<br><br>
+15. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 13)<br>
 
 16. Scroll down to the Local Resources section and press on it. (no. 14)
 
@@ -317,7 +317,7 @@ The screen for adding a new rdp profile appears. See the screenshot below.
 
 ![](images/2022-08-04-13-05-05.png)
 
-18. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 16)<br><br>
+18. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 16)<br>
 
 19. Scroll down to the Experience section and press on it. (no. 17)
 
@@ -327,9 +327,9 @@ The screen for adding a new rdp profile appears. See the screenshot below.
 
 ![](images/2022-07-21-11-37-01.png)
 
-21. Be sure that all checkmarks under Allow the following are **unchecked** except the Reconnect if connection is dropped one. (no. 19)<br><br>
+21. Be sure that all checkmarks under Allow the following are **unchecked** except the Reconnect if connection is dropped one. (no. 19)<br>
 
-22.  Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 20)<br><br>
+22.  Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 20)<br>
 
 23. Press the save icon in the upper right corner of the screen. (no. 21)
 
@@ -405,29 +405,29 @@ The screen for adding a new rdp profile appears. See the screenshot below.
 
 ![](images/2022-09-23-11-42-41.png)
 
-6. Fill the Host field with the hostname of the server to be connected to. (no. 6)<br><br>
+6. Fill the Host field with the hostname of the server to be connected to. (no. 6)<br>
 
-7. Fill the correct port number in het the Port field. (no. 7)<br><br>
+7. Fill the correct port number in het the Port field. (no. 7)<br>
 
-8. At the Username field enter te username of the concerning PDA. (no. 8)<br><br>
+8. At the Username field enter te username of the concerning PDA. (no. 8)<br>
 
-9. Scoll down further till the password field appears.<br><br>
+9. Scoll down further till the password field appears.<br>
 
 10. Enter the password for the concerning user in the password field. (no. 9)
 
 ![](images/2022-07-21-11-01-54.png)
 
-11. Press the Display section to open those settings. (no. 10)<br><br>
+11. Press the Display section to open those settings. (no. 10)<br>
 
 12. Fill at the Custom width field the value 240. (no. 11)
 
 ![](images/2022-07-21-11-13-42.png)
 
-13. Fill at the Custom width field the value 360. (no. 12)<br><br>
+13. Fill at the Custom width field the value 360. (no. 12)<br>
 
-14. Scoll down further till the password field appears.<br><br>
+14. Scoll down further till the password field appears.<br>
 
-15. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 13)<br><br>
+15. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 13)<br>
 
 16. Scroll down to the Local Resources section and press on it. (no. 14)
 
@@ -437,7 +437,7 @@ The screen for adding a new rdp profile appears. See the screenshot below.
 
 ![](images/2022-08-04-13-05-05.png)
 
-18. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 16)<br><br>
+18. Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 16)<br>
 
 19. Scroll down to the Experience section and press on it. (no. 17)
 
@@ -447,9 +447,9 @@ The screen for adding a new rdp profile appears. See the screenshot below.
 
 ![](images/2022-09-23-12-39-40.png)
 
-21. Be sure that all checkmarks under Allow the following are **unchecked** except the Reconnect if connection is dropped one. (no. 19)<br><br>
+21. Be sure that all checkmarks under Allow the following are **unchecked** except the Reconnect if connection is dropped one. (no. 19)<br>
 
-22.  Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 20)<br><br>
+22.  Press the left pointing arrow at the top of the screen to go back to the previous screen. (no. 20)<br>
 
 23. Press the save icon in the upper right corner of the screen. (no. 21)
 
@@ -527,7 +527,7 @@ Beside setting up an rdp connection to a server it is neccesary to configure set
 
 ![](images/2023-11-16-15-08-39.png)
 
-8. Press the left pointing arrow two times in the bottom left of the screen to return to the Scanner Settings screen. (no. 7)<br><br>
+8. Press the left pointing arrow two times in the bottom left of the screen to return to the Scanner Settings screen. (no. 7)<br>
 
 9. Scroll downward and press the Interleaved 2 of 5 option. (no. 8)
 
@@ -541,7 +541,7 @@ Beside setting up an rdp connection to a server it is neccesary to configure set
 
 ![](images/2023-11-16-15-24-08.png)
 
-12. Press the left pointing arrow two times in the bottom left of the screen to return to the Scanner Settings screen. (no. 13)<br><br>
+12. Press the left pointing arrow two times in the bottom left of the screen to return to the Scanner Settings screen. (no. 13)<br>
 
 13. Scroll down to the bottom of the Scanner Settings screen and choose the Commit option to save the settings. (no. 14)
 
@@ -575,9 +575,9 @@ Beside setting up an rdp connection to a server it is neccesary to configure set
 
 ![](images/2023-11-16-16-12-23.png)
 
-18. Press OK to confirm the settings. (no. 22)<br><br>
+18. Press OK to confirm the settings. (no. 22)<br>
 
-19. Press two times the left pointing arrow to go back to the Scanner Settings screen. (no. 23)<br><br>
+19. Press two times the left pointing arrow to go back to the Scanner Settings screen. (no. 23)<br>
 
 20. Scroll downward and press the Commit option in the Scanner Settings screen. (no. 24)
 
@@ -651,21 +651,21 @@ A small windows pops up:
 
 >**Pay attenion: replace the @ character in the username with an underscore (_) character.**
 
-9. Fill in the password of the PDA user in the Password field. (no. 9)<br><br>
+9. Fill in the password of the PDA user in the Password field. (no. 9)<br>
 
-10. Press the SAVE option in the bottom right corner of the Add user account pop up window. (no. 10)<br><br>
+10. Press the SAVE option in the bottom right corner of the Add user account pop up window. (no. 10)<br>
 
 11. Press the down pointing arrow before Show additional options. (no. 11)
 
 ![](images/2023-11-09-09-58-50.png)
 
-12. Fill in a friendly name for the rdp connection in the Friendly name field. (no. 12)<br><br>
+12. Fill in a friendly name for the rdp connection in the Friendly name field. (no. 12)<br>
 
 13. Press the down pointing arrow on the right side of the Gateway field. (no. 13)
 
 ![](images/2023-11-09-15-08-41.png)
 
-14. Choose the option Add gateway. (no. 14) The Add gateway screen pops up.<br><br>
+14. Choose the option Add gateway. (no. 14) The Add gateway screen pops up.<br>
 
 15. Fill in the external name of the gateway at the Server name field. (no. 15) This is mostly one of the following two values:
 
@@ -678,7 +678,7 @@ Customer own private cloud: fspc.florisoftcloud.com
 
 ![](images/2023-11-09-15-26-48.png)
 
-17. Choose the previously created user in the list. (no. 17) The selected user becomes selected in the User account field.<br><br>
+17. Choose the previously created user in the list. (no. 17) The selected user becomes selected in the User account field.<br>
 
 18. Press the SAVE option in the Add gateway pop up screen. (no. 18)
 
@@ -700,7 +700,7 @@ Customer own private cloud: fspc.florisoftcloud.com
 
 ![](images/2023-11-09-15-38-34.png)
 
-23. Choose the 1280 x 768 option. (no. 23)<br><br>
+23. Choose the 1280 x 768 option. (no. 23)<br>
 
 24. Set the Scaling slider on the value of 300 %. (no. 24)
 
@@ -710,7 +710,7 @@ Customer own private cloud: fspc.florisoftcloud.com
 
 ![](images/2023-11-09-15-42-17.png)
 
-26. Press the left pointing arrow in the top left of the screen to navigate back to the previous screen. (no. 26)<br><br>
+26. Press the left pointing arrow in the top left of the screen to navigate back to the previous screen. (no. 26)<br>
 
 27. Press the SAVE option in the upper right corner of the Add desktop screen. (no. 27)
 
@@ -739,7 +739,7 @@ The connection is being established. After a few seconds it is possible to see t
 
 ![](images/2023-11-09-16-06-14.png)
 
-3. Check the Never ask again for connections to this PC checkbox. (no. 3)<br><br>
+3. Check the Never ask again for connections to this PC checkbox. (no. 3)<br>
 
 4. Press the CONNECT option to make the actual connection. (no. 4)
 
@@ -786,9 +786,9 @@ Below you will find the steps required for setting up an rdp connection to an Ax
 
 ![](images/2023-11-09-16-33-13.png)
 
-5. Fill in the external server name for the customers' server in the Server address field. (no. 5)<br><br>
+5. Fill in the external server name for the customers' server in the Server address field. (no. 5)<br>
 
-6. Fill in the username of the PDA user in the User name field. (no. 6)<br><br>
+6. Fill in the username of the PDA user in the User name field. (no. 6)<br>
 
 7. Fill in the password of the PDA user in the Password field. (no. 7)
 
@@ -810,7 +810,7 @@ Scroll further down to ge the extra settings
 
 ![](images/2023-11-10-09-07-45.png)
 
-11. Press the down pointing arrow on the right side of Advanced. (no. 11)<br><br>
+11. Press the down pointing arrow on the right side of Advanced. (no. 11)<br>
 
 12. Press the Display option. (no. 12)
 
@@ -890,11 +890,11 @@ Below you will find the steps required for setting up an rdp connection to a BMP
 
 ![](images/2023-11-10-11-36-47.png)
 
-5. Fill in the external name of the server in the Server address field. (no. 5)<br><br>
+5. Fill in the external name of the server in the Server address field. (no. 5)<br>
 
-6. Fill in the username of the PDA user in the User name field. (no. 6)<br><br>
+6. Fill in the username of the PDA user in the User name field. (no. 6)<br>
 
-7. Fill in the password of the PDA user in the Password field. (no. 7)<br><br>
+7. Fill in the password of the PDA user in the Password field. (no. 7)<br>
 
 Scroll further down the screen to see the other settings.
 
@@ -924,7 +924,7 @@ Scroll further down the screen to see the other settings.
 **220 x 360, Scaling 100%**
 **1280 x 768, Scaliing 300%**
 
-13. Press the left pointing arrow in the upper left corner of the Custom screen. (no. 15)<br><br>
+13. Press the left pointing arrow in the upper left corner of the Custom screen. (no. 15)<br>
 
 14. Press the left pointing arrow in the upper left corner of the Resolution screen. (no. 16)
 
@@ -1002,7 +1002,7 @@ Scroll back topwards.
 
 ![](images/2023-11-16-13-12-49.png)
 
-8. Enable the Enable checkmark in the Keystroke output section. (no. 8)<br><br>
+8. Enable the Enable checkmark in the Keystroke output section. (no. 8)<br>
 
 9. Enable the Send data checkmark in the Keystroke output section. (no. 9)
 
@@ -1010,7 +1010,7 @@ Scroll back topwards.
 
 Scroll downwards to see more settings.
 
-10. Enable the Send ENTER key checkmark. (no. 10)<br><br>
+10. Enable the Send ENTER key checkmark. (no. 10)<br>
 
 11. Press the left pointing arrow at the bottom of the screen to go back to the previous screen. (no. 11)
 
