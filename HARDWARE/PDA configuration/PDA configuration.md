@@ -21,7 +21,7 @@ Due to security reasons it is desirable that a PDA user only has access to the F
 
 To get this done certain settings need to be set on the (domain)user accounts of the PDA users.
 
-1. Log into the environment (server) where the user accounts are defined. In most cases this will be a machine which acts as a domain controller.<br><br>
+1. Log into the environment (server) where the user accounts are defined. In most cases this will be a machine which acts as a domain controller.<br>
 
 2. Open the concerning PDA user, eg. PDA01 or HT11 by double clicking on its name. The users' Properties windows open. See the screenshot below:<br><br>
 
