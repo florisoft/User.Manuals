@@ -41,7 +41,7 @@ Following the steps to give an article group a featuregroup.
 |**1**|Navigate to the Constants screen:<br> **Articles->Article information->article groups**<details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image5.png"></details>|
 |**2**|Open the relevant article group and navigate to the folder **Commercial parcel**<details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image5.png"></details>|
 |**3**|In the dropdown feature group, fill in the relevant feature group<details><summary><b>Click here for the example</b></summary><img src="Favourites Manual\image5.png"></details>|
-|**4**|This does not mean that all articles that fall under the article group now have a commercial article number. These will have to be created by scanning in the new stock|
+|**4**|However, this does not mean that all articles in this article group now have a commercial article number. Commercial article numbers are only created when a new stock is read in.|
 
 
 ## Link commercial feature group to article
