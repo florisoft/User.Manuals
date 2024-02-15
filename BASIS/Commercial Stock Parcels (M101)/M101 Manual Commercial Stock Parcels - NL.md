@@ -7,7 +7,7 @@ Zodra je beschikt over de module Commerciële Voorraad Partijen heb je bij de
 voorraadinstellingen in de constanten een nieuw tabblad en bij het setup
 systeem een apart tabje voor de commerciële partijen instellingen.  
   
-In mijn onderstaande voorbeeld heb ik bij Bab Star dus een commerciële
+In mijn onderstaande voorbeeld heb ik dus een commerciële
 voorraad aangemaakt en aangegeven: “Is commerciële voorraad”.
 
 <img src=".Commerciële partijen\media\image1.png" style="width:6.28999in;height:3.48958in" />
@@ -121,11 +121,11 @@ nieuwe:
 
 Webshop.
 
-Bij Bab Star heb ik er voor gekozen om de Cel voorraad en de commerciële
+Bij klant 'X' heb ik er voor gekozen om de Cel voorraad en de commerciële
 voorraad als 1 voorraad te tonen op de Webshop, als Webshop voorraad.
 Genoemd Bloemen.
 
-Dit omdat Bab Star NIET iedere partij omgevormd moet worden tot
+Dit omdat bij klant 'X' NIET iedere partij omgevormd moet worden tot
 commerciële partij. Enkel de producten die normaliter werden
 “Samengevoegd” om het aanbod voor de klant overzichtelijker te maken.
 
