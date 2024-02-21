@@ -9,15 +9,18 @@ Dit document beschrijft de werking van de cash & carry applicatie van Florisoft.
 [Installeren en downloaden van de app](#installeren-en-downloaden-van-de-app)  
 [Algemene werking vana de app (een doorloop)](#algemene-werking-van-de-app-doorloop)
 
-## Installeren en downloaden van de app
+## Hub-app
 
-U zal eerst de app moeten downloaden en installeren, u kan de app downloaden via de onderstaande QR code of link:
+*U installeert de Cash & Carry app via de Hub-app, volg de onderstaande stappen:*
 
-<img src="../Cloud App QR-Codes/PNG images/C&C App QR.png" height=350px>
-
-https://app.florisoft.nl/Apps/latest/Sales.POS/Android/com.Florisoft.Sales.POS-Signed.apk
-
-Om de app te kunnen installeren zal u in sommige gevallen moeten toestaan dat er apps geïnstalleerd mogen worden van externe bronnen. 
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Open uw Hub-app en klik op de knop **Go To Catalog**.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="../Trolley Building App(M213)/Media/NL/1.png"></details>|
+|**2**|Mocht u nog niet ingelogd zijn krijgt u nu een loginpagina te zien, login.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="../Trolley Building App(M213)/Media/NL/2.png"></details>|
+|**3.a**|Indien u de Point of Sales app al geïnstalleerd heeft (in de app heet dit *Sales.POS*) staat er een paars ingekleurd symbool naast.<br>Klik op dit paarse embleem om de Point of Sales app te starten.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Cash & Carry App/41.png"></details>|
+|**3.b**|Heeft u de app nog niet geïnstalleerd sleept u de *Sales.POS* app naar links. Vervolgens ziet u een download en prullenbak icoon verschijnen, klik op het download icoon. <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Cash & Carry App/42.png"></details>|
+|**4**|Doorloop vervolgens de installatie stappen en bevestig meerdere malen dat u de app wilt installeren.|
+|**5**|Wanneer de app geïnstalleerd heeft staat er een paars embleem naast, klik hier op om de Point of Sales app te starten.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Cash & Carry App/41.png"></details>|
 
 ## Algemene werking van de app (doorloop)
 
