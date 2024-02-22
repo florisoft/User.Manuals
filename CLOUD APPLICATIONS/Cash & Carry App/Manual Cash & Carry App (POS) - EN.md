@@ -17,10 +17,10 @@ This document describes the process of working with the cash & carry app made by
 |:-:|:--|
 |**1**|Open your Hub-app and click on the **Go To Catalog** button.<details><summary><b>Click here for the example image!</b></summary><img src="../Trolley Building App(M213)/Media/NL/1.png"></details>|
 |**2**|In case you are not logged in yet a login page will be shown, log in.<details><summary><b>Click here for the example image!</b></summary><img src="../Trolley Building App(M213)/Media/NL/2.png"></details>|
-|**3.a**|You should now see the available apps for your system. Apps that are already installed have a purple emblem next to them. In this screen we are looking for the *Logistics.Packing* row, if this has a purple emblem next to it, click on it to open the app.<details><summary><b>Click here for the example image!</b></summary><img src="Cash & Carry App/41.png"></details>|
+|**3.a**|You should now see the available apps for your system. Apps that are already installed have a purple emblem next to them. In this screen we are looking for the *Sales.POS* row, if this has a purple emblem next to it, click on it to open the app.<details><summary><b>Click here for the example image!</b></summary><img src="Cash & Carry App/41.png"></details>|
 |**3.b**|If the emblem is grayed out the app isn't installed yet. To install the app swipe the row to the left, a download and bin icons should now be shown. Click on the download icon.<details><summary><b>Click here for the example image!</b></summary><img src="Cash & Carry App/42.png"></details> |
 |**4**|You have now started the installation process, you will be prompted multiple times to confirm the app's installation, confirm each one.|
-|**5**|When having installed the app a purple emblem should now be shown next to it. Click on this emblem to start up the Trolley Building app.<details><summary><b>Click here for the example image!</b></summary><img src="Cash & Carry App/41.png"></details>|
+|**5**|When having installed the app a purple emblem should now be shown next to it. Click on this emblem to start up the Cash & Carry application.<details><summary><b>Click here for the example image!</b></summary><img src="Cash & Carry App/41.png"></details>|
 
 ## User process overview (a walkthrough)
 
