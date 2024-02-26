@@ -8,7 +8,7 @@ Standaard wordt een nieuwere versie van de cloudserver gedownload tijdens het bi
 
 Voordat u de cloudserver gaat bijwerken, is het van belang dat er geen gebruikers zijn die actief gebruik maken van de functionaliteiten van de cloudserver.
 
-Zorg ervoor dat er geen actieve gebruikers zijn op de cloudserver voor dat u gaat updaten, indien nodig kan u de gebruikers disconnecten.
+**Zorg ervoor dat er geen actieve gebruikers zijn op de cloudserver voor dat u gaat updaten, indien nodig kan u de gebruikers disconnecten.<br>Wanneer u dit niet doet kan dit leiden tot het falen van het updateproces**
 
 <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/1.png"></details>
 
