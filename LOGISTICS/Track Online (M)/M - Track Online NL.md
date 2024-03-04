@@ -1,4 +1,4 @@
-<img src="../../fslogo.png>
+<img src="../../fslogo.png">
 
 Dit document betreft de werking en het benodigde instelwerk rondom de Florisoft Track Online module.
 Met deze module kan u uw fust-exportfuncties beheren via de API van Track Online. 
