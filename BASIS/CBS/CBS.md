@@ -15,13 +15,13 @@ Hiervoor hebben we een conversiestap gebouwd wanneer je komend jaar CBS aangifte
 `
 De grootste verandering m.b.t. het CBS versturen is het meesturen van `het land van herkomst. Als u en versie heeft van 20 december of jonger dan zal Florisoft bij het doorboeken van een factuur vanaf 1 januari checken of de volgende vinkjes aanstaan bij de debiteur:
 
-![](media/2022-02-08-09-56-34.png)
+![](Media/2022-02-08-09-56-34.png)
 
-![](media/2022-02-08-09-57-21.png)
+![](Media/2022-02-08-09-57-21.png)
 
 LET OP. In de versie begin december tot 2 januari kunt u als nog een melding krijgen dat het doorboeken niet lukt. Dat komt omdat in die versie ook nog naar onderstaande instelling gekeken werd:
 
-![](media/2022-02-08-09-57-35.png)
+![](Media/2022-02-08-09-57-35.png)
 
 Deze kunt u in principe aanzetten. Mocht u deze vink niet willen gebruiken dan kunt u updaten en kijkt Florisoft tijdens het doorboeken niet meer naar deze vink.
 
@@ -29,7 +29,7 @@ Als deze aanstaan zal Florisoft ook het land van herkomst vullen in de CBS tabel
 Dit heeft ook gevolgen voor de statistieken op de factuurprint. Deze zullen nu namelijk gegroepeerd worden op land van herkomst. 
 Als u dus 2 factuurregels heeft van hetzelfde product met een ander land van herkomst dan komen deze dus als 2 regels op de lay-out.
 
-![](media/2022-02-08-09-57-56.png)
+![](Media/2022-02-08-09-57-56.png)
 
 U kunt hier zelf eventueel het land van herkomst naast zetten of groeperen op de lay-out. Als u dit niet kunt of liever wilt dat wij dit doen dan kunt u contact opnemen met onze supportafdeling. Zij kunnen de aanpassing in kaart brengen en begroten voor u. 
 
@@ -37,7 +37,7 @@ U kunt hier zelf eventueel het land van herkomst naast zetten of groeperen op de
 
 Mocht u wel gebruik willen maken van aparte uitsplitsingen per land van herkomst dan kunt u dat op de volgende manier inrichten:
 
-![](media/2022-02-08-09-58-23.png)
+![](Media/2022-02-08-09-58-23.png)
 
 # Werkwijze:
 
@@ -49,18 +49,18 @@ Om uw gegevens naar het CBS te kunnen uploaden heeft u specifieke gegevens nodig
 
 CBS aangifte via Florisoft gaat grotendeels zoals u gewend bent. U gaat naar CBS Statistiek via de Florisoft Navigator:
 
-![](media/2022-02-08-09-59-16.png)
+![](Media/2022-02-08-09-59-16.png)
 
 Hier kiest u de juiste administraties en eventuele andere filters:
 
-![](media/2022-02-08-09-59-31.png)
+![](Media/2022-02-08-09-59-31.png)
 
 Daarna klikt u op OK. Het volgende scherm verschijnt:
 
-![](media/2022-02-08-09-59-49.png)
+![](Media/2022-02-08-09-59-49.png)
 
 Nadat u de CBS gegevens geprint heeft of via printen scherm bekeken heeft krijgt u de vraag of de gegevens wil uploaden.
-![](media/2022-02-08-10-00-02.png)
+![](Media/2022-02-08-10-00-02.png)
 
  Als u hier ja kiest opent de website van het CBS op de upload pagina en de bestandslocatie van het bestand word geopend.
 
@@ -68,24 +68,24 @@ Nadat u de CBS gegevens geprint heeft of via printen scherm bekeken heeft krijgt
 
  Nadat u Stap 2 afgerond hebt en de laatste vraag met JA beantwoord hebt opent Florisoft de locatie op de computer/server waar het bestand is aangemaakt*. En de site van het CBS komt naar voren op de juiste pagina.
 *Locatie: Dataadt\Archief\CBS
-![](media/2022-02-08-10-02-22.png)
+![](Media/2022-02-08-10-02-22.png)
 
 Na het inloggen kiest "inlezen" en dan nogmaals inlezen:
- ![](media/2022-02-08-10-03-18.png)
+ ![](Media/2022-02-08-10-03-18.png)
 
 Vervolgens selecteren we "Meerdere stromen/periodes". Er kan gekozen worden om reeds bestaande records binnen de opgave te verwijderen bij inleesactie. 
 
-![](media/2022-02-08-10-05-47.png) 
+![](Media/2022-02-08-10-05-47.png) 
 
 Vervolgens de volgende stappen doorlopen:
 
-![](media/2022-02-08-10-06-08.png)
-![](media/2022-02-08-10-06-28.png)
-![](media/2022-02-08-10-06-56.png)
+![](Media/2022-02-08-10-06-08.png)
+![](Media/2022-02-08-10-06-28.png)
+![](Media/2022-02-08-10-06-56.png)
 
 Het CBS laat vervolgens zien of het bestand goed of fout is.
 
-![](media/2022-02-08-10-07-14.png)
+![](Media/2022-02-08-10-07-14.png)
 
 Bij eventuele foutmeldingen kan men het volgende bestand raadplegen:
 
