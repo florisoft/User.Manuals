@@ -3,6 +3,7 @@
 # Florisoft Manual Server Management API - M212
 
 Welcome to the Florisoft manual about the Server Management API module. This module replaces the previously used ODBC connection that retrieved data from the database.
+Your API-URL should be as follows: https://<your cloudserver URL\>.com/ext/management/\<endoint>
 
 ## Table of contents
 
