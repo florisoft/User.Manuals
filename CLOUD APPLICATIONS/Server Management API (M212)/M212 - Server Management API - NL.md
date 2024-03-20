@@ -3,6 +3,8 @@
 # Florisoft Handleiding Server Management API - M212
 
 Welkom bij de handleiding over de Florisoft Server Management API. Deze module vervangt de hiervoor gebruikte ODBC connectie waarmee gegevens uit de database werden gehaald.
+Je API-url is als volgt: https://\<cloud server URL>.com/ext/management/\<endpoint>
+
 
 ## Inhoudsopgave
 
