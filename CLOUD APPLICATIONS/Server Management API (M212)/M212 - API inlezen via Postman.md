@@ -38,7 +38,7 @@ We moeten namelijk nog de logingegevens en API URL invoeren, dit kan in Postman 
 |**1**|Hover met uw muis over de zojuist geïmporteerde collectie en klik op de drie puntjes.<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src="media Postman/6.png"></details>|
 |**2**|Dit opent een context schermpje, klik hierin op de optie **Edit**.<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src="media Postman/3.png"></details>|
 |**3**|Klik op het tabje genaamd **Variables**(#3).<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src="media Postman/4.png"></details>|
-|**4**|U ziet in dit tabje een tabel, pas hier voor de rij **URL** de waarden van de kolom **Initial value** en **Current value** aan naar de waarde:<br>\<Uw cloud server URL\>/api/management/|
+|**4**|U ziet in dit tabje een tabel, pas hier voor de rij **URL** de waarden van de kolom **Initial value** en **Current value** aan naar de waarde:<br>\<Uw cloud server URL\>/ext/management/|
 |**5**|Vervolgens klikt u op de **Save** knop(#3) om uw wijzigingen op te slaan.<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src="media Postman/3.png"></details>|
 |**6**|Vervolgens klikt u op het tabje **Authorization**(#1).<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src="media Postman/5.png"></details>|
 |**7**|Vul in dit tabje de velden **Username** en **Password** (#2) in met de van Florisoft verkregen API logingegevens.<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src="media Postman/5.png"></details>|
@@ -75,7 +75,7 @@ Bij een succesvolle aanvraag ziet u hier 200 OK staan, maar bij gefaalde aanvrag
 
 1. Check of u in de endpoint aanvraag u niet perongeluk iets heeft ingetypt in het URL veld.
 2. Check of de dropdown naast het URL invoerveld ingesteld staat op de optie **POST**.
-3. Ga na of de basis-url in de collectie-instellingen wel correct geconfigureerd is, deze hoort er als volgt uit te zien: \<uw cloud server url\>/api/management/
+3. Ga na of de basis-url in de collectie-instellingen wel correct geconfigureerd is, deze hoort er als volgt uit te zien: \<uw cloud server url\>/ext/management/
 4. Ook is het handig om na te gaan of de Cloudserver wel aan staat, u kan dit snel zien door de URL van uw cloudserver in te voeren in uw browser. Staat deze aan krijgt u een statusscherm te zien over de status van de cloudserver. Krijgt u hier geen scherm te zien maar ook een 404, dan staat de cloudserver uit.
 
 ### 501 Internal server error
