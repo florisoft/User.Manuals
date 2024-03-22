@@ -1371,3 +1371,49 @@ The server management API has many different endpoints they are described in the
 |version|
 |pKey|
 
+# Pickorders
+
+|Value|
+|:--|
+|packageId|
+|contentBox|
+|isBouquet|
+|supplierId|
+|divisionType|
+|pickerId|
+|packListId|
+|pickingTime|
+|divisionId|
+|parcelCod|
+|divided|
+|packageAmount|
+|credit|
+|quantity|
+|contentColli|
+|totalColli|
+|pickTime|
+|orderTime|
+|orderNr|
+|vParcelId|
+|parcelId|
+|articleId|
+|customerId|
+|stockId|
+|crossdock|
+
+# AuctionGroups
+
+|Value|
+|:--|
+|auctionGrp|
+|buyerId|
+|auctionGrpDescription|
+|buyerId2|
+|buyerId3|
+
+# Buyers
+
+|Value|
+|:--|
+|BuyerId|
+|BuyerName|
