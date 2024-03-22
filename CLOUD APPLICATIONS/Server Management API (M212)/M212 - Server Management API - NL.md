@@ -58,6 +58,9 @@ Je API-url is als volgt: https://\<cloud server URL>.com/ext/management/\<endpoi
 [InvoiceApproval](#invoiceapproval)  
 [PaymentConditions](#paymentconditions)  
 [Sources](#sources)  
+[Pickorders](#Pickorders)  
+[Buyers](#Buyers)  
+[AuctionGroups](#AuctionGroups)  
 
 ## Authorizing a user
 
