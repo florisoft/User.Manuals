@@ -2,9 +2,9 @@
 
 # Florisoft manual CMS Link to External system
 
-It is possible to create a navigatin button with a login link to an external page from your Florishop.
+Florishop offers functionality to create a navigation button with a login link to an external site.
 
-This works by creating a CMS item that links to an external page, the link used contains a usertoken and an initialization vector (UTIV).
+This works by creating a CMS item that links to an external page. The link used contains a usertoken and an initialization vector (UTIV).
 The usertoken contains encrypted debtor information, encrypted using the DES algorithm. The UTIV together with a secret key can be used to decrypt the debtor information.
 You can manage the secret key via a webshop setting.
 
