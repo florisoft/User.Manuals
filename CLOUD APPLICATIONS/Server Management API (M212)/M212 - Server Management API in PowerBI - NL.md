@@ -56,7 +56,7 @@ let
     GetDataFromAPI = (relativePath) =>
         let
             // ENTER BASE URL HERE
-            PARAM_API_BASE_URL = "URL HIER!" & "api/Management/",
+            PARAM_API_BASE_URL = "URL HIER!" & "ext/Management/",
             Requestbody = "{""version"":""0""}",
             //ENTER USERNAME HERE
             PARAM_USER = "USERNAME!",
@@ -91,7 +91,7 @@ let
     GetDataFromAPI = (relativePath, versionNumber) =>
         let
             // ENTER BASE URL HERE
-            PARAM_API_BASE_URL = "URL HERE!" & "api/Management/",
+            PARAM_API_BASE_URL = "URL HERE!" & "ext/Management/",
             Requestbody = "{""version"": """ & Text.From(versionNumber) & """}",
             // ENTER USERNAME HERE
             PARAM_USER = "USERNAME HERE",
