@@ -48,3 +48,39 @@ Furthermore, Base64 encoding was also applied to both parameters with an additio
 An example of how the parameter values can be decrypted in PHP:
 
 <details><summary><b>Click here for your example image!</b></summary><img src="CMS_Links/9.png"></details>
+
+
+<?php
+
+$stringts = '!@#$%^&aabcdefgh';
+
+$usertoken = $_GET['usertoken'];
+$utiv = $_GET['utiv'];
+
+prepare_for_decoding($usertoken);
+prepare_for_decoding($utiv);
+
+$usertoken = base64_decode($usertoken);
+$utiv = base64_decode($utiv);
+ 
+$data = openssl_decrypt($usertoken, 'des-ede-cbc', $stringts, OPENSSL_RAW_DATA, $utiv);
+
+var_dump($data);
+
+function prepare_for_decoding(&$input) {
+	// the last character in the input indicates how much padding is needed and should be removed from the input
+	$padding_amount = intval(substr($input, -1)); 
+	$input = substr($input, 0, -1);
+	
+	// put back any "URL problematic" characters that were replaced
+	$input = str_replace('_', '/', $input);
+	$input = str_replace('-', '+', $input);	
+	
+	for ($i = 0; $i < $padding_amount; $i++) {
+		$input .= '=';
+	}	
+}
+
+?>
+
+
