@@ -50,7 +50,7 @@ An example of how the parameter values can be decrypted in PHP:
 <details><summary><b>Click here for your example image!</b></summary><img src="CMS_Links/9.png"></details>
 
 
-    <?php
+''''<?php
 
 $stringts = '!@#$%^&aabcdefgh';
 
@@ -80,6 +80,9 @@ function prepare_for_decoding(&$input) {
 		$input .= '=';
 	}	
 }
+
+?>
+
 
 ?>
 
