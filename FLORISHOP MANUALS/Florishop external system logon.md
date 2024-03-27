@@ -14,7 +14,7 @@ You can manage the secret key via a webshop setting.
 |:--|:--|
 |**1**|Log into your Florishop and go into management mode and go the Webshop settings.<details><summary><b>Click here for your example image!</b></summary><img src="CMS_Links/4.png"></details>|
 |**2**|In the webshop settings, search for the setting **USERTOKENKEY**.<details><summary><b>Click here for your example image!</b></summary><img src="CMS_Links/2.png"></details>|
-|**3**|Set the textbox "**Waarde**" to a secret string with the length of eight characters. This needs to be exactly eight characters long, if it is any shorter/longer it won't work.<details><summary><b>Click here for your example image!</b></summary><img src="CMS_Links/3.png"></details>|
+|**3**|Set the textbox "**Waarde**" to a secret string with the length of sixteen characters. This needs to be exactly 16 characters long, if it is any shorter/longer it won't work.<details><summary><b>Click here for your example image!</b></summary><img src="CMS_Links/3.png"></details>|
 |**4**|Authorize the setting change by filling in your administrator password, save the changes.|
 |**5**|Go back to the homepage by clicking on the **Home** button.|
 |**6**|Go to the link settings under **CMS** → **LINKS**.<details><summary><b>Click here for your example image!</b></summary><img src="CMS_Links/1.png"></details>|
@@ -25,13 +25,15 @@ You can manage the secret key via a webshop setting.
 
 ## Decrypting the debtor information
 
-*Follow the steps below to decrypt the information used to log into the external system*:
-
 Two parameters are added:
-- Usertoken contains the encryption of debtor info (debnr debtor name - note the space)
+- Usertoken contains the encrypted debtor info (debtor number & debtor name, with a space between the two outputs)
 - Utiv contains a so-called IV (initialization vector) which is needed (together with the key from the web setting) to decrypt the encrypted debtor info.
-The Triple DES (Data Encryption Standard) algorithm was used to encrypt the debtor info. 
-The key used is the USERTOKENKEY websetting and as IV the utiv value from the URL. Furthermore, Base64 encoding was also applied to both parameters with an additional replacement/deletion (+ and / replaced, = removed) of certain characters to make it more suitable for the URL.
+
+For encrypting the debtor information we use the Triple DES algorithm.
+
+We use the value from the USERTOKENKEY setting as the secret key, and the utiv value from the URL as the initialization vector.
+
+Furthermore, Base64 encoding was also applied to both parameters with an additional replacement/deletion (+ and / replaced, = removed) of certain characters to make it more suitable for the URL.
 
 
 |Step|Explanation|
@@ -43,6 +45,6 @@ The key used is the USERTOKENKEY websetting and as IV the utiv value from the UR
 |**5**|Strip both parameter values of the Base64 encoding.|
 |**6**|Use the Triple DES algorithm (cbc) to decrypt the usertoken value using the edited utiv and USERTOKENKEY values.|
 
-An example of how in PHP parameter values can be decrypted:
+An example of how the parameter values can be decrypted in PHP:
 
 <details><summary><b>Click here for your example image!</b></summary><img src="CMS_Links/9.png"></details>
