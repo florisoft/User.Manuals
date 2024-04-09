@@ -78,9 +78,9 @@ System users must be granted special permission to do so. Please follow the step
 
 The server management API has many different endpoints they are described in the following chapters.
 
-# ArticleGroups
+## ArticleGroups
 
-|Variables|
+|Value|
 |:--|
 |id|
 |description|
@@ -97,10 +97,11 @@ The server management API has many different endpoints they are described in the
 |description_E|
 |description_F|
 |maxAgeInDays|
+|auctionGrp|
 
-# Articles
+## Articles
 
-|Variables|
+|Value|
 |:--|
 |id|
 |description|
@@ -125,17 +126,9 @@ The server management API has many different endpoints they are described in the
 |french|
 |description_F|
 
-# Band
+## Carriers
 
-|Variables|
-|:--|
-|productionLineId|
-|description|
-|version|
-
-# Cariers
-
-|Variables|
+|Value|
 |:--|
 |carrierId|
 |name|
@@ -152,1135 +145,234 @@ The server management API has many different endpoints they are described in the
 |inActive|
 |glnCode|
 |faxNr|
+|afasId|
 
-# Customers
+## Colors
 
-| Variable |
-|:--------|
-| version |
-| customerId |
-| customerKey |
-| companyName |
-| contact |
-| address |
-| postal |
-| city |
-| countryId |
-| regionId |
-| profile |
-| phoneNr |
-| mobile |
-| faxNr |
-| email |
-| customerEANCode |
-| customerGLNAddress |
-| offerTreeId |
-| customerTreeId |
-| priceTree2Id |
-| priceTree3Id |
-| customerGroupId |
-| seatNo |
-| plateNr |
-| sellerId |
-| vatnr |
-| cocNr |
-| debtorFinancialNr |
-| paymentConditionId |
-| financialAdministrationId |
-| businessUnitId |
-| priceConfigurationId |
-| dueDateInDays|
-| customerTypeId|
-| customerCategory|
-| accountManager|
-
-# CustomerGroups
-
-| Variable |
-|:--------|
-| customerGroupId |
-| description |
-| version |
-| mainGroup |
-| saleUnit |
-| logisticsUnit |
-
-# CustomerGroupRelations
-
-| Variable |
-|:--------|
-| customerId |
-| customerGroupId |
-| version |
-| sequenceNumber |
-
-# Countries
-
-| Variable |
-|:--------|
-| id |
-| description |
-| version |
-| currencyCode |
-
-# Carriers
-
-| Variable |
-|:--------|
-| carrierId |
-| name |
-| address |
-| zipCode |
-| place |
-| countryID |
-| phoneNr |
-| contactPerson |
-| email |
-| version |
-| niwOcod |
-| trolleyHeight |
-| inActive |
-| glnCode |
-| faxNr |
-
-# Currencies
-
-| Variable |
-|:--------|
-| id |
-| description |
-| version |
-
-# Divisions
-
-| Variable |
-|:--------|
-| id |
-| description |
-| version |
-
-# Divisionmethods
-
-| Variable |
-|:--------|
-| id |
-| description |
-
-# FinancialAdministrations
-
-| Variable |
-|:--------|
-| id |
-| description |
-| version |
-
-# Growers
-
-| Variable |
-|:--------|
-| growerId |
-| name |
-| address |
-| zipCode |
-| place |
-| countryId |
-| growerEAN |
-| phone |
-| email |
-| varbNr |
-| customerId |
-| webserviceRaise |
-| plantPasport |
-| remark |
-| accManager |
-| mps |
-| mpsNr |
-| mpsType |
-| mpsCert |
-| mpsStart |
-| mpsEnd |
-| mps2Nr |
-| mps2Type |
-| mps2Cert |
-| mps2Start |
-| mps2End |
-| version |
-
-# Packages
-
-| Variable |
-|:--------|
-| packageId |
-| packagePrice |
-| packageGrpID |
-| description |
-| description_D |
-| description_E |
-| description_F |
-| packageType |
-| transportType |
-| packagePrice2 |
-| packagePrice3 |
-| packagePrice4 |
-| packagePurchaseAmount |
-| packageRentAmount |
-| packageRentAmount2 |
-| rentBTWCod |
-| btwCod |
-| packageCombi1 |
-| packageCombi2 |
-| packageCombi3 |
-| packageCombi4 |
-| ledgerAccount |
-| costUnit |
-| costUnitRent |
-| auctionPackage |
-| ownPackage |
-| lockPlate |
-| supplierId |
-| germanVBNcod |
-| barcodePrefix |
-| markCod |
-| material |
-| netWeight |
-| grossWeight |
-| volumeWeight |
-| collectionCode |
-| amountPerPallet |
-| packageLength |
-| packageWidth |
-| packageHeight |
-| plateHeight |
-| standardPackageContent |
-| standardAmountPerLayer |
-| standardAmountPerCart |
-| calculateVolume |
-| isBox |
-| loadCarrier |
-| version |
-
-# ProductGroups
-
-| Variable |
-|:--------|
-| id |
-| description |
-| version |
-
-# Sellers
-
-| Variable |
-|:--------|
-| id |
-| description |
-| version |
-
-# Stocks
-
-| Variable |
-|:--------|
-| id |
-| description |
-| version |
-
-# Suppliers
-
-| Variable |
-|:--------|
-| supplierId |
-| name |
-| contact |
-| address |
-| postal |
-| city |
-| countryId |
-| supplierPhoneNr |
-| supplierFax |
-| supplierEmail |
-| eanCode |
-| glnCode |
-| glnLocCode |
-| supplierIdCod |
-| customerId |
-| staff |
-| certCod |
-| growerAuction |
-| growerId |
-| finBTWCod |
-| btwNr |
-| version |
-|debtorFinancialNumber|
-|accountManager|
-
-# Users
-
-| Variable |
-|:--------|
-| id |
-| description |
-| version |
-
-# Vats
-
-| Variable |
-|:--------|
-| id |
-| description |
-| version |
-
-# BandRef
-
-| Variable |
-|:--------|
-| productionLineId |
-| parcelId |
-| vParcelId |
-| bouquetTask |
-| bouquetDebtor |
-| status |
-| bouquetPriority |
-| deadline |
-| quantityInProcess |
-| quantityDone |
-| productionLineReferenceId |
-| start |
-| end |
-| paused |
-| timePaused |
-| workerOnLine |
-| part |
-| packageQuantity |
-| divisionId |
-| contentColli |
-| creation |
-| packageId |
-| readyForProduction |
-| printTime |
-| printUser |
-| totalQuantity |
-| malfunction |
-| planned |
-| startDivision |
-| endDivision |
-| version |
-| pKey |
-
-# BandRefLog
-
-| Variable |
-|:--------|
-| lineReferenceID |
-| logType |
-| logTime |
-| userId |
-| productionLineId |
-| status |
-| quantity |
-| workerOnLine |
-| reason |
-| processId |
-| processCode |
-| version |
-| pKey |
-
-# CustomerOrders
-
-| Variable |
-|:--------|
-| parcelId |
-| orderListId |
-| orderlistSubId |
-| customerId |
-| orderNr |
-| description |
-| quantity |
-| colli |
-| original |
-| orginalColli |
-| contentColli |
-| packageQuantity |
-| packageId |
-| priceParcelPurchase |
-| price |
-| qualityId |
-| delivery |
-| barcode |
-| currencyId |
-| registrationDate |
-| registrationTime |
-| colliText |
-| remark |
-| handling |
-| userId |
-| code |
-| orderDate |
-| deliveryTime |
-| contentPlate |
-| contentTrolley |
-| contentPackage |
-| sellerId |
-| externalOrderId |
-| compositionOrderId |
-| orderId |
-| remark2 |
-| packageCarrier |
-| externalSupplierId |
-| auctionGrp |
-| creation |
-| bouquet |
-| deliveryDate |
-| orderApprovalId |
-| priceFixed |
-| shipmentNo |
-| maxPurchasePrice |
-| purchaseDate |
-| productionDate |
-| contentBunch |
-| monoBouquetContent |
-| priced |
-| orderType |
-| shippingId |
-| s01 |
-| s02 |
-| s03 |
-| s04 |
-| s05 |
-| s06 |
-| s07 |
-| customerOrderNr |
-| remark3 |
-| priceBase |
-| confirmationUser |
-| confirmationTime |
-| eanCode |
-| divisionId |
-| customerPriceInCurrency |
-| externalBarcode |
-| holdOrder |
-| bouquetId |
-| scanCode |
-| deadlineNr |
-| supplierNote |
-| version |
-| ReservationTextId|
-
-# SalesDivisions
-
-| Variable |
-|:--------|
-| parcelId |
-| orderListId |
-| orderlistSubId |
-| customerId |
-| orderNr |
-| description |
-| quantity |
-| colli |
-| original |
-| orginalColli |
-| contentColli |
-| packageQuantity |
-| packageId |
-| priceParcelPurchase |
-| price |
-| qualityId |
-| delivery |
-| barcode |
-| currencyId |
-| registrationDate |
-| registrationTime |
-| colliText |
-| remark |
-| handling |
-| userId |
-| code |
-| orderDate |
-| deliveryTime |
-| contentPlate |
-| contentTrolley |
-| contentPackage |
-| sellerId |
-| externalOrderId |
-| compositionOrderId |
-| orderId |
-| remark2 |
-| packageCarrier |
-| externalSupplierId |
-| auctionGrp |
-| creation |
-| bouquet |
-| deliveryDate |
-| orderApprovalId |
-| priceFixed |
-| shipmentNo |
-| maxPurchasePrice |
-| purchaseDate |
-| productionDate |
-| contentBunch |
-| monoBouquetContent |
-| priced |
-| orderType |
-| shippingId |
-| s01 |
-| s02 |
-| s03 |
-| s04 |
-| s05 |
-| s06 |
-| s07 |
-| customerOrderNr |
-| remark3 |
-| priceBase |
-| confirmationUser |
-| confirmationTime |
-| eanCode |
-| divisionId |
-| customerPriceInCurrency |
-| externalBarcode |
-| holdOrder |
-| bouquetId |
-| scanCode |
-| deadlineNr |
-| supplierNote |
-| version |
-
-# DivisionPriceLog
-
---
-
-# InvoiceCredit
-
-| Variable |
-|:--------|
-| historicalBarcode |
-| barcode |
-| creditReason |
-| returnToStock |
-| sellerId |
-| date |
-| vParcelId |
-| creditQuantity |
-| creditPrice |
-| remark |
-| processingChoice |
-| userId |
-| creditReasonId |
-| pKey |
-| version |
-
-# OrderlistAssortment
-
-| Variable |
-|:--------|
-| parcelId |
-| stockId |
-| articleKey |
-| lineArticleId |
-| orgParcelId |
-| growerArticleId |
-| exArticleId |
-| articleId |
-| description |
-| qualityId |
-| externalSupplierId |
-| supplierId |
-| basePrice |
-| consumerPrice |
-| priceBare |
-| costPrice |
-| price |
-| contentColli |
-| packageId |
-| auctionGrp |
-| volume |
-| deselect |
-| packageContent |
-| remark |
-| exCode |
-| newDate |
-| scanCode |
-| code |
-| valid |
-| priceParcelPurchase |
-| buyerId |
-| minPurchase |
-| amount2 |
-| amount3 |
-| price2 |
-| price3 |
-| contentBunch |
-| contentPlate |
-| contentTrolley |
-| s01 |
-| s02 |
-| s03 |
-| s04 |
-| s05 |
-| s06 |
-| s07 |
-| parcelS01Id |
-| parcelS02Id |
-| parcelS03Id |
-| parcelS04Id |
-| parcelS05Id |
-| parcelS06Id |
-| parcelS07Id |
-| raiseCnt |
-| available |
-| countryId |
-| sellerId |
-| priceGroup1 |
-| priceGroup2 |
-| priceGroup3 |
-| priceGroup4 |
-| priceGroup5 |
-| priceGroup6 |
-| priceGroup7 |
-| priceGroup8 |
-| priceGroup9 |
-| priceGroup10 |
-| priceGroup11 |
-| priceGroup12 |
-| priceGroup13 |
-| priceGroup14 |
-| priceGroup15 |
-| priceGroup16 |
-| priceGroup17 |
-| priceGroup18 |
-| priceGroup19 |
-| priceGroup20 |
-| priceModified |
-| exDecription |
-| feature |
-| creation |
-| growerEan |
-| modified |
-| contenBox |
-| volumeKilo |
-| priceModifyUser |
-| bestOrigin |
-| volumeStem |
-| bouquet |
-| exPhotoURL |
-| raisePrcnt |
-| featureCod |
-| colorId |
-| remark2 |
-| minRest |
-| priceInCurrency |
-| orderApproval |
-| location |
-| xdays |
-| monoBouquetDescription |
-| monoBouquetContent |
-| description_D |
-| description_E |
-| description_F |
-| description_G |
-| description_H |
-| description_I |
-| description_J |
-| description_K |
-| description_L |
-| eanCode |
-| brokenColliRaise |
-| fromParcelId |
-| volumeTrolleyPackageId |
-| priceFixed |
-| version |
-
-# OrderlistComponents
-
-| Variable |
-|:--------|
-| articleId |
-| description |
-| colorId |
-| priceParcelPurchase1 |
-| priceParcelPurchase2 |
-| quantity |
-| parcelId |
-| bParcelId |
-| s01 |
-| s02 |
-| remark |
-| supplierId |
-| contentColli |
-| componentWeight |
-| version |
-| pKey |
-
-# OutstandingInvoices
-
-| Variable |
-|:--------|
-| productionLineId |
-| reminder1 |
-| reminder2 |
-| reminder3 |
-| reminder4 |
-| reminder5 |
-| invoiceAmount |
-| dontCollect |
-| calculateInterest |
-| log |
-| hasUnprocessedPayments |
-| realCustomerId |
-| customerId |
-| invoiceNr |
-| currency |
-| lineId |
-| userId |
-| remark |
-| orderNr |
-| financialAdministrationid |
-| processed |
-| pKey |
-| version |
-
-# PackageHistory
-
-| Variable |
-|:--------|
-| customerId |
-| auctionDate |
-| date |
-| packageId |
-| invoiceNr |
-| totalPackageOut |
-| totalPackageIn |
-| customerPrice |
-| amountOfDaysInvoiced |
-| rentFree |
-| rentPrice |
-| exportTime |
-| remark |
-| sellerId |
-| treePrice |
-| registrationDate |
-| orderNr |
-| colliTrackerTransactionID |
-| colliTrackerExport |
-| colliTrackerTransactionID1 |
-| trackOnlineGUID |
-| id |
-| pKey |
-| version |
-
-# PaymentHistory
-
---
-
-# PurchaseHistory
-
-| Variable         |
-| :--------------   |
-| articleId        |
-| description      |
-| colli            |
-| contentColli     |
-| restQuantity     |
-| packageQuantity  |
-| packageId        |
-| vParcelId        |
-| auctionId        |
-| transId          |
-| transIdLong      |
-| clockTrans       |
-| buyerNo          |
-| growerId         |
-| plateNo          |
-| seatNo           |
-| s01              |
-| s02              |
-| s03              |
-| s04              |
-| s05              |
-| s06              |
-| s07              |
-| parcelS01Id      |
-| parcelS02Id      |
-| parcelS03Id      |
-| parcelS04Id      |
-| parcelS05Id      |
-| parcelS06Id      |
-| parcelS07Id      |
-| countryId        |
-| contentBunch     |
-| supplierId       |
-| parcelDate       |
-| writeOffQuantity |
-| writeOffId       |
-| paymentDate      |
-| paymentTime      |
-| paymentUSer      |
-| remark           |
-| barePrice        |
-| price            |
-| priceIncl        |
-| creation         |
-| shipmentNo       |
-| eInvoiceBarcode  |
-| stockId          |
-| version          |
-| pKey             |
-| deadlineNr       |
-|debtorFinancialNumber|
-|accountManager|
-|orderParcelid|
-|priceInCurrency|
-
-# Payments
-
-| Variable |
-|:--------|
-| customerId |
-| invoiceNr |
-| invoiceDate |
-| paymentDate |
-| paymentId |
-| amount |
-| currency |
-| userId |
-| checkId |
-| description |
-| creation |
-| feature |
-| uniqueId |
-| webPaymentId |
-| terminalId |
-| sendEmail |
-| printInvoiceNr |
-| surchargePrcnt |
-| surchargeRaise |
-| adherrentLedgerNr |
-| pKey |
-| version |
-
-# Shipments
-
-| Variable |
-|:--------|
-| shipmentId |
-| departurePort |
-| arrivalPort |
-| shipmentType |
-| shipmentNumber |
-| shipmentDate |
-| offloadDate |
-| expectedOffloadDate |
-| offloadCarrier |
-| creationDate |
-| transportCost |
-| shipName |
-| arrivalDate |
-| quantity |
-| departurePortId |
-| arrivalPortId |
-| final |
-| loadingCarrier |
-| clearanceCountry |
-| clearningAgentId |
-| logisticalAgentId |
-| freightForwarderLocation |
-| freightContainerNumber |
-| awbNumber |
-| customsInspection |
-| airportDepartureID |
-| airportArrivalId |
-| deliveryLocationId |
-| version |
-| pKey |
-
-# SalesHistory
-
-| Variable |
-|:--------|
-| articleGroupId |
-| articleId |
-| contentBox |
-| contentBunch |
-| contentColli |
-| currencyId |
-| customerCompanyName |
-| customerCountryId |
-| customerFinId |
-| customerId |
-| department |
-| description |
-| divisionId |
-| divisionMethodId |
-| financialAdmId |
-| growerEAN |
-| growerId |
-| invoiceDate |
-| invoiceGoodsAmount |
-| invoiceNr |
-| invoiceTotalAmount |
-| orderDate |
-| orderNr |
-| packageQuantity |
-| packagePrice |
-| packageId |
-| parcelDate |
-| parcelNo |
-| parcelPurchaseNo |
-| parcelS01Id |
-| parcelS02Id |
-| parcelS03Id |
-| parcelS04Id |
-| parcelS05Id |
-| parcelS06Id |
-| parcelS07Id |
-| pKey |
-| priceBare |
-| priceEndCustomer |
-| priceOnInvoicePurchase |
-| priceOnInvoiceSales |
-| priceOnPurchase |
-| priceParcelPurchase |
-| priceParcelSales |
-| priceWithCostsReductions |
-| productGroupId |
-| regDate |
-| s01 |
-| s02 |
-| s03 |
-| s04 |
-| s05 |
-| s06 |
-| s07 |
-| salesUnit |
-| sellerId |
-| stockId |
-| subCustomerId |
-| supplierId |
-| totalStems |
-| userId |
-| vatId |
-| version |
-| packListId|
-
-# OrderApprovals
-
-| Variable |
-|:--------|
-| orderId |
-| state |
-| deadlineNr |
-| supplierId |
-| divisionId |
-| deadline |
-| shippingDate |
-| confirmationDate |
-| salesUser |
-| orderDate |
-| contentColli |
-| articleID |
-| transportCostPerStem |
-| growerConfirmationStatus |
-| growerConfirmationDate |
-| confirmedPrice |
-| loadCarrier |
-| deliveryLocationId |
-| deliveryMethodId |
-| shipmentId |
-| version |
-| pKey |
-
-# SalesHistoryCostAndRebates
-
-| Variable           |
-|:------------------|
-| id                 |
-| customerId       |
-| orderNr         |
-| invoiceNr        |
-| department     |
-| description     |
-| amount           |
-| percentage      |
-| calculationMethod |
-| vatId             |
-| exchangeRate |
-| totalAmount   |
-| totalAmountOver |
-| creation           |
-| version           |
-| costCode       |
-
-# SalesHistoryBouquets
-
-| Variable                |
-| :---------------------- |
-| articleGroupId          |
-| articleId               |
-| contentBox              |
-| contentBunch            |
-| contentColli            |
-| currencyId              |
-| customerCompanyName     |
-| customerCountryId       |
-| customerFinId           |
-| customerId              |
-| department              |
-| description             |
-| divisionId              |
-| divisionMethodId        |
-| financialAdmId          |
-| growerEAN               |
-| growerId                |
-| invoiceDate             |
-| invoiceGoodsAmount      |
-| invoiceNr               |
-| invoiceTotalAmount      |
-| orderDate               |
-| orderNr                 |
-| packageQuantity         |
-| packagePrice            |
-| packageId               |
-| parcelDate              |
-| parcelNo                |
-| parcelPurchaseNo        |
-| parcelS01Id             |
-| parcelS02Id             |
-| parcelS03Id             |
-| parcelS04Id             |
-| parcelS05Id             |
-| parcelS06Id             |
-| parcelS07Id             |
-| pKey                    |
-| priceBare               |
-| priceEndCustomer        |
-| priceOnInvoicePurchase  |
-| priceOnInvoiceSales     |
-| priceOnPurchase         |
-| priceParcelPurchase     |
-| priceParcelSales        |
-| priceWithCostsReductions |
-| productGroupId          |
-| regDate                 |
-| s01                     |
-| s02                     |
-| s03                     |
-| s04                     |
-| s05                     |
-| s06                     |
-| s07                     |
-| salesUnit               |
-| sellerId                |
-| stockId                 |
-| subCustomerId           |
-| supplierId              |
-| totalStems              |
-| userId                  |
-| vatId                   |
-| version                 |
-
-# SalesHistoryInvoiceHeaders
-
-| Variable                    |
-| :-------------------------- |
-| customerId                  |
-| orderNr                     |
-| customerName                |
-| invoiceNr                   |
-| currencyId                  |
-| exchangeRate                |
-| exhangeRateActual           |
-| invoiceDate                 |
-| commission                  |
-| oneTimePackageAmount        |
-| returnablePackageAmount     |
-| packageRentAmount           |
-| vatLow                      |
-| vatHigh                     |
-| vatLowOver                  |
-| vatHighOver                 |
-| vatZeroOver                 |
-| invoiceTotalAmount          |
-| vatCharged                  |
-| financialAdministrationId    |
-| goodsAmount                 |
-| carrierId                   |
-| auctionTradeTransaction     |
-| printedBy                   |
-| exchangeRateActual          |
-| printedByUserId             |
-| packageQuantity             |
-| packageAmount               |
-| totalPurchaseValue          |
-| oneTimePackageValue         |
-| returnablePackageValue      |
-| printTime                   |
-| packagePurchaseAmount       |
-| version                     |
-
-# ShopLog
-
-| Variable           |
-| :----------------- |
-| logId              |
-| userId             |
-| customerId         |
-| stockId            |
-| logTime            |
-| productGroupID     |
-| articleGroupId     |
-| searchDescription  |
-| s01                |
-| color              |
-| feature            |
-| parcelId           |
-| quantity           |
-| customerIP         |
-| orderlistSubId     |
-| orderNr            |
-| description        |
-| webshop            |
-| barcode            |
-| divisionType       |
-| remark             |
-| pKey               |
-| version            |
-
-# Colors
-
-|Variable|
-|:-------|
+|Value|
+|:--|
 |colorId|
 |color|
 |description_D|
 |description_E|
 |description_F|
 |s50_Feature|
+|version|
 
-# ComponentTypes
+## ComponentTypes
 
-|Variable|
-|:-------|
+|Value|
+|:--|
 |id|
 |description|
 
-# CreditReasons
+## Customers
 
-|Variable|
-|:-------|
-|creditReasonCode|
+|Value|
+|:--|
+|version|
+|customerId|
+|customerKey|
+|companyName|
+|contact|
+|address|
+|postal|
+|city|
+|countryId|
+|regionId|
+|profile|
+|phoneNr|
+|mobile|
+|faxNr|
+|email|
+|customerEANCode|
+|customerGLNAddress|
+|offerTreeId|
+|customerTreeId|
+|priceTree2Id|
+|priceTree3Id|
+|customerGroupId|
+|seatNo|
+|plateNr|
+|sellerId|
+|vatnr|
+|cocNr|
+|debtorFinancialNr|
+|paymentConditionId|
+|financialAdministrationId|
+|businessUnitId|
+|priceConfigurationId|
+|dueDateInDays|
+|customerTypeId|
+|customerCategory|
+|accountManager|
+
+## CustomerGroups
+
+|Value|
+|:--|
+|customerGroupId|
 |description|
-|description_E|
-|description_D|
-|description_F|
-|creditCategory|
-|webShop|
-|toReturn|
-|refund|
+|version|
+|mainGroup|
+|saleUnit|
+|logisticsUnit|
+
+## CustomerGroupRelations
+
+|Value|
+|:--|
+|customerId|
+|customerGroupId|
+|version|
+|sequenceNumber|
+
+## Countries
+
+|Value|
+|:--|
+|id|
+|description|
+|version|
+|currencyCode|
+
+## Currencies
+
+|Value|
+|:--|
+|id|
+|description|
 |version|
 
-# SortCodes
+## Divisions
 
-|Variable|
-|:-------|
+|Value|
+|:--|
+|id|
+|description|
+|version|
+
+## DivisionMethods
+
+|Value|
+|:--|
+|id|
+|description|
+
+## FinancialAdministrations
+
+|Value|
+|:--|
+|id|
+|description|
+|version|
+
+## Growers
+
+|Value|
+|:--|
+|growerId|
+|name|
+|address|
+|zipCode|
+|place|
+|countryId|
+|growerEAN|
+|phone|
+|email|
+|varbNr|
+|customerId|
+|webserviceRaise|
+|plantPasport|
+|remark|
+|accManager|
+|mps|
+|mpsNr|
+|mpsType|
+|mpsCert|
+|mpsStart|
+|mpsEnd|
+|mps2Nr|
+|mps2Type|
+|mps2Cert|
+|mps2Start|
+|mps2End|
+|version|
+|auctionCode|
+
+## Packages
+
+|Value|
+|:--|
+|packageId|
+|packagePrice|
+|packageGrpID|
+|description|
+|description_D|
+|description_E|
+|description_F|
+|packageType|
+|transportType|
+|packagePrice2|
+|packagePrice3|
+|packagePrice4|
+|packagePurchaseAmount|
+|packageRentAmount|
+|packageRentAmount2|
+|rentBTWCod|
+|btwCod|
+|packageCombi1|
+|packageCombi2|
+|packageCombi3|
+|packageCombi4|
+|ledgerAccount|
+|costUnit|
+|costUnitRent|
+|auctionPackage|
+|ownPackage|
+|lockPlate|
+|supplierId|
+|germanVBNcod|
+|barcodePrefix|
+|markCod|
+|material|
+|netWeight|
+|grossWeight|
+|volumeWeight|
+|collectionCode|
+|amountPerPallet|
+|packageLength|
+|packageWidth|
+|packageHeight|
+|plateHeight|
+|standardPackageContent|
+|standardAmountPerLayer|
+|standardAmountPerCart|
+|calculateVolume|
+|isBox|
+|loadCarrier|
+|version|
+
+## ProductGroups
+
+|Value|
+|:--|
+|id|
+|description|
+|version|
+
+## Sellers
+
+|Value|
+|:--|
+|id|
+|name|
+|version|
+
+## SortCodes
+
+|Value|
+|:--|
 |productCharacteristicCode|
 |feature|
 |productCharacteristicDescription|
@@ -1289,61 +381,93 @@ The server management API has many different endpoints they are described in the
 |description_F|
 |version|
 
-# ReservationTexts
+## Sources
 
-|Variable|
-|:-------|
-|reservationTextId|
+|Value|
+|:--|
+|id|
 |description|
-|reservationTextCode|
-|version|
 
-# InvoiceApproval
+## Suppliers
 
-|Variable|
-|:-------|
-|toDebtor|
-|toOrderNr|
-|customerId|
-|orderNr|
-|articleId|
-|invoiceNr|
-|amount|
-|date|
-|divisionId|
-|processingDate|
-|creditVia|
-|userId|
-|packageCredit|
-|packageQuantity|
-|reasonForCredit|
-|approvingSalesUser|
-|processingChoice|
-|creditRemark|
-|processinText|
-|doneProcessing|
-|creditQuantity|
-|parcelDate|
+|Value|
+|:--|
 |supplierId|
-|returnedProduct|
-|registrationDate|
-|statusId|
-|s01|
+|name|
+|contact|
+|address|
+|postal|
+|city|
 |countryId|
+|supplierPhoneNr|
+|supplierFax|
+|supplierEmail|
+|eanCode|
+|glnCode|
+|glnLocCode|
+|supplierIdCod|
+|customerId|
+|staff|
+|certCod|
+|growerAuction|
+|growerId|
+|finBTWCod|
+|btwNr|
+|debtorFinancialNumber|
 |accountManager|
-|stateColor|
-|historicalShipmentNo|
-|packageCode|
-|everythingCredited|
-|reasonForCreditId|
-|invoiceCreditStatus|
-|pKey|
 |version|
 
-# PaymentConditions
+## Stocks
 
-|Variable|
-|:-------|
+|Value|
+|:--|
+|id|
+|description|
+|version|
+
+## Users
+
+|Value|
+|:--|
+|id|
+|name|
+|version|
+|userDepartmentId|
+|email|
+|sellerId|
+|phone|
+
+## Vats
+
+|Value|
+|:--|
+|id|
+|description|
+|version|
+
+## Buyers
+
+|Value|
+|:--|
+|buyerId|
+|buyerName|
+|version|
+
+## AuctionGroups
+
+|Value|
+|:--|
+|auctionGrp|
+|buyerId|
+|auctionGrpDescription|
+|buyerId2|
+|buyerId3|
+|version|
+
+## PaymentConditions
+
+|Value|
+|:--|
 |paymentCondtionId|
 |conditionCode|
 |conditionCode_G|
@@ -1358,14 +482,933 @@ The server management API has many different endpoints they are described in the
 |pKey|
 |version|
 
-# Sources
+## SalesHistory
 
-|Variable|
-|:-------|
-|id|
+|Value|
+|:--|
+|articleGroupId|
+|articleId|
+|contentBox|
+|contentBunch|
+|contentColli|
+|currencyId|
+|customerCompanyName|
+|customerCountryId|
+|customerFinId|
+|customerId|
+|department|
 |description|
+|divisionId|
+|divisionMethodId|
+|financialAdmId|
+|growerEAN|
+|growerId|
+|invoiceDate|
+|invoiceGoodsAmount|
+|invoiceNr|
+|invoiceTotalAmount|
+|orderDate|
+|orderNr|
+|packageQuantity|
+|packagePrice|
+|packageId|
+|parcelDate|
+|parcelNo|
+|parcelPurchaseNo|
+|parcelS01Id|
+|parcelS02Id|
+|parcelS03Id|
+|parcelS04Id|
+|parcelS05Id|
+|parcelS06Id|
+|parcelS07Id|
+|pKey|
+|priceBare|
+|priceEndCustomer|
+|priceOnInvoicePurchase|
+|priceOnInvoiceSales|
+|priceOnPurchase|
+|priceParcelPurchase|
+|priceParcelSales|
+|priceWithCostsReductions|
+|productGroupId|
+|regDate|
+|s01|
+|s02|
+|s03|
+|s04|
+|s05|
+|s06|
+|s07|
+|salesUnit|
+|sellerId|
+|stockId|
+|subCustomerId|
+|supplierId|
+|totalStems|
+|userId|
+|vatId|
+|componentTypeId|
+|version|
+|orderParcelId|
+|packListId|
+|departureDate|
+|remark|
+|remark2|
+|remark3|
+|orderRemark|
+|orderRemark2|
+|deliveryDate|
 
-# Pickorders
+## PurchaseHistory
+
+|Value|
+|:--|
+|articleId|
+|description|
+|colli|
+|contentColli|
+|restQuantity|
+|packageQuantity|
+|packageId|
+|vParcelId|
+|auctionId|
+|transId|
+|transIdLong|
+|clockTrans|
+|buyerNo|
+|growerId|
+|plateNo|
+|seatNo|
+|s01|
+|s02|
+|s03|
+|s04|
+|s05|
+|s06|
+|s07|
+|parcelS01Id|
+|parcelS02Id|
+|parcelS03Id|
+|parcelS04Id|
+|parcelS05Id|
+|parcelS06Id|
+|parcelS07Id|
+|countryId|
+|contentBunch|
+|supplierId|
+|parcelDate|
+|writeOffQuantity|
+|writeOffId|
+|paymentDate|
+|paymentTime|
+|paymentUSer|
+|remark|
+|barePrice|
+|price|
+|priceIncl|
+|creation|
+|shipmentNo|
+|eInvoiceBarcode|
+|stockId|
+|version|
+|pKey|
+|deadlineNr|
+|sourceId|
+|color|
+|orderParcelId|
+|priceInCurrency|
+
+## BandRef
+
+|Value|
+|:--|
+|productionLineId|
+|parcelId|
+|vParcelId|
+|bouquetTask|
+|bouquetDebtor|
+|status|
+|bouquetPriority|
+|deadline|
+|quantityInProcess|
+|quantityDone|
+|productionLineReferenceId|
+|start|
+|end|
+|paused|
+|timePaused|
+|workerOnLine|
+|part|
+|packageQuantity|
+|divisionId|
+|contentColli|
+|creation|
+|packageId|
+|readyForProduction|
+|printTime|
+|printUser|
+|totalQuantity|
+|malfunction|
+|planned|
+|startDivision|
+|endDivision|
+|version|
+|pKey|
+
+## BandRefLog
+
+|Value|
+|:--|
+|lineReferenceID|
+|logType|
+|logTime|
+|userId|
+|productionLineId|
+|status|
+|quantity|
+|workerOnLine|
+|reason|
+|processId|
+|processCode|
+|version|
+|pKey|
+
+## CustomerOrders
+
+|Value|
+|:--|
+|parcelId|
+|orderListId|
+|orderlistSubId|
+|customerId|
+|orderNr|
+|description|
+|quantity|
+|colli|
+|original|
+|orginalColli|
+|contentColli|
+|packageQuantity|
+|packageId|
+|priceParcelPurchase|
+|price|
+|qualityId|
+|delivery|
+|barcode|
+|currencyId|
+|registrationDate|
+|registrationTime|
+|colliText|
+|remark|
+|handling|
+|userId|
+|code|
+|orderDate|
+|deliveryTime|
+|contentPlate|
+|contentTrolley|
+|contentPackage|
+|sellerId|
+|externalOrderId|
+|compositionOrderId|
+|orderId|
+|remark2|
+|packageCarrier|
+|externalSupplierId|
+|auctionGrp|
+|creation|
+|bouquet|
+|deliveryDate|
+|orderApprovalId|
+|priceFixed|
+|shipmentNo|
+|maxPurchasePrice|
+|purchaseDate|
+|productionDate|
+|contentBunch|
+|monoBouquetContent|
+|priced|
+|orderType|
+|shippingId|
+|s01|
+|s02|
+|s03|
+|s04|
+|s05|
+|s06|
+|s07|
+|customerOrderNr|
+|remark3|
+|priceBase|
+|confirmationUser|
+|confirmationTime|
+|eanCode|
+|divisionId|
+|customerPriceInCurrency|
+|externalBarcode|
+|holdOrder|
+|bouquetId|
+|scanCode|
+|deadlineNr|
+|supplierNote|
+|version|
+|reservationTextId|
+
+## DivisionPriceLog
+
+|Value|
+|:--|
+|divisionId|
+|step|
+|basePrice|
+|raiseAmount|
+|raisePrcnt|
+|finalAmount|
+|sequenceNumber|
+|creation|
+|priceLogId|
+|onCustomerId|
+|pKey|
+|version|
+
+## InvoiceCredits
+
+|Value|
+|:--|
+|creditBarcode|
+|originalBarcode|
+|creditReason|
+|returnToStock|
+|sellerId|
+|date|
+|vParcelId|
+|creditQuantity|
+|creditPrice|
+|remark|
+|processingChoice|
+|userId|
+|creditReasonId|
+|pKey|
+|version|
+|approvedBy|
+|approvedDate|
+|packageId|
+|creditInvoiceDate|
+|creditInvoiceNumber|
+
+## OrderlistAssortment
+
+|Value|
+|:--|
+|parcelId|
+|stockId|
+|articleKey|
+|lineArticleId|
+|orgParcelId|
+|growerArticleId|
+|exArticleId|
+|articleId|
+|description|
+|qualityId|
+|externalSupplierId|
+|supplierId|
+|basePrice|
+|consumerPrice|
+|priceBare|
+|costPrice|
+|price|
+|contentColli|
+|packageId|
+|auctionGrp|
+|volume|
+|deselect|
+|packageContent|
+|remark|
+|exCode|
+|newDate|
+|scanCode|
+|code|
+|valid|
+|priceParcelPurchase|
+|buyerId|
+|minPurchase|
+|amount2|
+|amount3|
+|price2|
+|price3|
+|contentBunch|
+|contentPlate|
+|contentTrolley|
+|s01|
+|s02|
+|s03|
+|s04|
+|s05|
+|s06|
+|s07|
+|parcelS01Id|
+|parcelS02Id|
+|parcelS03Id|
+|parcelS04Id|
+|parcelS05Id|
+|parcelS06Id|
+|parcelS07Id|
+|raiseCnt|
+|available|
+|countryId|
+|sellerId|
+|priceGroup1|
+|priceGroup2|
+|priceGroup3|
+|priceGroup4|
+|priceGroup5|
+|priceGroup6|
+|priceGroup7|
+|priceGroup8|
+|priceGroup9|
+|priceGroup10|
+|priceGroup11|
+|priceGroup12|
+|priceGroup13|
+|priceGroup14|
+|priceGroup15|
+|priceGroup16|
+|priceGroup17|
+|priceGroup18|
+|priceGroup19|
+|priceGroup20|
+|priceModified|
+|exDecription|
+|feature|
+|creation|
+|growerEan|
+|modified|
+|contenBox|
+|volumeKilo|
+|priceModifyUser|
+|bestOrigin|
+|volumeStem|
+|bouquet|
+|exPhotoURL|
+|raisePrcnt|
+|featureCod|
+|colorId|
+|remark2|
+|minRest|
+|priceInCurrency|
+|orderApproval|
+|location|
+|xdays|
+|monoBouquetDescription|
+|monoBouquetContent|
+|description_D|
+|description_E|
+|description_F|
+|description_G|
+|description_H|
+|description_I|
+|description_J|
+|description_K|
+|description_L|
+|eanCode|
+|brokenColliRaise|
+|fromParcelId|
+|volumeTrolleyPackageId|
+|priceFixed|
+|version|
+
+## OrderlistComponents
+
+|Value|
+|:--|
+|articleId|
+|description|
+|colorId|
+|priceParcelPurchase1|
+|priceParcelPurchase2|
+|quantity|
+|parcelId|
+|bParcelId|
+|s01|
+|s02|
+|remark|
+|supplierId|
+|contentColli|
+|componentWeight|
+|version|
+|pKey|
+
+## OutstandingInvoices
+
+|Value|
+|:--|
+|productionLineId|
+|reminder1|
+|reminder2|
+|reminder3|
+|reminder4|
+|reminder5|
+|invoiceAmount|
+|dontCollect|
+|calculateInterest|
+|log|
+|hasUnprocessedPayments|
+|realCustomerId|
+|customerId|
+|invoiceNr|
+|currency|
+|lineId|
+|userId|
+|remark|
+|orderNr|
+|financialAdministrationid|
+|processed|
+|pKey|
+|version|
+
+## Carriers
+
+|Value|
+|:--|
+|carrierId|
+|name|
+|address|
+|zipCode|
+|place|
+|countryID|
+|phoneNr|
+|contactPerson|
+|email|
+|version|
+|niwOcod|
+|trolleyHeight|
+|inActive|
+|glnCode|
+|faxNr|
+|afasId|
+
+## CustomerGroups
+
+|Value|
+|:--|
+|customerGroupId|
+|description|
+|version|
+|mainGroup|
+|saleUnit|
+|logisticsUnit|
+
+## CustomerGroupRelations
+
+|Value|
+|:--|
+|customerId|
+|customerGroupId|
+|version|
+|sequenceNumber|
+
+## DivisionPriceLog
+
+|Value|
+|:--|
+|divisionId|
+|step|
+|basePrice|
+|raiseAmount|
+|raisePrcnt|
+|finalAmount|
+|sequenceNumber|
+|creation|
+|priceLogId|
+|onCustomerId|
+|pKey|
+|version|
+
+## InvoiceCredits
+
+|Value|
+|:--|
+|creditBarcode|
+|originalBarcode|
+|creditReason|
+|returnToStock|
+|sellerId|
+|date|
+|vParcelId|
+|creditQuantity|
+|creditPrice|
+|remark|
+|processingChoice|
+|userId|
+|creditReasonId|
+|pKey|
+|version|
+|approvedBy|
+|approvedDate|
+|packageId|
+|creditInvoiceDate|
+|creditInvoiceNumber|
+
+## OutstandingInvoices
+
+|Value|
+|:--|
+|productionLineId|
+|reminder1|
+|reminder2|
+|reminder3|
+|reminder4|
+|reminder5|
+|invoiceAmount|
+|dontCollect|
+|calculateInterest|
+|log|
+|hasUnprocessedPayments|
+|realCustomerId|
+|customerId|
+|invoiceNr|
+|currency|
+|lineId|
+|userId|
+|remark|
+|orderNr|
+|financialAdministrationid|
+|processed|
+|pKey|
+|version|
+
+## PackageHistory
+
+|Value|
+|:--|
+|customerId|
+|auctionDate|
+|date|
+|packageId|
+|invoiceNr|
+|totalPackageOut|
+|totalPackageIn|
+|customerPrice|
+|amountOfDaysInvoiced|
+|rentFree|
+|rentPrice|
+|exportTime|
+|remark|
+|sellerId|
+|treePrice|
+|registrationDate|
+|orderNr|
+|colliTrackerTransactionID|
+|colliTrackerExport|
+|colliTrackerTransactionID1|
+|trackOnlineGUID|
+|id|
+|pKey|
+|version|
+
+## Payments
+
+|Value|
+|:--|
+|customerId|
+|invoiceNr|
+|invoiceDate|
+|paymentDate|
+|paymentId|
+|amount|
+|currency|
+|userId|
+|checkId|
+|description|
+|creation|
+|feature|
+|uniqueId|
+|webPaymentId|
+|terminalId|
+|sendEmail|
+|printInvoiceNr|
+|surchargePrcnt|
+|surchargeRaise|
+|adherrentLedgerNr|
+|pKey|
+|version|
+
+## SalesDivisions
+
+|Value|
+|:--|
+|stockID|
+|bouquetCustomerId|
+|customerId|
+|orderNr|
+|department|
+|articleId|
+|parcelDate|
+|amount|
+|parcelId|
+|packageQuantity|
+|contentColli|
+|description|
+|s1|
+|salesPrice1|
+|saleAmount|
+|packageId|
+|userId|
+|productGroupId|
+|vParcelId|
+|packlistId|
+|salesRecordId|
+|bouquet|
+|orderprice|
+|remark|
+|salesUnit|
+|creation|
+|volume|
+|orderDescription|
+|divisionType|
+|holdOrder|
+|priceBase|
+|deliveryDate|
+|contentPlate|
+|contentTrolley|
+|registrationDate|
+|orderListId|
+|originalColli|
+|retailPrice|
+|orderDate|
+|scanCode|
+|contentBox|
+|pKey|
+|version|
+|orderParcelId|
+|reservationTextId|
+|articleLength|
+|potsize|
+|s4|
+|s5|
+|s6|
+|s7|
+|weight|
+|orderId|
+
+## SalesHistory
+
+|Value|
+|:--|
+|articleGroupId|
+|articleId|
+|contentBox|
+|contentBunch|
+|contentColli|
+|currencyId|
+|customerCompanyName|
+|customerCountryId|
+|customerFinId|
+|customerId|
+|department|
+|description|
+|divisionId|
+|divisionMethodId|
+|financialAdmId|
+|growerEAN|
+|growerId|
+|invoiceDate|
+|invoiceGoodsAmount|
+|invoiceNr|
+|invoiceTotalAmount|
+|orderDate|
+|orderNr|
+|packageQuantity|
+|packagePrice|
+|packageId|
+|parcelDate|
+|parcelNo|
+|parcelPurchaseNo|
+|parcelS01Id|
+|parcelS02Id|
+|parcelS03Id|
+|parcelS04Id|
+|parcelS05Id|
+|parcelS06Id|
+|parcelS07Id|
+|pKey|
+|priceBare|
+|priceEndCustomer|
+|priceOnInvoicePurchase|
+|priceOnInvoiceSales|
+|priceOnPurchase|
+|priceParcelPurchase|
+|priceParcelSales|
+|priceWithCostsReductions|
+|productGroupId|
+|regDate|
+|s01|
+|s02|
+|s03|
+|s04|
+|s05|
+|s06|
+|s07|
+|salesUnit|
+|sellerId|
+|stockId|
+|subCustomerId|
+|supplierId|
+|totalStems|
+|userId|
+|vatId|
+|componentTypeId|
+|version|
+|orderParcelId|
+|packListId|
+|departureDate|
+|remark|
+|remark2|
+|remark3|
+|orderRemark|
+|orderRemark2|
+|deliveryDate|
+
+## SalesHistoryCostAndRebates
+
+|Value|
+|:--|
+|id|
+|customerId|
+|orderNr|
+|invoiceNr|
+|department|
+|description|
+|amount|
+|percentage|
+|calculationMethod|
+|vatId|
+|exchangeRate|
+|totalAmount|
+|totalAmountOver|
+|creation|
+|version|
+|costCode|
+
+## SalesHistoryBouquets
+
+|Value|
+|:--|
+|articleGroupId|
+|articleId|
+|contentBox|
+|contentBunch|
+|contentColli|
+|currencyId|
+|customerCompanyName|
+|customerCountryId|
+|customerFinId|
+|customerId|
+|department|
+|description|
+|divisionId|
+|divisionMethodId|
+|financialAdmId|
+|growerEAN|
+|growerId|
+|invoiceDate|
+|invoiceGoodsAmount|
+|invoiceNr|
+|invoiceTotalAmount|
+|orderDate|
+|orderNr|
+|packageQuantity|
+|packagePrice|
+|packageId|
+|parcelDate|
+|parcelNo|
+|parcelPurchaseNo|
+|parcelS01Id|
+|parcelS02Id|
+|parcelS03Id|
+|parcelS04Id|
+|parcelS05Id|
+|parcelS06Id|
+|parcelS07Id|
+|pKey|
+|priceBare|
+|priceEndCustomer|
+|priceOnInvoicePurchase|
+|priceOnInvoiceSales|
+|priceOnPurchase|
+|priceParcelPurchase|
+|priceParcelSales|
+|priceWithCostsReductions|
+|productGroupId|
+|regDate|
+|s01|
+|s02|
+|s03|
+|s04|
+|s05|
+|s06|
+|s07|
+|salesUnit|
+|sellerId|
+|stockId|
+|subCustomerId|
+|supplierId|
+|totalStems|
+|userId|
+|vatId|
+|componentTypeId|
+|version|
+|orderParcelId|
+|packListId|
+|departureDate|
+|remark|
+|remark2|
+|remark3|
+|orderRemark|
+|orderRemark2|
+|deliveryDate|
+
+## SalesHistoryInvoiceHeaders
+
+|Value|
+|:--|
+|customerId|
+|orderNr|
+|customerName|
+|invoiceNr|
+|currencyId|
+|exchangeRate|
+|exhangeRateActual|
+|invoiceDate|
+|commission|
+|oneTimePackageAmount|
+|returnablePackageAmount|
+|packageRentAmount|
+|vatLow|
+|vatHigh|
+|vatLowOver|
+|vatHighOver|
+|vatZeroOver|
+|invoiceTotalAmount|
+|vatCharged|
+|financialAdministrationId|
+|goodsAmount|
+|carrierId|
+|auctionTradeTransaction|
+|printedBy|
+|exchangeRateActual|
+|printedByUserId|
+|packageQuantity|
+|packageAmount|
+|totalPurchaseValue|
+|oneTimePackageValue|
+|returnablePackageValue|
+|printTime|
+|packagePurchaseAmount|
+|version|
+
+## Pickorders
 
 |Value|
 |:--|
@@ -1394,20 +1437,6 @@ The server management API has many different endpoints they are described in the
 |customerId|
 |stockId|
 |crossdock|
+|orderDate|
+|version|
 
-# AuctionGroups
-
-|Value|
-|:--|
-|auctionGrp|
-|buyerId|
-|auctionGrpDescription|
-|buyerId2|
-|buyerId3|
-
-# Buyers
-
-|Value|
-|:--|
-|BuyerId|
-|BuyerName|

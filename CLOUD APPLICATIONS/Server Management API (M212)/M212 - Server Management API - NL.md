@@ -79,7 +79,7 @@ System users must be granted special permission to do so. Please follow the step
 
 The server management API has many different endpoints they are described in the following chapters.
 
-# ArticleGroups
+## ArticleGroups
 
 |Value|
 |:--|
@@ -98,8 +98,9 @@ The server management API has many different endpoints they are described in the
 |description_E|
 |description_F|
 |maxAgeInDays|
+|auctionGrp|
 
-# Articles
+## Articles
 
 |Value|
 |:--|
@@ -126,7 +127,7 @@ The server management API has many different endpoints they are described in the
 |french|
 |description_F|
 
-# Carriers
+## Carriers
 
 |Value|
 |:--|
@@ -145,8 +146,9 @@ The server management API has many different endpoints they are described in the
 |inActive|
 |glnCode|
 |faxNr|
+|afasId|
 
-# Colors
+## Colors
 
 |Value|
 |:--|
@@ -158,14 +160,14 @@ The server management API has many different endpoints they are described in the
 |s50_Feature|
 |version|
 
-# ComponentTypes
+## ComponentTypes
 
 |Value|
 |:--|
 |id|
 |description|
 
-# Customers
+## Customers
 
 |Value|
 |:--|
@@ -206,22 +208,7 @@ The server management API has many different endpoints they are described in the
 |customerCategory|
 |accountManager|
 
-# CreditReasons
-
-|Value|
-|:--|
-|creditReasonCode|
-|description|
-|description_E|
-|description_D|
-|description_F|
-|creditCategory|
-|webShop|
-|toReturn|
-|refund|
-|version|
-
-# CustomerGroups
+## CustomerGroups
 
 |Value|
 |:--|
@@ -232,7 +219,7 @@ The server management API has many different endpoints they are described in the
 |saleUnit|
 |logisticsUnit|
 
-# CustomerGroupRelations
+## CustomerGroupRelations
 
 |Value|
 |:--|
@@ -241,7 +228,7 @@ The server management API has many different endpoints they are described in the
 |version|
 |sequenceNumber|
 
-# Countries
+## Countries
 
 |Value|
 |:--|
@@ -250,7 +237,7 @@ The server management API has many different endpoints they are described in the
 |version|
 |currencyCode|
 
-# Currencies
+## Currencies
 
 |Value|
 |:--|
@@ -258,7 +245,7 @@ The server management API has many different endpoints they are described in the
 |description|
 |version|
 
-# Divisions
+## Divisions
 
 |Value|
 |:--|
@@ -266,14 +253,14 @@ The server management API has many different endpoints they are described in the
 |description|
 |version|
 
-# DivisionMethods
+## DivisionMethods
 
 |Value|
 |:--|
 |id|
 |description|
 
-# FinancialAdministrations
+## FinancialAdministrations
 
 |Value|
 |:--|
@@ -281,7 +268,7 @@ The server management API has many different endpoints they are described in the
 |description|
 |version|
 
-# Growers
+## Growers
 
 |Value|
 |:--|
@@ -314,7 +301,7 @@ The server management API has many different endpoints they are described in the
 |version|
 |auctionCode|
 
-# Packages
+## Packages
 
 |Value|
 |:--|
@@ -367,7 +354,7 @@ The server management API has many different endpoints they are described in the
 |loadCarrier|
 |version|
 
-# ProductGroups
+## ProductGroups
 
 |Value|
 |:--|
@@ -375,16 +362,7 @@ The server management API has many different endpoints they are described in the
 |description|
 |version|
 
-# ReservationTexts
-
-|Value|
-|:--|
-|reservationTextId|
-|description|
-|reservationTextCode|
-|version|
-
-# Sellers
+## Sellers
 
 |Value|
 |:--|
@@ -392,7 +370,7 @@ The server management API has many different endpoints they are described in the
 |name|
 |version|
 
-# SortCodes
+## SortCodes
 
 |Value|
 |:--|
@@ -404,14 +382,14 @@ The server management API has many different endpoints they are described in the
 |description_F|
 |version|
 
-# Sources
+## Sources
 
 |Value|
 |:--|
 |id|
 |description|
 
-# Suppliers
+## Suppliers
 
 |Value|
 |:--|
@@ -440,7 +418,7 @@ The server management API has many different endpoints they are described in the
 |accountManager|
 |version|
 
-# Stocks
+## Stocks
 
 |Value|
 |:--|
@@ -448,7 +426,7 @@ The server management API has many different endpoints they are described in the
 |description|
 |version|
 
-# Users
+## Users
 
 |Value|
 |:--|
@@ -456,8 +434,11 @@ The server management API has many different endpoints they are described in the
 |name|
 |version|
 |userDepartmentId|
+|email|
+|sellerId|
+|phone|
 
-# Vats
+## Vats
 
 |Value|
 |:--|
@@ -465,7 +446,44 @@ The server management API has many different endpoints they are described in the
 |description|
 |version|
 
-# SalesHistory
+## Buyers
+
+|Value|
+|:--|
+|buyerId|
+|buyerName|
+|version|
+
+## AuctionGroups
+
+|Value|
+|:--|
+|auctionGrp|
+|buyerId|
+|auctionGrpDescription|
+|buyerId2|
+|buyerId3|
+|version|
+
+## PaymentConditions
+
+|Value|
+|:--|
+|paymentCondtionId|
+|conditionCode|
+|conditionCode_G|
+|conditionCode_E|
+|conditionCode_F|
+|conditionCode_I|
+|description|
+|description_D|
+|description_E|
+|description_F|
+|description_I|
+|pKey|
+|version|
+
+## SalesHistory
 
 |Value|
 |:--|
@@ -534,9 +552,16 @@ The server management API has many different endpoints they are described in the
 |componentTypeId|
 |version|
 |orderParcelId|
-|packlistId|
+|packListId|
+|departureDate|
+|remark|
+|remark2|
+|remark3|
+|orderRemark|
+|orderRemark2|
+|deliveryDate|
 
-# PurchaseHistory
+## PurchaseHistory
 
 |Value|
 |:--|
@@ -595,7 +620,62 @@ The server management API has many different endpoints they are described in the
 |orderParcelId|
 |priceInCurrency|
 
-# CustomerOrders
+## BandRef
+
+|Value|
+|:--|
+|productionLineId|
+|parcelId|
+|vParcelId|
+|bouquetTask|
+|bouquetDebtor|
+|status|
+|bouquetPriority|
+|deadline|
+|quantityInProcess|
+|quantityDone|
+|productionLineReferenceId|
+|start|
+|end|
+|paused|
+|timePaused|
+|workerOnLine|
+|part|
+|packageQuantity|
+|divisionId|
+|contentColli|
+|creation|
+|packageId|
+|readyForProduction|
+|printTime|
+|printUser|
+|totalQuantity|
+|malfunction|
+|planned|
+|startDivision|
+|endDivision|
+|version|
+|pKey|
+
+## BandRefLog
+
+|Value|
+|:--|
+|lineReferenceID|
+|logType|
+|logTime|
+|userId|
+|productionLineId|
+|status|
+|quantity|
+|workerOnLine|
+|reason|
+|processId|
+|processCode|
+|version|
+|pKey|
+
+## CustomerOrders
 
 |Value|
 |:--|
@@ -676,54 +756,29 @@ The server management API has many different endpoints they are described in the
 |version|
 |reservationTextId|
 
-# InvoiceApproval
+## DivisionPriceLog
 
 |Value|
 |:--|
-|toDebtor|
-|toOrderNr|
-|customerId|
-|orderNr|
-|articleId|
-|invoiceNr|
-|amount|
-|date|
 |divisionId|
-|processingDate|
-|creditVia|
-|userId|
-|packageCredit|
-|packageQuantity|
-|reasonForCredit|
-|approvingSalesUser|
-|processingChoice|
-|creditRemark|
-|processinText|
-|doneProcessing|
-|creditQuantity|
-|parcelDate|
-|supplierId|
-|returnedProduct|
-|registrationDate|
-|statusId|
-|s01|
-|countryId|
-|accountManager|
-|stateColor|
-|historicalShipmentNo|
-|packageCode|
-|everythingCredited|
-|reasonForCreditId|
-|invoiceCreditStatus|
+|step|
+|basePrice|
+|raiseAmount|
+|raisePrcnt|
+|finalAmount|
+|sequenceNumber|
+|creation|
+|priceLogId|
+|onCustomerId|
 |pKey|
 |version|
 
-# InvoiceCredits
+## InvoiceCredits
 
 |Value|
 |:--|
-|historicalBarcode|
-|barcode|
+|creditBarcode|
+|originalBarcode|
 |creditReason|
 |returnToStock|
 |sellerId|
@@ -737,8 +792,13 @@ The server management API has many different endpoints they are described in the
 |creditReasonId|
 |pKey|
 |version|
+|approvedBy|
+|approvedDate|
+|packageId|
+|creditInvoiceDate|
+|creditInvoiceNumber|
 
-# OrderlistAssortment
+## OrderlistAssortment
 
 |Value|
 |:--|
@@ -859,7 +919,28 @@ The server management API has many different endpoints they are described in the
 |priceFixed|
 |version|
 
-# OutstandingInvoices
+## OrderlistComponents
+
+|Value|
+|:--|
+|articleId|
+|description|
+|colorId|
+|priceParcelPurchase1|
+|priceParcelPurchase2|
+|quantity|
+|parcelId|
+|bParcelId|
+|s01|
+|s02|
+|remark|
+|supplierId|
+|contentColli|
+|componentWeight|
+|version|
+|pKey|
+
+## OutstandingInvoices
 
 |Value|
 |:--|
@@ -887,7 +968,7 @@ The server management API has many different endpoints they are described in the
 |pKey|
 |version|
 
-# Carriers
+## Carriers
 
 |Value|
 |:--|
@@ -906,8 +987,9 @@ The server management API has many different endpoints they are described in the
 |inActive|
 |glnCode|
 |faxNr|
+|afasId|
 
-# CustomerGroups
+## CustomerGroups
 
 |Value|
 |:--|
@@ -918,7 +1000,7 @@ The server management API has many different endpoints they are described in the
 |saleUnit|
 |logisticsUnit|
 
-# CustomerGroupRelations
+## CustomerGroupRelations
 
 |Value|
 |:--|
@@ -927,12 +1009,29 @@ The server management API has many different endpoints they are described in the
 |version|
 |sequenceNumber|
 
-# InvoiceCredits
+## DivisionPriceLog
 
 |Value|
 |:--|
-|historicalBarcode|
-|barcode|
+|divisionId|
+|step|
+|basePrice|
+|raiseAmount|
+|raisePrcnt|
+|finalAmount|
+|sequenceNumber|
+|creation|
+|priceLogId|
+|onCustomerId|
+|pKey|
+|version|
+
+## InvoiceCredits
+
+|Value|
+|:--|
+|creditBarcode|
+|originalBarcode|
 |creditReason|
 |returnToStock|
 |sellerId|
@@ -946,8 +1045,13 @@ The server management API has many different endpoints they are described in the
 |creditReasonId|
 |pKey|
 |version|
+|approvedBy|
+|approvedDate|
+|packageId|
+|creditInvoiceDate|
+|creditInvoiceNumber|
 
-# OutstandingInvoices
+## OutstandingInvoices
 
 |Value|
 |:--|
@@ -975,7 +1079,7 @@ The server management API has many different endpoints they are described in the
 |pKey|
 |version|
 
-# PackageHistory
+## PackageHistory
 
 |Value|
 |:--|
@@ -1004,7 +1108,7 @@ The server management API has many different endpoints they are described in the
 |pKey|
 |version|
 
-# Payments
+## Payments
 
 |Value|
 |:--|
@@ -1031,35 +1135,7 @@ The server management API has many different endpoints they are described in the
 |pKey|
 |version|
 
-# Shoplog
-
-|Value|
-|:--|
-|logId|
-|userId|
-|customerId|
-|stockId|
-|logTime|
-|productGroupID|
-|articleGroupId|
-|searchDescription|
-|s01|
-|color|
-|feature|
-|parcelId|
-|quantity|
-|customerIP|
-|orderlistSubId|
-|orderNr|
-|description|
-|webshop|
-|barcode|
-|divisionType|
-|remark|
-|pKey|
-|version|
-
-# SalesDivisions
+## SalesDivisions
 
 |Value|
 |:--|
@@ -1106,8 +1182,18 @@ The server management API has many different endpoints they are described in the
 |contentBox|
 |pKey|
 |version|
+|orderParcelId|
+|reservationTextId|
+|articleLength|
+|potsize|
+|s4|
+|s5|
+|s6|
+|s7|
+|weight|
+|orderId|
 
-# SalesHistory
+## SalesHistory
 
 |Value|
 |:--|
@@ -1176,9 +1262,16 @@ The server management API has many different endpoints they are described in the
 |componentTypeId|
 |version|
 |orderParcelId|
-|packlistId|
+|packListId|
+|departureDate|
+|remark|
+|remark2|
+|remark3|
+|orderRemark|
+|orderRemark2|
+|deliveryDate|
 
-# SalesHistoryCostAndRebates
+## SalesHistoryCostAndRebates
 
 |Value|
 |:--|
@@ -1199,7 +1292,7 @@ The server management API has many different endpoints they are described in the
 |version|
 |costCode|
 
-# SalesHistoryBouquets
+## SalesHistoryBouquets
 
 |Value|
 |:--|
@@ -1268,9 +1361,16 @@ The server management API has many different endpoints they are described in the
 |componentTypeId|
 |version|
 |orderParcelId|
-|packlistId|
+|packListId|
+|departureDate|
+|remark|
+|remark2|
+|remark3|
+|orderRemark|
+|orderRemark2|
+|deliveryDate|
 
-# SalesHistoryInvoiceHeaders
+## SalesHistoryInvoiceHeaders
 
 |Value|
 |:--|
@@ -1309,69 +1409,7 @@ The server management API has many different endpoints they are described in the
 |packagePurchaseAmount|
 |version|
 
-# Shipments
-
-|Value|
-|:--|
-|shipmentId|
-|departurePort|
-|arrivalPort|
-|shipmentType|
-|shipmentNumber|
-|shipmentDate|
-|offloadDate|
-|expectedOffloadDate|
-|offloadCarrier|
-|creationDate|
-|transportCost|
-|shipName|
-|arrivalDate|
-|quantity|
-|departurePortId|
-|arrivalPortId|
-|final|
-|loadingCarrier|
-|clearanceCountry|
-|clearningAgentId|
-|logisticalAgentId|
-|freightForwarderLocation|
-|freightContainerNumber|
-|awbNumber|
-|customsInspection|
-|airportDepartureID|
-|airportArrivalId|
-|deliveryLocationId|
-|version|
-|pKey|
-
-# OrderApprovals
-
-|Value|
-|:--|
-|orderId|
-|state|
-|deadlineNr|
-|supplierId|
-|divisionId|
-|deadline|
-|shippingDate|
-|confirmationDate|
-|salesUser|
-|orderDate|
-|contentColli|
-|articleID|
-|transportCostPerStem|
-|growerConfirmationStatus|
-|growerConfirmationDate|
-|confirmedPrice|
-|loadCarrier|
-|deliveryLocationId|
-|deliveryMethodId|
-|shipmentId|
-|version|
-|pKey|
-
-# Pickorders
+## Pickorders
 
 |Value|
 |:--|
@@ -1400,20 +1438,6 @@ The server management API has many different endpoints they are described in the
 |customerId|
 |stockId|
 |crossdock|
+|orderDate|
+|version|
 
-# AuctionGroups
-
-|Value|
-|:--|
-|auctionGrp|
-|buyerId|
-|auctionGrpDescription|
-|buyerId2|
-|buyerId3|
-
-# Buyers
-
-|Value|
-|:--|
-|BuyerId|
-|BuyerName|
