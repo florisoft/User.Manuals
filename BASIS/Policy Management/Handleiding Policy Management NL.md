@@ -14,7 +14,7 @@ Om een policy aan te maken volgt u de volgende stappen :
 |**2**|In de linkerkant van het scherm ziet de al bestaande policies (#1), onderaan deze balk klikt u op de **Toevoegen** knop(#2) om een Policy toe te voegen.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/2.png"></details>|
 |**3**|U heeft nu een policy aangemaakt, deze heet standaard **Nieuwe Policy**, deze willen we echter een nieuwe naam geven zodat we later eenvoudig de policies kunnen herkennen.<Br><br>U wijzigt de Policy naam door op de naam te klikken en een nieuwe naam in te typen. Zorg ervoor dat dit een passende naam is.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/3.png"></details>|
 
-:warning: **LET OP**: Policies hebben een hierarchie, in deze hierarchie telt de policy met het **hoogste** getal het sterkst. Dit geldt uiteraard enkel voor policies met overlappende instellingen/autorisaties, wanneer deze niet overlappen tellen deze als normaal. 
+:warning: **LET OP**: Policies hebben een hierarchie, in deze hierarchie telt de policy met het **hoogste** getal het sterkst. Dit geldt uiteraard enkel voor policies met overlappende instellingen/autorisaties, wanneer deze niet overlappen tellen deze als normaal. **Om de hierarchie aan te passen kan u de volgorde van de policies verslepen in de Policies kolom links in het scherm.**
 
 :bulb: **In het hoofdstuk [Policy Simulatie](#policy-simulatie) leert u hoe uw policies kan checken op correct functioneren.***
 
