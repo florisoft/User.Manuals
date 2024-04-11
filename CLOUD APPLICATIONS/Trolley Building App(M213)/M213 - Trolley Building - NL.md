@@ -42,3 +42,14 @@ In deze handleiding leert u over de werking van de Trolley building app en het b
 |**15**|Bevestig vervolgens nogmaals (voor de laatste keer) dat de kar compleet is.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/22.png"></details>|
 |**16**|Hierna kunnen meerdere karren worden opgebouwd, of de huidige opgebouwde kar kan nog gewijzigd worden. Als de order volledig opgebouwd is, zie je dat ook in het overzicht van de orders.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/23.png"></details>|
 |**17**|Vervolgens is de order opgebouwd, welk vervolgens ook in de facturen bak terug kan worden gevonden.|
+
+## Situatie 
+
+Policy situaties zijn vooral relevant voor de Florisoft apps. 
+Dit stelt u in bij de app instellingen in de app zelf
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/21.png"></details>
+
+Of via het hamburgermenu, waarbij u een situatie kan inscannen aan de hand van een QR-code.
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/20.png"></details>
