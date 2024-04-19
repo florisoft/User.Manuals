@@ -2,42 +2,14 @@
 
 # Florisoft Manual Mobile Photo (M131)
 
-Welkom bij de handleiding FloriShop add on Mobile foto. Deze add on
-wordt gebruikt om foto's toe te voegen aan producten op de webshop.
-Meestal zijn er standaard al foto’s gekoppeld.  
-Er kunnen echter situaties voordoen waarin foto’s niet geladen worden of
-de standaardfoto niet naar wens is. Hiervoor is de add on Mobile foto
-een waardevolle toevoeging.
+In deze handleiding leert u hoe je foto's kan toevoegen op de webshop aan bestel- en voorraadpartijen via een mobiel apparaat.
 
-Voordat een webshop gebruiker foto's kan koppelen, moet deze hiervoor
-geautoriseerd zijn. Het autoriseren is een instelling in Florisoft. De
-stappen hiervoor worden beschreven in hoofdstuk twee.
+:warning: **Schermafbeeldingen in deze handleiding kunnen afwijken van de schermen op uw systeem, omdat Florisoft voortdurend wordt bijgewerkt.
+Houd er rekening mee dat de hoofdprocesstroom hetzelfde blijft.** :warning:
 
-Het handmatig toevoegen van foto’s kan op twee manieren. De eerste
-mogelijkheid is het koppelen van een bestaande afbeelding. (opgeslagen
-op een PC of mobile device) De tweede mogelijkheid is het koppelen van
-nieuwe foto’s gemaakt met een camera op een mobiel apparaat. Dit proces
-wordt beschreven in hoofdstuk drie. Het is mogelijk om afbeeldingen aan
-zowel voorraad- als bestel partijen te koppelen.
+## Debiteur autoriseren die foto's op de webshop mag toevoegen
 
-Ten slotte beschrijft hoofdstuk vier de andere add ons die beschikbaar
-zijn voor de webshop. Dit hoofdstuk beschrijft in het kort de
-functionaliteit voor elke add on en de toegevoegde waarde voor uw
-organisatie.
-
-Het doel van deze handleiding is dat webshop beheerders zelf
-afbeeldingen aan producten in de webshop kunnen toevoegen en hiermee
-alle producten kunnen voorzien van foto’s, zonder tussenkomst van
-externe partijen.
-
-:warning:**Let op: afbeeldingen in deze handleiding kunnen enigszins afwijken van
-wat u op uw eigen scherm ziet.**
-
-## Autoriseer gebruikers voor het koppelen van foto's
-
-*Alleen geautoriseerde gebruikers mogen foto’s aanpassen op de webshop.
-Dit kan worden ingesteld in Florisoft. De volgende stappen beschrijven
-hoe deze autorisatie werkt:*
+Volg de stappen hieronder:
 
 |Stap|Uitleg|
 |:-:|:--|
@@ -48,15 +20,15 @@ hoe deze autorisatie werkt:*
 |**5**|Pas de instelling "*Mag de partij foto aanpassen*" aan (aanzetten)|
 |**6**|Bevestig de gemaakte veranderingen door op de **Ok** knop te klikken, sluit vervolgens het debiteur instellingen scherm.<details><summary><b>Klik hier voor de voorbeeld afbeelding!</b></summary><img src=".Handleiding webshop add on Mobile Photo/media/image3.png"></details>|
 
-*Deze gebruiker is nu geautoriseerd om foto’s te wijzigen op de webshop.<br><br>Het is mogelijk om meerdere gebruikers te autoriseren voor het aanpassen
+Deze gebruiker is nu geautoriseerd om foto’s te wijzigen op de webshop. Het is mogelijk om meerdere gebruikers te autoriseren voor het aanpassen
 van foto’s. Herhaal voor iedere te autoriseren gebruiker de stappen één
-t/m vijf.*
+t/m vijf.
 
-## Handmatig afbeeldingen koppelen
+## Koppelen van foto aan bestel- of voorraadpartij
 
-*Volg de onderstaande stappen om handmatig afbeeldingen te koppelen aan webshop partijen:*
+Volg de stappen hieronder:
 
-:bulb: **Belangrijk**: *het zelf maken van foto's en deze linken aan webshop producten vereist een smart device zoals uw smart phone of een tablet PC.*
+:bulb: **Belangrijk**: *het maken van foto's en deze linken aan de bestel- en voorraadpartijen vereist een smart device zoals een mobiel apparaat of tablet.*
 
 **De onderstaande screenshots zijn gemaakt op een mobiel apparaat, dit betekent dat de webshop er anders uit zal zien dan uw desktop versie.**
 
