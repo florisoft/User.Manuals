@@ -28,7 +28,7 @@ t/m vijf.
 
 Volg de stappen hieronder:
 
-:bulb: **Belangrijk**: *het maken van foto's en deze linken aan de bestel- en voorraadpartijen vereist een smart device zoals een mobiel apparaat of tablet.*
+:bulb: **Belangrijk**: het maken van foto's en deze linken aan de bestel- en voorraadpartijen vereist een smart device zoals een mobiel apparaat of tablet.
 
 **De onderstaande screenshots zijn gemaakt op een mobiel apparaat, dit betekent dat de webshop er anders uit zal zien dan uw desktop versie.**
 
