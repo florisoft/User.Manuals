@@ -2,7 +2,7 @@
 
 # Florisoft Manual Mobile Photo (M131)
 
-In this manual you will learn how to add product photos to the webshop to parcels of an order list or stock via a mobile device. Product photos are usually already linked to items in the webshop. However, there may be situations where some photos don't load or you want to change the default photo.
+In this manual you will learn how to add product photos to the webshop to parcels of an order list or stock via a mobile device. Product photos usually are already linked to items in the webshop. However, there may be situations where some photos don't load or you want to change the default photo.
 
 :warning: **Screenshots in this manual may differ from the screens on your system, as Florisoft is continuously updated. Please note that the main process flow remains the same.** :warning:
 
