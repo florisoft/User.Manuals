@@ -6,7 +6,7 @@ Vanaf nu is het mogelijk om zelf foto’s te koppelen aan zowel bestel- als voor
 
 ## Koppel foto's met de Mobile Photo add-on (Backoffice gedeelte)
 
-*Volg hier voor de onderstaande stappen*:
+Volg hier voor de onderstaande stappen:
 
 |Stap|Uitleg|
 |:--|:--|
@@ -18,7 +18,7 @@ Vanaf nu is het mogelijk om zelf foto’s te koppelen aan zowel bestel- als voor
 
 ## Koppel foto's met de Mobile Photo add-on (Florishop gedeelte)
 
-*De onderstaande stappen vinden plaats op de webshop, u kan de backoffice applicatie nu minimaliseren. Open vervolgens uw Florishop. Volg nu de onderstaande stappen:*
+Onderstaande stappen vinden plaats op de webshop, u kan de backoffice applicatie nu minimaliseren. Open vervolgens uw Florishop. Volg nu de onderstaande stappen:
 
 |Stap|Uitleg|
 |:--|:--|
