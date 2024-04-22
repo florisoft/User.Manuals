@@ -2,35 +2,13 @@
 
 # Florisoft Manual Mobile Photo (M131)
 
-Welcome to the manual FloriShop add on Mobile Photo. This add on is used
-to add photos to products on the webshop. Usually product photos are
-already linked to articles in the webshop. However, there may be
-situations where some photos are not loaded or where you want to change
-the default photo. The Mobile Photo add-on is required for doing this.
+In this manual you will learn how to add product photos to the webshop to parcels of an order list or stock via a mobile device. Product photos are usually already linked to items in the webshop. However, there may be situations where some photos don't load or you want to change the default photo.
 
-Before a webshop user can link photos, they must be authorized for this.
-This is a setting in Florisoft. The steps for this are described in
-chapter two.
+:warning: **Screenshots in this manual may differ from the screens on your system, as Florisoft is continuously updated. Please note that the main process flow remains the same.** :warning:
 
-Adding images manually can be done in roughly two ways. You can link an
-existing image (stored on a storage device) and new images (made with a
-camera on a mobile device). This process is described in chapter three.
-It is possible to link images to both stock and order parcels.
+## Authorize the debtor who can add photos to the webshop
 
-Finally, chapter four describes the other add ons that are available for
-the webshop. This chapter briefly describes the functionality for each
-add on and the added value for your organization.
-
-The purpose of this manual is that webshop administrators can add images
-to products on the web shop themselves.
-
-:warning:**Pay attention:** *images in this manual may differ slightly from what you
-see on your own screen.*
-
-## Authorize users to link photos
-
-*Changing photos on the web shop can only be done by authorized users.
-This can be set in Florisoft. The following describes how it works:*
+Follow the steps below:
 
 |Step|Explanation|
 |:-:|:--|
@@ -41,16 +19,16 @@ This can be set in Florisoft. The following describes how it works:*
 |**5**|Enable the setting "*May adjust parcel photo*")|
 |**6**|Confirm the changes made by clicking on the **Ok** button, close the debtor settings window.<details><summary><b>Click here for the example image!</b></summary><img src=".Manual webshop add on Mobile Photo/media/image3.png"></details>|
 
-*Now this debtor is authorized to change parcel photo’s on the webshop.
+Now this debtor is authorized to change parcel photo’s on the webshop.
 It is possible to authorize multiple webshop users to modify parcel
 photos. Do this by repeating steps one through six for each user you
-want to authorize.*
+want to authorize.
 
-## Link photos to webshop parcels
+## Link photos to parcels of an order list or stock
 
-*Follow the steps below to manually link images to webshop parcels:*
+Follow the steps below to manually link images to webshop parcels:
 
-:bulb: **Important**: *taking pictures yourself and linking them to products in the webshop requires a mobile device e.g.: smart phones and tablet PC's.*
+:bulb: **Important**: taking pictures yourself and linking them to products in the webshop requires a mobile device e.g.: smart phone or tablet.
 
 **The screenshots below are taken on a mobile device, this means that the webshop might look different from your desktop version.**
 

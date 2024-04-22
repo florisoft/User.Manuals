@@ -2,7 +2,7 @@
 
 # Florisoft Manual Mobile Photo (M131)
 
-In deze handleiding leert u hoe je foto's kan toevoegen op de webshop aan bestel- en voorraadpartijen via een mobiel apparaat.
+In deze handleiding leert u hoe je foto's kan toevoegen op de webshop aan bestel- en voorraadpartijen via een mobiel apparaat. Meestal zijn productfoto's al gekoppeld aan artikelen in de webshop. Er kunnen zich echter situaties voordoen waarin sommige foto's niet worden geladen of waarin u de standaardfoto wilt wijzigen.
 
 :warning: **Schermafbeeldingen in deze handleiding kunnen afwijken van de schermen op uw systeem, omdat Florisoft voortdurend wordt bijgewerkt.
 Houd er rekening mee dat de hoofdprocesstroom hetzelfde blijft.** :warning:
