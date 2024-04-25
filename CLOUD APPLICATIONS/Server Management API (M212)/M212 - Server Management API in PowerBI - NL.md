@@ -50,6 +50,7 @@ Dit probleem doet zich voor wanneer u deze onderstaande melding te zien krijgt.
 
 **Als alles goed is gegaan staan de benodigde gegevens nu ingeladen in PowerBI**
 
+**:warning: Bij het gebruik van dit script dient u het versie nummer aan te passen naar de meest recente waarde om de nieuwste data binnen te krijgen!**
 
 ```power query language
 let
