@@ -1,5 +1,6 @@
 <img src="../../fslogo.png" height=250px>
 <!-- DO NOT RELEASE, SETTING NAMES ARE DIRECTLY TRANSLATED AND REQUIRE FURTHER CHECKING! -->
+
 # Florisoft Terminal Manual
 
 This manual will guide you through setting up a MultiSafepay payment terminal and conducting payments. This module operates with the payment provider MultiSafePay.
