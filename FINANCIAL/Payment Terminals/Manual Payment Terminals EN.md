@@ -31,7 +31,7 @@ To configure this module, you will need some information provided by Florisoft:
 |**4**|Now navigate to the folder **C&C Touch**.|
 |**5**|Check the box here for **Payment method is linked to PIN payment**.<details><summary><b>Click here for your example!</b></summary><img src="Media/EN/1.png"></details>|
 
-### Setting Up PIN Terminal Protocol
+### INI-Settings
 
 |Step|Explanation|
 |:-:|:--|
@@ -65,3 +65,14 @@ The operation of this module is within the cash register screen found through th
 |**6**|When you press **Ok** now, Florisoft will freeze, and you will see a payment prompt appear on the payment terminal in a few moments.|
 |**7.a**|If the payment is successfully completed, you will see a confirmation prompt in Florisoft.|
 |**7.b**|If the payment fails or takes too long, Florisoft will display a timeout message.|
+
+### Troubleshooting
+
+In the Cash & Carry screen there is an issue when creating a new payment without creating a new order first, when doing this Florisoft will always prompt a print option that prevents the PIN-payment from going through to the terminal. This issue can be addressed with a Policy-setting that stops the print-prompt from appearing when paying with a PIN-method, the setting that prevents the prompt is a policy and will thus need to be set for the corresponding policies.
+
+|Step|Explanation|
+|:-:|:--|
+|**1**|Open the constants screen and navigate to the path:<br>**System→Users→Policy Management**<details><summary><b>Click here for your example!</b></summary><img src="Media/EN/7.png"></details>|
+|**2**|In the policy screen navigate to **Backoffice→Financial**.|
+|**3**|Enable the setting **Payment_IgnorePrintOnPinPayment** (enabled means that slider is coloured green).<br>**System→Users→Policy Management**<details><summary><b>Click here for your example!</b></summary><img src="Media/EN/11.png"></details>|
+|**4**|Save the policy changes.|

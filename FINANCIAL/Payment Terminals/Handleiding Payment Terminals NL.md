@@ -30,7 +30,7 @@ Om deze module in te stellen heeft u een aantal zaken nodig. Florisoft verstrekt
 |**4**|Navigeer nu naar het mapje **C&C Touch**.|
 |**5**|Zet hier de checkbox **Betaalwijze is gekoppeld aan pinbetaling** aan.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/1.png"></details>|
 
-### Instellen pinautomaatprotocol
+### Instellen van INI's
 
 |Stap|Uitleg|
 |:-:|:--|
@@ -64,3 +64,15 @@ De werking van deze module bevindt zich in het kassascherm dat te vinden is via 
 |**6**|Wanneer u nu op **Ok** drukt, zal Florisoft bevriezen en ziet u binnen enkele ogenblikken een betalingsprompt verschijnen op de betaalterminal.|
 |**7.a**|Als de betaling succesvol wordt afgerond, ziet u in Florisoft een bevestigingsprompt.|
 |**7.b**|Als de betaling mislukt of te lang duurt, zal Florisoft een time-out bericht weergeven.|
+
+### Troubleshooting
+
+In het Cash & Carry scherm is er een probleem bij het aanmaken van een nieuwe betaling zonder eerst een nieuwe bestelling aan te maken; wanneer dit wordt gedaan, zal Florisoft altijd een afdrukoptie vragen die ervoor zorgt dat de PIN-betaling niet doorgaat naar de terminal. Dit probleem kan worden aangepakt met een policy instelling die de afdrukprompt niet laat verschijnen bij betaling met een PIN-methode; de instelling die de prompt voorkomt is een policy instelling en moet dus worden ingesteld voor de overeenkomstige policies.
+
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Open het constantenscherm en navigeer naar het pad:<br>**System→Users→Policy beheer**<details><summary><b>Klik hier voor jouw voorbeeld!</b></summary><img src="Media/EN/7.png"></details>|
+|**2**|Navigeer in het beleidsscherm naar **Backoffice→Financial**.|
+|**3**|Activeer de instelling **Payment_IgnorePrintOnPinPayment** (geactiveerd betekent dat de schuifregelaar groen gekleurd is).<details><summary><b>Klik hier voor jouw voorbeeld!</b></summary><img src="Media/EN/11.png"></details>|
+|**4**|Sla de wijzigingen in het beleid op.|
+
