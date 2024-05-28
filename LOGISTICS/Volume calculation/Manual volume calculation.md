@@ -11,7 +11,7 @@ Het doel van de Volume calculatie is:
 <u>De twee veelgebruikte manieren voor volume zijn:</u><br>
 - **Ladingkardrager**
     Bij fustcodes kunnen we aangeven dat vhet volume berekend word aan de hand van een aantal fusten per laag, en de hoogte van het product
-<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="Media/picture1.png"></details><br/>
+<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="media/picture1.png"></details><br/>
 
 Hieronder volgt een voorbeeld met rekenen:
 
@@ -23,7 +23,7 @@ Hieronder volgt een voorbeeld met rekenen:
 |**4**|210cm / 55cm = 3.8 lagen. Dus per Deense kar passen er 3 lagen om te vervoeren.|
 |**5**|3 lagen * 8 blikken = 24. 24 * inhoud van de partij (**100**) = 2400 per kar.|
 |**6**|2400 per kar / 1,62 (m3 per kar) = 1481 stelen per m3, wat dan gevuld wordt in de voorraad in de kolum volume.|
-<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="Media/picture2.png"></details><br/>
+<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="media/picture2.png"></details><br/>
 
 -----
 **Artikel volume**
@@ -32,7 +32,7 @@ Hieronder volgt een voorbeeld met rekenen:
 |**1**|Voor het berekenen van het volume van de artikelen (Artikelvolume) , wordt er niet gerekend met de inhoud van de partij maar geef je zelf aan hoeveel stelen er passen per m3 van die partij met bijbehorende sorteringskenmerken ( waarvan lengte voor bloemen een hele belangrijke is ).|
 |**2**|Bij de artikelgroep en/of artikel kun je instellen hoeveel stelen er per m3 passen als je het met fust opbouwt of zonder fust ( volume en volume los ). Dit werkt met een t/m waarde.|
 
-<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="Media/picture3.png"></details><br/>
+<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="media/picture3.png"></details><br/>
 
 Hieronder volgt een voorbeeld berekening:
 |Stap|Uitleg|
@@ -40,13 +40,13 @@ Hieronder volgt een voorbeeld berekening:
 |**1**|Ook hierbij is het verstandig om uitrekenen hoeveel fusten ze in totaal kunnen opbouwen van deze artikelen op een volle ladingdrager.|
 |**2**|Voorbeeld: Lengte van de partij is 50 cm, dus de 2de regel uit bovenstaand voorbeeld van het artikel zou de berekening worden.|
 |**3**|Er passen bijvoorbeeld 4 lagen van lengte 50 op 1 kar. En per laag 8 blikken. 32 blikken totaal x 80 inhoud ( wat deze partij vaak is ) = 2560 stelen per volle ladingdrager. 1,62 m3 was het volume van de ladingdrager in eerder genoemd voorbeeld dus: 2560 / 1,62 = 1580 stelen per m3. Zou je het zonder fust opbouwen, zou dit zelfs 3000 stelen per m3 zijn.|
-<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="Media/picture4.png"></details><br/>
+<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="media/picture4.png"></details><br/>
 
 ---
 
 **Volume los** <br>
 Per debiteur kun je per artikelgroep aangeven of je deze artikelgroep los laadt ( voor berekeningen van bijvoorbeeld op de Webshop waar de klant niet kan kiezen of hij het zonder fust of met fust koopt. 
-<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="Media/picture5.png"></details><br/>
+<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="media/picture5.png"></details><br/>
 
 ---
 
@@ -56,20 +56,20 @@ Kijkt wat de klant voor partijen ziet en wat het volume is. Bij de debiteur staa
 
 De volgtende afbeeldingen helpen bij het instellen van de transportkosten:
 
-<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="Media/picture6.png"></details><br/>
-<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="Media/picture7.png"></details><br/>
-<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="Media/picture8.png"></details><br/>
+<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="media/picture6.png"></details><br/>
+<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="media/picture7.png"></details><br/>
+<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="media/picture8.png"></details><br/>
 
 ---
 
 De volgende afbeelding schetst een voorbeeld van de transportkosten:
-<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="Media/picture9.png"></details><br/>
+<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="media/picture9.png"></details><br/>
 
 ---
 
 De volgende afbeelding schetst de Eventviewer:
-<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="Media/picture10.png"></details><br/>
-
+<details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="media/picture10.png"></details><br/>
+s
 ---
 
 En de bijbehorende systeem instellingen:
