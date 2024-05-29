@@ -61,6 +61,7 @@ Je API-url is als volgt: https://\<cloud server URL>.com/ext/management/\<endpoi
 [Pickorders](#Pickorders)  
 [Buyers](#Buyers)  
 [AuctionGroups](#AuctionGroups)  
+[OrderApprovals](#OrderApprovals) 
 
 ## Authorizing a user
 
@@ -1441,3 +1442,28 @@ The server management API has many different endpoints they are described in the
 |orderDate|
 |version|
 
+## OrderApprovals
+
+|Value|
+|:--|
+|OrderId|
+|State|
+|SupplierId|
+|DivisionId|
+|Deadline|
+|ShippingDate|
+|ConfirmationDate|
+|SalesUser|
+|OrderDate|
+|ContentColli|
+|ArticleID|
+|TransportCostPerStem|
+|growerConfirmationStatus|
+|growerConfirmationDate|
+|ConfirmedPrice|
+|LoadCarrier|
+|DeliveryLocationId|
+|DeliveryMethodId|
+|ShipmentId|
+|Version|
+|PKey|
