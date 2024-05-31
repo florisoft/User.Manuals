@@ -107,11 +107,6 @@ Als je dezelfde aanbieding voor andere klanten wilt gebruiken, selecteer dan de 
 
 <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/10.png"></details>
 
-**Bijlage:** Active Email lay-out voorbeeld
--- TODO!
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/.png"></details>
-
-Meer informatie over het maken van een active email lay-out in hoofdstuk [hoofdstuk invoegen] 
 
 ## Vormgeven van Active Email in de Florishop
 
