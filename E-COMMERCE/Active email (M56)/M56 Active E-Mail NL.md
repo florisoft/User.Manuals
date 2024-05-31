@@ -122,23 +122,23 @@ Het beheerscherm voor **"Mail Configuration"** wordt geopend waarin verschillend
 
 <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/12.png"></details>
 
-#### Voorbeeld sjabloon bekijken
+#### 1. Voorbeeld sjabloon bekijken
 
 Klik op de optie **"Voorbeeld sjabloon bekijken"** om een voorbeeld van de sjabloon te bekijken.
 
-#### Wijzigen van sjablonen
+#### 2. Wijzigen van sjablonen
 
 Klik op de optie **"Wijzigen Sjablonen"** om bestaande sjablonen aan te passen.
 
-#### Verwijderen van sjablonen
+#### 3. Verwijderen van sjablonen
 
 Klik op de optie **"Verwijderen Sjablonen"** om ongewenste sjablonen te verwijderen.
 
-#### Nieuw sjabloon aanmaken
+#### 4. Nieuw sjabloon aanmaken
 
 Klik op de optie **"Nieuw Sjabloon"** om een nieuw sjabloon aan te maken. Meer informatie in paragraaf … 
 
-#### Beheren van zichtbare kenmerken
+#### 5. Beheren van zichtbare kenmerken
 
 Klik op de optie **"Beheren Zichtbare Kenmerken"** om kenmerken te tonen die in de partijkaart worden weergegeven. Het is mogelijk om sorteringskenmerken toe te voegen, te verwijderen of de volgorde van tonen te wijzigen.
 
