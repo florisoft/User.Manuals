@@ -17,7 +17,7 @@ Deze handleiding biedt een stapsgewijze uitleg voor het effectief gebruik van Fl
 
 - **Activering van de Module 'Active Email':** *De module 'Active Email' moet geactiveerd zijn in. Deze module biedt de functionaliteit om active e-mails te creëren en te verzenden.*
 
-- **Installatie en Activering van Websockets:** *Websockets moeten correct geïnstalleerd en ingeschakeld zijn binnen de server omgeving. Controleer of Websockets actief zijn door te navigeren naar Healt Monitor op de Florishop en te controleren of de ‘Blazor’ status op Supported staat. Indien de status "not supported" aangeeft, neem dan onmiddellijk contact op met de helpdesk voor verdere assistentie.*
+- **Installatie en Activering van Websockets:** *Websockets moeten correct geïnstalleerd en ingeschakeld zijn binnen de server omgeving. Controleer of Websockets actief zijn door te navigeren naar Healt Monitor op de Florishop en te controleren of de ‘Blazor’ status op "Supported" staat. Indien de status "not supported" aangeeft, neem dan onmiddellijk contact op met de helpdesk voor verdere assistentie.*
 
 ## Inhoud
 
