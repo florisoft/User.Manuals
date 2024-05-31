@@ -14,16 +14,16 @@ Chapter three describes the steps needed to start Florisoft from the Remote Desk
 Chapter four explains how to login to the Azure workspace from a webbrowser.
 
 ## Table of contents
-[1. Installing Remote desktop app](#Installing-Remote-desktop-app)  
-[2. Configure Remote Desktop for Azure](#user-process-overview-a-walkthrough)
-[3. Starting the Florisoft software from Remote Desktop](#3-starting-the-florisoft-software-from-remote-desktop)
+[1. Installing Remote desktop app](#Installing-Remote-desktop-app)<br>
+[2. Configure Remote Desktop for Azure](#user-process-overview-a-walkthrough)<br>
+[3. Starting the Florisoft software from Remote Desktop](#3-starting-the-florisoft-software-from-remote-desktop)<br>
 [4. Starting the Florisoft software from a webbrowser](#4-starting-the-florisoft-software-from-a-webbrowser)
 
 
 ## 1. Installing Remote Desktop application
 Remote Desktop is a Windows application used for logging into the Azure workspace and start Florisoft. Follow the steps below to install the Remote Desktop application.
 
-1. Start a webbbrowser like Google Chrome or Microsoft Edge.<br><br>
+1. Start a webbbrowser like Google Chrome or Microsoft Edge.<br>
 
 2. Copy and past this URL into the address bar: https://go.microsoft.com/fwlink/?linkid=2139369 (no. 1)
 
@@ -45,7 +45,7 @@ The browser is going to download the installer package:
 
 ![](pop-up.assets/2024-05-14-15-30-09.png)
 
-6. Using File explorer navigate to the chosen save location (at step 4) to find the downloaded installer file.<br><br>
+6. Using File explorer navigate to the chosen save location (at step 4) to find the downloaded installer file.
 
 7. Double click the installer file to start the installation. (no. 4)
 
@@ -61,7 +61,7 @@ The browser is going to download the installer package:
 
 10. Press the Next button to continue the installation. (no. 7)<br><br>
 
-11. Choose the **Install just for you (CURRENT_LOGGED_ON_USERNAME)** option in this screen. (no. 8)<br><br>
+11. Choose the **Install just for you (CURRENT_LOGGED_ON_USERNAME)** option in this screen. (no. 8)
 
 12. Press the Install button to start the actual installation of Remote Desktop. (no. 9)
 
@@ -75,15 +75,15 @@ When the installation is finished the window below shows:
 
 ![](pop-up.assets/2024-05-14-16-05-57.png)
 
-13. Put a checkmark in the **Launch Remote Desktop when setup exits.** checkbox. (no. 10)<br><br>
+13. Put a checkmark in the **Launch Remote Desktop when setup exits.** checkbox. (no. 10)
 
 14. Press the Finish button to finish the installation of the Remote Desktop software.
 
-Remote Desktop starts a few seconds later to its start screen:
+After a few seconds Remote Desktop starts to its start screen:
 
 ![](pop-up.assets/2024-05-14-16-14-50.png)
 
-15. Right click the Remote Desktop application icon in the taskbar and choose the Pin to taskbar option. (no. 12)
+15. Right click the Remote Desktop application icon on the taskbar and choose the Pin to taskbar option. (no. 12)
 
 ![](pop-up.assets/2024-05-14-16-26-41.png)
 
@@ -92,7 +92,7 @@ From now on the application icon is pinned to the taskbar so it can be easily st
 Read further in chapter two **Configure Remote Desktop for Azure** to setup the correct settings for logging onto the Azure workspace. 
 
 ## 2. Configure Remote Desktop for Azure
-Follow the steps below to setup the correct settings for logging onto the Azure workspace.
+Follow the steps below to setup the correct settings for logging in to the Azure workspace.
 
 1. Start the Remote Desktop application if it is not running already.
 
@@ -112,13 +112,13 @@ If the application is already running its window should be visible:
 
 ![](pop-up.assets/2024-05-21-13-24-39.png)
 
-4. Press the Next button to continue. (no. 3)<br><br>
+4. Press the Next button to continue. (no. 3)
 
 5. Fill in the Azure username in the Email, phone, or Skype field. (no. 4)
 
 ![](pop-up.assets/2024-05-21-13-26-57.png)
 
-6. Press the Next button. (no. 5)<br><br>
+6. Press the Next button. (no. 5)
 
 7. Fill in the Password of the concerning user in the Password field. (no. 6)
 
@@ -138,69 +138,71 @@ From now on it is needed to have acccess to the Microsoft Authenticator app on a
 
 Follow the steps below to install the Authenticator app.
 
-10. Open the App store (App Store in case of iPhone or Google Play Store in case of Android) on a smartphone.<br><br>
+10. Open the App store (App Store in case of iPhone or Google Play Store in case of Android) on a smartphone.
 
-11. Search for the Microsoft Authenticator app.<br><br>
+11. Search for the Microsoft Authenticator app.
 
-12. Press the app icon in the search results.<br><br>
+12. Press the app icon in the search results.
 
-13. Press the install option in the app store to install the app.<br><br>
+13. Press the install option to install the app.
 
 Probably there are any confirmation windows. Every time confirm any question to start the download.
 
 When the download is finished the icon of the Authenticator app is placed on the app screen of the smartphone.
 
-14. Open the Microsoft Authenticator by pressing its icon on the smartphone.<br><br>
+14. Open the Microsoft Authenticator by pressing its icon on the smartphone.
 
 15. Press the Accept button in the Authenticator app to confirm the privacy settings.
 
 Keep the toggle for **help improving the Authenticator app and share app use information** to its default setting: off.
 
-16. Press the Continue button to proceed.<br><br>
+16. Press the Continue button to proceed.
 
-17. Press the Skip button (upper right corner of Authenticator app) to continue.<br><br>
+17. Press the Skip button (upper right corner of Authenticator app) to continue.
 
-18. Press the Add account button in the **Are you ready to add your first account?** screen.<br><br>
+18. Press the Add account button in the **Are you ready to add your first account?** screen.
 
-19. Choose the Work- of schoolaccount option.<br><br>
+19. Choose the Business- or schoolaccount option.
 
-20. Choose the QR-code scannen option.<br><br>
+20. Choose the QR-code scannen option.
 
-21. Optional: allow the Authenticator app to access the smartphone camera.<br><br>
+21. Allow the Authenticator app to access the smartphone camera if needed.
 
 22. Scan the QR code in the sceen. (no. 11)
 
 ![](pop-up.assets/2024-05-22-10-10-33.png)
 
-23. Optional: allow the Authenticator app to send notification messages.
+23. Allow the Authenticator app to send notification messages if needed.
 
 If the QR-code scans correctly the screen below shows:
 
 ![](pop-up.assets/2024-05-22-10-34-44.png)
 
-24. Press the Next button to continue. (no. 12)<br><br>
+24. Press the Next button to continue. (no. 12)
+
+>**The screen below does not always appear. If it does not appear, click the Next button(s) to continue.**
 
 ![](pop-up.assets/2024-05-22-10-40-07.png)
 
-25. Choose the correct country in the drop down list. (no. 13)<br><br>
+25. Choose the correct country in the drop down list. (no. 13)
 
-26. Fill in the mobile phone number in the adjacent field. (no. 14)<br><br>
+26. Fill in the mobile phone number in the adjacent field. (no. 14)
 
-27. Choose the Receive a code option. (no. 15)<br><br>
+27. Choose the Receive a code option. (no. 15)
 
-28. Click the Next button to continue. (no. 16)<br><br>
+28. Click the Next button to continue. (no. 16)
 
-If everything goes right a code will be sent to the phone number filled in at step 26.<br><br>
+If everything goes right a code will be sent to the phone number filled in at step 26.
 
-29. Fill in the code in the concerning field on the smartphone or the Remote Desktop app.<br><br>
+29. Fill in the code in the concerning field on the smartphone or the Remote Desktop app.
 
-If everything goes well the account becomes visibile in the Authenticator app
+If everything goes well the account becomes visibile in the Authenticator app.
 
-The same time the Florisoft Azure workspace is loaded in the Remote Desktop app. When this is finished the Remote Desktop app looks something like this:
+At the same time the Florisoft Azure workspace is loaded in the Remote Desktop app. When this is finished the Remote Desktop app looks something like this:
 
 ![](pop-up.assets/2024-05-22-12-24-46.png)
 
-All steps from chapters one and twee needs to be done on every workstation where Florisoft is used. However, it only needs to be done once.
+All steps from chapters one and two needs to be done on every computer/device where Florisoft is used. However, it only needs to be done once.
 
 ## 3. Starting the Florisoft software from Remote Desktop
 This chapter describes the steps neccesary to start the Florisoft software from the Azure Workspace.
@@ -215,29 +217,29 @@ This chapter describes the steps neccesary to start the Florisoft software from 
 
 The login process starts:
 
-![](pop-up.assets/2024-05-22-13-09-15.png)
+![](pop-up.assets/2024-05-30-11-38-24.png)
 
 After a few seconds the login screen appears:
 
-![](pop-up.assets/2024-05-22-13-11-27.png)
+![](pop-up.assets/2024-05-30-11-40-35.png)
 
-3. Enter the username (same as the one used in chapter 1) in the User name field. (no. 2)<br><br>
+3. Enter the username (same as the one used in chapter 1) in the User name field. (no. 2)
 
-4. Enter the password (same as the one used in chapter 1) in the Password field. (no. 3)<br><br>
+4. Enter the password (same as the one used in chapter 1) in the Password field. (no. 3)
 
 5. Press the OK button to continue. (nr. 4)
 
 The connection is being established:
 
-![](pop-up.assets/2024-05-22-13-22-03.png)
+![](pop-up.assets/2024-05-30-11-38-24.png)
 
 After a few seconds the splash (load) screen of Florisoft appears. When the software is completely loaded the login screen shows:
 
 ![](pop-up.assets/2024-05-22-13-27-44.png)
 
-6. Fill in the userid in the USERID field. (no. 5)<br><br>
+6. Fill in the userid in the USERID field. (no. 5)
 
-7. Fill in the password in the Password. (no. 6)<br><br>
+7. Fill in the password in the Password. (no. 6)
 
 8. Press the Ok button to login. (no. 7)
 
@@ -250,7 +252,7 @@ From this point Florisoft can be used.
 ## 4. Starting the Florisoft software from a webbrowser
 Another possibility to run Florisoft is from a webbrowser. Follow the steps below to login to Florisoft via a webbrowser.
 
-1. Start a webbrowser like Google Chrome or Microsoft Edge.<br><br>
+1. Start a webbrowser like Google Chrome or Microsoft Edge.
 
 2. Copy and paste the Azure workspace URL (https://client.wvd.microsoft.com/arm/webclient/) in the address bar of the browser and press Enter on your keyboard:
 
@@ -260,9 +262,9 @@ The login screen of the workspace appears:
 
 ![](pop-up.assets/2024-05-29-15-29-46.png)
 
-3. Fill in the username in the Email or phone field. (no. 2)<br><br>
+3. Fill in the username in the Email or phone field. (no. 2)
 
-4. Press the Next button to continue. (no. 3)<br><br>
+4. Press the Next button to continue. (no. 3)
 
 5. Fill in the password in the Password field. (no. 4)
 
@@ -276,9 +278,9 @@ A number shows up to approve the sign in of this user.
 
 The Authenticator app shows a popup screen where the number can be entered.
 
-7. Fill in the number shown on the screen in the Microsoft Authenticator app.<br><br>
+7. Fill in the number shown on the screen in the Microsoft Authenticator app.
 
-8. Confirm the popup screen in the Authenticator app.<br>
+8. Confirm the popup screen in the Authenticator app.
 
 A question appears in the browser if you want to stay logged in or want to login only one session.
 
@@ -296,15 +298,15 @@ A popup window appears with some default settings. See the screenshot below:
 
 ![](pop-up.assets/2024-05-29-16-20-13.png)
 
-11. Press the Allow button to confirm the settings and continue. (no. 7)<br><br>
+11. Press the Allow button to confirm the settings and continue. (no. 7)
 
 A new login window appears:
 
 ![](pop-up.assets/2024-05-29-16-23-32.png)
 
-12. Fill in the username in the Username field. (no. 8)<br><br>
+12. Fill in the username in the Username field. (no. 8)
 
-13. Fill in the password in the Password field. (no. 9)<br><br>
+13. Fill in the password in the Password field. (no. 9)
 
 14. Click the Submit button to continue. (no. 10)
 
