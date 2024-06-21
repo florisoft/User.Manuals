@@ -69,7 +69,7 @@ De volgende afbeelding schetst een voorbeeld van de transportkosten:
 
 De volgende afbeelding schetst de Eventviewer:
 <details><summary>Klik hier voor de voorbeeld afbeelding</summary><img src="media/picture10.png"></details><br/>
-s
+
 ---
 
 En de bijbehorende systeem instellingen:
