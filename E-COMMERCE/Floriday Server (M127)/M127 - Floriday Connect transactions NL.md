@@ -65,6 +65,15 @@ Om een bestelpartij succesvol op floriday te krijgen moet de partij aan een aant
 - De sorteringskernmerken moeten gevuld zijn zoals verplicht volgens Floricode.
 - Het aantal fusten per laag moet gevuld zijn.
 - Het aantal lagen per kar moet gevuld zijn.
+- Land (land van herkomst)
+- Srt (kwaliteitscode)
+- Omschrijving
+- Fustcode (met een officiele VBN fustcode)
+- Inhoud Bos
+- Inhoud Fust
+- Leverancier
+
+Let op: bunchesperpackage segment van Floriday wordt bepaald op basis van inhkolli / inhbos (en de waarde ervan moet liggen tussen 1 en 9999). Mocht je dus de volgende melding krijgen: The field BunchesPerPackage must be between 1 and 9999, dan kloppen de waardes van inhkolli en inhbos dus niet.
 
 Het kan best voorkomen dat een partij die je probeert te syncen niet aan aan van deze criteria voldoet, voor deze situaties kunnen we een template partij invullen ook in het tabje Webservice --> Webservice Specifiek op de Floriday leverancier.
 Hiervoor maak je dus een voorbeeld bestelpartij aan met daarin alle benodigde gegevens gevuld, wanneer we proberen te syncen en we missen gegevens dan zullen deze uit de template partij worden gehaald.
