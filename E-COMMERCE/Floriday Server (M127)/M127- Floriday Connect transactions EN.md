@@ -66,6 +66,13 @@ To successfully get an order batch on floriday, the batch must meet a number of 
 - The grading characteristics must be filled as required by Floricode.
 - The number of kegs per layer must be filled.
 - The number of layers per cart must be filled.
+- Country (origin)
+- Quality code (Srt)
+- Description
+- Packaging code (official VBN packaging code)
+- Content bunch (Inhoud Bos)
+- Content colli
+- Supplier code
 
 It is quite possible that a party you are trying to sync does not meet these criteria, for these situations we can also fill in a template party in the tab Webservice --> Webservice Specific on the Floriday supplier.
 For this you create an example order batch with all the necessary data filled in, when we try to sync and we miss data, it will be removed from the template batch.
