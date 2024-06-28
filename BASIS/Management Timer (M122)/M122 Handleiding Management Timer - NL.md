@@ -27,9 +27,9 @@ Zorg er eerst voor dat het timerproces voor de management timer module aanstaat,
 |**1**|Open Florisoft op de Timer gebruiker|
 |**2**|Open de timer settings, klik met rechtermuisknop op het timer icoon en klik op **Timer Settings**.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/1.png"></details>|
 |**3**|Zoek in de timer naar het proces "MANAGEMENTINFO" door middel van de zoekfunctie(#1).<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/2.png"></details>|
-|**4**|Zorg ervoor dat het proces in de kolom **Active** (#2) een vinkje staat.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/1.png"></details>|
+|**4**|Zorg ervoor dat het proces in de kolom **Active** (#2) een vinkje staat.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/2.png"></details>|
 |**5**|Zet vervolgens in het tabje **Tijdschema** de instelling **Dit script activeren bij het starten van de timer**(#3) aan.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/1.png"></details>|
-|**6**|Stel vervolgens een voor u passend tijdsschema in (#4).<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/1.png"></details>|
+|**6**|Stel vervolgens een voor u passend tijdsschema in (#4).<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/2.png"></details>|
 |**7**|Druk nu op **Ok**.|
 
 ## Aanmaken van een management timer proces
