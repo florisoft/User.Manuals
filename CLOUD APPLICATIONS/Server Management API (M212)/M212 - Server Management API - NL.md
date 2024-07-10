@@ -62,6 +62,10 @@ Je API-url is als volgt: https://\<cloud server URL>.com/ext/management/\<endpoi
 [Buyers](#Buyers)  
 [AuctionGroups](#AuctionGroups)  
 [OrderApprovals](#OrderApprovals) 
+[Shipments](#Shipments)  
+[EntranceControl](#EntranceControl)  
+[EntranceControlDivisions](#EntranceControlDivisions)  
+[EntranceControlParcels](#EntranceControlParcels)  
 
 ## Authorizing a user
 
@@ -127,6 +131,14 @@ The server management API has many different endpoints they are described in the
 |description_E|
 |french|
 |description_F|
+
+## Bands
+
+|Value|
+|:--|
+|productionLineId|
+|description|
+|version|
 
 ## Carriers
 
@@ -208,6 +220,21 @@ The server management API has many different endpoints they are described in the
 |customerTypeId|
 |customerCategory|
 |accountManager|
+
+## CreditReasons
+
+|Value|
+|:--|
+|creditReasonCode|
+|description|
+|description_E|
+|description_D|
+|description_F|
+|creditCategory|
+|webShop|
+|toReturn|
+|refund|
+|version|
 
 ## CustomerGroups
 
@@ -361,6 +388,16 @@ The server management API has many different endpoints they are described in the
 |:--|
 |id|
 |description|
+|exCode|
+|version|
+
+## ReservationTexts
+
+|Value|
+|:--|
+|reservationTextId|
+|description|
+|reservationTextCode|
 |version|
 
 ## Sellers
@@ -620,6 +657,8 @@ The server management API has many different endpoints they are described in the
 |color|
 |orderParcelId|
 |priceInCurrency|
+|totalCostPrice|
+|externalParcelId|
 
 ## BandRef
 
@@ -774,6 +813,48 @@ The server management API has many different endpoints they are described in the
 |pKey|
 |version|
 
+## InvoiceApproval
+
+|Value|
+|:--|
+|toDebtor|
+|toOrderNr|
+|customerId|
+|orderNr|
+|articleId|
+|invoiceNr|
+|amount|
+|date|
+|divisionId|
+|processingDate|
+|creditVia|
+|userId|
+|packageCredit|
+|packageQuantity|
+|reasonForCredit|
+|approvingSalesUser|
+|processingChoice|
+|creditRemark|
+|processinText|
+|doneProcessing|
+|creditQuantity|
+|parcelDate|
+|supplierId|
+|returnedProduct|
+|registrationDate|
+|statusId|
+|s01|
+|countryId|
+|accountManager|
+|stateColor|
+|historicalShipmentNo|
+|packageCode|
+|everythingCredited|
+|reasonForCreditId|
+|invoiceCreditStatus|
+|pKey|
+|version|
+
 ## InvoiceCredits
 
 |Value|
@@ -919,6 +1000,9 @@ The server management API has many different endpoints they are described in the
 |volumeTrolleyPackageId|
 |priceFixed|
 |version|
+|productGroupId|
+|vParcelId|
+|noPriceLabel|
 
 ## OrderlistComponents
 
@@ -967,6 +1051,14 @@ The server management API has many different endpoints they are described in the
 |financialAdministrationid|
 |processed|
 |pKey|
+|version|
+
+## Bands
+
+|Value|
+|:--|
+|productionLineId|
+|description|
 |version|
 
 ## Carriers
@@ -1133,6 +1225,56 @@ The server management API has many different endpoints they are described in the
 |surchargePrcnt|
 |surchargeRaise|
 |adherrentLedgerNr|
+|pKey|
+|version|
+
+## PaymentHistory
+
+|Value|
+|:--|
+|customerId|
+|invoiceNr|
+|invoiceDate|
+|expirationDate|
+|paymentDate|
+|paymentId|
+|amount|
+|currency|
+|userId|
+|checkId|
+|description|
+|invoiceAmount|
+|uniqueId|
+|surchargePrcnt|
+|surchargeRaise|
+|pKey|
+|version|
+
+## Shoplog
+
+|Value|
+|:--|
+|logId|
+|userId|
+|customerId|
+|stockId|
+|logTime|
+|productGroupID|
+|articleGroupId|
+|searchDescription|
+|s01|
+|color|
+|feature|
+|parcelId|
+|quantity|
+|customerIP|
+|orderlistSubId|
+|orderNr|
+|description|
+|webshop|
+|barcode|
+|divisionType|
+|remark|
 |pKey|
 |version|
 
@@ -1410,6 +1552,70 @@ The server management API has many different endpoints they are described in the
 |packagePurchaseAmount|
 |version|
 
+## 
+
+|Value|
+|:--|
+|ShipmentId|
+|DeparturePort|
+|ArrivalPort|
+|ShipmentType|
+|ShipmentNumber|
+|ShipmentDate|
+|OffloadDate|
+|ExpectedOffloadDate|
+|OffloadCarrier|
+|CreationDate|
+|TransportCost|
+|ShipName|
+|ArrivalDate|
+|Quantity|
+|DeparturePortId|
+|ArrivalPortId|
+|Final|
+|LoadingCarrier|
+|ClearanceCountry|
+|ClearningAgentId|
+|LogisticalAgentId|
+|FreightForwarderLocation|
+|FreightContainerNumber|
+|AWBNumber|
+|CustomsInspection|
+|AirportDepartureID|
+|AirportArrivalId|
+|DeliveryLocationId|
+
+
+
+
+## OrderApprovals
+
+|Value|
+|:--|
+|orderId|
+|state|
+|deadlineNr|
+|supplierId|
+|divisionId|
+|deadline|
+|shippingDate|
+|confirmationDate|
+|salesUser|
+|orderDate|
+|contentColli|
+|articleID|
+|transportCostPerStem|
+|growerConfirmationStatus|
+|growerConfirmationDate|
+|confirmedPrice|
+|loadCarrier|
+|deliveryLocationId|
+|deliveryMethodId|
+|shipmentId|
+|version|
+|pKey|
+|deviatingBarePrice|
+
 ## Pickorders
 
 |Value|
@@ -1440,30 +1646,83 @@ The server management API has many different endpoints they are described in the
 |stockId|
 |crossdock|
 |orderDate|
+|deliveryDate|
 |version|
 
-## OrderApprovals
+## EntryControl
 
 |Value|
 |:--|
-|OrderId|
-|State|
-|SupplierId|
-|DivisionId|
-|Deadline|
-|ShippingDate|
-|ConfirmationDate|
-|SalesUser|
-|OrderDate|
-|ContentColli|
-|ArticleID|
-|TransportCostPerStem|
-|growerConfirmationStatus|
-|growerConfirmationDate|
-|ConfirmedPrice|
-|LoadCarrier|
-|DeliveryLocationId|
-|DeliveryMethodId|
-|ShipmentId|
-|Version|
-|PKey|
+|entryControlId|
+|description|
+|registerPartialParcels|
+|lastClearedAt|
+|webshopAvailable|
+
+## EntryControlDivisions
+
+|Value|
+|:--|
+|entryControlId|
+|stockId|
+|parcelId|
+|vParcelId|
+|description|
+|customerId|
+|subCustomerId|
+|orderNumber|
+|handling|
+|colli|
+|quantity|
+|originalQuantity|
+|dividedQuantity|
+|colliCapacity|
+|packageId|
+|packageQuantity|
+|loadQuantity|
+|loadMark|
+|barcode|
+|toStock|
+|fromCustomer|
+|remark|
+|remark2|
+|createdAt|
+|assignmentNumber|
+|pickTime|
+|startPickTime|
+|exPickTime|
+|picker|
+|divisionType|
+|orderParcelId|
+|divisionId|
+|createdBy|
+|pickerUserId|
+|isLabelPrint|
+|firstLabelPrint|
+|reservationTextId|
+
+## EntryControlParcels
+
+|Value|
+|:--|
+|entryControlId|
+|stockId|
+|parcelId|
+|vParcelId|
+|wmsParcelId|
+|buyerId|
+|articleDescription|
+|articleId|
+|colli|
+|quantity|
+|dividedQuantity|
+|capacity|
+|createdQuantity|
+|lastPrintedQuantity|
+|parcelDate|
+|estimatedDeliveryDate|
+|createdBy|
+|seatNumber|
+|firstPrintDate|
+|checkInDate|
+
