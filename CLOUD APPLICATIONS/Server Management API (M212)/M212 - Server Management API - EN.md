@@ -61,6 +61,10 @@ Your API-URL should be as follows: https://<your cloudserver URL\>.com/ext/manag
 [Buyers](#Buyers)  
 [AuctionGroups](#AuctionGroups)  
 [OrderApprovals](#OrderApprovals)  
+[Shipments](#Shipments)  
+[EntryControl](#EntryControl)  
+[EntryControlDivisions](#EntryControlDivisions)  
+[EntryControlParcels](#EntryControlParcels)  
 
 ## Authorizing a user
 
