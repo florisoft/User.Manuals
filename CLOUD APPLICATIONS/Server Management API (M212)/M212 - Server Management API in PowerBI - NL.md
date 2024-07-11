@@ -188,3 +188,6 @@ in
 |SalesHistoryCostAndRebates|
 |Shipments|
 |OrderApprovals|
+|EntryControl|
+|EntryControlParcels|
+|EntryControlDivisions|
