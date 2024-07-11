@@ -63,9 +63,9 @@ Je API-url is als volgt: https://\<cloud server URL>.com/ext/management/\<endpoi
 [AuctionGroups](#AuctionGroups)  
 [OrderApprovals](#OrderApprovals) 
 [Shipments](#Shipments)  
-[EntranceControl](#EntranceControl)  
-[EntranceControlDivisions](#EntranceControlDivisions)  
-[EntranceControlParcels](#EntranceControlParcels)  
+[EntranceControl](#EntryControl)  
+[EntranceControlDivisions](#EntryControlDivisions)  
+[EntranceControlParcels](#EntryControlParcels)  
 
 ## Authorizing a user
 
