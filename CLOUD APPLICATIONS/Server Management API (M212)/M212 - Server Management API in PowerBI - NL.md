@@ -1,13 +1,9 @@
 # API data inladen in Microsoft powerBI
 
-In deze korte handleiding leest u hoe je de Florisoft Server Management API inleest in PowerBI.
-Deze handleiding is geschikt voor zowel intern als extern gebruik aangezien het geen gevoellige gegevens bevat. 
+In deze korte handleiding lees je hoe je de Florisoft Server Management API inleest in PowerBI.
 
-:warning:**Het word sterk afgeraden om deze manier van werken in productie te draaien, gebruik de werkwijze enkel om snel in te zien welke gegevens terug gegeven worden of om een zeer beperkt dashboard te maken. Dit heeft te maken met het ophalen van geversioneerde data, wat slecht tot niet mogelijk is met deze werkwijze, GEBRUIK DIT DUS NIET IN PRODUCTIE!**:warning:
 
-Met de scripts opgenomen in deze handleiding kan u op een beperkte wijze data ophalen vanuit de Florisoft database.
-
-## Veel voorkomende problemen
+## Introductie
 
 Aangezien PowerBI een aparte applicatie is van Florisoft leveren wij geen ondersteuning bij het opzetten en troubleshooten van PowerBI. Mocht u hier zelf niet uit komen is het aan te raden om hier een externe partij voor in te schakelen. 
 
