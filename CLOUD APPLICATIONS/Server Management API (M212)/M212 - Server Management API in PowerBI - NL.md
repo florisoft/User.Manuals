@@ -2,6 +2,19 @@
 
 In deze korte handleiding lees je hoe je de Florisoft Server Management API inleest in PowerBI.
 
+## Waarschuwing: Lees voor Gebruik!
+
+Wij raden af om de Florisoft API direct uit te lezen met Power BI. Het direct uitlezen via Power BI kan impact hebben op de performance van de Florisoft server, omdat Power BI geen vorm van dataopslag of caching heeft. Dit betekent dat bij het verversen alle data volledig opnieuw moet worden opgehaald en ingeladen.
+Bij de grotere endpoints zoals SalesHistory of Sales kan dit resulteren in het ophalen van meerdere gigabytes aan data, vooral wanneer Florisoft al langer in gebruik is. Hierdoor kunnen zowel de Florisoft applicatie (+ API) als Power BI prestatieproblemen ondervinden.
+Voor productieomgevingen raden wij aan om gebruik te maken van een tussenliggende database (een datawarehouse) waarin de gegevens vanuit de API opgeslagen worden, en waarin versiebeheer toegepast wordt in de aanvragen naar de API.
+
+*Het gebruik van een datawarehouse biedt diverse voordelen:*
+
+- **Performance:** U hoeft de data slechts eenmaal volledig op te halen en daarna continu alleen de wijzigingen bij te werken.
+- **Datakwaliteit:** Het gebruik van een datawarehouse maakt datatransformatie eenvoudiger.
+- **Historische data:** Eenvoudig behoud van historische gegevens.
+- **Beveiliging:** Door een datawarehouse tussen uw dashboards en de API te plaatsen, kunt u bepalen wie toegang krijgt tot welke delen van het datawarehouse.
+
 
 ## Introductie
 
