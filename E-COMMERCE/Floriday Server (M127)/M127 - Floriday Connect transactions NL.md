@@ -72,6 +72,7 @@ Om een bestelpartij succesvol op floriday te krijgen moet de partij aan een aant
 - Inhoud Bos
 - Inhoud Fust
 - Leverancier
+- Op het bijbehorende artikel moet de productsoort ingevuld zijn
 
 Let op: bunchesperpackage segment van Floriday wordt bepaald op basis van inhkolli / inhbos (en de waarde ervan moet liggen tussen 1 en 9999). Mocht je dus de volgende melding krijgen: The field BunchesPerPackage must be between 1 and 9999, dan kloppen de waardes van inhkolli en inhbos dus niet.
 
