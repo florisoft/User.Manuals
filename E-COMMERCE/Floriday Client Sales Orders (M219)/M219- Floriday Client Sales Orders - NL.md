@@ -1,6 +1,6 @@
 <img src="../../fslogo.png">
 
-# Handleiding Floriday Sales Orders
+# Handleiding Floriday Client Sales Orders
 
 Om gebruik te maken van deze module zal u per leverancier een instellingen aanzetten.
 Volg hiervoor de onderstaande stappen:

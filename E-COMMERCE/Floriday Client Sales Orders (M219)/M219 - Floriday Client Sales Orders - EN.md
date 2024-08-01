@@ -1,6 +1,6 @@
 <img src="../../fslogo.png">
 
-# Floriday Sales Orders Manual
+# Floriday Client Sales Orders Manual
 
 To use this module, you will need to enable settings for each supplier.
 Follow the steps below:
