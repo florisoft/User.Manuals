@@ -83,6 +83,7 @@ System users must be granted special permission to do so. Please follow the step
 # Endpoints
 
 The server management API has many different endpoints they are described in the following chapters.
+Each chapter will contain a table with the endpoints return object fields with an indication of their datatype (loosely based in SQL server types).
 
 ## ArticleGroups
 
@@ -1648,6 +1649,7 @@ The server management API has many different endpoints they are described in the
 |orderDate|
 |deliveryDate|
 |version|
+|deliveryDate|
 
 ## EntryControl
 
