@@ -10,6 +10,8 @@ Om de onderstaande stappen te volgen zorg is het belangrijk dat je over de volge
 
 - Floricode API abbonement
 - Floricode API logingegevens (gebruikersnaam en wachtwoord)
+- Florisoft module: Floricode Api
+- Florisoft module: Product- en kenmerkcodes
 
 Volg de onderstaande stappen:
 
