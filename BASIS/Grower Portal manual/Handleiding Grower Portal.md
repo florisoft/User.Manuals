@@ -13,7 +13,7 @@ https://github.com/florisoft/documentatie/blob/ade2f1c28a7a2bf26e90abbe41b74d7e3
 Bij inloggen op het webshop account van de debiteur tref je een kopje aanvoer en een kopje overzicht aan.
 
 Binnen het kopje aanvoer kun je kiezen tussen het inzien/wijzigen van een bestaande zending of het aanmaken van een nieuwe.
-<details><summary><b>Klik hier voor de voorbeeld afbeelding! </b></summary><img src=".manual Grower Portal/img1.png"></details>|
+<details><summary><b>Klik hier voor de voorbeeld afbeelding! </b></summary><img src=".manual Grower Portal/img1.png"></details>
 
 Bij het openen van een nieuwe of bestaande zending zie je in dit overzicht vervolgens het assortiment van de kweker dat in de eerder geconfigureerde bestellijst in florisoft staat. Hier kunnen het aantal kolli/dozen in de zending worden ingevuld en kan ook de inkoopprijs gevuld worden, daarna kan de gebruiker op publiceren drukken. 
 
