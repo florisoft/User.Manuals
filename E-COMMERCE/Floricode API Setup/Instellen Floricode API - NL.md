@@ -10,6 +10,8 @@ Om de onderstaande stappen te volgen zorg is het belangrijk dat je over de volge
 
 - Floricode API abbonement
 - Floricode API logingegevens (gebruikersnaam en wachtwoord)
+- Florisoft module: Floricode Api
+- Florisoft module: Product- en kenmerkcodes
 
 Volg de onderstaande stappen:
 
@@ -37,4 +39,4 @@ Volg de onderstaande stappen:
 |**23**|Stel dit timerproces in zodat het met enige regelmaat uitgevoerd wordt.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/20.png"></details>||
 |**24**|Certificaten zijn nu terug te vinden in uw systeem. Open het constanten scherm en navigeer naar het volgende pad:<Br>**Organen→Kwekersgegevens→Kwekers**<br><br>Open een kweker, en druk op de knop **certifcaten**. (rechtsonderin)|
 |**25**|Ook zijn de certificaten in te zien in de voorraad, open een voorraad (in het voorraadscherm). Klik met de rechtermuisknop op een voorraadpartij en klik op de optie **Kweker Certificaten**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/image-2.png"></details>|
-|**26**|In deze schermen zie je de certificaat informatie waaronder het ID, en wanneer het certificaat geldig is. Dit kun je ook terug laten komen in factuur layouts. <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/image-3.png"></details>|
+|**26**|In deze schermen zie je de certificaat informatie waaronder het ID, en wanneer het certificaat geldig is. LET OP! De certificaten worden alleen getoond, in de Geldig certificaat kolom, als de user is toegevoegd aan de policy setting. Dit kun je ook terug laten komen in factuur layouts. <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/image-3.png"></details>|
