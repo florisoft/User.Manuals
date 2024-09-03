@@ -18,6 +18,11 @@ Firstly you will need to download the app. For android devices this can be done 
 
 *Alternatively android devices can also download the app using this link: https://app.florisoft.nl/apps/latest/hub/android/com.florisoft.hub-signed.apk* 
 
+You can also make use of a trusted APK variant found below:
+
+<img src="Media/Installatie Hub-App/QR Code Trusted.png" width="500" height="500">
+
+*Alternatively android devices can also download the app using this link: https://app.florisoft.nl/apps/latest/hub/android/com.florisoft.hub-trusted.apk*
 ## Installing the Windows application  
 
 After having the clicked the Windows download link a download should be started that consists of a .zip file, afterwards follow the steps below:

@@ -14,6 +14,13 @@ Allereerst moet u de app downloaden. Dit kan voor android apparaten via de onder
 
 *De link kan ook worden gebruikt, tik deze over in een van de beschikbare internet browsers: https://app.florisoft.nl/apps/latest/hub/android/com.florisoft.hub-signed.apk*
 
+Indien nodig kan u ook gebruik maken van de Trusted variant van de APK. 
+
+<img src="Media/Installatie Hub-App/QR Code Trusted.png" width="500" height="500">
+
+*De link kan ook worden gebruikt, tik deze over in een van de beschikbare internet browsers: https://app.florisoft.nl/apps/latest/hub/android/com.florisoft.hub-trusted.apk 
+
+
 ## Installeren van de Windows app
 
 Het installeren van de Windows Hub-app is optioneel, meestal wordt er gewerkt met de Android versie. U hoeft de Windows hub-app dus niet te installeren voor het beheren van uw apps.
