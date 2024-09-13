@@ -245,7 +245,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |mps2Start|MPS2START|
 |mps2End|MPS2EIND|
 |version|_VERSION|
-|auctionCode||
+|auctionCode|VEILCOD|
 
 ## Packages (Fust)
 
@@ -389,7 +389,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |id|USERID|
 |name|NAAM|
 |version|_VERSION|
-|userDepartmentId||
+|userDepartmentId|AFDELING|
 |email|EMAIL|
 |sellerId|VERKCODE|
 |phone|TELEFOON|
@@ -450,11 +450,11 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |contentColli|INHKOLLI|
 |currencyId||
 |customerCompanyName||
-|customerCountryId||
+|customerCountryId|LANDCOD|
 |customerFinId|FINDEBNR|
 |customerId|DEBNR|
 |department|AFDELING|
-|description||
+|description|ARTTXT|
 |divisionId|VERDEELID|
 |divisionMethodId|VERDTYPE|
 |financialAdmId|FINADMIN|
@@ -466,8 +466,8 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |invoiceTotalAmount||
 |orderDate|ORDAT|
 |orderNr|ORDNR|
-|packageQuantity|fustaantal|
-|packagePrice||
+|packageQuantity|FUSTAANTAL|
+|packagePrice|VERKFUST|
 |packageId|FUSTCOD|
 |parcelDate|PARTIJDAT|
 |parcelNo|PARTIJNR|
@@ -487,7 +487,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |priceOnPurchase||
 |priceParcelPurchase|INKPRIJS|
 |priceParcelSales||
-|priceWithCostsReductions||
+|priceWithCostsReductions|INCLPRIJS|
 |productGroupId|CELCOD|
 |regDate|REGDAT|
 |s01|S1|
@@ -500,12 +500,12 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |salesUnit|VE|
 |sellerId|VERKCOD|
 |stockId|VOORCOD|
-|subCustomerId||
+|subCustomerId|SUBDEBNR|
 |supplierId|LEVCOD|
 |totalStems||
 |userId|USERID|
 |vatId|BTWCOD|
-|componentTypeId||
+|componentTypeId|PARTTYPE|
 |version|_VERSION|
 |orderParcelId|BESTPARTNR|
 |packListId|PAKLIJSTNR|
@@ -522,7 +522,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |API|DATABASE|
 |:--|:--|
 |articleId|ARTNR|
-|description||
+|description|ARTTXT|
 |colli|KOLLI|
 |contentColli|INHKOLLI|
 |restQuantity|REST|
@@ -566,7 +566,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |priceIncl|PRIJSINCL|
 |creation|CREATIE|
 |shipmentNo|VERSCHEPID|
-|eInvoiceBarcode||
+|eInvoiceBarcode|EFACTBARC|
 |stockId|VOORCOD|
 |version|_VERSION|
 |pKey|RECNO/PKEY|
@@ -642,7 +642,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |orderlistSubId|BESTSUB|
 |customerId|DEBNR|
 |orderNr|ORDNR|
-|description||
+|description|ARTTXT|
 |quantity|AANTAL|
 |colli|KOLLI|
 |original|ORIGINAL|
@@ -650,7 +650,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |contentColli|INHKOLLI|
 |packageQuantity|FUSTAANTAL|
 |packageId|FUSTCOD|
-|priceParcelPurchase||
+|priceParcelPurchase|INKPRIJS|
 |price|PRIJS|
 |qualityId|KWALCOD|
 |delivery|LEVEREN|
@@ -965,7 +965,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |contactPerson|CONTACTPERS|
 |email|EMAIL|
 |version|_VERSION|
-|niwOcodNIWO||
+|niwOcodNIWO|NIWO|
 |trolleyHeight|KARHOOGTE|
 |inActive|INACTIEF|
 |glnCode|GLNCOD|
@@ -1083,7 +1083,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |customerId|DEBNR|
 |invoiceNr|FACTNR|
 |invoiceDate|FACTDAT|
-|expirationDate||
+|expirationDate|VEVDAT|
 |paymentDate|BETDAT|
 |paymentId|BETCOD|
 |amount|BEDRAG|
@@ -1093,12 +1093,12 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |description|TEXT|
 |invoiceAmount|FACTBEDR|
 |uniqueId|UNIQUEID|
-|surchargePrcnt||
-|surchargeRaise||
+|surchargePrcnt|SURCHARGEPERCENTAGE|
+|surchargeRaise|SURCHARGEOPSLAG|
 |pKey|PKEY/RECNO|
 |version|_VERSION|
 
-## Shoplog (WEBBLOG)
+## Shoplog (WEBLOG)
 
 |API|DATABASE|
 |:--|:--|
@@ -1116,7 +1116,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |parcelId|PARTIJNR|
 |quantity|AANTAL|
 |customerIP|DEBIP|
-|orderlistSubId||
+|orderlistSubId|BESTSUB|
 |orderNr|ORDNR|
 |description|PARTIJOMSC|
 |webshop|WEBSHOP|
@@ -1141,7 +1141,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |parcelId|PARTIJNR|
 |packageQuantity|FUSTAANTAL|
 |contentColli|INHKOLLI|
-|description||
+|description|ARTTXT|
 |s1|S1|
 |salesPrice1|VERKPRIJS|
 |saleAmount|BESTAANT|
@@ -1157,7 +1157,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |salesUnit|VE|
 |creation|CREATIE|
 |volume|VOLUME|
-|orderDescription||
+|orderDescription|BESTELOMS|
 |divisionType|VERDTYPE|
 |holdOrder|VASTHOUDEN|
 |priceBase|BASISPRIJS|
@@ -1165,10 +1165,10 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |contentPlate|INHPLAAT|
 |contentTrolley|INHKAR|
 |registrationDate|REGDAT|
-|orderListId||
-|originalColli||
+|orderListId|BESTCOD|
+|originalColli|ORGIKOL|
 |retailPrice|VERKPRIJS|
-|orderDate||
+|orderDate|ORDDAT|
 |scanCode|SCANCODE|
 |contentBox|INHDOOS|
 |pKey|PKEY/RECNO|
@@ -1182,7 +1182,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |s6|S6|
 |s7|S7|
 |weight||
-|orderId||
+|orderId|BESTID|
 
 ## SalesHistoryCostAndRebates (HoRDERKK)
 
@@ -1193,7 +1193,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |orderNr|ORDNR|
 |invoiceNr|FACTNR|
 |department|AFDELING|
-|description||
+|description|BERTXT|
 |amount||
 |percentage||
 |calculationMethod||
@@ -1305,7 +1305,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |vatHighOver|BTWHOOGOVER|
 |vatZeroOver|BTWNULOVR|
 |invoiceTotalAmount|FACTTOTAAL|
-|vatCharged||
+|vatCharged|BTWOK|
 |financialAdministrationId|FINADMIN|
 |goodsAmount|TOTGOEDER|
 |carrierId|TRANSPTR|
@@ -1380,7 +1380,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |stockId|KASSA_ID|
 |crossdock|CROSSDOCK|
 |orderDate|ORDDAT|
-|deliveryDate||
+|deliveryDate|LEVERDAT|
 |version|_VERSION|
 
 ## EntryControl (BOX)
@@ -1494,14 +1494,14 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |AirportArrivalId|AIRPORTARRIVALID|
 |DeliveryLocationId|LEVERLOCATIEID|
 
-## Sales
+## Sales (Orderreg)
 
 |API|DATABASE|
 |:--|:--|
 |salesRecordId||
-|amountPackagePurchase||
-|amountPacked||
-|amountSale||
+|amountPackagePurchase|FUSTAANTAL|
+|amountPacked|INGEPAKT|
+|amountSale|VERKBEDRAG|
 |articleGroupId|ARTGRPCOD|
 |articleId|ARTNR|
 |barePrice|KALEPRIJS|
@@ -1509,27 +1509,27 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |contentBox|INHDOOS|
 |contentColli|INHKOLLI|
 |creation|CREATIE|
-|description||
+|description|ARTTXT|
 |growerId|KWEKCOD|
-|orderDate||
-|orderNr||
-|orderParcelId||
-|packageId||
-|packlistId||
-|parcelId||
-|parcelS01Id||
-|parcelS02Id||
-|parcelS03Id||
-|parcelS04Id||
-|parcelS05Id||
-|parcelS06Id||
+|orderDate|ORDDAT|
+|orderNr|ORDNR|
+|orderParcelId|BESTPARTNR|
+|packageId|FUSTCOD|
+|packlistId|PAKLIJSTNR|
+|parcelId|PARTIJNR|
+|parcelS01Id|SCODE1|
+|parcelS02Id|SCODE2|
+|parcelS03Id|SCODE3|
+|parcelS04Id|SCODE4|
+|parcelS05Id|SCODE5|
+|parcelS06Id|SCODE6|
 |price1Sales||
 |price2Sales||
 |price3Sales||
-|priceBase||
-|priceCustomer||
+|priceBase|BASISPRIJS|
+|priceCustomer|KLANTPRIJS|
 |priceIncl|INCLPRIJS|
-|priceOrder||
+|priceOrder|BESTPRIJS|
 |priceOrginalParcel||
 |pricePackage||
 |pricePurchase||
@@ -1583,15 +1583,15 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |totalStems||
 |parcelPurchaseNo||
 |isCommercialParcel||
-|commercialParcelId||
-|brType20Barcode||
-|scanCode||
+|commercialParcelId|CPARTIJNR|
+|brType20Barcode|BRTYPE20BARCODE|
+|scanCode|SCANCODE|
 |productGroupId|CELCOD|
 |country|LANDSTAT|
 |sellerId|VERKCOD|
-|registrationDate||
+|registrationDate|REGDAT|
 |fromCustomer|FROMDEBNR|
-|division||
+|division|VERDEELID|
 |isBouquet|BOEKET|
 |allocationId||
 |imageName|FOTONAAM|
