@@ -1523,9 +1523,9 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |parcelS04Id|SCODE4|
 |parcelS05Id|SCODE5|
 |parcelS06Id|SCODE6|
-|price1Sales||
-|price2Sales||
-|price3Sales||
+|price1Sales|part1prijs|
+|price2Sales|part2prijs|
+|price3Sales|part3prijs|
 |priceBase|BASISPRIJS|
 |priceCustomer|KLANTPRIJS|
 |priceIncl|INCLPRIJS|
