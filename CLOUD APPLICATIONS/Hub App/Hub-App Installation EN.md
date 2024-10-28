@@ -30,8 +30,8 @@ After having the clicked the Windows download link a download should be started 
 |Step|Explanation|
 |:-:|:--|
 |**1**|Navigate to the folder to which the .zip file was downloaded.<details><summary><b>Click here for the example image!</b></summary><img src="Media/Installatie Hub-App/image2.png"></details>|
-|**2**|Right click on the .zip file and extract it.<details><summary><b>Click here for the example image!</b></summary><img src="Media/Installatie Hub-App/image3.png"></details>|
-|**3**|Choose a fitting destination filepath for the files that are about to be extracted. Do not place the extracted files in the downloads folder or any folder that is regularly accessed by other applications.|
+|**2**|For example, on the C:\ drive, create a folder FlorisoftApps. Containing a Hub folder --> and in the Hub folder a Bin folder. Right click on the .zip file and extract it.
+|**3**|With your right mouse button, unzip the file and place the files in the bin folder, for example in C:\FlorisoftApps(CustomerName)\Hub\Bin. Important: The app files must always be in a bin folder. This expects the update process. Also, make sure there are no spaces in the folder names. Do not place the extracted files in the downloads folder or any folder that is regularly accessed by other applications.|
 |**4**|Inside the newly extracted folder there is a file called *Florisoft.Hub.Desktop*. Create a shortcut for this file and place it on your desktop.|
 |**5**|Open the application, in the application click on the hamburger menu button in the top right corner of the application window.<details><summary><b>Click here for the example image!</b></summary><img src="Media/Installatie Hub-App/image3.png"></details>|
 |**6**|Click on the *Settings* button.<details><summary><b>Click here for the example image!</b></summary><img src="Media/Installatie Hub-App/image4.png"></details>|
