@@ -1,76 +1,75 @@
-<img src="../../fslogo.png" alt = "Florisoft Corporate Logo">
+<img src="../../fslogo.png" alt="Florisoft Corporate Logo">
 
 # Florisoft Handleiding External E-Invoicing (StoreCove) - M227
 
-:warning: **Deze module is in ontwikkeling, en moet nog verder doorgetest worden voor het voorkomen van eventuele fouten, wees daarom voorzichtig!** :warning:
+:warning: **Deze module is in ontwikkeling en moet nog verder worden getest om mogelijke fouten te voorkomen. Wees daarom voorzichtig!** :warning:
 
-Welkom bij de handleiding voor External E-invoicing via StoreCove. Deze module geeft u de mogelijkheid om facturatie te doen via de externe partij StoreCove.  
+Welkom bij de handleiding voor External E-invoicing via StoreCove. Deze module biedt u de mogelijkheid om facturen te versturen via de externe partij StoreCove.  
 
-In deze handleiding leest u hoe u uw StoreCove account koppelt aan uw Florisoft ERP backoffice pakket via een policy, welke gegevens verplicht zijn voor het exporteren naar StoreCove en hoe u vanuit het Florisoft Factuurscherm facturen exporteert. 
+In deze handleiding leest u hoe u uw StoreCove-account koppelt aan uw Florisoft ERP-backofficepakket via een policy, welke gegevens verplicht zijn voor het exporteren naar StoreCove en hoe u facturen exporteert vanuit het Florisoft Factuurscherm. 
 
 ## Benodigdheden
 
-**Voordat u begint met het volgen van de handleiding is het belangrijk om na te gaan dat u beschikt over de volgende items :**
+**Voordat u begint met de handleiding, is het belangrijk om na te gaan of u over de volgende zaken beschikt:**
 
-* StoreCove account (abbonement)
+* Een StoreCove-account (abonnement).
+* De Florisoft-module **External E-Invoice Providers**. U kunt dit controleren door in uw navigator op het Florisoft-logo te klikken, vervolgens op de moduleknop te klikken en te controleren of de module **External E-Invoice Providers** een vinkje heeft.
 
-* De Florisoft module **External E-Invoice providers**, u kan dit checken door in uw navigator op het Florisoft logo te klikken, dan op de modulen knop en vervolgens te checken of de module **External E-Invoice providers** een vinkje heeft.
+## Vinden van de API-key op de accountpagina van StoreCove
 
-## Vinden van de API-key op de account pagina van StoreCove
+:warning: **Let op: dit gedeelte kan verouderd zijn. StoreCove kan de website wijzigen, waardoor de API-key mogelijk elders vermeld staat.**
 
-:warning: **Let op: dit stuk kan veroudert zijn, Storecove kan de site veranderen waardoor de API-key wellicht ergens anders vermeld staat**
-
-|Stap|Uitleg|
+| Stap | Uitleg |
 |:-:|:--|
-|**1**|Ga naar uw StoreCove account, in uw account pagina klik op de **Integrator** header en klik op **API Keys**.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/1.png"></details>|
-|**2**|U wordt nu gebracht naar de pagina : https://app.storecove.com/en/api_keys , kopieër de API-key van deze pagina aan de hand van het klembord icoon. Houd de API-key vast op uw klembord deze is straks nodig bij de volgende stappen.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="media/2.png"></details>|
+| **1** | Ga naar uw StoreCove-account. Klik op de **Integrator**-header in uw accountpagina en vervolgens op **API Keys**. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/1.png"></details> |
+| **2** | U wordt nu doorgestuurd naar de pagina: https://app.storecove.com/en/api_keys. Kopieer de API-key van deze pagina door op het klembord-icoon te klikken. Houd de API-key beschikbaar; deze heeft u nodig bij de volgende stappen. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="media/2.png"></details> |
 
-## Instellen van de API-key onder de policies
+## Instellen van de API-key in de policies
 
-**Volg de onderstaande stappen :**
+**Volg de onderstaande stappen:**
 
-|Stap|Uitleg|
+| Stap | Uitleg |
 |:-:|:--|
-|**1**|Open het constantenscherm vanuit het navigatorscherm.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="media/3.png"></details>|
-|**2**|In het constantenscherm navigeert u naar het volgende pad :<br>**Systeem→Users→Policy beheer**|
-|**3**|Maak hier een nieuwe policy aan geef dit een passende naam:<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/4.png"></details>|
-|**4**|Wijs de policy vervolgens toe aan de relevante systeemgebruikers door middel van de **Bewerken** knop en druk daarna op **opslaan**.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/5.png"></details>|
-|**5**|Gebruik vervolgens de zoekfunctie om te zoeken naar de policy:<br>**Storecove**<br><br>U krijgt vervolgens de instelling : **Backoffice_Financial_Invoicing_InvoiceExport_Storecove_ApiKey**<br><br>Vul bij deze policy instelling vervolgens de API-key in.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=""></details>|
-|**6**|Sla vervolgens de policy op door op de **Opslaan** knop te klikken.|
-|**7**|Wilt u meer weten over hoe policies werken en u deze instelt kunt u deze handleiding raadplegen [Policy handleiding](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Handleiding%20Policy%20Management%20NL.md):
+| **1** | Open het constantenscherm via het navigatorscherm. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="media/3.png"></details> |
+| **2** | Navigeer in het constantenscherm naar het volgende pad:<br>**Systeem → Users → Policybeheer** |
+| **3** | Maak hier een nieuwe policy aan en geef deze een passende naam. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/4.png"></details> |
+| **4** | Wijs de policy toe aan de relevante systeemgebruikers met de **Bewerken**-knop en klik daarna op **Opslaan**. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/5.png"></details> |
+| **5** | Gebruik de zoekfunctie om te zoeken naar de policy:<br>**StoreCove**.<br><br>U krijgt de instelling: **Backoffice_Financial_Invoicing_InvoiceExport_Storecove_ApiKey**.<br><br>Vul bij deze policyinstelling de API-key in. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src=""></details> |
+| **6** | Sla vervolgens de policy op door op de **Opslaan**-knop te klikken. |
+| **7** | Wilt u meer weten over hoe policies werken en hoe u deze instelt? Raadpleeg dan de [Policy-handleiding](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Handleiding%20Policy%20Management%20NL.md).
 
 ## Benodigde instellingen
 
-De ondestaande subkoppen betreffen instellingen die ingesteld moeten worden voor <u>alle</u> relevante financiële administraties en debiteuren. Om een goede werking te waarborgen is het belangrijk dat dit bij elke debiteur en financiële administratie wordt ingevuld.
+De onderstaande subkoppen betreffen instellingen die moeten worden geconfigureerd voor <u>alle</u> relevante financiële administraties en debiteuren. Om een goede werking te waarborgen, is het belangrijk dat deze gegevens bij iedere debiteur en financiële administratie worden ingevuld.
 
 ### Financiële administraties
 
-|Stap|Uitleg|
+| Stap | Uitleg |
 |:-:|:--|
-|**1**|Open het constanten scherm (indien u deze nog niet geopend had).<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/1.png"></details>|
-|**2**|In het constantenscherm navigeert u naar:<br>**Financieel→Financiële administraties**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/7.png"></details>|
-|**3**|Open vervolgens een relevante Financiële administratie. |
-|**4**|Onder het tabje **algemeen** dient u de volgende invoervelden te hebben ingevuld:<br><br> - Bedrijfsnaam<br>- BTW-nummer (moet pasen bij het **land** bij adresgegevens)<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/8.png"></details>|
-|**5**|Navigeer naar het tabje **Adres**, hier dient u de volgende invoervelden te hebben ingevuld:<br><br>- Straat<br>- Plaats<br>- Postcode<br>- Land<br>- EAN-code (**Let op:** Hier moet het Storecove LegalEntityId ingevoerd worden. In de toekomst kan/zal dit wellicht een apart veld worden.)<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/9.png"></details>|
-|**6**|Navigeer naar het tabje **Incasso**, hier dient u de volgende invoervelden te hebben ingevuld:<br><br>- IBAN<br>- BIC/SWIFT (Dit wordt gebruikt ter identificatie van de administratie.)<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/10.png"></details>|
+| **1** | Open het constantenscherm (indien u dit nog niet had geopend). <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/1.png"></details> |
+| **2** | Navigeer in het constantenscherm naar:<br>**Financieel → Financiële administraties**. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/7.png"></details> |
+| **3** | Open een relevante financiële administratie. |
+| **4** | Vul onder het tabblad **Algemeen** de volgende velden in:<br><br>- Bedrijfsnaam<br>- BTW-nummer (moet overeenkomen met het **land** bij adresgegevens). <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/8.png"></details> |
+| **5** | Vul onder het tabblad **Adres** de volgende velden in:<br><br>- Straat<br>- Plaats<br>- Postcode<br>- Land<br>- EAN-code (**Let op:** Hier moet het StoreCove LegalEntityId worden ingevoerd. In de toekomst kan dit mogelijk een apart veld worden.) <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/9.png"></details> |
+| **6** | Vul onder het tabblad **Incasso** de volgende velden in:<br><br>- IBAN<br>- BIC/SWIFT (wordt gebruikt voor identificatie van de administratie). <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/10.png"></details> |
 
 ### Debiteuren
 
-|Stap|Uitleg|
+| Stap | Uitleg |
 |:-:|:--|
-|**1**|Open het constanten scherm (indien u deze nog niet geopend had).<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/1.png"></details>|
-|**2**|In het constantenscherm navigeert u naar:<br>**Organen→Debiteurgegevens→Debiteuren**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="media/11.png"></details>|
-|**3**|Navigeer naar het tabje **Adres**, hier dient u de volgende invoervelden te hebben ingevuld:<br><br>- Bedrijfsnaam<br>- Straat<br>- Plaats<br>- Postcode<br>- Land|
-|**4**|Navigeer naar het tabje **Financieel**, hier dient u de volgende invoervelden te hebben ingevuld:<br><br>- BTWnr debiteur (**let op:** dit moet passen bij het land ingevuld onder **adres**)|
-|**5**|Sla de wijzigingen op.|
+| **1** | Open het constantenscherm (indien u dit nog niet had geopend). <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/1.png"></details> |
+| **2** | Navigeer in het constantenscherm naar:<br>**Organen → Debiteurgegevens → Debiteuren**. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="media/11.png"></details> |
+| **3** | Vul onder het tabblad **Adres** de volgende velden in:<br><br>- Bedrijfsnaam<br>- Straat<br>- Plaats<br>- Postcode<br>- Land |
+| **4** | Vul onder het tabblad **Financieel** de volgende velden in:<br><br>- BTW-nummer debiteur (**Let op:** dit moet overeenkomen met het land ingevuld onder **Adres**). |
+| **5** | Sla de wijzigingen op. |
 
 ## Exporteren van facturen naar StoreCove
 
-Volg hiervoor de onderstaande stappen : 
+Volg hiervoor de onderstaande stappen: 
 
-|Stap|Uitleg|
+| Stap | Uitleg |
 |:-:|:--|
-|**1**|Open het facturenscherm vanuit de Florisoft navigator door op de **Facturen** knop te drukken.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/14.png"></details>|
-|**2**|Onder het tabje **export** in de functiebalk bovenin, klik in het optie menu van export op de functie **Exporteer naar StoreCove**. |
+| **1** | Open het facturenscherm via de Florisoft-navigator door op de **Facturen**-knop te drukken. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/14.png"></details> |
+| **2** | Klik onder het tabblad **Export** in de functiebalk bovenin op de functie **Exporteer naar StoreCove** in het optiemenu. |
 
-Dit kan even duren, het kan zijn dat u een laadschermpje te zien krijgt, dit is normaal. Het kan tussen de 3-5 seconden duren voordat een gemiddeld bericht verwerkt is. 
+Dit proces kan even duren. U ziet mogelijk een laadscherm, wat normaal is. Het verwerken van een gemiddeld bericht duurt ongeveer 3-5 seconden.
