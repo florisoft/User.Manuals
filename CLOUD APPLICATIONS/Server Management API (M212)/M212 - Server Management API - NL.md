@@ -1025,6 +1025,7 @@ Each chapter will contain a table with the endpoints return object fields with a
 |originalOrderParcelId|
 |fromCustomer|
 |fromOrderNr|
+|price1sales|
 
 # SalesHistoryBouquets
 

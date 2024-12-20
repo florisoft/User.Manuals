@@ -46,7 +46,7 @@ De onderstaande subkoppen betreffen instellingen die moeten worden geconfigureer
 
 | Stap | Uitleg |
 |:-:|:--|
-| **1** | Open het constantenscherm (indien u dit nog niet had geopend). <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/1.png"></details> |
+| **1** | Open het constantenscherm (indien u dit nog niet had geopend). <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/3.png"></details> |
 | **2** | Navigeer in het constantenscherm naar:<br>**Financieel → Financiële administraties**. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/7.png"></details> |
 | **3** | Open een relevante financiële administratie. |
 | **4** | Vul onder het tabblad **Algemeen** de volgende velden in:<br><br>- Bedrijfsnaam<br>- BTW-nummer (moet overeenkomen met het **land** bij adresgegevens). <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/8.png"></details> |
@@ -57,10 +57,10 @@ De onderstaande subkoppen betreffen instellingen die moeten worden geconfigureer
 
 | Stap | Uitleg |
 |:-:|:--|
-| **1** | Open het constantenscherm (indien u dit nog niet had geopend). <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/1.png"></details> |
+| **1** | Open het constantenscherm (indien u dit nog niet had geopend). <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/3.png"></details> |
 | **2** | Navigeer in het constantenscherm naar:<br>**Organen → Debiteurgegevens → Debiteuren**. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="media/11.png"></details> |
-| **3** | Vul onder het tabblad **Adres** de volgende velden in:<br><br>- Bedrijfsnaam<br>- Straat<br>- Plaats<br>- Postcode<br>- Land |
-| **4** | Vul onder het tabblad **Financieel** de volgende velden in:<br><br>- BTW-nummer debiteur (**Let op:** dit moet overeenkomen met het land ingevuld onder **Adres**). |
+| **3** | Vul onder het tabblad **Adres** de volgende velden in:<br><br>- Bedrijfsnaam<br>- Straat<br>- Plaats<br>- Postcode<br>- Land<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="media/12.png"></details> |
+| **4** | Vul onder het tabblad **Financieel** de volgende velden in:<br><br>- BTW-nummer debiteur (**Let op:** dit moet overeenkomen met het land ingevuld onder **Adres**).<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="media/13.png"></details>|
 | **5** | Sla de wijzigingen op. |
 
 ## Exporteren van facturen naar StoreCove

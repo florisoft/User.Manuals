@@ -1023,6 +1023,7 @@ The server management API has many different endpoints they are described in the
 |originalOrderParcelId|
 |fromCustomer|
 |fromOrderNr|
+|Price1Sales|
 
 # SalesHistoryBouquets
 
