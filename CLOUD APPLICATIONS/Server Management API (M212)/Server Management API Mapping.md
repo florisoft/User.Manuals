@@ -482,11 +482,11 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |pKey|PKEY/RECNO|
 |priceBare|KALEPRIJS|
 |priceEndCustomer|EINDKLANT|
-|priceOnInvoicePurchase||
-|priceOnInvoiceSales||
+|priceOnInvoicePurchase|PART1PRIJS |
+|priceOnInvoiceSales|PART2PRIJS |
 |priceOnPurchase||
-|priceParcelPurchase|INKPRIJS|
-|priceParcelSales||
+|priceParcelPurchase|PARTIJPRIJS1|
+|priceParcelSales|PARTIJPRIJS2|
 |priceWithCostsReductions|INCLPRIJS|
 |productGroupId|CELCOD|
 |regDate|REGDAT|
