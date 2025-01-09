@@ -516,6 +516,7 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |orderRemark|OrderRemark|
 |orderRemark2|OrderRemark2|
 |deliveryDate|LEVERDATUM|
+|commercialParcelId|CPARTIJNR|
 
 ## PurchaseHistory (hpartij)
 
