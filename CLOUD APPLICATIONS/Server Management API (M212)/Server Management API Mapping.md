@@ -1644,3 +1644,21 @@ In dit document staat een algemene mapping van de API, sommige velden zijn mij o
 |Minute|NINUUT|
 |OnFloriline|FLORILINE|
 |Ordernr|ORDERNR|
+
+# ArticleComponents (SGART)
+
+|API|Database|
+|:--|:--|
+|articleId|ARTNR|
+|description|ARTTXT|
+|componentArticleId||
+|quantity||
+|s1||
+|s2||
+|s3||
+|remark||
+|supplierId|LEVCOD|
+|quantityPer||
+|OrderparcelId||
+|version|VERSION/RECNO|
+|pkey|PKEY|
