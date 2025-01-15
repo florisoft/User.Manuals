@@ -2,7 +2,7 @@
 
 # Handleiding Track Online (M200)
 
-Deze handleiding betreft de Florisoft-module Track Online (voorheen bekend als Avalanche). Na het lezen van deze handleiding weet u hoe u de API-verbinding instelt en welke verpakkingen en debiteuren via de API worden verzonden.
+Deze handleiding betreft de Florisoft-module Track Online (voorheen bekend als Avalanche). Na het lezen van deze handleiding weet u hoe u de API-verbinding instelt en welke fusten en debiteuren via de API worden verzonden.
 
 ## API-verbinding instellen
 
@@ -17,11 +17,11 @@ Deze handleiding betreft de Florisoft-module Track Online (voorheen bekend als A
 
 |Stap|Uitleg|
 |:-:|:--|
-|**1**|Open het scherm met constanten en navigeer naar het volgende pad:<br>**Artikelen → Verpakkingsinformatie → Verpakkingcodes**.<details><summary><b>Klik hier voor de voorbeeldafbeelding!</b></summary><img src="Media/3.png"></details>|
-|**2**|Open een verpakkingstype dat u wilt exporteren naar Track Online (Avalanche) en ga naar het tabblad **Export**.<details><summary><b>Klik hier voor de voorbeeldafbeelding!</b></summary><img src="Media/3.png"></details>|
-|**3**|In dit tabblad vult u de instellingen in onder de kop **Avalanche**:<br><br>- **Exporteren naar Avalanche**: Dit moet worden ingeschakeld voor dit verpakkingstype.<br>**FUSTUIT-hoeveelheden uitsluiten van Export**: Door dit vakje aan te vinken, stuurt u alleen de uitgaande verpakkingen en **niet** de inkomende.<br>- **EAN**: Hier stelt u de corresponderende EAN-code in voor de verpakking die u wilt volgen.<details><summary><b>Klik hier voor de voorbeeldafbeelding!</b></summary><img src="Media/3.png"></details>|
-|**4**|Sla de gemaakte wijzigingen op en sluit de verpakkingcodekaart.|
-|**5**|Herhaal stappen 2-4 voor elk verpakkingstype dat moet worden geëxporteerd.|
+|**1**|Open het scherm met constanten en navigeer naar het volgende pad:<br>**Artikelen → Fust informatie → Fust soorten**.<details><summary><b>Klik hier voor de voorbeeldafbeelding!</b></summary><img src="Media/3.png"></details>|
+|**2**|Open een fustsoort dat u wilt exporteren naar Track Online (Avalanche) en ga naar het tabblad **Export**.<details><summary><b>Klik hier voor de voorbeeldafbeelding!</b></summary><img src="Media/3.png"></details>|
+|**3**|In dit tabblad vult u de instellingen in onder de kop **Avalanche**:<br><br>- **Exporteren naar Avalanche**: Dit moet worden ingeschakeld voor deze fustsoort.<br>**FUSTUIT-hoeveelheden uitsluiten van Export**: Door dit vakje aan te vinken, stuurt u alleen de uitgaande fusten en **niet** de inkomende.<br>- **EAN**: Hier stelt u de corresponderende EAN-code in voor de fust die u wilt volgen.<details><summary><b>Klik hier voor de voorbeeldafbeelding!</b></summary><img src="Media/3.png"></details>|
+|**4**|Sla de gemaakte wijzigingen op en sluit de fustsoortkaart.|
+|**5**|Herhaal stappen 2-4 voor elk fustsoort dat moet worden geëxporteerd.|
 
 ## Debiteuren configureren
 
@@ -31,7 +31,7 @@ Deze handleiding betreft de Florisoft-module Track Online (voorheen bekend als A
 |**2**|Open een debiteur die u wilt exporteren.|
 |**3**|Ga in de debiteurkaart naar de map **Export**.<details><summary><b>Klik hier voor de voorbeeldafbeelding!</b></summary><img src="Media/4.png"></details>|
 |**4**|In dit tabblad configureren we de invoervelden onder de kop **Avalanche Export 1**:<br><br>**Logistiek nummer**: Vul het logistieke nummer van Track Online in (Verplicht).<br>**Categorie**: ID van de Track Online-categorie (Optioneel).<br>**Gegevens geëxporteerd**: Vink dit vakje aan om de debiteur te exporteren naar Track Online (Verplicht).<details><summary><b>Klik hier voor de voorbeeldafbeelding!</b></summary><img src="Media/4.png"></details>|
-|**5**|Voor de velden onder de kop **Avalanche Export 2**:<br><br>**Locatienummer**: Hier kunt u een afwijkend locatienummer invoeren, deze moeten vooraf in Track Online worden geconfigureerd (standaard = 1) (Optioneel).<br>**Geen verpakkingen exporteren naar Avalanche**: Schakelt de export van verpakkingen naar Track Online uit voor dit locatienummer.<details><summary><b>Klik hier voor de voorbeeldafbeelding!</b></summary><img src="Media/4.png"></details>|
+|**5**|Voor de velden onder de kop **Avalanche Export 2**:<br><br>**Locatienummer**: Hier kunt u een afwijkend locatienummer invoeren, deze moeten vooraf in Track Online worden geconfigureerd (standaard = 1) (Optioneel).<br>**Geen fust exporteren naar Avalanche**: Schakelt de export van fusten naar Track Online uit voor dit locatienummer.<details><summary><b>Klik hier voor de voorbeeldafbeelding!</b></summary><img src="Media/4.png"></details>|
 
 ## Systeeminstellingen (Optioneel)
 
@@ -47,4 +47,4 @@ Naast de vorige stappen om de API-login en constanten te configureren, kunnen we
 
 ## Timerproces 
 
-In het eerste hoofdstuk van deze handleiding hebben we geleerd hoe u verpakkingen handmatig kunt exporteren naar Track Online (door op de exportknop te klikken). We kunnen dit proces echter automatiseren met behulp van de Timer. Hiervoor moet u het timerproces **Avalanche Export 2 (zelfde als UI export -> Avalanche)** (EXPORTAVALANCHE2) inschakelen op de Timer-client.
+In het eerste hoofdstuk van deze handleiding hebben we geleerd hoe u fusten handmatig kunt exporteren naar Track Online (door op de exportknop te klikken). We kunnen dit proces echter automatiseren met behulp van de Timer. Hiervoor moet u het timerproces **Avalanche Export 2 (zelfde als UI export -> Avalanche)** (EXPORTAVALANCHE2) inschakelen op de Timer-client.
