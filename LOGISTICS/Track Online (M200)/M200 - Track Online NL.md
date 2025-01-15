@@ -31,7 +31,7 @@ Deze handleiding betreft de Florisoft-module Track Online (voorheen bekend als A
 |**2**|Open een debiteur die u wilt exporteren.|
 |**3**|Ga in de debiteurkaart naar de map **Export**.<details><summary><b>Klik hier voor de voorbeeldafbeelding!</b></summary><img src="Media/4.png"></details>|
 |**4**|In dit tabblad configureren we de invoervelden onder de kop **Avalanche Export 1**:<br><br>**Logistiek nummer**: Vul het logistieke nummer van Track Online in (Verplicht).<br>**Categorie**: ID van de Track Online-categorie (Optioneel).<br>**Gegevens geëxporteerd**: Vink dit vakje aan om de debiteur te exporteren naar Track Online (Verplicht).<details><summary><b>Klik hier voor de voorbeeldafbeelding!</b></summary><img src="Media/4.png"></details>|
-|**5**|Voor de velden onder de kop **Avalanche Export 2**:<br><br>**Locatienummer**: Hier kunt u een afwijkend locatienummer invoeren, deze moeten vooraf in Track Online worden geconfigureerd (standaard = 1) (Optioneel).<br>**Geen fust exporteren naar Avalanche**: Schakelt de export van fusten naar Track Online uit voor dit locatienummer.<details><summary><b>Klik hier voor de voorbeeldafbeelding!</b></summary><img src="Media/4.png"></details>|
+|**5**|Voor de velden onder de kop **Avalanche Export 2**:<br><br>**Locatie nummer**: Hier kunt u een afwijkend locatienummer invoeren, deze moeten vooraf in Track Online worden geconfigureerd (standaard = 1) (Optioneel).<br>**Fust niet exporteren naar Avalanche**: Schakelt de export van fusten naar Track Online uit voor dit locatienummer.<details><summary><b>Klik hier voor de voorbeeldafbeelding!</b></summary><img src="Media/4.png"></details>|
 
 ## Systeeminstellingen (Optioneel)
 
