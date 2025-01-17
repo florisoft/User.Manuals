@@ -45,7 +45,7 @@ Je API-url is als volgt: https://\<cloud server URL>.com/ext/management/\<endpoi
 [PurchaseHistory](#purchasehistory)  
 [Payments](#payments)  
 [Shipments](#shipments)  
-[Sales](#sales)
+[Sales](#sales)  
 [SalesHistory](#saleshistory)  
 [Order approvals](#orderapprovals)  
 [Sales History Cost and Rebates](#saleshistorycostandrebates)  
