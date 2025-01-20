@@ -1,7 +1,5 @@
 # API Mapping
 
-In dit document staat een algemene mapping van de API, sommige velden zijn mij onbekend. Weet jij welk veld hier bij hoort schrijf deze er dan bij.
-
 ## ArticleGroups (ArtikGRP)  
 
 |API|DATABASE|
