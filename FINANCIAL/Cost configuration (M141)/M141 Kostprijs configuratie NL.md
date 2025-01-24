@@ -40,7 +40,7 @@ Bij een debiteur kunnen er n aantal debiteuren worden opgegeven, waarvan de opsl
 |:-:|:--|
 |**1**|Open het constanten scherm en navigeer naar het pad:<br>**Organen→Debiteur gegevens→Debiteuren**|
 |**2**|Open de desbetreffende debiteur, in de debiteur kaart navigeert u naar:<br>**Financieel→Kostprijs**|
-|**3**|Vul hier de debiteuren in met een Kostprijs marge in het bijhorende veld.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=""></details>|
+|**3**|Vul hier de debiteuren in met een Kostprijs marge in het bijhorende veld.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Kostprijs configuratie\media\image1.png"></details>|
 
 ### Kostprijs debiteur
 
@@ -56,8 +56,8 @@ De kostprijs debiteuren staan standaard aangegeven als Debiteur 1 t/m <x>. Deze 
 |Stap|Uitleg|
 |:-:|:--|
 |**1**|Open het constantenscherm en navigeer naar het pad:<br>**Systeem→Kostprijsconfiguratie**|
-|**2**|Per nummer kan er een eigen omschrijving opgegeven worden.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=""></details>|
-|**3**|Na het instellen van deze teksten, zal er bij de “verdeel debiteur” de opgegeven omschrijvingen zichtbaar zijn.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=""></details>|
+|**2**|Per nummer kan er een eigen omschrijving opgegeven worden.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Kostprijs configuratie\media\image2.png"></details>|
+|**3**|Na het instellen van deze teksten, zal er bij de “verdeel debiteur” de opgegeven omschrijvingen zichtbaar zijn.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Kostprijs configuratie\media\image3.png"></details>|
 
 ## Marge
 
