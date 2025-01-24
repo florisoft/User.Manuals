@@ -1182,6 +1182,7 @@
 |s7|S7|
 |weight||
 |orderId|BESTID|
+|deadlineNR|DEADLINENR|
 
 ## SalesHistoryCostAndRebates (HoRDERKK)
 
@@ -1203,6 +1204,7 @@
 |creation|CREATIE|
 |version|_VERSION|
 |costCode||
+|deadlinenr|DEADLINENR|
 
 ## SalesHistoryBouquets (HORDER)
 
@@ -1596,6 +1598,7 @@
 |imageName|FOTONAAM|
 |subCustomerId|SUBDEBNR|
 |offer|AANBIED|
+|deadlinNR|deadlineNR|
 
 ## BouquetComposition (SGART)
 
