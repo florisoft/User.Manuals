@@ -40,7 +40,7 @@ Bij een debiteur kunnen er n aantal debiteuren worden opgegeven, waarvan de opsl
 |:-:|:--|
 |**1**|Open het constanten scherm en navigeer naar het pad:<br>**Organen→Debiteur gegevens→Debiteuren**|
 |**2**|Open de desbetreffende debiteur, in de debiteur kaart navigeert u naar:<br>**Financieel→Kostprijs**|
-|**3**|Vul hier de debiteuren in met een Kostprijs marge in het bijhorende veld.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Kostprijs configuratie\media\image1.png"></details>|
+|**3**|Vul hier de debiteuren in met een Kostprijs marge in het bijhorende veld.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Kostprijs configuratie\media\image2.png"></details>|
 
 ### Kostprijs debiteur
 
