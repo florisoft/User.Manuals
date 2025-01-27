@@ -776,26 +776,26 @@
 
 |API|DATABASE|
 |:--|:--|
-|creditBarcode||
+|creditBarcode|BARCODE|
 |originalBarcode||
-|creditReason||
+|creditReason|CREDITREDENID|
 |returnToStock||
 |sellerId||
-|date||
+|date|DATUM|
 |vParcelId||
-|creditQuantity||
-|creditPrice||
-|remark||
-|processingChoice||
-|userId||
-|creditReasonId||
+|creditQuantity|CREDAANT|
+|creditPrice|PRIJS|
+|remark|CREDOPM|
+|processingChoice|VERWKEUZE|
+|userId|USERID|
+|creditReasonId|CREDITREDENID|
 |pKey|PKEY/RECNO|
 |version|_VERSION|
 |approvedBy||
 |approvedDate||
-|packageId||
+|packageId|FUSTCODE|
 |creditInvoiceDate||
-|creditInvoiceNumber||
+|creditInvoiceNumber|FACTNR|
 
 ## OrderlistAssortment (Bestel)
 
