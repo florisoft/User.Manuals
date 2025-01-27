@@ -772,30 +772,30 @@
 |pKey|PKEY/RECNO|
 |version|_VERSION|
 
-## InvoiceCredits
+## InvoiceCredits (ORDCREDIT + ACCFACCRED)
 
 |API|DATABASE|
 |:--|:--|
-|creditBarcode|BARCODE|
-|originalBarcode||
-|creditReason|CREDITREDENID|
-|returnToStock||
-|sellerId||
-|date|DATUM|
-|vParcelId||
-|creditQuantity|CREDAANT|
-|creditPrice|PRIJS|
-|remark|CREDOPM|
-|processingChoice|VERWKEUZE|
-|userId|USERID|
+|creditBarcode|ORDCREDIT.HBARCODE|
+|originalBarcode|ORDCREDIT.BARCODE|
+|creditReason|ORDCREDIT.REDEN|
+|returnToStock|ORDCREDIT.TRGVOOR|
+|sellerId|ORDCREDIT.VERKCOD|
+|date|ORDCREDIT.DATUM|
+|vParcelId| ORDCREDIT.VPARTIJNR|
+|creditQuantity|ORDCREDIT.CREDAANTAL|
+|creditPrice|ORDCREDIT.CREDPRIJ|
+|remark|ORDCREDIT.OPMERKING|
+|processingChoice|ORDCREDIT.VERWKEUZE|
+|userId|ORDCREDIT.USERID|
 |creditReasonId|CREDITREDENID|
-|pKey|PKEY/RECNO|
-|version|_VERSION|
-|approvedBy||
-|approvedDate||
-|packageId|FUSTCODE|
-|creditInvoiceDate||
-|creditInvoiceNumber|FACTNR|
+|pKey|ORDCREDIT._pkey|
+|version|ORDCREDIT._Version|
+|approvedBy|ACCFACCRED.USERID|
+|approvedDate|ACCFACCRED.AFWDATE|
+|packageId|ACCFACCRED.FUSTCODE|
+|creditInvoiceDate|ACCFACCRED.DATUM|
+|creditInvoiceNumber|ACCFACCRED.FACTNR|
 
 ## OrderlistAssortment (Bestel)
 
