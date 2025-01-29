@@ -9,6 +9,10 @@ Deze module werkt alleen voor partijen met een commercieel artikelnummer (CARTNR
 **Waarom commercieële kenmerk groepen?** *met deze functionaliteit kan een klant per kweker en of lengte (S1) zijn favorieten bijhouden om makkelijker onderscheid te maken. De webshop onthoudt de favorieten per klant ook bij nieuwe sessies.*
 
 **Let op:** *bij het toevoegen van een commerciële kenmerkgroep aan een artikel of artikelgroep worden de CARTNRs niet met terugwerkende kracht berekend. Dit betekent dat alleen bij nieuwe partijen in uw systeem dit berekent zal worden.*
+
+Belangrijke informatie voor het inrichten van de module; Voordat de module wordt ingericht moet er door een medewerker van Florisoft nagekeken worden of de manier van hashen via de nieuwe manier gaat. Neem hiervoor contact op met de support afdeling.
+Het omzetten kan via de debug optie 'Commerciele partijen hash omzetten'. Standaard staat dit aan op systemen welke ongeveer na 2020 zijn geimplementeerd. Systemen welke al live waren voor dat jaartal zullen moeten worden omgezet naar de nieuwe manier van hashen. Mocht dat nog niet gedaan zijn kunt u contact opnemen met de supportafdeling.
+
 ## Inhoudsopgave
 
 [Aanmaken van een commerciele kenmerkgroep](#aanmaken-van-een-commerciele-kenmerkgroep)  
