@@ -10,6 +10,9 @@ This module only works for lots with a commercial article number (CARTNR). For t
 
 **Note:** *when adding a commercial feature group to an item or item group, the CARTNRs will not be calculated retroactively. This means that only new batches in your system will have this calculated.*
 
+Important information for setting up the module; Before setting up the module, a Florisoft employee must check whether the way of hashing goes via the new way. Please contact the support department for this.
+The conversion can be done via the debug option ‘Commercial parcel hash conversion’. By default, this is enabled on systems implemented after 2020. Systems that were already live before that year will have to be converted to the new way of hashing. If this has not yet been done, please contact the support department.
+
 ## Table of contents
 
 [Creating a commercial feature group](#creating-a-commercial-feature-group)
