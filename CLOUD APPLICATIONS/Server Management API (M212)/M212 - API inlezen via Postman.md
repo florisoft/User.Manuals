@@ -16,7 +16,7 @@ Florisoft stelt een collectie van de diversen endpoints beschikbaar die ingeleze
 
 |Stap|Uitleg|
 |:--|:--|
-|**1**|Download de API, deze kan u [hier](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Server%20Management%20API%20(M212)/media%20Postman/API-Collectie.json) downloaden.<br>Eventueel kan u het bestand ook [hier](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Server%20Management%20API%20(M212)/media%20Postman/API-Collectie.json) vinden.|
+|**1**|Download de API, deze kan u [hier](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Server%20Management%20API%20(M212)/media%20Postman/API-Collectie.json) downloaden.<br>Eventueel kan u het bestand ook [hier](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Server%20Management%20API%20(M212)/media%20Postman/API%20Collection%20Blank.json) vinden.|
 |**2**|Heeft u gebruik gemaakt van de eerste link, open dan het .zip-bestand en plaats het buiten de .zip map.|
 |**3**|Open de Postman applicatie en klik op de knop **Import** (links bovenin uw scherm)<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src="media Postman/1.png"></details>|
 |**4**|U krijgt nu een pop-up scherm te zien waarin u het collectiebestand kan drag and droppen. Ook kan u op **files** drukken om zo een Windows verkenner venster te openen en zo het bestand te selecteren.<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src="media Postman/2.png"></details>|
