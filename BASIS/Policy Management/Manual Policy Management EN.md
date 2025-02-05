@@ -115,13 +115,3 @@ If you rename a situation, the associated QR code is automatically updated. This
 |**1**|Open the hamburger menu|
 |**2**|Select the option to scan a situation.<details><summary><b>Click here for your example!</b></summary><img src="Media/NL/26.png"></details>|
 |**3**|Scan the QR code associated with the desired situation.<details><summary><b>Click here for your example!</b></summary><img src="Media/NL/27.png"></details>|
-
-<details><summary><b>Click here for your example!</b></summary><img src="Media/EN/21.png"></details>
-
-Alternatively, via the hamburger menu, you can scan a situation using a QR code.
-
-<details><summary><b>Click here for your example!</b></summary><img src="Media/EN/20.png"></details>
-
-The QR code for the situation can be found in the policy screen, within the situation row. You can then print this QR code for scanning in production.
-
-<details><summary><b>Click here for your example!</b></summary><img src="Media/EN/22.png"></details>
