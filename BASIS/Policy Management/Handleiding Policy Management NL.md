@@ -101,14 +101,3 @@ Als u de naam van een situatie wijzigt, wordt ook de bijbehorende QR-code automa
 |**1**|Open het hamburgermenu|
 |**2**|Selecteer de optie om een situatie te scannen.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/26.png"></details>|
 |**3**|Scan de QR-code die hoort bij de gewenste situatie.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/27.png"></details>|
-
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/21.png"></details>
-
-Of via het hamburgermenu, waarbij u een situatie kan inscannen aan de hand van een QR-code.
-
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/20.png"></details>
-
-De QR code voor de situatie vindt u in het policyscherm, in de situatieregel. Deze QR code kunt u vervolgens uitprinten om in productie te kunnen scannen.
-
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/22.png"></details>
-
