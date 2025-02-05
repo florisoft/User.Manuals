@@ -79,3 +79,49 @@ Or via the hamburger menu, where you can scan a situation based on a QR code.
 You can find the QR code for the situation in the policy screen, in the situation row. You can then print this QR code to scan it in production.
 
 <details><summary><b>Click here for your example!</b></summary><img src="Media/EN/22.png"></details>
+
+## Setting Policy Situations in Florisoft Apps
+
+Policy situations play a crucial role in Florisoft apps. You can configure them via the app settings or other options within the app.
+
+### Configuring a Policy Situation
+
+**General Settings with a Default Policy**:
+
+For standard settings, it is recommended to create a situation named 'General' (or a similar name). Link all system users to this situation. This ensures that general settings remain consistent within the system.
+Policy situations are especially relevant for Florisoft apps. You can set this up in the app settings within the app itself.
+
+<details><summary><b>Click here for your example!</b></summary><img src="Media/EN/23.png"></details>
+
+**Settings for Deviating Policies**
+
+For deviating policies, it is essential to link only a situation without system users. Associating system users with deviating situations can lead to:
+
+- Issues with the cloud server
+- Incorrect policy processing
+
+<details><summary><b>Click here for your example!</b></summary><img src="Media/EN/24.png"></details>
+
+The QR code for the situation can be found in the policy screen, within the corresponding situation row. You can print this QR code and use it in your production environment if needed.
+
+<details><summary><b>Click here for your example!</b></summary><img src="Media/EN/25.png"></details>
+
+**Important Warnings for Changes**
+
+If you rename a situation, the associated QR code is automatically updated. This may cause complications if the QR code has already been printed and distributed in your production environment. Check this carefully before making changes.
+
+|Step|Explanation|
+|:-:|:--|
+|**1**|Open the hamburger menu|
+|**2**|Select the option to scan a situation.<details><summary><b>Click here for your example!</b></summary><img src="Media/EN/26.png"></details>|
+|**3**|Scan the QR code associated with the desired situation.<details><summary><b>Click here for your example!</b></summary><img src="Media/EN/27.png"></details>|
+
+<details><summary><b>Click here for your example!</b></summary><img src="Media/EN/21.png"></details>
+
+Alternatively, via the hamburger menu, you can scan a situation using a QR code.
+
+<details><summary><b>Click here for your example!</b></summary><img src="Media/EN/20.png"></details>
+
+The QR code for the situation can be found in the policy screen, within the situation row. You can then print this QR code for scanning in production.
+
+<details><summary><b>Click here for your example!</b></summary><img src="Media/EN/22.png"></details>

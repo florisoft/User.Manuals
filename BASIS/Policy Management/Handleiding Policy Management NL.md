@@ -65,50 +65,50 @@ Om autorisaties aan een policy te voegen volgt u de onderstaande stappen:
 |**3**|Vervolgens kan u de Systeemgebruiker, Situatie en Verkoper specificeren om te zien welke autorisaties en instellingen aan worden gezet.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/18.png"></details> |
 |**4**|Wanneer een policy niet naar behoren werkt ligt dit waarschijnlijk aan de eerder beschreven policy hierarchie. |
 
-## Setting Policy Situations in Florisoft Apps
+## Policy-situatie instellen in Florisoft apps
 
-Policy situations play a crucial role in Florisoft apps. You can configure them via the app settings or other options within the app.
+Policy-situaties spelen een cruciale rol in de Florisoft-apps. U stelt deze in via de app-instellingen of andere opties binnen de app.
 
-### Configuring a Policy Situation
+### Het instellen van een policy-situatie
 
-**General Settings with a Default Policy**:
+**Algemene instellingen met een standaardbeleid** :
 
-For standard settings, it is recommended to create a situation named 'General' (or a similar name). Link all system users to this situation. This ensures that general settings remain consistent within the system.
-Policy situations are especially relevant for Florisoft apps. You can set this up in the app settings within the app itself.
+Voor standaardinstellingen is het aan te raden een situatie aan te maken met de naam 'Algemeen' (of een vergelijkbare benaming). Koppel aan deze situatie alle systeemgebruikers. Dit zorgt ervoor dat algemene instellingen consistent blijven binnen het systeem.
+Policy situaties zijn vooral relevant voor de Florisoft apps. 
+Dit stelt u in bij de app instellingen in de app zelf
 
-<details><summary><b>Click here for your example!</b></summary><img src="Media/NL/23.png"></details>
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/23.png"></details>
 
-**Settings for Deviating Policies**
+**Instellingen voor afwijkende policy's**
 
-For deviating policies, it is essential to link only a situation without system users. Associating system users with deviating situations can lead to:
+Bij afwijkende policy's is het essentieel om alleen een situatie te koppelen zonder systeemgebruikers. Het koppelen van systeemgebruikers aan afwijkende situaties kan leiden tot:
 
-- Issues with the cloud server
-- Incorrect policy processing
+- Problemen met de cloudserver
+- Onjuiste verwerking van de policy
 
-<details><summary><b>Click here for your example!</b></summary><img src="Media/NL/24.png"></details>
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/24.png"></details>
 
-The QR code for the situation can be found in the policy screen, within the corresponding situation row. You can print this QR code and use it in your production environment if needed.
+De QR-code voor de situatie vindt u in het policyscherm, binnen de betreffende situatieregel. Deze QR-code kunt u desgewenst uitprinten en gebruiken in uw productieomgeving.
 
-<details><summary><b>Click here for your example!</b></summary><img src="Media/NL/25.png"></details>
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/25.png"></details>
 
-**Important Warnings for Changes**
+**Belangrijke waarschuwingen bij wijzigingen**
 
-If you rename a situation, the associated QR code is automatically updated. This may cause complications if the QR code has already been printed and distributed in your production environment. Check this carefully before making changes.
+Als u de naam van een situatie wijzigt, wordt ook de bijbehorende QR-code automatisch aangepast. Dit kan complicaties veroorzaken als de QR-code al is uitgeprint en verspreid in uw productieomgeving. Controleer dit zorgvuldig voordat u wijzigingen doorvoert.
 
-|Step|Explanation|
+|Stap|Uitleg|
 |:-:|:--|
-|**1**|Open the hamburger menu|
-|**2**|Select the option to scan a situation.<details><summary><b>Click here for your example!</b></summary><img src="Media/NL/26.png"></details>|
-|**3**|Scan the QR code associated with the desired situation.<details><summary><b>Click here for your example!</b></summary><img src="Media/NL/27.png"></details>|
+|**1**|Open het hamburgermenu|
+|**2**|Selecteer de optie om een situatie te scannen.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/26.png"></details>|
+|**3**|Scan de QR-code die hoort bij de gewenste situatie.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/27.png"></details>|
 
-<details><summary><b>Click here for your example!</b></summary><img src="Media/NL/21.png"></details>
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/21.png"></details>
 
-Alternatively, via the hamburger menu, you can scan a situation using a QR code.
+Of via het hamburgermenu, waarbij u een situatie kan inscannen aan de hand van een QR-code.
 
-<details><summary><b>Click here for your example!</b></summary><img src="Media/NL/20.png"></details>
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/20.png"></details>
 
-The QR code for the situation can be found in the policy screen, within the situation row. You can then print this QR code for scanning in production.
+De QR code voor de situatie vindt u in het policyscherm, in de situatieregel. Deze QR code kunt u vervolgens uitprinten om in productie te kunnen scannen.
 
-<details><summary><b>Click here for your example!</b></summary><img src="Media/NL/22.png"></details>
-
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/22.png"></details>
 
