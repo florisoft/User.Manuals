@@ -65,10 +65,17 @@ Om autorisaties aan een policy te voegen volgt u de onderstaande stappen:
 |**3**|Vervolgens kan u de Systeemgebruiker, Situatie en Verkoper specificeren om te zien welke autorisaties en instellingen aan worden gezet.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/18.png"></details> |
 |**4**|Wanneer een policy niet naar behoren werkt ligt dit waarschijnlijk aan de eerder beschreven policy hierarchie. |
 
-## Situatie instellen in Florisoft apps
+## Policy-situatie instellen in Florisoft apps
+Policy-situaties spelen een cruciale rol in de Florisoft-apps. U stelt deze in via de app-instellingen of andere opties binnen de app.
 
+### Het instellen van een policy-situatie
+**Algemene instellingen met een standaardbeleid**
+Voor standaardinstellingen is het aan te raden een situatie aan te maken met de naam 'Algemeen' (of een vergelijkbare benaming). Koppel aan deze situatie alle systeemgebruikers. Dit zorgt ervoor dat algemene instellingen consistent blijven binnen het systeem.
 Policy situaties zijn vooral relevant voor de Florisoft apps. 
 Dit stelt u in bij de app instellingen in de app zelf
+
+![8.png]
+
 
 <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/NL/21.png"></details>
 
