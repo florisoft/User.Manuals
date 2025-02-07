@@ -24,7 +24,7 @@ Deze stappen vinden plaats in de Florisoft backoffice, zorg dat u uw Florisoft o
 |**1**|Open vanuit de navigator de constanten (#1)<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/1.png"></details>|
 |**2**|In de constanten navigeert u naar:<br>**Financieel→Valuta codes**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/2.png"></details>|
 |**3**|Maak een nieuwe valuta code aan (#1)|
-|**4**|Vul hier de volgende velden in :<br><br>**Valutacode :** EUR<br>**Omschrijving** : een naam voor de valuta bijv. euroshop<br>**Verkorting** : EUR<br>**Decimalen** : 2<br>**Gehanteerde koers** : 100<br>**Reële koers** : 100<br>Code boekhoud. :** zelfde als omschrijving<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/3.png"></details>|
+|**4**|Vul hier de volgende velden in :<br><br>**Valutacode :** EUR<br>**Omschrijving** : een naam voor de valuta bijv. euroshop<br>**Verkorting** : EUR<br>**Decimalen** : 2<br>**Gehanteerde koers** : 100<br>**Reële koers** : 100<br>**Code boekhoud. :** zelfde als omschrijving<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/3.png"></details>|
 |**5**|Druk nu op **Ok** om de nieuwe waarde op te slaan.|
 
 ### Instellingen debiteur
