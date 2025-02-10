@@ -1,8 +1,8 @@
 <img src="../../fslogo.png">
 
-# Florisoft Manual Floriday ItemTradeGroupSelection (M231)
+# Florisoft Manual Floriday TradeItemGroupSelection (M231)
 
-This manual covers the usage and setup of the Florisoft ItemTradeGroupSelection module, with this functionality you will be able to import Floriday supplyselections as separate stocks. 
+This manual covers the usage and setup of the Florisoft TradeItemGroupSelection module, with this functionality you will be able to import Floriday supplyselections as separate stocks. 
 
 Supply selections are made in the Floriday portal based on stuff like product types, buyers, special selections or country. Making the supply selections themselves isn't covered in this manual as it is outside of the Florisoft application. Floriday themselves have a manual for this which can be found [here](https://helpcenter-customers.floriday.com/en/articles/8856186-explorer-supply-selections).
 
@@ -10,7 +10,7 @@ What you will learn in this manual is how you link a stock to a supplyselection.
 
 ## Requirements
 
-Before you start implementing the functionalities of this module you'll need to make sure that your Florisoft license contains the ItemTradeGroup module. 
+Before you start implementing the functionalities of this module you'll need to make sure that your Florisoft license contains the TradeItemGroupSelection module. 
 
 Also make sure that there is atleast one supplyselection in Floriday.
 

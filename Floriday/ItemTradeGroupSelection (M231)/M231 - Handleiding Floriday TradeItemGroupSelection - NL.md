@@ -1,8 +1,8 @@
 <img src="../../fslogo.png">
 
-# Florisoft Handleiding Floriday ItemTradeGroupSelection (M231)
+# Florisoft Handleiding Floriday TradeItemGroupSelection (M231)
 
-Deze handleiding behandelt de module ItemTradeGroupSelection waarmee u Floriday aanbodselecties kan importeren als aparte voorraden in Florisoft.
+Deze handleiding behandelt de module TradeItemGroupSelection waarmee u Floriday aanbodselecties kan importeren als aparte voorraden in Florisoft.
 U maakt deze selecties in het Floriday portal op basis van productsoorten, inkopers, speciale selecties of per land.
 Het maken van aanbodselecties in Floriday wordt verder niet behandeld in deze handleiding aangezien dit buiten Florisoft om is, wel houdt Floriday hier zelf documentatie op na ([zie hier](https://helpcenter-customers.floriday.com/nl/articles/8856186-explorer-aanbodselecties)).
 
