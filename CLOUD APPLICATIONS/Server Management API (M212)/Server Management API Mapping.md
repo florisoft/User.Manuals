@@ -1,6 +1,6 @@
 # API Mapping
 
-## ArticleGroups (ArtikGRP)  
+## Constants/ArticleGroups (ArtikGRP)  
 
 |API|DATABASE|
 |:--|:--|
@@ -8,33 +8,47 @@
 |description|ARTGRPTXT|
 |version|_VERSION|
 |productGroupId|CELCOD|
-|productCharacteristic1|SCODE1|
-|productCharacteristic2|SCODE2|
-|productCharacteristic3|SCODE3|
-|productCharacteristic4|SCODE4|
-|productCharacteristic5|SCODE5|
-|productCharacteristic6|SCODE6|
-|productCharacteristic7|SCODE7|
+|productCharacteristic1|SORT1|
+|productCharacteristic2|SORT2|
+|productCharacteristic3|SORT3|
+|productCharacteristic4|SORT4|
+|productCharacteristic5|SORT5|
+|productCharacteristic6|SORT6|
+|productCharacteristic7|SORT7|
 |description_D|TEXT_D|
 |description_E|TEXT_E|
 |description_F|TEXT_F|
+|description_G|TEXT_G|
+|description_H|TEXT_H|
+|description_I|TEXT_I|
+|description_J|TEXT_J|
+|description_K|TEXT_K|
+|description_L|TEXT_L|
+|description_M|TEXT_M|
+|description_N|TEXT_N|
+|description_O|TEXT_O|
+|description_P|TEXT_P|
+|description_Q|TEXT_Q|
+|description_R|TEXT_R|
 |maxAgeInDays|MAXINETDAGEN|
 |auctionGrp|VEILGRP|
+|cuttingLoss|UITVAL|
 
-## Articles (Artikel)
+## Constants/Articles (Artikel)
 
 |API|DATABASE|
 |:--|:--|
 |id|ARTNR|
 |description|ARTTXT|
 |version|_VERSION|
-|productCharacteristic1|SCODE1|
-|productCharacteristic2|SCODE2|
-|productCharacteristic3|SCODE3|
-|productCharacteristic4|SCODE4|
-|productCharacteristic5|SCODE5|
-|productCharacteristic6|SCODE6|
-|productCharacteristic7|SCODE7|
+|pKey|PKEY/_RECNO|
+|productCharacteristic1|SORT1|
+|productCharacteristic2|SORT2|
+|productCharacteristic3|SORT3|
+|productCharacteristic4|SORT4|
+|productCharacteristic5|SORT5|
+|productCharacteristic6|SORT6|
+|productCharacteristic7|SCRT7|
 |botanicalName|BOTNAAM|
 |eanCode|EANCODE|
 |colorId|COLORNR|
@@ -45,18 +59,32 @@
 |productGroupId|CELCOD|
 |description_D|TEXT_D|
 |description_E|TEXT_E|
-|french|TEXT_F|
 |description_F|TEXT_F|
+|description_G|TEXT_G|
+|description_H|TEXT_H|
+|description_I|TEXT_I|
+|description_J|TEXT_J|
+|description_K|TEXT_K|
+|description_L|TEXT_L|
+|description_M|TEXT_M|
+|description_N|TEXT_N|
+|description_O|TEXT_O|
+|description_P|TEXT_P|
+|description_Q|TEXT_Q|
+|description_R|TEXT_R|
+|externalCode|EXCODE|
+|externalSupplierCode|EXLEVCOD|
 
-## Bands (Band)
+## Constants/Bands (Band)
 
 |API|Database|
 |:--|:--|
 |productionLineId|BANDNR|
 |description|OMSCHR|
 |version|_VERSION|
+|pKey|_pKey|
 
-## Carriers (Transptr)
+## Constants/Carriers (Transptr)
 
 |API|DATABASE|
 |:--|:--|
@@ -76,8 +104,9 @@
 |glnCode|GLNCODE|
 |faxNr|FAXNR|
 |afasId|AFASCODE|
+|pKey|_PKEY|
 
-## Colors (Color)
+## Constants/Colors (Color)
 
 |API|DATABASE|
 |:--|:--|
@@ -86,21 +115,23 @@
 |description_D|COLORTXT_D|
 |description_E|COLORTXT_E|
 |description_F|COLORTXT_F|
-|s50_Feature|S50_FEATURE|
+|s50_Feature|S50_KENM|
+|pKey|_PKEY| 
 |version|_VERSION|
 
-## ComponentTypes (Systeemwaarden geen tabel)
+## Constants/ComponentTypes (Systeemwaarden geen tabel)
 
 |API|
 |:--|
 |id|
 |description|
 
-## Customers (Debiteur)
+## Constants/Customers (Debiteur) (Met verwijzingen naar DEBCONTACT en DEB2)
 
 |API|DATABASE|
 |:--|:--|
 |version|_VERSION|
+|pKey|_PKEY|
 |customerId|DEBNR|
 |customerKey|DEBKEY|
 |companyName|DEBNAAM|
@@ -110,7 +141,7 @@
 |city|DEBPLAATS|
 |countryId|DEBLANDCOD|
 |regionId|REGIOID|
-|profile|branchcod|
+|profile|BRANCHCOD|
 |phoneNr|DEBTFNR|
 |mobile|DEBMOBIEL|
 |faxNr|DEBFAXNR|
@@ -123,8 +154,8 @@
 |priceTree3Id|PR3STAFFEL|
 |customerGroupId|GROEPNR|
 |seatNo|ZETELNR|
-|plateNr|PLAATNR|
-|sellerId|VERKCOD|
+|plateNr|CPLAATNR|
+|sellerId|VERKAGENT|
 |vatnr|BTWNRDEB|
 |cocNr|KVKNUMMER|
 |debtorFinancialNr|FINDEBNR|
@@ -136,8 +167,27 @@
 |customerTypeId|DEBTYPEID|
 |customerCategory|DEBCAT|
 |accountManager|ACCTMNGR|
+|collectionCustomer|DEB2.VERZAMELDEBITEUR|
+|customerCardCode|KLANTCODE|
+|invoiceTo|IKLANTVAN|
+|creationDate|CREATIEDAT|
+|lastModified|MODIFYTIME|
+|isSubDebtor|ISSUBDEB|
+|invoiceMailAddress|EMAILADRESSES|
+|articleGroupSurcharge|ARTGRPOPSLAG|
+|transportRouteId|TRANSPID|
+|carrierAddress|TRANSADRES|
+|deliveryAddressCompanyName|LVNAAMDB|
+|deliveryAddressContact|LVCONTDB|
+|deliveryAddress|LVADRESDB|
+|deliveryAddressPostal|LVPLAATSDB|
+|deliveryAddressPlace|LVPCDB|
+|deliveryAddressCountry|LVLANDCODDB|
+|deliveryAddressPhone|LVTFNRDB|
+|deliveryAddressEAN|LEVEANCODE|
+|deliveryAddressGLN|GLNLEVADR|
 
-## CreditReasons (Kieslijst)
+## Constants/CreditReasons (Kieslijst)
 
 |API|DATABASE|
 |:--|:--|
@@ -150,29 +200,32 @@
 |webShop|WEBSHOP|
 |toReturn|RETOUR|
 |refund|PRIJSCOR|
+|pKey|_PKEY|
 |version|_VERSION|
 
-## CustomerGroups (Debgroep)
+## Constants/CustomerGroups (Debgroep)
 
 |API|DATABASE|
 |:--|:--|
 |customerGroupId|GROEPCOD|
 |description|GROEPNAAM|
 |version|_VERSION|
+|pKey|_PKEY|
 |mainGroup|HOOFDGRP|
 |saleUnit|SALESUNIT|
 |logisticsUnit|ISLOGISTIEKEUNIT|
 
-## CustomerGroupRelations (DebnrGPCOD)
+## Constants/CustomerGroupRelations (DebnrGPCOD)
 
 |API|DATABASE|
 |:--|:--|
 |customerId|DEBNR|
 |customerGroupId|GROEPCOD|
 |version|_VERSION|
+|pKey|_PKEY|
 |sequenceNumber|VOLGORDENUMMER|
 
-## Countries (Land)
+## Constants/Countries (Land)
 
 |API|DATABASE|
 |:--|:--|
@@ -180,22 +233,25 @@
 |description|LANDTXT|
 |version|_VERSION|
 |currencyCode|VALCOD|
+|isEUMember|EULID|
 
-## Currencies (Valuta)
+## Constants/Currencies (Valuta)
 
 |API|DATABASE|
 |:--|:--|
 |id|VALCOD|
 |description|VALTXT|
 |version|_VERSION|
+|pKey|_PKEY|
 
-## Divisions (Afdeling)
+## Constants/Divisions (Afdeling)
 
 |API|DATABASE|
 |:--|:--|
 |id|AFDELING|
 |description|AFDTXT|
 |version|_VERSION|
+|pKey|_PKEY|
 
 ## DivisionMethods (Code waarden uit SalesHist)
 
@@ -204,15 +260,16 @@
 |id||
 |description||
 
-## FinancialAdministrations (FinAdmin)
+## Constants/FinancialAdministrations (FinAdmin)
 
 |API|DATABASE|
 |:--|:--|
 |id|ID|
 |description|OMS|
+|pKey|_PKEY|
 |version|_VERSION|
 
-## Growers (Kweker)
+## Constants/Growers (Kweker)
 
 |API|DATABASE|
 |:--|:--|
@@ -242,10 +299,21 @@
 |mps2Cert|MPS2CERT|
 |mps2Start|MPS2START|
 |mps2End|MPS2EIND|
+|pkey|_PKEY|
 |version|_VERSION|
 |auctionCode|VEILCOD|
 
-## Packages (Fust)
+## Constants/Orderlists (BESTLIST)
+
+|API|DATABASE|
+|:--|:--|
+|id|BESTCOD|
+|subId|BESTSUB|
+|description|BESTTXT|
+|version|_VERSION|
+|pKey|_PKEY|
+
+## Constants/Packages (Fust)
 
 |API|DATABASE|
 |:--|:--|
@@ -262,10 +330,10 @@
 |packagePrice3|FUSTPRIJS3|
 |packagePrice4|FUSTPRIJS4|
 |packagePurchaseAmount|FUSTINK|
-|packageRentAmount|FUSTHPRS|
-|packageRentAmount2|FUSTHRPS2|
-|rentBTWCod|fustbtwhcd|
-|btwCod|fustbtwcod|
+|packageRentAmount|FUSTHPRIJS|
+|packageRentAmount2|FUSTHPRIJS2|
+|rentBTWCod|FUSTBTWHCD|
+|btwCod|FUSTBTWCOD|
 |packageCombi1|COMBI1|
 |packageCombi2|COMBI2|
 |packageCombi3|COMBI3|
@@ -293,21 +361,38 @@
 |standardPackageContent|NORMKOLINH|
 |standardAmountPerLayer|NORMLGINH|
 |standardAmountPerCart|NORMKARINH|
-|calculateVolume|RENTECALC|
+|calculateVolume|BEPAALVOL|
 |isBox|ISDOOS|
 |loadCarrier|DRAAGCOD|
 |version|_VERSION|
+|pkey|_PKEY|
 
-## ProductGroups (Cel)
+## Constants/ProductGroups (Cel)
 
 |API|DATABASE|
 |:--|:--|
 |id|CELCOD|
-|description|CELTXTX|
+|description|CELTXT|
 |exCode|EXCODE|
+|description_D|TEXT_D|
+|description_E|TEXT_E|
+|description_F|TEXT_F|
+|description_G|TEXT_G|
+|description_H|TEXT_H|
+|description_I|TEXT_I|
+|description_J|TEXT_J|
+|description_K|TEXT_K|
+|description_L|TEXT_L|
+|description_M|TEXT_M|
+|description_N|TEXT_N|
+|description_O|TEXT_O|
+|description_P|TEXT_P|
+|description_Q|TEXT_Q|
+|description_R|TEXT_R|
+|pkey|_PKEY|
 |version|_VERSION|
 
-## ReservationTexts (ReservationTexts)
+## Constants/ReservationTexts (ReservationTexts)
 
 |API|DATABASE|
 |:--|:--|
@@ -315,16 +400,18 @@
 |description|DESCRIPTION|
 |reservationTextCode|RESERVATIONTEXTCODE|
 |version|_VERSION|
+|pKey|_PKEY|
 
-## Sellers (Verkoper)
+## Constants/Sellers (Verkoper)
 
 |API|DATABASE|
 |:--|:--|
 |id|VERKOOPNR|
 |name|VERKOOPTXT|
 |version|_VERSION|
+|pKey|_PKEY|
 
-## SortCodes (S_CODES)
+## Constants/SortCodes (S_CODES)
 
 |API|DATABASE|
 |:--|:--|
@@ -334,16 +421,17 @@
 |description_D|TEXT_D|
 |description_E|TEXT_E|
 |description_F|TEXT_F|
+|pKey|_PKEY|
 |version|_VERSION|
 
-## Sources (Geen tabel waarden uit purchasehist)
+## SConstants/ources (Geen tabel waarden uit purchasehist)
 
 |API|DATABASE|
 |:--|:--|
 |id||
 |description||
 
-## Suppliers (lever)
+## Constants/Suppliers (lever)
 
 |API|DATABASE|
 |:--|:--|
@@ -357,7 +445,7 @@
 |supplierPhoneNr|LEVTFNR|
 |supplierFax|LEVFAXNR|
 |supplierEmail|EMAIL|
-|eanCode|EANCODE|
+|eanCode|WSEAN|
 |glnCode|GLNCOD|
 |glnLocCode|LOCGLN|
 |supplierIdCod|LEVID|
@@ -370,45 +458,51 @@
 |btwNr|BTWNRDEB|
 |debtorFinancialNumber|FINDEBNR|
 |accountManager|VERKOOPNR|
+|pKey|_PKEY|
 |version|_VERSION|
 
-## Stocks (Voorraad)
+## Constants/Stocks (Voorraad)
 
 |API|DATABASE|
 |:--|:--|
 |id|VOORCOD|
 |description|VOORTXT|
+|pKey|_PKEY|
 |version|_VERSION|
 
-## Users (Users)
+## Constants/Users (Users)
 
 |API|DATABASE|
 |:--|:--|
 |id|USERID|
 |name|NAAM|
 |version|_VERSION|
-|userDepartmentId|AFDELING|
+|userDepartmentId|GEBRUIKERSAFDELINGID|
 |email|EMAIL|
 |sellerId|VERKCODE|
 |phone|TELEFOON|
+|pKey|_PKEY|
+|version|_VERSION|
 
-## Vats (BtwTabel)
+## Constants/Vats (BtwTabel)
 
 |API|DATABASE|
 |:--|:--|
 |id|BWTCODE|
 |description|BTWTXT|
 |version|_VERSION|
+|pKey|_PKEY|
 
-## Buyers (Inkoper)
+## Constants/Buyers (Inkoper)
 
 |API|DATABASE|
 |:--|:--|
 |buyerId|INKOPERNR|
 |buyerName|INKOPERTXT|
+|pKey|_PKEY|
 |version|_VERSION|
 
-## AuctionGroups (Veilgroep)
+## Constants/AuctionGroups (Veilgroep)
 
 |API|DATABASE|
 |:--|:--|
@@ -417,9 +511,10 @@
 |auctionGrpDescription|VEILGRPTXT|
 |buyerId2|INKOPERNR2|
 |buyerId3|INKOPERNR3|
+|pKey|_PKEY|
 |version|_VERSION|
 
-## PaymentConditions (betcond)
+## Constants/PaymentConditions (betcond)
 
 |API|DATABASE|
 |:--|:--|
@@ -437,39 +532,76 @@
 |pKey|RECNO/PKEY|
 |version|_VERSION|
 
-## SalesHistory (horder)
+## Constants/TransportRoutes
 
 |API|DATABASE|
 |:--|:--|
-|articleGroupId|ARTGRPCOD|
-|articleId|ARTNR|
-|contentBox|INHDOOS|
+|Id|TRANSPID|
+|Description|OMSCHR|
+|CarrierId|TRANSPTR|
+|DepartureTime|VERTREK|
+|EndTime|EINDTIJD|
+|ExpectedArrivalTime|VERWACHTEAANKOMSTTIJD|
+|TravelTimeInMinutes|RITDUURINMINUTEN|
+|OfficeOfExit|OFFICEOFEXIT|
+|CountryOfDispatch|OFFICEOFDESTINATION|
+|SentByDebtor|VERSTURENDEDEBNR|
+|PlaceOfLoading|PLACEOFLOADING|
+|PlaceOfDestination|PLACEOFDESTINATION|
+|ReturningDebtor|RETOURENDEDEBITEUR|
+|LoadingPort|LOADINGPORT|
+|DestinationPort|DESTINATIONPORT|
+|AgreedLocationOfGoods|AGREEDLOCATIONOFGOODS|
+|AgreedLocationOfGoodsHouseNumber|AGREEDLOCATIONOFGOODSHOUSENR|
+|Version|_VERSION|
+|PKey|_PKEY|
+
+## SalesHistory (horder) (joins van HPARTIJ & HORDERKP)
+
+|API|DATABASE|
+|:--|:--|
+|Department|AFDELING|
+|ArticleGroupId|ARTGRPCOD|
+|S01|ARTLEN|
+|ArticleId|ARTNR|
+|Description|ARTTXT|
+|DivisionId|BARCODE|
+|ProductGroupId|CELCOD|
+|CustomerId|DEBNR|
+|S02|GEWICHT|
+|ContentColli|INHKOLLI|
+|InvoiceNr|FACTNR|
+|PriceBare|KALEPRIJS|
+|PriceEndCustomer|KLANTPRIJS|
+|GrowerId|KWEKCOD|
+|GrowerEAN|KWEKEREAN|
+|SupplierId|LEVCOD|
+|TotalStems|LEVTOTAAL|
+|OrderDate|ORDDAT|
+|OrderNr|ORDNR|
+|ParcelNo|PARTIJNR|
+|PriceOnInvoicePurchase|PART1PRIJS|
+|PriceOnInvoiceSales|PART2PRIJS|
+|ParcelDate|PARTIJDAT|
+|pKEy|_PKEY|
+|S03|POTMAAT|
+|regDate|REGDAT|
+|subCustomerId|SUBDEBNR|
+|userId|USERID|
+|priceWithCostReductions|VERKBEDRAG|
+|sellerId|VERKCOD|
+|parcelPurchaseNo|VPARTIJNR|
+|salesUnit|VE|
+|version|_VERSION|
 |contentBunch|INHBOS|
-|contentColli|INHKOLLI|
-|currencyId||
-|customerCompanyName||
-|customerCountryId|LANDCOD|
-|customerFinId|FINDEBNR|
-|customerId|DEBNR|
-|department|AFDELING|
-|description|ARTTXT|
-|divisionId|VERDEELID|
-|divisionMethodId|VERDTYPE|
-|financialAdmId|FINADMIN|
-|growerEAN|KWEKEREAN|
-|growerId|KWEKCOD|
-|invoiceDate|FACTDAT|
-|invoiceGoodsAmount||
-|invoiceNr|FACTNR|
-|invoiceTotalAmount||
-|orderDate|ORDAT|
-|orderNr|ORDNR|
-|packageQuantity|FUSTAANTAL|
-|packagePrice|VERKFUST|
-|packageId|FUSTCOD|
-|parcelDate|PARTIJDAT|
-|parcelNo|PARTIJNR|
-|parcelPurchaseNo||
+|contentBox|INHDOOS|
+|vatId|BTWCOD|
+|customerFinId|HORDERKP.FINDEBNR|
+|invoiceGoodsAmount|HORDERKP.TOTGOEDER|
+|invoiceTotalAmount|HORDERKP.FACTTOTAAL|
+|invoiceDate|FCTDAT|
+|priceOnPurchase|HPARTIJ.PRIJS|
+|customerCountryId|landcod|
 |parcelS01Id|SCODE1|
 |parcelS02Id|SCODE2|
 |parcelS03Id|SCODE3|
@@ -477,105 +609,101 @@
 |parcelS05Id|SCODE5|
 |parcelS06Id|SCODE6|
 |parcelS07Id|SCODE7|
-|pKey|PKEY/RECNO|
-|priceBare|KALEPRIJS|
-|priceEndCustomer|EINDKLANT|
-|priceOnInvoicePurchase|PART1PRIJS |
-|priceOnInvoiceSales|PART2PRIJS |
-|priceOnPurchase||
+|DivisionMethodId|VERDTYPE|
+|FinancialAdmId|HORDERKP.FINADMIN|
+|StockId|DEVISIE|
+|packageQuantity|FUSTAANTAL|
+|packageId|FUSTCOD|
+|packagePrice|VERKFUST|
+|S04|S4|
+|S05|S5|
+|S06|S6|
+|S07|S7|
 |priceParcelPurchase|PARTIJPRIJS1|
 |priceParcelSales|PARTIJPRIJS2|
-|priceWithCostsReductions|INCLPRIJS|
-|productGroupId|CELCOD|
-|regDate|REGDAT|
-|s01|S1|
-|s02|S2|
-|s03|S3|
-|s04|S4|
-|s05|S5|
-|s06|S6|
-|s07|S7|
-|salesUnit|VE|
-|sellerId|VERKCOD|
-|stockId|VOORCOD|
-|subCustomerId|SUBDEBNR|
-|supplierId|LEVCOD|
-|totalStems||
-|userId|USERID|
-|vatId|BTWCOD|
-|componentTypeId|PARTTYPE|
-|version|_VERSION|
-|orderParcelId|BESTPARTNR|
-|packListId|PAKLIJSTNR|
-|departureDate|VETREKDAG|
+|ComponentTypeId|PTYPE|
+|currencyId|HORDERKP.VALCOD|
+|OrderParcelId|BESTPARTNR|
+|PackListId|PAKLIJSTNR|
+|DepartureDate|VERTREKDAG|
 |remark|OPMERKING|
 |remark2|OPMERKING2|
 |remark3|OPMERKING3|
-|orderRemark|OrderRemark|
-|orderRemark2|OrderRemark2|
+|orderRemark|BESTOPM|
+|orderRemark2|BESTOPM2|
 |deliveryDate|LEVERDATUM|
+|OriginalOrderParcelId|ORIGINEELBESTELPARTIJNR|
+|fromCustomer|FROMDEBNR|
+|fromOrderNr|FROMORDNR|
 |commercialParcelId|CPARTIJNR|
+|deadlineNr|DEADLINENR|
+|FloridayDeliveryOrderId|DeliveryOrderId|
+|FloridayFulfillmentRequestId|FulfillmentRequestId|
+|FloridaySalesOrderId|SalesOrderId|
 
 ## PurchaseHistory (hpartij)
 
 |API|DATABASE|
 |:--|:--|
-|articleId|ARTNR|
-|description|ARTTXT|
-|colli|KOLLI|
-|contentColli|INHKOLLI|
-|restQuantity|REST|
-|packageQuantity|FUSTAANTAL|
-|packageId|FUSTCOD|
-|vParcelId|VPARTIJNR|
-|auctionId|VEILCOD|
-|transId|TRANS|
-|transIdLong|TRANSLANG|
-|clockTrans|KLOKTRANS|
-|buyerNo|INKOPER|
-|growerId|KWEKER|
-|plateNo|PLAATNR|
-|seatNo|ZETELNR|
-|s01|S1|
-|s02|S2|
-|s03|S3|
-|s04|S4|
-|s05|S5|
-|s06|S6|
-|s07|S7|
-|parcelS01Id|S1CODE|
-|parcelS02Id|S2CODE|
-|parcelS03Id|S3C0DE|
-|parcelS04Id|S4CODE|
-|parcelS05Id|S5CODE|
-|parcelS06Id|S6CODE|
-|parcelS07Id|S7CODE|
-|countryId|LANDCOD|
-|contentBunch|INHBOS|
-|supplierId|LEVCOD|
-|parcelDate|PARTIJDAT|
+|pKey|_PKEY|
+|version|_VERSION|
 |writeOffQuantity|AFBOEKA|
 |writeOffId|AFBOEKM|
+|articleId|ARTNR|
+|description|ARTTXT|
+|orderParcelId|BESTELPARTIJNR|
 |paymentDate|BETDAT|
 |paymentTime|BETTIME|
-|paymentUSer|BETUSER|
-|remark|OPMERKING|
-|barePrice|KALEPRIJS|
-|price|PRIJS|
-|priceIncl|PRIJSINCL|
+|paymentuser|BETUSER|
 |creation|CREATIE|
-|shipmentNo|VERSCHEPID|
-|eInvoiceBarcode|EFACTBARC|
-|stockId|VOORCOD|
-|version|_VERSION|
-|pKey|RECNO/PKEY|
-|deadlineNr|DEADLINENR|
-|sourceId||
-|color|KLEUR|
-|orderParcelId|BESTELPARTIJNR|
-|priceInCurrency|PRIJSINVAL|
-|totalCostPrice|TOTAALKOSTPRIJS|
-|externalParcelId|EXPARTIJNR|
+|deadlinenr|DEADLINENR|
+|stockid|DEVISIE|
+|EInvoiceBarcode|EFACTBARC|
+|ExParcelId2|EXPARTIJNR2|
+|ExternalParcelId|EXTERNPARTIJID|
+|PackageQuantity|FUSTAANTAL|
+|PackageId|FUSTCOD|
+|ContentBunch|INHBOS|
+|ContentColli|INHOUD|
+|BarePrice|KALEPRIJS|
+|Color|KLEUR|
+|ClockTrans|KLOKTRANS|
+|Colli|KOLLI|
+|BuyerNo|KOPERNR|
+|GrowerId|KWEKER|
+|CountryId|LAND|
+|SupplierId|LEVCOD|
+|SupplierInvoiceNr|HPARTIJ.LEVFACTNR|
+|SourceId|OORSPRONG|
+|Remark|OPMERKING|
+|ParcelDate|PARTIJDAT|
+|ParcelPurchasePrice2|PARINKPR2|
+|PlateNo|PLAATNR|
+|Price|PRIJS|
+|PriceIncl|PRIJSINCL|
+|PriceInCurrency|PRIJSINVAL|
+|RestQuantity|REST|
+|S01|SORT1|
+|S02|SORT2|
+|S03|SORT3|
+|S04|S4|
+|S05|S5|
+|S06|S6|
+|S07|S7|
+|ParcelS01Id|SCODE1|
+|ParcelS02Id|SCODE2|
+|ParcelS03Id|SCODE3|
+|ParcelS04Id|SCODE4|
+|ParcelS05Id|SCODE5|
+|ParcelS06Id|SCODE6|
+|ParcelS07Id|SCODE7|
+|ShipmentNo|SHIPMENTNO|
+|TotalCostPrice|TOTAALKOSTPRIJS|
+|TransId|TRANS|
+|TransIdLong|TRANSLANG|
+|AuctionId|VEILCOD|
+|VParcelId|VPARTIJNR|
+|SeatNo|ZETELNR|
 
 ## BandRef (bandref)
 
@@ -670,15 +798,15 @@
 |sellerId|VERKCOD|
 |externalOrderId|EXBESTID|
 |compositionOrderId|COMPBESTID|
-|orderId|ORDNR|
-|remark2|OPMERKING2|
+|orderId|BESTID|
+|remark2|OPMERK2|
 |packageCarrier|FUSTDRAGER|
 |externalSupplierId|EXLEVCOD|
 |auctionGrp|VEILGRP|
 |creation|CREATIE|
 |bouquet|BOEKET|
 |deliveryDate|LEVERDAT|
-|orderApprovalId|LEVBESTEL|
+|orderApprovalId|ISLEVBEST|
 |priceFixed|FIXEDPRICE|
 |shipmentNo|SHIPMENTNO|
 |maxPurchasePrice|MAXINK|
@@ -689,9 +817,9 @@
 |priced|GEPRIJSD|
 |orderType|BESTELTYPE|
 |shippingId|VERSCHEPID|
-|s01|S1|
-|s02|S2|
-|s03|S3|
+|s01|ARTLEN|
+|s02|GEWICHT|
+|s03|POTMAAT|
 |s04|S4|
 |s05|S5|
 |s06|S6|
@@ -711,6 +839,7 @@
 |deadlineNr|DEADLINENR|
 |supplierNote|SUPPLIERNOTE|
 |version|_VERSION|
+|pKey|_PKEY|
 |reservationTextId|RESERVATIONTEXTID|
 
 ## DivisionPriceLog (VerdPrsLog)
@@ -724,7 +853,7 @@
 |raisePrcnt|OPSLAGPERC|
 |finalAmount|EINDBEDRAG|
 |sequenceNumber|VOLGORDE|
-|creation|CREATIE|
+|creation|CREATED|
 |priceLogId|PRSLOGID|
 |onCustomerId|OPDEBNR|
 |pKey|PKEY/RECNO|
@@ -735,7 +864,7 @@
 |API|DATABASE|
 |:--|:--|
 |toDebtor|TODEBNR|
-|toOrderNr|TOORDNR|
+|toOrderNr|TOORDNR (DEBNR)|
 |customerId|DEBNR|
 |orderNr|ORDNR|
 |articleId|ARTNR|
@@ -748,8 +877,8 @@
 |userId|USERID|
 |packageCredit|FUSTCRED|
 |packageQuantity|FUSTAANTAL|
-|reasonForCredit|REDENR|
-|approvingSalesUser|USERID|
+|reasonForCredit|CREDRED|
+|approvingSalesUser|CREDVERK|
 |processingChoice|VERWKEUZE|
 |creditRemark|CREDOPM|
 |processinText|VERWTEXT|
@@ -760,7 +889,7 @@
 |returnedProduct|PRODRETOUR|
 |registrationDate|REGDAT|
 |statusId|STATUSID|
-|s01|S1|
+|s01|ARTLEN|
 |countryId|LANDCOD|
 |accountManager|ACCTMNGR|
 |stateColor|STATUSKLEUR|
@@ -784,7 +913,7 @@
 |date|ORDCREDIT.DATUM|
 |vParcelId| ORDCREDIT.VPARTIJNR|
 |creditQuantity|ORDCREDIT.CREDAANTAL|
-|creditPrice|ORDCREDIT.CREDPRIJ|
+|creditPrice|ORDCREDIT.CREDPRIJS|
 |remark|ORDCREDIT.OPMERKING|
 |processingChoice|ORDCREDIT.VERWKEUZE|
 |userId|ORDCREDIT.USERID|
@@ -802,11 +931,12 @@
 |API|DATABASE|
 |:--|:--|
 |parcelId|PARTIJNR|
-|stockId|VOORCOD|
+|stockId|DEVISIE|
 |articleKey|ARTKEY|
 |lineArticleId|LIJNARTNR|
 |orgParcelId|ORGPARTNR|
 |growerArticleId|KWEKARTNR|
+|exArticleId|EXARTNR|
 |articleId|ARTNR|
 |description|ARTTXT|
 |qualityId|KWALCOD|
@@ -829,7 +959,7 @@
 |scanCode|SCANCODE|
 |code|CODE|
 |valid|VALID|
-|priceParcelPurchase||
+|priceParcelPurchase|INKOOPPRIJS|
 |buyerId|INKOPERNR|
 |minPurchase|MINAFNAME|
 |amount2|AANTAL2|
@@ -839,14 +969,13 @@
 |contentBunch|INHBOS|
 |contentPlate|INHPLAAT|
 |contentTrolley|INHKAR|
-|s01|S1|
-|s02|S2|
-|s03|S3|
+|s01|ARTLEN|
+|s02|GEWICHT|
+|s03|POTMAAT|
 |s04|S4|
 |s05|S5|
 |s06|S6|
 |s07|S7|
-|parcelS01Id|SCODE0|
 |parcelS01Id|SCODE1|
 |parcelS02Id|SCODE2|
 |parcelS03Id|SCODE3|
@@ -854,9 +983,16 @@
 |parcelS05Id|SCODE5|
 |parcelS06Id|SCODE6|
 |parcelS07Id|SCODE7|
+|parcelS01Id|SCODE1|
+|parcelS02Id|SCODE2|
+|parcelS03Id|SCODE3|
+|parcelS04Id|SCODE4|
+|parcelS05Id|SCODE5|
+|parcelS06Id|SCODE66|
+|parcelS07Id|SCODE7|
 |raiseCnt|OPSLAGC|
 |available|LEVERBAAR|
-|countryId|LANDCOD|
+|countryId|LAND|
 |sellerId|VERKCOD|
 |priceGroup1|PRIJSGRP_1|
 |priceGroup2|PRIJSGRP_2|
@@ -890,7 +1026,7 @@
 |bestOrigin|BESTORIGIN|
 |volumeStem|VOLUMELOS|
 |bouquet|BOEKET|
-|exPhotoURL|EXTURL|
+|exPhotoURL|EXFOTOURL|
 |raisePrcnt|OPSLAGP|
 |featureCod|FEATURECOD|
 |colorId|COLORNR|
@@ -920,6 +1056,7 @@
 |productGroupId|CELCOD|
 |vParcelId|VPARTIJNR|
 |noPriceLabel|NOPRIJSSTK|
+|floirdayGUID|FDAYGUID|
 
 ## OrderlistComponents (bestbos)
 
@@ -927,22 +1064,24 @@
 |:--|:--|
 |articleId|ARTNR|
 |description|ARTTXT|
-|colorId|KLEURCODE|
+|colorId|KLEURCOD|
 |priceParcelPurchase1|INKPRIJS1|
 |priceParcelPurchase2|INKPRIJS2|
 |quantity|AANTAL|
 |parcelId|PARTIJNR|
 |bParcelId|BPARTIJNR|
-|s01|S1|
+|s01|LENGTE|
 |s02|S2|
 |remark|OPMERKING|
 |supplierId|LEVCOD|
 |contentColli|INHKOLLI|
 |componentWeight|COMPONENTGEWICHT|
+|quantityPer|AANTALPER|
+|assortment|ASSORT|
 |version|_VERSION|
 |pKey|PKEY/RECNO|
 
-## Bands (BANDS)
+## Constants/Bands (BANDS)
 
 |API|DATABASE|
 |:--|:--|
@@ -950,7 +1089,7 @@
 |description|OMSCHR|
 |version|_VERSION|
 
-## Carriers (TRANSPTR)
+## Constants/Carriers (TRANSPTR)
 
 |API|DATABASE|
 |:--|:--|
@@ -971,7 +1110,7 @@
 |faxNr|FAXNR|
 |afasId|AFASCODE|
 
-## CustomerGroups (DEBGROEP)
+## Constants/CustomerGroups (DEBGROEP)
 
 |API|DATABASE|
 |:--|:--|
@@ -982,7 +1121,7 @@
 |saleUnit|SALESUNIT|
 |logisticsUnit|ISLOGISTIEKEUNIT|
 
-## CustomerGroupRelations (DebnrGPCod)
+## Constants/CustomerGroupRelations (DebnrGPCod)
 
 |API|DATABASE|
 |:--|:--|
@@ -995,7 +1134,7 @@
 
 |API|DATABASE|
 |:--|:--|
-|productionLineId||
+|productionLineId|FACTDAT|
 |reminder1|MANEN1|
 |reminder2|MANEN2|
 |reminder3|MANEN3|
@@ -1037,7 +1176,7 @@
 |exportTime|EXPORTTIME|
 |remark|OPMERKING|
 |sellerId|VERKCOD|
-|treePrice|STAFFELPRIJS|
+|treePrice|STAFFELPRS|
 |registrationDate|REGDAT|
 |orderNr|ORDERNR|
 |colliTrackerTransactionID|COLLTRACKERTRANSACTIONID|
@@ -1056,7 +1195,7 @@
 |invoiceNr|FACTNR|
 |invoiceDate|FACTDAT|
 |paymentDate|BETDAT|
-|paymentId|BETCOD|
+|paymentId|BETCODE|
 |amount|BEDRAG|
 |currency|VALUTA|
 |userId|USERID|
@@ -1065,7 +1204,7 @@
 |creation|CREATIE|
 |feature|KENMERK|
 |uniqueId|UNIQUEID|
-|webPaymentId|WEBBETTYPE|
+|webPaymentId|WEBBETID|
 |terminalId|TERMINALID|
 |sendEmail|EMAILSEND|
 |printInvoiceNr|PRINTFACTUURNUMMER|
@@ -1075,22 +1214,22 @@
 |pKey|PKEY/RECNO|
 |version|_VERSION|
 
-## PaymentHistory
+## PaymentHistory (HBETAAL)
 
 |API|DATABASE|
 |:--|:--|
 |customerId|DEBNR|
 |invoiceNr|FACTNR|
 |invoiceDate|FACTDAT|
-|expirationDate|VEVDAT|
+|expirationDate|VERVDAT|
 |paymentDate|BETDAT|
-|paymentId|BETCOD|
+|paymentId|BETCODE|
 |amount|BEDRAG|
 |currency|VALUTA|
 |userId|USERID|
 |checkId|CHECKNR|
 |description|TEXT|
-|invoiceAmount|FACTBEDR|
+|invoiceAmount|FACTBEDRAG|
 |uniqueId|UNIQUEID|
 |surchargePrcnt|SURCHARGEPERCENTAGE|
 |surchargeRaise|SURCHARGEOPSLAG|
@@ -1125,7 +1264,7 @@
 |pKey|PKEY/RECNO|
 |version|_VERSION|
 
-## SalesDivisions (VERDEEL)
+## SalesDivisions (VERDEEL) (MET JOINS OP PARTIJ)
 
 |API|DATABASE|
 |:--|:--|
@@ -1141,15 +1280,15 @@
 |packageQuantity|FUSTAANTAL|
 |contentColli|INHKOLLI|
 |description|ARTTXT|
-|s1|S1|
-|salesPrice1|VERKPRIJS|
-|saleAmount|BESTAANT|
+|s1|ARTLEN|
+|salesPrice1|PART1PRIJS|
+|saleAmount|VERKPRIJS|
 |packageId|FUSTCOD|
 |userId|USERID|
 |productGroupId|CELCOD|
 |vParcelId|VPARTIJNR|
 |packlistId|PAKLIJSTNR|
-|salesRecordId||
+|salesRecordId|BARCODE|
 |bouquet|BOEKET|
 |orderprice|BESTPRIJS|
 |remark|OPMERKING|
@@ -1166,21 +1305,22 @@
 |registrationDate|REGDAT|
 |orderListId|BESTCOD|
 |originalColli|ORGIKOL|
-|retailPrice|VERKPRIJS|
+|retailPrice|RETPRIJS|
 |orderDate|ORDDAT|
 |scanCode|SCANCODE|
 |contentBox|INHDOOS|
 |pKey|PKEY/RECNO|
 |version|_VERSION|
-|orderParcelId||
+|orderParcelId|BESTELPARTIJNR|
 |reservationTextId|RESERVATIONTEXTID|
-|articleLength|S1|
+|OrderId|BESTID|
+|articleLength|ARTLEN|
 |potsize|POTMAAT|
 |s4|S4|
 |s5|S5|
 |s6|S6|
 |s7|S7|
-|weight||
+|weight|GEWICHT|
 |orderId|BESTID|
 |deadlineNR|DEADLINENR|
 
@@ -1188,25 +1328,25 @@
 
 |API|DATABASE|
 |:--|:--|
-|id||
+|id|BERCOD|
 |customerId|DEBNR|
 |orderNr|ORDNR|
 |invoiceNr|FACTNR|
 |department|AFDELING|
 |description|BERTXT|
-|amount||
-|percentage||
-|calculationMethod||
+|amount|BERSOM|
+|percentage|BERPERC|
+|calculationMethod|BERKSTIEK|
 |vatId|BTWCOD|
 |exchangeRate|KOERS|
-|totalAmount||
-|totalAmountOver||
+|totalAmount|PRINTBEDR|
+|totalAmountOver|PRINTOVER|
 |creation|CREATIE|
 |version|_VERSION|
-|costCode||
+|costCode|BERCOD|
 |deadlinenr|DEADLINENR|
 
-## SalesHistoryBouquets (HORDER)
+## SalesHistoryBouquets (HORDER) (met join op HORDERKP)
 
 |API|DATABASE|
 |:--|:--|
@@ -1215,10 +1355,10 @@
 |contentBox|INHDOOS|
 |contentBunch|INHBOS|
 |contentColli|INHCOLLI|
-|currencyId||
-|customerCompanyName||
+|currencyId|VALCOD|
+|customerCompanyName|DEBNAAM|
 |customerCountryId|LANDCOD|
-|customerFinId||
+|customerFinId|DEBFINID|
 |customerId|DEBNR|
 |department|AFDELING|
 |description|ARTTXT|
@@ -1228,13 +1368,13 @@
 |growerEAN|KWEKEREAN|
 |growerId|KWEKCOD|
 |invoiceDate|FCTDAT|
-|invoiceGoodsAmount||
+|invoiceGoodsAmount|HORDERKP.TOTGOEDER|
 |invoiceNr|FACTNR|
-|invoiceTotalAmount||
+|invoiceTotalAmount|HORDERKP.FACTTOTAAL|
 |orderDate|ORDDAT|
 |orderNr|ORDNR|
 |packageQuantity|FUSTAANTAL|
-|packagePrice||
+|packagePrice|VERKFUST|
 |packageId|FUSTCOD|
 |parcelDate|PARTDAT|
 |parcelNo|PARTIJNR|
@@ -1248,15 +1388,15 @@
 |parcelS07Id|SCODE7|
 |pKey|PKEY/RECNO|
 |priceBare|KALEPRIJS|
-|priceEndCustomer||
+|priceEndCustomer|KLANTPRIJS|
 |priceOnInvoicePurchase||
 |priceOnInvoiceSales||
 |priceOnPurchase||
 |priceParcelPurchase||
 |priceParcelSales||
 |priceWithCostsReductions||
-|productGroupId||
-|regDate||
+|productGroupId|CEL|
+|regDate|REGDAT|
 |s01|S1|
 |s02|S2|
 |s03|S3|
@@ -1297,8 +1437,8 @@
 |exhangeRateActual|KOERSREAL|
 |invoiceDate|FCTDAT|
 |commission|COMMISSIE|
-|oneTimePackageAmount||
-|returnablePackageAmount||
+|oneTimePackageAmount|EMFUST|
+|returnablePackageAmount|MMFUST|
 |packageRentAmount|FUSTHUUR|
 |vatLow|BTWLAAG|
 |vatHigh|BTWHOOG|
@@ -1310,17 +1450,18 @@
 |financialAdministrationId|FINADMIN|
 |goodsAmount|TOTGOEDER|
 |carrierId|TRANSPTR|
-|auctionTradeTransaction||
+|auctionTradeTransaction|OVERGEVEN|
 |printedBy|PRINTBY|
 |exchangeRateActual|KOERSREAL|
 |printedByUserId||
 |packageQuantity|FUSTAANTAL|
 |packageAmount|FUSTPRIJS|
-|totalPurchaseValue||
-|oneTimePackageValue||
-|returnablePackageValue||
+|totalPurchaseValue|INKOOP1|
+|oneTimePackageValue|EMFUSTALL|
+|returnablePackageValue|MMFUSTALL|
 |printTime|PRINTTIJD|
-|packagePurchaseAmount|FUSTPRIJS|
+|packagePurchaseAmount|TOTFUSTINK|
+|pkey|_PKEY|
 |version|_VERSION|
 
 ## OrderApprovals (AccLevBestVerd)
@@ -1337,7 +1478,7 @@
 |confirmationDate|BEVESTIGD|
 |salesUser|VERUSERID|
 |orderDate|ORDDAT|
-|contentColli|INHCOLLI|
+|contentColli|INHOUDKOLLI|
 |articleID|ARTNR|
 |transportCostPerStem|TRANSPORTKOSTENPERSTEEL|
 |growerConfirmationStatus|KWEKERAKKOORDSTATUS|
@@ -1355,34 +1496,36 @@
 
 |API|DATABASE|
 |:--|:--|
-|packageId|FUSTID|
-|contentBox|INHDOOS|
-|isBouquet|BOEKET|
-|supplierId|LEVCOD|
-|divisionType|VERDTYPE|
-|pickerId|verkcod|
-|packListId|PAKLIJSTID|
-|pickingTime|PICKTIJD|
-|divisionId|BARCODE|
-|parcelCod|BOXCOD|
-|divided|VERDEELD|
-|packageAmount|FUSTAANTAL|
-|credit|CREDIT|
-|quantity|LEVTOTAAL|
-|contentColli|INKHOLLI|
-|totalColli|TOTCOLLI|
-|pickTime|PAKTIME|
-|orderTime|ORDTIME|
-|orderNr|ORDNR|
-|vParcelId|VPARTIJNR|
-|parcelId|PARTIJNR|
-|articleId|ARTNR|
-|customerId|DEBNR|
+|crossdeck|CROSSDECK|
 |stockId|KASSA_ID|
-|crossdock|CROSSDOCK|
+|customerId|DEBNR|
+|articleId|ARTNR|
+|parcelId|PARTIJNR|
+|vparcelId|VPARTIJNR|
+|ordernr|ORDNR|
+|orderTime|ORDTIME|
+|pickTime|PAKTIME|
+|totalColli|TOTKOLLI|
+|contentColli|INHKOLLI|
+|quantity|LEVTOTAAL|
+|credit|CREDIT|
+|packageamount|FUSTAANTAL|
+|divided|VERDEELD|
+|parcelcod|BOXCOD|
+|divisionId|BARCODE|
+|pickingTime|PICKTIJD|
+|packListId|PAKLIJSTID|
+|divisionType|VERDTYPE|
+|supplierId|LEVCOD|
+|isBouquet|BOEKET|
+|contentBox|INHDOOS|
+|packageId|FUSTCOD|
 |orderDate|ORDDAT|
 |deliveryDate|LEVERDAT|
-|version|_VERSION|
+|seller|VERKCOD|
+|picker|Picker|
+|Version|_VERSION|
+|pKey|_PKEY|
 
 ## EntryControl (BOX)
 
@@ -1393,6 +1536,8 @@
 |registerPartialParcels|PARTSKIP|
 |lastClearedAt|GELEEGD|
 |webshopAvailable|BINNENX|
+|pKey|_PKEY|
+|version|_VERSION|
 
 ## EntryControlDivisions (BOX_VDL)
 
@@ -1411,13 +1556,13 @@
 |quantity|AANTAL|
 |originalQuantity|ORGAANTAL|
 |dividedQuantity|VERDEELD|
-|colliCapacity|ContentColli|
+|colliCapacity|INHKOLLI|
 |packageId|FUSTCOD|
 |packageQuantity|FUSTAANTAL|
 |loadQuantity|LAADSTUKS|
 |loadMark|LAADMARK|
 |barcode|BARCODE|
-|toStock|toVRRD|
+|toStock|TOVRRD|
 |fromCustomer|FROMDEB|
 |remark|OPMERKING|
 |remark2|OPMERKING2|
@@ -1427,20 +1572,23 @@
 |startPickTime|SPICKTIJD|
 |exPickTime|EXPICKTIJD|
 |picker|PICKER|
+|pickerUserId|PICKERUID|
 |divisionType|VERDTYPE|
 |orderParcelId|BESTPARTNR|
 |divisionId|VERDEELID|
 |createdBy|CREATEDBY|
-|pickerUserId|PICKERUID|
 |isLabelPrint|STICKPRINT|
 |firstLabelPrint|EERSTEPRINT|
 |reservationTextId|RESERVATIONTEXTID|
+|pKey|_PKEY|
+|version|_VERSION|
+
 
 ## EntryControlParcels (BOX_PTY)
 
 |API|DATABASE|
 |:--|:--|
-|entryControlId||
+|entryControlId|BOXCOD|
 |stockId|VOORCOD|
 |parcelId|PARTIJNR|
 |vParcelId|VPARTIJNR|
@@ -1451,15 +1599,16 @@
 |colli|KOLLI|
 |quantity|AANTAL|
 |dividedQuantity|VERDEELD|
-|capacity||
+|capacity|INHOUD|
 |createdQuantity|CREATAANT|
 |lastPrintedQuantity|LASTPRINT|
-|parcelDate||
+|parcelDate|PARTIJDAT|
 |estimatedDeliveryDate|ETDELDAT|
-|createdBy||
+|createdBy|CREATEDBY|
 |seatNumber|ZETELNR|
 |firstPrintDate|EERSTEPRINT|
 |checkInDate|BINNENMDT|
+|pkey|_PKEY|
 |version|VERSION|
 
 ## Shipments (Verschep)
@@ -1494,111 +1643,125 @@
 |AirportDepartureID|AIRPORDEPARTUREID|
 |AirportArrivalId|AIRPORTARRIVALID|
 |DeliveryLocationId|LEVERLOCATIEID|
+|pKey|_PKEY|
+|version|_VERSION|
 
-## Sales (Orderreg)
+## Sales (Orderreg) (joined met ORDERKOP )
 
 |API|DATABASE|
 |:--|:--|
-|salesRecordId||
-|amountPackagePurchase|FUSTAANTAL|
+|allocationId|VERDEELID|
+|Amountpackagepurchase|FUSTINK|
 |amountPacked|INGEPAKT|
 |amountSale|VERKBEDRAG|
-|articleGroupId|ARTGRPCOD|
+|articleGroupId|ARGRPCOD|
 |articleId|ARTNR|
 |barePrice|KALEPRIJS|
-|colorId||
-|contentBox|INHDOOS|
-|contentColli|INHKOLLI|
-|creation|CREATIE|
-|description|ARTTXT|
-|growerId|KWEKCOD|
+|BRType20Barcode|BRType20Barcode|
+|ColorId|COLORNRPARTIJ|
+|CommercialParcelId|CPARTIJNR|
+|ContentBox|INHDOOS|
+|ContentColli|INHKOLLI|
+|Country|LANDSTAT|
+|Creation|CREATIE|
+|CustomerId|DEBNR|
+|DeadlineNr|DEADLINENR|
+|DeliveryDate|LEVERDATUM|
+|DepartureDate|VERTREKDAG|
+|Description|ARTTXT|
+|Division|AFDELING|
+|DivisionId|BARCODE|
+|DivisionType|VERDTYPE|
+|FinalCheck|EINDCHECK|
+|FloridayDeliveryOrderId|DeliveryOrderId|
+|FloridayFulfillmentRequestId|FulfillmentRequestId|
+|FloridaySalesOrderId|FloridaySalesOrderId|
+|FromCustomer|FROMDEBNR|
+|FromOrderNr|FROMORDNR|
+|GrowerID|KWEKCOD|
+|ImageName|FOTONAAM|
+|IsBouquet|BOEKET|
+|IsCommercialParcel|ISCOMPART|
+|NoPriceLabel|NOPRIJSSTK|
+|Offer|AANBIED|
 |orderDate|ORDDAT|
 |orderNr|ORDNR|
-|orderParcelId|BESTPARTNR|
-|packageId|FUSTCOD|
-|packlistId|PAKLIJSTNR|
-|parcelId|PARTIJNR|
-|parcelS01Id|SCODE1|
-|parcelS02Id|SCODE2|
-|parcelS03Id|SCODE3|
-|parcelS04Id|SCODE4|
-|parcelS05Id|SCODE5|
-|parcelS06Id|SCODE6|
-|price1Sales|part1prijs|
-|price2Sales|part2prijs|
-|price3Sales|part3prijs|
-|priceBase|BASISPRIJS|
-|priceCustomer|KLANTPRIJS|
+|OrderParcelId|BESTPARTNR|
+|PackageId|FUSTCOD|
+|ParcelId|PARTIJNR|
+|ParcelPurchaseNo|VPARTIJNR|
+|parcelReceived|BOXBINNEN|
+|ParcelS01Id|SCODE1|
+|ParcelS02Id|SCODE2|
+|ParcelS03Id|SCODE3|
+|ParcelS04Id|SCODE4|
+|ParcelS05Id|SCODE5|
+|ParcelS06Id|SCODE6|
+|pickerId|PICKER|
+|price1Sales|PART1PRIJS|
+|Price2Sales|PART2PRIJS|
+|Price3Sales|PART3PRIJS|
+|PriceBase|BASISPRIJS|
+|PriceCustomer|KLANTPRIJS|
+|PriceGroup1|PRIJSGRP_1|
+|PriceGroup2|PRIJSGRP_2|
+|PriceGroup3|PRIJSGRP_3|
+|PriceGroup4|PRIJSGRP_4|
+|PriceGroup5|PRIJSGRP_5|
+|PriceGroup6|PRIJSGRP_6|
+|PriceGroup7|PRIJSGRP_7|
+|PriceGroup8|PRIJSGRP_8|
+|PriceGroup9|PRIJSGRP_9|
+|PriceGroup10|PRIJSGRP_10|
+|PriceGroup11|PRIJSGRP_11|
+|PriceGroup12|PRIJSGRP_12|
+|PriceGroup13|PRIJSGRP_13|
+|PriceGroup14|PRIJSGRP_14|
+|PriceGroup15|PRIJSGRP_15|
+|PriceGroup16|PRIJSGRP_16|
+|PriceGroup17|PRIJSGRP_17|
+|PriceGroup18|PRIJSGRP_18|
+|PriceGroup19|PRIJSGRP_19|
+|PriceGroup20|PRIJSGRP_20|
 |priceIncl|INCLPRIJS|
 |priceOrder|BESTPRIJS|
-|priceOrginalParcel||
-|pricePackage||
-|pricePurchase||
-|priceRetail||
-|remark|OPMERKING|
-|remark2|OPMERKING2|
-|remark3|OPMERKING3|
-|s01|S1|
-|s02|S2|
-|s03|S3|
-|s04|S4|
-|s05|S5|
-|s06|S6|
-|supplierId|LEVCOD|
-|totalColli||
-|pKey|PKEY/RECNO|
-|version|_VERSION|
-|invoicePrinted||
-|invoiceNr||
-|invoiceDate||
-|customerId|DEBNR|
-|divisionType|VERDTYPE|
-|userId|USERID|
-|divisionId|BARCODE|
-|stockId|DEVISIE|
-|departureDate|VERTREKDAG|
-|priceGroup1|PRIJSGRP_1|
-|priceGroup2|PRIJSGRP_2|
-|priceGroup3|PRIJSGRP_3|
-|priceGroup4|PRIJSGRP_4|
-|priceGroup5|PRIJSGRP_5|
-|priceGroup6|PRIJSGRP_6|
-|priceGroup7|PRIJSGRP_7|
-|priceGroup8|PRIJSGRP_8|
-|priceGroup9|PRIJSGRP_9|
-|priceGroup10|PRIJSGRP_10|
-|priceGroup11|PRIJSGRP_11|
-|priceGroup12|PRIJSGRP_12|
-|priceGroup13|PRIJSGRP_13|
-|priceGroup14|PRIJSGRP_14|
-|priceGroup15|PRIJSGRP_15|
-|priceGroup16|PRIJSGRP_16|
-|priceGroup17|PRIJSGRP_17|
-|priceGroup18|PRIJSGRP_18|
-|priceGroup19|PRIJSGRP_19|
-|priceGroup20|PRIJSGRP_20|
-|noPriceLabel|NOPRIJSSTK|
-|parcelReceived|BOXBINNEN|
-|pickerId|PICKER|
-|deliveryDate||
-|totalStems||
-|parcelPurchaseNo||
-|isCommercialParcel||
-|commercialParcelId|CPARTIJNR|
-|brType20Barcode|BRTYPE20BARCODE|
-|scanCode|SCANCODE|
+|priceOriginalParcel|ORGPARTPR|
+|pricePackage|FUSTVERK|
+|pricePurchase|TOTINK2|
+|priceRetail|RETPRIJS|
 |productGroupId|CELCOD|
-|country|LANDSTAT|
-|sellerId|VERKCOD|
-|registrationDate|REGDAT|
-|fromCustomer|FROMDEBNR|
-|division|VERDEELID|
-|isBouquet|BOEKET|
-|allocationId||
-|imageName|FOTONAAM|
-|subCustomerId|SUBDEBNR|
-|offer|AANBIED|
-|deadlinNR|deadlineNR|
+|RegistrationDate|REGDAT|
+|Remark|OPMERKING|
+|Remark2|OPMERKING2|
+|Remark3|OPMERKING3|
+|S01|S1|
+|S02|S2|
+|S03|S3|
+|S04|S4|
+|S05|S5|
+|S06|S6|
+|SalesRecordId|BARCODE|
+|ScanCode|SCANCODE|
+|SellerId|VERKCOD|
+|StockId|DEVISIE|
+|SubCustomerId|SUBDEBNR|
+|SupplierId|LEVCOD|
+|TotalColli|TOTKOLLI|
+|TotalStems|LEVTOTAAL|
+|UserId|USERID|
+|InvoiceDate|ORDERKOP.FCTDAT|
+|InvoiceNr|ORDERKOP.FACTNR|
+|InvoicePrinted|ORDERKOP.FCTPRNID|
+|InvoiceName|ORDERKOP.ORDNAAM|
+|InvoiceAddress|ORDERKOP.ORDADRES|
+|InvoicePostalCode|ORDERKOP.ORDPC|
+|InvoiceCity|ORDERKOP.ORDPLAATS|
+|InvoiceCountryId|ORDERKOP.ORDLANDCOD|
+|InvoiceSaleAmount|ORDERKOP.TOTGOEDER|
+|InvoiceTotalQuantity|ORDERKOP.TOTSTUKS|
+|TransportRouteId|ORDERKOP.TRANSPID|
+|pKey|_PKEY|
+|version|VERSION|
 
 ## BouquetComposition (SGART)
 
@@ -1622,6 +1785,7 @@
 |API|Database|
 |:--|:--|
 |Version|_VERSION|
+|pKey|_PKEY|
 |ArticleId|ARTNR|
 |PurchasePrice|ARTNRDEEL|
 |SalesPrice|VERKOOP|
@@ -1652,14 +1816,14 @@
 |:--|:--|
 |articleId|ARTNR|
 |description|ARTTXT|
-|componentArticleId||
-|quantity||
-|s1||
-|s2||
-|s3||
-|remark||
+|componentArticleId|ARTNRDEEL|
+|quantity|AANTAL|
+|s1|S1|
+|s2|S2|
+|s3|S3|
+|remark|OPMERKING|
 |supplierId|LEVCOD|
-|quantityPer||
-|OrderparcelId||
+|quantityPer|AANTALPER|
+|OrderparcelId|BESTELPARTIJNR|
 |version|VERSION/RECNO|
 |pkey|PKEY|
