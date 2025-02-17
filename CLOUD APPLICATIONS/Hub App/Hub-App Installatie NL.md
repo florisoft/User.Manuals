@@ -29,7 +29,7 @@ Nadat u op de link heeft geklikt, is er een .zip bestand gedownload.
 |**Stap**|Uitleg|
 |-|-|
 |1| Navigeer naar de map waar het .zip bestand is gedownload.|
-|2| Maak bijvoorbeeld op de C:\ schijf een folder FlorisoftApps aan. Met daarin een Hub folder en daarin een Bin folder. <details><summary>**Klik hier om de voorbeeld afbeelding te zien!**</summary><img src="Media/Installatie Hub-App/image2.png"></details>|
+|2| Maak bijvoorbeeld op de C:\ schijf een folder FlorisoftApps aan. Met daarin de klantnaam folder, een hub folder en daarin een Bin folder. Bijvoorbeeld: C:\FlorisoftApps\(Klantnaam)\Hub\bin <details><summary>**Klik hier om de voorbeeld afbeelding te zien!**</summary><img src="Media/Installatie Hub-App/image2.png"></details>|
 |3| Met uw rechtermuisknop, pak het bestand uit en plaats de bestanden in de bin folder, bijvoorbeeld in C:\FlorisoftApps\(Klantnaam)\Hub\bin\. Belangrijk: De app files moeten altijd in een bin folder staan. Dat verwacht het update proces. Zorg er ook voor dat er geen spaties in de namen van de folders worden geplaatst.|
 |4| Binnen de map, staat een bestand genaamd 'Florisoft.Hub.Desktop'. Zet hiervan een snelkoppeling op het bureaublad.|
 |5| Open de app. U krijgt het volgende scherm te zien. Klik op het hamburger icoon rechtsboven. <details><summary>**Klik hier om de voorbeeld afbeelding te zien!**</summary><img src="Media/Installatie Hub-App/image3.png"></details>|
