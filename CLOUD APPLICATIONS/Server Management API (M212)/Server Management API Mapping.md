@@ -704,6 +704,7 @@
 |AuctionId|VEILCOD|
 |VParcelId|VPARTIJNR|
 |SeatNo|ZETELNR|
+|ParcelId|PARTIJNR|
 
 ## BandRef (bandref)
 
