@@ -22,7 +22,7 @@ In deze handleiding leest u hoe u uw StoreCove-account koppelt aan uw Florisoft 
 | Stap | Uitleg |
 |:-:|:--|
 | **1** | Ga naar uw StoreCove-account. Klik op de **Integrator**-header in uw accountpagina en vervolgens op **API Keys**. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/1.png"></details> |
-| **2** | U wordt nu doorgestuurd naar de pagina: https://app.storecove.com/en/api_keys. Kopieer de API-key van deze pagina door op het klembord-icoon te klikken. Houd de API-key beschikbaar; deze heeft u nodig bij de volgende stappen. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="media/2.png"></details> |
+| **2** | U wordt nu doorgestuurd naar de pagina: https://app.storecove.com/en/api_keys. Kopieer de API-key van deze pagina door op het klembord-icoon te klikken. Houd de API-key beschikbaar; deze heeft u nodig bij de volgende stappen. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/2.png"></details> |
 
 ## Instellen van de API-key in de policies
 
@@ -30,7 +30,7 @@ In deze handleiding leest u hoe u uw StoreCove-account koppelt aan uw Florisoft 
 
 | Stap | Uitleg |
 |:-:|:--|
-| **1** | Open het constantenscherm via het navigatorscherm. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="media/3.png"></details> |
+| **1** | Open het constantenscherm via het navigatorscherm. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/3.png"></details> |
 | **2** | Navigeer in het constantenscherm naar het volgende pad:<br>**Systeem → Users → Policybeheer** |
 | **3** | Maak hier een nieuwe policy aan en geef deze een passende naam. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/4.png"></details> |
 | **4** | Wijs de policy toe aan de relevante systeemgebruikers met de **Bewerken**-knop en klik daarna op **Opslaan**. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/5.png"></details> |
@@ -58,9 +58,9 @@ De onderstaande subkoppen betreffen instellingen die moeten worden geconfigureer
 | Stap | Uitleg |
 |:-:|:--|
 | **1** | Open het constantenscherm (indien u dit nog niet had geopend). <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/3.png"></details> |
-| **2** | Navigeer in het constantenscherm naar:<br>**Organen → Debiteurgegevens → Debiteuren**. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="media/11.png"></details> |
-| **3** | Vul onder het tabblad **Adres** de volgende velden in:<br><br>- Bedrijfsnaam<br>- Straat<br>- Plaats<br>- Postcode<br>- Land<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="media/12.png"></details> |
-| **4** | Vul onder het tabblad **Financieel** de volgende velden in:<br><br>- BTW-nummer debiteur (**Let op:** dit moet overeenkomen met het land ingevuld onder **Adres**).<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="media/13.png"></details>|
+| **2** | Navigeer in het constantenscherm naar:<br>**Organen → Debiteurgegevens → Debiteuren**. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/11.png"></details> |
+| **3** | Vul onder het tabblad **Adres** de volgende velden in:<br><br>- Bedrijfsnaam<br>- Straat<br>- Plaats<br>- Postcode<br>- Land<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/12.png"></details> |
+| **4** | Vul onder het tabblad **Financieel** de volgende velden in:<br><br>- BTW-nummer debiteur (**Let op:** dit moet overeenkomen met het land ingevuld onder **Adres**).<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/13.png"></details>|
 | **5** | Sla de wijzigingen op. |
 
 ## Exporteren van facturen naar StoreCove
