@@ -34,7 +34,7 @@ In deze handleiding leest u hoe u uw StoreCove-account koppelt aan uw Florisoft 
 | **2** | Navigeer in het constantenscherm naar het volgende pad:<br>**Systeem → Users → Policybeheer** |
 | **3** | Maak hier een nieuwe policy aan en geef deze een passende naam. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/4.png"></details> |
 | **4** | Wijs de policy toe aan de relevante systeemgebruikers met de **Bewerken**-knop en klik daarna op **Opslaan**. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/5.png"></details> |
-| **5** | Gebruik de zoekfunctie om te zoeken naar de policy:<br>**StoreCove**.<br><br>U krijgt de instelling: **Backoffice_Financial_Invoicing_InvoiceExport_Storecove_ApiKey**.<br><br>Vul bij deze policyinstelling de API-key in. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src=""></details> |
+| **5** | Gebruik de zoekfunctie om te zoeken naar de policy:<br>**StoreCove**.<br><br>U krijgt de instelling: **Backoffice_Financial_Invoicing_InvoiceExport_Storecove_ApiKey**.<br><br>Vul bij deze policyinstelling de API-key in. <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/6.png"></details> |
 | **6** | Sla vervolgens de policy op door op de **Opslaan**-knop te klikken. |
 | **7** | Wilt u meer weten over hoe policies werken en hoe u deze instelt? Raadpleeg dan de [Policy-handleiding](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Handleiding%20Policy%20Management%20NL.md).
 
