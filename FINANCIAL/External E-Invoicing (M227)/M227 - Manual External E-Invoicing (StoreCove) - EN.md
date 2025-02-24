@@ -15,7 +15,7 @@ In this manual, you will learn how to connect your StoreCove account to your Flo
 * A StoreCove account (subscription).
 * The Florisoft module **External E-Invoice Providers**. You can check this by clicking on the Florisoft logo in your navigator, then clicking the module button, and checking if the module **External E-Invoice Providers** is enabled.
 
-## Finding the API Key on the StoreCove Account Page
+## Finding the API Key & Legal Entity Id on the StoreCove Account Page
 
 :warning: **Note: This section may be outdated. StoreCove may change the website, which could place the API key elsewhere.**
 
@@ -23,6 +23,7 @@ In this manual, you will learn how to connect your StoreCove account to your Flo
 |:-:|:--|
 | **1** | Go to your StoreCove account. Click on the **Integrator** header on your account page and then on **API Keys**. <details><summary><b>Click here for an example!</b></summary><img src="Media/EN/1.png"></details> |
 | **2** | You will be redirected to the page: https://app.storecove.com/en/api_keys. Copy the API key from this page by clicking on the clipboard icon. Keep the API key handy; you will need it in the following steps. <details><summary><b>Click here for an example!</b></summary><img src="media/EN/2.png"></details> |
+|**3**|To the left of the legal entity there should be an Id followed by a set of numbers; this is the legal entity id. Copy and paste (the numbers) this to a notepad file, this way you will have easy access for later.|
 
 ## Setting the API Key in Policies
 
