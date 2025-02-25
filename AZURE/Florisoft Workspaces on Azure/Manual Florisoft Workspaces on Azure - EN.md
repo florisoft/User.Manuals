@@ -13,7 +13,7 @@ To follow the steps in this manual, you will need the following:
 
 - **Windows Hub-App**: This must be installed on your local Windows device. You can find installation instructions [here](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Hub%20App/Hub-App%20Installation%20EN.md#installing-the-windows-application).
 
-- **Job-Agent**: A properly installed and connected Job-Agent application, started from the Hub-App, that is linked to your cloud server.
+- **Job-Agent**: A properly installed and connected Job-Agent application, started from the Hub-App, that is linked to your cloud server. Use [this manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Windows%20Job-Agent%20application/Manual%20Job-Agent%20-%20EN.md) to set up the Job-agent on your local device.
 
 ## Logging into the Hub-App
 
