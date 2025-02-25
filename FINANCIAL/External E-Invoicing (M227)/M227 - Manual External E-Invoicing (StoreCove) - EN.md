@@ -60,7 +60,7 @@ The following subsections concern settings that must be configured for <u>all</u
 |:-:|:--|
 | **1** | Open the constants screen (if you haven't already). <details><summary><b>Click here for an example!</b></summary><img src="Media/EN/3.png"></details> |
 | **2** | Navigate in the constants screen to:<br>**Community → Debtor Data → Debtors**. <details><summary><b>Click here for an example!</b></summary><img src="Media/EN/11.png"></details> |
-| **3** | Under the **Addresses** tab, fill in the following fields:<br><br>- Company Name<br>- Street/Housenr<br>- Place<br>- Zip Code<br>- Country<details><summary><b>Click here for an example!</b></summary><img src="Media/EN/12.png"></details>|
+| **3** | Under the **Addresses** tab, fill in the following fields:<br><br>- Company Name<br>- Street/Housenr<br>- Place<br>- Zip Code<br>- Country<br>- EAN code<br>- GLN code<br>- KvK<br>- IBAN<details><summary><b>Click here for an example!</b></summary><img src="Media/EN/12.png"></details>|
 | **4** | Under the **Financial** tab, fill in the following fields:<br><br>- VATnr Debtor(**Note:** This must match the country entered under **Address**).<details><summary><b>Click here for an example!</b></summary><img src="Media/EN/13.png"></details>|
 | **5** | Save the changes. |
 
