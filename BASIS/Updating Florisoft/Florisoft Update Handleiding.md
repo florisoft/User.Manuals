@@ -1,7 +1,9 @@
 # Florisoft Update
 
 ### 1. Waarom moet ik een update doen?
-Een update van Florisoft is nodig wanneer je een aanpassing binnen Florisoft hebt aangevraagd (of Florisoft deze aanpassing nodig acht) en Florisoft je heeft laten weten dat deze aanpassing klaarstaat om opgeleverd te worden.
+Bij de aanschaf van een Florisoft .NET-licentie bent u verplicht de Florisoft .NET-modulen te onderhouden door de software up-to-date te houden via de door Florisoft aangeleverde updates. Hierdoor beschikt u altijd over de meest actuele versie van Florisoft .NET. 
+
+Florisoft adviseert om minimaal eens per maand een software-update uit te voeren. Indien u ondersteuning nodig heeft voor een softwarelicentie ouder dan 3 maanden, dient u eerst een software-update uit te voeren.  
 
 ### 2. Hoe doe ik een update?
 Volg deze stappen om de update te starten:
@@ -22,7 +24,8 @@ Als je nog geen `Florisoft Update-snelkoppeling` op je bureaublad hebt, neem dan
 4. Beantwoord de volgende vraag met `Yes`.<br><br>
 ![alt text](Media/image-2.png)
 
-5. Kies of je de `Stable` of de `Latest` versie wilt downloaden. Lees de toelichting bij beide opties om te bepalen welke versie je nodig hebt. Als je twijfelt, neem dan tijdens kantooruren contact op met Florisoft.<br><br>
+5. Wij adviseren om bij het updaten te kiezen voor de `Stable` versie, tenzij u een update uitvoert voor een specifieke aanpassing binnen Florisoft die u heeft aangevraagd (of Florisoft deze aanpassing nodig acht). Kies in dat geval voor de latest versie. Bij twijfel kunt u tijdens kantooruren contact opnemen met ons.
+<br><br>
 ![alt text](Media/image-3.png)
 
 6. In de Florisoft Navigator verschijnt een scherm waarin staat welke bestanden er worden gedownload. Afhankelijk van je internetsnelheid kan dit enige tijd duren.<br><br>
