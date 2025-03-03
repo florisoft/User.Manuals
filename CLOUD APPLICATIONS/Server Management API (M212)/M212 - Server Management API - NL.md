@@ -1933,3 +1933,35 @@ Each chapter will contain a table with the endpoints return object fields with a
 |orderParcelId|
 |externalPhotoUrl|
 
+## Constants/Costs
+
+|API|
+|:--|
+|Id|
+|Description|
+|Version|
+
+## Constants/Auctions
+
+|API|
+|:--|
+|Id|
+|Description|
+|EntryControlId|
+|BuyerNo|
+|pKey|
+|version|
+
+## SalesHistoryCosts
+
+|API|
+|:--|
+|customerId|
+|orderNr|
+|Invoicenr|
+|costsId|
+|amount|
+|remark|
+|checked| 
+|pKey|
+|version|

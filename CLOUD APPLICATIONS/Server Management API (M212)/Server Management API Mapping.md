@@ -1828,3 +1828,36 @@
 |OrderparcelId|BESTELPARTIJNR|
 |version|VERSION/RECNO|
 |pkey|PKEY|
+
+## Constants/Costs
+
+|API|Database|
+|:--|:--|
+|Id|KEY|
+|Description|TEXT|
+|Version|_VERSION|
+
+## Constants/Auctions
+
+|API|Database|
+|:--|:--|
+|Id|VEILCOD|
+|Description|VEILTEXT|
+|EntryControlId|BOXCOD|
+|BuyerNo|KOPERNR|
+|pKey|_PKEY|
+|version|_VERSION|
+
+## SalesHistoryCosts
+
+|API|Database|
+|:--|:--|
+|customerId|DEBNR|
+|orderNr|ORDNR|
+|Invoicenr|FACTNR|
+|costsId|KOSTENKEY|
+|amount|BEDRAG|
+|remark|OPMERKING|
+|checked|CHECKED| 
+|pKey|_PKEY|
+|version|_VERSION|
