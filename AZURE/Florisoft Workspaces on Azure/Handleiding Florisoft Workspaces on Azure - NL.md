@@ -11,7 +11,7 @@ Om deze handleiding te volgen, heeft u het volgende nodig:
 
 - **Florisoft Remote App**: Uw Florisoft-omgeving moet draaien op een Azure Remote App.
 - **Windows Hub-app**: Deze dient geïnstalleerd te zijn. De installatie-instructies vindt u [hier](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Hub%20App/Hub-App%20Installatie%20NL.md#installeren-van-de-windows-app).
-- **Job-Agent**: Een correct gekoppelde Job-Agent-app die verbonden is met uw cloudserver.
+- **Job-Agent**: Een correct gekoppelde Job-Agent-app die verbonden is met uw cloudserver, hoe dat opzet leest u [hier](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Windows%20Job-Agent%20application/Handleiding%20Job-Agent%20-%20NL.md).
 
 ## Inloggen op de Hub-app
 
