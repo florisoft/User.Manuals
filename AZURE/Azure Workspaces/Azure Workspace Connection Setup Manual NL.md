@@ -1,4 +1,4 @@
-<img src="../fslogo.png">
+<img src="../../fslogo.png">
 
 # Florisoft Handleiding voor Azure Workspace Verbinding Instellen
 
