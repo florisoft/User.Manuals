@@ -10,8 +10,8 @@ De app bestaat uit drie verschillende componenten:
 
 Met dit onderdeel van de Inventory App controleert u de voorraden en zorgt u ervoor dat de voorraadstanden synchroon blijven met de gegevens in Florisoft.
 
-- [Policy-handleiding](#)  
-- [Doorloop-handleiding](#)  
+- [Policy-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Inventory%20App/Stock%20Counting/Policies%20Stock%20Counting%20NL.md)  
+- [Doorloop-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Inventory%20App/Stock%20Counting/Quickstart%20Handleiding%20NL.md)  
 
 ## Slotting
 
