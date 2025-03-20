@@ -640,6 +640,7 @@
 |FloridayDeliveryOrderId|DeliveryOrderId|
 |FloridayFulfillmentRequestId|FulfillmentRequestId|
 |FloridaySalesOrderId|SalesOrderId|
+|ParcelType|PARTTYPE|
 
 ## PurchaseHistory (hpartij)
 
@@ -1836,6 +1837,13 @@
 |Id|KEY|
 |Description|TEXT|
 |Version|_VERSION|
+
+## Constants/ParcelTypes (Geen database tabel, systeemwaarden)
+
+|API|Database|
+|:--|:--|
+|Id||
+|Description||
 
 ## Constants/Auctions
 
