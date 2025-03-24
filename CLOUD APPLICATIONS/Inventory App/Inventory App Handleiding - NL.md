@@ -17,11 +17,11 @@ Met dit onderdeel van de Inventory App controleert u de voorraden en zorgt u erv
 
 **Functionaliteitomschrijving**  
 
-- [Policy-handleiding](#)  
+- [Policy-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Inventory%20App/Slotting/Policies%20Slotting%20NL.md)  
 - [Doorloop-handleiding](#)  
 
 ## Price Label
 
 **Functionaliteitomschrijving**  
-- [Policy-handleiding](#)  
+- [Policy-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Inventory%20App/Price%20Labels/Policies%20Price%20Labels%20NL.md)  
 - [Doorloop-handleiding](#)  
