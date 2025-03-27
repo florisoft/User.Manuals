@@ -18,7 +18,7 @@ Gebruik [deze handleiding](https://github.com/florisoft/User.Manuals/blob/main/B
 
 ## Policies
 
-Hieronder vindt u een lijst met relevante policies voor Price Label. Per policy wordt beschreven hoe u deze instelt en welke impact deze heeft op de werking van de app.
+Hieronder vindt u een lijst met relevante policies voor Price Label. Per policy wordt beschreven hoe u deze instelt en welke impact deze heeft op de werking van de app. test
 
 ### TotalPriceLabelsDisplayType
 
