@@ -186,6 +186,11 @@
 |deliveryAddressPhone|LVTFNRDB|
 |deliveryAddressEAN|LEVEANCODE|
 |deliveryAddressGLN|GLNLEVADR|
+|SupplyAuctionAgentCode|AVOERCODE|
+|SupplyAuctionPackAgentCode|AVOERCODFV|
+|SupplyAuctionCode|AVOERVEIL|
+|packingStation|DOOSLOCATIE|
+|packingStationCheckDate|DOOSDATE|
 
 ## Constants/CreditReasons (Kieslijst)
 
@@ -1463,6 +1468,8 @@
 |returnablePackageValue|MMFUSTALL|
 |printTime|PRINTTIJD|
 |packagePurchaseAmount|TOTFUSTINK|
+|AuctionDate|VEILDATUM|
+|DepartureDate|VERTREKDAG|
 |pkey|_PKEY|
 |version|_VERSION|
 
@@ -1751,6 +1758,8 @@
 |TotalColli|TOTKOLLI|
 |TotalStems|LEVTOTAAL|
 |UserId|USERID|
+|exPhotoURL|EXFOTOURL|
+|growerEAN|KWEKEREAN|
 |InvoiceDate|ORDERKOP.FCTDAT|
 |InvoiceNr|ORDERKOP.FACTNR|
 |InvoicePrinted|ORDERKOP.FCTPRNID|
@@ -1762,6 +1771,8 @@
 |InvoiceSaleAmount|ORDERKOP.TOTGOEDER|
 |InvoiceTotalQuantity|ORDERKOP.TOTSTUKS|
 |TransportRouteId|ORDERKOP.TRANSPID|
+|InvoiceTotalQuantityCache|ORDERKOP.AANTALSTELENCACHE|
+|InvoiceSalesAmountCache|ORDERKOP.GOEDERENBEDRAGCACHE|
 |pKey|_PKEY|
 |version|VERSION|
 
@@ -1830,7 +1841,7 @@
 |version|VERSION/RECNO|
 |pkey|PKEY|
 
-## Constants/Costs
+## Constants/Costs (KOSTEN)
 
 |API|Database|
 |:--|:--|
@@ -1845,7 +1856,7 @@
 |Id||
 |Description||
 
-## Constants/Auctions
+## Constants/Auctions (VEILING)
 
 |API|Database|
 |:--|:--|
@@ -1856,7 +1867,7 @@
 |pKey|_PKEY|
 |version|_VERSION|
 
-## SalesHistoryCosts
+## SalesHistoryCosts (HorderKK)
 
 |API|Database|
 |:--|:--|
@@ -1867,5 +1878,20 @@
 |amount|BEDRAG|
 |remark|OPMERKING|
 |checked|CHECKED| 
+|pKey|_PKEY|
+|version|_VERSION|
+
+## BoxContent (DOOSINH)
+
+|API|Database|
+|:--|:--|
+|link|KOPPEL|
+|barcode|BARCODE|
+|packageCode|FUSTCOD|
+|quantity|AANTAL|
+|sequenceNr|VOLGNR|
+|letterNr|BRIEFNR|
+|sequenceLetter|VOLGLET| 
+|packingDate|INPAKDAT|
 |pKey|_PKEY|
 |version|_VERSION|
