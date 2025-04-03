@@ -5,6 +5,8 @@
 In deze handleiding leest u over de policies die behoren tot de Stock Counting-functionaliteit van de Inventory-app.  
 Met dit document kunt u de Stock Counting-functionaliteit configureren voor uw specifieke use-case.
 
+**Vergeet niet de autorisaties in te stellen, [autorisaties](#autorisaties)**
+
 ## Waar vind ik de Stock Counting Policies?
 
 Volg de onderstaande stappen om de policies van de Stock Counting-functionaliteit in de Inventory-app te vinden.  
@@ -100,3 +102,15 @@ Deze policy bepaald welke partij-eigenschappen aangepast mogen worden, dit is bu
 In de StockCounting functionaliteit staat naast de nog beschikbare voorraad hoeveelheid ook vermeld welke pickorders nog uitstaan voor deze partij. Met deze instelling geef je aan in welke eenheid deze hoeveelheid wordt weergegeven, in stelen of de overige colli inhoud.
 
 <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/21.png"></details>
+
+## Autorisaties
+
+Volg de onderstaande stappen om de nodige autorisaties in te stellen.
+
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Vanuit de navigator opent u het constantenscherm.|
+|**2**|In het constantenscherm navigeert u naar het pad :<br>**Systeem→Users→Systeem gebruikers**|
+|**3**|Open een relevante systeemgebruiker en klik op de knop **autorisatie**, dit opent het autorisaties scherm.|
+|**4**|Klik in de bestandsmappen scherm en druk op de F3 toets om het zoekscherm te openen. Gebruik het snelzoekenveld om te zoeken naar de code "425".<br><br>**Navigator palmtop/Voorraad opname_425** zet deze autorisatie **"Alle handelingen toegestaan"**. Druk vervolgens op **ok** om de wijzigingen op te slaan.|
+|**5**|Herhaal dit voor de andere gebruikers, je kan dit versnellen door in het autorisatiescherm op de knop **"kopie autorisatie"** te drukken.|
