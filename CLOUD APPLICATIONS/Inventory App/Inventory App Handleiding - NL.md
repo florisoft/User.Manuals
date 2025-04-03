@@ -24,4 +24,4 @@ Met dit onderdeel van de Inventory App controleert u de voorraden en zorgt u erv
 
 **Functionaliteitomschrijving**  
 - [Policy-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Inventory%20App/Price%20Labels/Policies%20Price%20Labels%20NL.md)  
-- [Doorloop-handleiding](#)  
+- [Doorloop-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Inventory%20App/Price%20Labels/Quickstart%20Handleiding%20NL.md)  
