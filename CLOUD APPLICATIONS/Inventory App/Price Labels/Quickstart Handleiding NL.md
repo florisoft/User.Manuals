@@ -17,5 +17,3 @@ Volg de onderstaande stappen. Per stap staat aangegeven waar in de app de stap p
 |**4**|**partij detail**<br>In dit scherm ziet u de partij informatie van de zojuist gescande partij. In dit scherm kunt de inhoudbos wijzigen aan de hand van he veld(#1) en en de prijsstickers printen door op de print knop te drukken.|
 |**5**|**print scherm**<Br>Geef in dit scherm aan hoeveel prijsstickers u wilt printen (de printer en layout zijn van tevoren geconfigureerd), wanneer u het aantal stickers heeft ingevuld drukt u op de **print** knop.|
 |**6**|**schermnaam**<br>Herhaal de vorige stappen voor alle relevante partijen.|
-
-
