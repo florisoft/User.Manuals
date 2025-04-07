@@ -14,7 +14,7 @@ Gebruik [deze handleiding](https://github.com/florisoft/User.Manuals/blob/main/B
 |:-:|:--|
 | **1** | Open het constantenscherm vanuit de navigator.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="../Stock Counting/Media/Policies/1.png"></details>|
 | **2** | Navigeer naar: <br>**Systeem → Users → Policy Beheer**. <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="../Stock Counting/Media/Policies/2.png"></details>|
-| **3** | In een (nieuwe) policy navigeert u naar: <br>**Apps → Inventory → Labeling → **.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/1.png"></details>|
+| **3** | In een (nieuwe) policy navigeert u naar: <br>**Apps → Inventory → Labeling → Price labels**.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/1.png"></details>|
 
 ## Policies
 
