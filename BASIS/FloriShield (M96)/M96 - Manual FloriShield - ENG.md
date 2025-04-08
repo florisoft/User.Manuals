@@ -140,13 +140,26 @@ To log in to your newly created Telegram bot, you'll need to configure some sett
 |**1**|Click on the **maintenance** in the top bar of the navigator screen.Click on the dropdown option '**Setup system**. This opens small screen within this screen click on the folder **Telegram IT Bot**. Fill out the textfield with the Telegram API key we got in the previous chapter.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/image27.png"></details>|
 |**2**|Next, the FloriShield IT Bot must be turned on for 1 user. Only if this Florisoft is online, users can login to the bot to receive messages.|
 |**3**|Now start the Florisoft with the user with the FloriShield IT Bot turned on.e<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/image20.png"></details>|
-|**4**|In Telegram, type your bot's username in the search box and click on the desired result.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto12.png"></details>|
-|**5**|At the bottom, click on "Begin"<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto13.png"></details>|
-|**6**|Now send your username and then your password.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto12.png"></details>|
-|**7**|You are now logged in to the bot.|
-|**8**|:warning:**Note!** A known Florisoft username and password must be entered (system user) and the user must not be blocked.|
-|**9**|To unsubscribe, send "/unsubscribe" to the bot and you will be removed from the recipient list.|
+|**4**|Restart the timer by restarting the Florisoft Timer's backoffice client.|
+|**5**|In Telegram, type your bot's username in the search box and click on the desired result.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto12.png"></details>|
+|**6**|At the bottom, click on "Begin"<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto13.png"></details>|
+|**7**|Now send your username and then your password.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/foto12.png"></details>|
+|**8**|You are now logged in to the bot.|
+|**9**|:warning:**Note!** A known Florisoft username and password must be entered (system user) and the user must not be blocked.|
+|**10**|To unsubscribe, send "/unsubscribe" to the bot and you will be removed from the recipient list.|
 
-#### Telegram messages from Florisoft.
+## Telegram messages from Florisoft.
 
-If FloriShield now detects or resolves a problem, the text from the Invoice texts is sent to all registered Telegram users. No additional settings are required for this. As soon as the Telegram Bot API key has been entered and the FloriShield is restarted, the messages are sent
+If FloriShield now detects or resolves a problem, the text from the Invoice texts is sent to all registered Telegram users. No additional settings are required for this. As soon as the Telegram Bot API key has been entered and the FloriShield is restarted, the messages are sent.
+
+### Configuring Telegram messages
+
+In the Florisoft backoffice we can configure the content of the to-be sent telegram messages.
+
+|Step|Explanation|
+|:-:|:--|
+|**1**|From the Florisoft navigator open the constants screen.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/25.png"></details>|
+|**2**|In the constants navigate to the path :<br>**Financial→Invoice texts**.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/26.png"></details>|
+|**3**|Use the + icon to create a new invoice text, this prompts a template choice window where you have to select a mandetory template, Florishield uses the numbers 26 till 31. These should be created and configured.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/27.png"></details>|
+|**4**|When creating the invoice text, the field invoice text is filled on default with a Dutch message, for an English message fill the textbox 'Engels'. The curly brackets in the message contain variables such as user name, machine name and or a timestamp.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/28.png"></details>|
+|**5**|Fill out the textbox of the languages that are relevant to you, use the variables in the Dutch message to display these values in your translation as well.<details><summary><b>Click here for the example image!</b></summary><img src="florishield.eng/28.png"></details>|
