@@ -3,34 +3,29 @@
 # Florisoft Handleiding Setup Floricode API
 
 Vanaf 1 april 2025 heeft de stichting Floricode de FTP-server offline gehaald.
-Dit betekend dat de Floricode standaarden enkel op te halen zijn via hun API.
-Florisoft kan middels de Floricode modules met deze API werken waardoor us standaarden synchroon blijven lopen met dat van Floricode.
+Dit betekent dat de Floricode standaarden enkel op te halen zijn via hun API.
+Florisoft kan middels de Floricode modules met deze API werken waardoor uw standaarden synchroon blijven lopen met dat van Floricode.
 
 In deze handleiding leest u hoe u de werking met de Floricode API configureert in uw backoffice.
 
 ## Benodigdheden
 
-Om te kunnen werken met de Floricode API dient u te bescikken over de volgende benodigdheden :
+Om te kunnen werken met de Floricode API dient u te beschikken over de volgende benodigdheden :
 
-- Floricode API Abnonement
+- Floricode API Abonnement
 - Floricode API login (clientId en clientSecret)
 
 De onderstaande tabel geeft weer welke Floricode producten en Florisoft modules nodig zijn voor welke functionaliteiten. 
 
 |Functionaliteit|Florisoft Module|Floricode Product(en)|
 |:--|:--|:--|
-||Product and feature type codes||
-||Company codes||
-||Company and location codes||
-||Other codes (including data elements)||
-||Logistic means codes||
-||Auction group codes Royal Floraholland||
-||ISO code lists||
-||e-CertNL codes||
-||GPC code lists||
-||Color codes||
-||Goods codes||
-||Sustainability certificicates||
+|Artikelen, artikelgroepen en sorteringskenmerken|Product and feature type codes||
+|Kwekers en veilingkopers|Company codes||
+|Afleverlocaties, kwekers en veilingkopers|Company and location codes||
+|Fustcodes|Logistic means codes||
+|Botanische namen en Client Export-kenmerken|e-CertNL codes||
+|Uitsplitsingscodes|Goods codes||
+|Kwekercertificaten|Sustainability certificicates||
 
 ## Checken van huidige configuratie
 
