@@ -646,6 +646,7 @@
 |FloridayFulfillmentRequestId|FulfillmentRequestId|
 |FloridaySalesOrderId|SalesOrderId|
 |ParcelType|PARTTYPE|
+|UnitCode|UNITCOD|
 
 ## PurchaseHistory (hpartij)
 
