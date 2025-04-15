@@ -82,8 +82,8 @@ Policies die nog benoemd moeten worden aangezien deze geheel nieuw zijn, doe dit
 |ImportKewkersVeilingen|**Companies_GrowerAuctionsToImport**|Standaard veiling codes "01", "02", "03"|
 |VBN/VBNHuidigeOverschrijven|**ECert_OverwriteEisKenmerkTypes**||
 |VBN/VBNHuidigeOverschrijven|**ECert_OverwriteEisKenmerkWaardes**||
-||**ECert_OverwriteVerklaringen**||
-||**ECert_OverwriteNVWACertificateFeature**||
+|\*Nieuw\*|**ECert_OverwriteVerklaringen**||
+|\*Nieuw\*|**ECert_OverwriteNVWACertificateFeature**||
 |Factuur uitsplitsingen aanmaken/Huidige factuur uitsplitsingen omschrijving overschrijven|**GoodsCodes_OverwriteCnGoods**||
 |Factuur uitsplitsingen aanmaken/Factuur uitsplitsingen overschrijven van artikelgroepen|**GoodsCodes_OverwriteProductGroupToCnGoods**||
 |Setup/VBNArtikelenAanmaken|**Product_AppendNewArticles**||
