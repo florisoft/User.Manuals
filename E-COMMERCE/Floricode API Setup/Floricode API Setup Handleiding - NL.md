@@ -78,25 +78,25 @@ Policies die nog benoemd moeten worden aangezien deze geheel nieuw zijn, doe dit
 |:--|:--|:--|
 |VBN/VBNPlantionVeilingKopers|**Companies_ImportPlantionCompanies**||
 |VBN/VBNOverschrVeilingkopers|**Companies_OverwriteAuctionBuyerDescriptions**||
-||**Companies_OverwriteAuctionBuyers**||
-||**Companies_GrowerAuctionsToImport**||
-||**ECert_OverwriteEisKenmerkTypes**||
-||**ECert_OverwriteEisKenmerkWaardes**||
+|VBN/VBNHuidigeOverschrijven|**Companies_OverwriteAuctionBuyers**||
+|ImportKewkersVeilingen|**Companies_GrowerAuctionsToImport**|Standaard veiling codes "01", "02", "03"|
+|VBN/VBNHuidigeOverschrijven|**ECert_OverwriteEisKenmerkTypes**||
+|VBN/VBNHuidigeOverschrijven|**ECert_OverwriteEisKenmerkWaardes**||
 ||**ECert_OverwriteVerklaringen**||
-||**ECert_OverwriteNVWACertificateFeature**||
-||**GoodsCodes_OverwriteCnGoods**||
-||**GoodsCodes_OverwriteProductGroupToCnGoods**||
+|VBN/VBNHuidigeOverschrijven|**ECert_OverwriteNVWACertificateFeature**||
+|Factuur uitsplitsingen aanmaken/Huidige factuur uitsplitsingen omschrijving overschrijven|**GoodsCodes_OverwriteCnGoods**||
+|Factuur uitsplitsingen aanmaken/Factuur uitsplitsingen overschrijven van artikelgroepen|**GoodsCodes_OverwriteProductGroupToCnGoods**||
 |Setup/VBNArtikelenAanmaken|**Product_AppendNewArticles**||
 |Artikelen/Botanische namen overschrijven|**Products_OverwriteBotanicalNames**||
-||**Products_OverwriteExistingArticles**||
-||**Products_OverwriteExistingFeatures**||
-||**Products_Append_NewArticleGroups**||
-||**Products_OverwriteExistingArticleGroups**||
-||**Products_ArticleGroupCountrySpecDefault**|| <!- New!- -->
+|VBN/Huidige overschrijven|**Products_OverwriteExistingArticles**||
+|VBN/Huidige overschrijven|**Products_OverwriteExistingFeatures**||
+|Setup/VBNArtikelenAanmaken|**Products_Append_NewArticleGroups**||
+|VBN/Huidige overschrijven|**Products_OverwriteExistingArticleGroups**||
+|Setup/ArticleGroupCountrySpecDefault|**Products_ArticleGroupCountrySpecDefault**|| <!- New!- -->
 |Setup/VBNARtikelGroepNieuwEMails|**Products_NewArticleGroupEmails**||<!- New!- -->
 |Fusten/HuidigeFustenOverschrijven|**Products_OverwriteExistingPackages**||
 |Fusten/Huidige fusten overschrijven/Fusttype behouden|**Products_Products_KeepPackageType**||
-||**Products_NewPackageEmails**||<!- New!- -->
+|Setup/VBNARtikelGroepNieuwEMails|**Products_NewPackageEmails**||<!- New!- -->
 |Huidige vertalingen overschrijven/Artikelen|**Products_OverwriteTranslations**||
 |Huidige vertalingen overschrijven/Artikelgroepen|**Products_OverwriteArticleGroupTranslations**||
 |Huidige vertalingen overschrijven/Sorteringskenmerken|**Products_OverwriteFeatureTranslations**||
