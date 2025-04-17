@@ -36,12 +36,12 @@ De onderstaande stappen geven aan waar u deze instellingen kan vinden zodat u de
 
 |Stap|Uitleg|
 |:-:|:--|
-|**1**|In uw Florisoft navigator klikt u met de rechtermuisknop op het timer icoon.|
-|**2**|Klik in het contextmenu op de optie *Timer Settings*.|
-|**3**|Klik in het timer settings scherm op de dropdown **Actieve gebruiker** en selecteer hier de timer gebruiker (meestal TIMER).|
+|**1**|In uw Florisoft navigator klikt u met de rechtermuisknop op het timer icoon.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/New/NL/1.png"></details>|
+|**2**|Klik in het contextmenu op de optie *Timer Settings*.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/New/NL/1.png"></details>|
+|**3**|Klik in het timer settings scherm op de dropdown **Actieve gebruiker** en selecteer hier de timer gebruiker (meestal TIMER).<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/New/NL/2.png"></details>|
 |**4**|De timersettings in het menu zijn nu die van de draaiende timer gebruiker.|
 |**5**|Gebruik vervolgens de zoekfunctie om te zoeken naar de timer functie **IMPORTVBN**.|
-|**6**|Maak een screenshot van deze instellingen en bewaar het screenshot op een makkelijk te onthouden locatie.|
+|**6**|Maak een screenshot van deze instellingen en bewaar het screenshot op een makkelijk te onthouden locatie.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/New/NL/3.png"></details>|
 |**7**|Sluit vervolgens het timer settings scherm.|
 
 ## Configuratie
@@ -52,21 +52,21 @@ De onderste tabel geeft referenties naar welke Policy gelijk staat aan welke tim
 
 |Stap|Uitleg|
 |:-:|:--|
-|**1**|Vanuit de navigator opent u het constanten scherm en navigeert u naar het pad :<br>**Systeem→Users→Policy Beheer**|
-|**2**|Dit opent het policy scherm, maak hierin een nieuwe policy aan. Weet u niet hoe policies werken leest u in [deze handleiding](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Handleiding%20Policy%20Management%20NL.md) hoe u policies aanmaakt en beheert|
-|**3**|Ken onder het tabje **Toepassen** de policy toe aan de gebruiker **Timer** (of een andere gebruiker waar een timer gedraait wordt).|
-|**4**|Ga vervolgens naar het tabje **Instellingen**.|
-|**5**|In het tabje **Instellingen** navigeert u naar het volgende pad :<br>**Backoffice→Administration→Constants→Floricode**|
+|**1**|Vanuit de navigator opent u het constanten scherm en navigeert u naar het pad :<br>**Systeem→Users→Policy Beheer**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/New/NL/4.png"></details>|
+|**2**|Dit opent het policy scherm, maak hierin een nieuwe policy aan. Weet u niet hoe policies werken leest u in [deze handleiding](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Handleiding%20Policy%20Management%20NL.md) hoe u policies aanmaakt en beheert.|
+|**3**|Ken onder het tabje **Toepassen** de policy toe aan de gebruiker **Timer** (of een andere gebruiker waar een timer gedraait wordt).<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/New/NL/6.png"></details>|
+|**4**|Ga vervolgens naar het tabje **Instellingen**.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/New/NL/5.png"></details>|
+|**5**|In het tabje **Instellingen** navigeert u naar het volgende pad :<br>**Backoffice→Administration→Constants→Floricode**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/New/NL/7.png"></details>|
 |**6**|Heeft u de stappen uit het vorige hoofdstuk kunnen volgen en heeft u een screenshot bij de hand, gebruik dit screenshot dan in combinatie met de tabel in het volgende hoofdstuk om de juiste policies aan te zetten.|
 |**6.a**|Indien u de stappen uit het vorige hoofdstuk niet kon volgen kan u nog steeds gebruiken van de tabel in het volgende hoofdstuk. Bepaal dan vanuit welke Florisoft modules u afneemt welke policies geconfigureerd moeten worden.<br><br>Ben je niet zeker over hoe dit werkt kan dit geconfigureerd worden door uw consultant of een van onze support medewerker. |
-|**8**|Heeft u de policies geconfigureerd, sla dan de wijzigingen in de nieuwe policies op.|
-|**9**|Sluit vervolgens het policy beheer scherm en ga terug naar de Florisoft navigator|
-|**10**|In de Floriosft Navigator klikt u met de rechtermuisknop op het timer icoon en kies voor de optie, *timer settings*.|
-|**11**|Kies vervolgens in de dropdown **Actieve gebruiker** de *Timer* gebruiker, u ziet nu de timer settings van de timer.|
-|**12**|Gebruik de zoekfunctie om te zoeken naar de timer functie **IMPORTVBNAPI**, activeer het vinkje "*Dit script activeren bij het starten van de timer*"|
-|**13**|Configureer vervolgens een passend tijdsschema, dit proces kan vrij intensief zijn (afhankelijk van de ingestelde policies) advies daarom is om het timerproces `s nachts te draaien.|
-|**14**|Sluit het timer settings scherm door op de **Ok** knop te drukken.|
-|**15**|In de florisoft navigator opent u vervolgens het **Actieve gebuikers** scherm, klik hier met de rechtermuisknop op de regel van de timer gebruiker. Kies vervolgens voor de optie herstart, dit herstart de timer gebruiker waardoor de zojuist gemaakte wijzingen doorgevoerd worden.|
+|**7**|Heeft u de policies geconfigureerd, sla dan de wijzigingen in de nieuwe policies op.|
+|**8**|Sluit vervolgens het policy beheer scherm en ga terug naar de Florisoft navigator|
+|**9**|In de Floriosft Navigator klikt u met de rechtermuisknop op het timer icoon en kies voor de optie, *timer settings*.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/New/NL/1.png"></details>|
+|**10**|Kies vervolgens in de dropdown **Actieve gebruiker** de *Timer* gebruiker, u ziet nu de timer settings van de timer.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/New/NL/2.png"></details>|
+|**11**|Gebruik de zoekfunctie om te zoeken naar de timer functie **IMPORTVBNAPI**, activeer het vinkje "*Dit script activeren bij het starten van de timer*"<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/New/NL/9.png"></details>|
+|**12**|Configureer vervolgens een passend tijdsschema, dit proces kan vrij intensief zijn (afhankelijk van de ingestelde policies) advies daarom is om het timerproces `s nachts te draaien.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/New/NL/9.png"></details>|
+|**13**|Sluit het timer settings scherm door op de **Ok** knop te drukken.|
+|**14**|In de florisoft navigator opent u vervolgens het **Actieve gebuikers** scherm, klik hier met de rechtermuisknop op de regel van de timer gebruiker. Kies vervolgens voor de optie herstart, dit herstart de timer gebruiker waardoor de zojuist gemaakte wijzingen doorgevoerd worden.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/New/NL/11.png"></details>|
 
 <!--
 Policies die nog benoemd moeten worden aangezien deze geheel nieuw zijn, doe dit in de bovenstaande tabel.
