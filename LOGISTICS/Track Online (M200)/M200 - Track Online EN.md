@@ -21,7 +21,27 @@ This manual concerns the Florisoft module Track Online (formerly known as Avalan
 |**2**|Open a package type that you will want to export to Track Online (Avalanche) and go to the **Export** tab. <details><summary><b>Click here for the example image!</b></summary><img src="Media/EN/3.png"></details>|
 |**3**|In this tab you will need to fill out the settings under the heading **Avalanche** :<br><br>- **Export to Avalanche** : this will need to be enabled for this package type to be exported to Avalanche.<br>**Exclude FUSTUIT in-quantities from Export** : by enabling this checkbox you will only send the outgoing packaging and **not** the incoming.<br>- **EAN** : here you set the corresponding EAN code for packaging you will want to track. <details><summary><b>Click here for the example image!</b></summary><img src="Media/EN/3.png"></details>|
 |**4**|Save the made changes and close the packagecode card. |
-|**5**|Repeat steps 2-4 for every package type that needs to be exported.|
+|**5**|Repeat steps 2-4 for every package type that needs to be exported, best to write down the configured packages as they need to be created in TrackOnline.|
+
+## Creating the items (packages) in Track Online
+
+*Now that the packages are created in your backoffice they need to be created in your Track Online environment.*
+*Without doing this your API requests won't be read in.*
+
+|Step|Explanation|
+|:-:|:--|
+|**1**|Log into your Track Online environenment [here](https://trackonline.b2clogin.com/trackonline.onmicrosoft.com/b2c_1_signinto/oauth2/v2.0/authorize?client_id=568f4f53-b19c-4b77-8dbd-9fbf4dc94e71&scope=https%3A%2F%2FTrackOnline.onmicrosoft.com%2F48ca3e86-7a55-4381-a079-0471bf9fc98a%2Fapi.access%20openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Fapp.trackonline.com%2Fauthenticating&client-request-id=a68f7b13-5536-4548-964b-8fb5407a8cd8&response_mode=fragment&response_type=code&x-client-SKU=msal.js.browser&x-client-VER=3.6.0&client_info=1&code_challenge=d84oOTpnFjIKtmXm3UPIS5ueblj_CZNAZ6PW2kN6HTU&code_challenge_method=S256&nonce=e0893369-288b-4d72-b744-94daa93791fd&state=eyJpZCI6IjVmMGY0ZmE3LTA0YWEtNDUwOS05MmZjLTRlNDAxZGZjZjg0MyIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D).|
+|**2**|Open the **Items** tab (#1).<details><summary><b>Click here for the example image!</b></summary><img src="Media/5.png"></details>|
+|**3**|Click on the add button (+)<details><summary><b>Click here for the example image!</b></summary><img src="Media/6.png"></details>|
+|**4**|Fill out the following fields with the package code (from your backoffice) :<br>**Name**<br>**Number**<br>**Name short**<details><summary><b>Click here for the example image!</b></summary><img src="Media/7.png"></details>|
+|**5**|Click on the **save** button.<details><summary><b>Click here for the example image!</b></summary><img src="Media/7.png"></details>|
+|**6**|We can now configure the external numbers, switch to the **External numbers** tab.<details><summary><b>Click here for the example image!</b></summary><img src="Media/8.png"></details>|
+|**7**|As an external source select **Florisoft** from the dropdown.<details><summary><b>Click here for the example image!</b></summary><img src="Media/9.png"></details>
+|**8**|Now fill out the **external number** field with the backoffice package code.<details><summary><b>Click here for the example image!</b></summary><img src="Media/9.png"></details>|
+|**8**|Now click on the save button.<details><summary><b>Click here for the example image!</b></summary><img src="Media/9.png"></details>|
+|**9**|Repeat this for the necessary packages (items).|
+
+
 
 ## Configuring the debtors
 

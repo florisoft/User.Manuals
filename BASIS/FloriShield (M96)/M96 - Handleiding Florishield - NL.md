@@ -33,6 +33,14 @@ In de toekomst komt daar nog een ***FloriShield IT Client*** en ***FloriShield S
 
 ## Configuratie
 
+## Florisoft Timer dbf in fsnet plaatsen
+
+Voordat we de nodige backoffice instellingen gaan configureren willen we eerst het een DBF bestand klaarzetten, volg hiervoor de onderstaande stappen.
+
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Download het dbf bestandje [hier](https://github.com/florisoft/User.Manuals/blob/main/BASIS/FloriShield%20(M96)/Download/FS_FLORISHIELD.DBF).
+|**2**|Eenmaal gedownload kopieert en plakt u het .DBF bestand naar de volgende bestandsmap op uw server : <br>**C:/FSNET/**.|
 
 ### Florisoft Client
 
@@ -165,13 +173,26 @@ Om je aan te melden bij de nieuw aangemaakte Telegram bot, moet dit ingesteld wo
 |**1**|Klik in op de knop **onderhoud** bovenaan in het navigator scherm, klik vervolgens op **Setup Systeem**. Klik in dit scherm dan weer op het mapje **Telegram IT Bot**. Vul hier dan ook de API key in die we in het vorige hoofdstuk hebben ontvangen.<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src=".FloriShield.docx/media/image16.png"></details>|
 |**2**|Vervolgens moet bij 1 gebruiker de FloriShield IT Bot worden aangezet, alleen als deze Florisoft online is kunnen gebruikers zich aanmelden bij de bot om berichten te ontvangen.<br><br>Om de FloriShield IT Bot aan te zetten moet FS2000 – FloriShieldItBot aangezet worden.|
 |**3**|Start nu de Florisoft met de gebruiker waarbij de FloriShield IT Bot is aangezet.<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src=".FloriShield.docx/media/image17.png"></details>|
-|**4**|In Telegram type je de gebruikersnaam van je bot in het zoeken veld en klik op het gevonden resultaat.<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src=".FloriShield.docx/media/image18.png"></details>|
-|**5**|Klik onderaan op Begin<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src=".FloriShield.docx/media/image19.png"></details>|
-|**6**|Stuur nu je gebruikersnaam en daarna je wachtwoord<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src=".FloriShield.docx/media/image20.png"></details>|
-|**7**|Je bent nu aangemeld bij de bot.|
-|**8**|:warning: **Let op!** Er moet een bekende Florisoft gebruikersnaam en wachtwoord ingevoerd worden (systeem gebruiker) en de gebruiker mag niet geblokkeerd zijn.|
-|**9**|Om af te melden stuur je /unsubscribe naar de bot en je wordt verwijderd van de lijst met ontvangers.|
+|**4**|Herstart de timer door de Florisoft client waar de timer op draait te herstarten.|
+|**5**|In Telegram type je de gebruikersnaam van je bot in het zoeken veld en klik op het gevonden resultaat.<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src=".FloriShield.docx/media/image18.png"></details>|
+|**6**|Klik onderaan op Begin<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src=".FloriShield.docx/media/image19.png"></details>|
+|**7**|Stuur nu je gebruikersnaam en daarna je wachtwoord<details><summary><b>Klik hier voor uw voorbeeld afbeelding!</b></summary><img src=".FloriShield.docx/media/image20.png"></details>|
+|**8**|Je bent nu aangemeld bij de bot.|
+|**9**|:warning: **Let op!** Er moet een bekende Florisoft gebruikersnaam en wachtwoord ingevoerd worden (systeem gebruiker) en de gebruiker mag niet geblokkeerd zijn.|
+|**10**|Om af te melden stuur je /unsubscribe naar de bot en je wordt verwijderd van de lijst met ontvangers.|
 
-#### Telegram berichten vanuit de FloriShield
+## Telegram berichten vanuit de FloriShield
 
 Als FloriShield nu een probleem constateert of verhelpt wordt de tekst uit de Factuur teksten naar alle aangemelde Telegram gebruikers gestuurd. Hier zijn geen extra instellingen voor nodig. Zodra de Telegram bot API key is ingevoerd en de FloriShield wordt geherstart, worden de berichten verstuurt.
+
+### Telegram berichten instellen
+
+In uw Florisoft backoffice kunt in de inhoud van de berichten instellen die op Telegram verstuurd worden.
+
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Vanuit de Florisoft navigator opent u de constanten.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".FloriShield.docx/media/29.png"></details>|
+|**2**|In de constanten navigeert u naar het pad :<br>**Financieel→Factuurteksten**<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".FloriShield.docx/media/27.png"></details>|
+|**3**|Gebruik het + icoon om een factuurtekst aan te maken, u krijgt nu een keuze om te kiezen uit een set aan (verplichte templates). Voor Florishield zijn de templates 26 t/m 31 relevant.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".FloriShield.docx/media/28.png"></details>|
+|**4**|Bij het aanmaken van een factuurtekst staat onder het veld Factuurtekst standaard de Nederlandse versie van het bericht.<br><br>In dit bericht staan in de gekrulde haakjes waarin variabelen zoals de gebruiker, machinenaam en tijdstip zijn opgenomen.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".FloriShield.docx/media/26.png"></details>|
+|**5**|Bij systemen die ingesteld zijn op een andere taal vult u de respectievelijke taalvertaling in, gebruik hier ook de variabelen met de gekrulde haakjes om deze te tonen in het bericht.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".FloriShield.docx/media/26.png"></details>|

@@ -22,4 +22,20 @@ To follow the steps in this manual, you need the following:
 | **5** | Ensure that the following settings are enabled:<br><br>- **Handles print jobs locally**<br>- **Login automatically**<br>- **Launch on Windows login** <details><summary><b>Click here for the example image!</b></summary><img src="Media/4.png"></details>|
 | **6** | After verifying these settings, click the **Save** button. You will now be prompted to restart the Job-Agent. Click **Yes**.<details><summary><b>Click here for the example image!</b></summary><img src="Media/5.png"></details> |
 | **7** | Log in with your personal Job-Agent user. <details><summary><b>Click here for the example image!</b></summary><img src="Media/6.png"></details>|
-| **8** | You are now in the **Jobs** screen. Here, you will see the tasks (jobs) that your local Job-Agent retrieves from the cloud server.<details><summary><b>Click here for the example image!</b></summary><img src="Media/7.png"></details> |
+| **8** | You are now in the **Jobs** screen. Here, you will see the tasks (jobs) that your local Job-Agent retrieves from the cloud server.<details><summary><b>Click here for the example image!</b></summary><img src="Media/7.png"></details>
+
+## Printer groups
+
+Printers in Florisoft (and in the apps) are only visible when they fall under a printer group.
+System users then need to linked to a printergroups allowing the printers to be seen during daily activities.
+
+*Printers available through the job agent are automatically created in Florisoft, meaning that you don't have to create them yourself.*
+
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|From the Florisoft navigator open the constants.<details><summary><b>Click here for the example image!</b></summary><img src="Media/PrinterGroup/1.png"></details>|
+|**2**|In the constants navigate to :<br>**System→To Print→Printer Group**.<details><summary><b>Click here for the example image!</b></summary><img src="Media/PrinterGroup/EN/2.png"></details>|
+|**3**|Using the + icon create a printer group, fill out the **Description** field, this is the name that will be visible in the grid.<details><summary><b>Click here for the example image!</b></summary><img src="Media/PrinterGroup/EN/2.png"></details>|
+|**4**|Save the group by clicking on the **Ok** button.|
+|**5**|Now navigate to **System→To print→Job agent printer**, open a printer object and configure under which printer group the printer will fall under.<details><summary><b>Click here for the example image!</b></summary><img src="Media/PrinterGroup/EN/2.png"></details>|
+|**6**|Repeat the last step for all relevant printers for the newly created printer group.|
