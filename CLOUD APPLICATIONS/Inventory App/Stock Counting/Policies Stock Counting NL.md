@@ -18,16 +18,33 @@ Gebruik [deze handleiding](https://github.com/florisoft/User.Manuals/blob/main/B
 
 ## Policies
 
-Hieronder vindt u een lijst met relevante policies voor Stock Counting. Per policy wordt beschreven hoe u deze instelt en welke impact deze heeft op de werking van de app.
+Hieronder vindt u een overzicht van relevante **policies** voor de functionaliteit *Stock Counting*.  
+Per policy wordt beschreven hoe deze ingesteld kan worden en welke invloed dit heeft op het gedrag van de app.
 
-### AvailableStocks
+> ⚠️ Houd er rekening mee dat tijdens de doorontwikkeling van de app regelmatig **nieuwe policies** worden toegevoegd of bestaande worden aangepast.  
+> Waar nodig wordt de beschrijving van een policy bijgewerkt om de werking correct te blijven toelichten.
 
-Met deze policy stelt u in welke voorraden beschikbaar zijn voor Stockcounting.
-Selecteer de voorraden die u beschikbaar wilt stellen voor stock counting.
+Sommige policies zijn specifiek bedoeld voor bepaalde klantinrichtingen of uitzonderingssituaties.  
+Voor deze policies wordt mogelijk geen algemene uitleg opgenomen in deze handleiding.
 
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/4.png"></details>
 
-### AvailableStockItemDetails
+### PrintSettings
+Op deze pagina stelt u de **printinstellingen** in voor het afdrukken van *prijslabels (`PriceLabels`)* en *voorraadlabels (`StockLabels`)*. Voor beide functies configureert u afzonderlijk:
+
+- **De printer** via de policy:  
+  - `PriceLabelPrinter` – voor prijslabels  
+  - `StockLabelPrinter` – voor voorraadlabels
+
+- **De lay-out** via de policy:  
+  - `PriceLabelLayout` – voor prijslabels  
+  - `StockLabelLayout` – voor voorraadlabels
+
+Daarnaast kunt u met de policies `PriceLabelPrinterDescription` en `StockLabelPrinterDescription` de naam of omschrijving van de printer aanpassen. Deze aangepaste omschrijving wordt weergegeven in de app, zodat gebruikers eenvoudiger de juiste printer kunnen herkennen.
+
+> **Belangrijk:** Voor het gebruik van printers binnen de app is de **JobAgent** vereist.  
+> Als de JobAgent niet actief is, worden er **géén printers weergegeven** in dit overzicht en is afdrukken via de app niet mogelijk.
+
+### StockItemDetailSetting - AvailableStockItemDetails
 
 Met deze policy stelt u in welke voorraadpartij-eigenschappen u zichtbaar wil hebben bij het openen van de partij in de stockcounting app. 
 
@@ -45,58 +62,44 @@ Na het instellen van deze policy ziet het bijhorende scherm er zo uit :
 
 <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/14.png"></details>
 
+### StockItemDetailSetting - AllowEditStockitemDetails
+Standaard kunnen partijdetails niet worden gewijzigd. Met deze policy bepaalt u welke velden binnen de AvailableStockItemDetails wél aangepast mogen worden. Zo behoudt u controle over welke informatie bewerkbaar is voor gebruikers.
+
+### AvailableStocks
+
+Met deze policy stelt u in welke voorraden beschikbaar zijn voor Stockcounting.
+Selecteer de voorraden die u beschikbaar wilt stellen voor stock counting.
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/4.png"></details>
+
 ### SetStockItemType
 
-Using this dropdown you select what parcel type (stockItemType) will be scanned in the Stock Count functionality. The dropdown presents us with 3 options :
+Met deze keuzelijst bepaalt u welk partijtType (`stockItemType`) wordt gescand binnen de **Voorraadtelling**-functionaliteit.  
+De keuzelijst biedt de volgende drie opties:
 
-1. **VParcel** : *uitleg*.
-
-2. **Parcel** : *uitleg*.
-
-3. **StoredStockItem** : *uitleg*.
-
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/15.png"></details>
-
-### PriceLabelLayout
-
-In het StockCount component is er de mogelijkheid om een prijssticker te printen, met deze policy selecteer je de stickerlayout die bij daarbij geprint wordt. De keuzes beschikbaar in de dropdown zijn prijsstickerlayouts in uw systeem.
-
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/16.png"></details>
-
-### PriceLabelPrinter
-
-Deze policy bepaald naar welke printer de sticker printopdracht word verzonden, gebruikt u een job-agent selecteert u de juiste printer en job agent (\<printernaam\>@\<jobagent>).
-
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/17.png"></details>
-
-### StockLabelLayout
-
-In het stockcount component van de Inventory app is het ook mogelijk om voorraadstickers te printen, met deze policy stelt u in welke voorraadstickerlayout gehanteerd wordt. De stickerlayouts beschikbaar in de dropdown zijn de mogelijke voorraadstickerlayouts.
-
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/18.png"></details>
-
-### StockLabelPrinter
-
-Deze policy bepaald naar welke printer de voorraadstickerprintopdracht word verzonden, gebruikt u een job-agent selecteert u de juiste printer en job agent (\<printernaam\>@\<jobagent>).
-
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/19.png"></details>
-
-### AllowEditStockItemDetails
-
-Deze policy bepaald welke partij-eigenschappen aangepast mogen worden, dit is buitenom de eerder benoemde policy waarin we de zichtbare/actieve eigenschappen instellen. 
-
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/20.png"></details>
-
-|Stap|Uitleg|
-|:-:|:--|
-|**1**|Open de policy, dit opent een nieuw scherm, aan de rechterkant (#1) van dit scherm ziet u de alle mogelijke partij-eigenschappen die getoond kunnen worden. Links (Active) ziet u de partij-eigenschappen die getoond worden (#2).<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/22.png"></details>|
-|**2**|Met de knop <img src="Media/Policies/7.png" alt="<"> zet u een partij eigenschap zichtbaar in de app (actief) en met <img src="Media/Policies/8.png" alt=">"> zet u de zichtbare optie op inactief.|
-|**3**|Met de knoppen <img src="Media/Policies/9.png" alt="^">, <img src="Media/Policies/10.png" alt="v"> beïnvloed u de volgorde van de partij-eigenschappen, selecteer daarvoor een regel en gebruik deze knoppen om de eigenschap omhoog of omlaag in te delen.|
-|**4**|Met de knoppen <img src="Media/Policies/11.png" alt="^^">, <img src="Media/Policies/12.png" alt="V"> zet u de geselecteerde regel in een keer als bovenste of onderste item.|
-|**5**|Klik op close om de wijzigingen op te slaan, u ziet nu de eigenschapindeling onder de policykaart staan.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/23.png"></details>|
+- **VParcel**
+- **Parcel**
+- **LogPartij**
 
 ### ToPickQuantityDisplay
 
-In de StockCounting functionaliteit staat naast de nog beschikbare voorraad hoeveelheid ook vermeld welke pickorders nog uitstaan voor deze partij. Met deze instelling geef je aan in welke eenheid deze hoeveelheid wordt weergegeven, in stelen of de overige colli inhoud.
+Binnen de **StockCounting**-functionaliteit wordt naast de beschikbare voorraad ook weergegeven hoeveel er nog openstaat aan **pickorders** voor een bepaalde partij.
 
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/21.png"></details>
+Met de instelling `ToPickQuantityDisplay` bepaalt u in **welke eenheid** deze te picken hoeveelheid wordt getoond:
+- In **stelen**, of
+- In de overige **colli-inhoud** (zoals fusten, dozen, etc.)
+
+### StockCountingCustomerCode
+De policy `StockCountingCustomerCode` wordt gebruikt om een **debiteurnummer** in te stellen.  
+Alle voorraadverschillen die tijdens de voorraadtelling worden geregistreerd, worden aan deze debiteur toegewezen.  
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/24.png"></details>
+
+### StockCountingCustomerCodePerStock
+
+Met de policy `StockCountingCustomerCodePerStock` wordt niet het algemene debiteurnummer uit `StockCountingCustomerCode` gebruikt,  
+maar juist het **debiteurnummer dat per voorraad is ingesteld** voor de voorraadopname.
+
+Dit zorgt ervoor dat voorraadverschillen worden toegewezen aan de specifieke debiteur die bij de betreffende voorraad hoort, in plaats van aan één centrale debiteur.
+
+### StockCountingXorder
+Wanneer het aantal in de voorraad wordt aangepast, wordt er – naast de verdeling naar het ingestelde **voorraadopnamedebiteurnummer** – ook automatisch een **xorder** (oftewel een *pickorder*) aangemaakt.
