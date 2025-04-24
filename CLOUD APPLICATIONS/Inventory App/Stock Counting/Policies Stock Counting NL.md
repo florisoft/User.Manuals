@@ -30,7 +30,7 @@ Per policy wordt uitgelegd wat de functie is, hoe deze geconfigureerd wordt en w
 > ⚠️ De beschikbaarheid van sommige policies kan afhangen van de inrichting van uw omgeving. Niet alle policies zijn in elke situatie van toepassing.
 
 ---
-### Instellingen op basis van voorkeur
+## Instellingen op basis van voorkeur
 
 Deze groep policies is voor alle klanten beschikbaar. U kunt hiermee de functionaliteit aanpassen aan uw eigen voorkeuren en werkwijze.
 ### `PrintSettings`
@@ -65,7 +65,7 @@ Deze **policy-groep** bepaalt hoe voorraad- en prijslabels worden afgedrukt.
 
 ### `StockItemDetailSetting`
 
-De **policy-groep **`**StockItemDetailSetting**` bestaat uit meerdere instellingen die bepalen welke partijeigenschappen zichtbaar en/of bewerkbaar zijn tijdens het tellen van voorraad.
+De **policy-groep** `**StockItemDetailSetting**` bestaat uit meerdere instellingen die bepalen welke partijeigenschappen zichtbaar en/of bewerkbaar zijn tijdens het tellen van voorraad.
 
 #### `AvailableStockItemDetails`
 
@@ -134,7 +134,7 @@ Hiermee wijkt u af van een centrale setting ->
 Bij het registreren van een verschil wordt automatisch een **xorder** aangemaakt. Dit is een pickorder waarmee voorraadcorrecties verder verwerkt mee kunnen worden.
 
 ---
-### Policies voor specifieke inrichting
+## Policies voor specifieke inrichting
 
 De onderstaande policies zijn alleen van toepassing wanneer specifieke inrichting of aanvullende functionaliteit in uw omgeving is geactiveerd.
 
