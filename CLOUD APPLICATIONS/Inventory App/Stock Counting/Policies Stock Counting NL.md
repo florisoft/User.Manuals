@@ -61,7 +61,7 @@ Deze **policy-groep** bepaalt hoe voorraad- en prijslabels worden afgedrukt.
 
 > ⚠️ Voor het correct functioneren van deze policies is de **JobAgent** vereist. Indien deze niet actief is, worden printers niet weergegeven en is afdrukken niet mogelijk. Raadpleeg de [handleiding voor de JobAgent](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Windows%20Job-Agent%20application) voor installatie en configuratie-instructies.
 
----
+----
 
 ### `StockItemDetailSetting`
 
@@ -77,7 +77,7 @@ Meer informatie over het aanpassen van deze instellingen vindt u in de [algemene
 Standaard zijn eigenschappen van voorraadpartijen alleen-lezen.  
 Met deze instelling bepaalt u welke van de zichtbare eigenschappen bewerkbaar zijn voor gebruikers tijdens de telling.
 
----
+----
 
 ### `AvailableStocks`
 
