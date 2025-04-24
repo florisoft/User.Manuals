@@ -133,7 +133,7 @@ Hiermee wijkt u af van een centrale setting ->
 
 Bij het registreren van een verschil wordt automatisch een **xorder** aangemaakt. Dit is een pickorder waarmee voorraadcorrecties verder verwerkt mee kunnen worden.
 
----
+
 ## Policies voor specifieke inrichting
 
 De onderstaande policies zijn alleen van toepassing wanneer specifieke inrichting of aanvullende functionaliteit in uw omgeving is geactiveerd.
@@ -159,8 +159,6 @@ De onderstaande policies zijn alleen van toepassing wanneer specifieke inrichtin
 ### `PickCheckStocks`
 
 -- Uitleg toevoegen -- 
-
----
 
 ## Autorisaties
 
