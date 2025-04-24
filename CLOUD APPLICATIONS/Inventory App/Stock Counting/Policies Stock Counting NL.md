@@ -1,120 +1,179 @@
-<img src="../../../fslogo.png">
+# Handleiding – Stock Counting Policies (Inventory-app)
 
-# Policy Handleiding Stock Counting
+Deze handleiding helpt u bij het configureren van de **Stock Counting-functionaliteit** in de Inventory-app.  
+Aan de hand van verschillende policies kunt u bepalen hoe voorraden worden geteld, weergegeven en verwerkt.
 
-In deze handleiding leest u over de policies die behoren tot de Stock Counting-functionaliteit van de Inventory-app.  
-Met dit document kunt u de Stock Counting-functionaliteit configureren voor uw specifieke use-case.
+> ⚠️ Vergeet niet om ook de juiste [autorisaties](#autorisaties) in te stellen. Zonder de juiste autorisaties zijn bepaalde functies niet beschikbaar.
 
-**Vergeet niet de autorisaties in te stellen, [autorisaties](#autorisaties)**
+---
 
-## Waar vind ik de Stock Counting Policies?
+## Waar vindt u de Stock Counting-policies?
 
-Volg de onderstaande stappen om de policies van de Stock Counting-functionaliteit in de Inventory-app te vinden.  
-Gebruik [deze handleiding](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Handleiding%20Policy%20Management%20NL.md) om te leren hoe u policies instelt en beheert.
+De policies voor Stock Counting configureert u via het **Policy Beheer** in het constantenscherm van de Backoffice.  
+Volg onderstaande stappen om deze te benaderen:
 
-| Stap | Uitleg |
-|:-:|:--|
-| **1** | Open het constantenscherm vanuit de navigator.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/1.png"></details>|
-| **2** | Navigeer naar: <br>**Systeem → Users → Policy Beheer**. <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/2.png"></details>|
-| **3** | In een (nieuwe) policy navigeert u naar: <br>**Apps → Inventory → Stock Counting**.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/3.png"></details>|
+| Stap  | Uitleg                                                                                               |
+| ----- | ---------------------------------------------------------------------------------------------------- |
+| **1** | Open het **constantenscherm** in de Backoffice via de navigator.                                     |
+| **2** | Navigeer naar:**Systeem → Users → Policy Beheer**.                                                   |
+| **3** | Selecteer of maak een policy aan, en navigeer vervolgens naar:**Apps → Inventory → Stock Counting**. |
 
-## Policies
+Wilt u meer weten over het instellen en beheren van policies in het algemeen? Raadpleeg dan de [handleiding Policy Management](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Handleiding%20Policy%20Management%20NL.md).
 
-Hieronder vindt u een overzicht van relevante **policies** voor de functionaliteit *Stock Counting*.  
-Per policy wordt beschreven hoe deze ingesteld kan worden en welke invloed dit heeft op het gedrag van de app.
+---
 
-> ⚠️ Houd er rekening mee dat tijdens de doorontwikkeling van de app regelmatig **nieuwe policies** worden toegevoegd of bestaande worden aangepast.  
-> Waar nodig wordt de beschrijving van een policy bijgewerkt om de werking correct te blijven toelichten.
+## Overzicht van policies
 
-Sommige policies zijn specifiek bedoeld voor bepaalde klantinrichtingen of uitzonderingssituaties.  
-Voor deze policies wordt mogelijk geen algemene uitleg opgenomen in deze handleiding.
+In dit hoofdstuk vindt u een overzicht van policies die specifiek betrekking hebben op de Stock Counting-functionaliteit.  
+Per policy wordt uitgelegd wat de functie is, hoe deze geconfigureerd wordt en waar u op moet letten bij het gebruik.
 
+> ⚠️ De beschikbaarheid van sommige policies kan afhangen van de inrichting van uw omgeving. Niet alle policies zijn in elke situatie van toepassing.
 
-### PrintSettings
-Op deze pagina stelt u de **printinstellingen** in voor het afdrukken van *prijslabels (`PriceLabels`)* en *voorraadlabels (`StockLabels`)*. Voor beide functies configureert u afzonderlijk:
+---
+### Instellingen op basis van voorkeur
 
-- **De printer** via de policy:  
-  - `PriceLabelPrinter` – voor prijslabels  
-  - `StockLabelPrinter` – voor voorraadlabels
+Deze groep policies is voor alle klanten beschikbaar. U kunt hiermee de functionaliteit aanpassen aan uw eigen voorkeuren en werkwijze.
+### `PrintSettings`
 
-- **De lay-out** via de policy:  
-  - `PriceLabelLayout` – voor prijslabels  
-  - `StockLabelLayout` – voor voorraadlabels
+Deze **policy-groep** bepaalt hoe voorraad- en prijslabels worden afgedrukt.
 
-Daarnaast kunt u met de policies `PriceLabelPrinterDescription` en `StockLabelPrinterDescription` de naam of omschrijving van de printer aanpassen. Deze aangepaste omschrijving wordt weergegeven in de app, zodat gebruikers eenvoudiger de juiste printer kunnen herkennen.
+#### Instellingen
 
-> **Belangrijk:** Voor het gebruik van printers binnen de app is de **JobAgent** vereist.  
-> Als de JobAgent niet actief is, worden er **géén printers weergegeven** in dit overzicht en is afdrukken via de app niet mogelijk.
+- **Printers:**
+    
+    - `PriceLabelPrinter`: printer voor prijslabels
+        
+    - `StockLabelPrinter`: printer voor voorraadlabels
+        
+- **Lay-outs:**
+    
+    - `PriceLabelLayout`: lay-out voor prijslabels
+        
+    - `StockLabelLayout`: lay-out voor voorraadlabels
+        
+- **Omschrijving in de app:**
+    
+    - `PriceLabelPrinterDescription`
+        
+    - `StockLabelPrinterDescription`  
+        ➞ Deze omschrijving wordt weergegeven in de gebruikersinterface.
+        
 
-### StockItemDetailSetting - AvailableStockItemDetails
+> ⚠️ Voor het correct functioneren van deze policies is de **JobAgent** vereist. Indien deze niet actief is, worden printers niet weergegeven en is afdrukken niet mogelijk. Raadpleeg de [handleiding voor de JobAgent](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Windows%20Job-Agent%20application) voor installatie en configuratie-instructies.
 
-Met deze policy stelt u in welke voorraadpartij-eigenschappen u zichtbaar wil hebben bij het openen van de partij in de stockcounting app. 
+---
 
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/5.png"></details>
+### `StockItemDetailSetting`
 
-|Stap|Uitleg|
-|:-:|:--|
-|**1**|Open de policy, dit opent een nieuw scherm, aan de rechterkant (#1) van dit scherm ziet u de alle mogelijke partij-eigenschappen die getoond kunnen worden. Links (Active) ziet u de partij-eigenschappen die getoond worden (#2).<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/6.png"></details>|
-|**2**|Met de knop <img src="Media/Policies/7.png" alt="<"> zet u een partij eigenschap zichtbaar in de app (actief) en met <img src="Media/Policies/8.png" alt=">"> zet u de zichtbare optie op inactief.|
-|**3**|Met de knoppen <img src="Media/Policies/9.png" alt="^">, <img src="Media/Policies/10.png" alt="v"> beïnvloed u de volgorde van de partij-eigenschappen, selecteer daarvoor een regel en gebruik deze knoppen om de eigenschap omhoog of omlaag in te delen.|
-|**4**|Met de knoppen <img src="Media/Policies/11.png" alt="^^">, <img src="Media/Policies/12.png" alt="V"> zet u de geselecteerde regel in een keer als bovenste of onderste item.|
-|**5**|Klik op sluiten om de wijzigingen op te slaan, u ziet nu de eigenschapindeling onder de policykaart staan.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/13.png"></details>|
+De **policy-groep **`**StockItemDetailSetting**` bestaat uit meerdere instellingen die bepalen welke partijeigenschappen zichtbaar en/of bewerkbaar zijn tijdens het tellen van voorraad.
 
-Na het instellen van deze policy ziet het bijhorende scherm er zo uit :
+#### `AvailableStockItemDetails`
 
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/14.png"></details>
+Met deze instelling bepaalt u welke eigenschappen van een voorraadpartij zichtbaar zijn in de app tijdens het tellen, en in welke volgorde deze worden weergegeven in de gebruikersinterface.
 
-### StockItemDetailSetting - AllowEditStockitemDetails
-Standaard kunnen partijdetails niet worden gewijzigd. Met deze policy bepaalt u welke velden binnen de AvailableStockItemDetails wél aangepast mogen worden. Zo behoudt u controle over welke informatie bewerkbaar is voor gebruikers.
+Meer informatie over het aanpassen van deze instellingen vindt u in de [algemene handleiding Policy Management](https://github.com/florisoft/User.Manuals/tree/main/BASIS/Policy%20Management).
+#### `AllowEditStockitemDetails`
 
-### AvailableStocks
+Standaard zijn eigenschappen van voorraadpartijen alleen-lezen.  
+Met deze instelling bepaalt u welke van de zichtbare eigenschappen bewerkbaar zijn voor gebruikers tijdens de telling.
 
-Met deze policy stelt u in welke voorraden beschikbaar zijn voor Stockcounting.
-Selecteer de voorraden die u beschikbaar wilt stellen voor stock counting.
+---
 
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/4.png"></details>
+### `AvailableStocks`
 
-### SetStockItemType
+Met deze policy geeft u aan welke voorraadlocaties beschikbaar zijn voor telling.  
+Alleen de hier geselecteerde voorraden zijn zichtbaar en bewerkbaar in de Stock Counting-app.
 
-Met deze keuzelijst bepaalt u welk partijtType (`stockItemType`) wordt gescand binnen de **Voorraadtelling**-functionaliteit.  
-De keuzelijst biedt de volgende drie opties:
+---
 
-- **VParcel**
-- **Parcel**
-- **LogPartij**
+### `SetStockItemType`
 
-### ToPickQuantityDisplay
+Bepaalt het type partij dat binnen de app gescand en geteld wordt.
 
-Binnen de **StockCounting**-functionaliteit wordt naast de beschikbare voorraad ook weergegeven hoeveel er nog openstaat aan **pickorders** voor een bepaalde partij.
+Beschikbare opties:
 
-Met de instelling `ToPickQuantityDisplay` bepaalt u in **welke eenheid** deze te picken hoeveelheid wordt getoond:
-- In **stelen**, of
-- In de overige **colli-inhoud** (zoals fusten, dozen, etc.)
+- `VParcel` (verzamelpartij)
+    
+- `Parcel` (standaard partij)
+    
+- `LogPartij` (logistieke partij)
+    
 
-### StockCountingCustomerCode
-De policy `StockCountingCustomerCode` wordt gebruikt om een **debiteurnummer** in te stellen.  
-Alle voorraadverschillen die tijdens de voorraadtelling worden geregistreerd, worden aan deze debiteur toegewezen.  
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/24.png"></details>
+De gekozen instelling bepaalt hoe artikelen tijdens het scannen worden herkend en geïnterpreteerd.
 
-### StockCountingCustomerCodePerStock
+---
 
-Met de policy `StockCountingCustomerCodePerStock` wordt niet het algemene debiteurnummer uit `StockCountingCustomerCode` gebruikt,  
-maar juist het **debiteurnummer dat per voorraad is ingesteld** voor de voorraadopname.
+### `ToPickQuantityDisplay`
 
-Dit zorgt ervoor dat voorraadverschillen worden toegewezen aan de specifieke debiteur die bij de betreffende voorraad hoort, in plaats van aan één centrale debiteur.
+Geeft aan hoe het aantal nog te picken eenheden naast de voorraad wordt weergegeven.
 
-### StockCountingXorder
-Wanneer het aantal in de voorraad wordt aangepast, wordt er – naast de verdeling naar het ingestelde **voorraadopnamedebiteurnummer** – ook automatisch een **xorder** (oftewel een *pickorder*) aangemaakt.
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Policies/21.png"></details>
+- **Stelen**: toont het aantal in stelen (standaardeenheid)
+    
+- **Colli-inhoud**: toont het aantal op basis van 'Aantal colli + Inhoud colli + restant'
+    
+
+Kies de optie die het best past bij uw logistieke proces.
+
+---
+
+### `StockCountingCustomerCode`
+
+Deze policy stelt een vast **debiteurnummer** in waaraan voorraadverschillen worden verdeeld tijdens de telling.
+
+---
+
+### `StockCountingCustomerCodePerStock`
+
+Indien actief, worden voorraadverschillen per voorraadlocatie verdeeld aan het debiteurnummer dat specifiek bij die locatie is ingesteld.  
+Hiermee wijkt u af van een centrale setting ->
+
+---
+
+### `StockCountingXorder`
+
+Bij het registreren van een verschil wordt automatisch een **xorder** aangemaakt. Dit is een pickorder waarmee voorraadcorrecties verder verwerkt mee kunnen worden.
+
+---
+### Policies voor specifieke inrichting
+
+De onderstaande policies zijn alleen van toepassing wanneer specifieke inrichting of aanvullende functionaliteit in uw omgeving is geactiveerd.
+
+### `StockQuantityMutAlsoStoredStockItem`
+
+-- Uitleg toevoegen -- 
+
+---
+
+### `StockMutationAsCounting`
+
+-- Uitleg toevoegen -- 
+
+---
+
+### `StockMutationAsCountingFallBack`
+
+-- Uitleg toevoegen -- 
+
+---
+
+### `PickCheckStocks`
+
+-- Uitleg toevoegen -- 
+
+---
 
 ## Autorisaties
 
-Volg de onderstaande stappen om de nodige autorisaties in te stellen.
+Voor toegang tot de Stock Counting-functionaliteit zijn specifieke autorisaties vereist.  
+Zonder deze autorisatie kunnen gebruikers de app niet openen of gebruiken.
 
-|Stap|Uitleg|
-|:-:|:--|
-|**1**|Vanuit de navigator opent u het constantenscherm.|
-|**2**|In het constantenscherm navigeert u naar het pad :<br>**Systeem→Users→Systeem gebruikers**|
-|**3**|Open een relevante systeemgebruiker en klik op de knop **autorisatie**, dit opent het autorisaties scherm.|
-|**4**|Klik in de bestandsmappen scherm en druk op de F3 toets om het zoekscherm te openen. Gebruik het snelzoekenveld om te zoeken naar de code "425".<br><br>**Navigator palmtop/Voorraad opname_425** zet deze autorisatie **"Alle handelingen toegestaan"**. Druk vervolgens op **ok** om de wijzigingen op te slaan.|
-|**5**|Herhaal dit voor de andere gebruikers, je kan dit versnellen door in het autorisatiescherm op de knop **"kopie autorisatie"** te drukken.|
+| Stap  | Uitleg                                                                                                                                                 |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **1** | Open het **constantenscherm** via de navigator.                                                                                                        |
+| **2** | Navigeer naar **Systeem → Users → Systeem gebruikers**.                                                                                                |
+| **3** | Open de gewenste gebruiker en klik op **Autorisatie**.                                                                                                 |
+| **4** | Druk op **F3** om het zoekvenster te openen.                                                                                                           |
+| **5** | Zoek op code **425**. Selecteer de autorisatie:**Navigator palmtop/Voorraad opname_425** en kies **Alle handelingen toegestaan**. Bevestig met **OK**. |
+| **6** | Herhaal dit voor andere gebruikers. U kunt het proces versnellen via de knop **Kopie autorisatie**.                                                    |
+
+---
