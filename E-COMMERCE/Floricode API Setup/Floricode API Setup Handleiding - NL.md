@@ -20,7 +20,7 @@ De onderstaande tabel geeft weer welke Floricode producten en Florisoft modules 
 |Functionaliteit|Florisoft Module|Floricode Product(en)|
 |:--|:--|:--|
 |Artikelen, artikelgroepen en sorteringskenmerken|Product and feature type codes|Product- en kenmerktype codes|
-|Kwekers en veilingkopers|Company codes|Bedrijfs- en locatiecodes|
+|Kwekers en veilingkopers|Company codes|Bedrijfscodes|
 |Afleverlocaties, kwekers en veilingkopers|Company and location codes|Bedrijfs- en locatiecodes|
 |Fustcodes|Logistic means codes|Logistiek middelen codes|
 |Botanische namen en Client Export-kenmerken|e-CertNL codes|e-CertNL codes|
