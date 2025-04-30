@@ -19,13 +19,13 @@ De onderstaande tabel geeft weer welke Floricode producten en Florisoft modules 
 
 |Functionaliteit|Florisoft Module|Floricode Product(en)|
 |:--|:--|:--|
-|Artikelen, artikelgroepen en sorteringskenmerken|Product and feature type codes|Product- en kenmerktype codes|
+|Artikelen, artikelgroepen en sorteringskenmerken|Product and feature type codes|Product- en kenmerkcodes|
 |Kwekers en veilingkopers|Company codes|Bedrijfscodes|
-|Afleverlocaties, kwekers en veilingkopers|Company and location codes|Bedrijfs- en locatiecodes|
-|Fustcodes|Logistic means codes|Logistiek middelen codes|
-|Botanische namen en Client Export-kenmerken|e-CertNL codes|e-CertNL codes|
+|Afleverlocaties, kwekers en veilingkopers|Company and location codes|Locatie- en bedrijfscodes|
+|Fustcodes|Logistic means codes|Logistieke middelen codes|
+|Botanische namen en Client Export-kenmerken|e-CertNL codes|E-Cert codelijsten|
 |Uitsplitsingscodes|Goods codes|Goederen codes|
-|Kwekercertificaten|Sustainability certificicates|Certificaten duurzaamheid|
+|Kwekercertificaten|Sustainability certificicates|Certificatenregister|
 
 ## Checken van huidige configuratie
 
@@ -73,34 +73,36 @@ De onderste tabel geeft referenties naar welke Policy gelijk staat aan welke tim
 
 ### Timer setting → Policy
 
-|Timer setting|Policy|Policy Functie omschrijving|
+| Timer setting | Policy | Policy Functie omschrijving |
 |:--|:--|:--|
-|VBN/VBNPlantionVeilingKopers|**Companies_ImportPlantionCompanies**||
-|VBN/VBNOverschrVeilingkopers|**Companies_OverwriteAuctionBuyerDescriptions**||
-|VBN/VBNHuidigeOverschrijven|**Companies_OverwriteAuctionBuyers**||
-|ImportKewkersVeilingen|**Companies_GrowerAuctionsToImport**|Standaard veiling codes "01", "02", "03"|
-|VBN/VBNHuidigeOverschrijven|**ECert_OverwriteEisKenmerkTypes**||
-|VBN/VBNHuidigeOverschrijven|**ECert_OverwriteEisKenmerkWaardes**||
-|\*Nieuw\*|**ECert_OverwriteVerklaringen**||
-|\*Nieuw\*|**ECert_OverwriteNVWACertificateFeature**||
-|Factuur uitsplitsingen aanmaken/Huidige factuur uitsplitsingen omschrijving overschrijven|**GoodsCodes_OverwriteCnGoods**||
-|Factuur uitsplitsingen aanmaken/Factuur uitsplitsingen overschrijven van artikelgroepen|**GoodsCodes_OverwriteProductGroupToCnGoods**||
-|Setup/VBNArtikelenAanmaken|**Product_AppendNewArticles**||
-|Artikelen/Botanische namen overschrijven|**Products_OverwriteBotanicalNames**||
-|VBN/Huidige overschrijven|**Products_OverwriteExistingArticles**||
-|VBN/Huidige overschrijven|**Products_OverwriteExistingFeatures**||
-|Setup/VBNArtikelenAanmaken|**Products_Append_NewArticleGroups**||
-|VBN/Huidige overschrijven|**Products_OverwriteExistingArticleGroups**||
-|Setup/ArticleGroupCountrySpecDefault|**Products_ArticleGroupCountrySpecDefault**|| <!- New!- -->
-|Setup/VBNARtikelGroepNieuwEMails|**Products_NewArticleGroupEmails**||<!- New!- -->
-|Fusten/HuidigeFustenOverschrijven|**Products_OverwriteExistingPackages**||
-|Fusten/Huidige fusten overschrijven/Fusttype behouden|**Products_Products_KeepPackageType**||
-|Setup/VBNARtikelGroepNieuwEMails|**Products_NewPackageEmails**||<!- New!- -->
-|Huidige vertalingen overschrijven/Artikelen|**Products_OverwriteTranslations**||
-|Huidige vertalingen overschrijven/Artikelgroepen|**Products_OverwriteArticleGroupTranslations**||
-|Huidige vertalingen overschrijven/Sorteringskenmerken|**Products_OverwriteFeatureTranslations**||
-|Vertalingen (Artnr/Artgrp/SortKenm)/Nederlands|**Products_ImportDutchTranslations**||
-|Vertalingen (Artnr/Artgrp/SortKenm)/Engels|**Products_ImportEnglishTranslations**||
-|Vertalingen (Artnr/Artgrp/SortKenm)/Duits|**Products_ImportGermanTranslations**||
-|Vertalingen (Artnr/Artgrp/SortKenm)/Frans|**Products_ImportFrenchTranslations**||
+| *Nieuw* | **UnauthorizedErrorEmails** | Autorisatie-foutmeldingen mailen naar... |
+| VBN/VBNPlantionVeilingKopers | **Companies_ImportPlantionCompanies** | Veiling kopers van Plantion importeren |
+| VBN/VBNOverschrVeilingkopers | **Companies_OverwriteAuctionBuyerDescriptions** | Overschrijf veiling koper omschrijving |
+| VBN/VBNHuidigeOverschrijven | **Companies_OverwriteAuctionBuyers** | Overschrijf veiling koper |
+| ImportKewkersVeilingen | **Companies_GrowerAuctionsToImport** | Standaard veiling codes "01", "02", "03" |
+| VBN/VBNHuidigeOverschrijven | **ECert_OverwriteEisKenmerkTypes** | Floricode E-Cert codelijsten Export Eis Kenmerk Types overschrijven |
+| VBN/VBNHuidigeOverschrijven | **ECert_OverwriteEisKenmerkWaardes** | Floricode E-Cert codelijsten Export Eis Kenmerk Waardes overschrijven |
+| *Nieuw* | **ECert_OverwriteVerklaringen** | Floricode E-Cert codelijsten verklaring teksten overschrijven |
+| *Nieuw* | **ECert_OverwriteNVWACertificateFeature** | Floricode NVWA certificaat kenmerken overschrijven |
+| Factuur uitsplitsingen aanmaken/Huidige factuur uitsplitsingen omschrijving overschrijven | **GoodsCodes_OverwriteCnGoods** | Overschrijf goederencodes |
+| Factuur uitsplitsingen aanmaken/Factuur uitsplitsingen overschrijven van artikelgroepen | **GoodsCodes_OverwriteProductGroupToCnGoods** | Overschrijf artikel groep land splitscodes |
+| Setup/VBNArtikelenAanmaken | **Products_AppendNewArticles** | Geimporteerde VBN artikelen aanmaken als artikel, Geimporteerde VBN sorteringen aanmaken als scode of xcode |
+| Artikelen/Botanische namen overschrijven | **Products_OverwriteBotanicalNames** | Botanische naam van artikelen vullen |
+| VBN/Huidige overschrijven | **Products_OverwriteExistingArticles** | Overschrijf huidige artikel gegevens |
+| VBN/Huidige overschrijven | **Products_OverwriteExistingFeatures** | Overschrijf huidige kenmerk gegevens |
+| Setup/VBNArtikelenAanmaken | **Products_AppendNewArticleGroups** | Geimporteerde VBN artikelgroepen aanmaken als artikelgroep |
+| VBN/Huidige overschrijven | **Products_OverwriteExistingArticleGroups** | Overschrijf huidige artikelgroep gegeven |
+| Setup/ArticleGroupCountrySpecDefault | **Products_ArticleGroupCountrySpecDefault** | Products_ArticleGroupCountrySpecDefault |
+| Setup/VBNARtikelGroepNieuwEMails | **Products_NewArticleGroupEmails** | Nieuwe aangemaakte artikelgroepen mailen naar |
+| Fusten/HuidigeFustenOverschrijven | **Products_OverwriteExistingPackages** | Overschrijf huidige fust gegevens |
+| Fusten/Huidige fusten overschrijven/Fusttype behouden | **Products_KeepPackageType** | Verpakking materiaal niet overschrijven |
+| Setup/VBNARtikelGroepNieuwEMails | **Products_NewPackagesEmails** | Nieuwe aangemaakt fusten mailen naar |
+| Huidige vertalingen overschrijven/Artikelen | **Products_OverwriteTranslations** | Alle vertalingen overschrijven van in plaats van alleen lege vullen |
+| Huidige vertalingen overschrijven/Artikelgroepen | **Products_OverwriteArticleGroupTranslations** | Tijdens overschrijven van vertalingen de artikelgroep vertalingen overschrijven |
+| Huidige vertalingen overschrijven/Sorteringskenmerken | **Products_OverwriteFeatureTranslations** | Tijdens overschrijven van vertalingen de kenmerk vertalingen overschrijven |
+| Vertalingen (Artnr/Artgrp/SortKenm)/Nederlands | **Products_ImportDutchTranslations** | Importeer Nederlandse vertalingen |
+| Vertalingen (Artnr/Artgrp/SortKenm)/Engels | **Products_ImportEnglishTranslations** | Importeer Engelse vertalingen |
+| Vertalingen (Artnr/Artgrp/SortKenm)/Duits | **Products_ImportGermanTranslations** | Importeer Duitse vertalingen |
+| Vertalingen (Artnr/Artgrp/SortKenm)/Frans | **Products_ImportFrenchTranslations** | Importeer Franse vertalingen |
+
 
