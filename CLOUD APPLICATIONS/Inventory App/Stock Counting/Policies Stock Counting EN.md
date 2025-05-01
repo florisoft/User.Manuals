@@ -1,7 +1,7 @@
 # Guide – Stock Counting Policies (Inventory App)
 
 This guide helps you configure the **Stock Counting functionality** in the Inventory app.\
-Using various policies, you can define how stock is counted, displayed, and processed.
+Using various policies, you can define how **stock** is counted, displayed, and processed.
 
 > ⚠️ Don't forget to configure the appropriate [authorizations](#-authorizations). Without proper authorizations, certain functions will not be available.
 
@@ -33,11 +33,11 @@ Each policy explains its purpose, how to configure it, and any important usage n
 
 ### Customer-configurable policies
 
-These policies are available to all customers and allow the Stock Counting functionality to be adapted to your specific workflows.
+These policies are available to all clients and allow the Stock Counting functionality to be tailored to your preferences and workflow.
 
 ### `PrintSettings`
 
-This **policy group** defines how stock and price labels are printed.
+This **policy group** defines how stock and price **labels** are printed.
 
 #### Configuration options
 
@@ -49,69 +49,69 @@ This **policy group** defines how stock and price labels are printed.
   - `PriceLabelLayout`: layout for price labels
   - `StockLabelLayout`: layout for stock labels
 
-- **App label display:**
+- **Label descriptions in the app:**
   - `PriceLabelPrinterDescription`
   - `StockLabelPrinterDescription`\
-    ➞ The entered description is shown in the app interface.
+    ➞ The description appears in the app to help users identify the correct printer.
 
-> ⚠️ The **JobAgent** must be active for printing to work. If it is not running, no printers will appear and printing is disabled. See the [JobAgent guide](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Windows%20Job-Agent%20application) for setup instructions.
+> ⚠️ The **JobAgent** must be active for printing to work. If it is not running, no printers will appear and printing is disabled. See the [JobAgent guide](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Windows%20Job-Agent%20application) for installation and configuration.
 
 ---
 
 ### `StockItemDetailSetting`
 
-The **policy group** `StockItemDetailSetting` contains settings that determine which batch properties are visible and/or editable in the Stock Counting app.
+The **policy group** `StockItemDetailSetting` determines which **parcel** properties are visible and/or editable in the Stock Counting app.
 
 #### `AvailableStockItemDetails`
-This setting controls which batch properties are visible when opening a batch in the app and the order in which they appear in the user interface.
+This policy controls which parcel properties are visible when opening a batch in the app, and the order in which they are shown in the user interface.
 
-More information on adjusting these settings is available in the [Policy Management Guide](https://github.com/florisoft/User.Manuals/tree/main/BASIS/Policy%20Management).
+For more details on adjusting these settings, refer to the [Policy Management Guide](https://github.com/florisoft/User.Manuals/tree/main/BASIS/Policy%20Management).
 
 #### `AllowEditStockitemDetails`
-By default, batch properties are read-only. This setting allows you to define which visible properties are editable during counting.
+By default, parcel properties are read-only. This setting lets you configure which visible properties can be edited during counting.
 
 ---
 
 ### `StockMutationSettings`
 
-The **policy group** `StockMutationSettings` includes settings for recording and processing stock discrepancies using mutations.
+The **policy group** `StockMutationSettings` includes settings for recording and processing **stock** discrepancies using mutations.
 
 #### `StockCountingCustomerCode`
-This policy defines the **debtor number** to which stock discrepancies are assigned during counting. Note: this only works if `StockMutationAsCounting` is also enabled.
+Use this policy to assign a specific **debtor number** to stock discrepancies found during counting. This only works if `StockMutationAsCounting` is also enabled.
 
 #### `StockMutationAsCounting`
-Enables the processing of stock discrepancies as stock mutations. When enabled, discrepancies are immediately processed as a mutation for the configured debtor in `StockCountingCustomerCode`.
+When enabled, stock discrepancies are automatically processed as a **write-off** mutation assigned to the configured debtor in `StockCountingCustomerCode`.
 
 #### `StockCountingCustomerCodePerStock`
-Use this policy to assign stock discrepancies per stock location to a different debtor. See the stock setting 'Stock count debtor'. This overrides `StockCountingCustomerCode`. Note: users must also have this policy enabled (`true`) to adjust the stock setting.
+Use this policy to assign stock discrepancies per **stock** location to a separate **debtor**. See the stock setting 'Stock count debtor'. This setting overrides `StockCountingCustomerCode`. Users must also have this policy enabled (`true`) to change this setting.
 
 #### `StockCountingXorder`
-When a discrepancy is registered, an **xorder** (picking order) is automatically created to process the correction.
+Automatically creates a **picking order** (xorder) when a stock discrepancy is registered.
 
 #### `StockQuantityMutAlsoStoredStockItem`
-Ensures that when stock is mutated, the linked stored stock item is also updated. This only applies if stock is managed with a storage structure.
+Ensures that when **stock** is mutated, the linked **stored parcel** is also updated. Applies only if your environment uses storage-based inventory management.
 
 #### `StockMutationAsCountingFallBack`
-This fallback setting applies when `StockMutationAsCounting` is active but cannot be used for a specific mutation. The fallback behavior is then applied.
+Used when `StockMutationAsCounting` is active but cannot be applied to a specific case. The fallback logic is then triggered.
 
 ---
 
 ### `AvailableStocks`
 
-This policy controls which stock locations are available for counting.\
-Only the selected stocks will be visible and editable in the Stock Counting app.
+This policy defines which **stock locations** are available in the app.\
+Only selected locations are visible and editable for Stock Counting.
 
 ---
 
 ### `SetStockItemType`
 
-Defines which type of batch is scanned and counted in the app.
+Defines which type of **parcel** is scanned and counted in the app.
 
 Available options:
 
-- `VParcel` (combined batch)
-- `Parcel` (standard batch)
-- `LogPartij` (logistic batch)
+- `VParcel` (combined parcel)
+- `Parcel` (standard parcel)
+- `LogPartij` (logistics parcel)
 
 The selected option determines how items are recognized during scanning.
 
@@ -119,12 +119,12 @@ The selected option determines how items are recognized during scanning.
 
 ### `ToPickQuantityDisplay`
 
-Specifies how the remaining pick quantity is displayed next to the stock.
+Controls how the open **pick quantity** is shown next to the current **stock**.
 
-- **Stems**: shows the quantity in stems (standard unit)
-- **Colli content**: shows the quantity as 'Number of colli + Content of colli + remainder'
+- **Stems**: displays quantity in stems (default unit)
+- **Colli content**: displays quantity as: number of **colli** + **content** + remainder
 
-Choose the option that best fits your logistics process.
+Choose the format that best suits your logistics process.
 
 ---
 
@@ -139,8 +139,7 @@ Without these, users cannot open or use the app.
 | **2** | Navigate to **System → Users → System users**.                                                                                       |
 | **3** | Open the desired user and click **Authorization**.                                                                                   |
 | **4** | Press **F3** to open the search window.                                                                                              |
-| **5** | Search for code **425**. Select the authorization: **Navigator palmtop/Voorraad opname_425** and set to **All actions allowed**. Confirm with **OK**. |
+| **5** | Search for code **425**. Select the authorization: **Navigator palmtop/Stock counting_425** and set to **All actions allowed**. Confirm with **OK**. |
 | **6** | Repeat for other users. You can speed this up using the **Copy authorization** button.                                               |
 
 ---
-
