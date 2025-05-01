@@ -131,7 +131,7 @@ Kies de optie die het best past bij uw logistieke proces.
 
 ---
 
-## 🔐 Autorisaties
+## Autorisaties
 
 Voor toegang tot de Stock Counting-functionaliteit zijn specifieke autorisaties vereist.\
 Zonder deze autorisatie kunnen gebruikers de app niet openen of gebruiken.
