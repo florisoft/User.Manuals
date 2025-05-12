@@ -36,6 +36,22 @@ To be able to log into the cloud server, we will use the Microsoft RDP-protocol.
 |**9**|With a working wifi-connection Windows will now connect to the cloud server.<details><summary><b>Click here for your example image</b></summary><img src="Media_EN/image5.png"></details>|
 |**10**|After a few seconds the desktop of the cloud server will appear. See the picture below.<details><summary><b>Click here for your example image</b></summary><img src="Media_EN/image.png"></details>|
 
+## Receiving a Reset Florisoft Connection File
+
+If your server is hosted by RESET (a hosting provider) you will be sent a connection file that is used to connect to the Florisoft server. 
+Follow the steps below to download the server connection file to your computer's desktop. 
+
+*The following steps take place in the Microsoft Office Outlook application, you might use a different email application like gmail or hotmail.*
+
+|Step|Explanation|
+|:--|:--|
+|**1**|When your server is ready we will sent you an email with the connection file and login credentials for you to use when connecting to the server. The image below shows an example of what that e-mail looks like.<details><summary>**Click here for the example image!**</summary><img src="Media_EN/image17.png"></details>|
+|**2**|Take note of the Userid (username) and password (not physically ofcourse).|
+|**3**|Click on the .rdp file in the appendix with the Right Mouse Button, click on the **save as** option.<details><summary>**Click here for the example image!**</summary><img src="Media_EN/image19.png"></details>|
+|**4**|This will prompt a Windows Explorer screen in which you can save the file to a specific destination. To make it easier for ourselves it is best to save it to the desktop folder. Now press the **save** button. This will make it so that we see the connection file to our desktop screen which makes looking for it a lot easier.<details><summary>**Click here for the example image!**</summary><img src="Media_EN/image20.png"></details>|
+|**5**|Now if me move back to our desktop screen you should be able to see the connection file stored there.<details><summary>**Click here for the example image!**</summary><img src="Media_EN/image21.png"></details>|
+
+
 ## Logging into a Reset server
 
 If you are hosted on a RESET (Hosting service) server you have a sligthly different login process. To log into your server using Microsoft's RDP service follow the steps listed below:

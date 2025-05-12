@@ -6,8 +6,11 @@
 Zodra je beschikt over de module Commerciële Voorraad Partijen heb je bij de
 voorraadinstellingen in de constanten een nieuw tabblad en bij het setup
 systeem een apart tabje voor de commerciële partijen instellingen.  
+
+Belangrijke informatie voor het inrichten van de module; Voordat de module wordt ingericht moet er door een medewerker van Florisoft nagekeken worden of de manier van hashen via de nieuwe manier gaat. Neem hiervoor contact op met de support afdeling.
+Het omzetten kan via de debug optie 'Commerciele partijen hash omzetten'. Standaard staat dit aan op systemen welke ongeveer na 2020 zijn geimplementeerd. Systemen welke al live waren voor dat jaartal zullen moeten worden omgezet naar de nieuwe manier van hashen. Mocht dat nog niet gedaan zijn kunt u contact opnemen met de supportafdeling.
   
-In mijn onderstaande voorbeeld heb ik bij Bab Star dus een commerciële
+In mijn onderstaande voorbeeld heb ik dus een commerciële
 voorraad aangemaakt en aangegeven: “Is commerciële voorraad”.
 
 <img src=".Commerciële partijen\media\image1.png" style="width:6.28999in;height:3.48958in" />
@@ -121,11 +124,11 @@ nieuwe:
 
 Webshop.
 
-Bij Bab Star heb ik er voor gekozen om de Cel voorraad en de commerciële
+Bij klant 'X' heb ik er voor gekozen om de Cel voorraad en de commerciële
 voorraad als 1 voorraad te tonen op de Webshop, als Webshop voorraad.
 Genoemd Bloemen.
 
-Dit omdat Bab Star NIET iedere partij omgevormd moet worden tot
+Dit omdat bij klant 'X' NIET iedere partij omgevormd moet worden tot
 commerciële partij. Enkel de producten die normaliter werden
 “Samengevoegd” om het aanbod voor de klant overzichtelijker te maken.
 

@@ -1,42 +1,70 @@
 <img src="../../fslogo.png">
 
-# Florisoft Handleiding Cash & Carry Touch (M168)
+# Florisoft Handleiding Cash & Carry Touch - M168
 
-## Table of contents
+Dit document bescrhijft de werking van de Cash & Carry touch applicatie. De Cash & Carry touch module geeft een touchscreen geörienteerd systeem voor de C&C Verkoper en Kassa gebruiker.
 
-[De Cash & Carry Touch module starten](#de-cash-&-carry-touch-module-starten)  
-[Het vullen van bestellingen](#het-vullen-van-de-bestelling)  
-[Laatste dingen](#laatste-dingen)
+<!--
+    Nog niet pushen naar Git los eerst de onderstaande problemen op.
 
-## De Cash & Carry Touch module starten
+    ToDo: 
+        * Jelle na laten kijken!
+        * Hoe maak je een ordernummer aan of hoor je dit überhaupt aan te      maken?
+        * Is er een apart document nodig voor de gegeven instellingen of die je dit in dit document?
+-->
 
+## Inhoudsopgave
+
+
+[Systeem gebruiker instelling verkoper of kassa](#systeem-gebruiker-instelling-verkoper-of-kassa)
+[Stappen vanuit de verkoper](#stappen-vanuit-de-verkoper)  
+[Afrekenen](#afrekenen)  
+
+## Systeem gebruiker instelling verkoper of kassa
+
+U kunt per gebruiker aangeven of deze een kassa of verkoper gebruiker is.
 
 |Stap|Uitleg|
 |:--|:--|
-|**1**|Om de Cash & Carry Touch module te starten, start u via het thuisscherm de Florisoft applicatie op.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image2.png"></details>|
-|**2**|Eenmaal in de Florisoft applicatie klikt u op de menu kop '*Sales*' om de sales functie in Florisoft te starten.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image3.png"></details>|
-|**3**|Voer in het lege veld naast de tekst '*Seller*' uw verkoper code in. Dit doet u door op het veld te klikken en de code in te typen in het zojuist verschenen toetsenbord.<Br> **Hoe het toetsenbord er uit ziet kan per apparaat verschillen.**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image4.png">      <img src=".Cash & Carry PDA Handleiding/media/image5.png"></details>|
-|**4**|Als de verkoper door het systeem herkent wordt zal de volledige naam in rood weergeven worden onder de ingevoerde code.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image6.png"></details>|
-|**5**|Vul nu een debiteurcode in bij het lege veld naast '*Debtor*'. U tikt/klikt eenmaal op het lege veld en typt de debtieurcode in met het pop-up toetsenbord. De volledige naam van de debiteur zal rood weergeven worden onder het invoerveld.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image7.png"></details>|
-|**6**|Klik vervolgens op de **Ok** knop om door te gaan.|
-|**7**|U krijgt nu een scherm te zien waar in u een ordernummer kan toevoegen.<br>Om de verschillende bestellingen bij te houden, staat de Cash & Carry Touch module de gebruiker toe om eigen ordernummers te creeren. Deze nummer kunnen Alpha-numeriek zijn, ofwel het mag zowel nummers als letters bevatten. Druk op het open veld en voer het unieke ordernummer in. Er is een limiet op 10 karakters.<br><br>**!!De ordernummer moet uniek zijn, anders kan het systeem de verschillende bestellingen niet van elkaar onderscheiden.!!**<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image8.png"></details>|
-|**8**|Klik nu op de *Ok* om door te gaan|
+|**1**|Open de constanten en navigeer naar het pad:<br>**Systeem→Users→System users**|
+|**2**|Open een gebruiker en klik op de INIfiles knop. |
+|**3**|Klik op de dropdown en kies voor de optie **FS_KASSA**.|
+|**4**|Zoek naar de optie (F3) **CashCarryTouchModusType**, zet deze instelling op **Koop invoer** als de gebruiker een verkoper is en op **afrekenen** als de gebruiker bij de kassa gebruikt word.|
 
-## Het vullen van de bestelling
 
-Na het instellen en opstarten van de PDA + Florisoft zoals beschreven in het vorige hoofdstuk, is de PDA klaar voor gebruik. *Hieronder vind u beschrijving van het gebruik van de PDA.*
 
-|#|Uitleg|
-|:--|:--|
-|**1**|De PDA kan nu gebruikt worden om producten te scannen om ze toe te voegen aan de bestelling. De code van het gescande product zal onder worden weergeven. Een overzicht van alle gescande producten zal daarboven worden weergeven. *Een product kan ook handmatig worden ingevoerd.*<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image9.png"></details>|
-|**2**|Producten kunnen ook handmatig ingevoerd worden door op de '*search*' knop te drukken boven het open veld.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image10.png"></details>|
-|**3**|Een selectie van producten kan gemaakt worden en toegevoegd aan de bestelling, klik op de verschillende producten. Deze krijgen een gele gloed als ze geselecteerd zijn, klik enter om ze toe te voegen.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image11.png"></details>|
-|**4**|Om makkelijker te zoeken, kan de gebruiker gebruik maken van de 'Groups' functie. Zodra het geklikt is, laat de PDA verschillende productgroepen zien. Selecteer een van de groepen en klik enter, alle producten binnen de productgroep zullen weergeven. Selecteer de gewilde producten en klik enter.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image12.png"></details>|
-|**5**|Om de hoeveelheid te veranderen, klik op het open veld onder 'package'.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image14.png">       <img src=".Cash & Carry PDA Handleiding/media/image13.png"></details>|
-|**6**|Zodra de producten toegevoegd zijn aan de bestelling, moet het scherm vergelijkbaar zijn met de onderstaande foto. De waardes zullen afwijken. Klik de 'Finish' knop om verder te gaan.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image15.png"></details>|
+## Stappen vanuit de verkoper
 
-## Laatste dingen
+*De onderstaande stappen geven een inzicht op het werkproces van de verkopergebruiker met de Cash & Carry touch module.*
 
-*<p style="color : blue">Zodra de bestelling gevuld is, druk op de 'finish' knop, waarna je 8 verschillende opties hebt. Bijvoorbeeld het printen van een paklijst, een factuur en/of adres stikkers, resetten van alle sales (void sales) en het versturen van de sales naar een kassa medewerker.</p>*
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Open het Cash & Carry touch scherm.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Cash & Carry Touch Handleiding\image2.png"></details>|
+|**2**|Log in met uw verkoperscode.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Cash & Carry Touch Handleiding\image1.png"></details>|
+|**3**|Selecteer vervolgens een debiteur, doe dit door op een debiteurnummer te zoeken of door op de **kies** knop te klikken achter de naam van een debiteur.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Cash & Carry Touch Handleiding\image3.png"></details>|
+|**4**|U kan nu productgroepen openen of zoeken naar een partij.<Br>**Let op:** *het inladen van deze afbeeldingen kan even duren*<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Cash & Carry Touch Handleiding\image4.png"></details>|
+|**5**|Bij het openen van een productgroep ziet u de artikelen in de productgroep verschijnen. Het tablad Artikelen opent, wilt u terug gaan naar het productgroeptablad klik dan op **terug**.<details><summary><b>Click here for the example image!</b></summary><img src=".Cash & Carry Touch Handleiding\image8.png"></details>|
+|**6**|Klik vervolgens op het artikel dat u wilt verkopen, het tablad **partijen** opent nu met de partijen van het gekozen artikel.<br><br> Doormiddel van de zoekbalk kan u ook direct op een partij zoeken.<details><summary><b>Click here for the example image!</b></summary><img src=".Cash & Carry Touch Handleiding\image14.png"></details>|
+|**7**|Bij het openen van een partij wordt u gebracht naar de **Aankoop details** waarin u de de hoeveelheid, sales unit en verkoopprijs kan aanpassen.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Cash & Carry Touch Handleiding\image12.png"></details>|
+|**8**|Mocht u een fout gemaakt hebben kan u een dit verwijderen door op het vuilnisbak icoontje klikken naast een partij.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Cash & Carry Touch Handleiding\image10.png"></details>|
+|**9**|Heeft de klant Fust dat hij/zij wil inleveren klik dan op de **FUST invoer** knop rechtsonderin uw scherm. Dit opent het Fust invoer tablad.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Cash & Carry Touch Handleiding\image11.png"></details>|
+|**10**|Vul hier de te leveren en het geretourneerde Fust aantal in.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Cash & Carry Touch Handleiding\image12.png"></details>|
+|**11**|Klik nu op **Overhevelen**.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Cash & Carry Touch Handleiding\image13.png"></details>|
 
-<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".Cash & Carry PDA Handleiding/media/image16.png">       <img src=".Cash & Carry PDA Handleiding/media/image17.png"></details>
+## Afrekenen
+
+*De onderstaande stappen geven een inzicht op het werkproces van een kassa gebruiker met de Cash & Carry Touch module*.
+
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Voer het verkoper/kassa medewerker nummer, u komt nu niet in het verkoop Cash & Carry scherm maar in het C&C kassa scherm.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Cash & Carry Touch Handleiding\image16.png"></details>|
+|**2**|Standaard ziet u alleen de paklijsten van vandaag, wilt u eerdere paklijsten zien? Zet dan het vinkje '*Toon alleen debiteuren met paklijsten van vandaag*' uit.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Cash & Carry Touch Handleiding\image15.png"></details>|
+|**3**|Zoek nu naar een debiteur om vervolgens een paklijst te selecteren. Druk op de **Kies** knop om de paklijst af te rekenen.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Cash & Carry Touch Handleiding\image28.png"></details>|
+|**4**|U kan in dit scherm kiezen welke order betaald moet worden, selecteer een order door het vinkje '**selecteer*' aan te zetten.<br><br> U kan hier ook meerder orders tegelijkertijd afrekenen door meerdere te selecteren. Klik op het vergrootglasje naast een order om deze in te zien.
+|**5**|**Optioneel:** U kan een paklijst inzien door op de paklijst te drukken.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Cash & Carry Touch Handleiding\image18.png"></details>|
+|**6**|**Optioneel:** Het betalen kan afgebroken worden door op de afbreken of annuleren knop te drukken.|
+|**7**|Klik nu op de **Betalen** knop om voor de geselecteerde orders te gaan betalen. <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Cash & Carry Touch Handleiding\image19.png"></details>|
+|**8**|U krijgt nu het betaling invoerscherm te zien, meerder betalingwijzen zijn mogelijk voer dan in het bedrag veld een lager bedrag in dan het totaal. <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Cash & Carry Touch Handleiding\image21.png"></details>|
+|**9**|De volgende betaalwijzes zijn mogelijk:<br>1. Contant<br>2. Pin betaling<br>3. Bank overschrift<br>4. Credit<details><summary><b>Click here for the example image!</b></summary><img src=".Cash & Carry Touch Handleiding\image22.png"></details>|
+|**10**|Bij het gebruik van de betaalwijze *contant* krijgt u het contante betaling scherm te zien. Dit bevat een rekenmachine voor het berekenen van wisselgeld. <br>Dit wordt gevolgd door een tijdelijk scherm met het terug te geven Wisselgeld.<details><summary><b>Click here for the example image!</b></summary><img src=".Cash & Carry Touch Handleiding\image25.png" width="350px"><img src=".Cash & Carry Touch Handleiding\image26.png" width="350px"></details>|
+|**11**|U wordt nu terug gebracht naar het betalingenscherm.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Cash & Carry Touch Handleiding\image27.png"></details>|

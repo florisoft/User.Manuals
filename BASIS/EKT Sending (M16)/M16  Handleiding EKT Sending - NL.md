@@ -20,7 +20,7 @@ De handleiding module EKT Sending Florisoft beschrijft de werking van de module 
 
 ## 1 Factuurpartijen via EKT-verzenden
 
-Dit hoofdstuk beschrijft de stappen die nodig zijn voor het versturen van aanbiedingen vanuit Florisoft. Hiervoor is de module
+Dit hoofdstuk beschrijft de stappen die nodig zijn voor het versturen van EKT berichten vanuit Florisoft. Hiervoor is de module
 EKT Sending vereist. Deze module maakt het mogelijk om verkochte partijen in het systeem van de klant te krijgen. De werking van deze module wordt hieronder stap voor stap uitgelegd.
 
 |Stap|Uitleg|

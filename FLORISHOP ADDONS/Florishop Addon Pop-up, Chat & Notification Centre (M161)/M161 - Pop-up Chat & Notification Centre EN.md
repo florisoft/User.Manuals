@@ -1,255 +1,142 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png" alt="Florisoft Corporate Logo">
 
-# Implement FloriShop Chatfunctie
+# Florisoft Manual FloriShop Addon Pop-Up Chat & Notification (M161)
 
-## Background information
+This document describes the operation of the chat function in FloriShop. The idea behind this feature is that logged-in customers on the webshop can communicate directly with their account manager (salesperson). The salesperson, of course, has the option to chat "back" to the customer. In practice, it often happens that customers want some more information about a product before making a purchase. The chat function within the webshop plays an important role in this.
 
->This document describes the working of the chat function in FloriShop. The idea behind this feature is that logged in customers on the webshop can communicate directly with their account manager. (seller) The seller of course has the option to chat 'back' to the customer. In practice, it often happens that customers want more information about a product before they make a purchase. The chat function within the webshop plays an important role in this.
+Florisoft employees should already have gone through the Florisoft system settings before you start with this manual. The same applies to the Florishop settings regarding the use of the chat function.
 
-## Prerequisite
-The matters below must be arranged/set in advance.
+## Table of Contents
 
--   Activate Notification center module
+[Create debtor groups](#debtor-group-creation)  
+[Create a salesman](#create-salesman)  
+[Link salesperson as account manager](#salesperson-link-as-account-manager-to-debtors)  
+[Testing](#testing)  
+[Link salesman to system user](#salesman-link-to-system-user)  
+[Set up pop-up notification center](#pop-up-notification-center-set-up)
 
-## Step 1: Create reserved system user
-The first step involves the creation of a new system user that is solely intended to capture chat messages from the webshop into Florisoft. Go via the Navigator to `Constants -> System -> Users -> System users` and create a new system user. To do this, follow the steps below:
 
-1. Click the 'Add new item' icon (no. 1) The System Users window opens.
-2. Fill in WEBCHAT at the Userid field. (no. 2)
-3. Enter a corresponding password at the Password field (no. 3)
-4. Give the system user a clearly descriptive name in the Name field. (no. 4)
-5. Click the Ok button (no. 5) to create the new system user.
+## Creating Debtor groups
 
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-10-51-46.png).png" />
+*Because the chat function is built on top of the Sales add on, it is necessary to divide the debtors who will use the chat function into debtor groups. The idea behind this is that each salesperson is responsible for contacting x number of customers. All customers belonging to a salesperson should be grouped into a debtor group.<br><br> go through the following steps:*
 
+|Step|Explanation|
+|:--|:--|
+|**1**| In the constants, navigato the the following path: **Community -> Debtor data -> Debtor groups.**
+|**2**| Create a new debtor group here by pressing the plus sign. Then enter an appropriate description here.
+|**3**| In the following table, select all debtors who are part of the group.<details><summary><b>Click here for the example image</b></summary><img src=".Pop-up Chat & Notification Centre EN/image1.png"></details>|
+|**4**| Save the new group
 
-## Step 2: Adjust system settings
-The two system settings below have to be checked/set.
+## Setting up sales reps for the chat function
 
-1. In the Navigator click on the menu Maintenance -> Setup System. (no. 1) The Florisoft.NET System Setup window opens.
+To use the chat function, it is important that the salespeople are properly set up and have access to the webshop. This requires setting up some interconnections between debtors and system users. Below is a simple representation on how this is done.
 
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-10-57-15.png).png" />
+<details><summary><b>Click here for the example image</b></summary><img src=".Pop-up Chat & Notification Centre EN/picasso.png"></details>
 
-2. Click on the Advanced tab (no. 2) and enter the password.
+## Creating a webshop sales debtor
 
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-10-59-50.png).png" />
+*Since, from a technical point of view, only debtors can log into the webshop, a separate debtor is needed, which is linked to the seller in the next step. In turn, the salesperson will later be linked to the salesperson's system user. Below is an overall roadmap for creating a sales debtor. <br><br>A sales debtor is technically nothing more than a 'normal' Florisoft debtor. Other names for a webshop sales debtor are: webshop sales debtor, sales debtor or sales debtor.*
 
->**Note: all settings located under the Advanced tab may only be adjusted by Florisoft personnel. That is why those settings are protected by a password.**
+:warning: **Please note:** each salesperson must be associated with its own sales debtor. So one salesperson also means one sales debtor. Two salesmen also means two sales debtors in the system. In other words: the number of sales debtors must equal the number of sales representatives.
 
-3. Set the FIDGETINTERCOMMCHAT setting to True.
-4. In the WEBSHOPCHATDESTINATIONUSERID setting, specify the userid of the reserved system user created in Step 1: Create reserved system user.
-5. Click Ok to confirm and close the settings in the Florisoft.NET System Setup window.
-6. Close Florisoft and restart it.
+**Go through the following steps:**
+|Step|Explanation|
+|:--|:--|
+|**1**| In the constants, navigate to the path: **Community-> Debtor data-> Debtors**
+|**2**|Create a new debtor by pressing the plus icon.|
+|**3**|If a sales debtor template exists use it if not you can create one.
+|**4**|Fill in the following: <br> **Deb.Number**: fill this in with recognizable values by using the word SALES + ... here<br> **Search** do the same here <br> **Company name** make clear here that this is about a sales debtor, for example: "*Florishop Sale Debtor*".<br> **Country**: country in which the seller is active.<br> **E-mail** the communication email of the seller should be filled in here<details><summary><b>Click here for the example image</b></summary><img src=".Pop-up Chat & Notification Centre EN/image2.png"></details>|
+|**5**| Navigate to the map **Ident**
+|**6**| In the field "Linked to user" fill in"the system user of the seller (nr.8)<details><summary><b>Click here for the example image</b></summary><img src=".Pop-up Chat & Notification Centre EN/image3.png"></details>
+|**7**| **Navigate to the tab : Internet-> internet acces**
+|**8**| Turn on the following setting: <br> **This client has access by means of internet** <br> This client can log in to Webshop 3
+|**9**| Click on **Accessible Stocks** and give the debtor access to the stocks you want them to have access to.<details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image5.png"></details>|
+|**10**|Now enter the password for the webshop login for the seller.<details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image4.png"></details>|
+|**11**|Confirm the debtor creation by clicking the Ok button and closing it.|
 
-## Step 3: Adjust webshop settings
-The third step describes the settings that are required in the webshop. Follow the steps below to properly configure the appropriate settings:
+### Creating a debtor template
 
-1. Login to the webshop with the management (ADMIN) account.
-2. Open the Management section by clicking on the user's name -> Management. (no. 1)
-A menu bar with options will now appear at the top of the webshop.
+*Follow the steps below to create debtor template:*
 
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-11-16-36.png).png" />
+|Step|Explanation|
+|:-:|:--|
+|**1**|Make a debtor in the following path:<br>**Community→Debtor data→Debtors**|
+|**2**|Create a new debtor.|
+|**3**|Fill out the following fields:<br>-**Deb.nr**: set this to recognizable code such as Sales<br>-**Search**: do the same here<br>-**Description**: give the debtor a compact description, note this will be visible in the system.<details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image6.png"></details>|
+|**4**|Now configure the settings that are required for your specific needs for this debtor. The steps required for debtors in this manual can be found [here](#creating-a-webshop-sales-debtor).|
+|**5**|Save the "debtor". When creating a new debtor you should now see your newly created debtor template in the selection menu. |
 
-3. Click on the menu Configuration -> Webshop Settings (no. 2) The webshop settings are opened in a separate browser tab.
+## Creating sellers
 
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-11-18-22.png).png" />
+*Follow the steps below to create a seller, in this chapter we will couple the previously created debtor to the seller.*
 
-4. In the item field, search for chat (no. 3)
-5. Set the SETUP -> WEBCHATAN setting to ON. (no. 4)
-6. Give the setting SETUP -> WEBCHAT the value WEBCHAT (no. 5) This is the Userid of the served system user created in Step 1: Create Reserved System User.
-7. Restart the webshop.
+|Step|Explanation|
+|:-:|:--|
+|**1**|Navigate to the following path:<Br>**Community→Seller data→Sellers**|
+|**2**|Create a new seller by clicking on the + button.|
+|**3**|Fill out the following required fields:<br>- **Code seller**: fitting alphanumeric seller code<Br>- **Name seller**: Seller name<details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image7.png"></details>|
+|**4**|Navigate to the **Online store** tab.|
+|**5**|Change the following settings:<br>- **Account manager login:** enable this setting<Br>- **Based on the debtor**: select the previously created to the debtor to link it to the seller.<details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image8.png"></details>|
+|**6**|Save the seller.|
 
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-11-25-24.png).png" />
+## Coupling sellers to debtors as an account manager
 
-## Step 4: Create debtor group(s)
-Because the chat function is built onto the Sales add-on, it is necessary to divide the debtors who will use the chat function into debtor groups. The idea behind debtor groups is that each salesperson is responsible for contact with an x number of customers. All customers belonging to a salesperson should be grouped in a debtor group.
+The previously created seller needs to be coupled to the corresponding debtors. The connections are to be set on the individual debtor:
 
-Below the steps for creating a debtor group are described:
+|Step|Explanation|
+|:-:|:--|
+|**1**|Navigate to the following path in teh constants screen:<br>**Community→Debtor data→Debtor**|
+|**2**|Open the debtor that needs to be coupled.|
+|**3**|Navigate to the tab:<br>**Internet→Internet access**<details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image9.png"></details>|
+|**4**|Choose the right seller in the Account manager field.|
+|**5**|Save the made changes to the debtor by closing it.|
+|**6**|Repeat the steps steps made till now for every seller.|
 
-1. Go via the Navigator to `Constants -> Coomunity -> Debtor data -> Debtor groups`.
-2. Click the Add new item icon (no. 1) to create a new debtor group.
-The new group is automatically assigned a Group code (sequential number, no. 2)
-3. Enter a clear description (name) for the group in the Description field (no. 3).
-4. Click the Select button (no. 4) and select all debtors that will be grouped in this group.
-   All selected debtors are displayed in the Members section: (no. 5)
-5. Click Ok (no. 6) to create the new group.
+## Coupling the seller to a system user
 
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-11-37-42.png).png" />
+*Follow the steps below to connect a seller to a system user:*
 
-## Step 5: Create Webshop sales debtor
-Because from a technical point of view, only debtors can log in to the webshop, a separate debtor is needed which is linked to the seller in the next step. The seller will later in turn be linked to the seller's system user. Below is a global step-by-step plan for creating a sales debtor.
+|Step|Explanation|
+|:-:|:--|
+|**1**|Navigate to the following path in the constatns screen:<br>**System→User→System users**|
+|**2**|Open a system user|
+|**3**|Select the right seller in the field called **seller** that needs to be linked to the system user.<details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image10.png"></details>
+|**4**|Save the made changes.|
 
-A sales debtor is technically seen nothing more than a 'normal' Florisoft debtor. Another name for a sales debtor is: webshop sales debtor.
+## Testing
 
->**Note: each seller must be linked to its own own sales debtor. One seller therefore also means one sales debtor. Two salespeople also means that there are two sales debtors in the system. In other words: the number of sales debtors must be equal to the number of salespeople.**
+*This step shows you how the chatfunction works on the Webshop and in the Florisoft application. This is tested in a way that takes place in a real scenario.*
 
-1. Go via the Navigator to `Constants -> Community -> Debtor data -> Debtors`.
-2. Click on the Add new item icon (no. 1) to create a new debtor. Double click on one of the available debtor templates to base the new sales debtor to be created on. The Debtors window opens.
-3. Give the new debtor a Debtor number in the Debtor number field (no. 2)
-4. Give the Search field the same or a different value as the debtor number (no. 3)
-5. Give the new debtor a clearly defined name in the Company name field (no. 4)
-6. In the Country (no. 5) field, select the country of the sales debtor. 
-7. Fill in the E-mail address (no. 6) field with the e-mail address of the sales debtor. This e-mail address is usually the same as the address with which the seller communicates to his customers by default.
+|Step|Explanation|
+|:-:|:--|
+|**1**|Restart the webshop:<br>1. Open IIS<br>2. Open the application pool screen<br>3. Click on the **Florishop** application<br>4. Click on the **Recycle** button in the *actions* screen.<details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image11.png"></details|
+|**2**|Do the same here: Open the Florisoft navigator and click on the "Fidgets" button in the top bar, then activate the "Intercommunication chat" setting.<br><br>This opens the fidget chatfunction on the right side of the screen.<details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image12.png"></details>|
+|**3**|Log in to the webshop using a seller(linked debtor)|
+|**4**|Click on speech balloon to open the chat function.<details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image13.png"></details>|
+|**5**|Type a message for the seller in the designated field. Then click on send or press the Enter key to send the message.<details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image14.png"></details>|
+|**6**|As soon as a debtor sends a message from the webshop, a new tab opens in the fidgets with the debtor code (no. 1) and the sent message (no. 2).<details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image15.png"></details>|
+|**7**|Type your answer in the text field in the bottom part of the fidget screen(nr. 3) and press enter. <details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image16.png"></details>|
+|**8**|The answer message will now be shown in webshop chat window.<details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image17.png"></details>|
 
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-12-11-11.png).png" />
+## Setting up the pop-up & notification center
 
-8. Click the ident tab. (no. 7)
-9. In the Linked to user :  field, enter the seller's system user (no. 8)
-10. Click on the Internet access tab (no. 9)
+*Setting the steps below to create a notification:*
 
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-12-24-51.png).png" />
+|Step|Explanation|
+|:-:|:--|
+|**1**|Navigate to the following path in the constants screen:<Br>**System→Notification messages**|
+|**2**|Create a new notification by clicking on the + icon.|
+|**3**|Fill out the following fields:<br>**ID**: give the notification an ID<br>**Default title**: give the notification a title<br>**Default message**: give the message a default body<br>**Amount of times**: is disabled if show infinite amount of times is enabled, if enabled you will need to specify how many times the notification is shown.<Br>**Show infinite amount of times**: disable this setting, specify the amount of times that this message needs to be shown.|
+|**4**|If you always want to show a notification within a certain time frame, check the **Message never expires** checkbox. You will then have no end date.<br><br>At **Valid from / Valid until** you specify within which period the notification should be shown. The notification will not be shown outside this period.<details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image18.png"></details>|
+|**5**|In the **webpage type** field you'll choose where the notification is shown. For now the only option available option is **Home**.|
+|**6**|In the tables below you can enter translations for the title and message body. |
+|**7**|To authorize a debtor by clicking on the debtor on the **Linked debtor** button, here you'll give debtors access to see the notification by checking the checkbox in the '*Is coupled*' column.<details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image18.png"></details>|
 
-11. Activate the checkbox This client has access by means Internet (no. 10)
-12. Activate the checkbox This client can log in Webshop 3 (no. 11)
-13. Click on the Accessible stock button (no. 12) to give the sales debtor access to the desired stock(s)
-14. Enter a password for the customer in the Customer password field (no. 13)
-15. Click Ok to confirm the settings (nr. 14)
+### How its shown on the webshop
 
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-12-35-47.png).png" />
+If the notification center was set up correctly you should now see a notification pop-up on the Webshop:
 
+**Default message**
 
-## Step 6: Create seller
-Step six is ​​about creating a seller. In this step, the seller is linked to both the webshop sales debtor (See Step 5: Create webshop sales debtor) and the debtor group (See Step 4: Create debtor group(s))
 
-1. Go via the Navigator to `Constants -> Community -> Seller data -> Sellers.`
-2. Click the 'Add new item' icon (feather with plus, no. 1) to create a new seller.
-3. Enter a self-invented seller code in the Code Seller field. (no. 2)
-4. Enter a clearly defined name for the seller in the Name Seller field. (no. 3)
-5. Click the Online store tab to proceed. (no. 4)
-
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-12-36-51.png).png" />
-
-6. Activate the Account manager login checkmark. (no. 5)
-7. Select the previously created webshop sales debtor for this seller in the field Based on the debtor (See Step 5: Create webshop sales debtor, no. 6)
-8. Click the OK button (no. 7) to create the seller.
-
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-12-42-35.png).png" />
-
-## Step 7: Link the seller as account manager to the debtor(s)
-The seller, as created in the previous step, must be linked to all debtors (customers) that belongs to this seller. This link is made on the debtor in the following way:
-
-1. Use the Navigator to go to `Constants -> Community -> Debtor data -> Debtors.`
-2. Double click on one of the debtors you want to link to an accountmanager.
-3. Go to the internet tab (no. 1) -> Internet access. (no. 2)
-4. In the Account manager field, select the salesperson who is responsible for this debtor. (no. 3)
-5. Optional: make this change for all debtors that should be linked to the selected seller using the Change to function. (no. 4)
-6. Click the OK button to confirm the settings (no. 5)
-
-<img src=".Pop-up Chat & Notification Centre EN/![](2021-02-12-12-57-21.png).png).png" />
-
-
-## Step 8: Link seller to the system user
-Step eight shows the steps involved for linking the seller to the associated sellers' system user.
-
-1. Via the Navigator, go to `Constants -> System -> Users -> System Users.`
-2. Open the sellers' system user by double clicking on the appropriate line.
-3. In the Seller field, select the seller associated with this system user. (no. 1)
-4. Click the OK button to confirm the settings. (no. 2)
-
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-12-50-32.png).png" />
-
-## Stap 9: Testing
-This step shows the working of the chat function both in the webshop and Florisoft.
-
-Customer in the webshop:
-
-1. Restart the webshop and Florisoft.
-2. Activate the fidgets in Florisoft by clicking on the Fidgets menu -> Intercommunication chat. (no. 1) The fidgets (which the chat function is part of appear on the right side of the Navigator)
-
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-13-24-21.png).png" />
-
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-13-26-56.png).png" />
-
-2. Log in to the webshop with one of the debtors who are linked to a seller and webshop sales user via the above steps.
-3. Click the speech balloon icon to open the Chat function. (no. 1)
-
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-13-19-19.png).png" />
-
-4. Type a message for the seller in the field provided (no. 2)
-5. Press the SEND button (no. 5) or Enter key on the keyboard to send the message.
-
-The message is sent to the seller and becomes visible as the first message in the chat conversation. At the same time, the message also becomes visible in the account manager's Florisoft system.
-
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-13-21-00.png).png" />
-
-Seller in Florisoft:
-
-1. As soon a debtor sends a message from the webshop, a new tab opens in the fidgets with the debtor code (no. 1) and the sent message. (no. 2)
-
-![](.Pop-up Chat & Notification Centre EN/![](2021-02-12-16-58-00.png).png" />
-
-2. Type an answer in the text box at the bottom of the fidgets screen (no. 3) and press Enter.
-
-<img src=".Pop-up Chat & Notification Centre EN/2021-02-12-17-05-45.png).png" />
-
-3. The answer pops up in the chat screen of the webshop.
-
-Repeat the steps above to continue the conversation.
-
-# Implement the Pop-up & Notification Center
-
-## Prerequisites
-
-The following matters must be arranged/set in advance.
-
-- The webshop setting **WEBNOTIFICATION CENTER** must be set to ON.
-
-## Create a new notification message
-
-Navigate to the following place in Florisoft to create a new notification: Constants -> System -> **Notification messages**.
-
-Click the **Add new item** (feather with plus). The screen below becomes visible:
-
-<img src=".Pop-up Chat & Notification Centre EN/2021-03-08-10-25-04.png).png" />
-
-## Entering information in the Notification
-
-Follow the steps below to enter a notification with information:
-
-### Title & Message
-
-1. Enter the title at the **Default title** field (maximum of 75 characters)
-
-2. At **Default report** it is possible to enter the 'body' of the message (maximum 500 characters)
-
-3. Enter the translation of the title below the **Translations title** in the Text field (maximum 75 characters)
-
-4.  Below **Translations message** there is the option to enter the translation of the message. (maximum 500 characters)
-
-### Number of times to show  vs. always show
-
-5. To always show the notification, check the **Show infinitely** checkmark. This checkbox is activated by default.
-
-6. To show a notification a finite number of times times, uncheck the **Show infinitely** checkmark and specify the number of times it should be shown in the **Number of times to show** field.
-
-### Period in which to show notification
-
-If you always want to show a notification, activate the tick **Message never expires**. There is no enddate set to the notification.
-
-7.  Specify a date range in the **Date valid from** / **Date valid until** fields to activate a time period in which the notification must be shown. When the current date exceeds the set date range the notification will not be shown anymore.
-
-### Webpage type
-
-8. At the **Web page type** field assign the place where the notifications must be shown. The following options are available: orderlist, home, none and stock.
-
-### Authorize debtors
-
-9. With the **Linked debtors** button it is possible to authorize one or multiple debtors for a notification.
-
-- It is also possible to authorize from debtors' perspective. To do this go to the Constants -> Community -> Debtor data -> **Debtors.**
-  
-- Activate the **Is connected** checkbox to link a notification to this debtor:
-
-**Optional:** use the **Changes to** button to copy over the changed setting (Is connected) to other debtors if neccesary.
-
-<img src=".Pop-up Chat & Notification Centre EN/2021-03-08-11-28-48.png).png" />
-
-## Display on the Webshop
-
-10. If the notifications are set up correctly, a pop-up screen appears on the Webshop with the notification:
-
-<img src=".Pop-up Chat & Notification Centre EN/2021-03-08-11-12-53.png).png" />
-
-11. In the upper right corner of the webshop all notifications for this debtor are grouped like an archive:
-
-<img src=".Pop-up Chat & Notification Centre EN/2021-03-08-11-15-02.png).png" />
+If you want to see older messages, click the bell icon.

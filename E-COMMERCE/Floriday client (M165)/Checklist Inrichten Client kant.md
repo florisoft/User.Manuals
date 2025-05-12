@@ -1,31 +1,18 @@
 <img src="../../fslogo.png"/>
 
-# Client component Floriday				
-
-## Inhoudsopgave
-
-[Inleiding](#inleiding)
-
-[Aanvragen API key](#apikey)
-
-[Aanmaken van een voorraad](#voorraad)
-
-[Aanmaken van een leverancier](#leverancier)
-
-[Werking](#werking)
-
-<a name="inleiding"/>
-
-## Inleiding handleiding
-
-### Waarvoor dient deze handleiding
+# Florisoft Manual Client component Floriday - M165
 
 Dit document beschrijft wat er benodigd is om een koppeling met Floriday in te richten voor de koper omgeving.
 Er wordt staps gewijs uitgelegd welke instellingen er benodigd zijn. Daarbij zal er uitgelegd worden hoe de synchronisatie met Floriday werkt.
 
-<a name="apikey"/>
+## Inhoudsopgave
 
-### Aanvragen API key
+[Aanvragen API key](#aanvragen-api-key)  
+[Aanmaken van een voorraad](#voorraad)  
+[Aanmaken van een leverancier](#leverancier)  
+[Werking](#werking)  
+
+## Aanvragen API key
 
 De API key kan opgevraagd worden via de portal van Floriday.
 Deze is nodig om de connectie op te zetten tussen de Florisoft en Floriday.
@@ -57,12 +44,11 @@ Deze API key dient gevuld te worden in Florisoft bij de leverancier die de synch
 	-	*Constanten -> Organen -> Leveranciersgegevens -> Levernaciers ->* ***'Insert'***
 -	De volgende instellingen moeten aangezet worden:
 	-	*Webservice -> Activeren voor voorraadkoppeling ->* ***vinkje aanzetten***
-	-	*Webservice -> Type webservice ->* ***'Floriday koper Api'***
+	-	*Webservice -> Type webservice ->* ***'Floriday Koper API Express'***
 	-	*Webservice -> Binnenkomende voorraad ->* ***'De voorraad die eerder is aangemaakt'***
-	-	*Webservice -> API key ->* ***Deze moet je opvragen op het floriday platform'***
+	-	*Webservice -> API key ->* ***Deze moet je opvragen op het Floriday platform'***
 	-	*Webservice -> Region GLN ->* ***Dit is de GLN code van de regio (veiling)***
 	-	*Webservice -> Aflever GLN ->* ***Dit is de GLN code van de exacte afleverlocatie***  
-	-	*Webservice -> Trade-period vanaf ->* ***Hier geef je aan voor welke periode je assortiment wil ophalen, zet deze op 0 tot 2 dagen***
 	
 ### Alternatieve locaties
 Het is mogelijk dat een kweker (connectie) niet levert in een bepaalde regio waar een bedrijf gevestigd is. Mocht het bedrijf op meerdere locaties zitten (Rijnsburg en Aalsmeer bijv.) en daar levert de kweker wel, dan dit opgegeven worden onder alternatieve locaties.

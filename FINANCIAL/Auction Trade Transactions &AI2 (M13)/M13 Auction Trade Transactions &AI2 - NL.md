@@ -1,6 +1,6 @@
 <img src="../../fslogo.png">
 
-# Florisoft Manual Auction Trade Transactions (M17)
+# Florisoft Manual Auction Trade Transactions & A12 (M17)
 
 [Kopernummers instellen](#1---kopernummers-instellen)  
 [Debiteuren laten overgeven](#2---debiteuren-laten-overgeven)  

@@ -1,119 +1,76 @@
-<img src="../../fslogo.png"/>
+<img src="../../fslogo.png">
 
-# Inhoud
+# Florisoft Handleiding Cost Configuration (M141)
 
-[Licentie 3](#licentie)
+Dit document beschrijft het instellen en gebruik van de kostprijs configuratie module in Florisoft. **Let op:** u heeft hier de cost configuration module voor nodig.
 
-[Debiteur instellen 4](#debiteur-instellen)
+## Inhoudsopgave
 
-[Verdeel debiteur 4](#verdeel-debiteur)
+[Debiteur instellen](#debiteur-instellen)  
+[Verdeel debiteur](#verdeel-debiteur)  
+[Kostprijs debiteur](#kostprijs-debiteur)    
+[Labels](#labels)    
+[Marge](#marge)  
+[Prijsmonitor tabel](#prijsmonitor-tabel)    
+[Structuur](#structuur)   
+[Opschonen](#opschonen)    
+[Prijsconfiguratie instellen](#prijsconfiguratie-instellen)  
+[Opslagen van](#opslagen-van)  
+[Over de basisprijs](#over-de-basisprijs)  
+[Laatste kostprijs stap](#laatste-kostprijs-stap)  
+[Inklappen](#inklappen)  
+[Kolom kostprijs](#kolom-kostprijs)   
+[Voorraad](#voorraad)   
+[Televerkoop](#televerkoop)  
+[Verdeelscherm](#verdeelscherm)  
+[Webshop cache](#webshop-cache)  
+[Cache overzicht](#cache-overzicht)  
+[Afwijkende voorraad](#afwijkende-voorraad)  
+[Toegankelijke voorraden opslag](#toegankelijke-voorraden-opslag)  
+[Uitloggen](#uitloggen)   
+[Overige informatie](#overige-informatie)  
 
-[Kostprijs debiteur 4](#kostprijs-debiteur)
+## Debiteur instellen
 
-[Labels 4](#labels)
+### Verdeel debiteur
 
-[Marge 6](#marge)
+Bij een debiteur kunnen er n aantal debiteuren worden opgegeven, waarvan de opslagen gebruikt gaan worden om de kostprijs te kunnen berekenen.<Br>*Volg de onderstaande stappen:*
 
-[VERDPRSLOG-tabel 6](#verdprslog-tabel)
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Open het constanten scherm en navigeer naar het pad:<br>**Organen→Debiteur gegevens→Debiteuren**|
+|**2**|Open de desbetreffende debiteur, in de debiteur kaart navigeert u naar:<br>**Financieel→Kostprijs**|
+|**3**|Vul hier de debiteuren in met een Kostprijs marge in het bijhorende veld.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Kostprijs configuratie\media\image2.png"></details>|
 
-[Prijsmonitor tabel 6](#prijsmonitor-tabel)
-
-[Structuur 6](#structuur)
-
-[Opschonen 6](#opschonen)
-
-[Prijsconfiguratie instellen 6](#prijsconfiguratie-instellen)
-
-[Opslagen van 7](#opslagen-van)
-
-[Over de basisprijs 7](#over-de-basisprijs)
-
-[Laatste kostprijs stap 7](#laatste-kostprijs-stap)
-
-[Inklappen 7](#inklappen)
-
-[Kolom Kostprijs 8](#kolom-kostprijs)
-
-[Voorraad 8](#voorraad)
-
-[Televerkoop 9](#televerkoop)
-
-[Verdeelscherm 10](#verdeelscherm)
-
-[Webshop cache 11](#webshop-cache)
-
-[Cache overzicht 11](#cache-overzicht)
-
-[Afwijkende voorraad 11](#afwijkende-voorraad)
-
-[Toegankelijke voorraden opslag 11](#toegankelijke-voorraden-opslag)
-
-[Uitloggen 11](#uitloggen)
-
-[Overige informatie 12](#overige-informatie)
-
-# Licentie
-
-Om gebruik te maken van deze module, dient de licentie:
-“Kostprijsconfiguratie” actief te zijn.  
-<img src=".Kostprijs configuratie\media\image1.png" style="width:6.3in;height:4.85278in" />
-
-# Debiteur instellen
-
-## Verdeel debiteur
-
-Bij deze debiteur kunnen er een x aantal debiteuren opgegeven worden,
-waarvan de opslagen gebruikt gaan worden om de kostprijs te kunnen
-berekenen. Deze debiteur kunnen ingesteld worden onder Financieel &gt;
-Kostprijs.<img src=".Kostprijs configuratie\media\image2.png" style="width:6.3in;height:5.47014in" />
-
-## Kostprijs debiteur
+### Kostprijs debiteur
 
 Hier stellen we de opslagen in die gebruikt zullen worden voor het
 berekenen van de kostprijs prijs. Hier zijn verder geen instellingen van
 toepassing, dit kan net zo goed een debiteur zijn met instellingen voor
 een normale prijsconfiguratie.
 
-# Labels
+### Labels
 
-De kostprijs debiteuren staan standaard aangegeven als Debiteur 1 t/m
-&lt;x&gt;. Deze teksten kunnen vervangen worden door eigen verzonnen
-teksten. De teksten kunnen opgegeven worden in de constanten onder
-Systeem -&gt; Kostprijsconfiguratie omschrijvingen. Per nummer kan er
-een eigen omschrijving opgegeven worden.
+De kostprijs debiteuren staan standaard aangegeven als Debiteur 1 t/m <x>. Deze teksten kunnen vervangen worden door eigen verzonnen teksten.<br>*Volg hier voor de onderstaande stappen:*
 
-<img src=".Kostprijs configuratie\media\image3.png" style="width:3.1791in;height:3.44019in" />
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Open het constantenscherm en navigeer naar het pad:<br>**Systeem→Kostprijsconfiguratie**|
+|**2**|Per nummer kan er een eigen omschrijving opgegeven worden.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Kostprijs configuratie\media\image2.png"></details>|
+|**3**|Na het instellen van deze teksten, zal er bij de “verdeel debiteur” de opgegeven omschrijvingen zichtbaar zijn.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Kostprijs configuratie\media\image3.png"></details>|
 
-Na het instellen van deze teksten, zal er bij de “verdeel debiteur” de
-opgegeven omschrijvingen zichtbaar zijn.
+## Marge
 
-<img src=".Kostprijs configuratie\media\image4.png" style="width:5.73275in;height:4.97761in" />
-
-# Marge
-
-Bij de optie Financieel -&gt; Kostprijs van de debiteur, kan er een
+Bij het hiervoor pad: **Financieel→Kostprijs** van de debiteur, kan er een
 marge ingesteld worden. Deze marge zal na het berekenen van de kostprijs
 controleren of deze behaald is ten opzichte van de partij zijn
 verkoopprijs. Indien de marge niet behaald is, dan zal dit weggeschreven
-worden in de tabel PRIJSMONITOR.
+worden in uw database.
 
 Dit wordt bijgehouden omdat er verder geen controle is op de kostprijs
 en dus moeilijk te bepalen valt of de kostprijs daadwerkelijk correct
 is. De gebruiker zou bijv. een dashboard control kunnen maken om deze
 tabel in te tonen.
-
-# VERDPRSLOG-tabel
-
-Aan deze tabel zijn 2 nieuwe kolommen toegevoegd:
-
--   OPSLVAN (geeft ingestelde waarde aan van “Opslagen van” van de
-    prijsconfiguratie)
-
--   OPDEBNR (de ingestelde debiteur van de waarde OPSLVAN)
-
-Voorbeeld; bij een stap heb ik ingesteld staan bij Opslagen van:
-Kostprijs debiteur 1 waarbij gevuld staat TEST. Dan zal er in de kolom
-OPSLVAN: 7 gevuld zijn en bij OPDEBNR: TEST.
 
 # Prijsmonitor tabel
 
@@ -123,17 +80,15 @@ In de tabel wordt bijgehouden voor welke partij bij welke debiteur de
 behaalde marge niet behaald is. Daarbij zijn de volgende gegevens
 beschikbaar:
 
--   Basisprijs (verkoopprijs van de partij)
+|Veld|Uitleg|
+|:-:|:--|
+|**Basisprijs**|verkoopprijs van de partij|
+|**Berekendeprijs**|uitkomst van de prijs|
+|**Type**|geeft aan of het gaat om de kostprijs (2) of verkoopprijs (1)|
+|**Margebehaald**|berekende marge|
+|**Margeingestelde**|ingestelde marge bij de debiteur|
+|**Created**|datum + tijd van het aanmaken van het record|
 
--   Berekendeprijs (uitkomst van de prijs)
-
--   Type (geeft aan of het gaat om de kostprijs (2) of verkoopprijs (1))
-
--   Margebehaald (berekende marge)
-
--   Margeingesteld (ingestelde marge bij de debiteur)
-
--   Created (datum + tijd van het aanmaken van het record)
 
 ## Opschonen
 
@@ -183,12 +138,15 @@ van de stappen en is puur visueel.
 De kolom “Kost pr. deb” kan toegevoegd worden aan het grid van de
 voorraad. Deze kolom zal standaard leeg zijn met een groene achtergrond
 kleur.
-<img src=".Kostprijs configuratie\media\image5.png" style="width:6.3in;height:4.32153in" />
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Kostprijs configuratie\media\image5.png"></details>
 
 Middels de D-toets kan er een debiteur geactiveerd worden (net als de
 debiteur kolommen). Na het activeren van een debiteur, zal de kostprijs
 berekend en getoond
-worden.<img src=".Kostprijs configuratie\media\image6.png" style="width:6.3in;height:4.32153in" />
+worden.
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Kostprijs configuratie\media\image6.png"></details>
 
 ## Televerkoop
 
@@ -196,13 +154,17 @@ De kolom “Kost prijs” heeft dezelfde werking als in de voorraad, echter
 hoeft hier geen debiteur geactiveerd te worden middels de D-toets. Deze
 kolom zal gevuld worden na het activeren van een debiteur waaraan
 verdeeld zal worden.
-<img src=".Kostprijs configuratie\media\image7.png" style="width:6.3in;height:4.425in" />
+
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Kostprijs configuratie\media\image7.png"></details>
 
 ## Verdeelscherm
 
 Na het invoeren van een verdeling via het verdeelscherm zal ook hier de
 kolom Kostprijs gevuld worden met de berekende
-kostprijs.<img src=".Kostprijs configuratie\media\image8.png" style="width:6.3in;height:3.51736in" />
+kostprijs.
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Kostprijs configuratie\media\image8.png"></details>
 
 # Webshop cache
 

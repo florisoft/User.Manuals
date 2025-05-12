@@ -1,7 +1,6 @@
 <img src="../../fslogo.png"/>
 
-
-# Inleiding
+# Florisoft Handleiding Logistieke basis instellingen - M12
 
 Het doel van dit document is om aan te geven welke instellingen gezet
 moeten worden voor de basis inrichting van de logistiek m.b.t.

@@ -26,7 +26,6 @@ Het laatste hoofdstuk, hoofdstuk zes, beschrijft de Webshop modulen, zoals factu
 [Webshop modulen](#webshop-modulen)  
 [Modulen](#modulen)
 
-
 Er dienen een aantal instellingen vooraf gecontroleerd te worden. Hoe u dit moet checken en welke instellingen het zijn wordt hieronder beschreven:
 
 |#|Uitleg|
@@ -162,7 +161,7 @@ De belangrijkste kolommen worden hieronder beschreven (vullen indien van toepass
 
 ### Bestellijst autoriseren vanuit de debiteur (Vanuit de webshop)
 
-Als je voorraden wil autoriseren vanuit de debiteur doet u dat als volgt:
+Als je bestellijsten wil autoriseren vanuit de debiteur doet u dat als volgt:
 
 |Stap|Uitleg|
 |:--|:--|

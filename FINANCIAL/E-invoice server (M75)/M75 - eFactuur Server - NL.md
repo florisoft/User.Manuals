@@ -1,10 +1,10 @@
 <img src="../../fslogo.png"/>
 
-## e-Factuur Server
+## Handleiding E-Invoice Server (M75)
 
-Met de module e-Factuur Server wordt het mogelijk om informatie naar de
-klant te sturen zodat de klant makkelijker de inkoopfactuur kan
-controleren. De e-Factuur Server bestaat uit de volgende aspecten:  
+Met de module E-Invoice Server wordt het mogelijk om informatie naar de
+klant te sturen zodat de klant gemakkelijk de inkoopfactuur kan
+controleren. De E-Invoice Server bestaat uit de volgende aspecten:  
 
 - Tijdens het verzenden van de originele factuur naar de klant wordt er
 een e-Factuur meegestuurd in de vorm van een xml bestand. Deze e-Factuur
@@ -33,18 +33,29 @@ barcode op de factuur te laten printen. Dit maakt het controleren een stuk
 makkelijker, zeker als er bijvoorbeeld een factuurregel wordt afgekeurd aan de
 Client kant.
 
-*Instellingen:*
+### Instellingen
 
 - Bij de debiteuren waar je de e-Facturen naar toe wilt zenden, moet de vink
 aanstaan “Klant ondersteunt Florisoft eFactuur”. Dit triggert alle
-verschillende aspecten van de e-Factuur.  
+verschillende aspecten van de e-Factuur. **Dit is een verplichte stap!**
+
+**Volg de onderstaande stappen**:
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Open het constanten scherm en navigeer naar het pad:<br>**Organen→Debiteur gegevens→Debiteuren**|
+|**2**|Open een debiteur en navigeer binnen de kaart naar de submap:<br>**Factuur→Factuur**|
+|**3**|Zet de instelling "*Klant ondersteunt Florisoft eFactuur*" aan.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/foto3.png"></details>|
+
 - Bij de debiteur moet een code ingevuld worden bij: “Optioneel afwijkende
 veilingcode in EKT”. Het is van groot belang dat dit nummer uniek is
 voor die klant. Dat wil zeggen dat als jij bij klant A een afwijkende
 veilingcode aangeeft van 23 dat jij de enige bent die naar die debiteur 23
 stuurt. Andere leveranciers dienen dus een andere code te gebruiken. 
 
-**Let op:**
+**Volg de onderstaande stappen**:
 
-In het debiteuren scherm moet deze check aangezet worden:
-<img src=".efact server/media/foto1.png" />
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Navigeer in de debiteurkaart naar de subfolder **EKT→EKT**|
+|**2**|Vul in het veld "*Optioneel afwijkende veilingcode in EKT*" een debiteurs afwijkende veiling code in.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/foto2.png"></details>|

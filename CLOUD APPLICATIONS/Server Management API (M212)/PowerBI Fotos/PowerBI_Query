@@ -1,0 +1,31 @@
+let
+    GetDataFromAPI = (relativePath) =>
+        let
+            // ENTER BASE URL HERE
+            PARAM_API_BASE_URL = "URL HIER!" & "api/Management/",
+            Requestbody = "{""version"":""0""}",
+            //ENTER USERNAME HERE
+            PARAM_USER = "USERNAME!",
+            //ENTER PASSWORD HERE
+            PARAM_PW = "PASSWORD",
+            Bron = Json.Document(
+                Web.Contents(
+                    PARAM_API_BASE_URL,
+                    [
+                        RelativePath = relativePath,
+                        Content = Text.ToBinary(Requestbody),
+                        Headers = 
+                        [
+                            Authorization = "Basic " & Binary.ToText(Text.ToBinary(PARAM_USER & ":" & PARAM_PW), BinaryEncoding.Base64)
+                        ]
+                    ]
+                )
+            ),
+            veldnaam = List.First(Record.FieldValues(Bron)),
+            tabel = Table.FromRecords(veldnaam)
+        in
+            tabel,
+    //Functie call waarmee API wordt bevraagd met gespecificeerde endpoint.
+    output = GetDataFromAPI("Constants/Articles")
+in
+    output
