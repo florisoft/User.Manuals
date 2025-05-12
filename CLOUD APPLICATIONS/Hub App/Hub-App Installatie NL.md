@@ -7,6 +7,8 @@ Dit document beschrijft de installatie en initiele opzet van de Hub-App van Flor
 <br>[Installeren van de Android app](#installeren-van-de-android-app)</br>
 
 
+test 
+
 ## Downloaden van de app voor Android & Windows
 Allereerst moet u de app downloaden. Dit kan voor android apparaten via de onderstaande QR code, voor de windows desktop app kunt u de volgende link gebruiken: https://app.florisoft.nl/apps/latest/hub/windows/hub.zip
 
