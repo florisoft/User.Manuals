@@ -99,8 +99,8 @@ aanzetten.
 
 <img src=".Logistieke basis instellingen.docx\media\image11.png" style="width:6.3in;height:5.79306in" />
 
-Bij de leverancier van de koppeling moet uiteraard wel aanstaan dat de
-ingelezen partijen onderweg zijn:  
+Zorg ervoor dat bij de leverancier van de koppeling de instelling ‘Partijen onderweg’ is geactiveerd.
+Deze instelling is te vinden op de pagina Webservice - Algemeen en wordt zichtbaar wanneer een type webservice is geselecteerd.
 <img src=".Logistieke basis instellingen.docx\media\image12.png" style="width:4.75373in;height:3.16496in" />
 
 <span id="_Toc29294781" class="anchor"></span>**<u>Debiteur
