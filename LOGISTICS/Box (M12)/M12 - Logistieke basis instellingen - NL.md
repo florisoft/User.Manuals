@@ -149,7 +149,7 @@ debiteur dan kun je dit herverdelen in de factuurbak.
 <img src=".Logistieke basis instellingen.docx\media\image20.png" style="width:6.3in;height:2.43819in" />
 
 Als de pickorder van de oorspronkelijke klant nog helemaal niet gelopen
-is en dus nog geprint is. Zal de bestaande pickorder omgezet worden naar
+is en dus nog niet geprint is. Zal de bestaande pickorder omgezet worden naar
 de nieuwe debiteur.  
 Dit geld zowel voor als de hele partij herverdeeld wordt als een
 gedeelte van de partij.  
