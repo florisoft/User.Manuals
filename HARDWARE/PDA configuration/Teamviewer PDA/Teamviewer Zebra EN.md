@@ -1,4 +1,4 @@
-![Image](https://github.com/user-attachments/assets/b7a9c418-1a1d-40b8-ba68-3f7464bc63c9)
+![Florisoft Logo](https://github.com/user-attachments/assets/375e8020-ae5e-4d67-8fca-6bdcbb6d6531)
 
 # TeamViewer on Zebra PDA
 
