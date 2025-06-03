@@ -1,4 +1,5 @@
-![Image](https://github.com/user-attachments/assets/b7a9c418-1a1d-40b8-ba68-3f7464bc63c9)
+![Florisoft Logo](https://github.com/user-attachments/assets/c77d3ea7-ba54-4d45-b447-9cf960a49254)
+
 
 # TeamViewer op Android-apparaten (niet-Zebra)
 
