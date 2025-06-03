@@ -23,9 +23,9 @@ Welkom bij de handleiding voor het op afstand bedienen van Android-apparaten met
 |:--|:--|
 | **1** | Start de **QuickSupport** app op het Android-apparaat. |
 | **2** | Wanneer daarom gevraagd wordt, geef toegang aan de **Universal Add-On**: |
-|   | → Selecteer: `TeamViewer Universal Add-On` [Voorbeeld](https://github.com/user-attachments/assets/9ad1ca45-7324-47ac-80ac-104ab2963c06) |
-|   | → Tik op: `Inschakelen` [Voorbeeld](https://github.com/user-attachments/assets/06e8fb56-0d4f-4eb9-8497-cc93a2544fe1) |
-|   | → Tik op: `Toestaan` [Voorbeeld](https://github.com/user-attachments/assets/bdc7e6ee-e4ce-4e04-9f9e-f3da76e0a97b) |
+|   | → Selecteer: `TeamViewer Universal Add-On` [Voorbeeld](https://github.com/user-attachments/assets/883d2f9b-db6b-4735-b4ca-212f7e1e0d22) |
+|   | → Tik op: `Inschakelen` [Voorbeeld](https://github.com/user-attachments/assets/0800adbd-8a04-43fb-8dc3-25afef35f4ed) |
+|   | → Tik op: `Toestaan` [Voorbeeld](https://github.com/user-attachments/assets/19ee4574-3914-4b46-b33e-f388cb7f6885) |
 | **3** | Deel het **TeamViewer-ID** met de beheerder of pc-gebruiker. |
 
 ---
