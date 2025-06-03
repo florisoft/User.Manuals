@@ -3,7 +3,7 @@
 # TeamViewer on Android Devices (Non-Zebra)
 
 Welcome to the manual for remote control of Android devices using TeamViewer.  
-> **Note:** For Zebra PDAs, refer to the appropriate manual. *(Link to Zebra PDA article)*
+> **Note:** For Zebra PDAs, refer to the appropriate manual.
 
 ---
 
