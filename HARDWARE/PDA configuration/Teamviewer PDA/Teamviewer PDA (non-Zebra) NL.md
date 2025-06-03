@@ -3,7 +3,7 @@
 # TeamViewer op Android-apparaten (niet-Zebra)
 
 Welkom bij de handleiding voor het op afstand bedienen van Android-apparaten met TeamViewer.  
-> **Let op:** Voor Zebra PDA’s gelden andere instructies. *(Link naar de juiste handleiding)*
+> **Let op:** Voor Zebra PDA’s gelden andere instructies.
 
 ---
 
