@@ -1,57 +1,57 @@
 ![Image](https://github.com/user-attachments/assets/b7a9c418-1a1d-40b8-ba68-3f7464bc63c9)
 
-# TeamViewer on Android Devices (Non-Zebra)
+# TeamViewer op Android-apparaten (niet-Zebra)
 
-Welcome to the manual for remote control of Android devices using TeamViewer.  
-> **Note:** For Zebra PDAs, refer to the appropriate manual. *(Link to Zebra PDA article)*
+Welkom bij de handleiding voor het op afstand bedienen van Android-apparaten met TeamViewer.  
+> **Let op:** Voor Zebra PDA’s gelden andere instructies. *(Link naar de juiste handleiding)*
 
 ---
 
-## Requirements on the Device
+## Vereisten op het apparaat
 
-| Step | Explanation |
+| Stap | Uitleg |
 |:--|:--|
-| **1** | Install the **TeamViewer QuickSupport** app.<br>[Download here](https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market)<br><br>*Note: in the app drawer, it is listed as “QuickSupport,” not “TeamViewer.”* |
-| **2** | Install the **TeamViewer Universal Add-On**.<br>[Download here](https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.addon.universal) |
+| **1** | Installeer de **TeamViewer QuickSupport** app.<br>[Download hier](https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market)<br><br>*Let op: in het menu heet deze app “QuickSupport” en niet “TeamViewer”.* |
+| **2** | Installeer de **TeamViewer Universal Add-On**.<br>[Download hier](https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.addon.universal) |
 
 ---
 
-## Installation and Configuration
+## Installatie en configuratie
 
-| Step | Explanation |
+| Stap | Uitleg |
 |:--|:--|
-| **1** | Launch the **QuickSupport** app on the Android device. |
-| **2** | When prompted, allow access for the **Universal Add-On**: |
-|   | → Select: `TeamViewer Universal Add-On` [Example](https://github.com/user-attachments/assets/9ad1ca45-7324-47ac-80ac-104ab2963c06) |
-|   | → Tap: `Enable` [Example](https://github.com/user-attachments/assets/06e8fb56-0d4f-4eb9-8497-cc93a2544fe1) |
-|   | → Tap: `Allow` [Example](https://github.com/user-attachments/assets/bdc7e6ee-e4ce-4e04-9f9e-f3da76e0a97b) |
-| **3** | Share the **TeamViewer ID** with the administrator or PC user. |
+| **1** | Start de **QuickSupport** app op het Android-apparaat. |
+| **2** | Wanneer daarom gevraagd wordt, geef toegang aan de **Universal Add-On**: |
+|   | → Selecteer: `TeamViewer Universal Add-On` [Voorbeeld](https://github.com/user-attachments/assets/9ad1ca45-7324-47ac-80ac-104ab2963c06) |
+|   | → Tik op: `Inschakelen` [Voorbeeld](https://github.com/user-attachments/assets/06e8fb56-0d4f-4eb9-8497-cc93a2544fe1) |
+|   | → Tik op: `Toestaan` [Voorbeeld](https://github.com/user-attachments/assets/bdc7e6ee-e4ce-4e04-9f9e-f3da76e0a97b) |
+| **3** | Deel het **TeamViewer-ID** met de beheerder of pc-gebruiker. |
 
 ---
 
-## Connecting from the PC
+## Verbinden vanaf de pc
 
-| Step | Explanation |
+| Stap | Uitleg |
 |:--|:--|
-| **1** | Open **TeamViewer** on your PC. |
-| **2** | Enter the **device ID**. |
-| **3** | Wait for the user on the device to approve the connection. |
-| **4** | Once approved, you will have **full remote access**, including touch control. |
+| **1** | Open **TeamViewer** op de pc. |
+| **2** | Vul het **apparaat-ID** in. |
+| **3** | Wacht tot de gebruiker op het apparaat de verbinding goedkeurt. |
+| **4** | Na goedkeuring heb je **volledige toegang op afstand**, inclusief touch-besturing. |
 
 ---
 
-## Notes
+## Opmerkingen
 
-- The **Universal Add-On** is required to gain full control.  
-  Without it, TeamViewer can only mirror the screen (no touch control).
+- De **Universal Add-On** is vereist voor volledige bediening.  
+  Zonder deze add-on kun je alleen het scherm bekijken, niet bedienen.
 
 ---
 
-## Summary
+## Samenvatting
 
-| Component                    | Requirement                                 |
-|-----------------------------|---------------------------------------------|
-| TeamViewer App              | **QuickSupport**                            |
-| Add-On                      | **TeamViewer Universal Add-On**             |
-| Android Version             | Minimum Android **5.1**                     |
-| User Permission             | Required                                    |
+| Component                  | Vereiste                                   |
+|---------------------------|--------------------------------------------|
+| TeamViewer App            | **QuickSupport**                           |
+| Add-On                    | **TeamViewer Universal Add-On**            |
+| Android-versie            | Minimaal Android **5.1**                   |
+| Gebruikerstoestemming     | Verplicht                                  |
