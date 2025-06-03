@@ -1,4 +1,5 @@
-![Image](https://github.com/user-attachments/assets/b7a9c418-1a1d-40b8-ba68-3f7464bc63c9)
+![Florisoft Logo](https://github.com/user-attachments/assets/e009f59f-bb4a-40f6-9828-12e78ee90176)
+
 
 # Handleiding TeamViewer op Zebra PDA
 
