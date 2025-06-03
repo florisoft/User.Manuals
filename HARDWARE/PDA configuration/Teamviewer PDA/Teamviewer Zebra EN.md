@@ -31,9 +31,9 @@ Welcome to the manual for remote control of Zebra PDAs using TeamViewer.
 |:--|:--|
 | **1** | Launch the **StageNow** app on the Zebra device. |
 | **2** | Scan the appropriate configuration barcodes to enable remote access.<br><br>Use the correct file depending on your Android version: |
-| • Android 8 and below | [AllowQuickSupport.pdf](https://github.com/user-attachments/files/20550542/AllowQuickSupport.pdf) |
-| • Android 10 and 11 | [TeamviewerQS_Host_EnableRemoteMX10.pdf](https://github.com/user-attachments/files/20550579/TeamviewerQS_Host_EnableRemoteMX10.pdf) |
-| • Android 13 and above | [TeamviewerQS_Host_EnableRemoteMX10_Android13.pdf](https://github.com/user-attachments/files/20550580/TeamviewerQS_Host_EnableRemoteMX10_Android13.pdf) |
+| • Android 8 and below |[AllowQuickSupport.pdf](https://github.com/user-attachments/files/20575232/AllowQuickSupport.pdf)  |
+| • Android 10 and 11 |[TeamviewerQS_Host_EnableRemoteMX10.pdf](https://github.com/user-attachments/files/20575254/TeamviewerQS_Host_EnableRemoteMX10.pdf)|
+| • Android 13 and above | [TeamviewerQS_Host_EnableRemoteMX10_Android13.pdf](https://github.com/user-attachments/files/20575258/TeamviewerQS_Host_EnableRemoteMX10_Android13.pdf)|
 
 ---
 
