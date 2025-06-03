@@ -31,9 +31,9 @@ Welkom bij de handleiding voor het op afstand bedienen van Zebra PDA’s met beh
 |:--|:--|
 | **1** | Start de **StageNow** app op het Zebra apparaat. |
 | **2** | Scan de juiste barcodes om de afstandsbediening te activeren. <br><br>Gebruik het juiste bestand afhankelijk van de Android-versie: |
-| • Android 8 en eerder | [AllowQuickSupport.pdf](https://github.com/user-attachments/files/20550542/AllowQuickSupport.pdf) |
-| • Android 10 en 11 | [TeamviewerQS_Host_EnableRemoteMX10.pdf](https://github.com/user-attachments/files/20550579/TeamviewerQS_Host_EnableRemoteMX10.pdf) |
-| • Android 13 en hoger | [TeamviewerQS_Host_EnableRemoteMX10_Android13.pdf](https://github.com/user-attachments/files/20550580/TeamviewerQS_Host_EnableRemoteMX10_Android13.pdf) |
+| • Android 8 en eerder | [AllowQuickSupport.pdf](https://github.com/user-attachments/files/20575279/AllowQuickSupport.pdf) |
+| • Android 10 en 11 | [TeamviewerQS_Host_EnableRemoteMX10.pdf](https://github.com/user-attachments/files/20575287/TeamviewerQS_Host_EnableRemoteMX10.pdf)|
+| • Android 13 en hoger |[TeamviewerQS_Host_EnableRemoteMX10_Android13.pdf](https://github.com/user-attachments/files/20575291/TeamviewerQS_Host_EnableRemoteMX10_Android13.pdf)|
 
 ---
 
