@@ -22,9 +22,9 @@ Welcome to the manual for remote control of Android devices using TeamViewer.
 |:--|:--|
 | **1** | Launch the **QuickSupport** app on the Android device. |
 | **2** | When prompted, allow access for the **Universal Add-On**: |
-|   | → Select: `TeamViewer Universal Add-On` [Example](https://github.com/user-attachments/assets/9ad1ca45-7324-47ac-80ac-104ab2963c06) |
-|   | → Tap: `Enable` [Example](https://github.com/user-attachments/assets/06e8fb56-0d4f-4eb9-8497-cc93a2544fe1) |
-|   | → Tap: `Allow` [Example](https://github.com/user-attachments/assets/bdc7e6ee-e4ce-4e04-9f9e-f3da76e0a97b) |
+|   | → Select: `TeamViewer Universal Add-On`  [Example](https://github.com/user-attachments/assets/5c0ea564-80c1-4ef5-b5cd-16b3d81a88bd)|
+|   | → Tap: `Enable` [Example](https://github.com/user-attachments/assets/baed1193-1afb-415e-84ea-bc34e86d65f1) |
+|   | → Tap: `Allow` [Example](https://github.com/user-attachments/assets/cb0ec0e7-e98d-411e-80c4-4b9b201709d9)|
 | **3** | Share the **TeamViewer ID** with the administrator or PC user. |
 
 ---
