@@ -1,4 +1,4 @@
-<img src="../fslogo.png">
+<img src="https://github.com/florisoft/User.Manuals/blob/main/fslogo.png">
 
 # Florisoft Manual Azure Workspace Connection Set-Up
 
