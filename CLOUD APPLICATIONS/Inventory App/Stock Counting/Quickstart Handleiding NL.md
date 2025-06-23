@@ -11,8 +11,8 @@ De uitgebreide handleiding voor het instellen van deze policies is beschikbaar v
 **Benodigdheden:**
 
 - Florisoft Inventory App
-    
 - Backoffice Voorraadmodule
+
 ## Stappenplan Voorraadcontrole
 
 ### Stap 1: Inloggen in de Inventory App
