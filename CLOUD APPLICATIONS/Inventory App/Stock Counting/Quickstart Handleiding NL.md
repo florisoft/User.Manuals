@@ -37,13 +37,13 @@ Activeer vervolgens het voorraadopnamescherm. Hierin worden met de app gecontrol
 
 **Opties → Voorraadopname → Activeren**
 
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/4a.png"></details>
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/4A.png"></details>
 
 ### Stap 4: Partij scannen of zoeken
 
 In de Inventory App opent u de Stock Counting-functionaliteit. U kunt voorraadpartijen scannen
 
-<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/4b.png"></details>
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/4B.png"></details>
 
 of zoeken op:
 
