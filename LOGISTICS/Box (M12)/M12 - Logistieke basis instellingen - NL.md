@@ -99,8 +99,8 @@ aanzetten.
 
 <img src=".Logistieke basis instellingen.docx\media\image11.png" style="width:6.3in;height:5.79306in" />
 
-Bij de leverancier van de koppeling moet uiteraard wel aanstaan dat de
-ingelezen partijen onderweg zijn:  
+Zorg ervoor dat bij de leverancier van de koppeling de instelling ‘Partijen onderweg’ is geactiveerd.
+Deze instelling is te vinden op de pagina Webservice - Algemeen en wordt zichtbaar wanneer een type webservice is geselecteerd.
 <img src=".Logistieke basis instellingen.docx\media\image12.png" style="width:4.75373in;height:3.16496in" />
 
 <span id="_Toc29294781" class="anchor"></span>**<u>Debiteur
@@ -149,7 +149,7 @@ debiteur dan kun je dit herverdelen in de factuurbak.
 <img src=".Logistieke basis instellingen.docx\media\image20.png" style="width:6.3in;height:2.43819in" />
 
 Als de pickorder van de oorspronkelijke klant nog helemaal niet gelopen
-is en dus nog geprint is. Zal de bestaande pickorder omgezet worden naar
+is en dus nog niet geprint is. Zal de bestaande pickorder omgezet worden naar
 de nieuwe debiteur.  
 Dit geld zowel voor als de hele partij herverdeeld wordt als een
 gedeelte van de partij.  
