@@ -31,7 +31,7 @@ Phases 1 and 2 should follow each other within a reasonable timeframe to avoid d
 ### 3. What preparatory actions are required on the customer side?  
 At least 2 weeks before the migration, the Florisoft system must be updated with the latest available update and rolled out to all users.  
 
-It is also very important that the customer performs thorough testing as the final step of Phase 1.  
+It is also very important that **the customer performs thorough testing** as the final step of Phase 1.  
 
 This includes:  
 - user login  
