@@ -23,7 +23,7 @@ Vooraf wordt een gedetailleerd stappenplan opgesteld, waarin duidelijk is wat el
 ### 2. Wat is de gemiddelde doorlooptijd van een migratie naar Azure?
 
 De duur van het traject hangt af van de omvang, complexiteit en mate van maatwerk. <br>
-**Fase 1** wordt doorgaans in 0.5 tot 1 dag gerealiseerd en **Fase 2** in circa 0.5 dag. <br>
+**Fase 1** wordt doorgaans in 0.5 tot 1 dag gerealiseerd en **Fase 2** in circa 0.5 dag. <br><br>
 Fase 1 en 2 dienen elkaar binnen afzienbare tijd op te volgen om afwijkingen in data en configuratie-wijzigingen te voorkomen. 
 
 ---
@@ -46,7 +46,7 @@ Eventuele issues worden verholpen en opnieuw getest, voordat Fase 2 wordt gestar
 ### 4. Wat is de impact op de dagelijkse bedrijfsvoering tijdens de migratie?
 De impact wordt zo veel mogelijk beperkt. Eventuele verstoringen worden vooraf afgestemd en ingepland. <br>
 Indien er tijdens het testen in **Fase 1** issues naar boven komen, zullen deze worden verholpen voordat Fase 2 wordt gestart. <br>
-Let op: Gedurende **Fase 2** zijn alle Florisoft-onderdelen tijdelijk **offline**, inclusief de webshop.<br>
+Let op: Gedurende **Fase 2** zijn alle Florisoft-onderdelen tijdelijk **offline**, inclusief de webshop.<br><br>
 Voorbereiding aan klantzijde is nodig (zoals bijvoorbeeld stickers uitdraaien, orders klaarzetten, etc.).
 
 ---
@@ -54,7 +54,7 @@ Voorbereiding aan klantzijde is nodig (zoals bijvoorbeeld stickers uitdraaien, o
 ### 5. Is er sprake van downtime tijdens de migratie?
 Beperkte geplande downtime is noodzakelijk bij de livegang (Fase 2). <br>
 Dit wordt vooraf afgestemd en waar mogelijk geminimaliseerd.<br>
-Houd er dus rekening mee dat gedurende Fase 2 **alle Florisoft-onderdelen tijdelijk offline** zijn, inclusief de webshop. <br>
+Houd er dus rekening mee dat gedurende Fase 2 **alle Florisoft-onderdelen tijdelijk offline** zijn, inclusief de webshop. <br><br>
 Om de impact zoveel mogelijk te beperken kunnen de nodige voorbereidingen getroffen worden, zoals bijvoorbeeld het uitdraaien van de nodige stickers en het klaarzetten van orders. 
 
 ---
@@ -65,7 +65,7 @@ Data wordt gemigreerd via versleutelde verbindingen en beveiligde protocollen. V
 ---
 
 ### 7. Welke onderdelen van het ERP-systeem worden meegenomen in de migratie?
-Standaard omvat dit de gestructureerde data, systeemconfiguraties, gebruikersinstellingen, rapportages en eventuele maatwerkcomponenten. De exacte scope wordt vooraf vastgelegd. <br>
+Standaard omvat dit de gestructureerde data, systeemconfiguraties, gebruikersinstellingen, rapportages en eventuele maatwerkcomponenten. De exacte scope wordt vooraf vastgelegd. <br><br>
 Let op; Dit betreft alle onderdelen gerelateerd aan het Florisoft pakket. Mochten eigen bestanden of folders overgezet moeten worden, dient dit vooraf duidelijk aangegeven te worden. 
 
 ---
