@@ -14,6 +14,7 @@ Florisoft medewerkers horen de Florisoft systeeminstellingen al doorlopen te heb
 [Testen](#testen)  
 [Verkoper koppelen aan systeemgebruiker](#verkoper-koppelen-aan-de-systeemgebruiker)  
 [Pop-up notification center inrichten](#pop-up--notification-center-inrichten)  
+[Notificatiebeheer in de webshop](#notificatiebeheer-in-de-webshop) 
 
 ## Debiteurgroep(en) aanmaken
 
@@ -140,3 +141,21 @@ Deze stap laat zien hoe de chatfunctie werkt op zowel de webshop als in Florisof
 Als je het juist hebt ingesteld, dan zou je een pop up moeten zien op de Webshop.
 
 U kan notificaties ook terug vinden in het notificatiescherm op de webshop, klick op het "bel icoontje"
+
+## Notificatiebeheer in de webshop
+
+*Naast het beheren van notificatieberichten in de backoffice kan dit nu ook in de Florishop worden gedaan.*
+
+|Stap|Uitleg|
+|:-:|:--|
+|**1**|Check de autorisatie: <br>Systeemgebruikers zijn standaard geautoriseerd. Maar verkopers hebben de juiste autorisatie nodig:<br>**Constanten→Verkopers→Webshop→Autorisaties→Toegang tot notificatie beheerscherm → Alle handelingen toestaan** <br><details><summary><b>Klik hier voor uw voorbeeld!</b></summary>|
+|**2a**|Verkopers zien de link naar notificatiebeheerpagina in het menu van de webshop<br><details><summary><b>Klik hier voor uw voorbeeld!</b></summary>| 
+|**2b**|Verkopers zien de link naar notificatiebeheerpagina in de algemene beheeromgeving van de webshop<br><details><summary><b>Klik hier voor uw voorbeeld!</b></summary>| 
+|**3**|Op de overzichtspagina worden alle notificatieberichten getoond. Zowel de berichten die zijn aangemaakt in de backoffice als de berichten aangemaakt in de webshop.<br>
+|**3**|Op de overzichtspagina worden alle notificatieberichten getoond. Zowel de berichten die zijn aangemaakt in de backoffice als de berichten aangemaakt in de webshop.<br><details><summary><b>Klik hier voor uw voorbeeld!</b></summary>| 
+|**4**|Vul de volgende velden in:<Br>**ID**: geef de notificatie een id<br>**Default titel**: geef de notificatie een titel<br>**Default bericht**: geef de notificatie een berichtlichaam<br>**Aantal keer tonen**: staat uit indien oneindig vaak tonen aan staat, als het aan staat vult u hier in hoe vaak de notificatie getoond wordt.<br>**Oneindig vaak tonen**: het vinkje uit. En geef je in het Aantal keer tonen-veld op hoe vaak het moet worden getoond.|<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Pop-up Chat & Notification Centre NL/image12.png"></details>
+|**5**|Als je een notificatie qua tijdsbestek altijd wilt tonen, dan zet je een vinkje bij **Bericht vervalt nooit**. Je hebt dan geen einddatum.<Br><br>Bij **Datum geldig van / Datum geldig** tot geef je op binnen welke periode de notificatie getoond moet worden. Buiten deze periode wordt de notificatie niet getoond.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Pop-up Chat & Notification Centre NL/image12.png"></details>|
+|**6**|Bij **webpagina type** geef je op waar de notificatie getoond moet worden. Voor nu werkt enkel type **Home.**|
+|**7**|De taal kan worden ingesteld door middel van het vlag-icoontje|
+|**8**|Om debiteuren te autoriseren klikt u op de knop **Gekoppelde debiteuren**, hier geef je aan welke debiteuren de notificatie mogen zien door een vinkje te zetten in de "*Is Gekoppeld*" kolom.<br><br>U kan dit ook doen vanuit de debiteurkaart.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Pop-up Chat & Notification Centre NL/image12.png"></details>|
+|**9**|Men kan per notificatie instellen bij welke URL (of het laatste deel van de URL) moet worden getoond:<br><details><summary><b>Klik hier voor uw voorbeeld!</b></summary>|
