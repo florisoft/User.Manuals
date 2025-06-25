@@ -157,5 +157,4 @@ U kan notificaties ook terug vinden in het notificatiescherm op de webshop, klic
 |**6**|Bij **webpagina type** geef je op waar de notificatie getoond moet worden. Voor nu werkt enkel type **Home.**|
 |**7**|De taal kan worden ingesteld door middel van het vlag-icoontje|
 |**8**|Om debiteuren te autoriseren klikt u op de knop **Gekoppelde debiteuren**, hier geef je aan welke debiteuren de notificatie mogen zien door een vinkje te zetten in de "*Is Gekoppeld*" kolom.<br><br>U kan dit ook doen vanuit de debiteurkaart.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src=".Pop-up Chat & Notification Centre NL/image12.png"></details>|
-|**9**|Men kan per notificatie instellen bij welke URL (of het laatste deel van de URL) moet worden getoond:<br><details><summary><b>Klik hier voor uw voorbeeld!</b></summary>![urlOfLaatsteDeel](https://github.com/user-attachments/assets/6a5dd61e-1bab-4bbd-bfb8-323a9730c1f5)
-|
+|**9**|Men kan per notificatie instellen bij welke URL (of het laatste deel van de URL) moet worden getoond:<br><details><summary><b>Klik hier voor uw voorbeeld!</b></summary>![urlOfLaatsteDeel](https://github.com/user-attachments/assets/6a5dd61e-1bab-4bbd-bfb8-323a9730c1f5)|
