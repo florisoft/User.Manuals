@@ -154,8 +154,4 @@ The previously created seller needs to be coupled to the corresponding debtors. 
 ### How its shown on the webshop
 
 If the notification center was set up correctly you should now see a notification pop-up on the Webshop:
-
-**Default message**
-
-
 If you want to see older messages, click the bell icon.
