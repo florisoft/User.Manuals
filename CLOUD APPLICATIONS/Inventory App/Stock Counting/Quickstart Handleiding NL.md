@@ -6,12 +6,13 @@
 
 Deze handleiding beschrijft het gebruik van de Stock Counting-functionaliteit in de Florisoft Inventory App. De workflow van de app is geconfigureerd op basis van de relevante policies.
 
-De uitgebreide handleiding voor het instellen van deze policies is beschikbaar via de volgende link: [Policies Stock Counting NL](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Inventory%20App/Stock%20Counting/Policies%20Stock%20Counting%20NL.md)
+>De uitgebreide handleiding voor het instellen van deze policies is beschikbaar via de volgende link: [Policies Stock Counting NL](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Inventory%20App/Stock%20Counting/Policies%20Stock%20Counting%20NL.md)
 
 **Benodigdheden:**
 
 - Florisoft Inventory App
 - Backoffice Voorraadmodule
+- Module Stock Control
 
 ## Stappenplan Voorraadcontrole
 

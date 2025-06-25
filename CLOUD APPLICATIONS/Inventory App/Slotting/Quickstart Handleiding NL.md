@@ -1,36 +1,105 @@
 <img src="../../../fslogo.png">
 
-# Florisoft Inventory App - Slotting Handleiding
+# Florisoft Inventory App – Slotting Handleiding
 
-In deze handleiding doorloopt u het proces van Slotting functionaliteit van de Inventory app.
-Deze handleiding is geschreven met het uitgangsppunt dat de workflow van de app al genconfigureerd is (aan de hand van de bijhorende policies).
+## Inleiding
 
-Met deze functionaliteit kun je eenvoudig jouw producten van een locatie voorzien op een efficiënte en nauwkeurige manier.
+Deze handleiding beschrijft het gebruik van de Slotting-functionaliteit in de Florisoft Inventory App.
+De workflow van de app is geconfigureerd op basis van de relevante policies.
 
-Volg de onderstaande stappen. Per stap staat aangegeven waar in de app de stap plaatsvindt :
+Met deze functionaliteit kunt u producten eenvoudig en nauwkeurig van een locatie voorzien.
 
-|Stap|Uitleg|
-|:-:|:--|
-|**1**|**Inventory app#Loginscherm**<br>Open de Inventory app vanuit de Hub of het App icoon, en login met uw gebruikergegevens.|
-|**2**|**Inventory app#Navigator**<br>Bij het openen van de app komt u terecht in het navigatiescherm. Vanuit hier opent u de Slotting-functie door op de bijbehorende tegel te klikken.|
-|**3**|**Inventory app#Scan barcode**<br>Eenmaal in dit scherm zijn er twee workflows :<br>- Scannen van locatiebarcode<br>- Scannen van een partijbarcode.<br><br>*Deze workflows zijn in de volgende stappen uitgewerkt.*|
-|**4**|**Inventory app#Scan barcode - Locatiebarcode scannen**<br>In dit scherm scant u doormiddel van uw scanner een locatiebarcode, naast het scannen kan u ook het scherm naar rechts slepen om daar handmatig een barcodewaarde in te vullen.|
-|**4.a**|Vervolgens scant u de barcodes van de partijen die op deze locatie staan, deze partijen worden gelijk onder deze locatie geplaatst.|
-|**4.b**|Om door te gaan scant u de barcode van de volgende locatie |
-|**5**|**Inventory app#Scan barcode - Partijbarcode scannen**|
-|**5.a**|Scan een partij barcode en scant vervolgens een locatiebarcode om deze aan de locatie te koppelen. |
-|**5.b**|Herhaal dit voor alle partijen voor de locatie.|
-|**6**|Herhaal de stappen om het locatiebeheerproces af te ronden.|
+> De uitgebreide handleiding voor het instellen van deze policies is beschikbaar via de volgende link: [Policies Slotting NL](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Inventory%20App/Slotting/Policies%20Slotting%20NL.md)
 
-## Checken van partij locaties
+**Benodigdheden:**
 
-In de backoffice kun je per partij checken wat de locatie en locatie geschiedenis van een partij. 
-Volg hiervoor de onderstaande stappen :
+* Florisoft Inventory App
+* Backoffice Voorraadmodule
+* Module PDA Pickorder location
 
-|Stap|Uitleg|
-|:-:|:--|
-|**1**|Vanuit de navigator opent u het voorraadscherm.|
-|**2**|Ga naar een relevante voorraad en klik met de rechtermuisknop op een partij.|
-|**3**|In het context menu klikt u op de optie **partijlog**.|
-|**4**|Dit opent het *partijlog*, hierin ziet u de wijzigingen die op de partij zijn uitgevoerd.|
-|**5**|Hier ziet u de kolommen *loc. of* en *loc. to*, hierin ziet u de wijziging van locatie.<br><br>*Staan deze kolommen niet aan?*<br>Klik met de rechtermuisknop op de kolom namen, zoek hier naar de kolommen *LOCATIEVAN* en *LOCATIENAAR* en zet deze aan. Druk vervolgens op *ok*. |
+---
+
+## Stappenplan Slotting
+
+### Stap 1: Inloggen in de Inventory App
+
+Open de Inventory App via de Florisoft Hub-App of via het Inventory-App-icoon. Log in met uw gebruikergegevens.
+
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/1.png"></details>
+
+### Stap 2: Slotting
+
+Na het inloggen komt u in het navigatiescherm. Klik op de tegel **Slotting**.
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/2.png"></details>
+
+### Stap 3: Overzicht van scanworkflows
+
+Bij het openen van het Slotting-scherm wordt automatisch het scanscherm geopend. We gaan er zoveel mogelijk vanuit dat de gebruiker werkt met een scanner, maar er is ook een zoekfunctie beschikbaar.
+
+In dit scherm zijn twee workflows beschikbaar:
+
+* Scannen van een locatiebarcode
+* Scannen van een partijbarcode
+
+Deze workflows worden in de volgende stappen uitgewerkt.
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/3.png"></details>
+
+---
+
+#### Stap 4: Locatiebarcode scannen
+
+Gebruik uw scanner om een locatiebarcode te scannen. U kunt ook naar rechts vegen in het scherm om handmatig een barcode in te voeren.
+
+##### Stap 4.a: Partijen koppelen aan deze locatie
+
+Scan de barcodes van de partijen die u aan deze locatie wilt toewijzen. Ze worden onder deze locatie gegroepeerd.
+
+##### Stap 4.b: Volgende locatie scannen
+
+Scan de volgende locatie om het proces te herhalen.
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/4.png"></details>
+
+---
+
+#### Stap 5: Partijbarcode scannen
+
+Scan een partijbarcode en daarna een locatiebarcode om deze te koppelen.
+U kunt ook het zoekicoon gebruiken om een partij te zoeken. Zoekresultaten worden gevonden op basis van de volgende gegevens:\\
+
+* Artikelnaam
+* Partijnummer
+* VPartijnummer
+* Scancode
+* Scancode2
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/5.png"></details>
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/6.png"></details>
+
+##### Stap 5.a: Herhaal voor alle partijen
+
+Herhaal dit voor alle partijen die gelocaliseerd moeten worden.
+
+---
+
+### Stap 6: Controleer partijlocaties in de Backoffice
+
+In de backoffice kunt u de huidige en historische locatie van een partij bekijken.
+
+| Stap  | Uitleg                                                                                                                                                                                                        |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1** | Open het voorraadscherm via de navigator.                                                                                                                                                                     |
+| **2** | Klik met de rechtermuisknop op een partij in de relevante voorraad.                                                                                                                                           |
+| **3** | Kies in het contextmenu voor **Partijlog**.                                                                                                                                                                   |
+| **4** | Het log toont alle wijzigingen op de partij.                                                                                                                                                                  |
+| **5** | Gebruik de kolommen *Loc. van* en *Loc. naar* om locatieveranderingen te bekijken.*Niet zichtbaar?* Klik met de rechtermuisknop op de kolomnamen, schakel **LOCATIEVAN** en **LOCATIENAAR** in en druk op OK. |
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/7.png"></details>
+
+---
+
+Deze handleiding is gebaseerd op de actuele versie van de Inventory App en kan periodiek worden bijgewerkt met nieuwe functionaliteit of aangepaste policies.
