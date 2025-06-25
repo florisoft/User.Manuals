@@ -13,7 +13,8 @@ Florisoft employees should already have gone through the Florisoft system settin
 [Link salesperson as account manager](#salesperson-link-as-account-manager-to-debtors)  
 [Testing](#testing)  
 [Link salesman to system user](#salesman-link-to-system-user)  
-[Set up pop-up notification center](#pop-up-notification-center-set-up)
+[Set up pop-up notification center](#pop-up-notification-center-set-up)  
+[Notification Management in the Webshop](notification-wanagement-in-the-webshop)  
 
 
 ## Creating Debtor groups
