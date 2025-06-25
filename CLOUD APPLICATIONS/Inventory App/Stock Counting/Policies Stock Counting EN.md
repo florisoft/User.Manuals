@@ -1,12 +1,11 @@
-# Guide – Stock Counting Policies (Inventory App)
+# Manual – Stock Counting Policies (Inventory App)
 
-This guide helps you configure the **Stock Counting functionality** in the Inventory app.\
+This manual helps you configure the **Stock Counting functionality** in the Inventory app.\
 Using various policies, you can define how **stock** is counted, displayed, and processed.
 
 > ⚠️ Don't forget to configure the appropriate [authorizations](#-authorizations). Without proper authorizations, certain functions will not be available.
 
 ---
-
 ## Where to find the Stock Counting policies
 
 Stock Counting policies are configured via **Policy Management** in the Backoffice constants screen.\
