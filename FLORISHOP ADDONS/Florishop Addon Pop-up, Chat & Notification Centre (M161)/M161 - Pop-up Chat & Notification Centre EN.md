@@ -13,7 +13,8 @@ Florisoft employees should already have gone through the Florisoft system settin
 [Link salesperson as account manager](#salesperson-link-as-account-manager-to-debtors)  
 [Testing](#testing)  
 [Link salesman to system user](#salesman-link-to-system-user)  
-[Set up pop-up notification center](#pop-up-notification-center-set-up)
+[Set up pop-up notification center](#pop-up-notification-center-set-up)  
+[Notification Management in the Webshop](#notification-management-in-the-webshop)  
 
 
 ## Creating Debtor groups
@@ -132,11 +133,25 @@ The previously created seller needs to be coupled to the corresponding debtors. 
 |**6**|In the tables below you can enter translations for the title and message body. |
 |**7**|To authorize a debtor by clicking on the debtor on the **Linked debtor** button, here you'll give debtors access to see the notification by checking the checkbox in the '*Is coupled*' column.<details><summary><b>Click here for the example image!</b></summary><img src=".Pop-up Chat & Notification Centre EN/image18.png"></details>|
 
+## Notification Management in the Webshop
+
+*In addition to managing notification messages in the back office, this can now also be done in Florishop.*
+
+|Step|Explanation|
+|:-:|:--|
+|**1**|Check the authorization:<br>System users are authorized by default. However, sales representatives need the correct authorization:<br>**Constants→Sales reps→Webshop→Authorizations→Access to notification management screen → Allow all actions**<br><details><summary><b>Click here for an example!</b></summary>![User_Authorization](https://github.com/user-attachments/assets/0a89b8e7-491d-4b56-aea6-b2a88b35b530)</details>|
+|**2a**|Sales representatives will see the link to the notification management page in the webshop menu.<br><details><summary><b>Click here for an example!</b></summary>![Navigation_SalesRep](https://github.com/user-attachments/assets/e0f86b16-ebbe-4c59-a17f-713a013a9b9c)</details>|
+|**2b**|System users will see the link to the notification management page in the general management environment of the webshop.<br><details><summary><b>Click here for an example!</b></summary>![navigation_systemuser](https://github.com/user-attachments/assets/628de582-0578-49a8-9f06-8a90ac4fcb15)</details>| 
+|**3**|The overview page shows all notification messages. This includes messages created in the back office and those created in the webshop.| 
+|**4**|Fill in the following fields:<br>**ID**: assign an ID to the notification<br>**Default title**: give the notification a title<br>**Default message**: enter the body text of the notification<br>**Show count**: this is disabled when “Show infinitely” is enabled; if enabled, enter how many times the notification should be shown<br>**Show infinitely**: uncheck this box to limit the number of times the notification is shown, and specify the number in the “Show count” field.<br><details><summary><b>Click here for an example!</b></summary><img src=".Pop-up Chat & Notification Centre NL/image12.png"></details>|
+|**5**|If you want to always display a notification, check **Message never expires**. No end date is needed.<br><br>In **Valid from / Valid to date**, specify the date range during which the notification should be shown. Outside this period, the notification will not appear.|
+|**6**|Under **Webpage type**, specify where the notification should appear. For now, only type **Home** works.|
+|**7**|The language can be set using the flag icon.|
+|**8**|To authorize customers, click the **Linked debtors** button. Here, you specify which customers may see the notification by checking the "*Is Linked*" column.<br><br>This can also be done from the customer card.<br><details><summary><b>Click here for an example!</b></summary><img src=".Pop-up Chat & Notification Centre NL/image12.png"></details>|
+|**9**|You can specify per notification at which URL (or the last part of the URL) it should be displayed:<br><details><summary><b>Click here for an example!</b></summary>![urlOrLastPart](https://github.com/user-attachments/assets/6a5dd61e-1bab-4bbd-bfb8-323a9730c1f5)</details>|
+
+
 ### How its shown on the webshop
 
 If the notification center was set up correctly you should now see a notification pop-up on the Webshop:
-
-**Default message**
-
-
 If you want to see older messages, click the bell icon.
