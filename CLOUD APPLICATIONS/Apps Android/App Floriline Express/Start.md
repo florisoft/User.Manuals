@@ -1,7 +1,7 @@
 # Floriline Express index pagina  
 |Backoffice|Printer|App|
 |---|---|---|
-|[Floriline Scherm](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Floriline%20Express/Start.md)|[Printer Installeren](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Floriline%20Express/Docu/Brother%20printer.md)| [Werkwijze](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Floriline%20Express/Docu/App.md)|
+|[Floriline Scherm](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Floriline%20Express/Start.md)|[Printer Installeren](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Floriline%20Express/Brother%20printer.md)| [Werkwijze](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Floriline%20Express/App.md)|
 
 
 ## F.A.Q.
