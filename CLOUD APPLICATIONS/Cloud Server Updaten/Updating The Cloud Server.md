@@ -1,3 +1,4 @@
+![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
 # Updating the Cloud Server
 
 This document describes the process of updating the Florisoft cloud server.

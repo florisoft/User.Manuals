@@ -1,3 +1,4 @@
+![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
 # Florisoft Hub-App Installatie
 Dit document beschrijft de installatie en initiele opzet van de Hub-App van Florisoft. In dit document leest u over het downloaden en installeren van de applicatie, en hoe de app zal gaan werken in combinatie met de andere beschikbare apps.
 

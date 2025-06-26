@@ -1,4 +1,5 @@
-<img src="../../../fslogo.png">
+![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
+
 # Florisoft Inventory App – Slotting manual
 
 ## Introduction

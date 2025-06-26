@@ -1,4 +1,4 @@
-<img src="../../fslogo.png">
+![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
 
 # Florisoft Manual Cash & Carry App (POS)
 

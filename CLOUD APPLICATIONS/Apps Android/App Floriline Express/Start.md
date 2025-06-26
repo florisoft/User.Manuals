@@ -1,3 +1,5 @@
+![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
+
 # Floriline Express index pagina  
 |Backoffice|Printer|App|
 |---|---|---|

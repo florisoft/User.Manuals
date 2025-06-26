@@ -1,3 +1,5 @@
+![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
+
 [Terug naar Index](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Floriline%20Express/Start.md)  
 # Brother printer verbinden met pda/terminal  
 

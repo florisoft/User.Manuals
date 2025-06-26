@@ -1,3 +1,5 @@
+![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
+
 # Manual – Stock Counting Policies (Inventory App)
 
 This manual helps you configure the **Stock Counting functionality** in the Inventory app.\

@@ -1,3 +1,4 @@
+![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
 # Handleiding – Stock Counting Policies (Inventory-app)
 
 Deze handleiding helpt u bij het configureren van de **Stock Counting-functionaliteit** in de Inventory-app.\
