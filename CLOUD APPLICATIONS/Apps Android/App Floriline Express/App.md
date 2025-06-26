@@ -1,5 +1,5 @@
 
-[Terug naar Index](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Floriline%20Express/Start.md)  
+[Terug naar Index](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Floriline%20Express/Start.md)  
 # Florisoft Floriline App
 Welkom bij de handleiding over het gebruik van de Floriline app op android. Deze handleiding legt de standaard werkwijze uit voor de Floriline app, welke voornamelijk zal worden gebruikt door lijnrijders.
 
@@ -86,7 +86,6 @@ Mocht er geen bereik zijn, dan zal er een streep door de wolk staan. Zodra er be
     <img src="Pictures\SynchroniserenWolk.png"/>
 </details><br> 
 
-[Terug naar Index](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Floriline%20Express/Start.md)  
 Dit proces kan telkens herhaalt worden tijdens de lijn.
 
-[Terug naar Index]([https://github.com/florisoft/documentatie/blob/main/Floriline%202.0/Start.md](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Floriline%20Express/Start.md)https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Floriline%20Express/Start.md)  
+[Terug naar Index](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Floriline%20Express/Start.md)  

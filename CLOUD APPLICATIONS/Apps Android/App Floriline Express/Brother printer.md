@@ -1,4 +1,4 @@
-[Terug naar Index](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Floriline%20Express/Start.md)  
+[Terug naar Index](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Floriline%20Express/Start.md)  
 # Brother printer verbinden met pda/terminal  
 
 Ga naar de playstore en installeer de app Brother Print Service Plugin  
@@ -23,4 +23,4 @@ Android heeft soms de neiging om deze steeds op ISO A4 te zetten
 
 * Papier op? Vul dan het termische papier bij en let erop dat je het zwarte randje bovenop houdt bij het invoeren bij de printer
 
-[Terug naar Index](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Floriline%20Express/Start.md)  
+[Terug naar Index](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Floriline%20Express/Start.md)  
