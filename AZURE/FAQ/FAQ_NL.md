@@ -93,3 +93,11 @@ De supportmedewerkers zorgen voor een snelle en adequate afhandeling van melding
 Afhankelijk van de aard en urgentie van het incident wordt een passende oplossing geboden.<br><br>
 In geval van proces-belemmerende issues kan gebruik worden gemaakt van de storingsdienst. <br>
 Alle overige vragen kunnen via de reguliere kanalen worden gemeld.   
+
+---
+
+### 12. Wat verandert op het gebied van backups en updates?
+**Azure Backup** maakt meerdere dagelijkse backups mogelijk, zonder impact op prestaties of beschikbaarheid. Deze backups worden opgeslagen in Azure-opslaglocaties. 
+Deze manier van beheren verhoogt de dataveiligheid aanzienlijk. <br>
+Het uitvoeren van **updates** van besturingssystemen en beveiligingspatches kunnen automatisch uitgevoerd worden. Hierdoor blijven servers beschermd zonder dat handmatige acties nodig zijn. <br>
+ 
