@@ -94,3 +94,11 @@ Support staff will ensure a quick and adequate handling of reports.
 Depending on the nature and urgency of the incident, a suitable solution will be offered. <br>  
 In case of process-blocking issues, the emergency service can be used.  
 All other questions can be reported via the regular channels.
+
+---
+
+### 12. What’s different about backups and updates in Azure?  
+**Azure Backup** enables multiple daily backups without impacting performance or availability. <br>
+These backups are stored in Azure storage locations. This method of management significantly increases data security.<br>
+Operating system **updates** and security patches can be performed automatically, keeping servers protected without the need for manual intervention.
+
