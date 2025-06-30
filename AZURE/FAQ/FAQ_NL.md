@@ -3,6 +3,22 @@
 
 # ❓ FAQ – Migratie naar Microsoft Azure
 
+[1. Hoe verloopt het migratieproces van Florisoft.net naar Azure?](#1-hoe-verloopt-het-migratieproces-van-florisoftnet-naar-azure)  
+[2. Wat is de gemiddelde doorlooptijd van een migratie naar Azure?](#2-wat-is-de-gemiddelde-doorlooptijd-van-een-migratie-naar-azure)  
+[3. Welke voorbereidende acties zijn vereist aan de klantzijde?](#3-welke-voorbereidende-acties-zijn-vereist-aan-de-klantzijde)  
+[4. Wat is de impact op de dagelijkse bedrijfsvoering tijdens de migratie?](#4-wat-is-de-impact-op-de-dagelijkse-bedrijfsvoering-tijdens-de-migratie)  
+[5. Is er sprake van downtime tijdens de migratie?](#5-is-er-sprake-van-downtime-tijdens-de-migratie)  
+[6. Hoe wordt dataveiligheid tijdens de migratie gewaarborgd?](#6-hoe-wordt-dataveiligheid-tijdens-de-migratie-gewaarborgd)  
+[7. Welke onderdelen van Florisoft.net worden meegenomen in de migratie?](#7-welke-onderdelen-van-florisoftnet-worden-meegenomen-in-de-migratie)  
+[8. Wordt Florisoft.net getest vóór de livegang?](#8-wordt-florisoftnet-getest-vóór-de-livegang)  
+[9. Hoe wordt bedrijfscontinuïteit gewaarborgd tijdens de migratie?](#9-hoe-wordt-bedrijfscontinuïteit-gewaarborgd-tijdens-de-migratie)  
+[10. Is een rollback mogelijk als zich tijdens de migratie problemen voordoen?](#10-is-een-rollback-mogelijk-als-zich-tijdens-de-migratie-problemen-voordoen)  
+[11. Welke ondersteuning is beschikbaar na de livegang?](#11-welke-ondersteuning-is-beschikbaar-na-de-livegang)  
+[12. Wat verandert op het gebied van backups en updates?](#12-wat-verandert-op-het-gebied-van-backups-en-updates)  
+[13. Is het mogelijk om de migratie te verplaatsen naar een ander moment?](#13-is-het-mogelijk-om-de-migratie-te-verplaatsen-naar-een-ander-moment)  
+
+---
+
 ### 1. Hoe verloopt het migratieproces van Florisoft.net naar Azure?
 Het proces bestaat doorgaans uit 6 stappen, verdeeld over 2 fasen: 
 
