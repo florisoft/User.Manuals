@@ -3,6 +3,12 @@
 
 # ❓ FAQ – Migration to Microsoft Azure
 
+[1. How does the migration process of Florisoft.net to Azure work?](#1-how-does-the-migration-process-of-florisoftnet-to-azure-work)
+
+[13. Is it possible to reschedule the migration?](#13-is-it-possible-to-reschedule-the-migration)
+
+---
+
 ### 1. How does the migration process of Florisoft.net to Azure work?  
 The process generally consists of 6 steps, divided over 2 phases:  
 
