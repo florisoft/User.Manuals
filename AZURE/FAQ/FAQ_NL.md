@@ -3,7 +3,7 @@
 
 # ❓ FAQ – Migratie naar Microsoft Azure
 
-### 1. Hoe verloopt het migratieproces van een ERP-systeem naar Azure?
+### 1. Hoe verloopt het migratieproces van Florisoft.net naar Azure?
 Het proces bestaat doorgaans uit 6 stappen, verdeeld over 2 fasen: 
 
 **Fase 1:** 
@@ -16,26 +16,26 @@ Het proces bestaat doorgaans uit 6 stappen, verdeeld over 2 fasen:
 - livegang
 - controle
 
-Vooraf wordt een gedetailleerd stappenplan opgesteld, waarin duidelijk is wat elke stap inhoudt en wie verantwoordelijk is voor de uitvoering ervan. 
-
 ---
 
 ### 2. Wat is de gemiddelde doorlooptijd van een migratie naar Azure?
 
-De duur van het traject hangt af van de omvang, complexiteit en mate van maatwerk. <br>
-**Fase 1** wordt doorgaans in 0.5 tot 1 dag gerealiseerd en **Fase 2** in circa 0.5 dag. <br><br>
-Fase 1 en 2 dienen elkaar binnen afzienbare tijd op te volgen om afwijkingen in data en configuratie-wijzigingen te voorkomen. 
+De duur van het traject hangt af van de omvang en complexiteit <br>
+**Fase 1** wordt doorgaans in een halve tot één dag gerealiseerd en **Fase 2** in circa een halve dag. <br><br>
+Fase 1 en 2 dienen elkaar binnen afzienbare tijd op te volgen om te voorkomen dat versieverschillen complicaties kunnen veroorzaken. 
 
 ---
 
 ### 3. Welke voorbereidende acties zijn vereist aan de klantzijde?
-Uiterlijk 2 weken voor de migratie dient het Florisoft systeem te zijn voorzien van de laatst beschikbare update en deze ook uitrollen over alle gebruikers.
+Uiterlijk 2 weken voor de migratie dient het Florisoft systeem te zijn voorzien van de laatst beschikbare Stable-versie en uitgerold te zijn over alle gebruikers.
 Verder is het van groot belang dat de klant uitvoerig test als laatste stap van Fase 1. 
 
 Hierbij te denken aan:
 - inloggen gebruikers
-- dagelijkse processen
 - werking printers
+- koppelingen met externe applicaties
+- verbindingen waar voorheen een VPN verbinding nodig was
+- bereikbaarheid storage accounts
 - etc. 
 
 Eventuele issues worden verholpen en opnieuw getest, voordat Fase 2 wordt gestart. 
@@ -45,8 +45,12 @@ Eventuele issues worden verholpen en opnieuw getest, voordat Fase 2 wordt gestar
 
 ### 4. Wat is de impact op de dagelijkse bedrijfsvoering tijdens de migratie?
 De impact wordt zo veel mogelijk beperkt. Eventuele verstoringen worden vooraf afgestemd en ingepland. <br>
-Indien er tijdens het testen in **Fase 1** issues naar boven komen, zullen deze worden verholpen voordat Fase 2 wordt gestart. <br>
-Let op: Gedurende **Fase 2** zijn alle Florisoft-onderdelen tijdelijk **offline**, inclusief de webshop.<br><br>
+In **Fase 1** is er geen impact op de bedrijfsvoering.<br>
+Indien tijdens het testen in **Fase 1** issues naar boven komen, zullen deze worden verholpen voordat Fase 2 wordt gestart. <br>
+
+**Fase 2** <br>
+Let op: Gedurende **Fase 2** zijn alle Florisoft-onderdelen tijdelijk **offline**, inclusief de webshop.
+Na het afronden van Fase 1 is bekend hoe lang Florisoft **offline** zal zijn in fase 2. Deze downtime zal maximaal een halve dag zijn, maar in veel gevallen korter. <br><br>
 Voorbereiding aan klantzijde is nodig (zoals bijvoorbeeld stickers uitdraaien, orders klaarzetten, etc.).
 
 ---
@@ -60,35 +64,39 @@ Om de impact zoveel mogelijk te beperken kunnen de nodige voorbereidingen getrof
 ---
 
 ### 6. Hoe wordt dataveiligheid tijdens de migratie gewaarborgd?
-Data wordt gemigreerd via versleutelde verbindingen en beveiligde protocollen. Validatiecontroles worden uitgevoerd om volledigheid en juistheid te garanderen.
+Data wordt gemigreerd via versleutelde verbindingen en beveiligde protocollen. 
 
 ---
 
-### 7. Welke onderdelen van het ERP-systeem worden meegenomen in de migratie?
-Standaard omvat dit de gestructureerde data, systeemconfiguraties, gebruikersinstellingen, rapportages en eventuele maatwerkcomponenten. De exacte scope wordt vooraf vastgelegd. <br><br>
+### 7. Welke onderdelen van Florisoft.net worden meegenomen in de migratie?
+Standaard omvat dit de gestructureerde data, systeemconfiguraties, gebruikersinstellingen, rapportages en eventuele maatwerkcomponenten. <br><br>
 Let op; Dit betreft alle onderdelen gerelateerd aan het Florisoft pakket. Mochten eigen bestanden of folders overgezet moeten worden, dient dit vooraf duidelijk aangegeven te worden. 
 
 ---
 
-### 8. Wordt het ERP-systeem getest vóór de livegang?
+### 8. Wordt Florisoft.net getest vóór de livegang?
 De klant is zelf verantwoordelijk voor het testen aan het eind van **Fase 1**. <br>
-Eventuele issues dienen opgelost te worden voordat met **fase 2** gestart wordt.
+Eventuele issues dienen opgelost te worden voordat met **Fase 2** gestart wordt.<br><br>
+Tijdens de migratie wordt elke stap zorgvuldig gecontroleerd om te waarborgen dat het Florisoft-systeem technisch correct functioneert.<br>
+Na livegang is het echter aan de klant om Florisoft.net zelf opnieuw te testen in de praktijk.
 
 ---
 
 ### 9. Hoe wordt bedrijfscontinuïteit gewaarborgd tijdens de migratie?
 Er wordt gewerkt met een planning die rekening houdt met kritieke processen. <br>
-Daarom is het van groot belang om zo min mogelijk van de planning af te wijken. De migratie kan tot 3 weken voor Fase 1 worden verplaatst.
+Daarom is het van groot belang om zo min mogelijk van de planning af te wijken. 
 
 ---
 
 ### 10. Is een rollback mogelijk als zich tijdens de migratie problemen voordoen?
-Ja. Een fallback- of rollbackplan wordt vooraf opgesteld, zodat bij onvoorziene problemen snel kan worden teruggeschakeld naar de oorspronkelijke situatie.
+Ja. Een fallback- of rollbackplan wordt vooraf opgesteld, zodat bij onvoorziene problemen snel kan worden teruggeschakeld naar de oorspronkelijke situatie. <br>
+Deze blijft volledig in tact tot minimaal een dag na de livegang. Daarna zal de oude omgeving zo spoedig mogelijk worden uitgefaseerd. 
 
 ---
 
 ### 11. Welke ondersteuning is beschikbaar na de livegang?
-Eventuele issues of incidenten kunnen worden gemeld bij de support-afdeling van Florisoft. <br>
+Zowel tijdens als direct na de migratie kun je contact opnemen met de Florisoft-contactpersoon die de migratie begeleidt. <br>
+Eventuele issues of incidenten daarna kunnen worden gemeld bij de support-afdeling van Florisoft. <br>
 De supportmedewerkers zorgen voor een snelle en adequate afhandeling van meldingen. <br>
 Afhankelijk van de aard en urgentie van het incident wordt een passende oplossing geboden.<br><br>
 In geval van proces-belemmerende issues kan gebruik worden gemaakt van de storingsdienst. <br>
@@ -97,7 +105,15 @@ Alle overige vragen kunnen via de reguliere kanalen worden gemeld.
 ---
 
 ### 12. Wat verandert op het gebied van backups en updates?
-**Azure Backup** maakt meerdere dagelijkse backups mogelijk, zonder impact op prestaties of beschikbaarheid. Deze backups worden opgeslagen in Azure-opslaglocaties. 
+**Azure Backup** maakt meerdere dagelijkse backups mogelijk, zonder impact op prestaties of beschikbaarheid. Deze backups worden opgeslagen in Azure-opslaglocaties. <br>
 Deze manier van beheren verhoogt de dataveiligheid aanzienlijk. <br>
 Het uitvoeren van **updates** van besturingssystemen en beveiligingspatches kunnen automatisch uitgevoerd worden. Hierdoor blijven servers beschermd zonder dat handmatige acties nodig zijn. <br>
- 
+
+---
+
+### 13. Is het mogelijk om de migratie te verplaatsen naar een ander moment?
+Het verplaatsen van een migratie is in overleg mogelijk, maar bij voorkeur alleen wanneer dit echt noodzakelijk is. <br>
+Een wijziging heeft namelijk gevolgen voor onze planning en de beschikbaarheid van het migratieteam.<br>
+<br>
+Mocht verplaatsing toch nodig zijn, informeer ons dan bij voorkeur minimaal 3 weken van tevoren. <br>
+Bij wijzigingen binnen 3 weken kunnen we genoodzaakt zijn om extra kosten in rekening te brengen, bijvoorbeeld vanwege reeds gereserveerde capaciteit.
