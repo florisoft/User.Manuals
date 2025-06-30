@@ -50,7 +50,7 @@ Indien tijdens het testen in **Fase 1** issues naar boven komen, zullen deze wor
 
 **Fase 2** <br>
 Let op: Gedurende **Fase 2** zijn alle Florisoft-onderdelen tijdelijk **offline**, inclusief de webshop.
-Na het afronden van Fase 1 is bekend hoe lang Florisoft **offline** zal zijn in fase 2. Deze downtime zal maximaal een halve dag zijn, maar in veel gevallen korter. <br><br>
+Na het afronden van Fase 1 is bekend hoe lang Florisoft **offline** zal zijn in Fase 2. Deze downtime zal maximaal een halve dag zijn, maar in veel gevallen korter. <br><br>
 Voorbereiding aan klantzijde is nodig (zoals bijvoorbeeld stickers uitdraaien, orders klaarzetten, etc.).
 
 ---
