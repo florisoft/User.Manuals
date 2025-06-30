@@ -47,10 +47,10 @@ Any issues found must be resolved and retested before starting Phase 2.
 The impact is minimized as much as possible. Any disruptions are coordinated and scheduled in advance. <br>
 During Phase 1, business operations will not be affected. <br>
 If issues arise during testing in **Phase 1**, they will be resolved before starting Phase 2. <br><br>
-**Phase 2:**
+**Phase 2:**<br>
 Note: During **Phase 2** all Florisoft components are **temporarily offline**, including the webshop. <br><br>
 After completing Phase 1, the duration of Florisoft's offline period during Phase 2 will be known. <br>
-This downtime is expected to be no longer than half a day, and in many cases, shorter.<br>
+This downtime is expected to be **no longer than half a day, and in many cases, shorter**.<br>
 Preparation on the customer side is necessary (for example printing stickers, preparing orders, etc.).
 
 ---
