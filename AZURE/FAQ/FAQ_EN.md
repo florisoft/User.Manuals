@@ -3,7 +3,7 @@
 
 # ❓ FAQ – Migration to Microsoft Azure
 
-### 1. How does the migration process of an ERP system to Azure work?  
+### 1. How does the migration process of Florisoft.net to Azure work?  
 The process generally consists of 6 steps, divided over 2 phases:  
 
 **Phase 1:**  
@@ -16,15 +16,13 @@ The process generally consists of 6 steps, divided over 2 phases:
 - go-live  
 - verification  
 
-A detailed step-by-step plan is prepared in advance, clearly stating what each step entails and who is responsible for its execution.
-
 ---
 
 ### 2. What is the average lead time for a migration to Azure?  
 
-The duration depends on the scope, complexity, and degree of customization.  
-**Phase 1** is usually completed within 0.5 to 1 day and **Phase 2** takes about 0.5 day.   
-Phases 1 and 2 should follow each other within a reasonable timeframe to avoid discrepancies in data and configuration changes.
+The duration depends on the scope and complexity.
+**Phase 1** is usually completed within half a day to one full day and **Phase 2** takes about half a day.   
+Phases 1 and 2 should follow each other within a reasonable timeframe to avoid issues caused by version discrepancies.
 
 ---
 
@@ -34,9 +32,11 @@ At least 2 weeks before the migration, the Florisoft system must be updated with
 It is also very important that **the customer performs thorough testing** as the final step of Phase 1.  
 
 This includes:  
-- user login  
-- daily processes  
-- printer functionality  
+- user login   
+- printer functionality
+- integrations with external applications
+- connections that previously required a VPN connection
+- accessibility of storage accounts  
 - etc.  
 
 Any issues found must be resolved and retested before starting Phase 2.
@@ -45,50 +45,63 @@ Any issues found must be resolved and retested before starting Phase 2.
 
 ### 4. What is the impact on daily operations during the migration?  
 The impact is minimized as much as possible. Any disruptions are coordinated and scheduled in advance. <br>
-If issues arise during testing in **Phase 1**, they will be resolved before starting Phase 2. <br>
-Note: During **Phase 2** all Florisoft components are **temporarily offline**, including the webshop. <br>
+During Phase 1, business operations will not be affected. <br>
+If issues arise during testing in **Phase 1**, they will be resolved before starting Phase 2. <br><br>
+**Phase 2:**
+Note: During **Phase 2** all Florisoft components are **temporarily offline**, including the webshop. <br><br>
+After completing Phase 1, the duration of Florisoft's offline period during Phase 2 will be known. <br>
+This downtime is expected to be no longer than half a day, and in many cases, shorter.<br>
 Preparation on the customer side is necessary (for example printing stickers, preparing orders, etc.).
 
 ---
 
 ### 5. Is there downtime during the migration?  
-Limited planned downtime is necessary during the go-live (Phase 2).   
-This is coordinated in advance and minimized where possible.   
-Please note that during Phase 2 **all Florisoft components will be temporarily offline**, including the webshop.  
+During Phase 1, business operations will not be affected, so this phase will have no downtime.<br>
+Limited planned downtime is necessary during the go-live (Phase 2).<br>
+This is coordinated in advance and minimized where possible.<br>
+<br>
+Please note that during Phase 2 **all Florisoft components will be temporarily offline**, including the webshop.  <br>
+After completing Phase 1, the duration of Florisoft's offline period during Phase 2 will be known. <br><br>
+This downtime is expected to be **no longer than half a day, and in many cases, shorter.**<br>
+Preparation on the customer side is necessary (for example printing stickers, preparing orders, etc.).<br>
 To reduce the impact, preparations such as printing stickers and preparing orders can be made in advance.
 
 ---
 
 ### 6. How is data security ensured during the migration?  
-Data is migrated via encrypted connections and secure protocols. Validation checks are performed to guarantee completeness and accuracy.
+Data is migrated via encrypted connections and secure protocols.
 
 ---
 
-### 7. Which parts of the ERP system are included in the migration?  
-By default, this includes structured data, system configurations, user settings, reports, and any custom components. The exact scope is defined in advance. <br>  
+### 7. Which parts of Florisoft.net are included in the migration?  
+By default, this includes structured data, system configurations, user settings, reports, and any custom components. <br>
 Note: This concerns all parts related to the Florisoft package. If own files or folders need to be transferred, this must be clearly indicated beforehand.
 
 ---
 
-### 8. Is the ERP system tested before go-live?  
-The customer is responsible for testing at the end of **Phase 1**. <br> 
-Any issues must be resolved before starting **Phase 2**.
+### 8. Is Florisoft.net tested before go-live?  
+The customer is responsible for performing tests at the end of **Phase 1**.<br>
+Any issues identified must be resolved before **Phase 2** can begin.<br>
+<br>
+During the migration, each step is carefully monitored to ensure that the Florisoft system functions correctly from a technical perspective.<br>
+However, after go-live, it is the customer's responsibility to test Florisoft.net again in practice.<br>
 
 ---
 
 ### 9. How is business continuity ensured during the migration?  
 A schedule is made that takes critical processes into account.   
 Therefore, it is very important to deviate from the planning **as little as possible**. <br>
-The migration can be postponed up to 3 weeks before Phase 1.
 
 ---
 
 ### 10. Is a rollback possible if problems occur during migration?  
-Yes. A fallback or rollback plan is prepared in advance, so that in case of unforeseen problems, a quick switch back to the original situation is possible.
+Yes. A fallback or rollback plan is prepared in advance, so that in case of unforeseen problems, a quick switch back to the original situation is possible.<br>
+The original environment will remain fully intact until at least one day after the go-live. After that, it will be phased out as soon as possible.
 
 ---
 
 ### 11. What support is available after go-live?  
+During and directly after the migration process You can contact the designated Florisoft representative.<br>
 Any issues or incidents can be reported to Florisoft’s support department.   
 Support staff will ensure a quick and adequate handling of reports.   
 Depending on the nature and urgency of the incident, a suitable solution will be offered. <br>  
@@ -102,3 +115,11 @@ All other questions can be reported via the regular channels.
 These backups are stored in Azure storage locations. This method of management significantly increases data security.<br>
 Operating system **updates** and security patches can be performed automatically, keeping servers protected without the need for manual intervention.
 
+---
+
+### 13. Is it possible to reschedule the migration?
+Rescheduling a migration is possible in consultation, but preferably only **if absolutely necessary**.<br>
+Changes can affect our planning and the availability of the migration team.<br>
+<br>
+If rescheduling is required, please inform us at least 3 weeks in advance whenever possible.<br>
+For changes made within 3 weeks of the planned date, we may need to charge additional costs, for example due to already allocated resources.<br>
