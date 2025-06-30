@@ -3,9 +3,19 @@
 
 # ❓ FAQ – Migration to Microsoft Azure
 
-[1. How does the migration process of Florisoft.net to Azure work?](#1-how-does-the-migration-process-of-florisoftnet-to-azure-work)
-
-[13. Is it possible to reschedule the migration?](#13-is-it-possible-to-reschedule-the-migration)
+[1. How does the migration process of Florisoft.net to Azure work?](#1-how-does-the-migration-process-of-florisoftnet-to-azure-work)  
+[2. What is the average lead time for a migration to Azure?](#2-what-is-the-average-lead-time-for-a-migration-to-azure)  
+[3. What preparatory actions are required on the customer side?](#3-what-preparatory-actions-are-required-on-the-customer-side)  
+[4. What is the impact on daily operations during the migration?](#4-what-is-the-impact-on-daily-operations-during-the-migration)  
+[5. Is there downtime during the migration?](#5-is-there-downtime-during-the-migration)  
+[6. How is data security ensured during the migration?](#6-how-is-data-security-ensured-during-the-migration)  
+[7. Which parts of Florisoft.net are included in the migration?](#7-which-parts-of-florisoftnet-are-included-in-the-migration)  
+[8. Is Florisoft.net tested before go-live?](#8-is-florisoftnet-tested-before-go-live)  
+[9. How is business continuity ensured during the migration?](#9-how-is-business-continuity-ensured-during-the-migration)  
+[10. Is a rollback possible if problems occur during migration?](#10-is-a-rollback-possible-if-problems-occur-during-migration)  
+[11. What support is available after go-live?](#11-what-support-is-available-after-go-live)  
+[12. What’s different about backups and updates in Azure?](#12-whats-different-about-backups-and-updates-in-azure)  
+[13. Is it possible to reschedule the migration?](#13-is-it-possible-to-reschedule-the-migration)  
 
 ---
 
