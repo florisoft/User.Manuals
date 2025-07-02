@@ -54,7 +54,7 @@ Voor het insturen van een aanvoerbrief op deze manier wordt de check of alle geg
 
 Dit TradeItemID komt dus voort uit een bestelpartij, deze bestelpartij moet worden gesycnhroniseerd zijn naar de Catalogus op het Floriday kwekers platform. We hebben 2 manieren om een TradeItemID te verkrijgen:
 
-Inrichten van de floriday module voor het aanbieden van partijen. Ook voor het plaatsen van aanbod op floriday is een TradeItem vereist, dit doen we door de bestellijst met aanbod open te zetten in de toegankelijke bestellijsten op de floridat debiteur.
+Inrichten van de floriday module voor het aanbieden van partijen. Ook voor het plaatsen van aanbod op floriday is een TradeItem vereist, dit doen we door de bestellijst met aanbod open te zetten in de toegankelijke bestellijsten op de Floriday debiteur.
 
 Wanneer je niet wilt aanbieden maar alleen wil afrekenen via Floriday kunnen we ook een TradeItem aanmaken bij het insturen van de aanvoerbrief, dit gaat als volgt:
 
