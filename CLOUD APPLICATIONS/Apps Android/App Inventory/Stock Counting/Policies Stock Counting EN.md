@@ -5,7 +5,7 @@
 This manual helps you configure the **Stock Counting functionality** in the Inventory app.\
 Using various policies, you can define how **stock** is counted, displayed, and processed.
 
-> ⚠️ Don't forget to configure the appropriate [authorizations](#-authorizations). Without proper authorizations, certain functions will not be available.
+> ℹ️ Don't forget to configure the appropriate [authorizations](#-authorizations). Without proper authorizations, certain functions will not be available.
 
 ---
 ## Where to find the Stock Counting policies
@@ -28,7 +28,7 @@ For more general information on managing policies, consult the [Policy Managemen
 This section provides an overview of policies related to the Stock Counting functionality.\
 Each policy explains its purpose, how to configure it, and any important usage notes.
 
-> ⚠️ The availability of certain policies depends on how your environment is configured. Not all policies apply in every case.
+> ℹ️ The availability of certain policies depends on how your environment is configured. Not all policies apply in every case.
 
 ---
 
@@ -55,7 +55,7 @@ This **policy group** defines how stock and price **labels** are printed.
   - `StockLabelPrinterDescription`\
     ➞ The description appears in the app to help users identify the correct printer.
 
-> ⚠️ The **JobAgent** must be active for printing to work. If it is not running, no printers will appear and printing is disabled. See the [JobAgent guide](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Windows%20Job-Agent%20application) for installation and configuration.
+> ℹ️ The **JobAgent** must be active for printing to work. If it is not running, no printers will appear and printing is disabled. See the [JobAgent guide](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Windows%20Job-Agent%20application) for installation and configuration.
 
 ---
 
@@ -129,7 +129,7 @@ Choose the format that best suits your logistics process.
 
 ---
 
-## 🔐 Authorizations
+## Authorizations
 
 Access to the Stock Counting functionality requires specific authorizations.\
 Without these, users cannot open or use the app.

@@ -6,7 +6,7 @@
 
 This manual describes the use of the stock counting functionality in the Florisoft Inventory App. The app's workflow is configured based on the applicable policies.
 
->The full policy configuration manual is available via the following link: [Policies stock counting EN](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Inventory%20App/Stock%20Counting/Policies%20Stock%20Counting%20EN.md)
+> ℹ️ The full policy configuration manual is available via the following link: [Policies stock counting EN](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Inventory%20App/Stock%20Counting/Policies%20Stock%20Counting%20EN.md)
 
 **Requirements:**
 

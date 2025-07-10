@@ -4,7 +4,7 @@
 
 This manual describes the use and configuration of the Florisoft Inventory App. With this app, you can manage your stock and keep it synchronized with the actual stock locations in your warehouse.
 
-The app consists of three distinct components:
+The app consists of three distinct modules:
 
 ## Stockcounting
 

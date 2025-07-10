@@ -4,7 +4,7 @@
 Deze handleiding helpt u bij het configureren van de **Stock Counting-functionaliteit** in de Inventory-app.\
 Aan de hand van verschillende policies kunt u bepalen hoe voorraden worden geteld, weergegeven en verwerkt.
 
-> ⚠️ Vergeet niet om ook de juiste [autorisaties](#autorisaties) in te stellen. Zonder de juiste autorisaties zijn bepaalde functies niet beschikbaar.
+> ℹ️ Vergeet niet om ook de juiste [autorisaties](#autorisaties) in te stellen. Zonder de juiste autorisaties zijn bepaalde functies niet beschikbaar.
 
 ---
 
@@ -28,7 +28,7 @@ Wilt u meer weten over het instellen en beheren van policies in het algemeen? Ra
 In dit hoofdstuk vindt u een overzicht van policies die specifiek betrekking hebben op de Stock Counting-functionaliteit.\
 Per policy wordt uitgelegd wat de functie is, hoe deze geconfigureerd wordt en waar u op moet letten bij het gebruik.
 
-> ⚠️ De beschikbaarheid van sommige policies kan afhangen van de inrichting van uw omgeving. Niet alle policies zijn in elke situatie van toepassing.
+> ℹ️ De beschikbaarheid van sommige policies kan afhangen van de inrichting van uw omgeving. Niet alle policies zijn in elke situatie van toepassing.
 
 ---
 
@@ -58,7 +58,7 @@ Deze **policy-groep** bepaalt hoe voorraad- en prijslabels worden afgedrukt.
   - `StockLabelPrinterDescription`\
     ➞ Deze omschrijving wordt weergegeven in de gebruikersinterface.
 
-> ⚠️ Voor het correct functioneren van deze policies is de **JobAgent** vereist. Indien deze niet actief is, worden printers niet weergegeven en is afdrukken niet mogelijk. Raadpleeg de [handleiding voor de JobAgent](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Windows%20Job-Agent%20application) voor installatie en configuratie-instructies.
+> ℹ️ Voor het correct functioneren van deze policies is de **JobAgent** vereist. Indien deze niet actief is, worden printers niet weergegeven en is afdrukken niet mogelijk. Raadpleeg de [handleiding voor de JobAgent](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Windows%20Job-Agent%20application) voor installatie en configuratie-instructies.
 
 ---
 
@@ -147,4 +147,3 @@ Zonder deze autorisatie kunnen gebruikers de app niet openen of gebruiken.
 | **6** | Herhaal dit voor andere gebruikers. U kunt het proces versnellen via de knop **Kopie autorisatie**.                                                     |
 
 ---
-
