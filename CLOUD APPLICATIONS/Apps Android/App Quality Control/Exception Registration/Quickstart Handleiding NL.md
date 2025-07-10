@@ -9,7 +9,7 @@ De workflow van de app is geconfigureerd op basis van de relevante policies.
 
 Met deze module kunnen gebruikers snel en nauwkeurig afwijkingen registreren tijdens operationele processen zoals orderpicking of eindcontrole.
 
-> ℹ️ De uitgebreide handleiding voor het instellen van deze policies is beschikbaar via de volgende link: [Policies Exception Registration NL](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Exception%20Registration/Policies/Policies%20Exception%20Registration%20NL.md)
+> ℹ️ De uitgebreide handleiding voor het instellen van deze policies is beschikbaar via de volgende link: [Policies Exception Registration NL](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Exception%20Registration/Policies%20Exception%20Registration%20NL.md)
 
 **Benodigdheden:**
 

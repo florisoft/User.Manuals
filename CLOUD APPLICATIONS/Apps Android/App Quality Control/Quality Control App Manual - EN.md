@@ -12,8 +12,8 @@ With the Exception Registration app, employees can easily register exceptions th
 
 Registrations can include photos, comments, quantities, and a reason. The app can be used as a standalone module or integrated into other Florisoft apps. Processing of exceptions takes place in a follow-up app: Exception Handling.
 
-* [Policy Manual](#)
-* [Quickstart Manual](#)
+* [Policy Manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Exception%20Registration/Policies%20Exception%20Registration%20EN.md)
+* [Quickstart Manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Exception%20Registration/Quickstart%20Manual%20EN.md)
 
 ## Final Outbound Check *(coming soon)*
 

@@ -12,8 +12,8 @@ Met de Exception Registration App kunnen medewerkers eenvoudig afwijkingen regis
 
 Registraties kunnen worden voorzien van foto's, opmerkingen, aantallen en een reden. De app is inzetbaar als losse module of geïntegreerd binnen andere Florisoft-apps.
 
-* [Policy-handleiding](#)
-* [Doorloop-handleiding](#)
+* [Policy-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Exception%20Registration/Policies%20Exception%20Registration%20NL.md)
+* [Quickstart-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Exception%20Registration/Quickstart%20Handleiding%20NL.md)
 
 ## Final Outbound Check *(binnenkort beschikbaar)*
 

@@ -9,7 +9,7 @@ The app workflow is configured based on the relevant policies.
 
 This module allows users to quickly and accurately register deviations during operational processes such as order picking or final check.
 
-> ℹ️ A full guide on configuring these policies is available at: [Policies Exception Registration EN](*)
+> ℹ️ A full guide on configuring these policies is available at: [Policies Exception Registration EN](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Exception%20Registration/Policies%20Exception%20Registration%20EN.md)
 
 **Requirements:**
 
