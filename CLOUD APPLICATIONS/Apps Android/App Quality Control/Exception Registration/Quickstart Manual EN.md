@@ -87,6 +87,7 @@ After scanning a valid barcode, the registration form appears. Follow these step
 - Attached photos are visible via right-click or by pressing **F5**. If multiple photos are attached, use the context menu to browse them.
 
 #### Button overview (right side of screen)
+> ℹ️ The visibility of buttons in the Division Control screen is managed via the **SidebarButtonVisibility** policy.
 
 - **History** – Opens the change log of the selected exception.
 - **Refresh** – Retrieves the latest data from the database.

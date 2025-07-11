@@ -87,7 +87,7 @@ Na het scannen van een geldige barcode verschijnt het registratieformulier. U do
 - Toegevoegde foto's zijn zichtbaar via de rechtermuisknop of door het indrukken van **F5**. Via het contextmenu kunnen meerdere foto's worden ingezien als er meer dan één gekoppeld is.
     
 #### Beschrijving knoppen (rechterzijde van het scherm)
-
+ > ℹ️ De zichtbaarheid van knoppen in het verdeelcontrole-scherm wordt beheerd via de policy **SidebarButtonVisibility**. 
 - **Historie**: opent de historie van de geregistreerde excepties.
 - **Ververs**: haalt de meest recente gegevens op uit de database. Gebruik dit om het overzicht te actualiseren.
 - **Correctie**: voert automatisch een correctie uit. 
