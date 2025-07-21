@@ -9,7 +9,7 @@ In deze handleiding leert u hoe u de Job-Agent start vanuit de Florisoft Windows
 Om de stappen in deze handleiding te volgen, dient u te beschikken over het volgende:
 
 - Een recente installatie van de cloudserver.
-- De Hub-App dient geïnstalleerd te zijn. Is deze nog niet geïnstalleerd? Lees dan [hier](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Hub%20App/Hub-App%20Installation%20EN.md#installing-the-windows-application) hoe u dit doet.
+- De Hub-App dient geïnstalleerd te zijn. Is deze nog niet geïnstalleerd? Lees dan [hier](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/App%20Hub/Hub-App%20Installatie%20NL.md) hoe u dit doet.
 
 ## Job-Agent
 
