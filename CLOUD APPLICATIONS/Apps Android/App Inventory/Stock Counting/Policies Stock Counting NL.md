@@ -31,6 +31,20 @@ Per policy wordt uitgelegd wat de functie is, hoe deze geconfigureerd wordt en w
 > ℹ️ De beschikbaarheid van sommige policies kan afhangen van de inrichting van uw omgeving. Niet alle policies zijn in elke situatie van toepassing.
 
 ---
+### Inventory-brede instellingen
+
+Sommige instellingen gelden Inventory-breed, ongeacht de specifieke module.
+
+### `DisplayedStockItemIdentifier`
+
+Geeft aan welk type partijnummer wordt weergegeven in de app. Enkel de **laatste vier cijfers** worden getoond voor duidelijkheid en gebruiksgemak.
+
+**Beschikbare opties:**
+
+- `PartijNr`
+- `VPartijNr`
+
+---
 
 ### Instellingen op basis van voorkeur
 

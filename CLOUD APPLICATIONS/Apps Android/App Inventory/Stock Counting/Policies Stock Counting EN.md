@@ -31,6 +31,20 @@ Each policy explains its purpose, how to configure it, and any important usage n
 > ℹ️ The availability of certain policies depends on how your environment is configured. Not all policies apply in every case.
 
 ---
+### Inventory-wide Settings
+
+Some settings apply across the entire Inventory module, regardless of the specific use case.
+
+### `DisplayedStockItemIdentifier`
+
+Determines which type of parcel number is displayed in the app. Only the **last four digits** are shown for clarity and ease of use.
+
+**Available options:**
+
+- `PartijNr`
+- `VPartijNr`
+
+---
 
 ### Customer-configurable policies
 

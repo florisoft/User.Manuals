@@ -33,6 +33,21 @@ Each policy description explains its function, how to configure it, and what to 
 
 ---
 
+### Inventory-wide Settings
+
+Some settings apply across the entire Inventory module, regardless of the specific use case.
+
+### `DisplayedStockItemIdentifier`
+
+Determines which type of parcel number is displayed in the app. Only the **last four digits** are shown for clarity and ease of use.
+
+**Available options:**
+
+- `PartijNr`
+- `VPartijNr`
+
+---
+
 ### Location handling settings
 
 These policies determine how the app assigns and processes stock locations.
