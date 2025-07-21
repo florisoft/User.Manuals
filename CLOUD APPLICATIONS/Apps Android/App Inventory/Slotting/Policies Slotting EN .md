@@ -58,6 +58,14 @@ This prevents subsequent parcels from inheriting the same location by default.
 
 ---
 
+### `ClearLocationIsAllowed`
+
+When this policy is enabled, an additional button is added to the hamburger menu. This button allows the user to "clear" a location in one action.
+
+    ℹ️ This functionality is only available after a location code has been scanned. When scanning a parcel, the button is not shown and it is therefore not possible to remove items from a location using this method.
+
+---
+
 ## Authorizations
 
 Specific authorizations are required to access the Slotting functionality.

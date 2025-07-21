@@ -58,6 +58,14 @@ Dit voorkomt dat volgende partijen automatisch dezelfde locatie overnemen.
 
 ---
 
+### `ClearLocationIsAllowed`
+
+Wanneer deze policy is ingeschakeld, wordt er in het hamburger-menu een extra knop toegevoegd. Deze knop geeft de gebruiker de mogelijkheid om een locatie in één keer te "leegmaken".
+
+    ℹ️ Deze functionaliteit is alleen beschikbaar nadat een locatiecode is gescand. Bij het scannen van een partij wordt de knop niet getoond en is het dus niet mogelijk om via deze route partijen van een locatie te verwijderen.
+
+---
+
 ## Autorisaties
 
 Voor toegang tot de Slotting-functionaliteit zijn specifieke autorisaties vereist.
