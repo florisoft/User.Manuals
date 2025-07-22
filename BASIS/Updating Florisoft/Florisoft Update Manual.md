@@ -116,10 +116,10 @@ If it is acceptable for the CloudServer to be temporarily unavailable, you can u
 
 ### 8. Roll out Apps
 
-If you also use the Florisoft Apps, the apps can also be rolled out to the latest version. Through the same way as in chapter 5. But then the option: Roll out version Apps 
+If you also use the Florisoft Apps, the apps can also be rolled out to the latest version. Through the same way as in chapter 5. But then the option: Roll out version Apps.
 During an internet update system (from step 2), the apps are also downloaded.
 After downloading, they can be rolled out via the Roll out version Apps option.
-When the user restarts an app on the device, they will see that the app is being updated and will then run on the latest version.:<br><br>
+When the user restarts an app on the device, they will see that the app is being updated and will then run on the latest version.<br><br>
 
 ## Conclusion
 
