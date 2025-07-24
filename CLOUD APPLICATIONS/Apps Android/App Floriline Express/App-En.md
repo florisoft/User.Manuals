@@ -44,7 +44,7 @@ When selecting items, a selection screen appears. Here you can search for the de
 
 The information you see for each item means the following:
 
-**ARNT - ITEM DESCRIPTION - PRICE**  
+**ARTNR - ITEM DESCRIPTION - PRICE**  
 **CHARACTERISTICS (S1, S2, S3) - STOCK QUANTITY**
 
 <details>
