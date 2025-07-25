@@ -114,6 +114,13 @@ Wenn es möglich ist, dass der CloudServer kurzzeitig nicht erreichbar ist, kön
 5. Sobald die Aktualisierung des CloudServers abgeschlossen ist, sehen Sie den folgenden Bildschirm. Überprüfen Sie jetzt, ob der CloudServer wieder erreichbar ist.<br><br>
 ![alt text](Media/image-19.png)
 
+### 8. Apps ausrollen
+
+Wenn Sie auch die Florisoft-Apps verwenden, können die Apps ebenfalls auf die neueste Version gebracht werden. Auf die gleiche Weise wie in Kapitel 5. Aber dann die Option: Roll out version Apps 
+Bei einem Internet-Update (ab Schritt 2) werden auch die Apps heruntergeladen.
+Nach dem Herunterladen können sie über die Option Roll out version Apps ausgerollt werden.
+Wenn der Benutzer eine App auf dem Gerät neu startet, sieht er, dass die App aktualisiert wird und läuft dann mit der neuesten Version. <br><br>
+
 ## Abschluss
 
 Damit ist der Updateprozess von Florisoft abgeschlossen. Bei Fragen oder Unterstützungsbedarf können Sie sich jederzeit an unseren Support wenden. Vielen Dank für die Nutzung von Florisoft!

@@ -100,7 +100,7 @@ Wanneer het uitkomt dat de webshop even niet bereikbaar is, kun je als volgt de 
 5. Wanneer de update van de webshop klaar is, krijg je onderstaand scherm te zien. Controleer nu of de webshop weer benaderbaar is.<br><br>
 ![alt text](Media/image-16.png)
 
-### 6. CloudServer updaten
+### 7. CloudServer updaten
 
 Wanneer het uitkomt dat de CloudServer even niet bereikbaar is, kun je als volgt de CloudServer updaten. Het updaten van de CloudServer gaat op dezelfde manier als het updaten van de webshop.
 
@@ -116,6 +116,14 @@ Wanneer het uitkomt dat de CloudServer even niet bereikbaar is, kun je als volgt
 
 5. Wanneer de update van de CloudServer klaar is, krijg je onderstaand scherm te zien. Controleer nu of de CloudServer weer benaderbaar is.<br><br>
 ![alt text](Media/image-19.png)
+
+## 8. Versie uitrollen Apps
+
+Indien u ook gebruik maakt van de Florisoft Apps kunnen de apps ook uitgerold worden naar de latest versie.
+Tijdens het uitvoeren van een internet update systeem (uit stap 2) worden de apps ook gedownload.
+Na het downloaden kunnen deze uitgerold worden via de optie Versie uitrollen Apps.
+Wanneer de gebruiker een app op het device opnieuw opstart, kunt men zien dat de app wordt geüpdatet en dan draait deze op de laatste versie.<br><br>
+![alt text](Media/image-21.png)
 
 ## Afronding
 

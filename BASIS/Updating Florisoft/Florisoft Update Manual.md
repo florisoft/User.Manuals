@@ -114,6 +114,13 @@ If it is acceptable for the CloudServer to be temporarily unavailable, you can u
 5. Once the CloudServer update is complete, you will see the following screen. Now, check if the CloudServer is accessible again.<br><br>
 ![alt text](Media/image-19.png)
 
+### 8. Roll out Apps
+
+If you also use the Florisoft Apps, the apps can also be rolled out to the latest version. Through the same way as in chapter 5. But then the option: Roll out version Apps.
+During an internet update system (from step 2), the apps are also downloaded.
+After downloading, they can be rolled out via the Roll out version Apps option.
+When the user restarts an app on the device, they will see that the app is being updated and will then run on the latest version.<br><br>
+
 ## Conclusion
 
 This completes the Florisoft update process. If you have any questions or need assistance, please feel free to contact our support department. Thank you for using Florisoft!
