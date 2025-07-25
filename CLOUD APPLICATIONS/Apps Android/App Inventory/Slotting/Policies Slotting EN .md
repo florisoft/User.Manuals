@@ -81,6 +81,25 @@ When this policy is enabled, an additional button is added to the hamburger menu
 
 ---
 
+## Settings Outside of Policies
+
+Not all settings are currently included in the policy groups for Slotting. Some settings still reside within the system itself. Although they may be of lower strategic importance, they deserve attention due to their impact on slotting behavior.
+
+### System Setting: `LocationFieldLength`
+
+This setting defines the maximum length (in number of characters) for a scanned value to be recognized as a location barcode within the system. This length is applied across many tables for location or related fields.
+
+**For example:**
+If the value is set to `6` and you scan a barcode containing `7` characters, it will not be recognized as a location
+
+This length is also used during purging of tables: once the `LocationFieldLength` value is changed, all tables that depend on this structure must be purged to ensure data and system logic remain consistent with the new setting.
+
+> ⚠️ **Caution:** Modifying this value is at your own risk. Changes may have unintended consequences for processes that rely on location recognition.
+
+**Default value:** `6`
+
+---
+
 ## Authorizations
 
 Specific authorizations are required to access the Slotting functionality.

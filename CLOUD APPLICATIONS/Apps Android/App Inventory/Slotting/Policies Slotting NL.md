@@ -81,6 +81,24 @@ Wanneer deze policy is ingeschakeld, wordt er in het hamburger-menu een extra kn
 
 ---
 
+## Instellingen buiten policies om
+Niet alle instellingen zijn momenteel opgenomen in de policies groepen voor Slotting. Sommige instellingen bevinden zich nog in het systeem zelf en zijn van minder strategisch belang, maar verdienen toch aandacht vanwege hun invloed op het gedrag van het slottingproces.
+
+### Systeeminstelling: `LocatieVeldLengte`
+
+Met deze instelling bepaal je de maximale lengte (in aantal karakters) waarmee een gescande waarde wordt herkend als locatiebarcode in het systeem. Deze lengte wordt in veel tabellen gehanteerd voor locatie- of gerelateerde velden.
+
+**Bijvoorbeeld:**
+Als de waarde is ingesteld op `6` en je scant een barcode met `7` karakters, dan wordt deze niet als locatie herkend.
+
+Daarnaast wordt deze lengte ook gebruikt bij het purgen van tabellen: zodra de waarde van `LocatieVeldLengte` is gewijzigd, moeten tabellen die deze structuur gebruiken worden*gepurgd, zodat de data en verwerking overeenkomen met de nieuwe instelling.
+
+> ⚠️ **Let op:** Het aanpassen van deze waarde is **op eigen risico**. De  wijzigingen kunnen onbedoelde gevolgen hebben voor processen waarin locatieherkenning een rol speelt.
+
+**Standaardwaarde:** `6`
+
+---
+
 ## Autorisaties
 
 Voor toegang tot de Slotting-functionaliteit zijn specifieke autorisaties vereist.
