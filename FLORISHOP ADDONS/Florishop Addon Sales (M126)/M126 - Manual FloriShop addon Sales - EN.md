@@ -22,9 +22,9 @@
 
 **Required module(s)**.
 
-The Sales & Account Manager module must be activated. See the screenshot below.
+The Sales module must be activated. See the screenshot below.
 
-<details><summary><b>Click here for the example image</b></summary><img src="manual sales\.media\picture1.png" /></details>
+<details><summary><b>Click here for the example image</b></summary><img src="https://github.com/user-attachments/assets/f6b1fc23-0f54-4e73-af63-e7659bd12119"/></details>
 
 &nbsp;
 
@@ -119,8 +119,9 @@ Follow the steps below to set up the system user:
 
 |Step|Explanation|
 |:--|:--|
-|**1**|Navigate to the webshop and log in with the **<u>System user</u>**. This is connected to a seller, which is in turn connected to the debtor.
-|**2**|After logging in, click on the op right, above the username and choose 'Sales'.<details><summary><b>Click here for the example image</b></summary><img src="manual sales\.media\picture9.png" /></details>
+|**1**|Ensure the shop has been restarted to activate the adjusted settings.
+|**2**|Navigate to the webshop and log in with the **<u>System user</u>**. This is connected to a seller, which is in turn connected to the debtor.
+|**3**|After logging in, click on the op right, above the username and choose 'Sales'.<details><summary><b>Click here for the example image</b></summary><img src="manual sales\.media\picture9.png" /></details>
 
 
 If everything has been set up correctly it should look like this:<details><summary><b>Click here for the example image</b></summary><img src="manual sales\.media\picture10.png" /></details>
