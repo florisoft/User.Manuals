@@ -114,6 +114,16 @@ Follow the steps below to set up the system user:
 |**3**|At 'Seller' you connect the seller you have just created<details><summary><b>Click here for the example image</b></summary><img src="manual sales\.media\picture8.png" /></details>
 
 
+## 1.4 Navigator
+
+Follow the steps below to add *Florisoft Sales Login* to the Florisoft Navigator:
+
+|Step|Explanation|
+|:--|:--|
+|**1**| Open the Navigator and press *F12* |
+|**2**| Drag the *Florisoft Sales Login* button to the desired location on the Navigator. <details><summary><b>Click here for the example image</b></summary><img src="https://github.com/user-attachments/assets/a55a5b0f-796a-482f-8ae9-6745b72c7de3"/></details> |
+|**3**| Press *F5* to save the changes |
+
 # 2. Sales functionality Webshop
 
 
