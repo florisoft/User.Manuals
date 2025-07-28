@@ -21,10 +21,9 @@
 
 
 **Benodigde module(s)**    
-De module Sales & Accountmanager moeten geactiveerd zijn. Zie de
+De module Sales moet geactiveerd zijn. Zie de
 screenshot hieronder.
-<details><summary><b>Klik hier voor een voorbeeld</b></summary><img src=".Handleiding inrichten Sales\media\image2.png"/></details>
-
+<details><summary><b>Klik hier voor een voorbeeld</b></summary><img src="https://github.com/user-attachments/assets/f6b1fc23-0f54-4e73-af63-e7659bd12119"/></details>
 
 # 1. Relatie leggen tussen verkoper, debiteur & systeemgebruiker
 
@@ -112,8 +111,9 @@ Volg de onderstaande stappen om de systeemgebruiker in te stellen:
 
 |Stap|Uitleg|
 |:--|:--|
-|**1**| Nu gaan we naar de Webshop en loggen we in met de **<u>systeemgebruiker</u>**. Deze is gekoppeld aan een verkoper, die weer is gekoppeld aan de debiteur.
+|**1**| Om bovenstaande configuratiewijzigingen te activeren is een herstart van de shop noodzakelijk. 
 |**2**| Na het inloggen klik je rechtsboven op de gebruikersnaam, en kies je voor Sales: <details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Handleiding inrichten Sales\media\image10.png"/></details>
+|**3**| Na het inloggen klik je rechtsboven op de gebruikersnaam, en kies je voor Sales: <details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Handleiding inrichten Sales\media\image10.png"/></details>
 
 Als je alles goed hebt ingesteld zie je nu het volgende:
 <details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Handleiding inrichten Sales\media\image11.png"/></details>
