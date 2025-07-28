@@ -107,6 +107,16 @@ Volg de onderstaande stappen om de systeemgebruiker in te stellen:
 |**2**| Kies een systeemgebruiker;
 |**3**|Bij verkoper koppel je de verkoper die je zojuist hebt aangemaakt.<details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src=".Handleiding inrichten Sales\media\image9.png"/></details>
 
+
+## 1.4. Navigator
+
+Volg de onderstaande stappen om *Florisoft Sales Login* toe te voegen aan de Florisoft Navigator:
+|Stap|Uitleg|
+|:--|:--|
+|**1**| Open de Navigator en druk *F12*
+|**2**| Sleep de knop *Florisoft Sales Login* naar de gewenste plek op de Navigator. <details><summary><b>Klik hier voor de voorbeeld foto</b></summary><img src="https://github.com/user-attachments/assets/a55a5b0f-796a-482f-8ae9-6745b72c7de3"/></details>
+|**3**| Druk *F5* om de wijziging op te slaan
+
 # 2. Sales functionaliteit Webshop
 
 |Stap|Uitleg|
