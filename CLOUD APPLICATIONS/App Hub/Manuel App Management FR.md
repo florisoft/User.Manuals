@@ -4,7 +4,7 @@
 
 Avec l’application Florisoft Hub, vous gérez vos applications Florisoft. Cela inclut le lancement, le téléchargement, la mise à jour et la suppression des applications via l’application Hub. Ce manuel vous guide dans le suivi et le test des applications.
 
-Pour pouvoir tester les fonctionnalités décrites dans ce manuel, vous devez disposer d’un terminal avec l’application Hub installée. Si vous avez un terminal mais que l’application Hub n’est pas encore installée, lisez [ici](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Hub%20App/Hub-App%20Installatie%20NL.md#installeren-van-de-android-app) comment l’installer.
+Pour pouvoir tester les fonctionnalités décrites dans ce manuel, vous devez disposer d’un terminal avec l’application Hub installée. Si vous avez un terminal mais que l’application Hub n’est pas encore installée, lisez [ici](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/App%20Hub/Hub-App%20installation%20FR.md#installation-de-lapplication-android) comment l’installer.
 
 ## Gestion des versions
 
