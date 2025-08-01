@@ -10,6 +10,7 @@ Ce document décrit l'installation et la configuration initiale de l'application
 
 ## Téléchargement de l'application pour Android & Windows
 Commencez par télécharger l'application. Pour les appareils Android, scannez le QR code ci-dessous. Pour la version Windows, utilisez ce lien : https://app.florisoft.nl/apps/latest/hub/windows/hub.zip
+
 <img src="Media/Installatie Hub-App/image1.png" width="500" height="500">
 
 *Le lien peut également être saisi manuellement dans un navigateur : https://app.florisoft.nl/apps/latest/hub/android/com.florisoft.hub-signed.apk*
