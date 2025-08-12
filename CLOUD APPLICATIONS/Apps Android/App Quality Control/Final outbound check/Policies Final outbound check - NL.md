@@ -1,15 +1,15 @@
 ![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
 
-# Handleiding – Final Inspection Policies (Quality Control App)
+# Handleiding – Final Outbound Check Policies (Quality Control App)
 
-Deze handleiding helpt u bij het configureren van de **Final Inspection-functionaliteit** in de Quality Control App.
+Deze handleiding helpt u bij het configureren van de **Final Outbound Check-functionaliteit** in de Quality Control App.
 Met behulp van policies kunt u bepalen hoe de eindcontrole plaatsvindt, welke acties gebruikers mogen uitvoeren en welke gegevens daarbij zichtbaar zijn.
 
 ---
 
-## Waar vindt u de Final Inspection-policies?
+## Waar vindt u de Final Outbound Check-policies?
 
-De policies voor Final Inspection configureert u via het **Policy Beheer** in het constantenscherm van de Backoffice.
+De policies voor Final Outbound Check configureert u via het **Policy Beheer** in het constantenscherm van de Backoffice.
 Volg onderstaande stappen om deze te benaderen:
 
 | Stap  | Uitleg                                                                                                                  |
@@ -24,7 +24,7 @@ Wilt u meer weten over het instellen en beheren van policies in het algemeen? Ra
 
 ## Overzicht van policies
 
-In dit hoofdstuk vindt u een overzicht van policies die specifiek betrekking hebben op Final Inspection.
+In dit hoofdstuk vindt u een overzicht van policies die specifiek betrekking hebben op Final Outbound Check.
 Per policy wordt uitgelegd wat de functie is, hoe deze geconfigureerd wordt en waar u op moet letten bij het gebruik.
 
 > ⚠️ De beschikbaarheid van sommige policies kan afhangen van de inrichting van uw omgeving. Niet alle policies zijn in elke situatie van toepassing.

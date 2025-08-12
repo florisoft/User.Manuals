@@ -15,6 +15,11 @@ Registrations can include photos, comments, quantities, and a reason. The app ca
 * [Policy Manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Exception%20Registration/Policies%20Exception%20Registration%20EN.md)
 * [Quickstart Manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Exception%20Registration/Quickstart%20Manual%20EN.md)
 
-## Final Outbound Check *(coming soon)*
+## Final Outbound Check 
 
-The Final Outbound Check is a final quality control step before shipment. This module will be added to this manual at a later stage.
+The Final Outbound Check App facilitates the verification of orders before they leave the warehouse. It makes the final inspection process more efficient, accurate, and fully digitally recorded.
+
+The app offers flexible barcode scanning and supports manual checks when needed. Optional follow-up actions such as registering packaging, taking photos, printing CMR documents, and capturing signatures are directly available.
+
+* [Policy Manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Exception%20Registration/Policies%20Exception%20Registration%20EN.md)
+* [Quickstart Manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Exception%20Registration/Quickstart%20Manual%20EN.md)

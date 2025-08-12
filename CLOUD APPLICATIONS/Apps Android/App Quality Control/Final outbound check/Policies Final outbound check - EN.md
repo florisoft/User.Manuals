@@ -1,15 +1,15 @@
 ![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
 
-# Manual – Final Inspection Policies (Quality Control App)
+# Manual – Final Outbound Check Policies (Quality Control App)
 
-This manual helps you configure the **Final Inspection** functionality in the Quality Control App.
+This manual helps you configure the **Final Outbound Check** functionality in the Quality Control App.
 With the help of policies, you can define how the final check is carried out, which actions users are allowed to perform, and which data is visible.
 
 ---
 
-## Where to find the Final Inspection policies
+## Where to find the Final Outbound Check policies
 
-You can configure the Final Inspection policies via **Policy Management** in the constants screen of the Backoffice.
+You can configure the Final Outbound Check policies via **Policy Management** in the constants screen of the Backoffice.
 Follow the steps below to access them:
 
 | Step  | Explanation                                                                                           |
@@ -24,7 +24,7 @@ For more general information on managing policies, consult the [Policy Managemen
 
 ## Overview of policies
 
-Below you will find an overview of policies specifically related to Final Inspection.
+Below you will find an overview of policies specifically related to Final Outbound Check.
 Each policy explains its purpose, how it is configured, and what to keep in mind when using it.
 
 > ⚠️ The availability of certain policies may depend on the configuration of your environment. Not all policies apply in every situation.
@@ -34,7 +34,7 @@ Each policy explains its purpose, how it is configured, and what to keep in mind
 ### `Apps_Logistics_QualityControl_FinalInspection_BarcodeDecodeOptions`
 
 **Description:**
-Determines which barcode types (e.g., Trolley barcode, Order item barcode, or FSQR) are recognized during final inspection. The 'decoder' is simply the piece of information placed into the barcode from the layout so the app knows how to interpret it.
+Determines which barcode types (e.g., Trolley barcode, Order item barcode, or FSQR) are recognized during final outbound check. The 'decoder' is simply the piece of information placed into the barcode from the layout so the app knows how to interpret it.
 
 **Usage:**
 
@@ -46,7 +46,7 @@ Determines which barcode types (e.g., Trolley barcode, Order item barcode, or FS
 ### `Apps_Logistics_QualityControl_FinalInspection_SignatureRequired`
 
 **Description:**
-Requires the user to provide a digital signature when completing the final inspection. This specifically applies to the CMR document.
+Requires the user to provide a digital signature when completing the final outbound check. This specifically applies to the CMR document.
 
 **Usage:**
 
@@ -58,7 +58,7 @@ Requires the user to provide a digital signature when completing the final inspe
 ### `Apps_Logistics_QualityControl_FinalInspection_FinalInspectionScanMethod`
 
 **Description:**
-Defines the default method for incrementing the checked amount during final inspection.
+Defines the default method for incrementing the checked amount during final outbound check.
 
 **Options:**
 
@@ -105,7 +105,7 @@ Allows the entire order to be completed with one action, even if not all items h
 ### `Apps_Logistics_QualityControl_FinalInspection_FinalInspectionDateFilter`
 
 **Description:**
-Filters the order overview in final inspection based on a date.
+Filters the order overview in final outbound check based on a date.
 
 **Options:**
 
