@@ -69,7 +69,7 @@ This **policy group** defines how stock and price **labels** are printed.
   - `StockLabelPrinterDescription`\
     ➞ The description appears in the app to help users identify the correct printer.
 
-> ℹ️ The **JobAgent** must be active for printing to work. If it is not running, no printers will appear and printing is disabled. See the [JobAgent guide](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Windows%20Job-Agent%20application) for installation and configuration.
+> ℹ️ The **JobAgent** must be active for printing to work. If it is not running, no printers will appear and printing is disabled. See the [JobAgent guide](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Windows/Job-Agent/Manual%20Job-Agent%20-%20EN.md) for installation and configuration.
 
 ---
 

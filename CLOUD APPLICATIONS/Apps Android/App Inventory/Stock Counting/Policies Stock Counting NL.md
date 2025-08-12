@@ -72,7 +72,7 @@ Deze **policy-groep** bepaalt hoe voorraad- en prijslabels worden afgedrukt.
   - `StockLabelPrinterDescription`\
     ➞ Deze omschrijving wordt weergegeven in de gebruikersinterface.
 
-> ℹ️ Voor het correct functioneren van deze policies is de **JobAgent** vereist. Indien deze niet actief is, worden printers niet weergegeven en is afdrukken niet mogelijk. Raadpleeg de [handleiding voor de JobAgent](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Windows%20Job-Agent%20application) voor installatie en configuratie-instructies.
+> ℹ️ Voor het correct functioneren van deze policies is de **JobAgent** vereist. Indien deze niet actief is, worden printers niet weergegeven en is afdrukken niet mogelijk. Raadpleeg de [handleiding voor de JobAgent](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Windows/Job-Agent/Handleiding%20Job-Agent%20-%20NL.md) voor installatie en configuratie-instructies.
 
 ---
 
