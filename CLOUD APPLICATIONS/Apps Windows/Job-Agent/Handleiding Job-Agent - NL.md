@@ -41,3 +41,4 @@ Volg de onderstaande stappen (in uw Florisoft backoffice) om de printers, printe
 |**4**|Sla de nieuwe groep op door op **Ok** te drukken.|
 |**5**|Navigeer nu naar **Systeem→Printen→Job agent printer**, open vervolgens een printer object en stel onder Printer Group in onder welke printergoep het valt.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/PrinterGroup/3.png"></details>|
 |**6**|Herhaal de laatste stap voor alle relevante printer voor de aangemaakte groep|
+|**7**|Stel bij de systeemgebruiker in welke printergroepen die beschikbaar moet hebben, op tabblad 'Instellingen 2'.|
