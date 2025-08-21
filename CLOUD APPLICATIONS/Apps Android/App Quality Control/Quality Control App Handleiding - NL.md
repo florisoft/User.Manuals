@@ -15,6 +15,11 @@ Registraties kunnen worden voorzien van foto's, opmerkingen, aantallen en een re
 * [Policy-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Exception%20Registration/Policies%20Exception%20Registration%20NL.md)
 * [Quickstart-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Exception%20Registration/Quickstart%20Handleiding%20NL.md)
 
-## Final Outbound Check *(binnenkort beschikbaar)*
+## Final Outbound Check
 
-De Final Outbound Check is een laatste kwaliteitscontrole voor verzending. Deze functie wordt later toegevoegd aan deze handleiding.
+De Final Outbound Check App ondersteunt het controleren van orders voordat deze het magazijn verlaten. Met deze app wordt het logistieke proces van de eindcontrole efficiënter, nauwkeuriger en volledig digitaal vastgelegd.
+
+De app biedt flexibiliteit in het scannen van barcodes en het uitvoeren van handmatige controles. Daarnaast zijn optionele vervolgacties zoals het registreren van fusten, het maken van foto’s, het afdrukken van CMR-documenten en het toevoegen van handtekeningen direct beschikbaar.
+
+* [Policy-handleiding](https://github.com/florisoft/User.Manuals/blob/9e655e4051b6395c62ce01c804df5bec90cf5c52/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Final%20outbound%20check/Policies%20Final%20outbound%20check%20-%20NL.md)
+* [Quickstart-handleiding]()

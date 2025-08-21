@@ -15,6 +15,8 @@ Allereerst moet u de app downloaden. Dit kan voor android apparaten via de onder
 
 *De link kan ook worden gebruikt, tik deze over in een van de beschikbare internet browsers: https://app.florisoft.nl/apps/latest/hub/android/com.florisoft.hub-signed.apk*
 
+### Trusted version
+
 Indien nodig kan u ook gebruik maken van de Trusted variant van de APK. 
 
 <img src="Media/Installatie Hub-App/QR Code Trusted.png" width="500" height="500">
