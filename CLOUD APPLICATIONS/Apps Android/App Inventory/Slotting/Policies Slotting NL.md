@@ -52,6 +52,42 @@ Geeft aan welk type partijnummer wordt weergegeven in de app. Enkel de **laatste
 
 Deze policies bepalen hoe de app omgaat met het toewijzen en verwerken van voorraadlocaties.
 
+### `PrintSettings`
+
+Deze **policy-groep** bepaalt hoe voorraad- en prijslabels worden afgedrukt.
+
+#### Instellingen
+
+* **Beschikbare printertypes:**
+
+  * `AvailablePrinters`: bepaalt welke printopties beschikbaar zijn binnen de applicatie.
+
+    * Mogelijke waarden:
+
+      * `PriceLabels`: alleen prijslabels
+      * `StockLabels`: alleen voorraadlabels
+      * `All`: beide opties beschikbaar
+
+* **Printers:**
+
+  * `PriceLabelPrinter`: printer voor prijslabels
+  * `StockLabelPrinter`: printer voor voorraadlabels
+
+* **Lay-outs:**
+
+  * `PriceLabelLayout`: lay-out voor prijslabels
+  * `StockLabelLayout`: lay-out voor voorraadlabels
+
+* **Omschrijving in de app:**
+
+  * `PriceLabelPrinterDescription`
+  * `StockLabelPrinterDescription`\
+    ➞ Deze omschrijving wordt weergegeven in de gebruikersinterface.
+
+> ℹ️ Voor het correct functioneren van deze policies is de **JobAgent** vereist. Indien deze niet actief is, worden printers niet weergegeven en is afdrukken niet mogelijk. Raadpleeg de [handleiding voor de JobAgent](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Windows/Job-Agent/Handleiding%20Job-Agent%20-%20NL.md) voor installatie en configuratie-instructies.
+
+---
+
 ### `AvailableStocks`
 
 Met deze policy geeft u aan welke voorraden gebruikt mogen worden voor Slotting.

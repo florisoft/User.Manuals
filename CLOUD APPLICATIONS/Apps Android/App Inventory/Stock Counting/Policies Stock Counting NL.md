@@ -56,20 +56,30 @@ Deze **policy-groep** bepaalt hoe voorraad- en prijslabels worden afgedrukt.
 
 #### Instellingen
 
-- **Printers:**
+* **Beschikbare printertypes:**
 
-  - `PriceLabelPrinter`: printer voor prijslabels
-  - `StockLabelPrinter`: printer voor voorraadlabels
+  * `AvailablePrinters`: bepaalt welke printopties beschikbaar zijn binnen de applicatie.
 
-- **Lay-outs:**
+    * Mogelijke waarden:
 
-  - `PriceLabelLayout`: lay-out voor prijslabels
-  - `StockLabelLayout`: lay-out voor voorraadlabels
+      * `PriceLabels`: alleen prijslabels
+      * `StockLabels`: alleen voorraadlabels
+      * `All`: beide opties beschikbaar
 
-- **Omschrijving in de app:**
+* **Printers:**
 
-  - `PriceLabelPrinterDescription`
-  - `StockLabelPrinterDescription`\
+  * `PriceLabelPrinter`: printer voor prijslabels
+  * `StockLabelPrinter`: printer voor voorraadlabels
+
+* **Lay-outs:**
+
+  * `PriceLabelLayout`: lay-out voor prijslabels
+  * `StockLabelLayout`: lay-out voor voorraadlabels
+
+* **Omschrijving in de app:**
+
+  * `PriceLabelPrinterDescription`
+  * `StockLabelPrinterDescription`\
     ➞ Deze omschrijving wordt weergegeven in de gebruikersinterface.
 
 > ℹ️ Voor het correct functioneren van deze policies is de **JobAgent** vereist. Indien deze niet actief is, worden printers niet weergegeven en is afdrukken niet mogelijk. Raadpleeg de [handleiding voor de JobAgent](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Windows/Job-Agent/Handleiding%20Job-Agent%20-%20NL.md) voor installatie en configuratie-instructies.

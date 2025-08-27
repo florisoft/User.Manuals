@@ -100,4 +100,15 @@ In the backoffice, you can check both the current and historical locations of a 
 
 ---
 
+## Optional steps:
+### Print Labels
+
+In this screen, you can print stock or price labels. The available layouts and printers are preconfigured.
+
+Click the print template, enter the desired quantity, and click **Print**. You can choose between stock labels or price labels depending on the selected template.
+
+<details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/8.png"></details>
+
+---
+
 This manual is based on the current version of the Inventory App and may be updated periodically with new features or policy adjustments.

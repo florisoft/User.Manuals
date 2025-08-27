@@ -52,6 +52,39 @@ Determines which type of parcel number is displayed in the app. Only the **last 
 
 These policies determine how the app assigns and processes stock locations.
 
+### `PrintSettings`
+
+This **policy group** defines how stock and price labels are printed.
+
+#### Settings
+
+- **Available printer types:**
+
+  - `AvailablePrinters`: defines which print options are available in the application.
+    - Possible values:
+      - `PriceLabels`: price labels only
+      - `StockLabels`: stock labels only
+      - `All`: both options available
+
+- **Printers:**
+
+  - `PriceLabelPrinter`: printer for price labels  
+  - `StockLabelPrinter`: printer for stock labels
+
+- **Layouts:**
+
+  - `PriceLabelLayout`: layout for price labels  
+  - `StockLabelLayout`: layout for stock labels
+
+- **Description in the app:**
+  - `PriceLabelPrinterDescription`
+  - `StockLabelPrinterDescription`\
+    ➞ The description appears in the app to help users identify the correct printer.
+
+> ℹ️ The **JobAgent** must be active for printing to work. If it is not running, no printers will appear and printing is disabled. See the [JobAgent guide](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Windows/Job-Agent/Manual%20Job-Agent%20-%20EN.md) for installation and configuration.
+
+---
+
 ### `AvailableStocks`
 
 This policy defines which stocks can be used for Slotting.

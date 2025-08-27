@@ -102,4 +102,15 @@ In de backoffice kunt u de huidige en historische locatie van een partij bekijke
 
 ---
 
+## Optionele stappen:
+### Stickers printen
+
+In het detailscherm kunt u voorraad- of prijsstickers printen. De beschikbare lay-outs en printers zijn vooraf ingesteld.
+
+Klik op het printsjabloon, geef het gewenste aantal labels op en klik op **Print**. U kunt zowel voorraad labels als prijssticker labels selecteren, afhankelijk van het gekozen sjabloon.
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/8.png"></details>
+
+---
+
 Deze handleiding is gebaseerd op de actuele versie van de Inventory App en kan periodiek worden bijgewerkt met nieuwe functionaliteit of aangepaste policies.

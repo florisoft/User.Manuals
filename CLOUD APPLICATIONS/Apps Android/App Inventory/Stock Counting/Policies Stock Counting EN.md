@@ -52,19 +52,29 @@ These policies are available to all clients and allow the Stock Counting functio
 
 ### `PrintSettings`
 
-This **policy group** defines how stock and price **labels** are printed.
+This **policy group** defines how stock and price labels are printed.
 
-#### Configuration options
+#### Settings
+
+- **Available printer types:**
+
+  - `AvailablePrinters`: defines which print options are available in the application.
+    - Possible values:
+      - `PriceLabels`: price labels only
+      - `StockLabels`: stock labels only
+      - `All`: both options available
 
 - **Printers:**
-  - `PriceLabelPrinter`: printer for price labels
+
+  - `PriceLabelPrinter`: printer for price labels  
   - `StockLabelPrinter`: printer for stock labels
 
 - **Layouts:**
-  - `PriceLabelLayout`: layout for price labels
+
+  - `PriceLabelLayout`: layout for price labels  
   - `StockLabelLayout`: layout for stock labels
 
-- **Label descriptions in the app:**
+- **Description in the app:**
   - `PriceLabelPrinterDescription`
   - `StockLabelPrinterDescription`\
     ➞ The description appears in the app to help users identify the correct printer.
