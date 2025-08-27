@@ -1,6 +1,4 @@
-![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
-
-📘 Available in: [English version]()
+📘 Available in: [English version](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/README_EN.md)
 
 # Introductie Florisoft Apps
 
