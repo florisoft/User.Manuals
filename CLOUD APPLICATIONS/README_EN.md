@@ -24,6 +24,16 @@ Check the current changelogs here:
 * **Florisoft Apps** – Information about updates per app, including additions and bug fixes:  
   🔗 [Changelog Apps](https://app.florisoft.nl/apps/latest/changelog.html)
 
+  Here’s the English translation of that section:
+
+## Policy Usage
+
+All settings within the Florisoft Apps are centrally managed through policies in the backoffice. This ensures a uniform and manageable configuration of the apps, tailored to the specific workflows of your organization. Policy scenarios play a crucial role here: they determine how the app behaves in different contexts.
+
+More information about setting up and managing policies can be found in the manual:
+[Policy Management Manual](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Manual%20Policy%20Management%20EN.md)
+
+
 ## Printing Functionality and Job Agent
 
 For printing documents via Florisoft Apps, a separate component is required: the **Job Agent**. This ensures that print jobs from the apps are correctly forwarded to the linked printers within your network.

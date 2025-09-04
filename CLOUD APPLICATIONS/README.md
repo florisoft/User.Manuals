@@ -21,10 +21,17 @@ Florisoft houdt een changelog bij waarin alle wijzigingen overzichtelijk worden 
 Bekijk hier de actuele changelogs:
 
 * **Cloudserver (.NET)** – Wijzigingen in de cloudkoppeling en technische infrastructuur:
-  🔗 [Changelog Cloudserver (.NET)](https://www.florisoft.nl/changelog/Changelog_Florisoft_dotnet.html)
+   [Changelog Cloudserver (.NET)](https://www.florisoft.nl/changelog/Changelog_Florisoft_dotnet.html)
 
 * **Florisoft Apps** – Informatie over updates per app, inclusief toevoegingen en bugfixes:
-  🔗 [Changelog Apps](https://app.florisoft.nl/apps/latest/changelog.html)
+   [Changelog Apps](https://app.florisoft.nl/apps/latest/changelog.html)
+
+## Policygebruik
+
+Alle instellingen binnen de Florisoft Apps worden centraal geregeld via policies in de backoffice. Dit zorgt voor een uniforme en beheersbare inrichting van de apps, afgestemd op de specifieke werkwijze van jouw organisatie. Policy-situaties spelen hierbij een cruciale rol: zij bepalen hoe de app zich gedraagt in verschillende contexten.
+
+Meer informatie over het inrichten en beheren van policies is te vinden in de handleiding: [Handleiding Policy Management](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Handleiding%20Policy%20Management%20NL.md)
+
 
 ## Printfunctionaliteit en Job Agent
 
