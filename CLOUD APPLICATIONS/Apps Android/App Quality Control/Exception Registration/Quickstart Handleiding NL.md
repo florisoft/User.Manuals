@@ -83,6 +83,8 @@ Na het scannen van een geldige barcode verschijnt het registratieformulier. U do
     > ℹ️ Indien **Verdeelcontrole** niet zichtbaar is in het navigatiemenu, kan deze worden toegevoegd via de ontwerpmodus (F12).
     
 - U krijgt een overzicht van alle geregistreerde excepties, inclusief debiteur, artikelnummer, omschrijving, reden en aanvullende opmerkingen.
+
+    > ℹ️ Als u na het registreren van een exceptie géén regels ziet in de verdeelcontrole, controleer dan de gebruikersinstelling (Inifiles) FS_KASSA - Kassa_Id. Wanneer deze leeg is, worden er geen regels weergegeven.
     
 - Toegevoegde foto's zijn zichtbaar via de rechtermuisknop of door het indrukken van **F5**. Via het contextmenu kunnen meerdere foto's worden ingezien als er meer dan één gekoppeld is.
     
