@@ -84,6 +84,8 @@ After scanning a valid barcode, the registration form appears. Follow these step
 
 - You will see an overview of all registered exceptions, including debtor, article number, description, reason, and comments.
 
+  > ℹ️ If you do not see any parcels in the divsion control after registering an exception, check the user setting (Inifiles) FS_KASSA - Kassa_Id. If this is empty, no parcels will be displayed.
+
 - Attached photos are visible via right-click or by pressing **F5**. If multiple photos are attached, use the context menu to browse them.
 
 #### Button overview (right side of screen)
