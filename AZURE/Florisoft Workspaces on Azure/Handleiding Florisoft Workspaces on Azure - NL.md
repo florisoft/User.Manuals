@@ -10,8 +10,8 @@ Met deze workspaces kunt u lokale bestanden gebruiken binnen uw Florisoft Azure 
 Om deze handleiding te volgen, heeft u het volgende nodig:
 
 - **Florisoft Remote App**: Uw Florisoft-omgeving moet draaien op een Azure Remote App.
-- **Windows Hub-app**: Deze dient geïnstalleerd te zijn. De installatie-instructies vindt u [hier](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Hub%20App/Hub-App%20Installatie%20NL.md#installeren-van-de-windows-app).
-- **Job-Agent**: Een correct gekoppelde Job-Agent-app die verbonden is met uw cloudserver, hoe dat opzet leest u [hier](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Windows%20Job-Agent%20application/Handleiding%20Job-Agent%20-%20NL.md).
+- **Windows Hub-app**: Deze dient geïnstalleerd te zijn. De installatie-instructies vindt u [hier](https://github.com/florisoft/User.Manuals/blob/3e3b814b26891603a57718ec4e8704d4b339e493/CLOUD%20APPLICATIONS/App%20Hub/Hub-App%20Installatie%20NL.md#L4).
+- **Job-Agent**: Een correct gekoppelde Job-Agent-app die verbonden is met uw cloudserver, hoe dat opzet leest u [hier](https://github.com/florisoft/User.Manuals/blob/3e3b814b26891603a57718ec4e8704d4b339e493/CLOUD%20APPLICATIONS/Apps%20Windows/Job-Agent/Handleiding%20Job-Agent%20-%20NL.md).
 
 ## Inloggen op de Hub-app
 
