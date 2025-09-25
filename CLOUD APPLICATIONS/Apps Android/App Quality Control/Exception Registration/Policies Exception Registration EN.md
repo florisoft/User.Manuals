@@ -31,7 +31,7 @@ Each policy explains its purpose, how to configure it, and any important usage n
 
 ---
 
-### `Apps_Logistics_QualityControl_SetExceptionReasons`
+### `SetExceptionReasons`
 
 This policy enables the use of reason registration in the Exception Registration app.
 Providing a reason is always mandatory when logging an exception. Reasons are managed in the **Credit Reasons** table: **Financial → Credit Reason**.
@@ -47,12 +47,25 @@ Providing a reason is always mandatory when logging an exception. Reasons are ma
 
 ---
 
-### `Apps_Logistics_QualityControl_ExceptionRegistration_BarcodeDecodeOptions`
+### `BarcodeDecodeOptions`
 
 This policy defines which barcode formats are supported when scanning during exception registration.
 Select the decoding types that apply to your operation.
 
 * Multiple barcode formats can be selected.
 * Ensure scanner compatibility with the selected options.
+
+---
+
+### `OrderItemQuantityDisplayType`  
+Determines how the order quantity is displayed in the app.  
+
+Available options:
+
+* **Colli × content + remainder (default)**  
+  Displays the number of colli with their content plus any remaining single stems.
+
+* **Stems**  
+  Displays the total number of individual stems.
 
 ---

@@ -31,7 +31,7 @@ Per policy wordt uitgelegd wat de functie is, hoe deze geconfigureerd wordt en w
 
 ---
 
-### `Apps_Logistics_QualityControl_SetExceptionReasons`
+### `SetExceptionReasons`
 
 Met deze policy stelt u het gebruik van redenregistratie in voor Exception Registration.
 Een reden is altijd verplicht bij het registreren van een afwijking. De beschikbare redenen komen uit de tabel **Credit Redenen**, te beheren via: **Financieel → Credit Reden**.
@@ -47,11 +47,24 @@ Om een reden aan te maken:
 
 ---
 
-### `Apps_Logistics_QualityControl_ExceptionRegistration_BarcodeDecodeOptions`
+### `BarcodeDecodeOptions`
 
 Met deze policy bepaalt u welke barcodeformaten worden ondersteund bij het scannen van orders tijdens exception registratie. Selecteer hier de decoderingstypen die in uw organisatie gebruikt worden.
 
 * Meerdere barcodeformaten kunnen tegelijkertijd worden geselecteerd.
 * Let op dat de gebruikte scanners compatibel zijn met de gekozen instellingen.
+
+---
+
+### `OrderItemQuantityDisplayType`  
+Bepaalt hoe het aantal van de order wordt weergegeven in de app.  
+
+Beschikbare opties:
+
+* **Colli × inhoud + restant (standaard)**  
+  Toont het aantal colli met hun inhoud plus eventuele losse stelen die overblijven.
+
+* **Stelen**  
+  Toont het totaal aantal stelen.
 
 ---
