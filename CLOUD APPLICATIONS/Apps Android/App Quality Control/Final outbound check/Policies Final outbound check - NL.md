@@ -31,46 +31,79 @@ Per policy wordt uitgelegd wat de functie is, hoe deze geconfigureerd wordt en w
 
 ---
 
-### `BarcodeDecodeOptions`
+### `Overview`
+De **policy-groep** `Overview` bestaat uit instellingen waarmee u bepaalt welke orders zichtbaar zijn op de Order Overview-pagina in de app.
 
-**Beschrijving:**
+#### `ShowHubs`
+Bepaalt of orders gegroepeerd worden op hub niveau in de selectielijst bij het kiezen van een order.
+
+#### `ShowWarningIfIncomplete`
+Toont een waarschuwing wanneer de inspectie niet compleet is. Dit kan handig zijn omdat het voorkomt dat een order of proces wordt afgerond zonder dat alle verplichte controles zijn uitgevoerd.  
+
+#### `ScopeDateFilter`
+Filtert het orderoverzicht in de eindcontrole op basis van een datum.
+
+**Opties:**
+* Orderdatum
+* Vertrekdatum
+* Leveringsdatum
+* Besteldatum
+
+#### `ScopeDateFromDays`
+Bepaal het aantal dagen die de 'van'-datum van een datumbereik vormt (t.o.v vandaag) voor het ophalen van de op te bouwen orders voor het orderoverzicht.
+
+#### `ScopeDateToDays`
+Bepaal het aantal dagen die de 'tot'-datum van een datumbereik vormt (t.o.v vandaag) voor het ophalen van de op te bouwen orders voor het orderoverzicht.
+
+---
+### `Addons`
+De **policy-groep** `addons` bestaat uit instellingen waarmee u bepaalt welke addons gebruikt kunnen worden in de app.
+
+### `EnableAddons`  
+Met deze policy kun je extra add-ons inschakelen die extra functionaliteit aan de app toevoegen.  
+
+**Opties:**
+
+* **Foto's**  
+  Maakt het mogelijk om een foto aan een order toe te voegen.  
+  Dit is handig om bijvoorbeeld een foto van de ladingdrager te maken, zodat later kan worden gecontroleerd of een product daadwerkelijk is meegestuurd.
+
+* **ExceptionRegistration**  
+  Integreert met de ExceptionRegistration-functionaliteit, waarmee gebreken of afwijkingen aan een orderitem geregistreerd kunnen worden.  
+  Dit helpt bij het vastleggen van problemen voor opvolging.
+
+
+---
+
+### `BarcodeDecodeOptions`
 Bepaalt welke barcodetypen (bijvoorbeeld Trolleybarcode, Orderitembarcode of FSQR) tijdens de eindcontrole worden herkend. De 'decoder' is simpel gezegd het stukje informatie dat vanuit de lay-out in de barcode wordt gezet, zodat de app weet hoe de barcode gelezen moet worden.
 
 **Gebruik:**
-
 * Kies alleen de barcodetypen die in uw proces voorkomen voor snellere en efficiëntere scans.
 * Meerdere typen kunnen tegelijk geselecteerd worden.
 
 ---
 
-### `SignatureRequired`
-
-**Beschrijving:**
+### `RequireSignature`
 Stelt verplicht dat de gebruiker een digitale handtekening plaatst bij het afronden van de eindcontrole. Dit geldt specifiek voor het CMR-document.
 
 **Gebruik:**
-
 * Zonder handtekening kan de order niet worden afgesloten.
 * Verhoogt de juridische geldigheid en traceerbaarheid van het proces.
 
 ---
 
-### `FinalInspectionScanMethod`
-
-**Beschrijving:**
+### `CountingStrategy`
 Definieert de standaardmethode voor het ophogen van het gecontroleerde aantal tijdens de eindcontrole.
 
 **Opties:**
-
 * Scan telt direct volledige item.
 * Scan telt op kolli aantal
 * Scan telt op waarde in barcode
 
 ---
 
-### `AllowedToResetOrderItem`
-
-**Beschrijving:**
+### `AllowResetOrderItem`
 Geeft aan of de telling van een specifieke orderregel kan worden teruggezet naar nul.
 
 **Gebruik:**
@@ -80,9 +113,7 @@ Geeft aan of de telling van een specifieke orderregel kan worden teruggezet naar
 
 ---
 
-### `AllowedToResetEntireTarget`
-
-**Beschrijving:**
+### `AllowResetEntireTarget`
 Bepaalt of de volledige controle in één keer kan worden gereset.
 
 **Gebruik:**
@@ -91,9 +122,7 @@ Bepaalt of de volledige controle in één keer kan worden gereset.
 
 ---
 
-### `AllowedToCompleteEntireTarget`
-
-**Beschrijving:**
+### `AllowCompleteEntireTarget`
 Staat toe om een hele order met één actie af te ronden, ook als niet alle items afzonderlijk zijn gecontroleerd.
 
 **Gebruik:**
@@ -102,30 +131,10 @@ Staat toe om een hele order met één actie af te ronden, ook als niet alle item
 
 ---
 
-### `FinalInspectionDateFilter`
-
-**Beschrijving:**
-Filtert het orderoverzicht in de eindcontrole op basis van een datum.&#x20;
-
-**Opties:**
-
-* Besteldatum
-* Vertrekdatum
-* Leveringsdatum
-
----
-
-### `ShowHubsInSelectionList`
-
-**Beschrijving:**
-Bepaalt of orders gegroepeerd worden op hub niveau in de selectielijst bij het kiezen van een order.
-
----
-
 ### `OrderItemQuantityDisplayType`  
 Bepaalt hoe het aantal van de order wordt weergegeven in de app.  
 
-Beschikbare opties:
+**Opties:**
 
 * **Colli × inhoud + restant (standaard)**  
   Toont het aantal colli met hun inhoud plus eventuele losse stelen die overblijven.

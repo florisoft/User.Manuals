@@ -22,115 +22,121 @@ For more general information on managing policies, consult the [Policy Managemen
 
 ---
 
-## Overview of policies
+## Overview of Policies
 
-Below you will find an overview of policies specifically related to Final Outbound Check.
-Each policy explains its purpose, how it is configured, and what to keep in mind when using it.
+This chapter provides an overview of policies that specifically apply to Final Outbound Check.  
+Each policy explains its function, how it is configured, and what to keep in mind when using it.
 
-> ⚠️ The availability of certain policies may depend on the configuration of your environment. Not all policies apply in every situation.
+> ⚠️ The availability of certain policies may depend on the configuration of your environment. Not all policies are applicable in every situation.
+
+---
+
+### `Overview`
+The **policy group** `Overview` contains settings that determine which orders are visible on the **Order Overview** page in the app.
+
+#### `ShowHubs`
+Specifies whether orders are grouped by hub in the selection list when choosing an order.
+
+#### `ShowWarningIfIncomplete`
+Displays a warning when the inspection is not complete.  
+This is useful because it prevents an order or process from being completed without all required checks having been performed.
+
+#### `ScopeDateFilter`
+Filters the order overview in the final check based on a specific date.
+
+**Options:**
+* Order date  
+* Departure date  
+* Delivery date  
+* Purchase date  
+
+#### `ScopeDateFromDays`
+Defines the number of days (relative to today) that forms the *from* date of a date range for retrieving orders to be included in the order overview.
+
+#### `ScopeDateToDays`
+Defines the number of days (relative to today) that forms the *to* date of a date range for retrieving orders to be included in the order overview.
+
+---
+
+### `Addons`
+The **policy group** `Addons` contains settings that determine which add-ons can be used in the app.
+
+#### `EnableAddons`
+Allows you to enable additional add-ons that add extra functionality to the app.
+
+**Options:**
+
+* **Photos**  
+  Allows adding a photo to an order.  
+  Useful for taking a picture of the load carrier to verify later whether a product was actually shipped.
+
+* **ExceptionRegistration**  
+  Integrates with the ExceptionRegistration functionality, enabling the registration of defects or discrepancies on an order item.  
+  This helps document issues for follow-up and quality control.
 
 ---
 
 ### `BarcodeDecodeOptions`
-
-**Description:**
-Determines which barcode types (e.g., Trolley barcode, Order item barcode, or FSQR) are recognized during final outbound check. The 'decoder' is simply the piece of information placed into the barcode from the layout so the app knows how to interpret it.
+Determines which barcode types (for example Trolley barcode, Order item barcode, or FSQR) are recognized during the final check.  
+The *decoder* is the piece of information encoded in the barcode layout, allowing the app to know how to read the barcode.
 
 **Usage:**
-
-* Select only the barcode types relevant to your process for faster and more efficient scanning.
+* Select only the barcode types used in your process for faster and more efficient scanning.
 * Multiple types can be selected simultaneously.
 
 ---
 
-### `SignatureRequired`
-
-**Description:**
-Requires the user to provide a digital signature when completing the final outbound check. This specifically applies to the CMR document.
+### `RequireSignature`
+Requires the user to provide a digital signature when completing the final check.  
+This applies specifically to the CMR document.
 
 **Usage:**
-
 * Without a signature, the order cannot be closed.
-* Increases legal validity and traceability of the process.
+* Increases the legal validity and traceability of the process.
 
 ---
 
-### `FinalInspectionScanMethod`
-
-**Description:**
-Defines the default method for incrementing the checked amount during final outbound check.
+### `CountingStrategy`
+Defines the default method for incrementing the checked quantity during the final check.
 
 **Options:**
-
-* Scan counts as a full item.
-* Scan counts by kolli amount.
-* Scan counts by value in barcode.
+* Scan counts the entire item directly.
+* Scan counts based on the number of colli.
+* Scan counts based on the value embedded in the barcode.
 
 ---
 
-### `AllowedToResetOrderItem`
-
-**Description:**
-Specifies whether the count of a specific order item can be reset to zero.
+### `AllowResetOrderItem`
+Specifies whether the count of a specific order line can be reset to zero.
 
 **Usage:**
-
-* Useful in case of scanning errors.
-* Provides flexibility for re-checking individual items.
+* Useful for correcting mistakes made during scanning.
+* Provides flexibility to recheck individual items.
 
 ---
 
-### `AllowedToResetEntireTarget`
-
-**Description:**
-Determines whether the entire check can be reset at once.
+### `AllowResetEntireTarget`
+Specifies whether the entire check can be reset at once.
 
 **Usage:**
-
-* Useful in case of major errors or when performing a full re-check.
+* Helpful in the event of major errors or when a complete recheck is required.
 
 ---
 
-### `AllowedToCompleteEntireTarget`
-
-**Description:**
-Allows the entire order to be completed with one action, even if not all items have been checked individually.
+### `AllowCompleteEntireTarget`
+Allows an entire order to be completed in one action, even if not all items have been checked individually.
 
 **Usage:**
-
-* Useful in exceptional cases or to speed up processes.
+* Useful for exceptional situations or to speed up processes.
 
 ---
 
-### `FinalInspectionDateFilter`
-
-**Description:**
-Filters the order overview in final outbound check based on a date.
+### `OrderItemQuantityDisplayType`
+Determines how the order quantity is displayed in the app.
 
 **Options:**
-
-* Order date
-* Departure date
-* Delivery date
-
----
-
-### `ShowHubsInSelectionList`
-
-**Description:**
-Determines whether orders are grouped at hub level in the selection list when choosing an order.
-
----
-
-### `OrderItemQuantityDisplayType`  
-Determines how the order quantity is displayed in the app.  
-
-Available options:
-
 * **Colli × content + remainder (default)**  
   Displays the number of colli with their content plus any remaining single stems.
 
 * **Stems**  
   Displays the total number of individual stems.
-
----
