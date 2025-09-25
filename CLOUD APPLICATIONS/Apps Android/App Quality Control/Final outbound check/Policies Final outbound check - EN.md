@@ -31,7 +31,7 @@ Each policy explains its purpose, how it is configured, and what to keep in mind
 
 ---
 
-### `Apps_Logistics_QualityControl_FinalInspection_BarcodeDecodeOptions`
+### `BarcodeDecodeOptions`
 
 **Description:**
 Determines which barcode types (e.g., Trolley barcode, Order item barcode, or FSQR) are recognized during final outbound check. The 'decoder' is simply the piece of information placed into the barcode from the layout so the app knows how to interpret it.
@@ -43,7 +43,7 @@ Determines which barcode types (e.g., Trolley barcode, Order item barcode, or FS
 
 ---
 
-### `Apps_Logistics_QualityControl_FinalInspection_SignatureRequired`
+### `SignatureRequired`
 
 **Description:**
 Requires the user to provide a digital signature when completing the final outbound check. This specifically applies to the CMR document.
@@ -55,7 +55,7 @@ Requires the user to provide a digital signature when completing the final outbo
 
 ---
 
-### `Apps_Logistics_QualityControl_FinalInspection_FinalInspectionScanMethod`
+### `FinalInspectionScanMethod`
 
 **Description:**
 Defines the default method for incrementing the checked amount during final outbound check.
@@ -68,7 +68,7 @@ Defines the default method for incrementing the checked amount during final outb
 
 ---
 
-### `Apps_Logistics_QualityControl_FinalInspection_AllowedToResetOrderItem`
+### `AllowedToResetOrderItem`
 
 **Description:**
 Specifies whether the count of a specific order item can be reset to zero.
@@ -80,7 +80,7 @@ Specifies whether the count of a specific order item can be reset to zero.
 
 ---
 
-### `Apps_Logistics_QualityControl_FinalInspection_AllowedToResetEntireTarget`
+### `AllowedToResetEntireTarget`
 
 **Description:**
 Determines whether the entire check can be reset at once.
@@ -91,7 +91,7 @@ Determines whether the entire check can be reset at once.
 
 ---
 
-### `Apps_Logistics_QualityControl_FinalInspection_AllowedToCompleteEntireTarget`
+### `AllowedToCompleteEntireTarget`
 
 **Description:**
 Allows the entire order to be completed with one action, even if not all items have been checked individually.
@@ -102,7 +102,7 @@ Allows the entire order to be completed with one action, even if not all items h
 
 ---
 
-### `Apps_Logistics_QualityControl_FinalInspection_FinalInspectionDateFilter`
+### `FinalInspectionDateFilter`
 
 **Description:**
 Filters the order overview in final outbound check based on a date.
@@ -115,9 +115,22 @@ Filters the order overview in final outbound check based on a date.
 
 ---
 
-### `Apps_Logistics_QualityControl_FinalInspection_ShowHubsInSelectionList`
+### `ShowHubsInSelectionList`
 
 **Description:**
 Determines whether orders are grouped at hub level in the selection list when choosing an order.
+
+---
+
+### `OrderItemQuantityDisplayType`  
+Determines how the order quantity is displayed in the app.  
+
+Available options:
+
+* **Colli × content + remainder (default)**  
+  Displays the number of colli with their content plus any remaining single stems.
+
+* **Stems**  
+  Displays the total number of individual stems.
 
 ---

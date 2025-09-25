@@ -31,7 +31,7 @@ Per policy wordt uitgelegd wat de functie is, hoe deze geconfigureerd wordt en w
 
 ---
 
-### `Apps_Logistics_QualityControl_FinalInspection_BarcodeDecodeOptions`
+### `BarcodeDecodeOptions`
 
 **Beschrijving:**
 Bepaalt welke barcodetypen (bijvoorbeeld Trolleybarcode, Orderitembarcode of FSQR) tijdens de eindcontrole worden herkend. De 'decoder' is simpel gezegd het stukje informatie dat vanuit de lay-out in de barcode wordt gezet, zodat de app weet hoe de barcode gelezen moet worden.
@@ -43,7 +43,7 @@ Bepaalt welke barcodetypen (bijvoorbeeld Trolleybarcode, Orderitembarcode of FSQ
 
 ---
 
-### `Apps_Logistics_QualityControl_FinalInspection_SignatureRequired`
+### `SignatureRequired`
 
 **Beschrijving:**
 Stelt verplicht dat de gebruiker een digitale handtekening plaatst bij het afronden van de eindcontrole. Dit geldt specifiek voor het CMR-document.
@@ -55,7 +55,7 @@ Stelt verplicht dat de gebruiker een digitale handtekening plaatst bij het afron
 
 ---
 
-### `Apps_Logistics_QualityControl_FinalInspection_FinalInspectionScanMethod`
+### `FinalInspectionScanMethod`
 
 **Beschrijving:**
 Definieert de standaardmethode voor het ophogen van het gecontroleerde aantal tijdens de eindcontrole.
@@ -68,7 +68,7 @@ Definieert de standaardmethode voor het ophogen van het gecontroleerde aantal ti
 
 ---
 
-### `Apps_Logistics_QualityControl_FinalInspection_AllowedToResetOrderItem`
+### `AllowedToResetOrderItem`
 
 **Beschrijving:**
 Geeft aan of de telling van een specifieke orderregel kan worden teruggezet naar nul.
@@ -80,7 +80,7 @@ Geeft aan of de telling van een specifieke orderregel kan worden teruggezet naar
 
 ---
 
-### `Apps_Logistics_QualityControl_FinalInspection_AllowedToResetEntireTarget`
+### `AllowedToResetEntireTarget`
 
 **Beschrijving:**
 Bepaalt of de volledige controle in één keer kan worden gereset.
@@ -91,7 +91,7 @@ Bepaalt of de volledige controle in één keer kan worden gereset.
 
 ---
 
-### `Apps_Logistics_QualityControl_FinalInspection_AllowedToCompleteEntireTarget`
+### `AllowedToCompleteEntireTarget`
 
 **Beschrijving:**
 Staat toe om een hele order met één actie af te ronden, ook als niet alle items afzonderlijk zijn gecontroleerd.
@@ -102,7 +102,7 @@ Staat toe om een hele order met één actie af te ronden, ook als niet alle item
 
 ---
 
-### `Apps_Logistics_QualityControl_FinalInspection_FinalInspectionDateFilter`
+### `FinalInspectionDateFilter`
 
 **Beschrijving:**
 Filtert het orderoverzicht in de eindcontrole op basis van een datum.&#x20;
@@ -115,9 +115,22 @@ Filtert het orderoverzicht in de eindcontrole op basis van een datum.&#x20;
 
 ---
 
-### `Apps_Logistics_QualityControl_FinalInspection_ShowHubsInSelectionList`
+### `ShowHubsInSelectionList`
 
 **Beschrijving:**
 Bepaalt of orders gegroepeerd worden op hub niveau in de selectielijst bij het kiezen van een order.
+
+---
+
+### `OrderItemQuantityDisplayType`  
+Bepaalt hoe het aantal van de order wordt weergegeven in de app.  
+
+Beschikbare opties:
+
+* **Colli × inhoud + restant (standaard)**  
+  Toont het aantal colli met hun inhoud plus eventuele losse stelen die overblijven.
+
+* **Stelen**  
+  Toont het totaal aantal stelen.
 
 ---
