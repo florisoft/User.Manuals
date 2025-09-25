@@ -48,6 +48,19 @@ Determines which type of parcel number is displayed in the app. Only the **last 
 
 ---
 
+### `ToPickQuantityDisplay`  
+Determines how the quantity to pick is displayed in the app.  
+
+Available options:
+
+* **Colli × content + remainder (default)**  
+  Displays the number of colli with their content plus any remaining single stems.
+
+* **Stems**  
+  Displays the total number of individual stems.
+
+---
+
 ### Location handling settings
 
 These policies determine how the app assigns and processes stock locations.
@@ -113,6 +126,35 @@ When this policy is enabled, an additional button is added to the hamburger menu
     ℹ️ This functionality is only available after a location code has been scanned. When scanning a parcel, the button is not shown and it is therefore not possible to remove items from a location using this method.
 
 ---
+
+### `LocationDisplayType`  
+Determines how the location is displayed in the app.  
+
+This policy works in combination with `CheckPredefinedLocationCodes`.  
+When this policy is enabled, the location is checked against the **Parcel Locations** table.  
+With `LocationDisplayType` you can specify whether the **code** or the **description** of the location is shown.  
+
+Available options:
+
+* **Location code (default)**  
+  Displays only the location code.
+
+* **Location description**  
+  Displays only the location description.
+
+---
+
+### `StockItemQuantityDisplay`  
+Determines how the parcel quantity is displayed in the app.  
+
+Available options:
+
+* **Colli × content + remainder (default)**  
+  Displays the number of colli with their content plus any remaining single stems.
+
+* **Stems**  
+  Displays the total number of individual stems.
+
 
 ## Settings Outside of Policies
 

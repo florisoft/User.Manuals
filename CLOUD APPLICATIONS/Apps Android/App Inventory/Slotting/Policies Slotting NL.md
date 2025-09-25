@@ -48,6 +48,18 @@ Geeft aan welk type partijnummer wordt weergegeven in de app. Enkel de **laatste
 
 ---
 
+### `ToPickQuantityDisplay`  
+Bepaalt hoe het te picken aantal wordt weergegeven in de app.  
+
+Beschikbare opties:
+
+* **Colli × inhoud + restant (standaard)**  
+  Toont het aantal colli met hun inhoud plus eventuele losse stelen die overblijven.
+
+* **Stelen**  
+  Toont het totaal aantal stelen.
+---
+
 ### Instellingen voor locatiebeheer
 
 Deze policies bepalen hoe de app omgaat met het toewijzen en verwerken van voorraadlocaties.
@@ -116,6 +128,35 @@ Wanneer deze policy is ingeschakeld, wordt er in het hamburger-menu een extra kn
     ℹ️ Deze functionaliteit is alleen beschikbaar nadat een locatiecode is gescand. Bij het scannen van een partij wordt de knop niet getoond en is het dus niet mogelijk om via deze route partijen van een locatie te verwijderen.
 
 ---
+
+### `LocationDisplayType`  
+Bepaalt hoe de locatie wordt weergegeven in de app.  
+
+Deze policy werkt in combinatie met `CheckPredefinedLocationCodes`.  
+Als deze policy is ingeschakeld, wordt gecontroleerd of de locatie voorkomt in de **Partij Locatie**-tabel.  
+Met `LocationDisplayType` kan worden ingesteld of de **code** of de **omschrijving** van de locatie wordt getoond.  
+
+Beschikbare opties:
+
+* **Locatie code (standaard)**  
+  Toont alleen de locatiecode.
+
+* **Locatie omschrijving**  
+  Toont alleen de locatieomschrijving.
+
+---
+
+### `StockItemQuantityDisplay`  
+Bepaalt hoe het aantal van de partij wordt weergegeven in de app.  
+
+Beschikbare opties:
+
+* **Colli × inhoud + restant (standaard)**  
+  Toont het aantal colli met hun inhoud plus eventuele losse stelen die overblijven.
+
+* **Stelen**  
+  Toont het totaal aantal stelen.
+
 
 ## Instellingen buiten policies om
 Niet alle instellingen zijn momenteel opgenomen in de policies groepen voor Slotting. Sommige instellingen bevinden zich nog in het systeem zelf en zijn van minder strategisch belang, maar verdienen toch aandacht vanwege hun invloed op het gedrag van het slottingproces.
