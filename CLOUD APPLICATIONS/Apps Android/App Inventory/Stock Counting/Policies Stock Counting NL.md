@@ -31,7 +31,7 @@ Per policy wordt uitgelegd wat de functie is, hoe deze geconfigureerd wordt en w
 > ℹ️ De beschikbaarheid van sommige policies kan afhangen van de inrichting van uw omgeving. Niet alle policies zijn in elke situatie van toepassing.
 
 ---
-### Inventory-brede instellingen
+## Inventory-brede instellingen
 
 Sommige instellingen gelden Inventory-breed, ongeacht de specifieke module.
 
@@ -44,6 +44,18 @@ Geeft aan welk type partijnummer wordt weergegeven in de app. Enkel de **laatste
 - `PartijNr`
 - `VPartijNr`
 
+---
+
+### `ToPickQuantityDisplay`  
+Bepaalt hoe het te picken aantal wordt weergegeven in de app.  
+
+Beschikbare opties:
+
+* **Colli × inhoud + restant (standaard)**  
+  Toont het aantal colli met hun inhoud plus eventuele losse stelen die overblijven.
+
+* **Stelen**  
+  Toont het totaal aantal stelen.
 ---
 
 ### Instellingen op basis van voorkeur
@@ -97,6 +109,18 @@ Meer informatie over het aanpassen van deze instellingen vindt u in de [algemene
 
 #### `AllowEditStockitemDetails`
 Standaard zijn eigenschappen van voorraadpartijen alleen-lezen. Met deze instelling bepaalt u welke van de zichtbare eigenschappen bewerkbaar zijn voor gebruikers tijdens de telling.
+
+
+#### `StockItemQuantityDisplay`  
+Bepaalt hoe het aantal van de partij wordt weergegeven in de app.  
+
+Beschikbare opties:
+
+* **Colli × inhoud + restant (standaard)**  
+  Toont het aantal colli met hun inhoud plus eventuele losse stelen die overblijven.
+
+* **Stelen**  
+  Toont het totaal aantal stelen.
 
 ---
 
@@ -155,6 +179,11 @@ Geeft aan hoe het aantal nog te picken eenheden naast de voorraad wordt weergege
 Kies de optie die het best past bij uw logistieke proces.
 
 ---
+
+### `PickCheckStocks`    
+Bepaalt welke voorraden worden gebruikt om de pick-checkstatus van partijen te kunnen aanpassen.  
+
+Standaard is deze instelling leeg, wat betekent dat er geen specifieke voorraden zijn opgegeven.
 
 ## Autorisaties
 

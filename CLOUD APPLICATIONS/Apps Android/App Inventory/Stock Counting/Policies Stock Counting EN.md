@@ -46,6 +46,19 @@ Determines which type of parcel number is displayed in the app. Only the **last 
 
 ---
 
+### `ToPickQuantityDisplay`  
+Determines how the quantity to pick is displayed in the app.  
+
+Available options:
+
+* **Colli × content + remainder (default)**  
+  Displays the number of colli with their content plus any remaining single stems.
+
+* **Stems**  
+  Displays the total number of individual stems.
+
+---
+
 ### Customer-configurable policies
 
 These policies are available to all clients and allow the Stock Counting functionality to be tailored to your preferences and workflow.
@@ -94,6 +107,17 @@ For more details on adjusting these settings, refer to the [Policy Management Gu
 
 #### `AllowEditStockitemDetails`
 By default, parcel properties are read-only. This setting lets you configure which visible properties can be edited during counting.
+
+#### `StockItemQuantityDisplay`  
+Determines how the parcel quantity is displayed in the app.  
+
+Available options:
+
+* **Colli × content + remainder (default)**  
+  Displays the number of colli with their content plus any remaining single stems.
+
+* **Stems**  
+  Displays the total number of individual stems.
 
 ---
 
@@ -152,6 +176,12 @@ Controls how the open **pick quantity** is shown next to the current **stock**.
 Choose the format that best suits your logistics process.
 
 ---
+
+### `PickCheckStocks`  
+Determines which stocks are used to adjust the pick-check status of parcels.  
+
+By default this setting is empty, meaning no specific stocks are defined.
+
 
 ## Authorizations
 
