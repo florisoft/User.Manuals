@@ -4,76 +4,95 @@
 
 ## Inleiding
 
-Deze handleiding beschrijft het gebruik van de **Final Outbound Check**-functionaliteit in de Florisoft Logistics App. De workflow van de app is afgestemd op de relevante policies.
+Deze handleiding beschrijft het gebruik van de **Final Outbound Check**-app in de Florisoft Quality control App. De workflow van de app is afgestemd op de relevante policies.
 
 > ℹ️ De uitgebreide handleiding voor het instellen van deze policies is beschikbaar via de volgende link: [Policies Final Outbound Check NL](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Final%20outbound%20check/Policies%20Final%20outbound%20check%20-%20NL.md)
 
 **Benodigdheden:**
 
-* Florisoft QualityControl App
-* Backoffice Final Outboud Check module 
+* Florisoft Quality Control App
+* Final Outboud Check licentie
 
 ## Stappenplan Final Outbound Check
 
-### Stap 1: Inloggen in de Logistics App
+### Stap 1: Inloggen in de Quality control App
 
-Open de Logistics App vanuit de Florisoft Hub-App of via het Logistics App-icoon. Log in met uw gebruikersgegevens.
+Open de Quality control App vanuit de Florisoft Hub-App of via het Logistics App-icoon. Log in met uw gebruikersgegevens.
+
+<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/1.png"></details>
+
+> ℹ️ Als de Quality control App nog niet is geïnstalleerd, download deze dan via de Florisoft Hub-App. Raadpleeg hiervoor de installatiehandleiding: [Hub-App Installatie NL](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/App%20Hub/Hub-App%20Installatie%20NL.md)
 
 ### Stap 2: Order selecteren
 
-Zoek en selecteer een openstaande klantorder. Dit kan via:
+Om te kunnen starten met het controleren van een order, moet eerst een openstaande klantorder geselecteerd worden. Dit kan op twee manieren:
 
-* Scannen van barcode van een orderitem 
-* Handmatige invoer
+* **Optie 1: Scannen van een barcode**
 
-De zichtbare velden in het orderoverzicht worden bepaald door de ingestelde policy `Apps_Logistics_QualityControl_FinalInspection_BarcodeDecodeOptions`.
+Scannen van de barcode van een orderregel, bijvoorbeeld een pickordersticker. Hiervoor moet de juiste barcode-instelling geactiveerd zijn via de policy `BarcodeDecodeOptions`.
 
-### Stap 3: Orderitems controleren
+<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/2.png"></details>
 
-1. Selecteer een orderitem.
-2. Scan de barcode of voer handmatig het gecontroleerde aantal in.
-3. Het systeem valideert:
+* **Optie 2: Order zoeken via zoekicoon**
 
-   * Is de barcode herkend?
-   * Hoort het artikel bij de order?
-   * Is het item al volledig gecontroleerd?
-4. Pas indien nodig de telling aan. Handmatige aanpassingen worden gelogd.
-5. Herhaal voor alle orderitems tot de status **FinalInspectionDone** is bereikt.
+Door het zoekicoon te gebruiken wordt een orderoverzicht getoond. Dit overzicht laat alle beschikbare klantorders zien. De weergave van dit overzicht kan naar eigen voorkeur ingesteld worden. De benodigde policies hiervoor zijn te vinden in de submap `Overview` van de FinalOutbound policies.
 
-### Stap 4: Foutmeldingen en correcties
+<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/3.png"></details>
 
-Tijdens de controle kunnen meldingen verschijnen zoals:
+### Stap 3: Orderregels controleren
 
-* Barcode niet herkend
-* Item hoort niet bij de order
-* Item al gecontroleerd
-* Geen actieve orders
+Na het selecteren van een klantorder wordt de pagina **To check** geopend. Deze pagina toont alle orderregels die nog gecontroleerd moeten worden. Elke orderregel kan worden gecontroleerd door de bijbehorende barcode te scannen. Tijdens het scannen valideert het systeem automatisch:
 
-Elke melding stuurt de gebruiker terug naar de juiste stap voor correctie.
+* of de barcode herkend wordt,
+* of het artikel hoort bij de geselecteerde order,
+* en of de regel al volledig is gecontroleerd.
 
-### Stap 5: Order afronden
+<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/4.png"></details>
 
-Wanneer alle items gecontroleerd zijn:
+De manier waarop een controle wordt afgehandeld, is afhankelijk van de instelling van de policy `CountingStrategy`. Deze bepaalt of het gecontroleerde aantal wordt afgeleid uit:
 
-1. Klik op **Afronden/Goedkeuren**.
-2. Mogelijke vervolgstappen:
+* het aantal in de barcode,
+* het aantal kolli,
+* of het volledige bestelde aantal.
 
-   * Volgende order laden
-   * Foto’s maken
-   * CMR genereren, printen of verzenden
-   * Handtekening toevoegen
-   * Verpakkingstelling starten
+Als het scannen van een orderregel niet mogelijk is, kan de controle ook handmatig worden uitgevoerd. Deze handmatige controle wordt visueel weergegeven in het scherm en geregistreerd in het partijlog.
 
-Policies bepalen of waarschuwingen verschijnen bij ontbrekende items en of autorisatie vereist is.
+<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/5.png"></details>
 
-### Optionele stappen
+<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/6.png"></details>
 
-### - Resetten van een order
+Indien er een probleem is met een orderregel, en de regel is als add-on ingesteld (zie betreffende policy), dan kan via exception registration een afwijking worden vastgelegd. Ook dit wordt visueel zichtbaar gemaakt voor de gebruiker.
 
-Indien nodig kan de controle opnieuw gestart worden via de resetfunctie. Policies bepalen of autorisatie vereist is.
+<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/4A.png"></details>
 
-**Menu → Reset order → Bevestigen**
+Tot slot is het ook mogelijk om een hele order in één keer goed te keuren. Deze functionaliteit is afhankelijk van de policy `AllowCompleteEntireTarget`.
+
+<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/6A.png"></details>
+
+### Stap 4: Order afronden
+
+Wanneer alle regels gecontroleerd zijn, krijgen de orders de status Checked.
+
+<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/7.png"></details>
+
+Daarbij worden ook diverse statussen bijgewerkt in backoffice - facturen, zoals het vinkje voor de eindcheck, de eindscan die door de verkoper wordt gezet en het eindcontroleaantal.
+
+Daarnaast zijn er extra mogelijkheden:
+
+* Een enkele orderregel kan opnieuw worden vrijgegeven voor controle via de policy `AllowResetOrderItem`.
+* De gehele order kan opnieuw worden gestart via de policy `AllowResetEntireTarget`.
+
+<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/8.png"></details>
+
+Door op Next te klikken kunnen eventuele vervolgstappen uitgevoerd worden, zoals het maken van foto’s.
+
+<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/9.png"></details>
+
+De policy `ShowWarningIfIncomplete` controleert of alle regels gecontroleerd zijn. Zo niet, dan verschijnt er een waarschuwing.
+
+<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/10.png"></details>
 
 ---
 
 Deze handleiding is gebaseerd op de actuele Logistics App en wordt periodiek bijgewerkt bij nieuwe functionaliteit of gewijzigde policies.
+
