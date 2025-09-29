@@ -108,6 +108,9 @@ Na het scannen van een geldige barcode verschijnt het registratieformulier. U do
 * **Invalid amount, amount can't be negative** – het ingevoerde aantal is negatief.
 * **This page is unavailable until exception reasons have been registered.** – er zijn nog geen exception redenen ingesteld.
 
----
+## Versiebeheer & Ontwikkelfase
 
-Deze handleiding is gebaseerd op de actuele versie van de Quality Control App en kan periodiek worden bijgewerkt met nieuwe functionaliteit of aangepaste policies.
+> **Laatste update:** 10 juli 2025  
+> **Huidige ontwikkelfase:** Dev phase 1 (MVP) afgerond
+
+Deze handleiding is gebaseerd op de actuele Quality Control App en wordt periodiek bijgewerkt bij nieuwe functionaliteit of gewijzigde policies.

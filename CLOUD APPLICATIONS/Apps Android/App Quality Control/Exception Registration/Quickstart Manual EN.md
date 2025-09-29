@@ -109,6 +109,9 @@ After scanning a valid barcode, the registration form appears. Follow these step
 - **Invalid amount, amount can't be negative** – The entered quantity is negative.
 - **This page is unavailable until exception reasons have been registered.** – No exception reasons have been configured yet.
 
----
+## Version Control & Development Phase
 
-This guide is based on the current version of the Quality Control App and may be updated periodically to reflect new features or policy changes.
+> **Last update:** July 10, 2025  
+> **Current development phase:** Dev phase 1 (MVP) completed
+
+This manual is based on the current Logistics App and will be periodically updated to reflect new functionality or changes in policies.

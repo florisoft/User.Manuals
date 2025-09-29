@@ -109,6 +109,9 @@ Click the print template, enter the desired quantity, and click **Print**. You c
 
 <details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/8.png"></details>
 
----
+## Version Control & Development Phase
 
-This manual is based on the current version of the Inventory App and may be updated periodically with new features or policy adjustments.
+> **Last updated:** August 27, 2025  
+> **Current development phase:** Dev phase 1 completed
+
+This manual is based on the current Inventory App and is periodically updated when new features are added or policies change.

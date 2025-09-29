@@ -105,6 +105,9 @@ At the end of the inspection, it is clear whether all stock lines have been chec
 
 <details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/13.png"></details>
 
----
+## Version Control & Development Phase
 
-This manual is based on the current Inventory App and may be updated periodically to reflect new functionality or changes in policies.
+> **Last update:** June 26, 2025  
+> **Current development phase:** Dev phase 2 completed
+
+This manual is based on the current Inventory App and will be periodically updated to reflect new functionality or changes in policies.

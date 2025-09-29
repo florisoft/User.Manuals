@@ -97,7 +97,7 @@ The `ShowWarningIfIncomplete` policy checks whether all parcel have been checked
 
 ## Version Control & Development Phase
 
-> **Last update:** September 29, 2025
+> **Last update:** September 29, 2025  
 > **Current development phase:** Dev phase 1 (MVP) completed
 
 This manual is based on the current Logistics App and will be periodically updated to reflect new functionality or changes in policies.

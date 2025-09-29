@@ -111,6 +111,9 @@ Klik op het printsjabloon, geef het gewenste aantal labels op en klik op **Print
 
 <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/8.png"></details>
 
----
+## Versiebeheer & Ontwikkelfase
 
-Deze handleiding is gebaseerd op de actuele versie van de Inventory App en kan periodiek worden bijgewerkt met nieuwe functionaliteit of aangepaste policies.
+> **Laatste update:** 27 augustus 2025  
+> **Huidige ontwikkelfase:** Dev phase 1 afgerond
+
+Deze handleiding is gebaseerd op de actuele Inventory App en wordt periodiek bijgewerkt bij nieuwe functionaliteit of gewijzigde policies.
