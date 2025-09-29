@@ -22,4 +22,4 @@ De Final Outbound Check App ondersteunt het controleren van orders voordat deze 
 De app biedt flexibiliteit in het scannen van barcodes en het uitvoeren van handmatige controles. Daarnaast zijn optionele vervolgacties zoals het registreren van fusten, het maken van foto’s, het afdrukken van CMR-documenten en het toevoegen van handtekeningen direct beschikbaar.
 
 * [Policy-handleiding](https://github.com/florisoft/User.Manuals/blob/9e655e4051b6395c62ce01c804df5bec90cf5c52/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Final%20outbound%20check/Policies%20Final%20outbound%20check%20-%20NL.md)
-* [Quickstart-handleiding]()
+* [Quickstart-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Final%20outbound%20check/Quickstart%20Handleiding%20NL.md)
