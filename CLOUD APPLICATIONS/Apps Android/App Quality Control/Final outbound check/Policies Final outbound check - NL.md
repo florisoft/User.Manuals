@@ -50,10 +50,19 @@ Filtert het orderoverzicht in de eindcontrole op basis van een datum.
 * Besteldatum
 
 #### `ScopeDateFromDays`
-Bepaal het aantal dagen die de 'van'-datum van een datumbereik vormt (t.o.v vandaag) voor het ophalen van de op te bouwen orders voor het orderoverzicht.
+Bepaalt het aantal dagen **vóór vandaag** waar het datumbereik start voor het ophalen van de op te bouwen orders in het orderoverzicht.  
+
+- **0 = vandaag**  
+- **1 = gisteren**  
+- **2 = eergisteren**  
+- Er hoeven **geen negatieve waarden** ingevoerd te worden (dus `2` i.p.v. `-2`). 
 
 #### `ScopeDateToDays`
-Bepaal het aantal dagen die de 'tot'-datum van een datumbereik vormt (t.o.v vandaag) voor het ophalen van de op te bouwen orders voor het orderoverzicht.
+Bepaalt het aantal dagen **na vandaag** waar het datumbereik eindigt voor het ophalen van de op te bouwen orders in het orderoverzicht.  
+
+- **0 = vandaag**  
+- **1 = morgen**  
+- **2 = overmorgen**  
 
 ---
 ### `Addons`

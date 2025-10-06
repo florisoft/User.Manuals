@@ -51,10 +51,19 @@ Filters the order overview in the final check based on a specific date.
 * Purchase date  
 
 #### `ScopeDateFromDays`
-Defines the number of days (relative to today) that forms the *from* date of a date range for retrieving orders to be included in the order overview.
+Determines the number of days **before today** that form the start date of the date range for retrieving the pending orders in the order overview.  
+
+- **0 = today**  
+- **1 = yesterday**  
+- **2 = two days ago**  
+- **No negative values** are required (use `2` instead of `-2`).  
 
 #### `ScopeDateToDays`
-Defines the number of days (relative to today) that forms the *to* date of a date range for retrieving orders to be included in the order overview.
+Determines the number of days **after today** that form the end date of the date range for retrieving the pending orders in the order overview.  
+
+- **0 = today**  
+- **1 = tomorrow**  
+- **2 = the day after tomorrow**  
 
 ---
 
