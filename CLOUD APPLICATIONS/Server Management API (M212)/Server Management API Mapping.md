@@ -1474,6 +1474,20 @@
 |pkey|_PKEY|
 |version|_VERSION|
 
+## ScanHistory (HPSCAN)
+
+| API            | DATABASE  |
+|:--             |:--        |
+| pKey           | _pkey     |
+| version        | _version  |
+| entryControlId | boxcod    |
+| scanLocation   | scanloc   |
+| scanTime       | scantime  |
+| text           | text      |
+| userId         | userid    |
+| vParcelId      | vpartijnr |
+
+
 ## OrderApprovals (AccLevBestVerd)
 
 |API|DATABASE|
