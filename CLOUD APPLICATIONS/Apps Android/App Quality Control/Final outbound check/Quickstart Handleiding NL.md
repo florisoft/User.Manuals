@@ -54,7 +54,12 @@ De manier waarop een controle wordt afgehandeld, is afhankelijk van de instellin
 * het aantal kolli,
 * of het volledige bestelde aantal.
 
-Als het scannen van een orderregel niet mogelijk is, kan de controle ook handmatig worden uitgevoerd. Deze handmatige controle wordt visueel weergegeven in het scherm en geregistreerd in het partijlog.
+#### Handmatige eindcontrole van orderregels
+
+Als het scannen van een orderregel niet mogelijk is, kan de controle ook handmatig worden uitgevoerd.  
+Deze handmatige controle wordt visueel weergegeven in het scherm.  
+
+Wanneer een orderregel handmatig wordt gecontroleerd, wordt dit in de Backoffice bij de betreffende factuurregel automatisch vastgelegd. Het veld _Handm.Eindgecontroleerd_ wordt hierbij aangevinkt en de handmatige controle wordt tevens geregistreerd in het partijlog.  
 
 <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/5.png"></details>
 <br>
@@ -85,7 +90,7 @@ Daarnaast zijn er extra mogelijkheden:
 
 <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/8.png"></details>
 <br>
-By clicking Next, any follow-up steps can be performed, such as taking photos.
+Door op next te klikken, kunnen eventuele vervolgstappen worden uitgevoerd, zoals het maken van foto's.
 
 <br>
 <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/9.png"></details>

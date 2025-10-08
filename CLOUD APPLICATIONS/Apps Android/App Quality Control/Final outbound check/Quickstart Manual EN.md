@@ -54,7 +54,13 @@ The way in which a check is handled depends on the setting of the `CountingStrat
 * the number of packages (kolli),
 * or the entire ordered quantity.
 
-If scanning an order line is not possible, the check can also be performed manually. This manual check is visually displayed on the screen and recorded in the parcel log.
+#### Manual Final Check of Order Lines
+
+If scanning an order line is not possible, the check can also be performed manually.  
+This manual check is visually displayed on the screen.  
+
+When an order line is manually checked, this is automatically recorded in the Backoffice for the corresponding order line.  
+The field _Handm.FinalChecked_ is then selected, and the manual check is also logged in the parcel log.
 
 <details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/5.png"></details>
 <br>
