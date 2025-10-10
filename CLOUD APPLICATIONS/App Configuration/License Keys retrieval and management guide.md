@@ -7,9 +7,6 @@ Without a valid license, the apps will not start or will operate with limited fu
 
 Florisoft licenses are obtained per use case, ensuring that only the necessary modules or users receive a license.  
 It is therefore important to understand which license types are available and how they can be managed.
-
----
-
 ## 1. License Types
 
 There are two main types of licenses available within Florisoft:
@@ -25,8 +22,6 @@ There are two main types of licenses available within Florisoft:
 - Once a user logs out, the license becomes available again for someone else.  
 - This type of license is ideal for environments where multiple employees use Florisoft alternately.
 
----
-
 ## 2. Automatically Retrieving License Keys
 
 To automatically retrieve license keys, the **timer function _Renew License Keys_ (GETLICENSEKEYS)** must be configured.  
@@ -37,9 +32,6 @@ We recommend running this function **once per week** to ensure all licenses rema
 - **Timer Function:** `Renew License Keys (GETLICENSEKEYS)`  
 - **Frequency:** Once per week  
 - **Purpose:** Refresh and synchronize license information  
-
----
-
 ## 3. Managing Licenses via the _Manage Licenses_ Screen
 
 In the Manage Licenses screen, you can view an overview of all retrieved licenses.  
