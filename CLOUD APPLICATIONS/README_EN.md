@@ -2,10 +2,13 @@
 
 ## Licenses
 
-To use the Florisoft Apps, a valid **license** is required. The license check takes place automatically via the cloud server. Without a license, the apps will not start or will have limited functionality.
+To use the Florisoft Apps, a valid license is required.  
+License verification takes place automatically via the cloud server.  
+Without a valid license, the apps will not start or will operate with limited functionality.
 
-> New licenses or changes to existing licenses can be requested via Florisoft Support.  
+New licenses or modifications to existing ones can be requested via [Florisoft Support](https://www.florisoft.nl/contact)
 
+> For more information on retrieving and managing license keys, see the [License Keys Retrieval and Management Guide](#)
 ## Updates
 
 Florisoft Apps are regularly updated with new features, improvements, and security updates. Updates are handled automatically via the cloud server.

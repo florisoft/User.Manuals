@@ -4,9 +4,13 @@
 
 ## Licenties
 
-Om de Florisoft Apps te kunnen gebruiken, is een geldige **licentie** vereist. De licentiecontrole vindt automatisch plaats via de cloudserver. Zonder licentie zullen de apps niet opstarten of beperkt functioneren.
+Om de Florisoft Apps te kunnen gebruiken, is een geldige licentie vereist.  
+De licentie controle vindt automatisch plaats via de cloudserver.  
+Zonder licentie zullen de apps niet opstarten of beperkt functioneren.
 
-> Nieuwe licenties of aanpassingen aan bestaande licenties kunnen worden aangevraagd via Florisoft Support.&#x20;
+Nieuwe licenties of aanpassingen aan bestaande licenties kunnen worden aangevraagd via [Florisoft Support](https://www.florisoft.nl/contact).
+
+> Voor meer informatie over het ophalen en beheren van licenties, zie de [Handleiding Licentie Keys Ophalen en Beheren](#)
 
 ## Updates
 
