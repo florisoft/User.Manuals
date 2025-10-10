@@ -1,5 +1,8 @@
+![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
+# Licentie Keys ophalen en beheren
+
 Om de Florisoft Apps te kunnen gebruiken, is een geldige licentie vereist.  
-De licentiecontrole vindt automatisch plaats via de cloudserver.  
+De licentie controle vindt automatisch plaats via de cloudserver.  
 Zonder geldige licentie zullen de apps niet opstarten of beperkt functioneren.
 
 Florisoft-licenties worden per use-case afgenomen, zodat alleen de benodigde onderdelen of gebruikers een licentie krijgen.  

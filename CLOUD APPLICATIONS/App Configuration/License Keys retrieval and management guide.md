@@ -1,3 +1,6 @@
+![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
+# License Keys retrieval and management guide
+
 To use the Florisoft Apps, a valid license is required.  
 License verification takes place automatically via the cloud server.  
 Without a valid license, the apps will not start or will operate with limited functionality.

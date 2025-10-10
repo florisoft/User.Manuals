@@ -8,7 +8,7 @@ Without a valid license, the apps will not start or will operate with limited fu
 
 New licenses or modifications to existing ones can be requested via [Florisoft Support](https://www.florisoft.nl/contact)
 
-> For more information on retrieving and managing license keys, see the [License Keys Retrieval and Management Guide](#)
+> For more information on retrieving and managing license keys, see the [License Keys Retrieval and Management Guide](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/App%20Configuration/License%20Keys%20retrieval%20and%20management%20guide.md)
 ## Updates
 
 Florisoft Apps are regularly updated with new features, improvements, and security updates. Updates are handled automatically via the cloud server.
