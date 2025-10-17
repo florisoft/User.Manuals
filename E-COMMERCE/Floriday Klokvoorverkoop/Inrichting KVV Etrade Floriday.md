@@ -32,7 +32,7 @@ Op het tabblad **Partijen ontvangen** 'Partijen zijn onderweg' aanzetten, zodat 
 
 Bij **Koopantwoord**:
 - De ontvangen barcode na koop zetten op **Tradelineitem ID (standaard)**.  
-- Hierdoor kan later een match gemaakt worden met de EKT vanuit Floriday.
+Hierdoor kan later een match gemaakt worden met de EKT vanuit Floriday.
 
 ---
 
