@@ -15,7 +15,7 @@ Om de koppeling tussen Florisoft en Floriday correct te laten functioneren, moet
 |-------------|--------|
 | EKTVoorlopigeKVVOokRFFBT | True |
 | KlokVoorVerkoopEktBGMCheck | True |
-| KlokVoorVerkoopEktInleesType | HPartij_updaten_indien_aanwezig_anders_inlezen |
+| KlokVoorVerkoopEktInleesType | Niet_inlezen_maar_HPartij_wel_updaten |
 | KlokVVBGMVeilCodes | 1;2;3 |
 | KlokVVVoorlopigEktBGMCheck | True |
 | KlokVVVoorlopigEktInleesType | Inlezen |
