@@ -1,4 +1,10 @@
-![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
+![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)  
+
+In dit document laten we de inrichting zien voor de Klokvoorverkoop VMP die aangeboden wordt door Floriday.  
+Dit is alleen voor kopen die middels de VMP verlopen en niet buiten de Florisoft UI om.
+kopen die direct vanuit de Floriday schermen verlopen hebben dus een andere verwerkingsmanier.
+
+
 # Inrichting KVV E-Trade Floriday
 
 Om de koppeling tussen Florisoft en Floriday correct te laten functioneren, moeten zowel de **definitieve** als **voorlopige** EKT-berichten juist worden ingesteld en verwerkt.
@@ -21,7 +27,7 @@ Om de koppeling tussen Florisoft en Floriday correct te laten functioneren, moet
 ## 2. Leveranciers aanmaken
 
 Maak per **hoofdgroep (bloemen of planten)** een leverancier aan, eventueel ook per veiling.  
-Vul op het tabblad **Webservice** de inloggegevens in zoals aangegeven door **Floriday**.
+Vul op het tabblad **Webservice** de inloggegevens in zoals aangegeven door **Floriday**.  
 Let op dat de type webservice op Etrade0.7 staat.
 
 ---
