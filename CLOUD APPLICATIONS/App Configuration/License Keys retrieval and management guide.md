@@ -34,13 +34,34 @@ We recommend running this function **once per week** to ensure all licenses rema
 - **Purpose:** Refresh and synchronize license information  
 ## 3. Managing Licenses via the _Manage Licenses_ Screen
 
-In the Manage Licenses screen, you can view an overview of all retrieved licenses.  
-Here you can verify whether the licenses have been updated correctly and perform manual actions if necessary.
+The **License Management** screen shows an overview of all retrieved licenses.  
+Here you can check whether the licenses have been updated correctly and perform manual actions if necessary.
+### Functions in this screen
 
-Within this screen, you can:
+- **Manually retrieve license keys**
+Use the **Refresh license keys** button to manually renew licenses.  
+    This is useful when the automatic timer has not yet run or when immediate renewal is required.
+    
+- **Assign licenses to users**  
+    You can **assign user licenses to specific users**.  
+    This allows certain licenses to be used exclusively by that user.
+    
+- **View claim information**  
+    This screen now shows:
+    
+    - Which **system user** claimed the license.
+        
+    - On which **device** the license was claimed.
+        
+    - The **time of claiming**.
+        
+    - The **last activity** of the license in question.
+        
+    
+    This allows you to easily check whether a license is actively being used and on which system it is registered.
+#### Access rights
 
-- **Manually retrieve license keys**, for example when the automatic timer has not yet run or an immediate refresh is required.  
-- **Assign user licenses to specific users**, ensuring that these licenses are exclusively used by those users.  
+To access this screen, the **policy** `CanManageLicenses` must be enabled for the user.  
+Without this policy, the screen is not accessible.
 
-**Note:**  
-To access this screen, the policy **`CanManageLicenses`** must be enabled for the user.
+

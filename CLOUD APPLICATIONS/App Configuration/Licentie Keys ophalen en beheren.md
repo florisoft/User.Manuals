@@ -36,15 +36,33 @@ Wij raden aan deze functie **één keer per week** uit te voeren, zodat alle lic
     
 ## 3. Licenties beheren via het _Manage Licenses_-scherm
 
-In het scherm Manage Licenses zie je een overzicht van alle opgehaalde licenties.  
+In het scherm **License Management** zie je een overzicht van alle opgehaalde licenties.  
 Hier kun je controleren of de licenties correct zijn bijgewerkt en eventueel handmatig acties uitvoeren.
+### Functies in dit scherm
 
-In dit scherm kun je:
-
-- **Handmatig licentie keys ophalen**, wanneer de automatische timer nog niet is uitgevoerd of wanneer directe vernieuwing nodig is.
+- **Handmatig licentiekeys ophalen**  
+    Gebruik de knop **Refresh licensekeys** om licenties handmatig te vernieuwen.  
+    Dit is handig wanneer de automatische timer nog niet is uitgevoerd of wanneer directe vernieuwing nodig is.
     
-- **User-licenties toewijzen aan specifieke gebruikers**, zodat deze licenties exclusief door die gebruikers kunnen worden gebruikt.
+- **Licenties toewijzen aan gebruikers**  
+    Je kunt **user-licenties toewijzen aan specifieke gebruikers**.  
+    Hierdoor kunnen bepaalde licenties exclusief door die gebruiker worden gebruikt.
     
+- **Claiminformatie inzien**  
+    In dit scherm is nu zichtbaar:
+    
+    - Welke **systeemgebruiker** de licentie heeft geclaimd.
+        
+    - Op welk **apparaat** de licentie is geclaimd.
+        
+    - Het **tijdstip van claimen**.
+        
+    - De **laatste activiteit** van de betreffende licentie.
+        
+    
+    Hiermee kun je eenvoudig controleren of een licentie actief wordt gebruikt en op welk systeem deze is geregistreerd.
 
-**Let op:**  
-Om toegang te krijgen tot dit scherm, moet de policy `CanManageLicenses` zijn ingeschakeld voor de gebruiker.
+#### Toegangsrechten
+
+Om toegang te krijgen tot dit scherm, moet de **policy** `CanManageLicenses` zijn ingeschakeld voor de gebruiker.  
+Zonder deze policy is het scherm niet toegankelijk.
