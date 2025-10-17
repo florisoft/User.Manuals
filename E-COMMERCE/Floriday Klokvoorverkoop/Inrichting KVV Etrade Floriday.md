@@ -20,18 +20,19 @@ Om de koppeling tussen Florisoft en Floriday correct te laten functioneren, moet
 
 ## 2. Leveranciers aanmaken
 
-Maak per **hoofdgroep (bloemen of planten)** een leverancier aan.  
+Maak per **hoofdgroep (bloemen of planten)** een leverancier aan, eventueel ook per veiling.  
 Vul op het tabblad **Webservice** de inloggegevens in zoals aangegeven door **Floriday**.
+Let op dat de type webservice op Etrade0.7 staat.
 
 ---
 
 ## 3. Partijen ontvangen
 
-Op het tabblad **Partijen ontvangen** aanzetten, zodat partijen **niet direct binnenkomen**.  
+Op het tabblad **Partijen ontvangen** 'Partijen zijn onderweg' aanzetten, zodat partijen niet direct binnen zijn.  
 
 Bij **Koopantwoord**:
 - De ontvangen barcode na koop zetten op **Tradelineitem ID (standaard)**.  
-- Hierdoor kan later een match gemaakt worden met de **EKT vanuit Floriday**.
+- Hierdoor kan later een match gemaakt worden met de EKT vanuit Floriday.
 
 ---
 
