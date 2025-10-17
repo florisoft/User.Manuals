@@ -650,68 +650,82 @@
 
 ## PurchaseHistory (hpartij)
 
-|API|DATABASE|
-|:--|:--|
-|pKey|_PKEY|
-|version|_VERSION|
-|writeOffQuantity|AFBOEKA|
-|writeOffId|AFBOEKM|
-|articleId|ARTNR|
-|description|ARTTXT|
-|orderParcelId|BESTELPARTIJNR|
-|paymentDate|BETDAT|
-|paymentTime|BETTIME|
-|paymentuser|BETUSER|
-|creation|CREATIE|
-|deadlinenr|DEADLINENR|
-|stockid|DEVISIE|
-|EInvoiceBarcode|EFACTBARC|
-|ExParcelId2|EXPARTIJNR2|
-|ExternalParcelId|EXTERNPARTIJID|
-|PackageQuantity|FUSTAANTAL|
-|PackageId|FUSTCOD|
-|ContentBunch|INHBOS|
-|ContentColli|INHOUD|
-|BarePrice|KALEPRIJS|
-|Color|KLEUR|
-|ClockTrans|KLOKTRANS|
-|Colli|KOLLI|
-|BuyerNo|KOPERNR|
-|GrowerId|KWEKER|
-|CountryId|LAND|
-|SupplierId|LEVCOD|
-|SupplierInvoiceNr|HPARTIJ.LEVFACTNR|
-|SourceId|OORSPRONG|
-|Remark|OPMERKING|
-|ParcelDate|PARTIJDAT|
-|ParcelPurchasePrice2|PARINKPR2|
-|PlateNo|PLAATNR|
-|Price|PRIJS|
-|PriceIncl|PRIJSINCL|
-|PriceInCurrency|PRIJSINVAL|
-|RestQuantity|REST|
-|S01|SORT1|
-|S02|SORT2|
-|S03|SORT3|
-|S04|S4|
-|S05|S5|
-|S06|S6|
-|S07|S7|
-|ParcelS01Id|SCODE1|
-|ParcelS02Id|SCODE2|
-|ParcelS03Id|SCODE3|
-|ParcelS04Id|SCODE4|
-|ParcelS05Id|SCODE5|
-|ParcelS06Id|SCODE6|
-|ParcelS07Id|SCODE7|
-|ShipmentNo|SHIPMENTNO|
-|TotalCostPrice|TOTAALKOSTPRIJS|
-|TransId|TRANS|
-|TransIdLong|TRANSLANG|
-|AuctionId|VEILCOD|
-|VParcelId|VPARTIJNR|
-|SeatNo|ZETELNR|
-|ParcelId|PARTIJNR|
+| DATABASE            | API                  |
+| :--                 | :--                  |
+| _PKEY               | pKey                 |
+| _VERSION            | version              |
+| AFBOEKA             | WriteOffQuantity     |
+| AFBOEKM             | WriteOffId           |
+| ARTNR               | ArticleId            |
+| ARTTXT              | Description          |
+| BESTELPARTIJNR      | OrderParcelId        |
+| BESTPRIJS           | PriceOrder           |
+| BETDAT              | PaymentDate          |
+| BETTIME             | PaymentTime          |
+| BETUSER             | PaymentUSer          |
+| BINNENTIJD          | CheckInDateTime      |
+| BOXCOD              | EntryControlId       |
+| CREATIE             | Creation             |
+| DEADLINENR          | DeadlineNr           |
+| DEVISIE             | StockId              |
+| EANCODE             | GrowerEan            |
+| EFACTBARC           | EInvoiceBarcode      |
+| EXPARTIJNR2         | ExParcelId2          |
+| EXTERNPARTIJID      | ExternalParcelId     |
+| FUSTAANTAL          | PackageQuantity      |
+| FUSTCOD             | PackageId            |
+| INHBOS              | ContentBunch         |
+| INHOUD              | ContentColli         |
+| INKPRIJS1           | PriceParcelPurchase1 |
+| KALEPRIJS           | BarePrice            |
+| KALEPRIJSINVALUTA   | BarePriceInCurrency  |
+| KLEUR               | Color                |
+| KLOKTRANS           | ClockTrans           |
+| KOLLI               | Colli                |
+| KOPERNR             | BuyerNo              |
+| KWEKER              | GrowerId             |
+| LAND                | CountryId            |
+| LEVCOD              | SupplierId           |
+| LEVFACTNR           | SupplierInvoiceNr    |
+| OORSPRONG           | SourceId             |
+| OPMERKING           | Remark               |
+| ORDDAT              | OrderDate            |
+| PARTIJDAT           | ParcelDate           |
+| PARTIJNR            | ParcelId             |
+| PARTIJOPMERKING1    | ParcelRemark1        |
+| PARTIJOPMERKING2    | ParcelRemark2        |
+| PARTINKPR2          | ParcelPurchasePrice2 |
+| PLAATNR             | PlateNo              |
+| PRIJS               | Price                |
+| PRIJSINCL           | PriceIncl            |
+| PRIJSINVAL          | PriceInCurrency      |
+| RESERVATIONTEXTID   | ReservationTextId    |
+| RESERVATIONTEXTCODE | ReservationTextCode  |
+| REST                | RestQuantity         |
+| S1                  | S01                  |
+| S2                  | S02                  |
+| S3                  | S03                  |
+| S4                  | S04                  |
+| S5                  | S05                  |
+| S6                  | S06                  |
+| S7                  | S07                  |
+| SCODE1              | ParcelS01Id          |
+| SCODE2              | ParcelS02Id          |
+| SCODE3              | ParcelS03Id          |
+| SCODE4              | ParcelS04Id          |
+| SCODE5              | ParcelS05Id          |
+| SCODE6              | ParcelS06Id          |
+| SCODE7              | ParcelS07Id          |
+| SHIPMNTNO           | ShipmentNo           |
+| SORT1               | S01                  |
+| SORT2               | S02                  |
+| SORT3               | S03                  |
+| TOTAALKOSTPRIJS     | TotalCostPrice       |
+| TRANS               | TransId              |
+| TRANSLANG           | TransIdLong          |
+| VEILCOD             | AuctionId            |
+| VPARTIJNR           | VParcelId            |
+| ZETELNR             | SeatNo               |
 
 ## BandRef (bandref)
 
