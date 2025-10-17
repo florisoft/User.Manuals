@@ -64,6 +64,20 @@ Bepaalt het aantal dagen **na vandaag** waar het datumbereik eindigt voor het op
 - **1 = morgen**  
 - **2 = overmorgen**  
 
+#### `OrderProgressDisplayType`
+
+Met deze policy bepaalt u wat er in de voortgangsbalk (progress bar) van de order wordt weergegeven tijdens de eindcontrole.
+
+U kunt kiezen of de voortgang gebaseerd wordt op het aantal kolli of op het aantal orderregels.  
+Dit biedt flexibiliteit in de manier waarop de voortgang van het orderproces visueel wordt gepresenteerd in de app.
+
+**Voorbeeld:**  
+Een order bestaat uit **3 orderregels** en **7 colli’s**.
+
+- Wanneer de policy op **Orderregels** staat, toont de voortgangsbalk een totaal van **3**.
+    
+- Wanneer de policy op **Kolli** staat, toont de voortgangsbalk een totaal van **7**.
+
 ---
 ### `Addons`
 De **policy-groep** `addons` bestaat uit instellingen waarmee u bepaalt welke addons gebruikt kunnen worden in de app.

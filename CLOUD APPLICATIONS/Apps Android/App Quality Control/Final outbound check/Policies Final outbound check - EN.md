@@ -65,6 +65,20 @@ Determines the number of days **after today** that form the end date of the date
 - **1 = tomorrow**  
 - **2 = the day after tomorrow**  
 
+#### `OrderProgressDisplayType`
+
+This policy allows you to determine what is displayed in the order's progress bar during the final check.
+
+You can choose whether the progress is based on the number of colli's or the number of order lines.  
+This offers flexibility in how the progress of the order process is visually presented in the app.
+
+**Example:**  
+An order consists of **3 order lines** and **7 Colli's**.
+
+- When the policy is set to **Order lines**, the progress bar shows a total of **3**.
+
+- When the policy is set to **Colli's**, the progress bar shows a total of **7**.
+
 ---
 
 ### `Addons`
