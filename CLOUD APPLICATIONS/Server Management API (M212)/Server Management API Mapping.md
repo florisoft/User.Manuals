@@ -674,6 +674,7 @@
 | EXTERNPARTIJID      | ExternalParcelId     |
 | FUSTAANTAL          | PackageQuantity      |
 | FUSTCOD             | PackageId            |
+| INBTWCODE           | VatId                |
 | INHBOS              | ContentBunch         |
 | INHOUD              | ContentColli         |
 | INKPRIJS1           | PriceParcelPurchase1 |
