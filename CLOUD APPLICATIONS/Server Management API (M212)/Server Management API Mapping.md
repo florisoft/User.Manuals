@@ -697,6 +697,7 @@
 | PARTIJOPMERKING2    | ParcelRemark2        |
 | PARTINKPR2          | ParcelPurchasePrice2 |
 | PLAATNR             | PlateNo              |
+| POCode              | POCode               |
 | PRIJS               | Price                |
 | PRIJSINCL           | PriceIncl            |
 | PRIJSINVAL          | PriceInCurrency      |
