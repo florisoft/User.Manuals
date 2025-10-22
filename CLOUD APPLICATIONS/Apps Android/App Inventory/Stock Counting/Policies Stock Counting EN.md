@@ -145,6 +145,46 @@ Used when `StockMutationAsCounting` is active but cannot be applied to a specifi
 
 ---
 
+### `QualityIssue`
+
+The **policy group** `QualityIssue` contains settings for registering and processing quality issues.
+
+#### Authorization
+
+Determines whether a user is authorized to register a quality issue.
+
+- **Default value:** `False`
+
+- **Description:** When this policy is disabled, the user cannot create or report quality issues via the Inventory app.
+
+#### CustomerCode
+
+This policy allows you to set a specific **customer code** to which quality issues are registered.
+
+- **Default behavior:** If this policy is empty, the value from `StockCountingCustomerCode` is automatically used.
+
+- **Application:** Useful when quality issues need to be recorded separately from regular stock differences.
+
+#### Reasons
+
+Here you can set the possible **reasons** that users can select when registering a quality issue.
+
+- **Required field:** A reason is always required when registering a quality issue.
+
+- **Management:**   The available reasons are managed via:  **Financial → Credit Reason**
+
+ To create a new reason:
+
+1. Click on the plus icon to add a new reason.
+    
+2. Enter exactly: `Distribution control reason` in Type description.
+    
+3. Enter a clear reason in Description.
+    
+    ℹ️ The app does not currently check for translations.
+
+---
+
 ### `AvailableStocks`
 
 This policy defines which **stock locations** are available in the app.\

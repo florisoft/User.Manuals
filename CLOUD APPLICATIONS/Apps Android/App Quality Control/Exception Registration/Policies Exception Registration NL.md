@@ -40,7 +40,8 @@ Om een reden aan te maken:
 
 1. Klik op het plus-icoon om een nieuwe reden toe te voegen.
 2. Vul bij Type omschrijving exact in: `Verdeelcontrole reden`.
-3. Vul bij Omschrijving een duidelijke reden in. (De app controleert momenteel nog niet op vertaling.)
+3. Vul bij Omschrijving een duidelijke reden in. 
+	ℹ️ De app controleert momenteel nog niet op vertalingen.
 4. Indien gewenst: geef op hoeveel foto's verplicht toegevoegd moeten worden bij registratie. Waarde `0` betekent dat foto's optioneel zijn, maar de mogelijkheid wordt wel getoond.
 
 <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/policies/1.png"></details>

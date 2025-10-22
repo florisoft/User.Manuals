@@ -148,6 +148,44 @@ Deze fallback-instelling is van toepassing wanneer `StockMutationAsCounting` act
 
 ---
 
+### `QualityIssue`
+
+De **policy-groep** `QualityIssue` bevat instellingen voor het registreren en verwerken van kwaliteitsproblemen.
+
+#### Authorization
+
+Bepaalt of een gebruiker gemachtigd is om een kwaliteitsprobleem te registreren.
+
+- **Standaardwaarde:** `False`
+    
+- **Omschrijving:** Wanneer deze policy is uitgeschakeld, kan de gebruiker geen kwaliteitsproblemen aanmaken of doorgeven via de Inventory-app.
+
+#### CustomerCode
+
+Met deze policy kunt u een specifieke **debiteurcode** instellen waarop kwaliteitsproblemen worden geregistreerd.
+
+- **Standaardgedrag:** Als deze policy leeg is, wordt automatisch de waarde uit `StockCountingCustomerCode` gebruikt.
+    
+- **Toepassing:** Handig wanneer kwaliteitsproblemen apart moeten worden geboekt van reguliere voorraadverschillen.
+
+#### Reasons
+
+Hier stelt u de mogelijke **redenen** in die gebruikers kunnen selecteren bij het registreren van een kwaliteitsprobleem.
+
+- **Verplicht veld:** Een reden is altijd vereist bij registratie van een kwaliteitsprobleem.
+    
+- **Beheer:**   De beschikbare redenen worden beheerd via:  **Financieel → Credit Reden**
+
+ Om een nieuwe reden aan te maken:
+
+1. Klik op het plus-icoon om een nieuwe reden toe te voegen.
+    
+2. .Vul bij Type omschrijving exact in: `Verdeelcontrole reden`.
+    
+3. Vul bij Omschrijving een duidelijke reden in.
+    
+    ℹ️ De app controleert momenteel nog niet op vertalingen.
+---
 ### `AvailableStocks`
 
 Met deze policy geeft u aan welke voorraadlocaties beschikbaar zijn voor telling.\

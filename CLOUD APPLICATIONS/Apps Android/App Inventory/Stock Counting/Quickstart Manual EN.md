@@ -70,6 +70,25 @@ Adjust the stock values as needed in the stock item detail screen. If a parcel w
 
 <details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/7.png"></details>
 
+### Step 6B: Reduce stock due to quality issues (optional)
+
+When checking a batch, you can immediately register a quality issue if it appears that the product no longer meets the desired quality standards.
+
+To do this, swipe the product header to the left in the Stock Item details screen. A trash can icon will appear.
+Tap this icon to open the registration screen for quality issues.
+
+<details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/14.png"></details>
+
+In this screen, you can:
+
+* Select a **reason** for the registration (e.g., damaged, outdated, deviating quality).
+* Enter the **number** to which the quality deviation relates.
+* Add a **comment** for additional explanation.
+
+The comment you enter will be saved in the memo field of the distribution, so that it can be traced later in the back office.
+
+<details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/15.png"></details>
+
 ### Print Labels
 
 In this screen, you can print stock or price labels. The available layouts and printers are preconfigured.
@@ -107,7 +126,7 @@ At the end of the inspection, it is clear whether all stock lines have been chec
 
 ## Version Control & Development Phase
 
-> **Last update:** June 26, 2025  
+> **Last update:** Oktober 22, 2025  
 > **Current development phase:** Dev phase 2 completed
 
 This manual is based on the current Inventory App and will be periodically updated to reflect new functionality or changes in policies.

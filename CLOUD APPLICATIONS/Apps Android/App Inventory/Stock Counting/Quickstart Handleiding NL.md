@@ -75,6 +75,26 @@ Pas in het Stockitem-detailscherm de voorraadwaarden aan waar nodig. Als een par
 
 <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/7.png"></details>
 
+### Stap 6B: Voorraad verlagen wegens kwaliteitsproblemen (optioneel)
+
+Tijdens het controleren van een partij kunt u direct een kwaliteitsprobleem registreren als blijkt dat het product niet meer aan de gewenste kwaliteit voldoet.
+
+Veeg hiervoor in het Stockitem-detailscherm de productheader naar links. Er verschijnt dan een prullenbak-icoon .
+Tik op dit icoon om het registratiescherm voor kwaliteitsproblemen te openen.
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/14.png"></details>
+
+In dit scherm kunt u:
+
+* Een **reden** selecteren waarom de registratie wordt uitgevoerd (bijv. beschadigd, verouderd, afwijkende kwaliteit).
+* Het **aantal** invullen waarop de kwaliteitsafwijking betrekking heeft.
+* Een **opmerking** toevoegen voor extra toelichting.
+
+De opgegeven opmerking wordt opgeslagen in het memo-veld van de verdeling, zodat deze later traceerbaar is in de backoffice.
+
+<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/15.png"></details>
+
+
 ### Stickers printen
 
 In het detailscherm kunt u voorraad- of prijsstickers printen. De beschikbare lay-outs en printers zijn vooraf ingesteld.
@@ -112,7 +132,7 @@ Aan het einde van de controle is zichtbaar of alle voorraadregels zijn gecontrol
 
 ## Versiebeheer & Ontwikkelfase
 
-> **Laatste update:** 26 juni 2025  
+> **Laatste update:** 22 oktober 2025  
 > **Huidige ontwikkelfase:** Dev phase 2 afgerond
 
 Deze handleiding is gebaseerd op de actuele Inventory App en wordt periodiek bijgewerkt bij nieuwe functionaliteit of gewijzigde policies.
