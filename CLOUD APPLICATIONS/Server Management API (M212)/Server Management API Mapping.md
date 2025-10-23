@@ -647,6 +647,7 @@
 |FloridaySalesOrderId|SalesOrderId|
 |ParcelType|PARTTYPE|
 |UnitCode|UNITCOD|
+|TotalSalesLinePrice|INCLREGKK|
 
 ## PurchaseHistory (hpartij)
 
