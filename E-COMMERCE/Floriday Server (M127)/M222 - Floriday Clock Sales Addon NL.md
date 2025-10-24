@@ -1,4 +1,4 @@
-# Handleiding FLoriday Clock sales
+# Handleiding Floriday Server Clock Sales add-on
 
 Er vanuit gaande dat de module Floriday Server is ingericht voor aanbieden op floriday danwel Connect afrekenen via de Floriday API zijn alleen onderstaande instellingen (deze worden pas actief bij activatie van de module Floriday Clock Sales addon) nodig om te kunnen veilen via de Floriday API.
 
