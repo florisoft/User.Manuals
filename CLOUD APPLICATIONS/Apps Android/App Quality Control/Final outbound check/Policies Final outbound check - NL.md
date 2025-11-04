@@ -31,14 +31,11 @@ Per policy wordt uitgelegd wat de functie is, hoe deze geconfigureerd wordt en w
 
 ---
 
-### `Overview`
+### `OrderOverview`
 De **policy-groep** `Overview` bestaat uit instellingen waarmee u bepaalt welke orders zichtbaar zijn op de Order Overview-pagina in de app.
 
 #### `ShowHubs`
 Bepaalt of orders gegroepeerd worden op hub niveau in de selectielijst bij het kiezen van een order.
-
-#### `ShowWarningIfIncomplete`
-Toont een waarschuwing wanneer de inspectie niet compleet is. Dit kan handig zijn omdat het voorkomt dat een order of proces wordt afgerond zonder dat alle verplichte controles zijn uitgevoerd.  
 
 #### `ScopeDateFilter`
 Filtert het orderoverzicht in de eindcontrole op basis van een datum.
@@ -64,7 +61,7 @@ Bepaalt het aantal dagen **na vandaag** waar het datumbereik eindigt voor het op
 - **1 = morgen**  
 - **2 = overmorgen**  
 
-#### `OrderProgressDisplayType`
+#### `ProgressDisplayType`
 
 Met deze policy bepaalt u wat er in de voortgangsbalk (progress bar) van de order wordt weergegeven tijdens de eindcontrole.
 
@@ -78,7 +75,19 @@ Een order bestaat uit **3 orderregels** en **7 colli’s**.
     
 - Wanneer de policy op **Kolli** staat, toont de voortgangsbalk een totaal van **7**.
 
+#### `OrderItemQuantityDisplayType`
+Bepaalt hoe het aantal van de order wordt weergegeven in de app.  
+
+Beschikbare opties:
+
+* **Colli × inhoud + restant (standaard)**  
+  Toont het aantal colli met hun inhoud plus eventuele losse stelen die overblijven.
+
+* **Stelen**  
+  Toont het totaal aantal stelen.
+
 ---
+
 ### `Addons`
 De **policy-groep** `addons` bestaat uit instellingen waarmee u bepaalt welke addons gebruikt kunnen worden in de app.
 
@@ -94,7 +103,6 @@ Met deze policy kun je extra add-ons inschakelen die extra functionaliteit aan d
 * **ExceptionRegistration**  
   Integreert met de ExceptionRegistration-functionaliteit, waarmee gebreken of afwijkingen aan een orderitem geregistreerd kunnen worden.  
   Dit helpt bij het vastleggen van problemen voor opvolging.
-
 
 ---
 
@@ -154,15 +162,7 @@ Staat toe om een hele order met één actie af te ronden, ook als niet alle item
 
 ---
 
-### `OrderItemQuantityDisplayType`  
-Bepaalt hoe het aantal van de order wordt weergegeven in de app.  
-
-**Opties:**
-
-* **Colli × inhoud + restant (standaard)**  
-  Toont het aantal colli met hun inhoud plus eventuele losse stelen die overblijven.
-
-* **Stelen**  
-  Toont het totaal aantal stelen.
+### `ShowWarningIfIncomplete`
+Toont een waarschuwing wanneer de inspectie niet compleet is. Dit kan handig zijn omdat het voorkomt dat een order of proces wordt afgerond zonder dat alle verplichte controles zijn uitgevoerd.  
 
 ---
