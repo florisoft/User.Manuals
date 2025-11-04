@@ -86,6 +86,14 @@ Beschikbare opties:
 * **Stelen**  
   Toont het totaal aantal stelen.
 
+#### `StockItemIdDisplayType`
+Geeft aan welke partij-identificatie wordt weergegeven in de app. Enkel de **laatste vier cijfers** worden getoond voor duidelijkheid en gebruiksgemak.
+
+**Beschikbare opties:**
+
+- `PartijNr`
+- `VPartijNr`
+
 ---
 
 ### `Addons`
