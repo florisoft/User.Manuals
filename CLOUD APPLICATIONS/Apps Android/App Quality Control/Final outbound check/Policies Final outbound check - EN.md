@@ -31,18 +31,14 @@ Each policy explains its function, how it is configured, and what to keep in min
 
 ---
 
-### `Overview`
+### `OrderOverview`
 The **policy group** `Overview` contains settings that determine which orders are visible on the **Order Overview** page in the app.
 
 #### `ShowHubs`
-Specifies whether orders are grouped by hub in the selection list when choosing an order.
-
-#### `ShowWarningIfIncomplete`
-Displays a warning when the inspection is not complete.  
-This is useful because it prevents an order or process from being completed without all required checks having been performed.
+Determines whether orders are grouped by hub in the selection list when choosing an order.
 
 #### `ScopeDateFilter`
-Filters the order overview in the final check based on a specific date.
+Filters the order overview in the final check based on a date.
 
 **Options:**
 * Order date  
@@ -51,33 +47,49 @@ Filters the order overview in the final check based on a specific date.
 * Purchase date  
 
 #### `ScopeDateFromDays`
-Determines the number of days **before today** that form the start date of the date range for retrieving the pending orders in the order overview.  
+Determines the number of days **before today** that form the start of the date range for retrieving the pending orders in the order overview.  
 
 - **0 = today**  
 - **1 = yesterday**  
 - **2 = two days ago**  
-- **No negative values** are required (use `2` instead of `-2`).  
+- **No negative values** should be entered (use `2` instead of `-2`).  
 
 #### `ScopeDateToDays`
-Determines the number of days **after today** that form the end date of the date range for retrieving the pending orders in the order overview.  
+Determines the number of days **after today** that form the end of the date range for retrieving the pending orders in the order overview.  
 
 - **0 = today**  
 - **1 = tomorrow**  
 - **2 = the day after tomorrow**  
 
-#### `OrderProgressDisplayType`
+#### `ProgressDisplayType`
+Defines what is displayed in the progress bar of the order during the final check.
 
-This policy allows you to determine what is displayed in the order's progress bar during the final check.
-
-You can choose whether the progress is based on the number of colli's or the number of order lines.  
-This offers flexibility in how the progress of the order process is visually presented in the app.
+You can choose whether the progress is based on the number of colli or the number of order lines.  
+This provides flexibility in how the progress of the order process is visually presented in the app.
 
 **Example:**  
-An order consists of **3 order lines** and **7 Colli's**.
+An order consists of **3 order lines** and **7 colli**.
 
-- When the policy is set to **Order lines**, the progress bar shows a total of **3**.
+- When the policy is set to **Order lines**, the progress bar shows a total of **3**.  
+- When the policy is set to **Colli**, the progress bar shows a total of **7**.
 
-- When the policy is set to **Colli's**, the progress bar shows a total of **7**.
+#### `OrderItemQuantityDisplayType`
+Determines how the quantity of the order is displayed in the app.  
+
+**Options:**
+
+* **Colli × content + remainder (default)**  
+  Displays the number of colli with their content plus any remaining items.
+
+* **Stems**  
+  Displays the total number of stems.
+
+#### `StockItemIdDisplayType`
+Specifies which product identification is displayed in the app. Only the **last four digits** are shown for clarity and ease of use.
+
+**Options:**
+- `PartijNr`
+- `VPartijNr`
 
 ---
 
@@ -85,26 +97,26 @@ An order consists of **3 order lines** and **7 Colli's**.
 The **policy group** `Addons` contains settings that determine which add-ons can be used in the app.
 
 #### `EnableAddons`
-Allows you to enable additional add-ons that add extra functionality to the app.
+Allows you to enable additional add-ons that add extra functionality to the app.  
 
 **Options:**
 
 * **Photos**  
   Allows adding a photo to an order.  
-  Useful for taking a picture of the load carrier to verify later whether a product was actually shipped.
+  This is useful, for example, to take a picture of the load carrier so it can later be verified that a product was indeed shipped.
 
 * **ExceptionRegistration**  
-  Integrates with the ExceptionRegistration functionality, enabling the registration of defects or discrepancies on an order item.  
+  Integrates with the ExceptionRegistration functionality, allowing defects or discrepancies on an order item to be registered.  
   This helps document issues for follow-up and quality control.
 
 ---
 
 ### `BarcodeDecodeOptions`
 Determines which barcode types (for example Trolley barcode, Order item barcode, or FSQR) are recognized during the final check.  
-The *decoder* is the piece of information encoded in the barcode layout, allowing the app to know how to read the barcode.
+The *decoder* is simply the piece of information embedded in the barcode layout, allowing the app to know how to interpret the barcode.
 
 **Usage:**
-* Select only the barcode types used in your process for faster and more efficient scanning.
+* Select only the barcode types used in your process for faster and more efficient scanning.  
 * Multiple types can be selected simultaneously.
 
 ---
@@ -114,52 +126,56 @@ Requires the user to provide a digital signature when completing the final check
 This applies specifically to the CMR document.
 
 **Usage:**
-* Without a signature, the order cannot be closed.
+* Without a signature, the order cannot be closed.  
 * Increases the legal validity and traceability of the process.
 
 ---
 
 ### `CountingStrategy`
-Defines the default method for incrementing the checked quantity during the final check.
+Defines the default method for incrementing the verified quantity during the final check.
 
 **Options:**
-* Scan counts the entire item directly.
-* Scan counts based on the number of colli.
-* Scan counts based on the value embedded in the barcode.
+* Scan counts the entire item directly.  
+* Scan counts based on the number of colli.  
+* Scan counts based on the value embedded in the barcode.  
 
 ---
 
 ### `AllowResetOrderItem`
-Specifies whether the count of a specific order line can be reset to zero.
+Determines whether the count of a specific order line can be reset to zero.
 
 **Usage:**
-* Useful for correcting mistakes made during scanning.
+* Useful in case of scanning errors.  
 * Provides flexibility to recheck individual items.
 
 ---
 
 ### `AllowResetEntireTarget`
-Specifies whether the entire check can be reset at once.
+Determines whether the entire check can be reset at once.
 
 **Usage:**
-* Helpful in the event of major errors or when a complete recheck is required.
+* Useful for major errors or when performing a complete recheck.
 
 ---
 
 ### `AllowCompleteEntireTarget`
-Allows an entire order to be completed in one action, even if not all items have been checked individually.
+Allows an entire order to be completed in one action, even if not all items have been individually checked.
 
 **Usage:**
-* Useful for exceptional situations or to speed up processes.
+* Useful in exceptional situations or to speed up processes.
 
 ---
 
-### `OrderItemQuantityDisplayType`
-Determines how the order quantity is displayed in the app.
+### `StoreScannedBarcodes`
+Determines whether scanned barcodes are stored in the database (table BARCODES).  
+When this option is enabled, each barcode is recorded to prevent a product from being registered multiple times.  
+This is only recommended if each product has a **unique barcode**.  
+If there is no unique value in the barcode, disable the policy to prevent error messages about duplicate scanned barcodes.
 
-**Options:**
-* **Colli × content + remainder (default)**  
-  Displays the number of colli with their content plus any remaining single stems.
+---
 
-* **Stems**  
-  Displays the total number of individual stems.
+### `ShowWarningIfIncomplete`
+Displays a warning when the inspection is not complete.  
+This can be helpful as it prevents an order or process from being completed without all required checks having been performed.
+
+---
