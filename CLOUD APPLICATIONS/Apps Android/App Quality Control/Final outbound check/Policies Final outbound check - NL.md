@@ -170,6 +170,12 @@ Staat toe om een hele order met één actie af te ronden, ook als niet alle item
 
 ---
 
+### `StoreScannedBarcodes`
+Bepaalt of gescande barcodes worden opgeslagen in de database (tabel BARCODES). Wanneer deze optie is ingeschakeld, wordt elke barcode vastgelegd om te voorkomen dat een product meerdere keren wordt geregistreerd. Dit is alleen aan te raden als elk product een unieke barcode heeft. Als er geen unieke waarde in de barcode zit, schakel dan de policy uit om foutmeldingen over dubbel gescande barcodes te voorkomen.
+
+
+---
+
 ### `ShowWarningIfIncomplete`
 Toont een waarschuwing wanneer de inspectie niet compleet is. Dit kan handig zijn omdat het voorkomt dat een order of proces wordt afgerond zonder dat alle verplichte controles zijn uitgevoerd.  
 
