@@ -21,20 +21,8 @@ Er zijn twee hoofdtypen licenties beschikbaar binnen Florisoft:
 - Bij het inloggen wordt automatisch gezocht naar een vrije licentie key.
 - Zodra een gebruiker uitlogt, komt de licentie weer beschikbaar voor iemand anders.
 - Dit type licentie is ideaal in situaties waar meerdere medewerkers afwisselend met Florisoft werken.
-## 2. Automatisch ophalen van licentie keys
 
-Om licentie keys automatisch op te halen, moet de **timerfunctie _Licentie keys vernieuwen_ (GETLICENSEKEYS)** worden ingesteld.  
-Wij raden aan deze functie **één keer per week** uit te voeren, zodat alle licenties up-to-date blijven.
-
-**Aanbevolen instelling:**
-
-- **Timer functie:** `Licentie keys vernieuwen (GETLICENSEKEYS)`
-    
-- **Frequentie:** 1x per week
-    
-- **Doel:** Vernieuwen en synchroniseren van licentiegegevens
-    
-## 3. Licenties beheren via het _Manage Licenses_-scherm
+## 2. Licenties beheren via het _Manage Licenses_-scherm
 Om het **License Management**-scherm te openen, ga je in **Florissoft.NET Navigator** naar:
 **Systeem → Manage licenses**
 
@@ -62,7 +50,6 @@ Hier kun je controleren of de licenties correct zijn bijgewerkt en eventueel han
     - Het **tijdstip van claimen**.
         
     - De **laatste activiteit** van de betreffende licentie.
-        
     
     Hiermee kun je eenvoudig controleren of een licentie actief wordt gebruikt en op welk systeem deze is geregistreerd.
 
@@ -70,3 +57,16 @@ Hier kun je controleren of de licenties correct zijn bijgewerkt en eventueel han
 
 Om toegang te krijgen tot dit scherm, moet de **policy** `CanManageLicenses` zijn ingeschakeld voor de gebruiker.  
 Zonder deze policy is het scherm niet toegankelijk.
+
+## 3. Automatisch ophalen van licentie keys
+
+Om licentie keys automatisch op te halen, moet de **timerfunctie _Licentie keys vernieuwen_ (GETLICENSEKEYS)** worden ingesteld.  
+Wij raden aan deze functie **één keer per week** uit te voeren, zodat alle licenties up-to-date blijven.
+
+**Aanbevolen instelling:**
+
+- **Timer functie:** `Licentie keys vernieuwen (GETLICENSEKEYS)`
+    
+- **Frequentie:** 1x per week
+    
+- **Doel:** Vernieuwen en synchroniseren van licentiegegevens

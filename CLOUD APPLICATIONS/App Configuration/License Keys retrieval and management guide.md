@@ -6,62 +6,87 @@ License verification takes place automatically via the cloud server.
 Without a valid license, the apps will not start or will operate with limited functionality.
 
 Florisoft licenses are obtained per use case, ensuring that only the necessary modules or users receive a license.  
-It is therefore important to understand which license types are available and how they can be managed.
+It is therefore important to understand which license types are available and how these can be managed.
+
+---
+
 ## 1. License Types
 
 There are two main types of licenses available within Florisoft:
 
-**User License**
-- A user license is specifically linked to a single system user.  
-- Only this user can use the license; other users do **not** have access to it.  
-- This type of license is suitable when a specific user must always have access to certain features or modules.
+### **User License**
 
-**Floating License**
-- A floating license can be shared by multiple users.  
-- When logging in, the system automatically searches for an available license key.  
-- Once a user logs out, the license becomes available again for someone else.  
-- This type of license is ideal for environments where multiple employees use Florisoft alternately.
+- A user license is specifically linked to one system user.
+    
+- Only this user can use the license; other users do **not** have access to it.
+    
+- This type of license is suitable when a specific user must always have access to certain functionality or modules.
+    
 
-## 2. Automatically Retrieving License Keys
+### **Floating License**
 
-To automatically retrieve license keys, the **timer function _Renew License Keys_ (GETLICENSEKEYS)** must be configured.  
-We recommend running this function **once per week** to ensure all licenses remain up to date.
+- A floating license can be shared by multiple users.
+    
+- When logging in, the system automatically searches for a free license key.
+    
+- Once a user logs out, the license becomes available again for someone else.
+    
+- This type of license is ideal for environments where multiple employees alternately use Florisoft.
+    
 
-**Recommended configuration:**
+---
 
-- **Timer Function:** `Renew License Keys (GETLICENSEKEYS)`  
-- **Frequency:** Once per week  
-- **Purpose:** Refresh and synchronize license information  
-## 3. Managing Licenses via the _Manage Licenses_ Screen
+## 2. Managing Licenses via the _Manage Licenses_ Screen
 
-The **License Management** screen shows an overview of all retrieved licenses.  
-Here you can check whether the licenses have been updated correctly and perform manual actions if necessary.
+To open the **License Management** screen, go to:  
+**System → Manage Licenses** in **Florisoft.NET Navigator**.
+
+<img width="1001" height="297" alt="image" src="https://github.com/user-attachments/assets/7c9cb1f1-a6d4-4676-980a-0499d4940d19" />
+
+In the **License Management** screen you will see an overview of all retrieved licenses.  
+Here, you can check whether the licenses are up to date and perform manual actions if necessary.
+
 ### Functions in this screen
 
-- **Manually retrieve license keys**
-Use the **Refresh license keys** button to manually renew licenses.  
+- **Manually retrieve license keys**  
+    Use the **Refresh license keys** button to manually renew licenses.  
     This is useful when the automatic timer has not yet run or when immediate renewal is required.
     
 - **Assign licenses to users**  
     You can **assign user licenses to specific users**.  
-    This allows certain licenses to be used exclusively by that user.
+    This ensures that certain licenses can be used exclusively by that user.
     
 - **View claim information**  
-    This screen now shows:
+    This screen now displays:
     
-    - Which **system user** claimed the license.
+    - Which **system user** has claimed the license
         
-    - On which **device** the license was claimed.
+    - On which **device** the license has been claimed
         
-    - The **time of claiming**.
+    - The **time of claiming**
         
-    - The **last activity** of the license in question.
+    - The **last activity** of the corresponding license
         
     
-    This allows you to easily check whether a license is actively being used and on which system it is registered.
-#### Access rights
+    This allows you to easily verify whether a license is actively used and on which system it is registered.
 
-To access this screen, the **policy** `CanManageLicenses` must be enabled for the user.  
-Without this policy, the screen is not accessible.
+#### Access Rights
 
+To access this screen, the user must have the **policy** `CanManageLicenses` enabled.  
+Without this policy, the screen will not be accessible.
+
+---
+
+## 3. Automatically Retrieving License Keys
+
+To automatically retrieve license keys, the **timer function _Renew License Keys_ (GETLICENSEKEYS)** must be configured.  
+We recommend running this function **once per week** so that all licenses remain up to date.
+
+**Recommended Configuration:**
+
+- **Timer Function:** `Renew License Keys (GETLICENSEKEYS)`
+    
+- **Frequency:** Once per week
+    
+- **Purpose:** Renew and synchronize license data
 
