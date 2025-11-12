@@ -33,6 +33,7 @@
 |maxAgeInDays|MAXINETDAGEN|
 |auctionGrp|VEILGRP|
 |cuttingLoss|UITVAL|
+|ProductType|PRODSOORT|
 
 ## Constants/Articles (Artikel)
 
@@ -648,6 +649,7 @@
 |ParcelType|PARTTYPE|
 |UnitCode|UNITCOD|
 |TotalSalesLinePrice|INCLREGKK|
+|LineNumber|FACTREGEL|
 
 ## PurchaseHistory (hpartij)
 
@@ -1154,6 +1156,33 @@
 |customerGroupId|GROEPCOD|
 |version|_VERSION|
 |sequenceNumber|VOLGORDENUMMER|
+
+## Constants/CostsAndRebates (BERFACT)
+
+|API|DATABASE|
+|:--|:--|
+|Department|AFDELING|
+|Code|BERCOD|
+|Description|BERTXT|
+|Amount|BERSOM|
+|Percentage|BERPERC|
+|CalculationOption|BERKSTIEK|
+|VatCode|BTWCOD|
+|CurrencyCode|VALCOD|
+|ScaleId|STAFFELKEY|
+|TotalQuantity|LEVTOTAAL|
+|Price|PART2PRIJS|
+|StemPrice|PRIJSSTEEL|
+|ColliPrice|PRIJSKOLLI|
+|KoaPrice|KOAPRIJS|
+|LinePrice|REGELPRIJS|
+|GroupCode|GROEPCOD|
+|Type|TYPE|
+|ApplyStockOption|VRDCON|
+|Id|ID|
+|ApplySupplierOption|TOEPASSENLEVERANCIER|
+|Version|_VERSION|
+|PKey|_pkey|
 
 ## OutstandingInvoices (OPENPOST)
 
