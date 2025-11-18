@@ -9,7 +9,7 @@ To ensure the correct integration between Florisoft and Floriday, both the **fin
 |----------|--------|
 | EKTVoorlopigeKVVOokRFFBT | True |
 | KlokVoorVerkoopEktBGMCheck | True |
-| KlokVoorVerkoopEktInleesType | HPartij_updaten_indien_aanwezig_anders_inlezen |
+| KlokVoorVerkoopEktInleesType | Niet_inlezen_maar_HPartij_wel_updaten |
 | KlokVVBGMVeilCodes | 1;2;3 |
 | KlokVVVoorlopigEktBGMCheck | True |
 | KlokVVVoorlopigEktInleesType | Inlezen |
