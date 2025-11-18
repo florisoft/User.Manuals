@@ -1956,3 +1956,20 @@
 |packingDate|INPAKDAT|
 |pKey|_PKEY|
 |version|_VERSION|
+
+## UniqueCarriers (uniekedrager)
+
+| DATABASE      | API           |
+| :--           | :--           |
+| id            | Id            |
+| barcode       | Barcode       |
+| vestiging     | Branch        |
+| creatie       | Creation      |
+| locatie       | Location      |
+| partijnr      | ParcelId      |
+| aantal        | Quantity      |
+| status        | Status        |
+| vpartijnr     | VParcelId     |
+| xorderbarcode | XOrderBarcode |
+
+
