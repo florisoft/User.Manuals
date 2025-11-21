@@ -1,5 +1,13 @@
 # Introduction Florisoft Apps
 
+## App Structure Overview
+
+<img width="2012" height="1440" alt="App structuur overview" src="https://github.com/user-attachments/assets/ecd718f8-b45a-4330-9443-f8ff7c0d8d38" />
+
+### Explanation  
+The visual below shows how the different Florisoft Apps are organized across various functional domains, such as *Core Services*, *Sales*, *Inventory*, and *Logistics*.  
+For each app, the corresponding **use cases** are displayed, giving you a clear overview of which processes are supported by which app. 
+
 ## Licenses
 
 To use the Florisoft Apps, a valid license is required.  
