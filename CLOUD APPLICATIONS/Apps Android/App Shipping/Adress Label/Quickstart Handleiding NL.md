@@ -9,7 +9,7 @@ De workflow van de app is geconfigureerd op basis van de relevante policies.
 
 Met deze app kunnen gebruikers snel adres labels printen in poperationele processen zoals orderpicking of eindcontrole.
 
-> ℹ️ De uitgebreide handleiding voor het instellen van deze policies is beschikbaar via de volgende link: [Policies Adress label NL](...)
+> ℹ️ De uitgebreide handleiding voor het instellen van deze policies is beschikbaar via de volgende link: [Policies Adress label NL](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Shipping/Adress%20Label/Policies%20Adress%20label%20-%20NL.md)
 
 **Benodigdheden:**
 

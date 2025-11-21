@@ -10,7 +10,7 @@ The workflow of the app is configured based on the relevant policies.
 With this app, users can quickly print address labels in operational processes such as order picking or final outbound checks.
 
 > ℹ️ The extended manual for configuring these policies is available via the following link:  
-> **[Policies Address Label EN](...)**
+> **[Policies Address Label EN](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Shipping/Adress%20Label/Policies%20Adress%20label%20-%20EN.md)**
 
 **Requirements:**
 

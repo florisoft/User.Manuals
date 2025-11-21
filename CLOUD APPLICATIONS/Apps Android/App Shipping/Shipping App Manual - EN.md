@@ -10,5 +10,5 @@ With the Address Label functionality in the Shipping App, employees can quickly 
 
 Labels can be enriched with barcodes, customer references, and multiple copies if needed. The functionality can be used as a standalone module or integrated into other logistical workflows within Florisoft apps.
 
-* [Policy Manual](...)
-* [Quickstart Manual](...)
+* [Policy Manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Shipping/Adress%20Label/Policies%20Adress%20label%20-%20EN.md)
+* [Quickstart Manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Shipping/Adress%20Label/Quickstart%20Manual%20EN.md)
