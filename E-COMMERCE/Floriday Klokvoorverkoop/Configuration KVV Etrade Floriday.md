@@ -100,10 +100,7 @@ When processing final Clock Presale EKT’s, this monitors the **BGM segment** t
 Messages with **BGM 323** are not mistakenly treated as final.
 
 ### KlokVoorVerkoopEktInleesType → Niet_inlezen_maar_HPartij_wel_updaten
-When an EKT is received:  
-- The system first searches for an existing **HPartij** via the **RFF+VN reference**.  
-- If found → the batch is **updated**.  
-- If not found → a **new batch** is automatically created.
+
 
 ### KlokVVBGMVeilCodes → 1;2;3
 Defines which **auction codes (01, 02, 03)** are allowed to deliver Clock Presale messages.  
