@@ -106,11 +106,8 @@ Wanneer we de **EKT inlezen**, wordt op basis van de barcode in het **VN-segment
 Houdt bij het verwerken van definitieve Klokvoorverkoop-EKT’s het **BGM-segment** in de gaten.  
 Alleen berichten met **BGM 493** worden als definitief gezien. Berichten met **BGM 323** worden niet per ongeluk als definitief verwerkt.
 
-### KlokVoorVerkoopEktInleesType → HPartij_updaten_indien_aanwezig_anders_inlezen
-Bij binnenkomst van een EKT:
-- Eerst wordt gezocht naar een bestaande **HPartij** via de **RFF+VN-referentie**.  
-- Indien gevonden → de partij wordt **geüpdatet**.  
-- Indien niet gevonden → er wordt **automatisch een nieuwe partij** ingelezen.
+### KlokVoorVerkoopEktInleesType → Niet_inlezen_maar_HPartij_wel_updaten
+
 
 ### KlokVVBGMVeilCodes → 1;2;3
 Geeft aan welke **veilingcodes (01, 02, 03)** een Klokvoorverkoopbericht mogen leveren.  
