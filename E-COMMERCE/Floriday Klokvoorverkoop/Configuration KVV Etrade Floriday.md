@@ -99,7 +99,7 @@ When the **EKT** is read, the barcode in the **VN segment** is used to update th
 When processing final Clock Presale EKT’s, this monitors the **BGM segment** to ensure that only messages with **BGM 493** are processed as final.  
 Messages with **BGM 323** are not mistakenly treated as final.
 
-### KlokVoorVerkoopEktInleesType → HPartij_updaten_indien_aanwezig_anders_inlezen
+### KlokVoorVerkoopEktInleesType → Niet_inlezen_maar_HPartij_wel_updaten
 When an EKT is received:  
 - The system first searches for an existing **HPartij** via the **RFF+VN reference**.  
 - If found → the batch is **updated**.  
