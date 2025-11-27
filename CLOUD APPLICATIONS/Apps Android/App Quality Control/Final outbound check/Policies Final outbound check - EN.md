@@ -172,6 +172,17 @@ When this option is enabled, each barcode is recorded to prevent a product from 
 This is only recommended if each product has a **unique barcode**.  
 If there is no unique value in the barcode, disable the policy to prevent error messages about duplicate scanned barcodes.
 
+**Note – Clean up the BARCODES table**
+When `StoreScannedBarcodes` is enabled, the *BARCODES* table will grow over time.  
+Use the **Clean Up Tables** function to automatically clear old records:
+
+- Go to: **Constants → Timer → Clean Up Tables**  
+- Add the **BARCODES** table  
+- Set the retention period to **90 days**  
+- Ensure the **Clean Up Tables** timer is enabled
+
+This prevents unnecessary database growth.
+
 ---
 
 ### `ShowWarningIfIncomplete`

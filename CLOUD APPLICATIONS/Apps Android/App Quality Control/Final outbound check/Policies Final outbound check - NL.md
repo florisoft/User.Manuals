@@ -173,6 +173,16 @@ Staat toe om een hele order met één actie af te ronden, ook als niet alle item
 ### `StoreScannedBarcodes`
 Bepaalt of gescande barcodes worden opgeslagen in de database (tabel BARCODES). Wanneer deze optie is ingeschakeld, wordt elke barcode vastgelegd om te voorkomen dat een product meerdere keren wordt geregistreerd. Dit is alleen aan te raden als elk product een unieke barcode heeft. Als er geen unieke waarde in de barcode zit, schakel dan de policy uit om foutmeldingen over dubbel gescande barcodes te voorkomen.
 
+**Let op – tabel BARCODES opschonen**
+Wanneer `StoreScannedBarcodes` is ingeschakeld, loopt de tabel *BARCODES* op termijn vol.  
+Gebruik daarom de functie **Tabellen opschonen** om deze automatisch te legen:
+
+- Ga naar: **Constanten → Timer → Tabellen opschonen**  
+- Voeg de tabel **BARCODES** toe  
+- Stel de bewaartermijn in op **90 dagen**  
+- Controleer dat de timer **Tabellen opschonen** is ingeschakeld
+
+Dit voorkomt onnodige groei van de database.
 
 ---
 
