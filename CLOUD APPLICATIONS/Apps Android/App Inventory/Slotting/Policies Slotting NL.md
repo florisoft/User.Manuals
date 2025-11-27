@@ -112,6 +112,10 @@ Alleen de hier geselecteerde voorraden zijn zichtbaar en bewerkbaar in de Slotti
 Activeert de controle op vooraf gedefinieerde locatiecodes.
 Wanneer deze policy is ingeschakeld, controleert de app of de ingevoerde locatie voorkomt in de tabel **Partij locaties** in het constantenscherm. Alleen locatiecodes die daar zijn geregistreerd kunnen worden gebruikt.
 
+> ⚠️ **Aanbevolen gebruik**
+We raden aan om `CheckPredefinedLocationCodes` in te schakelen.  
+Door uitsluitend vooraf gedefinieerde locatiecodes toe te staan, kan de app het resultaat nauwkeuriger en consistenter bepalen. 
+
 ---
 
 ### `LinkParcelToLocationThenResetLocation`

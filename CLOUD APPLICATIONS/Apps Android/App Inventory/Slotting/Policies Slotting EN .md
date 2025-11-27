@@ -110,6 +110,10 @@ Only the selected stocks are visible and editable in the Slotting app.
 Enables validation of predefined location codes.
 When enabled, the app checks whether the entered location exists in the **Parcel locations** table in the constants screen. Only registered location codes can be used.
 
+> ⚠️ **Recommended Usage**  
+We recommend enabling `CheckPredefinedLocationCodes`.  
+By allowing only predefined location codes, the app can determine the result more accurately and consistently.
+
 ---
 
 ### `LinkParcelToLocationThenResetLocation`
