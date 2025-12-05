@@ -48,6 +48,8 @@ Here, you can check whether the licenses are up to date and perform manual actio
 
 ### Functions in this screen
 
+<img width="1920" height="1033" alt="afbeelding" src="https://github.com/user-attachments/assets/5f60e6a3-d1ce-412b-a00f-f5c74424cbd7" />
+
 - **Manually retrieve license keys**  
     Use the **Refresh license keys** button to manually renew licenses.  
     This is useful when the automatic timer has not yet run or when immediate renewal is required.
