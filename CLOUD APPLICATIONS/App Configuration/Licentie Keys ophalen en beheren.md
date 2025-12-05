@@ -32,6 +32,8 @@ In het scherm **License Management** zie je een overzicht van alle opgehaalde li
 Hier kun je controleren of de licenties correct zijn bijgewerkt en eventueel handmatig acties uitvoeren.
 ### Functies in dit scherm
 
+<img width="1920" height="1034" alt="afbeelding" src="https://github.com/user-attachments/assets/4cba4ded-b8d3-4434-9b2d-c4c48e83f171" />
+
 - **Handmatig licentiekeys ophalen**  
     Gebruik de knop **Refresh licensekeys** om licenties handmatig te vernieuwen.  
     Dit is handig wanneer de automatische timer nog niet is uitgevoerd of wanneer directe vernieuwing nodig is.
