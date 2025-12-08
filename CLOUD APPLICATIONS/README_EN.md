@@ -17,6 +17,26 @@ Without a valid license, the apps will not start or will operate with limited fu
 New licenses or modifications to existing ones can be requested via [Florisoft Support](https://www.florisoft.nl/contact)
 
 > For more information on retrieving and managing license keys, see the [License Keys Retrieval and Management Guide](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/App%20Configuration/License%20Keys%20retrieval%20and%20management%20guide.md)
+
+## App integrations (in-app functionalities of other apps)
+
+Florisoft Apps can work together seamlessly through integrated functionality.  
+This means that a user can perform tasks within one app that are technically handled by another app, without the need for a separate installation.
+
+### License-based activation
+An integrated feature becomes visible **when the corresponding license is active**.  
+Important to note:
+
+- The additional app does **not need to be installed** on the device.  
+- Once the license is active, the function becomes **automatically available** within the relevant app.  
+- Without a license, the functionality is **not displayed**, keeping the interface clear.
+
+### Example: Printing an address label from FinalOutboundCheck  
+After completing a check process in the **FinalOutboundCheck** app, the user may want to **print an address label**.
+
+- If the customer has an **AddressLabel license**, the additional option *“Print address label”* will automatically appear.  
+- If the customer does **not have a license**, this option will remain hidden and the workflow will not change.
+
 ## Updates
 
 Florisoft Apps are regularly updated with new features, improvements, and security updates. Updates are handled automatically via the cloud server.
