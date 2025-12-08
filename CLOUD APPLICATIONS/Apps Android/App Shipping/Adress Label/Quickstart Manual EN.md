@@ -17,6 +17,18 @@ With this app, users can quickly print address labels in operational processes s
 - Florisoft Shipping App  
 - License for Address Label
 
+### 🔗 Available integrations
+
+The Address Label functionality can also be opened automatically from other Florisoft Apps.  
+Once the relevant license is active, the *Print address label* function will appear in other apps that support this action.
+
+**This integration is available in the following Florisoft Apps:**
+
+- **OrderPicking**
+- **FinalOutboundCheck**
+
+➡️ For more information about app integrations, see the general guide:  
+https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/README_EN.md 
 ---
 
 ## Address Label Procedure
