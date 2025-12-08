@@ -20,6 +20,25 @@ Nieuwe licenties of aanpassingen aan bestaande licenties kunnen worden aangevraa
 
 > Voor meer informatie over het ophalen en beheren van licenties, zie de [Handleiding Licentie Keys Ophalen en Beheren](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/App%20Configuration/Licentie%20Keys%20ophalen%20en%20beheren.md)
 
+## App-integraties (in-app functionaliteiten van andere apps)
+
+Florisoft Apps kunnen naadloos samenwerken door middel van geïntegreerde functionaliteit.  
+Dit betekent dat een gebruiker binnen één app taken kan uitvoeren die technisch door een andere app worden verzorgd, zonder dat hiervoor een aparte installatie nodig is.
+
+### Licentie-gebaseerde activering  
+Een geïntegreerde functie wordt zichtbaar **wanneer de bijbehorende licentie actief is**.  
+Belangrijk hierbij:
+
+- De aanvullende app hoeft **niet geïnstalleerd** te zijn op het apparaat.  
+- Zodra de licentie actief is, wordt de functie **automatisch beschikbaar** binnen de relevante app.  
+- Zonder licentie wordt de functionaliteit **niet getoond**, zodat de interface overzichtelijk blijft.
+
+### Voorbeeld: Adreslabel printen vanuit FinalOutboundCheck  
+Na het afronden van een controleproces in de **FinalOutboundCheck**-app wil de gebruiker mogelijk een **adreslabel printen**.
+
+- Beschikt de klant over een **AddressLabel-licentie**, dan verschijnt automatisch de extra optie *“Print address label”*.  
+- Heeft de klant **geen licentie**, dan blijft deze optie verborgen en verandert de workflow niet.
+
 ## Updates
 
 De Florisoft Apps worden regelmatig bijgewerkt met nieuwe functionaliteit, verbeteringen en beveiligingsupdates. Updates verlopen automatisch via de cloudserver.
