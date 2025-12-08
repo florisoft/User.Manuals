@@ -7,8 +7,8 @@ De handleiding voor deze module vindt u hier [Handleiding Floriday Server](https
 
 
 Deze instellingen stel je in per Veil-debiteur.
+<img width="987" height="877" alt="2025-10-13-16-15-06" src="https://github.com/user-attachments/assets/82d35846-4371-4b37-8644-6c5e7c6fd662" />
 
-![](2025-10-13-16-15-06.png)
 
 1. Met deze instelling geef je aan dat je voor deze debiteur wil veilen via Floriday
 2. Met deze instelling geef je aan of de partijen ook beschikbaar moeten zijn op Klokvoorverkoop
