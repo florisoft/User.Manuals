@@ -54,7 +54,16 @@ Supported barcodes may include:
 
 ### Step 4: Register an exception
 
-After scanning a valid barcode, the registration form appears. Follow these steps:
+After scanning a valid barcode, the registration form will appear.  
+<details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/4.png"></details>
+
+If **an exception for this item or location has already been registered**, you will see a banner at the top:
+
+#### 🔶 Banner: *“Previous exception has been registered”*  
+This message indicates that an exception already exists.  
+You can still register a new exception.
+
+<details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/4B.png"></details>
 
 1. **Select the reason**  
    The available reasons are retrieved automatically.  

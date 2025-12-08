@@ -54,7 +54,16 @@ Ondersteunde barcodes kunnen zijn:
 
 ### Stap 4: Registreer een exceptie
 
-Na het scannen van een geldige barcode verschijnt het registratieformulier. U doorloopt de volgende stappen:
+Na het scannen van een geldige barcode verschijnt het registratieformulier.  
+<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/4.png"></details>  
+
+Wanneer er **al eerder een exceptie voor dit artikel of deze locatie is geregistreerd**, ziet u bovenaan een banner:
+
+#### 🔶 Banner: *“Previous exception has been registered”*  
+Deze melding geeft aan dat er reeds een exceptie bestaat.  
+U kunt alsnog een nieuwe exceptie registreren.
+
+<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/4B.png"></details>
 
 1. **Kies de reden**
    De beschikbare redenen worden opgehaald.
@@ -71,7 +80,7 @@ Na het scannen van een geldige barcode verschijnt het registratieformulier. U do
    Tik op het vinkje om te bevestigen. Bij succes verschijnt de melding **"Exception submitted"**.
    Het resterende te verwerken aantal wordt direct aangepast.
 
-<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/4.png"></details>
+
 
 > ℹ️ Alle geregistreerde excepties worden ook automatisch vastgelegd in de partijlog, inclusief details zoals reden en gebruiker.
 
