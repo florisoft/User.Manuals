@@ -127,3 +127,5 @@ Average processing time:
 > **± 10 minutes**
 
 Until the webshop finishes processing, it may seem like the photo “was not saved”, while in reality the webshop simply has not made it available yet.
+
+> ℹ️ We are working on an indicator that shows immediately after taking a photo that it is **being processed**. This gives the user clear visual feedback until the webshop has synchronized the photo.

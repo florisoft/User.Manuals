@@ -129,4 +129,6 @@ Gemiddelde verwerkingstijd:
 
 Totdat de webshop de foto heeft verwerkt, kan het lijken alsof de foto “niet is opgeslagen”, maar dat komt doordat de webshop de foto nog niet levert aan de app.
 
+> ℹ️ We zijn bezig met een indicatie dat direct na het maken van een foto aangeeft dat deze **in verwerking** is. Hiermee krijgt de gebruiker duidelijk visuele feedback totdat de webshop de foto heeft gesynchroniseerd.
+
 ---
