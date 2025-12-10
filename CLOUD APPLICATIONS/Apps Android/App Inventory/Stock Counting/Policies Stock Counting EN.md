@@ -143,7 +143,7 @@ When this policy is enabled (`True`):
 - The photo is stored at **parcel level** and, once processed, is used in all modules that display parcel photos.
     
 
-> ℹ️ A more extensive technical explanation is provided in the separate manual _“Technical operation – Taking or changing parcel photos”_.
+> ℹ️ A more extensive technical explanation is provided in the separate manual [Technical operation – Taking or changing parcel photos](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Inventory/Stock%20Counting/Technical%20operation%20%E2%80%93%20Taking%20or%20changing%20parcel%20photos.md)
 
 ---
 

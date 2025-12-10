@@ -145,7 +145,7 @@ Wanneer deze policy is ingeschakeld (`True`):
 - De foto wordt opgeslagen op **partijniveau** en na verwerking gebruikt in alle modules die partijfoto’s tonen.
     
 
-> ℹ️ De uitgebreide technische uitleg wordt beschreven in de aparte handleiding _Technische werking – Partijfoto’s maken of wijzigen_.
+> ℹ️ De uitgebreide technische uitleg wordt beschreven in de aparte handleiding [Technische werking – Partijfoto’s maken of wijzigen](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Inventory/Stock%20Counting/Technische%20werking%20%E2%80%93%20Partijfoto%E2%80%99s%20maken%20of%20wijzigen.md).
 
 ---
 

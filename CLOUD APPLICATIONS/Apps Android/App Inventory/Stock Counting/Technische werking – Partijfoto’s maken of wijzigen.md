@@ -1,6 +1,8 @@
 ![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
 
 
+# Technische werking – Partijfoto’s maken of wijzigen
+
 Wanneer een gebruiker in de Inventory-app een partijfoto maakt, doorloopt deze foto een aantal stappen voordat hij zichtbaar is in de app. Hieronder vind je eerst het totale proces in één overzicht, waarna de stappen verder worden uitgelegd.
 
 ---

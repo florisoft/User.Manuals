@@ -1,4 +1,7 @@
 ![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
+
+# Technical operation – Taking or changing parcel photos.
+
 When a user takes a parcel photo in the Inventory app, the image goes through several steps before becoming visible in the app. Below you will first find a complete overview, followed by a detailed explanation of each step.
 
 ---
