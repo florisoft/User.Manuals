@@ -119,6 +119,32 @@ Available options:
 * **Stems**  
   Displays the total number of individual stems.
 
+#### `AllowManageStockItemPhotos`
+
+This policy determines whether users can **take and save a parcel photo** within the **Stock Item Detail page**.
+
+### What does this policy do?
+
+When this policy is enabled (`True`):
+
+- The user can **only within the Stock Item Detail page** (the screen where parcel details are viewed and edited) take a new photo using the device's camera.
+    
+- The captured photo is immediately stored as the **ExfotoUrl** of the parcel and replaces an existing photo if present.
+    
+
+### Special Notes
+
+- Photos can **only** be taken in the Stock Item Detail page.
+    
+- Uploading from gallery/files is **not possible** — only direct camera capture is supported.
+    
+- Visibility depends on **webshop caching** and may take approx. **10 minutes**.
+    
+- The photo is stored at **parcel level** and, once processed, is used in all modules that display parcel photos.
+    
+
+> ℹ️ A more extensive technical explanation is provided in the separate manual _“Technical operation – Taking or changing parcel photos”_.
+
 ---
 
 ### `StockMutationSettings`

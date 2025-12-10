@@ -122,6 +122,31 @@ Beschikbare opties:
 * **Stelen**  
   Toont het totaal aantal stelen.
 
+#### `AllowManageStockItemPhotos`
+
+Deze policy bepaalt of gebruikers een **partijfoto kunnen maken en opslaan** binnen de **Stock Item Detail-pagina**.
+
+#### Wat doet deze policy?
+
+Wanneer deze policy is ingeschakeld (`True`):
+
+- De gebruiker kan **uitsluitend binnen de Stock Item Detail-pagina** (het scherm waarin partijdetails worden bekeken en aangepast) een nieuwe foto maken met de camera van het apparaat.
+    
+- De gemaakte foto wordt direct opgeslagen als **ExfotoUrl** van de partij en vervangt een bestaande foto indien aanwezig.
+
+#### Bijzonderheden
+
+- Foto’s kunnen **alleen** gemaakt worden in de Stock Item Detail-pagina.
+    
+- Uploaden vanuit galerij/bestanden is **niet mogelijk** — alleen direct fotograferen.
+    
+- Zichtbaarheid is afhankelijk van **webshop-caching** en kan +/- 10 minuten duren.
+    
+- De foto wordt opgeslagen op **partijniveau** en na verwerking gebruikt in alle modules die partijfoto’s tonen.
+    
+
+> ℹ️ De uitgebreide technische uitleg wordt beschreven in de aparte handleiding _Technische werking – Partijfoto’s maken of wijzigen_.
+
 ---
 
 ### `StockMutationSettings`
