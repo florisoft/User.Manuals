@@ -4,8 +4,7 @@
 
 When a user takes a parcel photo in the Inventory app, the image goes through several steps before becoming visible in the app. Below you will first find a complete overview, followed by a detailed explanation of each step.
 
----
-
+> ℹ️  To use this function, the policy `Apps_Inventory_StockCounting_StockItemDetailSettings_AllowManageStockItemPhotos` must be enabled. 
 ## 1. Process Overview
 
 ```
@@ -78,7 +77,7 @@ This URL is stored in `ExfotoUrl` so Florisoft knows where the photo can be retr
 ## 5. The Role of the Timer Process (LiveFoto)
 
 In addition to webshop processing, a **timer process** exists that prepares photos for internal Florisoft usage.  
-This process is called **FotoDown**.
+This timer process is called **FotoDownload**.
 
 ### What does the timer process do?
 

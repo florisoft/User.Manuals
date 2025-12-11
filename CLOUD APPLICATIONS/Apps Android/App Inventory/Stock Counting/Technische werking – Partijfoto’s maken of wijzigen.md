@@ -5,8 +5,7 @@
 
 Wanneer een gebruiker in de Inventory-app een partijfoto maakt, doorloopt deze foto een aantal stappen voordat hij zichtbaar is in de app. Hieronder vind je eerst het totale proces in één overzicht, waarna de stappen verder worden uitgelegd.
 
----
-
+> ℹ️  Om deze functie te kunnen gebruiken, moet de policy `Apps_Inventory_StockCounting_StockItemDetailSettings_AllowManageStockItemPhotos` zijn ingeschakeld. 
 ## 1. Procesoverzicht
 
 ```
@@ -79,7 +78,7 @@ Dit adres wordt opgeslagen in `ExfotoUrl`, zodat Florisoft weet waar de foto gev
 ## 5. De rol van het timerproces (LiveFoto)
 
 Naast de webshopverwerking bestaat er een **timerproces** dat foto’s gereedmaakt voor intern gebruik binnen Florisoft.  
-Dit proces heet **FotoDown**.
+Dit timer proces heet **FotoDownload**.
 
 ### Wat doet het timerproces?
 
