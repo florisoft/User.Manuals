@@ -55,6 +55,9 @@ Hier kun je controleren of de licenties correct zijn bijgewerkt en eventueel han
     
     Hiermee kun je eenvoudig controleren of een licentie actief wordt gebruikt en op welk systeem deze is geregistreerd.
 
+- **Scherm verversen**
+    Met de **Refresh**-knop wordt het scherm handmatig ververst, zodat actieve licenties direct zichtbaar zijn met de meest recente claim- en activiteitsinformatie.
+
 #### Toegangsrechten
 
 Om toegang te krijgen tot dit scherm, moet de **policy** `CanManageLicenses` zijn ingeschakeld voor de gebruiker.  
