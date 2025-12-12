@@ -69,8 +69,10 @@ Here, you can check whether the licenses are up to date and perform manual actio
         
     - The **last activity** of the corresponding license
         
-    
     This allows you to easily verify whether a license is actively used and on which system it is registered.
+  
+- **Refresh the screen**
+    Using the **Refresh** button, the screen can be manually refreshed so that active licenses are immediately displayed with the most up-to-date claim and activity information.
 
 #### Access Rights
 
