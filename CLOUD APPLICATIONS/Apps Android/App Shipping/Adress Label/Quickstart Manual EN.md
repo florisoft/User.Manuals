@@ -27,8 +27,8 @@ Once the relevant license is active, the *Print address label* function will app
 - **OrderPicking**
 - **FinalOutboundCheck**
 
-➡️ For more information about app integrations, see the general guide:  
-https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/README_EN.md 
+➡️ For more information about app integrations, see the [General guide](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/README_EN.md) 
+
 ---
 
 ## Address Label Procedure
