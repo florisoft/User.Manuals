@@ -107,6 +107,8 @@ Met deze policy kun je extra add-ons inschakelen die extra functionaliteit aan d
 * **Foto's**  
   Maakt het mogelijk om een foto aan een order toe te voegen.  
   Dit is handig om bijvoorbeeld een foto van de ladingdrager te maken, zodat later kan worden gecontroleerd of een product daadwerkelijk is meegestuurd.
+	>  **Let op!**  
+	  Bij gebruik van deze functie worden foto’s op de server opgeslagen. Dit kan ervoor zorgen dat de schijfruimte volloopt. Zorg er daarom voor dat de Timer-functie **‘Tabellen opschonen’** actief is en de foto’s opruimt. Dit stel je in door de tabel **EindcontroleFoto** toe te voegen via **Constanten → Timer → Tabellen opschonen**.  Wij adviseren een bewaartermijn van **90 dagen**.
 
 * **ExceptionRegistration**  
   Integreert met de ExceptionRegistration-functionaliteit, waarmee gebreken of afwijkingen aan een orderitem geregistreerd kunnen worden.  

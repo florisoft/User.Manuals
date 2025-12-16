@@ -104,6 +104,8 @@ Allows you to enable additional add-ons that add extra functionality to the app.
 * **Photos**  
   Allows adding a photo to an order.  
   This is useful, for example, to take a picture of the load carrier so it can later be verified that a product was indeed shipped.
+	> **Please note!**  
+      When using this function, photos are stored on the server. This can cause the disk space to fill up. Therefore, make sure that the Timer function **“Clean up Purge tables”** is active and cleans up the photos. You can set this by adding the table **Final check photos** via **Constants → Timer → Clean up tables**.  We recommend a retention period of **90 days**.
 
 * **ExceptionRegistration**  
   Integrates with the ExceptionRegistration functionality, allowing defects or discrepancies on an order item to be registered.  
