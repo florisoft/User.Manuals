@@ -112,7 +112,7 @@ De back-up voorraad is een voorraad die wordt gebruikt op het moment dat er een 
 |**2**|Maak hier een voorraad aan door op de + knop te drukken, in principe is dit gewoon en standaard voorraad en hoeft er niets speciaals ingesteld te worden.|
 |**3**|Mocht u deze voorraad nog niet aangegeven hebben als binnenkomende voorraad ga dan terug naar [de bijhorende stap (#7)](#aanmaken-van-een-leverancier).| 
 
-## Kopelen van veilingkopers aan debiteuren
+## Koppelen van veilingkopers aan debiteuren
 
 Indien er een koop ontvangen wordt van een debiteur die nog niet bekend is in het systeem van Florisoft dan zal de koop binnen komen het debiteurnummer wat gevuld is bij de Leverancier met als ordernummer het Veiling koper nummer. Dit veilingkopernummer kan opgezocht worden in de constanten en koppelen aan een bestaande debiteur. Bestaat de debiteur helemaal nog niet in Florisoft dan moet er eerst een nieuwe debiteur aanmaken die daarna gekoppeld kan worden.
 
