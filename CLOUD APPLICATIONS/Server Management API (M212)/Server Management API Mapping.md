@@ -1991,4 +1991,15 @@
 | vpartijnr     | VParcelId     |
 | xorderbarcode | XOrderBarcode |
 
+## ParcelCustomerSettings (Voorraad Debiteur instellingen)
 
+|API              |DATABASE   |
+|:--              |:--        |
+|parcelNo         |PARTIJNR   |
+|customerID       |DEBNR      |
+|visible          |ZICHTBAAR  |
+|maxQuantity      |MAXAFNAME  |
+|pricePercentage  |PRIJSPERC  |
+|priceEuro        |PRIJSEURO  |
+|priceFixed       |PRIJSFIXED |
+|version          |_VERSION   |
