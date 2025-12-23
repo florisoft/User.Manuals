@@ -1685,38 +1685,39 @@
 
 ## Shipments (Verschep)
 
-|API|DATABASE|
-|:--|:--|
-|ShipmentId|VID|
-|DeparturePort|HAVENVERT|
-|ArrivalPort|HAVENAANK|
-|ShipmentType|VTYPE|
-|ShipmentNumber|VNUMMER|
-|ShipmentDate|VDATE|
-|OffloadDate|LOSDATE|
-|ExpectedOffloadDate|VERWLOSDATE|
-|OffloadCarrier|LOSTRANS|
-|CreationDate|CREATIE|
-|TransportCost|TRANSKOST|
-|ShipName|SCHIPNAAM|
-|ArrivalDate|AANKDATUM|
-|Quantity|AANTAL|
-|DeparturePortId|HAVAANTID|
-|ArrivalPortId|HAVAANKID|
-|Final|DEFINITIEF|
-|LoadingCarrier|LAADTRANSPORTEUR|
-|ClearanceCountry|LANDVANINKLAREN|
-|ClearningAgentId|INKLAARDERID|
-|LogisticalAgentId|TUSSENPERSOONID|
-|FreightForwarderLocation|EXPEDITIELOCATIE|
-|FreightContainerNumber|CONTAINERNUMMER|
-|AWBNumber|AWBNUMMER|
-|CustomsInspection|DUANEINSPECTIE|
-|AirportDepartureID|AIRPORDEPARTUREID|
-|AirportArrivalId|AIRPORTARRIVALID|
-|DeliveryLocationId|LEVERLOCATIEID|
-|pKey|_PKEY|
-|version|_VERSION|
+|API                       |DATABASE           |
+|:--                       |:--                |
+|ShipmentId                |VID                |
+|DeparturePort             |HAVENVERT          |
+|ArrivalPort               |HAVENAANK          |
+|ShipmentType              |VTYPE              |
+|ShipmentNumber            |VNUMMER            |
+|ShipmentDate              |VDATE              |
+|OffloadDate               |LOSDATE            |
+|ExpectedOffloadDate       |VERWLOSDATE        |
+|OffloadCarrier            |LOSTRANS           |
+|CreationDate              |CREATIE            |
+|TransportCost             |TRANSKOST          |
+|ShipName                  |SCHIPNAAM          |
+|ArrivalDate               |AANKDATUM          |
+|Quantity                  |AANTAL             |
+|DeparturePortId           |HAVAANTID          |
+|ArrivalPortId             |HAVAANKID          |
+|Final                     |DEFINITIEF         |
+|LoadingCarrier            |LAADTRANSPORTEUR   |
+|ClearanceCountry          |LANDVANINKLAREN    |
+|ClearningAgentId          |INKLAARDERID       |
+|LogisticalAgentId         |TUSSENPERSOONID    |
+|FreightForwarderLocation  |EXPEDITIELOCATIE   |
+|FreightContainerNumber    |CONTAINERNUMMER    |
+|AWBNumber                 |AWBNUMMER          |
+|CustomsInspection         |DUANEINSPECTIE     |
+|AirportDepartureID        |AIRPORDEPARTUREID  |
+|AirportArrivalId          |AIRPORTARRIVALID   |
+|DeliveryLocationId        |LEVERLOCATIEID     |
+|ShippingCode              |VERVCOD            |
+|pKey                      |_PKEY              |
+|version                   |_VERSION           |
 
 ## Sales (Orderreg) (joined met ORDERKOP )
 
