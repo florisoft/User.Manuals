@@ -469,12 +469,14 @@
 
 ## Constants/Stocks (Voorraad)
 
-|API|DATABASE|
-|:--|:--|
-|id|VOORCOD|
-|description|VOORTXT|
-|pKey|_PKEY|
-|version|_VERSION|
+|API          |DATABASE      |
+|:--          |:--           |
+|id           |VOORCOD       |
+|description  |VOORTXT       |
+|IsVMPStock   |IsVMPStock    |
+|BranchID     |VestigingId   |
+|pKey         |_PKEY         |  
+|version      |_VERSION      |
 
 ## Constants/Users (Users)
 
