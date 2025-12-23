@@ -1884,6 +1884,25 @@
 |OnFloriline|FLORILINE|
 |Ordernr|ORDERNR|
 
+## AssortmentGroupAssignments (ASSORTGP)
+
+| API                 | Database |
+| :--                 | :--      |
+| PKey                | _pkey    |
+| Version             | _version |
+| ArticleId           | artnr    |
+| AssortmentGroupCode | groepcod |
+
+## AssortmentGroups (ASSORTGROEP)
+
+| API                 | Database  |
+| :--                 | :--       |
+| PKey                | _pkey     |
+| Version             | _version  |
+| Code                | groepcod  |
+| Description         | groeptxt  |
+| Mandatory           | verplicht |
+
 # ArticleComponents (SGART)
 
 |API|Database|
