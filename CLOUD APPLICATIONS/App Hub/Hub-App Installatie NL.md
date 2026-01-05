@@ -23,6 +23,14 @@ Indien nodig kan u ook gebruik maken van de Trusted variant van de APK.
 
 *De link kan ook worden gebruikt, tik deze over in een van de beschikbare internet browsers: https://app.florisoft.nl/apps/latest/hub/android/com.florisoft.hub-trusted.apk 
 
+### Signed version
+
+Indien nodig kan u ook gebruik maken van de Trusted variant van de APK. 
+
+<img src="Media/Installatie Hub-App/QR Code Signed.png" width="500" height="500">
+
+*De link kan ook worden gebruikt, tik deze over in een van de beschikbare internet browsers: [https://app.florisoft.nl/apps/latest/hub/android/com.florisoft.hub-signed.apk](https://app.florisoft.nl/apps/latest/hub/android/com.florisoft.hub-signed.apk) 
+
 
 ## Installeren van de Windows app
 
