@@ -14,7 +14,7 @@ Voordat we toegang kunnen krijgen tot je Florisoft-applicatie, moeten we de clie
 
 De handleiding is opgedeeld in twee delen: installatie van de client en toegang verkrijgen via authenticatie in de browser. Binnenkort voegen we de optie toe om te authenticeren vanaf een Android-apparaat, maar dit is momenteel in ontwikkeling.
 
-## Windows Installatie
+## Installatie van Windows App
 
 |Stap|Uitleg|
 |:-:|:--|
@@ -31,7 +31,7 @@ De handleiding is opgedeeld in twee delen: installatie van de client en toegang 
 |**11**|Zodra je verbinding maakt met een virtuele app of desktop, wordt er opnieuw een authenticatieprompt weergegeven. Voer opnieuw je wachtwoord in en klik op **Ok**.<details><summary><b>Klik hier voor het voorbeeldafbeelding!</b></summary><img src="Media/10.png"></details>|
 |**12**|Je zou nu een virtuele desktopomgeving of een Florisoft inlogscherm moeten zien.<details><summary><b>Klik hier voor het voorbeeldafbeelding!</b></summary><img src="Media/11.png"></details>|
 
-<!-- ## Authenticatie via de browser
+## Authenticatie via de browser
 
 |Stap|Uitleg|
 |:-:|:--|
