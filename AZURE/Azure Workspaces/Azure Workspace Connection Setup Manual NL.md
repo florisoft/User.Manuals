@@ -1,5 +1,11 @@
 <img src="../../fslogo.png">
 
+<!--
+keywords: Windows App, Azure, Microsoft app, Microsoft, Azure Virtual Desktop, RDP, Remote Desktop
+product: Windows app
+type: Handleiding
+-->
+
 # Florisoft Handleiding voor Azure Workspace Verbinding Instellen
 
 Welkom bij de handleiding voor het verbinden met je Florisoft Azure-werkruimte. Azure is een virtuele serveromgeving (cloud) waarop je Florisoft-client is gehost.
