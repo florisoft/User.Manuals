@@ -1,5 +1,11 @@
 <img src="https://github.com/florisoft/User.Manuals/blob/main/fslogo.png">
 
+<!--
+keywords: Windows App, Azure, Microsoft app, Microsoft, Azure Virtual Desktop, RDP, Remote Desktop
+product: Windows app
+type: Manual
+-->
+
 # Florisoft Manual Azure Workspace Connection Set-Up
 
 Welcome to the setup manual for connecting to your Florisoft Azure workspace. Azure is a virtual server (cloud) environment on which your Florisoft client is hosted. 
