@@ -14,7 +14,7 @@ Before we can access your Florisoft application we will need to set-up the clien
 
 The manual is split in two parts: installation of the client and access by authenticating in the browser. We will soon add the option to authenticate from an android device, however this is currently in development. 
 
-## Windows Installation
+## Installation Windows App
 
 |Step|Explanation|
 |:-:|:--|
