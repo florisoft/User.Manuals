@@ -32,7 +32,7 @@ Indien nodig kan u ook gebruik maken van de Trusted variant van de APK.
 *De link kan ook worden gebruikt, tik deze over in een van de beschikbare internet browsers: [https://app.florisoft.nl/apps/latest/hub/android/com.florisoft.hub-signed.apk](https://app.florisoft.nl/apps/latest/hub/android/com.florisoft.hub-signed.apk) 
 
 
-## Installeren van de Windows app
+## Installeren van de Windows HUB-app
 
 Het installeren van de Windows Hub-app is optioneel, meestal wordt er gewerkt met de Android versie. U hoeft de Windows hub-app dus niet te installeren voor het beheren van uw apps.
 Nadat u op de link heeft geklikt, is er een .zip bestand gedownload.
@@ -58,7 +58,7 @@ Nadat u op de link heeft geklikt, is er een .zip bestand gedownload.
 Het is belangrijk dat u de Hub-app ten alle tijden geinstalleerd houdt als u andere Florisoft apps gebruikt. Mocht er in de toekomst een nieuwe versie van een app beschikbaar komen, is de Hub App benodigd om deze te updaten.
 
 
-## Installeren van de Android app
+## Installeren van de Android HUB-app
 Nadat u de link heeft over getikt, of de QR-code heeft gescand, is er een app gedownload. 
 
 |**Stap**|Uitleg|
