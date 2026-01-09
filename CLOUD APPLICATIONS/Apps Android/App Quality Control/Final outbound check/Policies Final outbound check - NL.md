@@ -34,6 +34,13 @@ Per policy wordt uitgelegd wat de functie is, hoe deze geconfigureerd wordt en w
 ### `OrderOverview`
 De **policy-groep** `Overview` bestaat uit instellingen waarmee u bepaalt welke orders zichtbaar zijn op de Order Overview-pagina in de app.
 
+### `OrderOverview_Filters`
+The **policy group** `OrderOverview_Filters` contains all settings that determine which orders are visible or hidden on the **Order Overview** page in the app.
+#### `OrderNumberFilter`
+With this policy you can exclude specific order numbers from the overview in the Final Outbound Check app.  
+This is useful when certain orders are not relevant for checking, or when you want to prevent specific orders from being visible or selectable in the order overview.
+
+---
 #### `ShowHubs`
 Bepaalt of orders gegroepeerd worden op hub niveau in de selectielijst bij het kiezen van een order.
 
