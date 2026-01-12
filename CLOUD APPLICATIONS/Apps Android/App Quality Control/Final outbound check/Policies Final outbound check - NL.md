@@ -39,20 +39,14 @@ De **policy-groep** `OrderOverview_Filters` bevat alle instellingen waarmee u be
 #### `OrderNumberFilter`
 Met deze policy kunt u specifieke ordernummers uitsluiten van het overzicht in de Final Outbound Check-app.  
 Dit is handig wanneer bepaalde orders niet relevant zijn voor controle, of wanneer u wilt voorkomen dat specifieke orders zichtbaar of selecteerbaar zijn in het orderoverzicht.
-
----
-#### `ShowHubs`
-Bepaalt of orders gegroepeerd worden op hub niveau in de selectielijst bij het kiezen van een order.
-
 #### `ScopeDateFilter`
-Filtert het orderoverzicht in de eindcontrole op basis van een datum.
+Met deze instelling wordt bepaald welke datum wordt gebruikt om het orderoverzicht te filteren. De bijbehorende van- en tot-dagen (ScopeDateFromDays & ScopeDateToDays) instellingen passen dit filter toe op die gekozen datum.
 
 **Opties:**
 * Orderdatum
 * Vertrekdatum
 * Leveringsdatum
 * Besteldatum
-
 #### `ScopeDateFromDays`
 Bepaalt het aantal dagen **vóór vandaag** waar het datumbereik start voor het ophalen van de op te bouwen orders in het orderoverzicht.  
 
@@ -60,7 +54,6 @@ Bepaalt het aantal dagen **vóór vandaag** waar het datumbereik start voor het 
 - **1 = gisteren**  
 - **2 = eergisteren**  
 - Er hoeven **geen negatieve waarden** ingevoerd te worden (dus `2` i.p.v. `-2`). 
-
 #### `ScopeDateToDays`
 Bepaalt het aantal dagen **na vandaag** waar het datumbereik eindigt voor het ophalen van de op te bouwen orders in het orderoverzicht.  
 
@@ -68,6 +61,10 @@ Bepaalt het aantal dagen **na vandaag** waar het datumbereik eindigt voor het op
 - **1 = morgen**  
 - **2 = overmorgen**  
 
+
+---
+#### `ShowHubs`
+Bepaalt of orders gegroepeerd worden op hub niveau in de selectielijst bij het kiezen van een order.
 #### `ProgressDisplayType`
 
 Met deze policy bepaalt u wat er in de voortgangsbalk (progress bar) van de order wordt weergegeven tijdens de eindcontrole.
@@ -100,6 +97,23 @@ Geeft aan welke partij-identificatie wordt weergegeven in de app. Enkel de **laa
 
 - `PartijNr`
 - `VPartijNr`
+#### `ScopeGroupedBy`
+
+Bepaalt de groeperingslogica van orders in het **orderoverview**-scherm.
+
+**Opties:**
+- Klant en ordernummer _(standaard)_
+- Alleen klant
+- Orderdatum
+- Leverdatum
+- Vertrekdatum
+- Besteldatum
+
+ **Gedrag**
+
+- Bij groepering op een **datumveld** wordt het ordernummer vervangen door een **datumnotatie**.
+    
+- De gekozen groepering beïnvloedt hoe orders visueel gegroepeerd en weergegeven worden in het scherm.
 
 ---
 

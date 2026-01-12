@@ -39,21 +39,14 @@ The **policy group** `OrderOverview_Filters` contains all settings that determin
 #### `OrderNumberFilter`
 With this policy you can exclude specific order numbers from the overview in the Final Outbound Check app.  
 This is useful when certain orders are not relevant for checking, or when you want to prevent specific orders from being visible or selectable in the order overview.
-
----
-
-#### `ShowHubs`
-Determines whether orders are grouped by hub in the selection list when choosing an order.
-
 #### `ScopeDateFilter`
-Filters the order overview in the final check based on a date.
+This setting determines which date is used to filter the order overview. The corresponding from and to days (ScopeDateFromDays & ScopeDateToDays) settings apply this filter to the selected date.
 
 **Options:**
 * Order date  
 * Departure date  
 * Delivery date  
 * Purchase date  
-
 #### `ScopeDateFromDays`
 Determines the number of days **before today** that form the start of the date range for retrieving the pending orders in the order overview.  
 
@@ -61,7 +54,6 @@ Determines the number of days **before today** that form the start of the date r
 - **1 = yesterday**  
 - **2 = two days ago**  
 - **No negative values** should be entered (use `2` instead of `-2`).  
-
 #### `ScopeDateToDays`
 Determines the number of days **after today** that form the end of the date range for retrieving the pending orders in the order overview.  
 
@@ -69,6 +61,9 @@ Determines the number of days **after today** that form the end of the date rang
 - **1 = tomorrow**  
 - **2 = the day after tomorrow**  
 
+---
+#### `ShowHubs`
+Determines whether orders are grouped by hub in the selection list when choosing an order.
 #### `ProgressDisplayType`
 Defines what is displayed in the progress bar of the order during the final check.
 
@@ -98,7 +93,21 @@ Specifies which product identification is displayed in the app. Only the **last 
 **Options:**
 - `PartijNr`
 - `VPartijNr`
+#### `ScopeGroupedBy`
 
+Determines the grouping logic of orders in the **order overview** screen.
+
+**Options:**
+- Customer and order number _(default)_
+- Customer only
+- Order date
+- Delivery date
+- Departure date
+- Order date
+
+**Behavior**
+- When grouping by a **date field**, the order number is replaced by a **date notation**.
+- The selected grouping affects how orders are visually grouped and displayed on the screen.
 ---
 
 ### `Addons`
