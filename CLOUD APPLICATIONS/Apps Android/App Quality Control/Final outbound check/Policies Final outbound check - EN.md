@@ -35,10 +35,10 @@ Each policy explains its function, how it is configured, and what to keep in min
 The **policy group** `Overview` contains settings that determine which orders are visible on the **Order Overview** page in the app.
 
 ### `OrderOverview_Filters`
-De **policy-groep** `OrderOverview_Filters` bevat alle instellingen waarmee u bepaalt **welke orders wel of niet zichtbaar zijn** op de **Order Overview**-pagina in de app.
+The **policy group** `OrderOverview_Filters` contains all settings that determine which orders are visible or hidden on the **Order Overview** page in the app.
 #### `OrderNumberFilter`
-Met deze policy kunt u specifieke ordernummers uitsluiten van het overzicht in de Final Outbound Check-app.  
-Dit is handig wanneer bepaalde orders niet relevant zijn voor controle, of wanneer u wilt voorkomen dat specifieke orders zichtbaar of selecteerbaar zijn in het orderoverzicht.
+With this policy you can exclude specific order numbers from the overview in the Final Outbound Check app.  
+This is useful when certain orders are not relevant for checking, or when you want to prevent specific orders from being visible or selectable in the order overview.
 
 ---
 
