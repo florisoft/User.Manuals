@@ -1,6 +1,6 @@
 # Server management API
 
-The Florisoft API makes data retrieval safe and easy, it provides, multiple internet accessible endpoint to get data from your system. 
+The Florisoft API makes data retrieval safe and easy. It provides multiple internet accessible endpoints to get data from your Florisoft system. 
 
 The different endpoints for the Florisoft API are based on your Florisoft system database but now with user-friendly names. Descriptions of the API endpoints, including which fields are available can be found here ([Dutch](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Server%20Management%20API%20(M212)/M212%20-%20Server%20Management%20API%20-%20NL.md)) and here ([English](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Server%20Management%20API%20(M212)/M212%20-%20Server%20Management%20API%20-%20EN.md)).
 
