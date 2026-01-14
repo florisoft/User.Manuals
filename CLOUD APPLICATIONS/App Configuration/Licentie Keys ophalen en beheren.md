@@ -23,7 +23,7 @@ Er zijn twee hoofdtypen licenties beschikbaar binnen Florisoft:
 - Dit type licentie is ideaal in situaties waar meerdere medewerkers afwisselend met Florisoft werken.
 
 ## 2. Licenties beheren via het _Manage Licenses_-scherm
-Om het **License Management**-scherm te openen, ga je in **Florissoft.NET Navigator** naar:
+Om het **License Management**-scherm te openen, ga je in **Florisoft.NET Navigator** naar:
 **Systeem → Manage licenses**
 
 <img width="1001" height="297" alt="afbeelding" src="https://github.com/user-attachments/assets/7c9cb1f1-a6d4-4676-980a-0499d4940d19" />
