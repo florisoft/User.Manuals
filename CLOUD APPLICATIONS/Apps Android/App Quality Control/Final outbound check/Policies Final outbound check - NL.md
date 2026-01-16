@@ -60,7 +60,14 @@ Bepaalt het aantal dagen **na vandaag** waar het datumbereik eindigt voor het op
 - **0 = vandaag**  
 - **1 = morgen**  
 - **2 = overmorgen**  
+#### `ExcludeOrderNumber`
+Sluit specifieke ordernummers uit van het orderoverzicht.
 
+Orders waarvan het ordernummer overeenkomt met deze instelling worden niet getoond in de Final Outbound Check-app.  
+Handig om niet-relevante orders te verbergen.
+
+**Voorbeeld:**  
+Door `FUST` in te stellen, worden **fust-facturen** (ordernummers die `FUST` bevatten) niet getoond.
 #### `FilterStockCodes`
 Filtert het orderoverzicht op basis van voorraadcodes. Alleen orders met minstens één orderregel met een geselecteerde voorraadcode worden getoond.  Binnen deze orders zijn alleen de bijbehorende orderregels zichtbaar.
 

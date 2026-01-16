@@ -60,6 +60,16 @@ Determines the number of days **after today** that form the end of the date rang
 - **0 = today**  
 - **1 = tomorrow**  
 - **2 = the day after tomorrow**  
+
+#### `ExcludeOrderNumber`
+Excludes specific order numbers from the order overview.
+
+Orders whose order number matches this setting are not shown in the Final Outbound Check app.  
+Useful for hiding irrelevant orders.
+
+**Example:**  
+By configuring `FUST`, **Fust invoices** with order numbers containing `FUST` are excluded.
+
 #### `FilterStockCodes`
 Filters the order overview based on stock codes. Only orders that contain at least one order item with a selected stock code are shown. Within these orders, only the matching order items are visible.
 
