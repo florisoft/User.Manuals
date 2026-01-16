@@ -48,4 +48,4 @@ After restarting, scanning should work correctly again.
 
 A short video is available showing the steps:
 
-
+https://github.com/user-attachments/assets/08533b54-bb16-41fe-828b-716c2294fcca
