@@ -78,15 +78,38 @@ Tap **Continue** to proceed.
 
 ### Step 5: Verify customer details and print settings
 
-You now enter the customer overview. Here you verify:
+You will now see the customer overview screen. In this screen, carefully verify the information that will be printed on the label.
 
-- Customer name  
-- Address details  
-- Date** to print on the label (adjustable via the date picker)  
-- Number of labels to print (using the plus and minus buttons)
+**Customer and address details (cascade logic):**  
+The app automatically determines which address details are used, following this order:
 
-Check all information carefully.  
-When everything is correct, tap the **green print button** at the bottom of the screen.
+1. **Delivery address of the debtor**
+    
+    - If delivery details are filled in, **the delivery address** is shown and used on the label.
+        
+2. **Standard customer address**
+    
+    - If no delivery details are available, the app automatically falls back to **the standard customer address**.
+        
+
+Always check that the displayed address information is correct.
+
+Additionally, verify the following:
+
+- **Customer name**
+    
+- **Address details** (as determined by the logic above)
+    
+- **Label date**
+    
+    - This can be adjusted using the date picker.
+        
+- **Number of labels**
+    
+    - Set the desired quantity using the plus and minus buttons.
+        
+
+When all information is correct, tap the **green print button** at the bottom of the screen to print the labels.
 
 <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/3.png"></details>
 
