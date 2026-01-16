@@ -47,3 +47,7 @@ Na het herstarten zou het scannen weer correct moeten werken.
 ## Visuele instructie
 
 Er is een korte video beschikbaar waarin de stappen worden getoond:
+
+https://github.com/user-attachments/assets/555e28ff-75ae-4b69-92eb-bdc8f3eaee06
+
+
