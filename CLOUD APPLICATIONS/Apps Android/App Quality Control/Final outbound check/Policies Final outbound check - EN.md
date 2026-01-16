@@ -180,12 +180,25 @@ This applies specifically to the CMR document.
 ---
 
 ### `CountingStrategy`
-Defines the default method for incrementing the verified quantity during the final check.
+Defines how the verified quantity is increased during the final outbound check.
 
 **Options:**
-* Scan counts the entire item directly.  
-* Scan counts based on the number of colli.  
-* Scan counts based on the value embedded in the barcode.  
+
+- **Scan counts full item**  
+    Each scan counts one full order item.
+    
+- **Scan counts by package quantity**  
+    Each scan counts the configured package quantity.
+    
+- **Scan counts by barcode value**  
+    The quantity is read from the barcode.
+    
+
+**Note:**  
+If **‘Scan counts by barcode value’** is selected and a barcode type is used **that does not contain a quantity** (see `BarcodeDecodeOptions`), barcode validation is not possible.  
+The following message is shown:
+
+> _Counting strategy is set to Barcode value, but the scanned barcode does not contain a quantity. Please check whether the counting rules are configured correctly._
 
 ---
 

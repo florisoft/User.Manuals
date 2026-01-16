@@ -183,12 +183,27 @@ Stelt verplicht dat de gebruiker een digitale handtekening plaatst bij het afron
 ---
 
 ### `CountingStrategy`
-Definieert de standaardmethode voor het ophogen van het gecontroleerde aantal tijdens de eindcontrole.
+Bepaalt hoe het gecontroleerde aantal wordt opgehoogd tijdens de eindcontrole.
 
 **Opties:**
-* Scan telt direct volledige item.
-* Scan telt op kolli aantal
-* Scan telt op waarde in barcode
+
+- **Scan telt direct volledige item**  
+    Elke scan telt één volledig orderitem.
+    
+- **Scan telt op kolli aantal**  
+    Elke scan telt het ingestelde kolli-aantal.
+    
+- **Scan telt op waarde in barcode**  
+    Het aantal wordt gelezen uit de barcode.
+    
+
+**Let op:**  
+Als **‘Scan telt op waarde in barcode’** is ingesteld en er wordt een barcodetype gebruikt **zonder aantal in de barcode** (zie `BarcodeDecodeOptions`), dan is controle via de barcode niet mogelijk.  
+
+De volgende melding wordt dan getoond:
+
+> _Telstrategie staat ingesteld op Barcodewaarde maar de gescande barcode bevat geen aantal. Controleer of de telregels correct zijn._
+
 
 ---
 
