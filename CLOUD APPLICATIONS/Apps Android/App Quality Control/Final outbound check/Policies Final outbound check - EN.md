@@ -146,12 +146,26 @@ Allows you to enable additional add-ons that add extra functionality to the app.
 ---
 
 ### `BarcodeDecodeOptions`
-Determines which barcode types (for example Trolley barcode, Order item barcode, or FSQR) are recognized during the final check.  
-The *decoder* is simply the piece of information embedded in the barcode layout, allowing the app to know how to interpret the barcode.
+Defines which barcode types (for example Trolley barcode, Order item barcode, or FSQR) are recognized during the final outbound check.  
+The _decoder_ contains the layout information embedded in the barcode, allowing the app to determine how the barcode should be interpreted.
 
 **Usage:**
-* Select only the barcode types used in your process for faster and more efficient scanning.  
-* Multiple types can be selected simultaneously.
+
+- Select only the barcode types used in your process for **faster and more efficient scanning**.
+    
+- Multiple barcode types can be selected **at the same time**.
+    
+
+**Option – V batch number (VStockItemIdBarcode):**  
+Order items can also be validated using the **V batch number** by enabling the `VStockItemIdBarcode` option.
+
+- The barcode must start with the **`V` prefix**
+    
+- The total length must be **12 characters**  
+    _Example:_ `V00000008186`
+    
+
+If a scanned barcode matches **multiple order items**, a **selection screen** is shown so the correct order item can be chosen.
 
 ---
 

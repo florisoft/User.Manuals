@@ -150,11 +150,26 @@ Met deze policy kun je extra add-ons inschakelen die extra functionaliteit aan d
 ---
 
 ### `BarcodeDecodeOptions`
-Bepaalt welke barcodetypen (bijvoorbeeld Trolleybarcode, Orderitembarcode of FSQR) tijdens de eindcontrole worden herkend. De 'decoder' is simpel gezegd het stukje informatie dat vanuit de lay-out in de barcode wordt gezet, zodat de app weet hoe de barcode gelezen moet worden.
+Bepaalt welke barcodetypen (bijvoorbeeld Trolleybarcode, Orderitembarcode of FSQR) tijdens de eindcontrole worden herkend.  
+De _decoder_ bevat de informatie uit de barcode-lay-out waarmee de app bepaalt hoe de barcode gelezen moet worden.
 
 **Gebruik:**
-* Kies alleen de barcodetypen die in uw proces voorkomen voor snellere en efficiëntere scans.
-* Meerdere typen kunnen tegelijk geselecteerd worden.
+
+- Selecteer alleen de barcodetypen die in uw proces voorkomen voor **snellere en efficiëntere scans**.
+    
+- Meerdere barcodetypen kunnen **tegelijk** worden geselecteerd.
+    
+
+**Optie – Vpartijnummer (VStockItemIdBarcode):**  
+Het is ook mogelijk om orderitems te controleren via het **Vpartijnummer** door de optie `VStockItemIdBarcode` toe te voegen.
+
+- De barcode moet beginnen met **prefix `V`**
+    
+- De totale lengte moet **12 karakters** zijn  
+    _Voorbeeld:_ `V00000008186`
+    
+Wanneer een gescande barcode **meerdere orderitems** oplevert, wordt een **keuzescherm** getoond waarin u het juiste orderitem selecteert.
+
 
 ---
 
