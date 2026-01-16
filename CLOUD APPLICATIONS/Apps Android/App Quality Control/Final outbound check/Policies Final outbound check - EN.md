@@ -60,6 +60,11 @@ Determines the number of days **after today** that form the end of the date rang
 - **0 = today**  
 - **1 = tomorrow**  
 - **2 = the day after tomorrow**  
+#### `FilterStockCodes`
+Filters the order overview based on stock codes. Only orders that contain at least one order item with a selected stock code are shown. Within these orders, only the matching order items are visible.
+
+Orders and order lines without a matching stock code are excluded.  
+If no stock codes are configured, all orders and order lines are shown.
 
 ---
 #### `ShowHubs`

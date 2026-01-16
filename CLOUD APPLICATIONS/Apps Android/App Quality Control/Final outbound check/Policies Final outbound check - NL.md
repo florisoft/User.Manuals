@@ -61,6 +61,11 @@ Bepaalt het aantal dagen **na vandaag** waar het datumbereik eindigt voor het op
 - **1 = morgen**  
 - **2 = overmorgen**  
 
+#### `FilterStockCodes`
+Filtert het orderoverzicht op basis van voorraadcodes. Alleen orders met minstens één orderregel met een geselecteerde voorraadcode worden getoond.  Binnen deze orders zijn alleen de bijbehorende orderregels zichtbaar.
+
+Orders en orderregels zonder overeenkomstige voorraadcode worden uitgesloten.  
+Als er geen voorraadcodes zijn ingesteld, wordt alles getoond.
 
 ---
 #### `ShowHubs`
