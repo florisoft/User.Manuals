@@ -161,6 +161,34 @@ Beschikbare opties:
 * **Stelen**  
   Toont het totaal aantal stelen.
 
+---
+### `GroupStockItemsByVStockItemId`  
+Bepaalt of partijen met hetzelfde **VPartijNr** automatisch op dezelfde locatie worden geplaatst.
+
+Wanneer deze policy is ingeschakeld en een **partij wordt gescand**, gebeurt het volgende:
+
+1. De app controleert het **VPartijNr** van de gescande partij.
+    
+2. Vervolgens wordt gecontroleerd of er **meerdere partijen bestaan met hetzelfde VPartijNr** binnen de ingestelde `Apps_Inventory_Slotting_AvailableStocks`.
+    
+3. Indien dit het geval is, worden **alle partijen met datzelfde VPartijNr** op **dezelfde locatie** gezet als de gescande partij.
+    
+
+Hiermee wordt voorkomen dat partijen met hetzelfde VPartijNr verspreid raken over meerdere locaties.
+#### Belangrijke aandachtspunten
+
+- Deze functionaliteit wordt **alleen geactiveerd op basis van de gescande partij**.
+    
+- De instelling werkt voor **alle typen barcodes**, dus ook voor barcodes waarin:
+    
+    - een PartijNr is verwerkt
+        
+    - een Scancode is verwerkt
+        
+
+> ⚠️ Let op: Wanneer deze policy is ingeschakeld, kan het scannen van één partij dus direct effect hebben op meerdere partijen met hetzelfde VPartijNr.
+
+---
 
 ## Instellingen buiten policies om
 Niet alle instellingen zijn momenteel opgenomen in de policies groepen voor Slotting. Sommige instellingen bevinden zich nog in het systeem zelf en zijn van minder strategisch belang, maar verdienen toch aandacht vanwege hun invloed op het gedrag van het slottingproces.
