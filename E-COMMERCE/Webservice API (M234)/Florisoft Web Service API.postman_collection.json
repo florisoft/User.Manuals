@@ -1,0 +1,240 @@
+{
+	"info": {
+		"_postman_id": "4f4b4712-e8d3-46cb-b61b-810f9465557a",
+		"name": "Florisoft Web Service API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27641874"
+	},
+	"item": [
+		{
+			"name": "V1",
+			"item": [
+				{
+					"name": "Orders",
+					"item": [
+						{
+							"name": "Confirm",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "UserHashCode",
+										"value": "{{FSWSAPI_hashcode}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{FSWSAPI_url}}/{{FSWSAPI_version}}/orders/confirm",
+									"host": [
+										"{{FSWSAPI_url}}"
+									],
+									"path": [
+										"{{FSWSAPI_version}}",
+										"orders",
+										"confirm"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "User",
+					"item": [
+						{
+							"name": "Login",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var jsonData = pm.response.json();\r",
+											"\r",
+											"//pm.globals.set(\"loginhashcode\", jsonData.hashcode);\r",
+											"pm.collectionVariables.set(\"FSWSAPI_hashcode\", jsonData.hashCode);"
+										],
+										"type": "text/javascript",
+										"packages": {},
+										"requests": {}
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"UserId\": \"\",\r\n    \"Password\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{FSWSAPI_url}}/{{FSWSAPI_version}}/user/login",
+									"host": [
+										"{{FSWSAPI_url}}"
+									],
+									"path": [
+										"{{FSWSAPI_version}}",
+										"user",
+										"login"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Parcels",
+					"item": [
+						{
+							"name": "Get",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "UserHashCode",
+										"value": "{{FSWSAPI_hashcode}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"departuredate\": \"{{FSWSAPI_DepartureDate}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{FSWSAPI_url}}/{{FSWSAPI_version}}/parcels/get",
+									"host": [
+										"{{FSWSAPI_url}}"
+									],
+									"path": [
+										"{{FSWSAPI_version}}",
+										"parcels",
+										"get"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "OrderItem",
+					"item": [
+						{
+							"name": "AddOrUpdate",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "UserHashCode",
+										"value": "{{FSWSAPI_hashcode}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"parcelNumber\": ,\r\n    \"departuredate\": \"{{FSWSAPI_DepartureDate}}\",\r\n    \"orderedquantity\": ,\r\n    \"uniqueorderlineid\": \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{FSWSAPI_url}}/{{FSWSAPI_version}}/orderitem/addorupdate",
+									"host": [
+										"{{FSWSAPI_url}}"
+									],
+									"path": [
+										"{{FSWSAPI_version}}",
+										"orderitem",
+										"addorupdate"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{FSWSAPI_apikey}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "x-api-key",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "FSWSAPI_url",
+			"value": "https://localhost:7179/fswsapi"
+		},
+		{
+			"key": "FSWSAPI_apikey",
+			"value": "----------apikey------------"
+		},
+		{
+			"key": "FSWSAPI_version",
+			"value": "v1"
+		},
+		{
+			"key": "FSWSAPI_hashcode",
+			"value": "xxxxxx"
+		},
+		{
+			"key": "FSWSAPI_DepartureDate",
+			"value": "2025-04-28T00:00:00+02:00"
+		}
+	]
+}
