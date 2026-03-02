@@ -34,18 +34,19 @@ Each policy explains its function, how it is configured, and what to keep in min
 ### `OrderOverview`
 The **policy group** `Overview` contains settings that determine which orders are visible on the **Order Overview** page in the app.
 
-#### `ShowHubs`
-Determines whether orders are grouped by hub in the selection list when choosing an order.
-
+### `OrderOverview_Filters`
+The **policy group** `OrderOverview_Filters` contains all settings that determine which orders are visible or hidden on the **Order Overview** page in the app.
+#### `OrderNumberFilter`
+With this policy you can exclude specific order numbers from the overview in the Final Outbound Check app.  
+This is useful when certain orders are not relevant for checking, or when you want to prevent specific orders from being visible or selectable in the order overview.
 #### `ScopeDateFilter`
-Filters the order overview in the final check based on a date.
+This setting determines which date is used to filter the order overview. The corresponding from and to days (ScopeDateFromDays & ScopeDateToDays) settings apply this filter to the selected date.
 
 **Options:**
 * Order date  
 * Departure date  
 * Delivery date  
 * Purchase date  
-
 #### `ScopeDateFromDays`
 Determines the number of days **before today** that form the start of the date range for retrieving the pending orders in the order overview.  
 
@@ -53,7 +54,6 @@ Determines the number of days **before today** that form the start of the date r
 - **1 = yesterday**  
 - **2 = two days ago**  
 - **No negative values** should be entered (use `2` instead of `-2`).  
-
 #### `ScopeDateToDays`
 Determines the number of days **after today** that form the end of the date range for retrieving the pending orders in the order overview.  
 
@@ -61,6 +61,24 @@ Determines the number of days **after today** that form the end of the date rang
 - **1 = tomorrow**  
 - **2 = the day after tomorrow**  
 
+#### `ExcludeOrderNumber`
+Excludes specific order numbers from the order overview.
+
+Orders whose order number matches this setting are not shown in the Final Outbound Check app.  
+Useful for hiding irrelevant orders.
+
+**Example:**  
+By configuring `FUST`, **Fust invoices** with order numbers containing `FUST` are excluded.
+
+#### `FilterStockCodes`
+Filters the order overview based on stock codes. Only orders that contain at least one order item with a selected stock code are shown. Within these orders, only the matching order items are visible.
+
+Orders and order lines without a matching stock code are excluded.  
+If no stock codes are configured, all orders and order lines are shown.
+
+---
+#### `ShowHubs`
+Determines whether orders are grouped by hub in the selection list when choosing an order.
 #### `ProgressDisplayType`
 Defines what is displayed in the progress bar of the order during the final check.
 
@@ -90,7 +108,21 @@ Specifies which product identification is displayed in the app. Only the **last 
 **Options:**
 - `PartijNr`
 - `VPartijNr`
+#### `ScopeGroupedBy`
 
+Determines the grouping logic of orders in the **order overview** screen.
+
+**Options:**
+- Customer and order number _(default)_
+- Customer only
+- Order date
+- Delivery date
+- Departure date
+- Order date
+
+**Behavior**
+- When grouping by a **date field**, the order number is replaced by a **date notation**.
+- The selected grouping affects how orders are visually grouped and displayed on the screen.
 ---
 
 ### `Addons`
@@ -114,12 +146,26 @@ Allows you to enable additional add-ons that add extra functionality to the app.
 ---
 
 ### `BarcodeDecodeOptions`
-Determines which barcode types (for example Trolley barcode, Order item barcode, or FSQR) are recognized during the final check.  
-The *decoder* is simply the piece of information embedded in the barcode layout, allowing the app to know how to interpret the barcode.
+Defines which barcode types (for example Trolley barcode, Order item barcode, or FSQR) are recognized during the final outbound check.  
+The _decoder_ contains the layout information embedded in the barcode, allowing the app to determine how the barcode should be interpreted.
 
 **Usage:**
-* Select only the barcode types used in your process for faster and more efficient scanning.  
-* Multiple types can be selected simultaneously.
+
+- Select only the barcode types used in your process for **faster and more efficient scanning**.
+    
+- Multiple barcode types can be selected **at the same time**.
+    
+
+**Option – V batch number (VStockItemIdBarcode):**  
+Order items can also be validated using the **V batch number** by enabling the `VStockItemIdBarcode` option.
+
+- The barcode must start with the **`V` prefix**
+    
+- The total length must be **12 characters**  
+    _Example:_ `V00000008186`
+    
+
+If a scanned barcode matches **multiple order items**, a **selection screen** is shown so the correct order item can be chosen.
 
 ---
 
@@ -134,12 +180,25 @@ This applies specifically to the CMR document.
 ---
 
 ### `CountingStrategy`
-Defines the default method for incrementing the verified quantity during the final check.
+Defines how the verified quantity is increased during the final outbound check.
 
 **Options:**
-* Scan counts the entire item directly.  
-* Scan counts based on the number of colli.  
-* Scan counts based on the value embedded in the barcode.  
+
+- **Scan counts full item**  
+    Each scan counts one full order item.
+    
+- **Scan counts by package quantity**  
+    Each scan counts the configured package quantity.
+    
+- **Scan counts by barcode value**  
+    The quantity is read from the barcode.
+    
+
+**Note:**  
+If **‘Scan counts by barcode value’** is selected and a barcode type is used **that does not contain a quantity** (see `BarcodeDecodeOptions`), barcode validation is not possible.  
+The following message is shown:
+
+> _Counting strategy is set to Barcode value, but the scanned barcode does not contain a quantity. Please check whether the counting rules are configured correctly._
 
 ---
 
@@ -186,7 +245,12 @@ Use the **Clean Up Tables** function to automatically clear old records:
 This prevents unnecessary database growth.
 
 ---
+### `AllowScanningRedistributedBarcodes`
+Enables items that have been redistributed via Change Invoice to also be scanned during the Final Outbound Check.  
 
+When redistributing, **FromBarcode** is filled with the original barcode. With this policy, the system accepts both the new barcode and the original barcode (**FromBarcode**), eliminating the need to relabel original stickers.
+
+---
 ### `ShowWarningIfIncomplete`
 Displays a warning when the inspection is not complete.  
 This can be helpful as it prevents an order or process from being completed without all required checks having been performed.

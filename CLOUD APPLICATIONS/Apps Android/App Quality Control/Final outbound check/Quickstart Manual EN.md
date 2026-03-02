@@ -32,6 +32,9 @@ Scan the barcode of an order line, for example, a pickorder sticker. The correct
 
 <details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/2.png"></details>
 
+> ℹ️  When the `AllowScanningRedistributedBarcodes` policy is enabled, it is possible that multiple results are found during scanning, for example in the case of redistributed items. In that case, a selection screen will automatically appear in which the correct order item must be selected in order to continue the scanning process.
+
+<details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/2A.png"></details>
 #### Option 2: Search order via search icon
 
 Use the search icon to display an overview of available customer orders. This overview can be customized according to your preference. The necessary policies for this are located in the `Overview` subfolder of the FinalOutbound policies.

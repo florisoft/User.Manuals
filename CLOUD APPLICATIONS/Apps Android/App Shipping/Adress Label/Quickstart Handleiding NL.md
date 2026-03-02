@@ -77,14 +77,38 @@ Wanneer u een klant selecteert, verschijnt onderaan een samenvatting van de klan
 
 ### Stap 5: Controleer klantgegevens en printinstellingen
 
-U komt nu in het klantoverzicht. Hier controleert u:
+U komt nu in het klantoverzicht. In dit scherm controleert u zorgvuldig de gegevens die op het label worden afgedrukt.
 
-- Naam van de klant
-- Adresgegevens
-- Datum voor op het label (aanpasbaar via de datumkiezer)
-- Aantal labels dat u wilt printen (met plus- en minknoppen)
+**Klant- en adresgegevens (cascade):**  
+De app bepaalt automatisch welke adresgegevens worden gebruikt volgens de volgende volgorde:
 
-Controleer alle informatie zorgvuldig. Wanneer alles klopt, tikt u op de groene printknop onderaan het scherm.
+1. **Aflevergegevens van de debiteur**
+    
+    - Als deze gegevens zijn ingevuld, worden **de aflevergegevens** getoond en gebruikt op het label.
+        
+2. **Standaard adresgegevens**
+    
+    - Zijn er geen aflevergegevens ingevuld, dan gebruikt de app automatisch **de standaard adresgegevens van de klant**.
+        
+
+Controleer altijd of de getoonde gegevens correct zijn.
+
+Daarnaast controleert u:
+
+- **Naam van de klant**
+    
+- **Adresgegevens** (zoals hierboven bepaald)
+    
+- **Datum op het label**
+    
+    - Deze is aanpasbaar via de datumkiezer.
+        
+- **Aantal labels**
+    
+    - Stel het gewenste aantal in met de plus- en minknoppen.
+        
+
+Wanneer alle informatie klopt, tikt u op de **groene printknop** onderaan het scherm om de labels te printen.
 
 <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/3.png"></details>
 

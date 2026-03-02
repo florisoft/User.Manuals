@@ -2,7 +2,7 @@
 
 ## App Structure Overview
 
-<img width="2012" height="1440" alt="App structuur overview" src="https://github.com/user-attachments/assets/ecd718f8-b45a-4330-9443-f8ff7c0d8d38" />
+<img width="2011" height="1468" alt="App structuur overview Klanten" src="https://github.com/user-attachments/assets/268eb06f-65db-469b-b854-3f13e6846078" />
 
 ### Explanation  
 The visual below shows how the different Florisoft Apps are organized across various functional domains, such as *Core Services*, *Sales*, *Inventory*, and *Logistics*.  

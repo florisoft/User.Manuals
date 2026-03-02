@@ -69,3 +69,13 @@ Beschikbare opties:
   Toont het totaal aantal stelen.
 
 ---
+### `PhotoStorageDirectoryPath`  
+
+Met deze policy bepaalt u waar foto’s die gemaakt worden in de Exception Registration-app worden opgeslagen.  
+Standaard worden foto’s geplaatst in de map:
+
+`...\DataPGS\Archief\Exceptions`
+
+Met deze policy kunt u deze opslaglocatie aanpassen, bijvoorbeeld naar een andere schijf, netwerklocatie of een omgeving met meer opslagcapaciteit.
+
+---

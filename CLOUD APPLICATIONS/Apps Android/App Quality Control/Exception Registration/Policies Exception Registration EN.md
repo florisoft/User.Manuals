@@ -69,3 +69,13 @@ Available options:
   Displays the total number of individual stems.
 
 ---
+### `PhotoStorageDirectoryPath`  
+
+With this policy you determine where photos taken in the Exception Registration app are stored.  
+By default, photos are saved in the following folder:
+
+`...\DataPGS\Archief\Exceptions`
+
+Using this policy, you can change the storage location—for example to another disk, a network location, or an environment with more available storage capacity.
+
+---

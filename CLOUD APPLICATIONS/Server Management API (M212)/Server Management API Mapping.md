@@ -464,6 +464,7 @@
 |btwNr|BTWNRDEB|
 |debtorFinancialNumber|FINDEBNR|
 |accountManager|VERKOOPNR|
+|currency|VALCOD|
 |pKey|_PKEY|
 |version|_VERSION|
 
@@ -731,6 +732,7 @@
 | TRANS               | TransId              |
 | TRANSLANG           | TransIdLong          |
 | VEILCOD             | AuctionId            |
+| VERSCHEPID          | ShipmentId           |
 | VPARTIJNR           | VParcelId            |
 | ZETELNR             | SeatNo               |
 
@@ -2006,3 +2008,15 @@
 |priceEuro        |PRIJSEURO  |
 |priceFixed       |PRIJSFIXED |
 |version          |_VERSION   |
+
+## PackageCosts (FustKost)
+
+|API                    |DATABASE   |
+|:--                    |:--        |
+|packageId              |FUSTCOD    |
+|pricePurchase2         |INKPRIJS2  |
+|contentColli           |INHKOLLI   |
+|s1                     |S1         |
+|s2                     |S2         |
+|s3                     |S3         |
+|version                |_VERSION   |

@@ -33,6 +33,8 @@ barcode op de factuur te laten printen. Dit maakt het controleren een stuk
 makkelijker, zeker als er bijvoorbeeld een factuurregel wordt afgekeurd aan de
 Client kant.
 
+- Optioneel: Instellingen voor het versturen van UBL facturen volgens EN 16931 (de Europese norm voor elektronisch factureren) /Peppol (BIS 3.0).
+
 ### Instellingen
 
 - Bij de debiteuren waar je de e-Facturen naar toe wilt zenden, moet de vink
@@ -59,3 +61,34 @@ stuurt. Andere leveranciers dienen dus een andere code te gebruiken.
 |:--|:--|
 |**1**|Navigeer in de debiteurkaart naar de subfolder **EKT→EKT**|
 |**2**|Vul in het veld "*Optioneel afwijkende veilingcode in EKT*" een debiteurs afwijkende veiling code in.<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/foto2.png"></details>|
+
+### Versturen van UBL facturen gebaseerd op EN16931/Peppol (BIS 3.0)
+
+In Florisoft kun je dit inrichten. De UBL-generator is inmiddels gebaseerd op EN16931/Peppol (BIS 3.0) en kan de gevraagde velden zoals CustomizationID en ProfileID meesturen. 
+De instellingen staan in de constanten bij de debiteur op tabblad Factuur -> Electronische Factuur. 
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Open het constanten scherm en navigeer naar het pad:<br>**Organen→Debiteur gegevens→Debiteuren**|
+|**2**|Open een debiteur en navigeer binnen de kaart naar de submap:<br>**Factuur→Electronische Factuur**|
+|**3**|Zet de instelling "*Bij Florisoft eFactuur ook UBL-bijlage meesturen.*" aan.  Zet de instelling UBL-bijlagetype op: *EN16931 EU Invoice*" en zet UBL-endpointId-type op: "*Btw9925, Kvk 0208 of 0088 EAN/GLN*".<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/UBLefact.png"></details>
+
+Peppol verwacht het XML bestand volgens de type op: EN16931 EU Invoice. Met deze instellingen wordt dit in de XML meegestuurd: 
+
+*cbc:CustomizationIDurn:cen.eu:en16931:2017</cbc:CustomizationID>*  
+*cbc:ProfileIDurn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>* 
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/CustomizationID2.png"></details>
+
+Doordat de instelling UBL-endpointId-type op: "*Btw9925, Kvk 0208 of 0088 EAN/GLN* staat, kan in het segment EndpointId de waarde voor de Customer en Supplier afwijkend gevuld en meegestuurd worden. Met andere schemeId's en bijbehorende waardes.  
+
+Standaard is dit 'schemeId' '0088' en waarde 'EAN of GLN'. Dit kan nu afwijkend worden ingesteld met de UBL-endpointId-type.  
+Stel deze voor Peppol in op: *Btw 9925, KvK 0208 of 0088 EAN/GLN*. 
+
+<summary><b>Wat gebeurt er zodra dit is ingesteld?</b></summary>   
+Het BTW nummer van de debiteur wordt meegestuurd in dit segment in de XML; <cbc:EndpointID schemeID="9925">987654321</cbc:EndpointID>.  
+Mocht het BTW nummer leeg zijn, dan gaat het systeem kijken of het KvK nummer van de debiteur gevuld is. Als dit het geval is, dan wordt deze meegestuurd met een ander schemeID="0208".  
+Als het BTW nummer en KVK nummer bij de debiteur is gevuld, dan zal het BTW nummer (met schemeID="9925") als eerst worden gestuurd in het EndpointID.  
+Zodra deze leeg is, dan wordt het KvK nummer gestuurd in schemeID=”0208”.  
+Als beide leeg zijn, dan wordt de GLN van de debiteur gestuurd in schemeID=”0088”.
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding waarbij BTW nummer en KVK nummer is gevuld van de debiteur</b></summary><img src=".efact server/media/BTW_en_KVK.png"></details>
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding wat er in de XML wordt meegestuurd</b></summary><img src=".efact server/media/XML_Voorbeeld.png"></details>

@@ -30,22 +30,3 @@ De handleiding is opgedeeld in twee delen: installatie van de client en toegang 
 |**10**|Om verbinding te maken met een Azure Virtual app, ga je naar de sectie **Apps** en klik je eenvoudig op een App-kaart.<details><summary><b>Klik hier voor het voorbeeldafbeelding!</b></summary><img src="Media/9.png"></details>|
 |**11**|Zodra je verbinding maakt met een virtuele app of desktop, wordt er opnieuw een authenticatieprompt weergegeven. Voer opnieuw je wachtwoord in en klik op **Ok**.<details><summary><b>Klik hier voor het voorbeeldafbeelding!</b></summary><img src="Media/10.png"></details>|
 |**12**|Je zou nu een virtuele desktopomgeving of een Florisoft inlogscherm moeten zien.<details><summary><b>Klik hier voor het voorbeeldafbeelding!</b></summary><img src="Media/11.png"></details>|
-
-## Authenticatie via de browser
-
-|Stap|Uitleg|
-|:-:|:--|
-|**1**|Open je browser en ga naar:<br>https://windows.cloud.microsoft/|
-|**2**|Log in met het e-mailadres van je Azure-account (verstrekt door Florisoft) en klik op de knop **next**.<details><summary><b>Klik hier voor het voorbeeldafbeelding!</b></summary><img src="12"></details>|
-|**3**|Voer je wachtwoord in (ook verstrekt door Florisoft) en klik op de knop **Sign in**.<details><summary><b>Klik hier voor het voorbeeldafbeelding!</b></summary><img src="Media/13.png"></details>|
-|**4**|Na het inloggen start een korte rondleiding van de webpagina. Je kunt door de stappen klikken met de knop **next** of deze overslaan met de knop **skip**.|
-|**5**|Selecteer op de linker zijbalk de tab **Devices** of **Apps**, afhankelijk van je toegangsrechten.<br><br>Het verschil tussen de twee is dat je met **Devices** een volledige Windows-omgeving krijgt (vergelijkbaar met Remote Desktop), terwijl je met **Apps** de Florisoft-client opent alsof deze lokaal draait.<details><summary><b>Klik hier voor het voorbeeldafbeelding!</b></summary><img src="Media/7.png"></details>|
-|**6**|Om verbinding te maken met een Azure Virtual Desktop-apparaat, klik je eenvoudigweg op de knop Connect in het kaartje van het apparaat in de sectie **Devices**.<details><summary><b>Klik hier voor het voorbeeldafbeelding!</b></summary><img src="Media/8.png"></details>|
-|**7**|Om verbinding te maken met een Azure Virtual app, ga je naar de sectie **Apps** en klik je eenvoudig op een App-kaart.<details><summary><b>Klik hier voor het voorbeeldafbeelding!</b></summary><img src="Media/9.png"></details>|
-|**8**|Zodra je verbinding maakt met een virtuele app of desktop, wordt er opnieuw een authenticatieprompt weergegeven. Voer opnieuw je wachtwoord in en klik op **Ok**.<details><summary><b>Klik hier voor het voorbeeldafbeelding!</b></summary><img src="Media/10.png"></details>|
-|**9**|Je zou nu een virtuele desktopomgeving of een Florisoft inlogscherm moeten zien.<details><summary><b>Klik hier voor het voorbeeldafbeelding!</b></summary><img src="Media/11.png"></details>|
-
-## Authenticatie via een Android-apparaat
-
-Nog niet beschikbaar
--->

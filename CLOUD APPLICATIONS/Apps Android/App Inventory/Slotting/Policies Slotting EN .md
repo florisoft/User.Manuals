@@ -159,6 +159,36 @@ Available options:
 * **Stems**  
   Displays the total number of individual stems.
 
+---
+### `GroupStockItemsByVStockItemId`
+
+Determines whether stock items with the same **VPartijNr** are automatically placed at the same location.
+
+When this policy is enabled and a **stock item is scanned**, the following occurs:
+
+1. The app checks the **VPartijNr** of the scanned stock item.
+    
+2. It then verifies whether there are **multiple stock items with the same VPartijNr** within the configured `Apps_Inventory_Slotting_AvailableStocks`.
+    
+3. If so, **all stock items with that same VPartijNr** are assigned to **the same location** as the scanned stock item.
+    
+
+This prevents stock items with the same VPartijNr from being distributed across multiple locations.
+
+#### Important notes
+
+- This functionality is **only triggered based on the scanned stock item**.
+    
+- The setting applies to **all barcode types**, including barcodes containing:
+    
+    - a PartijNr
+        
+    - a Scancode
+        
+
+> ⚠️ Note: When this policy is enabled, scanning a single stock item may directly affect multiple stock items with the same VPartijNr.
+
+---
 
 ## Settings Outside of Policies
 

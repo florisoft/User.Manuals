@@ -34,18 +34,19 @@ Per policy wordt uitgelegd wat de functie is, hoe deze geconfigureerd wordt en w
 ### `OrderOverview`
 De **policy-groep** `Overview` bestaat uit instellingen waarmee u bepaalt welke orders zichtbaar zijn op de Order Overview-pagina in de app.
 
-#### `ShowHubs`
-Bepaalt of orders gegroepeerd worden op hub niveau in de selectielijst bij het kiezen van een order.
-
+### `OrderOverview_Filters`
+De **policy-groep** `OrderOverview_Filters` bevat alle instellingen waarmee u bepaalt **welke orders wel of niet zichtbaar zijn** op de **Order Overview**-pagina in de app.
+#### `OrderNumberFilter`
+Met deze policy kunt u specifieke ordernummers uitsluiten van het overzicht in de Final Outbound Check-app.  
+Dit is handig wanneer bepaalde orders niet relevant zijn voor controle, of wanneer u wilt voorkomen dat specifieke orders zichtbaar of selecteerbaar zijn in het orderoverzicht.
 #### `ScopeDateFilter`
-Filtert het orderoverzicht in de eindcontrole op basis van een datum.
+Met deze instelling wordt bepaald welke datum wordt gebruikt om het orderoverzicht te filteren. De bijbehorende van- en tot-dagen (ScopeDateFromDays & ScopeDateToDays) instellingen passen dit filter toe op die gekozen datum.
 
 **Opties:**
 * Orderdatum
 * Vertrekdatum
 * Leveringsdatum
 * Besteldatum
-
 #### `ScopeDateFromDays`
 Bepaalt het aantal dagen **vóór vandaag** waar het datumbereik start voor het ophalen van de op te bouwen orders in het orderoverzicht.  
 
@@ -53,14 +54,29 @@ Bepaalt het aantal dagen **vóór vandaag** waar het datumbereik start voor het 
 - **1 = gisteren**  
 - **2 = eergisteren**  
 - Er hoeven **geen negatieve waarden** ingevoerd te worden (dus `2` i.p.v. `-2`). 
-
 #### `ScopeDateToDays`
 Bepaalt het aantal dagen **na vandaag** waar het datumbereik eindigt voor het ophalen van de op te bouwen orders in het orderoverzicht.  
 
 - **0 = vandaag**  
 - **1 = morgen**  
 - **2 = overmorgen**  
+#### `ExcludeOrderNumber`
+Sluit specifieke ordernummers uit van het orderoverzicht.
 
+Orders waarvan het ordernummer overeenkomt met deze instelling worden niet getoond in de Final Outbound Check-app.  
+Handig om niet-relevante orders te verbergen.
+
+**Voorbeeld:**  
+Door `FUST` in te stellen, worden **fust-facturen** (ordernummers die `FUST` bevatten) niet getoond.
+#### `FilterStockCodes`
+Filtert het orderoverzicht op basis van voorraadcodes. Alleen orders met minstens één orderregel met een geselecteerde voorraadcode worden getoond.  Binnen deze orders zijn alleen de bijbehorende orderregels zichtbaar.
+
+Orders en orderregels zonder overeenkomstige voorraadcode worden uitgesloten.  
+Als er geen voorraadcodes zijn ingesteld, wordt alles getoond.
+
+---
+#### `ShowHubs`
+Bepaalt of orders gegroepeerd worden op hub niveau in de selectielijst bij het kiezen van een order.
 #### `ProgressDisplayType`
 
 Met deze policy bepaalt u wat er in de voortgangsbalk (progress bar) van de order wordt weergegeven tijdens de eindcontrole.
@@ -93,6 +109,23 @@ Geeft aan welke partij-identificatie wordt weergegeven in de app. Enkel de **laa
 
 - `PartijNr`
 - `VPartijNr`
+#### `ScopeGroupedBy`
+
+Bepaalt de groeperingslogica van orders in het **orderoverview**-scherm.
+
+**Opties:**
+- Klant en ordernummer _(standaard)_
+- Alleen klant
+- Orderdatum
+- Leverdatum
+- Vertrekdatum
+- Besteldatum
+
+ **Gedrag**
+
+- Bij groepering op een **datumveld** wordt het ordernummer vervangen door een **datumnotatie**.
+    
+- De gekozen groepering beïnvloedt hoe orders visueel gegroepeerd en weergegeven worden in het scherm.
 
 ---
 
@@ -117,11 +150,26 @@ Met deze policy kun je extra add-ons inschakelen die extra functionaliteit aan d
 ---
 
 ### `BarcodeDecodeOptions`
-Bepaalt welke barcodetypen (bijvoorbeeld Trolleybarcode, Orderitembarcode of FSQR) tijdens de eindcontrole worden herkend. De 'decoder' is simpel gezegd het stukje informatie dat vanuit de lay-out in de barcode wordt gezet, zodat de app weet hoe de barcode gelezen moet worden.
+Bepaalt welke barcodetypen (bijvoorbeeld Trolleybarcode, Orderitembarcode of FSQR) tijdens de eindcontrole worden herkend.  
+De _decoder_ bevat de informatie uit de barcode-lay-out waarmee de app bepaalt hoe de barcode gelezen moet worden.
 
 **Gebruik:**
-* Kies alleen de barcodetypen die in uw proces voorkomen voor snellere en efficiëntere scans.
-* Meerdere typen kunnen tegelijk geselecteerd worden.
+
+- Selecteer alleen de barcodetypen die in uw proces voorkomen voor **snellere en efficiëntere scans**.
+    
+- Meerdere barcodetypen kunnen **tegelijk** worden geselecteerd.
+    
+
+**Optie – Vpartijnummer (VStockItemIdBarcode):**  
+Het is ook mogelijk om orderitems te controleren via het **Vpartijnummer** door de optie `VStockItemIdBarcode` toe te voegen.
+
+- De barcode moet beginnen met **prefix `V`**
+    
+- De totale lengte moet **12 karakters** zijn  
+    _Voorbeeld:_ `V00000008186`
+    
+Wanneer een gescande barcode **meerdere orderitems** oplevert, wordt een **keuzescherm** getoond waarin u het juiste orderitem selecteert.
+
 
 ---
 
@@ -135,12 +183,27 @@ Stelt verplicht dat de gebruiker een digitale handtekening plaatst bij het afron
 ---
 
 ### `CountingStrategy`
-Definieert de standaardmethode voor het ophogen van het gecontroleerde aantal tijdens de eindcontrole.
+Bepaalt hoe het gecontroleerde aantal wordt opgehoogd tijdens de eindcontrole.
 
 **Opties:**
-* Scan telt direct volledige item.
-* Scan telt op kolli aantal
-* Scan telt op waarde in barcode
+
+- **Scan telt direct volledige item**  
+    Elke scan telt één volledig orderitem.
+    
+- **Scan telt op kolli aantal**  
+    Elke scan telt het ingestelde kolli-aantal.
+    
+- **Scan telt op waarde in barcode**  
+    Het aantal wordt gelezen uit de barcode.
+    
+
+**Let op:**  
+Als **‘Scan telt op waarde in barcode’** is ingesteld en er wordt een barcodetype gebruikt **zonder aantal in de barcode** (zie `BarcodeDecodeOptions`), dan is controle via de barcode niet mogelijk.  
+
+De volgende melding wordt dan getoond:
+
+> _Telstrategie staat ingesteld op Barcodewaarde maar de gescande barcode bevat geen aantal. Controleer of de telregels correct zijn._
+
 
 ---
 
@@ -187,7 +250,12 @@ Gebruik daarom de functie **Tabellen opschonen** om deze automatisch te legen:
 Dit voorkomt onnodige groei van de database.
 
 ---
+### `AllowScanningRedistributedBarcodes`
+Maakt het mogelijk om tijdens de Final Outbound Check ook artikelen te scannen die zijn herverdeeld via Factuur wijzigen.  
 
+Bij herverdeling wordt **FromBarcode** gevuld met de oorspronkelijke barcode. Met deze policy accepteert het systeem zowel de nieuwe barcode als de oorspronkelijke barcode (**FromBarcode**), waardoor her-labeling van originele stickers niet nodig is.
+
+---
 ### `ShowWarningIfIncomplete`
 Toont een waarschuwing wanneer de inspectie niet compleet is. Dit kan handig zijn omdat het voorkomt dat een order of proces wordt afgerond zonder dat alle verplichte controles zijn uitgevoerd.  
 

@@ -32,6 +32,9 @@ Scannen van de barcode van een orderregel, bijvoorbeeld een pickordersticker. Hi
 
 <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/2.png"></details>
 
+> ℹ️  Wanneer de policy `AllowScanningRedistributedBarcodes` is ingeschakeld, kan het voorkomen dat bij het scannen meerdere resultaten worden gevonden, bijvoorbeeld bij herverdeelde artikelen. In dat geval verschijnt automatisch een keuzescherm waarin het juiste orderitem geselecteerd moet worden om het scanproces te vervolgen.
+
+<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/2A.png"></details>
 #### Optie 2: Order zoeken via zoekicoon
 
 Door het zoekicoon te gebruiken wordt een orderoverzicht getoond. Dit overzicht laat alle beschikbare klantorders zien. De weergave van dit overzicht kan naar eigen voorkeur ingesteld worden. De benodigde policies hiervoor zijn te vinden in de submap `Overview` van de FinalOutbound policies.
