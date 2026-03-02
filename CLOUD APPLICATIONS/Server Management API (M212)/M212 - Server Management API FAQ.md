@@ -15,7 +15,7 @@
 |**Answer:**| Most endpoints will provide a "pKey" field for primary key. All other fields have friendly names and some knowledge of Florisoft data structures is required for querying using table joins. 
 |**5**| **Can you explain the data structures for each endpoint and content?**
 |**Answer:**| No, please refer to the [mappings document](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Server%20Management%20API%20(M212)/Server%20Management%20API%20Mapping.md) or plan a consultancy meeting for more detail
-|**6**| **Will you make any custom table views available as endpoints in thie API?**
+|**6**| **Will you make any custom table views available as endpoints in this API?**
 |**Answer:**| No.
 
 
