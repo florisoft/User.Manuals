@@ -36,6 +36,22 @@ The **policy group** `Overview` contains settings that determine which orders ar
 
 ### `OrderOverview_Filters`
 The **policy group** `OrderOverview_Filters` contains all settings that determine which orders are visible or hidden on the **Order Overview** page in the app.
+
+### `OrderOverview_Filters_EnableFilters`  
+  
+This policy determines which **additional filters are active** when building the **Order Overview** in the Final Outbound Check app.  
+Only the selected filters are applied when retrieving orders.  
+
+#### `IsFinalOutboundCustomer`  
+  
+Filters the order overview to customers that are configured as **Final Outbound Check customers**.  
+  
+When this option is enabled, only orders from customers with **‘Is final outbound customer’** enabled will be loaded.  
+  
+**Usage:**  
+- Prevents orders from non-participating customers from appearing.  
+- Ensures that only relevant orders are included in the final inspection process.
+
 #### `OrderNumberFilter`
 With this policy you can exclude specific order numbers from the overview in the Final Outbound Check app.  
 This is useful when certain orders are not relevant for checking, or when you want to prevent specific orders from being visible or selectable in the order overview.

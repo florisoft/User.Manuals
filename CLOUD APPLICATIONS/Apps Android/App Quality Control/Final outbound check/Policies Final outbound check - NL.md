@@ -34,8 +34,25 @@ Per policy wordt uitgelegd wat de functie is, hoe deze geconfigureerd wordt en w
 ### `OrderOverview`
 De **policy-groep** `Overview` bestaat uit instellingen waarmee u bepaalt welke orders zichtbaar zijn op de Order Overview-pagina in de app.
 
+
 ### `OrderOverview_Filters`
 De **policy-groep** `OrderOverview_Filters` bevat alle instellingen waarmee u bepaalt **welke orders wel of niet zichtbaar zijn** op de **Order Overview**-pagina in de app.
+
+### `OrderOverview_Filters_EnableFilters`
+
+Met deze policy bepaalt u welke **extra filters actief zijn** bij het opbouwen van het **Order Overview** in de Final Outbound Check-app.  
+Alleen de geselecteerde filters worden toegepast bij het ophalen van orders.
+
+#### `IsFinalOutboundCustomer`
+
+Filtert het orderoverzicht op klanten die zijn ingesteld als **Final Outbound Check-klant**.
+
+Wanneer deze optie actief is, worden alleen orders geladen van klanten waarbij **‘Is eindcontrole debiteur’** is ingeschakeld.
+
+**Gebruik:**
+- Voorkomt dat orders van niet-deelnemende klanten zichtbaar zijn.
+- Zorgt dat alleen relevante orders in de eindcontrole verschijnen.
+
 #### `OrderNumberFilter`
 Met deze policy kunt u specifieke ordernummers uitsluiten van het overzicht in de Final Outbound Check-app.  
 Dit is handig wanneer bepaalde orders niet relevant zijn voor controle, of wanneer u wilt voorkomen dat specifieke orders zichtbaar of selecteerbaar zijn in het orderoverzicht.
