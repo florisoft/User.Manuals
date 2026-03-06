@@ -6,7 +6,7 @@ This document describes the operation of the chat function in FloriShop. The ide
 
 Florisoft employees should already have gone through the Florisoft system settings before you start with this manual. The same applies to the Florishop settings regarding the use of the chat function.
 
-Webshop setting ‘DesktopHeaderActions’; this must be set to ‘Notifications’.
+Webshop setting ‘DesktopHeaderActions’; this must be set to ‘Notifications’.  
 Webshop setting ‘WebNotificationCentreAan’; this must be set to ‘On’.  
 
 ## Table of Contents
