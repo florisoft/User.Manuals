@@ -6,6 +6,9 @@ Dit document beschrijft de werking van de chatfunctie in FloriShop. Het idee ach
 
 Florisoft medewerkers horen de Florisoft systeeminstellingen al doorlopen te hebben voor dat u begint met deze handleiding. Hetzelfde geldt voor de Florishop instellingen omtrent het gebruik van de chatfunctie.
 
+Webshopsetting 'DesktopHeaderActions'; hierin moet het type 'Notifications' aan staan.  
+Webshopsetting 'WebNotificationCentreAan'; deze moet aan staan.  
+
 ## Table of contents
 
 [Debiteurgroepen aanmaken](#debiteurgroepen-aanmaken)  
