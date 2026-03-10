@@ -41,6 +41,8 @@ The e-Invoice Server module makes it possible to send information to the custome
 In Florisoft this can be configured. The UBL generator is now based on EN16931/Peppol (BIS 3.0) and can include the required fields such as CustomizationID and ProfileID.
 The settings can be found in the constants for the debtor on the tab Invoice → Electronic Invoice.
 
+Set up a different email address: When printing invoices, the UBL is sent separately. For this purpose, a debtor contact details list has also been created in the constants (Email > Invoice UBL Mail). When this is filled in and Constants > Debtor > Electronic Invoice > ‘Also send UBL attachment with Florisoft eInvoice’ is enabled, the aforementioned contact list is used to send the UBL. If this is empty, it falls back to the invoice contact list.
+
 |Step|Explanation|
 |:--|:--|
 |**1**|Open the constants screen and navigate to the following path:<br>**Community → Debtor data → Debtors**                                                                                                                                                                                                                                                
