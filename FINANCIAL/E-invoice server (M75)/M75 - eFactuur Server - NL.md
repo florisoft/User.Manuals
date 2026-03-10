@@ -67,6 +67,8 @@ stuurt. Andere leveranciers dienen dus een andere code te gebruiken.
 In Florisoft kun je dit inrichten. De UBL-generator is inmiddels gebaseerd op EN16931/Peppol (BIS 3.0) en kan de gevraagde velden zoals CustomizationID en ProfileID meesturen. 
 De instellingen staan in de constanten bij de debiteur op tabblad Factuur -> Electronische Factuur. 
 
+Afwijkend mailadres instellen: Bij factuur printen wordt de UBL apart gestuurd, hiervoor is er ook een debiteur contactgegevens lijst aangemaakt in de constanten (Email > Factuur UBL Mail). Wanneer deze gevuld is en Constanten > Debiteur > Electronische Factuur > 'Bij Florisoft eFactuur ook UBL-bijlage meesturen aanstaat', wordt de eerder genoemde contactlijst gebruikt om de UBL te sturen, indien deze leeg is; wordt er terug gefallbacked naar de factuur contactlijst.
+
 |Stap|Uitleg|
 |:--|:--|
 |**1**|Open het constanten scherm en navigeer naar het pad:<br>**Organen→Debiteur gegevens→Debiteuren**|
