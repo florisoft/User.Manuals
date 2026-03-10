@@ -1986,6 +1986,7 @@
 | DATABASE      | API           |
 | :--           | :--           |
 | id            | Id            |
+| _version      | Version       |
 | barcode       | Barcode       |
 | vestiging     | Branch        |
 | creatie       | Creation      |
