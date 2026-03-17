@@ -192,6 +192,7 @@
 |SupplyAuctionCode|AVOERVEIL|
 |packingStation|DOOSLOCATIE|
 |packingStationCheckDate|DOOSDATE|
+|unitcode|UNITCOD|
 
 ## Constants/CreditReasons (Kieslijst)
 
