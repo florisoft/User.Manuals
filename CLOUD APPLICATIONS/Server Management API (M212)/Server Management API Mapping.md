@@ -276,6 +276,15 @@
 |pKey|_PKEY|
 |version|_VERSION|
 
+## Constants/FinancialUnits (FinUnit)
+
+|API|DATABASE|
+|:--|:--|
+|unitCode|UNITCOD|
+|unitText|UNITTXT|
+|pKey|_PKEY|
+|version|_VERSION|
+
 ## Constants/Growers (Kweker)
 
 |API|DATABASE|
