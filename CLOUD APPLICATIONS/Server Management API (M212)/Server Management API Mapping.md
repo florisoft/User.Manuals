@@ -701,6 +701,7 @@
 | KOLLI               | Colli                |
 | KOPERNR             | BuyerNo              |
 | KWEKER              | GrowerId             |
+| KWALITEITSOPMERKING | QualityComment       |
 | LAND                | CountryId            |
 | LEVCOD              | SupplierId           |
 | LEVFACTNR           | SupplierInvoiceNr    |
