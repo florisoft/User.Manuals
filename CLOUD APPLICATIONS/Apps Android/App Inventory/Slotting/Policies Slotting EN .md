@@ -189,6 +189,14 @@ This prevents stock items with the same VPartijNr from being distributed across 
 > ⚠️ Note: When this policy is enabled, scanning a single stock item may directly affect multiple stock items with the same VPartijNr.
 
 ---
+### `ReturnToHomeAfterLinking`
+
+Determines whether the app automatically returns to the home screen after linking a stock item to a location.
+
+**Use:**
+Can be useful when both workflows are used interchangeably, helping to prevent confusion.
+
+---
 
 ## Settings Outside of Policies
 

@@ -189,6 +189,14 @@ Hiermee wordt voorkomen dat partijen met hetzelfde VPartijNr verspreid raken ove
 > ⚠️ Let op: Wanneer deze policy is ingeschakeld, kan het scannen van één partij dus direct effect hebben op meerdere partijen met hetzelfde VPartijNr.
 
 ---
+### `ReturnToHomeAfterLinking`
+
+Bepaalt of de app automatisch teruggaat naar het startscherm na het koppelen van een partij aan een locatie.
+
+**Gebruik:**
+ Kan nuttig zijn wanneer beide workflows door elkaar worden gebruikt, zodat misverstanden worden voorkomen.
+
+---
 
 ## Instellingen buiten policies om
 Niet alle instellingen zijn momenteel opgenomen in de policies groepen voor Slotting. Sommige instellingen bevinden zich nog in het systeem zelf en zijn van minder strategisch belang, maar verdienen toch aandacht vanwege hun invloed op het gedrag van het slottingproces.
