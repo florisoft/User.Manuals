@@ -1581,7 +1581,7 @@
 
 |API|DATABASE|
 |:--|:--|
-|crossdeck|CROSSDECK|
+|crossdock|CROSSDOCK|
 |stockId|KASSA_ID|
 |customerId|DEBNR|
 |articleId|ARTNR|
