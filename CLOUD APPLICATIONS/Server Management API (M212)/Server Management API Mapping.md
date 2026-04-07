@@ -2008,6 +2008,21 @@
 | vpartijnr     | VParcelId     |
 | xorderbarcode | XOrderBarcode |
 
+## OrderCustomerSettings (BestelDebiteur)
+
+|API             |DATABASE  |
+|:--             |:--       |
+|parcelNo        |PARTIJNR  |
+|customerId      |DEBNR     |
+|visible         |ZICHTBAAR |
+|maxQuantity     |MAXAFNAME |
+|salesUnit       |VE        |
+|fixedPrice      |PRIJS     |
+|raisePercentage |OPSLPERC  |
+|raiseAmount     |OPSLBEDR  |
+|id              |ID        |
+|version         |_VERSION  |
+
 ## ParcelCustomerSettings (Voorraad Debiteur instellingen)
 
 |API              |DATABASE   |
