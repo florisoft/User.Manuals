@@ -475,6 +475,7 @@
 |debtorFinancialNumber|FINDEBNR|
 |accountManager|VERKOOPNR|
 |currency|VALCOD|
+|deliveryTime|LEVERTIJD|
 |pKey|_PKEY|
 |version|_VERSION|
 
