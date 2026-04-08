@@ -193,6 +193,7 @@
 |packingStation|DOOSLOCATIE|
 |packingStationCheckDate|DOOSDATE|
 |unitcode|UNITCOD|
+|blockedForDelivery|LEVSTOP|
 
 ## Constants/CreditReasons (Kieslijst)
 
