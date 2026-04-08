@@ -1610,6 +1610,7 @@
 |deliveryDate|LEVERDAT|
 |seller|VERKCOD|
 |picker|Picker|
+|packListNo|FACTNR|
 |Version|_VERSION|
 |pKey|_PKEY|
 
