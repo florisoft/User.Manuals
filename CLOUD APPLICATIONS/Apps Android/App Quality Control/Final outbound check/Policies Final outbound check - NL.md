@@ -166,6 +166,18 @@ Met deze policy kun je extra add-ons inschakelen die extra functionaliteit aan d
 
 ---
 
+### `ProductDetails`
+
+De **policy-groep** `ProductDetails` bepaalt welke productdetails worden weergegeven binnen de app.
+
+#### `ShowLogisticStatusOptions`
+
+Bepaal met deze policy welke logistieke processen worden getoond, zodat de status hiervan gecontroleerd kan worden.
+
+De statuspagina is gebaseerd op de acties uit het partijlog.
+
+---
+
 ### `BarcodeDecodeOptions`
 Bepaalt welke barcodetypen (bijvoorbeeld Trolleybarcode, Orderitembarcode of FSQR) tijdens de eindcontrole worden herkend.  
 De _decoder_ bevat de informatie uit de barcode-lay-out waarmee de app bepaalt hoe de barcode gelezen moet worden.

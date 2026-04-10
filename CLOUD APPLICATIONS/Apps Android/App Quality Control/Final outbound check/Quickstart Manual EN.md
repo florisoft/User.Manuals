@@ -57,6 +57,18 @@ The way in which a check is handled depends on the setting of the `CountingStrat
 * the number of packages (kolli),
 * or the entire ordered quantity.
 
+#### Product details and status view
+
+For each order line, it is possible to open the **product details**. This screen displays additional information about the item.
+
+Part of these product details is the **status page**. This page provides insight into the logistical progress of the item and is based on the actions recorded in the batch log.
+
+Which information and statuses are shown here depends on the configured policies within `ShowLogisticStatusOptions`.
+
+
+<details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/11.png"></details>
+<br>
+
 #### Manual Final Check of Order Lines
 
 If scanning an order line is not possible, the check can also be performed manually.  

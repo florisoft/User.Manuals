@@ -35,6 +35,7 @@ Scannen van de barcode van een orderregel, bijvoorbeeld een pickordersticker. Hi
 > ℹ️  Wanneer de policy `AllowScanningRedistributedBarcodes` is ingeschakeld, kan het voorkomen dat bij het scannen meerdere resultaten worden gevonden, bijvoorbeeld bij herverdeelde artikelen. In dat geval verschijnt automatisch een keuzescherm waarin het juiste orderitem geselecteerd moet worden om het scanproces te vervolgen.
 
 <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/2A.png"></details>
+
 #### Optie 2: Order zoeken via zoekicoon
 
 Door het zoekicoon te gebruiken wordt een orderoverzicht getoond. Dit overzicht laat alle beschikbare klantorders zien. De weergave van dit overzicht kan naar eigen voorkeur ingesteld worden. De benodigde policies hiervoor zijn te vinden in de submap `Overview` van de FinalOutbound policies.
@@ -56,6 +57,17 @@ De manier waarop een controle wordt afgehandeld, is afhankelijk van de instellin
 * het aantal in de barcode,
 * het aantal kolli,
 * of het volledige bestelde aantal.
+
+#### Productdetails en status bekijken
+
+Per orderregel is het mogelijk om de **productdetails** te openen. In dit scherm worden aanvullende gegevens van het artikel weergegeven.
+
+Onderdeel van deze productdetails is de **statuspagina**. Deze pagina geeft inzicht in de logistieke voortgang van het artikel en is gebaseerd op de acties die zijn vastgelegd in het partijlog.
+
+Welke informatie en statussen hier zichtbaar zijn, is afhankelijk van de ingestelde policies binnen `ShowLogisticStatusOptions`.
+
+<details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/11.png"></details>
+<br>
 
 #### Handmatige eindcontrole van orderregels
 

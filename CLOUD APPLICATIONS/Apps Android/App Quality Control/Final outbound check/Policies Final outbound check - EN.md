@@ -161,6 +161,18 @@ Allows you to enable additional add-ons that add extra functionality to the app.
 
 ---
 
+### `ProductDetails`
+
+The **policy group** `ProductDetails` determines which product details are displayed within the app.
+
+#### `ShowLogisticStatusOptions`
+
+Use this policy to define which logistical processes are shown, allowing their status to be monitored.
+
+The status page is based on the actions recorded in the batch log.
+
+---
+
 ### `BarcodeDecodeOptions`
 Defines which barcode types (for example Trolley barcode, Order item barcode, or FSQR) are recognized during the final outbound check.  
 The _decoder_ contains the layout information embedded in the barcode, allowing the app to determine how the barcode should be interpreted.
