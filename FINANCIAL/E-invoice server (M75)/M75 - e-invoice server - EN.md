@@ -47,7 +47,7 @@ Set up a different email address: When printing invoices, the UBL is sent separa
 |:--|:--|
 |**1**|Open the constants screen and navigate to the following path:<br>**Community → Debtor data → Debtors**                                                                                                                                                                                                                                                
 |**2**|Open a debtor and navigate within the record to the subfolder:<br>**Invoice → Electronic Invoice**                                                                                                                                                                                                                                                   
-|**3**|Enable the setting "*When sending Florisoft eInvoice, also include a UBL file.*". Set the UBL attachment type to: *EN16931 EU Invoice*" and set the UBL endpointId type to: "*VAT 9925, CoC 0208 or 0088 EAN/GLN*".<details><summary><b>Click here for the example image</b></summary><img src=".efact server/media/UBLENG.png"></details> |
+|**3**|Enable the setting "*Send a UBL file.*". Set the UBL attachment type to: *EN16931 EU Invoice*" and set the UBL endpointId type to: "*VAT 9925, CoC 0208 or 0088 EAN/GLN*".<details><summary><b>Click here for the example image</b></summary><img src=".efact server/media/DEBUBL.png"></details> |
 
 Peppol expects the XML file to be of type: EN16931 EU Invoice.
 With these settings, the following values are included in the XML:
@@ -79,16 +79,16 @@ If both are empty, the debtor’s GLN is sent with schemeID="0088".
 It is important that certain fields in Florisoft are filled in correctly. These include system settings (under company details), settings for the customer, and settings for financial accounting.
 I will list a few fields and show below where they are filled in the XML.  
 
-In the System Settings - General - Company Information section, fill in the fields shown in the image below.  
-<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/BedrijfsSettings1.png"></details>  
+In the System Settings - General - Company details section, fill in the fields shown in the image below.  
+<details><summary><b>Click here for an example</b></summary><img src=".efact server/media/SYSTEM.png"></details>  
 
 In the “Constants - Financial Administration” section, fill in the following fields: VAT number, bank account, and BIC/SWIFT code. These will also be included in the XML.   
-<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/FinAdminSettings1.png"></details>  
+<details><summary><b>Click here for an example</b></summary><img src=".efact server/media/FINUBL.png"></details>  
 
 In the “Constants - Debtors” section, fill in the fields that are also filled in the image below.  
-<details><summary><b>Klik hier voor uw voorbeeld afbeelding voor debiteurinstellingen</b></summary><img src=".efact server/media/DebiteurSet1.png"></details>  
+<details><summary><b>Click here for an example for debtor settings</b></summary><img src=".efact server/media/DEB2UBL.png"></details>  
 
 See below for the result showing how this is included in the XML.    
-<details><summary><b>Klik hier voor uw voorbeeld afbeelding van de XML</b></summary><img src=".efact server/media/PeppolSettings1.png"></details>  
+<details><summary><b>Click here for an example</b></summary><img src=".efact server/media/PeppolSettings1.png"></details>  
 
-<details><summary><b>Klik hier voor uw voorbeeld afbeelding van de XML deel 2</b></summary><img src=".efact server/media/PeppolSettings2.png"></details>  
+<details><summary><b>Click here for an example</b></summary><img src=".efact server/media/PeppolSettings2.png"></details>  
