@@ -14,7 +14,8 @@ De module ondersteunt het zoeken naar orders, het beheren van sessies, het telle
 
 Registraties kunnen worden voorzien van aantallen, opmerkingen en aanvullende controlegegevens
 
-* [Handleiding Returnables Outbound](url)
+* [Handleiding Returnables Outbound](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Returnables/Returnables%20Outbound/Handleiding%20Returnables%20Outbound%20-%20NL.md
+)
 
 
 ## Returnables Inbound
