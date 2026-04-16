@@ -14,7 +14,8 @@ The module supports searching for orders, managing sessions, counting packaging 
 
 Registrations can include quantities, comments and additional control data.
 
-* [Returnables Outbound Manual](url)
+* [Returnables Outbound Manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Returnables/Returnables%20Outbound/Manual%20Returnables%20Outbound%20-%20EN.md
+)
 
 ## Returnables Inbound
 
