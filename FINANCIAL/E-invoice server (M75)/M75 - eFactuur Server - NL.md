@@ -73,7 +73,7 @@ Afwijkend mailadres instellen: Bij factuur printen wordt de UBL apart gestuurd, 
 |:--|:--|
 |**1**|Open het constanten scherm en navigeer naar het pad:<br>**Organen→Debiteur gegevens→Debiteuren**|
 |**2**|Open een debiteur en navigeer binnen de kaart naar de submap:<br>**Factuur→Electronische Factuur**|
-|**3**|Zet de instelling "*UBL-bijlage meesturen.*" aan.  Zet de instelling UBL-bijlagetype op: *EN16931 EU Invoice*" en zet UBL-endpointId-type op: "*Btw9925, Kvk 0208 of 0088 EAN/GLN*".<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/UBLefact.png"></details>
+|**3**|Zet de instelling "*UBL-bijlage meesturen.*" aan.  Zet de instelling UBL-bijlagetype op: *EN16931 EU Invoice*" en zet UBL-endpointId-type op: "*Btw9925, Kvk 0208 of 0088 EAN/GLN*".<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/UBLSet.png"></details>
 
 Peppol verwacht het XML bestand volgens de type op: EN16931 EU Invoice. Met deze instellingen wordt dit in de XML meegestuurd: 
 
@@ -95,7 +95,21 @@ Als beide leeg zijn, dan wordt de GLN van de debiteur gestuurd in schemeID=”00
 <details><summary><b>Klik hier voor uw voorbeeld afbeelding waarbij BTW nummer en KVK nummer is gevuld van de debiteur</b></summary><img src=".efact server/media/BTW_en_KVK.png"></details>
 <details><summary><b>Klik hier voor uw voorbeeld afbeelding wat er in de XML wordt meegestuurd</b></summary><img src=".efact server/media/XML_Voorbeeld.png"></details>  
 
+### Instellingen voor het vullen van verplichte data
+
 Het is belangrijk dat er in Florisoft ook bepaalde velden goed gevuld zijn. Dit zijn systeeminstellingen (achter de bedrijfsgegevens), instellingen bij de debiteur of bij de financiële administratie.
 Ik zal een paar velden benoemen en hieronder laten zien waar deze worden gevuld in de XML.  
-<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/BTW_en_KVK.png"></details>
-<details><summary><b>Klik hier voor uw voorbeeld afbeelding wat er in de XML wordt meegestuurd</b></summary><img src=".efact server/media/XML_Voorbeeld.png"></details>
+
+Vul bij de systeeminstellingen - Algemeen - Bedrijfsgegevens de velden in die in de afbeelding hieronder ook zijn gevuld.  
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/BedrijfsSettings1.png"></details>  
+
+Vul in de Constanten - Financiele administratie de volgende velden in; BTW nummer, bankrekening en BIC/SWIFT code. Deze worden ook gevuld in de XML.  
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/FinAdminSettings1.png"></details>  
+
+Vul in de Constanten - Organen - Debiteuren de velden in die in de afbeelding hieronder ook zijn gevuld.  
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding voor debiteurinstellingen</b></summary><img src=".efact server/media/DebiteurSet1.png"></details>  
+
+Zie hieronder het resultaat met hoe dit wordt meegestuurd in de XML.  
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding van de XML</b></summary><img src=".efact server/media/PeppolSettings1.png"></details>  
+
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding van de XML deel 2</b></summary><img src=".efact server/media/PeppolSettings2.png"></details>  
