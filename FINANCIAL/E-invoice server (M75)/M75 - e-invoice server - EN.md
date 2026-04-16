@@ -52,8 +52,8 @@ Set up a different email address: When printing invoices, the UBL is sent separa
 Peppol expects the XML file to be of type: EN16931 EU Invoice.
 With these settings, the following values are included in the XML:
 
-*<cbc:CustomizationID> urn:cen.eu:en16931:2017</cbc:CustomizationID>*  
-*<cbc:ProfileID> urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>* 
+*<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>*  
+*<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>*  
 <details><summary><b>Click here for the example image</b></summary><img src=".efact server/media/CustomizationID2.png"></details>
 
 Because the UBL endpointId type is set to "VAT 9925, Chamber of Commerce 0208 or 0088 EAN/GLN", the value for the Customer and Supplier in the EndpointID segment can be populated differently and sent with different schemeIds and corresponding values.
@@ -72,4 +72,23 @@ If this is empty, the Chamber of Commerce number is sent with schemeID="0208".
 
 If both are empty, the debtor’s GLN is sent with schemeID="0088".
 
-<details><summary><b>Click here for an example image where both VAT number and Chamber of Commerce number are filled in for the debtor</b></summary><img src=".efact server/media/DEBVAT.png"></details> <details><summary><b>Click here for an example image of what is included in the XML</b></summary><img src=".efact server/media/XML_Voorbeeld.png"></details>
+<details><summary><b>Click here for an example image where both VAT number and Chamber of Commerce number are filled in for the debtor</b></summary><img src=".efact server/media/DEBVAT.png"></details> <details><summary><b>Click here for an example image of what is included in the XML</b></summary><img src=".efact server/media/XML_Voorbeeld.png"></details>  
+
+### Settings for required data
+
+It is important that certain fields in Florisoft are filled in correctly. These include system settings (under company details), settings for the customer, and settings for financial accounting.
+I will list a few fields and show below where they are filled in the XML.  
+
+In the System Settings - General - Company Information section, fill in the fields shown in the image below.  
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/BedrijfsSettings1.png"></details>  
+
+In the “Constants - Financial Administration” section, fill in the following fields: VAT number, bank account, and BIC/SWIFT code. These will also be included in the XML.   
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/FinAdminSettings1.png"></details>  
+
+In the “Constants - Debtors” section, fill in the fields that are also filled in the image below.  
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding voor debiteurinstellingen</b></summary><img src=".efact server/media/DebiteurSet1.png"></details>  
+
+See below for the result showing how this is included in the XML.    
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding van de XML</b></summary><img src=".efact server/media/PeppolSettings1.png"></details>  
+
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding van de XML deel 2</b></summary><img src=".efact server/media/PeppolSettings2.png"></details>  
