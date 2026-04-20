@@ -9,26 +9,26 @@ The conversion can be done through the debug option **Convert Commercial Parcels
 
 In the example below, I created a commercial stock and indicated: **Is commercial stock**.
 
-<img src="./Commerciële partijen/media/image1.png" style="width:6.28999in;height:3.48958in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image1.png" style="width:6.28999in;height:3.48958in" />
 
 For the logistics stock or stocks, you must then indicate: **Counts towards commercial stock**. See the example below for the flower stock:
 
-<img src="./Commerciële partijen/media/image2.png" style="width:6.3125in;height:3.09154in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image2.png" style="width:6.3125in;height:3.09154in" />
 
 The reason why this checkbox is important for the process is that the timer function **Update Commercial Stock Parcels quantities** checks the logistics stock every specified number of minutes to update the quantities in the **Commercial Stock Parcels**. Quantities may already have been sold from the logistics parcel. See below:
 
-<img src="./Commerciële partijen/media/image3.png" style="width:6.3in;height:2.27847in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image3.png" style="width:6.3in;height:2.27847in" />
 
 For both the commercial stocks and the logistics stocks, the settings below must also be enabled on the **Posting** tab.
 
 - For posting, set the checkbox for **Post only fully picked allocations** to **Always on**
 - Enable **Post allocation if the customer is offline** when **Check fully picked** is enabled
 
-<img src="./Commerciële partijen/media/image12.png" style="width:6.3125in;height:3.09154in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image12.png" style="width:6.3125in;height:3.09154in" />
 
 The system settings related to **Commercial Stock Parcels** are grouped together under the **Commercial Stock Parcels** tab:
 
-<img src="./Commerciële partijen/media/image4.png" style="width:6.3in;height:2.02014in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image4.png" style="width:6.3in;height:2.02014in" />
 
 The following four settings are highlighted below.
 
@@ -55,7 +55,7 @@ If this setting is **True**, the **Edit Invoice** screen opens with an extra scr
 As customer **JELLE**, I bought 320 **Alstroemeria Virginia**, but these actually came from 2 different logistics parcels. As a customer, I am of course not aware of this, and therefore I only receive 1 invoice line.  
 The Florisoft user can, however, see from which logistics parcels the customer received the goods and can therefore also credit on this logistics parcel by right-clicking the **Logistics Parcel**.
 
-<img src="./Commerciële partijen/media/image5.png" style="width:6.3in;height:5.875in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image5.png" style="width:6.3in;height:5.875in" />
 
 The same of course also applies to the **Invoice History** screen.
 
@@ -65,15 +65,15 @@ Make sure that the timer that posts stock is also authorized for this stock, so 
 
 You can name the commercial stock however you like. However, this stock will receive a color from your **Navigator** theme. In the example below, this is purple:
 
-<img src="./Commerciële partijen/media/image6.png" style="width:8.12472in;height:4.59344in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image6.png" style="width:8.12472in;height:4.59344in" />
 
 To merge parcels, select the parcels in the logistics stock and right-click the parcel, then choose **Merge Commercial Stock Parcels**.
 
-<img src="./Commerciële partijen/media/image7.png" style="width:7.01042in;height:4.53761in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image7.png" style="width:7.01042in;height:4.53761in" />
 
 This opens the following screen:
 
-<img src="./Commerciële partijen/media/image8.png" style="width:6.30208in;height:3.6783in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image8.png" style="width:6.30208in;height:3.6783in" />
 
 The selected parcels are shown here. On the right-hand side, you can average the price or use the price of the oldest or newest parcel. This can still be adjusted at the top after clicking these buttons. Nothing is saved until you click **OK**.  
 The red box shows the photo of the logistics parcel. For the parcel where you enable the **Select** checkbox, the information from that parcel is copied to the commercial parcel, such as the photo, name, etc.
@@ -82,7 +82,7 @@ Parcels that have been merged receive their own parcel with parcel number in the
 
 If you want to add a parcel to an existing commercial parcel, select one of the logistics parcels with that **CPARTIJNR**, plus the parcel or parcels you want to add. The brown lines are logistics parcels that already have a **CPARTIJNR**; the white lines are the new ones:
 
-<img src="./Commerciële partijen/media/image9.png" style="width:6.55208in;height:3.84227in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image9.png" style="width:6.55208in;height:3.84227in" />
 
 ## Webshop
 
@@ -92,6 +92,6 @@ This is because for customer **X**, not every parcel should be converted into a 
 
 30% of the logistics stock becomes **Commercial**, while the remaining 70% remains a separate logistics parcel.
 
-<img src="./Commerciële partijen/media/image10.png" style="width:6.3in;height:2.65208in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image10.png" style="width:6.3in;height:2.65208in" />
 
-<img src="./Commerciële partijen/media/image11.png" style="width:6.3in;height:2.56181in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image11.png" style="width:6.3in;height:2.56181in" />
