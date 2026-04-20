@@ -1,140 +1,97 @@
 <img src="../../fslogo.png"/>
 
+# Florisoft Manual Commercial Stock Parcels (M101)
 
-# Florisoft Handleiding Commercial Stock Parcels (M101)
+As soon as you have the **Commercial Stock Parcels** module, you will see a new tab in the **stock settings** under **Constants**, and a separate tab in the **Setup System** for the **Commercial Stock Parcels settings**.
 
-Zodra je beschikt over de module Commerciële Voorraad Partijen heb je bij de
-voorraadinstellingen in de constanten een nieuw tabblad en bij het setup
-systeem een apart tabje voor de commerciële partijen instellingen.  
+Important information for setting up the module: before the module is configured, a Florisoft employee must check whether the hashing method is using the new method. Please contact the support department for this.  
+The conversion can be done through the debug option **Convert Commercial Parcels Hash**. By default, this is already enabled on systems that were implemented around or after 2020. Systems that were already live before that year must be converted to the new hashing method. If this has not yet been done, please contact the support department.
 
-Belangrijke informatie voor het inrichten van de module; Voordat de module wordt ingericht moet er door een medewerker van Florisoft nagekeken worden of de manier van hashen via de nieuwe manier gaat. Neem hiervoor contact op met de support afdeling.
-Het omzetten kan via de debug optie 'Commerciele partijen hash omzetten'. Standaard staat dit aan op systemen welke ongeveer na 2020 zijn geimplementeerd. Systemen welke al live waren voor dat jaartal zullen moeten worden omgezet naar de nieuwe manier van hashen. Mocht dat nog niet gedaan zijn kunt u contact opnemen met de supportafdeling.
-  
-In mijn onderstaande voorbeeld heb ik dus een commerciële
-voorraad aangemaakt en aangegeven: “Is commerciële voorraad”.
+In the example below, I created a commercial stock and indicated: **Is commercial stock**.
 
-<img src=".Commerciële partijen\media\image1.png" style="width:6.28999in;height:3.48958in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image1.png" style="width:6.28999in;height:3.48958in" />
 
-Bij de logistieke voorraad of voorraden moet je dan vervolgens aangeven:
-“Telt mee voor commerciële voorraad”. Zie onderstaand voorbeeld voor de
-bloemenvoorraad:
+For the logistics stock or stocks, you must then indicate: **Counts towards commercial stock**. See the example below for the flower stock:
 
-<img src=".Commerciële partijen\media\image2.png" style="width:6.3125in;height:3.09154in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image2.png" style="width:6.3125in;height:3.09154in" />
 
-De reden waarom deze vink belangrijk is voor het proces, is omdat de
-Timerfunctie “Commerciële partijen (Commercial Stock Parcels) aantallen bijwerken” om de opgegeven
-aantal minuten de logistieke voorraad af zal gaan om de aantallen bij te
-werken bij de Commercial Stock Parcels. Kan namelijk op de logistieke partij
-op verkocht zijn. Zie onderstaand;
+The reason why this checkbox is important for the process is that the timer function **Update Commercial Stock Parcels quantities** checks the logistics stock every specified number of minutes to update the quantities in the **Commercial Stock Parcels**. Quantities may already have been sold from the logistics parcel. See below:
 
-<img src=".Commerciële partijen\media\image3.png" style="width:6.3in;height:2.27847in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image3.png" style="width:6.3in;height:2.27847in" />
 
-Bij de commerciele voorraden en logistieke vooraden moeten ook onderstaande instellingen aangezet worden op tabblad 'doorboeken'.
-- Bij doorboeken vinkje voor alleen volledig gepickorderde verd. doorboeken, tonen : altijd aan
-- Verdeling doorboeken indien de klant offline is, bij controle volledig gepicked aanzetten.
+For both the commercial stocks and the logistics stocks, the settings below must also be enabled on the **Posting** tab.
 
-<img src=".Commerciële partijen\media\image12.png" style="width:6.3125in;height:3.09154in" />
+- For posting, set the checkbox for **Post only fully picked allocations** to **Always on**
+- Enable **Post allocation if the customer is offline** when **Check fully picked** is enabled
 
+<img src=".Commerci%C3%ABle%20partijen/media/image12.png" style="width:6.3125in;height:3.09154in" />
 
-De systeem instellingen m.b.t. Commercial Stock Parcels staan allemaal bij
-elkaar onder het tabje Commercial Stock Parcels (Commerciële partijen);
+The system settings related to **Commercial Stock Parcels** are grouped together under the **Commercial Stock Parcels** tab:
 
-<img src=".Commerciële partijen\media\image4.png" style="width:6.3in;height:2.02014in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image4.png" style="width:6.3in;height:2.02014in" />
 
-Uitgelicht even de volgende 4 instellingen.  
+The following four settings are highlighted below.
+
 <u>CompartijDetails</u>
 
-Sneltoets voor openen Commercial Stock Parcel detail scherm. Instelbaar naar
-vrije keuze.
+Shortcut for opening the **Commercial Stock Parcel details** screen. This can be configured freely.
 
 <u>CPartijNrNietTonenWebshop</u>
 
-Partijen die als commerciële partij worden gemaakt, krijgen bij de
-logistieke partij een CPARTIJNR. Met deze instelling kun je de partijen
-met CPARTIJNR uit de Webshop en Webservice filteren. Indien False zie je
-dus de logistieke partij + de commerciële partij. True dus alleen de
-commerciële partij.
+Parcels that are created as a commercial parcel receive a **CPARTIJNR** on the logistics parcel. With this setting, you can filter parcels with a **CPARTIJNR** from the **Webshop** and **Webservice**.  
+If set to **False**, you will see both the logistics parcel and the commercial parcel.  
+If set to **True**, you will only see the commercial parcel.
 
 <u>LogistiekPartijTonenFacthisto</u>
 
-Als deze instelling True staat, opent het factuurhistorie scherm met een
-extra scherm waar van een commerciële partij, de logistieke partij
-getoond word.
+If this setting is **True**, the **Invoice History** screen opens with an extra screen showing the logistics parcel belonging to a commercial parcel.
 
 <u>LogistiekPartijTonenWijzig</u>
 
-Als deze instelling True staat, opent het factuur wijzigen scherm met
-een extra scherm waar van een commerciële partij, de logistieke partij
-getoond word. ( zie onderstaand voorbeeld )
+If this setting is **True**, the **Edit Invoice** screen opens with an extra screen showing the logistics parcel belonging to a commercial parcel. See the example below.
 
-<u>Voorbeeld:</u>
+<u>Example:</u>
 
-Als klant JELLE heb ik 320 Alstromeria Virginia gekocht, echter waren
-dit dus 2 verschillende logistieke partijen. Als klant weet ik dit
-natuurlijk niet en daarom krijg ik ook 1 factuurregel. De Florisoft
-gebruiker kan dus WEL zien van welke logistieke partijen de klant
-heeft ontvangen en kan dus ook op deze logistieke partij crediteren (
-rechtermuis op de Logistieke partij ).
+As customer **JELLE**, I bought 320 **Alstroemeria Virginia**, but these actually came from 2 different logistics parcels. As a customer, I am of course not aware of this, and therefore I only receive 1 invoice line.  
+The Florisoft user can, however, see from which logistics parcels the customer received the goods and can therefore also credit on this logistics parcel by right-clicking the **Logistics Parcel**.
 
-<img src=".Commerciële partijen\media\image5.png" style="width:6.3in;height:5.875in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image5.png" style="width:6.3in;height:5.875in" />
 
-Zelfde geldt uiteraard voor het factuurhistorie scherm!
+The same of course also applies to the **Invoice History** screen.
 
-De commerciële voorraad is net als de overige voorraden voorzien van
-autorisatie voor gebruikers.
+Like the other stocks, the commercial stock is also subject to user authorization.
 
-Let op dat de Timer die voorraad door boekt ook voor deze voorraad is
-geautoriseerd, zodat de verdelingen door geboekt worden. Zowel de
-commerciële partij verdelingen EN logistieke partij verdelingen moeten
-worden door geboekt.
+Make sure that the timer that posts stock is also authorized for this stock, so that the allocations are posted correctly. Both the **commercial parcel allocations** and the **logistics parcel allocations** must be posted.
 
-De commerciële voorraad kun je een naam geven zoals je zelf wilt. Echter krijgt deze voorraad wel een kleur vanuit je thema
-van je navigator. Onderstaand voorbeeld is paars:
+You can name the commercial stock however you like. However, this stock will receive a color from your **Navigator** theme. In the example below, this is purple:
 
-<img src=".Commerciële partijen\media\image6.png" style="width:8.12472in;height:4.59344in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image6.png" style="width:8.12472in;height:4.59344in" />
 
-Om partijen samen te voegen, selecteer de partijen in de logistieke
-voorraad en ga via rechtermuisknop op de partij naar “Samenvoegen
-Commerciële partijen”
+To merge parcels, select the parcels in the logistics stock and right-click the parcel, then choose **Merge Commercial Stock Parcels**.
 
-<img src=".Commerciële partijen\media\image7.png" style="width:7.01042in;height:4.53761in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image7.png" style="width:7.01042in;height:4.53761in" />
 
-Dit opent het volgende scherm:
+This opens the following screen:
 
-<img src=".Commerciële partijen\media\image8.png" style="width:6.30208in;height:3.6783in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image8.png" style="width:6.30208in;height:3.6783in" />
 
-De geselecteerd partijen worden hier getoond. Aan de rechterkant kun je
-de prijs middelen, of gebruiken van de oudste of nieuwste partij. Is
-bovenin na klikken op deze knoppen nog steeds aan te passen! Na Ok pas
-opgeslagen. Rode blokje laat de foto zien van de logistieke partij. Op
-de partij waar je de Selecteer vink aanzet neem je de info van over naar
-de commerciële partij. Foto, naam etc.
+The selected parcels are shown here. On the right-hand side, you can average the price or use the price of the oldest or newest parcel. This can still be adjusted at the top after clicking these buttons. Nothing is saved until you click **OK**.  
+The red box shows the photo of the logistics parcel. For the parcel where you enable the **Select** checkbox, the information from that parcel is copied to the commercial parcel, such as the photo, name, etc.
 
-Partijen die zijn samengevoegd krijgen in de Commerciële voorraad een
-eigen partij met partij nummer. Dit nummer is ook te zien in de
-CPARTIJNR kolom in de voorraad van de logistieke voorraad.
+Parcels that have been merged receive their own parcel with parcel number in the **Commercial Stock**. This number is also visible in the **CPARTIJNR** column in the logistics stock.
 
-Als je een partij wilt toevoegen aan een al bestaande commerciële
-partij, selecteer je 1 van de logistieke partij met dat CPARTIJNR plus
-de partij of partijen die je hierbij wilt toevoegen. De bruine regels
-zijn al logistieke partijen met CPARTIJNR de witte regels zijn de
-nieuwe:
+If you want to add a parcel to an existing commercial parcel, select one of the logistics parcels with that **CPARTIJNR**, plus the parcel or parcels you want to add. The brown lines are logistics parcels that already have a **CPARTIJNR**; the white lines are the new ones:
 
-<img src=".Commerciële partijen\media\image9.png" style="width:6.55208in;height:3.84227in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image9.png" style="width:6.55208in;height:3.84227in" />
 
-Webshop.
+## Webshop
 
-Bij klant 'X' heb ik er voor gekozen om de Cel voorraad en de commerciële
-voorraad als 1 voorraad te tonen op de Webshop, als Webshop voorraad.
-Genoemd Bloemen.
+For customer **X**, I chose to show the **Cell stock** and the **Commercial Stock** as one stock in the **Webshop**, as **Webshop Stock**, called **Flowers**.
 
-Dit omdat bij klant 'X' NIET iedere partij omgevormd moet worden tot
-commerciële partij. Enkel de producten die normaliter werden
-“Samengevoegd” om het aanbod voor de klant overzichtelijker te maken.
+This is because for customer **X**, not every parcel should be converted into a commercial parcel. Only the products that would normally be **merged** in order to make the offer clearer for the customer.
 
-30% van de logistieke voorraad wordt Commercieel, de overige 70% blijft
-dus een losse logistieke partij.
+30% of the logistics stock becomes **Commercial**, while the remaining 70% remains a separate logistics parcel.
 
-<img src=".Commerciële partijen\media\image10.png" style="width:6.3in;height:2.65208in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image10.png" style="width:6.3in;height:2.65208in" />
 
-<img src=".Commerciële partijen\media\image11.png" style="width:6.3in;height:2.56181in" />
+<img src=".Commerci%C3%ABle%20partijen/media/image11.png" style="width:6.3in;height:2.56181in" />
