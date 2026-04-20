@@ -8,6 +8,8 @@ Without a valid license, the apps will not start or will operate with limited fu
 Florisoft licenses are obtained per use case, ensuring that only the necessary modules or users receive a license.  
 It is therefore important to understand which license types are available and how these can be managed.
 
+> Note: to manage licenses via the **Manage Licenses** screen, the user must first have the `CanManageLicenses` policy enabled. Without this policy, the screen is not accessible.
+
 ---
 
 ## 1. License Types
@@ -37,6 +39,11 @@ There are two main types of licenses available within Florisoft:
 ---
 
 ## 2. Managing Licenses via the _Manage Licenses_ Screen
+
+#### Access Rights
+
+To access this screen, the user must have the **policy** `CanManageLicenses` enabled.  
+Without this policy, the screen will not be accessible.
 
 To open the **License Management** screen, go to:  
 **System → Manage Licenses** in **Florisoft.NET Navigator**.
@@ -73,11 +80,6 @@ Here, you can check whether the licenses are up to date and perform manual actio
   
 - **Refresh the screen**
     Using the **Refresh** button, the screen can be manually refreshed so that active licenses are immediately displayed with the most up-to-date claim and activity information.
-
-#### Access Rights
-
-To access this screen, the user must have the **policy** `CanManageLicenses` enabled.  
-Without this policy, the screen will not be accessible.
 
 ---
 

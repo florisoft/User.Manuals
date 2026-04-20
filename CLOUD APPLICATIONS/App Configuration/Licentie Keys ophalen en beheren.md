@@ -7,6 +7,9 @@ Zonder geldige licentie zullen de apps niet opstarten of beperkt functioneren.
 
 Florisoft-licenties worden per use-case afgenomen, zodat alleen de benodigde onderdelen of gebruikers een licentie krijgen.  
 Het is daarom belangrijk om te begrijpen welke licentietypes beschikbaar zijn en hoe deze worden beheerd.
+
+> Let op: om licenties te kunnen beheren via het scherm **Manage Licenses**, moet voor de gebruiker eerst de policy `CanManageLicenses` zijn ingeschakeld. Zonder deze policy is dit scherm niet toegankelijk.
+
 ## 1. Licentietypes
 
 Er zijn twee hoofdtypen licenties beschikbaar binnen Florisoft:
@@ -23,6 +26,11 @@ Er zijn twee hoofdtypen licenties beschikbaar binnen Florisoft:
 - Dit type licentie is ideaal in situaties waar meerdere medewerkers afwisselend met Florisoft werken.
 
 ## 2. Licenties beheren via het _Manage Licenses_-scherm
+
+#### Toegangsrechten
+
+Om toegang te krijgen tot dit scherm, moet de **policy** `CanManageLicenses` zijn ingeschakeld voor de gebruiker. Zonder deze policy is het scherm niet toegankelijk.
+
 Om het **License Management**-scherm te openen, ga je in **Florisoft.NET Navigator** naar:
 **Systeem → Manage licenses**
 
@@ -57,11 +65,6 @@ Hier kun je controleren of de licenties correct zijn bijgewerkt en eventueel han
 
 - **Scherm verversen**
     Met de **Refresh**-knop wordt het scherm handmatig ververst, zodat actieve licenties direct zichtbaar zijn met de meest recente claim- en activiteitsinformatie.
-
-#### Toegangsrechten
-
-Om toegang te krijgen tot dit scherm, moet de **policy** `CanManageLicenses` zijn ingeschakeld voor de gebruiker.  
-Zonder deze policy is het scherm niet toegankelijk.
 
 ## 3. Automatisch ophalen van licentie keys
 
