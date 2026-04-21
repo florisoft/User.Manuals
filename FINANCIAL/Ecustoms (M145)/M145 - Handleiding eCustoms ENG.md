@@ -235,7 +235,7 @@ The correct currency must be selected here. The static conversion
 currency contains the ISO currency code required for export and the
 customs declaration. The static conversion can be entered here:
 
-**Navigator → Constants → Financial → Item Data → Currency Codes → Open Currency → tab Currency → fill in Static Conversion**
+**Navigator → Constants → Financial → Currency Codes → Open Currency → tab Currency → fill in Static Conversion**
 
 <img src=".Handleiding%20eCustoms/media/image11.png" style="width:7.14494in;height:4.98896in" />
 
