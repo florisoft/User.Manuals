@@ -72,7 +72,7 @@ required fields will become active.
   for a request can be emailed (currently only for **CSI Fresh**. The
   email address must be provided by CSI Fresh)
 
-<img src=".Handleiding%20eCustoms/media/image2.png" style="width:8.8375in;height:3.60972in" />
+<img src=".Handleiding%20eCustoms/media/image2(EN).png" style="width:8.8375in;height:3.60972in" />
 
 # Set Up eCustoms Carrier
 
@@ -84,7 +84,7 @@ the carrier, the system will fall back to the default.
 
 Here, the desired eCustoms provider must be entered.
 
-<img src=".Handleiding%20eCustoms/media/image3.png" style="width:7.7093in;height:5.1886in" />
+<img src=".Handleiding%20eCustoms/media/image3(EN).png" style="width:7.7093in;height:5.1886in" />
 
 # Set Up eCustoms Transport Route
 
@@ -130,7 +130,7 @@ be used when that specific transport route is linked to the invoice.
   UN/LOCODEs are maintained by UNECE.  
   (only applicable to LBP)*
 
-<img src=".Handleiding%20eCustoms/media/image4.png" style="width:7.83235in;height:5.42641in" />
+<img src=".Handleiding%20eCustoms/media/image4(EN).png" style="width:7.83235in;height:5.42641in" />
 
 # eCustoms Debtor Settings
 
@@ -158,7 +158,7 @@ that one invoice is created. The debtor type can be configured here:
   invoices for the declaration are created. If a declaration is
   submitted separately for each debtor, this field must remain empty.*
 
-<img src=".Handleiding%20eCustoms/media/image5.png" style="width:8.475in;height:6.3in" />
+<img src=".Handleiding%20eCustoms/media/image5(EN).png" style="width:8.475in;height:6.3in" />
 
 # Set Up eCustoms Financial Administration
 
@@ -176,7 +176,7 @@ Linking the debtor to the different administrations can be done here:
 
 **Navigator → Constants → Community → Debtor Data → Debtors → Open Debtor → tab Financial Administration**
 
-<img src=".Handleiding%20eCustoms/media/image6.png" style="width:8.8375in;height:6.19306in" />
+<img src=".Handleiding%20eCustoms/media/image6(EN).png" style="width:8.8375in;height:6.19306in" />
 
 # Create Incoterms and eCustoms Settings
 
@@ -191,7 +191,7 @@ You can then link the Incoterm to the consolidation debtor here:
 
 **Navigator → Constants → Community → Debtor Data → Debtors → Open Debtor → tab Transport → Incoterms**
 
-<img src=".Handleiding%20eCustoms/media/image7.png" style="width:8.27986in;height:6.3in" />
+<img src=".Handleiding%20eCustoms/media/image7(EN).png" style="width:8.27986in;height:6.3in" />
 
 # eCustoms Article Group Split Code Settings
 
@@ -201,7 +201,7 @@ codes per country at article-group level.
 
 **Navigator → Constants → Articles → Article Information → Article Groups → Open Article Group → tab General → Open Country Specific**
 
-<img src=".Handleiding%20eCustoms/media/image8.png" style="width:8.64475in;height:6.07216in" />
+<img src=".Handleiding%20eCustoms/media/image8(EN).png" style="width:8.64475in;height:6.07216in" />
 
 # eCustoms Packaging Settings
 
@@ -215,7 +215,7 @@ You can link the code to the different packaging codes here:
 
 **Navigator → Constants → Articles → Package Information → Open Packaging Code → tab eCustoms → enter Customs packaging code**
 
-<img src=".Handleiding%20eCustoms/media/image9.png" style="width:7.8636in;height:5.78053in" />
+<img src=".Handleiding%20eCustoms/media/image9(EN).png" style="width:7.8636in;height:5.78053in" />
 
 # Packaging Split Code Settings
 
@@ -226,7 +226,7 @@ entered. This can be done in the following location:
 
 Here, the split code can be entered per country and per packaging type.
 
-<img src=".Handleiding%20eCustoms/media/image10.png" style="width:6.42778in;height:6.3in" />
+<img src=".Handleiding%20eCustoms/media/image10(EN).png" style="width:6.42778in;height:6.3in" />
 
 # eCustoms Currency Settings
 
@@ -237,7 +237,7 @@ customs declaration. The static conversion can be entered here:
 
 **Navigator → Constants → Financial → Currency Codes → Open Currency → tab Currency → fill in Static Conversion**
 
-<img src=".Handleiding%20eCustoms/media/image11.png" style="width:7.14494in;height:4.98896in" />
+<img src=".Handleiding%20eCustoms/media/image11(EN).png" style="width:7.14494in;height:4.98896in" />
 
 # eCustoms Country Settings
 
@@ -248,7 +248,7 @@ here:
 
 **Navigator → Constants → Locations → Regions → Countries → Open Country → tab General → fill in Static Conversion**
 
-<img src=".Handleiding%20eCustoms/media/image12.png" style="width:7.60764in;height:6.3in" />
+<img src=".Handleiding%20eCustoms/media/image12(EN).png" style="width:7.60764in;height:6.3in" />
 
 # eCustoms Timers (Optional)
 
@@ -280,7 +280,7 @@ the customs document. The template can be created here in the constants:
 
 **Navigator → Constants → System → Excel Template → Open or Create Excel Template**
 
-<img src=".Handleiding%20eCustoms/media/image13.png" style="width:8.2698in;height:5.65554in" />
+<img src=".Handleiding%20eCustoms/media/image13(EN).png" style="width:8.2698in;height:5.65554in" />
 
 # eCustoms Timers
 
@@ -306,7 +306,7 @@ Below is a short explanation of what is expected in each field:
 - **Returns debtor:** your own company, where the packaging must be
   returned in the Netherlands
 
-<img src=".Handleiding%20eCustoms/media/image14.png" style="width:7.83235in;height:5.42641in" />
+<img src=".Handleiding%20eCustoms/media/image14(EN).png" style="width:7.83235in;height:5.42641in" />
 
 # eCustoms Timers
 
@@ -342,7 +342,7 @@ Here is an explanation of the settings you need to fill in:
   steps, such as creating customer and customs invoices, will still be
   carried out.
 
-<img src=".Handleiding%20eCustoms/media/image15.png" style="width:8.8375in;height:5.67083in" />
+<img src=".Handleiding%20eCustoms/media/image15(EN).png" style="width:8.8375in;height:5.67083in" />
 
 # eCustoms Timers
 
@@ -359,4 +359,4 @@ that later. The timer setting can be enabled here:
 **Navigator → Timer Settings** *(right-click on the Timer icon)*  
 **Timer Settings → choose setting “eCustoms Retrieve Result” → enter settings**
 
-<img src=".Handleiding%20eCustoms/media/image16.png" style="width:8.8375in;height:5.67083in" />
+<img src=".Handleiding%20eCustoms/media/image16(EN).png" style="width:8.8375in;height:5.67083in" />
