@@ -213,7 +213,7 @@ is a list of the customs packaging codes you can use:
 
 You can link the code to the different packaging codes here:
 
-**Navigator → Constants → Articles → Packaging Data → Packaging Types → Open Packaging Code → tab eCustoms → enter Customs packaging code**
+**Navigator → Constants → Articles → Package Information → Open Packaging Code → tab eCustoms → enter Customs packaging code**
 
 <img src=".Handleiding%20eCustoms/media/image9.png" style="width:7.8636in;height:5.78053in" />
 
