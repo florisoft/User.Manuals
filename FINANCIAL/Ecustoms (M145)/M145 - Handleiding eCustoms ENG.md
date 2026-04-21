@@ -222,7 +222,7 @@ You can link the code to the different packaging codes here:
 For the packaging, the split code for the destination country must be
 entered. This can be done in the following location:
 
-**Navigator → Constants → Articles → Packaging Data → Packaging Types → Open Packaging Code → tab Packaging → Open Country Specific**
+**Navigator → Constants → Articles → Package Information → Open Packaging Code → tab Packaging → Open Country Specific**
 
 Here, the split code can be entered per country and per packaging type.
 
