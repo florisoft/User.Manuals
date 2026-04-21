@@ -140,7 +140,7 @@ debtor is the debtor on which the total invoice is created (**LTD
 debtor**). The end customers are linked to this consolidation debtor so
 that one invoice is created. The debtor type can be configured here:
 
-**Navigator → Constants → Relations → Debtor Data → Debtors → Open Debtor → tab Invoice → Customs**
+**Navigator → Constants → Community → Debtor Data → Debtors → Open Debtor → tab Invoice → Customs**
 
 **If it is a consolidation debtor, configure the following:**
 
@@ -174,7 +174,7 @@ can be created here:
 
 Linking the debtor to the different administrations can be done here:
 
-**Navigator → Constants → Relations → Debtor Data → Debtors → Open Debtor → tab Financial Administration**
+**Navigator → Constants → Community → Debtor Data → Debtors → Open Debtor → tab Financial Administration**
 
 <img src=".Handleiding%20eCustoms/media/image6.png" style="width:8.8375in;height:6.19306in" />
 
@@ -189,7 +189,7 @@ and can be created here:
 
 You can then link the Incoterm to the consolidation debtor here:
 
-**Navigator → Constants → Relations → Debtor Data → Debtors → Open Debtor → tab Transport → Incoterms**
+**Navigator → Constants → Community → Debtor Data → Debtors → Open Debtor → tab Transport → Incoterms**
 
 <img src=".Handleiding%20eCustoms/media/image7.png" style="width:8.27986in;height:6.3in" />
 
