@@ -80,7 +80,7 @@ For each carrier, it can be specified which eCustoms provider should be
 used when exporting the customs declaration. If no choice is made for
 the carrier, the system will fall back to the default.
 
-**Navigator → Constants → Relations → Carriers → Open Carrier → tab “eCustoms”**
+**Navigator → Constants → Community → Carriers → Open Carrier → tab “eCustoms”**
 
 Here, the desired eCustoms provider must be entered.
 
