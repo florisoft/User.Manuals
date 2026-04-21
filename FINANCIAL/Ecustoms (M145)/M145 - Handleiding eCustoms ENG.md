@@ -199,7 +199,7 @@ For each article group, the split codes must be entered for the
 countries to which goods are exported. Here you can enter the split
 codes per country at article-group level.
 
-**Navigator → Constants → Articles → Item Data → Article Groups → Open Article Group → tab General → Open Country Specific**
+**Navigator → Constants → Articles → Article Information → Article Groups → Open Article Group → tab General → Open Country Specific**
 
 <img src=".Handleiding%20eCustoms/media/image8.png" style="width:8.64475in;height:6.07216in" />
 
