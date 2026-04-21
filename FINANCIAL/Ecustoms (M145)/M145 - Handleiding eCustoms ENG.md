@@ -36,7 +36,7 @@ For each proxy type, one set of settings can be stored in the
 **Constants**. So if you work with multiple parties, you need to fill in
 this proxy multiple times. Here you can enter the proxy details.
 
-**Navigator → Constants → System → Item Data → eCustoms Proxy Settings → Codes → Open Setting**
+**Navigator → Constants → System → eCustoms Proxy Settings → Codes → Open Setting**
 
 Enter the details belonging to the selected proxy type. Not all fields
 are required for every proxy. Depending on the selected proxy, the
