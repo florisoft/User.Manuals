@@ -97,14 +97,19 @@ Als beide leeg zijn, dan wordt de GLN van de debiteur gestuurd in schemeID=”00
 
 ### Instellingen voor het vullen van verplichte data
 
-Het is belangrijk dat er in Florisoft ook bepaalde velden goed gevuld zijn. Dit zijn systeeminstellingen (achter de bedrijfsgegevens), instellingen bij de debiteur of bij de financiële administratie.
-Ik zal een paar velden benoemen en hieronder laten zien waar deze worden gevuld in de XML.  
+Het is belangrijk dat er in Florisoft ook bepaalde velden goed gevuld zijn. Dit zijn systeeminstellingen (achter de bedrijfsgegevens), instellingen bij de financiële administratie en bij de debiteur.
+Hieronder worden er een paar velden benoemd en laten we zien waar deze worden gevuld in de XML.  
+
+Mocht uw bedrijf met meerdere financiële administraties werken, dan kunnen de ingevulde velden bij de financiële administratie de ingevulde (systeem)instellingen van de bedrijfsgegevens overrulen.  
+Dus dan zullen eerst de gegevens van de financiële administratie in de XML worden weggeschreven, mochten deze leeg zijn, dan worden de gegevens van de systeeminstellingen in de XML gezet.  
 
 Vul bij de systeeminstellingen - Algemeen - Bedrijfsgegevens de velden in die in de afbeelding hieronder ook zijn gevuld.  
+(Deze zullen worden meegestuurd zodra de velden bij de financiële administratie bijvoorbeeld leeg zijn).  
 <details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/BedrijfsSettings1.png"></details>  
 
-Vul in de Constanten - Financiele administratie de volgende velden in; BTW nummer, bankrekening en BIC/SWIFT code. Deze worden ook gevuld in de XML.  
-<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/FinAdminSettings1.png"></details>  
+Vul in de Constanten - Financiele administratie de volgende velden in; Bedrijfsnaam, BTW nummer, Bankrekening, Adresgegevens, IBAN, BIC/SWIFT code. Deze worden ook gevuld in de XML.  
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/Finadmin0.png"></details>  
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src=".efact server/media/FinadminP.png"></details>
 
 Vul in de Constanten - Organen - Debiteuren de velden in die in de afbeelding hieronder ook zijn gevuld.  
 <details><summary><b>Klik hier voor uw voorbeeld afbeelding voor debiteurinstellingen</b></summary><img src=".efact server/media/DebiteurSet1.png"></details>  
@@ -113,3 +118,6 @@ Zie hieronder het resultaat met hoe dit wordt meegestuurd in de XML.
 <details><summary><b>Klik hier voor uw voorbeeld afbeelding van de XML</b></summary><img src=".efact server/media/PeppolSettings1.png"></details>  
 
 <details><summary><b>Klik hier voor uw voorbeeld afbeelding van de XML deel 2</b></summary><img src=".efact server/media/PeppolSettings2.png"></details>  
+
+Dit zien we zodra we gegevens van de financiële administratie vullen en de systeeminstellingen overruled:  
+<details><summary><b>Klik hier voor uw voorbeeld afbeelding van de XML waarbij gegevens van financiële administratie worden getoond</b></summary><img src=".efact server/media/PeppolSettings3.png"></details> 
