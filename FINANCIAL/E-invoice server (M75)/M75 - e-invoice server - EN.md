@@ -76,14 +76,19 @@ If both are empty, the debtor’s GLN is sent with schemeID="0088".
 
 ### Settings for required data
 
-It is important that certain fields in Florisoft are filled in correctly. These include system settings (under company details), settings for the customer, and settings for financial accounting.
-I will list a few fields and show below where they are filled in the XML.  
+It is important that certain fields in Florisoft are filled out correctly. These include system settings (under company information), settings in the financial administration, and settings for the customer.
+Below, we list a few of these fields and show where they are populated in the XML.  
+
+If your company uses multiple financial administrations, the fields filled in for the financial administration may override the (system)settings entered in the companydata.  
+In that case, the data from the financial administration will be written to the XML first; if those fields are empty, the data from the systemsettings will be included in the XML.
 
 In the System Settings - General - Company details section, fill in the fields shown in the image below.  
+(These will be included as soon as the fields in the financial records are empty, for example.)  
 <details><summary><b>Click here for an example</b></summary><img src=".efact server/media/SYSTEM.png"></details>  
 
-In the “Constants - Financial Administration” section, fill in the following fields: VAT number, bank account, and BIC/SWIFT code. These will also be included in the XML.   
-<details><summary><b>Click here for an example</b></summary><img src=".efact server/media/FINUBL.png"></details>  
+In the “Constants - Financial Administration” section, please complete the following fields: Company name, VAT number, Bank account, Address details, IBAN, BIC/SWIFT code. These details will also be included in the XML.     
+<details><summary><b>Click here for an example</b></summary><img src=".efact server/media/FINUBLEN.png"></details>  
+<details><summary><b>Click here for an example</b></summary><img src=".efact server/media/FinadminPEN.png"></details>
 
 In the “Constants - Debtors” section, fill in the fields that are also filled in the image below.  
 <details><summary><b>Click here for an example for debtor settings</b></summary><img src=".efact server/media/DEB2UBL.png"></details>  
@@ -92,3 +97,6 @@ See below for the result showing how this is included in the XML.
 <details><summary><b>Click here for an example</b></summary><img src=".efact server/media/PeppolSettings1.png"></details>  
 
 <details><summary><b>Click here for an example</b></summary><img src=".efact server/media/PeppolSettings2.png"></details>  
+
+We see this as soon as we enter data from the financial records and override the system settings:  
+<details><summary><b>Click here for an example</b></summary><img src=".efact server/media/PeppolSettings3EN.png"></details> 
