@@ -2,6 +2,8 @@
 
 # Snelstarthandleiding add-on Content Management Systeem (CMS)
 
+*Let op: omdat het CMS continu wordt doorontwikkeld, kunnen sommige screenshots en stappen in deze handleiding in bepaalde gevallen afwijken van de actuele situatie in het systeem.*
+
 [CMS-zones aanmaken](#cms-zones-aanmaken)  
 [CMS-zones koppelen aan debiteuren](#cms-zones-koppelen-aan-debiteuren)  
 [Content uitlichten – ZONDER CMS ZONES](#content-uitlichten--zonder-cms-zones)  
