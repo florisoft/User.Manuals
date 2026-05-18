@@ -2,6 +2,8 @@
 
 # Quick Start Guide – Content Management System (CMS) Add-on
 
+*Please note: as the CMS is continuously being developed and improved, some screenshots and steps in this guide may in certain cases differ from the current situation in the system.*
+
 [Creating CMS Zones](#creating-cms-zones)  
 [Linking CMS Zones to Customers](#linking-cms-zones-to-customers)  
 [Highlighting Content – WITHOUT CMS ZONES](#highlighting-content--without-cms-zones)  
