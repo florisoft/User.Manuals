@@ -10,9 +10,9 @@
 [Creating Rows](#creating-rows)  
 [Creating CMS Elements](#creating-cms-elements)  
 [Adding Rows](#adding-rows)  
-[Using the CMS Panel Element](#using-the-cms-panel-element)  
+[Using the CMS Panel component](#using-the-cms-panel-component)  
 [Adding CMS Text Boxes](#adding-a-text-box)  
-[CMS Video Element](#adding-the-video-element)  
+[CMS Video Element](#adding-a-video-element)  
 [CMS Spacer Element](#spacers)  
 [CMS Login Form Element](#login-form)  
 [CMS Footer](#adding-a-footer-optional)  
@@ -115,7 +115,7 @@ A CMS page uses rows and columns for alignment on different devices (PC, laptop,
 |**9**|Open the '*Advanced*' tab (18). The 'Advanced' tab allows you to assign extra classes and IDs to a component. Under 'Identification name' (19), you can assign a name per component to create more structure in the Navigator (20).<details><summary><b>Click here for the example image</b></summary><img src=".Quickstart manual webshop add on CMS 2.0/media/6.9.png"></details>|  
 |**10**|Open the '*Visibility*' tab (21). The 'Visibility' tab works the same as when creating pages and categories. See chapter three for more information about the available settings in the 'Visibility' tab. After configuring the correct settings, click the 'Save' button (22) to save the column in the CMS and click 'Publish' (23) to make the changes live.<br>**You can always make changes later.**<details><summary><b>Click here for the example image</b></summary><img src=".Quickstart manual webshop add on CMS 2.0/media/6.10.png"></details>|
 
-## CMS elements creation
+## Creating CMS Elements
 
 A CMS element is a fully configurable part of a page. Various types of content are available: images, videos, banners, text boxes, tables, sliders, and more. The CMS offers more than 15 standard elements that can be added to a page. Each element must be placed inside a column. Each column must then be placed inside a row.
 
@@ -151,7 +151,7 @@ In Florishop you are not limited to just one row within a CMS page. The steps be
 |**2**|Search for 'row' using the search function (2). Click the '+' button (3) next to the '*row*' result to add it to the page. <details><summary><b>Click here for the example image</b></summary><img src=".Quickstart manual webshop add on CMS 2.0/media/8.2.png"></details>|
 |**3**|To move the row up or down on the page, drag (4) the row in the Navigator. In this example, the new row is placed below the existing carousel row.<br><br>The same applies to columns: drag the column up or down in the Navigator to move it left or right. <details><summary><b>Click here for the example image</b></summary><img src=".Quickstart manual webshop add on CMS 2.0/media/8.3.png"></details>|
 
-### Using the CMS panel component
+### Using the CMS Panel component
 
 The panel component is essentially a column component, but with additional styling options such as a background image. It is recommended to place a panel inside a column so that multiple elements can be aligned more easily. The following chapter shows an example of how to use a panel element as a background for multiple elements.
 
