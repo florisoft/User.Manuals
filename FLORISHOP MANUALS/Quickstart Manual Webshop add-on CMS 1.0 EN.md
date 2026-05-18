@@ -2,7 +2,7 @@
 
 # Quick guide manual add on Content Management System (CMS)
 
-*Please note: CMS 1.0 will be phased out starting June 1. From that date onward, support and updates for CMS 1.0 may be limited or no longer available.*
+*Please note: CMS 1.0 will be phased out starting June 1 2026. From that date onward, support and updates for CMS 1.0 may be limited or no longer available.*
 
 [Creating CMS zones](#creating-cms-zones)  
 [Linking CMS zones to debtors](#link-zones-to-debtors)  
