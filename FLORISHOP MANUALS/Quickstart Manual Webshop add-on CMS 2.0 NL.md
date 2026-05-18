@@ -4,7 +4,7 @@
 
 [CMS-zones aanmaken](#cms-zones-aanmaken)  
 [CMS-zones koppelen aan debiteuren](#cms-zones-koppelen-aan-debiteuren)  
-[Content uitlichten – ZONDER CMS ZONES](#content-uitlichten-zonder-cms-zones)  
+[Content uitlichten – ZONDER CMS ZONES](#content-uitlichten--zonder-cms-zones)  
 [Categorieën aanmaken](#categorieën-aanmaken)  
 [Pagina’s aanmaken](#paginas-aanmaken)  
 [Rijen aanmaken](#rijen-aanmaken)  
