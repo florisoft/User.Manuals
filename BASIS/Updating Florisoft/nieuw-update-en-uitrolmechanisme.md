@@ -5,10 +5,10 @@ Florisoft gebruikt voortaan een nieuw mechanisme voor het verspreiden van Backof
 Voorbeeld van een nieuwe versie-map:
 
 ```text
-dataadt\BIN104.123_251008
+dataadt\BIN140.598_260603
 ```
 
-Hierbij is `104.123` het versienummer en `251008` de datum van de versie.
+Hierbij is `140.598` het versienummer en `260603` de datum van de versie die staat voor Jaar|Maand|Dag oftewel 3 juni 2026.
 
 ## Waarom ziet u deze pagina?
 
@@ -35,7 +35,7 @@ dataadt\BINUPDATE
 naar bijvoorbeeld:
 
 ```text
-dataadt\BIN104.123_251008
+dataadt\BIN140.598_260603
 ```
 
 Daarbij is de gebruiker die de update uitvoerde automatisch in de groep **Beheerders** geplaatst. Ook is de binversie van de groep **Beheerders** en van deze gebruiker ingesteld op de nieuwe versie-map.
@@ -64,7 +64,7 @@ Links in het scherm staat een filterboom. Onder **Backoffice** staan de drie upd
 - **Pilotgebruikers**
 - **Standaardgebruikers**
 
-Klik bijvoorbeeld op **Backoffice > Beheerders**. U ziet dan de beheerder die de update heeft uitgevoerd. Rechtsboven ziet u de ingestelde versie voor deze groep, bijvoorbeeld `BIN104.123_251008`.
+Klik bijvoorbeeld op **Backoffice > Beheerders**. U ziet dan de beheerder die de update heeft uitgevoerd. Rechtsboven ziet u de ingestelde versie voor deze groep, bijvoorbeeld `BIN140.598_260603`.
 
 ![Placeholder: Actieve gebruikers met Backoffice > Beheerders geselecteerd](screenshots/actieve-gebruikers-beheerders.png)
 
