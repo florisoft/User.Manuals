@@ -64,6 +64,18 @@ Daarbij is de gebruiker die de update uitvoerde automatisch in de groep **Beheer
 
 U hoeft hiervoor niets meer te doen. U werkt nu al met de nieuwe versie.
 
+### Wat verandert er bij toekomstige updates?
+
+Deze update is nog gestart vanuit het oude updateproces, maar vanaf nu worden nieuwe updates direct gedownload naar een versie-map, bijvoorbeeld:
+
+dataadt\BIN140.598_260603
+
+Hierdoor hoeft een bestaande binmap niet meer vervangen te worden. Updates verlopen daardoor sneller en meerdere versies kunnen tijdelijk naast elkaar bestaan.
+
+Ook het uitrollen werkt anders. Voorheen werden tijdens het uitrollen grote aantallen bestanden gekopieerd naar andere binmappen. Dat is niet meer nodig. Bij het uitrollen wordt voortaan alleen ingesteld welke versie een gebruiker of gebruikersgroep moet gebruiken.
+
+Gebruikers hoeven daarna alleen Florisoft opnieuw te starten om met de toegewezen versie te werken.
+
 ![Placeholder: purge zet BINUPDATE om naar versie-map](screenshots/purge-binupdate-naar-versiemap.png)
 
 ## Wat moet u nu doen?
