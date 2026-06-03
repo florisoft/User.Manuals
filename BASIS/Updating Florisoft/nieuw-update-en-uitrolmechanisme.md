@@ -22,11 +22,31 @@ De uitrolgroepen zijn:
 - Pilotgebruikers
 - Standaardgebruikers
 
+## Betekenis van de uitrolgroepen
+Beheerders
+
+Beheerders zijn gebruikers die verantwoordelijk zijn voor het uitvoeren en beoordelen van updates. Nieuwe versies worden eerst aan deze groep toegewezen zodat de belangrijkste functionaliteit gecontroleerd kan worden voordat andere gebruikers worden bijgewerkt.
+
+Pilotgebruikers
+
+Pilotgebruikers vormen een beperkte testgroep van eindgebruikers. Nadat de beheerders de nieuwe versie hebben goedgekeurd, kan deze groep ermee werken in de dagelijkse praktijk. Eventuele problemen worden hierdoor ontdekt voordat de versie naar alle gebruikers wordt uitgerold.
+
+Standaardgebruikers
+
+Dit is de grootste groep gebruikers. Zij werken normaal gesproken met de laatst goedgekeurde versie. Pas nadat een versie succesvol is getest door de beheerders en pilotgebruikers, wordt deze versie aan de standaardgebruikers toegewezen.
+
+Aanbevolen uitrolvolgorde
+1. Beheerders
+2. Pilotgebruikers
+3. Standaardgebruikers
+
+Op deze manier wordt het risico op verstoringen voor de meeste gebruikers zo klein mogelijk gehouden.
+
 ## Wat is er al automatisch gebeurd?
 
 Bij de eerste update naar dit nieuwe mechanisme kan Florisoft nog vanuit het oude proces zijn begonnen. In dat geval is de update eerst naar `dataadt\BINUPDATE` gedownload.
 
-Tijdens de purge is dit automatisch omgezet:
+Tijdens de purge is de mapnaam automatisch omgezet van:
 
 ```text
 dataadt\BINUPDATE
