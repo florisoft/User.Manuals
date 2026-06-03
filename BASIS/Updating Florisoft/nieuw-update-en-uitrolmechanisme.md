@@ -22,20 +22,22 @@ De uitrolgroepen zijn:
 - Pilotgebruikers
 - Standaardgebruikers
 
-## Betekenis van de uitrolgroepen
-Beheerders
+### Betekenis van de uitrolgroepen
+
+#### Beheerders
 
 Beheerders zijn gebruikers die verantwoordelijk zijn voor het uitvoeren en beoordelen van updates. Nieuwe versies worden eerst aan deze groep toegewezen zodat de belangrijkste functionaliteit gecontroleerd kan worden voordat andere gebruikers worden bijgewerkt.
 
-Pilotgebruikers
+#### Pilotgebruikers
 
 Pilotgebruikers vormen een beperkte testgroep van eindgebruikers. Nadat de beheerders de nieuwe versie hebben goedgekeurd, kan deze groep ermee werken in de dagelijkse praktijk. Eventuele problemen worden hierdoor ontdekt voordat de versie naar alle gebruikers wordt uitgerold.
 
-Standaardgebruikers
+#### Standaardgebruikers
 
 Dit is de grootste groep gebruikers. Zij werken normaal gesproken met de laatst goedgekeurde versie. Pas nadat een versie succesvol is getest door de beheerders en pilotgebruikers, wordt deze versie aan de standaardgebruikers toegewezen.
 
-Aanbevolen uitrolvolgorde
+#### Aanbevolen uitrolvolgorde
+
 1. Beheerders
 2. Pilotgebruikers
 3. Standaardgebruikers
