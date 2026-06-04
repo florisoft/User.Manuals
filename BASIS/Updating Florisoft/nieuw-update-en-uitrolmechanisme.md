@@ -126,7 +126,7 @@ Als de gewenste gebruikers in de groep **Pilotgebruikers** staan, kan de hele pi
 3. Kies rechtsboven bij de versie van **Pilotgebruikers** de gewenste `BIN[VERSIE]_[DATUM]` map.
 4. De gekozen versie wordt toegepast op alle gebruikers in de groep **Pilotgebruikers**.
 
-![Placeholder: versie instellen voor Pilotgebruikers](screenshots/actieve-gebruikers-pilotgebruikers-versie.png)
+<img width="2059" height="764" alt="image" src="https://github.com/user-attachments/assets/75299c81-5109-44d6-bdfe-757478099f33" />
 
 ## Versie instellen voor alle standaardgebruikers
 
@@ -138,8 +138,6 @@ Als de versie is goedgekeurd door de pilotgebruikers, kan diezelfde versie worde
 4. De gekozen versie wordt toegepast op alle gebruikers in de groep **Standaardgebruikers**.
 
 Gebruikers starten daarna met deze versie zodra zij Florisoft opnieuw openen.
-
-![Placeholder: versie instellen voor Standaardgebruikers](screenshots/actieve-gebruikers-standaardgebruikers-versie.png)
 
 ## Kolommen in Actieve gebruikers
 
@@ -160,5 +158,3 @@ Dit kan op twee manieren:
 - In **Constanten > Systeem > Users - Systeemgebruiker** bij de gebruiker zelf.
 
 Gebruik dit alleen wanneer een gebruiker bewust moet afwijken van de groep.
-
-![Placeholder: individuele gebruiker op andere binversie zetten](screenshots/gebruiker-binversie-instellen.png)
