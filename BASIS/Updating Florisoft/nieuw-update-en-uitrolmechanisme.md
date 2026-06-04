@@ -76,8 +76,6 @@ Hiervoor vervalt het oude uitrol proces in zijn geheel. Voorheen werden tijdens 
 
 Gebruikers hoeven daarna alleen Florisoft opnieuw te starten om met de toegewezen versie te werken.
 
-![Placeholder: purge zet BINUPDATE om naar versie-map](screenshots/purge-binupdate-naar-versiemap.png)
-
 ## Wat moet u nu doen?
 
 Als u de nieuwe versie goed genoeg vindt om verder te verspreiden, wijst u de gewenste versie toe aan een uitrolgroep.
@@ -98,9 +96,9 @@ Links in het scherm staat een filterboom. Onder **Backoffice** staan de drie upd
 - **Pilotgebruikers**
 - **Standaardgebruikers**
 
-Klik bijvoorbeeld op **Backoffice > Beheerders**. U ziet dan de beheerder die de update heeft uitgevoerd. Rechtsboven ziet u de ingestelde versie voor deze groep, bijvoorbeeld `BIN140.598_260603`.
+Klik bijvoorbeeld op **Backoffice > Beheerders**. U ziet dan de beheerder die de update heeft uitgevoerd. Rechtsboven ziet u de ingestelde versie voor deze groep, bijvoorbeeld `BIN1.0.140.669_260603`.
 
-![Placeholder: Actieve gebruikers met Backoffice > Beheerders geselecteerd](screenshots/actieve-gebruikers-beheerders.png)
+<img width="2063" height="762" alt="image" src="https://github.com/user-attachments/assets/acb51ccf-2595-43c8-bded-d89268a36e15" />
 
 ## Pilotgebruikers instellen
 
