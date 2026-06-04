@@ -15,7 +15,7 @@ Foto wordt opgeslagen in Picture-map (PICS/StockItems)
         ↓
 ExfotoUrl wordt bijgewerkt
         ↓
-Timerproces maakt LiveFoto (optioneel, voor formaten & hergebruik)
+Timerproces maakt LiveFoto en historische foto (voor formaten & hergebruik)
         ↓
 Webshop verwerkt en cachet de foto (± 10 min)
         ↓
@@ -78,7 +78,7 @@ Dit adres wordt opgeslagen in `ExfotoUrl`, zodat Florisoft weet waar de foto gev
 ## 5. De rol van het timerproces (LiveFoto)
 
 Naast de webshopverwerking bestaat er een **timerproces** dat foto’s gereedmaakt voor intern gebruik binnen Florisoft.  
-Dit timer proces heet **FotoDownload**.
+Dit timerproces heet **Foto Download X Fotos (FOTOEXTDOWNLOADX)**.
 
 ### Wat doet het timerproces?
 
@@ -86,13 +86,15 @@ Dit timer proces heet **FotoDownload**.
     
 2. De foto wordt daarnaast **geregistreerd in de FotoDown-tabel**.
     
-3. Het timerproces **FotoDown** ziet dat er een nieuwe foto klaarstaat.
+3. Het timerproces **Foto Download X Fotos** ziet dat er een nieuwe foto klaarstaat.
     
 4. Het proces maakt een **LiveFoto** (de foto in Florisoft-formaat).
     
-5. De LiveFoto wordt **aan de partij gekoppeld**.
+5. Tegelijkertijd wordt er een **historische foto** aangemaakt, zodat dezelfde foto later nogmaals kan worden gebruikt.
     
-6. De foto wordt opgeslagen in **vier formaten**, zodat deze op alle plekken (apps, webshop, backoffice) correct wordt weergegeven.
+6. De LiveFoto wordt **aan de partij gekoppeld**.
+    
+7. De foto wordt opgeslagen in **vier formaten**, zodat deze op alle plekken (apps, webshop, backoffice) correct wordt weergegeven.
     
 
 ### Belangrijk om te weten
@@ -101,7 +103,7 @@ Dit timer proces heet **FotoDownload**.
     
 - Het LiveFoto-proces dient vooral voor **uniforme formaten en interne toepassingen**.
     
-- De LiveFoto heeft **geen invloed op wanneer de foto zichtbaar wordt in de app**.
+- De LiveFoto en de historische foto hebben **geen invloed op wanneer de foto zichtbaar wordt in de app**.
     
 
 ---
