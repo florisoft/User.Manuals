@@ -8,13 +8,13 @@ Voorbeeld van een nieuwe versie-map:
 dataadt\BIN140.598_260603
 ```
 
-Hierbij is `140.598` het versienummer en `260603` de datum van de versie die staat voor Jaar|Maand|Dag oftewel 3 juni 2026.
+Hierbij is `140.598` het versienummer en `260603` de datum van de versie die staat voor Jaar|Maand|Dag oftewel 3 juni 2026. Dit maakt het een stuk overzichtelijker welke versies er gedownload zijn, maar ook van welke datum die versie is.
 
 ## Waarom ziet u deze pagina?
 
 U ziet deze pagina omdat u een bijgewerkte Florisoft-versie wilt uitrollen naar andere gebruikers. De update zelf is op dit moment al uitgevoerd. Ook de purge en de omzetting naar het nieuwe updateformaat zijn al automatisch afgehandeld.
 
-Wat vroeger **uitrollen** heette, werkt nu anders. U rolt geen `BINUPDATE` of `BINLATEST` meer uit. U kiest voortaan per gebruikersgroep welke `BIN[VERSIE]_[DATUM]` map gebruikt moet worden.
+Wat vroeger **uitrollen** heette, werkt nu anders. U rolt geen `BINUPDATE` of `BINLATEST` meer uit. U kiest voortaan per uitrolgroep welke `BIN[VERSIE]_[DATUM]` map gebruikt moet worden.
 
 De uitrolgroepen zijn:
 
@@ -72,7 +72,7 @@ dataadt\BIN140.598_260603
 
 Hierdoor hoeft een bestaande binmap niet meer vervangen te worden. Updates verlopen daardoor sneller en meerdere versies kunnen tijdelijk naast elkaar bestaan.
 
-Ook het uitrollen werkt anders. Voorheen werden tijdens het uitrollen grote aantallen bestanden gekopieerd naar andere binmappen. Dat is niet meer nodig. Bij het uitrollen wordt voortaan alleen ingesteld welke versie een gebruiker of gebruikersgroep moet gebruiken.
+Hiervoor vervalt het oude uitrol proces in zijn geheel. Voorheen werden tijdens het uitrollen grote aantallen bestanden gekopieerd naar andere binmappen. Dat is niet meer nodig. Voortaan hoeft er alleen nog worden ingesteld welke gebruikersgroep welke versie moet gebruiken.
 
 Gebruikers hoeven daarna alleen Florisoft opnieuw te starten om met de toegewezen versie te werken.
 
@@ -132,7 +132,7 @@ Als de gewenste gebruikers in de groep **Pilotgebruikers** staan, kan de hele pi
 
 ## Versie instellen voor alle standaardgebruikers
 
-Als de versie is goedgekeurd, kan dezelfde versie worden ingesteld voor alle standaardgebruikers.
+Als de versie is goedgekeurd door de pilotgebruikers, kan diezelfde versie worden ingesteld voor alle standaardgebruikers.
 
 1. Open **Actieve gebruikers**.
 2. Klik links op **Backoffice > Standaardgebruikers**.
@@ -154,7 +154,7 @@ Als deze waarden verschillen, werkt de gebruiker waarschijnlijk nog in een oude 
 
 ## Geavanceerd: afwijkende versie voor een specifieke gebruiker
 
-Normaal volgt een gebruiker de ingestelde versie van zijn of haar uitrolgroep. In uitzonderingen kan een gebruiker rechtstreeks op een andere binversie worden gezet.
+Normaal volgt een gebruiker de ingestelde versie van zijn of haar uitrolgroep. In uitzonderingen kan een gebruiker rechtstreeks op een afwijkende binversie worden gezet.
 
 Dit kan op twee manieren:
 
