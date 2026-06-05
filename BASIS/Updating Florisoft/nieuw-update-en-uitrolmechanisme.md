@@ -141,10 +141,10 @@ Gebruikers starten daarna met deze versie zodra zij Florisoft opnieuw openen.
 
 ## Kolommen in Actieve gebruikers
 
-Het scherm **Actieve gebruikers** toont naast de actuele binversie ook de ingestelde binversie.
+Het scherm **Actieve gebruikers** toont naast de actuele versie ook de ingestelde versie.
 
-- **Actuele binversie**: de versie waarmee de gebruiker nu actief is.
-- **Ingestelde binversie**: de versie die voor de gebruiker of zijn groep is ingesteld.
+- **Actuele versie**: de versie waarmee de gebruiker nu actief is.
+- **Ingestelde versie**: de versie die voor de gebruiker of zijn groep is ingesteld.
 
 Als deze waarden verschillen, werkt de gebruiker waarschijnlijk nog in een oude sessie. Na opnieuw opstarten gebruikt de gebruiker de ingestelde versie.
 
