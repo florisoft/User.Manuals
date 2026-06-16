@@ -11,9 +11,9 @@
 ### Beheerschermen
 
 #### 1. Pagina's
-- [Categorieën](#categorieen)
+- [Categorieën](#categorieën)
 - [Pagina](#pagina)
-- [Blogs (Blog categorieën)](#blogs-blog-categorieen)
+- [Blogs (Blog categorieën)](#blogs-blog-categorieën)
 - [Blogpagina](#blogpagina)
 - [Footer bewerken](#footer-bewerken)
 - [Templates](#templates)
