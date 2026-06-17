@@ -10,6 +10,8 @@
 
 ### Beheerschermen
 
+---
+
 #### 1. Pagina's
 - [Categorieën](#categorieën)
 - [Pagina](#pagina)
@@ -40,8 +42,11 @@
 - [Documenten](#documenten)
 - [Links](#links)
 
+---
 
 ### Componenten
+
+---
 
 #### 1. Basis
 - [Row](#row)
