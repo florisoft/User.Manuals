@@ -49,12 +49,9 @@
 - [Voorkeuren](#voorkeuren)
 
 #### 2. Responsive tabs
-- [Toolbar](#toolbar)
-- [Algemene instellingen](#algemene-instellingen)
-- [Styling](#styling)
-- [Geavanceerd](#geavanceerd)
-- [Zichtbaarheid](#zichtbaarheid)
-- [Responsive tabs](#responsive-tabs)
+- [Desktop](#desktop)
+- [Tablet](#tablet)
+- [Mobile](#mobile)
 
 #### 3. Algemene instellingen
 - [Vertalingen](#vertalingen)
