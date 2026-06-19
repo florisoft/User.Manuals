@@ -29,7 +29,26 @@
 - [Component styles](#component-styles)
 - [Kleurgroepen (Dashboards)](#kleurgroepen-dashboards)
 
-#### 3. Aside Editor
+#### 3. Overig
+- [Media](#media)
+- [Documenten](#documenten)
+- [Links](#links)
+
+---
+
+### Aside editor
+
+---
+
+#### 1. Toolbar
+- [Menu](#menu)
+- [Zoeken](#zoeken)
+- [CMS editor](#cms-editor)
+- [Drag & Drop](#drag--drop)
+- [SEO](#seo)
+- [Voorkeuren](#voorkeuren)
+
+#### 2. Responsive tabs
 - [Toolbar](#toolbar)
 - [Algemene instellingen](#algemene-instellingen)
 - [Styling](#styling)
@@ -37,10 +56,30 @@
 - [Zichtbaarheid](#zichtbaarheid)
 - [Responsive tabs](#responsive-tabs)
 
-#### 4. Overig
-- [Media](#media)
-- [Documenten](#documenten)
-- [Links](#links)
+#### 3. Algemene instellingen
+- [Vertalingen](#vertalingen)
+
+#### 4. Styling
+- [Color picker](#color-picker)
+- [Omlijning](#omlijning)
+- [Margin/padding](#margin-padding)
+- [Hoekafronding](#hoekafronding)
+- [Hoogte/Breedte](#hoogte-breedte)
+- [Slagschaduw](#slagschaduw)
+- [Overflow](#overflow)
+
+#### 5. Geavanceerd
+- [Verborgen wanneer leeg](#verborgen-wanneer-leeg)
+- [Identificatie naam](#identificatie-naam)
+- [Slotnaam](#slotnaam)
+- [HTML klassenaam](#html-klassenaam)
+- [Tag](#tag)
+- [Z-index](#z-index)
+
+#### 6. Zichtbaarheid
+- [Content verbergen](#content-verbergen)
+- [Content tonen](#content-tonen)
+- [Content uitlichten](#content-uitlichten)
 
 ---
 
