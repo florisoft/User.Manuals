@@ -85,15 +85,13 @@
 ---
 
 #### 1. Basis
-- [Row](#row)
-- [Column](#column)
+- [Row/Column](#row-column)
 - [Panel](#panel)
 - [Flex](#flex)
 - [Header](#header)
 - [Text](#text)
 - [Collapsible](#collapsible)
-- [Bullet list](#bullet-list)
-- [Bullet](#bullet)
+- [Bullet list/Bullet](#bullet-list-bullet)
 - [Spacer](#spacer)
 
 #### 2. Media
@@ -258,9 +256,16 @@ Een Blogpagina is een toegankelijk onderdeel binnen het CMS waarop content gepla
 
 ### Footer bewerken
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Footer bewerken | Deze beschrijving wordt aangevuld |
+Bij het aanmaken van een nieuwe CMS-pagina wordt automatisch een container aangemaakt voor een footer. Een footer is het onderste gedeelte van een pagina. Elke CMS-pagina bevat standaard een footer. Wijzigingen die je in de footer maakt, worden over de gehele website zichtbaar. Meestal bevat een footer secundaire informatie zoals adresgegevens, links naar externe websites en sociale media. Het CMS biedt standaard een vooraf gedefinieerd footer-element.
+
+Het is ook mogelijk om de footer volledig naar eigen wens te ontwerpen (zoals je in eerdere voorbeelden misschien al is opgevallen), op dezelfde manier als eerder aangemaakte elementen zoals carousels, tekstvakken en video’s. Het aanmaken van een footer werkt als volgt:
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Klik in de Navigator op het '+'-icoon van de '*Container (footer)*' (1). Het venster ‘Add Component’ wordt geopend. Navigeer via de categorie 'Templates' (2) naar Footer Template. Je kunt hier ook de zoekbalk voor gebruiken (3). Klik op het '+'-icoon (4) om het Template toe te voegen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/14.1.png"></details>|
+|**2**|Er wordt een standaard footer-element met vier kolommen toegevoegd. Twee kolommen bevatten een tekstvak (5). De laatste kolom bevat iconen voor sociale media ([SocialIcons Component](#social-icons)) (6).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/14.2.png"></details>|
+|**3**|Zoals eerder beschreven is het mogelijk om de footer volledig naar eigen wens vorm te geven. Dit werkt op dezelfde manier als het aanmaken/bewerken van andere elementen zoals carousels, tekstvakken en video’s.<br>Wanneer alle gewenste elementen op de pagina staan kan de beheeromgeving worden afgesloten.|
+|**4**|Klik op het menu-icoon (7) en vervolgens onderin op het sluit-icoon (8) om de beheeromgeving af te sluiten. De webshop keert nu terug naar de normale weergave zoals klanten deze ook zien.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/14.4.png"></details>|
 
 ---
 
@@ -412,7 +417,7 @@ Een Blogpagina is een toegankelijk onderdeel binnen het CMS waarop content gepla
 
 ---
 
-## Row
+## Row/Column
 
 Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschillende apparaten (pc, laptop, smartphone en tablet). In dit hoofdstuk wordt uitgelegd hoe je een rij aanmaakt. Elk CMS-element moet zich in een kolom bevinden, en elke kolom bevindt zich weer in een rij. Dit betekent dat elke pagina in feite bestaat uit een soort raster, vergelijkbaar met een spreadsheetprogramma zoals Microsoft Excel.
 
@@ -430,14 +435,6 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 |**8**|Open het tabblad '*Styling*' (12). De styling is optioneel, maar de volgende instellingen kunnen worden aangepast:<br><br>Kies een achtergrondkleur via het dropdownmenu 'Background' (13). Er verschijnt een kleurenkiezer waarin een kleur geselecteerd kan worden. Klik op ‘SAVE’ in de kleurenkiezer om de gekozen kleur toe te passen.<br><br>Kies bij ‘Height’ (14) voor 'Auto' of een vaste hoogte in Px (pixels), Rem (relatief aan lettergrootte) of percentages. Het wordt aanbevolen om 'Auto' te gebruiken. De kolom wordt dan automatisch zo hoog als nodig is voor de inhoud.<br><br>Bij 'Margin' (15) kan een waarde worden ingevuld voor de marge (witruimte) rondom de kolom. Hier kan een waarde ingevuld worden direct voor alle zijdes, of kan er ook per zijde apart een waarde worden ingevuld.<br><br>Standaard wordt Px (pixels) gebruikt als eenheid. Daarnaast is het ook mogelijk om ‘Rem’ of ‘Percent’ te kiezen en zijn zelfs naast waardes zoals 'auto' of 'unset' ook millimeters (mm) en centimeters (cm) mogelijk.<br><br>Padding (16) bepaalt de ruimte aan de binnenkant van de kolom. Deze instellingen werken volgens hetzelfde principe als ‘Margin’.<br><br>Overflow (17) bepaalt of elementen die buiten de kolom treden wel -of niet zichtbaar zijn. Standaard staat deze ingesteld op 'Visible'.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.8.png"></details>|
 |**9**|Open het tabblad '*Advanced*' (18). Het tabblad 'Advanced' geeft je de mogelijkheid om extra classes en ID's mee te geven aan een component. Onder 'Identificatie naam' (19) kun je je bijvoorbeeld een naam meegeven per component, om zo meer structuur aan te brengen in de Navigator (20).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.9.png"></details>|
 |**10**|Open het tabblad '*Visibility*' (21).Het tabblad 'Visibility' werkt hetzelfde als bij het aanmaken van pagina’s en categorieën. Zie hoofdstuk drie voor meer informatie over de beschikbare instellingen in het tabblad ‘Visibility’. Klik na het instellen van de juiste instellingen op de knop 'Save' (22) om de kolom in het CMS op te slaan en klik op 'Publiceren' (23) om de wijzigingen live te zetten.<br>**Je kunt later altijd nog aanpassingen doen.**<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.10.png"></details>|
-
----
-
-## Column
-
-| Onderdeel | Beschrijving |
-|---|---|
-| Column | Deze beschrijving wordt aangevuld |
 
 ---
 
@@ -481,19 +478,11 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Bullet list
+## Bullet list/Bullet
 
 | Onderdeel | Beschrijving |
 |---|---|
 | Bullet list | Deze beschrijving wordt aangevuld |
-
----
-
-## Bullet
-
-| Onderdeel | Beschrijving |
-|---|---|
-| Bullet | Deze beschrijving wordt aangevuld |
 
 ---
 
