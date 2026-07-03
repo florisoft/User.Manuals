@@ -271,9 +271,9 @@ Het is ook mogelijk om de footer volledig naar eigen wens te ontwerpen (zoals je
 
 ### Templates
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Templates | Deze beschrijving wordt aangevuld |
+Met templates kun je gemakkelijk terug vallen op content wat je eerder hebt gebouwd met het CMS. Dit kunnen kleine blokken met inhoud zijn, maar ook complete pagina's. Hierdoor hoef je steeds opnieuw te beginnen met het bouwen van dezelfde content.
+
+Ook kun je templates gemakkelijk inzetten voor [Blog componenten](#blog) om dynamisch content in te laden en gebruik je het [Frame component](#frame) om een template in te laden die op meerdere plekken inzetbaar is en vervolgens reageert op een wijziging binnen het template.
 
 ---
 
