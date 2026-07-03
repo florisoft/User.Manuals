@@ -277,7 +277,7 @@ Ook kun je templates gemakkelijk inzetten voor [Blog componenten](#blog) om dyna
 
 |Stap|Uitleg|
 |:--|:--|
-|**1**|Navigeer via Conten management (1) naar Templates (2)<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/6.1.png"></details>|
+|**1**|Navigeer via Content management (1) naar Templates (2)<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/6.1.png"></details>|
 |**2**|Klik vervolgens op het '+'-icoon om te starten met het aanmaken van een nieuw template (3). <details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/6.2.png"></details>|
 |**3**|Er wordt een dialoog geopend. Vul hier een naam (4) in voor het nieuwe template, beschrijving (5), een categorie (6) of maak een nieuwe categorie aan. In dit geval hebben wij een nieuwe categorie aangemaakt en deze 'standaard blokken' genoemd (7). Vervolgens klik je op 'Opslaan' (8). De Template editor zal nu worden geopend. <details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/6.3.png"></details>|
 |**4**|In de Template-edtor kun je CMS elementen toevoegen zoals je dat ook gewend bent in elke andere CMS pagina. Activeer in dit scherm ook de CMS-editor (9) en klik op het '+'-icoon (10). Het componenten dialoog zal nu worden geopend.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/6.4.png"></details>|
