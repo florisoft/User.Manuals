@@ -4,7 +4,7 @@
 
 In this manual, you can read about the use and configuration of the Florisoft Inventory App. With this app, you manage your stock and keep it synchronized with the actual stock locations in your warehouse.
 
-The app consists of three different modules:
+The app consists of the following parts:
 
 ## Stock Counting
 
@@ -19,13 +19,6 @@ The Slotting app is an application for warehouse management that allows products
 
 - [Policy manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Inventory/Slotting/Policies%20Slotting%20EN%20.md)  
 - [Quickstart manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Inventory/Slotting/Quickstart%20Manual%20EN.md)  
-
-## Price Label
-
-With the Price Label app, users can easily print price labels by scanning a distribution label (pick order label). These labels can be assigned directly to the receiving customer and the item as an additional service.
-
-- [Policy manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Inventory/Price%20Labels/Policies%20Price%20Labels%20NL.md)  
-- [Quickstart manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Inventory/Price%20Labels/Quickstart%20Handleiding%20NL.md)  
 
 ## Consolidation
 
