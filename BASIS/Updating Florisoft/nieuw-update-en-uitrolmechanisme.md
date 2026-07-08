@@ -1,160 +1,117 @@
 # Nieuw update- en uitrolmechanisme Florisoft
 
-Florisoft gebruikt voortaan een nieuw mechanisme voor het verspreiden van Backoffice-updates. Het oude uitrolprincipe met `BINUPDATE`, `BINLATEST` en handmatig uitrollen vervalt. In plaats daarvan wordt per gebruikersgroep ingesteld met welke `BIN[VERSIE]_[DATUM]` map gebruikers moeten starten.
+Florisoft gebruikt een nieuwe manier om nieuwe versies uit te rollen. De update is al klaar. U hoeft nu alleen te bepalen welke gebruikersgroep welke versie mag gebruiken.
 
-Voorbeeld van een nieuwe versie-map:
+Een nieuwe versie wordt opgeslagen in een map met een versienummer en datum, bijvoorbeeld:
 
 ```text
 dataadt\BIN140.598_260603
 ```
 
-Hierbij is `140.598` het versienummer en `260603` de datum van de versie die staat voor Jaar|Maand|Dag oftewel 3 juni 2026. Dit maakt het een stuk overzichtelijker welke versies er gedownload zijn, maar ook van welke datum die versie is.
+In deze map staat `140.598` voor het versienummer en `260603` voor de datum van de versie.
 
 ## Waarom ziet u deze pagina?
 
-U ziet deze pagina omdat u een bijgewerkte Florisoft-versie wilt uitrollen naar andere gebruikers. De update zelf is op dit moment al uitgevoerd. Ook de purge en de omzetting naar het nieuwe updateformaat zijn al automatisch afgehandeld.
+U ziet deze pagina omdat u een nieuwe Florisoft-versie wilt beschikbaar maken voor andere gebruikers. De update zelf is al uitgevoerd. De overstap naar het nieuwe systeem is ook al gebeurd.
 
-Wat vroeger **uitrollen** heette, werkt nu anders. U rolt geen `BINUPDATE` of `BINLATEST` meer uit. U kiest voortaan per uitrolgroep welke `BIN[VERSIE]_[DATUM]` map gebruikt moet worden.
+In het oude systeem werd een versie verspreid via mappen als `BINUPDATE` en `BINLATEST`. Dat werkt nu anders. U kiest niet meer voor één algemene uitrolmap, maar voor een specifieke versie per gebruikersgroep.
 
-De uitrolgroepen zijn:
+## Welke groepen zijn er?
+
+Er zijn drie groepen:
 
 - Beheerders
 - Pilotgebruikers
 - Standaardgebruikers
 
-### Betekenis van de uitrolgroepen
+### Wat betekent dit?
 
-#### Beheerders
+- Beheerders: testen de nieuwe versie eerst.
+- Pilotgebruikers: krijgen de versie daarna, in een kleine groep.
+- Standaardgebruikers: krijgen de versie als deze is getest en goed bevonden.
 
-Beheerders zijn gebruikers die verantwoordelijk zijn voor het uitvoeren en beoordelen van updates. Nieuwe versies worden eerst aan deze groep toegewezen zodat de belangrijkste functionaliteit gecontroleerd kan worden voordat andere gebruikers worden bijgewerkt.
-
-#### Pilotgebruikers
-
-Pilotgebruikers vormen een beperkte testgroep van eindgebruikers. Nadat de beheerders de nieuwe versie hebben goedgekeurd, kan deze groep ermee werken in de dagelijkse praktijk. Eventuele problemen worden hierdoor ontdekt voordat de versie naar alle gebruikers wordt uitgerold.
-
-#### Standaardgebruikers
-
-Dit is de grootste groep gebruikers. Zij werken normaal gesproken met de laatst goedgekeurde versie. Pas nadat een versie succesvol is getest door de beheerders en pilotgebruikers, wordt deze versie aan de standaardgebruikers toegewezen.
-
-#### Aanbevolen uitrolvolgorde
+### Aanbevolen volgorde
 
 1. Beheerders
 2. Pilotgebruikers
 3. Standaardgebruikers
 
-Op deze manier wordt het risico op verstoringen voor de meeste gebruikers zo klein mogelijk gehouden.
+Op deze manier wordt het risico voor de meeste gebruikers zo klein mogelijk gehouden.
 
 ## Wat is er al automatisch gebeurd?
 
-Bij de eerste update naar dit nieuwe mechanisme kan Florisoft nog vanuit het oude proces zijn begonnen. In dat geval is de update eerst naar `dataadt\BINUPDATE` gedownload.
+Bij de eerste overgang naar dit nieuwe systeem is de update mogelijk nog begonnen via het oude proces. De versie is daarna automatisch omgezet naar een nieuwe versie-map, zoals `BIN140.598_260603`.
 
-Tijdens de purge is de mapnaam automatisch omgezet van:
-
-```text
-dataadt\BINUPDATE
-```
-
-naar bijvoorbeeld:
-
-```text
-dataadt\BIN140.598_260603
-```
-
-Daarbij is de gebruiker die de update uitvoerde automatisch in de groep **Beheerders** geplaatst. Ook is de binversie van de groep **Beheerders** en van deze gebruiker ingesteld op de nieuwe versie-map.
-
-U hoeft hiervoor niets meer te doen. U werkt nu al met de nieuwe versie.
-
-### Wat verandert er bij toekomstige updates?
-
-Deze update is nog gestart vanuit het oude updateproces, maar vanaf nu worden nieuwe updates direct gedownload naar een versie-map, bijvoorbeeld:
-
-dataadt\BIN140.598_260603
-
-Hierdoor hoeft een bestaande binmap niet meer vervangen te worden. Updates verlopen daardoor sneller en meerdere versies kunnen tijdelijk naast elkaar bestaan.
-
-Hiervoor vervalt het oude uitrol proces in zijn geheel. Voorheen werden tijdens het uitrollen grote aantallen bestanden gekopieerd naar andere binmappen. Dat is niet meer nodig. Voortaan hoeft er alleen nog worden ingesteld welke gebruikersgroep welke versie moet gebruiken.
-
-Gebruikers hoeven daarna alleen Florisoft opnieuw te starten om met de toegewezen versie te werken.
+De gebruiker die de update heeft uitgevoerd is automatisch geplaatst in de groep **Beheerders**. De versie voor deze groep is ook al ingesteld. U hoeft hier niets meer voor te doen.
 
 ## Wat moet u nu doen?
 
-Als u de nieuwe versie goed genoeg vindt om verder te verspreiden, wijst u de gewenste versie toe aan een uitrolgroep.
+Als u de nieuwe versie geschikt vindt, kunt u deze toewijzen aan een groep.
 
-Het advies is:
+Een goede volgorde is:
 
 1. Laat eerst alleen **Beheerders** met de nieuwe versie werken.
-2. Zet daarna een beperkte groep gebruikers in **Pilotgebruikers**.
-3. Zet pas daarna **Standaardgebruikers** op dezelfde versie.
+2. Geef daarna de versie aan een kleine groep **Pilotgebruikers**.
+3. Zet de versie pas daarna ook voor alle **Standaardgebruikers**.
 
 ## Actieve gebruikers openen
 
-Open het vernieuwde scherm **Actieve gebruikers**. Dit scherm wordt ook automatisch geopend wanneer u vanuit het oude proces probeert uit te rollen.
+Open het scherm **Actieve gebruikers**.
 
-Links in het scherm staat een filterboom. Onder **Backoffice** staan de drie update-uitrolgroepen:
+Links in het scherm ziet u de groepen:
 
-- **Beheerders**
-- **Pilotgebruikers**
-- **Standaardgebruikers**
+- **Backoffice > Beheerders**
+- **Backoffice > Pilotgebruikers**
+- **Backoffice > Standaardgebruikers**
 
-Klik bijvoorbeeld op **Backoffice > Beheerders**. U ziet dan de beheerder die de update heeft uitgevoerd. Rechtsboven ziet u de ingestelde versie voor deze groep, bijvoorbeeld `BIN1.0.140.669_260603`.
+Klik op een groep om te zien welke versie daarvoor is ingesteld. U ziet dan ook welke gebruikers in die groep zitten.
 
 <img width="2063" height="762" alt="image" src="https://github.com/user-attachments/assets/acb51ccf-2595-43c8-bded-d89268a36e15" />
 
-## Pilotgebruikers instellen
+## Gebruikers toevoegen aan een groep
 
-Het is aangeraden om eerst een kleine groep pilotgebruikers met de nieuwe versie te laten werken voordat de versie naar alle standaardgebruikers gaat.
-
-Gebruikers kunnen op twee manieren in de uitrolgroep **Pilotgebruikers** worden gezet.
+U kunt gebruikers op twee manieren in een groep plaatsen.
 
 Via **Actieve gebruikers**:
 
-1. Selecteer een of meer gebruikers in het scherm **Actieve gebruikers**.
-2. Klik met de rechtermuisknop op de selectie.
+1. Selecteer een of meer gebruikers.
+2. Klik met de rechtermuisknop.
 3. Kies **Update uitrolgroep wijzigen**.
-4. Zet de geselecteerde gebruikers op **Pilotgebruikers**.
+4. Kies de juiste groep, zoals **Pilotgebruikers**.
 
 Via **Constanten**:
 
 1. Ga naar **Constanten > Systeem > Users - Systeemgebruiker**.
 2. Open de gewenste gebruiker.
-3. Wijzig **Update uitrolgroep** naar **Pilotgebruikers**.
+3. Wijzig **Update uitrolgroep** naar de gewenste groep.
 
-Als de gewenste gebruikers in de groep **Pilotgebruikers** staan, kan de hele pilotgroep op een specifieke versie worden gezet.
+## Een hele groep op één versie zetten
+
+Als de gewenste gebruikers in de juiste groep staan, kunt u die groep op een specifieke versie zetten.
 
 1. Open **Actieve gebruikers**.
-2. Klik links op **Backoffice > Pilotgebruikers**.
-3. Kies rechtsboven bij de versie van **Pilotgebruikers** de gewenste `BIN[VERSIE]_[DATUM]` map.
-4. De gekozen versie wordt toegepast op alle gebruikers in de groep **Pilotgebruikers**.
+2. Klik links op de juiste groep.
+3. Kies rechtsboven de gewenste versie-map.
+4. De gekozen versie wordt toegepast op alle gebruikers in die groep.
 
 <img width="2059" height="764" alt="image" src="https://github.com/user-attachments/assets/75299c81-5109-44d6-bdfe-757478099f33" />
 
-## Versie instellen voor alle standaardgebruikers
+## Wat ziet u in Actieve gebruikers?
 
-Als de versie is goedgekeurd door de pilotgebruikers, kan diezelfde versie worden ingesteld voor alle standaardgebruikers.
+In het scherm ziet u twee waarden:
 
-1. Open **Actieve gebruikers**.
-2. Klik links op **Backoffice > Standaardgebruikers**.
-3. Kies rechtsboven bij de versie van **Standaardgebruikers** de gewenste `BIN[VERSIE]_[DATUM]` map.
-4. De gekozen versie wordt toegepast op alle gebruikers in de groep **Standaardgebruikers**.
-
-Gebruikers starten daarna met deze versie zodra zij Florisoft opnieuw openen.
-
-## Kolommen in Actieve gebruikers
-
-Het scherm **Actieve gebruikers** toont naast de actuele versie ook de ingestelde versie.
-
-- **Actuele versie**: de versie waarmee de gebruiker nu actief is.
+- **Actuele versie**: de versie die de gebruiker op dit moment gebruikt.
 - **Ingestelde versie**: de versie die voor de gebruiker of zijn groep is ingesteld.
 
-Als deze waarden verschillen, werkt de gebruiker waarschijnlijk nog in een oude sessie. Na opnieuw opstarten gebruikt de gebruiker de ingestelde versie.
+Als deze waarden verschillen, gebruikt de gebruiker waarschijnlijk nog een oude sessie. Na een nieuwe start van Florisoft wordt de ingestelde versie gebruikt.
 
-## Geavanceerd: afwijkende versie voor een specifieke gebruiker
+## Uitzondering: een afwijkende versie voor één gebruiker
 
-Normaal volgt een gebruiker de ingestelde versie van zijn of haar uitrolgroep. In uitzonderingen kan een gebruiker rechtstreeks op een afwijkende binversie worden gezet.
+Normaal volgt een gebruiker de versie van zijn of haar groep. In sommige gevallen wilt u één gebruiker apart instellen.
 
-Dit kan op twee manieren:
+Dat kan via:
 
-- In **Actieve gebruikers** via rechtermuisknop **Binversie instellen**.
-- In **Constanten > Systeem > Users - Systeemgebruiker** bij de gebruiker zelf.
+- **Actieve gebruikers** via **Binversie instellen**
+- **Constanten > Systeem > Users - Systeemgebruiker**
 
-Gebruik dit alleen wanneer een gebruiker bewust moet afwijken van de groep.
+Gebruik dit alleen als een gebruiker bewust afwijkt van de groep.
