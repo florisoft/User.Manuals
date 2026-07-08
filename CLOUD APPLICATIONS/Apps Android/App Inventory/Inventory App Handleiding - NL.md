@@ -26,3 +26,17 @@ Met de Price label app kunnen gebruikers eenvoudig prijsstickers printen door he
 
 - [Policy-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Inventory/Price%20Labels/Policies%20Price%20Labels%20NL.md)  
 - [Quickstart-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Inventory/Price%20Labels/Quickstart%20Handleiding%20NL.md)  
+
+## Consolidation
+
+De Consolidation-functie is een eenvoudige, gedeelde workflow die zowel door **Slotting** als **Stock Counting** gebruikt wordt. Het helpt magazijnmedewerkers snel partijen aan locaties te koppelen, zodat de voorraad klopt en vervolgacties eenvoudig kunnen worden uitgevoerd.
+
+Kort stappenoverzicht:
+- Scan de doel-locatie
+- Scan of selecteer één of meerdere partijen
+- Bevestig de koppeling
+
+Wat u daarnaast makkelijk kunt doen (optioneel): voorraad controleren en corrigeren, een kwaliteitsprobleem melden of prijs-/voorraadlabels printen. Consolidation is bedoeld als praktische, gebruikersgerichte handeling; de technische instellingen en policies worden centraal in de Backoffice beheerd en hoeven door gebruikers meestal niet aangepast te worden.
+
+- [Volledige handleiding en policies (NL)](Consolidation/Consolidation%20Handleiding%20-%20NL.md)
+
