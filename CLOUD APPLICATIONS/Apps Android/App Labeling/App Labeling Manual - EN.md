@@ -4,7 +4,6 @@
 
 ## Price Label
 
-With the Price Label functionality in App Labeling, users can easily print price labels by scanning a distribution label (pick order label). These labels can be assigned directly to the receiving customer and the item as an additional service.
+With the Price Label functionality in App Labeling, users can print price labels for sold products by scanning an order item barcode. This allows the receiving customer to receive products that are already priced.
 
-- [Policy manual](Price%20Labels/Policies%20Price%20Labels%20NL.md)
-- [Quickstart manual](Price%20Labels/Quickstart%20Handleiding%20NL.md)
+- [Price Labels manual](Price%20Labels/PriceLabels%20Manual%20EN.md)
