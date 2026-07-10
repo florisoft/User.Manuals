@@ -30,8 +30,10 @@ Voor Android-apparaten kunt u de onderstaande QR-code scannen.
 
 Lukt scannen niet? Open dan deze link in een internetbrowser op het Android-apparaat:
 
+Signed:
 https://app.florisoft.nl/apps/latest/hub/android/com.florisoft.hub-signed.apk
-
+Trusted:
+https://app.florisoft.nl/apps/latest/hub/android/com.Florisoft.Hub-Trusted.apk
 ## Android app installeren
 
 Voer deze stappen uit op het Android-apparaat waarop u de Florisoft apps wilt gebruiken. Nadat de Hub-app is geinstalleerd, maakt u eerst verbinding met het hoofdsysteem. Daarna kunt u de beschikbare apps downloaden en openen.
