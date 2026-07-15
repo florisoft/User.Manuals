@@ -24,7 +24,7 @@
 - [Theme Configuration](#theme-configuration)
 - [Backups](#backups)
 - [Redirects](#redirects)
-- [Unsaved Changes](#unsaved-changes)
+- [Pending Changes](#pending-changes)
 - [Form Tracking](#form-tracking)
 - [Component Styles](#component-styles)
 - [Color Groups (Dashboards)](#color-groups-dashboards)
