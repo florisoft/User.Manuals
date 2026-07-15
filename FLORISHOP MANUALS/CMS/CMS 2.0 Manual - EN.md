@@ -301,7 +301,7 @@ Templates can also be used effectively for [Blog components](#blog) to dynamical
 
 ---
 
-## Geavanceerd
+## Advanced
 
 ### Theme Configuration
 
