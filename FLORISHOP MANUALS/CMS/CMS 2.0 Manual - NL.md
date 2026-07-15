@@ -332,9 +332,12 @@ Wanneer je een bestaande link hebt waarvan je de url wilt aanpassen kan nadelig 
 
 ### Niet opgeslagen wijzigingen
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Niet opgeslagen wijzigingen | Deze beschrijving wordt aangevuld |
+Nadat je wijziging maakt in jouw CMS pagina dien je dit vervolgens te publiceren. Dit scherm houdt bij wanneer er een wijzigingen worden gedaan op meerdere pagina's.
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|In het voorbeeld hebben wij een Text component bewerkt op de Homepagina. Onderin beeld kleurt er nu een icoon oranje. Via dit icoon navigeer je de 'Niet opgeslagen wijzigingen'-pagina (1).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/10.1.png"></details>|
+|**2**|Je bevindt je nu in het 'Niet opgeslagen wijzigingen'-pagina (2) waarin jouw wijzigingen per pagina (3) worden bijgehouden. Vervolgens kun je alle niet opgeslagen wijzigingen voor deze pagina ongedaan maken (4) of juist publiceren (5). Als je meerdere  pagina's hebt bewerkt worden die pagina's ook op dit scherm zichtbaar. Je kunt vervolgens voor alle pagina's alles in een keer ongedaan maken (6) of juist publiceren (7).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/10.2.png"></details>|
 
 ---
 
@@ -356,9 +359,7 @@ Wanneer je een bestaande link hebt waarvan je de url wilt aanpassen kan nadelig 
 
 ### Kleurgroepen (Dashboards)
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Kleurgroepen (Dashboards) | Deze beschrijving wordt aangevuld |
+Dit onderdeel is nog in ontwikkeling
 
 ---
 
