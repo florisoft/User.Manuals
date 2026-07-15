@@ -85,7 +85,7 @@
 ---
 
 #### 1. Basis
-- [Row/Column](#row-column)
+- [Row/Column](#rowcolumn)
 - [Panel](#panel)
 - [Flex](#flex)
 - [Header](#header)
