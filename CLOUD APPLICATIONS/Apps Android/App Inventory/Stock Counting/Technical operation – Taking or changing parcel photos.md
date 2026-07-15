@@ -10,6 +10,8 @@ When a user takes a parcel photo in the Inventory app, the image goes through se
 ```
 User takes photo
         ↓
+Inventory app displays the status ‘Being processed’
+        ↓
 Photo is stored in Picture folder (PICS/StockItems)
         ↓
 ExfotoUrl is updated
@@ -18,7 +20,7 @@ Timer process creates LiveFoto and a historical photo (used for formats & reuse)
         ↓
 Webshop processes and caches the photo (± 10 min)
         ↓
-Inventory app displays the photo via the webshop
+Inventory app displays the photo and removes the processing status
 ```
 
 ---
@@ -27,6 +29,8 @@ Inventory app displays the photo via the webshop
 
 The user takes a photo **in the Stock Item Detail page**.  
 After taking the photo:
+
+- the app immediately displays the status **Being processed** until the photo is available via the webshop,
 
 - it is immediately stored as the **ExfotoUrl** of the parcel (the reference to the photo),
     
@@ -127,6 +131,6 @@ Average processing time:
 
 > **± 10 minutes**
 
-Until the webshop finishes processing, it may seem like the photo “was not saved”, while in reality the webshop simply has not made it available yet.
+Until the webshop has processed the photo, the Inventory app displays the status **Being processed** for the parcel. This confirms that the photo has been received but is not yet available via the webshop.
 
-> ℹ️ We are working on an indicator that shows immediately after taking a photo that it is **being processed**. This gives the user clear visual feedback until the webshop has synchronized the photo.
+Once the webshop has processed and synchronized the photo, the status disappears and the new parcel photo becomes visible. There is no need to take the photo again while it is being processed.

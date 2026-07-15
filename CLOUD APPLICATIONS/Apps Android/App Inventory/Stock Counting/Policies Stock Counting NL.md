@@ -140,6 +140,8 @@ Wanneer deze policy is ingeschakeld (`True`):
     
 - Uploaden vanuit galerij/bestanden is **niet mogelijk** — alleen direct fotograferen.
     
+- Direct na het maken van een foto toont de Inventory-app de status **In verwerking**. Deze status verdwijnt zodra de webshop de foto heeft verwerkt en de nieuwe partijfoto zichtbaar is.
+
 - Zichtbaarheid is afhankelijk van **webshop-caching** en kan +/- 10 minuten duren.
     
 - De foto wordt opgeslagen op **partijniveau** en na verwerking gebruikt in alle modules die partijfoto’s tonen.

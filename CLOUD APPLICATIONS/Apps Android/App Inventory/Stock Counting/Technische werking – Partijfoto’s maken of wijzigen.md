@@ -11,6 +11,8 @@ Wanneer een gebruiker in de Inventory-app een partijfoto maakt, doorloopt deze f
 ```
 Gebruiker maakt foto
         ↓
+Inventory-app toont de status ‘In verwerking’
+        ↓
 Foto wordt opgeslagen in Picture-map (PICS/StockItems)
         ↓
 ExfotoUrl wordt bijgewerkt
@@ -19,7 +21,7 @@ Timerproces maakt LiveFoto en historische foto (voor formaten & hergebruik)
         ↓
 Webshop verwerkt en cachet de foto (± 10 min)
         ↓
-Inventory-app toont de foto via de webshop
+Inventory-app toont de foto en verwijdert de verwerkingsstatus
 ```
 
 ---
@@ -28,6 +30,8 @@ Inventory-app toont de foto via de webshop
 
 De gebruiker maakt een foto **in de Stock Item Detail-pagina**.  
 Na het maken van de foto:
+
+- toont de app direct de status **In verwerking**, totdat de foto via de webshop beschikbaar is,
 
 - wordt deze direct opgeslagen als **ExfotoUrl** van de partij (de verwijzing naar de foto),
     
@@ -128,8 +132,8 @@ Gemiddelde verwerkingstijd:
 
 > **± 10 minuten**
 
-Totdat de webshop de foto heeft verwerkt, kan het lijken alsof de foto “niet is opgeslagen”, maar dat komt doordat de webshop de foto nog niet levert aan de app.
+Totdat de webshop de foto heeft verwerkt, toont de Inventory-app bij de partij de status **In verwerking**. Hiermee wordt bevestigd dat de foto is ontvangen, maar nog niet via de webshop beschikbaar is.
 
-> ℹ️ We zijn bezig met een indicatie dat direct na het maken van een foto aangeeft dat deze **in verwerking** is. Hiermee krijgt de gebruiker duidelijk visuele feedback totdat de webshop de foto heeft gesynchroniseerd.
+Zodra de webshop de foto heeft verwerkt en gesynchroniseerd, verdwijnt deze status en wordt de nieuwe partijfoto zichtbaar. Het is tijdens de verwerking niet nodig om de foto opnieuw te maken.
 
 ---

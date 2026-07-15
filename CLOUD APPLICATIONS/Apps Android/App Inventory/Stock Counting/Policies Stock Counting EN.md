@@ -138,6 +138,8 @@ When this policy is enabled (`True`):
     
 - Uploading from gallery/files is **not possible** — only direct camera capture is supported.
     
+- Immediately after taking a photo, the Inventory app displays the status **Being processed**. This status disappears once the webshop has processed the photo and the new parcel photo is visible.
+
 - Visibility depends on **webshop caching** and may take approx. **10 minutes**.
     
 - The photo is stored at **parcel level** and, once processed, is used in all modules that display parcel photos.
