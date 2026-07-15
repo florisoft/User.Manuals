@@ -63,6 +63,15 @@ of zoeken op:
 
 Alleen partijen binnen geconfigureerde voorraden worden getoond.
 
+Bij iedere barcodescan verhoogt de app automatisch het **Scanaantal** van de gevonden partij. De verhoging wordt bepaald door de verkoopeenheid in de voorraadinstelling (`VERKEH`):
+
+- **Stelen:** +1 per scan
+- **Bos:** + de inhoud van één bos per scan
+- **Verkoopeenheid:** + de verkoopeenheid van de partij per scan
+- **Colli:** + de inhoud van één colli per scan
+
+Is geen geldige verkoopeenheid ingesteld, dan verhoogt het Scanaantal met 1. Handmatig zoeken en vervolgens een partij selecteren verhoogt het Scanaantal niet.
+
 De verwerking hangt af van de policy `Apps_Inventory_StockCounting_StockCountingStrategy`:
 
 - Met `Standaard telling op partijbasis` wordt de geselecteerde partij als afzonderlijke partij geteld.
@@ -79,6 +88,8 @@ Bij `Telling op v-partij basis` kan het detailscherm meerdere administratieve pa
 ### Stap 6: Controleer en pas waarden aan
 
 Pas in het Stockitem-detailscherm de voorraadwaarden aan waar nodig. Als een partij al eerder is gecontroleerd, herkent u dit aan een oranje banner boven in het scherm. Wanneer er nog pickorders openstaan op de partij, wordt dit ook weergegeven in het scherm. Houd er rekening mee dat het weergegeven totaal inclusief het aantal is dat nog gepickt moet worden.
+
+Het veld **Scanaantal** is zichtbaar wanneer het is toegevoegd aan `Apps_Inventory_StockCounting_StockItemDetailSettings_AvailableStockitemDetails`. Als het veld ook is toegevoegd aan `Apps_Inventory_StockCounting_StockItemDetailSettings_AllowEditStockitemDetails`, kunt u het getelde aantal handmatig corrigeren of op **0** zetten. Zonder deze tweede instelling is het veld alleen-lezen.
 
 Als de locatie als bewerkbaar partijdetail is ingesteld, kunt u een nieuwe locatie invoeren of scannen. Staat de policy `Apps_Inventory_StockCounting_CheckPredefinedLocationCodes` aan, dan accepteert de app alleen locatiecodes die vooraf zijn geregistreerd in de tabel **Partij locaties** (`PARTIJLOC`) in het constantenscherm. Een onbekende locatie wordt niet opgeslagen; de bestaande partijlocatie blijft behouden.
 

@@ -108,6 +108,14 @@ For more details on adjusting these settings, refer to the [Policy Management Gu
 #### `AllowEditStockitemDetails`
 By default, parcel properties are read-only. This setting lets you configure which visible properties can be edited during counting.
 
+#### Displaying and editing Scan quantity
+
+Add **Scan quantity** to `AvailableStockItemDetails` to display the registered quantity in the Stock Item Detail screen. Also add **Scan quantity** to `AllowEditStockitemDetails` to let users manually correct the quantity or reset it to **0**. If Scan quantity is only included in `AvailableStockItemDetails`, the field is read-only.
+
+Each barcode scan automatically increases the Scan quantity. The increment follows the sales unit in the stock setting (`VERKEH`): 1 stem, the content of one bunch, the parcel's sales unit, or the content of one colli. If the setting is empty or invalid, 1 is used. Manually searching for and selecting a parcel does not increase the Scan quantity.
+
+With `stockcounting based on v-stock items`, the app displays the combined Scan quantity of the underlying parcels within the configured available stocks.
+
 #### `StockItemQuantityDisplay`  
 Determines how the parcel quantity is displayed in the app.  
 

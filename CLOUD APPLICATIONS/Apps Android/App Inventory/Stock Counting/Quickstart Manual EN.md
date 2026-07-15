@@ -58,6 +58,15 @@ or search by:
 
 Only parcels in configured stock locations will be shown.
 
+Each barcode scan automatically increases the parcel's **Scan quantity**. The increase is determined by the sales unit in the stock setting (`VERKEH`):
+
+- **Stems:** +1 per scan
+- **Bunch:** + the content of one bunch per scan
+- **Sales unit:** + the parcel's sales unit per scan
+- **Colli:** + the content of one colli per scan
+
+If no valid sales unit is configured, the Scan quantity increases by 1. Manually searching for and selecting a parcel does not increase the Scan quantity.
+
 Processing depends on the `Apps_Inventory_StockCounting_StockCountingStrategy` policy:
 
 - With `Default stockcounting based`, the selected parcel is counted as an individual parcel.
@@ -74,6 +83,8 @@ With `stockcounting based on v-stock items`, the detail screen can open multiple
 ### Step 6: Review and Adjust Values
 
 Adjust the stock values as needed in the stock item detail screen. If a parcel was previously inspected, an orange banner will appear at the top of the screen. If there are open pick orders for the parcel, this will also be indicated. Note that the displayed total includes quantities still to be picked.
+
+The **Scan quantity** field is visible when it is added to `Apps_Inventory_StockCounting_StockItemDetailSettings_AvailableStockitemDetails`. If the field is also added to `Apps_Inventory_StockCounting_StockItemDetailSettings_AllowEditStockitemDetails`, you can manually correct the counted quantity or reset it to **0**. Without the second setting, the field is read-only.
 
 If location is configured as an editable parcel detail, you can enter or scan a new location. When the `Apps_Inventory_StockCounting_CheckPredefinedLocationCodes` policy is enabled, the app only accepts location codes registered in the **Parcel locations** table (`PARTIJLOC`) in the constants screen. An unknown location is not saved and the parcel's existing location is retained.
 
