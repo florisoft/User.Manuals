@@ -345,8 +345,8 @@ After making changes to your CMS page, you must publish them. This screen keeps 
 
 |Step|Explanation|
 |:--|:--|
-|**1**|In this example, we edited a Text component on the Home page. An icon at the bottom of the screen will now turn orange. Click this icon to navigate to the **Unsaved Changes** page (1).<details><summary><b>Click here for the example image</b></summary><img src="media/10.1.png"></details>|
-|**2**|You are now on the **Unsaved Changes** page (2), where your changes are tracked per page (3). You can either discard all unsaved changes for this page (4) or publish them (5). If you have made changes to multiple pages, they will also be listed on this screen. You can then discard all changes for every page at once (6) or publish them all at once (7).<details><summary><b>Click here for the example image</b></summary><img src="media/10.2.png"></details>|
+|**1**|In this example, we edited a Text component on the Home page. An icon at the bottom of the screen will now turn orange. Click this icon to navigate to the **Pending Changes** page (1).<details><summary><b>Click here for the example image</b></summary><img src="media/10.1.png"></details>|
+|**2**|You are now on the **Pending Changes** page (2), where your changes are tracked per page (3). You can either discard all unsaved changes for this page (4) or publish them (5). If you have made changes to multiple pages, they will also be listed on this screen. You can then discard all changes for every page at once (6) or publish them all at once (7).<details><summary><b>Click here for the example image</b></summary><img src="media/10.2.png"></details>|
 
 ---
 
