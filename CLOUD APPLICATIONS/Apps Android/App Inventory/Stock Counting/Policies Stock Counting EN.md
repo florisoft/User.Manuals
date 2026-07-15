@@ -220,6 +220,18 @@ Only selected locations are visible and editable for Stock Counting.
 
 ---
 
+### `CheckPredefinedLocationCodes`
+
+Enables validation of predefined location codes when scanning or changing a parcel location.
+When this policy is enabled, the app checks whether the location code exists in the **Parcel locations** table (`PARTIJLOC`) in the constants screen. Only registered location codes are recognized as locations and can be saved. An unknown location code is rejected and the parcel's existing location remains unchanged.
+
+When enabled, the `PARTIJLOC` check replaces the standard recognition based on maximum location length and character format. This means that, for example, fully numeric location codes can be used, provided they have been registered in advance.
+
+> ⚠️ **Recommended usage**
+> Enable `CheckPredefinedLocationCodes` to prevent users from accidentally assigning unknown or misspelled locations to parcels during Stock Counting.
+
+---
+
 ### `SetStockItemType`
 
 Defines which type of **parcel** is scanned and counted in the app.

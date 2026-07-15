@@ -80,6 +80,8 @@ Bij `Telling op v-partij basis` kan het detailscherm meerdere administratieve pa
 
 Pas in het Stockitem-detailscherm de voorraadwaarden aan waar nodig. Als een partij al eerder is gecontroleerd, herkent u dit aan een oranje banner boven in het scherm. Wanneer er nog pickorders openstaan op de partij, wordt dit ook weergegeven in het scherm. Houd er rekening mee dat het weergegeven totaal inclusief het aantal is dat nog gepickt moet worden.
 
+Als de locatie als bewerkbaar partijdetail is ingesteld, kunt u een nieuwe locatie invoeren of scannen. Staat de policy `Apps_Inventory_StockCounting_CheckPredefinedLocationCodes` aan, dan accepteert de app alleen locatiecodes die vooraf zijn geregistreerd in de tabel **Partij locaties** (`PARTIJLOC`) in het constantenscherm. Een onbekende locatie wordt niet opgeslagen; de bestaande partijlocatie blijft behouden.
+
 Bij `Telling op v-partij basis` worden aantalswijzigingen, detailwijzigingen en controle-vinkjes toegepast op de onderliggende partijen binnen de ingestelde voorraad-policy. De sortering van de policy bepaalt de verwerkingsvolgorde.
 
 <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/7.png"></details>
@@ -145,7 +147,7 @@ Aan het einde van de controle is zichtbaar of alle voorraadregels zijn gecontrol
 
 ## Versiebeheer & Ontwikkelfase
 
-> **Laatste update:** 22 oktober 2025  
+> **Laatste update:** 15 juli 2026
 > **Huidige ontwikkelfase:** Dev phase 2 afgerond
 
 Deze handleiding is gebaseerd op de actuele Inventory App en wordt periodiek bijgewerkt bij nieuwe functionaliteit of gewijzigde policies.

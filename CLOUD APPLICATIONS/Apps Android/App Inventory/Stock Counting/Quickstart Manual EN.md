@@ -75,6 +75,8 @@ With `stockcounting based on v-stock items`, the detail screen can open multiple
 
 Adjust the stock values as needed in the stock item detail screen. If a parcel was previously inspected, an orange banner will appear at the top of the screen. If there are open pick orders for the parcel, this will also be indicated. Note that the displayed total includes quantities still to be picked.
 
+If location is configured as an editable parcel detail, you can enter or scan a new location. When the `Apps_Inventory_StockCounting_CheckPredefinedLocationCodes` policy is enabled, the app only accepts location codes registered in the **Parcel locations** table (`PARTIJLOC`) in the constants screen. An unknown location is not saved and the parcel's existing location is retained.
+
 With `stockcounting based on v-stock items`, quantity changes, detail changes, and check marks are applied to the underlying parcels within the configured stock policy. The policy sorting determines the processing order.
 
 <details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/7.png"></details>
@@ -139,7 +141,7 @@ At the end of the inspection, it is clear whether all stock lines have been chec
 
 ## Version Control & Development Phase
 
-> **Last update:** Oktober 22, 2025  
+> **Last update:** July 15, 2026
 > **Current development phase:** Dev phase 2 completed
 
 This manual is based on the current Inventory App and will be periodically updated to reflect new functionality or changes in policies.

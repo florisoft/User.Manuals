@@ -220,6 +220,18 @@ Alleen de hier geselecteerde voorraden zijn zichtbaar en bewerkbaar in de Stock 
 
 ---
 
+### `CheckPredefinedLocationCodes`
+
+Activeert de controle op vooraf gedefinieerde locatiecodes bij het scannen en wijzigen van een partijlocatie.
+Wanneer deze policy is ingeschakeld, controleert de app of de locatiecode voorkomt in de tabel **Partij locaties** (`PARTIJLOC`) in het constantenscherm. Alleen geregistreerde locatiecodes worden als locatie herkend en kunnen worden opgeslagen. Een onbekende locatiecode wordt afgekeurd en de bestaande partijlocatie blijft ongewijzigd.
+
+De controle in `PARTIJLOC` vervangt bij ingeschakelde policy de normale herkenning op basis van de maximale locatielengte en het tekenformaat. Daardoor kunnen bijvoorbeeld volledig numerieke locatiecodes worden gebruikt, mits deze vooraf zijn geregistreerd.
+
+> ⚠️ **Aanbevolen gebruik**
+> Schakel `CheckPredefinedLocationCodes` in om te voorkomen dat gebruikers tijdens Stock Counting per ongeluk onbekende of verkeerd gespelde locaties aan partijen koppelen.
+
+---
+
 ### `SetStockItemType`
 
 Bepaalt het type partij dat binnen de app gescand en geteld wordt.
