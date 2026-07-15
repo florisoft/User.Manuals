@@ -309,9 +309,13 @@ In dit configuratie scherm stel je de huisstijl kleuren in van je shop, bepaal j
 
 ### Backups
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Backups | Deze beschrijving wordt aangevuld |
+Werken in het CMS kan natuurlijk weleens mis gaan. Misschien heb je onbedoeld iets verwijderd wat niet terug te draaien is. Geen paniek, door middel van een backup is jouw CMS snel weer up and running!
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Navigeer via Content Management (CMS) (1) naar Backups (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/8.1.png"></details>|
+|**2**|Wat je nu ziet is het overzichtspagina van alle backups. Elke dag wordt er automatisch een backup uitgevoerd, maar kun je ook zelf een backup opslaan via het '+'-icoon (3). Er wordt nu een dialoog geopend. Vul een beschrijving in voor je backup (4) en sla deze op (5). Het dialoog zal uit zichzelf verbergen nadat de backup voltooid is. Het maken van een backup kan soms ook even duren.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/8.2.png"></details>|
+|**3**|Nu zien we dat de backup is aangemaakt en zal bovenin het overzicht zichtbaar worden (6). Mocht het nodig zijn om een backup terug te zetten kan er op de terugdraai-knop worden geklikt (7). De versie zal dan worden teruggezet naar deze backup. Backups kunnen ook worden verwijderd (8).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/8.3.png"></details>|
 
 ---
 

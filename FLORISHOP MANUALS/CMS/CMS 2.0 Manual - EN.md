@@ -318,9 +318,13 @@ In this configuration screen, you can set the brand colors of your shop, determi
 
 ### Backups
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Backups | Deze beschrijving wordt aangevuld |
+Working in the CMS can sometimes go wrong. You may have accidentally deleted something that cannot be undone. Don't worry, with the help of a backup your CMS can quickly be up and running again!
+
+|Step|Explanation|
+|:--|:--|
+|**1**|Navigate via Content Management (CMS) (1) to Backups (2).<details><summary><b>Click here for the example image</b></summary><img src="media/8.1.png"></details>|
+|**2**|You will now see the overview page containing all backups. A backup is automatically created every day, but you can also manually save a backup using the '+' icon (3). A dialog will open. Enter a description for your backup (4) and save it (5). The dialog will automatically close once the backup has been completed. Creating a backup may take some time.<details><summary><b>Click here for the example image</b></summary><img src="media/8.2.png"></details>|
+|**3**|You can now see that the backup has been created and will appear at the top of the overview (6). If you need to restore a backup, click the restore button (7). The version will then be restored to this backup. Backups can also be deleted (8).<details><summary><b>Click here for the example image</b></summary><img src="media/8.3.png"></details>|
 
 ---
 
