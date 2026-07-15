@@ -255,6 +255,17 @@ Allows an entire order to be completed in one action, even if not all items have
 
 ---
 
+### `RequireBoxInspection`
+Determines whether boxes must be final-checked separately.
+
+When this policy is enabled, the user must explicitly scan or manually approve the box. The app then also processes quantities not yet final-checked on the invoice lines (`ORDERREG`) in the box. It updates `EINDCHECK`, `SCAN_USER`, `SCAN_DATE`, `SCAN_TIME`, and `CONTROLEUR`. A manual check also enables `SCAN_HAND`.
+
+These fields can be displayed as columns in **Backoffice → Invoices** to verify afterwards how much was checked, by which user/inspector, and at what time.
+
+When the policy is disabled, the box does not require a separate check and can be shown as processed once its related order lines have been fully checked.
+
+---
+
 ### `StoreScannedBarcodes`
 Determines whether scanned barcodes are stored in the database (table BARCODES).  
 When this option is enabled, each barcode is recorded to prevent a product from being registered multiple times.  

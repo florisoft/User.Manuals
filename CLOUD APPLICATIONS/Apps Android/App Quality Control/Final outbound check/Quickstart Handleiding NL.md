@@ -96,7 +96,18 @@ Wanneer alle regels gecontroleerd zijn, krijgen de orders de status Checked.
 
 <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/7.png"></details>
 <br>
-Daarbij worden ook diverse statussen bijgewerkt in backoffice - facturen, zoals het vinkje voor de eindcheck, de eindscan die door de verkoper wordt gezet en het eindcontroleaantal.
+Daarbij worden ook diverse gegevens bijgewerkt in **Backoffice → Facturen**. Deze gegevens staan op de betreffende factuurregel (`ORDERREG`) en kunnen als kolommen worden gebruikt om de eindcontrole achteraf te controleren:
+
+| Kolom (`ORDERREG`) | Wat wordt vastgelegd? |
+| --- | --- |
+| `EINDCHECK` | Het aantal dat met de Final Outbound Check is gecontroleerd. |
+| `SCAN_USER` | De gebruikers-ID van de ingelogde gebruiker die de eindcontrole heeft geregistreerd. |
+| `SCAN_DATE` | De datum waarop de eindcontrole is geregistreerd. |
+| `SCAN_TIME` | Het tijdstip waarop de eindcontrole is geregistreerd. |
+| `CONTROLEUR` | De medewerkers-ID/verkoperscode van de controleur. |
+| `SCAN_HAND` | Geeft aan dat de orderregel handmatig is gecontroleerd. Dit veld wordt alleen bij een handmatige controle aangezet. |
+
+De gebruikers-, datum-, tijd- en controleurgegevens worden gevuld wanneer deze op de factuurregel nog leeg zijn. Bij het eindcontroleren van een doos worden ook de nog niet eindgecontroleerde aantallen van de bijbehorende factuurregels verwerkt. Hierdoor zijn deze kolommen ook bruikbaar om controles van producten in dozen achteraf na te gaan.
 
 Daarnaast zijn er extra mogelijkheden:
 
@@ -117,7 +128,7 @@ De policy `ShowWarningIfIncomplete` controleert of alle regels gecontroleerd zij
 
 ## Versiebeheer & Ontwikkelfase
 
-> **Laatste update:** 29 september 2025  
+> **Laatste update:** 15 juli 2026
 > **Huidige ontwikkelfase:** Dev phase 1 (MVP) afgerond
 
 Deze handleiding is gebaseerd op de actuele Logistics App en wordt periodiek bijgewerkt bij nieuwe functionaliteit of gewijzigde policies.

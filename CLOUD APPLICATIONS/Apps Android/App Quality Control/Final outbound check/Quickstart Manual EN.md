@@ -97,7 +97,18 @@ When all lines are checked, the orders will receive the status Checked.
 
 <details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/7.png"></details>
 <br>
-Various statuses are also updated in the back office—invoices, such as the check mark for the final check, the final scan performed by the seller, and the final check number.
+Various details are also updated in **Backoffice → Invoices**. These details are stored on the relevant invoice line (`ORDERREG`) and can be displayed as columns to verify the final check afterwards:
+
+| Column (`ORDERREG`) | What is recorded? |
+| --- | --- |
+| `EINDCHECK` | The quantity checked with Final Outbound Check. |
+| `SCAN_USER` | The user ID of the logged-in user who registered the final check. |
+| `SCAN_DATE` | The date on which the final check was registered. |
+| `SCAN_TIME` | The time at which the final check was registered. |
+| `CONTROLEUR` | The employee ID/seller code of the inspector. |
+| `SCAN_HAND` | Indicates that the invoice line was checked manually. This field is enabled only for a manual check. |
+
+The user, date, time, and inspector details are populated when they are still empty on the invoice line. When a box is final-checked, the quantities not yet final-checked on its related invoice lines are also processed. These columns can therefore also be used to audit checks of products packed in boxes.
 
 There are also additional options:
 
@@ -118,7 +129,7 @@ The `ShowWarningIfIncomplete` policy checks whether all parcel have been checked
 
 ## Version Control & Development Phase
 
-> **Last update:** September 29, 2025  
+> **Last update:** July 15, 2026
 > **Current development phase:** Dev phase 1 (MVP) completed
 
 This manual is based on the current Logistics App and will be periodically updated to reflect new functionality or changes in policies.

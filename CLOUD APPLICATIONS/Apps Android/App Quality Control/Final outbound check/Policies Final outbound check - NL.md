@@ -264,6 +264,17 @@ Staat toe om een hele order met één actie af te ronden, ook als niet alle item
 
 ---
 
+### `RequireBoxInspection`
+Bepaalt of dozen afzonderlijk moeten worden eindgecontroleerd.
+
+Wanneer deze policy is ingeschakeld, moet de gebruiker de doos expliciet scannen of handmatig goedkeuren. De app verwerkt dan ook de nog niet eindgecontroleerde aantallen van de factuurregels (`ORDERREG`) in de doos. Daarbij worden `EINDCHECK`, `SCAN_USER`, `SCAN_DATE`, `SCAN_TIME` en `CONTROLEUR` bijgewerkt. Bij een handmatige controle wordt ook `SCAN_HAND` aangezet.
+
+Deze velden kunnen in **Backoffice → Facturen** als kolommen worden gebruikt om achteraf te controleren hoeveel er is gecontroleerd, door welke gebruiker/controleur en op welk moment.
+
+Wanneer de policy is uitgeschakeld, hoeft een doos niet afzonderlijk te worden gecontroleerd en kan deze als verwerkt worden getoond zodra de bijbehorende orderregels volledig zijn gecontroleerd.
+
+---
+
 ### `StoreScannedBarcodes`
 Bepaalt of gescande barcodes worden opgeslagen in de database (tabel BARCODES). Wanneer deze optie is ingeschakeld, wordt elke barcode vastgelegd om te voorkomen dat een product meerdere keren wordt geregistreerd. Dit is alleen aan te raden als elk product een unieke barcode heeft. Als er geen unieke waarde in de barcode zit, schakel dan de policy uit om foutmeldingen over dubbel gescande barcodes te voorkomen.
 
