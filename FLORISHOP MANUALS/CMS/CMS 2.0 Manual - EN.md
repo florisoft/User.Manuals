@@ -1,4 +1,4 @@
-<img src="fslogo.png">
+<img src="../fslogo.png">
 
 # Comprehensive Guide to the Content Management System (CMS) Add-on
 
