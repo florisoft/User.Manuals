@@ -376,7 +376,7 @@ Using components in the CMS allows you to build beautiful pages, but sometimes y
 |**5**|A confirmation dialog will appear. Click **OK** (9) and then navigate back to **Component Styles** (10).<details><summary><b>Click here for the example image</b></summary><img src="media/12.5.png"></details>|
 |**6**|The Component Style you have just created will now appear in the overview. It is now ready to be applied to a component.<details><summary><b>Click here for the example image</b></summary><img src="media/12.6.png"></details>|
 |**7**|Select the desired component in the editor or via the Navigator (13). In the component's **General Settings** tab (14), open the **Component Style** dropdown (15) and select the Component Style you just created (16).<details><summary><b>Click here for the example image</b></summary><img src="media/12.7.png"></details>|
-|**8**|The effect of the selected Component Style will immediately be visible on the selected Panel component (17).<details><summary><b>Click here for the example image</b></summary><img src="media/12.8.png"></details>|
+|**8**|The effect of the selected Component Style will immediately be visible on the selected [Panel](#panel) component (17).<details><summary><b>Click here for the example image</b></summary><img src="media/12.8.png"></details>|
 
 ---
 

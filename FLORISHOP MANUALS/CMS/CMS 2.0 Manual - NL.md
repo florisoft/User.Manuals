@@ -365,7 +365,7 @@ Door gebruik te maken van componenten in het CMS kun je al mooie pagina's bouwen
 |**5**|Er komt nu een bevestigingsdialoog tevoorschijn. Klik op 'OK' (9) en navigeer vervolgens terug naar de Component Styles (10).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/12.5.png"></details>|
 |**6**|We zien nu dat de Component Style die wij zojuist hebben aangemaakt zichtbaar is geworden in het overzicht. Tijd om de Component Style te activeren op een component!<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/12.6.png"></details>|
 |**7**|Klik op het gewenste component in de editor of via de Navigator (13). Via de algemene settings tab van het component (14) open je de dropdown 'Component style' (15) en selecteer je vervolgens het zojuist aangemaakte Component Style (16).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/12.7.png"></details>|
-|**8**|Vervolgens zie je direct het effect op het geselecteerde Panel component (17)<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/12.8.png"></details>|
+|**8**|Vervolgens zie je direct het effect op het geselecteerde [Panel](#panel) component (17)<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/12.8.png"></details>|
 
 ---
 
