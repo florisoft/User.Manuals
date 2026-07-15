@@ -321,9 +321,12 @@ Werken in het CMS kan natuurlijk weleens mis gaan. Misschien heb je onbedoeld ie
 
 ### Redirects
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Redirects | Deze beschrijving wordt aangevuld |
+Wanneer je een bestaande link hebt waarvan je de url wilt aanpassen kan nadelig werken voor jouw SEO score op Google. Met behulp van redirects vertel jij aan Google dat de url gewijzigd is en gaat dit niet ten koste van jouw opgebouwde SEO score.
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Navigeer via Content Management (CMS) (1) naar Redirects (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/9.1.png"></details>|
+|**2**|Je belandt nu op het redirect overzichtspagina. Via het '+'-icoon (3) kun je een nieuwe redirect aanmaken. Er wordt nu een dialoog geopend.<br><br>**4 - Redirect naam**: Vul een naam in voor je redirect.<br><br>**5 - Inkomende url**: Hier zet je het complete webadres in van je 'oude' url zoals *https://www.[jouwdomein].nl/oude-pagina*.<br><br>**6 - Uitgaande url**: Hier zet je het complete webadres in van je 'nieuwe' url zoals *https://www.[jouwdomein].nl/nieuwe-pagina*.<br><br>**7 - Redirect type**: Via deze dropdown om welk type redirect het gaat. **302** is tijdelijk (**Deze optie raden wij sterk aan**) en **301** is permanent en is dus moeilijk ongedaan te maken. LET OP: Hiervoor vergt voldoende kennis van het werken met redirects om ongewenst gedrag te voorkomen.<br><br>Sla vervolgens de redirect op (8).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/9.2.png"></details>|
 
 ---
 

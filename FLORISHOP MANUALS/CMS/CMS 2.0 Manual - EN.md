@@ -330,9 +330,12 @@ Working in the CMS can sometimes go wrong. You may have accidentally deleted som
 
 ### Redirects
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Redirects | Deze beschrijving wordt aangevuld |
+When you have an existing link and want to change its URL, this can negatively impact your SEO score in Google. With the help of redirects, you inform Google that the URL has been changed, preventing your accumulated SEO score from being lost.
+
+|Step|Explanation|
+|:--|:--|
+|**1**|Navigate via Content Management (CMS) (1) to Redirects (2).<details><summary><b>Click here for the example image</b></summary><img src="media/9.1.png"></details>|
+|**2**|You will now arrive at the redirects overview page. Use the '+' icon (3) to create a new redirect. A dialog will open.<br><br>**4 - Redirect name**: Enter a name for your redirect.<br><br>**5 - Incoming URL**: Enter the complete web address of your 'old' URL, for example *https://www.[yourdomain].nl/old-page*.<br><br>**6 - Outgoing URL**: Enter the complete web address of your 'new' URL, for example *https://www.[yourdomain].nl/new-page*.<br><br>**7 - Redirect type**: Use this dropdown to select the type of redirect. **302** is temporary (**this option is strongly recommended**) and **301** is permanent and therefore more difficult to undo. **PLEASE NOTE:** Sufficient knowledge of working with redirects is required to prevent unwanted behavior.<br><br>Then save the redirect (8).<details><summary><b>Click here for the example image</b></summary><img src="media/9.2.png"></details>|
 
 ---
 
