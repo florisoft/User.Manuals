@@ -26,15 +26,18 @@ The app uses a short scan-and-print flow. You scan an order item, check the deta
 
 ---
 
-## Step 1: Scan the order item (Policies: `ValidBarcodeDecodeOptions`, `ProcessBluComBarcodes`)
+## Step 1: Scan the order item (Policies: `EnabledBarcodeTypes`, `ValidBarcodeDecodeOptions`, `ProcessBluComBarcodes`)
 
 Scan the order item barcode of the sold product for which you want to print price labels.
 
-Which barcodes the app accepts depends on the configured policy:
-- `ValidBarcodeDecodeOptions` determines which barcode types are recognized and processed.
+Which barcodes the app accepts depends on the configured policies:
+- `EnabledBarcodeTypes` determines which barcode types the scanner can read. The full name of this policy is `Apps_Inventory_Labeling_PriceLabel_EnabledBarcodeTypes`.
+- `ValidBarcodeDecodeOptions` determines which barcode contents the Price Labels flow can recognize and process.
 - `ProcessBluComBarcodes` determines whether BluCom barcodes may be processed.
 
-When a barcode type is not allowed in the policy, that barcode is not processed in the Price Labels flow.
+When `EnabledBarcodeTypes` is empty, the app uses the default profile containing **Interleaved 2 of 5, Code 128, Code 39, QR Code, EAN-13, Data Matrix, and UPC-A**. As soon as you select one or more types, that selection replaces the default profile. The scanner then reads only the selected types. For example, you can disable EAN-13 when a label contains multiple barcodes and only another barcode should be scanned.
+
+A barcode is processed only when its physical barcode type is enabled through `EnabledBarcodeTypes` and its contents are allowed through `ValidBarcodeDecodeOptions`. Ask your administrator to adjust these policies if a required type cannot be scanned.
 
 ---
 
@@ -95,7 +98,11 @@ Repeat the previous steps for all order items that require price labels.
 
 **Q: Which barcode can I scan?**
 
-A: This depends on the policy `ValidBarcodeDecodeOptions`. If BluCom barcodes are used, `ProcessBluComBarcodes` must also be configured correctly.
+A: `EnabledBarcodeTypes` determines which physical barcode types the scanner can read. `ValidBarcodeDecodeOptions` then determines which barcode contents the Price Labels flow can process. If BluCom barcodes are used, `ProcessBluComBarcodes` must also be configured correctly.
+
+**Q: What happens when `EnabledBarcodeTypes` is not configured?**
+
+A: The app uses the default profile containing Interleaved 2 of 5, Code 128, Code 39, QR Code, EAN-13, Data Matrix, and UPC-A. A configured selection replaces this entire default profile.
 
 **Q: Why does the app ask how many price labels I want to print?**
 

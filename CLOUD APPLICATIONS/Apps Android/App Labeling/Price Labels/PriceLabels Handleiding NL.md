@@ -26,15 +26,18 @@ De app is opgebouwd uit een korte scan- en printflow. U scant een orderitem, con
 
 ---
 
-## Stap 1: Orderitem scannen (Policies: `ValidBarcodeDecodeOptions`, `ProcessBluComBarcodes`)
+## Stap 1: Orderitem scannen (Policies: `EnabledBarcodeTypes`, `ValidBarcodeDecodeOptions`, `ProcessBluComBarcodes`)
 
 Scan de orderitembarcode van het verkochte product waarvoor u prijsstickers wilt printen.
 
-Welke barcodes de app accepteert, hangt af van de ingestelde policy:
-- `ValidBarcodeDecodeOptions` bepaalt welke barcodetypen worden herkend en verwerkt.
+Welke barcodes de app accepteert, hangt af van de ingestelde policies:
+- `EnabledBarcodeTypes` bepaalt welke typen barcodes de scanner kan lezen. De volledige naam van deze policy is `Apps_Inventory_Labeling_PriceLabel_EnabledBarcodeTypes`.
+- `ValidBarcodeDecodeOptions` bepaalt welke inhoudelijke barcodes de Price Labels-flow kan herkennen en verwerken.
 - `ProcessBluComBarcodes` bepaalt of BluCom-barcodes verwerkt mogen worden.
 
-Wanneer een barcodetype niet is toegestaan in de policy, wordt deze barcode niet verwerkt in de Price Labels-flow.
+Als `EnabledBarcodeTypes` leeg is, gebruikt de app het standaardprofiel met **Interleaved 2 of 5, Code 128, Code 39, QR-code, EAN-13, Data Matrix en UPC-A**. Zodra u een of meer typen selecteert, vervangt die selectie het standaardprofiel. De scanner leest dan alleen de geselecteerde typen. Zo kunt u bijvoorbeeld EAN-13 uitschakelen wanneer een sticker meerdere barcodes bevat en alleen een andere barcode gescand mag worden.
+
+Een barcode wordt alleen verwerkt als het fysieke barcodetype is ingeschakeld via `EnabledBarcodeTypes` en de inhoud ervan is toegestaan via `ValidBarcodeDecodeOptions`. Vraag uw beheerder om deze policies aan te passen als een benodigd type niet kan worden gescand.
 
 ---
 
@@ -95,7 +98,11 @@ Herhaal de vorige stappen voor alle orderitems waarvoor prijsstickers nodig zijn
 
 **V: Welke barcode kan ik scannen?**
 
-A: Dit hangt af van de policy `ValidBarcodeDecodeOptions`. Als BluCom-barcodes gebruikt worden, moet ook `ProcessBluComBarcodes` correct zijn ingesteld.
+A: `EnabledBarcodeTypes` bepaalt welke fysieke barcodetypen de scanner kan lezen. `ValidBarcodeDecodeOptions` bepaalt vervolgens welke barcode-inhoud de Price Labels-flow kan verwerken. Als BluCom-barcodes gebruikt worden, moet ook `ProcessBluComBarcodes` correct zijn ingesteld.
+
+**V: Wat gebeurt er als `EnabledBarcodeTypes` niet is ingesteld?**
+
+A: Dan gebruikt de app het standaardprofiel met Interleaved 2 of 5, Code 128, Code 39, QR-code, EAN-13, Data Matrix en UPC-A. Een ingestelde selectie vervangt dit volledige standaardprofiel.
 
 **V: Waarom vraagt de app hoeveel prijsstickers ik wil printen?**
 
