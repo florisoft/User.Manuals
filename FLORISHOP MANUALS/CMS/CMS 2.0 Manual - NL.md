@@ -354,9 +354,18 @@ Pagina's die een formulier bevatten kunnen worden bijgehouden in het Form Tracki
 
 ### Component styles
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Component styles | Deze beschrijving wordt aangevuld |
+Door gebruik te maken van componenten in het CMS kun je al mooie pagina's bouwen, maar wil je misschien soms net even je eigen CSS-draai eraan geven wat (nog) niet kan met onze huidige CMS opties. Dat kan met Component Styles. **LET OP: Deze vergt voldoende CSS kennis. Foutieve code kan negatief effect hebben op de prestaties van je shop.**
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|In het voorbeeld hebben wij een [Panel](#panel) (1) component geselecteerd die wij graag een kleur verloop willen geven zodat de tekst beter leesbaar wordt, iets wat met de huidige CMS settings (nog) niet mogelijk is.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/12.1.png"></details>|
+|**2**|Via Content Management (CMS) (2) navigeer je naar Component Styles (3). Het beheerscherm zal worden geopend. <details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/12.2.png"></details>|
+|**3**|Maak een nieuw Component Style aan door op het '+'-icoon (4) te klikken. In het dialoog dat verschijnt vul je de naam (5) in van jouw Component Style. LET OP: Gebruik geen spaties voor deze naam. Klik vervolgens op de Bevestig knop (6).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/12.3.png"></details>|
+|**4**|Nu wordt er een CSS-editor geopend waarin jij je eigen CSS styling kunt doorvoeren (7). In het voorbeeld hebben wij het kleurverloop toegepast. Vervolgens sla je de component Style op (8).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/12.4.png"></details>|
+|**5**|Er komt nu een bevestigingsdialoog tevoorschijn. Klik op 'OK' (9) en navigeer vervolgens terug naar de Component Styles (10).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/12.5.png"></details>|
+|**6**|We zien nu dat de Component Style die wij zojuist hebben aangemaakt zichtbaar is geworden in het overzicht. Tijd om de Component Style te activeren op een component!<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/12.6.png"></details>|
+|**7**|Klik op het gewenste component in de editor of via de Navigator (13). Via de algemene settings tab van het component (14) open je de dropdown 'Component style' (15) en selecteer je vervolgens het zojuist aangemaakte Component Style (16).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/12.7.png"></details>|
+|**8**|Vervolgens zie je direct het effect op het geselecteerde Panel component (17)<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/12.8.png"></details>|
 
 ---
 

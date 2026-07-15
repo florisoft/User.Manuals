@@ -363,11 +363,20 @@ To comply with privacy regulations, it is recommended to clearly inform users by
 
 ---
 
-### Component styles
+### Component Styles
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Component styles | Deze beschrijving wordt aangevuld |
+Using components in the CMS allows you to build beautiful pages, but sometimes you may want to apply your own CSS styling that is not (yet) possible with the current CMS options. This can be achieved using **Component Styles**. **PLEASE NOTE:** This feature requires sufficient CSS knowledge. Incorrect CSS code may negatively impact the performance or appearance of your webshop.
+
+|Step|Explanation|
+|:--|:--|
+|**1**|In this example, we have selected a [Panel](#panel) component (1) to which we want to apply a color gradient, making the text easier to read—something that is not (yet) possible using the current CMS settings.<details><summary><b>Click here for the example image</b></summary><img src="media/12.1.png"></details>|
+|**2**|Navigate via Content Management (CMS) (2) to **Component Styles** (3). The management screen will open.<details><summary><b>Click here for the example image</b></summary><img src="media/12.2.png"></details>|
+|**3**|Create a new Component Style by clicking the '+' icon (4). In the dialog that appears, enter a name (5) for your Component Style. **PLEASE NOTE:** Do not use spaces in the name. Then click **Confirm** (6).<details><summary><b>Click here for the example image</b></summary><img src="media/12.3.png"></details>|
+|**4**|A CSS editor will now open where you can enter your own CSS styling (7). In this example, we have applied a color gradient. When you are finished, save the Component Style (8).<details><summary><b>Click here for the example image</b></summary><img src="media/12.4.png"></details>|
+|**5**|A confirmation dialog will appear. Click **OK** (9) and then navigate back to **Component Styles** (10).<details><summary><b>Click here for the example image</b></summary><img src="media/12.5.png"></details>|
+|**6**|The Component Style you have just created will now appear in the overview. It is now ready to be applied to a component.<details><summary><b>Click here for the example image</b></summary><img src="media/12.6.png"></details>|
+|**7**|Select the desired component in the editor or via the Navigator (13). In the component's **General Settings** tab (14), open the **Component Style** dropdown (15) and select the Component Style you just created (16).<details><summary><b>Click here for the example image</b></summary><img src="media/12.7.png"></details>|
+|**8**|The effect of the selected Component Style will immediately be visible on the selected Panel component (17).<details><summary><b>Click here for the example image</b></summary><img src="media/12.8.png"></details>|
 
 ---
 
