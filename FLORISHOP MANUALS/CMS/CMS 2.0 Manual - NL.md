@@ -343,9 +343,12 @@ Nadat je wijziging maakt in jouw CMS pagina dien je dit vervolgens te publiceren
 
 ### Form tracking
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Form tracking | Deze beschrijving wordt aangevuld |
+Pagina's die een formulier bevatten kunnen worden bijgehouden in het Form Tracking scherm. In dit scherm kun je precies zien welke formulieren succesvol zijn verstuurd per debiteur. Ook formulieren die niet verstuurd zijn of fout zijn gegaan zijn gemakkelijk op deze pagina terug te vinden en is het tevens mogelijk om Excelbestanden op te slaan zodat de ingevulde data van meerdere debiteuren voor meerdere doeleinden kunnen worden gebruikt. Wel is het aan te raden om dit duidelijk te communiceren in jouw formulier door middel van een [checkbox](#checkbox) met de tekst: *Ik ga ermee akkoord dat mijn gegevens gebruikt mogen worden voor de verwerking van mijn verzoek.* i.v.m. privacy wetgeving.
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Navigeer via Content Management (CMS) (1) naar Form tracking (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/11.1.png"></details>|
+|**2**|Je belandt nu op het Form tracking overzichtspagina.<br><br>**3 - Form subject or user**: Zoek naar een Formulier onderwerp (wat je kunt instellen in het [Formulier-component](#formulier)) of zoek naar een debiteur nummer.<br><br>**4 - Selecteer Formulier**: Via deze dropdown kies je welke data je per Formulier in wilt zien.<br><br>**5 - Status**: Via deze dropdown kun je inzien welke formulieren succesvol verstuurd zijn, geannuleerd of juist niet verstuurd zijn.<br><br>**6 - Download Excel**: Hiermee download je een Excel-bestand op basis van de geselecteerde data.<br><br>**7 - Refresh overzicht**: Via deze knop haalt het overzicht opnieuw alle data op.<br><br>**8 - Gegevens tabel**: Opent een dialoog waarin ingevulde data zichtbaar wordt.<br><br>**9 - Gebeurtenissen**: Hierin worden alle gebeurtenissen bijgehouden tijdens het invullen van een formulier.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/11.2.png"></details>|
 
 ---
 

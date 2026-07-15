@@ -352,9 +352,14 @@ After making changes to your CMS page, you must publish them. This screen keeps 
 
 ### Form tracking
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Form tracking | Deze beschrijving wordt aangevuld |
+Pages that contain a form can be monitored in the **Form Tracking** screen. This screen allows you to see exactly which forms have been successfully submitted for each customer. Forms that failed to send or were cancelled can also be easily identified. In addition, you can export the submitted data to Excel files, making it suitable for various purposes involving data from multiple customers.
+
+To comply with privacy regulations, it is recommended to clearly inform users by including a [Checkbox](#checkbox) in your form with text similar to: *I agree that my personal data may be used to process my request.*
+
+|Step|Explanation|
+|:--|:--|
+|**1**|Navigate via Content Management (CMS) (1) to Form Tracking (2).<details><summary><b>Click here for the example image</b></summary><img src="media/11.1.png"></details>|
+|**2**|You will now arrive at the **Form Tracking** overview page.<br><br>**3 - Form subject or user**: Search for a form subject (which can be configured in the [Form component](#form)) or search for a customer number.<br><br>**4 - Select Form**: Use this dropdown to select which form data you want to view.<br><br>**5 - Status**: Use this dropdown to filter forms that were successfully submitted, cancelled, or failed to send.<br><br>**6 - Download Excel**: Downloads an Excel file based on the selected data.<br><br>**7 - Refresh overview**: Refreshes the overview and reloads all available data.<br><br>**8 - Data table**: Opens a dialog displaying the submitted form data.<br><br>**9 - Events**: Displays all events that occurred during the completion and submission of the form.<details><summary><b>Click here for the example image</b></summary><img src="media/11.2.png"></details>|
 
 ---
 
