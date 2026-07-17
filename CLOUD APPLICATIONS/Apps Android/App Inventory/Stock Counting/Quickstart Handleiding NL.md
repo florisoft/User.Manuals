@@ -77,6 +77,8 @@ De verwerking hangt af van de policy `Apps_Inventory_StockCounting_StockCounting
 - Met `Standaard telling op partijbasis` wordt de geselecteerde partij als afzonderlijke partij geteld.
 - Met `Telling op v-partij basis` blijft zoeken en scannen op partijniveau werken, maar wordt de selectie intern vertaald naar het bijbehorende VPartijNr. Partijen met hetzelfde VPartijNr binnen de geconfigureerde voorraden worden daarna als een geconsolideerde telling verwerkt.
 
+> **Let op:** bij `Telling op v-partij basis` moeten alle voorraadregels met hetzelfde VPartijNr dezelfde `INHKOLLI` hebben. Dit geldt ook wanneer een barcode met het PARTIJNR wordt gescand. Zie [`StockCountingStrategy` in de policyhandleiding](Policies%20Stock%20Counting%20NL.md#stockcountingstrategy) voor de volledige uitleg.
+
 ### Stap 5: Selecteer een partij
 
 Klik op **Select stock item** om het detail van de partij te openen. Als u de partij via scannen heeft geselecteerd, wordt dit scherm automatisch geopend.
@@ -162,4 +164,3 @@ Aan het einde van de controle is zichtbaar of alle voorraadregels zijn gecontrol
 > **Huidige ontwikkelfase:** Dev phase 2 afgerond
 
 Deze handleiding is gebaseerd op de actuele Inventory App en wordt periodiek bijgewerkt bij nieuwe functionaliteit of gewijzigde policies.
-

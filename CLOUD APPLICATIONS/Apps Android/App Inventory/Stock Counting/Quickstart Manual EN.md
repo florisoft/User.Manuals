@@ -72,6 +72,8 @@ Processing depends on the `Apps_Inventory_StockCounting_StockCountingStrategy` p
 - With `Default stockcounting based`, the selected parcel is counted as an individual parcel.
 - With `stockcounting based on v-stock items`, searching and scanning still work at parcel level, but the selected parcel is internally translated to the related VPartijNr. Parcels with the same VPartijNr within the configured stock locations are then processed as one consolidated count.
 
+> **Important:** with `stockcounting based on v-stock items`, all stock records with the same VPartijNr must have the same `INHKOLLI`. This also applies when a barcode containing the PARTIJNR is scanned. See [`StockCountingStrategy` in the policy manual](Policies%20Stock%20Counting%20EN.md#stockcountingstrategy) for the full explanation.
+
 ### Step 5: Select a Parcel
 
 Click **Select stock item** to open the parcel detail. If the parcel was selected via scanning, this screen will open automatically.

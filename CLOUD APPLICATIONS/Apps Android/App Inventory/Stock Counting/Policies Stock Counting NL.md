@@ -283,6 +283,8 @@ De policy `Apps_Inventory_StockCounting_StockCountingStrategy` bepaalt of Stock 
 
 Bij `Telling op v-partij basis` tellen alleen partijen mee die binnen de ingestelde voorraad-policy/`AvailableStocks` vallen. De sortering van die policy bepaalt de verwerkingsvolgorde. Aantal verhogen of verlagen wordt volgens die volgorde verdeeld over de onderliggende partijen. Detailwijzigingen, controle-vinkjes en kwaliteitsissues worden toegepast op de onderliggende partijen binnen de policy. Printen gebeurt op basis van de eerste onderliggende partij volgens de policy-volgorde.
 
+> **Gegevensvoorwaarde voor telling op VPartijNr:** alle voorraadregels met hetzelfde VPartijNr moeten dezelfde colli-inhoud (`INHKOLLI`) hebben. De app consolideert deze regels en gebruikt daarbij één colli-inhoud voor de berekening. Bij verschillende waarden kan de getoonde verdeling in colli en restant afwijken, ook als het totale aantal correct is. De app kan niet eenduidig bepalen welke `INHKOLLI` gebruikt moet worden. Beheer voorraad met een afwijkende colli-inhoud daarom onder een apart VPartijNr of kies `Standaard telling op partijbasis`, zodat iedere partij afzonderlijk wordt gecontroleerd. Deze voorwaarde geldt ook wanneer een barcode met het PARTIJNR wordt gescand, omdat de verwerking na selectie alsnog op VPartijNr plaatsvindt.
+
 ---
 
 ## Autorisaties

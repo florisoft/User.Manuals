@@ -283,6 +283,8 @@ The `Apps_Inventory_StockCounting_StockCountingStrategy` policy determines wheth
 
 With `stockcounting based on v-stock items`, only parcels within the configured stock policy/`AvailableStocks` are included. The sorting of that policy determines the processing order. Quantity increases or decreases are distributed across the underlying parcels according to that order. Detail changes, check marks, and quality issues are applied to the underlying parcels within the policy. Printing is based on the first underlying parcel according to the policy order.
 
+> **Data requirement for counting by VPartijNr:** all stock records with the same VPartijNr must have the same colli content (`INHKOLLI`). The app consolidates these records and uses one colli content for the calculation. If the values differ, the displayed breakdown into colli and remainder may be incorrect, even when the total quantity is correct. The app cannot determine unambiguously which `INHKOLLI` should be used. Therefore, manage stock with a different colli content under a separate VPartijNr, or select `Default stockcounting based` so that each parcel is counted separately. This requirement also applies when a barcode containing the PARTIJNR is scanned, because processing is still consolidated by VPartijNr after selection.
+
 ---
 
 ## Authorizations
