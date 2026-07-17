@@ -386,6 +386,32 @@ This section is still under development.
 
 ---
 
+## Other
+
+### Media
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Media | Deze beschrijving wordt aangevuld |
+
+---
+
+### Documenten
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Documenten | Deze beschrijving wordt aangevuld |
+
+---
+
+### Links
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Links | Deze beschrijving wordt aangevuld |
+
+---
+
 # Aside Editor
 
 ## Toolbar
@@ -433,32 +459,6 @@ This section is still under development.
 | Onderdeel | Beschrijving |
 |---|---|
 | Responsive tabs | Deze beschrijving wordt aangevuld |
-
----
-
-# Overig
-
-## Media
-
-| Onderdeel | Beschrijving |
-|---|---|
-| Media | Deze beschrijving wordt aangevuld |
-
----
-
-## Documenten
-
-| Onderdeel | Beschrijving |
-|---|---|
-| Documenten | Deze beschrijving wordt aangevuld |
-
----
-
-## Links
-
-| Onderdeel | Beschrijving |
-|---|---|
-| Links | Deze beschrijving wordt aangevuld |
 
 ---
 
