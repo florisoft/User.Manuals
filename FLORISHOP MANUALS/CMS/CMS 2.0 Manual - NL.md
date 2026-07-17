@@ -710,7 +710,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ## Formulier
 
-Stel een dynamisch formulier op dat flexibel kan worden ingericht op basis van de gewenste invoervelden.
+Stel een dynamisch formulier op dat flexibel kan worden ingericht op basis van de gewenste invoervelden. 
 
 Bouw een dynamisch formulier en verstuur de ingevulde gegevens naar één of meerdere e-mailadressen. Stel daarnaast een automatisch bevestigingsbericht in voor de afzender. Voorkom spam door gebruik te maken van reCAPTCHA. Daarnaast is er een optie beschikbaar genaamd Botpreventiemodus, waarbij een verborgen inputveld wordt toegevoegd om bots te detecteren en tegen te gaan. De gegevens van een nieuwe klant kunnen optioneel worden meegestuurd in een Excel-bestand, zodat deze eenvoudig te importeren zijn in de backoffice. Formulieren kunnen ook worden verzonden met behulp van een XSL-template naar een e-mailadres naar keuze. Zorg er in dat geval voor dat de SMTP-instellingen van de webshop correct zijn geconfigureerd en dat er een XSL-template beschikbaar is voor het actieve thema.
 
