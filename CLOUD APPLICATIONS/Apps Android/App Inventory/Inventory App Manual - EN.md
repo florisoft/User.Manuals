@@ -17,8 +17,7 @@ With the Stock Counting app, you check stock and make sure stock levels remain s
 
 The Slotting app is an application for warehouse management that allows products to be linked to locations.
 
-- [Policy manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Inventory/Slotting/Policies%20Slotting%20EN%20.md)  
-- [Quickstart manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Inventory/Slotting/Quickstart%20Manual%20EN.md)  
+- [Full manual and policies (EN)](Slotting/Slotting%20Manual%20-%20EN.md)
 
 ## Consolidation
 

@@ -17,8 +17,7 @@ Met de Stock Counting app controleert u de voorraden en zorgt u ervoor dat de vo
 
 De Slotting app is een applicatie voor magazijnbeheer waarmee producten aan locaties gekoppeld kunnen worden.
 
-- [Policy-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Inventory/Slotting/Policies%20Slotting%20NL.md)  
-- [Quickstart-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Inventory/Slotting/Quickstart%20Handleiding%20NL.md)  
+- [Volledige handleiding en policies (NL)](Slotting/Slotting%20Handleiding%20-%20NL.md)
 
 ## Consolidation
 
