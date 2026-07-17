@@ -120,7 +120,7 @@
 - [Anchors toolbar](#anchors-toolbar)
 
 #### 4. Formulier
-- [Formulier](#formulier)
+- [Formulier](#formulier-1)
 - [Tekst input](#tekst-input)
 - [Email input](#email-input)
 - [Nummer input](#nummer-input)

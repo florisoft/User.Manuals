@@ -120,7 +120,7 @@
 - [Anchors Toolbar](#anchors-toolbar)
 
 #### 4. Forms
-- [Form](#form)
+- [Form](#form-1)
 - [Text Input](#text-input)
 - [Email Input](#email-input)
 - [Number Input](#number-input)
