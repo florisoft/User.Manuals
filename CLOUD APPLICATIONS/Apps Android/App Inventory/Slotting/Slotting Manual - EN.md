@@ -1,3 +1,5 @@
+![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
+
 # Manual – Inventory Slotting (Slotting App)
 
 This manual explains how to use and configure the Slotting functionality in the Florisoft Inventory App. It covers the complete user workflow, the relevant policies, the system setting, and authorization.

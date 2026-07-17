@@ -1,4 +1,4 @@
-![Logo Florisoft](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
+![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
 
 # Manuel de l'application Florisoft Cash & Carry (POS)
 

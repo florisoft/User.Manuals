@@ -1,3 +1,5 @@
+![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
+
 # Handleiding - Price Labels (Labeling App)
 
 Deze handleiding helpt u bij het gebruiken van de **Price Labels-functionaliteit** in de Labeling App.

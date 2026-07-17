@@ -1,3 +1,5 @@
+![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
+
 # Handleiding – Inventory Slotting (Slotting App)
 
 Deze handleiding beschrijft hoe u de Slotting-functionaliteit van de Florisoft Inventory App gebruikt en configureert. De volledige gebruikersworkflow, relevante policies, systeeminstelling en autorisatie staan in dit document.
