@@ -128,8 +128,7 @@
 - [Checkbox](#checkbox)
 - [Radio Button](#radio-button)
 - [Multiple Choice](#multiple-choice)
-- [Dropdown (Single Select)](#dropdown-single-select)
-- [Dropdown (Single Select Option)](#dropdown-single-select-option)
+- [Dropdown (Single Select)/(Single Select Option)](#dropdown-single-select--single-select-option)
 - [Hidden Input](#hidden-input)
 - [Hidden Debtor Information](#hidden-debtor-information)
 - [Submit Button](#submit-button)
@@ -838,19 +837,20 @@ The functionality and available settings of this component are largely the same 
 
 ---
 
-## Dropdown (single select)
+## Dropdown (single select) / Single select option
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Dropdown (single select) | Deze beschrijving wordt aangevuld |
+Use this component within a form to add a dropdown menu with selectable options. The available options within the dropdown are created using **Dropdown Single Select Option** components.
 
----
+Additionally, it is possible to automatically load a list of all countries worldwide.
 
-## Dropdown (single select option)
+The functionality and available settings of this component are largely the same as those of the [Text input](#text-input) component.
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Dropdown (single select option) | Deze beschrijving wordt aangevuld |
+|Step|Explanation|
+|:--|:--|
+|**1**|The **Dropdown (single select)** component contains mostly the same settings as the **Text input** component, but includes one additional option: **UsePredefinedCountryTemplate** (1). When this option is enabled, a list of all available countries worldwide is automatically loaded.<br><br>In this example, we will add the options manually, so this option remains disabled. Then click the '+' icon behind **DropdownSingleSelect** (2). The **Component dialog** will now open.<details><summary><b>Click here for the example image</b></summary><img src="media/60.1.png"></details>|
+|**2**|Navigate through the **Form** category (3) to the **DropdownSingleSelectOption** component (4) and add it to the **DropdownSingleSelect** component.<details><summary><b>Click here for the example image</b></summary><img src="media/60.2.png"></details>|
+|**3**|The **DropdownSingleSelectOption** component has now been added to the **DropdownSingleSelect** component (5). Configure the option by entering a name in **InputName** (6), setting the value in **Value** (7), and providing a visible name in **Label** (8).<details><summary><b>Click here for the example image</b></summary><img src="media/60.3.png"></details>|
+|**4**|When opening the dropdown menu, you will see that the newly created option is now available as a selectable choice.<details><summary><b>Click here for the example image</b></summary><img src="media/60.4.png"></details>|
 
 ---
 

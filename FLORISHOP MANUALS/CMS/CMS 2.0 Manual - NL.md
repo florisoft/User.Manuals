@@ -128,8 +128,7 @@
 - [Checkbox](#checkbox)
 - [Radio button](#radio-button)
 - [Multiple choice](#multiple-choice)
-- [Dropdown (single select)](#dropdown-single-select)
-- [Dropdown (single select option)](#dropdown-single-select-option)
+- [Dropdown (single select)/(single select option)](#dropdown-single-select--single-select-option)
 - [Hidden input](#hidden-input)
 - [Hidden debiteur info](#hidden-debiteur-info)
 - [Verzendknop](#verzendknop)
@@ -833,19 +832,20 @@ De werking en beschikbare instellingen van dit component komen grotendeels overe
 
 ---
 
-## Dropdown (single select)
+## Dropdown (single select) / Single select option
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Dropdown (single select) | Deze beschrijving wordt aangevuld |
+Gebruik dit component binnen een formulier om een dropdownmenu met keuzemogelijkheden toe te voegen. De opties binnen de dropdown worden aangemaakt met behulp van **Dropdown Single Select Option**-componenten.
 
----
+Daarnaast is het mogelijk om automatisch een lijst met alle landen wereldwijd in te laden.
 
-## Dropdown (single select option)
+De werking en beschikbare instellingen van dit component komen grotendeels overeen met het [Tekst input](#tekst-input)-component.
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Dropdown (single select option) | Deze beschrijving wordt aangevuld |
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Het **Dropdown (single select)**-component bevat grotendeels dezelfde instellingen als het **Tekst input**-component, maar beschikt over één aanvullende optie: **UsePredefinedCountryTemplate** (1). Wanneer deze optie wordt ingeschakeld, wordt automatisch een lijst met alle beschikbare landen wereldwijd geladen.<br><br>In dit voorbeeld voegen we de opties handmatig toe, daarom laten we deze optie uitgeschakeld. Klik vervolgens op het '+'-icoon achter **DropdownSingleSelect** (2). Het **Componenten dialoog** wordt nu geopend.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/60.1.png"></details>|
+|**2**|Navigeer via de categorie **Formulier** (3) naar het **DropdownSingleSelectOption**-component (4) en voeg dit toe aan het **DropdownSingleSelect**-component.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/60.2.png"></details>|
+|**3**|Het **DropdownSingleSelectOption**-component is nu toegevoegd aan het **DropdownSingleSelect**-component (5). Configureer de optie door een naam in te vullen bij **InputName** (6), de waarde in te stellen via **Value** (7) en een zichtbare naam op te geven bij **Label** (8).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/60.3.png"></details>|
+|**4**|Wanneer je het dropdownmenu opent, zie je dat de zojuist aangemaakte keuze beschikbaar is als selectieoptie.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/60.4.png"></details>|
 
 ---
 
