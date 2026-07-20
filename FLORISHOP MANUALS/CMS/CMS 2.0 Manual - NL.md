@@ -128,7 +128,7 @@
 - [Checkbox](#checkbox)
 - [Radio button](#radio-button)
 - [Multiple choice](#multiple-choice)
-- [Dropdown (single select)/(single select option)](#dropdown-single-selectsingle-select-option)
+- [Dropdown (single select)/(single select option)](#dropdown-single-select--single-select-option)
 - [Hidden input](#hidden-input)
 - [Hidden debiteur info](#hidden-debiteur-info)
 - [Verzendknop](#verzendknop)
