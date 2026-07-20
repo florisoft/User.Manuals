@@ -781,9 +781,12 @@ De werking en beschikbare instellingen van dit component komen grotendeels overe
 
 ## Bestand input
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Bestand input | Deze beschrijving wordt aangevuld |
+Met dit component kan de gebruiker bestanden uploaden die worden meegestuurd met het formulier.
+
+Ondersteunde bestandsformaten:
+*.jpg; *.png; *.jpeg; *.doc; *.docx; *.pdf; *.mkv; *.mp4; *.wmv; *.txt; *.avi; *.svg; *.wav; *.xls; *.rtf
+
+De werking en beschikbare instellingen van dit component komen grotendeels overeen met het [Tekst input](#tekst-input)-component.
 
 ---
 

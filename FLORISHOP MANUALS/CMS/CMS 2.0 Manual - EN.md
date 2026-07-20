@@ -782,11 +782,14 @@ The functionality and available settings of this component are largely the same 
 
 ---
 
-## Bestand input
+## File input
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Bestand input | Deze beschrijving wordt aangevuld |
+This component enables users to upload files that are submitted along with the form.
+
+Supported file formats:
+*.jpg; *.png; *.jpeg; *.doc; *.docx; *.pdf; *.mkv; *.mp4; *.wmv; *.txt; *.avi; *.svg; *.wav; *.xls; *.rtf
+
+The functionality and available settings of this component are largely the same as the [Text input](#text-input) component.
 
 ---
 
