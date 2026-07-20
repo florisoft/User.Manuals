@@ -851,9 +851,16 @@ De werking en beschikbare instellingen van dit component komen grotendeels overe
 
 ## Hidden input
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Hidden input | Deze beschrijving wordt aangevuld |
+Dit component wordt gebruikt om gegevens mee te sturen die niet zichtbaar zijn voor de gebruiker, maar wel nodig zijn in de bevestigingsmail of het gegenereerde Excelbestand.
+
+Hiermee kun je bijvoorbeeld een formulier zo configureren dat de ingevulde gegevens direct worden verwerkt in een e-mail en een Excelbestand dat gereed is voor import in de Florisoft-backoffice via de debiteuren-importfunctie.
+
+**Let op:** Gebruik altijd bestaande kolommen uit de backoffice. Het toevoegen van afwijkende of onbekende velden wordt niet ondersteund.
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|In dit voorbeeld hebben we drie **Hidden input**-componenten toegevoegd aan het [Formulier](#formulier-1).<br><br>Het eerste voorbeeld toont een **Hidden input** (1) met een **Name** en **Value** die verwijzen naar een template-debiteur (2).<br><br>Het tweede voorbeeld toont een **Hidden input** (3) met **DEBNR** als waarde (4). Het derde voorbeeld toont een **Hidden input** (5) met **DEBKEY** als **Name** (6).<br><br>**Let op:** Gebruik altijd bestaande kolommen uit de backoffice. Hiervan mag niet worden afgeweken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/61.1.png"></details><details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/61.2.png"></details><details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/61.3.png"></details>|
+|**2**|Configureer het [Formulier](#formulier-1) zodat de gegevens worden opgeslagen via **Database**, **ExcelFile** of **ExcelAsMailAttachment** en worden meegestuurd naar de ontvanger.<br><br>Wanneer de ontvanger het Excelbestand vanuit de e-mail opent, worden de **Hidden input**-velden automatisch gevuld met de bijbehorende gegevens.<br><br>Vervolgens kan het Excelbestand in de Florisoft-backoffice worden geïmporteerd via **Constanten** (7) → **Importeren** (8) → **Debiteuren** (9).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/61.4.png"></details>|
 
 ---
 
