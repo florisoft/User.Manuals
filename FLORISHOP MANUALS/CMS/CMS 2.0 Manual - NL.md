@@ -451,6 +451,14 @@ Dit onderdeel is nog in ontwikkeling
 
 ---
 
+## Vertalingen
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Vertalingen | Deze beschrijving wordt aangevuld |
+
+---
+
 # Componenten
 
 ## Basis
@@ -716,6 +724,8 @@ Verstuur de ingevulde gegevens naar één of meerdere e-mailadressen en stel een
 
 De gegevens van een nieuwe klant kunnen optioneel als Excel-bestand worden meegestuurd, zodat deze eenvoudig in de backoffice kunnen worden geïmporteerd.
 
+In een Formulier kunnen bijvoorbeeld ook componenten als [Rows/Columns](#rowcolumn) worden geplaatst, zodat je het formulier overzichterlijk kunt inrichten.
+
 *Volg onderstaande stappen:*
 
 |Stap|Uitleg|
@@ -733,9 +743,17 @@ De gegevens van een nieuwe klant kunnen optioneel als Excel-bestand worden meege
 
 ## Tekst input
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Tekst input | Deze beschrijving wordt aangevuld |
+Gebruik dit component om tekstuele gegevens in te voeren binnen een formulier.
+
+*Volg onderstaande stappen (dit is een vervolg op de uitleg van [Formulier](#formulier-1)):*
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Nadat het [Formulier](#formulier-1) is aangemaakt en geconfigureerd, kunnen de invoervelden worden toegevoegd. In dit voorbeeld willen we een **Voornaam**- en **Achternaam**-veld naast elkaar plaatsen. Voeg hiervoor eerst een [Row en Column](#rowcolumn) toe aan het formulier. Klik vervolgens op het '+'-icoon achter de **Column** (1). Het **Componenten dialoog** wordt nu geopend.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/53.1.png"></details>|
+|**2**|Navigeer via de categorie **Formulier** (2) naar het **Tekst input**-component (3) en voeg dit toe aan de **Column** (4).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/53.2.png"></details>|
+|**3**|Het **Tekst input**-component (5) is nu toegevoegd aan de **Column** en direct zichtbaar in de editor (6). Open het tabblad **Algemene instellingen** (7) om het component te configureren.<br><br>**8 - Vertalingen bewerken:** Voeg vertalingen toe voor meerdere talen. Lees hier meer over bij [Vertalingen](#vertalingen).<br><br>**9 - InputName:** Dit veld wordt automatisch gevuld met een unieke waarde. **LET OP:** Zorg ervoor dat ieder invoerveld een unieke **InputName** heeft. Dubbele namen veroorzaken fouten bij het verzenden van het formulier. De **InputName** kan bovendien worden gebruikt voor placeholders in de bevestigingsmail of het bedankbericht van het [Formulier](#formulier-1).<br><br>**10 - Mandatory:** Geef aan of dit een verplicht invoerveld is.<br><br>**11 - RegexErrorText:** Vul hier de foutmelding in die wordt weergegeven wanneer de ingevoerde waarde niet aan de validatie voldoet.<br><br>**12 - GeneralRegex:** Selecteer een standaardvalidatie, bijvoorbeeld voor een e-mailadres of telefoonnummer.<br><br>**13 - Multiline:** Schakel deze optie in om een groter tekstveld (textarea) te tonen waarin bezoekers langere berichten kunnen invoeren.<br><br>**14 - Label:** De tekst die boven het invoerveld wordt weergegeven.<br><br>**15 - CharacterRange:** Stel het minimale en/of maximale aantal toegestane tekens in.<br><br>**16 - Placeholder:** De tekst die in het invoerveld wordt weergegeven totdat de gebruiker begint met typen.<br><br>**17 - Component Styles:** Lees hier meer over bij [Component Styles](#component-styles).<br><br>Meer informatie over de tabbladen [Styling](#4-styling) (18), [Geavanceerd](#5-geavanceerd) (19) en [Zichtbaarheid](#6-zichtbaarheid) (20) vind je in de desbetreffende hoofdstukken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/53.3.png"></details>|
+|**4**|Nu de structuur **Row → Column → Tekst input** is aangemaakt, kun je eenvoudig extra invoervelden toevoegen door met de rechtermuisknop op de **Column** (21) te klikken en **Dupliceren** (22) te kiezen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/53.4.png"></details>|
+|**5**|Er wordt direct een tweede **Column** toegevoegd met dezelfde inhoud (23). Selecteer vervolgens het nieuwe **Tekst input**-component via de editor (23) of de Navigator (24). Geef de **InputName** een nieuwe, unieke waarde (25) en pas de **Placeholder** (26) en eventueel het **Label** aan.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/53.5.png"></details>|
 
 ---
 
