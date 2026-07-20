@@ -814,9 +814,20 @@ De werking en beschikbare instellingen van dit component komen grotendeels overe
 
 ## Multiple choice
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Multiple choice | Deze beschrijving wordt aangevuld |
+Gebruik dit component om bezoekers één of meerdere keuzes uit een lijst met opties te laten maken.
+
+Afhankelijk van de gekozen modus worden de opties weergegeven als:
+
+- **Checkboxes** – wanneer meerdere opties geselecteerd mogen worden.
+- **Radio buttons** – wanneer slechts één optie geselecteerd mag worden.
+
+Bij het verzenden van het formulier worden alleen de geselecteerde opties opgenomen in de bevestigingsmail.
+
+De werking en beschikbare instellingen van dit component komen grotendeels overeen met het [Tekst input](#tekst-input)-component.
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Het **Multiple choice**-component bevat grotendeels dezelfde instellingen als het **Tekst input**-component, maar beschikt over twee aanvullende opties.<br><br>**1 - Options:** Voeg hier de beschikbare keuzes toe. Nieuwe opties kunnen eenvoudig worden toegevoegd via de knop **Toevoegen** (2).<br><br>**3 - Mode:** Bepaal hoe de opties worden weergegeven. Kies **Checkboxes** wanneer meerdere antwoorden mogelijk zijn, of **Radio buttons** wanneer slechts één antwoord geselecteerd mag worden.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/59.1.png"></details>|
 
 ---
 
