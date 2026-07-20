@@ -799,6 +799,8 @@ Use this component to add a checkbox to a form. It can be used, for example, to 
 
 The functionality and available settings of this component are largely the same as those of the [Text input](#text-input) component.
 
+> **Tip:** For a cleaner presentation in the submitted email, we recommend using the [Multiple choice](#multiple-choice) component instead. It displays the selected option in a more user-friendly way and offers additional functionality.
+
 |Step|Explanation|
 |:--|:--|
 |**1**|The **Checkbox** component contains most of the same settings as the **Text input** component, but includes one additional option: **Checked on start** (1). When this option is enabled, the checkbox is selected by default when the form is loaded.<details><summary><b>Click here for the example image</b></summary><img src="media/57.1.png"></details>|

@@ -796,6 +796,8 @@ Met dit component voeg je een selectievakje toe aan een formulier. Dit kan bijvo
 
 De werking en beschikbare instellingen van dit component komen grotendeels overeen met het [Tekst input](#tekst-input)-component.
 
+> **Tip:** Voor een overzichtelijkere weergave in de verzonden e-mail raden wij aan om het [Multiple choice](#multiple-choice)-component te gebruiken. Dit component toont de geselecteerde optie netter en biedt daarnaast meer functionaliteit.
+
 |Stap|Uitleg|
 |:--|:--|
 |**1**|Het **Checkbox**-component bevat grotendeels dezelfde instellingen als het **Tekst input**-component, maar beschikt over één aanvullende optie: **Checked on start** (1). Wanneer deze optie is ingeschakeld, is de checkbox standaard aangevinkt zodra het formulier wordt geladen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/57.1.png"></details>|
