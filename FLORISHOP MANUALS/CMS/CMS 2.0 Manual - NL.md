@@ -759,15 +759,15 @@ Gebruik dit component om tekstuele gegevens in te voeren binnen een formulier.
 
 ## Email input
 
-Dit invoerveld accepteert alleen geldige e-mailadressen. Daarnaast kan worden ingesteld dat er een bevestigingsmail wordt verzonden naar het ingevulde e-mailadres. De inhoud van deze e-mail kan worden bepaald in het [Formulier](#formulier-1)-component.
+Dit invoerveld accepteert alleen geldige e-mailadressen. Daarnaast kan worden ingesteld dat automatisch een bevestigingsmail wordt verzonden naar het ingevulde e-mailadres. De inhoud van deze e-mail kan worden ingesteld in het [Formulier](#formulier-1)-component.
 
 *Volg onderstaande stappen (dit is een vervolg op de uitleg van [Tekst Input](#tekst-input)):*
 
 |Stap|Uitleg|
 |:--|:--|
-|**1**|Bij het [Tekst Input](#tekst-input)-component hebben we er voor gezorgd dat er een voor- en achternaam kan worden ingevuld. Nu willen we een Email veld toevoegen aan het [Formulier](#formulier-1). Klik op het '+'-icoon achter het formulier (1).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/54.1.png"></details>|
-|**2**|Navigeer via de categorie **Formulier** (2) naar het **Email input**-component (3) en voeg dit toe aan het **formulier** (4).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/54.2.png"></details>|
-|**3**|Het **Email input**-component (5) is nu toegevoegd aan het **Formulier** en direct zichtbaar in de editor (6). Open het tabblad **Algemene instellingen** (7) om het component te configureren. Zorg ook bij dit component ervoor dat de **InputName** (8) een unieke waarde heeft zoals uitgelegd bij [Tekst Input](#tekst-input). Het Email input-component heeft veelal dezelfde instellingen als de Tekst input-component, maar is er toch een belangrijk verschil. De optie 'Stuur bevestigingsmail' (9) zorgt ervoor dat het 'Dankjewel'-bericht in de [Formulier](#formulier-1)-instellingen naar het ingevulde emailadres wordt verstuurd. LET OP: Wanneer het 'Dankjewel'-bericht niet is ingevuld. maar deze optie (9) staat aan, dan zal er een lege mail naar de afzender worden verstuurd.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/54.3.png"></details>|
+|**1**|Bij het [Tekst Input](#tekst-input)-component hebben we ervoor gezorgd dat een voor- en achternaam kan worden ingevuld. In deze stap voegen we een e-mailveld toe aan het [Formulier](#formulier-1). Klik hiervoor op het '+'-icoon achter het formulier (1).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/54.1.png"></details>|
+|**2**|Navigeer via de categorie **Formulier** (2) naar het **Email input**-component (3) en voeg dit toe aan het **Formulier** (4).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/54.2.png"></details>|
+|**3**|Het **Email input**-component (5) is nu toegevoegd aan het **Formulier** en direct zichtbaar in de editor (6). Open het tabblad **Algemene instellingen** (7) om het component te configureren.<br><br>Zorg er ook bij dit component voor dat de **InputName** (8) een unieke waarde heeft, zoals beschreven bij [Tekst Input](#tekst-input).<br><br>Het **Email input**-component bevat grotendeels dezelfde instellingen als het **Tekst input**-component, maar heeft één aanvullende belangrijke optie: **Stuur bevestigingsmail** (9). Wanneer deze optie wordt ingeschakeld, wordt het ingestelde bevestigingsbericht uit de instellingen van het [Formulier](#formulier-1) automatisch verzonden naar het ingevulde e-mailadres.<br><br>**LET OP:** Wanneer het bevestigingsbericht niet is ingevuld, maar de optie **Stuur bevestigingsmail** wel is ingeschakeld, wordt er een lege e-mail naar de afzender verzonden.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/54.3.png"></details>|
 
 ---
 

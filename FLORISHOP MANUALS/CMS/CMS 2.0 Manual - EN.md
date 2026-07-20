@@ -762,9 +762,15 @@ Use this component to enter textual data within a form.
 
 ## Email input
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Email input | Deze beschrijving wordt aangevuld |
+This input field only accepts valid email addresses. Additionally, it can be configured to automatically send a confirmation email to the entered email address. The content of this email can be configured in the [Form](#form) component.
+
+*Follow the steps below (this is a continuation of the explanation of [Text Input](#text-input)):*
+
+|Step|Explanation|
+|:--|:--|
+|**1**|In the [Text Input](#text-input) component, we previously configured fields for entering a first name and last name. In this step, we will add an email field to the [Form](#form). Click the '+' icon behind the form (1).<details><summary><b>Click here for the example image</b></summary><img src="media/54.1.png"></details>|
+|**2**|Navigate through the **Form** category (2) to the **Email input** component (3) and add it to the **Form** (4).<details><summary><b>Click here for the example image</b></summary><img src="media/54.2.png"></details>|
+|**3**|The **Email input** component (5) has now been added to the **Form** and is immediately visible in the editor (6). Open the **General settings** tab (7) to configure the component.<br><br>Make sure the **InputName** (8) also has a unique value for this component, as described in [Text Input](#text-input).<br><br>The **Email input** component contains mostly the same settings as the **Text input** component, but has one additional important option: **Send confirmation email** (9). When this option is enabled, the confirmation message configured in the [Form](#form) settings will automatically be sent to the entered email address.<br><br>**IMPORTANT:** If the confirmation message has not been configured, but the **Send confirmation email** option is enabled, an empty email will be sent to the sender.<details><summary><b>Click here for the example image</b></summary><img src="media/54.3.png"></details>|
 
 ---
 
