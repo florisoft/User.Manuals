@@ -807,9 +807,11 @@ The functionality and available settings of this component are largely the same 
 
 ## Radio button
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Radio button | Deze beschrijving wordt aangevuld |
+Use this component within a form to allow visitors to select a single option from multiple choices. Each option is added as a separate radio button, with only one option being selectable at a time.
+
+The functionality and available settings of this component are largely the same as those of the [Text input](#text-input) and [Checkbox](#checkbox) components.
+
+> **Tip:** For a cleaner presentation in the submitted email, we recommend using the [Multiple choice](#multiple-choice) component instead. It displays the selected option in a more user-friendly way and offers additional functionality.
 
 ---
 

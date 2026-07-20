@@ -804,9 +804,11 @@ De werking en beschikbare instellingen van dit component komen grotendeels overe
 
 ## Radio button
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Radio button | Deze beschrijving wordt aangevuld |
+Gebruik dit component binnen een formulier om bezoekers één keuze te laten maken uit meerdere beschikbare opties. Elke optie wordt als een afzonderlijke radio button toegevoegd, waarbij slechts één optie tegelijk kan worden geselecteerd.
+
+De werking en beschikbare instellingen van dit component komen grotendeels overeen met de [Tekst input](#tekst-input)- en [Checkbox](#checkbox)-componenten.
+
+> **Tip:** Voor een overzichtelijkere weergave in de verzonden e-mail raden wij aan om het [Multiple choice](#multiple-choice)-component te gebruiken. Dit component toont de geselecteerde optie netter en biedt daarnaast meer functionaliteit.
 
 ---
 
