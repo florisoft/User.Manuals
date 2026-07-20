@@ -25,46 +25,49 @@ Er zijn twee hoofdtypen licenties beschikbaar binnen Florisoft:
 - Zodra een gebruiker uitlogt, komt de licentie weer beschikbaar voor iemand anders.
 - Dit type licentie is ideaal in situaties waar meerdere medewerkers afwisselend met Florisoft werken.
 
-## 2. Licenties beheren via het _Manage Licenses_-scherm
+## 2. Licenties beheren via het _Manage licenses_-scherm
 
-#### Toegangsrechten
+### Toegangsrechten
 
 Om toegang te krijgen tot dit scherm, moet de **policy** `CanManageLicenses` zijn ingeschakeld voor de gebruiker. Zonder deze policy is het scherm niet toegankelijk.
 
-Om het **License Management**-scherm te openen, ga je in **Florisoft.NET Navigator** naar:
+Om het licentieoverzicht te openen, ga je in **Florisoft.NET Navigator** naar:
 **Systeem → Manage licenses**
 
-<img width="1001" height="297" alt="afbeelding" src="https://github.com/user-attachments/assets/7c9cb1f1-a6d4-4676-980a-0499d4940d19" />
+Het scherm **App licentiefeatureoverzicht** toont de beschikbare onderdelen van Florisoft en de bijbehorende licentiestatus.
 
-In het scherm **License Management** zie je een overzicht van alle opgehaalde licenties.  
-Hier kun je controleren of de licenties correct zijn bijgewerkt en eventueel handmatig acties uitvoeren.
-### Functies in dit scherm
+<img src="Media/Licentie Keys ophalen en beheren/app-licentiefeatureoverzicht.png" alt="App licentiefeatureoverzicht met featurestructuur, licentiestatussen en licentiesleuteldetails" />
 
-<img width="1920" height="1033" alt="afbeelding" src="https://github.com/user-attachments/assets/e20563a1-0034-42b2-b9dd-9b42e83156a1" />
+### Opbouw van het scherm
 
-- **Handmatig licentiekeys ophalen**  
-    Gebruik de knop **Refresh licensekeys** om licenties handmatig te vernieuwen.  
-    Dit is handig wanneer de automatische timer nog niet is uitgevoerd of wanneer directe vernieuwing nodig is.
-    
-- **Licenties toewijzen aan gebruikers**  
-    Je kunt **user-licenties toewijzen aan specifieke gebruikers**.  
-    Hierdoor kunnen bepaalde licenties exclusief door die gebruiker worden gebruikt.
-    
-- **Claiminformatie inzien**  
-    In dit scherm is nu zichtbaar:
-    
-    - Welke **systeemgebruiker** de licentie heeft geclaimd.
-        
-    - Op welk **apparaat** de licentie is geclaimd.
-        
-    - Het **tijdstip van claimen**.
-        
-    - De **laatste activiteit** van de betreffende licentie.
-    
-    Hiermee kun je eenvoudig controleren of een licentie actief wordt gebruikt en op welk systeem deze is geregistreerd.
+Bovenaan staat een samenvatting met:
 
-- **Scherm verversen**
-    Met de **Refresh**-knop wordt het scherm handmatig ververst, zodat actieve licenties direct zichtbaar zijn met de meest recente claim- en activiteitsinformatie.
+- **Licentieerbaar:** het aantal onderdelen waarvoor een licentie kan worden gebruikt.
+- **Actief gelicenseerd:** het aantal onderdelen waarvoor een actieve licentie aanwezig is.
+- **Ontbrekend:** het aantal licentieerbare onderdelen waarvoor geen actieve licentie is gevonden.
+
+Aan de linkerkant worden de licentiefeatures hiërarchisch weergegeven. De kleur en status van een onderdeel geven aan of het volledig, gedeeltelijk of niet is gelicenseerd.
+
+### Featuredetails en licentiekeys
+
+Selecteer links een onderdeel om rechts de bijbehorende licentiegegevens te bekijken. Hier zie je onder andere de geldigheid, status, gekoppelde gebruiker en eventuele claiminformatie.
+
+### Licentie aan een gebruiker toewijzen
+
+Alleen een **user-licentie** kan aan een specifieke systeemgebruiker worden gekoppeld.
+
+Selecteer de gewenste feature en klik in de kolom **Gebruikers-ID** bij de betreffende user-licentie. Druk op **F3** om een systeemgebruiker te zoeken en te selecteren.
+
+Een lege, bewerkbare gebruikers-ID wordt met een afwijkende achtergrondkleur aangegeven. Bij andere licentietypes kan deze waarde niet worden gewijzigd.
+
+### Gegevens in het scherm vernieuwen
+
+Het scherm bevat twee verschillende vernieuwfuncties:
+
+- **Vernieuwen:** laadt de actuele licentie- en claiminformatie opnieuw in het scherm.
+- **Licentiesleutels vernieuwen:** haalt de nieuwste licentiekeys op en synchroniseert deze met Florisoft.
+
+Gebruik **Licentiesleutels vernieuwen** wanneer nieuwe of gewijzigde licenties nog niet in het overzicht zichtbaar zijn. Gebruik daarna zo nodig **Vernieuwen** om de meest recente scherminformatie te tonen.
 
 ## 3. Automatisch ophalen van licentie keys
 

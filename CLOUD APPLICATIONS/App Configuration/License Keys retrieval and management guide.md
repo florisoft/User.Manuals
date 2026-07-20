@@ -40,46 +40,47 @@ There are two main types of licenses available within Florisoft:
 
 ## 2. Managing Licenses via the _Manage Licenses_ Screen
 
-#### Access Rights
+### Access Rights
 
-To access this screen, the user must have the **policy** `CanManageLicenses` enabled.  
-Without this policy, the screen will not be accessible.
+To access this screen, the user must have the **policy** `CanManageLicenses` enabled. Without this policy, the screen will not be accessible.
 
-To open the **License Management** screen, go to:  
-**System → Manage Licenses** in **Florisoft.NET Navigator**.
+To open the license overview, go to the following location in **Florisoft.NET Navigator**:
+**System → Manage Licenses**
 
-<img width="1001" height="297" alt="image" src="https://github.com/user-attachments/assets/7c9cb1f1-a6d4-4676-980a-0499d4940d19" />
+The **App License Feature Overview** screen displays the available Florisoft features and their corresponding license status.
 
-In the **License Management** screen you will see an overview of all retrieved licenses.  
-Here, you can check whether the licenses are up to date and perform manual actions if necessary.
+<img src="Media/Licentie Keys ophalen en beheren/app-licentiefeatureoverzicht.png" alt="App License Feature Overview showing the feature structure, license statuses and license key details" />
 
-### Functions in this screen
+### Screen Layout
 
-<img width="1920" height="1033" alt="afbeelding" src="https://github.com/user-attachments/assets/5f60e6a3-d1ce-412b-a00f-f5c74424cbd7" />
+The summary at the top displays:
 
-- **Manually retrieve license keys**  
-    Use the **Refresh license keys** button to manually renew licenses.  
-    This is useful when the automatic timer has not yet run or when immediate renewal is required.
-    
-- **Assign licenses to users**  
-    You can **assign user licenses to specific users**.  
-    This ensures that certain licenses can be used exclusively by that user.
-    
-- **View claim information**  
-    This screen now displays:
-    
-    - Which **system user** has claimed the license
-        
-    - On which **device** the license has been claimed
-        
-    - The **time of claiming**
-        
-    - The **last activity** of the corresponding license
-        
-    This allows you to easily verify whether a license is actively used and on which system it is registered.
-  
-- **Refresh the screen**
-    Using the **Refresh** button, the screen can be manually refreshed so that active licenses are immediately displayed with the most up-to-date claim and activity information.
+- **Licensable:** the number of features for which a license can be used.
+- **Actively licensed:** the number of features with an active license.
+- **Missing:** the number of licensable features for which no active license was found.
+
+The license features are displayed hierarchically on the left. The color and status of a feature indicate whether it is fully, partially or not licensed.
+
+### Feature Details and License Keys
+
+Select a feature on the left to view its license information on the right. This includes its validity, status, assigned user and any claim information.
+
+### Assigning a License to a User
+
+Only a **user license** can be assigned to a specific system user.
+
+Select the required feature and click the **User ID** column for the relevant user license. Press **F3** to search for and select a system user.
+
+An empty, editable user ID is indicated by a different background color. This value cannot be changed for other license types.
+
+### Refreshing the Information
+
+The screen contains two different refresh functions:
+
+- **Refresh:** reloads the current license and claim information displayed on the screen.
+- **Refresh license keys:** retrieves the latest license keys and synchronizes them with Florisoft.
+
+Use **Refresh license keys** when new or changed licenses are not yet visible in the overview. If necessary, use **Refresh** afterwards to display the latest information.
 
 ---
 
