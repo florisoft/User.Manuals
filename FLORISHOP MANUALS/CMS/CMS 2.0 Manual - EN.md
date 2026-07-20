@@ -795,9 +795,13 @@ The functionality and available settings of this component are largely the same 
 
 ## Checkbox
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Checkbox | Deze beschrijving wordt aangevuld |
+Use this component to add a checkbox to a form. It can be used, for example, to allow visitors to accept the terms and conditions, privacy policy, or consent to the processing of their personal data.
+
+The functionality and available settings of this component are largely the same as those of the [Text input](#text-input) component.
+
+|Step|Explanation|
+|:--|:--|
+|**1**|The **Checkbox** component contains most of the same settings as the **Text input** component, but includes one additional option: **Checked on start** (1). When this option is enabled, the checkbox is selected by default when the form is loaded.<details><summary><b>Click here for the example image</b></summary><img src="media/57.1.png"></details>|
 
 ---
 
