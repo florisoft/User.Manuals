@@ -773,9 +773,9 @@ Dit invoerveld accepteert alleen geldige e-mailadressen. Daarnaast kan worden in
 
 ## Nummer input
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Nummer input | Deze beschrijving wordt aangevuld |
+Gebruik dit component binnen een formulier wanneer er uitsluitend numerieke waarden mogen worden ingevoerd.
+
+De werking en beschikbare instellingen van dit component komen grotendeels overeen met het [Tekst input](#tekst-input)-component.
 
 ---
 

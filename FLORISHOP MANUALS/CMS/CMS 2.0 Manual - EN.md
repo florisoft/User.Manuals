@@ -774,11 +774,11 @@ This input field only accepts valid email addresses. Additionally, it can be con
 
 ---
 
-## Nummer input
+## Number input
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Nummer input | Deze beschrijving wordt aangevuld |
+Use this component within a form when only numeric values should be entered.
+
+The functionality and available settings of this component are largely the same as the [Text input](#text-input) component.
 
 ---
 
