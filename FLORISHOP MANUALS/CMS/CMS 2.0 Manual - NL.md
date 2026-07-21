@@ -876,9 +876,13 @@ Dit is bijvoorbeeld handig bij het verwerken van registratieformulieren, waarbij
 
 ## Hidden debiteur info
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Hidden debiteur info | Deze beschrijving wordt aangevuld |
+Met dit component kunnen gegevens van een ingelogde debiteur automatisch worden meegestuurd met een formulier. Deze gegevens kunnen vervolgens worden opgenomen in de bevestigingsmail, zodat direct zichtbaar is welke debiteur het formulier heeft verzonden.
+
+De debiteur hoeft deze gegevens niet zelf in te vullen. Omdat de debiteur is ingelogd, kunnen de beschikbare gegevens automatisch uit het systeem worden opgehaald.
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|In dit voorbeeld hebben we het **Hidden debiteur info**-component (1) toegevoegd aan het [Formulier](#formulier-1). Open vervolgens het tabblad **Algemene instellingen** (2). Via de dropdown (3) kun je selecteren welke gegevens van de ingelogde debiteur met het formulier moeten worden meegestuurd. De debiteur ziet dit invoerveld niet. Omdat de debiteur is ingelogd, kunnen gegevens zoals **DEBNR**, **DEBKEY** en **DEBNAAM** automatisch worden opgehaald en aan het formulier worden toegevoegd. Hierdoor hoeft de debiteur deze gegevens niet handmatig in te vullen, omdat ze al in het systeem beschikbaar zijn. <details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/62.1.png"></details>|
 
 ---
 

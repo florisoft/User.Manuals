@@ -130,7 +130,7 @@
 - [Multiple Choice](#multiple-choice)
 - [Dropdown (Single Select)/(Single Select Option)](#dropdown-single-select--single-select-option)
 - [Hidden Input](#hidden-input)
-- [Hidden Debtor Information](#hidden-debtor-information)
+- [Hidden Debtor Info](#hidden-debtor-info)
 - [Submit Button](#submit-button)
 
 #### 5. User
@@ -872,11 +872,15 @@ This is particularly useful when processing registration forms, where additional
 
 ---
 
-## Hidden debiteur info
+## Hidden debtor info
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Hidden debiteur info | Deze beschrijving wordt aangevuld |
+This component can be used to automatically include information about a logged-in debtor when a form is submitted. This information can then be included in the confirmation email, making it immediately clear which debtor submitted the form.
+
+The debtor does not need to enter this information manually. Because the debtor is logged in, the available information can be retrieved automatically from the system.
+
+|Step|Explanation|
+|:--|:--|
+|**1**|In this example, we have added the **Hidden debtor info** component (1) to the [Form](#form-1). Open the **General settings** tab (2). Using the dropdown menu (3), you can select which information about the logged-in debtor should be included with the form. The debtor cannot see this input field. Because the debtor is logged in, information such as **DEBNR**, **DEBKEY**, and **DEBNAAM** can be retrieved automatically and added to the form. This means the debtor does not need to enter this information manually, as it is already available in the system.<details><summary><b>Click here for the example image</b></summary><img src="media/62.1.png"></details>|
 
 ---
 
