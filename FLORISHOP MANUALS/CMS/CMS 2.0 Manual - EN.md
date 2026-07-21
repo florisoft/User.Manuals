@@ -819,8 +819,6 @@ The functionality and available settings of this component are largely the same 
 
 ## Multiple choice
 
-## Multiple choice
-
 Use this component to allow visitors to select one or multiple options from a list of available choices.
 
 Depending on the selected mode, the options are displayed as:
