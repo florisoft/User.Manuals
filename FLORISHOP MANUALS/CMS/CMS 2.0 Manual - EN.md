@@ -857,18 +857,18 @@ The functionality and available settings of this component are largely the same 
 
 ## Hidden input
 
-This component is used to send data that is not visible to the user, but is required for the confirmation email or the generated Excel file.
+This component is used to send data that is not visible to the user but is required for the confirmation email or the generated Excel file.
 
-With this component, you can configure a form so that entered data is automatically processed into an email and an Excel file. This file can then be used directly for import into the Florisoft back office through the debtor import function.
+For example, you can configure a form so that submitted data is automatically processed into an email and an Excel file. This file can then be used directly for import into the Florisoft back office using the customer import function.
 
-This is particularly useful when processing registration forms, where additional data can automatically be linked to a new debtor.
+This is particularly useful when processing registration forms, where additional data can be automatically linked to a new customer.
 
 **Note:** Always use existing columns from the back office. Adding custom or unknown fields is not supported.
 
 |Step|Explanation|
 |:--|:--|
-|**1**|In this example, we have added three **Hidden input** components to the [Form](#form-1).<br><br>The first example shows a **Hidden input** (1) with a **Name** and **Value** that refer to a template debtor (2).<br><br>The second example shows a **Hidden input** (3) with **DEBNR** as the value (4). The third example shows a **Hidden input** (5) with **DEBKEY** as the **Name** (6).<br><br>**Note:** Always use existing columns from the back office. Do not deviate from this.<details><summary><b>Click here for the example image</b></summary><img src="media/61.1.png"></details><details><summary><b>Click here for the example image</b></summary><img src="media/61.2.png"></details><details><summary><b>Click here for the example image</b></summary><img src="media/61.3.png"></details>|
-|**2**|Configure the [Form](#form-1) so that the data is stored using **Database**, **ExcelFile**, or **ExcelAsMailAttachment** and sent to the recipient.<br><br>When the recipient opens the Excel file from the email, the **Hidden input** fields can be populated with the corresponding data.<br><br>The Excel file can then be imported into the Florisoft back office via **Constants** (7) → **Import** (8) → **Debtors** (9).<details><summary><b>Click here for the example image</b></summary><img src="media/61.4.png"></details>|
+|**1**|In this example, we have added three **Hidden input** components to the [Form](#formulier-1).<br><br>The first example shows a **Hidden input** (1) with a **Name** and **Value** that refer to a template customer (2).<br><br>The second example shows a **Hidden input** (3) with **DEBNR** as the value (4). The third example shows a **Hidden input** (5) with **DEBKEY** as the **Name** (6).<br><br>**Note:** Always use existing columns from the back office. Deviating from these is not supported.<details><summary><b>Click here for the example image</b></summary><img src="media/61.1.png"></details><details><summary><b>Click here for the example image</b></summary><img src="media/61.2.png"></details><details><summary><b>Click here for the example image</b></summary><img src="media/61.3.png"></details>|
+|**2**|Configure the [Form](#formulier-1) so that the data is stored using **Database**, **ExcelFile**, or **ExcelAsMailAttachment** and sent to the recipient.<br><br>When the recipient opens the Excel file from the email, the **Hidden input** fields can be populated with the corresponding data.<br><br>The Excel file can then be imported into the Florisoft back office via **Constants** (7) → **Import** (8) → **Customers** (9).<br><br>Based on the imported data, a new customer is then created using a predefined template customer. In the customer settings of this new customer, the **DEBNR** and **DEBKEY** fields are populated with the values entered in the Excel file by the recipient of the registration form.<details><summary><b>Click here for the example image</b></summary><img src="media/61.4.png"></details>|
 
 ---
 
