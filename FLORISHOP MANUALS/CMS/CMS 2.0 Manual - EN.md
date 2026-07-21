@@ -15,7 +15,7 @@
 #### 1. Pages
 - [Categories](#categories)
 - [Page](#page)
-- [Blogs (Blog Categories)](#blogs-blog-categories)
+- [Blog Categories](#blog-categories)
 - [Blog Page](#blog-page)
 - [Edit Footer](#edit-footer)
 - [Templates](#templates)
@@ -182,61 +182,62 @@
 
 ### Categories
 
-Categories are the tabs displayed next to the inventory/order lists. CMS pages can be linked to a category, allowing you to use them as a dropdown menu in the navigation bar or to create an overview using the **[Category Overview](#category-overview)** component.
+Categories are the tabs displayed next to the stock and order lists. CMS pages can be linked to a category, allowing you to use the category as a dropdown in the navigation bar or to create an overview using the '[Category overview](#category-overview)' component.
 
 *Follow the steps below:*
 
-| # | Description |
+|#|Explanation|
 |:--|:--|
-| **1** | Log in to the webshop using an administrator account. |
-| **2** | Open the webshop's **Management** environment by clicking the user icon (1). This opens a dropdown menu. Then click **Management** (2).<details><summary><b>Click here to view the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/4.2.png"></details> |
-| **3** | Click **Content Management (CMS)** (3) in the left-hand administration menu. This opens a dropdown menu. Click **Categories** (4). The CMS Categories screen will open, displaying any existing CMS categories.<details><summary><b>Click here to view the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/4.3.png"></details> |
-| **4** | To create a new CMS category, click the **+** button (5). This opens the category creation dialog. Complete the following fields:<br><br>- **Category Display Name (6):** Enter the name that will be displayed in the inventory/order list navigation tabs.<br><br>- **Category Name (7):** This name is also used in the page URL.<br>**DO NOT USE SPACES!**<br><br>- **Size Mode (Optional) (8):** Choose whether the navigation dropdown should be displayed as **Small** or **Full Width**.<br><br>- **Navigation Order (Optional) (9):** Determines the order in which the category appears in the navigation bar. A value of **1** places it first. This does not affect the order of the inventory lists.<br><br>- **Visible in Navigation (Optional) (10):** Enable this option to display the category in the navigation menu.<br><br>- **Template (Optional) (11):** Select a template to define how the overview page for this category should be generated.<br><br>- **Submit (12):** Click **Submit** to create the category.<details><summary><b>Click here to view the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/4.4.png"></details> |
-| **5** | Click the orange icon (13) or **Unsaved Changes** (14).<details><summary><b>Click here to view the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/4.5.png"></details> |
-| **6** | To publish the category and make it available on the live website, click **Publish All** (15) or the publish icon (16). Confirm by clicking **Yes** (17).<details><summary><b>Click here to view the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/4.6.png"></details> |
-| :bulb: | **Note:** The new category will not immediately appear in the webshop. It will only become visible after a page has been linked to this category. See the next chapter, **[Page](#page)**, for more information. |
+|**1**|Log in to the webshop using an administrator account.|
+|**2**|Activate the **Management** environment of the webshop by clicking the user icon (1). A dropdown menu will open. Then click the **Management** option (2).<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/4.2.png"></details>|
+|**3**|Click **Content Management (CMS)** (3) in the management bar on the left. A dropdown menu will open. Then click **Categories** (4). You will now be taken to the CMS categories screen, where any existing CMS categories are displayed.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/4.3.png"></details>|
+|**4**|Click the **'+'** icon (5) to create a new CMS category. The category creation screen will open. Then fill in the following fields:<br><br>- **Category Display Name (6):** enter the name of the category as it should appear in the bar containing the stock and order list tabs.<br><br>- **Category Name (7):** enter the name of the category. This name will also be used in the URL.<br>**DO NOT USE SPACES!**<br><br>- **Size mode — OPTIONAL (8):** select whether you want to display a compact dropdown (**Small**) or a wide dropdown (**FullWidth**) in the navigation bar.<br><br>- **Order in navigation — OPTIONAL (9):** determine the position of the category in the navigation bar. A value of **1** places the category first. This does not affect the order of the stock tabs; they will retain their original position.<br><br>- **Visible in navigation — OPTIONAL (10):** enable this option to make the category visible in the navigation bar.<br><br>- **Template — OPTIONAL (11):** select a template here. Every CMS page created under this category will automatically be populated with this template.<br><br>- **Submit (12):** click **'Submit'** to create the category.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/4.4.png"></details>|
+|**5**|Click the orange icon (13) or **'Unsaved changes'** (14).<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/4.5.png"></details>|
+|**6**|To publish the category and make it available live, click the **'Publish all'** button (15) or the publish icon (16). Then confirm the publication by clicking **'Yes'** (17).<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/4.6.png"></details>|
+|:bulb:|**Note: the new category will not be immediately visible in the webshop. The category will only become visible once a page has been linked to it. [See the next chapter](#page) for more information.**|
 
 ---
 
 ### Page
 
-A CMS page is a dedicated section within the CMS where content can be created and managed. A page can belong to a custom category. Pages can be compared to product groups within a standard webshop inventory. A CMS page can contain various elements such as images, videos, text blocks, tables, and more.
+A CMS page is an accessible section within the CMS where content can be placed. A page can belong to a custom-created category. CMS pages can be compared to product groups within standard webshop stock lists. Various elements can be placed on a CMS page, such as images, videos, text blocks, tables, and more.
 
 *Follow the steps below:*
 
-| # | Description |
+|#|Explanation|
 |:--|:--|
-| **1** | After creating the category, navigate to **Content Management (CMS)** (1) and select **Pages** (2).<details><summary><b>Click here to view the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/5.1.png"></details> |
-| **2** | Click the **+** button (3) to create a new page. This opens the page creation dialog. Configure the following settings:<br><br>- **URL (4):** Enter the page URL as it should appear in the address bar. Only enter the URL path (for example: `example`). There is no need to include the full domain name.<br>**DO NOT USE SPACES OR CAPITAL LETTERS!**<br><br>- **Page Display Name (5):** Enter the page name that will be displayed to visitors on the website.<br><br>- **Category (6):** Select the category created in the previous chapter.<br><br>- **Visible in Navigation (7):** Enable this option to display the page in the webshop navigation.<br><br>- **Submit (8):** Click **Submit** to create the page.<details><summary><b>Click here to view the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/5.2.png"></details> |
-| **3** | Click the pencil icon (9) to open the **Properties** dialog (10) of the newly created page. Then click **Edit Translations** (11).<details><summary><b>Click here to view the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/5.3.png"></details> |
-| **4** | The translation dialog will open. The default language (12) is displayed on the left. Use the dropdown menu (13) on the right to select the language you want to edit. Configure the following settings:<br><br>- **URL (14):** Enter the translated URL path.<br><br>- **Page Display Name (15):** Enter the translated page display name.<br><br>- **Confirm (16):** Click **Confirm** to save your changes.<details><summary><b>Click here to view the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/5.4.png"></details> |
-| **5** | Open the **Visibility** tab (17). Configure the following settings:<br><br>- **Language Zone Selection (18):** Select one or more languages from the dropdown menu to which this page should be linked. Under **Zone Selection** (19), select a custom CMS Zone.<br><br>- **Valid From (20)** and **Valid Until (21):** Specify the date and time during which these settings should be active.<details><summary><b>Click here to view the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/5.5.png"></details> |
-| **6** | Open the **SEO** tab (22). Here you can configure Search Engine Optimization (SEO) settings to improve your website's visibility in search engines such as Google. For more information about SEO settings, see the **[SEO](#seo)** chapter. Click **Save** (23).<details><summary><b>Click here to view the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/5.6.png"></details> |
-| **7** | Click the orange icon (24) or **Unsaved Changes** (25).<details><summary><b>Click here to view the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/5.7.png"></details> |
-| **8** | To publish the page and make it available on the live website, click **Publish All** (26) or the publish icon (27). Confirm the publication by clicking **Yes** (28).<details><summary><b>Click here to view the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/5.8.png"></details> |
+|**1**|After creating the category, navigate via **Content Management (CMS)** (1) to **Pages** (2).<details><summary><b>Click here for the example image</b></summary><img src="media/2.1.png"></details>|
+|**2**|To create a new page, click the **+** button (3). This opens the page creation screen. A dialog will appear. Configure the following settings:<br><br>- **URL (4):** Enter the name of the page as it should appear in the page URL. You do not need to enter the entire domain; only the path is required, for example: *example*.<br>**DO NOT USE SPACES OR CAPITAL LETTERS!**<br><br>- **Page display name (5):** Enter the name that will be displayed to customers on the website.<br><br>- **Category (6):** Select the appropriate category, namely the category created in the previous chapter.<br><br>- **Template OPTIONAL (7):** Select a template that will be automatically applied to the page when it is created.<br><br>- **Is visible in navigation (8):** Enable this checkbox to make the page visible in the webshop navigation.<br><br>- **Submit (9):** Click **Submit** to create the page.<details><summary><b>Click here for the example image</b></summary><img src="media/2.2.png"></details>|
+|**3**|Click the pencil icon (10) to open the **Properties** dialog (11) of the newly created page. Then click **Edit translations** (12).<details><summary><b>Click here for the example image</b></summary><img src="media/2.3.png"></details>|
+|**4**|The translation dialog will open. The configured default language (13) is displayed on the left. Use the dropdown menu on the right (14) to select the language you want to apply or edit. Configure the following settings:<br><br>- **URL (15):** Enter the translated URL path.<br><br>- **Page display name (16):** Enter the translated display name of the page.<br><br>- **Confirm (17):** Click **Confirm** to save the changes.<details><summary><b>Click here for the example image</b></summary><img src="media/2.4.png"></details>|
+|**5**|Open the **Visibility** tab (18). Configure the following settings:<br><br>- **Language Zone Selection (19):** Under the dropdown menu, select one or more languages to which this page should be linked. Under **Zone Selection** (20), select a custom CMS zone.<br><br>- **Valid from (21) and Valid until (22):** Under **Valid from** and **Valid until**, you can set the dates and times during which the above settings should apply.<details><summary><b>Click here for the example image</b></summary><img src="media/2.5.png"></details>|
+|**6**|In the **SEO** tab (23), you can configure settings related to SEO (Search Engine Optimization). These settings can help search engines such as Google find your website more easily. More information about SEO settings can be found [here](#seo). Click **Save** (24).<details><summary><b>Click here for the example image</b></summary><img src="media/2.6.png"></details>|
+|**7**|Click the orange icon (25) or **Unsaved Changes** (26).<details><summary><b>Click here for the example image</b></summary><img src="media/2.7.png"></details>|
+|**8**|To publish the page and make it available on the live webshop, click **Publish all** (27) or the publish icon (28). Then confirm the publication by clicking **Yes** (29).<details><summary><b>Click here for the example image</b></summary><img src="media/2.8.png"></details>|
 
 ---
 
-### Blogs (Blog Categories)
+### Blog Categories
 
-Like **[Categories](#categories)**, blog categories can be displayed as tabs next to the inventory/order lists. Blog pages can be linked to a blog category, allowing you to use them as a dropdown menu in the navigation bar or to create an overview using the **[Blog](#blog)** component.
+Blog categories can, just like [Page Categories](#categorieën), be used as tabs that are displayed alongside stock and order lists. Blog pages can be linked to a blog category. This allows you to use the category, for example, as a dropdown in the navigation bar or to create an overview using the [Blog](#blog) component.
 
-Although page categories and blog categories are very similar, they serve different purposes:
+Page categories and blog categories are similar in many ways. The main difference is the purpose for which they are used:
 
-- Use **Pages** for important static pages such as **Contact**, **Customer Registration**, or **About Us**.
-- Use **Blog Pages** for news articles, events, announcements, or to highlight a specific inventory item or product.
+- Use **Pages** for important general pages, such as a Contact, Customer Registration, or About Us page.
+- Use **Blog Pages** for news items, events, or highlighting a specific stock item or product, for example.
 
 *Follow the steps below:*
 
-| # | Description |
+|#|Explanation|
 |:--|:--|
-| **1** | Log in to the webshop using an administrator account. |
-| **2** | Open the webshop's **Management** environment by clicking the user icon (1). This opens a dropdown menu. Then click **Management** (2).<details><summary><b>Click here to view the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/4.2.png"></details> |
-| **3** | Click **Content Management (CMS)** (3) in the left-hand administration menu. This opens a dropdown menu. Click **Blogs** (4). The Blog Categories screen will open and display any existing blog categories.<details><summary><b>Click here to view the example image</b></summary><img src="media/3.3.png"></details> |
-| **4** | Click the **+** button (5) to create a new blog category. Configure the following settings:<br><br>- **Category Display Name (6):** The name displayed in the inventory/order list navigation tabs.<br><br>- **Category Name (7):** The internal category name that is also used in the URL.<br>**DO NOT USE SPACES!**<br><br>- **Size Mode (Optional) (8):** Choose whether the navigation dropdown should be displayed as **Small** or **Full Width**.<br><br>- **Navigation Order (Optional) (9):** Determines the order in which the category appears in the navigation menu. A value of **1** places it first without affecting the inventory order.<br><br>- **Visible in Navigation (Optional) (10):** Enable this option to display the category in the navigation menu.<br><br>- **Submit (11):** Click **Submit** to create the category.<details><summary><b>Click here to view the example image</b></summary><img src="media/3.4.png"></details> |
-| **5** | Click the orange icon (12) or **Unsaved Changes** (13).<details><summary><b>Click here to view the example image</b></summary><img src="media/3.5.png"></details> |
-| **6** | To publish the category, click **Publish All** (14) or the publish icon (15). Confirm by clicking **Yes** (16).<details><summary><b>Click here to view the example image</b></summary><img src="media/3.6.png"></details> |
-| 💡 | **Note:** The new blog category will not immediately appear in the webshop. It will only become visible after a blog page has been linked to it. See the next chapter, **[Blog Page](#blog-page)**, for more information. |
+|**1**|Log in to the webshop with an administrator account.|
+|**2**|Activate the **Management** environment of the webshop by clicking the user icon (1). A dropdown menu will open. Then click **Management** (2).<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/4.2.png"></details>|
+|**3**|Click **Content Management (CMS)** in the left-hand management bar (3). A dropdown menu will open. Then click **Blog Categories** (4). You will now be taken to the blog category overview. Any existing blog categories will be displayed here.<details><summary><b>Click here for the example image</b></summary><img src="media/3.3.png"></details>|
+|**4**|To create a new blog category, click the **+** icon (5). The screen for creating a new blog category will open.<details><summary><b>Click here for the example image</b></summary><img src="media/3.4.png"></details>|
+|**5**|Fill in the following fields:<br><br>- **Blog Display Name (6):** Enter the name of the category as it should be displayed in the bar containing the stock and order list tabs.<br><br>- **Blog URL (7):** Enter the name of the category that will also be used in the URL.<br>**DO NOT USE SPACES!**<br><br>- **Size Mode — OPTIONAL (8):** Select whether you want to display a compact dropdown (**Small**) or a wide dropdown (**FullWidth**) in the navigation bar.<br><br>- **Navigation Order — OPTIONAL (9):** Determine the position of the category in the navigation bar. A value of **1** places the category first. This does not affect the order of the stock items; they will retain their original position.<br><br>- **Visible in Navigation — OPTIONAL (10):** Enable this option to make the category visible in the navigation bar.<br><br>- **Template — OPTIONAL (11):** Select a template that will automatically be applied when a new blog page is created within this category.<br><br>- **Submit (12):** Click **Submit** to create the blog category.<details><summary><b>Click here for the example image</b></summary><img src="media/3.5.png"></details>|
+|**6**|Click the orange icon (13) or **Unsaved Changes** (14).<details><summary><b>Click here for the example image</b></summary><img src="media/3.6.png"></details>|
+|**7**|To publish the category and make it available on the live webshop, click **Publish all** (15) or the publish icon (16). Then confirm the publication by clicking **Yes** (17).<details><summary><b>Click here for the example image</b></summary><img src="media/3.7.png"></details>|
+|:bulb:|**Note:** The new category will not be immediately visible in the webshop. It will only become visible once a blog page has been linked to this category. [See the next chapter](#blogpagina) for more information.|
 
 ---
 
