@@ -454,9 +454,9 @@ If you have your own website in addition to your FloriShop domain, it can be use
 
 #### CMS Editor
 
-| Item | Description |
-|---|---|
-| CMS Editor | This description will be added later |
+| Step | Explanation |
+|:--|:--|
+| **1** | Via **CMS Editor** (1) in the Toolbar, you can quickly navigate to the **Aside Editor** when the CMS Editor is enabled. From here, you can easily edit the components on your CMS page.<details><summary><b>Click here for the example image</b></summary><img src="media/19.1.png"></details>|
 
 ---
 

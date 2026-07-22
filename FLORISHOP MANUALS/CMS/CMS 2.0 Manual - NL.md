@@ -451,9 +451,9 @@ Wanneer je naast je FloriShop-domein ook een eigen website hebt, kan het handig 
 
 #### CMS Editor
 
-| Onderdeel | Beschrijving |
-|---|---|
-| CMS Editor | Deze beschrijving wordt aangevuld |
+| Stap | Uitleg |
+|:--|:--|
+| **1** | Via **CMS Editor** (1) in de Toolbar kun je, wanneer de CMS Editor is geactiveerd, snel navigeren naar de **Aside Editor**. Vanuit hier kun je de componenten op je CMS-pagina eenvoudig bewerken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/19.1.png"></details>|
 
 ---
 
