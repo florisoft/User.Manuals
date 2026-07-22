@@ -446,9 +446,9 @@ If you have your own website in addition to your FloriShop domain, it can be use
 
 #### Search
 
-| Item | Description |
-|---|---|
-| Search | This description will be added later |
+| Step | Explanation |
+|:--|:--|
+| **1** | Via **Search** (1), administrators can quickly search for **CMS and Blog pages** that have been created within your shop. Use the search bar (2) to find the desired page. You can then select the page and navigate directly to it (3).<details><summary><b>Click here for the example image</b></summary><img src="media/18.1.png"></details>|
 
 ---
 

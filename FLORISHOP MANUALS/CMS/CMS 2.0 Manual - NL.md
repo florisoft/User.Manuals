@@ -443,9 +443,9 @@ Wanneer je naast je FloriShop-domein ook een eigen website hebt, kan het handig 
 
 #### Zoeken
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Zoeken | Deze beschrijving wordt aangevuld |
+| Stap | Uitleg |
+|:--|:--|
+| **1** | Via **Zoeken** (1) kun je als beheerder snel zoeken naar aangemaakte **CMS- en Blogpagina's** binnen je shop. Gebruik hiervoor de zoekbalk (2) om de gewenste pagina te vinden. Vervolgens kun je de pagina selecteren en er direct naartoe navigeren (3).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/18.1.png"></details>|
 
 ---
 
