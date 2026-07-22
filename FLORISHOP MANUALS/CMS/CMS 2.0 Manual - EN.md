@@ -654,9 +654,9 @@ If you have your own website in addition to your FloriShop domain, it can be use
 
 ---
 
-## Componenten
+## Components
 
-### Basis
+### Basic
 
 #### Row/Column
 
@@ -785,7 +785,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-#### Carrousel
+#### Carousel
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -801,7 +801,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-### Navigatie
+### Navigation
 
 #### Button
 
@@ -811,7 +811,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-#### Partijlijst
+#### Productlist
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -819,7 +819,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-#### Partijkaart
+#### Product
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -859,7 +859,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-#### Voorraad navigatie
+#### Stock navigation
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -875,7 +875,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-#### Aanbieding
+#### Offer
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1084,7 +1084,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-### Gebruiker
+### User
 
 #### Login form
 
@@ -1094,7 +1094,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-#### Debiteur info
+#### Debtor info
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1102,7 +1102,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-#### Uw account
+#### Your account
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1118,7 +1118,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-#### Registratieformulier
+#### Registrationform
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1136,7 +1136,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-### Geavanceerd
+### Advanced
 
 #### Iframe
 
@@ -1178,11 +1178,11 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-#### Keuze component
+#### Choice Component
 
-| Onderdeel | Beschrijving |
+| Item | Description |
 |---|---|
-| Keuze component | Deze beschrijving wordt aangevuld |
+| Choice Component | This description will be added later |
 
 ---
 
