@@ -426,13 +426,55 @@ Wanneer je naast je FloriShop-domein ook een eigen website hebt, kan het handig 
 
 ---
 
-# Aside Editor
+## Aside Editor
 
-## Toolbar
+### Toolbar
+
+#### Menu
 
 | Onderdeel | Beschrijving |
 |---|---|
-| Toolbar | Deze beschrijving wordt aangevuld |
+| Menu | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Zoeken
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Zoeken | Deze beschrijving wordt aangevuld |
+
+---
+
+#### CMS Editor
+
+| Onderdeel | Beschrijving |
+|---|---|
+| CMS Editor | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Drag & Drop
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Drag & Drop | Deze beschrijving wordt aangevuld |
+
+---
+
+#### SEO
+
+| Onderdeel | Beschrijving |
+|---|---|
+| SEO | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Voorkeuren
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Voorkeuren | Deze beschrijving wordt aangevuld |
 
 ---
 
