@@ -474,6 +474,14 @@ If you have your own website in addition to your FloriShop domain, it can be use
 
 ---
 
+#### Preferences
+
+| Item | Description |
+|---|---|
+| Preferences | This description will be added later |
+
+---
+
 ## Algemene instellingen
 
 | Onderdeel | Beschrijving |
