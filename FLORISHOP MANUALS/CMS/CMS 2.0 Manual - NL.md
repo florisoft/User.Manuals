@@ -2,8 +2,9 @@
 
 # Uitgebreide handleiding add-on Content Management Systeem (CMS)
 
-*Let op: omdat het CMS continu wordt doorontwikkeld, kunnen sommige screenshots en stappen in deze handleiding in bepaalde gevallen afwijken van de actuele situatie in het systeem.*
-*Let op: Dit document wordt aangevuld*
+> **Let op:** omdat het CMS continu wordt doorontwikkeld, kunnen sommige screenshots en stappen in deze handleiding in bepaalde gevallen afwijken van de actuele situatie in het systeem.
+>
+> **Let op:** Dit document wordt aangevuld.
 
 
 ## Inhoud
@@ -51,7 +52,7 @@
 #### 2. Responsive tabs
 - [Desktop](#desktop)
 - [Tablet](#tablet)
-- [Mobile](#mobile)
+- [Mobiel](#mobiel)
 
 #### 3. Algemene instellingen
 - [Vertalingen](#vertalingen)
