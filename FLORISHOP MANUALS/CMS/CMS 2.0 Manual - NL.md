@@ -169,7 +169,7 @@
 - [Query filter date](#query-filter-date)
 - [Query variable](#query-variable)
 
-#### 9. Dashboard
+#### 9. Health
 - [Health chart](#health-chart)
 - [Health check](#health-check)
 - [Health errors](#health-errors)
@@ -179,7 +179,9 @@
 
 ## Beheerschermen
 
-### Categorieën
+### Pagina's
+
+#### Categorieën
 
 Categorieën zijn de tabbladen die zichtbaar zijn naast de voorraad- en bestellijsten. CMS-pagina's kunnen aan een categorie worden gekoppeld. Hierdoor kun je de categorie bijvoorbeeld als dropdown in de navigatiebalk gebruiken of een overzicht creëren met behulp van het component '[Category overview](#category-overview)'.
 
@@ -197,7 +199,7 @@ Categorieën zijn de tabbladen die zichtbaar zijn naast de voorraad- en bestelli
 
 ---
 
-### Pagina
+#### Pagina
 
 Een CMS-pagina is een toegankelijk onderdeel binnen het CMS waarop content kan worden geplaatst. Een pagina kan worden gekoppeld aan een zelf aangemaakte categorie. CMS-pagina's zijn vergelijkbaar met productgroepen binnen de standaard webshopvoorraden.
 
@@ -218,7 +220,7 @@ Op een CMS-pagina kunnen verschillende soorten content worden geplaatst, zoals a
 
 ---
 
-### Blog Categorieën
+#### Blog Categorieën
 
 Blogcategorieën kunnen, net als de [Pagina categorieën](#categorieën), worden gebruikt als tabbladen die zichtbaar zijn naast de voorraden en bestellijsten. Blogpagina's kunnen aan een blogcategorie worden gekoppeld. Hierdoor kun je de categorie bijvoorbeeld als dropdown in de navigatiebalk gebruiken of een overzicht creëren met behulp van het [Blog](#blog)-component.
 
@@ -242,7 +244,7 @@ Pagina categorieën en blogcategorieën lijken in veel opzichten op elkaar. Het 
 
 ---
 
-### Blogpagina
+#### Blogpagina
 
 Een Blogpagina is een toegankelijk onderdeel binnen het CMS waarop content geplaatst kan worden. Een Blogpagina kan onder een zelf gecreëerde categorie vallen. Op een Blogpagina kunnen verschillende elementen geplaatst worden, zoals afbeeldingen, video’s, tekstblokken, tabellen, enzovoort. CMS Pagina's en Blogpagina's lijken best veel op elkaar, maar onderscheiden doe je ze als volgt:<br><br>- Gebruik Pagina's voor belangrijke basis pagina's zoals een Contact, Klantregistratie of een Over Ons pagina.<br>- Gebruik Blogpagina's voor bijvoorbeeld nieuws items, evenementen of het uitlichten van een specifieke voorraad/artikel.
 
@@ -261,7 +263,7 @@ Een Blogpagina is een toegankelijk onderdeel binnen het CMS waarop content gepla
 
 ---
 
-### Footer bewerken
+#### Footer bewerken
 
 Bij het aanmaken van een nieuwe CMS-pagina wordt automatisch een container aangemaakt voor een footer. Een footer is het onderste gedeelte van een pagina. Elke CMS-pagina bevat standaard een footer. Wijzigingen die je in de footer maakt, worden over de gehele website zichtbaar. Meestal bevat een footer secundaire informatie zoals adresgegevens, links naar externe websites en sociale media. Het CMS biedt standaard een vooraf gedefinieerd footer-element.
 
@@ -276,7 +278,7 @@ Het is ook mogelijk om de footer volledig naar eigen wens te ontwerpen (zoals je
 
 ---
 
-### Templates
+#### Templates
 
 Met templates kun je gemakkelijk terug vallen op content wat je eerder hebt gebouwd met het CMS. Dit kunnen kleine blokken met inhoud zijn, maar ook complete pagina's. Hierdoor hoef je steeds opnieuw te beginnen met het bouwen van dezelfde content.
 
@@ -299,9 +301,9 @@ Ook kun je templates gemakkelijk inzetten voor [Blog componenten](#blog) om dyna
 
 ---
 
-## Geavanceerd
+### Geavanceerd
 
-### Thema Configuratie
+#### Thema Configuratie
 
 In dit configuratie scherm stel je de huisstijl kleuren in van je shop, bepaal je welk font er getoond moet worden en kunnen er meerdere opties worden ingesteld om de shop visueel net iets meer aan te laten sluiten aan jouw wensen.
 
@@ -314,7 +316,7 @@ In dit configuratie scherm stel je de huisstijl kleuren in van je shop, bepaal j
 
 ---
 
-### Backups
+#### Backups
 
 Werken in het CMS kan natuurlijk weleens mis gaan. Misschien heb je onbedoeld iets verwijderd wat niet terug te draaien is. Geen paniek, door middel van een backup is jouw CMS snel weer up and running!
 
@@ -326,7 +328,7 @@ Werken in het CMS kan natuurlijk weleens mis gaan. Misschien heb je onbedoeld ie
 
 ---
 
-### Redirects
+#### Redirects
 
 Wanneer je een bestaande link hebt waarvan je de url wilt aanpassen kan nadelig werken voor jouw SEO score op Google. Met behulp van redirects vertel jij aan Google dat de url gewijzigd is en gaat dit niet ten koste van jouw opgebouwde SEO score.
 
@@ -337,7 +339,7 @@ Wanneer je een bestaande link hebt waarvan je de url wilt aanpassen kan nadelig 
 
 ---
 
-### Niet opgeslagen wijzigingen
+#### Niet opgeslagen wijzigingen
 
 Nadat je wijziging maakt in jouw CMS pagina dien je dit vervolgens te publiceren. Dit scherm houdt bij wanneer er een wijzigingen worden gedaan op meerdere pagina's.
 
@@ -348,7 +350,7 @@ Nadat je wijziging maakt in jouw CMS pagina dien je dit vervolgens te publiceren
 
 ---
 
-### Form tracking
+#### Form tracking
 
 Pagina's die een formulier bevatten kunnen worden bijgehouden in het Form Tracking scherm. In dit scherm kun je precies zien welke formulieren succesvol zijn verstuurd per debiteur. Ook formulieren die niet verstuurd zijn of fout zijn gegaan zijn gemakkelijk op deze pagina terug te vinden en is het tevens mogelijk om Excelbestanden op te slaan zodat de ingevulde data van meerdere debiteuren voor meerdere doeleinden kunnen worden gebruikt. Wel is het aan te raden om dit duidelijk te communiceren in jouw formulier door middel van een [checkbox](#checkbox) met de tekst: *Ik ga ermee akkoord dat mijn gegevens gebruikt mogen worden voor de verwerking van mijn verzoek.* i.v.m. privacy wetgeving.
 
@@ -359,7 +361,7 @@ Pagina's die een formulier bevatten kunnen worden bijgehouden in het Form Tracki
 
 ---
 
-### Component styles
+#### Component styles
 
 Door gebruik te maken van componenten in het CMS kun je al mooie pagina's bouwen, maar wil je misschien soms net even je eigen CSS-draai eraan geven wat (nog) niet kan met onze huidige CMS opties. Dat kan met Component Styles. **LET OP: Deze vergt voldoende CSS kennis. Foutieve code kan negatief effect hebben op de prestaties van je shop.**
 
@@ -376,15 +378,15 @@ Door gebruik te maken van componenten in het CMS kun je al mooie pagina's bouwen
 
 ---
 
-### Kleurgroepen (Dashboards)
+#### Kleurgroepen (Dashboards)
 
 Dit onderdeel is nog in ontwikkeling
 
 ---
 
-## Overig
+### Overig
 
-### Media
+#### Media
 
 Via dit scherm kun je eenvoudig je eigen afbeeldingen en videobestanden uploaden en deze vervolgens gebruiken op je [CMS-pagina's](#pagina).
 
@@ -402,7 +404,7 @@ Via dit scherm kun je eenvoudig je eigen afbeeldingen en videobestanden uploaden
 
 ---
 
-### Documenten
+#### Documenten
 
 Via dit scherm kun je bestanden uploaden die je vervolgens als downloadbare content op je webpagina's kunt aanbieden.
 
@@ -415,7 +417,7 @@ Via dit scherm kun je bestanden uploaden die je vervolgens als downloadbare cont
 
 ---
 
-### Links
+#### Links
 
 Wanneer je naast je FloriShop-domein ook een eigen website hebt, kan het handig zijn om vanuit je webshop rechtstreeks naar belangrijke pagina's op deze website te kunnen navigeren. Via het scherm **Links** kun je eenvoudig koppelingen naar externe websites of pagina's toevoegen aan de navigatiebalk van je shop.
 
@@ -478,7 +480,35 @@ Wanneer je naast je FloriShop-domein ook een eigen website hebt, kan het handig 
 
 ---
 
-## Algemene instellingen
+### Responsive tabs
+
+#### Desktop
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Desktop | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Tablet
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Tablet | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Mobiel
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Mobiel | Deze beschrijving wordt aangevuld |
+
+---
+
+### Algemene instellingen
+
+#### Vertalingen
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -486,7 +516,9 @@ Wanneer je naast je FloriShop-domein ook een eigen website hebt, kan het handig 
 
 ---
 
-## Styling
+### Styling
+
+#### Color Picker
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -494,7 +526,57 @@ Wanneer je naast je FloriShop-domein ook een eigen website hebt, kan het handig 
 
 ---
 
-## Geavanceerd
+#### Omlijning
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Styling | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Margin/Padding
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Styling | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Hoekafronding
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Styling | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Hoogte/Breedte
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Styling | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Slagschaduw
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Styling | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Overflow
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Styling | Deze beschrijving wordt aangevuld |
+
+---
+
+### Geavanceerd
+
+#### Verborgen wanneer leeg
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -502,7 +584,49 @@ Wanneer je naast je FloriShop-domein ook een eigen website hebt, kan het handig 
 
 ---
 
-## Zichtbaarheid
+#### Identificatie naam
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Geavanceerd | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Slotnaam
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Geavanceerd | Deze beschrijving wordt aangevuld |
+
+---
+
+#### HTML klassenaam
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Geavanceerd | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Tag
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Geavanceerd | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Z-index
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Geavanceerd | Deze beschrijving wordt aangevuld |
+
+---
+
+### Zichtbaarheid
+
+#### Content verbergen
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -510,29 +634,27 @@ Wanneer je naast je FloriShop-domein ook een eigen website hebt, kan het handig 
 
 ---
 
-## Responsive tabs
+#### Content tonen
 
 | Onderdeel | Beschrijving |
 |---|---|
-| Responsive tabs | Deze beschrijving wordt aangevuld |
+| Zichtbaarheid | Deze beschrijving wordt aangevuld |
 
 ---
 
-## Vertalingen
+#### Content uitlichten
 
 | Onderdeel | Beschrijving |
 |---|---|
-| Vertalingen | Deze beschrijving wordt aangevuld |
+| Zichtbaarheid | Deze beschrijving wordt aangevuld |
 
 ---
 
-# Componenten
+## Componenten
 
-## Basis
+### Basis
 
----
-
-## Row/Column
+#### Row/Column
 
 Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschillende apparaten (pc, laptop, smartphone en tablet). In dit hoofdstuk wordt uitgelegd hoe je een rij aanmaakt. Elk CMS-element moet zich in een kolom bevinden, en elke kolom bevindt zich weer in een rij. Dit betekent dat elke pagina in feite bestaat uit een soort raster, vergelijkbaar met een spreadsheetprogramma zoals Microsoft Excel.
 
@@ -553,7 +675,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Panel
+#### Panel
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -561,7 +683,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Flex
+#### Flex
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -569,7 +691,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Header
+#### Header
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -577,7 +699,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Text
+#### Text
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -585,7 +707,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Collapsible
+#### Collapsible
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -593,7 +715,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Bullet list/Bullet
+#### Bullet list/Bullet
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -601,7 +723,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Spacer
+#### Spacer
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -609,9 +731,9 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-# Media
+### Media
 
-## Image
+#### Image
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -619,7 +741,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Image overlay
+#### Image overlay
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -627,7 +749,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Hotspot
+#### Hotspot
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -635,7 +757,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## SVG
+#### SVG
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -643,7 +765,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## HTML video
+#### HTML video
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -651,7 +773,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Youtube video
+#### Youtube video
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -659,7 +781,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Carrousel
+#### Carrousel
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -667,7 +789,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Picture row
+#### Picture row
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -675,9 +797,9 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-# Navigatie
+### Navigatie
 
-## Button
+#### Button
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -685,7 +807,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Partijlijst
+#### Partijlijst
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -693,7 +815,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Partijkaart
+#### Partijkaart
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -701,7 +823,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Social icons
+#### Social icons
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -709,7 +831,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Breadcrumbs
+#### Breadcrumbs
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -717,7 +839,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Icon link
+#### Icon link
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -725,7 +847,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Banner
+#### Banner
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -733,7 +855,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Voorraad navigatie
+#### Voorraad navigatie
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -741,7 +863,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Shop navigation
+#### Shop navigation
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -749,7 +871,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Aanbieding
+#### Aanbieding
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -757,7 +879,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Action link
+#### Action link
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -765,7 +887,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Add to home button
+#### Add to home button
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -773,7 +895,7 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-## Anchors toolbar
+#### Anchors toolbar
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -781,9 +903,9 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-# Formulier
+### Formulier
 
-## Formulier
+#### Formulier
 
 Stel een dynamisch formulier samen dat flexibel kan worden ingericht op basis van de gewenste invoervelden.
 
@@ -808,7 +930,7 @@ In een Formulier kunnen bijvoorbeeld ook componenten als [Rows/Columns](#rowcolu
 
 ---
 
-## Tekst input
+#### Tekst input
 
 Gebruik dit component om tekstuele gegevens in te voeren binnen een formulier.
 
@@ -824,7 +946,7 @@ Gebruik dit component om tekstuele gegevens in te voeren binnen een formulier.
 
 ---
 
-## Email input
+#### Email input
 
 Dit invoerveld accepteert alleen geldige e-mailadressen. Daarnaast kan worden ingesteld dat automatisch een bevestigingsmail wordt verzonden naar het ingevulde e-mailadres. De inhoud van deze e-mail kan worden ingesteld in het [Formulier](#formulier-1)-component.
 
@@ -838,7 +960,7 @@ Dit invoerveld accepteert alleen geldige e-mailadressen. Daarnaast kan worden in
 
 ---
 
-## Nummer input
+#### Nummer input
 
 Gebruik dit component binnen een formulier wanneer er uitsluitend numerieke waarden mogen worden ingevoerd.
 
@@ -846,7 +968,7 @@ De werking en beschikbare instellingen van dit component komen grotendeels overe
 
 ---
 
-## Bestand input
+#### Bestand input
 
 Met dit component kan de gebruiker bestanden uploaden die worden meegestuurd met het formulier.
 
@@ -857,7 +979,7 @@ De werking en beschikbare instellingen van dit component komen grotendeels overe
 
 ---
 
-## Checkbox
+#### Checkbox
 
 Met dit component voeg je een selectievakje toe aan een formulier. Dit kan bijvoorbeeld worden gebruikt om bezoekers akkoord te laten gaan met de algemene voorwaarden, het privacybeleid of om toestemming te geven voor de verwerking van persoonsgegevens.
 
@@ -871,7 +993,7 @@ De werking en beschikbare instellingen van dit component komen grotendeels overe
 
 ---
 
-## Radio button
+#### Radio button
 
 Gebruik dit component binnen een formulier om bezoekers één keuze te laten maken uit meerdere beschikbare opties. Elke optie wordt als een afzonderlijke radio button toegevoegd, waarbij slechts één optie tegelijk kan worden geselecteerd.
 
@@ -881,7 +1003,7 @@ De werking en beschikbare instellingen van dit component komen grotendeels overe
 
 ---
 
-## Multiple choice
+#### Multiple choice
 
 Gebruik dit component om bezoekers één of meerdere keuzes uit een lijst met opties te laten maken.
 
@@ -900,7 +1022,7 @@ De werking en beschikbare instellingen van dit component komen grotendeels overe
 
 ---
 
-## Dropdown (single select) / Single select option
+#### Dropdown (single select) / Single select option
 
 Gebruik dit component binnen een formulier om een dropdownmenu met keuzemogelijkheden toe te voegen. De opties binnen de dropdown worden aangemaakt met behulp van **Dropdown Single Select Option**-componenten.
 
@@ -917,7 +1039,7 @@ De werking en beschikbare instellingen van dit component komen grotendeels overe
 
 ---
 
-## Hidden input
+#### Hidden input
 
 Dit component wordt gebruikt om gegevens mee te sturen die niet zichtbaar zijn voor de gebruiker, maar wel nodig zijn voor de bevestigingsmail of het gegenereerde Excelbestand.
 
@@ -934,7 +1056,7 @@ Dit is bijvoorbeeld handig bij het verwerken van registratieformulieren, waarbij
 
 ---
 
-## Hidden debiteur info
+#### Hidden debiteur info
 
 Met dit component kunnen gegevens van een ingelogde debiteur automatisch worden meegestuurd met een formulier. Deze gegevens kunnen vervolgens worden opgenomen in de bevestigingsmail, zodat direct zichtbaar is welke debiteur het formulier heeft verzonden.
 
@@ -946,7 +1068,7 @@ De debiteur hoeft deze gegevens niet zelf in te vullen. Omdat de debiteur is ing
 
 ---
 
-## Verzendknop
+#### Verzendknop
 
 Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te verwerken.
 
@@ -958,9 +1080,9 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-# Gebruiker
+### Gebruiker
 
-## Login form
+#### Login form
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -968,7 +1090,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Debiteur info
+#### Debiteur info
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -976,7 +1098,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Uw account
+#### Uw account
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -984,7 +1106,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Accountmanager
+#### Accountmanager
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -992,7 +1114,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Registratieformulier
+#### Registratieformulier
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1000,9 +1122,9 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-# Templates
+### Templates
 
-## Footer template
+#### Footer template
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1010,9 +1132,9 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-# Geavanceerd
+### Geavanceerd
 
-## Iframe
+#### Iframe
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1020,7 +1142,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Blog
+#### Blog
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1028,7 +1150,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Category overview
+#### Category overview
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1036,7 +1158,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Frame
+#### Frame
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1044,7 +1166,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Custom
+#### Custom
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1052,7 +1174,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Keuze component
+#### Keuze component
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1060,7 +1182,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Button (Keuze)
+#### Button (Keuze)
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1068,7 +1190,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Lottie player
+#### Lottie player
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1076,7 +1198,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Suggestions
+#### Suggestions
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1084,9 +1206,9 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-# Dashboard
+### Dashboard
 
-## Chart
+#### Chart
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1094,7 +1216,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Piechart
+#### Piechart
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1102,7 +1224,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Gauge
+#### Gauge
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1110,7 +1232,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Table view
+#### Table view
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1118,7 +1240,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Progressbar
+#### Progressbar
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1126,7 +1248,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Dashboard view
+#### Dashboard view
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1134,7 +1256,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Embedded dashboard
+#### Embedded dashboard
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1142,7 +1264,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Filter toolbar
+#### Filter toolbar
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1150,7 +1272,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Searchterm
+#### Searchterm
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1158,7 +1280,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Query filter
+#### Query filter
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1166,7 +1288,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Preset value filter
+#### Preset value filter
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1174,7 +1296,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Query filter date
+#### Query filter date
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1182,7 +1304,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Query variable
+#### Query variable
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1190,9 +1312,9 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-# Health
+### Health
 
-## Health chart
+#### Health chart
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1200,7 +1322,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Health check
+#### Health check
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1208,7 +1330,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Health errors
+#### Health errors
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1216,7 +1338,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Health gauge
+#### Health gauge
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1224,7 +1346,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 
 ---
 
-## Health log
+#### Health log
 
 | Onderdeel | Beschrijving |
 |---|---|

@@ -180,7 +180,9 @@
 
 ## Management Screens
 
-### Categories
+### Pages
+
+#### Categories
 
 Categories are the tabs displayed next to the stock and order lists. CMS pages can be linked to a category, allowing you to use the category as a dropdown in the navigation bar or to create an overview using the '[Category overview](#category-overview)' component.
 
@@ -198,7 +200,7 @@ Categories are the tabs displayed next to the stock and order lists. CMS pages c
 
 ---
 
-### Page
+#### Page
 
 A CMS page is an accessible section within the CMS where content can be placed. A page can belong to a custom-created category. CMS pages can be compared to product groups within standard webshop stock lists. Various elements can be placed on a CMS page, such as images, videos, text blocks, tables, and more.
 
@@ -217,7 +219,7 @@ A CMS page is an accessible section within the CMS where content can be placed. 
 
 ---
 
-### Blog Categories
+#### Blog Categories
 
 Blog categories can, just like [Page Categories](#categorieën), be used as tabs that are displayed alongside stock and order lists. Blog pages can be linked to a blog category. This allows you to use the category, for example, as a dropdown in the navigation bar or to create an overview using the [Blog](#blog) component.
 
@@ -241,7 +243,7 @@ Page categories and blog categories are similar in many ways. The main differenc
 
 ---
 
-### Blog Page
+#### Blog Page
 
 A Blog Page is an accessible component within the CMS where content can be added. A Blog Page can be assigned to a self-created category. Various elements can be placed on a Blog Page, such as images, videos, text blocks, tables, and more. CMS Pages and Blog Pages are quite similar, but they can be distinguished as follows:<br><br>
 
@@ -263,7 +265,7 @@ A Blog Page is an accessible component within the CMS where content can be added
 
 ---
 
-### Edit Footer
+#### Edit Footer
 
 When creating a new CMS page, a container for a footer is automatically created. A footer is the bottom section of a page. Every CMS page contains a footer by default. Changes made to the footer are visible throughout the entire website. A footer usually contains secondary information such as address details, links to external websites, and social media. The CMS provides a predefined footer element by default.
 
@@ -278,7 +280,7 @@ It is also possible to fully customize the footer according to your own preferen
 
 ---
 
-### Templates
+#### Templates
 
 Templates allow you to easily reuse content that you have previously created with the CMS. These can be small content blocks, but also complete pages. This prevents you from having to rebuild the same content repeatedly.
 
@@ -301,9 +303,9 @@ Templates can also be used effectively for [Blog components](#blog) to dynamical
 
 ---
 
-## Advanced
+### Advanced
 
-### Theme Configuration
+#### Theme Configuration
 
 In this configuration screen, you can set the brand colors of your shop, determine which font should be displayed, and configure various other options to make the visual appearance of your shop better match your preferences.
 
@@ -316,7 +318,7 @@ In this configuration screen, you can set the brand colors of your shop, determi
 
 ---
 
-### Backups
+#### Backups
 
 Working in the CMS can sometimes go wrong. You may have accidentally deleted something that cannot be undone. Don't worry, with the help of a backup your CMS can quickly be up and running again!
 
@@ -328,7 +330,7 @@ Working in the CMS can sometimes go wrong. You may have accidentally deleted som
 
 ---
 
-### Redirects
+#### Redirects
 
 When you have an existing link and want to change its URL, this can negatively impact your SEO score in Google. With the help of redirects, you inform Google that the URL has been changed, preventing your accumulated SEO score from being lost.
 
@@ -339,7 +341,7 @@ When you have an existing link and want to change its URL, this can negatively i
 
 ---
 
-### Pending Changes
+#### Pending Changes
 
 After making changes to your CMS page, you must publish them. This screen keeps track of changes made across multiple pages.
 
@@ -350,7 +352,7 @@ After making changes to your CMS page, you must publish them. This screen keeps 
 
 ---
 
-### Form tracking
+#### Form tracking
 
 Pages that contain a form can be monitored in the **Form Tracking** screen. This screen allows you to see exactly which forms have been successfully submitted for each customer. Forms that failed to send or were cancelled can also be easily identified. In addition, you can export the submitted data to Excel files, making it suitable for various purposes involving data from multiple customers.
 
@@ -363,7 +365,7 @@ To comply with privacy regulations, it is recommended to clearly inform users by
 
 ---
 
-### Component Styles
+#### Component Styles
 
 Using components in the CMS allows you to build beautiful pages, but sometimes you may want to apply your own CSS styling that is not (yet) possible with the current CMS options. This can be achieved using **Component Styles**. **PLEASE NOTE:** This feature requires sufficient CSS knowledge. Incorrect CSS code may negatively impact the performance or appearance of your webshop.
 
@@ -380,15 +382,15 @@ Using components in the CMS allows you to build beautiful pages, but sometimes y
 
 ---
 
-### Color groups (Dashboards)
+#### Color groups (Dashboards)
 
 This section is still under development.
 
 ---
 
-## Other
+### Other
 
-### Media
+#### Media
 
 Via this screen, you can easily upload your own images and video files and then use them on your [CMS pages](#page).
 
@@ -406,7 +408,7 @@ Via this screen, you can easily upload your own images and video files and then 
 
 ---
 
-### Documents
+#### Documents
 
 Via this screen, you can upload files that can then be offered as downloadable content on your web pages.
 
@@ -419,7 +421,7 @@ Via this screen, you can upload files that can then be offered as downloadable c
 
 ---
 
-### Links
+#### Links
 
 If you have your own website in addition to your FloriShop domain, it can be useful to provide direct links from your webshop to important pages on your own website. The **Links** screen allows you to easily add links to external websites or pages to the navigation bar of your shop.
 
@@ -482,53 +484,181 @@ If you have your own website in addition to your FloriShop domain, it can be use
 
 ---
 
-## Algemene instellingen
+### Responsive Tabs
 
-| Onderdeel | Beschrijving |
+#### Desktop
+
+| Item | Description |
 |---|---|
-| Algemene instellingen | Deze beschrijving wordt aangevuld |
+| Desktop | This description will be added later |
 
 ---
 
-## Styling
+#### Tablet
 
-| Onderdeel | Beschrijving |
+| Item | Description |
 |---|---|
-| Styling | Deze beschrijving wordt aangevuld |
+| Tablet | This description will be added later |
 
 ---
 
-## Geavanceerd
+#### Mobile
 
-| Onderdeel | Beschrijving |
+| Item | Description |
 |---|---|
-| Geavanceerd | Deze beschrijving wordt aangevuld |
+| Mobile | This description will be added later |
 
 ---
 
-## Visibillity
+### General Settings
 
-| Onderdeel | Beschrijving |
+#### Translations
+
+| Item | Description |
 |---|---|
-| Zichtbaarheid | Deze beschrijving wordt aangevuld |
+| General Settings | This description will be added later |
 
 ---
 
-## Responsive tabs
+### Styling
 
-| Onderdeel | Beschrijving |
+#### Color Picker
+
+| Item | Description |
 |---|---|
-| Responsive tabs | Deze beschrijving wordt aangevuld |
+| Styling | This description will be added later |
 
 ---
 
-# Componenten
+#### Border
 
-## Basis
+| Item | Description |
+|---|---|
+| Styling | This description will be added later |
 
 ---
 
-## Row/Column
+#### Margin/Padding
+
+| Item | Description |
+|---|---|
+| Styling | This description will be added later |
+
+---
+
+#### Border Radius
+
+| Item | Description |
+|---|---|
+| Styling | This description will be added later |
+
+---
+
+#### Height/Width
+
+| Item | Description |
+|---|---|
+| Styling | This description will be added later |
+
+---
+
+#### Box Shadow
+
+| Item | Description |
+|---|---|
+| Styling | This description will be added later |
+
+---
+
+#### Overflow
+
+| Item | Description |
+|---|---|
+| Styling | This description will be added later |
+
+---
+
+### Advanced
+
+#### Hidden When Empty
+
+| Item | Description |
+|---|---|
+| Advanced | This description will be added later |
+
+---
+
+#### Identification Name
+
+| Item | Description |
+|---|---|
+| Advanced | This description will be added later |
+
+---
+
+#### Slot Name
+
+| Item | Description |
+|---|---|
+| Advanced | This description will be added later |
+
+---
+
+#### HTML Class Name
+
+| Item | Description |
+|---|---|
+| Advanced | This description will be added later |
+
+---
+
+#### Tag
+
+| Item | Description |
+|---|---|
+| Advanced | This description will be added later |
+
+---
+
+#### Z-Index
+
+| Item | Description |
+|---|---|
+| Advanced | This description will be added later |
+
+---
+
+### Visibility
+
+#### Hide Content
+
+| Item | Description |
+|---|---|
+| Visibility | This description will be added later |
+
+---
+
+#### Show Content
+
+| Item | Description |
+|---|---|
+| Visibility | This description will be added later |
+
+---
+
+#### Highlight Content
+
+| Item | Description |
+|---|---|
+| Visibility | This description will be added later |
+
+---
+
+## Componenten
+
+### Basis
+
+#### Row/Column
 
 A CMS page uses rows and columns to ensure proper alignment across different devices (desktop, laptop, smartphone, and tablet). This chapter explains how to create a row. Every CMS element must be placed inside a column, and every column must be placed inside a row. This means that every page essentially consists of a grid, similar to a spreadsheet application such as Microsoft Excel.
 
@@ -549,7 +679,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Panel
+#### Panel
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -557,7 +687,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Flex
+#### Flex
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -565,7 +695,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Header
+#### Header
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -573,7 +703,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Text
+#### Text
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -581,7 +711,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Collapsible
+#### Collapsible
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -589,7 +719,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Bullet list/Bullet
+#### Bullet list/Bullet
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -597,7 +727,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Spacer
+#### Spacer
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -605,9 +735,9 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-# Media
+### Media
 
-## Image
+#### Image
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -615,7 +745,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Image overlay
+#### Image overlay
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -623,7 +753,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Hotspot
+#### Hotspot
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -631,7 +761,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## SVG
+#### SVG
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -639,7 +769,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## HTML video
+#### HTML video
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -647,7 +777,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Youtube video
+#### Youtube video
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -655,7 +785,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Carrousel
+#### Carrousel
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -663,7 +793,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Picture row
+#### Picture row
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -671,9 +801,9 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-# Navigatie
+### Navigatie
 
-## Button
+#### Button
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -681,7 +811,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Partijlijst
+#### Partijlijst
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -689,7 +819,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Partijkaart
+#### Partijkaart
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -697,7 +827,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Social icons
+#### Social icons
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -705,7 +835,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Breadcrumbs
+#### Breadcrumbs
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -713,7 +843,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Icon link
+#### Icon link
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -721,7 +851,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Banner
+#### Banner
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -729,7 +859,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Voorraad navigatie
+#### Voorraad navigatie
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -737,7 +867,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Shop navigation
+#### Shop navigation
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -745,7 +875,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Aanbieding
+#### Aanbieding
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -753,7 +883,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Action link
+#### Action link
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -761,7 +891,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Add to home button
+#### Add to home button
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -769,7 +899,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-## Anchors toolbar
+#### Anchors toolbar
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -777,9 +907,9 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-# Form
+### Form
 
-## Form
+#### Form
 
 Create a dynamic form that can be flexibly configured based on the desired input fields.
 
@@ -804,7 +934,7 @@ You can also add components such as [Rows/Columns](#rowcolumn) inside a Form to 
 
 ---
 
-## Text input
+#### Text input
 
 Use this component to enter textual data within a form.
 
@@ -820,7 +950,7 @@ Use this component to enter textual data within a form.
 
 ---
 
-## Email input
+#### Email input
 
 This input field only accepts valid email addresses. Additionally, it can be configured to automatically send a confirmation email to the entered email address. The content of this email can be configured in the [Form](#form) component.
 
@@ -834,7 +964,7 @@ This input field only accepts valid email addresses. Additionally, it can be con
 
 ---
 
-## Number input
+#### Number input
 
 Use this component within a form when only numeric values should be entered.
 
@@ -842,7 +972,7 @@ The functionality and available settings of this component are largely the same 
 
 ---
 
-## File input
+#### File input
 
 This component enables users to upload files that are submitted along with the form.
 
@@ -853,7 +983,7 @@ The functionality and available settings of this component are largely the same 
 
 ---
 
-## Checkbox
+#### Checkbox
 
 Use this component to add a checkbox to a form. It can be used, for example, to allow visitors to accept the terms and conditions, privacy policy, or consent to the processing of their personal data.
 
@@ -867,7 +997,7 @@ The functionality and available settings of this component are largely the same 
 
 ---
 
-## Radio button
+#### Radio button
 
 Use this component within a form to allow visitors to select a single option from multiple choices. Each option is added as a separate radio button, with only one option being selectable at a time.
 
@@ -877,7 +1007,7 @@ The functionality and available settings of this component are largely the same 
 
 ---
 
-## Multiple choice
+#### Multiple choice
 
 Use this component to allow visitors to select one or multiple options from a list of available choices.
 
@@ -896,7 +1026,7 @@ The functionality and available settings of this component are largely the same 
 
 ---
 
-## Dropdown (single select) / Single select option
+#### Dropdown (single select) / Single select option
 
 Use this component within a form to add a dropdown menu with selectable options. The available options within the dropdown are created using **Dropdown Single Select Option** components.
 
@@ -913,7 +1043,7 @@ The functionality and available settings of this component are largely the same 
 
 ---
 
-## Hidden input
+#### Hidden input
 
 This component is used to send data that is not visible to the user but is required for the confirmation email or the generated Excel file.
 
@@ -930,7 +1060,7 @@ This is particularly useful when processing registration forms, where additional
 
 ---
 
-## Hidden debtor info
+#### Hidden debtor info
 
 This component can be used to automatically include information about a logged-in debtor when a form is submitted. This information can then be included in the confirmation email, making it immediately clear which debtor submitted the form.
 
@@ -942,7 +1072,7 @@ The debtor does not need to enter this information manually. Because the debtor 
 
 ---
 
-## Submit button
+#### Submit button
 
 Use this component to submit a form and process the entered data.
 
@@ -954,9 +1084,9 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-# Gebruiker
+### Gebruiker
 
-## Login form
+#### Login form
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -964,7 +1094,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Debiteur info
+#### Debiteur info
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -972,7 +1102,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Uw account
+#### Uw account
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -980,7 +1110,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Accountmanager
+#### Accountmanager
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -988,7 +1118,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Registratieformulier
+#### Registratieformulier
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -996,9 +1126,9 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-# Templates
+### Templates
 
-## Footer template
+#### Footer template
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1006,9 +1136,9 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-# Geavanceerd
+### Geavanceerd
 
-## Iframe
+#### Iframe
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1016,7 +1146,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Blog
+#### Blog
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1024,7 +1154,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Category overview
+#### Category overview
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1032,7 +1162,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Frame
+#### Frame
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1040,7 +1170,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Custom
+#### Custom
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1048,7 +1178,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Keuze component
+#### Keuze component
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1056,7 +1186,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Button (Keuze)
+#### Button (Keuze)
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1064,7 +1194,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Lottie player
+#### Lottie player
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1072,7 +1202,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Suggestions
+#### Suggestions
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1080,9 +1210,9 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-# Dashboard
+### Dashboard
 
-## Chart
+#### Chart
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1090,7 +1220,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Piechart
+#### Piechart
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1098,7 +1228,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Gauge
+#### Gauge
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1106,7 +1236,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Table view
+#### Table view
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1114,7 +1244,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Progressbar
+#### Progressbar
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1122,7 +1252,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Dashboard view
+#### Dashboard view
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1130,7 +1260,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Embedded dashboard
+#### Embedded dashboard
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1138,7 +1268,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Filter toolbar
+#### Filter toolbar
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1146,7 +1276,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Searchterm
+#### Searchterm
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1154,7 +1284,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Query filter
+#### Query filter
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1162,7 +1292,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Preset value filter
+#### Preset value filter
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1170,7 +1300,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Query filter date
+#### Query filter date
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1178,7 +1308,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Query variable
+#### Query variable
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1186,9 +1316,9 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-# Health
+### Health
 
-## Health chart
+#### Health chart
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1196,7 +1326,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Health check
+#### Health check
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1204,7 +1334,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Health errors
+#### Health errors
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1212,7 +1342,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Health gauge
+#### Health gauge
 
 | Onderdeel | Beschrijving |
 |---|---|
@@ -1220,7 +1350,7 @@ Use this component to submit a form and process the entered data.
 
 ---
 
-## Health log
+#### Health log
 
 | Onderdeel | Beschrijving |
 |---|---|
