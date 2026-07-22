@@ -386,9 +386,19 @@ Dit onderdeel is nog in ontwikkeling
 
 ### Media
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Media | Deze beschrijving wordt aangevuld |
+Via dit scherm kun je eenvoudig je eigen afbeeldingen en videobestanden uploaden en deze vervolgens gebruiken op je [CMS-pagina's](#pagina).
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Navigeer via **Content Management (CMS)** (1) naar **Media** (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.1.png"></details>|
+|**2**|Je komt nu terecht in het Media-beheerscherm. Via dit scherm kun je bestanden uploaden. Afbeeldingen worden opgeslagen in de map **images** (3) en video's in de map **videos** (4). Klik op de map **images** (3).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.2.png"></details>|
+|**3**|In de map **images** kun je aanvullende mappen aanmaken (5) om meer overzicht te creëren tussen de verschillende bestanden. Met het pijltje (6) navigeer je een niveau terug. Met het prullenbakicoon (7) kun je een geselecteerd object verwijderen. In dit voorbeeld gaan we een afbeelding uploaden (8).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.3.png"></details>|
+|**4**|Afbeeldingen kunnen automatisch worden verkleind om te voorkomen dat er onnodig grote bestanden worden geüpload. Grote bestanden kunnen namelijk een negatieve invloed hebben op de laadtijd van je webshop. Wanneer je de optie **Resize** (8) inschakelt, kun je instellen of de afbeelding(en) proportioneel maximaal **1024** of **1920 pixels** groot mogen zijn. Laat je deze optie uitgeschakeld, houd er dan rekening mee dat bestanden maximaal **25 MB** groot mogen zijn. Dit geldt zowel voor afbeeldingen als video's.<br><br>Om een bestand vanaf je computer te uploaden, sleep je het bestand naar de dropzone of klik je op de knop om een afbeelding (9) of video (10) te selecteren. Klik vervolgens op **Uploaden** (11).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.4.png"></details>|
+|**5**|Nadat je vanaf je computer een afbeelding of video hebt geselecteerd en bevestigd, wordt het bestand weergegeven op het uploadscherm (12). Klik op **Upload** (13) om het uploaden te starten. Er verschijnt vervolgens een voortgangsbalk. Zodra het uploadproces voor 100% is voltooid, kun je terugkeren naar het selectiescherm (14).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.5.png"></details>|
+|**6**|De afbeelding wordt nu bovenaan in het overzicht weergegeven (15). Je kunt de afbeelding vervolgens verwijderen (16) of verder bewerken (17). In dit voorbeeld gaan we de afbeelding bewerken (17).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.6.png"></details>|
+|**7**|Op dit scherm kun je de afbeelding verder bijsnijden en bewerken. Je kunt de selectiekaders aanpassen (18), inzoomen (19) en uitzoomen (20), de positionering wijzigen (21) en de afbeelding draaien (22). Eventuele wijzigingen kun je ook ongedaan maken (23).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.7.png"></details>|
+|**8**|Vervolgens kun je de gemaakte wijzigingen opslaan (24) of annuleren door terug te navigeren naar het selectiescherm (25). In dit voorbeeld slaan we de wijzigingen op (24).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.8.png"></details>|
+|**9**|Er is nu een nieuwe variant (26) van de afbeelding toegevoegd aan het overzicht. Deze variant bevat de aangepaste en bijgesneden versie van de afbeelding en kan vervolgens worden gebruikt op je [CMS-pagina's](#pagina).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.9.png"></details>|
 
 ---
 

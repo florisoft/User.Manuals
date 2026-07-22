@@ -390,9 +390,19 @@ This section is still under development.
 
 ### Media
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Media | Deze beschrijving wordt aangevuld |
+Via this screen, you can easily upload your own images and video files and then use them on your [CMS pages](#page).
+
+|Step|Explanation|
+|:--|:--|
+|**1**|Navigate via **Content Management (CMS)** (1) to **Media** (2).<details><summary><b>Click here for the example image</b></summary><img src="media/14.1.png"></details>|
+|**2**|You will now arrive at the Media management screen. From this screen, you can upload files. Images are stored in the **images** folder (3), and videos are stored in the **videos** folder (4). Click on the **images** folder (3).<details><summary><b>Click here for the example image</b></summary><img src="media/14.2.png"></details>|
+|**3**|In the **images** folder, you can create additional folders (5) to keep your files organized. Use the arrow (6) to navigate back one level. The trash can icon (7) can be used to delete a selected item. In this example, we will upload an image (8).<details><summary><b>Click here for the example image</b></summary><img src="media/14.3.png"></details>|
+|**4**|Images can be automatically resized to prevent unnecessarily large files from being uploaded. Large files can have a negative impact on the loading time of your webshop. When you enable the **Resize** option (8), you can choose whether the image(s) should be proportionally resized to a maximum of **1024** or **1920 pixels**. If you leave this option disabled, keep in mind that files may be a maximum of **25 MB** in size. This applies to both images and videos.<br><br>To upload a file from your computer, drag the file into the drop zone or click the button to select an image (9) or video (10). Then click **Upload** (11).<details><summary><b>Click here for the example image</b></summary><img src="media/14.4.png"></details>|
+|**5**|After selecting and confirming an image or video from your computer, the file will be displayed on the upload screen (12). Click **Upload** (13) to start the upload. A progress bar will appear. Once the upload process has reached 100%, you can return to the selection screen (14).<details><summary><b>Click here for the example image</b></summary><img src="media/14.5.png"></details>|
+|**6**|The image is now displayed at the top of the overview (15). You can delete the image (16) or edit it further (17). In this example, we will edit the image (17).<details><summary><b>Click here for the example image</b></summary><img src="media/14.6.png"></details>|
+|**7**|On this screen, you can further crop and edit the image. You can adjust the selection area (18), zoom in (19) and out (20), change the positioning (21), and rotate the image (22). You can also undo any changes (23).<details><summary><b>Click here for the example image</b></summary><img src="media/14.7.png"></details>|
+|**8**|You can then save the changes (24) or cancel them by navigating back to the selection screen (25). In this example, we will save the changes (24).<details><summary><b>Click here for the example image</b></summary><img src="media/14.8.png"></details>|
+|**9**|A new variant (26) of the image has now been added to the overview. This variant contains the modified and cropped version of the image and can then be used on your [CMS pages](#page).<details><summary><b>Click here for the example image</b></summary><img src="media/14.9.png"></details>|
 
 ---
 
