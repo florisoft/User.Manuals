@@ -412,9 +412,13 @@ Via dit scherm kun je eenvoudig je eigen afbeeldingen en videobestanden uploaden
 
 ### Links
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Links | Deze beschrijving wordt aangevuld |
+Wanneer je naast je FloriShop-domein ook een eigen website hebt, kan het handig zijn om vanuit je webshop rechtstreeks naar belangrijke pagina's op deze website te kunnen navigeren. Via het scherm **Links** kun je eenvoudig koppelingen naar externe websites of pagina's toevoegen aan de navigatiebalk van je shop.
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Navigeer via **Content Management (CMS)** (1) naar **Links** (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.1.png"></details>|
+|**2**|Klik op het **'+'-icoon** (3) om een nieuwe link aan te maken. Vul in het dialoogvenster de volgende gegevens in:<br><br>- **Naam (4):** geef de link een herkenbare naam.<br><br>- **URL (5):** vul de URL in waarnaar de link moet verwijzen.<br><br>- **Weergavenaam (6):** geef hier de naam op waaronder de link in de navigatiebalk wordt weergegeven.<br><br>- **Volgorde in navigatie (optioneel) (7):** bepaal hier de positie van de link in de navigatiebalk. **1** staat vooraan.<br><br>- **Gebruikerstoken toevoegen (optioneel) (8):** schakel deze optie in als er een gebruikerstoken aan de URL moet worden toegevoegd.<br><br>Klik vervolgens op **Opslaan** (9) om de link op te slaan. De link wordt daarna direct zichtbaar in de navigatiebalk van je shop.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.2.png"></details>|
+
 
 ---
 

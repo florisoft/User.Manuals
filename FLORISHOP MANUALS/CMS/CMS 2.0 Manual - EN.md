@@ -416,10 +416,12 @@ Via this screen, you can easily upload your own images and video files and then 
 
 ### Links
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Links | Deze beschrijving wordt aangevuld |
+If you have your own website in addition to your FloriShop domain, it can be useful to provide direct links from your webshop to important pages on your own website. The **Links** screen allows you to easily add links to external websites or pages to the navigation bar of your shop.
 
+|Step|Explanation|
+|:--|:--|
+|**1**|Navigate via **Content Management (CMS)** (1) to **Links** (2).<details><summary><b>Click here for the example image</b></summary><img src="media/16.1.png"></details>|
+|**2**|Click the **'+' icon** (3) to create a new link. In the dialog, enter the following information:<br><br>- **Name (4):** enter a recognizable name for the link.<br><br>- **URL (5):** enter the URL to which the link should navigate.<br><br>- **Display name (6):** enter the name under which the link should be displayed in the navigation bar.<br><br>- **Navigation order (optional) (7):** determine the position of the link in the navigation bar. **1** places the link at the beginning.<br><br>- **Add user token (optional) (8):** enable this option if a user token should be added to the URL.<br><br>Then click **Save** (9) to save the link. The link will then be displayed directly in the navigation bar of your shop.<details><summary><b>Click here for the example image</b></summary><img src="media/16.2.png"></details>|
 ---
 
 # Aside Editor
