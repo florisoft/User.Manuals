@@ -435,9 +435,9 @@ Wanneer je naast je FloriShop-domein ook een eigen website hebt, kan het handig 
 
 #### Menu
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Menu | Deze beschrijving wordt aangevuld |
+| Stap | Uitleg |
+|:--|:--|
+| **1** | Open het beheerdersmenu via **je accountnaam → Beheer** (1). Via het **Menu** (2) vind je als beheerder de volgende opties die vanuit de browser beschikbaar zijn:<br><br>**3 - Home:** Navigeer direct naar de homepagina van je shop.<br><br>**4 - Informatie:** Hier vind je belangrijke technische informatie over je shop. Deze informatie kan bijvoorbeeld van toepassing zijn voor ontwikkelaars wanneer er specifieke gegevens uit de logs moeten worden opgezocht.<br><br>**5 - Configuratie:** Onder deze tab vind je relevante instellingen en mogelijkheden voor de configuratie van je shop. Vanuit de configuratie kun je onder andere nieuwe [thema's](#thema-configuratie) aanmaken en [documenten](#documenten) uploaden.<br><br>**6 - Content Management (CMS):** Hier vind je alle relevante opties voor het beheren en bewerken van de content binnen het CMS. Meer informatie over deze opties vind je bij de [Beheerschermen](#beheerschermen).<br><br>**7 - Geavanceerd:** Deze tab is uitsluitend toegankelijk voor Florisoft-medewerkers.<br><br>**8 - CMS Editor:** Schakel de CMS Editor in om te beginnen met het bewerken van je [CMS-pagina's](#pagina).<br><br>**9 - Minimize:** Klap het beheerdersmenu in.<br><br>**10 - Sluiten:** Sluit de beheeromgeving.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/17.1.png"></details>|
 
 ---
 

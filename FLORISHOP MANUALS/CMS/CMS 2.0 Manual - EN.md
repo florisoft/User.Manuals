@@ -438,9 +438,9 @@ If you have your own website in addition to your FloriShop domain, it can be use
 
 #### Menu
 
-| Item | Description |
-|---|---|
-| Menu | This description will be added later |
+| Step | Explanation |
+|:--|:--|
+| **1** | Open the administration menu via **your account name → Management** (1). The **Menu** (2) provides access to the following options available to administrators from the browser:<br><br>**3 - Home:** Navigate directly to the home page of your shop.<br><br>**4 - Information:** This section contains important technical information about your shop. This information may be useful to developers, for example, when specific information needs to be retrieved from the logs.<br><br>**5 - Configuration:** This tab contains relevant settings and configuration options for your shop. From the configuration section, you can create new [themes](#thema-configuratie) and upload [documents](#documenten), among other things.<br><br>**6 - Content Management (CMS):** This section contains all relevant options for managing and editing content within the CMS. More information about these options can be found under [Management Screens](#beheerschermen).<br><br>**7 - Advanced:** This tab is only accessible to Florisoft employees.<br><br>**8 - CMS Editor:** Enable the CMS Editor to start editing your [CMS pages](#pagina).<br><br>**9 - Minimize:** Collapse the administration menu.<br><br>**10 - Close:** Close the administration environment.<details><summary><b>Click here for the example image</b></summary><img src="media/17.1.png"></details>|
 
 ---
 
