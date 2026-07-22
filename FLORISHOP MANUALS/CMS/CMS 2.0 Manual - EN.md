@@ -406,11 +406,16 @@ Via this screen, you can easily upload your own images and video files and then 
 
 ---
 
-### Documenten
+### Documents
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Documenten | Deze beschrijving wordt aangevuld |
+Via this screen, you can upload files that can then be offered as downloadable content on your web pages.
+
+|Step|Explanation|
+|:--|:--|
+|**1**|Navigate via **Configuration** (1) to **Documents** (2).<details><summary><b>Click here for the example image</b></summary><img src="media/15.1.png"></details>|
+|**2**|In the **Documents** screen, you can upload a new file (3).<details><summary><b>Click here for the example image</b></summary><img src="media/15.2.png"></details>|
+|**3**|Drag the desired file into the dropzone or select a file using the designated button (4). After the file has been uploaded successfully, you can return to the overview (5).<details><summary><b>Click here for the example image</b></summary><img src="media/15.3.png"></details>|
+|**4**|The uploaded file is now displayed in the overview (6). From this overview, you can delete the file (7) or copy the download path to your clipboard (8). You can then use the copied download path, for example, in a [Button](#button) component, allowing visitors to download the file by clicking the button.<details><summary><b>Click here for the example image</b></summary><img src="media/15.4.png"></details>|
 
 ---
 
@@ -422,6 +427,7 @@ If you have your own website in addition to your FloriShop domain, it can be use
 |:--|:--|
 |**1**|Navigate via **Content Management (CMS)** (1) to **Links** (2).<details><summary><b>Click here for the example image</b></summary><img src="media/16.1.png"></details>|
 |**2**|Click the **'+' icon** (3) to create a new link. In the dialog, enter the following information:<br><br>- **Name (4):** enter a recognizable name for the link.<br><br>- **URL (5):** enter the URL to which the link should navigate.<br><br>- **Display name (6):** enter the name under which the link should be displayed in the navigation bar.<br><br>- **Navigation order (optional) (7):** determine the position of the link in the navigation bar. **1** places the link at the beginning.<br><br>- **Add user token (optional) (8):** enable this option if a user token should be added to the URL.<br><br>Then click **Save** (9) to save the link. The link will then be displayed directly in the navigation bar of your shop.<details><summary><b>Click here for the example image</b></summary><img src="media/16.2.png"></details>|
+
 ---
 
 # Aside Editor

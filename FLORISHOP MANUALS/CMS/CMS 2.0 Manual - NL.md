@@ -404,9 +404,14 @@ Via dit scherm kun je eenvoudig je eigen afbeeldingen en videobestanden uploaden
 
 ### Documenten
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Documenten | Deze beschrijving wordt aangevuld |
+Via dit scherm kun je bestanden uploaden die je vervolgens als downloadbare content op je webpagina's kunt aanbieden.
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Navigeer via **Configuratie** (1) naar **Documenten** (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/15.1.png"></details>|
+|**2**|In het scherm **Documenten** kun je een nieuw bestand uploaden (3).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/15.2.png"></details>|
+|**3**|Sleep het gewenste bestand naar de dropzone of selecteer een bestand via de daarvoor bestemde knop (4). Nadat het bestand succesvol is geüpload, kun je terugkeren naar het overzicht (5).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/15.3.png"></details>|
+|**4**|Het geüploade bestand wordt nu weergegeven in het overzicht (6). Vanuit dit overzicht kun je het bestand verwijderen (7) of het downloadpad naar je klembord kopiëren (8). Het gekopieerde downloadpad kun je vervolgens bijvoorbeeld gebruiken in een [Button](#button)-component, zodat bezoekers het bestand via deze knop kunnen downloaden.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/15.4.png"></details>|
 
 ---
 
@@ -418,7 +423,6 @@ Wanneer je naast je FloriShop-domein ook een eigen website hebt, kan het handig 
 |:--|:--|
 |**1**|Navigeer via **Content Management (CMS)** (1) naar **Links** (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.1.png"></details>|
 |**2**|Klik op het **'+'-icoon** (3) om een nieuwe link aan te maken. Vul in het dialoogvenster de volgende gegevens in:<br><br>- **Naam (4):** geef de link een herkenbare naam.<br><br>- **URL (5):** vul de URL in waarnaar de link moet verwijzen.<br><br>- **Weergavenaam (6):** geef hier de naam op waaronder de link in de navigatiebalk wordt weergegeven.<br><br>- **Volgorde in navigatie (optioneel) (7):** bepaal hier de positie van de link in de navigatiebalk. **1** staat vooraan.<br><br>- **Gebruikerstoken toevoegen (optioneel) (8):** schakel deze optie in als er een gebruikerstoken aan de URL moet worden toegevoegd.<br><br>Klik vervolgens op **Opslaan** (9) om de link op te slaan. De link wordt daarna direct zichtbaar in de navigatiebalk van je shop.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.2.png"></details>|
-
 
 ---
 
