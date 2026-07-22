@@ -107,6 +107,8 @@ Select a product or package under **Processed** or **To process** to view its de
 
 For a package, the contents are shown. For a product, the app can show the quantity, length, customer, supplier, picking time, picker, packaging code, packaging quantity, packaging description, and stock information. If a product has already been partially processed, the trolleys and quantities on which it was registered are also shown.
 
+When **Packaging code** and **Packaging quantity** are shown through `AvailableProductDetails`, you can change these values. **Packaging code** opens a lookup containing the values from `AllowedPackagingCodesForTrolleyItems`; the existing packaging code remains visible. After confirmation, the changed values are saved on the order line. If the invoice has already been printed, the change is blocked and the app reports that the order items can no longer be changed.
+
 ### Step 5: check and correct the trolley
 
 Use **Processed** to verify that all products and boxes are on the correct trolley. After confirmation, an individual product or package can be removed from the trolley. The order progress is restored so that the item can be processed again.

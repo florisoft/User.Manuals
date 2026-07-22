@@ -107,6 +107,8 @@ Selecteer een product of verpakking in **Opgebouwd** of **Op te bouwen** om deta
 
 Bij een verpakking ziet u de inhoud. Bij een product kunnen onder andere aantal, lengte, klant, leverancier, picktijd, picker, fustcode, fustaantal, fustomschrijving en voorraadgegevens worden getoond. Wanneer het product al gedeeltelijk is opgebouwd, ziet u ook op welke karren de aantallen zijn geregistreerd.
 
+Als **Fustcode** en **Fustaantal** via `AvailableProductDetails` worden getoond, kunt u deze waarden wijzigen. Voor **Fustcode** opent een lookup met de waarden uit `AllowedPackagingCodesForTrolleyItems`; de bestaande fustcode blijft direct zichtbaar. Na bevestiging worden de gewijzigde waarden op de orderregel opgeslagen. Bij een reeds geprinte factuur wordt de wijziging geblokkeerd en meldt de app dat de orderitems niet meer gewijzigd mogen worden.
+
 ### Stap 5: de opbouw controleren en corrigeren
 
 Controleer in **Opgebouwd** of alle producten en dozen op de juiste kar staan. Een afzonderlijk product of een verpakking kan na bevestiging van de kar worden verwijderd. De ordervoortgang wordt daarna hersteld zodat het item opnieuw kan worden opgebouwd.
