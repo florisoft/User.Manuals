@@ -6,6 +6,8 @@ Deze handleiding helpt u bij het gebruiken van de **Price Labels-functionaliteit
 
 De workflow, barcodeherkenning, printer en layout worden vooraf ingericht via policies. Daardoor kan het proces per omgeving iets verschillen.
 
+Maakt of beheert u een prijssticker-layout? Bekijk dan het [overzicht van alle beschikbare printvariabelen](Printvariabelen%20Price%20Labels%20NL.md).
+
 ---
 
 ## Wat is Price Labels?
@@ -82,9 +84,9 @@ De printer en layout worden vooraf bepaald door policies:
 - `PriceLabelLayout` bepaalt welke prijssticker-layout wordt gebruikt.
 - `PriceLabelPrinterPerCustomer` bepaalt of de prijslabelinstellingen van de debiteur worden gebruikt in plaats van de standaardinstellingen.
 
-Als de policy `AskPriceLabelCopyAmount` is ingeschakeld, vraagt de app hoeveel kopieen van de prijssticker geprint moeten worden.
+Als de policy `AskPriceLabelCopyAmount` is ingeschakeld, vraagt de app normaal hoeveel kopieën van de prijssticker geprint moeten worden. Wanneer de automatische afdrukflow zelf het juiste aantal stickers berekent, wordt deze vraag overgeslagen en wordt het berekende aantal direct geprint.
 
-Vul het gewenste aantal in en bevestig het printen.
+Wanneer de vraag wordt getoond, vult u het gewenste aantal in en bevestigt u het printen.
 
 ---
 
@@ -108,7 +110,7 @@ A: Dan gebruikt de app het standaardprofiel met Interleaved 2 of 5, Code 128, Co
 
 **V: Waarom vraagt de app hoeveel prijsstickers ik wil printen?**
 
-A: Dit gebeurt wanneer de policy `AskPriceLabelCopyAmount` is ingeschakeld.
+A: Dit gebeurt wanneer de policy `AskPriceLabelCopyAmount` is ingeschakeld en de flow het aantal niet automatisch bepaalt. Bij automatisch bepaald aantal wordt de vraag overgeslagen.
 
 **V: Waarom krijg ik een melding dat er al een prijssticker is geprint?**
 
@@ -137,4 +139,4 @@ Volg onderstaande stappen om deze te benaderen:
 
 Wilt u meer weten over het instellen en beheren van policies in het algemeen? Raadpleeg dan de [handleiding Policy Management](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Handleiding%20Policy%20Management%20NL.md).
 
-Voor een overzicht van de Price Labels-policies kunt u ook de [Policy Handleiding Price Label](Policies%20Price%20Labels%20NL.md) gebruiken.
+Deze handleiding beschrijft ook de relevante policies voor de Price Labels-functionaliteit.
