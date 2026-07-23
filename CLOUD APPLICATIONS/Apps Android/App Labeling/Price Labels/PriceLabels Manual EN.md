@@ -82,9 +82,9 @@ The printer and layout are determined in advance by policies:
 - `PriceLabelLayout` determines which price label layout is used.
 - `PriceLabelPrinterPerCustomer` determines whether the price label settings of the debtor are used instead of the default settings.
 
-If the policy `AskPriceLabelCopyAmount` is enabled, the app asks how many copies of the price label must be printed.
+If the policy `AskPriceLabelCopyAmount` is enabled, the app normally asks how many copies of the price label must be printed. When the automatic print flow calculates the correct number of labels, this question is skipped and the calculated number is printed directly.
 
-Enter the required number and confirm printing.
+When the question is shown, enter the required number and confirm printing.
 
 ---
 
@@ -108,7 +108,7 @@ A: The app uses the default profile containing Interleaved 2 of 5, Code 128, Cod
 
 **Q: Why does the app ask how many price labels I want to print?**
 
-A: This happens when the policy `AskPriceLabelCopyAmount` is enabled.
+A: This happens when the policy `AskPriceLabelCopyAmount` is enabled and the flow does not determine the quantity automatically. When the quantity is calculated automatically, the question is skipped.
 
 **Q: Why do I get a message that a price label has already been printed?**
 
