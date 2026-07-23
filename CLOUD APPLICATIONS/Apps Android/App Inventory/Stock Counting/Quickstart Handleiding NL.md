@@ -89,7 +89,11 @@ Bij `Telling op v-partij basis` kan het detailscherm meerdere administratieve pa
 
 ### Stap 6: Controleer en pas waarden aan
 
-Pas in het Stockitem-detailscherm de voorraadwaarden aan waar nodig. Als een partij al eerder is gecontroleerd, herkent u dit aan een oranje banner boven in het scherm. Wanneer er nog pickorders openstaan op de partij, wordt dit ook weergegeven in het scherm. Houd er rekening mee dat het weergegeven totaal inclusief het aantal is dat nog gepickt moet worden.
+Pas in het Stockitem-detailscherm de voorraadwaarden aan waar nodig. Als een partij al eerder is gecontroleerd, herkent u dit aan een oranje banner boven in het scherm.
+
+Wanneer er nog pickorders openstaan op de partij, worden de bijbehorende te picken hoeveelheid en het voorraadtotaal in het scherm weergegeven. Standaard telt het weergegeven totaal de hoeveelheid uit open pickorders mee.
+
+Staat bij de gekoppelde debiteur in de relatie-instellingen, onderdeel **Verdelen**, de optie **Pickorders niet meetellen in voorraad opname** (`PICKNOOPN`) aan, dan worden open pickorders van deze debiteur niet in het voorraadtotaal opgenomen. De regel **To pick** en de bijbehorende hoeveelheid worden dan niet weergegeven.
 
 Het veld **Scanaantal** is zichtbaar wanneer het is toegevoegd aan `Apps_Inventory_StockCounting_StockItemDetailSettings_AvailableStockitemDetails`. Als het veld ook is toegevoegd aan `Apps_Inventory_StockCounting_StockItemDetailSettings_AllowEditStockitemDetails`, kunt u het getelde aantal handmatig corrigeren of op **0** zetten. Zonder deze tweede instelling is het veld alleen-lezen.
 
@@ -160,7 +164,7 @@ Aan het einde van de controle is zichtbaar of alle voorraadregels zijn gecontrol
 
 ## Versiebeheer & Ontwikkelfase
 
-> **Laatste update:** 15 juli 2026
+> **Laatste update:** 23 juli 2026
 > **Huidige ontwikkelfase:** Dev phase 2 afgerond
 
 Deze handleiding is gebaseerd op de actuele Inventory App en wordt periodiek bijgewerkt bij nieuwe functionaliteit of gewijzigde policies.

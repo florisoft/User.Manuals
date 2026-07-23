@@ -82,7 +82,13 @@ Bij succesvolle koppeling wordt de locatie bijgewerkt en verschijnt een bevestig
 
 ## Stap 4 — Voorraadcontrole en -correctie (optioneel)
 
-Op het partij-detail kunt u direct aantallen aanpassen en een mutatie doorvoeren. Relevante instellingen:
+Op het partij-detail kunt u direct aantallen aanpassen en een mutatie doorvoeren.
+
+Wanneer er open pickorders aan de partij zijn gekoppeld, telt Consolidation de nog te picken hoeveelheid standaard mee in het weergegeven voorraadtotaal.
+
+Staat bij de gekoppelde debiteur in de relatie-instellingen, onderdeel **Verdelen**, de optie **Pickorders niet meetellen in voorraad opname** (`PICKNOOPN`) aan, dan worden open pickorders van deze debiteur niet in het weergegeven voorraadtotaal opgenomen. Hierdoor kan het getoonde totaal lager zijn dan bij een debiteur waarvoor deze instelling uitstaat.
+
+Relevante instellingen:
 
 - `StockMutationSettings_StockMutationAsCounting`: bepaalt of mutaties als telling worden verwerkt.
 - `StockMutationSettings_StockCountingCustomerCode`: gebruik klantcodes voor specifieke verwerkingen (bijv. 'WASTE').

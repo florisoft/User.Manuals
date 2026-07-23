@@ -82,7 +82,13 @@ When the link is successful, the location is updated and a confirmation is shown
 
 ## Step 4 - Stock check and correction (optional)
 
-In the parcel detail view, you can adjust quantities directly and process a mutation. Relevant settings:
+In the parcel detail view, you can adjust quantities directly and process a mutation.
+
+When open pick orders are linked to the parcel, Consolidation includes the remaining quantity to pick in the displayed stock total by default.
+
+If **Pickorders niet meetellen in voorraad opname** (`PICKNOOPN`) is enabled in the linked customer's relation settings under **Distribution**, open pick orders for this customer are excluded from the displayed stock total. The displayed total can therefore be lower than for a customer for whom this setting is disabled.
+
+Relevant settings:
 
 - `StockMutationSettings_StockMutationAsCounting`: determines whether mutations are processed as counts.
 - `StockMutationSettings_StockCountingCustomerCode`: uses customer codes for specific processing, for example 'WASTE'.

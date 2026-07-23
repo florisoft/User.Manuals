@@ -84,7 +84,11 @@ With `stockcounting based on v-stock items`, the detail screen can open multiple
 
 ### Step 6: Review and Adjust Values
 
-Adjust the stock values as needed in the stock item detail screen. If a parcel was previously inspected, an orange banner will appear at the top of the screen. If there are open pick orders for the parcel, this will also be indicated. Note that the displayed total includes quantities still to be picked.
+Adjust the stock values as needed in the stock item detail screen. If a parcel was previously inspected, an orange banner appears at the top of the screen.
+
+When the parcel has open pick orders, the related quantity to pick and the stock total are shown in the screen. By default, the displayed total includes the quantity from open pick orders.
+
+If **Pickorders niet meetellen in voorraad opname** (`PICKNOOPN`) is enabled in the linked customer's relation settings under **Distribution**, open pick orders for this customer are excluded from the stock total. The **To pick** row and its quantity are then not displayed.
 
 The **Scan quantity** field is visible when it is added to `Apps_Inventory_StockCounting_StockItemDetailSettings_AvailableStockitemDetails`. If the field is also added to `Apps_Inventory_StockCounting_StockItemDetailSettings_AllowEditStockitemDetails`, you can manually correct the counted quantity or reset it to **0**. Without the second setting, the field is read-only.
 
@@ -154,7 +158,7 @@ At the end of the inspection, it is clear whether all stock lines have been chec
 
 ## Version Control & Development Phase
 
-> **Last update:** July 15, 2026
+> **Last update:** July 23, 2026
 > **Current development phase:** Dev phase 2 completed
 
 This manual is based on the current Inventory App and will be periodically updated to reflect new functionality or changes in policies.
