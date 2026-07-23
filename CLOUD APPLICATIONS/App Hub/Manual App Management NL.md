@@ -14,26 +14,46 @@ In de Hub-app catalogus ziet u het versienummer verticaal naast de apps staan. F
 
 ## Downloaden van app-updates
 
-De apps worden gedownload met het downloaden van een cloudserverupdate. Bij het updaten van de cloudserver ziet u dan ook de instelling "*Download frontend apps met de Cloud.Server*" ingeschakeld staan. Deze instelling zorgt ervoor dat na het updaten van de cloudserver nieuwe appversies beschikbaar zijn in de Hub-app catalogus.
+Tijdens het uitvoeren van een Florisoft-update worden ook de nieuwste versies van de apps gedownload. Bij het updaten van de cloudserver staat hiervoor de instelling "*Download frontend apps met de Cloud.Server*" ingeschakeld. In de updateomgeving worden deze appversies automatisch beschikbaar gesteld in het release channel *update*.
 
 |Stap|Uitleg|
 |:-:|:--|
 |**1**|Florisoft Update cloudserver.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/App Management/2.png"></details>|
 |**2**|Downloaden van front-end apps.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/App Management/1.png"></details>|
 
-Wanneer de Hub-app ontdekt dat er een nieuwere appversie beschikbaar is, zal het bij de eerstvolgende keer de app automatisch updaten. Nadat de app is geüpdatet, ziet u dat het versienummer links naast de app ook is gewijzigd naar de nieuwere versie.
+Wanneer de Hub-app ontdekt dat er binnen het ingestelde release channel een nieuwere appversie beschikbaar is, wordt de app bij de eerstvolgende keer opstarten automatisch bijgewerkt. Na het bijwerken ziet u dat het versienummer links naast de app is gewijzigd naar de nieuwere versie.
 
 ## Release channels (testen van nieuwe versies)
 
-Om nieuwe appversies veilig te kunnen testen, maakt u gebruik van de verschillende release channels in de Hub-app. Standaard zijn er twee release channels: latest (de versie van de backoffice (bin-versie)) en update (de versie van uw update client).
+Om nieuwe appversies veilig te kunnen testen, maakt u gebruik van de verschillende release channels in de Hub-app. Standaard zijn er twee release channels:
 
-Apps worden automatisch gedownload met het downloaden van de cloudserver-instelling "*Download frontend apps met de Cloud.Server*". U hoeft de cloudserver dus niet te updaten, maar alleen te downloaden.
-<!-- Ik weet nu niet meer zeker of dit geheel automatisch gebeurde. Dit wil ik eigenlijk even nagaan.-->
-De release channels van deze apps zijn te vinden in de map 'Shared/Florisoft/DataPGS/Binapps/'. Hierin vindt u de mappen *latest* en *update*. Om de apps van de *update* channel uit te rollen naar het *latest* channel, dient u de apps in deze mappen handmatig te verplaatsen.
+- *latest*: de huidige productieversie van de apps, passend bij de productieomgeving;
+- *update*: de nieuwe appversies die horen bij de Florisoft Update-omgeving en nog getest moeten worden.
 
-Het kunnen uitrollen van nieuwere appversies zal binnenkort worden vereenvoudigd, maar voor nu doet u dit handmatig. Wilt u de appversies van de update client uitrollen naar de latest (productie), verplaats dan de inhoud van de '*update*' map naar de '*latest*' map.
+Om een nieuwe appversie te testen voordat deze naar alle gebruikers wordt uitgerold, heeft u naast de productie-cloudserver een afzonderlijke update-cloudserver nodig. Zo kunnen key users de nieuwe apps in combinatie met de bijgewerkte cloudserver testen zonder dat dit gevolgen heeft voor de overige gebruikers.
 
-**Om fouten eenvoudig terug te kunnen draaien, is het verstandig om de hele inhoud van de latest map eerst te verplaatsen naar een tijdelijke back-upmap. Zorg er dan ook gelijk voor dat de latest map leeg is voordat u de 'update' apps hierin plaatst.**
+### Nieuwe appversies testen
+
+1. Voer de Florisoft-update uit op de updateomgeving. De nieuwe appversies worden hierbij automatisch beschikbaar gesteld in het release channel *update*.
+2. Update vervolgens de cloudserver van de updateomgeving. Laat daarbij de instelling "*Download frontend apps met de Cloud.Server*" ingeschakeld.
+3. Stel de apparaten van de key users zo in dat zij verbinding maken met de update-cloudserver.
+4. Stel op deze apparaten in de Hub-app het veld *Release Channel* in op **update**.
+5. Start de Hub-app opnieuw. De apps uit het release channel *update* worden vervolgens automatisch bijgewerkt.
+6. Laat de key users de nieuwe appversies testen.
+
+### Nieuwe appversies uitrollen naar productie
+
+Zijn de nieuwe appversies getest en akkoord bevonden? Volg dan deze stappen:
+
+1. Update de productie-cloudserver.
+2. Start de Florisoft Update-client.
+3. Klik met de rechtermuisknop op het Florisoft Leaves-icoon in de Navigator.
+4. Kies **Versie uitrollen Apps** om de geteste appversies van *update* naar *latest* uit te rollen.
+5. Bevestig de uitrol.
+
+De inhoud van de mappen *update* en *latest* hoeft niet handmatig te worden verplaatst. Na de uitrol worden apparaten die gebruikmaken van het release channel *latest* automatisch bijgewerkt wanneer de betreffende app opnieuw wordt gestart.
+
+> **Let op:** zolang **Versie uitrollen Apps** nog niet is uitgevoerd, blijft het release channel *latest* op de bestaande productieversie staan. Het bijwerken van de updateomgeving wijzigt alleen de versies binnen het release channel *update*.
 
 ### Release channels instellen in de apps
 
@@ -41,7 +61,9 @@ Het kunnen uitrollen van nieuwere appversies zal binnenkort worden vereenvoudigd
 
 |Stap|Uitleg|
 |:-:|:--|
-|**1**|In de Hub-app klik op het hamburgermenu rechtsbovenin uw scherm.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/App Management/3.png" height=350px></details>|
+|**1**|Klik in de Hub-app op het hamburgermenu rechtsboven in uw scherm.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/App Management/3.png" height=350px></details>|
 |**2**|Klik vervolgens op het tandwielicoon om naar de instellingen te gaan.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/App Management/4.png" height=350px></details>|
-|**3**|Vul vervolgens het veld *Release Channel* in met '**update**' of '**latest**'.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/App Management/5.png" height=350px></details>|
-|**4**|Druk op save. U wordt nu gevraagd om de app opnieuw op te starten. Druk op yes.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/App Management/6.png" height=350px></details>|
+|**3**|Vul vervolgens het veld *Release Channel* in met **update** of **latest**.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/App Management/5.png" height=350px></details>|
+|**4**|Druk op *Save*. U wordt nu gevraagd om de app opnieuw op te starten. Druk op *Yes*.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/App Management/6.png" height=350px></details>|
+
+Gebruik *update* uitsluitend op de testapparaten die verbinding maken met de update-cloudserver. Voor reguliere productieapparaten gebruikt u *latest*.
