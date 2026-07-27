@@ -518,9 +518,15 @@ Het **Drag & Drop**-scherm is een variant op het [Componentendialoog](#component
 
 #### SEO
 
-| Onderdeel | Beschrijving |
-|---|---|
-| SEO | Deze beschrijving wordt aangevuld |
+Om je pagina's beter vindbaar te maken in Google, kun je per pagina SEO-instellingen configureren. Door relevante zoekwoorden en metadata toe te voegen, vergroot je de kans dat je pagina goed wordt gevonden in zoekmachines.
+
+**Let op:** Het opbouwen van een goede SEO-score vereist voldoende kennis van SEO-strategieën. De juiste instellingen alleen bieden geen garantie voor een hoge positie in de zoekresultaten.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | Wanneer de [CMS Editor](#cms-editor) is ingeschakeld (1), kun je via de [Toolbar](#1-toolbar) het **SEO**-dialoogvenster openen (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/21.1.png"></details> |
+| **2** | De **URL** van de pagina is al voor je ingevuld en hoef je niet aan te passen (3). Selecteer vervolgens de gewenste taal voor de metadata (4).<br><br>**Meta titel (5):** Voer hier de titel van de pagina in. Je kunt maximaal 60 tekens gebruiken. Voor het beste resultaat raden we aan om maximaal 40 tekens te gebruiken. Hierdoor is de titel in de meeste gevallen volledig zichtbaar in de Google-zoekresultaten en wordt deze niet afgebroken.<br><br>**Meta beschrijving (6):** Voer hier een korte beschrijving van de pagina in. Je kunt maximaal 155 tekens gebruiken. Voor het beste resultaat raden we aan om maximaal 140 tekens te gebruiken. Hierdoor is de beschrijving in de meeste gevallen volledig zichtbaar in de Google-zoekresultaten en wordt deze niet afgebroken.<br><br>**Canonical URL (7):** Vul hier de URL in van de voorkeursversie van een pagina wanneer dezelfde of vergelijkbare content via meerdere URL's bereikbaar is. Hiermee geef je aan welke URL door zoekmachines als de belangrijkste versie van de pagina moet worden beschouwd. Dit helpt onder andere om problemen met dubbele content te voorkomen.<br><br>**Google Site Verification (8):** Gebruik dit veld om je website te verifiëren bij Google. Hiervoor voeg je de verificatiecode toe die je van Google hebt ontvangen. Hiermee bevestig je aan Google dat je eigenaar of beheerder van de website bent.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/21.2.png"></details> |
+| **3** | **Meta tags (9):** Je kunt hier eventueel nog meta tags invullen. Google gebruikt de traditionele `meta keywords`-tag echter niet meer als rankingfactor. Het invullen hiervan heeft daarom geen directe invloed op je SEO-score.<br><br>**Niet indexeren (10):** Schakel deze optie in wanneer je niet wilt dat Google en andere zoekmachines de pagina indexeren. De pagina wordt dan niet opgenomen in de zoekresultaten.<br><br>Vervolgens kun je de SEO-instellingen **opslaan** (11) of de wijzigingen **annuleren** (12).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/21.3.png"></details> |
 
 ---
 

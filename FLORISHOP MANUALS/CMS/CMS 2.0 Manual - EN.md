@@ -521,9 +521,15 @@ The **Drag & Drop** screen is an alternative to the [Component Dialog](#componen
 
 #### SEO
 
-| Item | Description |
-|---|---|
-| SEO | This description will be added later |
+To make your pages more easily discoverable in Google, you can configure SEO settings for each page. By adding relevant keywords and metadata, you increase the chances of your page being found in search engines.
+
+**Note:** Building a good SEO score requires sufficient knowledge of SEO strategies. The correct settings alone do not guarantee a high position in search results.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | When the [CMS Editor](#cms-editor) is enabled (1), you can open the **SEO** dialog via the [Toolbar](#1-toolbar) (2).<details><summary><b>Click here for the example image</b></summary><img src="media/21.1.png"></details> |
+| **2** | The **URL** of the page is already filled in and does not need to be changed (3). Then select the desired language for the metadata (4).<br><br>**Meta title (5):** Enter the title of the page here. You can use a maximum of 60 characters. For the best results, we recommend using a maximum of 40 characters. This means the title will, in most cases, be fully visible in Google's search results and will not be truncated.<br><br>**Meta description (6):** Enter a short description of the page here. You can use a maximum of 155 characters. For the best results, we recommend using a maximum of 140 characters. This means the description will, in most cases, be fully visible in Google's search results and will not be truncated.<br><br>**Canonical URL (7):** Enter the URL of the preferred version of a page when the same or similar content is accessible through multiple URLs. This indicates which URL search engines should consider the primary version of the page. This can help prevent duplicate content issues.<br><br>**Google Site Verification (8):** Use this field to verify your website with Google. To do this, enter the verification code provided by Google. This confirms to Google that you are the owner or administrator of the website.<details><summary><b>Click here for the example image</b></summary><img src="media/21.2.png"></details> |
+| **3** | **Meta tags (9):** You can optionally enter meta tags here. However, Google no longer uses the traditional `meta keywords` tag as a ranking factor. Entering these therefore has no direct impact on your SEO score.<br><br>**Do not index (10):** Enable this option if you do not want Google or other search engines to index the page. The page will then not be included in search results.<br><br>You can then **save** the SEO settings (11) or **cancel** the changes (12).<details><summary><b>Click here for the example image</b></summary><img src="media/21.3.png"></details> |
 
 ---
 
