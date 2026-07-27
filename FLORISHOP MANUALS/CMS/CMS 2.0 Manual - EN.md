@@ -123,7 +123,7 @@
 - [Anchors Toolbar](#anchors-toolbar)
 
 #### 4. Forms
-- [Form](#form-1)
+- [Form](#form)
 - [Text Input](#text-input)
 - [Email Input](#email-input)
 - [Number Input](#number-input)
@@ -950,7 +950,7 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-### Form
+### Forms
 
 #### Form
 
@@ -1111,7 +1111,7 @@ The debtor does not need to enter this information manually. Because the debtor 
 
 |Step|Explanation|
 |:--|:--|
-|**1**|In this example, we have added the **Hidden debtor info** component (1) to the [Form](#form-1). Open the **General settings** tab (2). Using the dropdown menu (3), you can select which information about the logged-in debtor should be included with the form. The debtor cannot see this input field. Because the debtor is logged in, information such as **DEBNR**, **DEBKEY**, and **DEBNAAM** can be retrieved automatically and added to the form. This means the debtor does not need to enter this information manually, as it is already available in the system.<details><summary><b>Click here for the example image</b></summary><img src="media/62.1.png"></details>|
+|**1**|In this example, we have added the **Hidden debtor info** component (1) to the [Form](#form). Open the **General settings** tab (2). Using the dropdown menu (3), you can select which information about the logged-in debtor should be included with the form. The debtor cannot see this input field. Because the debtor is logged in, information such as **DEBNR**, **DEBKEY**, and **DEBNAAM** can be retrieved automatically and added to the form. This means the debtor does not need to enter this information manually, as it is already available in the system.<details><summary><b>Click here for the example image</b></summary><img src="media/62.1.png"></details>|
 
 ---
 
@@ -1121,7 +1121,7 @@ Use this component to submit a form and process the entered data.
 
 |Step|Explanation|
 |:--|:--|
-|**1**|Once the [Form](#form-1) contains all desired input fields, a **Submit button** must be added to the form. This allows the visitor to submit the form to the configured recipient(s). Click the '+' icon behind the form (1). The component dialog will now open.<details><summary><b>Click here for the example image</b></summary><img src="media/63.1.png"></details>|
+|**1**|Once the [Form](#form) contains all desired input fields, a **Submit button** must be added to the form. This allows the visitor to submit the form to the configured recipient(s). Click the '+' icon behind the form (1). The component dialog will now open.<details><summary><b>Click here for the example image</b></summary><img src="media/63.1.png"></details>|
 |**2**|Navigate to the **Form** category (2) or use the search function (3) to find the **Submit button**. Then add it (4) to the form.<details><summary><b>Click here for the example image</b></summary><img src="media/63.2.png"></details>|
 |**3**|The **Submit button** has now been added to the form (5) and is immediately visible in the Editor (6). The following settings can be configured via the **General settings** tab (7):<br><br>**8 - [Translations](#translations):** If desired, configure the translations for the button.<br><br>**9 - Text:** Enter the text that should be displayed on the Submit button.<br><br>**10 - Chevron:** Enable or disable this option to display an arrow on the Submit button.<br><br>**11 - Switch Variant:** Enable this option to use the secondary color of the Submit button. This color is configured in the [Theme Configuration](#theme-configuration) under the name `button-secondary-bgcolor`.<br><br>**12 - URL OPTIONAL:** Enter a URL path here if desired. In most cases, this field can be left empty.<br><br>**13 - Button position:** Set the position of the Submit button here.<br><br>**14 - Open in new tab:** When this option is enabled, clicking the button opens a new browser tab in which the specified URL path (12) is loaded.<br><br>**15 - [Component Style](#component-styles):** If desired, select a Component Style for the Submit button.<br><br>For additional settings in the other tabs, refer to the [Styling](#4-styling), [Advanced](#5-advanced), and [Visibility](#6-visibility) sections.<br><br>Once the form has been completed correctly, the visitor can submit it using the newly added **Submit button**. Submitted forms can then be tracked via the [Form Tracking](#form-tracking) screen.<details><summary><b>Click here for the example image</b></summary><img src="media/63.3.png"></details>|
 
