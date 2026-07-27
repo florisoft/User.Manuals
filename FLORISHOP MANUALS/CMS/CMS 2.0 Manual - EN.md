@@ -535,9 +535,11 @@ To make your pages more easily discoverable in Google, you can configure SEO set
 
 #### Preferences
 
-| Item | Description |
-|---|---|
-| Preferences | This description will be added later |
+In this tab, you can configure the [Editor](#editor) according to your personal preferences.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | Under **Preferences** (1), you can enable or disable the **AutoSaveOnEdit** function (2). This function is enabled by default, ensuring that draft changes are automatically saved. Using the dropdown menu (3), you can easily switch between different [themes](#theme-configuration) and then make changes within another theme.<details><summary><b>Click here for the example image</b></summary><img src="media/22.1.png"></details> |
 
 ---
 

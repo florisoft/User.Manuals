@@ -532,9 +532,11 @@ Om je pagina's beter vindbaar te maken in Google, kun je per pagina SEO-instelli
 
 #### Voorkeuren
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Voorkeuren | Deze beschrijving wordt aangevuld |
+Via deze tab kun je de [Editor](#editor) naar jouw persoonlijke voorkeuren configureren.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | Via **Voorkeuren** (1) kun je de functie **AutoSaveOnEdit** in- of uitschakelen (2). Deze functie is standaard ingeschakeld, zodat conceptwijzigingen automatisch worden opgeslagen. Via het dropdownmenu (3) kun je eenvoudig wisselen tussen verschillende [thema's](#thema-configuratie) om vervolgens wijzigingen binnen een ander thema door te voeren.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/22.1.png"></details> |
 
 ---
 
