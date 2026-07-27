@@ -51,16 +51,12 @@
 - [Drag & Drop](#drag--drop)
 - [SEO](#seo)
 - [Voorkeuren](#voorkeuren)
+- [Responsive tabs](#responsive-tabs)
 
-#### 2. Responsive tabs
-- [Desktop](#desktop)
-- [Tablet](#tablet)
-- [Mobiel](#mobiel)
-
-#### 3. Algemene instellingen
+#### 2. Algemene instellingen
 - [Vertalingen](#vertalingen)
 
-#### 4. Styling
+#### 3. Styling
 - [Color picker](#color-picker)
 - [Omlijning](#omlijning)
 - [Margin/padding](#margin-padding)
@@ -69,7 +65,7 @@
 - [Slagschaduw](#slagschaduw)
 - [Overflow](#overflow)
 
-#### 5. Geavanceerd
+#### 4. Geavanceerd
 - [Verborgen wanneer leeg](#verborgen-wanneer-leeg)
 - [Identificatie naam](#identificatie-naam)
 - [Slotnaam](#slotnaam)
@@ -77,7 +73,7 @@
 - [Tag](#tag)
 - [Z-index](#z-index)
 
-#### 6. Zichtbaarheid
+#### 5. Zichtbaarheid
 - [Content verbergen](#content-verbergen)
 - [Content tonen](#content-tonen)
 - [Content uitlichten](#content-uitlichten)
@@ -540,29 +536,15 @@ Via deze tab kun je de [Editor](#editor) naar jouw persoonlijke voorkeuren confi
 
 ---
 
-### Responsive tabs
+#### Responsive tabs
 
-#### Desktop
+Met deze tabs kun je ervoor zorgen dat jouw website er niet alleen op desktop, maar ook op tablets en mobiele apparaten netjes en professioneel uitziet.
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Desktop | Deze beschrijving wordt aangevuld |
-
----
-
-#### Tablet
-
-| Onderdeel | Beschrijving |
-|---|---|
-| Tablet | Deze beschrijving wordt aangevuld |
-
----
-
-#### Mobiel
-
-| Onderdeel | Beschrijving |
-|---|---|
-| Mobiel | Deze beschrijving wordt aangevuld |
+| Stap | Uitleg |
+|:--|:--|
+| **1** | Wanneer je een component selecteert (1), verschijnen de **Responsive tabs** (2) in de [Aside Editor](#aside-editor). Stel hier de gewenste waarden in voor desktopapparaten.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/23.1.png"></details> |
+| **2** | Wil je voor tablets afwijkend gedrag instellen (3), dan kun je hiervoor via het tabblad **Styling** (4) een afwijkende waarde opgeven.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/23.2.png"></details> |
+| **3** | Wil je voor mobiele apparaten afwijkend gedrag instellen (5), dan kun je hiervoor via het tabblad **Styling** (6) een afwijkende waarde opgeven. Via de [Responsive-knop](#editor) (7) kun je vervolgens controleren hoe het [Tekst](#text)-component zich gedraagt op tablets en mobiele apparaten.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/23.3.png"></details> |
 
 ---
 
@@ -985,7 +967,7 @@ In een Formulier kunnen bijvoorbeeld ook componenten als [Rows/Columns](#rowcolu
 |**4**|Ook de bevestigingsopties (15) kunnen eenvoudig worden ingesteld. Via **Bevestigingsfeedback** (16) bepaal je of na het verzenden van het formulier een bedankbericht wordt getoond via **ShowDialog**, of dat de bezoeker wordt doorgestuurd naar een [CMS-pagina](#pagina). Wanneer **CMSPage** is geselecteerd, kies je via **CMS Page** (17) de gewenste pagina. Kies je voor **ShowDialog**, dan kun je een titel (18) en bericht (19) invullen die na een succesvolle verzending worden weergegeven.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/52.4.png"></details>|
 |**5**|De instellingen onder **Mail naar afzender** (20) zijn van toepassing wanneer in het [Email input component](#email-input) de optie **Stuur bevestigingsmail** is ingeschakeld. Na het verzenden van het formulier ontvangt de afzender automatisch een bevestigingsmail. Vul hiervoor een titel (21) en bericht (22) in. In het bericht kunnen placeholders worden gebruikt, zoals **{{first_name}}** of **{{company_name}}**, zodat de e-mail persoonlijker wordt. Zorg er wel voor dat de gebruikte placeholders overeenkomen met de namen van de betreffende [invoervelden](#tekst-input). Vanuit privacyoogpunt wordt aanbevolen om een [checkbox](#checkbox) toe te voegen met de tekst: *Ik ga ermee akkoord dat mijn gegevens gebruikt mogen worden voor de verwerking van mijn verzoek.* Stel tot slot ook het onderwerp van de bevestigingsmail in (23).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/52.5.png"></details>|
 |**6**|Via het tabblad [Styling](#styling) (24) kun je kleuren en andere visuele instellingen van het formulier aanpassen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/52.6.png"></details>|
-|**7**|Via het tabblad [Geavanceerd](#5-geavanceerd) (25) zijn aanvullende technische instellingen beschikbaar. Zo kan het formulier via **ExcelAsMailAttachment** (26) als Excel-bijlage worden meegestuurd. De opties **Database** en **ExcelFile** slaan de gegevens op aan de serverzijde van de webshop. Ook kan hier de tijd (27) van de eerder beschreven **Tijd gebaseerd**-botpreventie worden ingesteld (in seconden). Optioneel kun je het formulier een naam geven (28), zodat deze overzichtelijk wordt weergegeven in het [Form Tracking-scherm](#form-tracking). Daarnaast kan, net als bij de algemene instellingen, een URL (29) worden ingesteld waarnaar de gebruiker na verzending wordt doorgestuurd. Wij raden aan om slechts één van deze twee doorstuurmogelijkheden te gebruiken. Tot slot kun je instellen dat alle invoervelden na verzending worden leeggemaakt (30) of het formulier in **Dummy**-modus (31) zetten voor testdoeleinden. De overige instellingen worden beschreven bij [Geavanceerd](#5-geavanceerd).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/52.7.png"></details>|
+|**7**|Via het tabblad [Geavanceerd](#4-geavanceerd) (25) zijn aanvullende technische instellingen beschikbaar. Zo kan het formulier via **ExcelAsMailAttachment** (26) als Excel-bijlage worden meegestuurd. De opties **Database** en **ExcelFile** slaan de gegevens op aan de serverzijde van de webshop. Ook kan hier de tijd (27) van de eerder beschreven **Tijd gebaseerd**-botpreventie worden ingesteld (in seconden). Optioneel kun je het formulier een naam geven (28), zodat deze overzichtelijk wordt weergegeven in het [Form Tracking-scherm](#form-tracking). Daarnaast kan, net als bij de algemene instellingen, een URL (29) worden ingesteld waarnaar de gebruiker na verzending wordt doorgestuurd. Wij raden aan om slechts één van deze twee doorstuurmogelijkheden te gebruiken. Tot slot kun je instellen dat alle invoervelden na verzending worden leeggemaakt (30) of het formulier in **Dummy**-modus (31) zetten voor testdoeleinden. De overige instellingen worden beschreven bij [Geavanceerd](#4-geavanceerd).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/52.7.png"></details>|
 |**8**|Via het tabblad [Zichtbaarheid](#zichtbaarheid) bepaal je voor welke gebruikers het formulier zichtbaar is.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/52.8.png"></details>|
 
 ---
@@ -1000,7 +982,7 @@ Gebruik dit component om tekstuele gegevens in te voeren binnen een formulier.
 |:--|:--|
 |**1**|Nadat het [Formulier](#formulier) is aangemaakt en geconfigureerd, kunnen de invoervelden worden toegevoegd. In dit voorbeeld willen we een **Voornaam**- en **Achternaam**-veld naast elkaar plaatsen. Voeg hiervoor eerst een [Row en Column](#rowcolumn) toe aan het formulier. Klik vervolgens op het '+'-icoon achter de **Column** (1). Het **Componenten dialoog** wordt nu geopend.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/53.1.png"></details>|
 |**2**|Navigeer via de categorie **Formulier** (2) naar het **Tekst input**-component (3) en voeg dit toe aan de **Column** (4).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/53.2.png"></details>|
-|**3**|Het **Tekst input**-component (5) is nu toegevoegd aan de **Column** en direct zichtbaar in de editor (6). Open het tabblad **Algemene instellingen** (7) om het component te configureren.<br><br>**8 - Vertalingen bewerken:** Voeg vertalingen toe voor meerdere talen. Lees hier meer over bij [Vertalingen](#vertalingen).<br><br>**9 - InputName:** Dit veld wordt automatisch gevuld met een unieke waarde. **LET OP:** Zorg ervoor dat ieder invoerveld een unieke **InputName** heeft. Dubbele namen veroorzaken fouten bij het verzenden van het formulier. De **InputName** kan bovendien worden gebruikt voor placeholders in de bevestigingsmail of het bedankbericht van het [Formulier](#formulier).<br><br>**10 - Mandatory:** Geef aan of dit een verplicht invoerveld is.<br><br>**11 - RegexErrorText:** Vul hier de foutmelding in die wordt weergegeven wanneer de ingevoerde waarde niet aan de validatie voldoet.<br><br>**12 - GeneralRegex:** Selecteer een standaardvalidatie, bijvoorbeeld voor een e-mailadres of telefoonnummer.<br><br>**13 - Multiline:** Schakel deze optie in om een groter tekstveld (textarea) te tonen waarin bezoekers langere berichten kunnen invoeren.<br><br>**14 - Label:** De tekst die boven het invoerveld wordt weergegeven.<br><br>**15 - CharacterRange:** Stel het minimale en/of maximale aantal toegestane tekens in.<br><br>**16 - Placeholder:** De tekst die in het invoerveld wordt weergegeven totdat de gebruiker begint met typen.<br><br>**17 - Component Styles:** Lees hier meer over bij [Component Styles](#component-styles).<br><br>Meer informatie over de tabbladen [Styling](#4-styling) (18), [Geavanceerd](#5-geavanceerd) (19) en [Zichtbaarheid](#6-zichtbaarheid) (20) vind je in de desbetreffende hoofdstukken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/53.3.png"></details>|
+|**3**|Het **Tekst input**-component (5) is nu toegevoegd aan de **Column** en direct zichtbaar in de editor (6). Open het tabblad **Algemene instellingen** (7) om het component te configureren.<br><br>**8 - Vertalingen bewerken:** Voeg vertalingen toe voor meerdere talen. Lees hier meer over bij [Vertalingen](#vertalingen).<br><br>**9 - InputName:** Dit veld wordt automatisch gevuld met een unieke waarde. **LET OP:** Zorg ervoor dat ieder invoerveld een unieke **InputName** heeft. Dubbele namen veroorzaken fouten bij het verzenden van het formulier. De **InputName** kan bovendien worden gebruikt voor placeholders in de bevestigingsmail of het bedankbericht van het [Formulier](#formulier).<br><br>**10 - Mandatory:** Geef aan of dit een verplicht invoerveld is.<br><br>**11 - RegexErrorText:** Vul hier de foutmelding in die wordt weergegeven wanneer de ingevoerde waarde niet aan de validatie voldoet.<br><br>**12 - GeneralRegex:** Selecteer een standaardvalidatie, bijvoorbeeld voor een e-mailadres of telefoonnummer.<br><br>**13 - Multiline:** Schakel deze optie in om een groter tekstveld (textarea) te tonen waarin bezoekers langere berichten kunnen invoeren.<br><br>**14 - Label:** De tekst die boven het invoerveld wordt weergegeven.<br><br>**15 - CharacterRange:** Stel het minimale en/of maximale aantal toegestane tekens in.<br><br>**16 - Placeholder:** De tekst die in het invoerveld wordt weergegeven totdat de gebruiker begint met typen.<br><br>**17 - Component Styles:** Lees hier meer over bij [Component Styles](#component-styles).<br><br>Meer informatie over de tabbladen [Styling](#3-styling) (18), [Geavanceerd](#4-geavanceerd) (19) en [Zichtbaarheid](#5-zichtbaarheid) (20) vind je in de desbetreffende hoofdstukken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/53.3.png"></details>|
 |**4**|Nu de structuur **Row → Column → Tekst input** is aangemaakt, kun je eenvoudig extra invoervelden toevoegen door met de rechtermuisknop op de **Column** (21) te klikken en **Dupliceren** (22) te kiezen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/53.4.png"></details>|
 |**5**|Er wordt direct een tweede **Column** toegevoegd met dezelfde inhoud (23). Selecteer vervolgens het nieuwe **Tekst input**-component via de editor (23) of de Navigator (24). Geef de **InputName** een nieuwe, unieke waarde (25) en pas de **Placeholder** (26) en eventueel het **Label** aan.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/53.5.png"></details>|
 
@@ -1136,7 +1118,7 @@ Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te 
 |:--|:--|
 |**1**|Wanneer het [Formulier](#formulier) is voorzien van alle gewenste invoervelden, moet er nog een **Verzendknop** aan het formulier worden toegevoegd. Hiermee kan de bezoeker het formulier verzenden naar de ingestelde ontvanger(s). Klik hiervoor op het '+'-icoon achter het formulier (1). Het componentendialoog wordt geopend.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/63.1.png"></details>|
 |**2**|Navigeer via de categorie **Formulier** (2) of gebruik de zoekfunctie (3) om de **Verzendknop** te vinden. Voeg deze vervolgens toe (4) aan het formulier.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/63.2.png"></details>|
-|**3**|De **Verzendknop** is nu toegevoegd aan het formulier (5) en direct zichtbaar in de Editor (6). Via het tabblad **Algemene instellingen** (7) kunnen de volgende instellingen worden aangepast:<br><br>**8 - [Vertalingen](#vertalingen):** Stel indien gewenst de vertalingen voor de knop in.<br><br>**9 - Tekst:** Vul hier de tekst in die op de Verzendknop wordt weergegeven.<br><br>**10 - Chevron:** Schakel deze optie in of uit om een pijltje op de Verzendknop weer te geven.<br><br>**11 - Switch Variant:** Schakel deze optie in om de secundaire kleur van de Verzendknop te gebruiken. Deze kleur wordt ingesteld in de [Thema Configuratie](#thema-configuratie) onder de naam `button-secondary-bgcolor`.<br><br>**12 - URL OPTIONEEL:** Vul hier indien gewenst een URL-pad in. In de meeste gevallen kan dit veld leeg worden gelaten.<br><br>**13 - Button positie:** Stel hier de positie van de Verzendknop in.<br><br>**14 - Openen in nieuw tabblad:** Wanneer deze optie is ingeschakeld, wordt bij het klikken op de knop een nieuw browsertabblad geopend waarin het opgegeven URL-pad (12) wordt geladen.<br><br>**15 - [Component Style](#component-styles):** Selecteer indien gewenst een Component Style voor de Verzendknop.<br><br>Voor aanvullende instellingen van de overige tabbladen kun je de hoofdstukken [Styling](#4-styling), [Geavanceerd](#5-geavanceerd) en [Zichtbaarheid](#6-zichtbaarheid) raadplegen.<br><br>Wanneer het formulier volledig en correct is ingevuld, kan de bezoeker het formulier verzenden via de zojuist toegevoegde **Verzendknop**. Verzonden formulieren kunnen vervolgens worden bijgehouden via het scherm [Form Tracking](#form-tracking).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/63.3.png"></details>|
+|**3**|De **Verzendknop** is nu toegevoegd aan het formulier (5) en direct zichtbaar in de Editor (6). Via het tabblad **Algemene instellingen** (7) kunnen de volgende instellingen worden aangepast:<br><br>**8 - [Vertalingen](#vertalingen):** Stel indien gewenst de vertalingen voor de knop in.<br><br>**9 - Tekst:** Vul hier de tekst in die op de Verzendknop wordt weergegeven.<br><br>**10 - Chevron:** Schakel deze optie in of uit om een pijltje op de Verzendknop weer te geven.<br><br>**11 - Switch Variant:** Schakel deze optie in om de secundaire kleur van de Verzendknop te gebruiken. Deze kleur wordt ingesteld in de [Thema Configuratie](#thema-configuratie) onder de naam `button-secondary-bgcolor`.<br><br>**12 - URL OPTIONEEL:** Vul hier indien gewenst een URL-pad in. In de meeste gevallen kan dit veld leeg worden gelaten.<br><br>**13 - Button positie:** Stel hier de positie van de Verzendknop in.<br><br>**14 - Openen in nieuw tabblad:** Wanneer deze optie is ingeschakeld, wordt bij het klikken op de knop een nieuw browsertabblad geopend waarin het opgegeven URL-pad (12) wordt geladen.<br><br>**15 - [Component Style](#component-styles):** Selecteer indien gewenst een Component Style voor de Verzendknop.<br><br>Voor aanvullende instellingen van de overige tabbladen kun je de hoofdstukken [Styling](#3-styling), [Geavanceerd](#4-geavanceerd) en [Zichtbaarheid](#5-zichtbaarheid) raadplegen.<br><br>Wanneer het formulier volledig en correct is ingevuld, kan de bezoeker het formulier verzenden via de zojuist toegevoegde **Verzendknop**. Verzonden formulieren kunnen vervolgens worden bijgehouden via het scherm [Form Tracking](#form-tracking).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/63.3.png"></details>|
 
 ---
 

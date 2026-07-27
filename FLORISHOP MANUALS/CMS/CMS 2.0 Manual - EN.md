@@ -50,16 +50,12 @@
 - [Drag & Drop](#drag--drop)
 - [SEO](#seo)
 - [Preferences](#preferences)
+- [Responsive tabs](#responsive-tabs)
 
-#### 2. Responsive Tabs
-- [Desktop](#desktop)
-- [Tablet](#tablet)
-- [Mobile](#mobile)
-
-#### 3. General Settings
+#### 2. General Settings
 - [Translations](#translations)
 
-#### 4. Styling
+#### 3. Styling
 - [Color Picker](#color-picker)
 - [Border](#border)
 - [Margin/Padding](#marginpadding)
@@ -68,7 +64,7 @@
 - [Box Shadow](#box-shadow)
 - [Overflow](#overflow)
 
-#### 5. Advanced
+#### 4. Advanced
 - [Hide When Empty](#hide-when-empty)
 - [Identification Name](#identification-name)
 - [Slot Name](#slot-name)
@@ -76,7 +72,7 @@
 - [Tag](#tag)
 - [Z-Index](#z-index)
 
-#### 6. Visibility
+#### 5. Visibility
 - [Hide Content](#hide-content)
 - [Show Content](#show-content)
 - [Highlight Content](#highlight-content)
@@ -543,29 +539,15 @@ In this tab, you can configure the [Editor](#editor) according to your personal 
 
 ---
 
-### Responsive Tabs
+#### Responsive tabs
 
-#### Desktop
+Use these tabs to ensure that your website looks clean and professional not only on desktop devices, but also on tablets and mobile devices.
 
-| Item | Description |
-|---|---|
-| Desktop | This description will be added later |
-
----
-
-#### Tablet
-
-| Item | Description |
-|---|---|
-| Tablet | This description will be added later |
-
----
-
-#### Mobile
-
-| Item | Description |
-|---|---|
-| Mobile | This description will be added later |
+| Step | Explanation |
+|:--|:--|
+| **1** | When you select a component (1), the responsive tabs (2) appear in the [Aside Editor](#aside-editor). Enter the desired settings for desktop devices.<details><summary><b>Click here for the example image</b></summary><img src="media/23.1.png"></details> |
+| **2** | To define different behavior for tablet devices (3), enter a different value via the **Styling** tab (4).<details><summary><b>Click here for the example image</b></summary><img src="media/23.2.png"></details> |
+| **3** | To define different behavior for mobile devices (5), enter a different value via the **Styling** tab (6). Use the [Responsive button](#editor) (7) to check how the [Text](#text) component responds on mobile and tablet devices.<details><summary><b>Click here for the example image</b></summary><img src="media/23.3.png"></details> |
 
 ---
 
@@ -988,7 +970,7 @@ You can also add components such as [Rows/Columns](#rowcolumn) inside a Form to 
 |**4**|The confirmation options (15) can also be configured easily. Under **Confirmation feedback** (16), choose whether to display a thank-you message using **ShowDialog**, or redirect the visitor to a [CMS page](#page). When **CMSPage** is selected, choose the destination page via **CMS Page** (17). If you choose **ShowDialog**, you can enter a title (18) and message (19) that will be displayed after a successful submission.<details><summary><b>Click here for the example image</b></summary><img src="media/52.4.png"></details>|
 |**5**|The **Mail to sender** (20) settings apply when the **Send confirmation email** option is enabled in the [Email Input component](#email-input). After the form is submitted, the sender will automatically receive a confirmation email. Enter a title (21) and message (22). You can use placeholders such as **{{first_name}}** or **{{company_name}}** to personalize the email. Make sure the placeholder names match the corresponding [input fields](#text-input). For privacy compliance, it is recommended to add a [Checkbox](#checkbox) with the following text: *I agree that my personal data may be used to process my request.* Finally, configure the email subject (23).<details><summary><b>Click here for the example image</b></summary><img src="media/52.5.png"></details>|
 |**6**|Use the [Styling](#styling) tab (24) to customize the appearance of the form, including colors and other visual settings.<details><summary><b>Click here for the example image</b></summary><img src="media/52.6.png"></details>|
-|**7**|The [Advanced](#5-advanced) tab (25) contains additional technical settings. For example, **ExcelAsMailAttachment** (26) allows the submitted data to be included as an Excel attachment in the email. The **Database** and **ExcelFile** options store the submitted data on the webshop server. You can also configure the timeout (27) for the previously described **Time-based** bot prevention (in seconds). Optionally, assign a name to the form (28) so it appears clearly in the [Form Tracking](#form-tracking) overview. You can also specify a redirect URL (29), just like in the general settings, to redirect users after a successful submission. We recommend using only one redirect method. Finally, you can choose to clear all input fields after submission (30) or enable **Dummy** mode (31) for testing purposes. The remaining settings are described in [Advanced](#5-advanced).<details><summary><b>Click here for the example image</b></summary><img src="media/52.7.png"></details>|
+|**7**|The [Advanced](#4-advanced) tab (25) contains additional technical settings. For example, **ExcelAsMailAttachment** (26) allows the submitted data to be included as an Excel attachment in the email. The **Database** and **ExcelFile** options store the submitted data on the webshop server. You can also configure the timeout (27) for the previously described **Time-based** bot prevention (in seconds). Optionally, assign a name to the form (28) so it appears clearly in the [Form Tracking](#form-tracking) overview. You can also specify a redirect URL (29), just like in the general settings, to redirect users after a successful submission. We recommend using only one redirect method. Finally, you can choose to clear all input fields after submission (30) or enable **Dummy** mode (31) for testing purposes. The remaining settings are described in [Advanced](#4-advanced).<details><summary><b>Click here for the example image</b></summary><img src="media/52.7.png"></details>|
 |**8**|Use the [Visibility](#visibility) tab to determine which users can see the form.<details><summary><b>Click here for the example image</b></summary><img src="media/52.8.png"></details>|
 
 ---
@@ -1003,7 +985,7 @@ Use this component to enter textual data within a form.
 |:--|:--|
 |**1**|After the [Form](#form) has been created and configured, input fields can be added. In this example, we want to place a **First name** and **Last name** field next to each other. First, add a [Row and Column](#rowcolumn) to the form. Then click the '+' icon behind the **Column** (1). The **Component dialog** will now open.<details><summary><b>Click here for the example image</b></summary><img src="media/53.1.png"></details>|
 |**2**|Navigate to the **Form** category (2), search for the **Text input** component (3), and add it to the **Column** (4).<details><summary><b>Click here for the example image</b></summary><img src="media/53.2.png"></details>|
-|**3**|The **Text input** component (5) has now been added to the **Column** and is immediately visible in the editor (6). You can now configure the component through the **General settings** tab (7).<br><br>**8 - Edit translations:** Add translations for multiple languages. Read more about this in [Translations](#translations).<br><br>**9 - InputName:** This field is automatically populated with a unique value. **IMPORTANT:** Make sure every input field has a unique **InputName**. Duplicate names will cause errors when submitting the form. The **InputName** can also be used to personalize the thank-you message in the settings of the [Form](#form).<br><br>**10 - Mandatory:** Enable or disable this option to specify whether this field is required.<br><br>**11 - RegexErrorText:** Enter the message that should be displayed when the entered value does not match the required format.<br><br>**12 - GeneralRegex:** Select whether the field should validate its content as a valid phone number or email address.<br><br>**13 - Multiline:** Enable this option to display a larger input field where visitors can enter a message or longer text.<br><br>**14 - Label:** The name entered here is displayed above the input field.<br><br>**15 - CharacterRange:** Define the minimum and/or maximum number of characters allowed in the input field.<br><br>**16 - Placeholder:** The text entered here is displayed as a placeholder inside the input field.<br><br>**17 - Component Styles:** Read more about this in [Component Styles](#component-styles).<br><br>More information about the [Styling](#4-styling) (18), [Advanced](#5-advanced) (19), and [Visibility](#6-visibility) (20) tabs can be found in their respective chapters.<details><summary><b>Click here for the example image</b></summary><img src="media/53.3.png"></details>|
+|**3**|The **Text input** component (5) has now been added to the **Column** and is immediately visible in the editor (6). You can now configure the component through the **General settings** tab (7).<br><br>**8 - Edit translations:** Add translations for multiple languages. Read more about this in [Translations](#translations).<br><br>**9 - InputName:** This field is automatically populated with a unique value. **IMPORTANT:** Make sure every input field has a unique **InputName**. Duplicate names will cause errors when submitting the form. The **InputName** can also be used to personalize the thank-you message in the settings of the [Form](#form).<br><br>**10 - Mandatory:** Enable or disable this option to specify whether this field is required.<br><br>**11 - RegexErrorText:** Enter the message that should be displayed when the entered value does not match the required format.<br><br>**12 - GeneralRegex:** Select whether the field should validate its content as a valid phone number or email address.<br><br>**13 - Multiline:** Enable this option to display a larger input field where visitors can enter a message or longer text.<br><br>**14 - Label:** The name entered here is displayed above the input field.<br><br>**15 - CharacterRange:** Define the minimum and/or maximum number of characters allowed in the input field.<br><br>**16 - Placeholder:** The text entered here is displayed as a placeholder inside the input field.<br><br>**17 - Component Styles:** Read more about this in [Component Styles](#component-styles).<br><br>More information about the [Styling](#3-styling) (18), [Advanced](#4-advanced) (19), and [Visibility](#5-visibility) (20) tabs can be found in their respective chapters.<details><summary><b>Click here for the example image</b></summary><img src="media/53.3.png"></details>|
 |**4**|Now that the structure **Row → Column → Text input** has been created, you can easily duplicate the column by right-clicking the **Column** (21) and selecting **Duplicate** (22).<details><summary><b>Click here for the example image</b></summary><img src="media/53.4.png"></details>|
 |**5**|A new **Column** will immediately be added next to the existing one with the same content (23). Select the new **Text input** component through the editor (23) or the Navigator (24). Make sure the **InputName** has a unique value (25) and adjust the **Placeholder** (26) and other settings if needed.<details><summary><b>Click here for the example image</b></summary><img src="media/53.5.png"></details>|
 
@@ -1139,7 +1121,7 @@ Use this component to submit a form and process the entered data.
 |:--|:--|
 |**1**|Once the [Form](#form) contains all desired input fields, a **Submit button** must be added to the form. This allows the visitor to submit the form to the configured recipient(s). Click the '+' icon behind the form (1). The component dialog will now open.<details><summary><b>Click here for the example image</b></summary><img src="media/63.1.png"></details>|
 |**2**|Navigate to the **Form** category (2) or use the search function (3) to find the **Submit button**. Then add it (4) to the form.<details><summary><b>Click here for the example image</b></summary><img src="media/63.2.png"></details>|
-|**3**|The **Submit button** has now been added to the form (5) and is immediately visible in the Editor (6). The following settings can be configured via the **General settings** tab (7):<br><br>**8 - [Translations](#translations):** If desired, configure the translations for the button.<br><br>**9 - Text:** Enter the text that should be displayed on the Submit button.<br><br>**10 - Chevron:** Enable or disable this option to display an arrow on the Submit button.<br><br>**11 - Switch Variant:** Enable this option to use the secondary color of the Submit button. This color is configured in the [Theme Configuration](#theme-configuration) under the name `button-secondary-bgcolor`.<br><br>**12 - URL OPTIONAL:** Enter a URL path here if desired. In most cases, this field can be left empty.<br><br>**13 - Button position:** Set the position of the Submit button here.<br><br>**14 - Open in new tab:** When this option is enabled, clicking the button opens a new browser tab in which the specified URL path (12) is loaded.<br><br>**15 - [Component Style](#component-styles):** If desired, select a Component Style for the Submit button.<br><br>For additional settings in the other tabs, refer to the [Styling](#4-styling), [Advanced](#5-advanced), and [Visibility](#6-visibility) sections.<br><br>Once the form has been completed correctly, the visitor can submit it using the newly added **Submit button**. Submitted forms can then be tracked via the [Form Tracking](#form-tracking) screen.<details><summary><b>Click here for the example image</b></summary><img src="media/63.3.png"></details>|
+|**3**|The **Submit button** has now been added to the form (5) and is immediately visible in the Editor (6). The following settings can be configured via the **General settings** tab (7):<br><br>**8 - [Translations](#translations):** If desired, configure the translations for the button.<br><br>**9 - Text:** Enter the text that should be displayed on the Submit button.<br><br>**10 - Chevron:** Enable or disable this option to display an arrow on the Submit button.<br><br>**11 - Switch Variant:** Enable this option to use the secondary color of the Submit button. This color is configured in the [Theme Configuration](#theme-configuration) under the name `button-secondary-bgcolor`.<br><br>**12 - URL OPTIONAL:** Enter a URL path here if desired. In most cases, this field can be left empty.<br><br>**13 - Button position:** Set the position of the Submit button here.<br><br>**14 - Open in new tab:** When this option is enabled, clicking the button opens a new browser tab in which the specified URL path (12) is loaded.<br><br>**15 - [Component Style](#component-styles):** If desired, select a Component Style for the Submit button.<br><br>For additional settings in the other tabs, refer to the [Styling](#3-styling), [Advanced](#4-advanced), and [Visibility](#5-visibility) sections.<br><br>Once the form has been completed correctly, the visitor can submit it using the newly added **Submit button**. Submitted forms can then be tracked via the [Form Tracking](#form-tracking) screen.<details><summary><b>Click here for the example image</b></summary><img src="media/63.3.png"></details>|
 
 ---
 
