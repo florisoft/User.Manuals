@@ -105,6 +105,8 @@ Wanneer een gescande verpakking meerdere producten bevat, worden de bijbehorende
 
 Selecteer een product of verpakking in **Opgebouwd** of **Op te bouwen** om details te bekijken. Welke gegevens zichtbaar zijn en in welke volgorde, wordt bepaald door `AvailableProductDetails`.
 
+Bij een product staat bovenaan de statusbalk. Open **Status log** om de logistieke statustijdlijn van het orderitem te bekijken. Opeenvolgende registraties met dezelfde status worden gegroepeerd; alleen de meest recente registratie uit zo'n reeks wordt getoond. De algemene policy `Apps_Logistics_ShowLogisticStatusOptions` bepaalt welke processen zichtbaar zijn. Als deze lijst leeg is, wordt de statuslog niet getoond.
+
 Bij een verpakking ziet u de inhoud. Bij een product kunnen onder andere aantal, lengte, klant, leverancier, picktijd, picker, fustcode, fustaantal, fustomschrijving en voorraadgegevens worden getoond. Wanneer het product al gedeeltelijk is opgebouwd, ziet u ook op welke karren de aantallen zijn geregistreerd.
 
 Als **Fustcode** en **Fustaantal** via `AvailableProductDetails` worden getoond, kunt u deze waarden wijzigen. Voor **Fustcode** opent een lookup met de waarden uit `AllowedPackagingCodesForTrolleyItems`; de bestaande fustcode blijft direct zichtbaar. Na bevestiging worden de gewijzigde waarden op de orderregel opgeslagen. Bij een reeds geprinte factuur wordt de wijziging geblokkeerd en meldt de app dat de orderitems niet meer gewijzigd mogen worden.

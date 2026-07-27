@@ -105,6 +105,8 @@ When a scanned package contains multiple products, the associated content lines 
 
 Select a product or package under **Processed** or **To process** to view its details. `AvailableProductDetails` determines which information is visible and in which order.
 
+For a product, the status bar is shown at the top. Open **Status log** to view the order item's logistics status timeline. Consecutive registrations with the same status are grouped; only the most recent registration from such a sequence is shown. The general `Apps_Logistics_ShowLogisticStatusOptions` policy determines which processes are visible. When this list is empty, the status log is not shown.
+
 For a package, the contents are shown. For a product, the app can show the quantity, length, customer, supplier, picking time, picker, packaging code, packaging quantity, packaging description, and stock information. If a product has already been partially processed, the trolleys and quantities on which it was registered are also shown.
 
 When **Packaging code** and **Packaging quantity** are shown through `AvailableProductDetails`, you can change these values. **Packaging code** opens a lookup containing the values from `AllowedPackagingCodesForTrolleyItems`; the existing packaging code remains visible. After confirmation, the changed values are saved on the order line. If the invoice has already been printed, the change is blocked and the app reports that the order items can no longer be changed.
