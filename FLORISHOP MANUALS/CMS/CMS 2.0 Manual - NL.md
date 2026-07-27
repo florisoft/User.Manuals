@@ -284,9 +284,9 @@ Het is ook mogelijk om de footer volledig naar eigen wens te ontwerpen (zoals je
 
 #### Templates
 
-Met **Templates** kun je eenvoudig terugvallen op content die je eerder met het CMS hebt opgebouwd. Dit kunnen kleine contentblokken zijn, maar ook complete pagina's. Hierdoor hoef je niet telkens opnieuw dezelfde content op te bouwen.
+Met **Templates** kun je eenvoudig content hergebruiken die je eerder met het CMS hebt opgebouwd. Dit kunnen kleine contentblokken zijn, maar ook complete pagina's. Hierdoor hoef je niet telkens opnieuw dezelfde content op te bouwen.
 
-Templates kunnen ook worden ingezet voor [Blog-componenten](#blog) om dynamisch content in te laden. Daarnaast kun je het [Frame-component](#frame) gebruiken om een template op meerdere plekken binnen de webshop te plaatsen. Wanneer het template wordt aangepast, worden de wijzigingen automatisch doorgevoerd op alle plekken waar het template wordt gebruikt.
+Templates kunnen ook worden gebruikt voor [Blog-componenten](#blog) om dynamisch content in te laden. Daarnaast kun je het [Frame-component](#frame) gebruiken om een template op meerdere plekken binnen de webshop te plaatsen. Wanneer het template wordt aangepast, worden de wijzigingen automatisch doorgevoerd op alle locaties waar het template wordt gebruikt.
 
 | Stap | Uitleg |
 |:--|:--|
@@ -302,7 +302,7 @@ Templates kunnen ook worden ingezet voor [Blog-componenten](#blog) om dynamisch 
 | **10** | Het template (20) wordt nu weergegeven op jouw CMS-pagina. Je kunt vervolgens nog wijzigingen aanbrengen en de pagina publiceren, zonder dat je de content opnieuw hoeft op te bouwen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/6.10.png"></details> |
 | **11** | We hebben nu op een eenvoudige manier een template opgebouwd, maar de mogelijkheden van Templates zijn veel uitgebreider. Wanneer je zelf een volledige pagina of sectie hebt opgebouwd die je opnieuw wilt gebruiken, zijn Templates hiervoor een uitstekende oplossing. Via een rechtermuisklik in de [Navigator](#navigator) kun je een volledige pagina of sectie (21) — in dit voorbeeld **Panel (hero)** — opslaan als template (22).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/6.11.png"></details> |
 | **12** | Vul vervolgens in het dialoogvenster de **Naam** (23), **Beschrijving** (24) en eventueel een **Categorie** (25) in. Klik daarna op **Opslaan** (26).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/6.12.png"></details> |
-| **13** | Om het overzicht van de Componentendialoog verder te verduidelijken, kun je zelf een screenshot van het template maken. Deze afbeelding kun je vervolgens uploaden via het **Template-beheerscherm** (27).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/6.13.png"></details> |
+| **13** | Om het overzicht van de [Componentendialoog](#componentendialoog) verder te verduidelijken, kun je zelf een screenshot van het template maken. Deze afbeelding kun je vervolgens uploaden via het **Template-beheerscherm** (27). De screenshot wordt vervolgens weergegeven als thumbnail van het template.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/6.13.png"></details> |
 
 ---
 
