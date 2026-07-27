@@ -33,6 +33,9 @@
 - [Media](#media)
 - [Documents](#documents)
 - [Links](#links)
+- [Editor](#editor)
+- [Navigator](#navigator)
+- [Component dialog](#component-dialog)
 
 ---
 
@@ -255,7 +258,7 @@ A Blog Page is an accessible component within the CMS where content can be added
 |#|Explanation|
 |:--|:--|
 |**1**|After creating the Blog category, navigate via '*Content management (CMS)*' (1) to '*Pages*' (2).<details><summary><b>Click here for the example image</b></summary><img src="media/4.1.png"></details>|
-|**2**|To create a page, click the button with the '**+**' icon (3). This opens the page creation screen. A dialog will now appear. Adjust the following settings:<br><br>- **URL (4):** the name of the page that will be visible in the page URL. You do not need to include the entire domain name here. Only the path name is required, for example: '*example*'.<br>**DO NOT USE SPACES OR CAPITAL LETTERS!**<br><br>- **Page display name (5):** the name that will be visible to customers on the website.<br><br>- **Category (6):** select the correct category, namely the category that was created in the previous chapter.<br><br>- **Is visible in navigation (7):** check this checkbox to make the page visible in the webshop.<br><br>- **Submit (8):** click the 'Submit' button to create the page.<details><summary><b>Click here for the example image</b></summary><img src="media/4.2.png"></details>|
+|**2**|To create a page, click the button with the '**+**' icon (3). This opens the page creation screen. A dialog will now appear. Adjust the following settings:<br><br>- **External URL/URL (4):** Only enable this option when you want to enter an external URL, such as `https://florisoft.nl`. When a visitor clicks on the page, the external URL will open in a new tab and the visitor will be redirected to the specified web address.<br><br>When you are not using an external URL, enter the name that will be displayed in the page URL. You do not need to enter the full domain; only the path name is required, for example: `example`.<br><br>**PLEASE NOTE: DO NOT USE SPACES OR CAPITAL LETTERS!**<br><br>- **Page display name (5):** the name that will be visible to customers on the website.<br><br>- **Category (6):** select the correct category, namely the category that was created in the previous chapter.<br><br>- **Is visible in navigation (7):** check this checkbox to make the page visible in the webshop.<br><br>- **Submit (8):** click the 'Submit' button to create the page.<details><summary><b>Click here for the example image</b></summary><img src="media/4.2.png"></details>|
 |**3**|Click the pencil icon (9) to open the Properties (10) dialog of the newly created page. Click the '*Edit translations*' button (11).<details><summary><b>Click here for the example image</b></summary><img src="media/4.3.png"></details>|
 |**4**|The translation dialog will open. The configured default language (12) is displayed on the left side. Use the right dropdown menu (13) to select the language you want to apply/edit. Configure the following settings:<br><br>- **URL (14):** enter the translations for the URL path.<br><br>- **Page display name (15):** enter the translations for the page display name.<br><br>- **Confirm (16):** click '*Confirm*' to save the changes.<details><summary><b>Click here for the example image</b></summary><img src="media/4.4.png"></details>|
 |**5**|Open the '*Visibility*' tab (17). Configure the following settings:<br><br>- **Language Zone Selection (18):** select one or more languages from the dropdown menu to which this category should be linked. Under Zone selection (19), select a custom CMS Zone.<br><br>- **Valid from (20) and Valid until (21):** under 'Valid from' and 'Valid until', dates and times can be configured for when the settings above should apply.<details><summary><b>Click here for the example image</b></summary><img src="media/4.5.png"></details>|
@@ -429,6 +432,30 @@ If you have your own website in addition to your FloriShop domain, it can be use
 |:--|:--|
 |**1**|Navigate via **Content Management (CMS)** (1) to **Links** (2).<details><summary><b>Click here for the example image</b></summary><img src="media/16.1.png"></details>|
 |**2**|Click the **'+' icon** (3) to create a new link. In the dialog, enter the following information:<br><br>- **Name (4):** enter a recognizable name for the link.<br><br>- **URL (5):** enter the URL to which the link should navigate.<br><br>- **Display name (6):** enter the name under which the link should be displayed in the navigation bar.<br><br>- **Navigation order (optional) (7):** determine the position of the link in the navigation bar. **1** places the link at the beginning.<br><br>- **Add user token (optional) (8):** enable this option if a user token should be added to the URL.<br><br>Then click **Save** (9) to save the link. The link will then be displayed directly in the navigation bar of your shop.<details><summary><b>Click here for the example image</b></summary><img src="media/16.2.png"></details>|
+
+---
+
+#### Editor
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Editor | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Navigator
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Navigator | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Component dialog
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Component dialog | Deze beschrijving wordt aangevuld |
 
 ---
 

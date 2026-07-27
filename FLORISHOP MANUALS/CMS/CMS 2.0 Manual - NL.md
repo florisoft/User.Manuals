@@ -34,6 +34,9 @@
 - [Media](#media)
 - [Documenten](#documenten)
 - [Links](#links)
+- [Editor](#editor)
+- [Navigator](#navigator)
+- [Componenten dialoog](#componenten-dialoog)
 
 ---
 
@@ -254,7 +257,7 @@ Een Blogpagina is een toegankelijk onderdeel binnen het CMS waarop content gepla
 |#|Uitleg|
 |:--|:--|
 |**1**|Na het aanmaken van de Blog categorie navigeer je via '*Content management (CMS)*' (1) naar '*Pagina’s*' (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/4.1.png"></details>|
-|**2**|Om een pagina aan te maken klik je op de knop met het '**+**'-teken (3). Hiermee open je het scherm voor het aanmaken van pagina’s. Er wordt nu een dialoog geopend. Pas hier de volgende instellingen aan:<br><br>- **URL (4):**: de naam van de pagina die zichtbaar wordt in de URL van de pagina. Hier hoef je niet het hele domein in mee te nemen. Enkel het pad-naam is voldoende zoals: '*voorbeeld*'.<br>**GEBRUIK GEEN SPATIES EN HOOFDLETTERS!**<br><br>- **Page display name (5):** de naam die zichtbaar wordt voor de klant op de website.<br><br>- **Category (6):** selecteer de juiste categorie, namelijk de categorie die in het vorige hoofdstuk is aangemaakt.<br><br>- **Is visible in navigation (7):** vink dit selectievakje aan om de pagina zichtbaar te maken in de webshop.<br><br>- **Submit (8):** klik op de knop 'Submit' om de pagina aan te maken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/4.2.png"></details>|
+|**2**|Om een pagina aan te maken klik je op de knop met het '**+**'-teken (3). Hiermee open je het scherm voor het aanmaken van pagina’s. Er wordt nu een dialoog geopend. Pas hier de volgende instellingen aan:<br><br>- **Externe URL/URL (4):** Schakel deze optie alleen in wanneer je een externe URL wilt invoeren, zoals `https://florisoft.nl`. Wanneer een bezoeker op de pagina klikt, wordt de externe URL in een nieuw tabblad geopend en wordt de bezoeker naar het opgegeven webadres doorgestuurd.<br><br>Wanneer je geen externe URL gebruikt, voer je hier de naam in die zichtbaar wordt in de URL van de pagina. Je hoeft hierbij niet het volledige domein in te vullen; alleen de padnaam is voldoende, bijvoorbeeld: `voorbeeld`.<br><br>**LET OP: GEBRUIK GEEN SPATIES OF HOOFDLETTERS!**<br><br>- **Page display name (5):** de naam die zichtbaar wordt voor de klant op de website.<br><br>- **Category (6):** selecteer de juiste categorie, namelijk de categorie die in het vorige hoofdstuk is aangemaakt.<br><br>- **Is visible in navigation (7):** vink dit selectievakje aan om de pagina zichtbaar te maken in de webshop.<br><br>- **Submit (8):** klik op de knop 'Submit' om de pagina aan te maken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/4.2.png"></details>|
 |**3**|Via het potlood-icoontje (9) Open je Properties (10) dialoog van de zojuist aangemaakte pagina. Klik op de knop '*Vertalingen bewerken*' (11).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/4.3.png"></details>|
 |**4**|Het vertaal dialoog wordt geopend. De ingestelde standaard taal (12) wordt aan de linkerkant getoond. Stel via de rechter dropdown (13) de taal in die je wilt toepassen/bewerken. Stel de volgende instellingen in:<br><br>- **URL (14)**: voer de vertalingen in voor het URL pad.<br><br>- **Weergave pagina naam (15)**: voer de vertalingen in voor de weergave naam van de pagina.<br><br>- **Bevestigen (16)**: Klik op '*Bevestigen*' om de wijzigingen op te slaan.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/4.4.png"></details>|
 |**5**|Open het tabblad '*Visibility*' (17). Stel de volgende instellingen in:<br><br>- **Taal Zone Selectie (18)**: vink onder het dropdownmenu één of meerdere talen aan waaraan deze categorie gekoppeld moet worden. Onder Zone selectie (19) selecteer je een eigen gemaakte CMS Zone.<br><br>- **Geldig vanaf (20) en Geldig tot (21)**: onder 'Geldig vanaf' en 'Geldig tot' kunnen datums en tijden worden ingesteld waarop bovenstaande instellingen van toepassing zijn.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/4.5.png"></details>|
@@ -426,6 +429,30 @@ Wanneer je naast je FloriShop-domein ook een eigen website hebt, kan het handig 
 |:--|:--|
 |**1**|Navigeer via **Content Management (CMS)** (1) naar **Links** (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.1.png"></details>|
 |**2**|Klik op het **'+'-icoon** (3) om een nieuwe link aan te maken. Vul in het dialoogvenster de volgende gegevens in:<br><br>- **Naam (4):** geef de link een herkenbare naam.<br><br>- **URL (5):** vul de URL in waarnaar de link moet verwijzen.<br><br>- **Weergavenaam (6):** geef hier de naam op waaronder de link in de navigatiebalk wordt weergegeven.<br><br>- **Volgorde in navigatie (optioneel) (7):** bepaal hier de positie van de link in de navigatiebalk. **1** staat vooraan.<br><br>- **Gebruikerstoken toevoegen (optioneel) (8):** schakel deze optie in als er een gebruikerstoken aan de URL moet worden toegevoegd.<br><br>Klik vervolgens op **Opslaan** (9) om de link op te slaan. De link wordt daarna direct zichtbaar in de navigatiebalk van je shop.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.2.png"></details>|
+
+---
+
+#### Editor
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Editor | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Navigator
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Navigator | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Componenten dialoog
+
+| Onderdeel | Beschrijving |
+|---|---|
+| Componenten dialoog | Deze beschrijving wordt aangevuld |
 
 ---
 
