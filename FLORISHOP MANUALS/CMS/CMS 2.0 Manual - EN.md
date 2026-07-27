@@ -437,9 +437,17 @@ If you have your own website in addition to your FloriShop domain, it can be use
 
 #### Editor
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Editor | Deze beschrijving wordt aangevuld |
+The **Editor** is a WYSIWYG editor (*What You See Is What You Get*) in which changes are immediately displayed on the page as a draft. Once the page has been published, the changes will become visible in the live environment.
+
+**Note:** When you are logged in as a CMS administrator, changes are immediately visible in the webshop. This may make it appear as though the changes are already live, but in reality, they are only displayed as a draft preview to logged-in CMS administrators.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | Activate the webshop's **Management** environment by clicking the user icon. A dropdown menu will open. Then click the **Management** option (1).<details><summary><b>Click here for the example image</b></summary><img src="media/16.1.1.png"></details> |
+| **2** | Activate the **CMS Editor** (2).<details><summary><b>Click here for the example image</b></summary><img src="media/16.1.2.png"></details> |
+| **3** | After the CMS Editor has been activated, several elements become visible. Selection boxes (3) appear around the components, the [Navigator](#navigator) (4) opens, and the [Aside Editor](#aside-editor) (5) is displayed. Several options are also shown at the bottom of the screen:<br><br>**6 - [Unsaved changes](#niet-opgeslagen-wijzigingen):** View the changes that have not yet been published.<br><br>**7 - Show/close [Navigator](#navigator):** Open or close the Navigator.<br><br>**8 - History:** Displays a timeline that allows you to navigate between different change steps. You can also see which CMS administrator made a change to the displayed page.<br><br>**9 - Responsive:** Opens a toolbar that allows you to preview the page on tablets and mobile devices.<br><br>**10 - Publish:** Publish the page to the live environment.<br><br>**11 - Save:** Save the changes you have made. **Note:** Saving changes does not publish them to the live environment.<br><br>**12 - Undo step:** Undo the most recently made change.<details><summary><b>Click here for the example image</b></summary><img src="media/16.1.3.png"></details> |
+| **4** | By clicking on a component (13), the corresponding selection boxes are highlighted. You can then make changes directly (14). The [Navigator](#navigator) also immediately shows where the selected component is located on the page (15).<details><summary><b>Click here for the example image</b></summary><img src="media/16.1.4.png"></details> |
+| **5** | By right-clicking on a component, you will see various options, depending on the selected component. Available actions may include: **Upload**, **Download**, **Duplicate**, **Copy**, **Paste**, **Save as [Template](#templates)**, **Delete**, and **Add**. More information about these options [can be found here](#navigator).<details><summary><b>Click here for the example image</b></summary><img src="media/16.1.5.png"></details> |
 
 ---
 

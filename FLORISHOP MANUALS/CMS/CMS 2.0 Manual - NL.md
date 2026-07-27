@@ -434,9 +434,17 @@ Wanneer je naast je FloriShop-domein ook een eigen website hebt, kan het handig 
 
 #### Editor
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Editor | Deze beschrijving wordt aangevuld |
+De **Editor** is een WYSIWYG-editor (*What You See Is What You Get*) waarin wijzigingen direct als concept op de pagina worden weergegeven. Nadat de pagina is gepubliceerd, worden de wijzigingen zichtbaar in de live-omgeving.
+
+**Let op:** Wanneer je als CMS-beheerder bent ingelogd, worden wijzigingen direct zichtbaar in de webshop. Hierdoor kan het lijken alsof de wijzigingen al live staan, maar in werkelijkheid worden deze alleen als conceptweergave getoond aan ingelogde CMS-beheerders.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | Activeer de **Beheer**-omgeving van de webshop door op het gebruikersicoon te klikken. Er wordt een dropdownmenu geopend. Klik vervolgens op de optie **Beheer** (1).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.1.1.png"></details> |
+| **2** | Activeer de **CMS Editor** (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.1.2.png"></details> |
+| **3** | Nadat de CMS Editor is geactiveerd, worden verschillende onderdelen zichtbaar. Zo verschijnen er selectiekaders (3) rondom de componenten, wordt de [Navigator](#navigator) (4) geopend en verschijnt de [Aside Editor](#aside-editor) (5). Onderaan het scherm worden daarnaast verschillende opties weergegeven:<br><br>**6 - [Niet-opgeslagen wijzigingen](#niet-opgeslagen-wijzigingen):** Bekijk de wijzigingen die nog niet zijn gepubliceerd.<br><br>**7 - Toon/sluit [Navigator](#navigator):** Open of sluit de Navigator.<br><br>**8 - Geschiedenis:** Toont een tijdlijn waarin je tussen verschillende wijzigingsstappen kunt navigeren. Hier kun je ook zien welke CMS-beheerder een wijziging op de weergegeven pagina heeft aangebracht.<br><br>**9 - Responsive:** Opent een toolbar waarmee je een voorvertoning van de pagina kunt bekijken voor tablets en mobiele apparaten.<br><br>**10 - Publiceren:** Publiceer de pagina naar de live-omgeving.<br><br>**11 - Opslaan:** Sla de gemaakte wijzigingen op. **Let op:** Opgeslagen wijzigingen zijn hiermee nog niet live gepubliceerd.<br><br>**12 - Stap ongedaan maken:** Maak de laatst uitgevoerde wijziging ongedaan.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.1.3.png"></details> |
+| **4** | Door op een component te klikken (13), worden de bijbehorende selectiekaders uitgelicht. Je kunt vervolgens direct wijzigingen doorvoeren (14). Daarnaast is in de [Navigator](#navigator) direct zichtbaar waar het geselecteerde component zich op de pagina bevindt (15).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.1.4.png"></details> |
+| **5** | Door met de rechtermuisknop op een component te klikken, krijg je, afhankelijk van het geselecteerde component, verschillende opties. Mogelijke acties zijn: **Uploaden**, **Downloaden**, **Dupliceren**, **Kopiëren**, **Plakken**, **Opslaan als [Template](#templates)**, **Verwijderen** en **Toevoegen**. Meer informatie over deze opties [vind je hier](#navigator).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.1.5.png"></details> |
 
 ---
 
