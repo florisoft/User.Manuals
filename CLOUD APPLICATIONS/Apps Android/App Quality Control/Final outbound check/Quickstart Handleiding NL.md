@@ -64,7 +64,7 @@ Per orderregel is het mogelijk om de **productdetails** te openen. In dit scherm
 
 Onderdeel van deze productdetails is de **statuspagina**. Deze pagina geeft inzicht in de logistieke voortgang van het artikel en is gebaseerd op de acties die zijn vastgelegd in het partijlog.
 
-Welke informatie en statussen hier zichtbaar zijn, is afhankelijk van de ingestelde policies binnen `ShowLogisticStatusOptions`.
+Welke informatie en statussen hier zichtbaar zijn, wordt bepaald door de algemene policy `Apps_Logistics_ShowLogisticStatusOptions`. Als deze lijst leeg is, wordt de statuslog niet getoond.
 
 <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/11.png"></details>
 <br>

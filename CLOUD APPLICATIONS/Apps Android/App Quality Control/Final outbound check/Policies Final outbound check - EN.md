@@ -167,7 +167,7 @@ The **policy group** `ProductDetails` determines which product details are displ
 
 #### `ShowLogisticStatusOptions`
 
-Use this policy to define which logistical processes are shown, allowing their status to be monitored.
+The general `Apps_Logistics_ShowLogisticStatusOptions` policy is authoritative. Use it to define which logistical processes are shown, allowing their status to be monitored. If the list is empty, the status log is not shown.
 
 The status page is based on the actions recorded in the batch log.
 

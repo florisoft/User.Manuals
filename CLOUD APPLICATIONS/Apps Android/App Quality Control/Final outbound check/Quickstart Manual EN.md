@@ -63,7 +63,7 @@ For each order line, it is possible to open the **product details**. This screen
 
 Part of these product details is the **status page**. This page provides insight into the logistical progress of the item and is based on the actions recorded in the batch log.
 
-Which information and statuses are shown here depends on the configured policies within `ShowLogisticStatusOptions`.
+The information and statuses shown here are controlled by the general `Apps_Logistics_ShowLogisticStatusOptions` policy. If this list is empty, the status log is not shown.
 
 
 <details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/11.png"></details>

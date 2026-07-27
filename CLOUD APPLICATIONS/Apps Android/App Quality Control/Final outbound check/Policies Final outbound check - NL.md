@@ -172,7 +172,7 @@ De **policy-groep** `ProductDetails` bepaalt welke productdetails worden weergeg
 
 #### `ShowLogisticStatusOptions`
 
-Bepaal met deze policy welke logistieke processen worden getoond, zodat de status hiervan gecontroleerd kan worden.
+De algemene policy `Apps_Logistics_ShowLogisticStatusOptions` is leidend. Bepaal hiermee welke logistieke processen worden getoond, zodat de status hiervan gecontroleerd kan worden. Als de lijst leeg is, wordt de statuslog niet getoond.
 
 De statuspagina is gebaseerd op de acties uit het partijlog.
 
