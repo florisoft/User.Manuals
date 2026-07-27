@@ -506,9 +506,16 @@ The **Component Dialog** is the library containing all available [CMS components
 
 #### Drag & Drop
 
-| Item | Description |
-|---|---|
-| Drag & Drop | This description will be added later |
+The **Drag & Drop** screen is an alternative to the [Component Dialog](#component-dialog) and the [Editor](#editor). It allows you to drag [components](#components) directly from the [Aside Editor](#aside-editor) onto a page and place them there.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we start with a new, empty [page](#page). When the [CMS Editor](#cms-editor) is enabled (1), you can open the **Drag & Drop** environment (2) via the [Toolbar](#1-toolbar).<details><summary><b>Click here for the example image</b></summary><img src="media/20.1.png"></details> |
+| **2** | In the [Aside Editor](#aside-editor) (3), all component categories are displayed, similar to the [Component Dialog](#component-dialog). You can also search for a specific component here (4). The bars you see (5) are the page containers where components can be placed.<details><summary><b>Click here for the example image</b></summary><img src="media/20.2.png"></details> |
+| **3** | Drag a component — in this example, a [Row](#rowcolumn) (6) — by holding down the left mouse button and dragging the component to the desired CMS page container (7). The component is now placed on the page.<details><summary><b>Click here for the example image</b></summary><img src="media/20.3.png"></details> |
+| **4** | Next, drag a [Column](#rowcolumn) (8) into the newly added **Row** (9).<details><summary><b>Click here for the example image</b></summary><img src="media/20.4.png"></details> |
+| **5** | You can edit components by clicking the pencil icon (10). You can also delete a component (11). When you have finished arranging the page, close the **Drag & Drop** screen (12).<details><summary><b>Click here for the example image</b></summary><img src="media/20.5.png"></details> |
+| **6** | The [components](#components) we have arranged using **Drag & Drop** are now directly placed on the CMS page (13). These components can then be further populated and configured with the desired content.<details><summary><b>Click here for the example image</b></summary><img src="media/20.6.png"></details> |
 
 ---
 

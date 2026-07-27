@@ -503,9 +503,16 @@ De **Componentendialoog** is de bibliotheek met alle beschikbare [CMS-componente
 
 #### Drag & Drop
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Drag & Drop | Deze beschrijving wordt aangevuld |
+Het **Drag & Drop**-scherm is een variant op het [Componentendialoog](#componentendialoog) en de [Editor](#editor). Hiermee kun je [componenten](#componenten) rechtstreeks vanuit de [Aside Editor](#aside-editor) naar een pagina slepen en daar plaatsen.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld starten we met een nieuwe, lege [pagina](#pagina). Wanneer de [CMS Editor](#cms-editor) is ingeschakeld (1), kun je via de [Toolbar](#1-toolbar) de **Drag & Drop**-omgeving openen (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/20.1.png"></details> |
+| **2** | In de [Aside Editor](#aside-editor) (3) worden alle componentcategorieën weergegeven, vergelijkbaar met het [Componentendialoog](#componentendialoog). Je kunt hier ook zoeken naar een specifiek component (4). De balken die je ziet (5) zijn de paginacontainers waarin componenten kunnen worden geplaatst.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/20.2.png"></details> |
+| **3** | Sleep een component — in dit voorbeeld een [Row](#rowcolumn) (6) — door de linkermuisknop ingedrukt te houden en het component naar de gewenste CMS-paginacontainer (7) te slepen. Het component wordt nu op de pagina geplaatst.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/20.3.png"></details> |
+| **4** | Sleep vervolgens een [Column](#rowcolumn) (8) naar de zojuist toegevoegde **Row** (9).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/20.4.png"></details> |
+| **5** | Je kunt componenten bewerken door op het potloodicoon (10) te klikken. Je kunt een component ook verwijderen (11). Wanneer je klaar bent met het indelen van de pagina, sluit je het **Drag & Drop**-scherm (12).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/20.5.png"></details> |
+| **6** | De [componenten](#componenten) die we via **Drag & Drop** hebben samengesteld, zijn nu direct op de CMS-pagina geplaatst (13). Deze componenten kunnen vervolgens verder worden gevuld en ingericht met de gewenste content.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/20.6.png"></details> |
 
 ---
 
