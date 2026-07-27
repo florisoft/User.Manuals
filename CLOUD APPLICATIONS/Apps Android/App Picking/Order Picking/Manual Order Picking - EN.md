@@ -146,17 +146,6 @@ The Job Agent must be reachable to send the print job to the printer. Florisoft 
 
 `Backoffice_Logistics_OrderPick_AllowedToPrintPackingListToPDA` must also be enabled when the packing list is printed through the PDA delivery and printing flow. When this Backoffice policy is disabled, Florisoft blocks packing-list printing through PDA even if `ActivateWorkOrderAdditionalActions` contains `PrintPackingList` and `PrinterSettings` is configured correctly.
 
-### Special instruction scan
-
-A separate scan action can be configured under **Instruction Scan**. `BarcodeInput` contains the barcode that Florisoft recognises as an instruction. `InstructionKind` determines what happens next:
-
-- `PrintPackingList` prints a packing list;
-- `PrintProductionReceipt` prints a production receipt;
-- `PrintPackingListOrProductionReceipt` makes Florisoft perform the appropriate one of these actions;
-- `Unknown` performs no usable instruction and is the default.
-
-For a working instruction scan, configure both `BarcodeInput` and a specific `InstructionKind`, and ensure that the required printing configuration is available.
-
 ---
 
 ## Step 5 – Read the pick list
@@ -167,6 +156,12 @@ The `LocationDisplayType` policy determines which location information is shown:
 
 - `LocationCode` shows the location code and is the default;
 - `LocationDescription` shows the location description.
+
+### Pick-item order
+
+By default, the pick-item screen sorts the lines by location code. This displays the locations in a logical order.
+
+If a walking route is linked to the work order, Florisoft follows the location sequence defined by that route instead. This allows the picker to collect the products in the order in which the warehouse locations are visited. Locations that are not included in the walking route appear after the route locations and are sorted by location code.
 
 `StockItemIdentifier` determines which parcel identifier is visible. Available values are `None` (default), `StockItemNr` and `VStockItemNr`.
 
@@ -285,6 +280,19 @@ The `FinalizationMethod` policy under **Order Picking → Finalize Work Order** 
 
 Florisoft always checks that the work order contains pick items, is complete and is still assigned to the active picker. An incorrect completion barcode is rejected, and an assignment with outstanding lines cannot be completed normally.
 
+### Complete with a special instruction scan
+
+The special instruction scan is part of completing the work order. Once all pick lines have been processed, the user scans the configured instruction barcode. Florisoft compares this scan with the barcode configured under **Instruction Scan**. If the barcode does not match, the work order remains open and Florisoft reports that the barcode is invalid.
+
+After a valid scan, Florisoft first completes the work order. Only if completion succeeds does Florisoft perform the associated instruction. The configuration can be set to:
+
+- print a packing list;
+- print a production receipt;
+- print either a packing list or a production receipt, depending on the type of work order;
+- perform no additional print action.
+
+Configure the instruction barcode, the required action, and the necessary printer and layout in advance. This printing action at completion is separate from automatic printing when a work order is activated, as described in step 4.
+
 > `Manual` is specified in the Order Picking use case, but the currently reviewed app code still completes the work order through a completion scan. Use this policy value only when the manual variant is available in the app version being used.
 
 After successful completion, Florisoft shows a summary. Tap the **check mark** to close the assignment and start a new work order.
@@ -359,7 +367,7 @@ Check the location and unique carrier. Select an alternative location or registe
 
 ### Printing does not work
 
-Check `ActivateWorkOrderAdditionalActions`, `PrinterSettings`, `Backoffice_Logistics_OrderPick_AllowedToPrintPackingListToPDA`, the selected packing-list grouping and the Job Agent. For a special instruction scan, also check `BarcodeInput` and `InstructionKind`.
+Check whether automatic printing at activation is enabled, whether the printer and layout are configured, whether printing from the PDA is permitted, which packing-list grouping is selected, and whether the Job Agent is available. For printing after the completion scan, also check the configured instruction barcode and its associated print action.
 
 ### An additional action is unavailable
 

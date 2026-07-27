@@ -146,17 +146,6 @@ De Job Agent moet bereikbaar zijn om de printopdracht naar de printer te sturen.
 
 Daarnaast moet `Backoffice_Logistics_OrderPick_AllowedToPrintPackingListToPDA` ingeschakeld zijn wanneer de paklijst via de PDA-uitlever- en printflow wordt afgedrukt. Staat deze Backoffice-policy uit, dan houdt Florisoft het printen van de paklijst via PDA tegen, ook wanneer `ActivateWorkOrderAdditionalActions` de actie `PrintPackingList` bevat en `PrinterSettings` correct is ingevuld.
 
-### Speciale instructiescan
-
-Onder **Instruction Scan** kan een aparte scanactie worden ingericht. `BarcodeInput` bevat de barcode die Florisoft als instructie herkent. `InstructionKind` bepaalt wat daarna gebeurt:
-
-- `PrintPackingList` print een paklijst;
-- `PrintProductionReceipt` print een productiebon;
-- `PrintPackingListOrProductionReceipt` laat Florisoft de passende van deze twee acties uitvoeren;
-- `Unknown` voert geen bruikbare instructie uit en is de standaard.
-
-Vul voor een werkende instructiescan zowel `BarcodeInput` als een concrete `InstructionKind` in en zorg dat de benodigde printinrichting beschikbaar is.
-
 ---
 
 ## Stap 5 – De picklijst lezen
@@ -167,6 +156,12 @@ De policy `LocationDisplayType` bepaalt welke locatie-informatie wordt getoond:
 
 - `LocationCode` toont de locatiecode en is de standaard;
 - `LocationDescription` toont de locatieomschrijving.
+
+### Volgorde van de pickitems
+
+Het pickitemscherm sorteert de regels standaard op locatiecode. Hierdoor worden de locaties in een logische volgorde getoond.
+
+Is aan de werkopdracht een looproute gekoppeld, dan volgt Florisoft in plaats daarvan de locatievolgorde van die looproute. Zo kan de picker de artikelen verzamelen in de volgorde waarin de locaties in het magazijn worden bezocht. Locaties die niet in de looproute zijn opgenomen, verschijnen na de locaties uit de route en worden onderling op locatiecode gesorteerd.
 
 `StockItemIdentifier` bepaalt welk partij-identificatienummer zichtbaar is. Beschikbare waarden zijn `None` (standaard), `StockItemNr` en `VStockItemNr`.
 
@@ -285,6 +280,19 @@ De policy `FinalizationMethod` onder **Order Picking → Finalize Work Order** b
 
 Florisoft controleert altijd of de werkopdracht pickitems bevat, volledig is en nog aan de actieve picker is toegewezen. Een onjuiste afrondbarcode wordt geweigerd en een opdracht met openstaande regels kan niet normaal worden voltooid.
 
+### Afronden met een speciale instructiescan
+
+De speciale instructiescan hoort bij het afronden van de werkopdracht. Zodra alle pickregels zijn verwerkt, scant de gebruiker de ingestelde instructiebarcode. Florisoft vergelijkt deze scan met de barcode die in de inrichting onder **Instruction Scan** is vastgelegd. Komt de barcode niet overeen, dan blijft de werkopdracht open en verschijnt een melding dat de barcode ongeldig is.
+
+Bij een geldige scan rondt Florisoft eerst de werkopdracht af. Alleen wanneer dat lukt, voert Florisoft de bijbehorende instructie uit. In de inrichting kan worden gekozen voor:
+
+- een paklijst printen;
+- een productiebon printen;
+- afhankelijk van het soort werkopdracht een paklijst of productiebon printen;
+- geen extra printactie.
+
+Zorg dat de instructiebarcode, de gewenste actie en de benodigde printer en lay-out vooraf zijn ingericht. Deze printactie bij het afronden staat los van automatisch printen bij het activeren van een werkopdracht, zoals beschreven in stap 4.
+
 > `Manual` is in de Order Picking-use-case beschreven, maar in de huidige gecontroleerde appcode wordt de werkopdracht nog via een afrondscan voltooid. Gebruik deze policywaarde pas wanneer de handmatige variant in de gebruikte appversie beschikbaar is.
 
 Na een geslaagde afronding toont Florisoft een samenvatting. Tik op het **vinkje** om de opdracht te sluiten en een nieuwe werkopdracht te starten.
@@ -359,7 +367,7 @@ Controleer de locatie en unieke drager. Kies indien beschikbaar een alternatieve
 
 ### Printen werkt niet
 
-Controleer `ActivateWorkOrderAdditionalActions`, `PrinterSettings`, `Backoffice_Logistics_OrderPick_AllowedToPrintPackingListToPDA`, de gekozen paklijstgroepering en de Job Agent. Controleer bij een speciale instructiescan ook `BarcodeInput` en `InstructionKind`.
+Controleer of automatisch printen bij het activeren is ingeschakeld, of de printer en lay-out zijn ingericht, of printen vanaf de PDA is toegestaan, welke paklijstgroepering is gekozen en of de Job Agent bereikbaar is. Controleer bij printen na de afrondscan ook de ingestelde instructiebarcode en de daaraan gekoppelde printactie.
 
 ### Een extra handeling is niet beschikbaar
 
