@@ -14,6 +14,8 @@ Select a customer and order, work in a session, count the outgoing packaging in 
 
 Open an order or session by scanning a supported barcode or by manually selecting a customer and order.
 
+After a final outbound check, you can also start Returnables Outbound directly from **Additional Actions** in Final Outbound Check. The app then carries over the available customer, order and grouping context. For a grouped customer or hub inspection, the configured returnables customer and order are used. If no valid context can be resolved, Returnables Outbound is not opened.
+
 When selecting manually:
 
 1. Find and select the customer.
@@ -96,5 +98,7 @@ Open the Backoffice constants screen and go to **System → Users → Policy Man
 | `Apps → Logistics → Returnables → Outbound → FinalizeSession` | `RequireReferenceCode`, `RequireSignature`, `PrintPackingListOption`, `MailPackingListOption`, `PackageManagementRegistrationStrategy` |
 | `Apps → Logistics → Returnables → Outbound → PrinterSettings` | `PackageListPrinter`, `PackageListPrintLayout` |
 | `Backoffice → Financial → Invoicing` | `Returnables_PrintNotAllowedWhenActive` |
+
+For the integration from Final Outbound Check, add `Returnables` to `Apps → Logistics → QualityControl → FinalOutboundCheck → Addons → EnableAddons`.
 
 See the [Policy Management manual](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Manual%20Policy%20Management%20EN.md) for general policy configuration.

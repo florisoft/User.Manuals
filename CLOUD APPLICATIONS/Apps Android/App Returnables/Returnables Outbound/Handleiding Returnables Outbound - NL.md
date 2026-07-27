@@ -14,6 +14,8 @@ U selecteert een klant en order, werkt in een sessie, telt het uitgaande fust in
 
 U kunt een order of sessie openen door een ondersteunde barcode te scannen of door handmatig een klant en order te selecteren.
 
+Na een eindcontrole kunt u Returnables Outbound ook rechtstreeks starten via **Additionele acties** in Final Outbound Check. De app neemt dan de beschikbare klant-, order- en groeperingscontext over. Bij een gegroepeerde klant- of hubcontrole wordt de ingestelde fustdebiteur en fustorder gebruikt. Als geen geldige context kan worden bepaald, wordt Returnables Outbound niet geopend.
+
 Bij handmatige selectie:
 
 1. Zoek en selecteer de klant.
@@ -106,6 +108,8 @@ De policies staan op de volgende plaatsen:
 | `Apps → Logistics → Returnables → Outbound → FinalizeSession` | `RequireReferenceCode`, `RequireSignature`, `PrintPackingListOption`, `MailPackingListOption`, `PackageManagementRegistrationStrategy` |
 | `Apps → Logistics → Returnables → Outbound → PrinterSettings` | `PackageListPrinter`, `PackageListPrintLayout` |
 | `Backoffice → Financial → Invoicing` | `Returnables_PrintNotAllowedWhenActive` |
+
+Voor de koppeling vanuit Final Outbound Check voegt u `Returnables` toe aan `Apps → Logistics → QualityControl → FinalOutboundCheck → Addons → EnableAddons`.
 
 Meer informatie over policies vindt u in de [handleiding Policy Management](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Handleiding%20Policy%20Management%20NL.md).
 
