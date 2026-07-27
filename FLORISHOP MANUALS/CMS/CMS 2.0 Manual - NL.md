@@ -36,7 +36,7 @@
 - [Links](#links)
 - [Editor](#editor)
 - [Navigator](#navigator)
-- [Componenten dialoog](#componenten-dialoog)
+- [Componentendialoog](#componentendialoog)
 
 ---
 
@@ -444,23 +444,31 @@ De **Editor** is een WYSIWYG-editor (*What You See Is What You Get*) waarin wijz
 | **2** | Activeer de **CMS Editor** (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.1.2.png"></details> |
 | **3** | Nadat de CMS Editor is geactiveerd, worden verschillende onderdelen zichtbaar. Zo verschijnen er selectiekaders (3) rondom de componenten, wordt de [Navigator](#navigator) (4) geopend en verschijnt de [Aside Editor](#aside-editor) (5). Onderaan het scherm worden daarnaast verschillende opties weergegeven:<br><br>**6 - [Niet-opgeslagen wijzigingen](#niet-opgeslagen-wijzigingen):** Bekijk de wijzigingen die nog niet zijn gepubliceerd.<br><br>**7 - Toon/sluit [Navigator](#navigator):** Open of sluit de Navigator.<br><br>**8 - Geschiedenis:** Toont een tijdlijn waarin je tussen verschillende wijzigingsstappen kunt navigeren. Hier kun je ook zien welke CMS-beheerder een wijziging op de weergegeven pagina heeft aangebracht.<br><br>**9 - Responsive:** Opent een toolbar waarmee je een voorvertoning van de pagina kunt bekijken voor tablets en mobiele apparaten.<br><br>**10 - Publiceren:** Publiceer de pagina naar de live-omgeving.<br><br>**11 - Opslaan:** Sla de gemaakte wijzigingen op. **Let op:** Opgeslagen wijzigingen zijn hiermee nog niet live gepubliceerd.<br><br>**12 - Stap ongedaan maken:** Maak de laatst uitgevoerde wijziging ongedaan.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.1.3.png"></details> |
 | **4** | Door op een component te klikken (13), worden de bijbehorende selectiekaders uitgelicht. Je kunt vervolgens direct wijzigingen doorvoeren (14). Daarnaast is in de [Navigator](#navigator) direct zichtbaar waar het geselecteerde component zich op de pagina bevindt (15).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.1.4.png"></details> |
-| **5** | Door met de rechtermuisknop op een component te klikken, krijg je, afhankelijk van het geselecteerde component, verschillende opties. Mogelijke acties zijn: **Uploaden**, **Downloaden**, **Dupliceren**, **Kopiëren**, **Plakken**, **Opslaan als [Template](#templates)**, **Verwijderen** en **Toevoegen**. Meer informatie over deze opties [vind je hier](#navigator).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.1.5.png"></details> |
+| **5** | Door met de rechtermuisknop op een component te klikken, krijg je, afhankelijk van het geselecteerde component, verschillende opties (16). Mogelijke acties zijn:<br><br>- **Uploaden:** Upload een `.json`-bestand van een CMS-[pagina](#pagina).<br>- **Downloaden:** Download de CMS-pagina als `.json`-bestand.<br>- **Dupliceren:** Dupliceer het geselecteerde component met `Ctrl + D`.<br>- **Kopiëren:** Kopieer het geselecteerde component met `Ctrl + C`.<br>- **Plakken:** Plak een gekopieerd component met `Ctrl + V`.<br>- **Opslaan als [Template](#templates):** Sla het geselecteerde component op als template.<br>- **Verwijderen:** Verwijder het geselecteerde component.<br>- **Toevoegen:** Voeg een nieuw component toe.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.1.5.png"></details> |
 
 ---
 
 #### Navigator
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Navigator | Deze beschrijving wordt aangevuld |
+De **Navigator** toont de boomstructuur van jouw CMS-[pagina](#pagina). Met de handige drag-and-dropfunctie kun je de structuur en indeling van de pagina eenvoudig aanpassen.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | Nadat je de **CMS Editor** hebt ingeschakeld, zoals beschreven bij [Editor](#editor), verschijnt er een langwerpig dialoogvenster. Dit is de **Navigator** (1). De Navigator toont niet alleen waar de verschillende componenten zich op de pagina bevinden, maar maakt het ook mogelijk om snel naar een specifiek component te navigeren. Wanneer je in de Navigator op een component klikt, scrollt de [Editor](#editor) automatisch naar het bijbehorende component. Het geselecteerde component wordt vervolgens kort uitgelicht, zodat je direct kunt zien om welk onderdeel het gaat.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.2.1.png"></details> |
+| **2** | Met de pijltjes (2) kun je componenten in- en uitklappen. Zo kun je eenvoudig bekijken hoe componenten binnen andere componenten zijn opgebouwd. Door een component ingedrukt te houden en te verslepen, kun je de positie ervan op de pagina eenvoudig aanpassen (3). Wanneer je tijdens het slepen de **Ctrl**-toets ingedrukt houdt, kun je een component binnen een ander component plaatsen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.2.2.png"></details> |
+| **3** | Door met de rechtermuisknop op een component (4) te klikken, krijg je dezelfde opties (5) als bij een rechtermuisklik op een component in de [Editor](#editor).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.2.3.png"></details> |
 
 ---
 
-#### Componenten dialoog
+#### Componentendialoog
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Componenten dialoog | Deze beschrijving wordt aangevuld |
+De **Componentendialoog** is de bibliotheek met alle beschikbare [CMS-componenten](#componenten-1). Deze componenten dienen als bouwstenen voor het opbouwen en vormgeven van jouw CMS-[pagina's](#pagina).
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld willen we een [Button](#button)-component toevoegen aan een [Flex](#flex)-component (1). Klik hiervoor op het '+'-icoon achter het **Flex**-component (2) om de **Componentendialoog** te openen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.3.1.png"></details> |
+| **2** | De **Componentendialoog** is nu geopend. Hier vind je tientallen componenten waarmee je jouw CMS-[pagina](#pagina) kunt opbouwen. De componenten zijn verdeeld over verschillende categorieën (3):<br><br>**[Basis](#basis):** Bevat componenten waarmee je de basisstructuur van je pagina kunt opbouwen.<br><br>**[Dashboard](#dashboard):** Componenten waarmee analytische dashboards kunnen worden opgebouwd.<br><br>**[Formulier](#formulier):** Bevat alle componenten die nodig zijn voor het bouwen van digitale formulieren.<br><br>**[Geavanceerd](#geavanceerd):** Componenten die voornamelijk bedoeld zijn voor ontwikkelaars.<br><br>**[Gebruiker](#gebruiker):** Componenten die van toepassing zijn op ingelogde debiteuren.<br><br>**[Health](#health):** Componenten waarmee analytische Health-schermen kunnen worden opgebouwd.<br><br>**[Media](#media-1):** Componenten voor het toevoegen en ondersteunen van media-content.<br><br>**[Navigatie](#navigatie):** Handige en dynamische componenten waarmee bezoekers snel en gericht binnen en buiten de webshop kunnen navigeren.<br><br>**[Templates](#templates):** Een overzicht van opgeslagen templates die met één klik aan de pagina kunnen worden toegevoegd.<br><br>Per categorie wordt weergegeven hoeveel componenten beschikbaar zijn (4). Je kunt een component zoeken op naam (5), de resultaten sorteren (6) op alfabetische volgorde of populariteit en de weergave wijzigen naar een lijstweergave (7). Bij sorteren op populariteit worden veelgebruikte componenten bovenaan weergegeven.<br><br>In het overzicht worden de naam en categorie van elk component weergegeven (8). Via het 'i'-icoon (9) kun je meer informatie over een component bekijken. Een component voeg je toe via het '+'-icoon (10).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.3.2.png"></details> |
+| **3** | Nadat het [Button](#button)-component is toegevoegd, wordt dit direct weergegeven in de [Editor](#editor) (11) en [Navigator](#navigator) (12). Daarnaast kun je de instellingen van het component direct aanpassen via de [Aside Editor](#aside-editor) (13).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/16.3.3.png"></details> |
 
 ---
 
