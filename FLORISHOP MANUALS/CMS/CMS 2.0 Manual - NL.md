@@ -570,19 +570,22 @@ Bijna elk component beschikt over een tabblad **Styling**. De beschikbare instel
 
 #### Color Picker
 
-De **Color Picker** wordt weergegeven wanneer je een kleur voor een component wilt selecteren of aanpassen. Je kunt eenvoudig een van je [themakleuren](#thema-configuratie) (**pcolor2** of **scolor2**) selecteren, een aangepaste kleur kiezen en vervolgens de transparantie instellen.
+De **Color Picker** wordt weergegeven wanneer je een kleur voor een [component](#componenten) wilt selecteren of aanpassen. Je kunt eenvoudig een van je [themakleuren](#thema-configuratie) (**pcolor2** of **scolor2**) selecteren, een aangepaste kleur kiezen en vervolgens de transparantie instellen.
 
 | Stap | Uitleg |
 |:--|:--|
-| **1** | In dit voorbeeld hebben we een **[Tekst-component](#text)** geselecteerd (1). Onder het tabblad **Styling** (2) vind je de optie **Kleur** (3). Wanneer je op de kleur klikt, wordt de **Color Picker** geopend. In het kleurenpalet kun je een kleurtint selecteren (4) en via het kleurvlak (5) de gewenste kleur bepalen. De transparantie kun je instellen met behulp van de schuifregelaar (6).<br><br>Beschik je over een **HEX**- (7) of **RGB**-kleurcode (8), dan kun je deze ook handmatig invoeren. Daarnaast zijn er verschillende vooraf ingestelde kleuren (9) beschikbaar die je direct kunt selecteren.<br><br>Via de **Color Picker** heb je ook altijd je twee belangrijkste [themakleuren](#thema-configuratie), **pcolor2** en **scolor2**, bij de hand (10). Wanneer je een component aan een themakleur koppelt, reageert deze dynamisch op de kleur die je instelt in de [Thema Configuratie](#thema-configuratie).<br><br>Bevestig vervolgens de gekozen kleur (11). Is de kleur toch niet helemaal zoals gewenst? Dan kun je de ingestelde kleur eenvoudig verwijderen via de verwijderknop (12) of de wijziging [ongedaan maken](#editor).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/25.1.png"></details> |
+| **1** | In dit voorbeeld hebben we een **[Tekst-component](#text)** geselecteerd (1). Onder het tabblad **Styling** (2) vind je de optie **Kleur** (3). Wanneer je op de kleur klikt, wordt de **Color Picker** geopend. In het kleurvlak kun je een kleurtint selecteren (4) en via de schuifregelaar (5) de gewenste kleur bepalen. De transparantie kun je instellen met behulp van de transparantieschuifregelaar (6).<br><br>Beschik je over een **HEX**- (7) of **RGB**-kleurcode (8), dan kun je deze ook handmatig invoeren. Daarnaast zijn er verschillende vooraf ingestelde kleuren (9) beschikbaar die je direct kunt selecteren.<br><br>Via de **Color Picker** heb je ook altijd je twee belangrijkste [themakleuren](#thema-configuratie), **pcolor2** en **scolor2**, bij de hand (10). Wanneer je een component aan een themakleur koppelt, reageert deze dynamisch op de kleur die je instelt in de [Thema Configuratie](#thema-configuratie).<br><br>Bevestig vervolgens de gekozen kleur (11). Is de kleur toch niet helemaal zoals gewenst? Dan kun je de ingestelde kleur eenvoudig verwijderen via de verwijderknop (12) of de wijziging [ongedaan maken](#editor).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/25.1.png"></details> |
 
 ---
 
 #### Omlijning
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Styling | Deze beschrijving wordt aangevuld |
+Met de optie **Omlijning** kun je een omlijning toevoegen aan je [component](#componenten). Je kunt de lijndikte, kleur en lijnstijl instellen. Daarnaast kun je de lijndikte per zijde afzonderlijk aanpassen.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een **[Panel-component](#panel)** geselecteerd (1). Onder het tabblad **Styling** (2) vind je de optie **Omlijning** (3). Hier kun je de gewenste lijndikte instellen (4) en vervolgens een [kleur](#color-picker) (5) en lijnstijl (6) selecteren.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/26.1.png"></details> |
+| **2** | Klap indien gewenst de aanvullende opties uit (7) om de lijndikte per zijde afzonderlijk in te stellen. De wijzigingen worden direct zichtbaar in de [Editor](#editor) (8). Is de omlijning toch niet helemaal zoals gewenst? Dan kun je de ingestelde omlijning eenvoudig verwijderen via de verwijderknop (9) of de wijziging [ongedaan maken](#editor).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/26.2.png"></details> |
 
 ---
 

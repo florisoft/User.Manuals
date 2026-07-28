@@ -573,19 +573,22 @@ Almost every component has a **Styling** tab. The available settings may differ 
 
 #### Color Picker
 
-The **Color Picker** is displayed when you want to select or adjust a color for a component. You can easily select one of your [theme colors](#theme-configuration) (**pcolor2** or **scolor2**), choose a custom color, and adjust the transparency.
+The **Color Picker** is displayed when you want to select or adjust a color for a [component](#components). You can easily select one of your [theme colors](#theme-configuration) (**pcolor2** or **scolor2**), choose a custom color, and then adjust the transparency.
 
 | Step | Explanation |
 |:--|:--|
-| **1** | In this example, we have selected a **[Text component](#text)** (1). Under the **Styling** tab (2), you will find the **Color** option (3). When you click on the color, the **Color Picker** opens. In the color palette, you can select a color hue (4) and use the color field (5) to select the desired color. You can adjust the transparency using the slider (6).<br><br>If you have a **HEX** (7) or **RGB** color code (8), you can also enter it manually. Several predefined colors (9) are also available for you to select directly.<br><br>The **Color Picker** also gives you quick access to your two primary [theme colors](#theme-configuration), **pcolor2** and **scolor2** (10). When you assign a theme color to a component, it will dynamically respond to the color configured in the [Theme Configuration](#theme-configuration).<br><br>Confirm the selected color (11). If the color is not quite what you had in mind, you can easily remove the selected color using the delete button (12) or [undo](#editor) the change.<details><summary><b>Click here for the example image</b></summary><img src="media/25.1.png"></details> |
+| **1** | In this example, we have selected a **[Text component](#text)** (1). Under the **Styling** tab (2), you will find the **Color** option (3). When you click on the color, the **Color Picker** opens. In the color field, you can select a color hue (4) and use the slider (5) to determine the desired color. You can adjust the transparency using the transparency slider (6).<br><br>If you have a **HEX** (7) or **RGB** color code (8), you can also enter it manually. In addition, several predefined colors (9) are available for you to select directly.<br><br>The **Color Picker** also gives you quick access to your two primary [theme colors](#theme-configuration), **pcolor2** and **scolor2** (10). When you assign a theme color to a component, it will dynamically respond to the color configured in the [Theme Configuration](#theme-configuration).<br><br>Confirm the selected color (11). If the color is not quite what you had in mind, you can easily remove the selected color using the delete button (12) or [undo](#editor) the change.<details><summary><b>Click here for the example image</b></summary><img src="media/25.1.png"></details> |
 
 ---
 
 #### Border
 
-| Item | Description |
-|---|---|
-| Styling | This description will be added later |
+With the **Border** option, you can add a border to your [component](#components). You can set the border width, color, and style. In addition, you can adjust the border width individually for each side.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we have selected a **[Panel component](#panel)** (1). Under the **Styling** tab (2), you will find the **Border** option (3). Here, you can set the desired border width (4) and then select a [color](#color-picker) (5) and border style (6).<details><summary><b>Click here for the example image</b></summary><img src="media/26.1.png"></details> |
+| **2** | If desired, expand the additional options (7) to set the border width individually for each side. The changes are immediately visible in the [Editor](#editor) (8). If the border is not quite as desired, you can easily remove the configured border using the delete button (9) or [undo](#editor) the change.<details><summary><b>Click here for the example image</b></summary><img src="media/26.2.png"></details> |
 
 ---
 
