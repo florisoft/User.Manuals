@@ -130,6 +130,16 @@ Photos stored during Final Outbound Check can be added to the invoice layout.
 
 The cloud server must be able to read the directory configured through `Apps_Logistics_QualityControl_FinalOutboundCheck_Addons_PhotoStorageDirectoryPath`. See [Policies Final Outbound Check EN](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Final%20outbound%20check/Policies%20Final%20outbound%20check%20-%20EN.md) for the configuration.
 
+### Find photos in the Backoffice
+
+Photos from a completed Final Outbound Check can also be viewed directly from **Invoices** and **Invoice History**.
+
+1. Select the relevant invoice.
+2. Open the invoice's context menu.
+3. Select **Show Final Outbound Check photos**.
+
+All photos associated with the selected invoice are opened. The Backoffice uses the alternative archive directory configured through `Apps_Logistics_QualityControl_FinalOutboundCheck_Addons_PhotoStorageDirectoryPath`. If this policy is not configured, the default Final Outbound Check archive directory is used. The user must have read access to the directory in use.
+
 <br>
 <details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/9.png"></details>
 <br>
@@ -140,7 +150,7 @@ The `ShowWarningIfIncomplete` policy checks whether all parcel have been checked
 
 ## Version Control & Development Phase
 
-> **Last update:** July 15, 2026
+> **Last update:** July 28, 2026
 > **Current development phase:** Dev phase 1 (MVP) completed
 
 This manual is based on the current Logistics App and will be periodically updated to reflect new functionality or changes in policies.

@@ -129,6 +129,16 @@ Foto's die tijdens Final Outbound Check zijn opgeslagen, kunnen aan de factuurla
 
 De cloudserver moet de map uit de policy `Apps_Logistics_QualityControl_FinalOutboundCheck_Addons_PhotoStorageDirectoryPath` kunnen lezen. Zie voor de inrichting de handleiding [Policies Final Outbound Check NL](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Final%20outbound%20check/Policies%20Final%20outbound%20check%20-%20NL.md).
 
+### Foto's terugzoeken in de Backoffice
+
+De foto's van een uitgevoerde Final Outbound Check kunnen ook rechtstreeks vanuit **Facturen** en **Factuurhistorie** worden bekeken.
+
+1. Selecteer de betreffende factuur.
+2. Open het snelmenu van de factuur.
+3. Kies **Final outbound check foto's weergeven**.
+
+Alle foto's die bij de geselecteerde factuur horen, worden geopend. De Backoffice gebruikt hiervoor de alternatieve archiefmap uit de policy `Apps_Logistics_QualityControl_FinalOutboundCheck_Addons_PhotoStorageDirectoryPath`. Is deze niet ingesteld, dan wordt de standaardarchiefmap van Final Outbound Check gebruikt. De gebruiker moet leestoegang tot de gebruikte map hebben.
+
 <br>
 <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/9.png"></details>
 <br>
@@ -139,7 +149,7 @@ De policy `ShowWarningIfIncomplete` controleert of alle regels gecontroleerd zij
 
 ## Versiebeheer & Ontwikkelfase
 
-> **Laatste update:** 15 juli 2026
+> **Laatste update:** 28 juli 2026
 > **Huidige ontwikkelfase:** Dev phase 1 (MVP) afgerond
 
 Deze handleiding is gebaseerd op de actuele Logistics App en wordt periodiek bijgewerkt bij nieuwe functionaliteit of gewijzigde policies.
