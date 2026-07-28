@@ -1,191 +1,211 @@
 # Telesales
 
-
-
 ## Opening TeleSales
 
-The tele sales screens can be opened by clicking on the TeleSales button in the Navigator.
+The Telesales screens can be opened by clicking the **Telesales** button in the Navigator.
 
-![](Telesales.assets/TelesalesNavigator.png)
+<p align="center">
+  <img src="Telesales.assets/TelesalesNavigator.png" alt="Telesales button in the Navigator">
+</p>
 
+When configured, you need to enter your personal Seller ID.
 
+<p align="center">
+  <img src="Telesales.assets/TeleSalesSellerId.png" alt="Telesales Seller ID">
+</p>
 
-When configured you need to enter your personal Seller ID.
+After a valid Seller ID has been entered, the Telesales main screen is shown.
 
-![](Telesales.assets/TeleSalesSellerId.png)
+## Main screen layout
 
-When a valid Seller ID has been entered the Telesales Main screen will be shown.
+<p align="center">
+  <img src="Telesales.assets/TeleSalesMainScreen.png" alt="Telesales main screen">
+</p>
 
-## Main Screen layout
+### 1. Stocks
 
-![TeleSalesMainScreen](Telesales.assets/TeleSalesMainScreen.png)
+This window contains the stocks that are available to the user. The **All stocks** option shows the available parcels from every visible stock.
 
+To determine which stocks are visible:
 
+1. Right-click the Telesales button in the Navigator. A pop-up menu appears.
 
-1. In this window you will find the stocks which are available to the user.
-   There is 1 additional 'stock' with the name 'All stocks' in which **all** available parcels form the visible stocks are shows. 
-Each user can determine which stocks are visible by selecting the stocks in the following way:
-   
-   - Right click on the Tele sales button in the navigator and a pop-up window will appear
-     ![](Telesales.assets/TeleSalesStockSelection.png)
-   - Click on the option stock and a window with all available stocks will be show in which you can select/ deselect the stocks which should be visible in Tele Sales for the user.
-     The (de)selection can be made by pressing the spacebar on the keyboard on the active line in the window
-     ![](Telesales.assets/TeleSalesStockSelected.png)
-     The yellow marked stocks are the ones that will be visible in the Tele Sales main screen for this user
-   
-2. Various filters can be found and used in this window.
+<p align="center">
+  <img src="Telesales.assets/TeleSalesStockSelection.png" alt="Telesales stock-selection menu">
+</p>
 
-3. The parcels from the selected stock or 'All stocks'
-   The visible columns in window 3 can be configured to your own liking with a right click on the header (marked with a red border in above screenshot.)
+2. Click **Stock** to open the stock-selection window. Press the spacebar on the active line to select or deselect a stock.
 
-4. Window with debtors. Once a debtor has been chosen this windows will change.
-   ![](Telesales.assets/TeleSalesSellColumnsr.png)
+<p align="center">
+  <img src="Telesales.assets/TeleSalesStockSelected.png" alt="Selected Telesales stocks">
+</p>
 
-   After the debtor has been selected the columns will change.
-   This enables you to quickly determine how many stems you will sell in which colli content.
-   Column description and function:
+The stocks highlighted in yellow will be visible in the Telesales main screen for this user.
 
-   Col: how many colli you want to sell
-   Content: the content of each colli
-   Separate: you can sell in colli with some additional separate stems. Meaning these will not be in a container.
-   Price: The price per 1 item.
-   Fst. what kind of bucket you want to sell the product in.
+### 2. Filters
 
-5. Debtor and order information will be shown here.
+Various filters can be found and used in this window.
 
+### 3. Parcels
 
+This window shows the parcels from the selected stock or from **All stocks**. Right-click the header to configure the visible columns.
+
+### 4. Debtors
+
+This window contains the debtors. Its columns change after a debtor has been selected.
+
+<p align="center">
+  <img src="Telesales.assets/TeleSalesSellColumnsr.png" alt="Telesales debtor columns">
+</p>
+
+The columns make it possible to specify how many stems are sold in each colli:
+
+- **Col:** number of colli to sell.
+- **Content:** content of each colli.
+- **Separate:** additional separate stems that are not placed in a container.
+- **Price:** price per item.
+- **Fst:** bucket type used for the product.
+
+### 5. Debtor and order information
+
+The selected debtor and the related order information are shown in this section.
 
 ## Buttons at the top of the main screen
 
-At the top you will find the following buttons:
+The following buttons are available at the top of the screen:
 
-![](Telesales.assets/TeleSalesButtonBar.png)
+<p align="center">
+  <img src="Telesales.assets/TeleSalesButtonBar.png" alt="Telesales button bar">
+</p>
 
-- Close => Will close the Tele sales screen
+- **Close:** closes the Telesales screen.
+- **Stock:** shows all parcels in the selected stock.
+- **Purchase list:** shows parcels from all stocks on which an order has been placed. Parcels without an order are hidden.
+- **Packing list:** shows a pop-up with the divisions for all debtors that still have stock.
 
-- Stock => Will show all the parcels in the selected stock
+Double-click a debtor to see a summary of all sales for that debtor.
 
-- Purchase list => Will filter all parcel from all stocks on which an order has been placed. Parcel without an order are hidden
+<p align="center">
+  <img src="Telesales.assets/TeleSalesPackingList.png" alt="Telesales packing list">
+</p>
 
-- **Packing list => Proper description needed**
+- **Details:** shows a pop-up with details of the active parcel.
+- **Refresh:** refreshes the stock.
+- **Picture:** shows the picture linked to the active parcel.
+- **Customer:** selects a debtor.
+- **History:** shows historical invoices for the active debtor.
 
-  When you click on the 'Packing list' button (1) you will see a pop-up (2) with all divisions for all debtors which are still in the stock.
+<p align="center">
+  <img src="Telesales.assets/TeleSalesInvoiceHistory.png" alt="Telesales invoice history">
+</p>
 
-  You can double click on one of the debtors to see a summary (3) of all sales for that particular debtor.![](Telesales.assets/TeleSalesPackingList.png)
+- **Customer Total:** shows all orders and order numbers for the active debtor.
 
-- Details => Will show a pop-up with details of the active parcel
+<p align="center">
+  <img src="Telesales.assets/TeleSalesOutstandingOrders.png" alt="Outstanding Telesales orders">
+</p>
 
-- Refresh => Will refresh the stock
+Double-click an order to see its details in the customer summary.
 
-- Picture => When a pictures has been linked to the active parcel it will be shown
+<p align="center">
+  <img src="Telesales.assets/TeleSalesOrderDetails.png" alt="Telesales order details">
+</p>
 
-- Customer => A debtor can be selected via this button
+- **Current:** shows the current Telesales order for the selected date.
 
-- History => Historical invoices for this current active debtor
-  ![](Telesales.assets/TeleSalesInvoiceHistory.png)
+<p align="center">
+  <img src="Telesales.assets/TeleSalesCurrent.png" alt="Current Telesales order">
+</p>
 
-- Customer Total => A screen with all orders for the active debtor with their order number will be shown.
+- **Ordering:** shows all order lists. After an order list is selected, Florisoft searches for the order-list parcel linked to the active stock parcel. This function can be used when the stock parcel and order-list parcel reference each other.
+- **Invoicing:** opens the Invoice screen to process invoices.
 
-  ![](Telesales.assets/TeleSalesOutstandingOrders.png)
-  When double clicked on one of the lines, you will see the details for the selected order number in the summary by customer screen.
-
-  ![](Telesales.assets/TeleSalesOrderDetails.png)
-
-- Current => Will show the current Tele Sales order for the selected date
-  ![](Telesales.assets/TeleSalesCurrent.png)
-
-- Ordering => Will show a pop-up with all orderlists. After selecting one of the orderlists Florisoft tries to find the orderlist parcel which is linked to the active parcel in the stock. When no corresponding orderlist parcel can be found a message will be shown.
-  This can only be used when the parcel in the stock and the orderlist parcel have a reference to each other.
-  When the link is there, this button can be used to place orders in the orderlist for the future.
-
-- Invoicing => Will open the Invoice screen to process invoices.
-  ![](Telesales.assets/TeleSalesInvoiceScreen.png)
-
-- Email Parcel details =>
-
-- Email parcel details to Florishoot =>
-
-
+<p align="center">
+  <img src="Telesales.assets/TeleSalesInvoiceScreen.png" alt="Telesales invoice screen">
+</p>
 
 ## Selling
 
-To sell to a debtor you need to start with selecting the debtor. You can do that via the following buttons:
-Click on the button with 3 dots at the top of the debtor window **or** you can scroll trough the list and click on the 'debtornumber'.
-![](Telesales.assets/TeleSalesSelectDebtor1.png)
+Start by selecting a debtor. Click the button with three dots at the top of the debtor window, or scroll through the list and click the debtor number.
 
-Another way is to click on the 'Customer' button at the top of the screen.
-![](Telesales.assets/TeleSalesSelectDebtor2.png)
+<p align="center">
+  <img src="Telesales.assets/TeleSalesSelectDebtor1.png" alt="Select a debtor from the debtor window">
+</p>
 
+Alternatively, click **Customer** at the top of the screen.
 
+<p align="center">
+  <img src="Telesales.assets/TeleSalesSelectDebtor2.png" alt="Customer button">
+</p>
 
-When one of these buttons (3 dots or customer button) has been clicked the debtor selection screen will pop-up to search for and select a debtor.
-![](Telesales.assets/TeleSalesSelectDebtor3.png)
+The debtor-selection screen opens, where you can search for and select a debtor.
 
-Once the debtor has been chosen a screen might pop-up to enter or select an order number.
-![](Telesales.assets/TeleSalesDebtorOrdernumber.png)
+<p align="center">
+  <img src="Telesales.assets/TeleSalesSelectDebtor3.png" alt="Debtor-selection screen">
+</p>
 
+After the debtor has been selected, a screen may appear in which you can enter or select an order number.
 
+<p align="center">
+  <img src="Telesales.assets/TeleSalesDebtorOrdernumber.png" alt="Select a debtor order number">
+</p>
 
-If the option 'Use Order Number' has been activated this screen to select or enter the order number will be shown.
-This option can be found on the menu bar at the top underneath the menu 'Setup'.
-![](Telesales.assets/TeleSalesOrderNumber.png)
+This screen is shown when **Use Order Number** is enabled under **Setup**.
 
+<p align="center">
+  <img src="Telesales.assets/TeleSalesOrderNumber.png" alt="Telesales order number">
+</p>
 
+After the debtor and order number have been selected, orders can be entered. Use the search and filtering options to find a product more quickly.
 
-Once the debtor/ order number has been chosen the orders can be entered. To find e specific product faster a search of filter query can be used (see details in next chapter.)
+Enter a quantity in the buyer column to allocate the desired quantity to the debtor.
 
-By entering a quantity in the buyer column the desired quantity will be divided to the debtor.
+<p align="center">
+  <img src="Telesales.assets/TeleSalesSelling.png" alt="Selling in Telesales">
+</p>
 
-![](Telesales.assets/TeleSalesSelling.png)
+When the following option is enabled, sales are always entered using the parcel's sales unit.
 
-When the following option is activated you will always selling in the sales unit of that parcel.
-![](Telesales.assets/TeleSalesSalesUnitOption.png)
+<p align="center">
+  <img src="Telesales.assets/TeleSalesSalesUnitOption.png" alt="Telesales sales-unit option">
+</p>
 
-
-When you enter 1 it will be changes to the sales unit automatically. The Sales unit is visible in the SU column.
+When you enter `1`, the quantity is automatically changed to the sales unit. The sales unit is visible in the **SU** column.
 
 ### Delete a sale
 
-To delete a sales you can enter the quantity 0 in the yellow column.
-![](Telesales.assets/TeleSalesDeleteSale.png)
+Enter a quantity of `0` in the yellow column to delete a sale.
 
-in the columns PC you can find the package code. In the FA column you can find the number of packages which are included in the sales.
-If you do not want to sell with the packaging included you can change the FA column to 0.
+<p align="center">
+  <img src="Telesales.assets/TeleSalesDeleteSale.png" alt="Delete a Telesales sale">
+</p>
 
+The **PC** column contains the package code. The **FA** column contains the number of packages included in the sale. Change **FA** to `0` if the packaging should not be included.
 
+## Sales margins and total amount
 
-## Sales Margins/ Total amount
+Columns are available on each line to show the margin for that sale.
 
-Per line there  are columns available to show the margin for that particular sale
-**When a price configuration is used to calculate the sales price (which is shown in the price column), a margin will NOT be calculated. Only when you change the price in the yellow vprice column the margin will be calculated based on the difference between the price en the vprice.**
+**When a price configuration is used to calculate the sales price shown in the price column, a margin is not calculated. A margin is calculated when the price in the yellow VPrice column is changed, based on the difference between Price and VPrice.**
 
+## Searching and filtering
 
+Telesales includes a quick-search function. Start typing to display the entered characters at the bottom of the screen. Parcels are filtered using these characters, and a space can separate multiple keywords.
 
+<p align="center">
+  <img src="Telesales.assets/TeleSalesFiltering.png" alt="Quick filtering in Telesales">
+</p>
 
+Use the Backspace key to remove the entered characters and reset the search.
 
+The second filtering method uses the filters window.
 
+<p align="center">
+  <img src="Telesales.assets/TeleSalesFiltering2.png" alt="Telesales filters window">
+</p>
 
-## Searching/ Filtering
+Open or close the filters window via **Screen > Show filters**.
 
-In the Tele Sales screens there is feature build in which enables the user to search on keywords quickly.
-Once the user starts typing the typed characters will be shown at the bottom of the screen.
-The parcels will be filtered based on the entered characters. A space can be used to separate keywords.
-
- ![](Telesales.assets/TeleSalesFiltering.png)
-
-
-
-The 'Backspace' key on the keyboard has to be used to delete the typed characters to 'reset' the search feature.
-
-The second filtering method is via the filters window.
-![](Telesales.assets/TeleSalesFiltering2.png)
-
-
-
-The filter window can be (de)activated via the menu 'Screen' => 'Show filters'.
-![](Telesales.assets/TeleSalesMenuFilter.png)
-
-
-
----
-
+<p align="center">
+  <img src="Telesales.assets/TeleSalesMenuFilter.png" alt="Show filters menu option">
+</p>
