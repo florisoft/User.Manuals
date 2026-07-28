@@ -584,7 +584,7 @@ Met de optie **Omlijning** kun je een omlijning toevoegen aan je [component](#co
 
 | Stap | Uitleg |
 |:--|:--|
-| **1** | In dit voorbeeld hebben we een **[Panel-component](#panel)** geselecteerd (1). Onder het tabblad **Styling** (2) vind je de optie **Omlijning** (3). Hier kun je de gewenste lijndikte instellen (4) en vervolgens een [kleur](#color-picker) (5) en lijnstijl (6) selecteren.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/26.1.png"></details> |
+| **1** | In dit voorbeeld hebben we een **[Panel-component](#panel)** geselecteerd (1). Onder het tabblad **Styling** (2) vind je de optie **Omlijning** (3). Hier kun je de gewenste lijndikte instellen (4). De volgende eenheden worden ondersteund: `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh` en `vw`. Vervolgens kun je een [kleur](#color-picker) (5) en lijnstijl (6) selecteren.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/26.1.png"></details> |
 | **2** | Klap indien gewenst de aanvullende opties uit (7) om de lijndikte per zijde afzonderlijk in te stellen. De wijzigingen worden direct zichtbaar in de [Editor](#editor) (8). Is de omlijning toch niet helemaal zoals gewenst? Dan kun je de ingestelde omlijning eenvoudig verwijderen via de verwijderknop (9) of de wijziging [ongedaan maken](#editor).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/26.2.png"></details> |
 
 ---

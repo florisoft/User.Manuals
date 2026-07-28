@@ -583,11 +583,11 @@ The **Color Picker** is displayed when you want to select or adjust a color for 
 
 #### Border
 
-With the **Border** option, you can add a border to your [component](#components). You can set the border width, color, and style. In addition, you can adjust the border width individually for each side.
+With the **Border** option, you can add a border to your [component](#components). You can set the border width, color, and border style. In addition, you can adjust the border width individually for each side.
 
 | Step | Explanation |
 |:--|:--|
-| **1** | In this example, we have selected a **[Panel component](#panel)** (1). Under the **Styling** tab (2), you will find the **Border** option (3). Here, you can set the desired border width (4) and then select a [color](#color-picker) (5) and border style (6).<details><summary><b>Click here for the example image</b></summary><img src="media/26.1.png"></details> |
+| **1** | In this example, we have selected a **[Panel component](#panel)** (1). Under the **Styling** tab (2), you will find the **Border** option (3). Here, you can set the desired border width (4). The following units are supported: `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh`, and `vw`. You can then select a [color](#color-picker) (5) and border style (6).<details><summary><b>Click here for the example image</b></summary><img src="media/26.1.png"></details> |
 | **2** | If desired, expand the additional options (7) to set the border width individually for each side. The changes are immediately visible in the [Editor](#editor) (8). If the border is not quite as desired, you can easily remove the configured border using the delete button (9) or [undo](#editor) the change.<details><summary><b>Click here for the example image</b></summary><img src="media/26.2.png"></details> |
 
 ---
