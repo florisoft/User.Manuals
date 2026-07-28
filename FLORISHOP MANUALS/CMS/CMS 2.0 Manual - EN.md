@@ -594,17 +594,23 @@ With the **Border** option, you can add a border to your [component](#components
 
 #### Margin/Padding
 
-| Item | Description |
-|---|---|
-| Styling | This description will be added later |
+With the **Margin** and **Padding** options, you can create space around and inside a [component](#components). **Margin** can also be used to influence the position of a component on the page.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we have selected a [Panel](#panel) component (1). Under the **Styling** tab (2), you can configure **Margin** (3) and **Padding** (4) for all sides of the component. With **Margin**, you can set the space around a component (5). The following units are supported: `unset`, `auto`, `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh`, and `vw`. With **Padding**, you can create space inside the component (6). The following units are supported: `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh`, and `vw`.<details><summary><b>Click here for the example image</b></summary><img src="media/27.1.png"></details> |
+| **2** | By expanding the additional options (7), you can configure the values for each side individually. The changes are immediately visible in the [Editor](#editor) (8). If the settings are not quite as desired, you can easily remove them using the delete button (9) or [undo](#editor) the change.<details><summary><b>Click here for the example image</b></summary><img src="media/27.2.png"></details> |
 
 ---
 
 #### Border Radius
 
-| Item | Description |
-|---|---|
-| Styling | This description will be added later |
+Give your [components](#components) a playful or modern appearance by using **Border Radius**.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we have selected a [Panel](#panel) component (1). Under the **Styling** tab (2), you can configure the **Border Radius** (3) for all corners of the component. The following units are supported: `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh`, and `vw`.<details><summary><b>Click here for the example image</b></summary><img src="media/28.1.png"></details> |
+| **2** | By expanding the additional options (4), you can configure the border radius for each corner individually. The changes are immediately visible in the [Editor](#editor) (5). If the settings are not quite as desired, you can easily remove them using the delete button (6) or [undo](#editor) the change.<br><br>**Note:** The border radius may not always be immediately visible. In that case, check whether [Overflow](#overflow) (7) is set to **Hidden**. In this example, **Overflow** is set to **Visible**, because the border radius is already visible.<details><summary><b>Click here for the example image</b></summary><img src="media/28.2.png"></details> |
 
 ---
 

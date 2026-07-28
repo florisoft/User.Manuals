@@ -591,17 +591,23 @@ Met de optie **Omlijning** kun je een omlijning toevoegen aan je [component](#co
 
 #### Margin/Padding
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Styling | Deze beschrijving wordt aangevuld |
+Met de opties **Margin** en **Padding** kun je ruimte creëren rondom en binnen een [component](#componenten). **Margin** kan daarnaast worden gebruikt om de positie van een component op de pagina te beïnvloeden.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Panel](#panel)-component geselecteerd (1). Via het tabblad **Styling** (2) kun je **Margin** (3) en **Padding** (4) instellen voor alle zijden van het component. Met **Margin** stel je de ruimte rondom een component in (5). De volgende eenheden worden ondersteund: `unset`, `auto`, `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh` en `vw`. Met **Padding** creëer je ruimte binnen het component (6). De volgende eenheden worden ondersteund: `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh` en `vw`.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/27.1.png"></details> |
+| **2** | Door de aanvullende opties uit te klappen (7), kun je de waarden voor elke zijde afzonderlijk instellen. De wijzigingen worden direct zichtbaar in de [Editor](#editor) (8). Zijn de instellingen toch niet helemaal zoals gewenst? Dan kun je deze eenvoudig verwijderen via de verwijderknop (9) of de wijziging [ongedaan maken](#editor).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/27.2.png"></details> |
 
 ---
 
 #### Hoekafronding
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Styling | Deze beschrijving wordt aangevuld |
+Geef je [componenten](#componenten) een speelse of moderne uitstraling door gebruik te maken van **Hoekafronding**.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Panel](#panel)-component geselecteerd (1). Via het tabblad **Styling** (2) kun je de **Hoekafronding** (3) instellen voor alle hoeken van het component. De volgende eenheden worden ondersteund: `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh` en `vw`.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/28.1.png"></details> |
+| **2** | Door de aanvullende opties uit te klappen (4), kun je de hoekafronding voor elke hoek afzonderlijk instellen. De wijzigingen worden direct zichtbaar in de [Editor](#editor) (5). Zijn de instellingen toch niet helemaal zoals gewenst? Dan kun je deze eenvoudig verwijderen via de verwijderknop (6) of de wijziging [ongedaan maken](#editor).<br><br>**Let op:** Het kan voorkomen dat de hoekafronding niet direct zichtbaar is. Controleer in dat geval of de [Overflow](#overflow) (7) op **Hidden** staat. In dit voorbeeld staat **Overflow** op **Visible**, omdat de hoekafronding al zichtbaar is.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/28.2.png"></details> |
 
 ---
 
