@@ -553,11 +553,17 @@ Use these tabs to ensure that your website looks clean and professional not only
 
 ### General Settings
 
+Every component has a **General Settings** tab. The available settings may differ depending on the component. However, there are several options that can be found in many components.
+
 #### Translations
 
-| Item | Description |
-|---|---|
-| General Settings | This description will be added later |
+When text can be entered within a component or in the page settings, you can easily add translations for different languages using the **Edit translations** button.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we have selected a **Text component** (1). Under the **General Settings** tab (2), you will find the **Edit translations** button (3). Click this button to open the translation dialog.<details><summary><b>Click here for the example image</b></summary><img src="media/24.1.png"></details> |
+| **2** | The translation dialog displays the **Default** language of the webshop by default (4). The default language of the webshop can be configured using the webshop setting **CMSDEFAULTCULTURE**. **Note:** Always enter a valid language code, such as `nl` or `en`. Invalid values may cause errors in the webshop. You can then enter the text for this language (5). In this example, the text field is still empty because no Dutch translation has been entered yet. In addition, you will find a dropdown menu where you can select another language (6). You can then enter the desired translation for the selected language (7).<details><summary><b>Click here for the example image</b></summary><img src="media/24.2.png"></details> |
+| **3** | When you select a language, a green indicator (8) shows that the selected language has been fully translated. In this example, you can see that a translation has only been entered for the English language (8). After entering the desired translations, you can confirm the settings (9).<details><summary><b>Click here for the example image</b></summary><img src="media/24.3.png"></details> |
 
 ---
 
