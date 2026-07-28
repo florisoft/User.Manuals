@@ -93,7 +93,7 @@ U kunt alsnog een nieuwe exceptie registreren.
     
 - U krijgt een overzicht van alle geregistreerde excepties, inclusief debiteur, artikelnummer, omschrijving, reden en aanvullende opmerkingen.
 
-    > ℹ️ Als u na het registreren van een exceptie géén regels ziet in de verdeelcontrole, controleer dan de gebruikersinstelling (Inifiles) FS_KASSA - Kassa_Id. Wanneer deze leeg is, worden er geen regels weergegeven.
+    > ℹ️ Als u na het registreren van een exceptie géén regels ziet in de verdeelcontrole, controleer dan of de policy `IniSettings_FSKassa_Kassa_Id` voor de gebruiker de juiste voorraadcode(s) bevat. Wanneer deze policy leeg is of de voorraadcode van de geregistreerde partij ontbreekt, wordt de partij niet weergegeven.
     
 - Toegevoegde foto's zijn zichtbaar via de rechtermuisknop of door het indrukken van **F5**. Via het contextmenu kunnen meerdere foto's worden ingezien als er meer dan één gekoppeld is.
     

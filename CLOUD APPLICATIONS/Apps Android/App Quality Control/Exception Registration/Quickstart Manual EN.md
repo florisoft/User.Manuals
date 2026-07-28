@@ -93,7 +93,7 @@ You can still register a new exception.
 
 - You will see an overview of all registered exceptions, including debtor, article number, description, reason, and comments.
 
-  > ℹ️ If you do not see any parcels in the divsion control after registering an exception, check the user setting (Inifiles) FS_KASSA - Kassa_Id. If this is empty, no parcels will be displayed.
+  > ℹ️ If you do not see any parcels in Division Control after registering an exception, check whether the `IniSettings_FSKassa_Kassa_Id` policy contains the correct stock code(s) for the user. If this policy is empty or does not include the stock code of the registered parcel, the parcel will not be displayed.
 
 - Attached photos are visible via right-click or by pressing **F5**. If multiple photos are attached, use the context menu to browse them.
 
