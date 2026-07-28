@@ -119,6 +119,17 @@ There are also additional options:
 <br>
 By clicking Next, any follow-up steps can be performed, such as taking photos.
 
+### Show photos on the invoice
+
+Photos stored during Final Outbound Check can be added to the invoice layout.
+
+1. Add the `FinalOutboundCheckPhotos.DBF` table to the invoice layout.
+2. Use the fields `PHOTOPATH1` through `PHOTOPATH8`. They contain up to the last eight photos associated with the invoice; unused fields remain empty.
+3. Add an image element for each photo field and start its script with `URL :=`, for example `URL := FinalOutboundCheckPhotos.PHOTOPATH1`.
+4. Check the print preview to confirm that only photos belonging to the relevant invoice are shown.
+
+The cloud server must be able to read the directory configured through `Apps_Logistics_QualityControl_FinalOutboundCheck_Addons_PhotoStorageDirectoryPath`. See [Policies Final Outbound Check EN](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Final%20outbound%20check/Policies%20Final%20outbound%20check%20-%20EN.md) for the configuration.
+
 <br>
 <details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/9.png"></details>
 <br>

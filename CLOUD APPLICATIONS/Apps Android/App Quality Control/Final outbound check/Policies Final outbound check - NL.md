@@ -164,6 +164,15 @@ Met deze policy kun je extra add-ons inschakelen die extra functionaliteit aan d
   Integreert met de ExceptionRegistration-functionaliteit, waarmee gebreken of afwijkingen aan een orderitem geregistreerd kunnen worden.  
   Dit helpt bij het vastleggen van problemen voor opvolging.
 
+### `PhotoStorageDirectoryPath`
+
+Bepaalt in welke map de foto's van Final Outbound Check worden opgeslagen.
+
+- Gebruik een netwerkpad dat bereikbaar is voor de cloudserver, bijvoorbeeld `\\server\share\pictures\FinalOutboundCheck`.
+- De cloudserver heeft lees- en schrijfrechten op deze map nodig.
+- Sla de policy op en laad de configuratie opnieuw voordat u de fotofunctie gebruikt.
+- Als de map niet bereikbaar is, kunnen foto's niet betrouwbaar worden opgeslagen of op een factuur worden opgehaald.
+
 ---
 
 ### `ProductDetails`

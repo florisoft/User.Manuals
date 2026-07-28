@@ -159,6 +159,15 @@ Allows you to enable additional add-ons that add extra functionality to the app.
   Integrates with the ExceptionRegistration functionality, allowing defects or discrepancies on an order item to be registered.  
   This helps document issues for follow-up and quality control.
 
+### `PhotoStorageDirectoryPath`
+
+Determines the directory in which Final Outbound Check photos are stored.
+
+- Use a network path that the cloud server can access, for example `\\server\share\pictures\FinalOutboundCheck`.
+- The cloud server needs read and write access to this directory.
+- Save the policy and reload the configuration before using the photo function.
+- If the directory cannot be accessed, photos cannot be stored reliably or retrieved for an invoice.
+
 ---
 
 ### `ProductDetails`

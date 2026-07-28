@@ -118,6 +118,17 @@ Daarnaast zijn er extra mogelijkheden:
 <br>
 Door op next te klikken, kunnen eventuele vervolgstappen worden uitgevoerd, zoals het maken van foto's.
 
+### Foto's op de factuur tonen
+
+Foto's die tijdens Final Outbound Check zijn opgeslagen, kunnen aan de factuurlay-out worden toegevoegd.
+
+1. Voeg de tabel `FinalOutboundCheckPhotos.DBF` aan de factuurlay-out toe.
+2. Gebruik de velden `PHOTOPATH1` tot en met `PHOTOPATH8`. Deze bevatten maximaal de laatste acht foto's die bij de factuur horen; ongebruikte velden blijven leeg.
+3. Voeg voor ieder gebruikt fotoveld een afbeeldingselement toe en laat het script beginnen met `URL :=`, bijvoorbeeld `URL := FinalOutboundCheckPhotos.PHOTOPATH1`.
+4. Controleer in het afdrukvoorbeeld dat alleen de foto's van de betreffende factuur worden getoond.
+
+De cloudserver moet de map uit de policy `Apps_Logistics_QualityControl_FinalOutboundCheck_Addons_PhotoStorageDirectoryPath` kunnen lezen. Zie voor de inrichting de handleiding [Policies Final Outbound Check NL](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Quality%20Control/Final%20outbound%20check/Policies%20Final%20outbound%20check%20-%20NL.md).
+
 <br>
 <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/9.png"></details>
 <br>
