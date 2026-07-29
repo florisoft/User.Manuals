@@ -626,9 +626,12 @@ Stel de **Hoogte** en **Breedte** van je [componenten](#componenten) in om de af
 
 #### Slagschaduw
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Styling | Deze beschrijving wordt aangevuld |
+Geef je [componenten](#componenten) meer diepte en een visueel effect door gebruik te maken van **Slagschaduw**.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Panel](#panel)-component geselecteerd (1). Via het tabblad **Styling** (2) kun je de optie **Slagschaduw** (3) instellen voor het [component](#componenten).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/30.1.png"></details> |
+| **2** | Stel de horizontale (4) en verticale (5) offset van de schaduw in. Vervolgens kun je de vervaging (6) en spreiding (7) van de schaduw bepalen. De volgende eenheden worden ondersteund: `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh` en `vw`. Selecteer vervolgens een [kleur](#color-picker) (8) en bepaal of de schaduw naar binnen of naar buiten moet worden weergegeven (9). De wijzigingen worden direct zichtbaar in de [Editor](#editor) (10). Zijn de instellingen toch niet helemaal naar wens? Dan kun je de ingestelde slagschaduw eenvoudig verwijderen via de verwijderknop (11) of de wijziging [ongedaan maken](#editor).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/30.2.png"></details> |
 
 ---
 
