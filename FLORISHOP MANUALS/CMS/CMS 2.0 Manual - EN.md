@@ -616,9 +616,14 @@ Give your [components](#components) a playful or modern appearance by using **Bo
 
 #### Height/Width
 
-| Item | Description |
-|---|---|
-| Styling | This description will be added later |
+Set the **Height** and **Width** of your [components](#componenten) to determine the dimensions of a component.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we have selected a [Panel](#panel) component (1). In the **Styling** tab (2), you can configure the **Height** (3) and **Width** (4) of the component.<details><summary><b>Click here for the example image</b></summary><img src="media/29.1.png"></details> |
+| **2** | To set the height, disable the **Auto** option (5). You can then enter a height value (6). Next, choose whether you want to set the height as a fixed height (**Normal**), maximum height (**Max**), or minimum height (**Min**) (7). In this example, we have set the minimum height to **50** (6) **ViewportPercent** (8). This means that the [Panel](#panel) component will always occupy at least 50% of the screen height. The following units are supported: `px` (Pixel), `rem` (1rem = 16 pixels), `%` (Percent), and `vh` (Viewport Percent). Changes are immediately visible in the [Editor](#editor) (9).<details><summary><b>Click here for the example image</b></summary><img src="media/29.2.png"></details> |
+| **3** | To set the width, disable the **Auto** option (10). You can then enter a width (**Width**) (11). Next, choose whether you want to set the width as a fixed width (**Normal**), maximum width (**Max**), or minimum width (**Min**) (12). In this example, we have set the maximum width to **300** (11) **Pixels** (13). This means that the [Panel](#panel) component will never be wider than 300 pixels. The following units are supported: `px` (Pixel), `rem` (1rem = 16 pixels), `%` (Percent), and `vh` (Viewport Percent). Changes are immediately visible in the [Editor](#editor) (14).<details><summary><b>Click here for the example image</b></summary><img src="media/29.3.png"></details> |
+| **4** | When you set the height or width type to **Max** or **Min**, an optional additional input field appears (15). This allows you to set the other boundary value in addition to a maximum or minimum height/width for the [component](#componenten). In this example, we have configured the [Panel](#panel) component to have a maximum width of 300 pixels, while never becoming narrower than 100 pixels.<details><summary><b>Click here for the example image</b></summary><img src="media/29.4.png"></details> |
 
 ---
 

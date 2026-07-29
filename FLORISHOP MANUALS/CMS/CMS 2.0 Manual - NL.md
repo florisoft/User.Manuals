@@ -613,9 +613,14 @@ Geef je [componenten](#componenten) een speelse of moderne uitstraling door gebr
 
 #### Hoogte/Breedte
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Styling | Deze beschrijving wordt aangevuld |
+Stel de **Hoogte** en **Breedte** van je [componenten](#componenten) in om de afmetingen van een component te bepalen.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Panel](#panel)-component geselecteerd (1). Via het tabblad **Styling** (2) kun je de **Hoogte** (3) en **Breedte** (4) van het component instellen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/29.1.png"></details> |
+| **2** | Om de hoogte in te stellen, schakel je de optie **Auto** uit (5). Vervolgens kun je een hoogte invoeren (6). Daarna bepaal je of je de hoogte als een vaste hoogte (**Normal**), maximale hoogte (**Max**) of minimale hoogte (**Min**) wilt instellen (7). In dit voorbeeld hebben we de minimale hoogte ingesteld op **50** (6) **ViewportPercent** (8). Dit betekent dat het [Panel](#panel)-component altijd minimaal 50% van de hoogte van het scherm inneemt. De volgende eenheden worden ondersteund: `px` (Pixel), `rem` (1rem = 16 pixels), `%` (Procent) en `vh` (ViewportProcent). De wijzigingen worden direct zichtbaar in de [Editor](#editor) (9).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/29.2.png"></details> |
+| **3** | Om de breedte in te stellen, schakel je de optie **Auto** uit (10). Vervolgens kun je een breedte (**Width**) invoeren (11). Daarna bepaal je of je de breedte als een vaste breedte (**Normal**), maximale breedte (**Max**) of minimale breedte (**Min**) wilt instellen (12). In dit voorbeeld hebben we de maximale breedte ingesteld op **300** (11) **Pixels** (13). Dit betekent dat het [Panel](#panel)-component nooit breder wordt dan 300 pixels. De volgende eenheden worden ondersteund: `px` (Pixel), `rem` (1rem = 16 pixels), `%` (Procent) en `vh` (ViewportProcent). De wijzigingen worden direct zichtbaar in de [Editor](#editor) (14).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/29.3.png"></details> |
+| **4** | Wanneer je het type hoogte of breedte instelt op **Max** of **Min**, verschijnt er een optioneel extra invoerveld (15). Hiermee kun je naast een maximale of minimale hoogte/breedte ook de andere grenswaarde instellen voor het [component](#componenten). In dit voorbeeld hebben we ingesteld dat het [Panel](#panel)-component maximaal 300 pixels breed mag zijn, maar nooit smaller wordt dan 100 pixels.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/29.4.png"></details> |
 
 ---
 
