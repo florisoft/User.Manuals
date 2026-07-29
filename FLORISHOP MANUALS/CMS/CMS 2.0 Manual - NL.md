@@ -631,15 +631,18 @@ Geef je [componenten](#componenten) meer diepte en een visueel effect door gebru
 | Stap | Uitleg |
 |:--|:--|
 | **1** | In dit voorbeeld hebben we een [Panel](#panel)-component geselecteerd (1). Via het tabblad **Styling** (2) kun je de optie **Slagschaduw** (3) instellen voor het [component](#componenten).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/30.1.png"></details> |
-| **2** | Stel de horizontale (4) en verticale (5) offset van de schaduw in. Vervolgens kun je de vervaging (6) en spreiding (7) van de schaduw bepalen. De volgende eenheden worden ondersteund: `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh` en `vw`. Selecteer vervolgens een [kleur](#color-picker) (8) en bepaal of de schaduw naar binnen of naar buiten moet worden weergegeven (9). De wijzigingen worden direct zichtbaar in de [Editor](#editor) (10). Zijn de instellingen toch niet helemaal naar wens? Dan kun je de ingestelde slagschaduw eenvoudig verwijderen via de verwijderknop (11) of de wijziging [ongedaan maken](#editor).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/30.2.png"></details> |
+| **2** | Stel de horizontale (4) en verticale (5) offset van de schaduw in. Vervolgens kun je de vervaging (6) en spreiding (7) van de schaduw bepalen. De volgende eenheden worden ondersteund: `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh` en `vw`. Selecteer vervolgens een [kleur](#color-picker) (8) en bepaal of de schaduw naar binnen of naar buiten moet worden weergegeven (9). De wijzigingen worden direct zichtbaar in de [Editor](#editor) (10). Zijn de instellingen toch niet helemaal naar wens? Dan kun je de ingestelde slagschaduw eenvoudig verwijderen via de verwijderknop (11) of de wijziging [ongedaan maken](#editor).<br><br>**Let op:** Het kan voorkomen dat de slagschaduw wordt afgesneden. Controleer in dat geval of de **Overflow** van het component waarin het van een slagschaduw voorziene component zich bevindt, is ingesteld op **Visible**. Meer informatie hierover vind je bij [Overflow](#overflow).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/30.2.png"></details> |
 
 ---
 
 #### Overflow
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Styling | Deze beschrijving wordt aangevuld |
+Bepaal hoe overtollige content binnen een [component](#componenten) wordt weergegeven of afgehandeld met behulp van de optie **Overflow**.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Panel](#panel)-component geselecteerd (1). Via het tabblad **Styling** (2) kun je de optie **Overflow** (3) instellen voor het [component](#componenten). Op het geselecteerde component is een [Hoekafronding](#hoekafronding) ingesteld, maar deze is niet zichtbaar in de [Editor](#editor) (5). Met de optie **Overflow** kun je bepalen hoe content die buiten de grenzen van een component valt, wordt weergegeven.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/31.1.png"></details> |
+| **2** | Stel de **Overflow** in op **Hidden** (6). In de [Editor](#editor) (7) is direct zichtbaar dat de [Hoekafronding](#hoekafronding) nu correct wordt weergegeven. De optie **Overflow** beschikt over de volgende instellingen:<br><br>**Visible:** Content die buiten de grenzen van het component valt, blijft zichtbaar.<br><br>**Hidden:** Content die buiten de grenzen van het component valt, wordt verborgen. Dit kan er ook voor zorgen dat bijvoorbeeld een [Hoekafronding](#hoekafronding) of [Slagschaduw](#slagschaduw) correct zichtbaar wordt.<br><br>**Auto:** De browser bepaalt automatisch hoe overtollige content wordt afgehandeld. Indien nodig worden scrollbalken weergegeven.<br><br>**Scroll:** Overtollige content wordt verborgen en er worden scrollbalken weergegeven, zodat de gebruiker door de content kan scrollen.<br><br>**ScrollY:** Overtollige content wordt verticaal verborgen. Er wordt een verticale scrollmogelijkheid toegevoegd wanneer dit nodig is.<br><br>**ScrollX:** Overtollige content wordt horizontaal verborgen. Er wordt een horizontale scrollmogelijkheid toegevoegd wanneer dit nodig is.<br><br>**Unset:** De Overflow-instelling wordt teruggezet naar de standaardwaarde van het component of de onderliggende CSS-instelling.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/31.2.png"></details> |
 
 ---
 

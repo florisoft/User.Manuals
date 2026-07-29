@@ -629,21 +629,23 @@ Set the **Height** and **Width** of your [components](#componenten) to determine
 
 #### Box Shadow
 
-Add depth and a visual effect to your [components](#components) by using **Box Shadow**.
+Add depth and a visual effect to your [components](#componenten) by using **Box Shadow**.
 
 | Step | Explanation |
 |:--|:--|
-| **1** | In this example, we have selected a [Panel](#panel) component (1). In the **Styling** tab (2), you can configure the **Box Shadow** (3) for the [component](#components).<details><summary><b>Click here for the example image</b></summary><img src="media/30.1.png"></details> |
-| **2** | Set the horizontal (4) and vertical (5) offset of the shadow. You can then configure the blur (6) and spread (7) of the shadow. The following units are supported: `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh`, and `vw`. Next, select a [color](#color-picker) (8) and choose whether the shadow should be displayed inside or outside the component (9). Changes are immediately visible in the [Editor](#editor) (10). If the settings are not quite as desired, you can easily remove the configured box shadow using the delete button (11) or [undo](#editor) the change.<details><summary><b>Click here for the example image</b></summary><img src="media/30.2.png"></details> |
+| **1** | In this example, we have selected a [Panel](#panel) component (1). In the **Styling** tab (2), you can configure the **Box Shadow** (3) for the [component](#componenten).<details><summary><b>Click here for the example image</b></summary><img src="media/30.1.png"></details> |
+| **2** | Set the horizontal (4) and vertical (5) offset of the shadow. You can then configure the blur (6) and spread (7) of the shadow. The following units are supported: `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh`, and `vw`. Next, select a [color](#color-picker) (8) and choose whether the shadow should be displayed inside or outside the component (9). Changes are immediately visible in the [Editor](#editor) (10). If the settings are not quite as desired, you can easily remove the configured box shadow using the delete button (11) or [undo](#editor) the change.<br><br>**Note:** The box shadow may sometimes be clipped. If this happens, check whether the **Overflow** setting of the component containing the component with the box shadow is set to **Visible**. For more information, see [Overflow](#overflow).<details><summary><b>Click here for the example image</b></summary><img src="media/30.2.png"></details> |
 
 ---
 
 #### Overflow
 
-| Item | Description |
-|---|---|
-| Styling | This description will be added later |
+Determine how excess content within a [component](#components) is displayed or handled using the **Overflow** option.
 
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we have selected a [Panel](#panel) component (1). In the **Styling** tab (2), you can configure the **Overflow** option (3) for the [component](#components). A [Border Radius](#border-radius) has been applied to the selected component, but it is not visible in the [Editor](#editor) (5). With the **Overflow** option, you can determine how content that extends beyond the boundaries of a component is displayed.<details><summary><b>Click here for the example image</b></summary><img src="media/31.1.png"></details> |
+| **2** | Set **Overflow** to **Hidden** (6). In the [Editor](#editor) (7), you can immediately see that the [Border Radius](#border-radius) is now displayed correctly. The **Overflow** option provides the following settings:<br><br>**Visible:** Content that extends beyond the boundaries of the component remains visible.<br><br>**Hidden:** Content that extends beyond the boundaries of the component is hidden. This can also ensure that, for example, a [Border Radius](#border-radius) or [Box Shadow](#box-shadow) is displayed correctly.<br><br>**Auto:** The browser automatically determines how excess content is handled. Scrollbars are displayed when necessary.<br><br>**Scroll:** Excess content is hidden and scrollbars are displayed, allowing the user to scroll through the content.<br><br>**ScrollY:** Excess content is hidden vertically. Vertical scrolling is enabled when necessary.<br><br>**ScrollX:** Excess content is hidden horizontally. Horizontal scrolling is enabled when necessary.<br><br>**Unset:** The Overflow setting is reset to the default value of the component or the underlying CSS setting.<details><summary><b>Click here for the example image</b></summary><img src="media/31.2.png"></details> |
 ---
 
 ### Advanced
