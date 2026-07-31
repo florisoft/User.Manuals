@@ -648,19 +648,22 @@ Bepaal hoe overtollige content binnen een [component](#componenten) wordt weerge
 
 ### Geavanceerd
 
+Bijna elk [component](#componenten) beschikt over een tabblad **Geavanceerd**. De beschikbare instellingen kunnen per component verschillen. Toch zijn er een aantal opties die bij veel componenten terugkomen.
+
 #### Verborgen wanneer leeg
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Geavanceerd | Deze beschrijving wordt aangevuld |
+Met de optie **Verborgen wanneer leeg** kun je ervoor zorgen dat een component automatisch wordt verborgen in de live-omgeving wanneer het geen inhoud bevat.
 
 ---
 
-#### Identificatie naam
+#### Identificatienaam
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Geavanceerd | Deze beschrijving wordt aangevuld |
+Geef je [componenten](#componenten) een eigen naam om meer structuur en overzicht te creëren in de [Navigator](#navigator).
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Button](#button)-component geselecteerd (1). Via het tabblad **Geavanceerd** (2) kun je bij **Identificatienaam** (3) een eigen naam voor het component invoeren.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/33.1.png"></details> |
+| **2** | Nadat je een naam hebt ingevuld (4), wordt deze naam achter het geselecteerde component weergegeven in de [Navigator](#navigator) (5). Zo kun je componenten gemakkelijker herkennen en houd je meer structuur en overzicht in de Navigator.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/33.2.png"></details> |
 
 ---
 
@@ -672,27 +675,38 @@ Bepaal hoe overtollige content binnen een [component](#componenten) wordt weerge
 
 ---
 
-#### HTML klassenaam
+#### HTML-klassenaam
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Geavanceerd | Deze beschrijving wordt aangevuld |
+Voer een CSS-klassenaam in om aangepaste styling op het component toe te passen.
+
+**Let op:** Voor het toepassen van aangepaste CSS/SCSS-styling is voldoende kennis van CSS en SCSS vereist.
 
 ---
 
 #### Tag
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Geavanceerd | Deze beschrijving wordt aangevuld |
+Met de optie **Tag** kun je ID's toewijzen aan componenten binnen een zelfgemaakt [Template](#templates). Deze ID's kunnen vervolgens worden gebruikt om dynamische gegevens vanuit de [Pagina-instellingen](#pagina) in een [Blog-component](#blog) te laden.
+
+Zo kunnen gegevens zoals de **paginatitel**, **paginabeschrijving**, **afbeelding** en **URL** automatisch worden ingeladen. Hierdoor wordt het template binnen het Blog-component automatisch gevuld en bijgewerkt wanneer er bijvoorbeeld een nieuwe blog wordt gepubliceerd.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Template](#templates) gemaakt dat we dynamisch willen gebruiken voor een [Blog](#blog)-overzicht. Hiervoor maken we gebruik van Tags.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/34.1.png"></details> |
+| **2** | We hebben een [Panel](#panel)-component (1) toegevoegd met een achtergrondafbeelding. Via het tabblad **Geavanceerd** (2) kun je bij **Tag** (3) de optie **OverviewPanelImageTag** selecteren. Het [Panel](#panel)-component kijkt hierdoor naar de [Blogpagina](#blogpagina)-instellingen om te controleren of daar een afbeelding is ingesteld. Deze afbeelding wordt vervolgens automatisch weergegeven in het [Blog](#blog)-overzicht.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/34.2.png"></details> |
+| **3** | Vervolgens hebben we een [Tekst](#text)-component (4) toegevoegd. Bij **Tag** stellen we **OverviewTitle** (5) in. Het [Tekst](#text)-component kijkt hierdoor naar de [Blogpagina](#blogpagina)-instellingen om te controleren of daar een **Paginatitel** is ingesteld. Deze titel wordt vervolgens automatisch weergegeven in het [Blog](#blog)-overzicht.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/34.3.png"></details> |
+| **4** | We hebben nog een [Tekst](#text)-component (6) toegevoegd. Bij **Tag** stellen we **OverviewDescription** (7) in. Het [Tekst](#text)-component kijkt hierdoor naar de [Blogpagina](#blogpagina)-instellingen om te controleren of daar een **Omschrijving** is ingevuld. Deze omschrijving wordt vervolgens automatisch weergegeven in het [Blog](#blog)-overzicht.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/34.4.png"></details> |
+| **5** | Tot slot hebben we een [Button](#button)-component (8) toegevoegd. Bij **Tag** stellen we **OverviewButton** (9) in. Het [Button](#button)-component kijkt hierdoor naar de [Blogpagina](#blogpagina)-instellingen om de ingestelde URL op te halen. Wanneer een bezoeker op de button klikt, wordt deze naar de juiste [Blogpagina](#blogpagina) geleid.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/34.5.png"></details> |
+| **6** | In dit voorbeeld laten we zien waar je de bovenstaande gegevens kunt instellen in de [Blogpagina](#blogpagina)-instellingen. Onder het tabblad **Geavanceerd** vind je een veld waarin je een [afbeelding](#media) kunt uploaden (10). De ingestelde Tag zorgt ervoor dat deze afbeelding automatisch wordt weergegeven in het [Blog](#blog)-overzicht. De pagina-URL wordt automatisch ingevuld bij het aanmaken van de [Blogpagina](#blogpagina).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/34.6.png"></details> |
+| **7** | Vul vervolgens de **Omschrijving** in (11). Deze omschrijving wordt door middel van de ingestelde Tag automatisch gekoppeld aan het [Tekst](#text)-component in het [Blog](#blog)-overzicht.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/34.7.png"></details> |
+| **8** | In het [Blog](#blog)-component (12) wordt het [Template](#templates) nu automatisch gevuld met de gegevens uit de [Blogpagina](#blogpagina)-instellingen. Dit gebeurt op basis van de ingestelde Tags. In het overzicht worden de [Afbeelding](#media) (13), [Titel](#text) (14), [Omschrijving](#text) (15) en [Button](#button) (16) weergegeven.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/34.8.png"></details> |
 
 ---
 
 #### Z-index
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Geavanceerd | Deze beschrijving wordt aangevuld |
+Met de optie **Z-index** bepaal je de stapelvolgorde van [componenten](#componenten) die elkaar overlappen. Een component met een hogere **z-index** wordt boven een component met een lagere **z-index** weergegeven.
+
+Je kunt de z-index maximaal **3 lagen omhoog** of **3 lagen omlaag** aanpassen ten opzichte van de standaardpositie. Hiermee kun je eenvoudig bepalen welk component bovenop een ander component wordt weergegeven wanneer componenten elkaar overlappen.
 
 ---
 

@@ -650,19 +650,22 @@ Determine how excess content within a [component](#components) is displayed or h
 
 ### Advanced
 
-#### Hidden When Empty
+Almost every [component](#components) includes an **Advanced** tab. The available settings may vary depending on the component. However, there are several options that are commonly available across multiple components.
 
-| Item | Description |
-|---|---|
-| Advanced | This description will be added later |
+#### Hide When Empty
+
+The **Hide When Empty** option automatically hides a component in the live environment when it contains no content.
 
 ---
 
 #### Identification Name
 
-| Item | Description |
-|---|---|
-| Advanced | This description will be added later |
+Give your [components](#components) a custom name to create more structure and provide a clearer overview in the [Navigator](#navigator).
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we have selected a [Button](#button) component (1). In the **Advanced** tab (2), you can enter a custom name for the component under **Identification Name** (3).<details><summary><b>Click here for the example image</b></summary><img src="media/33.1.png"></details> |
+| **2** | After entering a name (4), it is displayed next to the selected component in the [Navigator](#navigator) (5). This makes it easier to identify components and provides more structure and overview within the Navigator.<details><summary><b>Click here for the example image</b></summary><img src="media/33.2.png"></details> |
 
 ---
 
@@ -676,25 +679,36 @@ Determine how excess content within a [component](#components) is displayed or h
 
 #### HTML Class Name
 
-| Item | Description |
-|---|---|
-| Advanced | This description will be added later |
+Enter a CSS class name to apply custom styling to the component.
+
+**Note:** Applying custom CSS/SCSS styling requires sufficient knowledge of CSS and SCSS.
 
 ---
 
 #### Tag
 
-| Item | Description |
-|---|---|
-| Advanced | This description will be added later |
+With the **Tag** option, you can assign IDs to components within a custom [Template](#templates). These IDs can then be used to load dynamic data from the [Page settings](#page) into a [Blog component](#blog).
+
+This allows data such as the **page title**, **page description**, **image**, and **URL** to be loaded automatically. As a result, the template within the Blog component is automatically populated and updated when, for example, a new blog is published.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we created a [Template](#templates) that we want to use dynamically for a [Blog](#blog) overview. We use Tags for this purpose.<details><summary><b>Click here for the example image</b></summary><img src="media/34.1.png"></details> |
+| **2** | We added a [Panel](#panel) component (1) with a background image. Under the **Advanced** tab (2), you can select **OverviewPanelImageTag** under **Tag** (3). The [Panel](#panel) component will then check the [Blog page](#blogpage) settings to see whether an image has been configured. This image is then automatically displayed in the [Blog](#blog) overview.<details><summary><b>Click here for the example image</b></summary><img src="media/34.2.png"></details> |
+| **3** | We then added a [Text](#text) component (4). Under **Tag**, we set **OverviewTitle** (5). The [Text](#text) component will then check the [Blog page](#blogpage) settings to see whether a **Page title** has been configured. This title is then automatically displayed in the [Blog](#blog) overview.<details><summary><b>Click here for the example image</b></summary><img src="media/34.3.png"></details> |
+| **4** | We added another [Text](#text) component (6). Under **Tag**, we set **OverviewDescription** (7). The [Text](#text) component will then check the [Blog page](#blogpage) settings to see whether a **Description** has been entered. This description is then automatically displayed in the [Blog](#blog) overview.<details><summary><b>Click here for the example image</b></summary><img src="media/34.4.png"></details> |
+| **5** | Finally, we added a [Button](#button) component (8). Under **Tag**, we set **OverviewButton** (9). The [Button](#button) component will then retrieve the configured URL from the [Blog page](#blogpage) settings. When a visitor clicks the button, they are directed to the correct [Blog page](#blogpage).<details><summary><b>Click here for the example image</b></summary><img src="media/34.5.png"></details> |
+| **6** | In this example, we show where you can configure the information mentioned above in the [Blog page](#blogpage) settings. Under the **Advanced** tab, you will find a field where you can upload an [image](#media) (10). The configured Tag ensures that this image is automatically displayed in the [Blog](#blog) overview. The page URL is automatically populated when creating the [Blog page](#blogpage).<details><summary><b>Click here for the example image</b></summary><img src="media/34.6.png"></details> |
+| **7** | Next, enter the **Description** (11). This description is automatically linked to the [Text](#text) component in the [Blog](#blog) overview through the configured Tag.<details><summary><b>Click here for the example image</b></summary><img src="media/34.7.png"></details> |
+| **8** | The [Blog](#blog) component (12) now automatically populates the [Template](#templates) with the data from the [Blog page](#blogpage) settings. This is done based on the configured Tags. The overview displays the [Image](#media) (13), [Title](#text) (14), [Description](#text) (15), and [Button](#button) (16).<details><summary><b>Click here for the example image</b></summary><img src="media/34.8.png"></details> |
 
 ---
 
-#### Z-Index
+#### Z-index
 
-| Item | Description |
-|---|---|
-| Advanced | This description will be added later |
+The **Z-index** option determines the stacking order of overlapping [components](#components). A component with a higher **z-index** is displayed above a component with a lower **z-index**.
+
+You can adjust the z-index by a maximum of **3 layers up** or **3 layers down** relative to the default position. This allows you to easily determine which component is displayed on top when components overlap.
 
 ---
 
