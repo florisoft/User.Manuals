@@ -36,6 +36,7 @@
 - [Editor](#editor)
 - [Navigator](#navigator)
 - [Component dialog](#component-dialog)
+- [CMS Zone](#cms-zone)
 
 ---
 
@@ -472,6 +473,31 @@ The **Component Dialog** is the library containing all available [CMS components
 
 ---
 
+#### CMS Zone
+
+A **CMS zone** is a defined area to which one or more customers can be assigned. Customers assigned to a specific zone have access to the CMS components that are linked to that zone. CMS zones therefore function as a form of authorization within the CMS.
+
+*Follow the steps below:*
+
+| Step | Explanation |
+|:--|:--|
+| **1** | Open the **Constants** screen.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image1.png"></details> |
+| **2** | Navigate to the following path in the file structure:<br>**System** → **Internet** → **CMS Zones**.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image2.png"></details> |
+| **3** | Click the **Add new item** icon (the **+** symbol). |
+| **4** | The screen for creating a CMS zone opens. Enter the following fields:<br><br>- **Code**<br>- **Description** — this is displayed in the CMS. |
+| **5** | Click **OK** to confirm the creation of the zone. Repeat these steps to create multiple CMS zones if required. These zones can later be linked to customers and CMS components. |
+| **6** | Open the **Constants** screen.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image1.png"></details> |
+| **7** | Navigate to the following path:<br>**Community** → **Customer Data** → **Customers**.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image3.png"></details> |
+| **8** | Open the customer to which you want to assign one or more CMS zones. |
+| **9** | In the opened window, navigate to the following path in the file structure:<br>**Internet** → **CMS**.<details><summary><b>Click here for the example image</b></summary><img src=".Manual theme management Florishop/media/image54.png"></details> |
+| **10** | Click the **CMS Zones** button. The **Customer Package** window opens.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image3.png"></details> |
+| **11** | Click **Add**. The **CMS Zones** window opens. |
+| **12** | Select one or more zones and click **OK**.<br><br>*The selected zones are now displayed in the **Customer CMS Zones** window.*<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image5.png"></details> |
+| **13** | Click **OK** in the **Customer CMS Zones** window.<br><br>*The selected CMS zones are now linked to the customer.*<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image6.png"></details> |
+| **Repeat** | Repeat the steps above for each customer to which you want to assign CMS zones. |
+
+---
+
 ## Aside Editor
 
 ### Toolbar
@@ -714,27 +740,36 @@ You can adjust the z-index by a maximum of **3 layers up** or **3 layers down** 
 
 ### Visibility
 
-#### Hide Content
+With the **Visibility** settings, you can build pages dynamically by temporarily showing or hiding components for specific groups of customers, countries, CMS zones, devices, or during a specific period.
 
-| Item | Description |
-|---|---|
-| Visibility | This description will be added later |
+#### Hide content
 
----
+Temporarily hide [components](#components) for a specific country, [CMS zone](#cms-zone), or during a specific period.
 
-#### Show Content
-
-| Item | Description |
-|---|---|
-| Visibility | This description will be added later |
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we selected a [Panel](#panel) component (1). Under the **Visibility** tab (2), you can configure the following options under **Hide content** (3):<br><br>**Language Zone Selection** (4): Select a country for which the selected component should not be visible.<br><br>**Zone Selection** (5): Select a [CMS zone](#cms-zone) for which the selected component should not be visible.<br><br>**Valid from** (6): Set the date from which the selected component should no longer be displayed.<br><br>**Valid until** (7): Set the date until which the selected component should not be displayed.<br><br>**Repeat annually** (8): Enable this option to automatically repeat the configured period every year.<details><summary><b>Click here for the example image</b></summary><img src="media/35.1.png"></details> |
 
 ---
 
-#### Highlight Content
+#### Show content
 
-| Item | Description |
-|---|---|
-| Visibility | This description will be added later |
+Temporarily show [components](#components) for a specific country, [CMS zone](#cms-zone), or during a specific period.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we selected a [Panel](#panel) component (1). Under the **Visibility** tab (2), you can configure the following options under **Show content** (3):<br><br>**Language Zone Selection** (4): Select a country for which the selected component should be visible.<br><br>**Zone Selection** (5): Select a [CMS zone](#cms-zone) for which the selected component should be visible.<br><br>**Valid from** (6): Set the date from which the selected component should be displayed.<br><br>**Valid until** (7): Set the date until which the selected component should be displayed.<br><br>**Visibility type** (8): Specify on which devices the selected component should be visible.<br><br>**Repeat annually** (9): Enable this option to automatically repeat the configured period every year.<details><summary><b>Click here for the example image</b></summary><img src="media/36.1.png"></details> |
+
+---
+
+#### Highlight content
+
+With **Highlight content**, you can make [components](#components) visible to specific groups of customers based on available inventory or order lists.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we selected a [Panel](#panel) component (1). Under the **Visibility** tab (2), you can configure the following options under **Highlight content** (3):<br><br>**Show to** (4): Select which group can see the selected component. The following options are available:<br>- **Everyone**: Everyone can see the component.<br>- **Customer**: Only logged-in customers can see the component.<br>- **Anonymous**: Only visitors who are not logged in can see the component.<br>- **Do not show**: The component is not displayed.<br><br>**Show for Inventory/Order Lists (semicolon-separated)** (5): Enter one or more inventory codes to make the component visible only to customers who have access to the specified inventory or order list.<details><summary><b>Click here for the example image</b></summary><img src="media/37.1.png"></details> |
+| **2** | In this example, we visit a flower inventory (6). Copy the webshop inventory code from the URL in the web browser. When you enter this code in the **Show for Inventory/Order Lists (semicolon-separated)** field, the component will only be visible to customers who have access to this webshop inventory.<details><summary><b>Click here for the example image</b></summary><img src="media/37.2.png"></details> |
 
 ---
 

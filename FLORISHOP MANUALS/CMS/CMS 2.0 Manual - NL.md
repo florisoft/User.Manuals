@@ -37,6 +37,7 @@
 - [Editor](#editor)
 - [Navigator](#navigator)
 - [Componentendialoog](#componentendialoog)
+- [CMS Zone](#cms-zone)
 
 ---
 
@@ -469,6 +470,31 @@ De **Componentendialoog** is de bibliotheek met alle beschikbare [CMS-componente
 
 ---
 
+#### CMS Zone
+
+Een **CMS-zone** is een gedefinieerd gebied waaraan één of meerdere debiteuren kunnen worden gekoppeld. Klanten die aan een bepaalde zone zijn gekoppeld, krijgen toegang tot de CMS-componenten die aan deze zone zijn toegewezen. CMS-zones fungeren daarmee als een vorm van autorisatie binnen het CMS.
+
+*Volg onderstaande stappen:*
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | Open het **Constantenscherm**.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image1.png"></details> |
+| **2** | Navigeer naar het volgende pad in de bestandsstructuur:<br>**Systeem** → **Internet** → **CMS Zones**.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image2.png"></details> |
+| **3** | Klik op het pictogram **Nieuw item toevoegen** (het plusteken **+**). |
+| **4** | Het scherm voor het aanmaken van een CMS-zone wordt geopend. Vul de volgende velden in:<br><br>- **Code**<br>- **Omschrijving** — deze wordt weergegeven in het CMS. |
+| **5** | Klik op **OK** om het aanmaken van de zone te bevestigen. Herhaal deze stappen om indien gewenst meerdere CMS-zones aan te maken. Deze zones kunnen later worden gekoppeld aan debiteuren en CMS-componenten. |
+| **6** | Open het **Constantenscherm**.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image1.png"></details> |
+| **7** | Navigeer naar het volgende pad:<br>**Community** → **Debiteurgegevens** → **Debiteuren**.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image3.png"></details> |
+| **8** | Open de debiteur waaraan je één of meerdere CMS-zones wilt koppelen. |
+| **9** | Navigeer in het geopende venster naar het volgende pad in de bestandsstructuur:<br>**Internet** → **CMS**.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src=".Manual theme management Florishop/media/image54.png"></details> |
+| **10** | Klik op de knop **CMS Zones**. Het venster **Debiteurpakket** wordt geopend.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image3.png"></details> |
+| **11** | Klik op **Toevoegen**. Het venster **CMS Zones** wordt geopend. |
+| **12** | Selecteer één of meerdere zones en klik op **OK**.<br><br>*De geselecteerde zones worden nu weergegeven in het venster **Debiteur CMS Zones**.*<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image5.png"></details> |
+| **13** | Klik op **OK** in het venster **Debiteur CMS Zones**.<br><br>*De geselecteerde CMS-zones zijn nu gekoppeld aan de debiteur.*<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image6.png"></details> |
+| **Herhaal** | Herhaal bovenstaande stappen voor iedere debiteur waaraan je CMS-zones wilt koppelen. |
+
+---
+
 ## Aside Editor
 
 ### Toolbar
@@ -712,27 +738,36 @@ Je kunt de z-index maximaal **3 lagen omhoog** of **3 lagen omlaag** aanpassen t
 
 ### Zichtbaarheid
 
+Met de instellingen voor **Zichtbaarheid** kun je pagina's dynamisch opbouwen door componenten tijdelijk wel of niet zichtbaar te maken voor specifieke groepen debiteuren, landen, CMS-zones, apparaten of binnen een bepaalde periode.
+
 #### Content verbergen
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Zichtbaarheid | Deze beschrijving wordt aangevuld |
+Verberg [componenten](#componenten) tijdelijk voor een specifiek land, een [CMS-zone](#cms-zone) of gedurende een bepaalde periode.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Panel](#panel)-component geselecteerd (1). Via het tabblad **Zichtbaarheid** (2) kun je onder **Content verbergen** (3) de volgende opties instellen:<br><br>**Taal Zone Selectie** (4): Selecteer een land waarvoor het geselecteerde component niet zichtbaar mag zijn.<br><br>**Zone Selectie** (5): Selecteer een [CMS-zone](#cms-zone) waarvoor het geselecteerde component niet zichtbaar mag zijn.<br><br>**Geldig vanaf** (6): Stel de datum in vanaf wanneer het geselecteerde component niet meer wordt weergegeven.<br><br>**Geldig tot** (7): Stel de datum in tot wanneer het geselecteerde component niet wordt weergegeven.<br><br>**Jaarlijks herhalen** (8): Activeer deze optie om de ingestelde periode jaarlijks automatisch te herhalen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/35.1.png"></details> |
 
 ---
 
 #### Content tonen
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Zichtbaarheid | Deze beschrijving wordt aangevuld |
+Toon [componenten](#componenten) tijdelijk voor een specifiek land, een [CMS-zone](#cms-zone) of gedurende een bepaalde periode.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Panel](#panel)-component geselecteerd (1). Via het tabblad **Zichtbaarheid** (2) kun je onder **Content tonen** (3) de volgende opties instellen:<br><br>**Taal Zone Selectie** (4): Selecteer een land waarvoor het geselecteerde component zichtbaar mag zijn.<br><br>**Zone Selectie** (5): Selecteer een [CMS-zone](#cms-zone) waarvoor het geselecteerde component zichtbaar mag zijn.<br><br>**Geldig vanaf** (6): Stel de datum in vanaf wanneer het geselecteerde component wordt weergegeven.<br><br>**Geldig tot** (7): Stel de datum in tot wanneer het geselecteerde component wordt weergegeven.<br><br>**Zichtbaarheidstype** (8): Bepaal op welke apparaten het geselecteerde component zichtbaar mag zijn.<br><br>**Jaarlijks herhalen** (9): Activeer deze optie om de ingestelde periode jaarlijks automatisch te herhalen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/36.1.png"></details> |
 
 ---
 
 #### Content uitlichten
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Zichtbaarheid | Deze beschrijving wordt aangevuld |
+Met **Content uitlichten** kun je [componenten](#componenten) zichtbaar maken voor specifieke groepen debiteuren op basis van de beschikbare voorraad of bestellijsten.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Panel](#panel)-component geselecteerd (1). Via het tabblad **Zichtbaarheid** (2) kun je onder **Content uitlichten** (3) de volgende opties instellen:<br><br>**Tonen voor** (4): Selecteer welke groep het geselecteerde component mag zien. Je hebt de volgende opties:<br>- **Iedereen**: iedereen kan het component zien.<br>- **Debiteur**: alleen ingelogde debiteuren kunnen het component zien.<br>- **Anoniem**: alleen niet-ingelogde bezoekers kunnen het component zien.<br>- **Niet tonen**: het component wordt niet weergegeven.<br><br>**Tonen voor Voorraden/Bestellijsten (;-gescheiden)** (5): Vul één of meerdere voorraadcodes in om het component alleen zichtbaar te maken voor debiteuren die toegang hebben tot de betreffende voorraad of bestellijst.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/37.1.png"></details> |
+| **2** | In dit voorbeeld bezoeken we een bloemenvoorraad (6). Kopieer de code van de webshopvoorraad uit de URL van de webbrowser. Wanneer je deze code invoert in het veld **Tonen voor Voorraden/Bestellijsten (;-gescheiden)**, wordt het component alleen zichtbaar voor debiteuren die toegang hebben tot deze webshopvoorraad.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/37.2.png"></details> |
 
 ---
 
