@@ -50,7 +50,7 @@ When `Apps → PackagingPicturesFolderPath` is configured, the app can show a re
 
 ### 3. Verify the totals
 
-Choose **Done** to open the final check. Verify the total for each package code and select a total to see its batch lines. An incorrect line can be removed before confirmation.
+Choose **Done** to open the final check. Verify the total for each package code and select a total to see its batch lines. In the underlying batch lines, you can change a quantity or remove an incorrect line before confirmation. The total for that package code is updated automatically after the correction.
 
 A session cannot be completed without registered totals or when the total is zero.
 

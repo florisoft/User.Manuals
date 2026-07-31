@@ -64,7 +64,7 @@ Als `Apps → PackagingPicturesFolderPath` is ingesteld, kan de app bij een fust
 
 Kies **Gereed** om naar de eindcontrole te gaan. Hier ziet u de totalen per fustcode. Selecteer een totaal om de onderliggende batchregels te bekijken.
 
-Controleer de aantallen zorgvuldig. U kunt een foutieve batchregel verwijderen voordat u bevestigt. De sessie kan niet worden afgerond zonder geregistreerde totalen of wanneer het totaal nul is.
+Controleer de aantallen zorgvuldig. In de onderliggende batchregels kunt u een aantal wijzigen of een foutieve batchregel verwijderen voordat u bevestigt. Het totaal van de betreffende fustcode wordt na de correctie automatisch bijgewerkt. De sessie kan niet worden afgerond zonder geregistreerde totalen of wanneer het totaal nul is.
 
 ### Stap 4: sessie afronden
 
