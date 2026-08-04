@@ -68,6 +68,7 @@
 #### 4. Advanced
 - [Hide When Empty](#hide-when-empty)
 - [Identification Name](#identification-name)
+- [Add Button Visibility (in Editor)](#add-button-visibility-in-editor)
 - [Slot Name](#slot-name)
 - [HTML Class Name](#html-class-name)
 - [Tag](#tag)
@@ -684,6 +685,12 @@ The **Hide When Empty** option automatically hides a component in the live envir
 
 ---
 
+#### Add Button Visibility (in Editor)
+
+With the **Add Button Visibility (in Editor)** option, you can determine whether the **Add button** is visible when the page is opened in editing mode.
+
+---
+
 #### Identification Name
 
 Give your [components](#components) a custom name to create more structure and provide a clearer overview in the [Navigator](#navigator).
@@ -796,7 +803,7 @@ This chapter explains how to create and configure a **Row**. Every CMS element m
 | **5** | Use the search function (7) to search for **Row**. Then click the **+** icon below the **Row** item (8).<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.5.png"></details> |
 | **6** | The **Row** is added directly to the page. You can then add one or more Columns. In this example, we choose a layout with three Columns next to each other (9).<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.6.png"></details> |
 | **7** | Select a **Column** using the [Navigator](#navigator) (10). In the column settings, you can use the **Properties** tab (11) to configure the alignment of CMS elements for different screen sizes.<br><br>The sliders determine how much space a CMS element occupies on devices with different screen sizes, such as PCs/laptops, tablets, and smartphones.<br><br>The total width of a screen consists of a maximum of **12 virtual columns**. An element can therefore be between one and twelve columns wide. This applies to all supported devices.<br><br>The top slider is used for **PCs and laptops**, the middle slider for **tablets**, and the bottom slider for **smartphones**.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.7.png"></details> |
-| **8** | Open the **[Styling](#3-styling)** tab (12). Styling is optional. You can adjust the following settings:<br><br>**Background color:** Use the **Background** dropdown menu (13) to select a [background color](#color-picker).<br><br>**[Height/Width](#heightwidth):** Under **Height** (14), choose **Auto** or set a fixed height. The available units include `px`, `rem`, and `%`. We recommend using **Auto**, which automatically adjusts the height of the Column to fit its content.<br><br>**[Margin/Padding](#marginpadding):** Set the margin (spacing) around the Column (15). You can enter one value for all sides or configure each side individually. Supported units include `px`, `rem`, `%`, `mm`, and `cm`. Values such as `auto` and `unset` can also be used.<br><br>**[Padding](#marginpadding):** Set the spacing inside the Column (16). These settings work according to the same principle as Margin.<br><br>**[Overflow](#overflow):** Determine whether content that extends beyond the boundaries of the Column remains visible (17). By default, this is set to **Visible**.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.8.png"></details> |
+| **8** | Open the **[Styling](#3-styling)** tab (12). Styling is optional. You can adjust the following settings:<br><br>**Background color:** Use the **Background** dropdown menu (13) to select a [background color](#color-picker).<br><br>**[Height/Width](#heightwidth):** Under **Height** (14), choose **Auto** or set a fixed height. The available units include `px`, `rem`, and `%`. We recommend using **Auto**, which automatically adjusts the height of the Column to fit its content.<br><br>**[Margin](#marginpadding):** Set the margin (spacing) around the Column (15). You can enter one value for all sides or configure each side individually. Supported units include `px`, `rem`, `%`, `mm`, and `cm`. Values such as `auto` and `unset` can also be used.<br><br>**[Padding](#marginpadding):** Set the spacing inside the Column (16). These settings work according to the same principle as Margin.<br><br>**[Overflow](#overflow):** Determine whether content that extends beyond the boundaries of the Column remains visible (17). By default, this is set to **Visible**.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.8.png"></details> |
 | **9** | Open the **[Advanced](#4-advanced)** tab (18). The **Advanced** tab allows you to add additional classes, IDs, and other settings to a component. Under **[Identification Name](#identification-name)** (19), for example, you can give the component a custom name. This provides more structure and clarity in the [Navigator](#navigator) (20).<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.9.png"></details> |
 | **10** | Open the **[Visibility](#5-visibility)** tab (21). The **Visibility** tab works in the same way as when creating pages and categories. See the [Visibility](#visibility) chapter for more information about the available settings.<br><br>After configuring the desired settings, click **Save** (22) to save the Column in the CMS. Then click **Publish** (23) to make the changes live.<br><br>**You can always adjust the settings at a later time.**<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.10.png"></details> |
 
@@ -804,9 +811,17 @@ This chapter explains how to create and configure a **Row**. Every CMS element m
 
 #### Panel
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Panel | Deze beschrijving wordt aangevuld |
+The **Panel** component is a versatile basic component with extensive [styling options](#3-styling) that allow you to visually design your page. You can add a background color, image, or atmospheric video without sound. You can then fill the Panel with multiple components. You can also make the entire Panel clickable by adding a destination URL.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we have selected a [Column](#rowcolumn) (1) to which we add the **Panel** component (2).<details><summary><b>Click here for the example image</b></summary><img src="media/38.1.png"></details> |
+| **2** | The Panel is now visible in the [Navigator](#navigator) (3) and in the [Editor](#editor) (4). Via [General Settings](#general-settings) (5), you can find various options for configuring the Panel, including [Translations](#translations) (6).<details><summary><b>Click here for the example image</b></summary><img src="media/38.2.png"></details> |
+| **3** | Under **Video Properties** (7), you will find various options for adding a video. Via **Preview Image** (8), you can set an image that is displayed before the video has loaded. Via **Video** (9), you can upload your own video file. If the video is hosted on another server, you can enter its URL under **Video URL** (10). With the **Lazy Load** option (11), you can determine whether the video is loaded only when it comes into view while scrolling.<details><summary><b>Click here for the example image</b></summary><img src="media/38.3.png"></details> |
+| **4** | Under **Image Properties** (12), you will find various options for adding and configuring an image (13). Enable **Background Parallax** (14) for a parallax effect when scrolling past the image. This is particularly suitable for larger images. With **Background Animation** (15), you can make a wide image move horizontally. You can then adjust the animation speed (16). Via **Alt Text** (17), you can add a description to the image. This contributes to better [SEO](#seo) and makes the image more accessible.<details><summary><b>Click here for the example image</b></summary><img src="media/38.4.png"></details> |
+| **5** | After adding an image (18), you can determine how it is displayed. Under **Background Size** (19), you can choose **Cover** (the image covers the entire Panel), **Auto** (the image is displayed at its original size), or **Contain** (the entire image is displayed). You can then use the sliders to determine the **Horizontal** (20) and **Vertical** (21) position of the image or video. When both values are set to 50%, the image or video is positioned exactly in the center of the Panel.<details><summary><b>Click here for the example image</b></summary><img src="media/38.5.png"></details> |
+| **6** | After positioning the image, you can optionally enter a URL (22). This makes the entire Panel clickable, allowing you to use it as a fully customizable button or banner. **Note:** you do not need to enter the full domain in this field. Only the path is required. With the option (23), you can determine whether the URL is opened in a new browser tab. Add a description to the Panel under **Title** (24). This title is displayed when you hover your mouse over the Panel. Via **Aria Label** (25), you can add a description of the Panel that can be read aloud by assistive technologies such as screen readers. See [Component Styles](#component-styles) (26) for more information about Component Styles. See also [Styling](#3-styling) (27) for more information about the available styling options.<details><summary><b>Click here for the example image</b></summary><img src="media/38.6.png"></details> |
+| **7** | See [Advanced](#4-advanced) (28) for all available advanced options. The Panel also has a specific option that allows the component to gradually appear on the page. This **fade-in effect** gives your page a modern and playful appearance. You can easily enable this option using the on/off switch (29).<details><summary><b>Click here for the example image</b></summary><img src="media/38.7.png"></details> |
 
 ---
 

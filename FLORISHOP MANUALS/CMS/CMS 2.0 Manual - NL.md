@@ -6,7 +6,6 @@
 >
 > **Let op:** Dit document wordt aangevuld.
 
-
 ## Inhoud
 
 ### Beheerschermen
@@ -68,6 +67,7 @@
 
 #### 4. Geavanceerd
 - [Verborgen wanneer leeg](#verborgen-wanneer-leeg)
+- [Toevoeg-knop zichtbaarheid (in editor)](#toevoeg-knop-zichtbaarheid-in-editor)
 - [Identificatie naam](#identificatie-naam)
 - [Slotnaam](#slotnaam)
 - [HTML klassenaam](#html-klassenaam)
@@ -682,6 +682,12 @@ Met de optie **Verborgen wanneer leeg** kun je ervoor zorgen dat een component a
 
 ---
 
+#### Toevoegknop zichtbaarheid (in Editor)
+
+Met de optie **Toevoegknop zichtbaarheid (in Editor)** bepaal je of de **toevoegknop** zichtbaar is wanneer je de pagina in de bewerkingsmodus opent.
+
+---
+
 #### Identificatienaam
 
 Geef je [componenten](#componenten) een eigen naam om meer structuur en overzicht te creëren in de [Navigator](#navigator).
@@ -802,9 +808,17 @@ In dit hoofdstuk wordt uitgelegd hoe je een **Row** aanmaakt en configureert. El
 
 #### Panel
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Panel | Deze beschrijving wordt aangevuld |
+Het **Panel**-component is een veelzijdig basiscomponent met uitgebreide [stylingopties](#3-styling) waarmee je jouw pagina visueel kunt vormgeven. Je kunt onder andere een achtergrondkleur, afbeelding of sfeervideo zonder geluid toevoegen. Vervolgens kun je het Panel vullen met meerdere componenten. Daarnaast kun je het volledige Panel klikbaar maken door een bestemmings-URL toe te voegen.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Column](#rowcolumn) (1) geselecteerd waaraan we het **Panel**-component toevoegen (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/38.1.png"></details> |
+| **2** | Het Panel is nu zichtbaar in de [Navigator](#navigator) (3) en in de [Editor](#editor) (4). Via de [Algemene instellingen](#algemene-instellingen) (5) vind je verschillende opties om het Panel te configureren, waaronder [Vertalingen](#vertalingen) (6).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/38.2.png"></details> |
+| **3** | Onder **Video-eigenschappen** (7) vind je verschillende opties voor het toevoegen van een video. Via **Voorvertoningsafbeelding** (8) kun je een afbeelding instellen die wordt weergegeven voordat de video is geladen. Via **Video** (9) kun je een eigen videobestand uploaden. Staat de video op een andere server, dan kun je de URL invoeren bij **Video URL** (10). Met de optie **Lazy load** (11) bepaal je of de video pas wordt geladen wanneer deze in beeld komt tijdens het scrollen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/38.3.png"></details> |
+| **4** | Onder **Afbeeldingseigenschappen** (12) vind je verschillende opties voor het toevoegen en configureren van een afbeelding (13). Activeer **Background Parallax** (14) voor een parallax-effect wanneer je langs de afbeelding scrollt. Dit is met name geschikt voor grotere afbeeldingen. Met **Achtergrondanimatie** (15) kun je een brede afbeelding horizontaal laten bewegen. Vervolgens kun je de snelheid van deze animatie instellen (16). Via **Alt-tekst** (17) kun je een beschrijving aan de afbeelding toevoegen. Dit draagt bij aan een betere [SEO](#seo) en maakt de afbeelding toegankelijker.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/38.4.png"></details> |
+| **5** | Nadat je een afbeelding hebt toegevoegd (18), kun je bepalen hoe deze wordt weergegeven. Bij **Achtergrondgrootte** (19) kun je kiezen uit **Bedekken** (de afbeelding bedekt het volledige Panel), **Automatisch** (de afbeelding wordt in de oorspronkelijke grootte weergegeven) of **Passend** (de volledige afbeelding wordt zichtbaar gemaakt). Vervolgens kun je met de sliders de **Horizontale** (20) en **Verticale** (21) positie van de afbeelding of video bepalen. Wanneer beide waarden op 50% staan, wordt de afbeelding of video exact in het midden van het Panel geplaatst.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/38.5.png"></details> |
+| **6** | Nadat je de afbeelding hebt gepositioneerd, kun je eventueel een URL invoeren (22). Hierdoor wordt het volledige Panel klikbaar en kun je het Panel bijvoorbeeld gebruiken als een volledig aanpasbare knop of banner. **Let op:** je hoeft in dit veld niet het volledige domein in te voeren. Alleen het pad is voldoende. Met de optie (23) kun je bepalen of de URL in een nieuw browsertabblad wordt geopend. Voeg bij **Titel** (24) een beschrijving toe aan het Panel. Deze titel wordt weergegeven wanneer je met de muis over het Panel beweegt. Via **Aria-label** (25) kun je een beschrijving van het Panel invoeren die door ondersteunende technologieën, zoals schermlezers, kan worden voorgelezen. Raadpleeg [Component Styles](#component-styles) (26) voor meer informatie over Component Styles. Raadpleeg ook [Styling](#3-styling) (27) voor meer informatie over de beschikbare stylingopties.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/38.6.png"></details> |
+| **7** | Raadpleeg [Geavanceerd](#4-geavanceerd) (28) voor alle beschikbare geavanceerde opties. Het Panel beschikt daarnaast over een specifieke optie waarmee je het component geleidelijk kunt laten verschijnen op de pagina. Dit **fade-in-effect** geeft je pagina een moderne en speelse uitstraling. Je kunt deze optie eenvoudig activeren met de aan/uit-schakelaar (29).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/38.7.png"></details> |
 
 ---
 
