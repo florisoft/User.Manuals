@@ -161,12 +161,15 @@ Allows you to enable additional add-ons that add extra functionality to the app.
 
 ### `PhotoStorageDirectoryPath`
 
-Determines the directory in which Final Outbound Check photos are stored.
+By default, Final Outbound Check photos are stored in the archive directory of the data folder. We recommend using this default location and leaving this policy empty.
+
+Only configure `PhotoStorageDirectoryPath` when there is a specific reason to store the photos in a different location. The policy then overrides the default archive directory.
 
 - Use a network path that the cloud server can access, for example `\\server\share\pictures\FinalOutboundCheck`.
-- The cloud server needs read and write access to this directory.
+- The cloud server needs read and write access to the alternative directory.
+- Users who open the photos from the Backoffice need read access to the alternative directory.
 - Save the policy and reload the configuration before using the photo function.
-- If the directory cannot be accessed, photos cannot be stored reliably or retrieved for an invoice.
+- If the alternative directory cannot be accessed or the required permissions are missing, photos cannot be stored reliably or retrieved for an invoice.
 
 ---
 

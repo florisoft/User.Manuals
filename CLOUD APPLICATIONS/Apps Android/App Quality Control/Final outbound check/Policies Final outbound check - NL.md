@@ -166,12 +166,15 @@ Met deze policy kun je extra add-ons inschakelen die extra functionaliteit aan d
 
 ### `PhotoStorageDirectoryPath`
 
-Bepaalt in welke map de foto's van Final Outbound Check worden opgeslagen.
+Standaard worden de foto's van Final Outbound Check opgeslagen in de archiefmap van de datafolder. Het advies is om deze standaardlocatie te gebruiken en deze policy niet in te vullen.
+
+Vul `PhotoStorageDirectoryPath` alleen in wanneer er een specifieke reden is om de foto's op een andere locatie op te slaan. De policy overschrijft dan de standaard archiefmap.
 
 - Gebruik een netwerkpad dat bereikbaar is voor de cloudserver, bijvoorbeeld `\\server\share\pictures\FinalOutboundCheck`.
-- De cloudserver heeft lees- en schrijfrechten op deze map nodig.
+- De cloudserver heeft lees- en schrijfrechten op de alternatieve map nodig.
+- Gebruikers die de foto's vanuit de Backoffice openen, moeten leestoegang tot de alternatieve map hebben.
 - Sla de policy op en laad de configuratie opnieuw voordat u de fotofunctie gebruikt.
-- Als de map niet bereikbaar is, kunnen foto's niet betrouwbaar worden opgeslagen of op een factuur worden opgehaald.
+- Als de alternatieve map niet bereikbaar is of de benodigde rechten ontbreken, kunnen foto's niet betrouwbaar worden opgeslagen of op een factuur worden opgehaald.
 
 ---
 
