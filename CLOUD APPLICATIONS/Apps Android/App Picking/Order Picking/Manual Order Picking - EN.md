@@ -133,7 +133,18 @@ A claimed assignment remains reserved for the employee temporarily. If it is not
 
 ## Step 4 – Activate the work order and print documents
 
-After activation, the **Orderpicks** screen opens. The `ActivateWorkOrderAdditionalActions` policy determines which actions Florisoft performs immediately during activation. The currently supported action is `PrintPackingList`; an empty list performs no automatic action.
+After activation, the **Orderpicks** screen opens. The `ActivateWorkOrderAdditionalActions` policy determines which actions Florisoft performs immediately during activation. The supported actions are `PrintPackingList` and `PrintPickItemLabels`; an empty list performs no automatic action.
+
+### Automatically print pick-item labels
+
+Select `PrintPickItemLabels` in `ActivateWorkOrderAdditionalActions` to automatically print labels for the work order's pick items after activation. Configure the following policies under **Order Picking → PickItemLabelPrintSettings** first:
+
+- `PickItemLabelPrinter`: the printer for pick-item labels;
+- `PickItemLabelLayout`: the layout for pick-item labels.
+
+After successful submission, Florisoft shows the usual message that the print job was sent to the configured printer. This message confirms that the job was submitted, not that the labels were physically printed. Always use a test work order when setting up or changing a printer. A separate message is not always available for an unknown or unreachable printer.
+
+### Automatically print a packing list
 
 For automatic printing, the policies under **Packing List** must be configured correctly:
 
@@ -367,7 +378,7 @@ Check the location and unique carrier. Select an alternative location or registe
 
 ### Printing does not work
 
-Check whether automatic printing at activation is enabled, whether the printer and layout are configured, whether printing from the PDA is permitted, which packing-list grouping is selected, and whether the Job Agent is available. For printing after the completion scan, also check the configured instruction barcode and its associated print action.
+Check whether automatic printing at activation is enabled and the correct action is selected. For pick-item labels, check `PrintPickItemLabels`, `PickItemLabelPrinter`, `PickItemLabelLayout` and that the Job Agent is reachable. The message that a job was sent to a printer confirms only submission; always check the physical result when setting up or changing a printer. For a packing list, check the printer and layout, whether printing from the PDA is permitted, and the selected packing-list grouping. For printing after the completion scan, also check the configured instruction barcode and its associated print action.
 
 ### An additional action is unavailable
 

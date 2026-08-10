@@ -133,7 +133,18 @@ Een geclaimde opdracht blijft tijdelijk voor de medewerker gereserveerd. Wordt d
 
 ## Stap 4 – De werkopdracht activeren en documenten printen
 
-Na activering opent het scherm **Orderpicks**. De policy `ActivateWorkOrderAdditionalActions` bepaalt welke acties Florisoft direct tijdens de activatie uitvoert. De huidige ondersteunde actie is `PrintPackingList`; een lege lijst voert geen automatische actie uit.
+Na activering opent het scherm **Orderpicks**. De policy `ActivateWorkOrderAdditionalActions` bepaalt welke acties Florisoft direct tijdens de activatie uitvoert. De ondersteunde acties zijn `PrintPackingList` en `PrintPickItemLabels`; een lege lijst voert geen automatische actie uit.
+
+### Pickorderstickers automatisch printen
+
+Kies `PrintPickItemLabels` in `ActivateWorkOrderAdditionalActions` om na activatie automatisch stickers voor de pickitems van de werkopdracht af te drukken. Richt vooraf onder **Order Picking → PickItemLabelPrintSettings** de volgende policies in:
+
+- `PickItemLabelPrinter`: de printer voor pickorderstickers;
+- `PickItemLabelLayout`: de lay-out voor pickorderstickers.
+
+Na een geslaagde verzending toont Florisoft de gebruikelijke melding dat de printopdracht naar de ingestelde printer is gestuurd. Deze melding bevestigt dat de opdracht is verzonden, niet dat de stickers fysiek uit de printer zijn gekomen. Controleer daarom bij een nieuwe of gewijzigde printer altijd een testwerkopdracht. Voor een onbekende of onbereikbare printer is niet altijd een afzonderlijke melding beschikbaar.
+
+### Paklijst automatisch printen
 
 Voor automatisch printen moeten de policies onder **Packing List** correct zijn ingericht:
 
@@ -367,7 +378,7 @@ Controleer de locatie en unieke drager. Kies indien beschikbaar een alternatieve
 
 ### Printen werkt niet
 
-Controleer of automatisch printen bij het activeren is ingeschakeld, of de printer en lay-out zijn ingericht, of printen vanaf de PDA is toegestaan, welke paklijstgroepering is gekozen en of de Job Agent bereikbaar is. Controleer bij printen na de afrondscan ook de ingestelde instructiebarcode en de daaraan gekoppelde printactie.
+Controleer of automatisch printen bij het activeren is ingeschakeld en of de juiste actie is gekozen. Voor pickorderstickers controleert u `PrintPickItemLabels`, `PickItemLabelPrinter`, `PickItemLabelLayout` en de bereikbaarheid van de Job Agent. De melding dat een opdracht naar een printer is gestuurd bevestigt alleen de verzending; controleer bij een nieuwe of gewijzigde printer altijd het fysieke resultaat. Voor een paklijst controleert u de printer en lay-out, of printen vanaf de PDA is toegestaan en welke paklijstgroepering is gekozen. Controleer bij printen na de afrondscan ook de ingestelde instructiebarcode en de daaraan gekoppelde printactie.
 
 ### Een extra handeling is niet beschikbaar
 
