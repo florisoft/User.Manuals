@@ -78,6 +78,12 @@ Selecteer één of meerdere partijen en bevestig de koppeling met de gescande lo
 
 Bij succesvolle koppeling wordt de locatie bijgewerkt en verschijnt een bevestiging; bij fouten toont de app een melding met de reden.
 
+### Partij automatisch binnenmelden
+
+Met de policy `AdditionalActions` kunt u na een geslaagde koppeling een extra actie laten uitvoeren. Kies `MarkAsReceived` om de gekoppelde partij direct binnen te melden. De actie wordt alleen uitgevoerd nadat het op locatie zetten of bijwerken is gelukt; bij een fout blijft de binnenmeldstatus ongewijzigd.
+
+Voor deze optie is een geldige licentie voor **Entry Control** (`Logistics.Receiving.EntryControl`) vereist.
+
 ---
 
 ## Stap 4 — Voorraadcontrole en -correctie (optioneel)
