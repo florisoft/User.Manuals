@@ -114,7 +114,7 @@ Standaard zijn eigenschappen van voorraadpartijen alleen-lezen. Met deze instell
 
 Voeg **Scanaantal** toe aan `AvailableStockItemDetails` om het geregistreerde aantal in het Stockitem-detailscherm weer te geven. Voeg **Scanaantal** ook toe aan `AllowEditStockitemDetails` om gebruikers het aantal handmatig te laten corrigeren of op **0** te laten zetten. Als Scanaantal alleen in `AvailableStockItemDetails` staat, is het veld alleen-lezen.
 
-Het Scanaantal wordt bij iedere barcodescan automatisch verhoogd. De stapgrootte volgt de verkoopeenheid in de voorraadinstelling (`VERKEH`): 1 steel, de inhoud van één bos, de verkoopeenheid van de partij of de inhoud van één colli. Als de instelling leeg of ongeldig is, wordt 1 gebruikt. Handmatig zoeken/selecteren verhoogt het Scanaantal niet.
+Het Scanaantal wordt bij iedere barcodescan automatisch verhoogd. De stapgrootte volgt de verkoopeenheid in de voorraadinstelling (`VERKEH`): 1 steel, de inhoud van één bos, de verkoopeenheid van de partij, de inhoud van één colli of bij **Doos** de inhoud van één doos. Bij **Doos** gebruikt de app de inhoud doos; is die leeg of 0, dan valt de app terug op de inhoud van één colli. Als de instelling leeg of ongeldig is, wordt 1 gebruikt. Handmatig zoeken/selecteren verhoogt het Scanaantal niet.
 
 Bij `Telling op v-partij basis` toont de app het opgetelde Scanaantal van de onderliggende partijen binnen de ingestelde beschikbare voorraden.
 

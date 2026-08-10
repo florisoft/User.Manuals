@@ -69,6 +69,7 @@ Bij iedere barcodescan verhoogt de app automatisch het **Scanaantal** van de gev
 - **Bos:** + de inhoud van één bos per scan
 - **Verkoopeenheid:** + de verkoopeenheid van de partij per scan
 - **Colli:** + de inhoud van één colli per scan
+- **Doos:** + de inhoud van één doos per scan. Is de inhoud doos leeg of 0, dan gebruikt de app de inhoud van één colli.
 
 Is geen geldige verkoopeenheid ingesteld, dan verhoogt het Scanaantal met 1. Handmatig zoeken en vervolgens een partij selecteren verhoogt het Scanaantal niet.
 

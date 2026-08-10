@@ -64,6 +64,7 @@ Each barcode scan automatically increases the parcel's **Scan quantity**. The in
 - **Bunch:** + the content of one bunch per scan
 - **Sales unit:** + the parcel's sales unit per scan
 - **Colli:** + the content of one colli per scan
+- **Box:** + the content of one box per scan. If the box content is empty or 0, the app uses the content of one colli.
 
 If no valid sales unit is configured, the Scan quantity increases by 1. Manually searching for and selecting a parcel does not increase the Scan quantity.
 
