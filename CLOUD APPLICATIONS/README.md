@@ -1,113 +1,82 @@
-📘 Available in: [English version](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/README_EN.md)
+📘 Beschikbaar in: [English](README_EN.md)
 
-# Introductie Florisoft Apps
+# Florisoft Apps
 
-## App structure overview
+Deze pagina helpt u de juiste klantdocumentatie voor Florisoft Apps te vinden. De visual toont welke processen door de apps worden ondersteund. Gebruik de gebruikershandleidingen voor installatie, inrichting en dagelijks gebruik.
 
-<img width="2011" height="1468" alt="App structuur overview Klanten" src="https://github.com/user-attachments/assets/78871185-0c47-4aaa-b35b-d8da094acea0" />
+## Snel naar de juiste documentatie
 
-### Toelichting  
-Onderstaande visual laat zien hoe de verschillende Florisoft Apps zijn ingedeeld per functioneel domein, zoals *Core Services*, *Sales*, *Inventory* en *Logistics*.  
-Per app worden de bijbehorende use-cases weergegeven, zodat u in één oogopslag ziet welke processen door welke app worden ondersteund. 
+| Onderwerp | Documentatie |
+|---|---|
+| Hub-app installeren en apps beheren | [Installatiehandleiding Hub-app](App%20Hub/Hub-App%20Installatie%20NL.md) |
+| Licentiesleutels ophalen en beheren | [Handleiding licentiesleutels](App%20Configuration/Licentie%20Keys%20ophalen%20en%20beheren.md) |
+| Dagelijks gebruik van Android-apps | [Handleidingen Android-apps](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Apps%20Android) |
+| Afdrukken vanuit apps | [Handleiding Job Agent](Apps%20Windows/Job-Agent/Handleiding%20Job-Agent%20-%20NL.md) |
+| Server Management API | [Documentatie Server Management API](Server%20Management%20API%20%28M212%29) |
+
+## App-structuuroverzicht
+
+<img alt="Overzicht van Florisoft Apps en ondersteunde processen per functioneel domein" src="Media/Florisoft%20App%20structure%20overview.png" />
+
+De visual toont hoe de Florisoft Apps zijn ingedeeld in functionele domeinen, zoals *Core Services*, *Sales*, *Inventory* en *Logistics*. De onderdelen onder iedere app geven aan welke processen worden ondersteund. Raadpleeg de gebruikershandleiding van de betreffende app voor de concrete bediening, configuratie en schermafbeeldingen.
 
 ## Licenties
 
-Om de Florisoft Apps te kunnen gebruiken, is een geldige licentie vereist.  
-De licentie controle vindt automatisch plaats via de cloudserver.  
-Zonder licentie zullen de apps niet opstarten of beperkt functioneren.
+Voor het gebruik van Florisoft Apps is een geldige licentie vereist. De licentiecontrole vindt plaats via de Florisoft-cloudserver. Zonder de benodigde licentie kan een app of specifieke functionaliteit niet beschikbaar zijn.
 
-Nieuwe licenties of aanpassingen aan bestaande licenties kunnen worden aangevraagd via [Florisoft Support](https://www.florisoft.nl/contact).
+Nieuwe licenties of wijzigingen in bestaande licenties kunnen via [Florisoft](https://www.florisoft.nl/contact) worden aangevraagd.
 
-> Voor meer informatie over het ophalen en beheren van licenties, zie de [Handleiding Licentie Keys Ophalen en Beheren](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/App%20Configuration/Licentie%20Keys%20ophalen%20en%20beheren.md)
+> Zie [Licentiesleutels ophalen en beheren](App%20Configuration/Licentie%20Keys%20ophalen%20en%20beheren.md) voor het ophalen en beheren van licentiesleutels.
 
-## App-integraties (in-app functionaliteiten van andere apps)
+## Geïntegreerde functionaliteit
 
-Florisoft Apps kunnen naadloos samenwerken door middel van geïntegreerde functionaliteit.  
-Dit betekent dat een gebruiker binnen één app taken kan uitvoeren die technisch door een andere app worden verzorgd, zonder dat hiervoor een aparte installatie nodig is.
+Florisoft Apps kunnen functionaliteit van andere apps binnen dezelfde workflow aanbieden. Een gebruiker kan daardoor een taak uitvoeren zonder de aanvullende app afzonderlijk te openen.
 
-### Licentie-gebaseerde activering  
-Een geïntegreerde functie wordt zichtbaar **wanneer de bijbehorende licentie actief is**.  
-Belangrijk hierbij:
+Een geïntegreerde functie wordt getoond wanneer de bijbehorende licentie actief is. De aanvullende app hoeft hiervoor niet altijd afzonderlijk op het apparaat te zijn geïnstalleerd. Zonder de benodigde licentie blijft de functie verborgen.
 
-- De aanvullende app hoeft **niet geïnstalleerd** te zijn op het apparaat.  
-- Zodra de licentie actief is, wordt de functie **automatisch beschikbaar** binnen de relevante app.  
-- Zonder licentie wordt de functionaliteit **niet getoond**, zodat de interface overzichtelijk blijft.
+### Voorbeeld: adreslabel afdrukken na de eindcontrole
 
-### Voorbeeld: Adreslabel printen vanuit FinalOutboundCheck  
-Na het afronden van een controleproces in de **FinalOutboundCheck**-app wil de gebruiker mogelijk een **adreslabel printen**.
+Na het afronden van een controle in **Final Outbound Check** kan de optie **Print address label** beschikbaar zijn. Deze optie wordt alleen getoond wanneer de klant over een licentie voor **Address Label** beschikt.
 
-- Beschikt de klant over een **AddressLabel-licentie**, dan verschijnt automatisch de extra optie *“Print address label”*.  
-- Heeft de klant **geen licentie**, dan blijft deze optie verborgen en verandert de workflow niet.
+## Installatie en updates
 
-## Updates
+De Hub-app wordt gebruikt om beschikbare Florisoft Apps te downloaden, te openen, te verwijderen en bij te werken. De beschikbare apps kunnen verschillen tussen Android en Windows.
 
-De Florisoft Apps worden regelmatig bijgewerkt met nieuwe functionaliteit, verbeteringen en beveiligingsupdates. Updates verlopen automatisch via de cloudserver.
+> Volg de [installatiehandleiding van de Hub-app](App%20Hub/Hub-App%20Installatie%20NL.md) voor de installatie, het instellen van de cloudserver-URL en het beheren van apps.
 
-> Een handleiding over het updateproces van Florisoft Apps is beschikbaar via onze openbare documentatie: [Handleiding Updates](https://github.com/florisoft/User.Manuals/tree/main/BASIS/Updating%20Florisoft).
+## Changelogs en ontwikkelingen
 
-## Changelogs
+Raadpleeg de actuele overzichten voor wijzigingen, verbeteringen, bugfixes en informatie over Florisoft Apps:
 
-Florisoft houdt een changelog bij waarin alle wijzigingen overzichtelijk worden gedocumenteerd. Denk hierbij aan toegevoegde functies, verbeterde prestaties, bugfixes en beveiligingsupdates. Changelogs zijn belangrijk om inzicht te krijgen in recente wijzigingen, zodat je als klant of gebruiker weet wat er verandert en welke impact dit mogelijk heeft op jouw werkwijze.
+- [Changelog Cloudserver (.NET)](https://www.florisoft.nl/changelog/Changelog_Florisoft_dotnet.html)
+- [Changelog Florisoft Apps](https://app.florisoft.nl/apps/latest/changelog.html)
+- [Overzicht Florisoft Apps](https://www.florisoft.nl/Solution_information/apps)
 
-Bekijk hier de actuele changelogs:
+## Policies
 
-* **Cloudserver (.NET)** – Wijzigingen in de cloudkoppeling en technische infrastructuur:
-   [Changelog Cloudserver (.NET)](https://www.florisoft.nl/changelog/Changelog_Florisoft_dotnet.html)
+Instellingen binnen Florisoft Apps worden centraal beheerd met policies in de backoffice. Policy-situaties bepalen hoe een app zich in verschillende contexten gedraagt.
 
-* **Florisoft Apps** – Informatie over updates per app, inclusief toevoegingen en bugfixes:
-   [Changelog Apps](https://app.florisoft.nl/apps/latest/changelog.html)
+> Zie [Policy Management](../BASIS/Policy%20Management/Handleiding%20Policy%20Management%20NL.md) voor het inrichten en beheren van policies.
 
-## Policygebruik
+## Afdrukken met de Job Agent
 
-Alle instellingen binnen de Florisoft Apps worden centraal geregeld via policies in de backoffice. Dit zorgt voor een uniforme en beheersbare inrichting van de apps, afgestemd op de specifieke werkwijze van jouw organisatie. Policy-situaties spelen hierbij een cruciale rol: zij bepalen hoe de app zich gedraagt in verschillende contexten.
+Voor het afdrukken vanuit Florisoft Apps is de **Job Agent** nodig. Deze Windows-component stuurt printopdrachten vanuit de apps door naar printers binnen het netwerk.
 
-Meer informatie over het inrichten en beheren van policies is te vinden in de handleiding: [Handleiding Policy Management](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Handleiding%20Policy%20Management%20NL.md)
-
-
-## Printfunctionaliteit en Job Agent
-
-Voor het afdrukken van documenten via Florisoft Apps is een aparte component nodig: de **Job Agent**. Deze zorgt ervoor dat printopdrachten vanuit de apps correct worden doorgestuurd naar de gekoppelde printers binnen jouw netwerk.
-
-De Job Agent draait op een Windows-omgeving en vereist eenmalige configuratie.
-
-Meer informatie en installatie-instructies zijn te vinden in de handleiding:
-🔗 [Handleiding Job Agent](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Apps%20Windows/Job-Agent)
+> Zie de [handleiding Job Agent](Apps%20Windows/Job-Agent/Handleiding%20Job-Agent%20-%20NL.md) voor installatie en configuratie.
 
 ## Ondersteuning
 
-Florisoft biedt verschillende vormen van ondersteuning bij het gebruik van de apps:
+Neem bij functionele of technische vragen en foutmeldingen contact op met Florisoft Support via het [ticketportaal](https://helpdesk.florisoft.nl).
 
-> **Let op:** In sommige situaties wordt een app ingericht via een consultant. In dat geval verloopt alle communicatie en ondersteuning via de consultant. Pas nadat de consultant expliciet heeft aangegeven dat de overdracht is voltooid, kan support rechtstreeks worden benaderd.
+> **Let op:** Wordt een app door een consultant ingericht, volg dan tijdens de implementatie de afgesproken communicatielijn. Neem na de overdracht rechtstreeks contact op met Support.
 
-### Supportvragen
+Voor ondersteuning op afstand kan Florisoft Quick Support gebruiken. Bereid een Android-apparaat hiervoor voor met de [handleiding TeamViewer PDA-configuratie](../HARDWARE/PDA%20configuration/Teamviewer%20PDA/Teamviewer%20Zebra%20NL.md). Gebruik voor een niet-Zebra-apparaat de handleiding in dezelfde map.
 
-Heb je vragen over het gebruik van Florisoft Apps? Neem dan contact op met Florisoft Support. Onze medewerkers helpen je graag verder bij functionele of technische vragen, foutmeldingen of advies over het gebruik van de apps.
+## Aan de slag
 
-> Support is bereikbaar via de reguliere kanalen. Raadpleeg eventueel je interne procedure voor het aanmelden van vragen of storingen.
-
-### Quick Support
-
-Voor ondersteuning op afstand biedt Florisoft de mogelijkheid tot **Quick Support**. Hiermee kunnen onze medewerkers direct meekijken en assisteren op het apparaat. Om dit goed te laten functioneren, moeten een aantal voorbereidingen worden getroffen.
-
-Een volledige uitleg van de stappen voor het instellen van TeamViewer op een PDA is te vinden in de volgende handleiding:
-🔗 [Handleiding TeamViewer PDA-configuratie](https://github.com/florisoft/User.Manuals/tree/main/HARDWARE/PDA%20configuration/Teamviewer%20PDA)
-
-
-## Roadmap en toekomstige ontwikkelingen
-
-Florisoft ontwikkelt haar applicaties continu door op basis van gebruikersfeedback en innovaties in de sector. De geplande functionaliteiten en ontwikkelingen zijn te volgen via onze roadmap.
-
-🔗 [Roadmap Apps](https://app.florisoft.nl/apps/latest/roadmap.html)
-
-## Vervolgstappen
-
-Wil je aan de slag met Florisoft Apps?
-
-1. Controleer of je beschikt over een actieve cloudserver.
-2. Vraag licenties aan voor de gewenste apps.
-3. Installeer de Hub App.
-4. Volg de installatiehandleidingen per app.
-5. Richt indien nodig Quick Support (TeamViewer) correct in op je apparaat.
-6. Blijf op de hoogte via de changelogs en roadmap. Blijf op de hoogte via de changelogs en roadmap.
-
----
+1. Controleer of de Florisoft-cloudserver bereikbaar is.
+2. Vraag de benodigde app-licenties aan.
+3. Installeer en configureer de Hub-app.
+4. Download de benodigde apps via de Hub-app.
+5. Volg de gebruikershandleiding van de betreffende app.
+6. Configureer waar nodig policies, de Job Agent en Quick Support.

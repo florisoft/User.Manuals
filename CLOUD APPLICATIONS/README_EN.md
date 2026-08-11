@@ -1,113 +1,82 @@
-# Introduction Florisoft Apps
+📘 Available in: [Nederlands](README.md)
 
-## App Structure Overview
+# Florisoft Apps
 
-<img width="2011" height="1468" alt="App structuur overview Klanten" src="https://github.com/user-attachments/assets/268eb06f-65db-469b-b854-3f13e6846078" />
+This page helps you find the right customer documentation for Florisoft Apps. The visual shows which processes are supported by the apps. Use the user manuals for installation, configuration, and day-to-day use.
 
-### Explanation  
-The visual below shows how the different Florisoft Apps are organized across various functional domains, such as *Core Services*, *Sales*, *Inventory*, and *Logistics*.  
-For each app, the corresponding **use cases** are displayed, giving you a clear overview of which processes are supported by which app. 
+## Find the right documentation
+
+| Subject | Documentation |
+|---|---|
+| Installing the Hub app and managing apps | [Hub app installation manual](App%20Hub/Hub-App%20Installation%20EN.md) |
+| Retrieving and managing license keys | [License key management guide](App%20Configuration/License%20Keys%20retrieval%20and%20management%20guide.md) |
+| Day-to-day use of Android apps | [Android app manuals](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Apps%20Android) |
+| Printing from apps | [Job Agent manual](Apps%20Windows/Job-Agent/Manual%20Job-Agent%20-%20EN.md) |
+| Server Management API | [Server Management API documentation](Server%20Management%20API%20%28M212%29) |
+
+## App structure overview
+
+<img alt="Overview of Florisoft Apps and supported processes by functional domain" src="Media/Florisoft%20App%20structure%20overview.png" />
+
+The visual shows how Florisoft Apps are organized into functional domains, such as *Core Services*, *Sales*, *Inventory*, and *Logistics*. The items listed under each app indicate which processes are supported. Consult the user manual for the relevant app for operating instructions, configuration details, and screenshots.
 
 ## Licenses
 
-To use the Florisoft Apps, a valid license is required.  
-License verification takes place automatically via the cloud server.  
-Without a valid license, the apps will not start or will operate with limited functionality.
+A valid license is required to use Florisoft Apps. License verification takes place through the Florisoft cloud server. Without the required license, an app or specific functionality may not be available.
 
-New licenses or modifications to existing ones can be requested via [Florisoft Support](https://www.florisoft.nl/contact)
+New licenses or changes to existing licenses can be requested through [Florisoft](https://www.florisoft.nl/contact).
 
-> For more information on retrieving and managing license keys, see the [License Keys Retrieval and Management Guide](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/App%20Configuration/License%20Keys%20retrieval%20and%20management%20guide.md)
+> See [Retrieving and managing license keys](App%20Configuration/License%20Keys%20retrieval%20and%20management%20guide.md) for instructions on retrieving and managing license keys.
 
-## App integrations (in-app functionalities of other apps)
+## Integrated functionality
 
-Florisoft Apps can work together seamlessly through integrated functionality.  
-This means that a user can perform tasks within one app that are technically handled by another app, without the need for a separate installation.
+Florisoft Apps can provide functionality from other apps within the same workflow. This allows a user to perform a task without opening the additional app separately.
 
-### License-based activation
-An integrated feature becomes visible **when the corresponding license is active**.  
-Important to note:
+An integrated feature is shown when the corresponding license is active. The additional app does not always need to be installed separately on the device. Without the required license, the feature remains hidden.
 
-- The additional app does **not need to be installed** on the device.  
-- Once the license is active, the function becomes **automatically available** within the relevant app.  
-- Without a license, the functionality is **not displayed**, keeping the interface clear.
+### Example: printing an address label after the final check
 
-### Example: Printing an address label from FinalOutboundCheck  
-After completing a check process in the **FinalOutboundCheck** app, the user may want to **print an address label**.
+After completing a check in **Final Outbound Check**, the **Print address label** option may be available. This option is only shown when the customer has an **Address Label** license.
 
-- If the customer has an **AddressLabel license**, the additional option *“Print address label”* will automatically appear.  
-- If the customer does **not have a license**, this option will remain hidden and the workflow will not change.
+## Installation and updates
 
-## Updates
+Use the Hub app to download, open, remove, and update available Florisoft Apps. The available apps may differ between Android and Windows.
 
-Florisoft Apps are regularly updated with new features, improvements, and security updates. Updates are handled automatically via the cloud server.
+> Follow the [Hub app installation manual](App%20Hub/Hub-App%20Installation%20EN.md) to install the Hub app, configure the cloud server URL, and manage apps.
 
-> A manual for the update process of Florisoft Apps is available in our public documentation: [Update Manual](https://github.com/florisoft/User.Manuals/tree/main/BASIS/Updating%20Florisoft).
+## Changelogs and developments
 
-## Changelogs
+Consult the current overviews for changes, improvements, bug fixes, and information about Florisoft Apps:
 
-Florisoft maintains a changelog in which all changes are clearly documented. This includes added features, performance improvements, bug fixes, and security updates. Changelogs are important for gaining insight into recent changes so that you, as a customer or user, know what is changing and how it might impact your workflow.
+- [Cloudserver (.NET) changelog](https://www.florisoft.nl/changelog/Changelog_Florisoft_dotnet.html)
+- [Florisoft Apps changelog](https://app.florisoft.nl/apps/latest/changelog.html)
+- [Florisoft Apps overview](https://www.florisoft.nl/Solution_information/apps)
 
-Check the current changelogs here:
+## Policies
 
-* **Cloudserver (.NET)** – Changes in the cloud connection and technical infrastructure:  
-  🔗 [Changelog Cloudserver (.NET)](https://www.florisoft.nl/changelog/Changelog_Florisoft_dotnet.html)
+Settings within Florisoft Apps are managed centrally through policies in the backoffice. Policy scenarios determine how an app behaves in different contexts.
 
-* **Florisoft Apps** – Information about updates per app, including additions and bug fixes:  
-  🔗 [Changelog Apps](https://app.florisoft.nl/apps/latest/changelog.html)
+> See [Policy Management](../BASIS/Policy%20Management/Manual%20Policy%20Management%20EN.md) for instructions on configuring and managing policies.
 
-  Here’s the English translation of that section:
+## Printing with the Job Agent
 
-## Policy Usage
+The **Job Agent** is required for printing from Florisoft Apps. This Windows component forwards print jobs from the apps to printers on the network.
 
-All settings within the Florisoft Apps are centrally managed through policies in the backoffice. This ensures a uniform and manageable configuration of the apps, tailored to the specific workflows of your organization. Policy scenarios play a crucial role here: they determine how the app behaves in different contexts.
-
-More information about setting up and managing policies can be found in the manual:
-[Policy Management Manual](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Manual%20Policy%20Management%20EN.md)
-
-
-## Printing Functionality and Job Agent
-
-For printing documents via Florisoft Apps, a separate component is required: the **Job Agent**. This ensures that print jobs from the apps are correctly forwarded to the linked printers within your network.
-
-The Job Agent runs on a Windows environment and requires one-time configuration.
-
-More information and installation instructions can be found in the manual:  
-🔗 [Job Agent Manual](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Apps%20Windows/Job-Agent)
+> See the [Job Agent manual](Apps%20Windows/Job-Agent/Manual%20Job-Agent%20-%20EN.md) for installation and configuration instructions.
 
 ## Support
 
-Florisoft offers various forms of support when using the apps:
+For functional or technical questions and error messages, contact Florisoft Support through the [ticket portal](https://helpdesk.florisoft.nl).
 
-> **Note:** In some cases, an app is set up via a consultant. In that case, all communication and support will go through the consultant. Only after the consultant has explicitly indicated that the handover is complete can support be contacted directly.
+> **Note:** If a consultant is configuring an app, follow the agreed communication route during implementation. Contact Support directly after the handover.
 
-### Support Questions
+For remote assistance, Florisoft may use Quick Support. Prepare an Android device by following the [TeamViewer PDA configuration manual](../HARDWARE/PDA%20configuration/Teamviewer%20PDA/Teamviewer%20Zebra%20EN.md). For a non-Zebra device, use the manual in the same folder.
 
-Do you have questions about using Florisoft Apps? Please contact Florisoft Support. Our staff will be happy to assist you with functional or technical questions, error messages, or advice on using the apps.
+## Getting started
 
-> Support is available through the regular channels. Please also check your internal procedure for reporting questions or issues.
-
-### Quick Support
-
-For remote assistance, Florisoft offers **Quick Support**. This allows our staff to directly view and assist on the device. To ensure proper functioning, several preparations must be made.
-
-A full explanation of the steps for setting up TeamViewer on a PDA can be found in the following manual:  
-🔗 [TeamViewer PDA Configuration Manual](https://github.com/florisoft/User.Manuals/tree/main/HARDWARE/PDA%20configuration/Teamviewer%20PDA)
-
-## Roadmap and Future Developments
-
-Florisoft continuously develops its applications based on user feedback and industry innovations. Planned features and developments can be followed via our roadmap.
-
-🔗 [Apps Roadmap](https://app.florisoft.nl/apps/latest/roadmap.html)
-
-## Next Steps
-
-Would you like to get started with Florisoft Apps?
-
-1. Check if you have an active cloud server.
-2. Request licenses for the desired apps.
-3. Install the Hub App.
-4. Follow the installation manuals for each app.
-5. If necessary, correctly set up Quick Support (TeamViewer) on your device.
-6. Stay up to date via the changelogs and roadmap.
-
----
+1. Check that the Florisoft cloud server is accessible.
+2. Request the required app licenses.
+3. Install and configure the Hub app.
+4. Download the required apps through the Hub app.
+5. Follow the user manual for the relevant app.
+6. Configure policies, the Job Agent, and Quick Support where required.
