@@ -402,6 +402,8 @@ Via dit scherm kun je eenvoudig je eigen afbeeldingen en videobestanden uploaden
 | **6** | Vervolgens kun je de gemaakte wijzigingen opslaan (31) of annuleren door terug te navigeren naar het selectiescherm (32). In dit voorbeeld slaan we de wijzigingen op (31).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.6.png"></details> |
 | **7** | Er is nu een nieuwe variant (33) van de afbeelding toegevoegd aan het overzicht. Deze variant bevat de aangepaste en bijgesneden versie van de afbeelding en kan vervolgens worden gebruikt op je [CMS-pagina's](#pagina).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.7.png"></details> |
 
+> **Tip:** Gebruik je afbeeldingen die te groot zijn en daardoor onnodig veel schijfruimte innemen? Probeer dan de webshopinstelling **CMSIMAGEOPTIMIZATIONS** te activeren. Deze instelling zet je geüploade afbeeldingen om naar het **.webp**-formaat. De kwaliteit van de afbeelding blijft behouden, terwijl het bestand aanzienlijk minder opslagruimte in beslag neemt.
+
 ---
 
 #### Documenten
