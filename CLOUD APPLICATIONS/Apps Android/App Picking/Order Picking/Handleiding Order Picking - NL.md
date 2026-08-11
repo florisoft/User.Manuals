@@ -191,6 +191,8 @@ Met de geordende lijst `PickItemDetails` bepaalt u welke aanvullende velden op h
 - `Remark`: opmerking;
 - `ArticleNumber`: artikelnummer.
 
+Een beschikbare `Remark` verschijnt standaard in **Orderpicks** en **Details** en kan daarnaast via `PickItemDetails` als detailitem worden toegevoegd. De handmatige orderregelopmerking (`OPMERKING`) heeft voorrang; is deze leeg, dan toont de app de webshopnotitie uit **Stock > Note** (`OPMERKING2`). Opmerkingen worden niet gecombineerd.
+
 De standaardlijst bevat `Sku`, `Word`, `S1` tot en met `S5`, `Color` en `PackagingCode`.
 
 Een informatiemarkering geeft aan dat een artikel over meerdere locaties of voorraadregels verdeeld kan zijn. De voortgang onder in het scherm toont hoeveel regels zijn verwerkt. Trek de lijst omlaag om de actuele werkopdracht opnieuw op te halen.
