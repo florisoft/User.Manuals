@@ -855,9 +855,16 @@ With the **Flex** component, you can position and align content in a flexible wa
 
 #### Text
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Text | Deze beschrijving wordt aangevuld |
+The **Text** component allows you to easily add your own text using the TinyMCE editor. You can use it to add headings and paragraphs and format text with options such as bold, italic, font size, alignment, and more. The text color can be adjusted via the [Styling](#3-styling) tab of the component. In the [Theme configuration](#theme-configuration), the `primary-font-color` color is used by default.
+
+Translations can be edited via the **[Edit translations](#translations)** button under the [General settings](#general-settings) tab.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we have selected a [Column](#rowcolumn) (1) to which we add the **Text** component (2).<details><summary><b>Click here for the example image</b></summary><img src="media/42.1.png"></details> |
+| **2** | The **Text** component is now visible in the [Navigator](#navigator) (3) and the [Editor](#editor) (4). The editor for the CMS element opens automatically for the new text element.<br><br>Via the [General settings](#general-settings) tab (5), you can add the text content (6). The content can be entered in two formats: **TinyMCE** (7) and **Markdown** (8). Choose the format that best suits your needs. **Note:** Markdown requires more technical knowledge and offers fewer formatting options than TinyMCE. In this guide, we use TinyMCE.<br><br>If you want to use Markdown, a cheat sheet can be useful. You can find one here: [Markdown Guide - Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).<details><summary><b>Click here for the example image</b></summary><img src="media/42.2.png"></details> |
+| **3** | The TinyMCE editor is largely self-explanatory. However, adding headings can be somewhat confusing at first. To add a heading, click the **Paragraph** dropdown (9). Then select **Headings** (10). An additional dropdown will appear with different heading sizes (11). Select the desired heading size.<details><summary><b>Click here for the example image</b></summary><img src="media/42.3.png"></details> |
+| **4** | Read more about the additional settings in the [Styling](#3-styling), [Advanced](#4-advanced), and [Visibility](#5-visibility) tabs. |
 
 ---
 

@@ -852,9 +852,16 @@ Met het **Flex**-component kun je inhoud flexibel positioneren en uitlijnen. Voe
 
 #### Text
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Text | Deze beschrijving wordt aangevuld |
+Met het **Text**-component voeg je eenvoudig eigen teksten toe via de TinyMCE-editor. Hiermee kun je titels en alinea's toevoegen en de tekst opmaken met opties zoals vet, cursief, lettergrootte, uitlijning en meer. De tekstkleur kun je aanpassen via het tabblad [Styling](#3-styling) van het component. In de [Themaconfiguratie](#thema-configuratie) wordt standaard de kleur `primary-font-color` gebruikt.
+
+Vertalingen kun je bewerken via de knop **[Vertalingen bewerken](#vertalingen)** onder het tabblad [Algemene instellingen](#algemene-instellingen).
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Kolom](#rowcolumn) (1) geselecteerd waaraan we het **Text**-component (2) toevoegen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/42.1.png"></details> |
+| **2** | Het **Text**-component is nu zichtbaar in de [Navigator](#navigator) (3) en de [Editor](#editor) (4). De editor van het CMS-element wordt automatisch geopend voor het nieuwe tekstelement.<br><br>Via het tabblad [Algemene instellingen](#algemene-instellingen) (5) kun je de tekstinhoud toevoegen (6). Je kunt de inhoud in twee formaten invoeren: **TinyMCE** (7) en **Markdown** (8). Kies het formaat dat het beste bij je past. **Let op:** Markdown vereist meer technische kennis en biedt minder opmaakmogelijkheden dan TinyMCE. In deze handleiding gebruiken we TinyMCE.<br><br>Wil je Markdown gebruiken, dan kan een cheatsheet handig zijn. Deze vind je hier: [Markdown Guide - Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/42.2.png"></details> |
+| **3** | De TinyMCE-editor spreekt grotendeels voor zich. Het toevoegen van kopteksten kan in het begin echter wat verwarrend zijn. Om een koptekst toe te voegen, klik je op de dropdown **Paragraph** (9). Selecteer vervolgens **Headings** (10). Er verschijnt een extra dropdown met verschillende kopgroottes (11). Selecteer hier de gewenste kopgrootte.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/42.3.png"></details> |
+| **4** | Lees meer over de aanvullende instellingen in de tabbladen [Styling](#3-styling), [Geavanceerd](#4-geavanceerd) en [Zichtbaarheid](#5-zichtbaarheid). |
 
 ---
 
