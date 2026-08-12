@@ -159,6 +159,12 @@ Allows you to enable additional add-ons that add extra functionality to the app.
   Integrates with the ExceptionRegistration functionality, allowing defects or discrepancies on an order item to be registered.  
   This helps document issues for follow-up and quality control.
 
+* **AdressLabel**
+  Allows an address label to be printed from Final Outbound Check. The Address Label licence and the Shipping policy `Apps → Logistics → Shipping → AddressLabels → PrinterSetting` must also be configured. Only a report layout with list type `Stickers` or `AdresSticker` can be selected for `ReportName`. See the [Address Label manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Shipping/Adress%20Label/Manual%20Address%20Label%20-%20EN.md) for the complete configuration and procedure.
+
+* **Returnables**
+  Allows outgoing returnable packaging to be registered for the active order from Final Outbound Check. Returnables Outbound must be available and the active order must provide sufficient customer and order context. See the [Returnables Outbound manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Returnables/Returnables%20Outbound/Manual%20Returnables%20Outbound%20-%20EN.md) for the complete configuration and procedure.
+
 ### `PhotoStorageDirectoryPath`
 
 By default, Final Outbound Check photos are stored in the archive directory of the data folder. We recommend using this default location and leaving this policy empty.

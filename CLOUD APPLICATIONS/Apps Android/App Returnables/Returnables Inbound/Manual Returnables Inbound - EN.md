@@ -46,7 +46,9 @@ The first batch must contain at least one positive quantity before you can conti
 | `ShowQuickInput` | Shows or hides quick input. |
 | `ValidBarcodeDecodeOptions` | Controls accepted package barcodes. A package barcode is enabled by default. |
 
-When `Apps → PackagingPicturesFolderPath` is configured, the app can show a recognition image for a package code. The image must be present in that folder with the package code as its filename.
+When `Apps → PackagingPicturesFolderPath` is configured, the app can show a recognition image for a package code. Enter the path to a directory that the Florisoft server can read. Save each image as a JPG file using the exact package code as its filename. For package code `025`, for example, use `025.jpg`.
+
+[Download the standard package photos](../Standaard%20fustfotos.zip?raw=1), extract the ZIP file, and use the extracted directory for `PackagingPicturesFolderPath`. The download contains 255 photos already named according to `<package code>.jpg`. You can add to the set or replace an image as long as its filename matches the package code in Florisoft.
 
 ### 3. Verify the totals
 
@@ -65,7 +67,7 @@ Depending on the policies, the app may request:
 
 After successful completion, the incoming quantities are registered for the selected customer and order and the session is closed. The order must belong to an existing invoice.
 
-Printing and emailing use `PackageListPrinter` and `PackageListPrintLayout`.
+Printing and emailing use `PackageListPrinter` and `PackageListPrintLayout`. Only report layouts with list type `FustAdminPaklijst` can be selected for `PackageListPrintLayout`. An empty selection list means that no suitable report layout is available yet.
 
 ## Stop without completing
 
@@ -86,3 +88,9 @@ Open the Backoffice constants screen and go to **System → Users → Policy Man
 | `Apps → Logistics → Returnables → Inbound → PackageListPrintSettings` | `PackageListPrinter`, `PackageListPrintLayout` |
 
 See the [Policy Management manual](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Manual%20Policy%20Management%20EN.md) for general policy configuration.
+
+## Troubleshooting
+
+**Why is the `PackageListPrintLayout` selection list empty?**
+
+Check that Florisoft contains a report layout with list type `FustAdminPaklijst`. Only layouts with this list type are shown in the selection list.

@@ -58,7 +58,9 @@ De volgende policies bepalen de telpagina:
 | `ShowQuickInput` | Toont of verbergt de snelle invoer. |
 | `ValidBarcodeDecodeOptions` | Bepaalt welke fustbarcodes op de telpagina worden herkend. Standaard is de fustbarcode beschikbaar. |
 
-Als `Apps → PackagingPicturesFolderPath` is ingesteld, kan de app bij een fustcode een herkenningsfoto tonen. De foto moet in de ingestelde map beschikbaar zijn met de fustcode als bestandsnaam.
+Als `Apps → PackagingPicturesFolderPath` is ingesteld, kan de app bij een fustcode een herkenningsfoto tonen. Vul hier het pad in naar een map die door de Florisoft-server kan worden gelezen. Sla iedere foto op als JPG-bestand met exact de fustcode als bestandsnaam. Voor fustcode `025` gebruikt u bijvoorbeeld `025.jpg`.
+
+[Download de standaard fustfoto's](../Standaard%20fustfotos.zip?raw=1), pak het ZIP-bestand uit en gebruik de uitgepakte map bij `PackagingPicturesFolderPath`. De download bevat 255 foto's die al volgens `<fustcode>.jpg` zijn benoemd. U kunt de set aanvullen of een foto vervangen zolang de bestandsnaam overeenkomt met de fustcode in Florisoft.
 
 ### Stap 3: eindcontrole
 
@@ -80,7 +82,7 @@ Na een succesvolle afronding worden de inkomende fustaantallen bij de geselectee
 Als afdrukken of mailen is gekozen, gebruikt de app de volgende instellingen:
 
 - `PackageListPrinter`: printer voor de fustpaklijst;
-- `PackageListPrintLayout`: afdruklay-out voor de fustpaklijst.
+- `PackageListPrintLayout`: afdruklay-out voor de fustpaklijst. Alleen rapportlay-outs van lijstsoort `FustAdminPaklijst` kunnen worden geselecteerd. Is de keuzelijst leeg, dan is nog geen geschikte rapportlay-out beschikbaar.
 
 ## Een sessie stoppen zonder afronden
 
@@ -121,3 +123,7 @@ Controleer of er een positief totaal is, of een verplichte referentie is ingevul
 **Waarom verschijnt geen keuze voor afdrukken of mailen?**
 
 De betreffende policy staat dan op `DoNotShow` (**Niet tonen**).
+
+**Waarom kan ik bij `PackageListPrintLayout` niets selecteren?**
+
+Controleer of in Florisoft een rapportlay-out van lijstsoort `FustAdminPaklijst` beschikbaar is. Alleen lay-outs van deze lijstsoort worden in de keuzelijst getoond.

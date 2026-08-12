@@ -164,6 +164,12 @@ Met deze policy kun je extra add-ons inschakelen die extra functionaliteit aan d
   Integreert met de ExceptionRegistration-functionaliteit, waarmee gebreken of afwijkingen aan een orderitem geregistreerd kunnen worden.  
   Dit helpt bij het vastleggen van problemen voor opvolging.
 
+* **AdressLabel**
+  Maakt het mogelijk om vanuit Final Outbound Check een adreslabel af te drukken. Hiervoor moeten ook de Address Label-licentie en de Shipping-policy `Apps → Logistics → Shipping → AddressLabels → PrinterSetting` zijn ingericht. Bij `ReportName` kan alleen een rapportlay-out van lijstsoort `Stickers` of `AdresSticker` worden geselecteerd. Zie de [handleiding Address Label](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Shipping/Adress%20Label/Handleiding%20Address%20Label%20-%20NL.md) voor de volledige inrichting en werkwijze.
+
+* **Returnables**
+  Maakt het mogelijk om vanuit Final Outbound Check uitgaand fust bij de actieve order te registreren. Hiervoor moet Returnables Outbound beschikbaar zijn en moet de actieve order voldoende klant- en ordercontext bevatten. Zie de [handleiding Returnables Outbound](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Returnables/Returnables%20Outbound/Handleiding%20Returnables%20Outbound%20-%20NL.md) voor de volledige inrichting en werkwijze.
+
 ### `PhotoStorageDirectoryPath`
 
 Standaard worden de foto's van Final Outbound Check opgeslagen in de archiefmap van de datafolder. Het advies is om deze standaardlocatie te gebruiken en deze policy niet in te vullen.

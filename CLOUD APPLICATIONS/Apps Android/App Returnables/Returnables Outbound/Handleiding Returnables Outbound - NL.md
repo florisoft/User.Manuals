@@ -58,7 +58,11 @@ De volgende policies bepalen de telpagina:
 | `ShowQuickInput` | Toont of verbergt de snelle invoer. |
 | `ValidBarcodeDecodeOptions` | Bepaalt welke fustbarcodes op de telpagina worden herkend. Standaard is de fustbarcode beschikbaar. |
 
-Als `Apps → PackagingPicturesFolderPath` is ingesteld, kan de app bij een fustcode een herkenningsfoto tonen. De foto moet in de ingestelde map beschikbaar zijn met de fustcode als bestandsnaam.
+Als `Apps → PackagingPicturesFolderPath` is ingesteld, kan de app bij een fustcode een herkenningsfoto tonen. Vul hier het pad in naar een map die door de Florisoft-server kan worden gelezen. Sla iedere foto op als JPG-bestand met exact de fustcode als bestandsnaam. Voor fustcode `025` gebruikt u bijvoorbeeld `025.jpg`.
+
+Controleer na het instellen met een bekende fustcode of de foto op de telpagina wordt getoond. Verschijnt de foto niet, controleer dan de bestandsnaam, de extensie `.jpg`, het ingestelde pad en de leesrechten van de Florisoft-server op de map.
+
+[Download de standaard fustfoto's](../Standaard%20fustfotos.zip?raw=1), pak het ZIP-bestand uit en gebruik de uitgepakte map bij `PackagingPicturesFolderPath`. De download bevat 255 foto's die al volgens `<fustcode>.jpg` zijn benoemd. U kunt de set aanvullen of een foto vervangen zolang de bestandsnaam overeenkomt met de fustcode in Florisoft.
 
 ### Stap 3: eindcontrole
 
@@ -75,7 +79,7 @@ Bij het bevestigen kan de app, afhankelijk van de policies, aanvullende informat
 - `MailPackingListOption`: verbergt de e-mailkeuze of toont deze met standaard **Ja** of **Nee**;
 - `RequireSignature`: vraagt om een handtekening wanneer een paklijst wordt afgedrukt of gemaild.
 
-Als afdrukken of mailen is gekozen, gebruikt de app `PackageListPrinter` en `PackageListPrintLayout`.
+Als afdrukken of mailen is gekozen, gebruikt de app `PackageListPrinter` en `PackageListPrintLayout`. Bij `PackageListPrintLayout` kunnen alleen rapportlay-outs van lijstsoort `FustAdminPaklijst` worden geselecteerd. Is de keuzelijst leeg, dan is nog geen geschikte rapportlay-out beschikbaar.
 
 De policy `PackageManagementRegistrationStrategy` bepaalt wat er bij afronden met de uitgaande fustaantallen gebeurt:
 
@@ -122,6 +126,10 @@ Ja, als `AllowAdditionalPackaging` is ingeschakeld en de fustcode in Florisoft b
 **Waarom kan ik de sessie niet afronden?**
 
 Controleer of er een positief totaal is en of een verplichte referentie is ingevuld. Controleer daarnaast of de order en sessie nog geldig zijn.
+
+**Waarom kan ik bij `PackageListPrintLayout` niets selecteren?**
+
+Controleer of in Florisoft een rapportlay-out van lijstsoort `FustAdminPaklijst` beschikbaar is. Alleen lay-outs van deze lijstsoort worden in de keuzelijst getoond.
 
 **Waarom verschijnt geen keuze voor afdrukken of mailen?**
 
