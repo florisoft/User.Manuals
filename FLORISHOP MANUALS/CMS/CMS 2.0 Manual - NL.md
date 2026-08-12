@@ -597,7 +597,8 @@ Sommige componenten bieden de mogelijkheid om naar een andere pagina te navigere
 
 | Stap | Uitleg |
 |:--|:--|
-| **1** | Door een URL in te voeren, wordt het geselecteerde component klikbaar en kun je bezoekers bijvoorbeeld naar een andere pagina of voorraadpagina laten navigeren. **Let op:** je hoeft in dit veld **niet** het volledige domein in te voeren, zoals `https://[jouw domein].nl`. Alleen het **pad** is voldoende. Dit is het gedeelte dat na het domein komt, bijvoorbeeld `https://[jouw domein].nl/[jouw pagina pad]`. In dit geval vul je alleen `[jouw pagina pad]` in. |
+| **1** | Door een URL in te voeren, wordt het geselecteerde component klikbaar. Je kunt bezoekers hiermee bijvoorbeeld naar een andere pagina of voorraadpagina laten navigeren. **Let op:** je hoeft in dit veld **niet** het volledige domein in te voeren, zoals `https://[jouw domein].nl`. Alleen het **pad** is voldoende. Dit is het gedeelte dat na het domein komt, bijvoorbeeld `https://[jouw domein].nl/[jouw pagina pad]`. In dit geval vul je alleen `[jouw pagina pad]` in. |
+| **2** | Naast de URL-optie is er een aan/uit-schakelaar **URL openen in nieuw tabblad**. Hiermee bepaal je of de URL in een nieuw browsertabblad wordt geopend of dat de bezoeker in hetzelfde venster blijft. |
 
 ---
 

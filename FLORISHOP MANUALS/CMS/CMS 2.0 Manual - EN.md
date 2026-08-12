@@ -601,7 +601,8 @@ Some components offer the option to navigate to another page. This can be config
 
 | Step | Explanation |
 |:--|:--|
-| **1** | By entering a URL, the selected component becomes clickable and can be used to navigate visitors to another page or, for example, a stock page. **Note:** you do **not** need to enter the full domain in this field, such as `https://[your domain].nl`. Only the **path** is required. This is the part that appears after the domain, for example `https://[your domain].nl/[your page path]`. In this case, you only need to enter `[your page path]`. |
+| **1** | By entering a URL, the selected component becomes clickable. You can use this to navigate visitors to another page or, for example, a stock page. **Note:** you do **not** need to enter the full domain in this field, such as `https://[your domain].nl`. Only the **path** is required. This is the part that appears after the domain, for example `https://[your domain].nl/[your page path]`. In this case, you only need to enter `[your page path]`. |
+| **2** | In addition to the URL option, there is an on/off toggle called **Open URL in new tab**. This determines whether the URL opens in a new browser tab or whether the visitor remains in the same window. |
 
 ---
 
