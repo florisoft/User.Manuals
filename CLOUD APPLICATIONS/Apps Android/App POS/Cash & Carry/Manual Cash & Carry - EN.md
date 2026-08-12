@@ -298,7 +298,9 @@ The policies under **ShoppingCart** determine how the employee enters quantities
 - `AllowSellingBelowSalesUnit` determines whether less than one complete sales unit may be sold;
 - `ResetSalesUnitAfterScan` resets the selected unit to `DefaultSalesUnit` after each scan. If this policy is disabled or empty, the selected unit remains active.
 
-In the Backoffice, a sales unit can be linked to each barcode type, for example for Scan code, EAN code or Scan code 2. When that link exists and the corresponding unit is filled in on the stock item, the scanned barcode automatically determines the sales unit. Without a usable link, Florisoft uses the normal behaviour from `DefaultSalesUnit` and the active user selection.
+With **Barcode sales unit**, an administrator can influence how a scanned stock item is added to the shopping cart and which quantity Florisoft uses. In the Backoffice, open **Constants → System → Barcode sales unit** and link the required sales unit to each barcode type.
+
+After a scan, Florisoft uses the quantity entered for this sales unit on the stock item. This allows the same stock item to be sold per SU through **Scan code** and per colli content through **Scan code 2**. Scanning the same barcode again increases the existing order line by the quantity belonging to the scanned barcode type.
 
 `ShowOrderItemDetailsAfterAdd` automatically opens the details screen after adding a product. If this policy is disabled, the user remains in the shopping cart.
 

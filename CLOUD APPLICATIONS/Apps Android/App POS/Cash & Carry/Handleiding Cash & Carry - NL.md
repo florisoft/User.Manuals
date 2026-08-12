@@ -298,7 +298,9 @@ De policies onder **ShoppingCart** bepalen hoe de medewerker aantallen invoert:
 - `AllowSellingBelowSalesUnit` bepaalt of minder dan één volledige verkoopeenheid mag worden verkocht;
 - `ResetSalesUnitAfterScan` zet na iedere scan de gekozen eenheid terug naar `DefaultSalesUnit`. Wanneer deze policy uit of leeg is, blijft de gekozen eenheid actief.
 
-In de Backoffice kan per barcodetype een verkoopeenheid zijn gekoppeld, bijvoorbeeld voor Scancode, EAN-code of Scancode 2. Wanneer die koppeling bestaat en de bijbehorende eenheid op de voorraadpartij is gevuld, bepaalt de gescande barcode automatisch de verkoopeenheid. Zonder bruikbare koppeling gebruikt Florisoft het normale gedrag uit `DefaultSalesUnit` en de actieve gebruikerskeuze.
+Met **Barcode verkoopeenheid** kan een beheerder beïnvloeden hoe een gescande voorraadpartij aan de winkelwagen wordt toegevoegd en welk aantal Florisoft daarbij gebruikt. Open hiervoor in de Backoffice **Constanten → Systeem → Barcode verkoopeenheid** en koppel per barcodetype de gewenste verkoopeenheid.
+
+Florisoft gebruikt na een scan de hoeveelheid die bij deze verkoopeenheid op de voorraadpartij is ingevuld. Zo kan dezelfde partij via **Scancode** per VE worden verkocht en via **Scancode 2** per inhoud kolli. Bij opnieuw scannen verhoogt Florisoft de bestaande orderregel met de hoeveelheid die bij het gescande barcodetype hoort.
 
 `ShowOrderItemDetailsAfterAdd` opent na het toevoegen automatisch het detailscherm. Staat deze policy uit, dan blijft de gebruiker in de winkelwagen.
 
