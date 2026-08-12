@@ -55,6 +55,7 @@
 
 #### 2. Algemene instellingen
 - [Vertalingen](#vertalingen)
+- [URL](#url)
 
 #### 3. Styling
 - [Color picker](#color-picker)
@@ -587,6 +588,16 @@ Wanneer je tekst kunt invoeren binnen een [component](#componenten) of bij de [p
 | **1** | In dit voorbeeld hebben we een **[Tekst-component](#text)** geselecteerd (1). Onder het tabblad **Algemene instellingen** (2) vind je de knop **Vertalingen bewerken** (3). Klik hierop om het vertaaldialoogvenster te openen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/24.1.png"></details> |
 | **2** | In het vertaaldialoogvenster wordt standaard de **Default**-taal van de webshop weergegeven (4). De standaardtaal van de webshop kan worden ingesteld via de webshopinstelling **CMSDEFAULTCULTURE**. **Let op:** Vul hier altijd een geldige landcode in, zoals `nl` of `en`. Ongeldige waarden kunnen fouten in de webshop veroorzaken. Vervolgens kun je de tekst voor deze taal invoeren (5). In dit voorbeeld is het tekstveld nog leeg, omdat er nog geen Nederlandse vertaling is ingevuld. Daarnaast vind je een dropdownmenu waarin je een andere taal kunt selecteren (6). Voor de geselecteerde taal kun je vervolgens de gewenste vertaling invoeren (7).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/24.2.png"></details> |
 | **3** | Wanneer je een taal hebt geselecteerd, wordt met een groen bolletje (8) aangegeven dat deze taal volledig van een vertaling is voorzien. In dit voorbeeld is te zien dat er alleen een vertaling voor de Engelse taal is ingevuld (8). Nadat je de gewenste vertalingen hebt ingevuld, kun je de instellingen bevestigen (9).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/24.3.png"></details> |
+
+---
+
+#### URL
+
+Sommige componenten bieden de mogelijkheid om naar een andere pagina te navigeren. Dit kun je instellen via de optie **URL**.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | Door een URL in te voeren, wordt het geselecteerde component klikbaar en kun je bezoekers bijvoorbeeld naar een andere pagina of voorraadpagina laten navigeren. **Let op:** je hoeft in dit veld **niet** het volledige domein in te voeren, zoals `https://[jouw domein].nl`. Alleen het **pad** is voldoende. Dit is het gedeelte dat na het domein komt, bijvoorbeeld `https://[jouw domein].nl/[jouw pagina pad]`. In dit geval vul je alleen `[jouw pagina pad]` in. |
 
 ---
 

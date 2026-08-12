@@ -55,6 +55,7 @@
 
 #### 2. General Settings
 - [Translations](#translations)
+- [URL](#url)
 
 #### 3. Styling
 - [Color Picker](#color-picker)
@@ -591,6 +592,16 @@ When you can enter text within a [component](#components) or in the [page settin
 | **1** | In this example, we have selected a **[Text component](#text)** (1). Under the **General Settings** tab (2), you will find the **Edit translations** button (3). Click this button to open the translation dialog.<details><summary><b>Click here for the example image</b></summary><img src="media/24.1.png"></details> |
 | **2** | The translation dialog displays the webshop's **Default** language by default (4). The default language of the webshop can be configured using the webshop setting **CMSDEFAULTCULTURE**. **Note:** Always enter a valid language code, such as `nl` or `en`. Invalid values may cause errors in the webshop. You can then enter the text for this language (5). In this example, the text field is still empty because no Dutch translation has been entered yet. You will also find a dropdown menu where you can select another language (6). You can then enter the desired translation for the selected language (7).<details><summary><b>Click here for the example image</b></summary><img src="media/24.2.png"></details> |
 | **3** | When you select a language, a green indicator (8) shows that the selected language has been fully translated. In this example, you can see that a translation has only been entered for the English language (8). After entering the desired translations, you can confirm the settings (9).<details><summary><b>Click here for the example image</b></summary><img src="media/24.3.png"></details> |
+
+---
+
+#### URL
+
+Some components offer the option to navigate to another page. This can be configured using the **URL** option.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | By entering a URL, the selected component becomes clickable and can be used to navigate visitors to another page or, for example, a stock page. **Note:** you do **not** need to enter the full domain in this field, such as `https://[your domain].nl`. Only the **path** is required. This is the part that appears after the domain, for example `https://[your domain].nl/[your page path]`. In this case, you only need to enter `[your page path]`. |
 
 ---
 
