@@ -979,9 +979,14 @@ Met het **Carrousel**-component kun je meerdere elementen als afzonderlijke slid
 
 #### Button
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Button | Deze beschrijving wordt aangevuld |
+Gebruik dit volledig aanpasbare **Button**-component om te navigeren naar de [URL](#url) die je zelf hebt ingesteld.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Flex](#flex)-component (1) geselecteerd waaraan we het **Button**-component (2) toevoegen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/43.1.png"></details> |
+| **2** | Het **Button**-component is nu zichtbaar in de [Navigator](#navigator) (3) en de [Editor](#editor) (4). Via het tabblad **[Algemene instellingen](#algemene-instellingen)** (5) kun je de volgende opties instellen:<br><br>**[Vertalingen bewerken](#vertalingen)**: Bewerk de vertalingen van de buttontekst.<br><br>**Tekst** (6): Vul hier de tekst van de button in.<br><br>**Chevron** (7): Toont een pijltje achter de buttontekst.<br><br>**Switch Variant** (8): Schakelt over naar de kleur `button-secondary-bgcolor` uit de [Thema Configuratie](#thema-configuratie). Deze optie werkt alleen wanneer je geen eigen kleurinstellingen hebt ingesteld in het tabblad [Styling](#3-styling).<br><br>**[URL](#url)** (9): Stel de URL in waarnaar de button moet navigeren.<br><br>**Button positie** (10): Bepaal of de button links, rechts, gecentreerd of over de volledige beschikbare breedte wordt uitgelijnd.<br><br>**[URL openen in nieuw tabblad](#url)**: Bepaal of de URL in een nieuw tabblad wordt geopend.<br><br>**[Component Styles](#component-styles)**: Stel aanvullende componentstijlen in.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/43.2.png"></details> |
+| **3** | Via het tabblad **[Styling](#3-styling)** (11) kun je de volgende opties instellen:<br><br>**Button kleur** (12): Stel een eigen kleur in voor de button. In de [Thema Configuratie](#thema-configuratie) kun je via `button-bg-color` de standaardkleur van alle Button-componenten instellen.<br><br>**Muis-over kleur** (13): Stel een eigen kleur in voor wanneer je met de muis over de button beweegt. In de [Thema Configuratie](#thema-configuratie) kun je via `button-hover-bg-color` de standaardkleur instellen voor alle Button-componenten.<br><br>**Button tekstkleur** (14): Stel een eigen kleur in voor de buttontekst. De standaardkleur voor het Button-component is wit. De tekstkleur van buttons in de webshop kun je instellen via de [Thema Configuratie](#thema-configuratie) met `button-font-color`, `button-primary-textcolor` en `button-secondary-textcolor`.<br><br>**Button schaduw kleur** (15): Stel een eigen kleur in voor de schaduw van de button. Je kunt dit ook instellen via [Omlijning](#omlijning) of [Slagschaduw](#slagschaduw).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/40.3.png"></details> |
+| **4** | Lees meer over de aanvullende instellingen in de tabbladen [Styling](#3-styling), [Geavanceerd](#4-geavanceerd) en [Zichtbaarheid](#5-zichtbaarheid). |
 
 ---
 
