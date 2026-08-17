@@ -90,6 +90,10 @@ This option requires a valid **Entry Control** license (`Logistics.Receiving.Ent
 
 In the parcel detail view, you can adjust quantities directly and process a mutation.
 
+### Recording the check status
+
+If you check a parcel without changing its details, the app records the check status automatically after the next successful follow-up action: scan another parcel, scan a different location, or return to the Home screen. Only the last checked parcel receives this status. If the follow-up action fails, the check status remains unchanged.
+
 When open pick orders are linked to the parcel, Consolidation includes the remaining quantity to pick in the displayed stock total by default.
 
 If **Pickorders niet meetellen in voorraad opname** (`PICKNOOPN`) is enabled in the linked customer's relation settings under **Distribution**, open pick orders for this customer are excluded from the displayed stock total. The displayed total can therefore be lower than for a customer for whom this setting is disabled.

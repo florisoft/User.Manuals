@@ -90,6 +90,10 @@ Voor deze optie is een geldige licentie voor **Entry Control** (`Logistics.Recei
 
 Op het partij-detail kunt u direct aantallen aanpassen en een mutatie doorvoeren.
 
+### Controlestatus vastleggen
+
+Controleert u een partij zonder gegevens te wijzigen, dan legt de app de controlestatus automatisch vast bij de eerstvolgende geslaagde vervolgactie: scan een volgende partij, scan een andere locatie of ga terug naar het beginscherm. Alleen de laatst gecontroleerde partij krijgt deze status. Mislukt de vervolgactie, dan blijft de controlestatus ongewijzigd.
+
 Wanneer er open pickorders aan de partij zijn gekoppeld, telt Consolidation de nog te picken hoeveelheid standaard mee in het weergegeven voorraadtotaal.
 
 Staat bij de gekoppelde debiteur in de relatie-instellingen, onderdeel **Verdelen**, de optie **Pickorders niet meetellen in voorraad opname** (`PICKNOOPN`) aan, dan worden open pickorders van deze debiteur niet in het weergegeven voorraadtotaal opgenomen. Hierdoor kan het getoonde totaal lager zijn dan bij een debiteur waarvoor deze instelling uitstaat.
