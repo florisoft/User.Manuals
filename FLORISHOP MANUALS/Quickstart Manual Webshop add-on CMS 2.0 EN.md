@@ -6,7 +6,7 @@
 
 In this document, we will guide you step by step through setting up your first CMS page. We divide this into several sections: **Hero (Header)**, **Carousel**, **Product List**, **Text + Image**, **Form**, and finally a **Footer**. This allows you to get familiar with our CMS and discover the extensive possibilities within the system.
 
-If you are still having trouble and are looking for a ready-made solution, we would be happy to refer you to our website. There, you can easily choose a package that our CMS specialist can implement in your environment. <a href="https://florisoft.nl" target="_blank">Click here for more information »</a>
+If you are still having trouble and are looking for a ready-made solution, we would be happy to refer you to our website. There, you can easily choose a package that our CMS specialist can implement in your environment. <a href="https://florisoft.com/cms-pakketten" target="_blank">Click here for more information »</a>
 
 ---
 
@@ -195,4 +195,4 @@ You can now save the **Home** container as a Template. This Template can then be
 
 Of course, there are many more possibilities for fully customizing your CMS pages. If you found setting up the page a little challenging or would rather start with a professional foundation, Florisoft also offers ready-made CMS packages. Our CMS specialists can help you get started quickly with a professional setup.
 
-<a href="https://florisoft.nl" target="_blank">Click here for more information »</a>
+<a href="https://florisoft.com/cms-pakketten" target="_blank">Click here for more information »</a>

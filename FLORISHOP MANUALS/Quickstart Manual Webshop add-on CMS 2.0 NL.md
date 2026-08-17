@@ -6,7 +6,7 @@
 
 In dit document nemen we je stap voor stap mee in het opzetten van je eerste CMS-pagina. We delen dit op in meerdere secties: **Hero (Header)**, **Carrousel**, **Productlijst**, **Tekst + Afbeelding**, **Formulier** en tot slot een **Footer**. Zo maak je kennis met ons CMS en ontdek je direct de uitgebreide mogelijkheden van het systeem.
 
-Kom je er toch niet helemaal uit en ben je op zoek naar een kant-en-klare oplossing? Dan verwijzen we je graag door naar onze website. Hier kun je eenvoudig een pakket kiezen dat onze CMS-specialist in jouw omgeving kan implementeren. <a href="https://florisoft.nl" target="_blank">Klik hier voor meer informatie »</a>
+Kom je er toch niet helemaal uit en ben je op zoek naar een kant-en-klare oplossing? Dan verwijzen we je graag door naar onze website. Hier kun je eenvoudig een pakket kiezen dat onze CMS-specialist in jouw omgeving kan implementeren. <a href="https://florisoft.nl/cms-pakketten" target="_blank">Klik hier voor meer informatie »</a>
 
 ---
 
@@ -195,4 +195,4 @@ Wanneer je vervolgens de **Home**-container als Template opslaat, kun je dit Tem
 
 Uiteraard zijn er nog veel meer mogelijkheden om je CMS-pagina's volledig naar eigen wens in te richten. Vond je het opzetten van de pagina toch wat lastig of wil je liever direct met een professionele basis starten? Florisoft biedt ook kant-en-klare CMS-pakketten waarmee onze CMS-specialist je kunnen helpen om snel een frisse start te maken.
 
-<a href="https://florisoft.nl" target="_blank">Klik hier voor meer informatie »</a>
+<a href="https://florisoft.nl/cms-pakketten" target="_blank">Klik hier voor meer informatie »</a>
