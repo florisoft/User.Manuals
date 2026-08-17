@@ -8,4 +8,4 @@ Met de TrolleyLoading App kunnen magazijnmedewerkers het volledige karopbouwproc
 
 Producten kunnen handmatig of met een barcode op een kar worden geplaatst. Daarnaast ondersteunt de app onder andere correcties, omgekeerd karren opbouwen, externe leveranciersbarcodes, extra fustelementen, adreslabels en uitzonderingsregistratie. Welke onderdelen beschikbaar zijn, wordt bepaald door de ingestelde policies.
 
-- [Handleiding TrolleyLoading](Handleiding%20TrolleyLoading%20-%20NL.md)
+- [Handleiding TrolleyLoading](TrolleyLoading/Handleiding%20TrolleyLoading%20-%20NL.md)

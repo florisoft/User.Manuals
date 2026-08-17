@@ -68,6 +68,17 @@ Een nieuwe kar maakt u als volgt aan:
 
 Als maar één karfustcode is toegestaan, wordt deze automatisch gebruikt. Handmatig ingevoerde barcodes worden als hoofdletters opgeslagen. De app controleert onder andere de maximale lengte en of de barcode al binnen de order wordt gebruikt.
 
+#### Karbarcode per fustcode bepalen
+
+U bepaalt per karfustcode of de medewerker een bestaande karbarcode moet koppelen of dat Florisoft zelf een barcode voor de nieuwe kar aanmaakt. Open in de Backoffice de betreffende **fustcode** en zet de instelling **Verplicht karbarcode via karopbouw** aan of uit:
+
+| Instelling | Gevolg bij het aanmaken van een kar met deze fustcode |
+| --- | --- |
+| Aan | De dialoog voor de karbarcode verschijnt. De medewerker scant of voert de barcode van de fysieke kar in; deze barcode wordt aan de nieuwe kar gekoppeld. |
+| Uit | Er verschijnt voor deze fustcode geen barcode-invoer en Florisoft maakt de karbarcode zelf aan. |
+
+`TrolleyHandling → NewTrolley → RequireCustomTrolleyBarcode` is een algemene overrule: als deze policy aan staat, vraagt TrolleyLoading bij **alle** karfustcodes om een barcode, ook wanneer **Verplicht karbarcode via karopbouw** bij een fustcode uit staat. Laat deze policy dus uit wanneer het gedrag werkelijk per fustcode moet verschillen.
+
 Na het aanmaken opent de nieuwe kar direct of blijft u in het karoverzicht. Dit wordt bepaald door `CreateNewTrolleyAndOpenDetails`. Als de labelprinter actief is, wordt automatisch een karlabel afgedrukt. Een mislukte print blokkeert de aangemaakte kar niet; het label kan later via het actiemenu opnieuw worden afgedrukt.
 
 Bij hubs kan de kar, afhankelijk van `RegisterTrolleyOnInvoice`, ook op de daarvoor bestemde fustfactuur worden geregistreerd. Wanneer slotplatenregistratie als aanvullende aanmaakactie is ingesteld, wordt de nieuwe kar tevens in de slotplatenregistratie opgenomen.
@@ -141,6 +152,17 @@ Na een succesvolle afronding:
 - wordt, wanneer de afrondprinter actief is, automatisch de karklaarlijst of het karlabel afgedrukt.
 
 Een complete kar blijft zichtbaar volgens de ingestelde bewaartermijn in `CompletedTrolleyVisibleFromDays`.
+
+### In de Backoffice zien welke regels op welke kar staan
+
+Open in het factuurdetailscherm de opgebouwde regels en maak zo nodig via de kolomkiezer de volgende kolommen zichtbaar:
+
+| Kolom | Betekenis |
+| --- | --- |
+| **Karnr** | Het karnummer of de karnummers waarop de factuurregel is opgebouwd. Gebruik deze kolom om de regel aan een kar te koppelen. |
+| **Aantal op kar** | Het aantal van de factuurregel dat al op een kar is gezet. |
+
+Filter of groepeer op **Karnr** om alle factuurregels van dezelfde kar samen te zien. De kolommen zijn beschikbaar bij de status **Opgebouwd**; bij nog op te bouwen regels zijn ze niet van toepassing.
 
 ## Karacties
 
@@ -231,7 +253,7 @@ Voor een afgeronde kar gebruikt u `TrolleyHandling → CompleteTrolley → Compl
 
 Aanvullende usecases worden niet alleen via het karactiemenu beschikbaar gemaakt. Onder `Addons` bepaalt `EnableAddons` welke integraties TrolleyLoading mag starten. Voeg bijvoorbeeld `ExceptionRegistration` toe om afwijkingen bij orderregels vast te leggen en `AdressLabel` om vanuit de actieve klant of hub een adreslabel af te drukken. Voor deze onderdelen moeten ook de benodigde licenties aanwezig zijn.
 
-Meer informatie over het instellen en toewijzen van policies vindt u in de [handleiding Policy Management](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Handleiding%20Policy%20Management%20NL.md).
+Meer informatie over het instellen en toewijzen van policies vindt u in de [handleiding Policy Management](../../../../BASIS/Policy%20Management/Handleiding%20Policy%20Management%20NL.md).
 
 ## Veelgestelde vragen
 
