@@ -6,7 +6,7 @@
 
 In dit document nemen we je stap voor stap mee in het opzetten van je eerste CMS-pagina. We delen dit op in meerdere secties: **Hero (Header)**, **Carrousel**, **Productlijst**, **Tekst + Afbeelding**, **Formulier** en tot slot een **Footer**. Zo maak je kennis met ons CMS en ontdek je direct de uitgebreide mogelijkheden van het systeem.
 
-Kom je er toch niet helemaal uit en ben je op zoek naar een kant-en-klare oplossing? Dan verwijzen we je graag door naar onze website. Hier kun je eenvoudig een pakket kiezen dat onze CMS-specialist in jouw omgeving kan implementeren. <a href="https://florisoft.nl/cms-pakketten" target="_blank">Klik hier voor meer informatie »</a>
+Kom je er toch niet helemaal uit en ben je op zoek naar een kant-en-klare oplossing? Dan verwijzen we je graag door naar onze website. Hier kun je eenvoudig een pakket kiezen dat onze CMS-specialist in jouw omgeving kan implementeren. [Klik hier voor meer informatie »](https://florisoft.nl/cms-pakketten)
 
 ---
 
@@ -18,13 +18,13 @@ De Hero is de eerste indruk van je website. Het geeft bezoekers direct een beeld
 
 Voor deze sectie heb je de volgende handleidingen nodig:
 
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#drag--drop" target="_blank">Drag & Drop</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#rowcolumn" target="_blank">Row/Column</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel" target="_blank">Panel</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#flex" target="_blank">Flex</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#text" target="_blank">Text</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#button" target="_blank">Button</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#templates" target="_blank">Templates</a>
+- [Drag & Drop](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#drag--drop)
+- [Row/Column](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#rowcolumn)
+- [Panel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel)
+- [Flex](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#flex)
+- [Text](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#text)
+- [Button](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#button)
+- [Templates](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#templates)
 
 ### Stappen
 
@@ -50,12 +50,12 @@ Onder de Hero tonen we het assortiment. Dit doen we met een **Carrousel**-compon
 
 Voor deze sectie heb je de volgende handleidingen nodig:
 
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#carrousel" target="_blank">Carrousel</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel" target="_blank">Panel</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#flex" target="_blank">Flex</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#text" target="_blank">Text</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#button" target="_blank">Button</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#templates" target="_blank">Templates</a>
+- [Carrousel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#carrousel)
+- [Panel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel)
+- [Flex](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#flex)
+- [Text](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#text)
+- [Button](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#button)
+- [Templates](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#templates)
 
 ### Stappen
 
@@ -85,10 +85,10 @@ In deze sectie voegen we een **Partijlijst** toe waarin we een specifieke voorra
 
 Voor deze sectie heb je de volgende handleidingen nodig:
 
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#partijlijst" target="_blank">Partijlijst</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel" target="_blank">Panel</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#rowcolumn" target="_blank">Row/Column</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#templates" target="_blank">Templates</a>
+- [Partijlijst](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#partijlijst)
+- [Panel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel)
+- [Row/Column](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#rowcolumn)
+- [Templates](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#templates)
 
 ### Stappen
 
@@ -112,12 +112,12 @@ In deze sectie voegen we een afbeelding en tekst toe.
 
 Voor deze sectie heb je de volgende handleidingen nodig:
 
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel" target="_blank">Panel</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#flex" target="_blank">Flex</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#rowcolumn" target="_blank">Row/Column</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#text" target="_blank">Text</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#button" target="_blank">Button</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#templates" target="_blank">Templates</a>
+- [Panel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel)
+- [Flex](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#flex)
+- [Row/Column](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#rowcolumn)
+- [Text](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#text)
+- [Button](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#button)
+- [Templates](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#templates)
 
 ### Stappen
 
@@ -145,14 +145,14 @@ In deze sectie zetten we een **Formulier** op.
 
 Voor deze sectie heb je de volgende handleidingen nodig:
 
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#formulier" target="_blank">Formulier</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#tekst-input" target="_blank">Tekst input</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#email-input" target="_blank">Email input</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#verzendknop" target="_blank">Verzendknop</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel" target="_blank">Panel</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#flex" target="_blank">Flex</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#text" target="_blank">Text</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#templates" target="_blank">Templates</a>
+- [Formulier](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#formulier)
+- [Tekst input](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#tekst-input)
+- [Email input](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#email-input)
+- [Verzendknop](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#verzendknop)
+- [Panel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel)
+- [Flex](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#flex)
+- [Text](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#text)
+- [Templates](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#templates)
 
 ### Stappen
 
@@ -185,7 +185,7 @@ Plaats het **Footer Template** vervolgens in de **Footer**-container.
 
 Voor deze sectie heb je de volgende handleiding nodig:
 
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#footer-bewerken" target="_blank">Footer bewerken</a>
+- [Footer bewerken](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#footer-bewerken)
 
 ---
 
@@ -195,4 +195,4 @@ Wanneer je vervolgens de **Home**-container als Template opslaat, kun je dit Tem
 
 Uiteraard zijn er nog veel meer mogelijkheden om je CMS-pagina's volledig naar eigen wens in te richten. Vond je het opzetten van de pagina toch wat lastig of wil je liever direct met een professionele basis starten? Florisoft biedt ook kant-en-klare CMS-pakketten waarmee onze CMS-specialist je kunnen helpen om snel een frisse start te maken.
 
-<a href="https://florisoft.nl/cms-pakketten" target="_blank">Klik hier voor meer informatie »</a>
+[Klik hier voor meer informatie »](https://florisoft.nl/cms-pakketten)

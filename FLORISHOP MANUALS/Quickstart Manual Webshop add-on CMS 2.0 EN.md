@@ -6,7 +6,7 @@
 
 In this document, we will guide you step by step through setting up your first CMS page. We divide this into several sections: **Hero (Header)**, **Carousel**, **Product List**, **Text + Image**, **Form**, and finally a **Footer**. This allows you to get familiar with our CMS and discover the extensive possibilities within the system.
 
-If you are still having trouble and are looking for a ready-made solution, we would be happy to refer you to our website. There, you can easily choose a package that our CMS specialist can implement in your environment. <a href="https://florisoft.com/cms-pakketten" target="_blank">Click here for more information »</a>
+If you are still having trouble and are looking for a ready-made solution, we would be happy to refer you to our website. There, you can easily choose a package that our CMS specialist can implement in your environment. [Click here for more information »](https://florisoft.com/cms-pakketten)
 
 ---
 
@@ -18,13 +18,13 @@ The Hero is the first impression of your website. It immediately gives visitors 
 
 For this section, you will need the following guides:
 
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#drag--drop" target="_blank">Drag & Drop</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#rowcolumn" target="_blank">Row/Column</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#panel" target="_blank">Panel</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#flex" target="_blank">Flex</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#text" target="_blank">Text</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#button" target="_blank">Button</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#templates" target="_blank">Templates</a>
+- [Drag & Drop](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#drag--drop)
+- [Row/Column](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#rowcolumn)
+- [Panel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#panel)
+- [Flex](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#flex)
+- [Text](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#text)
+- [Button](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#button)
+- [Templates](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#templates)
 
 ### Steps
 
@@ -50,12 +50,12 @@ Below the Hero, we will display the product range. We will do this using a **Car
 
 For this section, you will need the following guides:
 
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#carousel" target="_blank">Carousel</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#panel" target="_blank">Panel</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#flex" target="_blank">Flex</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#text" target="_blank">Text</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#button" target="_blank">Button</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#templates" target="_blank">Templates</a>
+- [Carousel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#carousel)
+- [Panel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#panel)
+- [Flex](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#flex)
+- [Text](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#text)
+- [Button](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#button)
+- [Templates](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#templates)
 
 ### Steps
 
@@ -85,10 +85,10 @@ In this section, we will add a **Product List** that highlights a specific produ
 
 For this section, you will need the following guides:
 
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#productlist" target="_blank">Productlist</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#panel" target="_blank">Panel</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#rowcolumn" target="_blank">Row/Column</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#templates" target="_blank">Templates</a>
+- [Productlist](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#productlist)
+- [Panel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#panel)
+- [Row/Column](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#rowcolumn)
+- [Templates](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#templates)
 
 ### Steps
 
@@ -112,12 +112,12 @@ In this section, we will add an image and text.
 
 For this section, you will need the following guides:
 
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel" target="_blank">Panel</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#flex" target="_blank">Flex</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#rowcolumn" target="_blank">Row/Column</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#text" target="_blank">Text</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#button" target="_blank">Button</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#templates" target="_blank">Templates</a>
+- [Panel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel)
+- [Flex](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#flex)
+- [Row/Column](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#rowcolumn)
+- [Text](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#text)
+- [Button](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#button)
+- [Templates](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#templates)
 
 ### Steps
 
@@ -145,14 +145,14 @@ In this section, we will set up a **Form**.
 
 For this section, you will need the following guides:
 
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#formulier" target="_blank">Form</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#tekst-input" target="_blank">Text Input</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#email-input" target="_blank">Email Input</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#verzendknop" target="_blank">Submit Button</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel" target="_blank">Panel</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#flex" target="_blank">Flex</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#text" target="_blank">Text</a>
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#templates" target="_blank">Templates</a>
+- [Form](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#formulier)
+- [Text Input](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#tekst-input)
+- [Email Input](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#email-input)
+- [Submit Button](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#verzendknop)
+- [Panel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel)
+- [Flex](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#flex)
+- [Text](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#text)
+- [Templates](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#templates)
 
 ### Steps
 
@@ -185,7 +185,7 @@ Place the **Footer Template** in the **Footer** container.
 
 For this section, you will need the following guide:
 
-- <a href="https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#footer-bewerken" target="_blank">Edit Footer</a>
+- [Edit Footer](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#footer-bewerken)
 
 ---
 
@@ -195,4 +195,4 @@ You can now save the **Home** container as a Template. This Template can then be
 
 Of course, there are many more possibilities for fully customizing your CMS pages. If you found setting up the page a little challenging or would rather start with a professional foundation, Florisoft also offers ready-made CMS packages. Our CMS specialists can help you get started quickly with a professional setup.
 
-<a href="https://florisoft.com/cms-pakketten" target="_blank">Click here for more information »</a>
+[Click here for more information »](https://florisoft.com/cms-pakketten)
