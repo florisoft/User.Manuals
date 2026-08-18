@@ -16,7 +16,7 @@ The Hero is the first impression of your website. It immediately gives visitors 
 
 ### Required components
 
-For this section, you will need the following guides:
+For this section, you will need the following manuals (Ctrl + Click to open in a new tab):
 
 - [Drag & Drop](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#drag--drop)
 - [Row/Column](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#rowcolumn)
@@ -48,7 +48,7 @@ Below the Hero, we will display the product range. We will do this using a **Car
 
 ### Required components
 
-For this section, you will need the following guides:
+For this section, you will need the following manuals (Ctrl + Click to open in a new tab):
 
 - [Carousel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#carousel)
 - [Panel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#panel)
@@ -83,7 +83,7 @@ In this section, we will add a **Product List** that highlights a specific produ
 
 ### Required components
 
-For this section, you will need the following guides:
+For this section, you will need the following manuals (Ctrl + Click to open in a new tab):
 
 - [Productlist](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#productlist)
 - [Panel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20EN.md#panel)
@@ -110,7 +110,7 @@ In this section, we will add an image and text.
 
 ### Required components
 
-For this section, you will need the following guides:
+For this section, you will need the following manuals (Ctrl + Click to open in a new tab):
 
 - [Panel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel)
 - [Flex](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#flex)
@@ -143,7 +143,7 @@ In this section, we will set up a **Form**.
 
 ### Required components
 
-For this section, you will need the following guides:
+For this section, you will need the following manuals (Ctrl + Click to open in a new tab):
 
 - [Form](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#formulier)
 - [Text Input](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#tekst-input)

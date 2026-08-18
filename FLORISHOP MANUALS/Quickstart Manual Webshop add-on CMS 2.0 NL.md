@@ -16,7 +16,7 @@ De Hero is de eerste indruk van je website. Het geeft bezoekers direct een beeld
 
 ### Benodigde componenten
 
-Voor deze sectie heb je de volgende handleidingen nodig:
+Voor deze sectie heb je de volgende handleidingen nodig (Ctrl + Klik voor nieuw tabblad):
 
 - [Drag & Drop](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#drag--drop)
 - [Row/Column](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#rowcolumn)
@@ -48,7 +48,7 @@ Onder de Hero tonen we het assortiment. Dit doen we met een **Carrousel**-compon
 
 ### Benodigde componenten
 
-Voor deze sectie heb je de volgende handleidingen nodig:
+Voor deze sectie heb je de volgende handleidingen nodig (Ctrl + Klik voor nieuw tabblad):
 
 - [Carrousel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#carrousel)
 - [Panel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel)
@@ -83,7 +83,7 @@ In deze sectie voegen we een **Partijlijst** toe waarin we een specifieke voorra
 
 ### Benodigde componenten
 
-Voor deze sectie heb je de volgende handleidingen nodig:
+Voor deze sectie heb je de volgende handleidingen nodig (Ctrl + Klik voor nieuw tabblad):
 
 - [Partijlijst](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#partijlijst)
 - [Panel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel)
@@ -110,7 +110,7 @@ In deze sectie voegen we een afbeelding en tekst toe.
 
 ### Benodigde componenten
 
-Voor deze sectie heb je de volgende handleidingen nodig:
+Voor deze sectie heb je de volgende handleidingen nodig (Ctrl + Klik voor nieuw tabblad):
 
 - [Panel](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#panel)
 - [Flex](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#flex)
@@ -143,7 +143,7 @@ In deze sectie zetten we een **Formulier** op.
 
 ### Benodigde componenten
 
-Voor deze sectie heb je de volgende handleidingen nodig:
+Voor deze sectie heb je de volgende handleidingen nodig (Ctrl + Klik voor nieuw tabblad):
 
 - [Formulier](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#formulier)
 - [Tekst input](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/CMS/CMS%202.0%20Manual%20-%20NL.md#tekst-input)
