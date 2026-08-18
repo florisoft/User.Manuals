@@ -149,16 +149,16 @@ Bepaalt de groeperingslogica van orders in het **orderoverview**-scherm.
 ### `Addons`
 De **policy-groep** `addons` bestaat uit instellingen waarmee u bepaalt welke addons gebruikt kunnen worden in de app.
 
-### `EnableAddons`  
-Met deze policy kun je extra add-ons inschakelen die extra functionaliteit aan de app toevoegen.  
+### `Addons_EnableAddons`
+Met deze policy kun je extra add-ons inschakelen die extra functionaliteit aan de app toevoegen.
 
 **Opties:**
 
 * **Foto's**  
   Maakt het mogelijk om een foto aan een order toe te voegen.  
   Dit is handig om bijvoorbeeld een foto van de ladingdrager te maken, zodat later kan worden gecontroleerd of een product daadwerkelijk is meegestuurd.
-	>  **Let op!**  
-	  Bij gebruik van deze functie worden foto’s op de server opgeslagen. Dit kan ervoor zorgen dat de schijfruimte volloopt. Zorg er daarom voor dat de Timer-functie **‘Tabellen opschonen’** actief is en de foto’s opruimt. Dit stel je in door de tabel **EindcontroleFoto** toe te voegen via **Constanten → Timer → Tabellen opschonen**.  Wij adviseren een bewaartermijn van **90 dagen**.
+
+  > **Let op!** Bij gebruik van deze functie worden foto's op de server opgeslagen. Richt daarom ook de bewaartermijn en het timerproces **App foto's opschonen** in. Zie de gedeelde [handleiding Foto's maken en beheren](../../Additional%20actions/Photos/Handleiding%20foto%27s%20maken%20en%20beheren%20-%20NL.md).
 
 * **ExceptionRegistration**  
   Integreert met de ExceptionRegistration-functionaliteit, waarmee gebreken of afwijkingen aan een orderitem geregistreerd kunnen worden.  
@@ -170,17 +170,21 @@ Met deze policy kun je extra add-ons inschakelen die extra functionaliteit aan d
 * **Returnables**
   Maakt het mogelijk om vanuit Final Outbound Check uitgaand fust bij de actieve order te registreren. Hiervoor moet Returnables Outbound beschikbaar zijn en moet de actieve order voldoende klant- en ordercontext bevatten. Zie de [handleiding Returnables Outbound](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Returnables/Returnables%20Outbound/Handleiding%20Returnables%20Outbound%20-%20NL.md) voor de volledige inrichting en werkwijze.
 
-### `PhotoStorageDirectoryPath`
+### `Addons_PhotoStorageDirectoryPath`
 
 Standaard worden de foto's van Final Outbound Check opgeslagen in de archiefmap van de datafolder. Het advies is om deze standaardlocatie te gebruiken en deze policy niet in te vullen.
 
-Vul `PhotoStorageDirectoryPath` alleen in wanneer er een specifieke reden is om de foto's op een andere locatie op te slaan. De policy overschrijft dan de standaard archiefmap.
+Vul `Addons_PhotoStorageDirectoryPath` alleen in wanneer er een specifieke reden is om de foto's op een andere locatie op te slaan. De policy overschrijft dan de standaard archiefmap.
 
 - Gebruik een netwerkpad dat bereikbaar is voor de cloudserver, bijvoorbeeld `\\server\share\pictures\FinalOutboundCheck`.
 - De cloudserver heeft lees- en schrijfrechten op de alternatieve map nodig.
 - Gebruikers die de foto's vanuit de Backoffice openen, moeten leestoegang tot de alternatieve map hebben.
 - Sla de policy op en laad de configuratie opnieuw voordat u de fotofunctie gebruikt.
 - Als de alternatieve map niet bereikbaar is of de benodigde rechten ontbreken, kunnen foto's niet betrouwbaar worden opgeslagen of op een factuur worden opgehaald.
+
+### `Addons_PhotoStorageRetentionDays`
+
+Deze optionele policy bepaalt de bewaartermijn van de appfoto's. Het verwijderen gebeurt alleen wanneer ook het timerproces **App foto's opschonen** actief is. Zie voor de volledige inrichting de gedeelde [handleiding Foto's maken en beheren](../../Additional%20actions/Photos/Handleiding%20foto%27s%20maken%20en%20beheren%20-%20NL.md).
 
 ---
 

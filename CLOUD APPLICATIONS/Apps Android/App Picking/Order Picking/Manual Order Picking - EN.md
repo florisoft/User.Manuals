@@ -314,7 +314,7 @@ After successful completion, Florisoft shows a summary. Tap the **check mark** t
 
 ## Step 11 – Perform additional actions
 
-The `EnableAddons` policy under **Order Picking → Add-ons** determines which additional actions are offered after completion. Order Picking supports:
+The `Addons_EnableAddons` policy under **Order Picking → Add-ons** determines which additional actions are offered after completion. Order Picking supports:
 
 - `AdressLabel`: print an address label;
 - `Returnables`: register outbound returnable packaging;
@@ -338,17 +338,7 @@ A selected action is usable only when the corresponding licence and integration 
 
 ### Take and retain pictures
 
-1. Open **Additional actions**.
-2. Select **Pictures**.
-3. Tap **Confirm**.
-4. Add one or more pictures.
-5. Tap **Save**.
-
-`PhotoStorageDirectoryPath` determines the reachable directory in which pictures are stored. The application needs read and write access to this location.
-
-`PhotoStorageRetentionDays` determines the retention period. The intended default is 100 days. Configure this value explicitly when your organisation uses a fixed retention period.
-
-Florisoft shows a confirmation after a successful save. Return to the summary and tap the **check mark** to leave the work order.
+Follow the shared [manual for capturing and managing photos](../../Additional%20actions/Photos/Manual%20capturing%20and%20managing%20photos%20-%20EN.md). The photos are linked to the active work order. Then return to the summary and tap the **check mark** to leave the work order.
 
 ---
 
@@ -384,7 +374,7 @@ Check whether automatic printing at activation is enabled and the correct action
 
 ### An additional action is unavailable
 
-Check `EnableAddons`, the corresponding licence and the required integration. For pictures, the storage path and access permissions must also be valid.
+Check the corresponding licence and the required integration. For photos, also check the policies, storage location, and access permissions described in the [manual for capturing and managing photos](../../Additional%20actions/Photos/Manual%20capturing%20and%20managing%20photos%20-%20EN.md).
 
 ---
 

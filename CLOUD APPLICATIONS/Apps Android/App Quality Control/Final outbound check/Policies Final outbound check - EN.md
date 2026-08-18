@@ -144,7 +144,7 @@ Determines the grouping logic of orders in the **order overview** screen.
 ### `Addons`
 The **policy group** `Addons` contains settings that determine which add-ons can be used in the app.
 
-#### `EnableAddons`
+#### `Addons_EnableAddons`
 Allows you to enable additional add-ons that add extra functionality to the app.  
 
 **Options:**
@@ -152,8 +152,8 @@ Allows you to enable additional add-ons that add extra functionality to the app.
 * **Photos**  
   Allows adding a photo to an order.  
   This is useful, for example, to take a picture of the load carrier so it can later be verified that a product was indeed shipped.
-	> **Please note!**  
-      When using this function, photos are stored on the server. This can cause the disk space to fill up. Therefore, make sure that the Timer function **“Clean up Purge tables”** is active and cleans up the photos. You can set this by adding the table **Final check photos** via **Constants → Timer → Clean up tables**.  We recommend a retention period of **90 days**.
+
+  > **Please note!** This function stores photos on the server. Configure the retention period and the **Clean app photos** timer process as well. See the shared [manual for capturing and managing photos](../../Additional%20actions/Photos/Manual%20capturing%20and%20managing%20photos%20-%20EN.md).
 
 * **ExceptionRegistration**  
   Integrates with the ExceptionRegistration functionality, allowing defects or discrepancies on an order item to be registered.  
@@ -165,17 +165,21 @@ Allows you to enable additional add-ons that add extra functionality to the app.
 * **Returnables**
   Allows outgoing returnable packaging to be registered for the active order from Final Outbound Check. Returnables Outbound must be available and the active order must provide sufficient customer and order context. See the [Returnables Outbound manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Returnables/Returnables%20Outbound/Manual%20Returnables%20Outbound%20-%20EN.md) for the complete configuration and procedure.
 
-### `PhotoStorageDirectoryPath`
+### `Addons_PhotoStorageDirectoryPath`
 
 By default, Final Outbound Check photos are stored in the archive directory of the data folder. We recommend using this default location and leaving this policy empty.
 
-Only configure `PhotoStorageDirectoryPath` when there is a specific reason to store the photos in a different location. The policy then overrides the default archive directory.
+Only configure `Addons_PhotoStorageDirectoryPath` when there is a specific reason to store the photos in a different location. The policy then overrides the default archive directory.
 
 - Use a network path that the cloud server can access, for example `\\server\share\pictures\FinalOutboundCheck`.
 - The cloud server needs read and write access to the alternative directory.
 - Users who open the photos from the Backoffice need read access to the alternative directory.
 - Save the policy and reload the configuration before using the photo function.
 - If the alternative directory cannot be accessed or the required permissions are missing, photos cannot be stored reliably or retrieved for an invoice.
+
+### `Addons_PhotoStorageRetentionDays`
+
+This optional policy determines the retention period for app photos. Files are removed only when the **Clean app photos** timer process is active as well. See the shared [manual for capturing and managing photos](../../Additional%20actions/Photos/Manual%20capturing%20and%20managing%20photos%20-%20EN.md) for the complete configuration.
 
 ---
 

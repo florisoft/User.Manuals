@@ -88,6 +88,12 @@ De policy `PackageManagementRegistrationStrategy` bepaalt wat er bij afronden me
 
 Na een succesvolle verwerking wordt de sessie gesloten.
 
+### Foto's vastleggen en terugvinden
+
+Als uw organisatie de fotoactie heeft ingeschakeld, kunt u vanaf de eindcontrole foto's aan de actieve outbound-order toevoegen. Volg hiervoor de gedeelde [handleiding Foto's maken en beheren](../../Additional%20actions/Photos/Handleiding%20foto%27s%20maken%20en%20beheren%20-%20NL.md).
+
+Een backofficemedewerker kan de foto's later openen vanuit het factuuroverzicht of de factuurhistorie: selecteer de betreffende factuur of facturen en kies in het menu **App-foto's** de optie **Returnables Outbound**. Alleen de foto's die aan de geselecteerde factuur zijn gekoppeld, worden getoond.
+
 ## Een sessie stoppen zonder afronden
 
 Met **Order sluiten** of normaal uitloggen stopt u de actieve werksessie zonder de telling als voltooid te verwerken. De sessie wordt `Inactive` en kan later opnieuw worden geselecteerd. Bij onverwachte uitval kan de sessie `Active` blijven; meld dan opnieuw aan als dezelfde gebruiker.

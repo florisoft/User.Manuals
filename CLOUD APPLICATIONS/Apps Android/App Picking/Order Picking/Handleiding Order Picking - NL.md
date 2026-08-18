@@ -314,7 +314,7 @@ Na een geslaagde afronding toont Florisoft een samenvatting. Tik op het **vinkje
 
 ## Stap 11 – Extra handelingen uitvoeren
 
-De policy `EnableAddons` onder **Order Picking → Add-ons** bepaalt welke extra handelingen na afronding worden aangeboden. Binnen Order Picking zijn de volgende waarden beschikbaar:
+De policy `Addons_EnableAddons` onder **Order Picking → Add-ons** bepaalt welke extra handelingen na afronding worden aangeboden. Binnen Order Picking zijn de volgende waarden beschikbaar:
 
 - `AdressLabel`: een adreslabel printen;
 - `Returnables`: uitgaande retourverpakkingen registreren;
@@ -338,17 +338,7 @@ Een geselecteerde actie wordt alleen bruikbaar wanneer ook de bijbehorende licen
 
 ### Foto's maken en bewaren
 
-1. Open **Extra handelingen**.
-2. Selecteer **Foto's**.
-3. Tik op **Bevestig**.
-4. Voeg één of meer foto's toe.
-5. Tik op **Opslaan**.
-
-`PhotoStorageDirectoryPath` bepaalt in welke bereikbare map de foto's worden opgeslagen. De applicatie moet lees- en schrijfrechten op deze locatie hebben.
-
-`PhotoStorageRetentionDays` bepaalt de bewaartermijn. De beoogde standaard is 100 dagen. Stel deze waarde expliciet in wanneer uw organisatie een vaste bewaartermijn hanteert.
-
-Na een geslaagde opslag toont Florisoft een bevestiging. Keer terug naar de samenvatting en tik op het **vinkje** om de werkopdracht definitief te verlaten.
+Volg de gedeelde [handleiding Foto's maken en beheren](../../Additional%20actions/Photos/Handleiding%20foto%27s%20maken%20en%20beheren%20-%20NL.md). De foto's worden gekoppeld aan de actieve werkopdracht. Keer daarna terug naar de samenvatting en tik op het **vinkje** om de werkopdracht definitief te verlaten.
 
 ---
 
@@ -384,7 +374,7 @@ Controleer of automatisch printen bij het activeren is ingeschakeld en of de jui
 
 ### Een extra handeling is niet beschikbaar
 
-Controleer `EnableAddons`, de bijbehorende licentie en de vereiste integratie. Voor foto's moeten ook het opslagpad en de toegangsrechten geldig zijn.
+Controleer de bijbehorende licentie en de vereiste integratie. Controleer voor foto's ook de policies, opslaglocatie en toegangsrechten volgens de [handleiding Foto's maken en beheren](../../Additional%20actions/Photos/Handleiding%20foto%27s%20maken%20en%20beheren%20-%20NL.md).
 
 ---
 

@@ -80,6 +80,12 @@ Printing and emailing use `PackageListPrinter` and `PackageListPrintLayout`. Onl
 
 The session is closed after successful processing.
 
+### Capture and find photos
+
+When your organisation has enabled the photo action, you can add photos to the active outbound order from the final check. Follow the shared [manual for capturing and managing photos](../../Additional%20actions/Photos/Manual%20capturing%20and%20managing%20photos%20-%20EN.md).
+
+A backoffice employee can later open the photos from the invoice overview or invoice history: select the relevant invoice or invoices and choose **Returnables Outbound** under the **App photos** menu. Only photos linked to the selected invoice are shown.
+
 ## Stop without completing
 
 **Close order** or a normal logout stops the active work session without processing the count as completed. The session becomes `Inactive` and can be selected later. After an unexpected failure it may remain `Active`; sign in again as the same user.
