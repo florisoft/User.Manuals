@@ -37,7 +37,7 @@ For this section, you will need the following guides:
 | **5** | Place another **Panel** inside the Flex component and give it the **Identification Name** `Container`. Set a maximum width of **1200 pixels** for the `Container` Panel. |
 | **6** | Place a **Text** component inside the `Container` Panel. Select the **H1** heading in the Text component, set the alignment to **Center**, and enter the following text in the TinyMCE field: **"This is my first CMS page"**. |
 | **7** | Place a **Button** component inside the `Container` Panel and set its text to **"Go to webshop"**. Enable the **Chevron**, enter `/voorraad/start` as the [URL](#url), and set the button position to **Center**. |
-| **8** | When you have completed the steps above correctly, your Hero should look like this:<details><summary><b>Click here for the example image</b></summary><img src=".Quickstart manual webshop add on CMS/media/hero.png"></details> |
+| **8** | When you have completed the steps above correctly, your Hero should look like this:<details><summary><b>Click here for the example image</b></summary><img src=".Quickstart manual webshop add on CMS 2.0/media/hero.png"></details> |
 | **9** | Save the **Hero** Panel as a Template so that you can reuse it on other pages. |
 
 ---
@@ -72,7 +72,7 @@ For this section, you will need the following guides:
 | **9** | Select the **Carousel** component. Enable **Pagination** and **Autoplay**, set **Height Mode** to **Auto Stretch**, and set the **Space Between Slides** to **20 pixels**. Then, under the **Styling** tab, set the number of **Visible Columns** to **4** for desktop, **2** for tablet, and **1** for mobile. |
 | **10** | Change **"Product 1"** in each Text component to the name of the Product Range you want to link to. Then enter the corresponding Product Range [URLs](#url) in the Panels (`Slide 1`, `Slide 2`, `Slide 3`, and `Slide 4`). |
 | **11** | Select a Panel (Slide) and enter the corresponding **Product Range Code** under **Highlight Content**. Repeat this for each Slide. |
-| **12** | When you have completed the steps above correctly, your Carousel should look like this:<details><summary><b>Click here for the example image</b></summary><img src=".Quickstart manual webshop add on CMS/media/assortiment.png"></details> |
+| **12** | When you have completed the steps above correctly, your Carousel should look like this:<details><summary><b>Click here for the example image</b></summary><img src=".Quickstart manual webshop add on CMS 2.0/media/assortiment.png"></details> |
 | **13** | Save the **Product Range** Panel as a Template, so that you can reuse it on other pages. |
 
 ---
@@ -99,7 +99,7 @@ For this section, you will need the following guides:
 | **3** | Add a **Row** component with a **Column** component inside it to the `Overlay` Panel. |
 | **4** | Add a **Panel** inside the Column and give it the **Identification Name** `Container`. Set a maximum width of **1200 pixels** for the `Container` Panel. |
 | **5** | Add a **Product List** component to the **Column** and generate a product range. Then set the component to **Option 2**. Set the **Margin** of the Product List component to `auto` on the left and right sides. Then set a maximum width of **1296 pixels** and set the spacing between the Product Cards to **20 pixels**. Finally, configure the component to use a **Carousel view** with navigation arrows. |
-| **6** | When you have completed the steps above correctly, your Product List should look like this:<details><summary><b>Click here for the example image</b></summary><img src=".Quickstart manual webshop add on CMS/media/partijlijst.png"></details> |
+| **6** | When you have completed the steps above correctly, your Product List should look like this:<details><summary><b>Click here for the example image</b></summary><img src=".Quickstart manual webshop add on CMS 2.0/media/partijlijst.png"></details> |
 | **7** | Save the **Productlist** Panel as a Template, so that you can reuse it on other pages. |
 
 ---
@@ -131,7 +131,7 @@ For this section, you will need the following guides:
 | **6** | Add a **Flex** component to the right Column. Set a **Background Image**, position it centrally, and give the Flex component **8rem of Padding** on all sides. |
 | **7** | Add a **Panel** inside the Flex component and give it the **Identifier Name** `Text and Button`. Set **80 pixels of Padding** on the top and bottom and **0 pixels** on the left and right. Set the maximum width to **600 pixels**. |
 | **8** | Add two **Text** components and a **Button** component to the `Text and Button` Panel. Select the **H2** heading in the first Text component and enter **"My first CMS page is almost ready!"** in the TinyMCE field. Add any text you like to the second Text component. Finally, add text to the Button and set your desired URL. |
-| **9** | When you have completed the steps above correctly, your **Image + Text** section should look like this:<details><summary><b>Click here for the example image</b></summary><img src=".Quickstart manual webshop add on CMS/media/afbeelding-tekst.png"></details> |
+| **9** | When you have completed the steps above correctly, your **Image + Text** section should look like this:<details><summary><b>Click here for the example image</b></summary><img src=".Quickstart manual webshop add on CMS 2.0/media/afbeelding-tekst.png"></details> |
 | **10** | Save the **Image + Text** Panel as a Template so that you can reuse it on other pages. |
 | **11** | **Tip:** The section is currently aligned across the full width of the screen. If you want to limit its width, set the maximum width of the `Image + Text` Panel to **1200 pixels** and set the **Margin** on the left and right sides to `auto`. |
 
@@ -167,7 +167,7 @@ For this section, you will need the following guides:
 | **7** | You can also place other components, such as **Columns** and **Flex**, inside the **Form**. Place a **Flex** component containing two **Text Input** components. These can, for example, be used for the first name and last name. |
 | **8** | Place multiple **Text Input** components in the Form and use the following placeholders: **Company name**, **Email address** (use the **Email Input** component), **Phone number**, and **Message**. Then place a **Flex** component containing a **Submit Button** component. This allows you to determine the position of the Submit Button. |
 | **9** | Go through the form settings to configure and test the form. |
-| **10** | When you have completed the steps above correctly, your **Form** section should look like this:<details><summary><b>Click here for the example image</b></summary><img src=".Quickstart manual webshop add on CMS/media/formulier.png"></details> |
+| **10** | When you have completed the steps above correctly, your **Form** section should look like this:<details><summary><b>Click here for the example image</b></summary><img src=".Quickstart manual webshop add on CMS 2.0/media/formulier.png"></details> |
 | **11** | Save the **Form** Panel as a Template so that you can reuse it on other pages. |
 | **12** | **Tip:** The section is currently aligned across the full width of the screen. If you want to limit its width, give the `Form` Panel a maximum width of **1200 pixels** and set the **Margin** on the left and right to `auto`. |
 

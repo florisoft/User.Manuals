@@ -37,7 +37,7 @@ Voor deze sectie heb je de volgende handleidingen nodig:
 | **5** | Plaats opnieuw een **Panel** binnen het Flex-component en geef deze de **Identificatienaam** `Container`. Stel voor het `Container`-Panel een maximale breedte van **1200 pixels** in. |
 | **6** | Plaats een **Text**-component in het `Container`-Panel. Selecteer de **H1**-kop in het Text-component, stel de uitlijning in op **Centreren** en vul het volgende in het TinyMCE-veld in: **"Dit is mijn eerste CMS-pagina"**. |
 | **7** | Plaats een **Button**-component in het `Container`-Panel en geef deze de tekst **"Naar de shop"**. Activeer de **Chevron**, vul `/voorraad/start` in als [URL](#url) en stel de positie van de button in op **Centreren**. |
-| **8** | Wanneer je bovenstaande stappen correct hebt uitgevoerd, ziet jouw Hero er als volgt uit:<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src=".Quickstart manual webshop add on CMS/media/hero.png"></details> |
+| **8** | Wanneer je bovenstaande stappen correct hebt uitgevoerd, ziet jouw Hero er als volgt uit:<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src=".Quickstart manual webshop add on CMS 2.0/media/hero.png"></details> |
 | **9** | Sla het **Hero**-Panel op als Template, zodat je deze op andere pagina's opnieuw kunt gebruiken. |
 
 ---
@@ -72,7 +72,7 @@ Voor deze sectie heb je de volgende handleidingen nodig:
 | **9** | Selecteer het **Carrousel**-component. Schakel **Paginatie** en **Automatisch afspelen** in, zet de **Hoogtemodus** op **Auto Stretch** en stel de **Tussenruimte** in op **20 pixels**. Stel vervolgens onder het tabblad **Styling** het aantal **Zichtbare kolommen** in op **4** voor desktop, **2** voor tablet en **1** voor mobiel. |
 | **10** | Wijzig in elk Text-component **"Voorraad 1"** naar de naam van de Voorraad waarnaar je wilt navigeren. Vul vervolgens de bijbehorende [URL's](#url) van de Voorraad in bij de Panels (`Slide 1`, `Slide 2`, `Slide 3` en `Slide 4`). |
 | **11** | Selecteer een Panel (Slide) en vul de bijbehorende **Voorraadcode** in onder **Content uitlichten**. Herhaal dit voor iedere Slide. |
-| **12** | Wanneer je bovenstaande stappen correct hebt uitgevoerd, ziet jouw Carrousel er als volgt uit:<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src=".Quickstart manual webshop add on CMS/media/assortiment.png"></details> |
+| **12** | Wanneer je bovenstaande stappen correct hebt uitgevoerd, ziet jouw Carrousel er als volgt uit:<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src=".Quickstart manual webshop add on CMS 2.0/media/assortiment.png"></details> |
 | **13** | Sla het **Assortiment**-Panel op als Template, zodat je deze op andere pagina's opnieuw kunt gebruiken. |
 
 ---
@@ -99,7 +99,7 @@ Voor deze sectie heb je de volgende handleidingen nodig:
 | **3** | Plaats een **Row**-component met daarin een **Column**-component binnen het `Overlay`-Panel. |
 | **4** | Plaats een **Panel** binnen de Column en geef deze de **Identificatienaam** `Container`. Stel voor het `Container`-Panel een maximale breedte van **1200 pixels** in. |
 | **5** | Plaats een **Partijlijst**-component in de **Column** en genereer een voorraad. Stel het component vervolgens in op **Optie 2**. Geef het Partijlijst-component een **Margin** van `auto` aan de linker- en rechterzijde. Stel vervolgens een maximale breedte van **1296 pixels** in en zet de tussenruimte tussen de Partijkaarten op **20 pixels**. Stel het component tot slot in op een **Carrousel-weergave** met navigatiepijlen. |
-| **6** | Wanneer je bovenstaande stappen correct hebt uitgevoerd, ziet jouw Partijlijst er als volgt uit:<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src=".Quickstart manual webshop add on CMS/media/partijlijst.png"></details> |
+| **6** | Wanneer je bovenstaande stappen correct hebt uitgevoerd, ziet jouw Partijlijst er als volgt uit:<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src=".Quickstart manual webshop add on CMS 2.0/media/partijlijst.png"></details> |
 | **7** | Sla het **Partijlijst**-Panel op als Template, zodat je deze op andere pagina's opnieuw kunt gebruiken. |
 
 ---
@@ -131,7 +131,7 @@ Voor deze sectie heb je de volgende handleidingen nodig:
 | **6** | Plaats een **Flex**-component in de rechter Column. Stel een **Achtergrondafbeelding** in, positioneer deze gecentreerd en geef het Flex-component een **Padding** van **8rem rondom**. |
 | **7** | Plaats een **Panel** in het Flex-component en geef deze de **Identificatienaam** `Tekst en Button`. Stel een **Padding** in van **80 pixels boven en onder** en **0 pixels links en rechts**. Stel de maximale breedte in op **600 pixels**. |
 | **8** | Plaats twee **Text**-componenten en een **Button**-component in het `Tekst en Button`-Panel. Selecteer de **H2**-kop in het eerste Text-component en vul het volgende in het TinyMCE-veld in: **"Mijn eerste CMS-pagina is bijna klaar!"**. Vul het tweede Text-component met tekst naar eigen keuze. Voeg tot slot tekst toe aan de Button en stel een eigen URL in. |
-| **9** | Wanneer je bovenstaande stappen correct hebt uitgevoerd, ziet jouw **Afbeelding + Tekst**-sectie er als volgt uit:<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src=".Quickstart manual webshop add on CMS/media/afbeelding-tekst.png"></details> |
+| **9** | Wanneer je bovenstaande stappen correct hebt uitgevoerd, ziet jouw **Afbeelding + Tekst**-sectie er als volgt uit:<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src=".Quickstart manual webshop add on CMS 2.0/media/afbeelding-tekst.png"></details> |
 | **10** | Sla het **Afbeelding + Tekst**-Panel op als Template, zodat je deze op andere pagina's opnieuw kunt gebruiken. |
 | **11** | **Tip:** De sectie is nu over de volledige breedte van het scherm uitgelijnd. Wil je dit beperken, geef het `Afbeelding + Tekst`-Panel dan een maximale breedte van **1200 pixels** en stel de **Margin** aan de linker- en rechterzijde in op `auto`. |
 
@@ -167,7 +167,7 @@ Voor deze sectie heb je de volgende handleidingen nodig:
 | **7** | Binnen het **Formulier** kun je ook andere componenten, zoals **Columns** en **Flex**, plaatsen. Plaats een **Flex**-component met daarin twee **Tekst input**-componenten. Deze kunnen bijvoorbeeld worden gebruikt voor de voornaam en achternaam. |
 | **8** | Plaats meerdere **Tekst input**-componenten in het Formulier en geef deze de volgende placeholders: **Bedrijfsnaam**, **E-mailadres** (gebruik hiervoor het **Email input**-component), **Telefoonnummer** en **Bericht**. Plaats vervolgens een **Flex**-component met daarin een **Verzendknop**-component. Hiermee kun je de positie van de Verzendknop bepalen. |
 | **9** | Doorloop de instellingen van het formulier, zodat je het formulier kunt configureren en testen. |
-| **10** | Wanneer je bovenstaande stappen correct hebt uitgevoerd, ziet jouw **Formulier**-sectie er als volgt uit:<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src=".Quickstart manual webshop add on CMS/media/formulier.png"></details> |
+| **10** | Wanneer je bovenstaande stappen correct hebt uitgevoerd, ziet jouw **Formulier**-sectie er als volgt uit:<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src=".Quickstart manual webshop add on CMS 2.0/media/formulier.png"></details> |
 | **11** | Sla het **Formulier**-Panel op als Template, zodat je deze op andere pagina's opnieuw kunt gebruiken. |
 | **12** | **Tip:** De sectie is nu over de volledige breedte van het scherm uitgelijnd. Wil je dit beperken, geef het `Formulier`-Panel dan een maximale breedte van **1200 pixels** en stel de **Margin** aan de linker- en rechterzijde in op `auto`. |
 
