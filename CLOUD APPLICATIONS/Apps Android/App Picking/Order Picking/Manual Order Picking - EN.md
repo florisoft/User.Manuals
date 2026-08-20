@@ -80,7 +80,7 @@ Use `AvailableStocks` to select the stocks from which pick items may be loaded. 
 
 When `UseLogisticParcels` is enabled, Florisoft includes logistic parcels in the availability check. `RemoveLogisticParcelWhenZero` then determines whether such a logistic parcel is removed when its remaining quantity reaches zero. The latter can fall back to the existing system setting.
 
-The `PakstatusMoetWordenGepakt` system setting determines when a printed pick order receives the **Must be picked** work-order status. With the default value `true`, printing the pick orders sets the `XORDERKOP` to this status. With `false`, this happens only when the pick orders are delivered through PDA. This is important for availability in the app: Order Picking offers only open work orders or work orders already claimed by the current user. If an assignment does not receive the expected packing status after printing, it may therefore be absent from the work-order overview.
+The policy setting `IniSettings_FSSystem_Pickorder_PakstatusMoetWordenGepakt` determines whether a pick order receives the **Must be picked** status. With the default value `true`, this status is also set during normal delivery and printing. As a result, work orders may be created for orders that should not be delivered via the PDA. Disable the setting when work orders should be created exclusively through **Deliver via PDA**.
 
 `PickOrderSplitStrategy` determines how a required quantity is distributed over available unique carriers:
 
@@ -348,7 +348,7 @@ Follow the shared [manual for capturing and managing photos](../../Additional%20
 
 - Check the employee groups.
 - Check that the correct salesperson group is stored on the work order and that the employee is linked to that group.
-- Check `Backoffice_Logistics_Pickorders_Entry_ShowUserGroup`, `Backoffice_Logistics_Pickorders_Entry_DefaultUserGroup` and `PakstatusMoetWordenGepakt`.
+- Check `Backoffice_Logistics_Pickorders_Entry_ShowUserGroup`, `Backoffice_Logistics_Pickorders_Entry_DefaultUserGroup` and `IniSettings_FSSystem_Pickorder_PakstatusMoetWordenGepakt`.
 - Check `OrderDateFrom`, `OrderDateTo` and `AvailableStocks`.
 - Check whether `UseLogisticParcels` matches the stock workflow.
 - Tap **Refresh** and ask the planner whether assignments are available.

@@ -80,7 +80,7 @@ Met `AvailableStocks` stelt u in uit welke voorraden pickitems mogen worden gela
 
 Wanneer `UseLogisticParcels` actief is, betrekt Florisoft logistieke partijen bij de beschikbaarheidscontrole. `RemoveLogisticParcelWhenZero` bepaalt vervolgens of zo'n logistieke partij wordt verwijderd zodra de resterende hoeveelheid nul is. Deze laatste instelling kan terugvallen op de bestaande systeeminstelling.
 
-De systeeminstelling `PakstatusMoetWordenGepakt` bepaalt wanneer een geprinte pickorder de werkorderstatus **Moet worden gepakt** krijgt. Bij de standaardwaarde `true` zet het printen van de pickorders de `XORDERKOP` op deze status. Bij `false` gebeurt dit alleen wanneer de pickorders via PDA worden uitgeleverd. Dit is belangrijk voor de beschikbaarheid in de app: Order Picking biedt alleen open of reeds door de huidige gebruiker geclaimde werkopdrachten aan. Wanneer een opdracht na het printen niet de verwachte pakstatus krijgt, kan deze daardoor ontbreken in het werkopdrachtenoverzicht.
+De systeeminstelling `IniSettings_FSSystem_Pickorder_PakstatusMoetWordenGepakt` bepaalt of een pickorder de status **Moet worden gepakt** krijgt. Bij de standaardwaarde `true` wordt deze status ook gezet bij normaal uitleveren en printen. Daardoor kunnen workorders ontstaan voor orders die niet via de PDA uitgeleverd moeten worden. Zet de instelling uit wanneer workorders uitsluitend via **Uitleveren via PDA** mogen worden aangemaakt. Zonder de juiste pakstatus kan een opdracht ontbreken in het werkopdrachtenoverzicht.
 
 `PickOrderSplitStrategy` bepaalt hoe een benodigde hoeveelheid over beschikbare unieke dragers wordt verdeeld:
 
@@ -348,7 +348,7 @@ Volg de gedeelde [handleiding Foto's maken en beheren](../../Additional%20action
 
 - Controleer de medewerkersgroepen.
 - Controleer of de juiste verkopersgroep op de werkopdracht staat en of de medewerker aan deze groep is gekoppeld.
-- Controleer `Backoffice_Logistics_Pickorders_Entry_ShowUserGroup`, `Backoffice_Logistics_Pickorders_Entry_DefaultUserGroup` en `PakstatusMoetWordenGepakt`.
+- Controleer `Backoffice_Logistics_Pickorders_Entry_ShowUserGroup`, `Backoffice_Logistics_Pickorders_Entry_DefaultUserGroup` en `IniSettings_FSSystem_Pickorder_PakstatusMoetWordenGepakt`.
 - Controleer `OrderDateFrom`, `OrderDateTo` en `AvailableStocks`.
 - Controleer of `UseLogisticParcels` past bij de gebruikte voorraadflow.
 - Tik op **Verversen** en vraag de planner of er beschikbare opdrachten zijn.
