@@ -234,7 +234,7 @@ The policies under **OrderActivation → OrderSelection** determine which orders
 - `ExcludePastOrders` hides orders from the past;
 - `OrderDateFilter` determines the date by which open orders are filtered. The default value is `OrderDate`.
 
-Select the order, check its number and date, and continue to the shopping cart.
+Select the order, check its number and date, and continue to the shopping cart. If the employee has a financial administration, orders without a financial administration remain available alongside orders with the same financial administration.
 
 When `EnableOrderLocking` is enabled, Florisoft locks the order as soon as it is opened in Cash & Carry. Another user cannot change the same order simultaneously. The lock is released when the order is closed or the session ends.
 
@@ -251,6 +251,8 @@ The policies under **OrderActivation → OrderCreation** determine which input i
 - `OrderNumberDeterminationType` determines how Florisoft assigns the new order number.
 
 Enter the requested details and confirm the order. A mandatory order number must be valid and unique according to the selected numbering method.
+
+When both the employee and the customer have a financial administration, they must match. If they differ, the order is not created and the app identifies the user, customer and administrations that do not match. Check the financial administration on the employee and customer in the Backoffice. If the customer has no financial administration, the order may be created and processed further.
 
 ### Order sessions
 

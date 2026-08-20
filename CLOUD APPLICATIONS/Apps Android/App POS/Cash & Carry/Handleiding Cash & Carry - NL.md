@@ -234,7 +234,7 @@ De policies onder **OrderActivation → OrderSelection** bepalen welke orders wo
 - `ExcludePastOrders` verbergt orders uit het verleden;
 - `OrderDateFilter` bepaalt op welke datum de openstaande orders worden gefilterd. De standaardwaarde is `OrderDate`.
 
-Selecteer de order, controleer ordernummer en datum en ga verder naar de winkelwagen.
+Selecteer de order, controleer ordernummer en datum en ga verder naar de winkelwagen. Heeft de medewerker een financiële administratie, dan blijven orders zonder financiële administratie naast orders met dezelfde financiële administratie beschikbaar.
 
 Wanneer `EnableOrderLocking` actief is, vergrendelt Florisoft de order zodra deze in Cash & Carry wordt geopend. Een andere gebruiker kan dezelfde order dan niet gelijktijdig wijzigen. Bij het sluiten van de order of beëindigen van de sessie wordt de vergrendeling vrijgegeven.
 
@@ -251,6 +251,8 @@ De policies onder **OrderActivation → OrderCreation** bepalen welke invoer wor
 - `OrderNumberDeterminationType` bepaalt hoe Florisoft het nieuwe ordernummer vaststelt.
 
 Vul de gevraagde gegevens in en bevestig de order. Een verplicht ordernummer moet geldig en uniek zijn volgens de gekozen nummerbepaling.
+
+Heeft zowel de medewerker als de klant een financiële administratie, dan moeten deze overeenkomen. Bij een verschil wordt de order niet aangemaakt en toont de app welke gebruiker, klant en administraties niet overeenkomen. Controleer dan de financiële administratie op de medewerker en op de debiteur in de backoffice. Heeft de klant geen financiële administratie, dan mag de order wel worden aangemaakt en verder verwerkt.
 
 ### Ordersessies
 
