@@ -148,14 +148,16 @@ After successful submission, Florisoft shows the usual message that the print jo
 
 For automatic printing, the policies under **Packing List** must be configured correctly:
 
-- `PrinterSettings` contains the printer and layout configuration;
+- `PrinterName` contains the printer;
+- `ReportName` contains the packing-list layout and is selected from the available packing-list layouts;
+- `Enabled` enables or disables packing-list printing;
 - `GroupPickItemsForPackingListType` determines how lines are grouped.
 
 `Customer` groups lines by customer and is the default. `CustomerOrderName` groups them by customer and order name.
 
 The Job Agent must be reachable to send the print job to the printer. Florisoft shows a message when a printer or layout is missing or printing fails. Check this message before starting the physical picking process.
 
-`Backoffice_Logistics_OrderPick_AllowedToPrintPackingListToPDA` must also be enabled when the packing list is printed through the PDA delivery and printing flow. When this Backoffice policy is disabled, Florisoft blocks packing-list printing through PDA even if `ActivateWorkOrderAdditionalActions` contains `PrintPackingList` and `PrinterSettings` is configured correctly.
+`Backoffice_Logistics_OrderPick_AllowedToPrintPackingListToPDA` must also be enabled when the packing list is printed through the PDA delivery and printing flow. When this Backoffice policy is disabled, Florisoft blocks packing-list printing through PDA even if `ActivateWorkOrderAdditionalActions` contains `PrintPackingList` and `PrinterName`, `ReportName` and `Enabled` are configured correctly.
 
 ---
 

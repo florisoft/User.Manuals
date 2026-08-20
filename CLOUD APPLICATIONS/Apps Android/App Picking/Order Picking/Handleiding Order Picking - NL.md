@@ -148,14 +148,16 @@ Na een geslaagde verzending toont Florisoft de gebruikelijke melding dat de prin
 
 Voor automatisch printen moeten de policies onder **Packing List** correct zijn ingericht:
 
-- `PrinterSettings` bevat de printer- en lay-outinstellingen;
+- `PrinterName` bevat de printer;
+- `ReportName` bevat de paklijstlay-out en wordt gekozen uit de beschikbare paklijstlayouts;
+- `Enabled` schakelt het afdrukken van paklijsten in of uit;
 - `GroupPickItemsForPackingListType` bepaalt hoe de regels worden gegroepeerd.
 
 Met `Customer` worden de regels per debiteur gegroepeerd. Dit is de standaard. Met `CustomerOrderName` groepeert Florisoft per debiteur én ordernaam.
 
 De Job Agent moet bereikbaar zijn om de printopdracht naar de printer te sturen. Ontbreekt een printer of lay-out of mislukt de printopdracht, dan toont Florisoft een melding. Controleer deze melding voordat het fysieke pickproces begint.
 
-Daarnaast moet `Backoffice_Logistics_OrderPick_AllowedToPrintPackingListToPDA` ingeschakeld zijn wanneer de paklijst via de PDA-uitlever- en printflow wordt afgedrukt. Staat deze Backoffice-policy uit, dan houdt Florisoft het printen van de paklijst via PDA tegen, ook wanneer `ActivateWorkOrderAdditionalActions` de actie `PrintPackingList` bevat en `PrinterSettings` correct is ingevuld.
+Daarnaast moet `Backoffice_Logistics_OrderPick_AllowedToPrintPackingListToPDA` ingeschakeld zijn wanneer de paklijst via de PDA-uitlever- en printflow wordt afgedrukt. Staat deze Backoffice-policy uit, dan houdt Florisoft het printen van de paklijst via PDA tegen, ook wanneer `ActivateWorkOrderAdditionalActions` de actie `PrintPackingList` bevat en `PrinterName`, `ReportName` en `Enabled` correct zijn ingesteld.
 
 ---
 
