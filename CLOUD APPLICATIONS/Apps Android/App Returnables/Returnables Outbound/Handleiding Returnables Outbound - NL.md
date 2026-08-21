@@ -81,6 +81,8 @@ Bij het bevestigen kan de app, afhankelijk van de policies, aanvullende informat
 
 Als afdrukken of mailen is gekozen, gebruikt de app `PackageListPrinter` en `PackageListPrintLayout`. Bij `PackageListPrintLayout` kunnen alleen rapportlay-outs van lijstsoort `FustAdminPaklijst` worden geselecteerd. Is de keuzelijst leeg, dan is nog geen geschikte rapportlay-out beschikbaar.
 
+Is voor de debiteur `AssetManagementPackageReceiptLayout` ingesteld, dan gebruikt de app deze lay-out. Deze debiteurinstelling heeft voorrang op de policy `PackageListPrintLayout`. Als geen debiteurlay-out is ingesteld, gebruikt de app de lay-out uit de policy.
+
 De policy `PackageManagementRegistrationStrategy` bepaalt wat er bij afronden met de uitgaande fustaantallen gebeurt:
 
 - `PackageApproval`: de registratie gaat via het goedkeuringsproces voor fust;

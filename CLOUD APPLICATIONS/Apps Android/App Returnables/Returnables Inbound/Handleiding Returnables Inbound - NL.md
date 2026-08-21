@@ -84,6 +84,8 @@ Als afdrukken of mailen is gekozen, gebruikt de app de volgende instellingen:
 - `PackageListPrinter`: printer voor de fustpaklijst;
 - `PackageListPrintLayout`: afdruklay-out voor de fustpaklijst. Alleen rapportlay-outs van lijstsoort `FustAdminPaklijst` kunnen worden geselecteerd. Is de keuzelijst leeg, dan is nog geen geschikte rapportlay-out beschikbaar.
 
+Is voor de debiteur `AssetManagementPackageReceiptLayout` ingesteld, dan gebruikt de app deze lay-out. Deze debiteurinstelling heeft voorrang op de policy `PackageListPrintLayout`. Als geen debiteurlay-out is ingesteld, gebruikt de app de lay-out uit de policy.
+
 ## Een sessie stoppen zonder afronden
 
 Met **Order sluiten** of normaal uitloggen stopt u de actieve werksessie zonder de telling als voltooid te verwerken. De sessie wordt `Inactive` en kan later opnieuw worden geselecteerd. Bij onverwachte uitval kan de sessie `Active` blijven; meld dan opnieuw aan als dezelfde gebruiker.

@@ -73,6 +73,8 @@ Depending on the policies, the app may request:
 
 Printing and emailing use `PackageListPrinter` and `PackageListPrintLayout`. Only report layouts with list type `FustAdminPaklijst` can be selected for `PackageListPrintLayout`. An empty selection list means that no suitable report layout is available yet.
 
+When `AssetManagementPackageReceiptLayout` is configured for the customer, the app uses this layout. The customer setting takes precedence over the `PackageListPrintLayout` policy. When no customer layout is configured, the app uses the layout from the policy.
+
 `PackageManagementRegistrationStrategy` determines how the quantities are processed:
 
 - `PackageApproval`: send the registration through the package approval process;
