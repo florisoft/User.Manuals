@@ -234,7 +234,7 @@ De policies onder **OrderActivation → OrderSelection** bepalen welke orders wo
 - `ExcludePastOrders` verbergt orders uit het verleden;
 - `OrderDateFilter` bepaalt op welke datum de openstaande orders worden gefilterd. De standaardwaarde is `OrderDate`.
 
-Selecteer de order, controleer ordernummer en datum en ga verder naar de winkelwagen. Heeft de medewerker een financiële administratie, dan blijven orders zonder financiële administratie naast orders met dezelfde financiële administratie beschikbaar.
+Selecteer de order, controleer ordernummer en datum en ga verder naar de winkelwagen. Heeft de medewerker een financiële administratie, dan blijven orders zonder financiële administratie naast orders met dezelfde financiële administratie beschikbaar. Is voor het aanmaken van orders ook een financiële administratie ingesteld, dan zijn orders met die administratie eveneens beschikbaar.
 
 Wanneer `EnableOrderLocking` actief is, vergrendelt Florisoft de order zodra deze in Cash & Carry wordt geopend. Een andere gebruiker kan dezelfde order dan niet gelijktijdig wijzigen. Bij het sluiten van de order of beëindigen van de sessie wordt de vergrendeling vrijgegeven.
 
@@ -248,11 +248,12 @@ De policies onder **OrderActivation → OrderCreation** bepalen welke invoer wor
   - `DeliveryChoice`: een leverkeuze maken;
 - `RequireOrderNumberForCustomers` bevat de klanten waarvoor een ordernummer of ordernaam verplicht is;
 - `DeliveryOrderSuffix` voegt de ingestelde suffix aan leverorders toe;
-- `OrderNumberDeterminationType` bepaalt hoe Florisoft het nieuwe ordernummer vaststelt.
+- `OrderNumberDeterminationType` bepaalt hoe Florisoft het nieuwe ordernummer vaststelt;
+- `FinancialAdministration` bepaalt welke financiële administratie bij het aanmaken op de orderkop wordt opgeslagen.
 
 Vul de gevraagde gegevens in en bevestig de order. Een verplicht ordernummer moet geldig en uniek zijn volgens de gekozen nummerbepaling.
 
-Heeft zowel de medewerker als de klant een financiële administratie, dan moeten deze overeenkomen. Bij een verschil wordt de order niet aangemaakt en toont de app welke gebruiker, klant en administraties niet overeenkomen. Controleer dan de financiële administratie op de medewerker en op de debiteur in de backoffice. Heeft de klant geen financiële administratie, dan mag de order wel worden aangemaakt en verder verwerkt.
+Stel `FinancialAdministration` alleen in wanneer nieuwe orders altijd onder een specifieke financiële administratie moeten vallen. De ingestelde waarde wordt op de orderkop opgeslagen, ook wanneer de klant een andere financiële administratie heeft. Laat de policy leeg wanneer de financiële administratie van de debiteur leidend moet blijven. Zonder ingestelde policy wordt een order bij een verschil tussen de financiële administratie van medewerker en klant niet aangemaakt; de app toont dan welke gebruiker, klant en administraties niet overeenkomen. Heeft de klant geen financiële administratie, dan mag de order wel worden aangemaakt en verder verwerkt.
 
 ### Ordersessies
 
