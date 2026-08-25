@@ -77,7 +77,7 @@ Bij het bevestigen kan de app, afhankelijk van de policies, aanvullende informat
 - `MailPackingListOption`: verbergt de e-mailkeuze of toont deze met standaard **Ja** of **Nee**;
 - `RequireSignature`: vraagt om een handtekening wanneer een paklijst wordt afgedrukt of gemaild.
 
-Na een succesvolle afronding worden de inkomende fustaantallen bij de geselecteerde klant en order geregistreerd en wordt de sessie gesloten. De order moet daarom bij een bestaande factuur horen; anders kan de registratie niet worden voltooid.
+Na een succesvolle afronding wordt het inkomende fust rechtstreeks in de fustadministratie geregistreerd voor de geselecteerde klant en order. Op de gekoppelde factuur wordt het totale inkomende aantal als een negatieve fustregel vastgelegd. De verwerking in de fustadministratie is standaardgedrag en wordt niet door een afzonderlijke policy bepaald. Daarna wordt de sessie gesloten. De order moet daarom bij een bestaande factuur horen; anders kan de registratie niet worden voltooid.
 
 Als afdrukken of mailen is gekozen, gebruikt de app de volgende instellingen:
 

@@ -65,7 +65,7 @@ Depending on the policies, the app may request:
 - an email choice (`MailPackingListOption`);
 - a signature when a packing list is printed or emailed (`RequireSignature`).
 
-After successful completion, the incoming quantities are registered for the selected customer and order and the session is closed. The order must belong to an existing invoice.
+After successful completion, the incoming returnable packaging is registered directly in the returnables administration for the selected customer and order. The total incoming quantity is recorded as a negative returnables line on the linked invoice. Registration in the returnables administration is standard behaviour and is not controlled by a separate policy. The session is then closed. The order must belong to an existing invoice.
 
 Printing and emailing use `PackageListPrinter` and `PackageListPrintLayout`. Only report layouts with list type `FustAdminPaklijst` can be selected for `PackageListPrintLayout`. An empty selection list means that no suitable report layout is available yet.
 
