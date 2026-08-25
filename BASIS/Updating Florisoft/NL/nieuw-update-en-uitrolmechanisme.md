@@ -1,4 +1,4 @@
-# Nieuw update- en uitrolmechanisme Florisoft
+﻿# Nieuw update- en uitrolmechanisme Florisoft
 
 Florisoft gebruikt een nieuwe manier om nieuwe versies uit te rollen. De update is al klaar. U hoeft nu alleen te bepalen welke gebruikersgroep welke versie mag gebruiken.
 
@@ -14,7 +14,7 @@ In deze map staat `140.598` voor het versienummer en `260603` voor de datum van 
 
 U ziet deze pagina omdat u een nieuwe Florisoft-versie wilt beschikbaar maken voor andere gebruikers. De update zelf is al uitgevoerd. De overstap naar het nieuwe systeem is ook al gebeurd.
 
-In het oude systeem werd een versie verspreid via mappen als `BINUPDATE` en `BINLATEST`. Dat werkt nu anders. U kiest niet meer voor één algemene uitrolmap, maar voor een specifieke versie per gebruikersgroep.
+In het oude systeem werd een versie verspreid via mappen als `BINUPDATE` en `BINLATEST`. Dat werkt nu anders. U kiest niet meer voor Ã©Ã©n algemene uitrolmap, maar voor een specifieke versie per gebruikersgroep.
 
 ## Welke groepen zijn er?
 
@@ -85,7 +85,7 @@ Via **Constanten**:
 2. Open de gewenste gebruiker.
 3. Wijzig **Update uitrolgroep** naar de gewenste groep.
 
-## Een hele groep op één versie zetten
+## Een hele groep op Ã©Ã©n versie zetten
 
 Als de gewenste gebruikers in de juiste groep staan, kunt u die groep op een specifieke versie zetten.
 
@@ -105,9 +105,9 @@ In het scherm ziet u twee waarden:
 
 Als deze waarden verschillen, gebruikt de gebruiker waarschijnlijk nog een oude sessie. Na een nieuwe start van Florisoft wordt de ingestelde versie gebruikt.
 
-## Uitzondering: een afwijkende versie voor één gebruiker
+## Uitzondering: een afwijkende versie voor Ã©Ã©n gebruiker
 
-Normaal volgt een gebruiker de versie van zijn of haar groep. In sommige gevallen wilt u één gebruiker apart instellen.
+Normaal volgt een gebruiker de versie van zijn of haar groep. In sommige gevallen wilt u Ã©Ã©n gebruiker apart instellen.
 
 Dat kan via:
 
@@ -115,3 +115,4 @@ Dat kan via:
 - **Constanten > Systeem > Users - Systeemgebruiker**
 
 Gebruik dit alleen als een gebruiker bewust afwijkt van de groep.
+
