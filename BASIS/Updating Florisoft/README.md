@@ -12,6 +12,6 @@ Choose your language:
 
 ## Rollout mechanism
 
-- [Dutch manual](Rollout%20mechanism/nieuw-update-en-uitrolmechanisme.md)
-- [English manual](Rollout%20mechanism/new-update-and-rollout-mechanism.md)
-- [German manual](Rollout%20mechanism/neues-update-und-ausrollverfahren.md)
+- [Dutch manual](NL/nieuw-update-en-uitrolmechanisme.md)
+- [English manual](EN/new-update-and-rollout-mechanism.md)
+- [German manual](DE/neues-update-und-ausrollverfahren.md)
