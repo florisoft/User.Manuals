@@ -356,6 +356,7 @@ Beschikbare detailvelden zijn:
 - `ArticleNumber`: artikelnummer;
 - `ArticleKey`: artikelsleutel;
 - `StockItemMark`: partijmarkering.
+- `Supplier`: de naam van de leverancier van de partij. 
 
 Na het opslaan herberekent Florisoft de regel en het ordertotaal.
 

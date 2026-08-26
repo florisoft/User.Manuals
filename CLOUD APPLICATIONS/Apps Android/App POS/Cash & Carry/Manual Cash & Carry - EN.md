@@ -356,6 +356,7 @@ Available detail fields are:
 - `ArticleNumber`: product number;
 - `ArticleKey`: product key;
 - `StockItemMark`: stock-item mark.
+- `Supplier`: the supplier name of the stock item.
 
 After saving, Florisoft recalculates the line and order total.
 
