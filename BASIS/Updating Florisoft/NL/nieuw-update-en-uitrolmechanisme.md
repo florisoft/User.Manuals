@@ -6,7 +6,7 @@ Florisoft gebruikt een nieuwe manier om nieuwe versies uit te rollen. De update 
 
 U ziet deze pagina omdat u een nieuwe Florisoft-versie wilt beschikbaar maken voor andere gebruikers. De update zelf is al uitgevoerd. De overstap naar het nieuwe systeem is ook al gebeurd.
 
-In het oude systeem werd een versie verspreid via mappen als `BINUPDATE` en `BINLATEST`. Dat werkt nu anders. U kiest niet meer voor Ã©Ã©n algemene uitrolmap, maar voor een specifieke versie per gebruikersgroep.
+In het oude systeem werd een versie verspreid via mappen als `BINUPDATE` en `BINLATEST`. Dat werkt nu anders. U kiest niet meer voor een algemene uitrolmap, maar voor een specifieke versie per gebruikersgroep.
 
 ## Welke groepen zijn er?
 
