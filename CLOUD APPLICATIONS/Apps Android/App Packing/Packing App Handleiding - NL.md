@@ -1,11 +1,11 @@
 ![Florisoft logo](https://raw.githubusercontent.com/florisoft/User.Manuals/main/fslogo.png)
 
-# Florisoft TrolleyLoading App Handleiding
+# Florisoft Packing Apps Handleiding
 
-## TrolleyLoading
+## Beschikbare handleidingen
 
-Met de TrolleyLoading App kunnen magazijnmedewerkers het volledige karopbouwproces uitvoeren. De app ondersteunt het zoeken en scannen van orders, het aanmaken en beheren van karren, het registreren van producten en dozen en het compleet melden van een kar.
+Kies de handleiding die past bij de app waarmee je werkt.
 
-Producten kunnen handmatig of met een barcode op een kar worden geplaatst. Daarnaast ondersteunt de app onder andere correcties, omgekeerd karren opbouwen, externe leveranciersbarcodes, extra fustelementen, adreslabels en uitzonderingsregistratie. Welke onderdelen beschikbaar zijn, wordt bepaald door de ingestelde policies.
-
+- [Handleiding BoxPacking](BoxPacking/Handleiding%20BoxPacking%20-%20NL.md)
+- [Handleiding Sorting](Sorting/Handleiding%20Sorting%20-%20NL.md)
 - [Handleiding TrolleyLoading](TrolleyLoading/Handleiding%20TrolleyLoading%20-%20NL.md)
