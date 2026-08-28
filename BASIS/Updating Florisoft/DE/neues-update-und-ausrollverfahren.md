@@ -2,14 +2,6 @@
 
 Florisoft verwendet eine neue Methode, um neue Versionen auszurollen. Das Update ist bereits abgeschlossen. Sie müssen nur noch festlegen, welche Benutzergruppe welche Version verwenden darf.
 
-Eine neue Version wird in einem Ordner mit einer Versionsnummer und einem Datum gespeichert, zum Beispiel:
-
-```text
-dataadt\BIN140.598_260603
-```
-
-In diesem Ordner steht `140.598` für die Versionsnummer und `260603` für das Datum der Version.
-
 ## Warum wird diese Seite angezeigt?
 
 Sie sehen diese Seite, weil Sie eine neue Florisoft-Version für andere Benutzer verfügbar machen möchten. Das Update selbst wurde bereits durchgeführt. Auch die Umstellung auf das neue System ist bereits erfolgt.
@@ -40,7 +32,13 @@ Auf diese Weise bleibt das Risiko für die meisten Benutzer so gering wie mögli
 
 ## Was ist bereits automatisch geschehen?
 
-Bei der ersten Umstellung auf dieses neue System wurde das Update möglicherweise noch über den alten Prozess gestartet. Die Version wurde anschließend automatisch in einen neuen Versionsordner umgewandelt, zum Beispiel `BIN140.598_260603`.
+Bei der ersten Umstellung auf dieses neue System wurde das Update möglicherweise noch über den alten Prozess gestartet. Die Version wurde anschließend automatisch umgewandelt und in einem neuen Versionsordner gespeichert, zum Beispiel:
+
+```text
+dataadt\BIN140.598_260603
+```
+
+In diesem Ordner steht `140.598` für die Versionsnummer und `260603` für das Datum der Version.
 
 Der Benutzer, der das Update durchgeführt hat, wurde automatisch der Gruppe **Beheerders** zugeordnet. Die Version für diese Gruppe wurde ebenfalls bereits eingestellt. Sie müssen für diese Gruppe nichts weiter tun.
 

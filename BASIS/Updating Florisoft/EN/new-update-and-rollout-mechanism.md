@@ -2,14 +2,6 @@
 
 Florisoft uses a new way to roll out new versions. The update has already been completed. You only need to determine which version each user group may use.
 
-A new version is stored in a folder with a version number and date, for example:
-
-```text
-dataadt\BIN140.598_260603
-```
-
-In this folder, `140.598` is the version number and `260603` is the date of the version.
-
 ## Why are you seeing this page?
 
 You are seeing this page because you want to make a new Florisoft version available to other users. The update itself has already been completed. The transition to the new system has also already taken place.
@@ -40,7 +32,13 @@ This keeps the risk as low as possible for most users.
 
 ## What has already happened automatically?
 
-During the initial transition to this new system, the update may still have started through the old process. The version was then automatically converted to a new version folder, such as `BIN140.598_260603`.
+During the initial transition to this new system, the update may still have started through the old process. The version was then automatically converted and stored in a new version folder, such as:
+
+```text
+dataadt\BIN140.598_260603
+```
+
+In this folder, `140.598` is the version number and `260603` is the date of the version.
 
 The user who performed the update was automatically placed in the **Administrators** group. The version for this group has also already been configured. You do not need to do anything else for this group.
 

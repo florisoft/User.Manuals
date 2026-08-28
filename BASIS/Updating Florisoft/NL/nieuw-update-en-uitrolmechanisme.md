@@ -2,14 +2,6 @@
 
 Florisoft gebruikt een nieuwe manier om nieuwe versies uit te rollen. De update is al klaar. U hoeft nu alleen te bepalen welke gebruikersgroep welke versie mag gebruiken.
 
-Een nieuwe versie wordt opgeslagen in een map met een versienummer en datum, bijvoorbeeld:
-
-```text
-dataadt\BIN140.598_260603
-```
-
-In deze map staat `140.598` voor het versienummer en `260603` voor de datum van de versie.
-
 ## Waarom ziet u deze pagina?
 
 U ziet deze pagina omdat u een nieuwe Florisoft-versie wilt beschikbaar maken voor andere gebruikers. De update zelf is al uitgevoerd. De overstap naar het nieuwe systeem is ook al gebeurd.
@@ -40,7 +32,13 @@ Op deze manier wordt het risico voor de meeste gebruikers zo klein mogelijk geho
 
 ## Wat is er al automatisch gebeurd?
 
-Bij de eerste overgang naar dit nieuwe systeem is de update mogelijk nog begonnen via het oude proces. De versie is daarna automatisch omgezet naar een nieuwe versie-map, zoals `BIN140.598_260603`.
+Bij de eerste overgang naar dit nieuwe systeem is de update mogelijk nog begonnen via het oude proces. De versie is daarna automatisch omgezet en opgeslagen in een nieuwe versie-map, zoals:
+
+```text
+dataadt\BIN140.598_260603
+```
+
+In deze map staat `140.598` voor het versienummer en `260603` voor de datum van de versie.
 
 De gebruiker die de update heeft uitgevoerd is automatisch geplaatst in de groep **Beheerders**. De versie voor deze groep is ook al ingesteld. U hoeft hier niets meer voor te doen.
 
