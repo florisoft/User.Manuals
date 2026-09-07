@@ -93,6 +93,8 @@ If **Pickorders niet meetellen in voorraad opname** (`PICKNOOPN`) is enabled in 
 
 The **Scan quantity** field is visible when it is added to `Apps_Inventory_StockCounting_StockItemDetailSettings_AvailableStockitemDetails`. If the field is also added to `Apps_Inventory_StockCounting_StockItemDetailSettings_AllowEditStockitemDetails`, you can manually correct the counted quantity or reset it to **0**. Without the second setting, the field is read-only.
 
+The **Quality code** field is visible when it is added to `Apps_Inventory_StockCounting_StockItemDetailSettings_AvailableStockitemDetails`. Also add the field to `Apps_Inventory_StockCounting_StockItemDetailSettings_AllowEditStockitemDetails` if a user may change the parcel's quality code. Without the second setting, the quality code is read-only.
+
 If location is configured as an editable parcel detail, you can enter or scan a new location. When the `Apps_Inventory_StockCounting_CheckPredefinedLocationCodes` policy is enabled, the app only accepts location codes registered in the **Parcel locations** table (`PARTIJLOC`) in the constants screen. An unknown location is not saved and the parcel's existing location is retained.
 
 With `stockcounting based on v-stock items`, quantity changes, detail changes, and check marks are applied to the underlying parcels within the configured stock policy. The policy sorting determines the processing order.
@@ -115,6 +117,7 @@ In this screen, you can:
 * Add a **comment** for additional explanation.
 
 The comment you enter will be saved in the memo field of the distribution, so that it can be traced later in the back office.
+The selected reason is saved in the stock item log, so the cause of the quality issue can be traced there later.
 
 With `stockcounting based on v-stock items`, the quality issue registration is processed on the underlying parcels according to the stock policy order.
 

@@ -105,18 +105,37 @@ De **policy-groep** `StockItemDetailSetting` bestaat uit instellingen waarmee u 
 #### `AvailableStockItemDetails`
 Met deze instelling bepaalt u welke eigenschappen van een voorraadpartij zichtbaar zijn in de app tijdens het tellen, en in welke volgorde deze worden weergegeven in de gebruikersinterface.
 
+Beschikbare velden:
+
+- Locatie
+- Kolli
+- Inhoud kolli
+- Restant
+- Verkoopeenheid
+- Fustcode
+- Inhoud bos
+- Inkoopprijs
+- Verkoopprijs
+- Prijsgroep 1
+- Prijsgroep 2
+- Prijsgroep 3
+- Partijmarkering
+- Totaal
+- Dagen oud
+- Laatste scantijd
+- Scancode
+- Webshopzichtbaarheid
+- Scanaantal
+- Inhoud doos
+- Voorraadomschrijving
+- Kwaliteitscode
+
 Meer informatie over het aanpassen van deze instellingen vindt u in de [algemene handleiding Policy Management](https://github.com/florisoft/User.Manuals/tree/main/BASIS/Policy%20Management).
 
 #### `AllowEditStockitemDetails`
 Standaard zijn eigenschappen van voorraadpartijen alleen-lezen. Met deze instelling bepaalt u welke van de zichtbare eigenschappen bewerkbaar zijn voor gebruikers tijdens de telling.
 
-#### Scanaantal tonen en bewerken
-
-Voeg **Scanaantal** toe aan `AvailableStockItemDetails` om het geregistreerde aantal in het Stockitem-detailscherm weer te geven. Voeg **Scanaantal** ook toe aan `AllowEditStockitemDetails` om gebruikers het aantal handmatig te laten corrigeren of op **0** te laten zetten. Als Scanaantal alleen in `AvailableStockItemDetails` staat, is het veld alleen-lezen.
-
-Het Scanaantal wordt bij iedere barcodescan automatisch verhoogd. De stapgrootte volgt de verkoopeenheid in de voorraadinstelling (`VERKEH`): 1 steel, de inhoud van één bos, de verkoopeenheid van de partij, de inhoud van één colli of bij **Doos** de inhoud van één doos. Bij **Doos** gebruikt de app de inhoud doos; is die leeg of 0, dan valt de app terug op de inhoud van één colli. Als de instelling leeg of ongeldig is, wordt 1 gebruikt. Handmatig zoeken/selecteren verhoogt het Scanaantal niet.
-
-Bij `Telling op v-partij basis` toont de app het opgetelde Scanaantal van de onderliggende partijen binnen de ingestelde beschikbare voorraden.
+Voorraadomschrijving en Laatste scantijd zijn altijd alleen-lezen.
 
 
 #### `StockItemQuantityDisplay`  

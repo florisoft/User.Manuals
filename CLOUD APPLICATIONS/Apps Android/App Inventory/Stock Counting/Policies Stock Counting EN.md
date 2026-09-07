@@ -103,18 +103,37 @@ The **policy group** `StockItemDetailSetting` determines which **parcel** proper
 #### `AvailableStockItemDetails`
 This policy controls which parcel properties are visible when opening a batch in the app, and the order in which they are shown in the user interface.
 
+Available fields:
+
+- Location
+- Colli
+- Colli content
+- Remainder
+- Sales unit
+- Packaging code
+- Bunch content
+- Purchase price
+- Sales price
+- Price group 1
+- Price group 2
+- Price group 3
+- Stock item mark
+- Total
+- Days old
+- Latest scan time
+- Scan code
+- Webshop visibility
+- Scan quantity
+- Box content
+- Stock description
+- Quality code
+
 For more details on adjusting these settings, refer to the [Policy Management Guide](https://github.com/florisoft/User.Manuals/tree/main/BASIS/Policy%20Management).
 
 #### `AllowEditStockitemDetails`
 By default, parcel properties are read-only. This setting lets you configure which visible properties can be edited during counting.
 
-#### Displaying and editing Scan quantity
-
-Add **Scan quantity** to `AvailableStockItemDetails` to display the registered quantity in the Stock Item Detail screen. Also add **Scan quantity** to `AllowEditStockitemDetails` to let users manually correct the quantity or reset it to **0**. If Scan quantity is only included in `AvailableStockItemDetails`, the field is read-only.
-
-Each barcode scan automatically increases the Scan quantity. The increment follows the sales unit in the stock setting (`VERKEH`): 1 stem, the content of one bunch, the parcel's sales unit, the content of one colli, or for **Box** the content of one box. For **Box**, the app uses the box content; if it is empty or 0, the app falls back to the content of one colli. If the setting is empty or invalid, 1 is used. Manually searching for and selecting a parcel does not increase the Scan quantity.
-
-With `stockcounting based on v-stock items`, the app displays the combined Scan quantity of the underlying parcels within the configured available stocks.
+Stock description and Latest scan time are always read-only.
 
 #### `StockItemQuantityDisplay`  
 Determines how the parcel quantity is displayed in the app.  
