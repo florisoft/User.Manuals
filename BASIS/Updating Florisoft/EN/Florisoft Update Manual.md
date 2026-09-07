@@ -61,24 +61,9 @@ From Monday to Thursday, a new version of Florisoft is released online every mor
 
 ### 5. Rolling out the version
 
-Once the latest version of Florisoft has been successfully tested by starting Florisoft via the `Florisoft Update shortcut` and everything is satisfactory, you can roll out the version to other users.
+After testing the new version, you can make it available to other users. This is necessary because users only start using the version after it has been assigned to their user group. By doing this step by step, you can expand its use in a controlled way and identify any issues early. The recommended order is **Administrators**, **Pilot users**, and then **Standard users**.
 
-1. When starting the `Florisoft Update client`, you will receive the following message:<br><br>
-![alt text](../Media/image-9.png)
-
-2. If everything is satisfactory, you can roll out the version by right-clicking on the `Florisoft Leaves icon` in the Navigator and selecting the option `Roll out version`:<br><br>
-![alt text](../Media/image-10.png)
-
-3. Now you will see the following screen:<br><br>
-![alt text](../Media/image-11.png)
-
-4. Select the line with the name `BIN` using the left mouse button and click `OK`. You will now see a green bar running.<br><br>
-![alt text](../Media/image-12.png)
-
-5. Once this is complete, you will see the following screen. Click `OK`:<br><br>
-![alt text](../Media/image-13.png)
-
-The version has now been rolled out.
+Read the [full explanation of the new update and rollout mechanism](new-update-and-rollout-mechanism.md) for assigning users to groups and configuring a version per group.
 
 ### 6. Updating the webshop
 
@@ -116,7 +101,7 @@ If it is acceptable for the CloudServer to be temporarily unavailable, you can u
 
 ### 8. Roll out Apps
 
-If you also use the Florisoft Apps, the apps can also be rolled out to the latest version. Through the same way as in chapter 5. But then the option: Roll out version Apps.
+If you also use the Florisoft Apps, the apps can also be rolled out to the latest version using the `Roll out version Apps` option.
 During an internet update system (from step 2), the apps are also downloaded.
 After downloading, they can be rolled out via the Roll out version Apps option.
 When the user restarts an app on the device, they will see that the app is being updated and will then run on the latest version.<br><br>

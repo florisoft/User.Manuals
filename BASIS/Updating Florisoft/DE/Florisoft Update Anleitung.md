@@ -61,24 +61,9 @@ Montags bis donnerstags wird jeden Morgen um 08:00 Uhr (NiederlÃ¤ndische Zeit)
 
 ### 5. Version ausrollen
 
-Wenn die neueste Version von Florisoft erfolgreich getestet wurde, indem Sie Florisoft Ã¼ber die `Florisoft Update-VerknÃ¼pfung` starten und alles zufriedenstellend ist, kÃ¶nnen Sie die Version auf die anderen Benutzer ausrollen.
+Nach dem Testen der neuen Version kÃ¶nnen Sie diese fÃ¼r andere Benutzer verfÃ¼gbar machen. Dies ist erforderlich, da Benutzer die Version erst verwenden, nachdem sie ihrer Benutzergruppe zugewiesen wurde. Wenn Sie dies schrittweise tun, kÃ¶nnen Sie die Nutzung kontrolliert erweitern und mÃ¶gliche Probleme frÃ¼hzeitig erkennen. Die empfohlene Reihenfolge ist **Administratoren**, **Pilotbenutzer** und anschlieÃŸend **Standardbenutzer**.
 
-1. Beim Starten des `Florisoft Update-Clients` erhalten Sie folgende Meldung:<br><br>
-![alt text](../Media/image-9.png)
-
-2. Wenn alles zufriedenstellend ist, kÃ¶nnen Sie die Version ausrollen, indem Sie mit der rechten Maustaste auf das `Florisoft Leaves-Symbol` im Navigator klicken und die Option `Version ausrollen` wÃ¤hlen:<br><br>
-![alt text](../Media/image-10.png)
-
-3. Sie sehen jetzt den folgenden Bildschirm:<br><br>
-![alt text](../Media/image-11.png)
-
-4. WÃ¤hlen Sie mit der linken Maustaste die Zeile mit dem Namen `BIN` aus und klicken Sie auf `OK`. Sie sehen jetzt einen grÃ¼nen Balken laufen.<br><br>
-![alt text](../Media/image-12.png)
-
-5. Sobald dies abgeschlossen ist, sehen Sie den folgenden Bildschirm und klicken Sie auf `OK`:<br><br>
-![alt text](../Media/image-13.png)
-
-Damit ist die Version ausgerollt.
+Lesen Sie die [vollstÃ¤ndige ErklÃ¤rung zum neuen Update- und Ausrollverfahren](neues-update-und-ausrollverfahren.md), um Benutzer Gruppen zuzuordnen und eine Version pro Gruppe festzulegen.
 
 ### 6. Webshop aktualisieren
 
@@ -116,7 +101,7 @@ Wenn es mÃ¶glich ist, dass der CloudServer kurzzeitig nicht erreichbar ist, k�
 
 ### 8. Apps ausrollen
 
-Wenn Sie auch die Florisoft-Apps verwenden, kÃ¶nnen die Apps ebenfalls auf die neueste Version gebracht werden. Auf die gleiche Weise wie in Kapitel 5. Aber dann die Option: Roll out version Apps 
+Wenn Sie auch die Florisoft-Apps verwenden, kÃ¶nnen die Apps ebenfalls Ã¼ber die Option `Roll out version Apps` auf die neueste Version gebracht werden.
 Bei einem Internet-Update (ab Schritt 2) werden auch die Apps heruntergeladen.
 Nach dem Herunterladen kÃ¶nnen sie Ã¼ber die Option Roll out version Apps ausgerollt werden.
 Wenn der Benutzer eine App auf dem GerÃ¤t neu startet, sieht er, dass die App aktualisiert wird und lÃ¤uft dann mit der neuesten Version. <br><br>

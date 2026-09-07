@@ -64,24 +64,9 @@ Op maandag t/m donderdag komt er elke ochtend om 08:00 uur (Nederlandse tijd) ee
 
 ### 5. Versie uitrollen
 
-Wanneer de nieuwste versie is getest door Florisoft op te starten via de `Florisoft Update-snelkoppeling` en alles is naar wens, kun je de versie uitrollen naar de andere gebruikers.
+Na het testen van de nieuwe versie kun je deze beschikbaar maken voor andere gebruikers. Dit is nodig omdat gebruikers de versie pas gebruiken nadat deze aan hun gebruikersgroep is toegewezen. Door dit stapsgewijs te doen, kun je de werking gecontroleerd uitbreiden en eventuele problemen vroeg signaleren. De aanbevolen volgorde is **Beheerders**, **Pilotgebruikers** en daarna **Standaardgebruikers**.
 
-1. Wanneer je de `Florisoft Update-client` opstart, krijg je onderstaande melding:<br><br>
-![alt text](../Media/image-9.png)
-
-2. Wanneer alles naar wens is, kun je de update uitrollen door rechtermuisknop te klikken op het `Florisoft Leaves-icoon` in de Navigator en op de optie `Versie uitrollen` te klikken:<br><br>
-![alt text](../Media/image-10.png)
-
-3. Je krijgt nu het volgende scherm:<br><br>
-![alt text](../Media/image-11.png)
-
-4. Selecteer met de linkermuisknop de regel met de naam `BIN` en klik op `OK`. Je ziet nu een groene balk lopen.<br><br>
-![alt text](../Media/image-12.png)
-
-5. Wanneer dit klaar is, krijg je onderstaand scherm en klik op `OK`:<br><br>
-![alt text](../Media/image-13.png)
-
-Nu is de versie uitgerold.
+Lees de [volledige uitleg over het nieuwe update- en uitrolmechanisme](nieuw-update-en-uitrolmechanisme.md) voor het indelen van gebruikers en het instellen van een versie per groep.
 
 ### 6. Webshop updaten
 
