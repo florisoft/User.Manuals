@@ -238,6 +238,8 @@ Selecteer de order, controleer ordernummer en datum en ga verder naar de winkelw
 
 Wanneer `EnableOrderLocking` actief is, vergrendelt Florisoft de order zodra deze in Cash & Carry wordt geopend. Een andere gebruiker kan dezelfde order dan niet gelijktijdig wijzigen. Bij het sluiten van de order of beëindigen van de sessie wordt de vergrendeling vrijgegeven.
 
+Een order die in de Backoffice handmatig is geblokkeerd, blijft altijd geblokkeerd in Cash & Carry. De orderlijst toont hiervoor een foutbadge en, indien bekend, **Vergrendeld door: <gebruiker>**. Probeert u de order toch te openen, dan toont Florisoft dat de order handmatig is vergrendeld en wordt de order niet geopend. Hef de handmatige blokkering eerst in de Backoffice op wanneer de order weer verwerkt mag worden.
+
 ### Nieuwe order aanmaken
 
 De policies onder **OrderActivation → OrderCreation** bepalen welke invoer wordt gevraagd:

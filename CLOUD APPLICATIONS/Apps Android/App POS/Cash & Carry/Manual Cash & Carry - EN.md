@@ -238,6 +238,8 @@ Select the order, check its number and date, and continue to the shopping cart. 
 
 When `EnableOrderLocking` is enabled, Florisoft locks the order as soon as it is opened in Cash & Carry. Another user cannot change the same order simultaneously. The lock is released when the order is closed or the session ends.
 
+An order that has been manually locked in the Backoffice always remains locked in Cash & Carry. The order list shows an error badge and, when known, **Locked by: <user>**. If you try to open the order, Florisoft reports that it is manually locked and does not open it. Remove the manual lock in the Backoffice before the order may be processed again.
+
 ### Create a new order
 
 The policies under **OrderActivation → OrderCreation** determine which input is requested:
