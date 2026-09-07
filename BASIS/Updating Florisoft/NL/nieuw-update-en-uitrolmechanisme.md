@@ -35,7 +35,7 @@ Op deze manier wordt het risico voor de meeste gebruikers zo klein mogelijk geho
 Bij de eerste overgang naar dit nieuwe systeem is de update mogelijk nog begonnen via het oude proces. De versie is daarna automatisch omgezet en opgeslagen in een nieuwe versie-map, zoals:
 
 ```text
-dataadt\BIN140.598_260603
+dataadt\BIN140.598_260603_latest
 ```
 
 In deze map staat `140.598` voor het versienummer en `260603` voor de datum van de versie.
