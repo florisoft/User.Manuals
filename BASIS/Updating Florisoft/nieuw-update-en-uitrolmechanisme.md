@@ -1,15 +1,17 @@
 # Florisoft Update and Rollout Mechanism
 
-## Nederlands
+This manual explains how to make Florisoft versions available per user group.
 
-Deze pagina is verplaatst naar de centrale startpagina voor het update- en
-uitrolmechanisme. Daar kunt u de handleiding in de gewenste taal openen.
+Choose your language:
 
-[Open de handleiding voor het update- en uitrolmechanisme](README.md)
+## Standard update manuals
 
-## English
+- [Dutch manual](NL/Florisoft%20Update%20Handleiding.md)
+- [English manual](EN/Florisoft%20Update%20Manual.md)
+- [German manual](DE/Florisoft%20Update%20Anleitung.md)
 
-This page has moved to the central landing page for the update and rollout
-mechanism. There, you can open the manual in your preferred language.
+## Rollout mechanism
 
-[Open the update and rollout mechanism manual](README.md)
+- [Dutch manual](NL/nieuw-update-en-uitrolmechanisme.md)
+- [English manual](EN/new-update-and-rollout-mechanism.md)
+- [German manual](DE/neues-update-und-ausrollverfahren.md)
