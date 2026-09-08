@@ -83,7 +83,9 @@ Via **Constanten**:
 2. Open de gewenste gebruiker.
 3. Wijzig **Update uitrolgroep** naar de gewenste groep.
 
-## Een hele groep op Ã©Ã©n versie zetten
+<img width="2059" height="764" alt="image" src="https://github.com/user-attachments/assets/75299c81-5109-44d6-bdfe-757478099f33" /> 
+
+## Een hele groep op een versie zetten
 
 Als de gewenste gebruikers in de juiste groep staan, kunt u die groep op een specifieke versie zetten.
 
@@ -92,7 +94,7 @@ Als de gewenste gebruikers in de juiste groep staan, kunt u die groep op een spe
 3. Kies rechtsboven de gewenste versie-map.
 4. De gekozen versie wordt toegepast op alle gebruikers in die groep.
 
-<img width="2059" height="764" alt="image" src="https://github.com/user-attachments/assets/75299c81-5109-44d6-bdfe-757478099f33" />
+
 
 ## Wat ziet u in Actieve gebruikers?
 
@@ -103,9 +105,9 @@ In het scherm ziet u twee waarden:
 
 Als deze waarden verschillen, gebruikt de gebruiker waarschijnlijk nog een oude sessie. Na een nieuwe start van Florisoft wordt de ingestelde versie gebruikt.
 
-## Uitzondering: een afwijkende versie voor Ã©Ã©n gebruiker
+## Uitzondering: een afwijkende versie voor een gebruiker
 
-Normaal volgt een gebruiker de versie van zijn of haar groep. In sommige gevallen wilt u Ã©Ã©n gebruiker apart instellen.
+Normaal volgt een gebruiker de versie van zijn of haar groep. In sommige gevallen wilt u een gebruiker apart instellen.
 
 Dat kan via:
 
