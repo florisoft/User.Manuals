@@ -129,6 +129,12 @@ Gebruik deze twee instellingen samen om inzicht en sturing te krijgen: de Backof
 
 Een geclaimde opdracht blijft tijdelijk voor de medewerker gereserveerd. Wordt deze niet op tijd geactiveerd, dan geeft Florisoft de claim vrij. De gebruiker krijgt een melding en moet een nieuwe opdracht ophalen. Zo blijven verlaten opdrachten niet onnodig geblokkeerd.
 
+### Verdeelstickers sorteren bij het printen
+
+Moeten de verdeelstickers een specifieke volgorde volgen bij het printen, stel deze dan in via de Backoffice-policy `Backoffice_Logistics_OrderPick_StickerSorting`. De sortering wordt niet overgenomen uit een persoonlijke `FS_2000`-instelling.
+
+Selecteer `WalkingRoute` om de verdeelstickers te sorteren op de locatievolgorde van de ingestelde looproute. Vul hiervoor ook `Backoffice_Logistics_OrderPick_DefaultWalkingRoute` in. Locaties die niet in deze looproute voorkomen, worden achter de locaties uit de route geplaatst.
+
 ---
 
 ## Stap 4 – De werkopdracht activeren en documenten printen

@@ -129,6 +129,12 @@ Use these settings together for visibility and control: the Backoffice policy de
 
 A claimed assignment remains reserved for the employee temporarily. If it is not activated in time, Florisoft releases the claim. The user receives a message and must retrieve a new assignment. This prevents abandoned work orders from remaining blocked.
 
+### Sort distribution labels when printing
+
+If distribution labels must follow a specific order when they are printed, configure it through the `Backoffice_Logistics_OrderPick_StickerSorting` Backoffice policy. The sorting is not taken from a personal `FS_2000` setting.
+
+Select `WalkingRoute` to sort the distribution labels according to the location sequence of the configured walking route. Also configure `Backoffice_Logistics_OrderPick_DefaultWalkingRoute`. Locations that are not included in this walking route are placed after the locations from the route.
+
 ---
 
 ## Step 4 – Activate the work order and print documents
