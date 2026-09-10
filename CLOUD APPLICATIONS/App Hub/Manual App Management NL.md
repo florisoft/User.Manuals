@@ -14,7 +14,7 @@ In de Hub-app catalogus ziet u het versienummer verticaal naast de apps staan. F
 
 ## Downloaden van app-updates
 
-Tijdens het uitvoeren van een Florisoft-update worden ook de nieuwste versies van de apps gedownload. Bij het updaten van de cloudserver staat hiervoor de instelling "*Download frontend apps met de Cloud.Server*" ingeschakeld. In de updateomgeving worden deze appversies automatisch beschikbaar gesteld in het release channel *update*.
+Tijdens het uitvoeren van een Florisoft-update worden ook de nieuwste versies van alle beschikbare apps gedownload. De lijst met apps wordt centraal door Florisoft beheerd; hiervoor is geen systeeminstelling nodig. In de updateomgeving worden deze appversies automatisch beschikbaar gesteld in het release channel *update*.
 
 |Stap|Uitleg|
 |:-:|:--|
@@ -35,7 +35,7 @@ Om een nieuwe appversie te testen voordat deze naar alle gebruikers wordt uitger
 ### Nieuwe appversies testen
 
 1. Voer de Florisoft-update uit op de updateomgeving. De nieuwe appversies worden hierbij automatisch beschikbaar gesteld in het release channel *update*.
-2. Update vervolgens de cloudserver van de updateomgeving. Laat daarbij de instelling "*Download frontend apps met de Cloud.Server*" ingeschakeld.
+2. Update vervolgens de cloudserver van de updateomgeving. Alle beschikbare frontend-apps worden automatisch gedownload; hiervoor hoeft u geen systeeminstelling in te stellen.
 3. Stel de apparaten van de key users zo in dat zij verbinding maken met de update-cloudserver.
 4. Stel op deze apparaten in de Hub-app het veld *Release Channel* in op **update**.
 5. Start de Hub-app opnieuw. De apps uit het release channel *update* worden vervolgens automatisch bijgewerkt.

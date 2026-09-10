@@ -14,7 +14,7 @@ In the Hub app catalog, you will see the version number displayed vertically nex
 
 ## Downloading App Updates
 
-The latest app versions are also downloaded when a Florisoft update is performed. When updating the cloud server, the "*Download frontend apps with the Cloud.Server*" setting is enabled for this purpose. In the update environment, these app versions are automatically made available in the *update* release channel.
+The latest versions of all available apps are also downloaded when a Florisoft update is performed. Florisoft manages the app list centrally, so no system setting is required. In the update environment, these app versions are automatically made available in the *update* release channel.
 
 |Step|Explanation|
 |:-:|:--|
@@ -35,7 +35,7 @@ To test a new app version before rolling it out to all users, you need a separat
 ### Testing New App Versions
 
 1. Perform the Florisoft update in the update environment. The new app versions are automatically made available in the *update* release channel.
-2. Update the cloud server for the update environment. Leave the "*Download frontend apps with the Cloud.Server*" setting enabled.
+2. Update the cloud server for the update environment. All available frontend apps are downloaded automatically; no system setting is required.
 3. Configure the key users' devices to connect to the update cloud server.
 4. On these devices, set the *Release Channel* field in the Hub app to **update**.
 5. Restart the Hub app. The apps from the *update* release channel will then be updated automatically.
