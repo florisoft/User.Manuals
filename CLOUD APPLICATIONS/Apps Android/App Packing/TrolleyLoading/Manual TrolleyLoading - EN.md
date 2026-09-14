@@ -221,7 +221,7 @@ When several customers are processed through a hub, `EnableHubGrouping` determin
 
 When TrolleyLoading starts, Florisoft first builds the order overview. `DateFilterType` determines whether this uses the order date, requested date, departure date, or delivery date, for example. `FilterDateFromDays` and `FilterDateToDays` define the default period around today. Orders whose selected date field is empty are only included when `AllowOrdersWithEmptyDates` is active. When an employee selects a date in the calendar, `EnableFilterOnSelectedDate` ensures that only orders for that date are shown.
 
-Not every order in that period is necessarily suitable for trolley building. `FilterOptions` therefore contains the validations Florisoft uses to decide which orders are loaded. `FilterByDefaultTrolleyLocations` can narrow the result further to customers with one of the configured default trolley locations. After the selection is complete, `SortingOption` determines the order in which the results appear.
+Not every order in that period is necessarily suitable for trolley building. `FilterOptions` therefore contains the validations Florisoft uses to decide which orders are loaded. `FilterByDefaultTrolleyLocations` determines which customers may appear in the overview. Add one or more default trolley-building locations to the policy. Florisoft compares these values with the default trolley-building location (`DEFKARLOC`) of the customer linked to the order. Only orders belonging to customers whose location occurs in the policy list are shown. As a result, the customer overview contains only customers with matching orders. When the policy is empty, this filter is not applied. The trolley location on the order header is not used by this filter. After the selection is complete, `SortingOption` determines the order in which the results appear.
 
 Search and scan behaviour are also configured here. With `FilterOrdersByScanAction`, a scanned value is used as a search query. `ValidBarcodeDecodeOptions` determines which order, product, or trolley barcodes are recognised from the order overview. Enable `EnableVolumeIndication` when employees should see the volume distribution in addition to colli and trolley progress. Finally, `CompletedTrolleyVisibleFromDays` defines how long completed trolleys remain visible.
 
@@ -259,7 +259,7 @@ For more information about configuring and assigning policies, see the [Policy M
 
 **Why is an order not visible?**
 
-Check the selected date and search filters. Then check `FilterOptions`, `ExcludedOrderNumbers`, `ExcludedCustomerCodes`, the stock and department filters, and `FilterByDefaultTrolleyLocations`. An order without visible items to process is not shown.
+Check the selected date and search filters. Then check `FilterOptions`, `ExcludedOrderNumbers`, `ExcludedCustomerCodes`, the stock and department filters, and `FilterByDefaultTrolleyLocations`. For the latter policy, verify that the customer's default trolley-building location (`DEBITEUR.DEFKARLOC`) occurs in the policy list. An order without visible items to process is not shown.
 
 **Why can I not create a new trolley?**
 

@@ -221,7 +221,7 @@ Wanneer verschillende klanten via een hub worden verwerkt, bepaalt `EnableHubGro
 
 Bij het openen van TrolleyLoading stelt Florisoft eerst het orderoverzicht samen. `DateFilterType` bepaalt of daarvoor bijvoorbeeld de orderdatum, besteldatum, vertrekdatum of leverdatum wordt gebruikt. Met `FilterDateFromDays` en `FilterDateToDays` stelt u de standaardperiode rond vandaag in. Orders waarbij het gekozen datumveld leeg is, worden alleen meegenomen als `AllowOrdersWithEmptyDates` actief is. Wanneer een medewerker zelf een datum in de kalender kiest, zorgt `EnableFilterOnSelectedDate` ervoor dat uitsluitend orders van die ene datum worden getoond.
 
-Niet iedere order binnen die periode hoeft geschikt te zijn voor karopbouw. In `FilterOptions` kiest u daarom de controles waarmee Florisoft bepaalt welke orders worden ingeladen. `FilterByDefaultTrolleyLocations` kan het resultaat verder beperken tot klanten met een ingestelde standaard karlocatie. Nadat de selectie is gemaakt, bepaalt `SortingOption` in welke volgorde de orders verschijnen.
+Niet iedere order binnen die periode hoeft geschikt te zijn voor karopbouw. In `FilterOptions` kiest u daarom de controles waarmee Florisoft bepaalt welke orders worden ingeladen. Met `FilterByDefaultTrolleyLocations` bepaalt u welke klanten in het overzicht mogen voorkomen. Voeg hiervoor één of meer standaard karopbouwlocaties toe aan de policy. Florisoft vergelijkt deze waarden met de standaard karopbouwlocatie (`DEFKARLOC`) van de debiteur die aan de order is gekoppeld. Alleen orders van debiteuren waarvan deze locatie in de policylijst voorkomt, worden getoond. Daardoor bevat het klantenoverzicht alleen klanten met bijpassende orders. Als de policy leeg is, wordt hierop niet gefilterd. De karlocatie op de orderkop wordt voor deze filter niet gebruikt. Nadat de selectie is gemaakt, bepaalt `SortingOption` in welke volgorde de orders verschijnen.
 
 Ook het gedrag van zoeken en scannen wordt in dit onderdeel ingesteld. Met `FilterOrdersByScanAction` wordt een gescande waarde als zoekopdracht gebruikt. `ValidBarcodeDecodeOptions` bepaalt welke order-, product- of karbarcodes vanuit het orderoverzicht worden herkend. Als medewerkers naast colli en karren ook de volumeverdeling moeten zien, schakelt u `EnableVolumeIndication` in. Afgeronde karren blijven ten slotte nog het aantal dagen zichtbaar dat in `CompletedTrolleyVisibleFromDays` is vastgelegd.
 
@@ -259,7 +259,7 @@ Meer informatie over het instellen en toewijzen van policies vindt u in de [hand
 
 **Waarom zie ik een order niet?**
 
-Controleer de gekozen datum en zoekfilters. Controleer daarna `FilterOptions`, `ExcludedOrderNumbers`, `ExcludedCustomerCodes`, de voorraad- en afdelingsfilters en `FilterByDefaultTrolleyLocations`. Een order zonder zichtbare op te bouwen regels wordt niet getoond.
+Controleer de gekozen datum en zoekfilters. Controleer daarna `FilterOptions`, `ExcludedOrderNumbers`, `ExcludedCustomerCodes`, de voorraad- en afdelingsfilters en `FilterByDefaultTrolleyLocations`. Controleer bij deze laatste policy of de standaard karopbouwlocatie (`DEBITEUR.DEFKARLOC`) van de debiteur in de policylijst voorkomt. Een order zonder zichtbare op te bouwen regels wordt niet getoond.
 
 **Waarom kan ik geen nieuwe kar aanmaken?**
 
