@@ -112,6 +112,7 @@
 - [Product Card](#product-card)
 - [Social Icons](#social-icons)
 - [Breadcrumbs](#breadcrumbs)
+- [Page search](#page-search)
 - [Icon Link](#icon-link)
 - [Banner](#banner)
 - [Inventory Navigation](#inventory-navigation)
@@ -1046,6 +1047,17 @@ Enter the corresponding URL for each social media channel. The social media icon
 | Onderdeel | Beschrijving |
 |---|---|
 | Breadcrumbs | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Page Search
+
+Use this component to make CMS (blog) pages searchable on your website. This allows users to search within one or more categories and enables you to effectively incorporate search terms into your page descriptions, so visitors can perform more targeted searches.
+
+| Step | Description |
+|:--|:--|
+| **1** | In this example, we have added the **Page Search** component to a [Column](#rowcolumn) component (1). The component is now visible in both the [Navigator](#navigator) (2) and the [Editor](#editor) (3). You can further configure the component via the **[General settings](#general-settings)** (4).<br><br>**[Edit translations](#translations)** (5)<br><br>**Placeholder** (6) – Enter the text that should be displayed as placeholder text in the search field.<br><br>**Show category dropdown** (7) – Enable or disable this option to display a dropdown next to the search field. When this option is enabled, the **Spacing** (8) and **Dropdown width (%)** (9) fields appear. These settings allow you to determine the spacing between the dropdown and the search field and set the width of the dropdown as a percentage.<br><br>**Searchable categories** (10) – Select which [Page Categories](#categories) or [Blog Categories](#blog-categories) may be displayed in the dropdown.<br><br>**[Component Style](#component-styles)** (11).<details><summary><b>Click here for the example image</b></summary><img src="media/47.1.png"></details> |
+| **2** | Learn more about the additional settings in the [Styling](#3-styling), [Advanced](#4-advanced), and [Visibility](#5-visibility) tabs. |
 
 ---
 

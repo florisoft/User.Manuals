@@ -112,6 +112,7 @@
 - [Partijkaart](#partijkaart)
 - [Social icons](#social-icons)
 - [Breadcrumbs](#breadcrumbs)
+- [Pagina zoekbalk](#pagina-zoekbalk)
 - [Icon link](#icon-link)
 - [Banner](#banner)
 - [Voorraad navigatie](#voorraad-navigatie)
@@ -1041,6 +1042,17 @@ Vul per socialmediakanaal de bijbehorende URL in. De socialmedia-iconen worden v
 | Onderdeel | Beschrijving |
 |---|---|
 | Breadcrumbs | Deze beschrijving wordt aangevuld |
+
+---
+
+#### Pagina zoekbalk
+
+Gebruik dit component om CMS- (blog)pagina's vindbaar te maken binnen je website. Zo kan er gericht binnen één of meerdere categorieën worden gezocht en kun je zoektermen effectief verwerken in de omschrijvingen van je pagina's, zodat bezoekers nog gerichter kunnen zoeken.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we het component **Pagina zoekbalk** toegevoegd aan een [Column](#rowcolumn)-component (1). Het component is nu zowel zichtbaar in de [Navigator](#navigator) (2) als in de [Editor](#editor) (3). Via het tabblad **[Algemene instellingen](#algemene-instellingen)** (4) kun je het component verder configureren.<br><br>**[Vertalingen bewerken](#vertalingen)** (5)<br><br>**Placeholder** (6) – Vul hier de tekst in die als voorbeeldtekst in het zoekveld wordt weergegeven.<br><br>**Categorie dropdown tonen** (7) – Schakel deze optie in of uit om een dropdown naast het zoekveld weer te geven. Wanneer deze optie is ingeschakeld, verschijnen de velden **Tussenruimte** (8) en **Dropdown breedte (%)** (9). Hiermee kun je de ruimte tussen de dropdown en het zoekveld bepalen en de breedte van de dropdown instellen als percentage.<br><br>**Doorzoekbare categorieën** (10) – Selecteer welke [Pagina Categorieën](#categorieën) of [Blog Categorieën](#blog-categorieën) in de dropdown mogen worden weergegeven.<br><br>**[Component Style](#component-styles)** (11).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/47.1.png"></details> |
+| **2** | Lees meer over de aanvullende instellingen in de tabbladen [Styling](#3-styling), [Geavanceerd](#4-geavanceerd) en [Zichtbaarheid](#5-zichtbaarheid). |
 
 ---
 
