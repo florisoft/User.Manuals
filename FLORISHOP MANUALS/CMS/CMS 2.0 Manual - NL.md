@@ -559,7 +559,7 @@ Via deze tab kun je de [Editor](#editor) naar jouw persoonlijke voorkeuren confi
 
 | Stap | Uitleg |
 |:--|:--|
-| **1** | Via **Voorkeuren** (1) kun je de functie **AutoSaveOnEdit** in- of uitschakelen (2). Deze functie is standaard ingeschakeld, zodat conceptwijzigingen automatisch worden opgeslagen. Via het dropdownmenu (3) kun je eenvoudig wisselen tussen verschillende [thema's](#thema-configuratie) om vervolgens wijzigingen binnen een ander thema door te voeren.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/22.1.png"></details> |
+| **1** | Via **Voorkeuren** (1) kun je de functie **AutoSaveOnEdit** in- of uitschakelen (2). Deze functie is standaard ingeschakeld, zodat conceptwijzigingen automatisch worden opgeslagen. Via het dropdownmenu (3) kun je eenvoudig wisselen tussen verschillende [thema's](#thema-configuratie) om vervolgens wijzigingen binnen een ander thema door te voeren. Met de schakelaar **Laat quick actions zien** (4) bepaal je of de toevoegknoppen wel of niet zichtbaar zijn in de [Editor](#editor).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/22.1.png"></details> |
 
 ---
 
