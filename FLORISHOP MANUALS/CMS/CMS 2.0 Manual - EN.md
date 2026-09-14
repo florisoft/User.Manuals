@@ -1044,9 +1044,13 @@ Enter the corresponding URL for each social media channel. The social media icon
 
 #### Breadcrumbs
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Breadcrumbs | Deze beschrijving wordt aangevuld |
+This component shows visitors where they are within the website. Breadcrumbs make it easy to navigate back to previous levels or the homepage. They also contribute to an SEO-friendly website structure.
+
+| Step | Description |
+|:--|:--|
+| **1** | In this example, we have selected a [Panel](#panel) component (1) to which we add the **Breadcrumbs** component (2).<details><summary><b>Click here for the example image</b></summary><img src="media/46.1.png"></details> |
+| **2** | The **Breadcrumbs** component is now visible in the [Navigator](#navigator) (3) and the [Editor](#editor) (4). You can further configure the component via the **[General settings](#general-settings)** (5). For example, you can add a separator using **SeparatorCharacter** (6). This separator is then displayed between the page names in the Breadcrumbs component. **ZmdiIconClass** (7) may sound more complicated, but it is simply a way to add an icon. View the list of available icons via [Material Design Iconic Font](https://zavoloklom.dev/material-design-iconic-font/cheatsheet.html). Make sure to enter the correct icon name, such as `zmdi-home`.<details><summary><b>Click here for the example image</b></summary><img src="media/46.2.png"></details> |
+| **3** | Learn more about the additional settings in the [Styling](#3-styling), [Advanced](#4-advanced), and [Visibility](#5-visibility) tabs. |
 
 ---
 

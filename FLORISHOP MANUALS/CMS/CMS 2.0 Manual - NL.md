@@ -1039,9 +1039,13 @@ Vul per socialmediakanaal de bijbehorende URL in. De socialmedia-iconen worden v
 
 #### Breadcrumbs
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Breadcrumbs | Deze beschrijving wordt aangevuld |
+Dit component laat zien waar de bezoeker zich binnen de website bevindt. Via de breadcrumbs kan eenvoudig worden teruggenavigeerd naar eerdere niveaus of de startpagina. Dit draagt bovendien bij aan een SEO-vriendelijke websitestructuur.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Panel](#panel)-component (1) geselecteerd waaraan we het **Breadcrumbs**-component (2) toevoegen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/46.1.png"></details> |
+| **2** | Het **Breadcrumbs**-component is nu zichtbaar in de [Navigator](#navigator) (3) en de [Editor](#editor) (4). Via het tabblad **[Algemene instellingen](#algemene-instellingen)** (5) kun je het component verder configureren. Zo kun je via **SeparatorCharacter** (6) een scheidingselement toevoegen. Dit wordt vervolgens tussen de paginanamen in het Breadcrumbs-component weergegeven. **ZmdiIconClass** (7) klinkt wat ingewikkelder, maar is eigenlijk een eenvoudige manier om een icoon toe te voegen. Bekijk de lijst met beschikbare iconen via [Material Design Iconic Font](https://zavoloklom.dev/material-design-iconic-font/cheatsheet.html). Zorg ervoor dat je de juiste naam van het icoon invult, zoals `zmdi-home`.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/46.2.png"></details> |
+| **3** | Lees meer over de aanvullende instellingen in de tabbladen [Styling](#3-styling), [Geavanceerd](#4-geavanceerd) en [Zichtbaarheid](#5-zichtbaarheid). |
 
 ---
 
