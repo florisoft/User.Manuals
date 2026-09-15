@@ -132,12 +132,13 @@ EntryControl ondersteunt de volgende waarden:
 - `PackagingIds`: filter op één of meer fustcodes;
 - `SupplierIds`: filter op één of meer leveranciers;
 - `ShipmentNumber`: filter op tekst die in het verschepingsnummer voorkomt, zonder onderscheid tussen hoofdletters en kleine letters.
+- `ExcludeCompleted`: toon de keuze **Verberg afgehandeld**.
 
 Open het filter, vul de gewenste waarden in en kies **Toepassen**. Het getal bij de filterknop toont hoeveel filtervelden actief zijn. Meerdere ingevulde filtersoorten gelden tegelijk; een resultaat moet dus aan alle actieve filtersoorten voldoen. Binnen één meervoudige selectie, bijvoorbeeld twee voorraden, mag een artikel aan één van de geselecteerde waarden voldoen.
 
 Kies **Resetten** om alle filtervelden te wissen. De zoekterm blijft daarbij staan en de lijst wordt opnieuw geladen met die zoekterm, `InboundAreaId` en `AvailableStocks`.
 
-> EntryControl heeft in de actuele app geen afzonderlijk filter **Voltooide regels verbergen**. Volledig verwerkte regels kunnen in het overzicht blijven staan en zijn herkenbaar aan de groene statusmarkering.
+Met **Verberg afgehandeld** toont de lijst alleen open en gedeeltelijk verwerkte regels. Regels waarvan de verwerkte hoeveelheid gelijk is aan of hoger is dan de totale hoeveelheid worden verborgen; dit geldt ook wanneer beide hoeveelheden nul zijn. Schakel de keuze uit en kies **Toepassen** om de volledige lijst weer te tonen. Andere actieve filters en de zoekterm blijven daarbij van toepassing.
 
 ---
 
@@ -206,4 +207,4 @@ Na een succesmelding is de verwerking uitgevoerd en is de printopdracht door de 
 - Test printer, lay-out, `AlwaysPrintPickItemLabels` en `PrintOneLabelPerBox` als één samenhangende configuratie.
 - Behandel een printwaarschuwing als een reeds uitgevoerde ontvangstregistratie en registreer niet blind opnieuw.
 - Vertrouw niet op `TakePictureDuringProcessing` zolang deze functie als niet geïmplementeerd is gemarkeerd.
-- Handling units, zichtbare crossdock-instructies, afzonderlijke klantlabelbediening en een filter om voltooide regels te verbergen maken geen deel uit van de actuele appworkflow.
+- Handling units, zichtbare crossdock-instructies en afzonderlijke klantlabelbediening maken geen deel uit van de actuele appworkflow.

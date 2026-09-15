@@ -132,12 +132,13 @@ EntryControl supports the following values:
 - `PackagingIds`: filter by one or more packaging codes;
 - `SupplierIds`: filter by one or more suppliers;
 - `ShipmentNumber`: filter by text contained in the shipment number, without distinguishing uppercase and lowercase letters.
+- `ExcludeCompleted`: offers the **Hide completed** option.
 
 Open the filter, enter or select the required values and select **Apply**. The number beside the filter button shows how many filter fields are active. Multiple filter types apply together, so a result must satisfy every active filter type. Within one multiple selection, such as two stocks, an item may match either selected value.
 
 Select **Reset** to clear every filter field. The search term remains in place, and the list reloads using that search term, `InboundAreaId` and `AvailableStocks`.
 
-> The current EntryControl app has no separate **Hide completed** filter. Fully processed lines can remain in the overview and are identifiable by the green status indicator.
+With **Hide completed**, the list only shows unreceived and partially processed items. Items whose processed quantity equals or exceeds their total quantity are hidden; this also applies when both quantities are zero. Disable the option and select **Apply** to show the full list again. Any other active filters and the search term remain in effect.
 
 ---
 
@@ -206,4 +207,4 @@ After a success message, processing has been performed and the application has h
 - Test the printer, layout, `AlwaysPrintPickItemLabels` and `PrintOneLabelPerBox` as one coherent configuration.
 - Treat a printing warning as an already completed receipt registration; do not blindly register it again.
 - Do not rely on `TakePictureDuringProcessing` while the function is marked as not implemented.
-- Handling units, visible cross-dock instructions, separate customer-label controls and a filter for hiding completed lines are not part of the current app workflow.
+- Handling units, visible cross-dock instructions and separate customer-label controls are not part of the current app workflow.
