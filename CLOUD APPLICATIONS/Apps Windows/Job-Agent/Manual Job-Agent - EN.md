@@ -24,6 +24,24 @@ To follow the steps in this manual, you need the following:
 | **7** | Log in with your personal Job-Agent user. <details><summary><b>Click here for the example image!</b></summary><img src="Media/6.png"></details>|
 | **8** | You are now in the **Jobs** screen. Here, you will see the tasks (jobs) that your local Job-Agent retrieves from the cloud server.<details><summary><b>Click here for the example image!</b></summary><img src="Media/7.png"></details>
 
+## Job-Agent as a Windows service
+
+Use the Windows service when print jobs must also be processed while no one is signed in to the computer. Have the installation performed by an administrator with a valid Job-Agent account, using the [installation PowerShell script](Install-JobAgent-WindowsService.ps1).
+
+### Install and verify
+
+1. Start the script. If it is not already running with administrator permissions, confirm the Windows prompt to restart it with elevation.
+2. Enter the full path to `Florisoft.JobAgent.Service.exe`, the Cloud.Server URL, the Job-Agent user name, and the password.
+3. The script creates the service configuration in the LocalSystem profile and registers `Florisoft.JobAgent.Service` with **Automatic (Delayed Start)**.
+4. In **Services**, verify that the service exists, uses the intended executable, and is configured for Automatic (Delayed Start). Start the service or restart the computer.
+5. Then open Job-Agent, verify that printers are visible, and submit a test print while no desktop user is signed in.
+
+Keep the installation PowerShell script and the created configuration confidential. The service configuration contains the credentials of the selected Job-Agent account.
+
+### Signing in and out
+
+The Job-Agent user cannot sign out manually while the Windows service is active. Stop the `Florisoft.JobAgent.Service` service to sign the user out. When the service starts again, Job-Agent signs in again with the configured service credentials.
+
 ## Printer groups
 
 Printers in Florisoft (and in the apps) are only visible when they fall under a printer group.

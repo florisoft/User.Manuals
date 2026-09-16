@@ -24,6 +24,24 @@ Om de stappen in deze handleiding te volgen, dient u te beschikken over het volg
 | **7** | Log in met uw persoonlijke Job-Agent gebruiker.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/6.png"></details> |
 | **8** | U bevindt zich nu in het **Jobs**-scherm. Hier ziet u de taken (jobs) die uw lokale Job-Agent binnenhaalt via de cloudserver.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/7.png"></details> |
 
+## Job-Agent als Windows-service
+
+Gebruik de Windows-service wanneer printopdrachten ook moeten worden verwerkt als er niemand op de computer is aangemeld. Laat de installatie uitvoeren door een beheerder met een geldig Job-Agent-account en gebruik hiervoor het [installatie-PowerShellscript](Install-JobAgent-WindowsService.ps1).
+
+### Installeren en controleren
+
+1. Start het script. Wanneer het nog niet met administratorrechten draait, bevestigt u de Windows-melding om het verhoogd opnieuw te starten.
+2. Geef het volledige pad naar `Florisoft.JobAgent.Service.exe`, de Cloud.Server-URL, de Job-Agent-gebruikersnaam en het wachtwoord op.
+3. Het script maakt de serviceconfiguratie aan onder het LocalSystem-profiel en registreert `Florisoft.JobAgent.Service` met starttype **Automatisch (vertraagd starten)**.
+4. Controleer in **Services** of de service aanwezig is, het juiste uitvoerbare bestand gebruikt en op automatisch vertraagd starten staat. Start de service of herstart de computer.
+5. Open daarna Job-Agent, controleer of de printers zichtbaar zijn en voer een testprint uit zonder dat een desktopgebruiker is aangemeld.
+
+Bewaar het installatie-PowerShellscript en de aangemaakte configuratie vertrouwelijk. De serviceconfiguratie bevat de inloggegevens van het opgegeven Job-Agent-account.
+
+### Aan- en afmelden
+
+De Job-Agent-gebruiker kan niet handmatig uitloggen zolang de Windows-service actief is. Stop de service `Florisoft.JobAgent.Service` om de gebruiker uit te loggen. Bij de volgende start van de service meldt Job-Agent zich opnieuw aan met de ingestelde servicegegevens.
+
 ## Printer groepen
 
 In Florisoft (en de apps) zijn enkel printers zichtbaar die ingesteld zijn onder een printergroep.
