@@ -28,6 +28,8 @@ To follow the steps in this manual, you need the following:
 
 Use the Windows service when print jobs must also be processed while no one is signed in to the computer. Have the installation performed by an administrator with a valid Job-Agent account, using the [installation PowerShell script](Install-JobAgent-WindowsService.ps1).
 
+> **Limitation:** multiple Job-Agents as Windows services on the same computer are currently not supported. Therefore, install at most one Job-Agent with this option per computer.
+
 ### Install and verify
 
 1. Start the script. If it is not already running with administrator permissions, confirm the Windows prompt to restart it with elevation.

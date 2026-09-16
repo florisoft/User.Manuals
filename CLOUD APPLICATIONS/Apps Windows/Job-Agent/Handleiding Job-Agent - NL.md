@@ -28,6 +28,8 @@ Om de stappen in deze handleiding te volgen, dient u te beschikken over het volg
 
 Gebruik de Windows-service wanneer printopdrachten ook moeten worden verwerkt als er niemand op de computer is aangemeld. Laat de installatie uitvoeren door een beheerder met een geldig Job-Agent-account en gebruik hiervoor het [installatie-PowerShellscript](Install-JobAgent-WindowsService.ps1).
 
+> **Beperking:** meerdere Job-Agents als Windows-service op dezelfde computer worden momenteel niet ondersteund. Installeer daarom maximaal één Job-Agent met deze optie per computer.
+
 ### Installeren en controleren
 
 1. Start het script. Wanneer het nog niet met administratorrechten draait, bevestigt u de Windows-melding om het verhoogd opnieuw te starten.
