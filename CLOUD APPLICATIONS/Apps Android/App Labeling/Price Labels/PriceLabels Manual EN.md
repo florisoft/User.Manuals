@@ -28,14 +28,13 @@ The app uses a short scan-and-print flow. You scan an order item, check the deta
 
 ---
 
-## Step 1: Scan the order item (Policies: `EnabledBarcodeTypes`, `ValidBarcodeDecodeOptions`, `ProcessBluComBarcodes`)
+## Step 1: Scan the order item (Policies: `EnabledBarcodeTypes`, `ValidBarcodeDecodeOptions`)
 
 Scan the order item barcode of the sold product for which you want to print price labels.
 
 Which barcodes the app accepts depends on the configured policies:
-- `EnabledBarcodeTypes` determines which barcode types the scanner can read. The full name of this policy is `Apps_Inventory_Labeling_PriceLabel_EnabledBarcodeTypes`.
+- `EnabledBarcodeTypes` determines which barcode types the scanner can read. The full name of this policy is `Apps_Logistics_Labeling_PriceLabel_BarcodeSettings_EnabledBarcodeTypes`.
 - `ValidBarcodeDecodeOptions` determines which barcode contents the Price Labels flow can recognize and process.
-- `ProcessBluComBarcodes` determines whether BluCom barcodes may be processed.
 
 When `EnabledBarcodeTypes` is empty, the app uses the default profile containing **Interleaved 2 of 5, Code 128, Code 39, QR Code, EAN-13, Data Matrix, and UPC-A**. As soon as you select one or more types, that selection replaces the default profile. The scanner then reads only the selected types. For example, you can disable EAN-13 when a label contains multiple barcodes and only another barcode should be scanned.
 
@@ -81,7 +80,7 @@ Use this check when only orders with handling may be processed in the Price Labe
 
 ---
 
-## Step 4: Print price labels (Policies: `AskPriceLabelCopyAmount`, `PriceLabelPrinter`, `PriceLabelLayout`, `PriceLabelPrinterPerCustomer`)
+## Step 4: Print price labels (Policies: `AskPriceLabelCopyQuantity`, `PriceLabelPrinter`, `PriceLabelLayout`, `PriceLabelPrinterPerCustomer`)
 
 Press the print button to print price labels.
 
@@ -90,7 +89,7 @@ The printer and layout are determined in advance by policies:
 - `PriceLabelLayout` determines which price label layout is used.
 - `PriceLabelPrinterPerCustomer` determines whether the price label settings of the debtor are used instead of the default settings.
 
-If the policy `AskPriceLabelCopyAmount` is enabled, the app normally asks how many copies of the price label must be printed. When the automatic print flow calculates the correct number of labels, this question is skipped and the calculated number is printed directly.
+If the policy `AskPriceLabelCopyQuantity` is enabled, the app normally asks how many copies of the price label must be printed. When the automatic print flow calculates the correct number of labels, this question is skipped and the calculated number is printed directly.
 
 When the question is shown, enter the required number and confirm printing.
 
@@ -108,7 +107,7 @@ Repeat the previous steps for all order items that require price labels.
 
 **Q: Which barcode can I scan?**
 
-A: `EnabledBarcodeTypes` determines which physical barcode types the scanner can read. `ValidBarcodeDecodeOptions` then determines which barcode contents the Price Labels flow can process. If BluCom barcodes are used, `ProcessBluComBarcodes` must also be configured correctly.
+A: `EnabledBarcodeTypes` determines which physical barcode types the scanner can read. `ValidBarcodeDecodeOptions` then determines which barcode contents the Price Labels flow can process.
 
 **Q: What happens when `EnabledBarcodeTypes` is not configured?**
 
@@ -116,7 +115,7 @@ A: The app uses the default profile containing Interleaved 2 of 5, Code 128, Cod
 
 **Q: Why does the app ask how many price labels I want to print?**
 
-A: This happens when the policy `AskPriceLabelCopyAmount` is enabled and the flow does not determine the quantity automatically. When the quantity is calculated automatically, the question is skipped.
+A: This happens when the policy `AskPriceLabelCopyQuantity` is enabled and the flow does not determine the quantity automatically. When the quantity is calculated automatically, the question is skipped.
 
 **Q: Why do I get a message that a price label has already been printed?**
 

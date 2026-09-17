@@ -30,14 +30,13 @@ De app is opgebouwd uit een korte scan- en printflow. U scant een orderitem, con
 
 ---
 
-## Stap 1: Orderitem scannen (Policies: `EnabledBarcodeTypes`, `ValidBarcodeDecodeOptions`, `ProcessBluComBarcodes`)
+## Stap 1: Orderitem scannen (Policies: `EnabledBarcodeTypes`, `ValidBarcodeDecodeOptions`)
 
 Scan de orderitembarcode van het verkochte product waarvoor u prijsstickers wilt printen.
 
 Welke barcodes de app accepteert, hangt af van de ingestelde policies:
-- `EnabledBarcodeTypes` bepaalt welke typen barcodes de scanner kan lezen. De volledige naam van deze policy is `Apps_Inventory_Labeling_PriceLabel_EnabledBarcodeTypes`.
+- `EnabledBarcodeTypes` bepaalt welke typen barcodes de scanner kan lezen. De volledige naam van deze policy is `Apps_Logistics_Labeling_PriceLabel_BarcodeSettings_EnabledBarcodeTypes`.
 - `ValidBarcodeDecodeOptions` bepaalt welke inhoudelijke barcodes de Price Labels-flow kan herkennen en verwerken.
-- `ProcessBluComBarcodes` bepaalt of BluCom-barcodes verwerkt mogen worden.
 
 Als `EnabledBarcodeTypes` leeg is, gebruikt de app het standaardprofiel met **Interleaved 2 of 5, Code 128, Code 39, QR-code, EAN-13, Data Matrix en UPC-A**. Zodra u een of meer typen selecteert, vervangt die selectie het standaardprofiel. De scanner leest dan alleen de geselecteerde typen. Zo kunt u bijvoorbeeld EAN-13 uitschakelen wanneer een sticker meerdere barcodes bevat en alleen een andere barcode gescand mag worden.
 
@@ -83,7 +82,7 @@ Gebruik deze controle wanneer alleen orders met handling verwerkt mogen worden i
 
 ---
 
-## Stap 4: Prijsstickers printen (Policies: `AskPriceLabelCopyAmount`, `PriceLabelPrinter`, `PriceLabelLayout`, `PriceLabelPrinterPerCustomer`)
+## Stap 4: Prijsstickers printen (Policies: `AskPriceLabelCopyQuantity`, `PriceLabelPrinter`, `PriceLabelLayout`, `PriceLabelPrinterPerCustomer`)
 
 Druk op de printknop om prijsstickers af te drukken.
 
@@ -92,7 +91,7 @@ De printer en layout worden vooraf bepaald door policies:
 - `PriceLabelLayout` bepaalt welke prijssticker-layout wordt gebruikt.
 - `PriceLabelPrinterPerCustomer` bepaalt of de prijslabelinstellingen van de debiteur worden gebruikt in plaats van de standaardinstellingen.
 
-Als de policy `AskPriceLabelCopyAmount` is ingeschakeld, vraagt de app normaal hoeveel kopieën van de prijssticker geprint moeten worden. Wanneer de automatische afdrukflow zelf het juiste aantal stickers berekent, wordt deze vraag overgeslagen en wordt het berekende aantal direct geprint.
+Als de policy `AskPriceLabelCopyQuantity` is ingeschakeld, vraagt de app normaal hoeveel kopieën van de prijssticker geprint moeten worden. Wanneer de automatische afdrukflow zelf het juiste aantal stickers berekent, wordt deze vraag overgeslagen en wordt het berekende aantal direct geprint.
 
 Wanneer de vraag wordt getoond, vult u het gewenste aantal in en bevestigt u het printen.
 
@@ -110,7 +109,7 @@ Herhaal de vorige stappen voor alle orderitems waarvoor prijsstickers nodig zijn
 
 **V: Welke barcode kan ik scannen?**
 
-A: `EnabledBarcodeTypes` bepaalt welke fysieke barcodetypen de scanner kan lezen. `ValidBarcodeDecodeOptions` bepaalt vervolgens welke barcode-inhoud de Price Labels-flow kan verwerken. Als BluCom-barcodes gebruikt worden, moet ook `ProcessBluComBarcodes` correct zijn ingesteld.
+A: `EnabledBarcodeTypes` bepaalt welke fysieke barcodetypen de scanner kan lezen. `ValidBarcodeDecodeOptions` bepaalt vervolgens welke barcode-inhoud de Price Labels-flow kan verwerken.
 
 **V: Wat gebeurt er als `EnabledBarcodeTypes` niet is ingesteld?**
 
@@ -118,7 +117,7 @@ A: Dan gebruikt de app het standaardprofiel met Interleaved 2 of 5, Code 128, Co
 
 **V: Waarom vraagt de app hoeveel prijsstickers ik wil printen?**
 
-A: Dit gebeurt wanneer de policy `AskPriceLabelCopyAmount` is ingeschakeld en de flow het aantal niet automatisch bepaalt. Bij automatisch bepaald aantal wordt de vraag overgeslagen.
+A: Dit gebeurt wanneer de policy `AskPriceLabelCopyQuantity` is ingeschakeld en de flow het aantal niet automatisch bepaalt. Bij automatisch bepaald aantal wordt de vraag overgeslagen.
 
 **V: Waarom krijg ik een melding dat er al een prijssticker is geprint?**
 
