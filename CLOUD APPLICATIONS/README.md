@@ -9,6 +9,7 @@ Deze pagina helpt u de juiste klantdocumentatie voor Florisoft Apps te vinden. D
 | Onderwerp | Documentatie |
 |---|---|
 | Hub-app installeren en apps beheren | [Installatiehandleiding Hub-app](App%20Hub/Hub-App%20Installatie%20NL.md) |
+| Android-apparaten centraal configureren via MDM | [MDM-configuratie Hub-app](App%20Configuration/Android%20MDM%20Configuration/Handleiding%20Android%20MDM-configuratie%20-%20NL.md) |
 | Licentiesleutels ophalen en beheren | [Handleiding licentiesleutels](App%20Configuration/Licentie%20Keys%20ophalen%20en%20beheren.md) |
 | Dagelijks gebruik van Android-apps | [Handleidingen Android-apps](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Apps%20Android) |
 | Afdrukken vanuit apps | [Handleiding Job Agent](Apps%20Windows/Job-Agent/Handleiding%20Job-Agent%20-%20NL.md) |

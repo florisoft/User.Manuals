@@ -9,6 +9,7 @@ This page helps you find the right customer documentation for Florisoft Apps. Th
 | Subject | Documentation |
 |---|---|
 | Installing the Hub app and managing apps | [Hub app installation manual](App%20Hub/Hub-App%20Installation%20EN.md) |
+| Centrally configuring Android devices through MDM | [Hub app MDM configuration](App%20Configuration/Android%20MDM%20Configuration/Manual%20Android%20MDM%20Configuration%20-%20EN.md) |
 | Retrieving and managing license keys | [License key management guide](App%20Configuration/License%20Keys%20retrieval%20and%20management%20guide.md) |
 | Day-to-day use of Android apps | [Android app manuals](https://github.com/florisoft/User.Manuals/tree/main/CLOUD%20APPLICATIONS/Apps%20Android) |
 | Printing from apps | [Job Agent manual](Apps%20Windows/Job-Agent/Manual%20Job-Agent%20-%20EN.md) |
