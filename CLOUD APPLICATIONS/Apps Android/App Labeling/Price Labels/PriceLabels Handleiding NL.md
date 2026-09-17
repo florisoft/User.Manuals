@@ -45,9 +45,17 @@ Een barcode wordt alleen verwerkt als het fysieke barcodetype is ingeschakeld vi
 
 ---
 
+### Direct printen
+
+Schakel **Direct printen** op het startscherm in wanneer u na een geldige scan meteen prijsstickers wilt afdrukken. Bij één gevonden orderitem slaat de app dan het detailscherm over en stuurt zij de printopdracht direct naar de ingestelde printer.
+
+Als de barcode meerdere orderitems oplevert, kiest u eerst het juiste orderitem. Wanneer de policy `CheckIfPriceLabelPrinted` is ingeschakeld, blijft de bevestigingsmelding voor een eerder geprinte prijssticker ook bij direct printen zichtbaar.
+
+Schakel **Direct printen** uit wanneer u vóór iedere printopdracht de orderitemgegevens, inhoud bos of het aantal kopieën wilt controleren.
+
 ## Stap 2: Orderitem controleren en inhoud aanpassen
 
-Na het scannen opent het detailscherm van het orderitem.
+Wanneer **Direct printen** is uitgeschakeld, opent na het scannen het detailscherm van het orderitem.
 
 In dit scherm ziet u de gegevens van het gescande orderitem. Controleer of dit het juiste product is voordat u gaat printen.
 

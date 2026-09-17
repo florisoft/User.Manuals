@@ -43,9 +43,17 @@ A barcode is processed only when its physical barcode type is enabled through `E
 
 ---
 
+### Direct print
+
+Enable **Direct print** on the home screen when you want to print price labels immediately after a valid scan. If one order item is found, the app skips the detail screen and sends the print job directly to the configured printer.
+
+If the barcode returns multiple order items, first select the correct order item. When the `CheckIfPriceLabelPrinted` policy is enabled, the confirmation message for a previously printed price label is still shown when direct print is enabled.
+
+Disable **Direct print** when you want to check the order item details, bunch content, or number of copies before every print job.
+
 ## Step 2: Check the order item and adjust the bunch content
 
-After scanning, the order item detail screen opens.
+When **Direct print** is disabled, the order item detail screen opens after scanning.
 
 In this screen you see the details of the scanned order item. Check that this is the correct product before printing.
 
