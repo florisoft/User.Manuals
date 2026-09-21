@@ -163,7 +163,12 @@ For automatic printing, the policies under **Packing List** must be configured c
 
 The Job Agent must be reachable to send the print job to the printer. Florisoft shows a message when a printer or layout is missing or printing fails. Check this message before starting the physical picking process.
 
-`Backoffice_Logistics_OrderPick_AllowedToPrintPackingListToPDA` must also be enabled when the packing list is printed through the PDA delivery and printing flow. When this Backoffice policy is disabled, Florisoft blocks packing-list printing through PDA even if `ActivateWorkOrderAdditionalActions` contains `PrintPackingList` and `PrinterName`, `ReportName` and `Enabled` are configured correctly.
+### Printing during Deliver via PDA
+
+During **Deliver and print via PDA**, Florisoft normally prints the packing list and pick-order labels when the printer and layout settings are configured correctly. These Backoffice policies determine whether printing is allowed for each document type:
+
+- `Backoffice_Logistics_OrderPick_AllowedToPrintPackingListToPDA`: disable it to prevent the packing list from printing in this PDA flow.
+- `Backoffice_Logistics_OrderPick_AllowedToPrintStickersToPDA`: disable it to prevent the labels from printing in this PDA flow.
 
 ---
 
@@ -378,7 +383,7 @@ Check the location and unique carrier. Select an alternative location or registe
 
 ### Printing does not work
 
-Check whether automatic printing at activation is enabled and the correct action is selected. For pick-item labels, check `PrintPickItemLabels`, `PickItemLabelPrinter`, `PickItemLabelLayout` and that the Job Agent is reachable. The message that a job was sent to a printer confirms only submission; always check the physical result when setting up or changing a printer. For a packing list, check the printer and layout, whether printing from the PDA is permitted, and the selected packing-list grouping. For printing after the completion scan, also check the configured instruction barcode and its associated print action.
+Check whether automatic printing at activation is enabled and the correct action is selected. For pick-item labels, check `PrintPickItemLabels`, `PickItemLabelPrinter`, `PickItemLabelLayout` and that the Job Agent is reachable. If labels are incorrectly printed again, or are not printed again, during **Deliver via PDA**, check `Backoffice_Logistics_OrderPick_AllowedToPrintStickersToPDA`. The message that a job was sent to a printer confirms only submission; always check the physical result when setting up or changing a printer. For a packing list, check the printer and layout, whether printing from the PDA is permitted, and the selected packing-list grouping. For printing after the completion scan, also check the configured instruction barcode and its associated print action.
 
 ### An additional action is unavailable
 
