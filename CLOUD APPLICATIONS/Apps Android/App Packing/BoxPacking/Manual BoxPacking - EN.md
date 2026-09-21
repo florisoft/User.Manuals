@@ -110,6 +110,13 @@ The backend always processes the final quantity in stems. With `Bunches`, BoxPac
 
 The **Look ahead** action is available in the Sorting workflow. It shows which pick items for the active customer and order have not yet been processed at the packing table. This action does not change the packing table or pack any products.
 
+Use the `EnableFinalCheckedItemsFilter` policy to determine whether fully final-checked items are shown in **Look ahead**:
+
+- `false`: final-checked items remain visible according to the existing packing-table logic;
+- `true`: fully final-checked items are hidden. For a partly final-checked item, only the remaining quantity is shown.
+
+Enable this policy only when the employee should see only the items that still need to be processed in **Look ahead**.
+
 ---
 
 ## Step 4 – Select an existing or new box

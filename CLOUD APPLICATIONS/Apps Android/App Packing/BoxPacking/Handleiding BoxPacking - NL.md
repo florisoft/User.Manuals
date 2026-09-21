@@ -110,6 +110,13 @@ De backend verwerkt de definitieve hoeveelheid altijd in stelen. Bij `Bunches` r
 
 In de Sorting-flow is **Kijk vooruit** beschikbaar. Hiermee ziet u welke pickitems van de actieve klant en order nog niet aan de inpaktafel zijn verwerkt. Deze actie verandert de inpaktafel niet en pakt geen producten in.
 
+Met de policy `EnableFinalCheckedItemsFilter` bepaalt u of volledig eindgecontroleerde handel in **Kijk vooruit** wordt getoond:
+
+- `false`: eindgecontroleerde handel blijft volgens de bestaande inpaktafel-logica zichtbaar;
+- `true`: volledig eindgecontroleerde handel wordt niet getoond. Bij een gedeeltelijke eindcontrole blijft alleen het resterende aantal zichtbaar.
+
+Schakel deze policy alleen in wanneer een medewerker in **Kijk vooruit** uitsluitend de nog te verwerken handel moet zien.
+
 ---
 
 ## Stap 4 – Een bestaande of nieuwe doos kiezen
