@@ -204,7 +204,7 @@ The ordered `PickItemDetails` list determines which additional fields appear on 
 - `Remark`: remark;
 - `ArticleNumber`: article number.
 
-An available `Remark` appears by default in **Orderpicks** and **Details** and can also be added as a detail item through `PickItemDetails`. The manual order-line remark (`OPMERKING`) takes precedence; if it is empty, the app displays the webshop note from **Stock > Note** (`OPMERKING2`). Remarks are not combined.
+An available `Remark` appears by default in **Orderpicks** and **Details** and can also be added as a detail item through `PickItemDetails`. In **Orderpicks**, the display is limited to two lines; an ellipsis indicates that the text is longer. Open the pick item to read the full remark in **Details**. The manual order-line remark (`OPMERKING`) takes precedence; if it is empty, the app displays the webshop note from **Stock > Note** (`OPMERKING2`). Remarks are not combined.
 
 The default list contains `Sku`, `Word`, `S1` through `S5`, `Color` and `PackagingCode`.
 
