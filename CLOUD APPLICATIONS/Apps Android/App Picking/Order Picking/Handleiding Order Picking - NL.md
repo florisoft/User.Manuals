@@ -341,19 +341,23 @@ De policy `Addons_EnableAddons` onder **Order Picking → Add-ons** bepaalt welk
 
 Een geselecteerde actie wordt alleen bruikbaar wanneer ook de bijbehorende licentie en integratie beschikbaar zijn. De algemene add-onwaarden `CMR` en `ExceptionRegistration` worden niet via deze Order Picking-lijst aangeboden.
 
+Tik op een extra handeling om deze direct te openen; er volgt geen afzonderlijke knop **Bevestig**.
+
 ### Adreslabel printen
 
 1. Open **Extra handelingen**.
 2. Selecteer **Adreslabel printen**.
-3. Tik op **Bevestig**.
-4. Volg de stappen om het label te printen.
+3. Volg de stappen om het label te printen.
 
 ### Retourverpakkingen registreren
 
 1. Open **Extra handelingen**.
 2. Selecteer **Retourverpakkingen registreren**.
-3. Tik op **Bevestig**.
-4. Registreer de uitgaande fusten voor de getoonde order.
+3. Controleer of Returnables Outbound de juiste klant en order toont. Een eigen actieve sessie voor dezelfde klant en order wordt hervat; anders maakt de app één nieuwe sessie en batch aan.
+4. Registreer de uitgaande fusten.
+5. Kies **Gereed** om de telling direct volgens de Returnables-policies te verwerken, de sessie te sluiten en terug te keren naar Order Picking.
+
+Wilt u stoppen zonder de telling te verwerken, kies dan **Annuleren**. Bij **Nee** blijft u in de telling. Bij bevestiging verwijdert de app de ingevoerde batchregels, stopt de sessie en keert terug naar Order Picking zonder fustaantallen administratief te verwerken.
 
 ### Foto's maken en bewaren
 

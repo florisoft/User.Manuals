@@ -16,6 +16,8 @@ Open an order or session by scanning a supported barcode or by manually selectin
 
 After a final outbound check, you can also start Returnables Outbound directly from **Additional Actions** in Final Outbound Check. The app then carries over the available customer, order and grouping context. For a grouped customer or hub inspection, the configured returnables customer and order are used. If no valid context can be resolved, Returnables Outbound is not opened.
 
+After the final inspection of a pick order, you can also start Returnables Outbound through **Additional actions → Register returnables** in Order Picking. The action opens the counting page immediately for the pick order's customer and order. The app resumes your active child session for the same customer and order. When none exists, it creates one new active session and batch.
+
 When selecting manually:
 
 1. Find and select the customer.
@@ -41,6 +43,12 @@ Counts are stored in batches. A batch can represent a trolley, workstation or co
 On the counting page you can change the quantities of standard package codes, add another package type when permitted, use quick input, scan a package barcode to add one, create a new batch and navigate between batches.
 
 The first batch must contain at least one positive quantity before you can continue. Setting a previously registered quantity to zero removes it after confirmation. Negative quantities are not allowed.
+
+### Complete or cancel from Order Picking
+
+When Returnables Outbound was opened from Order Picking, **Done** completes the session immediately. The configured `FinalizeSession` steps are performed, the quantities are processed according to `PackageManagementRegistrationStrategy`, and the closed session returns control to Order Picking.
+
+Choose **Cancel** to return without processing. The app asks for confirmation. Choosing **No** keeps the count open and retains the entered quantities. Confirming cancellation removes the entered batch items, stops the session and returns to Order Picking without administratively processing the quantities.
 
 | Policy | Effect |
 | --- | --- |
@@ -105,6 +113,7 @@ Open the Backoffice constants screen and go to **System → Users → Policy Man
 | Path | Policies |
 | --- | --- |
 | `Apps` | `PackagingPicturesFolderPath` |
+| `Apps → Logistics → Picking → OrderPicking → Addons` | Add `Returnables` to `EnableAddons` to show the action after the pick-order final inspection. |
 | `Apps → Logistics → Returnables` | `AvailableCustomerFilterOptions`, `ValidBarcodeDecodeOptions` |
 | `Apps → Logistics → Returnables → Outbound → PackagingCounting` | `StandardPackageCodes`, `SortPackagingType`, `AllowAdditionalPackaging`, `ShowQuickInput`, `ValidBarcodeDecodeOptions` |
 | `Apps → Logistics → Returnables → Outbound → FinalizeSession` | `RequireReferenceCode`, `RequireSignature`, `PrintPackingListOption`, `MailPackingListOption`, `PackageManagementRegistrationStrategy` |

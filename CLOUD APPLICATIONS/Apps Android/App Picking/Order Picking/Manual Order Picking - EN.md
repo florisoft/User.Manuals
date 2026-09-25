@@ -341,19 +341,23 @@ The `Addons_EnableAddons` policy under **Order Picking → Add-ons** determines 
 
 A selected action is usable only when the corresponding licence and integration are also available. The general add-on values `CMR` and `ExceptionRegistration` are not offered through this Order Picking list.
 
+Tap an additional action to open it immediately; there is no separate **Confirm** button.
+
 ### Print an address label
 
 1. Open **Additional actions**.
 2. Select **Print address label**.
-3. Tap **Confirm**.
-4. Follow the steps to print the label.
+3. Follow the steps to print the label.
 
 ### Register returnable packaging
 
 1. Open **Additional actions**.
 2. Select **Register returnables**.
-3. Tap **Confirm**.
-4. Register the outbound packaging for the displayed order.
+3. Verify that Returnables Outbound shows the correct customer and order. The app resumes your active session for the same customer and order, or creates one new session and batch when none exists.
+4. Register the outbound packaging.
+5. Choose **Done** to process the count immediately according to the Returnables policies, close the session and return to Order Picking.
+
+To leave without processing the count, choose **Cancel**. Choosing **No** keeps the count open. Confirming cancellation removes the entered batch items, stops the session and returns to Order Picking without administratively processing the quantities.
 
 ### Take and retain pictures
 

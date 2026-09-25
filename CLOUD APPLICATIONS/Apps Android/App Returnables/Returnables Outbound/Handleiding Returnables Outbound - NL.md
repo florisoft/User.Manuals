@@ -16,6 +16,8 @@ U kunt een order of sessie openen door een ondersteunde barcode te scannen of do
 
 Na een eindcontrole kunt u Returnables Outbound ook rechtstreeks starten via **Additionele acties** in Final Outbound Check. De app neemt dan de beschikbare klant-, order- en groeperingscontext over. Bij een gegroepeerde klant- of hubcontrole wordt de ingestelde fustdebiteur en fustorder gebruikt. Als geen geldige context kan worden bepaald, wordt Returnables Outbound niet geopend.
 
+Na de eindcontrole van een pickorder kunt u Returnables Outbound daarnaast starten via **Extra handelingen → Retourverpakkingen registreren** in Order Picking. De actie opent de telpagina direct voor de klant en order van de pickorder. De app hervat uw eigen actieve child-sessie voor dezelfde klant en order. Bestaat die niet, dan maakt de app één nieuwe actieve sessie en batch aan.
+
 Bij handmatige selectie:
 
 1. Zoek en selecteer de klant.
@@ -47,6 +49,12 @@ Op de telpagina kunt u:
 - een volgende batch beginnen en tussen bestaande batches navigeren.
 
 Een eerste batch moet minimaal één positief aantal bevatten voordat u verder kunt. Een hoeveelheid nul verwijdert een eerder geregistreerde regel na bevestiging. Negatieve aantallen zijn niet toegestaan.
+
+### Vanuit Order Picking afronden of annuleren
+
+Als Returnables Outbound vanuit Order Picking is geopend, rondt **Gereed** de sessie direct af. De ingestelde `FinalizeSession`-stappen worden uitgevoerd, de geregistreerde aantallen worden volgens `PackageManagementRegistrationStrategy` verwerkt en de gesloten sessie keert terug naar Order Picking.
+
+Kies **Annuleren** om zonder verwerking terug te gaan. De app vraagt om bevestiging. Bij **Nee** blijft u in de telling en blijven de ingevoerde aantallen zichtbaar. Bij bevestiging verwijdert de app de ingevoerde batchregels, stopt de sessie en keert terug naar Order Picking zonder de fustaantallen administratief te verwerken.
 
 De volgende policies bepalen de telpagina:
 
@@ -115,6 +123,7 @@ De policies staan op de volgende plaatsen:
 | Pad | Policies |
 | --- | --- |
 | `Apps` | `PackagingPicturesFolderPath` |
+| `Apps → Logistics → Picking → OrderPicking → Addons` | Voeg `Returnables` toe aan `EnableAddons` om de actie na de pickorder-eindcontrole te tonen. |
 | `Apps → Logistics → Returnables` | `AvailableCustomerFilterOptions`, `ValidBarcodeDecodeOptions` |
 | `Apps → Logistics → Returnables → Outbound → PackagingCounting` | `StandardPackageCodes`, `SortPackagingType`, `AllowAdditionalPackaging`, `ShowQuickInput`, `ValidBarcodeDecodeOptions` |
 | `Apps → Logistics → Returnables → Outbound → FinalizeSession` | `RequireReferenceCode`, `RequireSignature`, `PrintPackingListOption`, `MailPackingListOption`, `PackageManagementRegistrationStrategy` |
