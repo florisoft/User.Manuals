@@ -139,6 +139,14 @@ Set the print order of distribution labels through the `IniSettings_FSTeleverkoo
 
 After activation, the **Orderpicks** screen opens. The `ActivateWorkOrderAdditionalActions` policy determines which actions Florisoft performs immediately during activation. The supported actions are `PrintPackingList` and `PrintPickItemLabels`; an empty list performs no automatic action.
 
+### Choose printers with a QR code
+
+To send the packing list and pick-item labels to the required printers through a printer situation, enable `ActivateWorkOrderPrinterPrompt` under **Order Picking**. Create a policy situation linked to a policy profile that configures the printers and layouts for both documents. The picker can then choose the required printers when activating a work order.
+
+After claiming a work order, the picker taps the **arrow** to activate it. The app first requests the printer situation QR code. Scan an FSQR code containing the situation name. A valid scan activates the situation and then activates the work order. The picker can also scan a situation that is already active. The configured print actions then use the printers from the policy profile.
+
+If the picker cancels the scan or the QR code contains no printer situation, the work order is not activated and the existing claim remains available. A packing list can also be printed as a separate action at completion, as described in step 10.
+
 ### Automatically print pick-item labels
 
 Select `PrintPickItemLabels` in `ActivateWorkOrderAdditionalActions` to automatically print labels for the work order's pick items after activation. Configure the following policies under **Order Picking → PickItemLabelPrintSettings** first:

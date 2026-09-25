@@ -139,6 +139,14 @@ Stel de printvolgorde van verdeelstickers in via de policy `IniSettings_FSTeleve
 
 Na activering opent het scherm **Orderpicks**. De policy `ActivateWorkOrderAdditionalActions` bepaalt welke acties Florisoft direct tijdens de activatie uitvoert. De ondersteunde acties zijn `PrintPackingList` en `PrintPickItemLabels`; een lege lijst voert geen automatische actie uit.
 
+### Printer kiezen met een QR-code
+
+Wilt u de paklijst en pickorderstickers via een printersituatie naar de gewenste printers sturen, schakel dan onder **Order Picking** de policy `ActivateWorkOrderPrinterPrompt` in. Maak een policysituatie met een gekoppeld policyprofiel waarin de printers en lay-outs voor beide documenten zijn ingesteld. Zo kan de medewerker bij het activeren de gewenste printers kiezen.
+
+Na het claimen van een werkopdracht tikt de medewerker op de **pijl** om deze te activeren. De app vraagt dan eerst om de QR-code van de printersituatie. Scan een FSQR-code met de naam van de situatie. Na een geldige scan wordt de situatie actief en wordt de werkopdracht geactiveerd. Ook als dezelfde situatie al actief is, kan de medewerker deze opnieuw scannen. De ingestelde printacties worden daarna uitgevoerd met de printers uit het policyprofiel.
+
+Annuleert de medewerker de scan of bevat de QR-code geen printersituatie, dan wordt de werkopdracht niet geactiveerd; de bestaande claim blijft beschikbaar. De paklijst kan daarnaast als afzonderlijke actie bij het afronden worden geprint, zoals beschreven in stap 10.
+
 ### Pickorderstickers automatisch printen
 
 Kies `PrintPickItemLabels` in `ActivateWorkOrderAdditionalActions` om na activatie automatisch stickers voor de pickitems van de werkopdracht af te drukken. Richt vooraf onder **Order Picking → PickItemLabelPrintSettings** de volgende policies in:
