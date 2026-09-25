@@ -131,9 +131,7 @@ Een geclaimde opdracht blijft tijdelijk voor de medewerker gereserveerd. Wordt d
 
 ### Verdeelstickers sorteren bij het printen
 
-Moeten de verdeelstickers een specifieke volgorde volgen bij het printen, stel deze dan in via de Backoffice-policy `Backoffice_Logistics_OrderPick_StickerSorting`. De sortering wordt niet overgenomen uit een persoonlijke `FS_2000`-instelling.
-
-Selecteer `WalkingRoute` om de verdeelstickers te sorteren op de locatievolgorde van de ingestelde looproute. Vul hiervoor ook `Backoffice_Logistics_OrderPick_DefaultWalkingRoute` in. Locaties die niet in deze looproute voorkomen, worden achter de locaties uit de route geplaatst.
+Stel de printvolgorde van verdeelstickers in via de policy `IniSettings_FSTeleverkoop_VerdeelstickerSortering`. Kies de gewenste sorteerwaarden, bijvoorbeeld `LocatieCode`, `Barcode_chrono` of `stickerVan`. Met `LocatieCode` kunt u de stickers op locatiecode sorteren.
 
 ---
 

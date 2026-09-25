@@ -131,9 +131,7 @@ A claimed assignment remains reserved for the employee temporarily. If it is not
 
 ### Sort distribution labels when printing
 
-If distribution labels must follow a specific order when they are printed, configure it through the `Backoffice_Logistics_OrderPick_StickerSorting` Backoffice policy. The sorting is not taken from a personal `FS_2000` setting.
-
-Select `WalkingRoute` to sort the distribution labels according to the location sequence of the configured walking route. Also configure `Backoffice_Logistics_OrderPick_DefaultWalkingRoute`. Locations that are not included in this walking route are placed after the locations from the route.
+Set the print order of distribution labels through the `IniSettings_FSTeleverkoop_VerdeelstickerSortering` policy. Choose the required sort values, such as `LocatieCode`, `Barcode_chrono` or `stickerVan`. Use `LocatieCode` to sort the labels by location code.
 
 ---
 
