@@ -58,13 +58,15 @@ De volgende policies bepalen de telpagina:
 | `ShowQuickInput` | Toont of verbergt de snelle invoer. |
 | `ValidBarcodeDecodeOptions` | Bepaalt welke fustbarcodes op de telpagina worden herkend. Standaard is de fustbarcode beschikbaar. |
 
-Als `Apps → PackagingPicturesFolderPath` is ingesteld, kan de app bij een fustcode een herkenningsfoto tonen. De foto moet in de ingestelde map beschikbaar zijn met de fustcode als bestandsnaam.
+Als `Apps → PackagingPicturesFolderPath` is ingesteld, kan de app bij een fustcode een herkenningsfoto tonen. Vul hier het pad in naar een map die door de Florisoft-server kan worden gelezen. Sla iedere foto op als JPG-bestand met exact de fustcode als bestandsnaam. Voor fustcode `025` gebruikt u bijvoorbeeld `025.jpg`.
+
+[Download de standaard fustfoto's](../Standaard%20fustfotos.zip?raw=1), pak het ZIP-bestand uit en gebruik de uitgepakte map bij `PackagingPicturesFolderPath`. De download bevat 255 foto's die al volgens `<fustcode>.jpg` zijn benoemd. U kunt de set aanvullen of een foto vervangen zolang de bestandsnaam overeenkomt met de fustcode in Florisoft.
 
 ### Stap 3: eindcontrole
 
 Kies **Gereed** om naar de eindcontrole te gaan. Hier ziet u de totalen per fustcode. Selecteer een totaal om de onderliggende batchregels te bekijken.
 
-Controleer de aantallen zorgvuldig. U kunt een foutieve batchregel verwijderen voordat u bevestigt. De sessie kan niet worden afgerond zonder geregistreerde totalen of wanneer het totaal nul is.
+Controleer de aantallen zorgvuldig. In de onderliggende batchregels kunt u een aantal wijzigen of een foutieve batchregel verwijderen voordat u bevestigt. Het totaal van de betreffende fustcode wordt na de correctie automatisch bijgewerkt. De sessie kan niet worden afgerond zonder geregistreerde totalen of wanneer het totaal nul is.
 
 ### Stap 4: sessie afronden
 
@@ -75,12 +77,14 @@ Bij het bevestigen kan de app, afhankelijk van de policies, aanvullende informat
 - `MailPackingListOption`: verbergt de e-mailkeuze of toont deze met standaard **Ja** of **Nee**;
 - `RequireSignature`: vraagt om een handtekening wanneer een paklijst wordt afgedrukt of gemaild.
 
-Na een succesvolle afronding worden de inkomende fustaantallen bij de geselecteerde klant en order geregistreerd en wordt de sessie gesloten. De order moet daarom bij een bestaande factuur horen; anders kan de registratie niet worden voltooid.
+Na een succesvolle afronding wordt het inkomende fust rechtstreeks in de fustadministratie geregistreerd voor de geselecteerde klant en order. Op de gekoppelde factuur wordt het totale inkomende aantal als een negatieve fustregel vastgelegd. De verwerking in de fustadministratie is standaardgedrag en wordt niet door een afzonderlijke policy bepaald. Daarna wordt de sessie gesloten. De order moet daarom bij een bestaande factuur horen; anders kan de registratie niet worden voltooid.
 
 Als afdrukken of mailen is gekozen, gebruikt de app de volgende instellingen:
 
 - `PackageListPrinter`: printer voor de fustpaklijst;
-- `PackageListPrintLayout`: afdruklay-out voor de fustpaklijst.
+- `PackageListPrintLayout`: afdruklay-out voor de fustpaklijst. Alleen rapportlay-outs van lijstsoort `FustAdminPaklijst` kunnen worden geselecteerd. Is de keuzelijst leeg, dan is nog geen geschikte rapportlay-out beschikbaar.
+
+Is voor de debiteur `AssetManagementPackageReceiptLayout` ingesteld, dan gebruikt de app deze lay-out. Deze debiteurinstelling heeft voorrang op de policy `PackageListPrintLayout`. Als geen debiteurlay-out is ingesteld, gebruikt de app de lay-out uit de policy.
 
 ## Een sessie stoppen zonder afronden
 
@@ -121,3 +125,7 @@ Controleer of er een positief totaal is, of een verplichte referentie is ingevul
 **Waarom verschijnt geen keuze voor afdrukken of mailen?**
 
 De betreffende policy staat dan op `DoNotShow` (**Niet tonen**).
+
+**Waarom kan ik bij `PackageListPrintLayout` niets selecteren?**
+
+Controleer of in Florisoft een rapportlay-out van lijstsoort `FustAdminPaklijst` beschikbaar is. Alleen lay-outs van deze lijstsoort worden in de keuzelijst getoond.

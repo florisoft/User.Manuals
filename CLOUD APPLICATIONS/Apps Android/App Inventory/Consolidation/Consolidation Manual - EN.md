@@ -78,11 +78,21 @@ Select one or more parcels and confirm the link with the scanned location. Durin
 
 When the link is successful, the location is updated and a confirmation is shown. If an error occurs, the app shows a message with the reason.
 
+### Automatically register a parcel as received
+
+Use the `AdditionalActions` policy to run an extra action after a successful link. Select `MarkAsReceived` to register the linked parcel as received immediately. The action runs only after placing or updating the parcel succeeds; if an error occurs, the received status remains unchanged.
+
+This option requires a valid **Entry Control** license (`Logistics.Receiving.EntryControl`).
+
 ---
 
 ## Step 4 - Stock check and correction (optional)
 
 In the parcel detail view, you can adjust quantities directly and process a mutation.
+
+### Recording the check status
+
+If you check a parcel without changing its details, the app records the check status automatically after the next successful follow-up action: scan another parcel, scan a different location, or return to the Home screen. Only the last checked parcel receives this status. If the follow-up action fails, the check status remains unchanged.
 
 When open pick orders are linked to the parcel, Consolidation includes the remaining quantity to pick in the displayed stock total by default.
 

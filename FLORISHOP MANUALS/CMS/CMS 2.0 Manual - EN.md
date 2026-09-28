@@ -36,6 +36,7 @@
 - [Editor](#editor)
 - [Navigator](#navigator)
 - [Component dialog](#component-dialog)
+- [CMS Zone](#cms-zone)
 
 ---
 
@@ -54,6 +55,7 @@
 
 #### 2. General Settings
 - [Translations](#translations)
+- [URL](#url)
 
 #### 3. Styling
 - [Color Picker](#color-picker)
@@ -67,6 +69,7 @@
 #### 4. Advanced
 - [Hide When Empty](#hide-when-empty)
 - [Identification Name](#identification-name)
+- [Add Button Visibility (in Editor)](#add-button-visibility-in-editor)
 - [Slot Name](#slot-name)
 - [HTML Class Name](#html-class-name)
 - [Tag](#tag)
@@ -109,6 +112,7 @@
 - [Product Card](#product-card)
 - [Social Icons](#social-icons)
 - [Breadcrumbs](#breadcrumbs)
+- [Page search](#page-search)
 - [Icon Link](#icon-link)
 - [Banner](#banner)
 - [Inventory Navigation](#inventory-navigation)
@@ -201,20 +205,23 @@ Categories are the tabs displayed next to the stock and order lists. CMS pages c
 
 #### Page
 
-A CMS page is an accessible section within the CMS where content can be placed. A page can belong to a custom-created category. CMS pages can be compared to product groups within standard webshop stock lists. Various elements can be placed on a CMS page, such as images, videos, text blocks, tables, and more.
+A CMS page is an accessible section within the CMS where content can be placed. A page can be linked to a category created by the user. CMS pages are comparable to product groups within the standard webshop inventory.
+
+Different types of content can be placed on a CMS page, such as images, videos, text blocks, tables, and other CMS elements.
 
 *Follow the steps below:*
 
-|#|Explanation|
+| Step | Description |
 |:--|:--|
-|**1**|After creating the category, navigate via **Content Management (CMS)** (1) to **Pages** (2).<details><summary><b>Click here for the example image</b></summary><img src="media/2.1.png"></details>|
-|**2**|To create a new page, click the **+** button (3). This opens the page creation screen. A dialog will appear. Configure the following settings:<br><br>- **URL (4):** Enter the name of the page as it should appear in the page URL. You do not need to enter the entire domain; only the path is required, for example: *example*.<br>**DO NOT USE SPACES OR CAPITAL LETTERS!**<br><br>- **Page display name (5):** Enter the name that will be displayed to customers on the website.<br><br>- **Category (6):** Select the appropriate category, namely the category created in the previous chapter.<br><br>- **Template OPTIONAL (7):** Select a template that will be automatically applied to the page when it is created.<br><br>- **Is visible in navigation (8):** Enable this checkbox to make the page visible in the webshop navigation.<br><br>- **Submit (9):** Click **Submit** to create the page.<details><summary><b>Click here for the example image</b></summary><img src="media/2.2.png"></details>|
-|**3**|Click the pencil icon (10) to open the **Properties** dialog (11) of the newly created page. Then click **[Edit translations](#translations)** (12).<details><summary><b>Click here for the example image</b></summary><img src="media/2.3.png"></details>|
-|**4**|The translation dialog will open. The configured default language (13) is displayed on the left. Use the dropdown menu on the right (14) to select the language you want to apply or edit. Configure the following settings:<br><br>- **URL (15):** Enter the translated URL path.<br><br>- **Page display name (16):** Enter the translated display name of the page.<br><br>- **Confirm (17):** Click **Confirm** to save the changes.<details><summary><b>Click here for the example image</b></summary><img src="media/2.4.png"></details>|
-|**5**|Open the **Visibility** tab (18). Configure the following settings:<br><br>- **Language Zone Selection (19):** Under the dropdown menu, select one or more languages to which this page should be linked. Under **Zone Selection** (20), select a custom CMS zone.<br><br>- **Valid from (21) and Valid until (22):** Under **Valid from** and **Valid until**, you can set the dates and times during which the above settings should apply.<details><summary><b>Click here for the example image</b></summary><img src="media/2.5.png"></details>|
-|**6**|In the **SEO** tab (23), you can configure settings related to SEO (Search Engine Optimization). These settings can help search engines such as Google find your website more easily. More information about SEO settings can be found [here](#seo). Click **Save** (24).<details><summary><b>Click here for the example image</b></summary><img src="media/2.6.png"></details>|
-|**7**|Click the orange icon (25) or **Unsaved Changes** (26).<details><summary><b>Click here for the example image</b></summary><img src="media/2.7.png"></details>|
-|**8**|To publish the page and make it available on the live webshop, click **Publish all** (27) or the publish icon (28). Then confirm the publication by clicking **Yes** (29).<details><summary><b>Click here for the example image</b></summary><img src="media/2.8.png"></details>|
+| **1** | After creating a category, navigate via **Content Management (CMS)** (1) to **Pages** (2).<details><summary><b>Click here for the example image</b></summary><img src="media/2.1.png"></details> |
+| **2** | Click the **'+'** icon (3) to create a new page. The page creation screen will open. Then enter the following settings:<br><br>- **URL (4):** the name of the page that will be visible in the URL. You do not need to enter the full domain here; only the path is required, for example, `example`.<br>**DO NOT USE SPACES OR CAPITAL LETTERS!**<br><br>- **Page display name (5):** the name that will be visible to the customer on the website.<br><br>- **Category (6):** select the appropriate category. This is the category created in the previous chapter.<br><br>- **Template — OPTIONAL (7):** select a template that will automatically populate the page when it is created.<br><br>- **Is visible in navigation (8):** enable this option to make the page visible in the webshop.<br><br>- **Submit (9):** click **'Submit'** to create the page.<details><summary><b>Click here for the example image</b></summary><img src="media/2.2.png"></details> |
+| **3** | Click the **pencil icon** (10) to open the **Properties** dialog (11) of the newly created page. Then click **'[Edit translations](#translations)'** (12).<details><summary><b>Click here for the example image</b></summary><img src="media/2.3.png"></details> |
+| **4** | The translation dialog opens. The configured default language (13) is displayed on the left. Use the dropdown on the right (14) to select the language you want to add or edit. Then enter the following information:<br><br>- **URL (15):** enter the translated URL path.<br><br>- **Page display name (16):** enter the translated page display name.<br><br>- **Confirm (17):** click **'Confirm'** to save the changes.<details><summary><b>Click here for the example image</b></summary><img src="media/2.4.png"></details> |
+| **5** | Open the **'Visibility'** tab (18). Then configure the following settings:<br><br>- **Language Zone Selection (19):** select one or more languages from the dropdown to which this page should be linked. Then, under **Zone selection** (20), select a CMS zone that you created yourself.<br><br>- **Valid from (21) and Valid until (22):** set the date and time at which the above settings should become active.<details><summary><b>Click here for the example image</b></summary><img src="media/2.5.png"></details> |
+| **6** | In the **'SEO'** tab (23), you can configure SEO (search engine optimization) settings. This helps search engines, such as Google, find your website more easily. You can find more information about SEO settings [here](#seo). Then click **'Save'** (24).<details><summary><b>Click here for the example image</b></summary><img src="media/2.6.png"></details> |
+| **7** | Click the orange icon (25) or **'Unsaved changes'** (26).<details><summary><b>Click here for the example image</b></summary><img src="media/2.7.png"></details> |
+| **8** | To publish the page and make it available live, click **'Publish all'** (27) or the publish icon (28). Then confirm the publication by clicking **'Yes'** (29).<details><summary><b>Click here for the example image</b></summary><img src="media/2.8.png"></details> |
+| **9** | In addition to creating CMS pages, it is also possible to create one or more subpages under an existing page. You can create a subpage using the **'+'** button (30).<details><summary><b>Click here for the example image</b></summary><img src="media/2.9.png"></details> |
 
 ---
 
@@ -392,19 +399,19 @@ This section is still under development.
 
 #### Media
 
-Via this screen, you can easily upload your own images and video files and then use them on your [CMS pages](#page).
+This screen allows you to easily upload your own images and video files and then use them on your [CMS pages](#page).
 
-|Step|Explanation|
+| Step | Explanation |
 |:--|:--|
-|**1**|Navigate via **Content Management (CMS)** (1) to **Media** (2).<details><summary><b>Click here for the example image</b></summary><img src="media/14.1.png"></details>|
-|**2**|You will now arrive at the Media management screen. From this screen, you can upload files. Images are stored in the **images** folder (3), and videos are stored in the **videos** folder (4). Click on the **images** folder (3).<details><summary><b>Click here for the example image</b></summary><img src="media/14.2.png"></details>|
-|**3**|In the **images** folder, you can create additional folders (5) to keep your files organized. Use the arrow (6) to navigate back one level. The trash can icon (7) can be used to delete a selected item. In this example, we will upload an image (8).<details><summary><b>Click here for the example image</b></summary><img src="media/14.3.png"></details>|
-|**4**|Images can be automatically resized to prevent unnecessarily large files from being uploaded. Large files can have a negative impact on the loading time of your webshop. When you enable the **Resize** option (8), you can choose whether the image(s) should be proportionally resized to a maximum of **1024** or **1920 pixels**. If you leave this option disabled, keep in mind that files may be a maximum of **25 MB** in size. This applies to both images and videos.<br><br>To upload a file from your computer, drag the file into the drop zone or click the button to select an image (9) or video (10). Then click **Upload** (11).<details><summary><b>Click here for the example image</b></summary><img src="media/14.4.png"></details>|
-|**5**|After selecting and confirming an image or video from your computer, the file will be displayed on the upload screen (12). Click **Upload** (13) to start the upload. A progress bar will appear. Once the upload process has reached 100%, you can return to the selection screen (14).<details><summary><b>Click here for the example image</b></summary><img src="media/14.5.png"></details>|
-|**6**|The image is now displayed at the top of the overview (15). You can delete the image (16) or edit it further (17). In this example, we will edit the image (17).<details><summary><b>Click here for the example image</b></summary><img src="media/14.6.png"></details>|
-|**7**|On this screen, you can further crop and edit the image. You can adjust the selection area (18), zoom in (19) and out (20), change the positioning (21), and rotate the image (22). You can also undo any changes (23).<details><summary><b>Click here for the example image</b></summary><img src="media/14.7.png"></details>|
-|**8**|You can then save the changes (24) or cancel them by navigating back to the selection screen (25). In this example, we will save the changes (24).<details><summary><b>Click here for the example image</b></summary><img src="media/14.8.png"></details>|
-|**9**|A new variant (26) of the image has now been added to the overview. This variant contains the modified and cropped version of the image and can then be used on your [CMS pages](#page).<details><summary><b>Click here for the example image</b></summary><img src="media/14.9.png"></details>|
+| **1** | Navigate via **Content Management (CMS)** (1) to **Media** (2).<details><summary><b>Click here for the example image</b></summary><img src="media/14.1.png"></details> |
+| **2** | You are now taken to the Media management screen. From this screen, you can upload files (3). Via the **Media Library** tab (4), you can access all images and videos that are already available in your Media Library. Images are stored in the **images** folder and videos in the **videos** folder.<br><br>In the upload screen (3), you can drag files into the screen to upload them (5) or select a file from your own computer (6). After a file has been uploaded, a small preview is displayed (7).<br><br>The following media file formats are supported: PNG, JPG, JPEG, SVG, WEBP, GIF, MP4, MPG, AVI, MOV, and WEBM. Images can be automatically resized to prevent unnecessarily large files from being uploaded. Large files can have a negative impact on the loading time of your webshop. When you enable the **Resize** option (8), you can configure the image(s) to be proportionally resized to a maximum of **1024** or **1920 pixels**.<br><br>If you leave this option disabled, keep in mind that files may be a maximum of **25 MB** in size. This applies to both images and videos. Click **Upload** (9) to upload the file.<details><summary><b>Click here for the example image</b></summary><img src="media/14.2.png"></details> |
+| **3** | The image is now visible in the Media Library (10). You can edit the image (11) or delete it (12). Useful information about the media file is also displayed (13). To better organize your media files, you can create new folders (14), upload files using the upload button (15), navigate back one level (16), or delete the entire folder (17). In this example, we choose to edit the image (11).<details><summary><b>Click here for the example image</b></summary><img src="media/14.3.png"></details> |
+| **4** | A dialog box now opens where you can enter metadata for the media file. This includes **Alt text** (18), **Title** (19), **Caption** (20), and **Description** (21). Providing this information can help improve the [SEO](#seo) performance of your webshop. You can then cancel the changes (22) or save them (23). You can also crop the image as desired (24).<details><summary><b>Click here for the example image</b></summary><img src="media/14.4.png"></details> |
+| **5** | On this screen, you can further crop and edit the image. You can adjust the selection area (25), zoom in (26), zoom out (27), change the positioning (28), and rotate the image (29). You can also undo any changes (30).<details><summary><b>Click here for the example image</b></summary><img src="media/14.5.png"></details> |
+| **6** | You can then save the changes you have made (31) or cancel them by navigating back to the selection screen (32). In this example, we save the changes (31).<details><summary><b>Click here for the example image</b></summary><img src="media/14.6.png"></details> |
+| **7** | A new variant (33) of the image has now been added to the overview. This variant contains the modified and cropped version of the image and can then be used on your [CMS pages](#page).<details><summary><b>Click here for the example image</b></summary><img src="media/14.7.png"></details> |
+
+> **Tip:** Are you using images that are too large and therefore take up unnecessary disk space? Try enabling the **CMSIMAGEOPTIMIZATIONS** webshop setting. This setting converts your uploaded images to the **.webp** format. The image quality is preserved while the file takes up significantly less storage space.
 
 ---
 
@@ -472,6 +479,31 @@ The **Component Dialog** is the library containing all available [CMS components
 
 ---
 
+#### CMS Zone
+
+A **CMS zone** is a defined area to which one or more customers can be assigned. Customers assigned to a specific zone have access to the CMS components that are linked to that zone. CMS zones therefore function as a form of authorization within the CMS.
+
+*Follow the steps below:*
+
+| Step | Explanation |
+|:--|:--|
+| **1** | Open the **Constants** screen.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image1.png"></details> |
+| **2** | Navigate to the following path in the file structure:<br>**System** → **Internet** → **CMS Zones**.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image2.png"></details> |
+| **3** | Click the **Add new item** icon (the **+** symbol). |
+| **4** | The screen for creating a CMS zone opens. Enter the following fields:<br><br>- **Code**<br>- **Description** — this is displayed in the CMS. |
+| **5** | Click **OK** to confirm the creation of the zone. Repeat these steps to create multiple CMS zones if required. These zones can later be linked to customers and CMS components. |
+| **6** | Open the **Constants** screen.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image1.png"></details> |
+| **7** | Navigate to the following path:<br>**Community** → **Customer Data** → **Customers**.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image3.png"></details> |
+| **8** | Open the customer to which you want to assign one or more CMS zones. |
+| **9** | In the opened window, navigate to the following path in the file structure:<br>**Internet** → **CMS**.<details><summary><b>Click here for the example image</b></summary><img src=".Manual theme management Florishop/media/image54.png"></details> |
+| **10** | Click the **CMS Zones** button. The **Customer Package** window opens.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image3.png"></details> |
+| **11** | Click **Add**. The **CMS Zones** window opens. |
+| **12** | Select one or more zones and click **OK**.<br><br>*The selected zones are now displayed in the **Customer CMS Zones** window.*<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image5.png"></details> |
+| **13** | Click **OK** in the **Customer CMS Zones** window.<br><br>*The selected CMS zones are now linked to the customer.*<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image6.png"></details> |
+| **Repeat** | Repeat the steps above for each customer to which you want to assign CMS zones. |
+
+---
+
 ## Aside Editor
 
 ### Toolbar
@@ -531,11 +563,11 @@ To make your pages more easily discoverable in Google, you can configure SEO set
 
 #### Preferences
 
-In this tab, you can configure the [Editor](#editor) according to your personal preferences.
+You can use this tab to configure the [Editor](#editor) according to your personal preferences.
 
-| Step | Explanation |
+| Step | Description |
 |:--|:--|
-| **1** | Under **Preferences** (1), you can enable or disable the **AutoSaveOnEdit** function (2). This function is enabled by default, ensuring that draft changes are automatically saved. Using the dropdown menu (3), you can easily switch between different [themes](#theme-configuration) and then make changes within another theme.<details><summary><b>Click here for the example image</b></summary><img src="media/22.1.png"></details> |
+| **1** | Under **Preferences** (1), you can enable or disable the **AutoSaveOnEdit** feature (2). This feature is enabled by default, so draft changes are saved automatically. Use the dropdown menu (3) to easily switch between different [themes](#theme-configuration) and make changes within another theme. Use the **Show quick actions** toggle (4) to determine whether the add buttons are visible in the [Editor](#editor).<details><summary><b>Click here for the example image</b></summary><img src="media/22.1.png"></details> |
 
 ---
 
@@ -564,6 +596,17 @@ When you can enter text within a [component](#components) or in the [page settin
 | **1** | In this example, we have selected a **[Text component](#text)** (1). Under the **General Settings** tab (2), you will find the **Edit translations** button (3). Click this button to open the translation dialog.<details><summary><b>Click here for the example image</b></summary><img src="media/24.1.png"></details> |
 | **2** | The translation dialog displays the webshop's **Default** language by default (4). The default language of the webshop can be configured using the webshop setting **CMSDEFAULTCULTURE**. **Note:** Always enter a valid language code, such as `nl` or `en`. Invalid values may cause errors in the webshop. You can then enter the text for this language (5). In this example, the text field is still empty because no Dutch translation has been entered yet. You will also find a dropdown menu where you can select another language (6). You can then enter the desired translation for the selected language (7).<details><summary><b>Click here for the example image</b></summary><img src="media/24.2.png"></details> |
 | **3** | When you select a language, a green indicator (8) shows that the selected language has been fully translated. In this example, you can see that a translation has only been entered for the English language (8). After entering the desired translations, you can confirm the settings (9).<details><summary><b>Click here for the example image</b></summary><img src="media/24.3.png"></details> |
+
+---
+
+#### URL
+
+Some components offer the option to navigate to another page. This can be configured using the **URL** option.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | By entering a URL, the selected component becomes clickable. You can use this to navigate visitors to another page or, for example, a stock page. **Note:** you do **not** need to enter the full domain in this field, such as `https://[your domain].nl`. Only the **path** is required. This is the part that appears after the domain, for example `https://[your domain].nl/[your page path]`. In this case, you only need to enter `[your page path]`. |
+| **2** | In addition to the URL option, there is an on/off toggle called **Open URL in new tab**. This determines whether the URL opens in a new browser tab or whether the visitor remains in the same window. |
 
 ---
 
@@ -650,19 +693,28 @@ Determine how excess content within a [component](#components) is displayed or h
 
 ### Advanced
 
-#### Hidden When Empty
+Almost every [component](#components) includes an **Advanced** tab. The available settings may vary depending on the component. However, there are several options that are commonly available across multiple components.
 
-| Item | Description |
-|---|---|
-| Advanced | This description will be added later |
+#### Hide When Empty
+
+The **Hide When Empty** option automatically hides a component in the live environment when it contains no content.
+
+---
+
+#### Add Button Visibility (in Editor)
+
+With the **Add Button Visibility (in Editor)** option, you can determine whether the **Add button** is visible when the page is opened in editing mode.
 
 ---
 
 #### Identification Name
 
-| Item | Description |
-|---|---|
-| Advanced | This description will be added later |
+Give your [components](#components) a custom name to create more structure and provide a clearer overview in the [Navigator](#navigator).
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we have selected a [Button](#button) component (1). In the **Advanced** tab (2), you can enter a custom name for the component under **Identification Name** (3).<details><summary><b>Click here for the example image</b></summary><img src="media/33.1.png"></details> |
+| **2** | After entering a name (4), it is displayed next to the selected component in the [Navigator](#navigator) (5). This makes it easier to identify components and provides more structure and overview within the Navigator.<details><summary><b>Click here for the example image</b></summary><img src="media/33.2.png"></details> |
 
 ---
 
@@ -676,51 +728,71 @@ Determine how excess content within a [component](#components) is displayed or h
 
 #### HTML Class Name
 
-| Item | Description |
-|---|---|
-| Advanced | This description will be added later |
+Enter a CSS class name to apply custom styling to the component.
+
+**Note:** Applying custom CSS/SCSS styling requires sufficient knowledge of CSS and SCSS.
 
 ---
 
 #### Tag
 
-| Item | Description |
-|---|---|
-| Advanced | This description will be added later |
+With the **Tag** option, you can assign IDs to components within a custom [Template](#templates). These IDs can then be used to load dynamic data from the [Page settings](#page) into a [Blog component](#blog).
+
+This allows data such as the **page title**, **page description**, **image**, and **URL** to be loaded automatically. As a result, the template within the Blog component is automatically populated and updated when, for example, a new blog is published.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we created a [Template](#templates) that we want to use dynamically for a [Blog](#blog) overview. We use Tags for this purpose.<details><summary><b>Click here for the example image</b></summary><img src="media/34.1.png"></details> |
+| **2** | We added a [Panel](#panel) component (1) with a background image. Under the **Advanced** tab (2), you can select **OverviewPanelImageTag** under **Tag** (3). The [Panel](#panel) component will then check the [Blog page](#blogpage) settings to see whether an image has been configured. This image is then automatically displayed in the [Blog](#blog) overview.<details><summary><b>Click here for the example image</b></summary><img src="media/34.2.png"></details> |
+| **3** | We then added a [Text](#text) component (4). Under **Tag**, we set **OverviewTitle** (5). The [Text](#text) component will then check the [Blog page](#blogpage) settings to see whether a **Page title** has been configured. This title is then automatically displayed in the [Blog](#blog) overview.<details><summary><b>Click here for the example image</b></summary><img src="media/34.3.png"></details> |
+| **4** | We added another [Text](#text) component (6). Under **Tag**, we set **OverviewDescription** (7). The [Text](#text) component will then check the [Blog page](#blogpage) settings to see whether a **Description** has been entered. This description is then automatically displayed in the [Blog](#blog) overview.<details><summary><b>Click here for the example image</b></summary><img src="media/34.4.png"></details> |
+| **5** | Finally, we added a [Button](#button) component (8). Under **Tag**, we set **OverviewButton** (9). The [Button](#button) component will then retrieve the configured URL from the [Blog page](#blogpage) settings. When a visitor clicks the button, they are directed to the correct [Blog page](#blogpage).<details><summary><b>Click here for the example image</b></summary><img src="media/34.5.png"></details> |
+| **6** | In this example, we show where you can configure the information mentioned above in the [Blog page](#blogpage) settings. Under the **Advanced** tab, you will find a field where you can upload an [image](#media) (10). The configured Tag ensures that this image is automatically displayed in the [Blog](#blog) overview. The page URL is automatically populated when creating the [Blog page](#blogpage).<details><summary><b>Click here for the example image</b></summary><img src="media/34.6.png"></details> |
+| **7** | Next, enter the **Description** (11). This description is automatically linked to the [Text](#text) component in the [Blog](#blog) overview through the configured Tag.<details><summary><b>Click here for the example image</b></summary><img src="media/34.7.png"></details> |
+| **8** | The [Blog](#blog) component (12) now automatically populates the [Template](#templates) with the data from the [Blog page](#blogpage) settings. This is done based on the configured Tags. The overview displays the [Image](#media) (13), [Title](#text) (14), [Description](#text) (15), and [Button](#button) (16).<details><summary><b>Click here for the example image</b></summary><img src="media/34.8.png"></details> |
 
 ---
 
-#### Z-Index
+#### Z-index
 
-| Item | Description |
-|---|---|
-| Advanced | This description will be added later |
+The **Z-index** option determines the stacking order of overlapping [components](#components). A component with a higher **z-index** is displayed above a component with a lower **z-index**.
+
+You can adjust the z-index by a maximum of **3 layers up** or **3 layers down** relative to the default position. This allows you to easily determine which component is displayed on top when components overlap.
 
 ---
 
 ### Visibility
 
-#### Hide Content
+With the **Visibility** settings, you can build pages dynamically by temporarily showing or hiding components for specific groups of customers, countries, CMS zones, devices, or during a specific period.
 
-| Item | Description |
-|---|---|
-| Visibility | This description will be added later |
+#### Hide content
 
----
+Temporarily hide [components](#components) for a specific country, [CMS zone](#cms-zone), or during a specific period.
 
-#### Show Content
-
-| Item | Description |
-|---|---|
-| Visibility | This description will be added later |
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we selected a [Panel](#panel) component (1). Under the **Visibility** tab (2), you can configure the following options under **Hide content** (3):<br><br>**Language Zone Selection** (4): Select a country for which the selected component should not be visible.<br><br>**Zone Selection** (5): Select a [CMS zone](#cms-zone) for which the selected component should not be visible.<br><br>**Valid from** (6): Set the date from which the selected component should no longer be displayed.<br><br>**Valid until** (7): Set the date until which the selected component should not be displayed.<br><br>**Repeat annually** (8): Enable this option to automatically repeat the configured period every year.<details><summary><b>Click here for the example image</b></summary><img src="media/35.1.png"></details> |
 
 ---
 
-#### Highlight Content
+#### Show content
 
-| Item | Description |
-|---|---|
-| Visibility | This description will be added later |
+Temporarily show [components](#components) for a specific country, [CMS zone](#cms-zone), or during a specific period.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we selected a [Panel](#panel) component (1). Under the **Visibility** tab (2), you can configure the following options under **Show content** (3):<br><br>**Language Zone Selection** (4): Select a country for which the selected component should be visible.<br><br>**Zone Selection** (5): Select a [CMS zone](#cms-zone) for which the selected component should be visible.<br><br>**Valid from** (6): Set the date from which the selected component should be displayed.<br><br>**Valid until** (7): Set the date until which the selected component should be displayed.<br><br>**Visibility type** (8): Specify on which devices the selected component should be visible.<br><br>**Repeat annually** (9): Enable this option to automatically repeat the configured period every year.<details><summary><b>Click here for the example image</b></summary><img src="media/36.1.png"></details> |
+
+---
+
+#### Highlight content
+
+With **Highlight content**, you can make [components](#components) visible to specific groups of customers based on available inventory or order lists.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we selected a [Panel](#panel) component (1). Under the **Visibility** tab (2), you can configure the following options under **Highlight content** (3):<br><br>**Show to** (4): Select which group can see the selected component. The following options are available:<br>- **Everyone**: Everyone can see the component.<br>- **Customer**: Only logged-in customers can see the component.<br>- **Anonymous**: Only visitors who are not logged in can see the component.<br>- **Do not show**: The component is not displayed.<br><br>**Show for Inventory/Order Lists (semicolon-separated)** (5): Enter one or more inventory codes to make the component visible only to customers who have access to the specified inventory or order list.<details><summary><b>Click here for the example image</b></summary><img src="media/37.1.png"></details> |
+| **2** | In this example, we visit a flower inventory (6). Copy the webshop inventory code from the URL in the web browser. When you enter this code in the **Show for Inventory/Order Lists (semicolon-separated)** field, the component will only be visible to customers who have access to this webshop inventory.<details><summary><b>Click here for the example image</b></summary><img src="media/37.2.png"></details> |
 
 ---
 
@@ -728,40 +800,64 @@ Determine how excess content within a [component](#components) is displayed or h
 
 ### Basic
 
+Basic components form the foundation of your [page](#page). These components provide the basic structure on which you can build the rest of your page.
+
 #### Row/Column
 
-A CMS page uses rows and columns to ensure proper alignment across different devices (desktop, laptop, smartphone, and tablet). This chapter explains how to create a row. Every CMS element must be placed inside a column, and every column must be placed inside a row. This means that every page essentially consists of a grid, similar to a spreadsheet application such as Microsoft Excel.
+A CMS page uses **Rows** and **Columns** to properly align content across different devices, such as PCs, laptops, tablets, and smartphones.
+
+This chapter explains how to create and configure a **Row**. Every CMS element must be placed inside a **Column**, and every Column must be placed inside a Row. This means that a CMS page essentially consists of a grid, similar to a spreadsheet application such as Microsoft Excel.
 
 *Follow the steps below:*
 
-|Step|Explanation|
+| Step | Explanation |
 |:--|:--|
-|**1**|Log in to the webshop using an administrator account.|
-|**2**|Enable the webshop's **Management** environment by clicking the user icon (1). This opens a dropdown menu. Then click the **Management** option (2).<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.2.png"></details>|
-|**3**|At the bottom of the screen, enable the CMS editor (3). You can now start editing.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.3.png"></details>|
-|**4**|Click the '+' icon (4) or right-click the top element in the Navigator (5) to open the **Component Dialog**. You can also open the dialog using the **Template** button (6), which will automatically open the Templates category.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.4.png"></details>|
-|**5**|Use the search function (7) to search for **Row**. Click the plus (+) icon beneath the **Row** component (8).<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.5.png"></details>|
-|**6**|The Row is immediately added to your page and allows you to add one or more columns. In this example, we choose a layout with three columns next to each other (9).<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.6.png"></details>|
-|**7**|Select a column in the Navigator (10). In the column settings, open the **Properties** tab (11). Here you can configure the following:<br><br>The sliders determine how CMS elements are aligned on devices with different screen sizes, such as desktops/laptops, tablets, and smartphones.<br><br>The total width of every screen is divided into a maximum of twelve virtual columns. This means that an element can span a minimum of one and a maximum of twelve columns. This applies to desktops, laptops, tablets, and smartphones alike.<br><br>The top slider applies to desktops and laptops, the middle slider to tablets, and the bottom slider to smartphones.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.7.png"></details>|
-|**8**|Open the **Styling** tab (12). Styling is optional, but the following settings can be adjusted:<br><br>Select a background color using the **Background** dropdown (13). A color picker will appear, allowing you to choose a color. Click **SAVE** in the color picker to apply the selected color.<br><br>Under **Height** (14), choose **Auto** or specify a fixed height in Px (pixels), Rem (relative to the font size), or percentages. Using **Auto** is recommended, as the column will automatically adjust its height based on its content.<br><br>Under **Margin** (15), you can specify the spacing (whitespace) around the column. You can enter one value for all sides or configure each side individually.<br><br>By default, **Px (pixels)** is used as the unit. You can also choose **Rem**, **Percent**, or even values such as **auto**, **unset**, **millimeters (mm)**, and **centimeters (cm)**.<br><br>**Padding** (16) determines the spacing inside the column. These settings work the same way as **Margin**.<br><br>**Overflow** (17) determines whether content that extends beyond the boundaries of the column remains visible. By default, this is set to **Visible**.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.8.png"></details>|
-|**9**|Open the **Advanced** tab (18). The **Advanced** tab allows you to assign additional classes and IDs to a component. Under **Identification name** (19), you can assign a custom name to the component, making it easier to organize components within the Navigator (20).<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.9.png"></details>|
-|**10**|Open the **Visibility** tab (21). The **Visibility** tab works the same way as when creating pages and categories. See Chapter [Visibillity](#visibillity) for more information about the available settings in the **Visibility** tab. After configuring the desired settings, click **Save** (22) to save the column in the CMS and click **Publish** (23) to make the changes live.<br>**You can always make further changes later.**<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.10.png"></details>|
+| **1** | Log in to the webshop with an administrator account. |
+| **2** | Activate the **Management** environment of the webshop by clicking the user icon (1). A dropdown menu will open. Then click **Management** (2).<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.2.png"></details> |
+| **3** | Enable the **CMS Editor** (3) at the bottom of the screen. You can now start editing the page.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.3.png"></details> |
+| **4** | Click the **+** icon (4) or right-click the top element in the [Navigator](#navigator) (5) to open the **Component Dialog**. You can also open the Component Dialog using the **Template** button (6). In that case, the Template category is opened automatically.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.4.png"></details> |
+| **5** | Use the search function (7) to search for **Row**. Then click the **+** icon below the **Row** item (8).<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.5.png"></details> |
+| **6** | The **Row** is added directly to the page. You can then add one or more Columns. In this example, we choose a layout with three Columns next to each other (9).<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.6.png"></details> |
+| **7** | Select a **Column** using the [Navigator](#navigator) (10). In the column settings, you can use the **Properties** tab (11) to configure the alignment of CMS elements for different screen sizes.<br><br>The sliders determine how much space a CMS element occupies on devices with different screen sizes, such as PCs/laptops, tablets, and smartphones.<br><br>The total width of a screen consists of a maximum of **12 virtual columns**. An element can therefore be between one and twelve columns wide. This applies to all supported devices.<br><br>The top slider is used for **PCs and laptops**, the middle slider for **tablets**, and the bottom slider for **smartphones**.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.7.png"></details> |
+| **8** | Open the **[Styling](#3-styling)** tab (12). Styling is optional. You can adjust the following settings:<br><br>**Background color:** Use the **Background** dropdown menu (13) to select a [background color](#color-picker).<br><br>**[Height/Width](#heightwidth):** Under **Height** (14), choose **Auto** or set a fixed height. The available units include `px`, `rem`, and `%`. We recommend using **Auto**, which automatically adjusts the height of the Column to fit its content.<br><br>**[Margin](#marginpadding):** Set the margin (spacing) around the Column (15). You can enter one value for all sides or configure each side individually. Supported units include `px`, `rem`, `%`, `mm`, and `cm`. Values such as `auto` and `unset` can also be used.<br><br>**[Padding](#marginpadding):** Set the spacing inside the Column (16). These settings work according to the same principle as Margin.<br><br>**[Overflow](#overflow):** Determine whether content that extends beyond the boundaries of the Column remains visible (17). By default, this is set to **Visible**.<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.8.png"></details> |
+| **9** | Open the **[Advanced](#4-advanced)** tab (18). The **Advanced** tab allows you to add additional classes, IDs, and other settings to a component. Under **[Identification Name](#identification-name)** (19), for example, you can give the component a custom name. This provides more structure and clarity in the [Navigator](#navigator) (20).<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.9.png"></details> |
+| **10** | Open the **[Visibility](#5-visibility)** tab (21). The **Visibility** tab works in the same way as when creating pages and categories. See the [Visibility](#visibility) chapter for more information about the available settings.<br><br>After configuring the desired settings, click **Save** (22) to save the Column in the CMS. Then click **Publish** (23) to make the changes live.<br><br>**You can always adjust the settings at a later time.**<details><summary><b>Click here for the example image</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.10.png"></details> |
 
 ---
 
 #### Panel
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Panel | Deze beschrijving wordt aangevuld |
+The **Panel** component is a versatile base component with extensive [styling options](#3-styling) that allow you to visually design your page. You can add a background color, image, or ambient video without sound. You can then fill the Panel with multiple components. Additionally, you can make the entire Panel clickable by adding a destination URL.
+
+| Step | Description |
+|:--|:--|
+| **1** | In this example, we have selected a [Column](#rowcolumn) (1) to which we add the **Panel** component (2).<details><summary><b>Click here for the example image</b></summary><img src="media/38.1.png"></details> |
+| **2** | The Panel is now visible in the [Navigator](#navigator) (3) and in the [Editor](#editor) (4). Under [General settings](#general-settings) (5), you will find various options for configuring the Panel, including [Translations](#translations) (6).<details><summary><b>Click here for the example image</b></summary><img src="media/38.2.png"></details> |
+| **3** | Under **Video properties** (7), you will find various options for adding a video. Under **Video** (8), you can upload your own video file. If the video is hosted on another server, you can enter the URL under **Video URL** (9). With the **Lazy load** option (10), you can determine whether the video is only loaded when it becomes visible while scrolling.<details><summary><b>Click here for the example image</b></summary><img src="media/38.3.png"></details> |
+| **4** | Under **Image properties** (11), you will find various options for adding and configuring an image (12). Enable **Background Parallax** (13) to create a parallax effect when scrolling over the image. This is particularly suitable for larger images. With **Background animation** (14), you can make a wide image move horizontally. You can then set the speed of this animation (15). With **Alt text** (16), you can add a description to the image. This contributes to better [SEO](#seo) and makes the image more accessible.<details><summary><b>Click here for the example image</b></summary><img src="media/38.4.png"></details> |
+| **5** | After adding an image (17), you can determine how it is displayed. Under **Background size** (18), you can choose between **Cover** (the image covers the entire Panel), **Auto** (the image is displayed at its original size), or **Contain** (the entire image is displayed). You can then use the sliders to determine the **Horizontal** (19) and **Vertical** (20) position of the image or video. When both values are set to 50%, the image or video is positioned exactly in the center of the Panel.<details><summary><b>Click here for the example image</b></summary><img src="media/38.5.png"></details> |
+| **6** | After positioning the image, you can optionally enter a URL (21). This makes the entire Panel clickable, allowing you to use the Panel as a fully customizable button or banner, for example. **Note:** you do not need to enter the full domain in this field. Only the path is required. With option (22), you can determine whether the URL is opened in a new browser tab. Under **Title** (23), add a description to the Panel. This title is displayed when you hover over the Panel with the mouse. With **Aria-label** (24), you can enter a description of the Panel that can be read aloud by assistive technologies, such as screen readers. Refer to [Component Styles](#component-styles) (25) for more information about Component Styles. Also refer to [Styling](#3-styling) (26) for more information about the available styling options.<details><summary><b>Click here for the example image</b></summary><img src="media/38.6.png"></details> |
+| **7** | Refer to [Advanced](#4-advanced) (27) for all available advanced options. The Panel also includes a specific option that allows the component to gradually appear on the page. This **fade-in effect** gives your page a modern and playful appearance. You can easily enable this option using the on/off toggle (28).<details><summary><b>Click here for the example image</b></summary><img src="media/38.7.png"></details> |
 
 ---
 
 #### Flex
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Flex | Deze beschrijving wordt aangevuld |
+With the **Flex** component, you can position and align content in a flexible way. Add one or more [components](#components) and determine how they are displayed horizontally or vertically. In addition, you can configure the alignment, spacing, and behavior across different screen sizes. The Flex component forms the foundation for creating a dynamic webpage.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we add a **Flex** component (2) to the [Page](#page) (1).<details><summary><b>Click here for the example image</b></summary><img src="media/39.1.png"></details> |
+| **2** | The **Flex** component is now visible in the [Navigator](#navigator) (3) and the [Editor](#editor) (4). Through the **[General settings](#general-settings)** tab (5), you can determine how the elements within the Flex component are arranged. Before adjusting these settings, we first add some elements.<details><summary><b>Click here for the example image</b></summary><img src="media/39.2.png"></details> |
+| **3** | We have added three [Columns](#rowcolumn) (6, 7, and 8) to the Flex component. Each column has been given a width of two columns and its own [color](#color-picker).<details><summary><b>Click here for the example image</b></summary><img src="media/39.3.png"></details> |
+| **4** | Through the **[General settings](#general-settings)** tab, you can configure the **Flex direction**. In this example, the [Columns](#rowcolumn) are placed below each other when the Flex direction is set to **Column** (9).<details><summary><b>Click here for the example image</b></summary><img src="media/39.4.png"></details><br><br>**Reverse column** (10): places the Columns in reverse order, from bottom to top.<details><summary><b>Click here for the example image</b></summary><img src="media/39.4.1.png"></details><br><br>**Row** (11): places the Columns next to each other from left to right.<details><summary><b>Click here for the example image</b></summary><img src="media/39.4.2.png"></details><br><br>**Reverse row** (12): places the Columns next to each other from right to left.<details><summary><b>Click here for the example image</b></summary><img src="media/39.4.3.png"></details> |
+| **5** | In this example, we keep the **Flex direction** set to **Row**. Note: when the Flex direction is set to **Column**, the main axis and cross axis respond in the opposite way. Through **Main axis alignment** (horizontal alignment), you determine how the [Columns](#rowcolumn) are positioned horizontally.<br><br>**Start** (13): aligns the Columns to the left.<details><summary><b>Click here for the example image</b></summary><img src="media/39.5.png"></details><br><br>**End** (14): aligns the Columns to the right.<details><summary><b>Click here for the example image</b></summary><img src="media/39.5.1.png"></details><br><br>**Center** (15): places the Columns in the center.<details><summary><b>Click here for the example image</b></summary><img src="media/39.5.2.png"></details><br><br>**Space between** (16): distributes the available space between the Columns.<details><summary><b>Click here for the example image</b></summary><img src="media/39.5.3.png"></details><br><br>**Space around** (17): distributes the available space around the Columns.<details><summary><b>Click here for the example image</b></summary><img src="media/39.5.4.png"></details><br><br>**Space evenly** (18): gives each Column exactly the same amount of space around it.<details><summary><b>Click here for the example image</b></summary><img src="media/39.5.5.png"></details><br><br>**Start (language-sensitive)** and **End (language-sensitive)** work the same as **Start** and **End**, but take the reading direction of different languages into account. |
+| **6** | To make the following options clearer, we give one of the three [Columns](#rowcolumn) (19) a [height](#height-width) of **300px**.<details><summary><b>Click here for the example image</b></summary><img src="media/39.6.png"></details> |
+| **7** | Through **Cross axis alignment** (vertical alignment), you determine how the Columns are aligned vertically relative to each other.<br><br>**Stretch** (20): all Columns automatically receive the height of the tallest Column.<details><summary><b>Click here for the example image</b></summary><img src="media/39.7.png"></details><br><br>**Start** (21): aligns all Columns at the top.<details><summary><b>Click here for the example image</b></summary><img src="media/39.7.1.png"></details><br><br>**End** (22): aligns all Columns at the bottom.<details><summary><b>Click here for the example image</b></summary><img src="media/39.7.2.png"></details><br><br>**Center** (23): vertically centers all Columns.<details><summary><b>Click here for the example image</b></summary><img src="media/39.7.3.png"></details><br><br>**Start (language-sensitive)** and **End (language-sensitive)** work the same as **Start** and **End**, but take the reading direction of different languages into account. |
+| **8** | Through **Wrap** (24), you determine how the elements respond when the available space becomes smaller.<br><br>**Wrap** automatically moves elements to the next line when there is insufficient space.<br><br>**No wrap** keeps all elements next to each other, even when the available space is limited.<br><br>With **Spacing** (25), you determine the distance between the elements. The following units are supported: `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh` and `vw`.<details><summary><b>Click here for the example image</b></summary><img src="media/39.8.png"></details> |
+| **9** | Expand the additional options (26) to configure horizontal and vertical spacing separately.<details><summary><b>Click here for the example image</b></summary><img src="media/39.9.png"></details> |
+| **10** | Enable **Fill objects** (27) to automatically fill all elements across the available space, regardless of configured [widths](#height-width).<details><summary><b>Click here for the example image</b></summary><img src="media/39.10.png"></details> |
+| **11** | Through the [Advanced settings](#4-advanced) (28), you can enable the **Inherit parent height** (29) option. This allows the Flex component to automatically inherit the height of the parent component. For example, when a [Panel](#panel) has a configured [height](#height-width) of **500px**, the Flex component inside this Panel will automatically receive the same height.<details><summary><b>Click here for the example image</b></summary><img src="media/39.11.png"></details><br><br>Read more about the additional settings in the [Advanced](#4-advanced) and [Visibility](#5-visibility) tabs. |
 
 ---
 
@@ -775,9 +871,16 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 #### Text
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Text | Deze beschrijving wordt aangevuld |
+The **Text** component allows you to easily add your own text using the TinyMCE editor. You can use it to add headings and paragraphs and format text with options such as bold, italic, font size, alignment, and more. The text color can be adjusted via the [Styling](#3-styling) tab of the component. In the [Theme configuration](#theme-configuration), the `primary-font-color` color is used by default.
+
+Translations can be edited via the **[Edit translations](#translations)** button under the [General settings](#general-settings) tab.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we have selected a [Column](#rowcolumn) (1) to which we add the **Text** component (2).<details><summary><b>Click here for the example image</b></summary><img src="media/42.1.png"></details> |
+| **2** | The **Text** component is now visible in the [Navigator](#navigator) (3) and the [Editor](#editor) (4). The editor for the CMS element opens automatically for the new text element.<br><br>Via the [General settings](#general-settings) tab (5), you can add the text content (6). The content can be entered in two formats: **TinyMCE** (7) and **Markdown** (8). Choose the format that best suits your needs. **Note:** Markdown requires more technical knowledge and offers fewer formatting options than TinyMCE. In this guide, we use TinyMCE.<br><br>If you want to use Markdown, a cheat sheet can be useful. You can find one here: [Markdown Guide - Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).<details><summary><b>Click here for the example image</b></summary><img src="media/42.2.png"></details> |
+| **3** | The TinyMCE editor is largely self-explanatory. However, adding headings can be somewhat confusing at first. To add a heading, click the **Paragraph** dropdown (9). Then select **Headings** (10). An additional dropdown will appear with different heading sizes (11). Select the desired heading size.<details><summary><b>Click here for the example image</b></summary><img src="media/42.3.png"></details> |
+| **4** | Read more about the additional settings in the [Styling](#3-styling), [Advanced](#4-advanced), and [Visibility](#5-visibility) tabs. |
 
 ---
 
@@ -809,9 +912,13 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 #### Image
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Image | Deze beschrijving wordt aangevuld |
+Upload an image using the convenient **Image** component. You can then optionally configure the [height and width](#height-width) and add rounded corners. **Tip:** set [Overflow](#overflow) to `Hidden` for a clean result.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we have selected a [Column](#rowcolumn) (1) to which we add the **Image** component (2).<details><summary><b>Click here for the example image</b></summary><img src="media/41.1.png"></details> |
+| **2** | The **Image** component is now visible in the [Navigator](#navigator) (3) and the [Editor](#editor) (4). Via the **[General settings](#general-settings)** tab (5), you can configure the following options:<br><br>**Image** (6): Upload an image by opening the [Media Library](#media). In this example, we have uploaded an image to the **Image** component.<br><br>**Position properties** (7): Determine how the image is positioned. `IMG` displays the entire image. `BackgroundCover` fills the available space with the image. `BackgroundContain` displays the entire image within the available space.<br><br>**URL** (8): Enter a URL or page path to make the **Image** component clickable and link it to another page. **Note:** You do not need to enter the full domain in this field.<br><br>**Open link in new tab** (9): Use this toggle to determine whether the link should open in a new browser tab when the component is clicked.<br><br>**Zoom** (10): Enable this option to make the image clickable and display it enlarged.<details><summary><b>Click here for the example image</b></summary><img src="media/41.2.png"></details><br><br>Read more about the additional settings for [Component Styles](#component-styles). |
+| **3** | Read more about the additional settings in the [Styling](#3-styling), [Advanced](#4-advanced), and [Visibility](#5-visibility) tabs. |
 
 ---
 
@@ -857,9 +964,13 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 #### Carousel
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Carrousel | Deze beschrijving wordt aangevuld |
+The **Carousel** component allows you to display multiple elements as individual slides. You can determine how many slides are visible per device, customize the navigation, and configure whether the carousel should play automatically. This gives you complete control over how the carousel is displayed.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we have selected a [Panel](#panel) (1) to which we add the **Carousel** component (2).<details><summary><b>Click here for the example image</b></summary><img src="media/40.1.png"></details> |
+| **2** | The **Carousel** component is now visible in the [Navigator](#navigator) (3) and in the Editor. In this example, we have added multiple [Panels](#panel) to the Carousel and given each one its own [identification name](#identification-name). Via the **[General settings](#general-settings)** tab (4), you can configure the following options:<br><br>**Lazy load slides** (5): Enable this option to load slides only when they become visible.<br><br>**Swiping** (6): Enable this option to navigate through the slides using a swipe gesture.<br><br>**Style** (7): Select a style for the chevrons (navigation arrows).<br><br>**Chevron position** (8): Determine how the navigation arrows are displayed. **Overlay** places the arrows over the slide, while **Indent** places the arrows next to the Carousel.<br><br>**Chevron** (9): Enable or disable the navigation arrows.<br><br>**Pagination** (10): Displays pagination dots below the Carousel to indicate the number of slides.<br><br>**Loop** (11): Enable or disable continuous looping of the Carousel, allowing users to keep swiping through the slides.<br><br>**Autoplay - interval in seconds** (12): Specify how many seconds a slide is displayed before the next slide is shown.<br><br>**Autoplay** (13): Enable or disable automatic playback of the slides.<br><br>**Height mode** (14): Determine how the height of the slides is handled. **Auto height** animates the next slide to a larger or smaller height when necessary. **Auto stretch** ensures that all slides have exactly the same height.<br><br>**Space between slides** (15): Specify the number of pixels between the slides.<details><summary><b>Click here for the example image</b></summary><img src="media/40.2.png"></details>Read more about the additional settings for [Component Styles](#component-styles). |
+| **3** | Via the **[Styling](#3-styling)** tab (16), you can configure the following options:<br><br>**[Height](#height-width)** (17): Set the height of the Carousel.<br><br>**Column alignment** (18): Align the slides to the left, right, or center.<br><br>**[Slide width](#height-width)** (19): Set the width of the slide.<br><br>**[Slide content width](#height-width)** (20): Set the width of the content within the slide.<br><br>**Visible columns (desktop)** (21): Specify how many slides are displayed simultaneously on desktop devices.<br><br>**Visible columns (tablet)** (22): Specify how many slides are displayed simultaneously on tablets.<br><br>**Visible columns (mobile)** (23): Specify how many slides are displayed simultaneously on mobile devices.<details><summary><b>Click here for the example image</b></summary><img src="media/40.3.png"></details><br><br>Read more about the additional settings in the [Advanced](#4-advanced) and [Visibility](#5-visibility) tabs. |
 
 ---
 
@@ -875,17 +986,37 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 #### Button
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Button | Deze beschrijving wordt aangevuld |
+Use this fully customizable **Button** component to navigate to the [URL](#url) of your choice.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we selected a [Flex](#flex) component (1) and added the **Button** component (2) to it.<details><summary><b>Click here for the example image</b></summary><img src="media/43.1.png"></details> |
+| **2** | The **Button** component is now visible in the [Navigator](#navigator) (3) and the [Editor](#editor) (4). In the **[General Settings](#general-settings)** tab (5), you can configure the following options:<br><br>**[Edit translations](#translations)**: Edit the translations of the button text.<br><br>**Text** (6): Enter the text displayed on the button.<br><br>**Chevron** (7): Displays an arrow after the button text.<br><br>**Switch Variant** (8): Switches to the `button-secondary-bgcolor` color from the [Theme Configuration](#theme-configuration). This option only works when no custom color settings have been configured in the [Styling](#3-styling) tab.<br><br>**[URL](#url)** (9): Set the URL the button should navigate to.<br><br>**Button position** (10): Determine whether the button is aligned to the left, right, centered, or stretched across the full available width.<br><br>**[Open URL in new tab](#url)**: Determine whether the URL should be opened in a new browser tab.<br><br>**[Component Styles](#component-styles)**: Configure additional component styles.<details><summary><b>Click here for the example image</b></summary><img src="media/43.2.png"></details> |
+| **3** | In the **[Styling](#3-styling)** tab (11), you can configure the following options:<br><br>**Button color** (12): Set a custom color for the button. In the [Theme Configuration](#theme-configuration), you can use `button-bg-color` to set the default color for all Button components.<br><br>**Hover color** (13): Set a custom color that is displayed when hovering over the button. In the [Theme Configuration](#theme-configuration), you can use `button-hover-bg-color` to set the default hover color for all Button components.<br><br>**Button text color** (14): Set a custom color for the button text. The default text color for the Button component is white. The text color of buttons in the webshop can be configured through the [Theme Configuration](#theme-configuration) using `button-font-color`, `button-primary-textcolor`, and `button-secondary-textcolor`.<br><br>**Button shadow color** (15): Set a custom color for the button shadow. You can also configure this using [Border](#border) or [Box Shadow](#box-shadow).<details><summary><b>Click here for the example image</b></summary><img src="media/43.3.png"></details> |
+| **4** | Read more about the additional settings in the [Styling](#3-styling), [Advanced](#4-advanced), and [Visibility](#5-visibility) tabs. |
+| **5** | To apply [Border Radius](#border-radius) to all your buttons, you can modify the `button-border-top-radius` and `button-border-bottom-radius` variables in the [Theme Configuration](#theme-configuration). |
 
 ---
 
 #### Productlist
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Partijlijst | Deze beschrijving wordt aangevuld |
+With this component, you can easily add a collection of product cards to a page in a grid or carousel layout. You can also customize the Comfy view and configure the carousel style to suit your needs. This gives you the flexibility to tailor the presentation of your products to your webshop.
+
+Products that are loaded but are not available are automatically hidden from the Product List. When none of the loaded products are available, the component is automatically hidden from the page. The component is directly connected to the availability in the Backoffice.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we selected a [Column](#rowcolumn) component (1) and added the **Product List** component (2) to it.<details><summary><b>Click here for the example image</b></summary><img src="media/44.1.png"></details> |
+| **2** | The **Product List** component is now visible in the [Navigator](#navigator) (3) and the [Editor](#editor) (4). To load inventory, go to the **Generate** tab (5) and click **Generate** (6). A dialog box will then open.<details><summary><b>Click here for the example image</b></summary><img src="media/44.2.png"></details> |
+| **3** | In this dialog box, you can optionally enter a name for the inventory you want to load (7). You then have three options for populating the Product List with inventory:<br><br>**Generate step by step** (8): determine step by step which inventory you want to load.<br><br>**Generate using a URL** (9): paste a complete URL from your inventory to load the corresponding inventory. For example, you can create a filter in the shop, copy the URL from the browser and paste it into the dialog box.<br><br>**Generate manually** (10): add an empty Product List that you can then populate manually with inventory codes.<br><br>In this example, we choose **Generate step by step** (8).<details><summary><b>Click here for the example image</b></summary><img src="media/44.3.png"></details> |
+| **4** | In **Step 1** (11), specify the type of inventory: **Inventory**, **Order list** or a specific inventory. In **Step 2** (12), select the desired category, also known as an **Inventory group**. In **Step 3** (13), select the desired item group, also known as **Webshop Inventory**. In **Step 4** (14), select the desired product group, also known as **Inventory**. A preview is displayed while the URL is being generated (15), allowing you to see how the URL is built. Then click **Generate** (6) to populate the Product List with the selected inventory.<details><summary><b>Click here for the example image</b></summary><img src="media/44.4.png"></details> |
+| **5** | When the loaded inventory is available, it is displayed directly in the Product List (17). In the [Aside Editor](#aside-editor), you can see that the source of the Product List has been added (18). You can manually adjust this source if required. You can also specify the maximum number of products to display. By default, this is set to a maximum of **10 products** (19). If you have generated multiple inventories, you can use the arrows (20) to change their order in the Product List. An inventory can easily be removed using the trash icon (21).<details><summary><b>Click here for the example image</b></summary><img src="media/44.5.png"></details> |
+| **6** | Via the **[General settings](#general-settings)** tab (22), you can configure the following options:<br><br>**[Edit translations](#translations)**: manage the translations of the texts within the component.<br><br>**Product List mode** (23): select **Option 2** for a styled version of the Product List.<br><br>**Header text** (24): enter a title for the Product List component. Leave this field empty to automatically use the name retrieved from the Backoffice.<br><br>**Space between product cards** (25): specify the spacing in pixels between the displayed product cards.<details><summary><b>Click here for the example image</b></summary><img src="media/44.6.png"></details> |
+| **7** | The **Show all** expandable section (26) contains the **Show all link text** option (27). This allows you to define custom text for the **Show all** button. You can also enter a custom [URL](#url) (28). If you leave these fields empty, the component automatically displays a **Show all** link that refers to the corresponding inventory.<details><summary><b>Click here for the example image</b></summary><img src="media/44.7.png"></details> |
+| **8** | The **List view** expandable section (29) contains the **Hide header** option (30), which allows you to hide the title of the Product List. You can also hide the footer (31). This last option only has an effect when the **Product List mode** is set to **Option 1**.<details><summary><b>Click here for the example image</b></summary><img src="media/44.8.png"></details> |
+| **9** | The **Carousel** expandable section (32) contains the **Display as carousel** option (33), which allows you to display the Product List as a slider. You can also activate navigation buttons (34), enable **Autoplay** (35), and determine the interval at which the slider is automatically played (36).<details><summary><b>Click here for the example image</b></summary><img src="media/44.9.png"></details> |
+| **10** | The **Product cards** expandable section (37) contains the **Product card view** option (38). This determines whether the product cards are displayed using the **Module** or **Comfy** view. **FromSettings** means that the setting from the Webshop Settings is used.<br><br>Via **Purchase controls** (39), you can determine whether purchase controls are displayed on the product cards. With **Purchase control type** (40), you can specify whether a purchase button or add buttons are displayed. **Note:** the Purchase controls option only works after a departure date has been selected in the shop. Via the `CLICKANDBUYCOMFYMODE` web setting, you can configure this option for the entire shop.<br><br>You can also determine how product images are displayed (41). **Contain** displays the complete image within the available frame. **Cover** fills the available frame completely with the image. Via the `FOTOCONTAINERMODE` web setting, you can configure this option for the entire shop.<br><br>With **Display in Comfy view** (42), you can determine which information is displayed on the product cards. Via the `CLICKANDBUYCOMFYTOONINFO` web setting, you can configure this option for the entire shop.<details><summary><b>Click here for the example image</b></summary><img src="media/44.10.png"></details> |
+| **11** | Read more about the additional settings in the [Styling](#3-styling), [Advanced](#4-advanced) and [Visibility](#5-visibility) tabs. |
 
 ---
 
@@ -897,19 +1028,40 @@ A CMS page uses rows and columns to ensure proper alignment across different dev
 
 ---
 
-#### Social icons
+#### Social Icons
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Social icons | Deze beschrijving wordt aangevuld |
+Enter the corresponding URL for each social media channel. The social media icons will then be displayed directly on the page. This allows you to quickly and easily create links to your own social media channels.
+
+| Step | Explanation |
+|:--|:--|
+| **1** | In this example, we selected a [Column](#rowcolumn) component (1) and added the **Social Icons** component (2) to it.<details><summary><b>Click here for the example image</b></summary><img src="media/45.1.png"></details> |
+| **2** | The **Social Icons** component is now visible in the [Navigator](#navigator) (3) and the [Editor](#editor) (4). Via the **[General settings](#general-settings)** tab (5), you can further configure the component.<details><summary><b>Click here for the example image</b></summary><img src="media/45.2.png"></details> |
+| **3** | Enter the URLs for your social media channels (8). The following channels are supported: **Facebook**, **Instagram**, **Pinterest**, **X** (formerly Twitter), **YouTube**, and **LinkedIn**. In this example, we entered a `#` in the fields to demonstrate how the icons are displayed in the editor. Via **Icon size** (6), you can determine the size of the icons. You can also set a [color](#color-picker) (7) and determine whether the link should open in a [new tab](#url).<details><summary><b>Click here for the example image</b></summary><img src="media/45.3.png"></details> |
+| **4** | Read more about the additional settings in the [Styling](#3-styling), [Advanced](#4-advanced), and [Visibility](#5-visibility) tabs. |
+| **5** | **Tip:** Would you rather use and position your own icons? You can use a [Flex](#flex) and [SVG](#svg) component to display your own social media channels. |
 
 ---
 
 #### Breadcrumbs
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Breadcrumbs | Deze beschrijving wordt aangevuld |
+This component shows visitors where they are within the website. Breadcrumbs make it easy to navigate back to previous levels or the homepage. They also contribute to an SEO-friendly website structure.
+
+| Step | Description |
+|:--|:--|
+| **1** | In this example, we have selected a [Panel](#panel) component (1) to which we add the **Breadcrumbs** component (2).<details><summary><b>Click here for the example image</b></summary><img src="media/46.1.png"></details> |
+| **2** | The **Breadcrumbs** component is now visible in the [Navigator](#navigator) (3) and the [Editor](#editor) (4). You can further configure the component via the **[General settings](#general-settings)** (5). For example, you can add a separator using **SeparatorCharacter** (6). This separator is then displayed between the page names in the Breadcrumbs component. **ZmdiIconClass** (7) may sound more complicated, but it is simply a way to add an icon. View the list of available icons via [Material Design Iconic Font](https://zavoloklom.dev/material-design-iconic-font/cheatsheet.html). Make sure to enter the correct icon name, such as `zmdi-home`.<details><summary><b>Click here for the example image</b></summary><img src="media/46.2.png"></details> |
+| **3** | Learn more about the additional settings in the [Styling](#3-styling), [Advanced](#4-advanced), and [Visibility](#5-visibility) tabs. |
+
+---
+
+#### Page Search
+
+Use this component to make CMS (blog) pages searchable on your website. This allows users to search within one or more categories and enables you to effectively incorporate search terms into your page descriptions, so visitors can perform more targeted searches.
+
+| Step | Description |
+|:--|:--|
+| **1** | In this example, we have added the **Page Search** component to a [Column](#rowcolumn) component (1). The component is now visible in both the [Navigator](#navigator) (2) and the [Editor](#editor) (3). You can further configure the component via the **[General settings](#general-settings)** (4).<br><br>**[Edit translations](#translations)** (5)<br><br>**Placeholder** (6) – Enter the text that should be displayed as placeholder text in the search field.<br><br>**Show category dropdown** (7) – Enable or disable this option to display a dropdown next to the search field. When this option is enabled, the **Spacing** (8) and **Dropdown width (%)** (9) fields appear. These settings allow you to determine the spacing between the dropdown and the search field and set the width of the dropdown as a percentage.<br><br>**Searchable categories** (10) – Select which [Page Categories](#categories) or [Blog Categories](#blog-categories) may be displayed in the dropdown.<br><br>**[Component Style](#component-styles)** (11).<details><summary><b>Click here for the example image</b></summary><img src="media/47.1.png"></details> |
+| **2** | Learn more about the additional settings in the [Styling](#3-styling), [Advanced](#4-advanced), and [Visibility](#5-visibility) tabs. |
 
 ---
 

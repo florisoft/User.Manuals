@@ -80,7 +80,7 @@ Use `AvailableStocks` to select the stocks from which pick items may be loaded. 
 
 When `UseLogisticParcels` is enabled, Florisoft includes logistic parcels in the availability check. `RemoveLogisticParcelWhenZero` then determines whether such a logistic parcel is removed when its remaining quantity reaches zero. The latter can fall back to the existing system setting.
 
-The `PakstatusMoetWordenGepakt` system setting determines when a printed pick order receives the **Must be picked** work-order status. With the default value `true`, printing the pick orders sets the `XORDERKOP` to this status. With `false`, this happens only when the pick orders are delivered through PDA. This is important for availability in the app: Order Picking offers only open work orders or work orders already claimed by the current user. If an assignment does not receive the expected packing status after printing, it may therefore be absent from the work-order overview.
+The policy setting `IniSettings_FSSystem_Pickorder_PakstatusMoetWordenGepakt` determines whether a pick order receives the **Must be picked** status. With the default value `true`, this status is also set during normal delivery and printing. As a result, work orders may be created for orders that should not be delivered via the PDA. Disable the setting when work orders should be created exclusively through **Deliver via PDA**.
 
 `PickOrderSplitStrategy` determines how a required quantity is distributed over available unique carriers:
 
@@ -129,22 +129,52 @@ Use these settings together for visibility and control: the Backoffice policy de
 
 A claimed assignment remains reserved for the employee temporarily. If it is not activated in time, Florisoft releases the claim. The user receives a message and must retrieve a new assignment. This prevents abandoned work orders from remaining blocked.
 
+### Sort distribution labels when printing
+
+Set the print order of distribution labels through the `IniSettings_FSTeleverkoop_VerdeelstickerSortering` policy. Choose the required sort values, such as `LocatieCode`, `Barcode_chrono` or `stickerVan`. Use `LocatieCode` to sort the labels by location code.
+
 ---
 
 ## Step 4 – Activate the work order and print documents
 
-After activation, the **Orderpicks** screen opens. The `ActivateWorkOrderAdditionalActions` policy determines which actions Florisoft performs immediately during activation. The currently supported action is `PrintPackingList`; an empty list performs no automatic action.
+After activation, the **Orderpicks** screen opens. The `ActivateWorkOrderAdditionalActions` policy determines which actions Florisoft performs immediately during activation. The supported actions are `PrintPackingList` and `PrintPickItemLabels`; an empty list performs no automatic action.
+
+### Choose printers with a QR code
+
+To send the packing list and pick-item labels to the required printers through a printer situation, enable `ActivateWorkOrderPrinterPrompt` under **Order Picking**. Create a policy situation linked to a policy profile that configures the printers and layouts for both documents. The picker can then choose the required printers when activating a work order.
+
+After claiming a work order, the picker taps the **arrow** to activate it. The app first requests the printer situation QR code. Scan an FSQR code containing the situation name. A valid scan activates the situation and then activates the work order. The picker can also scan a situation that is already active. The configured print actions then use the printers from the policy profile.
+
+If the picker cancels the scan or the QR code contains no printer situation, the work order is not activated and the existing claim remains available. A packing list can also be printed as a separate action at completion, as described in step 10.
+
+### Automatically print pick-item labels
+
+Select `PrintPickItemLabels` in `ActivateWorkOrderAdditionalActions` to automatically print labels for the work order's pick items after activation. Configure the following policies under **Order Picking → PickItemLabelPrintSettings** first:
+
+- `PickItemLabelPrinter`: the printer for pick-item labels;
+- `PickItemLabelLayout`: the layout for pick-item labels.
+
+After successful submission, Florisoft shows the usual message that the print job was sent to the configured printer. This message confirms that the job was submitted, not that the labels were physically printed. Always use a test work order when setting up or changing a printer. A separate message is not always available for an unknown or unreachable printer.
+
+### Automatically print a packing list
 
 For automatic printing, the policies under **Packing List** must be configured correctly:
 
-- `PrinterSettings` contains the printer and layout configuration;
+- `PrinterName` contains the printer;
+- `ReportName` contains the packing-list layout and is selected from the available packing-list layouts;
+- `Enabled` enables or disables packing-list printing;
 - `GroupPickItemsForPackingListType` determines how lines are grouped.
 
 `Customer` groups lines by customer and is the default. `CustomerOrderName` groups them by customer and order name.
 
 The Job Agent must be reachable to send the print job to the printer. Florisoft shows a message when a printer or layout is missing or printing fails. Check this message before starting the physical picking process.
 
-`Backoffice_Logistics_OrderPick_AllowedToPrintPackingListToPDA` must also be enabled when the packing list is printed through the PDA delivery and printing flow. When this Backoffice policy is disabled, Florisoft blocks packing-list printing through PDA even if `ActivateWorkOrderAdditionalActions` contains `PrintPackingList` and `PrinterSettings` is configured correctly.
+### Printing during Deliver via PDA
+
+During **Deliver and print via PDA**, Florisoft normally prints the packing list and pick-order labels when the printer and layout settings are configured correctly. These Backoffice policies determine whether printing is allowed for each document type:
+
+- `Backoffice_Logistics_OrderPick_AllowedToPrintPackingListToPDA`: disable it to prevent the packing list from printing in this PDA flow.
+- `Backoffice_Logistics_OrderPick_AllowedToPrintStickersToPDA`: disable it to prevent the labels from printing in this PDA flow.
 
 ---
 
@@ -179,6 +209,8 @@ The ordered `PickItemDetails` list determines which additional fields appear on 
 - `TotalColliToPick`: original total number of colli to pick;
 - `Remark`: remark;
 - `ArticleNumber`: article number.
+
+An available `Remark` appears by default in **Orderpicks** and **Details** and can also be added as a detail item through `PickItemDetails`. In **Orderpicks**, the display is limited to two lines; an ellipsis indicates that the text is longer. Open the pick item to read the full remark in **Details**. The manual order-line remark (`OPMERKING`) takes precedence; if it is empty, the app displays the webshop note from **Stock > Note** (`OPMERKING2`). Remarks are not combined.
 
 The default list contains `Sku`, `Word`, `S1` through `S5`, `Color` and `PackagingCode`.
 
@@ -301,7 +333,7 @@ After successful completion, Florisoft shows a summary. Tap the **check mark** t
 
 ## Step 11 – Perform additional actions
 
-The `EnableAddons` policy under **Order Picking → Add-ons** determines which additional actions are offered after completion. Order Picking supports:
+The `Addons_EnableAddons` policy under **Order Picking → Add-ons** determines which additional actions are offered after completion. Order Picking supports:
 
 - `AdressLabel`: print an address label;
 - `Returnables`: register outbound returnable packaging;
@@ -309,33 +341,27 @@ The `EnableAddons` policy under **Order Picking → Add-ons** determines which a
 
 A selected action is usable only when the corresponding licence and integration are also available. The general add-on values `CMR` and `ExceptionRegistration` are not offered through this Order Picking list.
 
+Tap an additional action to open it immediately; there is no separate **Confirm** button.
+
 ### Print an address label
 
 1. Open **Additional actions**.
 2. Select **Print address label**.
-3. Tap **Confirm**.
-4. Follow the steps to print the label.
+3. Follow the steps to print the label.
 
 ### Register returnable packaging
 
 1. Open **Additional actions**.
 2. Select **Register returnables**.
-3. Tap **Confirm**.
-4. Register the outbound packaging for the displayed order.
+3. Verify that Returnables Outbound shows the correct customer and order. The app resumes your active session for the same customer and order, or creates one new session and batch when none exists.
+4. Register the outbound packaging.
+5. Choose **Done** to process the count immediately according to the Returnables policies, close the session and return to Order Picking.
+
+To leave without processing the count, choose **Cancel**. Choosing **No** keeps the count open. Confirming cancellation removes the entered batch items, stops the session and returns to Order Picking without administratively processing the quantities.
 
 ### Take and retain pictures
 
-1. Open **Additional actions**.
-2. Select **Pictures**.
-3. Tap **Confirm**.
-4. Add one or more pictures.
-5. Tap **Save**.
-
-`PhotoStorageDirectoryPath` determines the reachable directory in which pictures are stored. The application needs read and write access to this location.
-
-`PhotoStorageRetentionDays` determines the retention period. The intended default is 100 days. Configure this value explicitly when your organisation uses a fixed retention period.
-
-Florisoft shows a confirmation after a successful save. Return to the summary and tap the **check mark** to leave the work order.
+Follow the shared [manual for capturing and managing photos](../../Additional%20actions/Photos/Manual%20capturing%20and%20managing%20photos%20-%20EN.md). The photos are linked to the active work order. Then return to the summary and tap the **check mark** to leave the work order.
 
 ---
 
@@ -345,7 +371,7 @@ Florisoft shows a confirmation after a successful save. Return to the summary an
 
 - Check the employee groups.
 - Check that the correct salesperson group is stored on the work order and that the employee is linked to that group.
-- Check `Backoffice_Logistics_Pickorders_Entry_ShowUserGroup`, `Backoffice_Logistics_Pickorders_Entry_DefaultUserGroup` and `PakstatusMoetWordenGepakt`.
+- Check `Backoffice_Logistics_Pickorders_Entry_ShowUserGroup`, `Backoffice_Logistics_Pickorders_Entry_DefaultUserGroup` and `IniSettings_FSSystem_Pickorder_PakstatusMoetWordenGepakt`.
 - Check `OrderDateFrom`, `OrderDateTo` and `AvailableStocks`.
 - Check whether `UseLogisticParcels` matches the stock workflow.
 - Tap **Refresh** and ask the planner whether assignments are available.
@@ -367,11 +393,11 @@ Check the location and unique carrier. Select an alternative location or registe
 
 ### Printing does not work
 
-Check whether automatic printing at activation is enabled, whether the printer and layout are configured, whether printing from the PDA is permitted, which packing-list grouping is selected, and whether the Job Agent is available. For printing after the completion scan, also check the configured instruction barcode and its associated print action.
+Check whether automatic printing at activation is enabled and the correct action is selected. For pick-item labels, check `PrintPickItemLabels`, `PickItemLabelPrinter`, `PickItemLabelLayout` and that the Job Agent is reachable. If labels are incorrectly printed again, or are not printed again, during **Deliver via PDA**, check `Backoffice_Logistics_OrderPick_AllowedToPrintStickersToPDA`. The message that a job was sent to a printer confirms only submission; always check the physical result when setting up or changing a printer. For a packing list, check the printer and layout, whether printing from the PDA is permitted, and the selected packing-list grouping. For printing after the completion scan, also check the configured instruction barcode and its associated print action.
 
 ### An additional action is unavailable
 
-Check `EnableAddons`, the corresponding licence and the required integration. For pictures, the storage path and access permissions must also be valid.
+Check the corresponding licence and the required integration. For photos, also check the policies, storage location, and access permissions described in the [manual for capturing and managing photos](../../Additional%20actions/Photos/Manual%20capturing%20and%20managing%20photos%20-%20EN.md).
 
 ---
 

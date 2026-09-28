@@ -105,6 +105,8 @@ De integratie is onder andere beschikbaar in:
 
 De actie is alleen zichtbaar wanneer de Address Label-licentie actief is en de betreffende app en policies de aanvullende actie toestaan. Meer informatie over app-integraties staat in het [overzicht van de Cloud Applications](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/README.md).
 
+Voor gebruik vanuit Final Outbound Check voegt u `AdressLabel` toe aan `Apps → Logistics → QualityControl → FinalOutboundCheck → Addons → EnableAddons`. De Shipping-instellingen voor Address Label, waaronder `Enabled`, `PrinterName` en `ReportName`, moeten daarnaast volledig zijn ingericht.
+
 ## Policies instellen
 
 Open in de Backoffice het constantenscherm via de navigator en ga naar **Systeem → Users → Policy Beheer**. Selecteer of maak een policy en navigeer naar **Apps → Logistics → Shipping → AddressLabels**.
@@ -120,7 +122,7 @@ De policygroep `PrinterSetting` bevat de instellingen voor het afdrukken van adr
 | Instelling | Werking |
 | --- | --- |
 | `PrinterName` | Bepaalt naar welke printer het adreslabel wordt gestuurd. |
-| `ReportName` | Bepaalt welke rapportlay-out of sjabloon voor het adreslabel wordt gebruikt. |
+| `ReportName` | Bepaalt welke rapportlay-out of sjabloon voor het adreslabel wordt gebruikt. Alleen rapportlay-outs van lijstsoort `Stickers` of `AdresSticker` kunnen worden geselecteerd. |
 | `DefaultCopies` | Bepaalt hoeveel labels standaard in het printscherm zijn geselecteerd. |
 | `Enabled` | Schakelt de printerinstellingen voor Address Label in of uit. |
 
@@ -140,5 +142,6 @@ Een decoder vertelt de app hoe de informatie uit een barcode moet worden gelezen
 | Een barcode wordt niet herkend. | Controleer of het juiste type in `BarcodeDecodeOptions` is opgenomen en of de barcode naar een klant leidt. |
 | De verkeerde adresgegevens worden getoond. | Controleer eerst de aflevergegevens en daarna de standaard adresgegevens van de debiteur. |
 | De printer is niet beschikbaar. | Controleer `Enabled`, `PrinterName` en of de JobAgent actief en bereikbaar is. |
+| De keuzelijst bij `ReportName` is leeg. | Controleer of een rapportlay-out van lijstsoort `Stickers` of `AdresSticker` beschikbaar is. Alleen deze lijstsoorten worden getoond. |
 | Het verkeerde label of formaat wordt afgedrukt. | Controleer de ingestelde waarde bij `ReportName`. |
 | Het standaard aantal labels klopt niet. | Controleer de waarde van `DefaultCopies`. |

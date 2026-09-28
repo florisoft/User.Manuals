@@ -105,6 +105,8 @@ The integration is available in, among others:
 
 The action is only visible when the Address Label licence is active and the relevant app and policies allow the additional action. For more information about app integrations, see the [Cloud Applications overview](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/README_EN.md).
 
+To use Address Label from Final Outbound Check, add `AdressLabel` to `Apps → Logistics → QualityControl → FinalOutboundCheck → Addons → EnableAddons`. The Shipping settings for Address Label, including `Enabled`, `PrinterName`, and `ReportName`, must also be fully configured.
+
 ## Configuring policies
 
 Open the constants screen in the Backoffice through the navigator and go to **System → Users → Policy Management**. Select or create a policy and navigate to **Apps → Logistics → Shipping → AddressLabels**.
@@ -120,7 +122,7 @@ The `PrinterSetting` policy group contains the settings used to print address la
 | Setting | Behaviour |
 | --- | --- |
 | `PrinterName` | Determines the printer to which the address label is sent. |
-| `ReportName` | Determines the report layout or template used for the address label. |
+| `ReportName` | Determines the report layout or template used for the address label. Only report layouts with list type `Stickers` or `AdresSticker` can be selected. |
 | `DefaultCopies` | Determines how many labels are initially selected on the print screen. |
 | `Enabled` | Enables or disables the printer settings for Address Label. |
 
@@ -140,5 +142,6 @@ A decoder tells the app how to interpret the information in a barcode. Depending
 | A barcode is not recognised. | Check whether the correct type is included in `BarcodeDecodeOptions` and whether the barcode leads to a customer. |
 | The wrong address details are shown. | Check the customer's delivery details first and then the standard address details. |
 | The printer is unavailable. | Check `Enabled`, `PrinterName`, and whether the JobAgent is active and reachable. |
+| The `ReportName` selection list is empty. | Check that a report layout with list type `Stickers` or `AdresSticker` is available. Only these list types are shown. |
 | The wrong label or format is printed. | Check the value configured for `ReportName`. |
 | The default number of labels is incorrect. | Check the value of `DefaultCopies`. |

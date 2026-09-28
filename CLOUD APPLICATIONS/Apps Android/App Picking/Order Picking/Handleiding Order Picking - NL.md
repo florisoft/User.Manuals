@@ -80,7 +80,7 @@ Met `AvailableStocks` stelt u in uit welke voorraden pickitems mogen worden gela
 
 Wanneer `UseLogisticParcels` actief is, betrekt Florisoft logistieke partijen bij de beschikbaarheidscontrole. `RemoveLogisticParcelWhenZero` bepaalt vervolgens of zo'n logistieke partij wordt verwijderd zodra de resterende hoeveelheid nul is. Deze laatste instelling kan terugvallen op de bestaande systeeminstelling.
 
-De systeeminstelling `PakstatusMoetWordenGepakt` bepaalt wanneer een geprinte pickorder de werkorderstatus **Moet worden gepakt** krijgt. Bij de standaardwaarde `true` zet het printen van de pickorders de `XORDERKOP` op deze status. Bij `false` gebeurt dit alleen wanneer de pickorders via PDA worden uitgeleverd. Dit is belangrijk voor de beschikbaarheid in de app: Order Picking biedt alleen open of reeds door de huidige gebruiker geclaimde werkopdrachten aan. Wanneer een opdracht na het printen niet de verwachte pakstatus krijgt, kan deze daardoor ontbreken in het werkopdrachtenoverzicht.
+De systeeminstelling `IniSettings_FSSystem_Pickorder_PakstatusMoetWordenGepakt` bepaalt of een pickorder de status **Moet worden gepakt** krijgt. Bij de standaardwaarde `true` wordt deze status ook gezet bij normaal uitleveren en printen. Daardoor kunnen workorders ontstaan voor orders die niet via de PDA uitgeleverd moeten worden. Zet de instelling uit wanneer workorders uitsluitend via **Uitleveren via PDA** mogen worden aangemaakt. Zonder de juiste pakstatus kan een opdracht ontbreken in het werkopdrachtenoverzicht.
 
 `PickOrderSplitStrategy` bepaalt hoe een benodigde hoeveelheid over beschikbare unieke dragers wordt verdeeld:
 
@@ -129,22 +129,52 @@ Gebruik deze twee instellingen samen om inzicht en sturing te krijgen: de Backof
 
 Een geclaimde opdracht blijft tijdelijk voor de medewerker gereserveerd. Wordt deze niet op tijd geactiveerd, dan geeft Florisoft de claim vrij. De gebruiker krijgt een melding en moet een nieuwe opdracht ophalen. Zo blijven verlaten opdrachten niet onnodig geblokkeerd.
 
+### Verdeelstickers sorteren bij het printen
+
+Stel de printvolgorde van verdeelstickers in via de policy `IniSettings_FSTeleverkoop_VerdeelstickerSortering`. Kies de gewenste sorteerwaarden, bijvoorbeeld `LocatieCode`, `Barcode_chrono` of `stickerVan`. Met `LocatieCode` kunt u de stickers op locatiecode sorteren.
+
 ---
 
 ## Stap 4 – De werkopdracht activeren en documenten printen
 
-Na activering opent het scherm **Orderpicks**. De policy `ActivateWorkOrderAdditionalActions` bepaalt welke acties Florisoft direct tijdens de activatie uitvoert. De huidige ondersteunde actie is `PrintPackingList`; een lege lijst voert geen automatische actie uit.
+Na activering opent het scherm **Orderpicks**. De policy `ActivateWorkOrderAdditionalActions` bepaalt welke acties Florisoft direct tijdens de activatie uitvoert. De ondersteunde acties zijn `PrintPackingList` en `PrintPickItemLabels`; een lege lijst voert geen automatische actie uit.
+
+### Printer kiezen met een QR-code
+
+Wilt u de paklijst en pickorderstickers via een printersituatie naar de gewenste printers sturen, schakel dan onder **Order Picking** de policy `ActivateWorkOrderPrinterPrompt` in. Maak een policysituatie met een gekoppeld policyprofiel waarin de printers en lay-outs voor beide documenten zijn ingesteld. Zo kan de medewerker bij het activeren de gewenste printers kiezen.
+
+Na het claimen van een werkopdracht tikt de medewerker op de **pijl** om deze te activeren. De app vraagt dan eerst om de QR-code van de printersituatie. Scan een FSQR-code met de naam van de situatie. Na een geldige scan wordt de situatie actief en wordt de werkopdracht geactiveerd. Ook als dezelfde situatie al actief is, kan de medewerker deze opnieuw scannen. De ingestelde printacties worden daarna uitgevoerd met de printers uit het policyprofiel.
+
+Annuleert de medewerker de scan of bevat de QR-code geen printersituatie, dan wordt de werkopdracht niet geactiveerd; de bestaande claim blijft beschikbaar. De paklijst kan daarnaast als afzonderlijke actie bij het afronden worden geprint, zoals beschreven in stap 10.
+
+### Pickorderstickers automatisch printen
+
+Kies `PrintPickItemLabels` in `ActivateWorkOrderAdditionalActions` om na activatie automatisch stickers voor de pickitems van de werkopdracht af te drukken. Richt vooraf onder **Order Picking → PickItemLabelPrintSettings** de volgende policies in:
+
+- `PickItemLabelPrinter`: de printer voor pickorderstickers;
+- `PickItemLabelLayout`: de lay-out voor pickorderstickers.
+
+Na een geslaagde verzending toont Florisoft de gebruikelijke melding dat de printopdracht naar de ingestelde printer is gestuurd. Deze melding bevestigt dat de opdracht is verzonden, niet dat de stickers fysiek uit de printer zijn gekomen. Controleer daarom bij een nieuwe of gewijzigde printer altijd een testwerkopdracht. Voor een onbekende of onbereikbare printer is niet altijd een afzonderlijke melding beschikbaar.
+
+### Paklijst automatisch printen
 
 Voor automatisch printen moeten de policies onder **Packing List** correct zijn ingericht:
 
-- `PrinterSettings` bevat de printer- en lay-outinstellingen;
+- `PrinterName` bevat de printer;
+- `ReportName` bevat de paklijstlay-out en wordt gekozen uit de beschikbare paklijstlayouts;
+- `Enabled` schakelt het afdrukken van paklijsten in of uit;
 - `GroupPickItemsForPackingListType` bepaalt hoe de regels worden gegroepeerd.
 
 Met `Customer` worden de regels per debiteur gegroepeerd. Dit is de standaard. Met `CustomerOrderName` groepeert Florisoft per debiteur én ordernaam.
 
 De Job Agent moet bereikbaar zijn om de printopdracht naar de printer te sturen. Ontbreekt een printer of lay-out of mislukt de printopdracht, dan toont Florisoft een melding. Controleer deze melding voordat het fysieke pickproces begint.
 
-Daarnaast moet `Backoffice_Logistics_OrderPick_AllowedToPrintPackingListToPDA` ingeschakeld zijn wanneer de paklijst via de PDA-uitlever- en printflow wordt afgedrukt. Staat deze Backoffice-policy uit, dan houdt Florisoft het printen van de paklijst via PDA tegen, ook wanneer `ActivateWorkOrderAdditionalActions` de actie `PrintPackingList` bevat en `PrinterSettings` correct is ingevuld.
+### Printen bij Uitleveren via PDA
+
+Bij **Uitleveren en printen via PDA** print Florisoft standaard de paklijst en pickorderstickers als de printer- en lay-outinstellingen correct zijn ingericht. Deze Backoffice-policies bepalen per documenttype of printen in deze flow is toegestaan:
+
+- `Backoffice_Logistics_OrderPick_AllowedToPrintPackingListToPDA`: zet uit om de paklijst in deze PDA-flow niet te printen.
+- `Backoffice_Logistics_OrderPick_AllowedToPrintStickersToPDA`: zet uit om de stickers in deze PDA-flow niet te printen.
 
 ---
 
@@ -179,6 +209,8 @@ Met de geordende lijst `PickItemDetails` bepaalt u welke aanvullende velden op h
 - `TotalColliToPick`: het oorspronkelijke totaal aantal te picken kolli;
 - `Remark`: opmerking;
 - `ArticleNumber`: artikelnummer.
+
+Een beschikbare `Remark` verschijnt standaard in **Orderpicks** en **Details** en kan daarnaast via `PickItemDetails` als detailitem worden toegevoegd. In **Orderpicks** blijft de weergave beperkt tot twee regels; een ellips geeft aan dat de tekst langer is. Open het pickitem om de volledige opmerking in **Details** te lezen. De handmatige orderregelopmerking (`OPMERKING`) heeft voorrang; is deze leeg, dan toont de app de webshopnotitie uit **Stock > Note** (`OPMERKING2`). Opmerkingen worden niet gecombineerd.
 
 De standaardlijst bevat `Sku`, `Word`, `S1` tot en met `S5`, `Color` en `PackagingCode`.
 
@@ -301,7 +333,7 @@ Na een geslaagde afronding toont Florisoft een samenvatting. Tik op het **vinkje
 
 ## Stap 11 – Extra handelingen uitvoeren
 
-De policy `EnableAddons` onder **Order Picking → Add-ons** bepaalt welke extra handelingen na afronding worden aangeboden. Binnen Order Picking zijn de volgende waarden beschikbaar:
+De policy `Addons_EnableAddons` onder **Order Picking → Add-ons** bepaalt welke extra handelingen na afronding worden aangeboden. Binnen Order Picking zijn de volgende waarden beschikbaar:
 
 - `AdressLabel`: een adreslabel printen;
 - `Returnables`: uitgaande retourverpakkingen registreren;
@@ -309,33 +341,27 @@ De policy `EnableAddons` onder **Order Picking → Add-ons** bepaalt welke extra
 
 Een geselecteerde actie wordt alleen bruikbaar wanneer ook de bijbehorende licentie en integratie beschikbaar zijn. De algemene add-onwaarden `CMR` en `ExceptionRegistration` worden niet via deze Order Picking-lijst aangeboden.
 
+Tik op een extra handeling om deze direct te openen; er volgt geen afzonderlijke knop **Bevestig**.
+
 ### Adreslabel printen
 
 1. Open **Extra handelingen**.
 2. Selecteer **Adreslabel printen**.
-3. Tik op **Bevestig**.
-4. Volg de stappen om het label te printen.
+3. Volg de stappen om het label te printen.
 
 ### Retourverpakkingen registreren
 
 1. Open **Extra handelingen**.
 2. Selecteer **Retourverpakkingen registreren**.
-3. Tik op **Bevestig**.
-4. Registreer de uitgaande fusten voor de getoonde order.
+3. Controleer of Returnables Outbound de juiste klant en order toont. Een eigen actieve sessie voor dezelfde klant en order wordt hervat; anders maakt de app één nieuwe sessie en batch aan.
+4. Registreer de uitgaande fusten.
+5. Kies **Gereed** om de telling direct volgens de Returnables-policies te verwerken, de sessie te sluiten en terug te keren naar Order Picking.
+
+Wilt u stoppen zonder de telling te verwerken, kies dan **Annuleren**. Bij **Nee** blijft u in de telling. Bij bevestiging verwijdert de app de ingevoerde batchregels, stopt de sessie en keert terug naar Order Picking zonder fustaantallen administratief te verwerken.
 
 ### Foto's maken en bewaren
 
-1. Open **Extra handelingen**.
-2. Selecteer **Foto's**.
-3. Tik op **Bevestig**.
-4. Voeg één of meer foto's toe.
-5. Tik op **Opslaan**.
-
-`PhotoStorageDirectoryPath` bepaalt in welke bereikbare map de foto's worden opgeslagen. De applicatie moet lees- en schrijfrechten op deze locatie hebben.
-
-`PhotoStorageRetentionDays` bepaalt de bewaartermijn. De beoogde standaard is 100 dagen. Stel deze waarde expliciet in wanneer uw organisatie een vaste bewaartermijn hanteert.
-
-Na een geslaagde opslag toont Florisoft een bevestiging. Keer terug naar de samenvatting en tik op het **vinkje** om de werkopdracht definitief te verlaten.
+Volg de gedeelde [handleiding Foto's maken en beheren](../../Additional%20actions/Photos/Handleiding%20foto%27s%20maken%20en%20beheren%20-%20NL.md). De foto's worden gekoppeld aan de actieve werkopdracht. Keer daarna terug naar de samenvatting en tik op het **vinkje** om de werkopdracht definitief te verlaten.
 
 ---
 
@@ -345,7 +371,7 @@ Na een geslaagde opslag toont Florisoft een bevestiging. Keer terug naar de same
 
 - Controleer de medewerkersgroepen.
 - Controleer of de juiste verkopersgroep op de werkopdracht staat en of de medewerker aan deze groep is gekoppeld.
-- Controleer `Backoffice_Logistics_Pickorders_Entry_ShowUserGroup`, `Backoffice_Logistics_Pickorders_Entry_DefaultUserGroup` en `PakstatusMoetWordenGepakt`.
+- Controleer `Backoffice_Logistics_Pickorders_Entry_ShowUserGroup`, `Backoffice_Logistics_Pickorders_Entry_DefaultUserGroup` en `IniSettings_FSSystem_Pickorder_PakstatusMoetWordenGepakt`.
 - Controleer `OrderDateFrom`, `OrderDateTo` en `AvailableStocks`.
 - Controleer of `UseLogisticParcels` past bij de gebruikte voorraadflow.
 - Tik op **Verversen** en vraag de planner of er beschikbare opdrachten zijn.
@@ -367,11 +393,11 @@ Controleer de locatie en unieke drager. Kies indien beschikbaar een alternatieve
 
 ### Printen werkt niet
 
-Controleer of automatisch printen bij het activeren is ingeschakeld, of de printer en lay-out zijn ingericht, of printen vanaf de PDA is toegestaan, welke paklijstgroepering is gekozen en of de Job Agent bereikbaar is. Controleer bij printen na de afrondscan ook de ingestelde instructiebarcode en de daaraan gekoppelde printactie.
+Controleer of automatisch printen bij het activeren is ingeschakeld en of de juiste actie is gekozen. Voor pickorderstickers controleert u `PrintPickItemLabels`, `PickItemLabelPrinter`, `PickItemLabelLayout` en de bereikbaarheid van de Job Agent. Worden stickers bij **Uitleveren via PDA** ten onrechte wel of niet opnieuw geprint, controleer dan `Backoffice_Logistics_OrderPick_AllowedToPrintStickersToPDA`. De melding dat een opdracht naar een printer is gestuurd bevestigt alleen de verzending; controleer bij een nieuwe of gewijzigde printer altijd het fysieke resultaat. Voor een paklijst controleert u de printer en lay-out, of printen vanaf de PDA is toegestaan en welke paklijstgroepering is gekozen. Controleer bij printen na de afrondscan ook de ingestelde instructiebarcode en de daaraan gekoppelde printactie.
 
 ### Een extra handeling is niet beschikbaar
 
-Controleer `EnableAddons`, de bijbehorende licentie en de vereiste integratie. Voor foto's moeten ook het opslagpad en de toegangsrechten geldig zijn.
+Controleer de bijbehorende licentie en de vereiste integratie. Controleer voor foto's ook de policies, opslaglocatie en toegangsrechten volgens de [handleiding Foto's maken en beheren](../../Additional%20actions/Photos/Handleiding%20foto%27s%20maken%20en%20beheren%20-%20NL.md).
 
 ---
 

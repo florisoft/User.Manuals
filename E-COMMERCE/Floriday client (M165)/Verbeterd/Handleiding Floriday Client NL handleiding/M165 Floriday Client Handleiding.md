@@ -11,7 +11,8 @@ Dit document beschrijft wat nodig is voor het opzetten van een koppeling met Flo
 [Aanvragen API key](#aanvragen-api-key)  
 [Inrichten van een voorraad](#inrichten-van-een-voorraad)  
 [Inrichten van een leverancier](#inrichten-van-leverancier)  
-[Andere locaties](#andere-locaties)  
+[Floriday-aanbod per kweker over voorraden verdelen](#floriday-aanbod-per-kweker-over-voorraden-verdelen)<br>
+[Alternatieve locaties](#alternatieve-locaties)<br>
 [Werking](#werking)  
   [Connecties](#connecties)  
   [Verwerkingsvolgorde](#verwerkingsvolgorde)   
@@ -44,7 +45,7 @@ In dit hoofdstuk behandelen we het opzetten van een voorraad waarin de Floriday 
 |**5**|U heeft zojuist de voorraad aangemaakt, heropen het zojuist gesloten scherm weer door de voorraad dubbel aan te klikken in de tabel.|
 |**6**|In het voorraad instelling scherm navigeert u naar het '*Autorisatie*' tabje. In dit scherm dient u de volgende gebruikers te autoriseren:<br>- ADMINC<br>- ADMINF<br>- ADMINK<br>- DEFAULT <br>- SUPER <br>- TIMER<br>- Uw eigen gebruikers<br><br>U kunt gebruikers autoriseren door het vierkantje naast hun naam aan te vinken. Klik vervolgens op '*Ok*'(#1).<details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media NL/image6.png" width=600px></details>|
 
-|:bulb:|Mocht u filters hebben voor aparte voorraden van Floriday kan u er voor kiezen om aparte Live voorraden te maken. Dit leidt dan ook tot aparte leveranciers voor de Floriday filters. |
+|:bulb:|Wilt u het aanbod van verschillende kwekers over aparte Floriday-voorraden verdelen? Maak dan de gewenste Live voorraden aan en gebruik het partijfilter van de Floriday-leverancier. U hoeft hiervoor niet per kweker een aparte leverancier of API-key aan te maken. |
 |:--|:--|
 
 
@@ -59,6 +60,42 @@ In dit hoofdstuk stellen we de leverancier in die de voorraad binnen gaat halen 
 |**3**|Dit opent het Leverancier creatie/instelling scherm, vul hier voor nu de volgende instellingen in en klik verolgens op '*Ok*' en bevestigen. <br>- **Lev.code**(#1): *Unieke leveranciers code, vul hier wat kenmerkelijks in*<br> - **Zoek**(#2): hiermee kan de leverancier terug gevonden worden in het systeem, meestal gebruik je hier ook de lev. code.<br>- **Bedrijfsnaam**(#3): Vul hier de bedrijfsnaam in met evt. er achter waarop gefilterd word bijv. bloemen of planten indien nodig. <details><summary><b>Klik hier voor uw voorbeeld afbeelding</b></summary><img src="Media NL/image8.png" width=600px></details>|
 |**4**|Na het sluiten van het leveranciersscherm open het scherm opnieuw door er dubbel op te klikken in de tabel.|
 |**5**|Nu het scherm open is navigeert u naar '*Webservice*' in de bestandsstructuur aan de linkerkant. In dit scherm past u de volgende instellingen aan:<br><br>- **Activeren voor voorraadkoppeling**: aanvinken. <br>- **Type webservice**: zet dit op '*Floriday koper Api*'.<br>- **Binnenkomende voorraad**: Selecteer hier de voorraad die u eerder heeft aangemaakt.<br>- **API key**: deze is eerder verkregen via Floriday in [hoofdstuk 1](#aanvragen-api-key).<br> - **Region GLN**: Dit is de GLN code van de regio (veiling)<br> - **Aflever GLN**: Dit is de GLN code van de exacte afleverlocatie, mocht u dit niet weten zoek dit dan op via [Floricode](https://www.floricode.com/en-us/distribution/finding-codes/company-code-search). :warning: **LET OP PAK DE LOCATION CODE EN NIET DE COMPANY CODE!**|
+
+## Floriday-aanbod per kweker over voorraden verdelen
+
+Met het partijfilter kunt u het aanbod dat via één Floriday-koppeling binnenkomt over meerdere Florisoft-voorraden verdelen. U hoeft hiervoor niet voor iedere kweker een afzonderlijke API-key of leverancier aan te maken.
+
+Maak vooraf de benodigde voorraden aan.
+
+|Stap|Uitleg|
+|:--|:--|
+|**1**|Open in het constantenscherm de leverancier waarmee het Floriday-aanbod wordt opgehaald.|
+|**2**|Ga naar `Webservice` en klik op `Partij filter / instellingen`. De leverancier moet eerst zijn opgeslagen voordat u dit scherm kunt openen.|
+|**3**|Voeg voor iedere kweker die naar een afzonderlijke voorraad moet worden gestuurd een regel toe.|
+|**4**|Vul bij voorkeur de `Kweker EAN` in. Voor Floriday wordt hiervoor de GLN van de kweker gebruikt. Wanneer zowel een Kweker EAN als een veiling-/kwekercode is ingevuld, heeft de Kweker EAN voorrang.|
+|**5**|Selecteer bij `Inleesvoorr.` de voorraad waarin de partijen van deze kweker moeten worden geplaatst.|
+|**6**|Laat `Inleeswijze` op `Inlezen` staan.|
+|**7**|Herhaal deze stappen voor de overige kwekers en voorraden.|
+|**8**|Controleer de volgorde van de regels. Florisoft verwerkt het filter van boven naar beneden en gebruikt de eerste passende regel. Plaats daarom de meest specifieke regels bovenaan. Gebruik de pijlen rechts in het scherm om de volgorde aan te passen.|
+|**9**|Klik op `OK` om het partijfilter op te slaan.|
+
+### Voorbeeld
+
+|Kweker EAN/GLN|Inleesvoorraad|Inleeswijze|
+|:--|:--|:--|
+|GLN van kweker A|`FLBLOEM`|`Inlezen`|
+|GLN van kweker B|`FLPLANT`|`Inlezen`|
+
+Partijen van kweker A komen in voorraad `FLBLOEM` en partijen van kweker B in `FLPLANT`. Partijen waarvoor geen filterregel overeenkomt, blijven naar de standaard `Binnenkomende voorraad` van de leverancier gaan.
+
+### Resultaat controleren
+
+1. Open de Floriday-leverancier en kies `Partijen inlezen`, of wacht op de automatische verwerking.
+2. Open de ingestelde voorraden.
+3. Controleer of de partijen per kweker in de juiste voorraad zijn geplaatst.
+4. Komt een partij in de standaardvoorraad terecht, controleer dan eerst of de ingevulde Kweker EAN/GLN overeenkomt met de kwekergegevens die Floriday aanlevert en of een algemenere filterregel erboven de partij al opvangt.
+
+> Voeg niet alleen een voorraadcode zonder selectiecriterium toe. Een filterregel moet minimaal één herkenningswaarde bevatten, zoals de Kweker EAN.
 
 ## Alternatieve locaties
 

@@ -69,6 +69,7 @@ Bij iedere barcodescan verhoogt de app automatisch het **Scanaantal** van de gev
 - **Bos:** + de inhoud van één bos per scan
 - **Verkoopeenheid:** + de verkoopeenheid van de partij per scan
 - **Colli:** + de inhoud van één colli per scan
+- **Doos:** + de inhoud van één doos per scan. Is de inhoud doos leeg of 0, dan gebruikt de app de inhoud van één colli.
 
 Is geen geldige verkoopeenheid ingesteld, dan verhoogt het Scanaantal met 1. Handmatig zoeken en vervolgens een partij selecteren verhoogt het Scanaantal niet.
 
@@ -97,6 +98,8 @@ Staat bij de gekoppelde debiteur in de relatie-instellingen, onderdeel **Verdele
 
 Het veld **Scanaantal** is zichtbaar wanneer het is toegevoegd aan `Apps_Inventory_StockCounting_StockItemDetailSettings_AvailableStockitemDetails`. Als het veld ook is toegevoegd aan `Apps_Inventory_StockCounting_StockItemDetailSettings_AllowEditStockitemDetails`, kunt u het getelde aantal handmatig corrigeren of op **0** zetten. Zonder deze tweede instelling is het veld alleen-lezen.
 
+Het veld **Kwaliteitscode** is zichtbaar wanneer het is toegevoegd aan `Apps_Inventory_StockCounting_StockItemDetailSettings_AvailableStockitemDetails`. Voeg het veld ook toe aan `Apps_Inventory_StockCounting_StockItemDetailSettings_AllowEditStockitemDetails` als een gebruiker de kwaliteitscode van de partij mag wijzigen. Zonder deze tweede instelling is de kwaliteitscode alleen-lezen.
+
 Als de locatie als bewerkbaar partijdetail is ingesteld, kunt u een nieuwe locatie invoeren of scannen. Staat de policy `Apps_Inventory_StockCounting_CheckPredefinedLocationCodes` aan, dan accepteert de app alleen locatiecodes die vooraf zijn geregistreerd in de tabel **Partij locaties** (`PARTIJLOC`) in het constantenscherm. Een onbekende locatie wordt niet opgeslagen; de bestaande partijlocatie blijft behouden.
 
 Bij `Telling op v-partij basis` worden aantalswijzigingen, detailwijzigingen en controle-vinkjes toegepast op de onderliggende partijen binnen de ingestelde voorraad-policy. De sortering van de policy bepaalt de verwerkingsvolgorde.
@@ -119,6 +122,7 @@ In dit scherm kunt u:
 * Een **opmerking** toevoegen voor extra toelichting.
 
 De opgegeven opmerking wordt opgeslagen in het memo-veld van de verdeling, zodat deze later traceerbaar is in de backoffice.
+De geselecteerde reden wordt opgeslagen in de partijlog, zodat de oorzaak van de kwaliteitsregistratie daar later is terug te vinden.
 
 Bij `Telling op v-partij basis` wordt de kwaliteitsregistratie verwerkt op de onderliggende partijen volgens de volgorde van de voorraad-policy.
 

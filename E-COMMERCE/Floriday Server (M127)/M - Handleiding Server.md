@@ -155,6 +155,7 @@ Voor het publiceren van een bestelpartij op Floriday moet een bestelpartij aan e
 |Inhoud Plaat|
 |Inhoud Bos|
 |Inhoud Fust|
+|Land van herkomst|
 |Foto|
 |Verplichte sorteringskenmerken (volgens Floricode)|
 |Leverancier|

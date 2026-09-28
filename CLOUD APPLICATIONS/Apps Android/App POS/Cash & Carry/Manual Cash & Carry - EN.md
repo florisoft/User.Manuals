@@ -234,9 +234,11 @@ The policies under **OrderActivation → OrderSelection** determine which orders
 - `ExcludePastOrders` hides orders from the past;
 - `OrderDateFilter` determines the date by which open orders are filtered. The default value is `OrderDate`.
 
-Select the order, check its number and date, and continue to the shopping cart.
+Select the order, check its number and date, and continue to the shopping cart. If the employee has a financial administration, orders without a financial administration remain available alongside orders with the same financial administration. If a financial administration is also configured for order creation, orders with that administration are available as well.
 
 When `EnableOrderLocking` is enabled, Florisoft locks the order as soon as it is opened in Cash & Carry. Another user cannot change the same order simultaneously. The lock is released when the order is closed or the session ends.
+
+An order that has been manually locked in the Backoffice always remains locked in Cash & Carry. The order list shows an error badge and, when known, **Locked by: <user>**. If you try to open the order, Florisoft reports that it is manually locked and does not open it. Remove the manual lock in the Backoffice before the order may be processed again.
 
 ### Create a new order
 
@@ -248,9 +250,12 @@ The policies under **OrderActivation → OrderCreation** determine which input i
   - `DeliveryChoice`: make a delivery selection;
 - `RequireOrderNumberForCustomers` contains the customers for whom an order number or order name is mandatory;
 - `DeliveryOrderSuffix` adds the configured suffix to delivery orders;
-- `OrderNumberDeterminationType` determines how Florisoft assigns the new order number.
+- `OrderNumberDeterminationType` determines how Florisoft assigns the new order number;
+- `FinancialAdministration` determines which financial administration is stored on the order header when creating an order.
 
 Enter the requested details and confirm the order. A mandatory order number must be valid and unique according to the selected numbering method.
+
+Set `FinancialAdministration` only when new orders must always use a specific financial administration. The configured value is stored on the order header, even when the customer has a different financial administration. Leave the policy empty when the customer financial administration must remain leading. Without a configured policy, an order is not created when the employee and customer financial administrations differ; the app identifies the user, customer and administrations that do not match. If the customer has no financial administration, the order may be created and processed further.
 
 ### Order sessions
 
@@ -298,7 +303,9 @@ The policies under **ShoppingCart** determine how the employee enters quantities
 - `AllowSellingBelowSalesUnit` determines whether less than one complete sales unit may be sold;
 - `ResetSalesUnitAfterScan` resets the selected unit to `DefaultSalesUnit` after each scan. If this policy is disabled or empty, the selected unit remains active.
 
-In the Backoffice, a sales unit can be linked to each barcode type, for example for Scan code, EAN code or Scan code 2. When that link exists and the corresponding unit is filled in on the stock item, the scanned barcode automatically determines the sales unit. Without a usable link, Florisoft uses the normal behaviour from `DefaultSalesUnit` and the active user selection.
+With **Barcode sales unit**, an administrator can influence how a scanned stock item is added to the shopping cart and which quantity Florisoft uses. In the Backoffice, open **Constants → System → Barcode sales unit** and link the required sales unit to each barcode type.
+
+After a scan, Florisoft uses the quantity entered for this sales unit on the stock item. This allows the same stock item to be sold per SU through **Scan code** and per colli content through **Scan code 2**. Scanning the same barcode again increases the existing order line by the quantity belonging to the scanned barcode type.
 
 `ShowOrderItemDetailsAfterAdd` automatically opens the details screen after adding a product. If this policy is disabled, the user remains in the shopping cart.
 
@@ -351,6 +358,7 @@ Available detail fields are:
 - `ArticleNumber`: product number;
 - `ArticleKey`: product key;
 - `StockItemMark`: stock-item mark.
+- `Supplier`: the supplier name of the stock item.
 
 After saving, Florisoft recalculates the line and order total.
 

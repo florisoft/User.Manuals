@@ -16,6 +16,8 @@ Open an order or session by scanning a supported barcode or by manually selectin
 
 After a final outbound check, you can also start Returnables Outbound directly from **Additional Actions** in Final Outbound Check. The app then carries over the available customer, order and grouping context. For a grouped customer or hub inspection, the configured returnables customer and order are used. If no valid context can be resolved, Returnables Outbound is not opened.
 
+After the final inspection of a pick order, you can also start Returnables Outbound through **Additional actions → Register returnables** in Order Picking. The action opens the counting page immediately for the pick order's customer and order. The app resumes your active child session for the same customer and order. When none exists, it creates one new active session and batch.
+
 When selecting manually:
 
 1. Find and select the customer.
@@ -42,6 +44,12 @@ On the counting page you can change the quantities of standard package codes, ad
 
 The first batch must contain at least one positive quantity before you can continue. Setting a previously registered quantity to zero removes it after confirmation. Negative quantities are not allowed.
 
+### Complete or cancel from Order Picking
+
+When Returnables Outbound was opened from Order Picking, **Done** completes the session immediately. The configured `FinalizeSession` steps are performed, the quantities are processed according to `PackageManagementRegistrationStrategy`, and the closed session returns control to Order Picking.
+
+Choose **Cancel** to return without processing. The app asks for confirmation. Choosing **No** keeps the count open and retains the entered quantities. Confirming cancellation removes the entered batch items, stops the session and returns to Order Picking without administratively processing the quantities.
+
 | Policy | Effect |
 | --- | --- |
 | `StandardPackageCodes` | Package codes shown by default in every batch. |
@@ -50,7 +58,11 @@ The first batch must contain at least one positive quantity before you can conti
 | `ShowQuickInput` | Shows or hides quick input. |
 | `ValidBarcodeDecodeOptions` | Controls accepted package barcodes. A package barcode is enabled by default. |
 
-When `Apps → PackagingPicturesFolderPath` is configured, the app can show a recognition image for a package code. The image must be present in that folder with the package code as its filename.
+When `Apps → PackagingPicturesFolderPath` is configured, the app can show a recognition image for a package code. Enter the path to a directory that the Florisoft server can read. Save each image as a JPG file using the exact package code as its filename. For package code `025`, for example, use `025.jpg`.
+
+After configuring the directory, use a known package code to verify that its image is shown on the counting page. If it is not shown, check the filename, the `.jpg` extension, the configured path, and the Florisoft server's read access to the directory.
+
+[Download the standard package photos](../Standaard%20fustfotos.zip?raw=1), extract the ZIP file, and use the extracted directory for `PackagingPicturesFolderPath`. The download contains 255 photos already named according to `<package code>.jpg`. You can add to the set or replace an image as long as its filename matches the package code in Florisoft.
 
 ### 3. Verify the totals
 
@@ -67,7 +79,9 @@ Depending on the policies, the app may request:
 - an email choice (`MailPackingListOption`);
 - a signature when a packing list is printed or emailed (`RequireSignature`).
 
-Printing and emailing use `PackageListPrinter` and `PackageListPrintLayout`.
+Printing and emailing use `PackageListPrinter` and `PackageListPrintLayout`. Only report layouts with list type `FustAdminPaklijst` can be selected for `PackageListPrintLayout`. An empty selection list means that no suitable report layout is available yet.
+
+When `AssetManagementPackageReceiptLayout` is configured for the customer, the app uses this layout. The customer setting takes precedence over the `PackageListPrintLayout` policy. When no customer layout is configured, the app uses the layout from the policy.
 
 `PackageManagementRegistrationStrategy` determines how the quantities are processed:
 
@@ -75,6 +89,12 @@ Printing and emailing use `PackageListPrinter` and `PackageListPrintLayout`.
 - `PackageAdministration`: register the quantities directly in package administration. This is the application's default strategy.
 
 The session is closed after successful processing.
+
+### Capture and find photos
+
+When your organisation has enabled the photo action, you can add photos to the active outbound order from the final check. Follow the shared [manual for capturing and managing photos](../../Additional%20actions/Photos/Manual%20capturing%20and%20managing%20photos%20-%20EN.md).
+
+A backoffice employee can later open the photos from the invoice overview or invoice history: select the relevant invoice or invoices and choose **Returnables Outbound** under the **App photos** menu. Only photos linked to the selected invoice are shown.
 
 ## Stop without completing
 
@@ -93,6 +113,7 @@ Open the Backoffice constants screen and go to **System → Users → Policy Man
 | Path | Policies |
 | --- | --- |
 | `Apps` | `PackagingPicturesFolderPath` |
+| `Apps → Logistics → Picking → OrderPicking → Addons` | Add `Returnables` to `EnableAddons` to show the action after the pick-order final inspection. |
 | `Apps → Logistics → Returnables` | `AvailableCustomerFilterOptions`, `ValidBarcodeDecodeOptions` |
 | `Apps → Logistics → Returnables → Outbound → PackagingCounting` | `StandardPackageCodes`, `SortPackagingType`, `AllowAdditionalPackaging`, `ShowQuickInput`, `ValidBarcodeDecodeOptions` |
 | `Apps → Logistics → Returnables → Outbound → FinalizeSession` | `RequireReferenceCode`, `RequireSignature`, `PrintPackingListOption`, `MailPackingListOption`, `PackageManagementRegistrationStrategy` |
@@ -102,3 +123,9 @@ Open the Backoffice constants screen and go to **System → Users → Policy Man
 For the integration from Final Outbound Check, add `Returnables` to `Apps → Logistics → QualityControl → FinalOutboundCheck → Addons → EnableAddons`.
 
 See the [Policy Management manual](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Manual%20Policy%20Management%20EN.md) for general policy configuration.
+
+## Troubleshooting
+
+**Why is the `PackageListPrintLayout` selection list empty?**
+
+Check that Florisoft contains a report layout with list type `FustAdminPaklijst`. Only layouts with this list type are shown in the selection list.

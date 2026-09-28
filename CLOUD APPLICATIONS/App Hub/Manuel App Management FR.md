@@ -14,7 +14,7 @@ Dans le catalogue de l’application Hub, le numéro de version s’affiche vert
 
 ## Télécharger les mises à jour d’applications
 
-Les applications sont téléchargées lors de la mise à jour du serveur cloud. Lors de la mise à jour, vous verrez que le paramètre "*Télécharger les applications frontales avec Cloud.Server*" est activé. Ce paramètre garantit que les nouvelles versions d’applications sont disponibles dans le catalogue de l’application Hub après la mise à jour du serveur cloud.
+Les dernières versions de toutes les applications disponibles sont téléchargées lors de la mise à jour du serveur cloud. Florisoft gère la liste des applications de manière centralisée ; aucun paramètre système n’est nécessaire. Les nouvelles versions sont ensuite disponibles dans le catalogue de l’application Hub.
 
 |Étape|Explication|
 |:-:|:--|
@@ -27,7 +27,7 @@ Lorsque l’application Hub détecte qu’une version plus récente est disponib
 
 Pour tester de nouvelles versions en toute sécurité, vous utilisez différents canaux de diffusion dans l’application Hub. Par défaut, il y a deux canaux : *latest* (la version provenant du backoffice – version bin) et *update* (la version de votre client de mise à jour).
 
-Les applications sont automatiquement téléchargées grâce au paramètre "*Télécharger les applications frontales avec Cloud.Server*". Vous n’avez pas besoin de mettre à jour le serveur cloud, il suffit de le télécharger.
+Toutes les applications frontales disponibles sont téléchargées automatiquement. Aucun paramètre système n’est nécessaire ; il suffit d’effectuer le téléchargement.
 <!-- Je ne suis plus certain que ce processus soit entièrement automatique. À vérifier.-->
 Les canaux de diffusion se trouvent dans le dossier 'Shared/Florisoft/DataPGS/Binapps/', où vous verrez les dossiers *latest* et *update*. Pour déployer les applications du canal *update* vers *latest*, vous devez déplacer manuellement les fichiers correspondants.
 

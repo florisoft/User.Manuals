@@ -6,7 +6,6 @@
 >
 > **Let op:** Dit document wordt aangevuld.
 
-
 ## Inhoud
 
 ### Beheerschermen
@@ -37,6 +36,7 @@
 - [Editor](#editor)
 - [Navigator](#navigator)
 - [Componentendialoog](#componentendialoog)
+- [CMS Zone](#cms-zone)
 
 ---
 
@@ -55,6 +55,7 @@
 
 #### 2. Algemene instellingen
 - [Vertalingen](#vertalingen)
+- [URL](#url)
 
 #### 3. Styling
 - [Color picker](#color-picker)
@@ -67,6 +68,7 @@
 
 #### 4. Geavanceerd
 - [Verborgen wanneer leeg](#verborgen-wanneer-leeg)
+- [Toevoeg-knop zichtbaarheid (in editor)](#toevoegknop-zichtbaarheid-in-editor)
 - [Identificatie naam](#identificatie-naam)
 - [Slotnaam](#slotnaam)
 - [HTML klassenaam](#html-klassenaam)
@@ -110,6 +112,7 @@
 - [Partijkaart](#partijkaart)
 - [Social icons](#social-icons)
 - [Breadcrumbs](#breadcrumbs)
+- [Pagina zoekbalk](#pagina-zoekbalk)
 - [Icon link](#icon-link)
 - [Banner](#banner)
 - [Voorraad navigatie](#voorraad-navigatie)
@@ -207,16 +210,17 @@ Op een CMS-pagina kunnen verschillende soorten content worden geplaatst, zoals a
 
 *Volg onderstaande stappen:*
 
-|#|Uitleg|
+| Stap | Uitleg |
 |:--|:--|
-|**1**|Nadat je een categorie hebt aangemaakt, navigeer je via **Content Management (CMS)** (1) naar **Pagina's** (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.1.png"></details>|
-|**2**|Klik op het **'+'**-icoon (3) om een nieuwe pagina aan te maken. Het scherm voor het aanmaken van een pagina wordt geopend. Vul vervolgens de volgende instellingen in:<br><br>- **URL (4):** de naam van de pagina die zichtbaar wordt in de URL. Je hoeft hier niet het volledige domein in te vullen; alleen het pad is voldoende, bijvoorbeeld '*voorbeeld*'.<br>**GEBRUIK GEEN SPATIES EN HOOFDLETTERS!**<br><br>- **Page display name (5):** de naam die zichtbaar wordt voor de klant op de website.<br><br>- **Category (6):** selecteer de juiste categorie. Dit is de categorie die in het vorige hoofdstuk is aangemaakt.<br><br>- **Template — OPTIONEEL (7):** selecteer een template waarmee de pagina bij het aanmaken automatisch wordt gevuld.<br><br>- **Is visible in navigation (8):** schakel deze optie in om de pagina zichtbaar te maken in de webshop.<br><br>- **Submit (9):** klik op **'Submit'** om de pagina aan te maken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.2.png"></details>|
-|**3**|Klik op het **potlood-icoon** (10) om het **Properties**-dialoogvenster (11) van de zojuist aangemaakte pagina te openen. Klik vervolgens op **'[Vertalingen bewerken](#vertalingen)'** (12).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.3.png"></details>|
-|**4**|Het vertalingsdialoogvenster wordt geopend. De ingestelde standaardtaal (13) wordt aan de linkerkant weergegeven. Selecteer via de dropdown aan de rechterkant (14) de taal die je wilt toevoegen of bewerken. Stel vervolgens de volgende gegevens in:<br><br>- **URL (15):** voer de vertaling van het URL-pad in.<br><br>- **Weergave pagina naam (16):** voer de vertaling van de weergegeven paginanaam in.<br><br>- **Bevestigen (17):** klik op **'Bevestigen'** om de wijzigingen op te slaan.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.4.png"></details>|
-|**5**|Open het tabblad **'Visibility'** (18). Stel vervolgens de volgende instellingen in:<br><br>- **Taal Zone Selectie (19):** vink in het dropdownmenu één of meerdere talen aan waaraan deze pagina gekoppeld moet worden. Selecteer vervolgens bij **Zone selectie** (20) een zelf aangemaakte CMS-zone.<br><br>- **Geldig vanaf (21) en Geldig tot (22):** stel hier de datum en tijd in waarop de bovenstaande instellingen actief moeten zijn.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.5.png"></details>|
-|**6**|In het tabblad **'SEO'** (23) kunnen instellingen voor SEO (zoekmachineoptimalisatie) worden geconfigureerd. Hiermee kun je ervoor zorgen dat zoekmachines, zoals Google, je website beter kunnen vinden. Meer informatie over SEO-instellingen [vind je hier](#seo). Klik vervolgens op **'Opslaan'** (24).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.6.png"></details>|
-|**7**|Klik op het oranje icoon (25) of op **'Niet-opgeslagen wijzigingen'** (26).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.7.png"></details>|
-|**8**|Om de pagina te publiceren en live beschikbaar te maken, klik je op **'Publish all'** (27) of op het publish-icoon (28). Bevestig het publiceren vervolgens door op **'Ja'** (29) te klikken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.8.png"></details>|
+| **1** | Nadat je een categorie hebt aangemaakt, navigeer je via **Content Management (CMS)** (1) naar **Pagina's** (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.1.png"></details> |
+| **2** | Klik op het **'+'**-icoon (3) om een nieuwe pagina aan te maken. Het scherm voor het aanmaken van een pagina wordt geopend. Vul vervolgens de volgende instellingen in:<br><br>- **URL (4):** de naam van de pagina die zichtbaar wordt in de URL. Je hoeft hier niet het volledige domein in te vullen; alleen het pad is voldoende, bijvoorbeeld `voorbeeld`.<br>**GEBRUIK GEEN SPATIES EN HOOFDLETTERS!**<br><br>- **Page display name (5):** de naam die zichtbaar wordt voor de klant op de website.<br><br>- **Category (6):** selecteer de juiste categorie. Dit is de categorie die in het vorige hoofdstuk is aangemaakt.<br><br>- **Template — OPTIONEEL (7):** selecteer een template waarmee de pagina bij het aanmaken automatisch wordt gevuld.<br><br>- **Is visible in navigation (8):** schakel deze optie in om de pagina zichtbaar te maken in de webshop.<br><br>- **Submit (9):** klik op **'Submit'** om de pagina aan te maken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.2.png"></details> |
+| **3** | Klik op het **potlood-icoon** (10) om het **Properties**-dialoogvenster (11) van de zojuist aangemaakte pagina te openen. Klik vervolgens op **'[Vertalingen bewerken](#vertalingen)'** (12).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.3.png"></details> |
+| **4** | Het vertalingsdialoogvenster wordt geopend. De ingestelde standaardtaal (13) wordt aan de linkerkant weergegeven. Selecteer via de dropdown aan de rechterkant (14) de taal die je wilt toevoegen of bewerken. Stel vervolgens de volgende gegevens in:<br><br>- **URL (15):** voer de vertaling van het URL-pad in.<br><br>- **Weergave pagina naam (16):** voer de vertaling van de weergegeven paginanaam in.<br><br>- **Bevestigen (17):** klik op **'Bevestigen'** om de wijzigingen op te slaan.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.4.png"></details> |
+| **5** | Open het tabblad **'Visibility'** (18). Stel vervolgens de volgende instellingen in:<br><br>- **Taal Zone Selectie (19):** vink in het dropdownmenu één of meerdere talen aan waaraan deze pagina gekoppeld moet worden. Selecteer vervolgens bij **Zone selectie** (20) een zelf aangemaakte CMS-zone.<br><br>- **Geldig vanaf (21) en Geldig tot (22):** stel hier de datum en tijd in waarop de bovenstaande instellingen actief moeten zijn.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.5.png"></details> |
+| **6** | In het tabblad **'SEO'** (23) kunnen instellingen voor SEO (zoekmachineoptimalisatie) worden geconfigureerd. Hiermee kun je ervoor zorgen dat zoekmachines, zoals Google, je website beter kunnen vinden. Meer informatie over SEO-instellingen [vind je hier](#seo). Klik vervolgens op **'Opslaan'** (24).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.6.png"></details> |
+| **7** | Klik op het oranje icoon (25) of op **'Niet-opgeslagen wijzigingen'** (26).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.7.png"></details> |
+| **8** | Om de pagina te publiceren en live beschikbaar te maken, klik je op **'Publish all'** (27) of op het publish-icoon (28). Bevestig het publiceren vervolgens door op **'Ja'** (29) te klikken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.8.png"></details> |
+| **9** | Naast het aanmaken van CMS-pagina's is het ook mogelijk om één of meerdere subpagina's aan te maken onder een bestaande pagina. Een subpagina maak je aan via de **'+'**-knop (30).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.9.png"></details> |
 
 ---
 
@@ -391,17 +395,17 @@ Dit onderdeel is nog in ontwikkeling
 
 Via dit scherm kun je eenvoudig je eigen afbeeldingen en videobestanden uploaden en deze vervolgens gebruiken op je [CMS-pagina's](#pagina).
 
-|Stap|Uitleg|
+| Stap | Uitleg |
 |:--|:--|
-|**1**|Navigeer via **Content Management (CMS)** (1) naar **Media** (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.1.png"></details>|
-|**2**|Je komt nu terecht in het Media-beheerscherm. Via dit scherm kun je bestanden uploaden. Afbeeldingen worden opgeslagen in de map **images** (3) en video's in de map **videos** (4). Klik op de map **images** (3).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.2.png"></details>|
-|**3**|In de map **images** kun je aanvullende mappen aanmaken (5) om meer overzicht te creëren tussen de verschillende bestanden. Met het pijltje (6) navigeer je een niveau terug. Met het prullenbakicoon (7) kun je een geselecteerd object verwijderen. In dit voorbeeld gaan we een afbeelding uploaden (8).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.3.png"></details>|
-|**4**|Afbeeldingen kunnen automatisch worden verkleind om te voorkomen dat er onnodig grote bestanden worden geüpload. Grote bestanden kunnen namelijk een negatieve invloed hebben op de laadtijd van je webshop. Wanneer je de optie **Resize** (8) inschakelt, kun je instellen of de afbeelding(en) proportioneel maximaal **1024** of **1920 pixels** groot mogen zijn. Laat je deze optie uitgeschakeld, houd er dan rekening mee dat bestanden maximaal **25 MB** groot mogen zijn. Dit geldt zowel voor afbeeldingen als video's.<br><br>Om een bestand vanaf je computer te uploaden, sleep je het bestand naar de dropzone of klik je op de knop om een afbeelding (9) of video (10) te selecteren. Klik vervolgens op **Uploaden** (11).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.4.png"></details>|
-|**5**|Nadat je vanaf je computer een afbeelding of video hebt geselecteerd en bevestigd, wordt het bestand weergegeven op het uploadscherm (12). Klik op **Upload** (13) om het uploaden te starten. Er verschijnt vervolgens een voortgangsbalk. Zodra het uploadproces voor 100% is voltooid, kun je terugkeren naar het selectiescherm (14).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.5.png"></details>|
-|**6**|De afbeelding wordt nu bovenaan in het overzicht weergegeven (15). Je kunt de afbeelding vervolgens verwijderen (16) of verder bewerken (17). In dit voorbeeld gaan we de afbeelding bewerken (17).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.6.png"></details>|
-|**7**|Op dit scherm kun je de afbeelding verder bijsnijden en bewerken. Je kunt de selectiekaders aanpassen (18), inzoomen (19) en uitzoomen (20), de positionering wijzigen (21) en de afbeelding draaien (22). Eventuele wijzigingen kun je ook ongedaan maken (23).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.7.png"></details>|
-|**8**|Vervolgens kun je de gemaakte wijzigingen opslaan (24) of annuleren door terug te navigeren naar het selectiescherm (25). In dit voorbeeld slaan we de wijzigingen op (24).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.8.png"></details>|
-|**9**|Er is nu een nieuwe variant (26) van de afbeelding toegevoegd aan het overzicht. Deze variant bevat de aangepaste en bijgesneden versie van de afbeelding en kan vervolgens worden gebruikt op je [CMS-pagina's](#pagina).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.9.png"></details>|
+| **1** | Navigeer via **Content Management (CMS)** (1) naar **Media** (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.1.png"></details> |
+| **2** | Je komt nu terecht in het Media-beheerscherm. Via dit scherm kun je bestanden uploaden (3). Via het tabblad **Media Library** (4) krijg je toegang tot alle afbeeldingen en video's die al in je Media Bibliotheek staan. Afbeeldingen worden opgeslagen in de map **images** en video's in de map **videos**.<br><br>In het uploadscherm (3) kun je bestanden naar het scherm slepen om ze te uploaden (5) of een bestand vanaf je eigen schijf selecteren (6). Nadat een bestand is geüpload, wordt hiervan een kleine voorvertoning weergegeven (7).<br><br>De volgende mediabestanden worden ondersteund: PNG, JPG, JPEG, SVG, WEBP, GIF, MP4, MPG, AVI, MOV en WEBM. Afbeeldingen kunnen automatisch worden verkleind om te voorkomen dat onnodig grote bestanden worden geüpload. Grote bestanden kunnen namelijk een negatieve invloed hebben op de laadtijd van je webshop. Wanneer je de optie **Resize** (8) inschakelt, kun je instellen of de afbeelding(en) proportioneel maximaal **1024** of **1920 pixels** groot mogen zijn.<br><br>Laat je deze optie uitgeschakeld, houd er dan rekening mee dat bestanden maximaal **25 MB** groot mogen zijn. Dit geldt zowel voor afbeeldingen als video's. Klik vervolgens op **Uploaden** (9).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.2.png"></details> |
+| **3** | De afbeelding is nu zichtbaar in de Media Bibliotheek (10). Je kunt de afbeelding vervolgens bewerken (11) of verwijderen (12). Daarnaast wordt er nuttige informatie over het mediabestand weergegeven (13). Om meer structuur aan te brengen in je mediabestanden kun je nieuwe mappen aanmaken (14), bestanden uploaden via de uploadknop (15), een niveau terug navigeren (16) of de volledige map verwijderen (17). In dit voorbeeld kiezen we ervoor om de afbeelding te bewerken (11).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.3.png"></details> |
+| **4** | Er wordt nu een dialoogvenster geopend waarin je metadata voor het mediabestand kunt invullen. Dit omvat een **Alt-tekst** (18), **Titel** (19), **Caption** (20) en **Beschrijving** (21). Door deze informatie in te vullen, kun je de [SEO](#seo)-prestaties van je webshop verbeteren. Vervolgens kun je de bewerkingen annuleren (22) of opslaan (23). Daarnaast kun je de afbeelding naar wens bijsnijden (24).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.4.png"></details> |
+| **5** | Op dit scherm kun je de afbeelding verder bijsnijden en bewerken. Je kunt het selectiekader aanpassen (25), inzoomen (26), uitzoomen (27), de positionering wijzigen (28) en de afbeelding draaien (29). Eventuele wijzigingen kun je ook ongedaan maken (30).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.5.png"></details> |
+| **6** | Vervolgens kun je de gemaakte wijzigingen opslaan (31) of annuleren door terug te navigeren naar het selectiescherm (32). In dit voorbeeld slaan we de wijzigingen op (31).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.6.png"></details> |
+| **7** | Er is nu een nieuwe variant (33) van de afbeelding toegevoegd aan het overzicht. Deze variant bevat de aangepaste en bijgesneden versie van de afbeelding en kan vervolgens worden gebruikt op je [CMS-pagina's](#pagina).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/14.7.png"></details> |
+
+> **Tip:** Gebruik je afbeeldingen die te groot zijn en daardoor onnodig veel schijfruimte innemen? Probeer dan de webshopinstelling **CMSIMAGEOPTIMIZATIONS** te activeren. Deze instelling zet je geüploade afbeeldingen om naar het **.webp**-formaat. De kwaliteit van de afbeelding blijft behouden, terwijl het bestand aanzienlijk minder opslagruimte in beslag neemt.
 
 ---
 
@@ -469,6 +473,31 @@ De **Componentendialoog** is de bibliotheek met alle beschikbare [CMS-componente
 
 ---
 
+#### CMS Zone
+
+Een **CMS-zone** is een gedefinieerd gebied waaraan één of meerdere debiteuren kunnen worden gekoppeld. Klanten die aan een bepaalde zone zijn gekoppeld, krijgen toegang tot de CMS-componenten die aan deze zone zijn toegewezen. CMS-zones fungeren daarmee als een vorm van autorisatie binnen het CMS.
+
+*Volg onderstaande stappen:*
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | Open het **Constantenscherm**.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image1.png"></details> |
+| **2** | Navigeer naar het volgende pad in de bestandsstructuur:<br>**Systeem** → **Internet** → **CMS Zones**.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image2.png"></details> |
+| **3** | Klik op het pictogram **Nieuw item toevoegen** (het plusteken **+**). |
+| **4** | Het scherm voor het aanmaken van een CMS-zone wordt geopend. Vul de volgende velden in:<br><br>- **Code**<br>- **Omschrijving** — deze wordt weergegeven in het CMS. |
+| **5** | Klik op **OK** om het aanmaken van de zone te bevestigen. Herhaal deze stappen om indien gewenst meerdere CMS-zones aan te maken. Deze zones kunnen later worden gekoppeld aan debiteuren en CMS-componenten. |
+| **6** | Open het **Constantenscherm**.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image1.png"></details> |
+| **7** | Navigeer naar het volgende pad:<br>**Community** → **Debiteurgegevens** → **Debiteuren**.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image3.png"></details> |
+| **8** | Open de debiteur waaraan je één of meerdere CMS-zones wilt koppelen. |
+| **9** | Navigeer in het geopende venster naar het volgende pad in de bestandsstructuur:<br>**Internet** → **CMS**.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src=".Manual theme management Florishop/media/image54.png"></details> |
+| **10** | Klik op de knop **CMS Zones**. Het venster **Debiteurpakket** wordt geopend.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image3.png"></details> |
+| **11** | Klik op **Toevoegen**. Het venster **CMS Zones** wordt geopend. |
+| **12** | Selecteer één of meerdere zones en klik op **OK**.<br><br>*De geselecteerde zones worden nu weergegeven in het venster **Debiteur CMS Zones**.*<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image5.png"></details> |
+| **13** | Klik op **OK** in het venster **Debiteur CMS Zones**.<br><br>*De geselecteerde CMS-zones zijn nu gekoppeld aan de debiteur.*<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS/media/image6.png"></details> |
+| **Herhaal** | Herhaal bovenstaande stappen voor iedere debiteur waaraan je CMS-zones wilt koppelen. |
+
+---
+
 ## Aside Editor
 
 ### Toolbar
@@ -532,7 +561,7 @@ Via deze tab kun je de [Editor](#editor) naar jouw persoonlijke voorkeuren confi
 
 | Stap | Uitleg |
 |:--|:--|
-| **1** | Via **Voorkeuren** (1) kun je de functie **AutoSaveOnEdit** in- of uitschakelen (2). Deze functie is standaard ingeschakeld, zodat conceptwijzigingen automatisch worden opgeslagen. Via het dropdownmenu (3) kun je eenvoudig wisselen tussen verschillende [thema's](#thema-configuratie) om vervolgens wijzigingen binnen een ander thema door te voeren.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/22.1.png"></details> |
+| **1** | Via **Voorkeuren** (1) kun je de functie **AutoSaveOnEdit** in- of uitschakelen (2). Deze functie is standaard ingeschakeld, zodat conceptwijzigingen automatisch worden opgeslagen. Via het dropdownmenu (3) kun je eenvoudig wisselen tussen verschillende [thema's](#thema-configuratie) om vervolgens wijzigingen binnen een ander thema door te voeren. Met de schakelaar **Laat quick actions zien** (4) bepaal je of de toevoegknoppen wel of niet zichtbaar zijn in de [Editor](#editor).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/22.1.png"></details> |
 
 ---
 
@@ -561,6 +590,17 @@ Wanneer je tekst kunt invoeren binnen een [component](#componenten) of bij de [p
 | **1** | In dit voorbeeld hebben we een **[Tekst-component](#text)** geselecteerd (1). Onder het tabblad **Algemene instellingen** (2) vind je de knop **Vertalingen bewerken** (3). Klik hierop om het vertaaldialoogvenster te openen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/24.1.png"></details> |
 | **2** | In het vertaaldialoogvenster wordt standaard de **Default**-taal van de webshop weergegeven (4). De standaardtaal van de webshop kan worden ingesteld via de webshopinstelling **CMSDEFAULTCULTURE**. **Let op:** Vul hier altijd een geldige landcode in, zoals `nl` of `en`. Ongeldige waarden kunnen fouten in de webshop veroorzaken. Vervolgens kun je de tekst voor deze taal invoeren (5). In dit voorbeeld is het tekstveld nog leeg, omdat er nog geen Nederlandse vertaling is ingevuld. Daarnaast vind je een dropdownmenu waarin je een andere taal kunt selecteren (6). Voor de geselecteerde taal kun je vervolgens de gewenste vertaling invoeren (7).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/24.2.png"></details> |
 | **3** | Wanneer je een taal hebt geselecteerd, wordt met een groen bolletje (8) aangegeven dat deze taal volledig van een vertaling is voorzien. In dit voorbeeld is te zien dat er alleen een vertaling voor de Engelse taal is ingevuld (8). Nadat je de gewenste vertalingen hebt ingevuld, kun je de instellingen bevestigen (9).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/24.3.png"></details> |
+
+---
+
+#### URL
+
+Sommige componenten bieden de mogelijkheid om naar een andere pagina te navigeren. Dit kun je instellen via de optie **URL**.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | Door een URL in te voeren, wordt het geselecteerde component klikbaar. Je kunt bezoekers hiermee bijvoorbeeld naar een andere pagina of voorraadpagina laten navigeren. **Let op:** je hoeft in dit veld **niet** het volledige domein in te voeren, zoals `https://[jouw domein].nl`. Alleen het **pad** is voldoende. Dit is het gedeelte dat na het domein komt, bijvoorbeeld `https://[jouw domein].nl/[jouw pagina pad]`. In dit geval vul je alleen `[jouw pagina pad]` in. |
+| **2** | Naast de URL-optie is er een aan/uit-schakelaar **URL openen in nieuw tabblad**. Hiermee bepaal je of de URL in een nieuw browsertabblad wordt geopend of dat de bezoeker in hetzelfde venster blijft. |
 
 ---
 
@@ -648,19 +688,28 @@ Bepaal hoe overtollige content binnen een [component](#componenten) wordt weerge
 
 ### Geavanceerd
 
+Bijna elk [component](#componenten) beschikt over een tabblad **Geavanceerd**. De beschikbare instellingen kunnen per component verschillen. Toch zijn er een aantal opties die bij veel componenten terugkomen.
+
 #### Verborgen wanneer leeg
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Geavanceerd | Deze beschrijving wordt aangevuld |
+Met de optie **Verborgen wanneer leeg** kun je ervoor zorgen dat een component automatisch wordt verborgen in de live-omgeving wanneer het geen inhoud bevat.
 
 ---
 
-#### Identificatie naam
+#### Toevoegknop zichtbaarheid (in Editor)
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Geavanceerd | Deze beschrijving wordt aangevuld |
+Met de optie **Toevoegknop zichtbaarheid (in Editor)** bepaal je of de **toevoegknop** zichtbaar is wanneer je de pagina in de bewerkingsmodus opent.
+
+---
+
+#### Identificatienaam
+
+Geef je [componenten](#componenten) een eigen naam om meer structuur en overzicht te creëren in de [Navigator](#navigator).
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Button](#button)-component geselecteerd (1). Via het tabblad **Geavanceerd** (2) kun je bij **Identificatienaam** (3) een eigen naam voor het component invoeren.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/33.1.png"></details> |
+| **2** | Nadat je een naam hebt ingevuld (4), wordt deze naam achter het geselecteerde component weergegeven in de [Navigator](#navigator) (5). Zo kun je componenten gemakkelijker herkennen en houd je meer structuur en overzicht in de Navigator.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/33.2.png"></details> |
 
 ---
 
@@ -672,53 +721,73 @@ Bepaal hoe overtollige content binnen een [component](#componenten) wordt weerge
 
 ---
 
-#### HTML klassenaam
+#### HTML-klassenaam
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Geavanceerd | Deze beschrijving wordt aangevuld |
+Voer een CSS-klassenaam in om aangepaste styling op het component toe te passen.
+
+**Let op:** Voor het toepassen van aangepaste CSS/SCSS-styling is voldoende kennis van CSS en SCSS vereist.
 
 ---
 
 #### Tag
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Geavanceerd | Deze beschrijving wordt aangevuld |
+Met de optie **Tag** kun je ID's toewijzen aan componenten binnen een zelfgemaakt [Template](#templates). Deze ID's kunnen vervolgens worden gebruikt om dynamische gegevens vanuit de [Pagina-instellingen](#pagina) in een [Blog-component](#blog) te laden.
+
+Zo kunnen gegevens zoals de **paginatitel**, **paginabeschrijving**, **afbeelding** en **URL** automatisch worden ingeladen. Hierdoor wordt het template binnen het Blog-component automatisch gevuld en bijgewerkt wanneer er bijvoorbeeld een nieuwe blog wordt gepubliceerd.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Template](#templates) gemaakt dat we dynamisch willen gebruiken voor een [Blog](#blog)-overzicht. Hiervoor maken we gebruik van Tags.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/34.1.png"></details> |
+| **2** | We hebben een [Panel](#panel)-component (1) toegevoegd met een achtergrondafbeelding. Via het tabblad **Geavanceerd** (2) kun je bij **Tag** (3) de optie **OverviewPanelImageTag** selecteren. Het [Panel](#panel)-component kijkt hierdoor naar de [Blogpagina](#blogpagina)-instellingen om te controleren of daar een afbeelding is ingesteld. Deze afbeelding wordt vervolgens automatisch weergegeven in het [Blog](#blog)-overzicht.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/34.2.png"></details> |
+| **3** | Vervolgens hebben we een [Tekst](#text)-component (4) toegevoegd. Bij **Tag** stellen we **OverviewTitle** (5) in. Het [Tekst](#text)-component kijkt hierdoor naar de [Blogpagina](#blogpagina)-instellingen om te controleren of daar een **Paginatitel** is ingesteld. Deze titel wordt vervolgens automatisch weergegeven in het [Blog](#blog)-overzicht.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/34.3.png"></details> |
+| **4** | We hebben nog een [Tekst](#text)-component (6) toegevoegd. Bij **Tag** stellen we **OverviewDescription** (7) in. Het [Tekst](#text)-component kijkt hierdoor naar de [Blogpagina](#blogpagina)-instellingen om te controleren of daar een **Omschrijving** is ingevuld. Deze omschrijving wordt vervolgens automatisch weergegeven in het [Blog](#blog)-overzicht.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/34.4.png"></details> |
+| **5** | Tot slot hebben we een [Button](#button)-component (8) toegevoegd. Bij **Tag** stellen we **OverviewButton** (9) in. Het [Button](#button)-component kijkt hierdoor naar de [Blogpagina](#blogpagina)-instellingen om de ingestelde URL op te halen. Wanneer een bezoeker op de button klikt, wordt deze naar de juiste [Blogpagina](#blogpagina) geleid.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/34.5.png"></details> |
+| **6** | In dit voorbeeld laten we zien waar je de bovenstaande gegevens kunt instellen in de [Blogpagina](#blogpagina)-instellingen. Onder het tabblad **Geavanceerd** vind je een veld waarin je een [afbeelding](#media) kunt uploaden (10). De ingestelde Tag zorgt ervoor dat deze afbeelding automatisch wordt weergegeven in het [Blog](#blog)-overzicht. De pagina-URL wordt automatisch ingevuld bij het aanmaken van de [Blogpagina](#blogpagina).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/34.6.png"></details> |
+| **7** | Vul vervolgens de **Omschrijving** in (11). Deze omschrijving wordt door middel van de ingestelde Tag automatisch gekoppeld aan het [Tekst](#text)-component in het [Blog](#blog)-overzicht.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/34.7.png"></details> |
+| **8** | In het [Blog](#blog)-component (12) wordt het [Template](#templates) nu automatisch gevuld met de gegevens uit de [Blogpagina](#blogpagina)-instellingen. Dit gebeurt op basis van de ingestelde Tags. In het overzicht worden de [Afbeelding](#media) (13), [Titel](#text) (14), [Omschrijving](#text) (15) en [Button](#button) (16) weergegeven.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/34.8.png"></details> |
 
 ---
 
 #### Z-index
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Geavanceerd | Deze beschrijving wordt aangevuld |
+Met de optie **Z-index** bepaal je de stapelvolgorde van [componenten](#componenten) die elkaar overlappen. Een component met een hogere **z-index** wordt boven een component met een lagere **z-index** weergegeven.
+
+Je kunt de z-index maximaal **3 lagen omhoog** of **3 lagen omlaag** aanpassen ten opzichte van de standaardpositie. Hiermee kun je eenvoudig bepalen welk component bovenop een ander component wordt weergegeven wanneer componenten elkaar overlappen.
 
 ---
 
 ### Zichtbaarheid
 
+Met de instellingen voor **Zichtbaarheid** kun je pagina's dynamisch opbouwen door componenten tijdelijk wel of niet zichtbaar te maken voor specifieke groepen debiteuren, landen, CMS-zones, apparaten of binnen een bepaalde periode.
+
 #### Content verbergen
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Zichtbaarheid | Deze beschrijving wordt aangevuld |
+Verberg [componenten](#componenten) tijdelijk voor een specifiek land, een [CMS-zone](#cms-zone) of gedurende een bepaalde periode.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Panel](#panel)-component geselecteerd (1). Via het tabblad **Zichtbaarheid** (2) kun je onder **Content verbergen** (3) de volgende opties instellen:<br><br>**Taal Zone Selectie** (4): Selecteer een land waarvoor het geselecteerde component niet zichtbaar mag zijn.<br><br>**Zone Selectie** (5): Selecteer een [CMS-zone](#cms-zone) waarvoor het geselecteerde component niet zichtbaar mag zijn.<br><br>**Geldig vanaf** (6): Stel de datum in vanaf wanneer het geselecteerde component niet meer wordt weergegeven.<br><br>**Geldig tot** (7): Stel de datum in tot wanneer het geselecteerde component niet wordt weergegeven.<br><br>**Jaarlijks herhalen** (8): Activeer deze optie om de ingestelde periode jaarlijks automatisch te herhalen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/35.1.png"></details> |
 
 ---
 
 #### Content tonen
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Zichtbaarheid | Deze beschrijving wordt aangevuld |
+Toon [componenten](#componenten) tijdelijk voor een specifiek land, een [CMS-zone](#cms-zone) of gedurende een bepaalde periode.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Panel](#panel)-component geselecteerd (1). Via het tabblad **Zichtbaarheid** (2) kun je onder **Content tonen** (3) de volgende opties instellen:<br><br>**Taal Zone Selectie** (4): Selecteer een land waarvoor het geselecteerde component zichtbaar mag zijn.<br><br>**Zone Selectie** (5): Selecteer een [CMS-zone](#cms-zone) waarvoor het geselecteerde component zichtbaar mag zijn.<br><br>**Geldig vanaf** (6): Stel de datum in vanaf wanneer het geselecteerde component wordt weergegeven.<br><br>**Geldig tot** (7): Stel de datum in tot wanneer het geselecteerde component wordt weergegeven.<br><br>**Zichtbaarheidstype** (8): Bepaal op welke apparaten het geselecteerde component zichtbaar mag zijn.<br><br>**Jaarlijks herhalen** (9): Activeer deze optie om de ingestelde periode jaarlijks automatisch te herhalen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/36.1.png"></details> |
 
 ---
 
 #### Content uitlichten
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Zichtbaarheid | Deze beschrijving wordt aangevuld |
+Met **Content uitlichten** kun je [componenten](#componenten) zichtbaar maken voor specifieke groepen debiteuren op basis van de beschikbare voorraad of bestellijsten.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Panel](#panel)-component geselecteerd (1). Via het tabblad **Zichtbaarheid** (2) kun je onder **Content uitlichten** (3) de volgende opties instellen:<br><br>**Tonen voor** (4): Selecteer welke groep het geselecteerde component mag zien. Je hebt de volgende opties:<br>- **Iedereen**: iedereen kan het component zien.<br>- **Debiteur**: alleen ingelogde debiteuren kunnen het component zien.<br>- **Anoniem**: alleen niet-ingelogde bezoekers kunnen het component zien.<br>- **Niet tonen**: het component wordt niet weergegeven.<br><br>**Tonen voor Voorraden/Bestellijsten (;-gescheiden)** (5): Vul één of meerdere voorraadcodes in om het component alleen zichtbaar te maken voor debiteuren die toegang hebben tot de betreffende voorraad of bestellijst.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/37.1.png"></details> |
+| **2** | In dit voorbeeld bezoeken we een bloemenvoorraad (6). Kopieer de code van de webshopvoorraad uit de URL van de webbrowser. Wanneer je deze code invoert in het veld **Tonen voor Voorraden/Bestellijsten (;-gescheiden)**, wordt het component alleen zichtbaar voor debiteuren die toegang hebben tot deze webshopvoorraad.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/37.2.png"></details> |
 
 ---
 
@@ -726,40 +795,64 @@ Bepaal hoe overtollige content binnen een [component](#componenten) wordt weerge
 
 ### Basis
 
+Basis-componenten vormen de fundering van je [pagina](#pagina). Met deze componenten bouw je de basisstructuur waarop je de rest van je pagina kunt opbouwen.
+
 #### Row/Column
 
-Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschillende apparaten (pc, laptop, smartphone en tablet). In dit hoofdstuk wordt uitgelegd hoe je een rij aanmaakt. Elk CMS-element moet zich in een kolom bevinden, en elke kolom bevindt zich weer in een rij. Dit betekent dat elke pagina in feite bestaat uit een soort raster, vergelijkbaar met een spreadsheetprogramma zoals Microsoft Excel.
+Een CMS-pagina maakt gebruik van **Rows** en **Columns** om content op verschillende apparaten, zoals pc's, laptops, tablets en smartphones, correct uit te lijnen.
+
+In dit hoofdstuk wordt uitgelegd hoe je een **Row** aanmaakt en configureert. Elk CMS-element moet zich binnen een **Column** bevinden en elke Column bevindt zich binnen een Row. Een CMS-pagina bestaat hierdoor in feite uit een raster, vergelijkbaar met een spreadsheetprogramma zoals Microsoft Excel.
 
 *Volg onderstaande stappen:*
 
-|Stap|Uitleg|
+| Stap | Uitleg |
 |:--|:--|
-|**1**|Log in op de webshop met een beheerdersaccount.|
-|**2**|Activeer de ‘Management’-omgeving van de webshop door op het gebruikersicoon (1) te klikken. Dit opent een dropdownmenu. Klik vervolgens op de optie Management (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.2.png"></details>|
-|**3**|Onderin uw scherm kunt u de CMS editor (3) inschakelen. U kunt nu beginnen met bewerken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.3.png"></details>|
-|**4**|Klik op het '+'-icoon (4) of rechtermuisklik op het bovenste element van de Navigator (5) om het '*Componenten dialoog*' te openen. Via de Template knop (6) open je ook het dialoog, maar is de Template categorie gelijk voor je geopend.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.4.png"></details>|
-|**5**|Gebruik de zoekfunctie (7) om te zoeken naar '*Row*'. Klik op het plusteken (+) onder het item '*Row*' (8).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.5.png"></details>|
-|**6**|De Row wordt direct aangemaakt op je pagina en geeft gelijk de optie om 1 of meerdere kolommen toe te voegen. In dit voorbeeld kiezen wij voor een structuur van 3 kolommen naast elkaar (9).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.6.png"></details>|
-|**7**|Selecteer een kolom via de Navigator (10). In het scherm met kolominstellingen kun je in het tabblad *Properties* (11) het volgende doen:<br><br>De schuifregelaars bepalen de uitlijning van CMS-elementen op apparaten met verschillende schermgroottes zoals pc’s/laptops, tablets en smartphones.<br><br>De totale breedte van elk scherm bestaat maximaal uit twaalf fictieve kolommen. Dit betekent dat een element minimaal één en maximaal twaalf kolommen breed kan zijn. Dit geldt voor alle apparaten zoals pc’s, laptops, tablets en smartphones.<br><br>De bovenste schuifregelaar geldt voor pc’s en laptops. De middelste is voor tablets en de onderste voor smartphones.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.7.png"></details>|
-|**8**|Open het tabblad '*Styling*' (12). De styling is optioneel, maar de volgende instellingen kunnen worden aangepast:<br><br>Kies een achtergrondkleur via het dropdownmenu 'Background' (13). Er verschijnt een kleurenkiezer waarin een kleur geselecteerd kan worden. Klik op ‘SAVE’ in de kleurenkiezer om de gekozen kleur toe te passen.<br><br>Kies bij ‘Height’ (14) voor 'Auto' of een vaste hoogte in Px (pixels), Rem (relatief aan lettergrootte) of percentages. Het wordt aanbevolen om 'Auto' te gebruiken. De kolom wordt dan automatisch zo hoog als nodig is voor de inhoud.<br><br>Bij 'Margin' (15) kan een waarde worden ingevuld voor de marge (witruimte) rondom de kolom. Hier kan een waarde ingevuld worden direct voor alle zijdes, of kan er ook per zijde apart een waarde worden ingevuld.<br><br>Standaard wordt Px (pixels) gebruikt als eenheid. Daarnaast is het ook mogelijk om ‘Rem’ of ‘Percent’ te kiezen en zijn zelfs naast waardes zoals 'auto' of 'unset' ook millimeters (mm) en centimeters (cm) mogelijk.<br><br>Padding (16) bepaalt de ruimte aan de binnenkant van de kolom. Deze instellingen werken volgens hetzelfde principe als ‘Margin’.<br><br>Overflow (17) bepaalt of elementen die buiten de kolom treden wel -of niet zichtbaar zijn. Standaard staat deze ingesteld op 'Visible'.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.8.png"></details>|
-|**9**|Open het tabblad '*Advanced*' (18). Het tabblad 'Advanced' geeft je de mogelijkheid om extra classes en ID's mee te geven aan een component. Onder 'Identificatie naam' (19) kun je je bijvoorbeeld een naam meegeven per component, om zo meer structuur aan te brengen in de Navigator (20).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.9.png"></details>|
-|**10**|Open het tabblad '*Visibility*' (21).Het tabblad 'Visibility' werkt hetzelfde als bij het aanmaken van pagina’s en categorieën. Zie hoofdstuk [Zichtbaarheid](#zichtbaarheid) voor meer informatie over de beschikbare instellingen in het tabblad ‘Visibility’. Klik na het instellen van de juiste instellingen op de knop 'Save' (22) om de kolom in het CMS op te slaan en klik op 'Publiceren' (23) om de wijzigingen live te zetten.<br>**Je kunt later altijd nog aanpassingen doen.**<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.10.png"></details>|
+| **1** | Log in op de webshop met een beheerdersaccount. |
+| **2** | Activeer de **Management**-omgeving van de webshop door op het gebruikersicoon (1) te klikken. Er wordt een dropdownmenu geopend. Klik vervolgens op **Management** (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.2.png"></details> |
+| **3** | Schakel onderaan het scherm de **CMS Editor** (3) in. Je kunt nu beginnen met het bewerken van de pagina.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.3.png"></details> |
+| **4** | Klik op het **+**-icoon (4) of klik met de rechtermuisknop op het bovenste element in de [Navigator](#navigator) (5) om de **Componentendialoog** te openen. Via de **Template**-knop (6) kun je de Componentendialoog ook openen. In dat geval wordt de Template-categorie direct geopend.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.4.png"></details> |
+| **5** | Gebruik de zoekfunctie (7) om te zoeken naar **Row**. Klik vervolgens op het **+**-icoon onder het item **Row** (8).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.5.png"></details> |
+| **6** | De **Row** wordt direct aan de pagina toegevoegd. Je krijgt vervolgens de mogelijkheid om één of meerdere Columns toe te voegen. In dit voorbeeld kiezen we voor een indeling met drie Columns naast elkaar (9).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.6.png"></details> |
+| **7** | Selecteer een **Column** via de [Navigator](#navigator) (10). In het scherm met de kolominstellingen kun je onder het tabblad **Properties** (11) de uitlijning van CMS-elementen voor verschillende schermformaten instellen.<br><br>De schuifregelaars bepalen hoeveel ruimte een CMS-element inneemt op apparaten met verschillende schermgroottes, zoals pc's/laptops, tablets en smartphones.<br><br>De totale breedte van een scherm bestaat uit maximaal **12 virtuele kolommen**. Een element kan hierdoor minimaal één en maximaal twaalf kolommen breed zijn. Dit geldt voor alle ondersteunde apparaten.<br><br>De bovenste schuifregelaar is voor **pc's en laptops**, de middelste voor **tablets** en de onderste voor **smartphones**.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.7.png"></details> |
+| **8** | Open het tabblad **[Styling](#3-styling)** (12). Styling is optioneel. Je kunt hier onder andere de volgende instellingen aanpassen:<br><br>**Achtergrondkleur:** Kies via het dropdownmenu **Background** (13) een [achtergrondkleur](#color-picker).<br><br>**[Hoogte/Breedte](#hoogtebreedte):** Kies bij **Height** (14) voor **Auto** of stel een vaste hoogte in. De beschikbare eenheden zijn onder andere `px`, `rem` en `%`. Het wordt aanbevolen om **Auto** te gebruiken. De kolom wordt dan automatisch zo hoog als nodig is voor de inhoud.<br><br>**[Margin](#marginpadding):** Stel de marge (witruimte) rondom de kolom in (15). Je kunt één waarde instellen voor alle zijden of de waarden per zijde afzonderlijk bepalen. Ondersteunde eenheden zijn onder andere `px`, `rem`, `%`, `mm` en `cm`. Daarnaast kun je waarden zoals `auto` en `unset` gebruiken.<br><br>**[Padding](#marginpadding):** Bepaal de ruimte aan de binnenkant van de kolom (16). Deze instelling werkt volgens hetzelfde principe als Margin.<br><br>**[Overflow](#overflow):** Bepaal of content die buiten de grenzen van de kolom valt zichtbaar blijft (17). Standaard staat deze instelling op **Visible**.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.8.png"></details> |
+| **9** | Open het tabblad **[Advanced](#4-geavanceerd)** (18). Het tabblad **Advanced** biedt de mogelijkheid om extra classes, ID's en andere instellingen aan een component toe te voegen. Onder **[Identificatie naam](#identificatienaam)** (19) kun je bijvoorbeeld een eigen naam aan het component geven. Hierdoor ontstaat er meer structuur en overzicht in de [Navigator](#navigator) (20).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.9.png"></details> |
+| **10** | Open het tabblad **[Visibility](#5-zichtbaarheid)** (21). Het tabblad **Visibility** werkt op dezelfde manier als bij het aanmaken van pagina's en categorieën. Raadpleeg het hoofdstuk [Zichtbaarheid](#zichtbaarheid) voor meer informatie over de beschikbare instellingen.<br><br>Klik na het configureren van de gewenste instellingen op **Save** (22) om de kolom in het CMS op te slaan. Klik vervolgens op **Publiceren** (23) om de wijzigingen live te zetten.<br><br>**Je kunt de instellingen op een later moment altijd nog aanpassen.**<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="../.Quickstart manual webshop add on CMS 2.0/media/6.10.png"></details> |
 
 ---
 
 #### Panel
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Panel | Deze beschrijving wordt aangevuld |
+Het **Panel**-component is een veelzijdig basiscomponent met uitgebreide [stylingopties](#3-styling) waarmee je jouw pagina visueel kunt vormgeven. Je kunt onder andere een achtergrondkleur, afbeelding of sfeervideo zonder geluid toevoegen. Vervolgens kun je het Panel vullen met meerdere componenten. Daarnaast kun je het volledige Panel klikbaar maken door een bestemmings-URL toe te voegen.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Column](#rowcolumn) (1) geselecteerd waaraan we het **Panel**-component toevoegen (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/38.1.png"></details> |
+| **2** | Het Panel is nu zichtbaar in de [Navigator](#navigator) (3) en in de [Editor](#editor) (4). Via de [Algemene instellingen](#algemene-instellingen) (5) vind je verschillende opties om het Panel te configureren, waaronder [Vertalingen](#vertalingen) (6).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/38.2.png"></details> |
+| **3** | Onder **Video-eigenschappen** (7) vind je verschillende opties voor het toevoegen van een video. Via **Video** (8) kun je een eigen videobestand uploaden. Staat de video op een andere server, dan kun je de URL invoeren bij **Video URL** (9). Met de optie **Lazy load** (10) bepaal je of de video pas wordt geladen wanneer deze in beeld komt tijdens het scrollen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/38.3.png"></details> |
+| **4** | Onder **Afbeeldingseigenschappen** (11) vind je verschillende opties voor het toevoegen en configureren van een afbeelding (12). Activeer **Background Parallax** (13) voor een parallax-effect wanneer je langs de afbeelding scrollt. Dit is met name geschikt voor grotere afbeeldingen. Met **Achtergrondanimatie** (14) kun je een brede afbeelding horizontaal laten bewegen. Vervolgens kun je de snelheid van deze animatie instellen (15). Via **Alt-tekst** (16) kun je een beschrijving aan de afbeelding toevoegen. Dit draagt bij aan een betere [SEO](#seo) en maakt de afbeelding toegankelijker.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/38.4.png"></details> |
+| **5** | Nadat je een afbeelding hebt toegevoegd (17), kun je bepalen hoe deze wordt weergegeven. Bij **Achtergrondgrootte** (18) kun je kiezen uit **Bedekken** (de afbeelding bedekt het volledige Panel), **Automatisch** (de afbeelding wordt in de oorspronkelijke grootte weergegeven) of **Passend** (de volledige afbeelding wordt zichtbaar gemaakt). Vervolgens kun je met de sliders de **Horizontale** (19) en **Verticale** (20) positie van de afbeelding of video bepalen. Wanneer beide waarden op 50% staan, wordt de afbeelding of video exact in het midden van het Panel geplaatst.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/38.5.png"></details> |
+| **6** | Nadat je de afbeelding hebt gepositioneerd, kun je eventueel een URL invoeren (21). Hierdoor wordt het volledige Panel klikbaar en kun je het Panel bijvoorbeeld gebruiken als een volledig aanpasbare knop of banner. **Let op:** je hoeft in dit veld niet het volledige domein in te voeren. Alleen het pad is voldoende. Met de optie (22) kun je bepalen of de URL in een nieuw browsertabblad wordt geopend. Voeg bij **Titel** (23) een beschrijving toe aan het Panel. Deze titel wordt weergegeven wanneer je met de muis over het Panel beweegt. Via **Aria-label** (24) kun je een beschrijving van het Panel invoeren die door ondersteunende technologieën, zoals schermlezers, kan worden voorgelezen. Raadpleeg [Component Styles](#component-styles) (25) voor meer informatie over Component Styles. Raadpleeg ook [Styling](#3-styling) (26) voor meer informatie over de beschikbare stylingopties.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/38.6.png"></details> |
+| **7** | Raadpleeg [Geavanceerd](#4-geavanceerd) (27) voor alle beschikbare geavanceerde opties. Het Panel beschikt daarnaast over een specifieke optie waarmee je het component geleidelijk kunt laten verschijnen op de pagina. Dit **fade-in-effect** geeft je pagina een moderne en speelse uitstraling. Je kunt deze optie eenvoudig activeren met de aan/uit-schakelaar (28).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/38.7.png"></details> |
 
 ---
 
 #### Flex
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Flex | Deze beschrijving wordt aangevuld |
+Met het **Flex**-component kun je inhoud flexibel positioneren en uitlijnen. Voeg één of meerdere [componenten](#componenten) toe en bepaal vervolgens hoe deze horizontaal of verticaal worden weergegeven. Daarnaast kun je de uitlijning, tussenruimte en het gedrag op verschillende schermformaten instellen. Het Flex-component vormt hiermee de basis voor een dynamische webpagina.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld voegen we in de [Pagina](#pagina) (1) een **Flex**-component (2) toe.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.1.png"></details> |
+| **2** | Het **Flex**-component is nu zichtbaar in de [Navigator](#navigator) (3) en de [Editor](#editor) (4). Via het tabblad **[Algemene instellingen](#algemene-instellingen)** (5) bepaal je hoe de elementen binnen het Flex-component worden geordend. Voordat we deze instellingen aanpassen, voegen we eerst enkele elementen toe.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.2.png"></details> |
+| **3** | We hebben drie [Kolommen](#rowcolumn) (6, 7 en 8) toegevoegd aan het Flex-component. Iedere kolom heeft een breedte van twee kolommen gekregen en een eigen [kleur](#color-picker).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.3.png"></details> |
+| **4** | Via het tabblad **[Algemene instellingen](#algemene-instellingen)** stel je de **Flexrichting** in. In dit voorbeeld komen de [Kolommen](#rowcolumn) onder elkaar te staan wanneer de Flexrichting wordt ingesteld op **Kolom** (9).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.4.png"></details><br><br>**Omgekeerde kolom** (10): plaatst de Kolommen in omgekeerde volgorde, van onder naar boven.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.4.1.png"></details><br><br>**Rij** (11): plaatst de Kolommen naast elkaar van links naar rechts.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.4.2.png"></details><br><br>**Omgekeerde rij** (12): plaatst de Kolommen naast elkaar van rechts naar links.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.4.3.png"></details> |
+| **5** | We laten de **Flexrichting** in dit voorbeeld ingesteld op **Rij**. Let op: wanneer de Flexrichting op **Kolom** staat, reageren de hoofd- en kruisas tegenovergesteld. Via **Uitlijning hoofdas** (horizontale uitlijning) bepaal je hoe de [Kolommen](#rowcolumn) horizontaal worden geplaatst.<br><br>**Begin** (13): lijnt de Kolommen links uit.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.5.png"></details><br><br>**Eind** (14): lijnt de Kolommen rechts uit.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.5.1.png"></details><br><br>**Centreren** (15): plaatst de Kolommen in het midden.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.5.2.png"></details><br><br>**Gelijke ruimte tussen** (16): verdeelt de beschikbare ruimte tussen de Kolommen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.5.3.png"></details><br><br>**Gelijke ruimte rondom** (17): verdeelt de beschikbare ruimte rondom de Kolommen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.5.4.png"></details><br><br>**Gelijke ruimte overal** (18): geeft iedere Kolom exact dezelfde ruimte rondom.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.5.5.png"></details><br><br>**Begin (taalgevoelig)** en **Eind (taalgevoelig)** werken hetzelfde als **Begin** en **Eind**, maar houden rekening met de leesrichting van verschillende talen. |
+| **6** | Om de volgende opties duidelijker te maken, geven we één van de drie [Kolommen](#rowcolumn) (19) een [hoogte](#hoogtebreedte) van **300px**.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.6.png"></details> |
+| **7** | Via **Uitlijning kruisas** (verticale uitlijning) bepaal je hoe de Kolommen verticaal ten opzichte van elkaar worden uitgelijnd.<br><br>**Uitrekken** (20): alle Kolommen krijgen automatisch de hoogte van de hoogste Kolom.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.7.png"></details><br><br>**Begin** (21): lijnt alle Kolommen uit aan de bovenzijde.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.7.1.png"></details><br><br>**Eind** (22): lijnt alle Kolommen uit aan de onderzijde.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.7.2.png"></details><br><br>**Centreren** (23): centreert alle Kolommen verticaal.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.7.3.png"></details><br><br>**Begin (taalgevoelig)** en **Eind (taalgevoelig)** werken hetzelfde als **Begin** en **Eind**, maar houden rekening met de leesrichting van verschillende talen. |
+| **8** | Via **Terugloop** (24) bepaal je hoe de elementen reageren wanneer de beschikbare ruimte kleiner wordt.<br><br>**Afbreken** zorgt ervoor dat elementen automatisch naar een volgende regel worden verplaatst.<br><br>**Niet afbreken** zorgt ervoor dat alle elementen naast elkaar blijven staan, ook wanneer de beschikbare ruimte beperkt is.<br><br>Met **Tussenruimte** (25) bepaal je de afstand tussen de elementen. De volgende eenheden worden ondersteund: `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh` en `vw`.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.8.png"></details> |
+| **9** | Klap de aanvullende opties uit (26) om de horizontale en verticale tussenruimte afzonderlijk van elkaar in te stellen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.9.png"></details> |
+| **10** | Activeer **Objecten uitvullen** (27) om alle elementen automatisch de beschikbare ruimte te laten vullen, ongeacht ingestelde [breedtes](#hoogtebreedte).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.10.png"></details> |
+| **11** | Via de [Geavanceerde instellingen](#4-geavanceerd) (28) kun je de optie **Hoogte ouder overnemen** (29) activeren. Hierdoor neemt het Flex-component automatisch de hoogte over van het bovenliggende component. Wanneer een [Panel](#panel) bijvoorbeeld een [hoogte](#hoogtebreedte) van **500px** heeft, krijgt het Flex-component binnen deze Panel automatisch dezelfde hoogte.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/39.11.png"></details><br><br>Lees meer over de aanvullende instellingen in de tabbladen [Geavanceerd](#4-geavanceerd) en [Zichtbaarheid](#5-zichtbaarheid). |
 
 ---
 
@@ -773,9 +866,16 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 #### Text
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Text | Deze beschrijving wordt aangevuld |
+Met het **Text**-component voeg je eenvoudig eigen teksten toe via de TinyMCE-editor. Hiermee kun je titels en alinea's toevoegen en de tekst opmaken met opties zoals vet, cursief, lettergrootte, uitlijning en meer. De tekstkleur kun je aanpassen via het tabblad [Styling](#3-styling) van het component. In de [Themaconfiguratie](#thema-configuratie) wordt standaard de kleur `primary-font-color` gebruikt.
+
+Vertalingen kun je bewerken via de knop **[Vertalingen bewerken](#vertalingen)** onder het tabblad [Algemene instellingen](#algemene-instellingen).
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Kolom](#rowcolumn) (1) geselecteerd waaraan we het **Text**-component (2) toevoegen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/42.1.png"></details> |
+| **2** | Het **Text**-component is nu zichtbaar in de [Navigator](#navigator) (3) en de [Editor](#editor) (4). De editor van het CMS-element wordt automatisch geopend voor het nieuwe tekstelement.<br><br>Via het tabblad [Algemene instellingen](#algemene-instellingen) (5) kun je de tekstinhoud toevoegen (6). Je kunt de inhoud in twee formaten invoeren: **TinyMCE** (7) en **Markdown** (8). Kies het formaat dat het beste bij je past. **Let op:** Markdown vereist meer technische kennis en biedt minder opmaakmogelijkheden dan TinyMCE. In deze handleiding gebruiken we TinyMCE.<br><br>Wil je Markdown gebruiken, dan kan een cheatsheet handig zijn. Deze vind je hier: [Markdown Guide - Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/42.2.png"></details> |
+| **3** | De TinyMCE-editor spreekt grotendeels voor zich. Het toevoegen van kopteksten kan in het begin echter wat verwarrend zijn. Om een koptekst toe te voegen, klik je op de dropdown **Paragraph** (9). Selecteer vervolgens **Headings** (10). Er verschijnt een extra dropdown met verschillende kopgroottes (11). Selecteer hier de gewenste kopgrootte.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/42.3.png"></details> |
+| **4** | Lees meer over de aanvullende instellingen in de tabbladen [Styling](#3-styling), [Geavanceerd](#4-geavanceerd) en [Zichtbaarheid](#5-zichtbaarheid). |
 
 ---
 
@@ -807,9 +907,13 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 #### Image
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Image | Deze beschrijving wordt aangevuld |
+Upload een afbeelding via dit handige **Image**-component. Vervolgens kun je eventueel de [hoogte en breedte](#hoogtebreedte) instellen en afgeronde hoeken toevoegen. **Tip:** stel [Overflow](#overflow) in op `Hidden` voor een strak resultaat.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Kolom](#rowcolumn) (1) geselecteerd waaraan we het **Image**-component (2) toevoegen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/41.1.png"></details> |
+| **2** | Het **Image**-component is nu zichtbaar in de [Navigator](#navigator) (3) en de [Editor](#editor) (4). Via het tabblad **[Algemene instellingen](#algemene-instellingen)** (5) kun je de volgende opties instellen:<br><br>**Afbeelding** (6): Upload een afbeelding door de [Media Bibliotheek](#media) te openen. In dit voorbeeld hebben we een afbeelding geüpload in het **Image**-component.<br><br>**Positie-eigenschappen** (7): Bepaal hoe de afbeelding wordt gepositioneerd. `IMG` toont de volledige afbeelding. `BackgroundCover` vult de beschikbare ruimte met de afbeelding. `BackgroundContain` toont de volledige afbeelding binnen de beschikbare ruimte.<br><br>**URL** (8): Vul een URL of paginapad in om het **Image**-component klikbaar te maken en naar een andere pagina te laten verwijzen. **Let op:** je hoeft in dit veld niet het volledige domein in te voeren.<br><br>**Link openen in nieuw tabblad** (9): Gebruik deze schakelaar om in te stellen of de link in een nieuw browsertabblad wordt geopend wanneer op het component wordt geklikt.<br><br>**Zoom** (10): Activeer deze optie om de afbeelding klikbaar te maken en deze vergroot weer te geven.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/41.2.png"></details><br><br>Lees meer over de aanvullende instellingen van [Component Styles](#component-styles). |
+| **3** | Lees meer over de aanvullende instellingen in de tabbladen [Styling](#3-styling), [Geavanceerd](#4-geavanceerd) en [Zichtbaarheid](#5-zichtbaarheid). |
 
 ---
 
@@ -855,9 +959,13 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 #### Carrousel
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Carrousel | Deze beschrijving wordt aangevuld |
+Met het **Carrousel**-component kun je meerdere elementen als afzonderlijke slides weergeven. Je bepaalt zelf hoeveel slides per apparaat zichtbaar zijn, hoe de navigatie wordt weergegeven en of de carrousel automatisch afspeelt. Hierdoor kun je de carrousel volledig naar wens configureren.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Panel](#panel) (1) geselecteerd waaraan we het **Carrousel**-component (2) toevoegen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/40.1.png"></details> |
+| **2** | Het **Carrousel**-component is nu zichtbaar in de [Navigator](#navigator) (3) en in de Editor. We hebben het Carrousel in dit voorbeeld gevuld met meerdere [Panels](#panel) en deze voorzien van een eigen [naam](#identificatienaam). Via het tabblad **[Algemene instellingen](#algemene-instellingen)** (4) kun je de volgende opties instellen:<br><br>**Lazy load slides** (5): Wanneer deze optie is ingeschakeld, worden slides pas ingeladen zodra ze zichtbaar worden.<br><br>**Swipen** (6): Activeer deze optie om met een veegbeweging door de slides te kunnen navigeren.<br><br>**Style** (7): Selecteer een stijl voor de chevrons (navigatiepijlen).<br><br>**Chevrons positie** (8): Bepaal waar de navigatiepijlen worden weergegeven. **Overlay** plaatst de pijlen over de slide. **Indent** plaatst de pijlen naast het Carrousel.<br><br>**Chevron** (9): Schakel deze optie in of uit om de navigatiepijlen weer te geven.<br><br>**Paginatie** (10): Toont paginatiebolletjes onder het Carrousel om het aantal slides en de huidige positie aan te geven.<br><br>**Herhalen** (11): Schakel deze optie in of uit om het Carrousel continu te laten herhalen. Hierdoor kun je na de laatste slide weer verdergaan met de eerste slide.<br><br>**Automatisch afspelen - interval in seconden** (12): Stel in hoeveel seconden een slide wordt weergegeven voordat de volgende slide wordt getoond.<br><br>**Automatisch afspelen** (13): Schakel deze optie in of uit om het automatisch afspelen van de slides te activeren.<br><br>**Hoogtemodus** (14): Bepaal hoe de hoogte van de slides wordt ingesteld. **Auto height** past de hoogte automatisch aan wanneer de volgende slide een andere hoogte heeft. **Auto stretch** zorgt ervoor dat alle slides dezelfde hoogte hebben.<br><br>**Ruimte tussen slides** (15): Stel het aantal pixels in voor de ruimte tussen de slides.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/40.2.png"></details>Lees meer over de aanvullende instellingen over [Component Styles](#component-styles). |
+| **3** | Via het tabblad **[Styling](#3-styling)** (16) kun je de volgende opties instellen:<br><br>**[Height](#hoogtebreedte)** (17): Stel de hoogte van het Carrousel in.<br><br>**Kolomuitlijning** (18): Lijn de slides links, rechts of gecentreerd uit.<br><br>**[Slide breedte](#hoogtebreedte)** (19): Stel de breedte van iedere slide in.<br><br>**[Slide content breedte](#hoogtebreedte)** (20): Stel de breedte in van de inhoud binnen iedere slide.<br><br>**Zichtbare kolommen (desktop)** (21): Bepaal hoeveel slides tegelijkertijd op desktop worden weergegeven.<br><br>**Zichtbare kolommen (tablet)** (22): Bepaal hoeveel slides tegelijkertijd op een tablet worden weergegeven.<br><br>**Zichtbare kolommen (mobiel)** (23): Bepaal hoeveel slides tegelijkertijd op mobiele apparaten worden weergegeven.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/40.3.png"></details><br><br>Lees meer over de aanvullende instellingen in de tabbladen [Geavanceerd](#4-geavanceerd) en [Zichtbaarheid](#5-zichtbaarheid). |
 
 ---
 
@@ -873,17 +981,37 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 #### Button
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Button | Deze beschrijving wordt aangevuld |
+Gebruik dit volledig aanpasbare **Button**-component om te navigeren naar de [URL](#url) die je zelf hebt ingesteld.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Flex](#flex)-component (1) geselecteerd waaraan we het **Button**-component (2) toevoegen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/43.1.png"></details> |
+| **2** | Het **Button**-component is nu zichtbaar in de [Navigator](#navigator) (3) en de [Editor](#editor) (4). Via het tabblad **[Algemene instellingen](#algemene-instellingen)** (5) kun je de volgende opties instellen:<br><br>**[Vertalingen bewerken](#vertalingen)**: Bewerk de vertalingen van de buttontekst.<br><br>**Tekst** (6): Vul hier de tekst van de button in.<br><br>**Chevron** (7): Toont een pijltje achter de buttontekst.<br><br>**Switch Variant** (8): Schakelt over naar de kleur `button-secondary-bgcolor` uit de [Thema Configuratie](#thema-configuratie). Deze optie werkt alleen wanneer je geen eigen kleurinstellingen hebt ingesteld in het tabblad [Styling](#3-styling).<br><br>**[URL](#url)** (9): Stel de URL in waarnaar de button moet navigeren.<br><br>**Button positie** (10): Bepaal of de button links, rechts, gecentreerd of over de volledige beschikbare breedte wordt uitgelijnd.<br><br>**[URL openen in nieuw tabblad](#url)**: Bepaal of de URL in een nieuw tabblad wordt geopend.<br><br>**[Component Styles](#component-styles)**: Stel aanvullende componentstijlen in.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/43.2.png"></details> |
+| **3** | Via het tabblad **[Styling](#3-styling)** (11) kun je de volgende opties instellen:<br><br>**Button kleur** (12): Stel een eigen kleur in voor de button. In de [Thema Configuratie](#thema-configuratie) kun je via `button-bg-color` de standaardkleur van alle Button-componenten instellen.<br><br>**Muis-over kleur** (13): Stel een eigen kleur in voor wanneer je met de muis over de button beweegt. In de [Thema Configuratie](#thema-configuratie) kun je via `button-hover-bg-color` de standaardkleur instellen voor alle Button-componenten.<br><br>**Button tekstkleur** (14): Stel een eigen kleur in voor de buttontekst. De standaardkleur voor het Button-component is wit. De tekstkleur van buttons in de webshop kun je instellen via de [Thema Configuratie](#thema-configuratie) met `button-font-color`, `button-primary-textcolor` en `button-secondary-textcolor`.<br><br>**Button schaduw kleur** (15): Stel een eigen kleur in voor de schaduw van de button. Je kunt dit ook instellen via [Omlijning](#omlijning) of [Slagschaduw](#slagschaduw).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/43.3.png"></details> |
+| **4** | Lees meer over de aanvullende instellingen in de tabbladen [Styling](#3-styling), [Geavanceerd](#4-geavanceerd) en [Zichtbaarheid](#5-zichtbaarheid). |
+| **5** | Om de [Hoekafronding](#hoekafronding) op al je buttons toe te passen, kun je via de [Thema Configuratie](#thema-configuratie) de variabelen `button-border-top-radius` en `button-border-bottom-radius` aanpassen. |
 
 ---
 
 #### Partijlijst
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Partijlijst | Deze beschrijving wordt aangevuld |
+Met dit component kun je eenvoudig een verzameling partijkaarten aan een pagina toevoegen in een tegel- of carrouselweergave. Daarnaast kun je de Comfy-weergave naar wens aanpassen en de stijl van de carrousel configureren. Dit geeft je de flexibiliteit om de presentatie van je partijen af te stemmen op je webshop.
+
+Partijen die wel worden ingeladen, maar niet beschikbaar zijn, worden automatisch niet weergegeven in de Partijlijst. Wanneer geen van de ingeladen partijen beschikbaar is, wordt het component automatisch niet weergegeven op de pagina. Het component staat namelijk rechtstreeks in verbinding met de beschikbaarheid in de Backoffice.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Column](#rowcolumn)-component (1) geselecteerd waaraan we het **Partijlijst**-component (2) toevoegen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/44.1.png"></details> |
+| **2** | Het **Partijlijst**-component is nu zichtbaar in de [Navigator](#navigator) (3) en de [Editor](#editor) (4). Om voorraad in te laden, ga je naar het tabblad **Genereer** (5) en klik je op **Genereer** (6). Er wordt vervolgens een dialoogvenster geopend.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/44.2.png"></details> |
+| **3** | In dit dialoogvenster kun je optioneel een naam opgeven voor de voorraad die je wilt inladen (7). Vervolgens heb je drie mogelijkheden om de Partijlijst met voorraad te vullen:<br><br>**Stapgewijs genereren** (8): bepaal stap voor stap welke voorraad je wilt inladen.<br><br>**Genereren met een URL** (9): plak een volledige URL uit je voorraad om de bijbehorende voorraad in te laden. Je kunt hiermee bijvoorbeeld een filter in de shop samenstellen, vervolgens de URL uit de browser kopiëren en deze in het dialoogvenster plakken.<br><br>**Handmatig genereren** (10): voeg een lege Partijlijst toe die je vervolgens zelf kunt voorzien van voorraadcodes.<br><br>In dit voorbeeld kiezen we voor **Stapgewijs genereren** (8).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/44.3.png"></details> |
+| **4** | Bij **Stap 1** (11) geef je aan om welk type voorraad het gaat: **Voorraad**, **Bestellijst** of een specifieke voorraad. Bij **Stap 2** (12) selecteer je de gewenste categorie, ook wel **Voorraadgroep** genoemd. Bij **Stap 3** (13) selecteer je de gewenste itemgroep, ook wel **Webshop Voorraad** genoemd. Bij **Stap 4** (14) selecteer je de gewenste productgroep, ook wel **Voorraad** genoemd. Tijdens het samenstellen van de URL wordt een voorvertoning weergegeven (15), zodat je kunt zien hoe de URL wordt opgebouwd. Klik vervolgens op **Genereer** (6) om de Partijlijst met de geselecteerde voorraad te vullen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/44.4.png"></details> |
+| **5** | Wanneer de ingeladen voorraad beschikbaar is, wordt deze direct weergegeven in de Partijlijst (17). In de [Aside Editor](#aside-editor) zie je dat de bron van de Partijlijst is toegevoegd (18). Deze bron kun je indien gewenst handmatig aanpassen. Daarnaast kun je instellen hoeveel partijen maximaal worden weergegeven. Standaard is dit ingesteld op maximaal **10 partijen** (19). Wanneer je meerdere voorraden hebt gegenereerd, kun je met de pijlen (20) de volgorde binnen de Partijlijst aanpassen. Een voorraad kun je eenvoudig verwijderen via het prullenbakpictogram (21).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/44.5.png"></details> |
+| **6** | Via het tabblad **[Algemene instellingen](#algemene-instellingen)** (22) kun je de volgende opties instellen:<br><br>**[Vertalingen bewerken](#vertalingen)**: beheer de vertalingen van de teksten binnen het component.<br><br>**Partijlijstmodus** (23): stel deze in op **Optie 2** voor een gestylde variant van de Partijlijst.<br><br>**Headertekst** (24): vul een titel in voor het Partijlijst-component. Laat dit veld leeg om automatisch de naam te gebruiken die vanuit de Backoffice wordt opgehaald.<br><br>**Ruimte tussen partijkaarten** (25): bepaal de afstand in pixels tussen de weergegeven partijkaarten.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/44.6.png"></details> |
+| **7** | Het uitklapvenster **Toon alles** (26) bevat de optie **Toon alles-linktekst** (27). Hiermee kun je een eigen tekst voor de **Toon alles**-knop instellen. Daarnaast kun je een eigen [URL](#url) invoeren (28). Laat je deze velden leeg, dan toont het component automatisch een **Toon alles**-link die naar de bijbehorende voorraad verwijst.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/44.7.png"></details> |
+| **8** | Het uitklapvenster **Lijstweergave** (29) bevat de optie **Verberg header** (30), waarmee je de titel van de Partijlijst kunt verbergen. Daarnaast kun je de footer verbergen (31). Deze laatste optie heeft alleen effect wanneer de **Partijlijstmodus** is ingesteld op **Optie 1**.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/44.8.png"></details> |
+| **9** | Het uitklapvenster **Carrousel** (32) bevat de optie **Weergeven als carrousel** (33), waarmee je de Partijlijst als slider kunt weergeven. Daarnaast kun je navigatieknoppen activeren (34), **Automatisch afspelen** inschakelen (35) en bepalen met welk interval de slider automatisch wordt afgespeeld (36).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/44.9.png"></details> |
+| **10** | Het uitklapvenster **Partijkaarten** (37) bevat de optie **Weergave voor de partijkaarten** (38). Hiermee bepaal je of de partijkaarten als **Module**- of als **Comfy**-weergave worden getoond. **FromSettings** betekent dat de instelling uit de Webshop Settings wordt overgenomen.<br><br>Via **Koopcontrols** (39) bepaal je of koopcontrols op de partijkaarten worden weergegeven. Met **Soort koopcontrols** (40) bepaal je vervolgens of er een koopknop of toevoegknoppen worden weergegeven. **Let op:** de optie Koopcontrols werkt alleen nadat er een vertrekdag is geselecteerd in de shop. Via de websetting `CLICKANDBUYCOMFYMODE` kun je deze optie voor de gehele shop instellen.<br><br>Daarnaast kun je bepalen hoe productafbeeldingen worden weergegeven (41). Met **Contain** wordt de volledige afbeelding binnen het beschikbare kader weergegeven. Met **Cover** wordt het beschikbare kader volledig gevuld met de afbeelding. Via de websetting `FOTOCONTAINERMODE` kun je deze instelling voor de gehele shop bepalen.<br><br>Met **Weergave bij Comfyview** (42) bepaal je welke informatie op de partijkaarten wordt weergegeven. Via de websetting `CLICKANDBUYCOMFYTOONINFO` kun je deze instelling voor de gehele shop bepalen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/44.10.png"></details> |
+| **11** | Lees meer over de aanvullende instellingen in de tabbladen [Styling](#3-styling), [Geavanceerd](#4-geavanceerd) en [Zichtbaarheid](#5-zichtbaarheid). |
 
 ---
 
@@ -895,19 +1023,40 @@ Een CMS-pagina maakt gebruik van rijen en kolommen voor de uitlijning op verschi
 
 ---
 
-#### Social icons
+#### Social Icons
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Social icons | Deze beschrijving wordt aangevuld |
+Vul per socialmediakanaal de bijbehorende URL in. De socialmedia-iconen worden vervolgens direct op de pagina weergegeven. Zo creëer je snel en eenvoudig koppelingen naar je eigen socialmediakanalen.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Column](#rowcolumn)-component (1) geselecteerd waaraan we het **Social Icons**-component (2) toevoegen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/45.1.png"></details> |
+| **2** | Het **Social Icons**-component is nu zichtbaar in de [Navigator](#navigator) (3) en de [Editor](#editor) (4). Via het tabblad **[Algemene instellingen](#algemene-instellingen)** (5) kun je het component verder configureren.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/45.2.png"></details> |
+| **3** | Vul de URL's van je socialmediakanalen in (8). De volgende kanalen worden ondersteund: **Facebook**, **Instagram**, **Pinterest**, **X** (voorheen Twitter), **YouTube** en **LinkedIn**. In dit voorbeeld hebben we de velden gevuld met een `#` om te laten zien hoe de iconen in de editor worden weergegeven. Via **Icoonformaat** (6) bepaal je de grootte van de iconen. Daarnaast kun je een [kleur](#color-picker) instellen (7) en bepalen of de link in een [nieuw tabblad](#url) wordt geopend.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/45.3.png"></details> |
+| **4** | Lees meer over de aanvullende instellingen in de tabbladen [Styling](#3-styling), [Geavanceerd](#4-geavanceerd) en [Zichtbaarheid](#5-zichtbaarheid). |
+| **5** | **Tip:** Wil je liever zelf iconen gebruiken en positioneren? Dan kun je met behulp van een [Flex](#flex)- en [SVG](#svg)-component je eigen socialmediakanalen weergeven. |
 
 ---
 
 #### Breadcrumbs
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Breadcrumbs | Deze beschrijving wordt aangevuld |
+Dit component laat zien waar de bezoeker zich binnen de website bevindt. Via de breadcrumbs kan eenvoudig worden teruggenavigeerd naar eerdere niveaus of de startpagina. Dit draagt bovendien bij aan een SEO-vriendelijke websitestructuur.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we een [Panel](#panel)-component (1) geselecteerd waaraan we het **Breadcrumbs**-component (2) toevoegen.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/46.1.png"></details> |
+| **2** | Het **Breadcrumbs**-component is nu zichtbaar in de [Navigator](#navigator) (3) en de [Editor](#editor) (4). Via het tabblad **[Algemene instellingen](#algemene-instellingen)** (5) kun je het component verder configureren. Zo kun je via **SeparatorCharacter** (6) een scheidingselement toevoegen. Dit wordt vervolgens tussen de paginanamen in het Breadcrumbs-component weergegeven. **ZmdiIconClass** (7) klinkt wat ingewikkelder, maar is eigenlijk een eenvoudige manier om een icoon toe te voegen. Bekijk de lijst met beschikbare iconen via [Material Design Iconic Font](https://zavoloklom.dev/material-design-iconic-font/cheatsheet.html). Zorg ervoor dat je de juiste naam van het icoon invult, zoals `zmdi-home`.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/46.2.png"></details> |
+| **3** | Lees meer over de aanvullende instellingen in de tabbladen [Styling](#3-styling), [Geavanceerd](#4-geavanceerd) en [Zichtbaarheid](#5-zichtbaarheid). |
+
+---
+
+#### Pagina zoekbalk
+
+Gebruik dit component om CMS- (blog)pagina's vindbaar te maken binnen je website. Zo kan er gericht binnen één of meerdere categorieën worden gezocht en kun je zoektermen effectief verwerken in de omschrijvingen van je pagina's, zodat bezoekers nog gerichter kunnen zoeken.
+
+| Stap | Uitleg |
+|:--|:--|
+| **1** | In dit voorbeeld hebben we het component **Pagina zoekbalk** toegevoegd aan een [Column](#rowcolumn)-component (1). Het component is nu zowel zichtbaar in de [Navigator](#navigator) (2) als in de [Editor](#editor) (3). Via het tabblad **[Algemene instellingen](#algemene-instellingen)** (4) kun je het component verder configureren.<br><br>**[Vertalingen bewerken](#vertalingen)** (5)<br><br>**Placeholder** (6) – Vul hier de tekst in die als voorbeeldtekst in het zoekveld wordt weergegeven.<br><br>**Categorie dropdown tonen** (7) – Schakel deze optie in of uit om een dropdown naast het zoekveld weer te geven. Wanneer deze optie is ingeschakeld, verschijnen de velden **Tussenruimte** (8) en **Dropdown breedte (%)** (9). Hiermee kun je de ruimte tussen de dropdown en het zoekveld bepalen en de breedte van de dropdown instellen als percentage.<br><br>**Doorzoekbare categorieën** (10) – Selecteer welke [Pagina Categorieën](#categorieën) of [Blog Categorieën](#blog-categorieën) in de dropdown mogen worden weergegeven.<br><br>**[Component Style](#component-styles)** (11).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/47.1.png"></details> |
+| **2** | Lees meer over de aanvullende instellingen in de tabbladen [Styling](#3-styling), [Geavanceerd](#4-geavanceerd) en [Zichtbaarheid](#5-zichtbaarheid). |
 
 ---
 

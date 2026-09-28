@@ -16,6 +16,8 @@ U kunt een order of sessie openen door een ondersteunde barcode te scannen of do
 
 Na een eindcontrole kunt u Returnables Outbound ook rechtstreeks starten via **Additionele acties** in Final Outbound Check. De app neemt dan de beschikbare klant-, order- en groeperingscontext over. Bij een gegroepeerde klant- of hubcontrole wordt de ingestelde fustdebiteur en fustorder gebruikt. Als geen geldige context kan worden bepaald, wordt Returnables Outbound niet geopend.
 
+Na de eindcontrole van een pickorder kunt u Returnables Outbound daarnaast starten via **Extra handelingen → Retourverpakkingen registreren** in Order Picking. De actie opent de telpagina direct voor de klant en order van de pickorder. De app hervat uw eigen actieve child-sessie voor dezelfde klant en order. Bestaat die niet, dan maakt de app één nieuwe actieve sessie en batch aan.
+
 Bij handmatige selectie:
 
 1. Zoek en selecteer de klant.
@@ -48,6 +50,12 @@ Op de telpagina kunt u:
 
 Een eerste batch moet minimaal één positief aantal bevatten voordat u verder kunt. Een hoeveelheid nul verwijdert een eerder geregistreerde regel na bevestiging. Negatieve aantallen zijn niet toegestaan.
 
+### Vanuit Order Picking afronden of annuleren
+
+Als Returnables Outbound vanuit Order Picking is geopend, rondt **Gereed** de sessie direct af. De ingestelde `FinalizeSession`-stappen worden uitgevoerd, de geregistreerde aantallen worden volgens `PackageManagementRegistrationStrategy` verwerkt en de gesloten sessie keert terug naar Order Picking.
+
+Kies **Annuleren** om zonder verwerking terug te gaan. De app vraagt om bevestiging. Bij **Nee** blijft u in de telling en blijven de ingevoerde aantallen zichtbaar. Bij bevestiging verwijdert de app de ingevoerde batchregels, stopt de sessie en keert terug naar Order Picking zonder de fustaantallen administratief te verwerken.
+
 De volgende policies bepalen de telpagina:
 
 | Policy | Werking |
@@ -58,7 +66,11 @@ De volgende policies bepalen de telpagina:
 | `ShowQuickInput` | Toont of verbergt de snelle invoer. |
 | `ValidBarcodeDecodeOptions` | Bepaalt welke fustbarcodes op de telpagina worden herkend. Standaard is de fustbarcode beschikbaar. |
 
-Als `Apps → PackagingPicturesFolderPath` is ingesteld, kan de app bij een fustcode een herkenningsfoto tonen. De foto moet in de ingestelde map beschikbaar zijn met de fustcode als bestandsnaam.
+Als `Apps → PackagingPicturesFolderPath` is ingesteld, kan de app bij een fustcode een herkenningsfoto tonen. Vul hier het pad in naar een map die door de Florisoft-server kan worden gelezen. Sla iedere foto op als JPG-bestand met exact de fustcode als bestandsnaam. Voor fustcode `025` gebruikt u bijvoorbeeld `025.jpg`.
+
+Controleer na het instellen met een bekende fustcode of de foto op de telpagina wordt getoond. Verschijnt de foto niet, controleer dan de bestandsnaam, de extensie `.jpg`, het ingestelde pad en de leesrechten van de Florisoft-server op de map.
+
+[Download de standaard fustfoto's](../Standaard%20fustfotos.zip?raw=1), pak het ZIP-bestand uit en gebruik de uitgepakte map bij `PackagingPicturesFolderPath`. De download bevat 255 foto's die al volgens `<fustcode>.jpg` zijn benoemd. U kunt de set aanvullen of een foto vervangen zolang de bestandsnaam overeenkomt met de fustcode in Florisoft.
 
 ### Stap 3: eindcontrole
 
@@ -75,7 +87,9 @@ Bij het bevestigen kan de app, afhankelijk van de policies, aanvullende informat
 - `MailPackingListOption`: verbergt de e-mailkeuze of toont deze met standaard **Ja** of **Nee**;
 - `RequireSignature`: vraagt om een handtekening wanneer een paklijst wordt afgedrukt of gemaild.
 
-Als afdrukken of mailen is gekozen, gebruikt de app `PackageListPrinter` en `PackageListPrintLayout`.
+Als afdrukken of mailen is gekozen, gebruikt de app `PackageListPrinter` en `PackageListPrintLayout`. Bij `PackageListPrintLayout` kunnen alleen rapportlay-outs van lijstsoort `FustAdminPaklijst` worden geselecteerd. Is de keuzelijst leeg, dan is nog geen geschikte rapportlay-out beschikbaar.
+
+Is voor de debiteur `AssetManagementPackageReceiptLayout` ingesteld, dan gebruikt de app deze lay-out. Deze debiteurinstelling heeft voorrang op de policy `PackageListPrintLayout`. Als geen debiteurlay-out is ingesteld, gebruikt de app de lay-out uit de policy.
 
 De policy `PackageManagementRegistrationStrategy` bepaalt wat er bij afronden met de uitgaande fustaantallen gebeurt:
 
@@ -83,6 +97,12 @@ De policy `PackageManagementRegistrationStrategy` bepaalt wat er bij afronden me
 - `PackageAdministration`: de aantallen worden rechtstreeks in de fustadministratie verwerkt. Dit is de standaardstrategie in de applicatie.
 
 Na een succesvolle verwerking wordt de sessie gesloten.
+
+### Foto's vastleggen en terugvinden
+
+Als uw organisatie de fotoactie heeft ingeschakeld, kunt u vanaf de eindcontrole foto's aan de actieve outbound-order toevoegen. Volg hiervoor de gedeelde [handleiding Foto's maken en beheren](../../Additional%20actions/Photos/Handleiding%20foto%27s%20maken%20en%20beheren%20-%20NL.md).
+
+Een backofficemedewerker kan de foto's later openen vanuit het factuuroverzicht of de factuurhistorie: selecteer de betreffende factuur of facturen en kies in het menu **App-foto's** de optie **Returnables Outbound**. Alleen de foto's die aan de geselecteerde factuur zijn gekoppeld, worden getoond.
 
 ## Een sessie stoppen zonder afronden
 
@@ -103,6 +123,7 @@ De policies staan op de volgende plaatsen:
 | Pad | Policies |
 | --- | --- |
 | `Apps` | `PackagingPicturesFolderPath` |
+| `Apps → Logistics → Picking → OrderPicking → Addons` | Voeg `Returnables` toe aan `EnableAddons` om de actie na de pickorder-eindcontrole te tonen. |
 | `Apps → Logistics → Returnables` | `AvailableCustomerFilterOptions`, `ValidBarcodeDecodeOptions` |
 | `Apps → Logistics → Returnables → Outbound → PackagingCounting` | `StandardPackageCodes`, `SortPackagingType`, `AllowAdditionalPackaging`, `ShowQuickInput`, `ValidBarcodeDecodeOptions` |
 | `Apps → Logistics → Returnables → Outbound → FinalizeSession` | `RequireReferenceCode`, `RequireSignature`, `PrintPackingListOption`, `MailPackingListOption`, `PackageManagementRegistrationStrategy` |
@@ -122,6 +143,10 @@ Ja, als `AllowAdditionalPackaging` is ingeschakeld en de fustcode in Florisoft b
 **Waarom kan ik de sessie niet afronden?**
 
 Controleer of er een positief totaal is en of een verplichte referentie is ingevuld. Controleer daarnaast of de order en sessie nog geldig zijn.
+
+**Waarom kan ik bij `PackageListPrintLayout` niets selecteren?**
+
+Controleer of in Florisoft een rapportlay-out van lijstsoort `FustAdminPaklijst` beschikbaar is. Alleen lay-outs van deze lijstsoort worden in de keuzelijst getoond.
 
 **Waarom verschijnt geen keuze voor afdrukken of mailen?**
 

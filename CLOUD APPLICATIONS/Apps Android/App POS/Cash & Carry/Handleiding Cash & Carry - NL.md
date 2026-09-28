@@ -234,9 +234,11 @@ De policies onder **OrderActivation → OrderSelection** bepalen welke orders wo
 - `ExcludePastOrders` verbergt orders uit het verleden;
 - `OrderDateFilter` bepaalt op welke datum de openstaande orders worden gefilterd. De standaardwaarde is `OrderDate`.
 
-Selecteer de order, controleer ordernummer en datum en ga verder naar de winkelwagen.
+Selecteer de order, controleer ordernummer en datum en ga verder naar de winkelwagen. Heeft de medewerker een financiële administratie, dan blijven orders zonder financiële administratie naast orders met dezelfde financiële administratie beschikbaar. Is voor het aanmaken van orders ook een financiële administratie ingesteld, dan zijn orders met die administratie eveneens beschikbaar.
 
 Wanneer `EnableOrderLocking` actief is, vergrendelt Florisoft de order zodra deze in Cash & Carry wordt geopend. Een andere gebruiker kan dezelfde order dan niet gelijktijdig wijzigen. Bij het sluiten van de order of beëindigen van de sessie wordt de vergrendeling vrijgegeven.
+
+Een order die in de Backoffice handmatig is geblokkeerd, blijft altijd geblokkeerd in Cash & Carry. De orderlijst toont hiervoor een foutbadge en, indien bekend, **Vergrendeld door: <gebruiker>**. Probeert u de order toch te openen, dan toont Florisoft dat de order handmatig is vergrendeld en wordt de order niet geopend. Hef de handmatige blokkering eerst in de Backoffice op wanneer de order weer verwerkt mag worden.
 
 ### Nieuwe order aanmaken
 
@@ -248,9 +250,12 @@ De policies onder **OrderActivation → OrderCreation** bepalen welke invoer wor
   - `DeliveryChoice`: een leverkeuze maken;
 - `RequireOrderNumberForCustomers` bevat de klanten waarvoor een ordernummer of ordernaam verplicht is;
 - `DeliveryOrderSuffix` voegt de ingestelde suffix aan leverorders toe;
-- `OrderNumberDeterminationType` bepaalt hoe Florisoft het nieuwe ordernummer vaststelt.
+- `OrderNumberDeterminationType` bepaalt hoe Florisoft het nieuwe ordernummer vaststelt;
+- `FinancialAdministration` bepaalt welke financiële administratie bij het aanmaken op de orderkop wordt opgeslagen.
 
 Vul de gevraagde gegevens in en bevestig de order. Een verplicht ordernummer moet geldig en uniek zijn volgens de gekozen nummerbepaling.
+
+Stel `FinancialAdministration` alleen in wanneer nieuwe orders altijd onder een specifieke financiële administratie moeten vallen. De ingestelde waarde wordt op de orderkop opgeslagen, ook wanneer de klant een andere financiële administratie heeft. Laat de policy leeg wanneer de financiële administratie van de debiteur leidend moet blijven. Zonder ingestelde policy wordt een order bij een verschil tussen de financiële administratie van medewerker en klant niet aangemaakt; de app toont dan welke gebruiker, klant en administraties niet overeenkomen. Heeft de klant geen financiële administratie, dan mag de order wel worden aangemaakt en verder verwerkt.
 
 ### Ordersessies
 
@@ -298,7 +303,9 @@ De policies onder **ShoppingCart** bepalen hoe de medewerker aantallen invoert:
 - `AllowSellingBelowSalesUnit` bepaalt of minder dan één volledige verkoopeenheid mag worden verkocht;
 - `ResetSalesUnitAfterScan` zet na iedere scan de gekozen eenheid terug naar `DefaultSalesUnit`. Wanneer deze policy uit of leeg is, blijft de gekozen eenheid actief.
 
-In de Backoffice kan per barcodetype een verkoopeenheid zijn gekoppeld, bijvoorbeeld voor Scancode, EAN-code of Scancode 2. Wanneer die koppeling bestaat en de bijbehorende eenheid op de voorraadpartij is gevuld, bepaalt de gescande barcode automatisch de verkoopeenheid. Zonder bruikbare koppeling gebruikt Florisoft het normale gedrag uit `DefaultSalesUnit` en de actieve gebruikerskeuze.
+Met **Barcode verkoopeenheid** kan een beheerder beïnvloeden hoe een gescande voorraadpartij aan de winkelwagen wordt toegevoegd en welk aantal Florisoft daarbij gebruikt. Open hiervoor in de Backoffice **Constanten → Systeem → Barcode verkoopeenheid** en koppel per barcodetype de gewenste verkoopeenheid.
+
+Florisoft gebruikt na een scan de hoeveelheid die bij deze verkoopeenheid op de voorraadpartij is ingevuld. Zo kan dezelfde partij via **Scancode** per VE worden verkocht en via **Scancode 2** per inhoud kolli. Bij opnieuw scannen verhoogt Florisoft de bestaande orderregel met de hoeveelheid die bij het gescande barcodetype hoort.
 
 `ShowOrderItemDetailsAfterAdd` opent na het toevoegen automatisch het detailscherm. Staat deze policy uit, dan blijft de gebruiker in de winkelwagen.
 
@@ -351,6 +358,7 @@ Beschikbare detailvelden zijn:
 - `ArticleNumber`: artikelnummer;
 - `ArticleKey`: artikelsleutel;
 - `StockItemMark`: partijmarkering.
+- `Supplier`: de naam van de leverancier van de partij. 
 
 Na het opslaan herberekent Florisoft de regel en het ordertotaal.
 

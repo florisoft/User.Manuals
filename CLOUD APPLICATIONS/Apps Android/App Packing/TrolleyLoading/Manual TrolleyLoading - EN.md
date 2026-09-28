@@ -68,6 +68,17 @@ Create a new trolley as follows:
 
 If only one trolley packaging code is permitted, it is selected automatically. Manually entered barcodes are stored in uppercase. The app checks the maximum length and whether the barcode is already used within the order.
 
+#### Determine the trolley barcode per packaging code
+
+For each trolley packaging code, you can decide whether the employee must link an existing trolley barcode or Florisoft must create one for the new trolley. Open the relevant **packaging code** in the Backoffice and enable or disable **Trolley barcode required through trolley loading**:
+
+| Setting | Effect when a trolley is created with this packaging code |
+| --- | --- |
+| Enabled | The trolley-barcode dialog opens. The employee scans or enters the barcode of the physical trolley, and that barcode is linked to the new trolley. |
+| Disabled | No barcode input is shown for this packaging code and Florisoft creates the trolley barcode automatically. |
+
+`TrolleyHandling → NewTrolley → RequireCustomTrolleyBarcode` is a general override: when this policy is enabled, TrolleyLoading requests a barcode for **every** trolley packaging code, including codes for which the per-code setting is disabled. Leave this policy disabled when the behaviour must differ per packaging code.
+
 After creation, the new trolley opens immediately or you remain in the trolley overview. This is controlled by `CreateNewTrolleyAndOpenDetails`. If the label printer is active, a trolley label is printed automatically. A failed print does not prevent the trolley from being created; the label can be printed again from the actions menu.
 
 For hubs, the trolley can also be registered on the designated returnables invoice, depending on `RegisterTrolleyOnInvoice`. When lock plate registration is configured as an additional creation action, the new trolley is also included in the lock plate registration.
@@ -142,6 +153,17 @@ After successful completion:
 
 A completed trolley remains visible for the retention period configured in `CompletedTrolleyVisibleFromDays`.
 
+### See which lines are on which trolley in the Backoffice
+
+In the invoice-details screen, open the processed lines and, if needed, make the following columns visible through the column chooser:
+
+| Column | Meaning |
+| --- | --- |
+| **Karnr** | The trolley number or numbers on which the invoice line was processed. Use this column to connect the line to a trolley. |
+| **Aantal op kar** | The quantity from the invoice line that has been placed on a trolley. |
+
+Filter or group by **Karnr** to see all invoice lines on the same trolley together. These columns apply to **Processed** lines; they do not apply to lines still to be processed.
+
 ## Trolley actions
 
 The **Actions** menu can contain the following functions. `AvailableTrolleyActions` determines which actions are visible and their order.
@@ -199,7 +221,7 @@ When several customers are processed through a hub, `EnableHubGrouping` determin
 
 When TrolleyLoading starts, Florisoft first builds the order overview. `DateFilterType` determines whether this uses the order date, requested date, departure date, or delivery date, for example. `FilterDateFromDays` and `FilterDateToDays` define the default period around today. Orders whose selected date field is empty are only included when `AllowOrdersWithEmptyDates` is active. When an employee selects a date in the calendar, `EnableFilterOnSelectedDate` ensures that only orders for that date are shown.
 
-Not every order in that period is necessarily suitable for trolley building. `FilterOptions` therefore contains the validations Florisoft uses to decide which orders are loaded. `FilterByDefaultTrolleyLocations` can narrow the result further to customers with one of the configured default trolley locations. After the selection is complete, `SortingOption` determines the order in which the results appear.
+Not every order in that period is necessarily suitable for trolley building. `FilterOptions` therefore contains the validations Florisoft uses to decide which orders are loaded. `FilterByDefaultTrolleyLocations` determines which customers may appear in the overview. Add one or more default trolley-building locations to the policy. Florisoft compares these values with the default trolley-building location (`DEFKARLOC`) of the customer linked to the order. Only orders belonging to customers whose location occurs in the policy list are shown. As a result, the customer overview contains only customers with matching orders. When the policy is empty, this filter is not applied. The trolley location on the order header is not used by this filter. After the selection is complete, `SortingOption` determines the order in which the results appear.
 
 Search and scan behaviour are also configured here. With `FilterOrdersByScanAction`, a scanned value is used as a search query. `ValidBarcodeDecodeOptions` determines which order, product, or trolley barcodes are recognised from the order overview. Enable `EnableVolumeIndication` when employees should see the volume distribution in addition to colli and trolley progress. Finally, `CompletedTrolleyVisibleFromDays` defines how long completed trolleys remain visible.
 
@@ -231,13 +253,13 @@ For a completed trolley, use `TrolleyHandling → CompleteTrolley → CompleteTr
 
 Connected use cases are not made available through the trolley actions menu alone. Under `Addons`, `EnableAddons` determines which integrations TrolleyLoading may start. Add `ExceptionRegistration`, for example, to record order-line exceptions, and `AdressLabel` to print an address label for the active customer or hub. The required licences must also be available for these functions.
 
-For more information about configuring and assigning policies, see the [Policy Management manual](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Manual%20Policy%20Management%20EN.md).
+For more information about configuring and assigning policies, see the [Policy Management manual](../../../../BASIS/Policy%20Management/Manual%20Policy%20Management%20EN.md).
 
 ## Frequently asked questions
 
 **Why is an order not visible?**
 
-Check the selected date and search filters. Then check `FilterOptions`, `ExcludedOrderNumbers`, `ExcludedCustomerCodes`, the stock and department filters, and `FilterByDefaultTrolleyLocations`. An order without visible items to process is not shown.
+Check the selected date and search filters. Then check `FilterOptions`, `ExcludedOrderNumbers`, `ExcludedCustomerCodes`, the stock and department filters, and `FilterByDefaultTrolleyLocations`. For the latter policy, verify that the customer's default trolley-building location (`DEBITEUR.DEFKARLOC`) occurs in the policy list. An order without visible items to process is not shown.
 
 **Why can I not create a new trolley?**
 
