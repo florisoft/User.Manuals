@@ -82,6 +82,8 @@ When `UseLogisticParcels` is enabled, Florisoft includes logistic parcels in the
 
 The policy setting `IniSettings_FSSystem_Pickorder_PakstatusMoetWordenGepakt` determines whether a pick order receives the **Must be picked** status. With the default value `true`, this status is also set during normal delivery and printing. As a result, work orders may be created for orders that should not be delivered via the PDA. Disable the setting when work orders should be created exclusively through **Deliver via PDA**.
 
+The `Backoffice_Logistics_Pickorders_Entry_ShowOnlyForPDADelivery` Backoffice policy determines whether the **Deliver via PDA only** option is visible in the pick-order entry screen. Enable it only when planners must be able to explicitly record, while entering a pick order, that it is intended for delivery via the PDA. The policy exposes the option; it does not change pick orders that have already been entered.
+
 `PickOrderSplitStrategy` determines how a required quantity is distributed over available unique carriers:
 
 - `SmallestCarriersFirst` uses the smaller available carriers first and is the default behaviour;
@@ -122,6 +124,8 @@ With `Manual`, the **Work orders** screen opens first. The user can filter the l
 `WorkOrderUrgencyThreshold` determines when the departure time is shown as urgent. The default threshold is 30 minutes. When the remaining time falls within that threshold, the assignment receives a prominent urgency marker.
 
 The `Backoffice_Logistics_OrderPick_AuthorizeInvoiceHeaderUrgent` Backoffice policy enables the **XOrder header priority** button in the pick-orders screen. An authorised user can use it to change the priority marker on the `XORDERKOP`. The app displays this marker as an urgent work order and sorts priority assignments before non-priority assignments. `WorkOrderUrgencyThreshold` then determines whether the remaining departure time has passed the urgency threshold and therefore how prominently the urgency is displayed.
+
+Use `Backoffice_Logistics_OrderPick_PriorityScreen_FilterOnlyDeliveredViaPDA` to limit the Backoffice priority screen to pick orders delivered via the PDA. When enabled, other pick orders are excluded from this overview. Use this filter when priorities on this screen are managed exclusively for the PDA picking flow; otherwise, a planner may expect an existing pick order to appear here.
 
 Use these settings together for visibility and control: the Backoffice policy determines whether planners may manually mark an assignment as priority, while the Picking policy determines when its departure time requires extra attention.
 

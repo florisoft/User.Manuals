@@ -82,6 +82,8 @@ Wanneer `UseLogisticParcels` actief is, betrekt Florisoft logistieke partijen bi
 
 De systeeminstelling `IniSettings_FSSystem_Pickorder_PakstatusMoetWordenGepakt` bepaalt of een pickorder de status **Moet worden gepakt** krijgt. Bij de standaardwaarde `true` wordt deze status ook gezet bij normaal uitleveren en printen. Daardoor kunnen workorders ontstaan voor orders die niet via de PDA uitgeleverd moeten worden. Zet de instelling uit wanneer workorders uitsluitend via **Uitleveren via PDA** mogen worden aangemaakt. Zonder de juiste pakstatus kan een opdracht ontbreken in het werkopdrachtenoverzicht.
 
+Met de Backoffice-policy `Backoffice_Logistics_Pickorders_Entry_ShowOnlyForPDADelivery` bepaalt u of in het pickorder-invoerscherm de keuze **Alleen uitleveren via PDA** zichtbaar is. Schakel deze policy alleen in wanneer planners bij het invoeren expliciet moeten kunnen vastleggen dat een pickorder voor uitlevering via de PDA bestemd is. De policy maakt de keuze zichtbaar; zij wijzigt geen al ingevoerde pickorders.
+
 `PickOrderSplitStrategy` bepaalt hoe een benodigde hoeveelheid over beschikbare unieke dragers wordt verdeeld:
 
 - `SmallestCarriersFirst` gebruikt eerst de kleinere beschikbare dragers en is het standaardgedrag;
@@ -122,6 +124,8 @@ Bij `Manual` opent eerst het scherm **Werkopdrachten**. De gebruiker kan de lijs
 `WorkOrderUrgencyThreshold` bepaalt wanneer de vertrektijd als urgent wordt weergegeven. De standaardgrens is 30 minuten. Zodra de resterende tijd binnen deze grens valt, krijgt de opdracht een opvallende urgentiemarkering.
 
 De Backoffice-policy `Backoffice_Logistics_OrderPick_AuthorizeInvoiceHeaderUrgent` maakt in het pickorderscherm de knop **XOrderkop prio** beschikbaar. Een bevoegde gebruiker kan hiermee de prioriteitsmarkering van de `XORDERKOP` aanpassen. Deze markering wordt in de app als urgente werkopdracht weergegeven en opdrachten met prioriteit worden vóór niet-prioritaire opdrachten gesorteerd. `WorkOrderUrgencyThreshold` bepaalt vervolgens of de resterende vertrektijd de urgentiegrens heeft overschreden en daarmee hoe opvallend de urgentie wordt getoond.
+
+Met `Backoffice_Logistics_OrderPick_PriorityScreen_FilterOnlyDeliveredViaPDA` beperkt u het Backoffice-prioriteitsscherm tot pickorders die via de PDA worden uitgeleverd. Ingeschakeld houdt deze policy overige pickorders buiten dit overzicht. Gebruik de filter wanneer de prioriteiten op dit scherm uitsluitend voor de PDA-pickflow worden beheerd; anders kan een planner verwachten dat een bestaande pickorder ontbreekt.
 
 Gebruik deze twee instellingen samen om inzicht en sturing te krijgen: de Backoffice-policy bepaalt of planners een opdracht handmatig als prioriteit mogen markeren; de Picking-policy bepaalt vanaf welk moment de vertrektijd extra aandacht vereist.
 
