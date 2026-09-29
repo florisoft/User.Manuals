@@ -305,7 +305,9 @@ The policies under **ShoppingCart** determine how the employee enters quantities
 
 With **Barcode sales unit**, an administrator can influence how a scanned stock item is added to the shopping cart and which quantity Florisoft uses. In the Backoffice, open **Constants → System → Barcode sales unit** and link the required sales unit to each barcode type.
 
-After a scan, Florisoft uses the quantity entered for this sales unit on the stock item. This allows the same stock item to be sold per SU through **Scan code** and per colli content through **Scan code 2**. Scanning the same barcode again increases the existing order line by the quantity belonging to the scanned barcode type.
+After a scan, Florisoft uses the quantity entered for this sales unit on the stock item. This allows the same stock item to be sold per SU through **Scan code**, per colli content through **Scan code 2**, and per box content through **Scan code 3**. Scanning the same barcode again increases the existing order line by the quantity belonging to the scanned barcode type.
+
+If the quantity configured for the scanned barcode type is missing, Florisoft shows a notification and uses the existing fallback quantity. Dismiss the notification and check the quantity on the order line before continuing to scan.
 
 `ShowOrderItemDetailsAfterAdd` automatically opens the details screen after adding a product. If this policy is disabled, the user remains in the shopping cart.
 

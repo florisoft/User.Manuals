@@ -305,7 +305,9 @@ De policies onder **ShoppingCart** bepalen hoe de medewerker aantallen invoert:
 
 Met **Barcode verkoopeenheid** kan een beheerder beïnvloeden hoe een gescande voorraadpartij aan de winkelwagen wordt toegevoegd en welk aantal Florisoft daarbij gebruikt. Open hiervoor in de Backoffice **Constanten → Systeem → Barcode verkoopeenheid** en koppel per barcodetype de gewenste verkoopeenheid.
 
-Florisoft gebruikt na een scan de hoeveelheid die bij deze verkoopeenheid op de voorraadpartij is ingevuld. Zo kan dezelfde partij via **Scancode** per VE worden verkocht en via **Scancode 2** per inhoud kolli. Bij opnieuw scannen verhoogt Florisoft de bestaande orderregel met de hoeveelheid die bij het gescande barcodetype hoort.
+Florisoft gebruikt na een scan de hoeveelheid die bij deze verkoopeenheid op de voorraadpartij is ingevuld. Zo kan dezelfde partij via **Scancode** per VE, via **Scancode 2** per inhoud kolli en via **Scancode 3** per inhoud doos worden verkocht. Bij opnieuw scannen verhoogt Florisoft de bestaande orderregel met de hoeveelheid die bij het gescande barcodetype hoort.
+
+Ontbreekt de voor het gescande barcodetype ingestelde hoeveelheid, dan toont Florisoft een melding en gebruikt het de bestaande terugvalwaarde. Sluit de melding en controleer het aantal op de orderregel voordat u verder scant.
 
 `ShowOrderItemDetailsAfterAdd` opent na het toevoegen automatisch het detailscherm. Staat deze policy uit, dan blijft de gebruiker in de winkelwagen.
 
