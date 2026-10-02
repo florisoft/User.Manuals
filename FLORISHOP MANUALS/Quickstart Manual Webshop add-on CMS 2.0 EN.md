@@ -36,7 +36,7 @@ For this section, you will need the following manuals (Ctrl + Click to open in a
 | **4** | Place a **Flex** component inside the `Overlay` Panel. Set the content to be centered both horizontally and vertically and enable **Fill Objects**. Then set the Flex component to inherit the same height as the `Overlay` Panel. |
 | **5** | Place another **Panel** inside the Flex component and give it the **Identification Name** `Container`. Set a maximum width of **1200 pixels** for the `Container` Panel. |
 | **6** | Place a **Text** component inside the `Container` Panel. Select the **H1** heading in the Text component, set the alignment to **Center**, and enter the following text in the TinyMCE field: **"This is my first CMS page"**. |
-| **7** | Place a **Button** component inside the `Container` Panel and set its text to **"Go to webshop"**. Enable the **Chevron**, enter `/voorraad/start` as the [URL](#url), and set the button position to **Center**. |
+| **7** | Place a **Button** component inside the `Container` Panel and set its text to **"Go to webshop"**. Enable the **Chevron**, enter `/voorraad/start` as the URL, and set the button position to **Center**. |
 | **8** | When you have completed the steps above correctly, your Hero should look like this:<details><summary><b>Click here for the example image</b></summary><img src=".Quickstart manual webshop add on CMS 2.0/media/hero.png"></details> |
 | **9** | Save the **Hero** Panel as a Template so that you can reuse it on other pages. |
 
@@ -70,7 +70,7 @@ For this section, you will need the following manuals (Ctrl + Click to open in a
 | **7** | Add a **Text** component to the `Slide 1` Panel. Select the **H3** heading in the Text component, set the alignment to **Center**, and enter the following text in the TinyMCE field: **"Product 1"**. |
 | **8** | Duplicate the `Slide 1` Panel three times and name the new Panels `Slide 2`, `Slide 3`, and `Slide 4`. |
 | **9** | Select the **Carousel** component. Enable **Pagination** and **Autoplay**, set **Height Mode** to **Auto Stretch**, and set the **Space Between Slides** to **20 pixels**. Then, under the **Styling** tab, set the number of **Visible Columns** to **4** for desktop, **2** for tablet, and **1** for mobile. |
-| **10** | Change **"Product 1"** in each Text component to the name of the Product Range you want to link to. Then enter the corresponding Product Range [URLs](#url) in the Panels (`Slide 1`, `Slide 2`, `Slide 3`, and `Slide 4`). |
+| **10** | Change **"Product 1"** in each Text component to the name of the Product Range you want to link to. Then enter the corresponding Product Range URLs in the Panels (`Slide 1`, `Slide 2`, `Slide 3`, and `Slide 4`). |
 | **11** | Select a Panel (Slide) and enter the corresponding **Product Range Code** under **Highlight Content**. Repeat this for each Slide. |
 | **12** | When you have completed the steps above correctly, your Carousel should look like this:<details><summary><b>Click here for the example image</b></summary><img src=".Quickstart manual webshop add on CMS 2.0/media/assortiment.png"></details> |
 | **13** | Save the **Product Range** Panel as a Template, so that you can reuse it on other pages. |
