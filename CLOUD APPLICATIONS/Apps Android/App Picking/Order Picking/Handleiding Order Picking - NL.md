@@ -210,6 +210,7 @@ Met de geordende lijst `PickItemDetails` bepaalt u welke aanvullende velden op h
 - `S1`, `S2`, `S3`, `S4` en `S5`: de sorteringskenmerken;
 - `Color`: kleur;
 - `PackagingCode`: fustcode;
+- `PackagingUnit`: verpakkingseenheid (VE) van de orderregel;
 - `TotalColliToPick`: het oorspronkelijke totaal aantal te picken kolli;
 - `Remark`: opmerking;
 - `ArticleNumber`: artikelnummer.

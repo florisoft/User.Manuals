@@ -210,6 +210,7 @@ The ordered `PickItemDetails` list determines which additional fields appear on 
 - `S1`, `S2`, `S3`, `S4` and `S5`: sorting characteristics;
 - `Color`: colour;
 - `PackagingCode`: packaging code;
+- `PackagingUnit`: packaging unit (VE) of the order line;
 - `TotalColliToPick`: original total number of colli to pick;
 - `Remark`: remark;
 - `ArticleNumber`: article number.
