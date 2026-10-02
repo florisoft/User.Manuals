@@ -26,7 +26,7 @@ To print trolley labels and completed-trolley lists automatically, a printer and
 
 ### Step 1: find or scan an order
 
-After entering the employee code, the order overview opens. Each order shows the customer or hub, order number, and trolley and colli progress. If `EnableVolumeIndication` is active, the overview also shows the processed, total, and remaining volume.
+After entering the employee code, the order overview opens. It shows the customer or hub and trolley and colli progress. Depending on the configured grouping, you work per order number or with multiple orders as one customer or hub group. If `EnableVolumeIndication` is active, the overview also shows the processed, total, and remaining volume.
 
 You can open an order in several ways:
 
@@ -44,7 +44,7 @@ Policies filter the list before it is displayed. For example, only trolley-build
 
 ### Step 2: check the order and plan the work
 
-The order details show the active customer or hub, the order number, and the order progress. You can see how many trolleys are complete and how many colli have already been processed.
+The order details show the active customer or hub and progress. When processing per order number, the corresponding order number is shown; with customer or hub grouping, you work with the underlying orders together. You can see how many trolleys are complete and how many colli have already been processed.
 
 Depending on the configuration, the menu contains the following read-only overviews:
 
@@ -89,6 +89,8 @@ Open a trolley. The trolley details contain two main sections:
 
 - **Processed:** products and packages already registered on the active trolley;
 - **To process:** products that still need to be processed for the active order.
+
+With customer or hub grouping, **To process** contains products from the group's underlying orders, within the configured filters. You can register products from different order numbers on the same active trolley. Progress is updated for the group. Scans, product details, and corrections also use the active group and trolley.
 
 You can filter the to-process list using the available filters and, when `ShowSearchBox` is active, search by product description.
 
@@ -223,7 +225,47 @@ When several customers are processed through a hub, `EnableHubGrouping` determin
 
 When TrolleyLoading starts, Florisoft first builds the order overview. `DateFilterType` determines whether this uses the order date, requested date, departure date, or delivery date, for example. `FilterDateFromDays` and `FilterDateToDays` define the default period around today. Orders whose selected date field is empty are only included when `AllowOrdersWithEmptyDates` is active. When an employee selects a date in the calendar, `EnableFilterOnSelectedDate` ensures that only orders for that date are shown.
 
-`OrdersGroupedBy` determines whether the overview continues to work per `OrderNumber` or groups the full customer and/or hub scope. Choose **Full customer and/or hub** when orders within the same customer or hub scope are processed together without a separate order number. Together with `EnableHubGrouping`, this determines the scope: enabled groups by hub, while disabled groups by customer. When these settings are changed, only trolleys in the selected scope are shown; trolleys in another scope have not disappeared and become visible again after switching back.
+`OrdersGroupedBy` determines which orders for the same customer or hub are processed together. You can continue to work separately per order number, group by a date, or process all selected orders for the customer or hub together. This applies to both the order overview and subsequent product processing on the trolley. The configured order and product filters still apply.
+
+#### Choose a grouping option
+
+The options are located under `Apps → Logistics → Packing → TrolleyLoading → OrderOverview → OrdersGroupedBy`:
+
+| Option | Which orders are processed together? |
+| --- | --- |
+| **Order number** | Orders for the same customer or hub with the same order number. This is the existing workflow. |
+| **Full customer and/or hub** | All selected orders for the same customer or hub, regardless of order number or date. |
+| **Group by order date** | Orders for the same customer or hub with the same order date. |
+| **Group by departure date** | Orders for the same customer or hub with the same departure date. |
+| **Group by delivery date** | Orders for the same customer or hub with the same delivery date. |
+| **Group by purchase date** | Orders for the same customer or hub with the same purchase date (besteldatum). |
+
+For **all** options, `EnableHubGrouping` determines whether grouping is based on the customer or hub. When disabled, different customers remain separate. When enabled, orders for customers within the same configured hub are grouped according to the selected option.
+
+With a date option, the order numbers do not need to match. The grouping date is shown in the overview. For example, choose **Group by departure date** to load all orders for a customer that depart on the same day together. Two orders departing on 5 October form one group; an order departing on 6 October forms another group. Select the required group to process only its products on the active trolley.
+
+`DateFilterType` and `OrdersGroupedBy` each have a separate purpose. The date filter determines **which orders are selected**; grouping determines **which of those orders are processed together**. For example, you can filter by delivery date and then group the selected orders by departure date. Check both settings when an expected order is missing from a group.
+
+#### Process multiple order numbers on one trolley
+
+Use this configuration when a customer has several small orders that you want to load together on one trolley. For example, one customer has two orders with three colli each. The employee opens one customer group and can process all six colli on the same trolley.
+
+1. Open **System → Users → Policy Management** in the Backoffice constants screen and select the policy that applies to the employee.
+2. Go to `Apps → Logistics → Packing → TrolleyLoading → OrderOverview` and select **Full customer and/or hub** for `OrdersGroupedBy`. To keep orders separate per day, choose the appropriate date option from the table above.
+3. Under `TrolleyLoading`, use `EnableHubGrouping` to choose whether to work per customer or per hub:
+
+| `EnableHubGrouping` | Effect with **Full customer and/or hub** |
+| --- | --- |
+| Disabled | Orders with different order numbers for the same customer are processed together. |
+| Enabled | Orders for customers belonging to the same hub are processed together. Make sure the correct hub is configured for these customers. |
+
+4. Save the policy and reload the settings in TrolleyLoading, for example by restarting the app.
+5. Open the required customer or hub group in the order overview. With date grouping, also check the displayed date and create a **new trolley** within this group.
+6. Open the new trolley or scan its barcode and register products from the different orders.
+
+After changing the grouping, use a new trolley with its corresponding barcode. An existing trolley may have been created under the previous grouping and may therefore not be found within the new group. When these settings are changed, only trolleys in the selected group are shown; trolleys in another group have not disappeared and become visible again after switching back.
+
+For the existing workflow per order number, select **Order number**. `EnableHubGrouping` also determines whether the customer or hub is used as the starting point for that workflow.
 
 Not every order in that period is necessarily suitable for trolley building. `FilterOptions` therefore contains the validations Florisoft uses to decide which orders are loaded. `FilterByDefaultTrolleyLocations` determines which customers may appear in the overview. Add one or more default trolley-building locations to the policy. Florisoft compares these values with the default trolley-building location (`DEFKARLOC`) of the customer linked to the order. Only orders belonging to customers whose location occurs in the policy list are shown. As a result, the customer overview contains only customers with matching orders. When the policy is empty, this filter is not applied. The trolley location on the order header is not used by this filter. After the selection is complete, `SortingOption` determines the order in which the results appear.
 

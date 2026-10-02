@@ -26,7 +26,7 @@ Voor het automatisch afdrukken van karlabels en karklaarlijsten moeten ook een p
 
 ### Stap 1: een order zoeken of scannen
 
-Na het invoeren van de verkoperscode opent het orderoverzicht. Per order ziet u de klant of hub, het ordernummer en de voortgang van de karren en colli. Als `EnableVolumeIndication` actief is, toont het overzicht ook het opgebouwde, totale en resterende volume.
+Na het invoeren van de verkoperscode opent het orderoverzicht. U ziet de klant of hub en de voortgang van de karren en colli. Afhankelijk van de ingestelde groepering werkt u per ordernummer of met meerdere orders als één klant- of hubgroep. Als `EnableVolumeIndication` actief is, toont het overzicht ook het opgebouwde, totale en resterende volume.
 
 U kunt een order op verschillende manieren openen:
 
@@ -44,7 +44,7 @@ De lijst wordt vooraf beperkt door de policies. Daardoor kunnen bijvoorbeeld all
 
 ### Stap 2: de order controleren en het werk plannen
 
-Het orderdetail toont de actieve klant of hub, het ordernummer en de voortgang van de order. U ziet hoeveel karren compleet zijn en hoeveel colli al zijn opgebouwd.
+Het orderdetail toont de actieve klant of hub en de voortgang. Bij verwerking per ordernummer ziet u het betreffende ordernummer; bij klant- of hubgroepering werkt u met de onderliggende orders samen. U ziet hoeveel karren compleet zijn en hoeveel colli al zijn opgebouwd.
 
 Via het menu zijn, afhankelijk van de configuratie, de volgende read-only overzichten beschikbaar:
 
@@ -89,6 +89,8 @@ Open een kar. Het kardetail bevat twee hoofdonderdelen:
 
 - **Opgebouwd:** producten en verpakkingen die al op de actieve kar staan;
 - **Op te bouwen:** producten die nog voor de actieve order moeten worden verwerkt.
+
+Bij klant- of hubgroepering bevat **Op te bouwen** de producten uit de onderliggende orders van die groep, binnen de ingestelde filters. U kunt producten uit verschillende ordernummers op dezelfde actieve kar registreren. De voortgang wordt voor de groep bijgewerkt. Ook scans, productdetails en correcties gebruiken de actieve groep en kar.
 
 U kunt de op-te-bouwen lijst filteren met de beschikbare filters en, als `ShowSearchBox` actief is, zoeken op productomschrijving.
 
@@ -223,7 +225,47 @@ Wanneer verschillende klanten via een hub worden verwerkt, bepaalt `EnableHubGro
 
 Bij het openen van TrolleyLoading stelt Florisoft eerst het orderoverzicht samen. `DateFilterType` bepaalt of daarvoor bijvoorbeeld de orderdatum, besteldatum, vertrekdatum of leverdatum wordt gebruikt. Met `FilterDateFromDays` en `FilterDateToDays` stelt u de standaardperiode rond vandaag in. Orders waarbij het gekozen datumveld leeg is, worden alleen meegenomen als `AllowOrdersWithEmptyDates` actief is. Wanneer een medewerker zelf een datum in de kalender kiest, zorgt `EnableFilterOnSelectedDate` ervoor dat uitsluitend orders van die ene datum worden getoond.
 
-Met `OrdersGroupedBy` bepaalt u of het orderoverzicht per `Ordernummer` blijft werken of volledig op klant en/of hub wordt gegroepeerd. Kies **Volledig op klant en/of hub** wanneer orders binnen dezelfde klant- of hubscope zonder afzonderlijk ordernummer samen worden verwerkt. In combinatie met `EnableHubGrouping` bepaalt u de scope: actief groepeert per hub, uitgeschakeld groepeert per klant. Bij het wisselen van deze instellingen ziet u alleen de karren binnen de gekozen scope; karren uit een andere scope zijn niet verdwenen en worden weer zichtbaar zodra u terugschakelt.
+Met `OrdersGroupedBy` bepaalt u welke orders van dezelfde klant of hub samen worden verwerkt. U kunt apart blijven werken per ordernummer, groeperen op een datum of alle geselecteerde orders van de klant of hub samen verwerken. Dit geldt voor het orderoverzicht én voor de verdere verwerking van producten op de kar. De ingestelde order- en productfilters blijven van toepassing.
+
+#### Groeperingsoptie kiezen
+
+De opties staan onder `Apps → Logistics → Packing → TrolleyLoading → OrderOverview → OrdersGroupedBy`:
+
+| Optie | Welke orders worden samen verwerkt? |
+| --- | --- |
+| **Ordernummer** | Orders van dezelfde klant of hub met hetzelfde ordernummer. Dit is de bestaande werkwijze. |
+| **Volledig op klant en/of hub** | Alle geselecteerde orders van dezelfde klant of hub, ongeacht ordernummer of datum. |
+| **Groepeer op orderdatum** | Orders van dezelfde klant of hub met dezelfde orderdatum. |
+| **Groepeer op vertrekdatum** | Orders van dezelfde klant of hub met dezelfde vertrekdatum. |
+| **Groepeer op leverdatum** | Orders van dezelfde klant of hub met dezelfde leverdatum. |
+| **Groepeer op besteldatum** | Orders van dezelfde klant of hub met dezelfde besteldatum. |
+
+Voor **alle** opties bepaalt `EnableHubGrouping` of de groepering op de klant of de hub is gebaseerd. Staat deze policy uit, dan blijven verschillende klanten gescheiden. Staat deze aan, dan worden orders van klanten binnen dezelfde ingerichte hub volgens de gekozen optie gegroepeerd.
+
+Bij een datumoptie hoeven de ordernummers niet gelijk te zijn. De groeperingsdatum wordt in het overzicht getoond. Bijvoorbeeld: kies **Groepeer op vertrekdatum** wanneer u alle orders voor een klant die op dezelfde dag vertrekken samen wilt opbouwen. Twee orders met vertrekdatum 5 oktober komen in één groep; een order met vertrekdatum 6 oktober komt in een andere groep. Selecteer de gewenste groep om alleen de bijbehorende producten op de actieve kar te verwerken.
+
+`DateFilterType` en `OrdersGroupedBy` hebben ieder een eigen functie. Het datumfilter bepaalt **welke orders worden geselecteerd**; de groepering bepaalt **welke van die orders samen worden verwerkt**. U kunt bijvoorbeeld op leverdatum filteren en de geselecteerde orders vervolgens per vertrekdatum groeperen. Controleer daarom beide instellingen wanneer een verwachte order niet in een groep staat.
+
+#### Meerdere ordernummers op één kar verwerken
+
+Gebruik deze inrichting wanneer een klant meerdere kleine orders heeft en u deze samen op een kar wilt opbouwen. Bijvoorbeeld: één debiteur heeft twee orders met elk drie colli. De medewerker opent dan één klantgroep en kan de zes colli op dezelfde kar verwerken.
+
+1. Open **Systeem → Users → Policy Beheer** in het constantenscherm van de Backoffice en selecteer de policy die voor de medewerker geldt.
+2. Ga naar `Apps → Logistics → Packing → TrolleyLoading → OrderOverview` en kies bij `OrdersGroupedBy` **Volledig op klant en/of hub**. Wilt u de orders per dag gescheiden houden, kies dan de passende datumoptie uit de tabel hierboven.
+3. Bepaal onder `TrolleyLoading` met `EnableHubGrouping` of u per klant of per hub werkt:
+
+| `EnableHubGrouping` | Gevolg bij **Volledig op klant en/of hub** |
+| --- | --- |
+| Uit | Orders met verschillende ordernummers van dezelfde debiteur worden samen verwerkt. |
+| Aan | Orders van klanten die bij dezelfde hub horen worden samen verwerkt. Zorg dat de juiste hub bij deze klanten is ingericht. |
+
+4. Sla de policy op en laad de instellingen opnieuw in TrolleyLoading, bijvoorbeeld door de app opnieuw te starten.
+5. Open de gewenste klant- of hubgroep in het orderoverzicht. Controleer bij datumgroepering ook de getoonde datum en maak een **nieuwe kar** aan binnen deze groep.
+6. Open de nieuwe kar of scan de bijbehorende karbarcode en registreer de producten uit de verschillende orders.
+
+Gebruik na het omschakelen een nieuwe kar met de bijbehorende barcode. Een bestaande kar kan onder de eerdere groepering zijn aangemaakt en daardoor niet binnen de nieuwe groep worden gevonden. Bij het wisselen van deze instellingen ziet u alleen de karren binnen de gekozen groep; karren uit een andere groep zijn niet verdwenen en worden weer zichtbaar zodra u terugschakelt.
+
+Voor de bestaande werkwijze per ordernummer kiest u **Ordernummer**. `EnableHubGrouping` bepaalt ook daarbij of de klant of de hub als uitgangspunt wordt gebruikt.
 
 Niet iedere order binnen die periode hoeft geschikt te zijn voor karopbouw. In `FilterOptions` kiest u daarom de controles waarmee Florisoft bepaalt welke orders worden ingeladen. Met `FilterByDefaultTrolleyLocations` bepaalt u welke klanten in het overzicht mogen voorkomen. Voeg hiervoor één of meer standaard karopbouwlocaties toe aan de policy. Florisoft vergelijkt deze waarden met de standaard karopbouwlocatie (`DEFKARLOC`) van de debiteur die aan de order is gekoppeld. Alleen orders van debiteuren waarvan deze locatie in de policylijst voorkomt, worden getoond. Daardoor bevat het klantenoverzicht alleen klanten met bijpassende orders. Als de policy leeg is, wordt hierop niet gefilterd. De karlocatie op de orderkop wordt voor deze filter niet gebruikt. Nadat de selectie is gemaakt, bepaalt `SortingOption` in welke volgorde de orders verschijnen.
 
