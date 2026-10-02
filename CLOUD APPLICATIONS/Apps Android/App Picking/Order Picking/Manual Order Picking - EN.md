@@ -84,6 +84,8 @@ The policy setting `IniSettings_FSSystem_Pickorder_PakstatusMoetWordenGepakt` de
 
 The `Backoffice_Logistics_Pickorders_Entry_ShowOnlyForPDADelivery` Backoffice policy determines whether the **Deliver via PDA only** option is visible in the pick-order entry screen. Enable it only when planners must be able to explicitly record, while entering a pick order, that it is intended for delivery via the PDA. The policy exposes the option; it does not change pick orders that have already been entered.
 
+By default, Florisoft first displays the entry screen when a planner opens a pick order. This lets the planner change the walking route and, when the option is available, the sales group. When a walking route is already set for a pick order, `Backoffice_Logistics_OrderPick_InputNotRequiredWhenSet_WalkingRoute` can skip this entry screen. Enable this Backoffice policy when planners want to retain the predefined route and continue directly to the picking flow. Without a walking route, the normal entry screen remains available.
+
 `PickOrderSplitStrategy` determines how a required quantity is distributed over available unique carriers:
 
 - `SmallestCarriersFirst` uses the smaller available carriers first and is the default behaviour;

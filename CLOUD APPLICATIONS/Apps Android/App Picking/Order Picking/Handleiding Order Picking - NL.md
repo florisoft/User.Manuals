@@ -84,6 +84,8 @@ De systeeminstelling `IniSettings_FSSystem_Pickorder_PakstatusMoetWordenGepakt` 
 
 Met de Backoffice-policy `Backoffice_Logistics_Pickorders_Entry_ShowOnlyForPDADelivery` bepaalt u of in het pickorder-invoerscherm de keuze **Alleen uitleveren via PDA** zichtbaar is. Schakel deze policy alleen in wanneer planners bij het invoeren expliciet moeten kunnen vastleggen dat een pickorder voor uitlevering via de PDA bestemd is. De policy maakt de keuze zichtbaar; zij wijzigt geen al ingevoerde pickorders.
 
+Standaard toont Florisoft bij het openen van een pickorder eerst het invoerscherm. Daar kan de planner de looproute en, wanneer deze keuze beschikbaar is, de verkopersgroep nog wijzigen. Is voor een pickorder al een looproute ingesteld, dan kunt u met `Backoffice_Logistics_OrderPick_InputNotRequiredWhenSet_WalkingRoute` dit invoerscherm overslaan. Schakel deze Backoffice-policy in wanneer planners de vooraf ingestelde route willen behouden en direct met de pickflow willen doorgaan. Zonder looproute blijft het normale invoerscherm beschikbaar.
+
 `PickOrderSplitStrategy` bepaalt hoe een benodigde hoeveelheid over beschikbare unieke dragers wordt verdeeld:
 
 - `SmallestCarriersFirst` gebruikt eerst de kleinere beschikbare dragers en is het standaardgedrag;
