@@ -60,7 +60,7 @@ In dit scherm ziet u de gegevens van het gescande orderitem. Controleer of dit h
 
 Als dat nodig is, kunt u de **inhoud bos** aanpassen voordat u de prijsstickers afdrukt.
 
-De manier waarop aantallen en totalen worden weergegeven kan afhankelijk zijn van de policy `TotalPriceLabelsDisplayType`.
+Het standaard aantal voor de printopdracht wordt bepaald door de policy `DefaultQuantityToPrint`. Bij gebruik van de barcodewaarde komt dit aantal uit de gescande barcode.
 
 ---
 
@@ -82,7 +82,7 @@ Gebruik deze controle wanneer alleen orders met handling verwerkt mogen worden i
 
 ---
 
-## Stap 4: Prijsstickers printen (Policies: `AskPriceLabelCopyQuantity`, `PriceLabelPrinter`, `PriceLabelLayout`, `PriceLabelPrinterPerCustomer`)
+## Stap 4: Prijsstickers printen (Policies: `DefaultQuantityToPrint`, `AskPriceLabelCopyQuantity`, `PriceLabelPrinter`, `PriceLabelLayout`, `PriceLabelPrinterPerCustomer`)
 
 Druk op de printknop om prijsstickers af te drukken.
 
@@ -91,9 +91,23 @@ De printer en layout worden vooraf bepaald door policies:
 - `PriceLabelLayout` bepaalt welke prijssticker-layout wordt gebruikt.
 - `PriceLabelPrinterPerCustomer` bepaalt of de prijslabelinstellingen van de debiteur worden gebruikt in plaats van de standaardinstellingen.
 
-Als de policy `AskPriceLabelCopyQuantity` is ingeschakeld, vraagt de app normaal hoeveel kopieën van de prijssticker geprint moeten worden. Wanneer de automatische afdrukflow zelf het juiste aantal stickers berekent, wordt deze vraag overgeslagen en wordt het berekende aantal direct geprint.
+Wilt u het aantal uit de karopbouwbarcode gebruiken? Laat uw beheerder `DefaultQuantityToPrint` op `BarcodeValue` instellen. De volledige policynaam is `Apps_Logistics_Labeling_PriceLabel_DefaultQuantityToPrint`; deze vervangt `TotalPriceLabelsDisplayType`.
+
+Bij `BarcodeValue` wordt de hoeveelheid uit de barcode gebruikt voor de printopdracht en de layoutvariabele `AantalStickers`. Staat er bijvoorbeeld 11 in de barcode, dan krijgt `AantalStickers` de waarde 11. Het totale aantal stelen van de orderregel vervangt die barcodehoeveelheid niet.
+
+Een barcode met hoeveelheid 0 wordt afgewezen als ongeldig. Alleen wanneer een ondersteunde barcode helemaal geen hoeveelheidswaarde bevat, gebruikt de app 1 als standaard. Een karopbouwbarcode met een hoeveelheidsveld waarin 0 staat, valt dus niet terug op 1.
+
+Als `AskPriceLabelCopyQuantity` is ingeschakeld, vraagt de app om het aantal en kunt u de voorgestelde hoeveelheid vervangen door een positief aantal. Als deze policy is uitgeschakeld, gebruikt de app de ingestelde standaardhoeveelheid direct.
 
 Wanneer de vraag wordt getoond, vult u het gewenste aantal in en bevestigt u het printen.
+
+Bij grafisch printen bepaalt de layout hoeveel stickers worden afgedrukt. Laat de layoutbeheerder de instelling `DummyCount` baseren op `AantalStickers` wanneer de fysieke stickerhoeveelheid deze waarde moet volgen.
+
+### Sorteerwaarden zonder eenheid (Policy: `SortingValuesWithoutUnit`)
+
+Wilt u de eenheid bij een lengtewaarde in de layout zelf plaatsen? Met `Apps_Logistics_Labeling_PriceLabel_SortingValuesWithoutUnit` ingeschakeld wordt bijvoorbeeld `50 Cm` als `50` doorgegeven in de sorteerprintvariabelen `Sort1` tot en met `Sort7`. Met de policy uit blijft de oorspronkelijke tekst staan. De huidige verwerking verwijdert de achtervoeging `Cm`; andere eenheden worden niet automatisch verwijderd.
+
+Moet `Cm` toch zichtbaar zijn, dan moet de layout die tekst zelf toevoegen. Deze instelling verandert het aantal stickers niet. U vindt de policy via de configuratieroute onderaan deze handleiding.
 
 ---
 
@@ -117,7 +131,7 @@ A: Dan gebruikt de app het standaardprofiel met Interleaved 2 of 5, Code 128, Co
 
 **V: Waarom vraagt de app hoeveel prijsstickers ik wil printen?**
 
-A: Dit gebeurt wanneer de policy `AskPriceLabelCopyQuantity` is ingeschakeld en de flow het aantal niet automatisch bepaalt. Bij automatisch bepaald aantal wordt de vraag overgeslagen.
+A: Dit gebeurt wanneer de policy `AskPriceLabelCopyQuantity` is ingeschakeld. De app stelt de hoeveelheid volgens `DefaultQuantityToPrint` voor; u kunt een ander positief aantal invullen.
 
 **V: Waarom krijg ik een melding dat er al een prijssticker is geprint?**
 

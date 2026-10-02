@@ -59,7 +59,11 @@ In dit document staan alle beschikbare variabelen voor een Price Labels-layout. 
 
 ### Automatisch aantal stickers
 
-`AantalStickers` bevat het berekende aantal prijsstickers. Bij de automatische afdrukflow wordt dit aantal mede bepaald met `InhFust`, `InhPlaat`, `InhKar` en `StickerDragerType`. Wanneer de flow het juiste aantal automatisch bepaalt, wordt niet om een handmatig aantal kopieën gevraagd.
+`AantalStickers` bevat het positieve aantal uit de printopdracht. Met `DefaultQuantityToPrint` op `BarcodeValue` komt dit aantal uit de gescande barcode. Als `AskPriceLabelCopyQuantity` is ingeschakeld, vervangt het positief ingevoerde aantal deze standaardwaarde. Een expliciet aantal van 1 blijft 1.
+
+Een barcodehoeveelheid van 0 wordt afgewezen; alleen een ontbrekende hoeveelheidswaarde geeft de standaardwaarde 1. Een karopbouwbarcode met een hoeveelheidsveld dat 0 bevat, heeft dus geen ontbrekende waarde.
+
+Voor grafisch printen moet de layout `DummyCount` baseren op `AantalStickers` wanneer het aantal fysieke stickers deze waarde moet volgen. `InhFust`, `InhPlaat`, `InhKar` en `StickerDragerType` blijven beschikbaar voor de layout, maar bepalen deze barcodehoeveelheid niet. `Verdeel_Aaantal` blijft het totale aantal stelen van de orderregel bevatten.
 
 ## Sorteer variabelen
 
@@ -75,7 +79,7 @@ In dit document staan alle beschikbare variabelen voor een Price Labels-layout. 
 
 ### Eenheid achter sorteerwaarde
 
-Policy **SortingValuesWithoutUnit** bepaalt of de eenheid achter sorteerwaarden wordt klaargezet.
+Policy **SortingValuesWithoutUnit** (`Apps_Logistics_Labeling_PriceLabel_SortingValuesWithoutUnit`) bepaalt of de achtervoeging `Cm` bij sorteerwaarden wordt klaargezet. Andere eenheden worden niet automatisch verwijderd.
 
 | Policy stand | Gedrag |
 | --- | --- |

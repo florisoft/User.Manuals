@@ -58,7 +58,7 @@ In this screen you see the details of the scanned order item. Check that this is
 
 If needed, you can adjust the **bunch content** before printing the price labels.
 
-The way quantities and totals are displayed can depend on the policy `TotalPriceLabelsDisplayType`.
+The default print-request quantity is determined by the `DefaultQuantityToPrint` policy. When the barcode-value option is used, this quantity comes from the scanned barcode.
 
 ---
 
@@ -80,7 +80,7 @@ Use this check when only orders with handling may be processed in the Price Labe
 
 ---
 
-## Step 4: Print price labels (Policies: `AskPriceLabelCopyQuantity`, `PriceLabelPrinter`, `PriceLabelLayout`, `PriceLabelPrinterPerCustomer`)
+## Step 4: Print price labels (Policies: `DefaultQuantityToPrint`, `AskPriceLabelCopyQuantity`, `PriceLabelPrinter`, `PriceLabelLayout`, `PriceLabelPrinterPerCustomer`)
 
 Press the print button to print price labels.
 
@@ -89,9 +89,23 @@ The printer and layout are determined in advance by policies:
 - `PriceLabelLayout` determines which price label layout is used.
 - `PriceLabelPrinterPerCustomer` determines whether the price label settings of the debtor are used instead of the default settings.
 
-If the policy `AskPriceLabelCopyQuantity` is enabled, the app normally asks how many copies of the price label must be printed. When the automatic print flow calculates the correct number of labels, this question is skipped and the calculated number is printed directly.
+To use the quantity from the trolley-loading barcode, ask your administrator to set `DefaultQuantityToPrint` to `BarcodeValue`. The full policy name is `Apps_Logistics_Labeling_PriceLabel_DefaultQuantityToPrint`; it replaces `TotalPriceLabelsDisplayType`.
+
+With `BarcodeValue`, the barcode quantity is used for the print request and the layout variable `AantalStickers`. For example, a barcode quantity of 11 gives `AantalStickers` the value 11. The order item's total stem count does not replace the barcode quantity.
+
+A barcode quantity of 0 is rejected as invalid. The app defaults to 1 only when a supported barcode has no quantity value at all. A trolley-loading barcode whose quantity field contains 0 therefore does not fall back to 1.
+
+If `AskPriceLabelCopyQuantity` is enabled, the app asks for the quantity and you can replace the suggested value with a positive number. If this policy is disabled, the app submits the configured default quantity directly.
 
 When the question is shown, enter the required number and confirm printing.
+
+For graphical printing, the layout determines how many labels are printed. Ask the layout administrator to base `DummyCount` on `AantalStickers` when the physical label quantity should follow this value.
+
+### Sorting values without a unit (Policy: `SortingValuesWithoutUnit`)
+
+To place the unit of a length value in the layout yourself, enable `Apps_Logistics_Labeling_PriceLabel_SortingValuesWithoutUnit`. For example, `50 Cm` is then supplied as `50` in sorting print variables `Sort1` through `Sort7`. When the policy is disabled, the original text is retained. The current processing removes the `Cm` suffix; other units are not removed automatically.
+
+If `Cm` should still appear, the layout must add that text. This setting does not change the label quantity. Use the configuration route at the end of this manual to find the policy.
 
 ---
 
@@ -115,7 +129,7 @@ A: The app uses the default profile containing Interleaved 2 of 5, Code 128, Cod
 
 **Q: Why does the app ask how many price labels I want to print?**
 
-A: This happens when the policy `AskPriceLabelCopyQuantity` is enabled and the flow does not determine the quantity automatically. When the quantity is calculated automatically, the question is skipped.
+A: This happens when the `AskPriceLabelCopyQuantity` policy is enabled. The app suggests the quantity determined by `DefaultQuantityToPrint`; you can enter a different positive number.
 
 **Q: Why do I get a message that a price label has already been printed?**
 
