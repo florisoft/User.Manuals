@@ -120,6 +120,8 @@ For a product, the status bar is shown at the top. Open **Status log** to view t
 
 For a package, the contents are shown. For a product, the app can show the quantity, length, customer, supplier, picking time, picker, packaging code, packaging quantity, packaging description, and stock information. If a product has already been partially processed, the trolleys and quantities on which it was registered are also shown.
 
+For plants and garden plants, TrolleyLoading uses **S2** as the length. For plants, **S1** is the pot size and is therefore not shown as the plant length. For other product types, the length still comes from **ARTLEN**. This applies to **To process**, **Processed**, **Look ahead**, **Show order**, and the product details.
+
 When **Packaging code** and **Packaging quantity** are shown through `AvailableProductDetails`, you can change these values. **Packaging code** opens a lookup containing the values from `AllowedPackagingCodesForTrolleyItems`; the existing packaging code remains visible. After confirmation, the changed values are saved on the order line. If the invoice has already been printed, the change is blocked and the app reports that the order items can no longer be changed.
 
 ### Step 5: check and correct the trolley
