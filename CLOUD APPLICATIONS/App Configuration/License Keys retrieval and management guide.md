@@ -86,14 +86,13 @@ Use **Refresh license keys** when new or changed licenses are not yet visible in
 
 ## 3. Automatically Retrieving License Keys
 
-To automatically retrieve license keys, the **timer function _Renew License Keys_ (GETLICENSEKEYS)** must be configured.  
-We recommend running this function **once per week** so that all licenses remain up to date.
+The **_Renew License Keys_ (GETLICENSEKEYS)** timer function is enabled automatically for eligible timer users. The automatic setup looks for a user whose name contains `TIMER`, `EDI`, `FLORINET`, or `EKT` and who appears in the timer log from the past seven days.
 
-**Recommended Configuration:**
+The timer is scheduled for one random moment in the week between **06:00 and 21:00** and runs once on that day. This renews and synchronizes the license data.
 
-- **Timer Function:** `Renew License Keys (GETLICENSEKEYS)`
-    
-- **Frequency:** Once per week
-    
-- **Purpose:** Renew and synchronize license data
+### Check
+
+Check the timer interface to make sure that **Renew License Keys (GETLICENSEKEYS)** is active and has a scheduled execution time. Restart the timer environment if necessary before carrying out this check.
+
+If the timer has not been scheduled, configure it manually. In that case, check that an eligible timer user is available and has been active recently.
 

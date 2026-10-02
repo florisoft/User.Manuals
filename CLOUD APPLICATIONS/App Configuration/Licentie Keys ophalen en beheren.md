@@ -69,15 +69,14 @@ Het scherm bevat twee verschillende vernieuwfuncties:
 
 Gebruik **Licentiesleutels vernieuwen** wanneer nieuwe of gewijzigde licenties nog niet in het overzicht zichtbaar zijn. Gebruik daarna zo nodig **Vernieuwen** om de meest recente scherminformatie te tonen.
 
-## 3. Automatisch ophalen van licentie keys
+## 3. Automatisch ophalen van licentiekeys
 
-Om licentie keys automatisch op te halen, moet de **timerfunctie _Licentie keys vernieuwen_ (GETLICENSEKEYS)** worden ingesteld.  
-Wij raden aan deze functie **één keer per week** uit te voeren, zodat alle licenties up-to-date blijven.
+De timerfunctie **_Licentie keys vernieuwen_ (GETLICENSEKEYS)** wordt automatisch ingeschakeld voor geschikte timergebruikers. De automatische inrichting zoekt naar een gebruiker met `TIMER`, `EDI`, `FLORINET` of `EKT` in de naam die in de afgelopen zeven dagen in het timerlog is opgenomen.
 
-**Aanbevolen instelling:**
+De timer wordt voor één willekeurig moment in de week tussen **06:00 en 21:00 uur** ingepland en wordt op die dag één keer uitgevoerd. Hiermee worden de licentiegegevens vernieuwd en gesynchroniseerd.
 
-- **Timer functie:** `Licentie keys vernieuwen (GETLICENSEKEYS)`
-    
-- **Frequentie:** 1x per week
-    
-- **Doel:** Vernieuwen en synchroniseren van licentiegegevens
+### Controle
+
+Controleer in de timerinterface of **Licentie keys vernieuwen (GETLICENSEKEYS)** actief is en een uitvoermoment heeft. Herstart zo nodig de timeromgeving voordat je deze controle uitvoert.
+
+Is de timer niet ingepland, richt deze dan handmatig in. Controleer daarbij of een geschikte timergebruiker aanwezig en recent actief is.
