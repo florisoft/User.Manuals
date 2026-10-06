@@ -91,7 +91,7 @@ Bij de leverancier wordt de koppeling met Floriday vast gelegd. Hiervoor kan wor
 |**6**|In het veld **Wachtwoord** vult u het wachtwoord in dat u eerder heeft ingesteld voor de Floriday gerelateerde debiteur.|
 |**7**|In de dropdown **Binnenkomende voorraad** stelt u de back-up voorraad in. <br><br>:warning: : *Het kan voorkomen dat er een order binnenkomt waarvan de voorraad partij is verwijderd, dan zal deze in de ingevulde voorraad terecht komen.*<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Floriday Server/Server NL/10.png"></details>|
 |**8**|Het invoerveld **API key** voert de API sleutel in die door Floriday gegenereerd is.<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Floriday Server/Server NL/10.png"></details>|
-|**9**|Via **Select warehouse** kan de voorraad gekozen worden waarin het aanbod in geplaatst wordt, deze is nodig om de sales-orders te synchroniseren<details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Floriday Server/Server NL/10.png"></details>|
+|**9**|Via **Select warehouse** kan de voorraad gekozen worden waarin het aanbod in geplaatst wordt, deze is nodig om de sales-orders te synchroniseren. Doorgaans is dit het bovenste record dat gekozen moet worden. Soms is deze regel leeg, zonder omschrijving <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Floriday Server/Server NL/10.png"></details>|
 
 :gear: **Daarnaast kan u de volgende optionele waarden instellen**:
 
