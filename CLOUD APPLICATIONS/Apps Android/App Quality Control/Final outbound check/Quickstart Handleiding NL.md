@@ -69,6 +69,12 @@ Welke informatie en statussen hier zichtbaar zijn, wordt bepaald door de algemen
 <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/11.png"></details>
 <br>
 
+#### Productsticker opnieuw printen
+
+Ontbreekt een productsticker of is deze beschadigd? Open dan de productdetails van de betreffende orderregel en kies het **printicoon**. De app verstuurt een nieuwe printopdracht voor alle bijbehorende kolli naar de ingestelde printer. De eindcontrolestatus en de voortgang van de orderregel veranderen hierdoor niet.
+
+Deze actie is alleen beschikbaar wanneer de printerfunctie actief is en zowel een stickerlay-out als printer zijn ingesteld. Zie [Policies Final Outbound Check NL](Policies%20Final%20outbound%20check%20-%20NL.md#printer) voor de inrichting.
+
 #### Handmatige eindcontrole van orderregels
 
 Als het scannen van een orderregel niet mogelijk is, kan de controle ook handmatig worden uitgevoerd.  

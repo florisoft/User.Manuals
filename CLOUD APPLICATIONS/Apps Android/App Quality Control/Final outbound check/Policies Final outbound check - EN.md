@@ -195,6 +195,26 @@ The status page is based on the actions recorded in the batch log.
 
 ---
 
+### `Printer`
+
+The **policy group** `Printer` determines whether product labels can be reprinted from Final Outbound Check. This is intended for a missing or damaged label; reprinting does not change the final-check status.
+
+#### `Printer_IsActive`
+
+Enable this policy to make the print action available.
+
+#### `Printer_PickItemLabelLayout`
+
+Select the label layout to use for product labels.
+
+#### `Printer_PickItemLabelPrinter`
+
+Select the printer on which product labels are printed.
+
+Save the policies and reload the configuration. Users can then use the print icon in an order line's product details to send new labels for all associated packages (colli).
+
+---
+
 ### `BarcodeDecodeOptions`
 Defines which barcode types (for example Trolley barcode, Order item barcode, or FSQR) are recognized during the final outbound check.  
 The _decoder_ contains the layout information embedded in the barcode, allowing the app to determine how the barcode should be interpreted.

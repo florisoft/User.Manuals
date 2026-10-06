@@ -69,6 +69,12 @@ The information and statuses shown here are controlled by the general `Apps_Logi
 <details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/11.png"></details>
 <br>
 
+#### Reprint a product label
+
+Is a product label missing or damaged? Open the product details for the relevant order line and choose the **print icon**. The app sends a new print job for all associated packages (colli) to the configured printer. This does not change the final-check status or progress of the order line.
+
+This action is available only when label printing is active and both a label layout and printer are configured. See [Policies Final Outbound Check EN](Policies%20Final%20outbound%20check%20-%20EN.md#printer) for configuration.
+
 #### Manual Final Check of Order Lines
 
 If scanning an order line is not possible, the check can also be performed manually.  

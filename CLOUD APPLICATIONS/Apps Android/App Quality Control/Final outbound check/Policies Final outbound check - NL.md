@@ -200,6 +200,26 @@ De statuspagina is gebaseerd op de acties uit het partijlog.
 
 ---
 
+### `Printer`
+
+De **policy-groep** `Printer` bepaalt of productstickers vanuit Final Outbound Check opnieuw kunnen worden afgedrukt. Dit is bedoeld voor een ontbrekende of beschadigde sticker; het opnieuw afdrukken verandert de eindcontrolestatus niet.
+
+#### `Printer_IsActive`
+
+Schakel deze policy in om de printactie beschikbaar te maken.
+
+#### `Printer_PickItemLabelLayout`
+
+Kies de stickerlay-out die voor de productstickers moet worden gebruikt.
+
+#### `Printer_PickItemLabelPrinter`
+
+Kies de printer waarop de productstickers worden afgedrukt.
+
+Sla de policies op en laad de configuratie opnieuw. Daarna kan de gebruiker vanuit de productdetails van een orderregel via het printicoon nieuwe stickers voor alle bijbehorende kolli versturen.
+
+---
+
 ### `BarcodeDecodeOptions`
 Bepaalt welke barcodetypen (bijvoorbeeld Trolleybarcode, Orderitembarcode of FSQR) tijdens de eindcontrole worden herkend.  
 De _decoder_ bevat de informatie uit de barcode-lay-out waarmee de app bepaalt hoe de barcode gelezen moet worden.
