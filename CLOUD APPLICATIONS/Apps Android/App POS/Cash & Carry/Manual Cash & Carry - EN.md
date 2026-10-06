@@ -387,6 +387,12 @@ A discount barcode can activate a percentage or fixed amount for the next produc
 
 `DiscountCategory` determines which discount category Florisoft uses for this registration.
 
+### Fixed discount on a stock item
+
+For a product that always has the same discount, set **Discount percentage** on its stock item in the stock screen. Enter the percentage itself, for example `50` for 50%, or use F3 to select a configured discount percentage. An unknown value opens the discount-percentage selection; clear the field to remove the fixed discount.
+
+When that stock item is added in Cash & Carry, its fixed discount is applied automatically. The employee does not need to scan a separate discount barcode. A fixed discount takes precedence over a discount barcode that was already scanned for the next product. Check the discount and resulting amount on the order line before completing the sale.
+
 ### Discount on the order
 
 `EnableDiscount` under **Payment** determines whether a discount may be added to or changed on the open order from the invoice-totals screen. This is separate from the discount barcode for an individual product scan.

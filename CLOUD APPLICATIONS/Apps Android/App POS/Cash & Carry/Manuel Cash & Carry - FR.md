@@ -377,6 +377,12 @@ Un code-barres de remise peut activer un pourcentage ou un montant fixe pour le 
 
 `DiscountCategory` détermine la catégorie de remise utilisée par Florisoft.
 
+### Remise fixe sur un lot de stock
+
+Pour un produit bénéficiant toujours de la même remise, définissez le **Pourcentage de remise** sur son lot de stock dans l’écran de stock. Saisissez le pourcentage lui-même, par exemple `50` pour 50 %, ou utilisez F3 pour sélectionner un pourcentage de remise configuré. Une valeur inconnue ouvre la sélection des pourcentages de remise ; effacez le champ pour supprimer la remise fixe.
+
+Lorsque ce lot est ajouté dans Cash & Carry, sa remise fixe est appliquée automatiquement. L’employé ne doit donc pas scanner un code-barres de remise séparé. Une remise fixe est prioritaire sur un code-barres de remise déjà scanné pour l’article suivant. Avant de finaliser la vente, contrôlez la remise et le montant obtenu sur la ligne de commande.
+
 ### Remise sur la commande
 
 `EnableDiscount`, sous **Payment**, détermine si une remise peut être ajoutée ou modifiée sur la commande ouverte depuis l’écran des totaux de facture. Cette fonction est distincte du code-barres de remise pour un scan individuel.

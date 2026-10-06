@@ -387,6 +387,12 @@ Een kortingsbarcode kan een percentage of vast bedrag voor de volgende productsc
 
 `DiscountCategory` bepaalt welke kortingscategorie Florisoft voor deze registratie gebruikt.
 
+### Vaste korting op een voorraadpartij
+
+Leg voor een product dat altijd dezelfde korting heeft in het voorraadscherm bij de voorraadpartij **Kortingspercentage** vast. Voer het percentage zelf in, bijvoorbeeld `50` voor 50%, of kies met F3 een ingesteld kortingspercentage. Bij een onbekende waarde opent de keuze voor kortingspercentages; maak het veld leeg om de vaste korting te verwijderen.
+
+Wanneer deze voorraadpartij in Cash & Carry wordt toegevoegd, wordt de vaste korting automatisch toegepast. De medewerker hoeft dus geen afzonderlijke kortingsbarcode te scannen. Een vaste korting gaat vóór op een kortingsbarcode die al voor het volgende artikel is gescand. Controleer vóór het afronden van de verkoop de korting en het resulterende bedrag op de orderregel.
+
 ### Korting op de order
 
 `EnableDiscount` onder **Payment** bepaalt of vanuit het factuurtotalenscherm een korting op de open order mag worden toegevoegd of gewijzigd. Dit staat los van de kortingsbarcode voor een afzonderlijke productscan.
