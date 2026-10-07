@@ -111,6 +111,8 @@ Het scherm **Zoek inkomend artikel** toont de verwachte inkomende artikelen uit 
 - de totale hoeveelheid;
 - een groene statusmarkering wanneer de verwerkte hoeveelheid gelijk is aan of groter is dan de totale hoeveelheid.
 
+De policy `InboundItemQuantityDisplay` bepaalt hoe de resterende hoeveelheid rechts in iedere regel wordt getoond. Kies **Stelen** wanneer medewerkers alleen het aantal stelen moeten zien. Kies **Inhoud kolli restant** wanneer zij het aantal volledige kolli, de inhoud per kolli en een eventueel restant moeten kunnen aflezen, bijvoorbeeld `10 × 10 + 4`.
+
 Voer minimaal drie tekens in om de lijst met een zoekterm te verversen. Tekst zoekt zonder onderscheid tussen hoofdletters en kleine letters in de omschrijving. Een numerieke zoekterm vergelijkt ook de laatste vier cijfers van het partijnummer. Maak het zoekveld leeg om de volledige toegestane lijst opnieuw te laden.
 
 1. Zoek het gewenste artikel.

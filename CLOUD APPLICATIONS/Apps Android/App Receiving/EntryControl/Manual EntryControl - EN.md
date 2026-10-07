@@ -111,6 +111,8 @@ The **Search inbound item** screen shows expected inbound items from the active 
 - the total quantity;
 - a green status indicator when the processed quantity is equal to or greater than the total quantity.
 
+The `InboundItemQuantityDisplay` policy determines how the remaining quantity is shown at the right of each row. Choose **Stems** when employees only need to see the number of stems. Choose **Content, boxes, remainder** when they need to see the number of complete boxes, the content per box and any remainder, for example `10 × 10 + 4`.
+
 Enter at least three characters to refresh the list with a search term. Text searches the description without distinguishing uppercase and lowercase letters. A numeric search term also compares the final four digits of the stock-item number. Clear the search field to load the complete permitted list again.
 
 1. Search for the required item.
