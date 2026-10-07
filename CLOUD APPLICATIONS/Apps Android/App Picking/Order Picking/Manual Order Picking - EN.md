@@ -160,6 +160,8 @@ Select `PrintPickItemLabels` in `ActivateWorkOrderAdditionalActions` to automati
 - `PickItemLabelPrinter`: the printer for pick-item labels;
 - `PickItemLabelLayout`: the layout for pick-item labels.
 
+By default, Florisoft respects the customer's **PreventLabelPrinting** setting. If that setting is enabled for every customer in the work order, no pick-item-label job is sent and the work order still activates. Enable `PrintLabelsForAllCustomers` only when pick-item labels must always be printed, including for customers that prevent label printing.
+
 After successful submission, Florisoft shows the usual message that the print job was sent to the configured printer. This message confirms that the job was submitted, not that the labels were physically printed. Always use a test work order when setting up or changing a printer. A separate message is not always available for an unknown or unreachable printer.
 
 ### Automatically print a packing list

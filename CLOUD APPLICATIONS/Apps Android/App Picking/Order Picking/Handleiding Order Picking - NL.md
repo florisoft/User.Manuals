@@ -160,6 +160,8 @@ Kies `PrintPickItemLabels` in `ActivateWorkOrderAdditionalActions` om na activat
 - `PickItemLabelPrinter`: de printer voor pickorderstickers;
 - `PickItemLabelLayout`: de lay-out voor pickorderstickers.
 
+Standaard respecteert Florisoft de instelling **PreventLabelPrinting** van de debiteur. Staat deze instelling aan voor alle debiteuren in de werkopdracht, dan wordt geen printopdracht voor pickorderstickers verstuurd en wordt de werkopdracht wel geactiveerd. Schakel `PrintLabelsForAllCustomers` alleen in wanneer pickorderstickers altijd moeten worden geprint, ook voor debiteuren waarbij stickers printen is uitgeschakeld.
+
 Na een geslaagde verzending toont Florisoft de gebruikelijke melding dat de printopdracht naar de ingestelde printer is gestuurd. Deze melding bevestigt dat de opdracht is verzonden, niet dat de stickers fysiek uit de printer zijn gekomen. Controleer daarom bij een nieuwe of gewijzigde printer altijd een testwerkopdracht. Voor een onbekende of onbereikbare printer is niet altijd een afzonderlijke melding beschikbaar.
 
 ### Paklijst automatisch printen
