@@ -286,14 +286,14 @@ Florisoft boekt de pick op de geselecteerde locatie en unieke drager. Wanneer `A
 
 Wanneer onvoldoende voorraad beschikbaar is, kan Florisoft een verdeelcontrole aanmaken. `ExceptionReasonMissingInventory` bepaalt welke uitzonderingsreden daarvoor wordt gebruikt.
 
-Als de Exception Registration-integratie en licentie beschikbaar zijn, kan de picker ook vanuit een pickitem een afwijking registreren:
+Als de Exception Registration-integratie en licentie beschikbaar zijn, kan de picker ook vanuit een pickitem een afwijking registreren. Dit kan zowel vanuit de nog te verwerken lijst als vanuit **Verwerkt** voor een al verwerkt pickitem:
 
 1. veeg over de artikelregel;
 2. tik op het **uitroepteken**;
 3. kies een reden en vul de gevraagde gegevens in;
 4. bevestig de afwijking.
 
-Florisoft laadt daarna de werkopdracht opnieuw en past de nog te picken hoeveelheid aan.
+Florisoft laadt daarna de werkopdracht opnieuw en past de nog te picken hoeveelheid aan. Bij een afwijking op een al verwerkt pickitem verlaagt Florisoft ook de geregistreerde gepickte hoeveelheid en, indien aanwezig, de inhoud van de gekoppelde dragers. Het pickitem blijft in **Verwerkt** zichtbaar met de gecorrigeerde hoeveelheid.
 
 ### Afwijking op een unieke drager
 

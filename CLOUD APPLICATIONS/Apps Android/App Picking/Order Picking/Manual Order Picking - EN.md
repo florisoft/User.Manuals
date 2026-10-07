@@ -286,14 +286,14 @@ Florisoft books the pick against the selected location and unique carrier. When 
 
 When insufficient stock is available, Florisoft can create a distribution check. `ExceptionReasonMissingInventory` determines which exception reason is used.
 
-If the Exception Registration integration and licence are available, the picker can also register a discrepancy from a pick item:
+If the Exception Registration integration and licence are available, the picker can also register a discrepancy from a pick item. This is possible both from the to-process list and from **Processed** for an already completed pick item:
 
 1. swipe across the product line;
 2. tap the **exclamation mark**;
 3. select a reason and enter the requested information;
 4. confirm the discrepancy.
 
-Florisoft then reloads the work order and adjusts the outstanding quantity.
+Florisoft then reloads the work order and adjusts the outstanding quantity. For a discrepancy on an already completed pick item, Florisoft also reduces the registered picked quantity and, when present, the contents of the linked carriers. The pick item remains visible in **Processed** with the corrected quantity.
 
 ### Discrepancy on a unique carrier
 
