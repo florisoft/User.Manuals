@@ -79,7 +79,7 @@ Depending on the policies, the app may request:
 - an email choice (`MailPackingListOption`);
 - a signature when a packing list is printed or emailed (`RequireSignature`).
 
-Printing and emailing use `PackageListPrinter` and `PackageListPrintLayout`. Only report layouts with list type `FustAdminPaklijst` can be selected for `PackageListPrintLayout`. An empty selection list means that no suitable report layout is available yet.
+Printing and emailing use `PackageListPrinter` and `PackageListPrintLayout`. Report layouts with list type `FustAdminPaklijst` or `Paklijst_divers` can be selected for `PackageListPrintLayout`. An empty selection list means that no suitable report layout is available yet.
 
 When `AssetManagementPackageReceiptLayout` is configured for the customer, the app uses this layout. The customer setting takes precedence over the `PackageListPrintLayout` policy. When no customer layout is configured, the app uses the layout from the policy.
 
@@ -128,4 +128,4 @@ See the [Policy Management manual](https://github.com/florisoft/User.Manuals/blo
 
 **Why is the `PackageListPrintLayout` selection list empty?**
 
-Check that Florisoft contains a report layout with list type `FustAdminPaklijst`. Only layouts with this list type are shown in the selection list.
+Check that Florisoft contains a report layout with list type `FustAdminPaklijst` or `Paklijst_divers`. Only layouts with either of these list types are shown in the selection list.

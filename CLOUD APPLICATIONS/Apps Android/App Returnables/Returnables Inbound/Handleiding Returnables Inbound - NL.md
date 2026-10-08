@@ -84,7 +84,7 @@ Na een succesvolle afronding wordt het inkomende fust rechtstreeks in de fustadm
 Als afdrukken of mailen is gekozen, gebruikt de app de volgende instellingen:
 
 - `PackageListPrinter`: printer voor de fustpaklijst;
-- `PackageListPrintLayout`: afdruklay-out voor de fustpaklijst. Alleen rapportlay-outs van lijstsoort `FustAdminPaklijst` kunnen worden geselecteerd. Is de keuzelijst leeg, dan is nog geen geschikte rapportlay-out beschikbaar.
+- `PackageListPrintLayout`: afdruklay-out voor de fustpaklijst. Rapportlay-outs van lijstsoort `FustAdminPaklijst` of `Paklijst_divers` kunnen worden geselecteerd. Is de keuzelijst leeg, dan is nog geen geschikte rapportlay-out beschikbaar.
 
 Is voor de debiteur `AssetManagementPackageReceiptLayout` ingesteld, dan gebruikt de app deze lay-out. Deze debiteurinstelling heeft voorrang op de policy `PackageListPrintLayout`. Als geen debiteurlay-out is ingesteld, gebruikt de app de lay-out uit de policy.
 
@@ -130,4 +130,4 @@ De betreffende policy staat dan op `DoNotShow` (**Niet tonen**).
 
 **Waarom kan ik bij `PackageListPrintLayout` niets selecteren?**
 
-Controleer of in Florisoft een rapportlay-out van lijstsoort `FustAdminPaklijst` beschikbaar is. Alleen lay-outs van deze lijstsoort worden in de keuzelijst getoond.
+Controleer of in Florisoft een rapportlay-out van lijstsoort `FustAdminPaklijst` of `Paklijst_divers` beschikbaar is. Alleen lay-outs van deze lijstsoorten worden in de keuzelijst getoond.

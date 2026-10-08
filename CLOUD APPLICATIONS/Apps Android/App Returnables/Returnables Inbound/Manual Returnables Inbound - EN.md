@@ -69,7 +69,7 @@ Depending on the policies, the app may request:
 
 After successful completion, the incoming returnable packaging is registered directly in the returnables administration for the selected customer and order. The total incoming quantity is recorded as a negative returnables line on the linked invoice. Registration in the returnables administration is standard behaviour and is not controlled by a separate policy. The session is then closed. The order must belong to an existing invoice.
 
-Printing and emailing use `PackageListPrinter` and `PackageListPrintLayout`. Only report layouts with list type `FustAdminPaklijst` can be selected for `PackageListPrintLayout`. An empty selection list means that no suitable report layout is available yet.
+Printing and emailing use `PackageListPrinter` and `PackageListPrintLayout`. Report layouts with list type `FustAdminPaklijst` or `Paklijst_divers` can be selected for `PackageListPrintLayout`. An empty selection list means that no suitable report layout is available yet.
 
 When `AssetManagementPackageReceiptLayout` is configured for the customer, the app uses this layout. The customer setting takes precedence over the `PackageListPrintLayout` policy. When no customer layout is configured, the app uses the layout from the policy.
 
@@ -97,4 +97,4 @@ See the [Policy Management manual](https://github.com/florisoft/User.Manuals/blo
 
 **Why is the `PackageListPrintLayout` selection list empty?**
 
-Check that Florisoft contains a report layout with list type `FustAdminPaklijst`. Only layouts with this list type are shown in the selection list.
+Check that Florisoft contains a report layout with list type `FustAdminPaklijst` or `Paklijst_divers`. Only layouts with either of these list types are shown in the selection list.

@@ -87,7 +87,7 @@ Bij het bevestigen kan de app, afhankelijk van de policies, aanvullende informat
 - `MailPackingListOption`: verbergt de e-mailkeuze of toont deze met standaard **Ja** of **Nee**;
 - `RequireSignature`: vraagt om een handtekening wanneer een paklijst wordt afgedrukt of gemaild.
 
-Als afdrukken of mailen is gekozen, gebruikt de app `PackageListPrinter` en `PackageListPrintLayout`. Bij `PackageListPrintLayout` kunnen alleen rapportlay-outs van lijstsoort `FustAdminPaklijst` worden geselecteerd. Is de keuzelijst leeg, dan is nog geen geschikte rapportlay-out beschikbaar.
+Als afdrukken of mailen is gekozen, gebruikt de app `PackageListPrinter` en `PackageListPrintLayout`. Bij `PackageListPrintLayout` kunnen rapportlay-outs van lijstsoort `FustAdminPaklijst` of `Paklijst_divers` worden geselecteerd. Is de keuzelijst leeg, dan is nog geen geschikte rapportlay-out beschikbaar.
 
 Is voor de debiteur `AssetManagementPackageReceiptLayout` ingesteld, dan gebruikt de app deze lay-out. Deze debiteurinstelling heeft voorrang op de policy `PackageListPrintLayout`. Als geen debiteurlay-out is ingesteld, gebruikt de app de lay-out uit de policy.
 
@@ -146,7 +146,7 @@ Controleer of er een positief totaal is en of een verplichte referentie is ingev
 
 **Waarom kan ik bij `PackageListPrintLayout` niets selecteren?**
 
-Controleer of in Florisoft een rapportlay-out van lijstsoort `FustAdminPaklijst` beschikbaar is. Alleen lay-outs van deze lijstsoort worden in de keuzelijst getoond.
+Controleer of in Florisoft een rapportlay-out van lijstsoort `FustAdminPaklijst` of `Paklijst_divers` beschikbaar is. Alleen lay-outs van deze lijstsoorten worden in de keuzelijst getoond.
 
 **Waarom verschijnt geen keuze voor afdrukken of mailen?**
 
