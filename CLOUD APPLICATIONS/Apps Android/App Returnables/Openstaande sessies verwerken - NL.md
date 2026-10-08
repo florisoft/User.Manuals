@@ -23,7 +23,7 @@ Rond een telling altijd af via **Gereed**, de eindcontrole en de bevestiging. Al
 
 ### Normaal stoppen of uitloggen
 
-Wanneer u **Order sluiten** kiest of normaal uitlogt, wordt de actieve sessie gestopt en teruggezet naar `Inactive`. De geregistreerde telling blijft bewaard. De sessie kan later opnieuw worden geselecteerd en kan dan ook door een andere medewerker worden geopend.
+Wanneer u **Order sluiten** kiest of normaal uitlogt, wordt de actieve sessie gestopt en teruggezet naar `Inactive`. De geregistreerde telling blijft bewaard. Alleen dezelfde medewerker kan deze sessie later opnieuw selecteren en hervatten.
 
 ### Onverwachte PDA-uitval
 

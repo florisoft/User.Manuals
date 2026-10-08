@@ -106,7 +106,7 @@ Een backofficemedewerker kan de foto's later openen vanuit het factuuroverzicht 
 
 ## Een sessie stoppen zonder afronden
 
-Met **Order sluiten** of normaal uitloggen stopt u de actieve werksessie zonder de telling als voltooid te verwerken. De sessie wordt `Inactive` en kan later opnieuw worden geselecteerd. Bij onverwachte uitval kan de sessie `Active` blijven; meld dan opnieuw aan als dezelfde gebruiker.
+Met **Order sluiten** of normaal uitloggen stopt u de actieve werksessie zonder de telling als voltooid te verwerken. De sessie wordt `Inactive` en kan later alleen door dezelfde gebruiker opnieuw worden geselecteerd. Bij onverwachte uitval kan de sessie `Active` blijven; meld dan opnieuw aan als dezelfde gebruiker.
 
 ## Openstaande sessies controleren
 

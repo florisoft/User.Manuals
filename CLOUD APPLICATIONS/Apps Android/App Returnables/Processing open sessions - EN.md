@@ -21,7 +21,7 @@ Always complete a count through **Done**, the final check and confirmation. Retu
 
 ### Normal stop or logout
 
-When you choose **Close order** or log out normally, the active session is stopped and returned to `Inactive`. Registered counts are retained. The session can be selected later and can then also be opened by another employee.
+When you choose **Close order** or log out normally, the active session is stopped and returned to `Inactive`. Registered counts are retained. Only the same employee can select and resume that session later.
 
 ### Unexpected device failure
 

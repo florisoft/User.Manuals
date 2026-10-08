@@ -98,7 +98,7 @@ A backoffice employee can later open the photos from the invoice overview or inv
 
 ## Stop without completing
 
-**Close order** or a normal logout stops the active work session without processing the count as completed. The session becomes `Inactive` and can be selected later. After an unexpected failure it may remain `Active`; sign in again as the same user.
+**Close order** or a normal logout stops the active work session without processing the count as completed. The session becomes `Inactive` and can later be selected only by the same user. After an unexpected failure it may remain `Active`; sign in again as the same user.
 
 ## Check open sessions
 

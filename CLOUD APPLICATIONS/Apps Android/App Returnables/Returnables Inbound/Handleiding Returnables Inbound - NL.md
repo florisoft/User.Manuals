@@ -90,7 +90,7 @@ Is voor de debiteur `AssetManagementPackageReceiptLayout` ingesteld, dan gebruik
 
 ## Een sessie stoppen zonder afronden
 
-Met **Order sluiten** of normaal uitloggen stopt u de actieve werksessie zonder de telling als voltooid te verwerken. De sessie wordt `Inactive` en kan later opnieuw worden geselecteerd. Bij onverwachte uitval kan de sessie `Active` blijven; meld dan opnieuw aan als dezelfde gebruiker.
+Met **Order sluiten** of normaal uitloggen stopt u de actieve werksessie zonder de telling als voltooid te verwerken. De sessie wordt `Inactive` en kan later alleen door dezelfde gebruiker opnieuw worden geselecteerd. Bij onverwachte uitval kan de sessie `Active` blijven; meld dan opnieuw aan als dezelfde gebruiker.
 
 Lees [Openstaande Returnables-sessies verwerken](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Returnables/Openstaande%20sessies%20verwerken%20-%20NL.md) voor het klantfilter, het Backoffice-overzicht, de factuurcontrole en het hervatten via FSQR.
 

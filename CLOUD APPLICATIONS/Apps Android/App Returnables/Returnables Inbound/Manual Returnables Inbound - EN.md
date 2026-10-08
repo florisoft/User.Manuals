@@ -75,7 +75,7 @@ When `AssetManagementPackageReceiptLayout` is configured for the customer, the a
 
 ## Stop without completing
 
-**Close order** or a normal logout stops the active work session without processing the count as completed. The session becomes `Inactive` and can be selected later. After an unexpected failure it may remain `Active`; sign in again as the same user.
+**Close order** or a normal logout stops the active work session without processing the count as completed. The session becomes `Inactive` and can later be selected only by the same user. After an unexpected failure it may remain `Active`; sign in again as the same user.
 
 See [Processing Open Returnables Sessions](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Returnables/Processing%20open%20sessions%20-%20EN.md) for the customer filter, Backoffice overview, invoice control and FSQR recovery procedure.
 
