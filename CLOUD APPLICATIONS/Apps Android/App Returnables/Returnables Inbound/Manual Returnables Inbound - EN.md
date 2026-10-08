@@ -14,6 +14,8 @@ The workflow is similar to Returnables Outbound: select a customer and order, wo
 
 Start by scanning a supported barcode or by manually selecting a customer and order. When selecting manually:
 
+You can also select a customer directly with an FSQR code containing the customer ID. In Backoffice, open **Constants → Organs → Customer data → Customers**, open the customer and choose **Create QR**. Scan the generated QR code on the Returnables Inbound start page. For a known customer, the app opens the order selection page for that customer. An invalid or unknown code does not select a customer.
+
 1. Find and select the customer.
 2. Apply an available customer filter if required.
 3. Select an existing order or create a new order.

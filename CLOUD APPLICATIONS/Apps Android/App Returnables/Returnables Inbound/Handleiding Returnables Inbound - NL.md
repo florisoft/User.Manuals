@@ -16,6 +16,8 @@ Welke filters, invoermogelijkheden en afrondopties zichtbaar zijn, hangt af van 
 
 Open **Returnables Inbound**. U kunt het proces starten door een ondersteunde barcode te scannen of door handmatig een klant en order te selecteren.
 
+U kunt ook direct de klant selecteren met een FSQR-code die het debiteurnummer bevat. Open in de Backoffice **Constanten → Organen → Debiteurgegevens → Debiteuren**, open de debiteur en kies **Maak QR**. Scan de gemaakte QR-code op het startscherm van Returnables Inbound. Bij een bekende debiteur opent de app direct de orderselectie voor die klant. Een ongeldige of onbekende code selecteert geen klant.
+
 Bij handmatige selectie:
 
 1. Zoek en selecteer de klant.
