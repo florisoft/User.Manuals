@@ -98,6 +98,14 @@ De policy `PackageManagementRegistrationStrategy` bepaalt wat er bij afronden me
 
 Na een succesvolle verwerking wordt de sessie gesloten.
 
+### Doorgaan met de andere fustrichting
+
+Is `AllowSwitchingDirection` ingeschakeld en is Returnables Inbound beschikbaar, dan vraagt de app na een volledig afgeronde outbound-sessie of u met **Returnables Inbound** wilt doorgaan. Rond eerst alle verplichte referentie-, afdruk-, e-mail- en handtekeningstappen af.
+
+Kies **Ja** om Inbound te openen met dezelfde klant en order. De outbound-sessie blijft afgerond: sessienummer, batches en fustaantallen worden niet overgenomen. De app opent een passende inbound-sessie of maakt er een aan. Bij meerdere inbound-sessies kiest u eerst de gewenste sessie. Kies **Nee** om Returnables Outbound op de normale manier opnieuw te starten.
+
+Deze vraag verschijnt niet wanneer de policy is uitgeschakeld, Returnables Inbound niet beschikbaar is of Returnables Outbound als child-usecase is gestart, bijvoorbeeld vanuit Order Picking.
+
 ### Foto's vastleggen en terugvinden
 
 Als uw organisatie de fotoactie heeft ingeschakeld, kunt u vanaf de eindcontrole foto's aan de actieve outbound-order toevoegen. Volg hiervoor de gedeelde [handleiding Foto's maken en beheren](../../Additional%20actions/Photos/Handleiding%20foto%27s%20maken%20en%20beheren%20-%20NL.md).
@@ -124,7 +132,7 @@ De policies staan op de volgende plaatsen:
 | --- | --- |
 | `Apps` | `PackagingPicturesFolderPath` |
 | `Apps → Logistics → Picking → OrderPicking → Addons` | Voeg `Returnables` toe aan `EnableAddons` om de actie na de pickorder-eindcontrole te tonen. |
-| `Apps → Logistics → Returnables` | `AvailableCustomerFilterOptions`, `ValidBarcodeDecodeOptions` |
+| `Apps → Logistics → Returnables` | `AvailableCustomerFilterOptions`, `ValidBarcodeDecodeOptions`, `AllowSwitchingDirection` |
 | `Apps → Logistics → Returnables → Outbound → PackagingCounting` | `StandardPackageCodes`, `SortPackagingType`, `AllowAdditionalPackaging`, `ShowQuickInput`, `ValidBarcodeDecodeOptions` |
 | `Apps → Logistics → Returnables → Outbound → FinalizeSession` | `RequireReferenceCode`, `RequireSignature`, `PrintPackingListOption`, `MailPackingListOption`, `PackageManagementRegistrationStrategy` |
 | `Apps → Logistics → Returnables → Outbound → PrinterSettings` | `PackageListPrinter`, `PackageListPrintLayout` |

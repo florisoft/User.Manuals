@@ -73,6 +73,14 @@ Printing and emailing use `PackageListPrinter` and `PackageListPrintLayout`. Rep
 
 When `AssetManagementPackageReceiptLayout` is configured for the customer, the app uses this layout. The customer setting takes precedence over the `PackageListPrintLayout` policy. When no customer layout is configured, the app uses the layout from the policy.
 
+### Continue in the other returnables direction
+
+When `AllowSwitchingDirection` is enabled and Returnables Outbound is available, the app asks after a fully completed inbound session whether you want to continue in **Returnables Outbound**. Complete any required reference, print, email and signature steps first.
+
+Choose **Yes** to open Outbound with the same customer and order. The inbound session remains completed: its session ID, batches and quantities are not transferred. The app opens a suitable outbound session or creates one. When multiple outbound sessions exist, select the session first. Choose **No** to restart Returnables Inbound through its normal start flow.
+
+The question is not shown when the policy is disabled or Returnables Outbound is unavailable.
+
 ## Stop without completing
 
 **Close order** or a normal logout stops the active work session without processing the count as completed. The session becomes `Inactive` and can later be selected only by the same user. After an unexpected failure it may remain `Active`; sign in again as the same user.
@@ -86,7 +94,7 @@ Open the Backoffice constants screen and go to **System → Users → Policy Man
 | Path | Policies |
 | --- | --- |
 | `Apps` | `PackagingPicturesFolderPath` |
-| `Apps → Logistics → Returnables` | `AvailableCustomerFilterOptions`, `ValidBarcodeDecodeOptions` |
+| `Apps → Logistics → Returnables` | `AvailableCustomerFilterOptions`, `ValidBarcodeDecodeOptions`, `AllowSwitchingDirection` |
 | `Apps → Logistics → Returnables → Inbound → PackagingCounting` | `StandardPackageCodes`, `SortPackagingType`, `AllowAdditionalPackaging`, `ShowQuickInput`, `ValidBarcodeDecodeOptions` |
 | `Apps → Logistics → Returnables → Inbound → FinalizeSession` | `RequireReferenceCode`, `RequireSignature`, `PrintPackingListOption`, `MailPackingListOption` |
 | `Apps → Logistics → Returnables → Inbound → PackageListPrintSettings` | `PackageListPrinter`, `PackageListPrintLayout` |
