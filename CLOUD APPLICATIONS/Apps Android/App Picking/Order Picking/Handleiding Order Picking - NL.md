@@ -205,6 +205,16 @@ Is aan de werkopdracht een looproute gekoppeld, dan volgt Florisoft in plaats da
 
 Met `StockItemWordReferenceKind` bepaalt u hoe Florisoft het partijwoord uit de tabel `WOORDEN` opzoekt. `ParcelID` gebruikt het partijnummer, `VParcelID` het V-partijnummer en `Unknown` gebruikt geen vastgelegde referentiemethode.
 
+### Verwerkte pickitems bekijken
+
+Gebruik de weergave **Verwerkt** om de reguliere pickitems te controleren die tijdens de actieve werkopdracht al zijn geregistreerd. Tik op de schakelaar boven de lijst om tussen de open en verwerkte weergave te wisselen. De verwerkte weergave gebruikt dezelfde lijstindeling als de open lijst en toont alleen afgeronde items; het meest recent geregistreerde item staat bovenaan.
+
+Een afgerond item blijft in **Verwerkt** zichtbaar, ook wanneer de voorraad op is of de logistieke partij is verwijderd. De getoonde locatie komt uit de geregistreerde pick of orderregel. Door deze weergave te openen wordt dus geen afwijking wegens ontbrekende voorraad geregistreerd.
+
+U kunt een open pickitem blijven scannen terwijl **Verwerkt** zichtbaar is. Florisoft volgt dan de normale pickflow; u hoeft niet eerst terug te schakelen. Open een afgerond regulier pickitem om de details te controleren. De afgeronde pickregistratie kan op dit scherm niet worden gewijzigd.
+
+Bij een geregistreerde afwijking toont het verwerkte item de werkelijk afgeronde hoeveelheid. Een openstaande afwijking wordt afzonderlijk getoond en is niet in die afgeronde hoeveelheid opgenomen.
+
 ### Inhoud en volgorde van het detailscherm
 
 Met de geordende lijst `PickItemDetails` bepaalt u welke aanvullende velden op het detailscherm verschijnen en in welke volgorde. Beschikbaar zijn:
@@ -247,7 +257,7 @@ De combinatie van drie policies bepaalt de bevestigingswijze:
 
 Gebruik bij voorkeur één hoofdvariant. Wanneer `SplitOrderPicking` en `ScanPerUnit` tegelijk actief zijn, heeft de deelpickberekening bij de uiteindelijke verwerking voorrang. Een eenduidige policy voorkomt dat de scherminstructie en de verwachte handeling voor de picker onduidelijk worden.
 
-Na een geslaagde registratie verlaagt Florisoft de resterende hoeveelheid. Een volledig verwerkte regel verdwijnt uit de open picklijst. Als `RemoveLogisticParcelWhenZero` actief is, kan een gebruikte logistieke partij bij nul ook worden verwijderd.
+Na een geslaagde registratie verlaagt Florisoft de resterende hoeveelheid. Een volledig verwerkte regel verdwijnt uit de open picklijst en komt beschikbaar in **Verwerkt**. Als `RemoveLogisticParcelWhenZero` actief is, kan een gebruikte logistieke partij bij nul ook worden verwijderd; het verwerkte item blijft dan beschikbaar om te controleren.
 
 ---
 
@@ -336,7 +346,9 @@ Zorg dat de instructiebarcode, de gewenste actie en de benodigde printer en lay-
 
 > `Manual` is in de Order Picking-use-case beschreven, maar in de huidige gecontroleerde appcode wordt de werkopdracht nog via een afrondscan voltooid. Gebruik deze policywaarde pas wanneer de handmatige variant in de gebruikte appversie beschikbaar is.
 
-Na een geslaagde afronding toont Florisoft een samenvatting. Tik op het **vinkje** om de opdracht te sluiten en een nieuwe werkopdracht te starten.
+Na een geslaagde afronding toont Florisoft een samenvatting. Per ordergroep staan daar de werkelijk gepickte aantallen. Producten waarvoor een exceptie is geregistreerd, staan uitsluitend onder de totalen van hun eigen ordergroep; andere producten worden daar niet als exceptie getoond. De exceptiehoeveelheid telt niet mee als gepickte hoeveelheid.
+
+Tik op het **vinkje** om de opdracht te sluiten en een nieuwe werkopdracht te starten.
 
 ---
 

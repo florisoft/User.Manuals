@@ -205,6 +205,16 @@ If a walking route is linked to the work order, Florisoft follows the location s
 
 `StockItemWordReferenceKind` determines how Florisoft finds the parcel word in the `WOORDEN` table. `ParcelID` uses the parcel number, `VParcelID` uses the V-parcel number and `Unknown` uses no defined reference method.
 
+### View processed pick items
+
+Use the **Processed** view to check the regular pick items that have already been registered during the active work order. Tap the switch above the list to change between the open and processed views. The processed view uses the same list layout as the open list and shows only completed items; the most recently registered item appears first.
+
+A completed item remains visible in **Processed** even if its stock is exhausted or its logistic parcel has been removed. The shown location comes from the recorded pick or order line, so opening this view does not create a missing-stock exception.
+
+You can continue scanning an open pick item while **Processed** is displayed. Florisoft then follows the normal picking flow; you do not first need to switch back. Open a completed regular pick item to review its details. Its completed pick registration cannot be changed from this screen.
+
+When a discrepancy is registered, the processed item shows the actually completed quantity. An unresolved discrepancy is shown separately and is excluded from that completed quantity.
+
 ### Details screen contents and order
 
 The ordered `PickItemDetails` list determines which additional fields appear on the details screen and their order. Available values are:
@@ -247,7 +257,7 @@ The combination of three policies determines the confirmation method:
 
 Preferably configure one primary method. When `SplitOrderPicking` and `ScanPerUnit` are enabled together, the split-picking calculation takes precedence during final processing. A clear policy prevents the screen instruction and expected action from becoming confusing.
 
-After successful registration, Florisoft reduces the remaining quantity. A fully processed line disappears from the open pick list. When `RemoveLogisticParcelWhenZero` is enabled, a used logistic parcel can also be removed at zero.
+After successful registration, Florisoft reduces the remaining quantity. A fully processed line disappears from the open pick list and is available in **Processed**. When `RemoveLogisticParcelWhenZero` is enabled, a used logistic parcel can also be removed at zero; the processed item remains available for review.
 
 ---
 
@@ -336,7 +346,9 @@ Configure the instruction barcode, the required action, and the necessary printe
 
 > `Manual` is specified in the Order Picking use case, but the currently reviewed app code still completes the work order through a completion scan. Use this policy value only when the manual variant is available in the app version being used.
 
-After successful completion, Florisoft shows a summary. Tap the **check mark** to close the assignment and start a new work order.
+After successful completion, Florisoft shows a summary. Each order group shows the quantities actually picked. Products for which an exception has been registered appear only below the totals of their own order group; other products are not shown there as exceptions. The exception quantity is not included in the picked quantity.
+
+Tap the **check mark** to close the assignment and start a new work order.
 
 ---
 
