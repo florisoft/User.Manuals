@@ -249,13 +249,13 @@ Een informatiemarkering geeft aan dat een artikel over meerdere locaties of voor
 De combinatie van drie policies bepaalt de bevestigingswijze:
 
 - als `SplitOrderPicking` aan staat, voert de picker het aantal volledige kolli en een eventuele resthoeveelheid in;
-- als `ScanPerUnit` aan staat, scant de picker iedere kolli afzonderlijk en toont de app een teller en voortgangsbalk;
-- als `ConfirmPickWithScan` aan staat, bevestigt de picker het actieve artikel met een passende tweede scan;
+- met `ScanPerUnitMode` kiest u hoe iedere kolli wordt gecontroleerd: `AllBarcodes` telt iedere scan, `PickItemBarcodes` accepteert alleen een passende pickitemsticker en `UniquePickItemBarcodes` accepteert zo'n sticker maar één keer. De app toont een teller en verwerkt het pickitem automatisch zodra het vereiste aantal kolli is gescand;
+- met `ConfirmPickWithScanMode` kiest u waarmee de picker het actieve artikel bevestigt: `StockItemBarcode` vereist een passende voorraadbarcode en `OrderItemBarcode` een passende pickitemsticker. Deze instelling wordt alleen gebruikt wanneer `ScanPerUnitMode` is uitgeschakeld;
 - wanneer alle drie uit staan, bevestigt de picker met de knop met het **vinkje**.
 
-`ConfirmPickWithScan` en `ScanPerUnit` staan standaard uit. `SplitOrderPicking` gedraagt zich als uit wanneer geen waarde is ingesteld.
+`ScanPerUnitMode` en `ConfirmPickWithScanMode` staan standaard op `Disabled`. `SplitOrderPicking` gedraagt zich als uit wanneer geen waarde is ingesteld.
 
-Gebruik bij voorkeur één hoofdvariant. Wanneer `SplitOrderPicking` en `ScanPerUnit` tegelijk actief zijn, heeft de deelpickberekening bij de uiteindelijke verwerking voorrang. Een eenduidige policy voorkomt dat de scherminstructie en de verwachte handeling voor de picker onduidelijk worden.
+Gebruik bij voorkeur één hoofdvariant. `ScanPerUnitMode` heeft voorrang op `ConfirmPickWithScanMode`; combineer deze alleen wanneer de scan-per-kolli-flow bewust is getest. Test een combinatie met `SplitOrderPicking` altijd afzonderlijk, zodat de scherminstructie en de verwachte handeling voor de picker duidelijk blijven.
 
 Na een geslaagde registratie verlaagt Florisoft de resterende hoeveelheid. Een volledig verwerkte regel verdwijnt uit de open picklijst en komt beschikbaar in **Verwerkt**. Als `RemoveLogisticParcelWhenZero` actief is, kan een gebruikte logistieke partij bij nul ook worden verwijderd; het verwerkte item blijft dan beschikbaar om te controleren.
 
@@ -425,7 +425,7 @@ Controleer de bijbehorende licentie en de vereiste integratie. Controleer voor f
 ## Belangrijk voor een correcte inrichting
 
 - Gebruik `GenericPicking` als `UseCaseKind` voor deze workflow.
-- Kies één duidelijke pickmethode en combineer `SplitOrderPicking`, `ScanPerUnit` en `ConfirmPickWithScan` niet zonder een bewuste test.
+- Kies één duidelijke pickmethode en combineer `SplitOrderPicking`, `ScanPerUnitMode` en `ConfirmPickWithScanMode` niet zonder een bewuste test.
 - Test de beschikbare voorraden, dragerverdeling en locatieweergave met werkelijke magazijngegevens.
 - Test iedere printer, lay-out en instructiebarcode voordat de policy in productie wordt gebruikt.
 - Leg tekorten vast als afwijking en niet als volledig gepickt.

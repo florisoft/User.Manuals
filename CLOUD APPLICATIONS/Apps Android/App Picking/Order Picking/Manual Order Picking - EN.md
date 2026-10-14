@@ -249,13 +249,13 @@ An information marker indicates that a product may be divided over multiple loca
 The combination of three policies determines the confirmation method:
 
 - when `SplitOrderPicking` is enabled, the picker enters the number of full colli and any remainder;
-- when `ScanPerUnit` is enabled, the picker scans each colli separately and the app shows a counter and progress bar;
-- when `ConfirmPickWithScan` is enabled, the picker confirms the active product with a matching second scan;
+- `ScanPerUnitMode` determines how each colli is checked: `AllBarcodes` counts every scan, `PickItemBarcodes` accepts only a matching pick-item label and `UniquePickItemBarcodes` accepts such a label only once. The app shows a counter and automatically processes the pick item when the required number of colli has been scanned;
+- `ConfirmPickWithScanMode` determines how the picker confirms the active product: `StockItemBarcode` requires a matching stock-item barcode and `OrderItemBarcode` a matching pick-item label. This setting is used only when `ScanPerUnitMode` is disabled;
 - when all three are disabled, the picker confirms with the **check-mark** button.
 
-`ConfirmPickWithScan` and `ScanPerUnit` are disabled by default. `SplitOrderPicking` behaves as disabled when no value is configured.
+`ScanPerUnitMode` and `ConfirmPickWithScanMode` are `Disabled` by default. `SplitOrderPicking` behaves as disabled when no value is configured.
 
-Preferably configure one primary method. When `SplitOrderPicking` and `ScanPerUnit` are enabled together, the split-picking calculation takes precedence during final processing. A clear policy prevents the screen instruction and expected action from becoming confusing.
+Preferably configure one primary method. `ScanPerUnitMode` takes precedence over `ConfirmPickWithScanMode`; combine them only when the scan-per-colli flow has been deliberately tested. Always test a combination with `SplitOrderPicking` separately so that the screen instruction and the expected picker action remain clear.
 
 After successful registration, Florisoft reduces the remaining quantity. A fully processed line disappears from the open pick list and is available in **Processed**. When `RemoveLogisticParcelWhenZero` is enabled, a used logistic parcel can also be removed at zero; the processed item remains available for review.
 
@@ -425,7 +425,7 @@ Check the corresponding licence and the required integration. For photos, also c
 ## Important for a correct configuration
 
 - Use `GenericPicking` as the `UseCaseKind` for this workflow.
-- Select one clear picking method and do not combine `SplitOrderPicking`, `ScanPerUnit` and `ConfirmPickWithScan` without deliberate testing.
+- Select one clear picking method and do not combine `SplitOrderPicking`, `ScanPerUnitMode` and `ConfirmPickWithScanMode` without deliberate testing.
 - Test the available stocks, carrier distribution and location display with actual warehouse data.
 - Test every printer, layout and instruction barcode before using the policy in production.
 - Record shortages as discrepancies, not as fully picked.
