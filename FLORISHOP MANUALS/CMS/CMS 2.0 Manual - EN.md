@@ -214,13 +214,13 @@ Different types of content can be placed on a CMS page, such as images, videos, 
 | Step | Description |
 |:--|:--|
 | **1** | After creating a category, navigate via **Content Management (CMS)** (1) to **Pages** (2).<details><summary><b>Click here for the example image</b></summary><img src="media/2.1.png"></details> |
-| **2** | Click the **'+'** icon (3) to create a new page. The page creation screen will open. Then enter the following settings:<br><br>- **URL (4):** the name of the page that will be visible in the URL. You do not need to enter the full domain here; only the path is required, for example, `example`.<br>**DO NOT USE SPACES OR CAPITAL LETTERS!**<br><br>- **Page display name (5):** the name that will be visible to the customer on the website.<br><br>- **Category (6):** select the appropriate category. This is the category created in the previous chapter.<br><br>- **Template — OPTIONAL (7):** select a template that will automatically populate the page when it is created.<br><br>- **Is visible in navigation (8):** enable this option to make the page visible in the webshop.<br><br>- **Submit (9):** click **'Submit'** to create the page.<details><summary><b>Click here for the example image</b></summary><img src="media/2.2.png"></details> |
+| **2** | Click the **'+'** icon (3) to create a new page. The page creation screen will open. Then enter the following settings:<br><br>- **URL (4):** the name of the page that will be visible in the URL. You do not need to enter the full domain here; only the path is required, for example, `example`.<br>**DO NOT USE SPACES OR CAPITAL LETTERS!**<br><br>- **Page display name (5):** the name that will be visible to the customer on the website.<br><br>- **Category (6):** select the appropriate category. This is the category created in the previous chapter.<br><br>- **Template — OPTIONAL (7):** select a template that will automatically populate the page when it is created.<br><br>- **Is visible in navigation (8):** enable this option to make the page visible in the webshop.<br><br>- **Submit (9):** click **'Submit'** to create the page. New pages are created as **drafts** by default and are therefore not yet visible live.<details><summary><b>Click here for the example image</b></summary><img src="media/2.2.png"></details> |
 | **3** | Click the **pencil icon** (10) to open the **Properties** dialog (11) of the newly created page. Then click **'[Edit translations](#translations)'** (12).<details><summary><b>Click here for the example image</b></summary><img src="media/2.3.png"></details> |
 | **4** | The translation dialog opens. The configured default language (13) is displayed on the left. Use the dropdown on the right (14) to select the language you want to add or edit. Then enter the following information:<br><br>- **URL (15):** enter the translated URL path.<br><br>- **Page display name (16):** enter the translated page display name.<br><br>- **Confirm (17):** click **'Confirm'** to save the changes.<details><summary><b>Click here for the example image</b></summary><img src="media/2.4.png"></details> |
 | **5** | Open the **'Visibility'** tab (18). Then configure the following settings:<br><br>- **Language Zone Selection (19):** select one or more languages from the dropdown to which this page should be linked. Then, under **Zone selection** (20), select a CMS zone that you created yourself.<br><br>- **Valid from (21) and Valid until (22):** set the date and time at which the above settings should become active.<details><summary><b>Click here for the example image</b></summary><img src="media/2.5.png"></details> |
 | **6** | In the **'SEO'** tab (23), you can configure SEO (search engine optimization) settings. This helps search engines, such as Google, find your website more easily. You can find more information about SEO settings [here](#seo). Then click **'Save'** (24).<details><summary><b>Click here for the example image</b></summary><img src="media/2.6.png"></details> |
 | **7** | Click the orange icon (25) or **'Unsaved changes'** (26).<details><summary><b>Click here for the example image</b></summary><img src="media/2.7.png"></details> |
-| **8** | To publish the page and make it available live, click **'Publish all'** (27) or the publish icon (28). Then confirm the publication by clicking **'Yes'** (29).<details><summary><b>Click here for the example image</b></summary><img src="media/2.8.png"></details> |
+| **8** | Click **'Publish all'** (27) or the publish icon (28). Choose **'As a draft'** to publish the changes while keeping the page as a draft, or choose **'Yes'** to remove the draft status and make the page available live.<details><summary><b>Click here for the example image</b></summary><img src="media/2.8.png"></details> |
 | **9** | In addition to creating CMS pages, it is also possible to create one or more subpages under an existing page. You can create a subpage using the **'+'** button (30).<details><summary><b>Click here for the example image</b></summary><img src="media/2.9.png"></details> |
 
 ---
@@ -256,6 +256,8 @@ A Blog Page is an accessible component within the CMS where content can be added
 - Use **Pages** for important basic pages such as a Contact, Customer Registration, or About Us page.
 - Use **Blog Pages** for news items, events, or highlighting a specific stock item/product.
 
+New blog pages are created as **drafts** by default and are therefore not yet visible live.
+
 *Follow the steps below:*
 
 |#|Explanation|
@@ -267,7 +269,7 @@ A Blog Page is an accessible component within the CMS where content can be added
 |**5**|Open the '*Visibility*' tab (17). Configure the following settings:<br><br>- **Language Zone Selection (18):** select one or more languages from the dropdown menu to which this category should be linked. Under Zone selection (19), select a custom CMS Zone.<br><br>- **Valid from (20) and Valid until (21):** under 'Valid from' and 'Valid until', dates and times can be configured for when the settings above should apply.<details><summary><b>Click here for the example image</b></summary><img src="media/4.5.png"></details>|
 |**6**|In the '*SEO*' tab (22), settings related to SEO (Search Engine Optimization) can be configured. This allows search engines such as Google to find your website more easily. More information about SEO settings [can be found here](#seo). Click '*Save*' (23).<details><summary><b>Click here for the example image</b></summary><img src="media/4.6.png"></details>|
 |**7**|Click on 'Unsaved changes' (24).<details><summary><b>Click here for the example image</b></summary><img src="media/4.7.png"></details>|
-|**8**|To publish the page and make it available live, click the 'Publish all' button (25) or the publish icon (26). Confirm the publication by clicking 'Yes' (27).<details><summary><b>Click here for the example image</b></summary><img src="media/4.8.png"></details>|
+|**8**|Click the 'Publish all' button (25) or the publish icon (26). Choose **'As a draft'** to publish the changes while keeping the page as a draft, or choose **'Yes'** to remove the draft status and make the page available live.<details><summary><b>Click here for the example image</b></summary><img src="media/4.8.png"></details>|
 
 ---
 
@@ -1077,7 +1079,7 @@ Use this component to make CMS (blog) pages searchable on your website. This all
 
 | Onderdeel | Beschrijving |
 |---|---|
-| Banner | Deze beschrijving wordt aangevuld |
+| Banner | Use a Banner to display an image with a title and subtitle. Under **URL**, enter an external or relative URL, or select an internal CMS page. A selected CMS page is used automatically as the link target. |
 
 ---
 
@@ -1176,6 +1178,8 @@ Use this component to enter textual data within a form.
 
 This input field only accepts valid email addresses. Additionally, it can be configured to automatically send a confirmation email to the entered email address. The content of this email can be configured in the [Form](#form) component.
 
+Use the **Styling** tab to configure the input field's styling, including component style, container style, and **Label color**.
+
 *Follow the steps below (this is a continuation of the explanation of [Text Input](#text-input)):*
 
 |Step|Explanation|
@@ -1190,7 +1194,7 @@ This input field only accepts valid email addresses. Additionally, it can be con
 
 Use this component within a form when only numeric values should be entered.
 
-The functionality and available settings of this component are largely the same as the [Text input](#text-input) component.
+The functionality and available settings of this component are largely the same as the [Text input](#text-input) component. You can also use the **Styling** tab to configure the input field's component style and container style.
 
 ---
 
@@ -1297,6 +1301,8 @@ The debtor does not need to enter this information manually. Because the debtor 
 #### Submit button
 
 Use this component to submit a form and process the entered data.
+
+In addition to an external or relative URL, you can select a CMS page as the link target. Leave the link target empty when the button should only submit the form.
 
 |Step|Explanation|
 |:--|:--|

@@ -213,13 +213,13 @@ Op een CMS-pagina kunnen verschillende soorten content worden geplaatst, zoals a
 | Stap | Uitleg |
 |:--|:--|
 | **1** | Nadat je een categorie hebt aangemaakt, navigeer je via **Content Management (CMS)** (1) naar **Pagina's** (2).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.1.png"></details> |
-| **2** | Klik op het **'+'**-icoon (3) om een nieuwe pagina aan te maken. Het scherm voor het aanmaken van een pagina wordt geopend. Vul vervolgens de volgende instellingen in:<br><br>- **URL (4):** de naam van de pagina die zichtbaar wordt in de URL. Je hoeft hier niet het volledige domein in te vullen; alleen het pad is voldoende, bijvoorbeeld `voorbeeld`.<br>**GEBRUIK GEEN SPATIES EN HOOFDLETTERS!**<br><br>- **Page display name (5):** de naam die zichtbaar wordt voor de klant op de website.<br><br>- **Category (6):** selecteer de juiste categorie. Dit is de categorie die in het vorige hoofdstuk is aangemaakt.<br><br>- **Template — OPTIONEEL (7):** selecteer een template waarmee de pagina bij het aanmaken automatisch wordt gevuld.<br><br>- **Is visible in navigation (8):** schakel deze optie in om de pagina zichtbaar te maken in de webshop.<br><br>- **Submit (9):** klik op **'Submit'** om de pagina aan te maken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.2.png"></details> |
+| **2** | Klik op het **'+'**-icoon (3) om een nieuwe pagina aan te maken. Het scherm voor het aanmaken van een pagina wordt geopend. Vul vervolgens de volgende instellingen in:<br><br>- **URL (4):** de naam van de pagina die zichtbaar wordt in de URL. Je hoeft hier niet het volledige domein in te vullen; alleen het pad is voldoende, bijvoorbeeld `voorbeeld`.<br>**GEBRUIK GEEN SPATIES EN HOOFDLETTERS!**<br><br>- **Page display name (5):** de naam die zichtbaar wordt voor de klant op de website.<br><br>- **Category (6):** selecteer de juiste categorie. Dit is de categorie die in het vorige hoofdstuk is aangemaakt.<br><br>- **Template — OPTIONEEL (7):** selecteer een template waarmee de pagina bij het aanmaken automatisch wordt gevuld.<br><br>- **Is visible in navigation (8):** schakel deze optie in om de pagina zichtbaar te maken in de webshop.<br><br>- **Submit (9):** klik op **'Submit'** om de pagina aan te maken. Nieuwe pagina's worden standaard als **concept** aangemaakt en zijn daardoor nog niet live zichtbaar.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.2.png"></details> |
 | **3** | Klik op het **potlood-icoon** (10) om het **Properties**-dialoogvenster (11) van de zojuist aangemaakte pagina te openen. Klik vervolgens op **'[Vertalingen bewerken](#vertalingen)'** (12).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.3.png"></details> |
 | **4** | Het vertalingsdialoogvenster wordt geopend. De ingestelde standaardtaal (13) wordt aan de linkerkant weergegeven. Selecteer via de dropdown aan de rechterkant (14) de taal die je wilt toevoegen of bewerken. Stel vervolgens de volgende gegevens in:<br><br>- **URL (15):** voer de vertaling van het URL-pad in.<br><br>- **Weergave pagina naam (16):** voer de vertaling van de weergegeven paginanaam in.<br><br>- **Bevestigen (17):** klik op **'Bevestigen'** om de wijzigingen op te slaan.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.4.png"></details> |
 | **5** | Open het tabblad **'Visibility'** (18). Stel vervolgens de volgende instellingen in:<br><br>- **Taal Zone Selectie (19):** vink in het dropdownmenu één of meerdere talen aan waaraan deze pagina gekoppeld moet worden. Selecteer vervolgens bij **Zone selectie** (20) een zelf aangemaakte CMS-zone.<br><br>- **Geldig vanaf (21) en Geldig tot (22):** stel hier de datum en tijd in waarop de bovenstaande instellingen actief moeten zijn.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.5.png"></details> |
 | **6** | In het tabblad **'SEO'** (23) kunnen instellingen voor SEO (zoekmachineoptimalisatie) worden geconfigureerd. Hiermee kun je ervoor zorgen dat zoekmachines, zoals Google, je website beter kunnen vinden. Meer informatie over SEO-instellingen [vind je hier](#seo). Klik vervolgens op **'Opslaan'** (24).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.6.png"></details> |
 | **7** | Klik op het oranje icoon (25) of op **'Niet-opgeslagen wijzigingen'** (26).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.7.png"></details> |
-| **8** | Om de pagina te publiceren en live beschikbaar te maken, klik je op **'Publish all'** (27) of op het publish-icoon (28). Bevestig het publiceren vervolgens door op **'Ja'** (29) te klikken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.8.png"></details> |
+| **8** | Klik op **'Publish all'** (27) of op het publish-icoon (28). Kies **'Als een concept'** om de wijzigingen te publiceren maar de pagina concept te laten, of kies **'Ja'** om de conceptstatus te verwijderen en de pagina live beschikbaar te maken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.8.png"></details> |
 | **9** | Naast het aanmaken van CMS-pagina's is het ook mogelijk om één of meerdere subpagina's aan te maken onder een bestaande pagina. Een subpagina maak je aan via de **'+'**-knop (30).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/2.9.png"></details> |
 
 ---
@@ -252,6 +252,8 @@ Pagina categorieën en blogcategorieën lijken in veel opzichten op elkaar. Het 
 
 Een Blogpagina is een toegankelijk onderdeel binnen het CMS waarop content geplaatst kan worden. Een Blogpagina kan onder een zelf gecreëerde categorie vallen. Op een Blogpagina kunnen verschillende elementen geplaatst worden, zoals afbeeldingen, video’s, tekstblokken, tabellen, enzovoort. CMS Pagina's en Blogpagina's lijken best veel op elkaar, maar onderscheiden doe je ze als volgt:<br><br>- Gebruik Pagina's voor belangrijke basis pagina's zoals een Contact, Klantregistratie of een Over Ons pagina.<br>- Gebruik Blogpagina's voor bijvoorbeeld nieuws items, evenementen of het uitlichten van een specifieke voorraad/artikel.
 
+Nieuwe blogpagina's worden standaard als **concept** aangemaakt en zijn daardoor nog niet live zichtbaar.
+
 *Volg onderstaande stappen:*
 
 |#|Uitleg|
@@ -263,7 +265,7 @@ Een Blogpagina is een toegankelijk onderdeel binnen het CMS waarop content gepla
 |**5**|Open het tabblad '*Visibility*' (17). Stel de volgende instellingen in:<br><br>- **Taal Zone Selectie (18)**: vink onder het dropdownmenu één of meerdere talen aan waaraan deze categorie gekoppeld moet worden. Onder Zone selectie (19) selecteer je een eigen gemaakte CMS Zone.<br><br>- **Geldig vanaf (20) en Geldig tot (21)**: onder 'Geldig vanaf' en 'Geldig tot' kunnen datums en tijden worden ingesteld waarop bovenstaande instellingen van toepassing zijn.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/4.5.png"></details>|
 |**6**|In het tabblad '*SEO*' (22) kunnen instellingen met betrekking tot SEO (zoekmachineoptimalisatie) worden ingesteld. Hiermee kun je ervoor zorgen dat zoekmachines zoals Google jouw website sneller kunnen vinden. Meer informatie over SEO instellingen [vind je hier](#seo). Klik op '*Opslaan*' (23).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/4.6.png"></details>|
 |**7**|Klik op 'Niet-opgeslagen wijzigingen' (24).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/4.7.png"></details>|
-|**8**|Om de pagina te publiceren en dus live te kunnen gebruiken klik je op de knop 'Publish all' (25) of het publish-icoon (26). Vervolgens kun je het publiceren bevestigen door op 'Ja' (27) te klikken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/4.8.png"></details>|
+|**8**|Klik op de knop 'Publish all' (25) of het publish-icoon (26). Kies **'Als een concept'** om de wijzigingen te publiceren maar de pagina concept te laten, of kies **'Ja'** om de conceptstatus te verwijderen en de pagina live beschikbaar te maken.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/4.8.png"></details>|
 
 ---
 
@@ -1072,7 +1074,7 @@ Gebruik dit component om CMS- (blog)pagina's vindbaar te maken binnen je website
 
 | Onderdeel | Beschrijving |
 |---|---|
-| Banner | Deze beschrijving wordt aangevuld |
+| Banner | Gebruik een Banner om een afbeelding met titel en subtitel weer te geven. Je kunt bij **URL** een externe of relatieve URL invullen, of een interne CMS-pagina selecteren. Een geselecteerde CMS-pagina wordt automatisch als linkdoel gebruikt. |
 
 ---
 
@@ -1171,6 +1173,8 @@ Gebruik dit component om tekstuele gegevens in te voeren binnen een formulier.
 
 Dit invoerveld accepteert alleen geldige e-mailadressen. Daarnaast kan worden ingesteld dat automatisch een bevestigingsmail wordt verzonden naar het ingevulde e-mailadres. De inhoud van deze e-mail kan worden ingesteld in het [Formulier](#formulier)-component.
 
+Via het tabblad **Styling** kun je de opmaak van het invoerveld aanpassen, waaronder de componentstijl, containerstijl en **Labelkleur**.
+
 *Volg onderstaande stappen (dit is een vervolg op de uitleg van [Tekst Input](#tekst-input)):*
 
 |Stap|Uitleg|
@@ -1185,7 +1189,7 @@ Dit invoerveld accepteert alleen geldige e-mailadressen. Daarnaast kan worden in
 
 Gebruik dit component binnen een formulier wanneer er uitsluitend numerieke waarden mogen worden ingevoerd.
 
-De werking en beschikbare instellingen van dit component komen grotendeels overeen met het [Tekst input](#tekst-input)-component.
+De werking en beschikbare instellingen van dit component komen grotendeels overeen met het [Tekst input](#tekst-input)-component. Via het tabblad **Styling** kun je bovendien de componentstijl en containerstijl van het invoerveld aanpassen.
 
 ---
 
@@ -1292,6 +1296,8 @@ De debiteur hoeft deze gegevens niet zelf in te vullen. Omdat de debiteur is ing
 #### Verzendknop
 
 Gebruik dit component om een formulier te verzenden en de ingevulde gegevens te verwerken.
+
+Naast een externe of relatieve URL kun je ook een CMS-pagina als linkdoel selecteren. Laat het linkdoel leeg wanneer de knop uitsluitend het formulier moet verzenden.
 
 |Stap|Uitleg|
 |:--|:--|
