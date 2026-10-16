@@ -170,6 +170,9 @@ Met deze policy kun je extra add-ons inschakelen die extra functionaliteit aan d
 * **Returnables**
   Maakt het mogelijk om vanuit Final Outbound Check uitgaand fust bij de actieve order te registreren. Hiervoor moet Returnables Outbound beschikbaar zijn en moet de actieve order voldoende klant- en ordercontext bevatten. Zie de [handleiding Returnables Outbound](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Returnables/Returnables%20Outbound/Handleiding%20Returnables%20Outbound%20-%20NL.md) voor de volledige inrichting en werkwijze.
 
+* **Facturen akkoord geven**
+  Maakt het mogelijk om vanuit Final Outbound Check de facturen van de actieve scope akkoord te geven. Gebruik deze actie pas nadat de logistieke eindcontrole is afgerond, zodat de factuur kan worden doorgeboekt. De actie legt op iedere geraakte orderkop de actuele datum, tijd en ingelogde gebruiker vast. Bij opnieuw uitvoeren worden deze gegevens vernieuwd.
+
 ### `Addons_PhotoStorageDirectoryPath`
 
 Standaard worden de foto's van Final Outbound Check opgeslagen in de archiefmap van de datafolder. Het advies is om deze standaardlocatie te gebruiken en deze policy niet in te vullen.

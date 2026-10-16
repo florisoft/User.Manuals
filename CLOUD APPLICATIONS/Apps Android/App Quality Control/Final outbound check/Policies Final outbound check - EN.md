@@ -165,6 +165,9 @@ Allows you to enable additional add-ons that add extra functionality to the app.
 * **Returnables**
   Allows outgoing returnable packaging to be registered for the active order from Final Outbound Check. Returnables Outbound must be available and the active order must provide sufficient customer and order context. See the [Returnables Outbound manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Returnables/Returnables%20Outbound/Manual%20Returnables%20Outbound%20-%20EN.md) for the complete configuration and procedure.
 
+* **Approve invoices**
+  Allows invoices in the active Final Outbound Check scope to be approved. Use this action after the logistical final check is complete so that the invoice can be posted. The action records the current date, time and logged-in user on every affected order header. Running it again refreshes these values.
+
 ### `Addons_PhotoStorageDirectoryPath`
 
 By default, Final Outbound Check photos are stored in the archive directory of the data folder. We recommend using this default location and leaving this policy empty.

@@ -125,6 +125,12 @@ There are also additional options:
 <br>
 By clicking Next, any follow-up steps can be performed, such as taking photos.
 
+### Approve invoices
+
+After the logistical final check is complete, you can release the invoice for posting. Enable the **Approve invoices** option in `Addons_EnableAddons` in the Final Outbound Check policy. Complete the active scope, open the additional actions and select **Approve invoices**.
+
+The app records the date, time and logged-in user on every affected order header. For a hub, date grouping or other grouped scope, all orders within the active scope are processed. If you run the action again, these values are updated with the current date, time and user.
+
 ### Show photos on the invoice
 
 Photos stored during Final Outbound Check can be added to the invoice layout.

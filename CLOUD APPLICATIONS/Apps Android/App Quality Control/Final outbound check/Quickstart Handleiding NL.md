@@ -124,6 +124,12 @@ Daarnaast zijn er extra mogelijkheden:
 <br>
 Door op next te klikken, kunnen eventuele vervolgstappen worden uitgevoerd, zoals het maken van foto's.
 
+### Facturen akkoord geven
+
+Nadat de logistieke eindcontrole is afgerond, kunt u de factuur vrijgeven om door te boeken. Schakel hiervoor in de Final Outbound Check-policy bij `Addons_EnableAddons` de optie **Facturen akkoord geven** in. Rond de actieve scope af, open de aanvullende acties en kies **Facturen akkoord geven**.
+
+De app legt per geraakte orderkop de datum, tijd en ingelogde gebruiker vast. Bij een hub, datumgroepering of andere groepsscope worden alle orders binnen de actieve scope verwerkt. Als u de actie opnieuw uitvoert, worden deze gegevens opnieuw met de actuele datum, tijd en gebruiker vastgelegd.
+
 ### Foto's op de factuur tonen
 
 Foto's die tijdens Final Outbound Check zijn opgeslagen, kunnen aan de factuurlay-out worden toegevoegd.
