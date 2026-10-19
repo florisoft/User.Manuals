@@ -108,6 +108,14 @@ Relevant settings:
 
 Practical use: enter the new quantity, add a reason if needed, and confirm. If the mutation settings are enabled, discrepancies entered during Consolidation are processed directly as mutations instead of temporary counts. This can result in immediate postings. The configured customer code determines which debtor discrepancies are posted to, unless a stock-specific customer code is configured. Optionally, automatic internal xorders, or picking orders, can be created for further processing. If your environment works with stored parcels, those are synchronized as well when the option is enabled. Note: these settings can have financial consequences. Always test them in a test environment first and consult your finance or implementation team.
 
+### CC Sales Unit
+
+The **CC Sales Unit** stock setting determines the increment that Consolidation uses when increasing or decreasing the total quantity in the parcel details.
+
+When you choose **Box**, the app uses the parcel's **Box content** as the increment. If box content is empty or 0, the app automatically uses the **Colli content** instead. This prevents empty box content from being processed as 0.
+
+When you choose another sales unit, Consolidation uses the corresponding parcel content as the increment, for example **Colli content** for Colli.
+
 ---
 
 ## Step 5 - Record quality issues (optional)

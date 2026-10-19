@@ -109,6 +109,14 @@ Relevante instellingen:
 
 Praktisch: voer de nieuwe hoeveelheid in, vul indien nodig een reden in en bevestig. Als de mutatie-instellingen geactiveerd zijn, worden afwijkingen die tijdens Consolidation worden ingevoerd direct als mutaties verwerkt (in plaats van als tijdelijke tellingen). Dit kan leiden tot directe boekingen; de ingestelde klantcode bepaalt op welke debiteur afwijkingen worden geboekt, tenzij een voorraad-specifieke klantcode is ingesteld. Optioneel kunnen automatische interne xorders (pickorders) aangemaakt worden voor verdere verwerking. Als uw omgeving werkt met opgeslagen partijen, worden ook die gesynchroniseerd wanneer de optie actief is. Let op: deze instellingen kunnen financiële gevolgen hebben — test daarom altijd eerst in een testomgeving en overleg met uw finance/implementatie-team.
 
+### CC VerkoopEenheid
+
+Met de voorraadinstelling **CC VerkoopEenheid** bepaalt u met welke stapgrootte Consolidation de totale hoeveelheid in het partij-detail verhoogt of verlaagt.
+
+Kiest u **Doos**, dan gebruikt de app de **Inhoud doos** van de partij als stapgrootte. Is de inhoud doos leeg of 0, dan gebruikt de app automatisch de **Inhoud kolli**. Hierdoor wordt een lege doosinhoud niet als 0 verwerkt.
+
+Kiest u een andere verkoopeenheid, dan gebruikt Consolidation de bijbehorende inhoud van de partij als stapgrootte, bijvoorbeeld **Inhoud kolli** bij Colli.
+
 ---
 
 ## Stap 5 — Kwaliteitsissues registreren (optioneel)
