@@ -60,16 +60,16 @@
 #### 3. Styling
 - [Color picker](#color-picker)
 - [Omlijning](#omlijning)
-- [Margin/padding](#margin-padding)
+- [Margin/padding](#marginpadding)
 - [Hoekafronding](#hoekafronding)
-- [Hoogte/Breedte](#hoogte-breedte)
+- [Hoogte/Breedte](#hoogtebreedte)
 - [Slagschaduw](#slagschaduw)
 - [Overflow](#overflow)
 
 #### 4. Geavanceerd
 - [Verborgen wanneer leeg](#verborgen-wanneer-leeg)
 - [Toevoeg-knop zichtbaarheid (in editor)](#toevoegknop-zichtbaarheid-in-editor)
-- [Identificatie naam](#identificatie-naam)
+- [Identificatie naam](#identificatienaam)
 - [Slotnaam](#slotnaam)
 - [HTML klassenaam](#html-klassenaam)
 - [Tag](#tag)
@@ -93,7 +93,7 @@
 - [Header](#header)
 - [Text](#text)
 - [Collapsible](#collapsible)
-- [Bullet list/Bullet](#bullet-list-bullet)
+- [Bullet list/Bullet](#bullet-listbullet)
 - [Spacer](#spacer)
 
 #### 2. Media
@@ -138,7 +138,7 @@
 
 #### 5. Gebruiker
 - [Login form](#login-form)
-- [Debiteur info](#debit-info)
+- [Debiteur info](#debiteur-info)
 - [Uw account](#uw-account)
 - [Accountmanager](#accountmanager)
 - [Registratieformulier](#registratieformulier)
@@ -717,9 +717,12 @@ Geef je [componenten](#componenten) een eigen naam om meer structuur en overzich
 
 #### Slotnaam
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Geavanceerd | Deze beschrijving wordt aangevuld |
+Met **Slotnaam** koppel je een component aan een benoemde plaats binnen een Custom- of Keuze-component. Dit bepaalt waar de inhoud wordt weergegeven.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Instellen** | Selecteer het onderliggende component en open **Geavanceerd**. Vul de exacte naam van het bedoelde slot in. Bij een Keuze-component kun je inhoud via de gegenereerde slots in de Navigator toevoegen. |
+| **Gebruik** | Laat dit veld leeg bij gewone pagina-inhoud. Een slotnaam maakt zelf geen nieuwe plaats aan; deze moet door het bovenliggende component worden ondersteund. |
 
 ---
 
@@ -795,6 +798,8 @@ Met **Content uitlichten** kun je [componenten](#componenten) zichtbaar maken vo
 
 ## Componenten
 
+Voor de componenten hieronder geldt dezelfde werkwijze: open de gewenste pagina, schakel de **CMS Editor** in en voeg het component via het **+**-icoon bij de juiste bovenliggende component toe. Selecteer het component in de Navigator om de instellingen te bewerken. Gebruik waar beschikbaar de tabbladen **Algemene instellingen**, **Styling**, **Geavanceerd** en **Zichtbaarheid**. Controleer vertalingen en de weergave op desktop, tablet en mobiel. Sla de wijzigingen op en publiceer ze om ze live te tonen. Controleer interactieve onderdelen ook buiten de editor en gebruik bij klantgebonden inhoud het bedoelde klantaccount.
+
 ### Basis
 
 Basis-componenten vormen de fundering van je [pagina](#pagina). Met deze componenten bouw je de basisstructuur waarop je de rest van je pagina kunt opbouwen.
@@ -860,9 +865,12 @@ Met het **Flex**-component kun je inhoud flexibel positioneren en uitlijnen. Voe
 
 #### Header
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Header | Deze beschrijving wordt aangevuld |
+Gebruik **Header** voor een kop met een optionele ondertitel, bijvoorbeeld boven een introductie of productoverzicht.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Tekst** | Vul **Titel** en eventueel **Subtitel** in onder **Algemene instellingen**. Voeg via Vertalingen de teksten voor andere talen toe. |
+| **Weergave** | Kies de grootte: Small, Medium of Large. Stel onder Styling de tekstkleur, achtergrond en uitlijning in. |
 
 ---
 
@@ -883,25 +891,36 @@ Vertalingen kun je bewerken via de knop **[Vertalingen bewerken](#vertalingen)**
 
 #### Collapsible
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Collapsible | Deze beschrijving wordt aangevuld |
+Met **Collapsible** maak je een uitklapbaar blok. De bezoeker klikt op de kop om de onderliggende inhoud te openen of te sluiten. Dit is geschikt voor veelgestelde vragen.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Kop** | Vul bij **Content** de tekst voor de aanklikbare kop in en voeg zo nodig vertalingen toe. |
+| **Inhoud** | Voeg via het plus-icoon in de Navigator componenten toe binnen Collapsible, bijvoorbeeld Text of Image. |
+| **Opmaak** | Stel de achtergrondkleur van de kop in. Gebruik Styling voor de inhoud en de container. Controleer buiten de editor of het blok goed opent en sluit. |
 
 ---
 
 #### Bullet list/Bullet
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Bullet list | Deze beschrijving wordt aangevuld |
+Gebruik **Bullet list** voor een opsomming en voeg voor ieder lijstitem een **Bullet** toe binnen de lijst.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Lijst** | Voeg Bullet list toe. Kies het opsommingsteken en stel de tekstkleur en lettergrootte in. |
+| **Items** | Voeg via het plus-icoon op de lijst Bullet-componenten toe. Vul per Bullet de tekst en vertalingen in. Stel de volgorde in met **Order**. |
+| **Controle** | Controleer de lijst als geheel: het gekozen pictogram en de opmaak horen bij de lijst, de teksten bij de afzonderlijke Bullets. |
 
 ---
 
 #### Spacer
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Spacer | Deze beschrijving wordt aangevuld |
+Een **Spacer** voegt verticale lege ruimte toe tussen componenten.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Hoogte** | Vul de gewenste hoogte in pixels in. Je kunt afzonderlijke hoogtes voor tablet en mobiel instellen. |
+| **Terugval** | Gebruik de grootte Klein, Middelgroot of Groot als terugval wanneer geen specifieke pixelhoogte is ingesteld. Controleer het resultaat met de Responsive tabs. |
 
 ---
 
@@ -921,41 +940,61 @@ Upload een afbeelding via dit handige **Image**-component. Vervolgens kun je eve
 
 #### Image overlay
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Image overlay | Deze beschrijving wordt aangevuld |
+Met **Image overlay** plaats je een decoratieve afbeelding over de inhoud van het bovenliggende blok, bijvoorbeeld een hoekversiering.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Afbeelding** | Voeg het component toe binnen het bedoelde blok en selecteer de afbeelding via de mediakiezer. |
+| **Positie** | Kies linksboven, rechtsboven, linksonder of rechtsonder. Met **Transform** kun je horizontaal, verticaal of in beide richtingen spiegelen. |
+| **Controle** | Controleer op desktop en mobiel of de overlay geen belangrijke tekst of knoppen bedekt. |
 
 ---
 
 #### Hotspot
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Hotspot | Deze beschrijving wordt aangevuld |
+Een **Hotspot** is een aanklikbaar punt op een afbeelding. Hiermee kun je vanuit een specifieke plek naar extra informatie of een andere pagina verwijzen.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Plaatsen** | Voeg de Hotspot binnen het betreffende Image-component toe. Stel via de positie-editor de horizontale en verticale positie in; deze worden als percentages van de afbeelding gebruikt. |
+| **Inhoud** | Kies eventueel een icoon en achtergrondkleur. Vul **Tooltip** in voor de tekst die verschijnt wanneer de bezoeker met de muis over het punt beweegt. |
+| **Link** | Vul een URL in of selecteer een CMS-pagina. Kies eventueel Openen in nieuw tabblad. Controleer positie en link ook op mobiel. |
 
 ---
 
 #### SVG
 
-| Onderdeel | Beschrijving |
-|---|---|
-| SVG | Deze beschrijving wordt aangevuld |
+Gebruik **SVG** voor een schaalbare vectorafbeelding, zoals een logo of pictogram.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Bestand** | Selecteer een SVG-bestand via de mediakiezer. |
+| **Kleur** | Stel desgewenst de vulkleur in. Controleer het resultaat met het gekozen bestand; de eigen opbouw van het SVG-bestand bepaalt welke delen de kleur overnemen. |
+| **Link** | Vul optioneel een URL in of selecteer een CMS-pagina en stel in of de link in een nieuw tabblad opent. |
 
 ---
 
 #### HTML video
 
-| Onderdeel | Beschrijving |
-|---|---|
-| HTML video | Deze beschrijving wordt aangevuld |
+Met **HTML video** speel je een videobestand rechtstreeks in de pagina af.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Bron** | Selecteer een video uit Media of vul een directe link naar het videobestand in. Kies eventueel een **Poster image** als voorbeeldafbeelding. |
+| **Afspelen** | Stel Autoplay, Herhalen, Toon besturing en Dempen in. Browserinstellingen kunnen automatisch afspelen blokkeren; controleer dit op de apparaten van je bezoekers. |
+| **Laden en formaat** | Stel breedte, hoogte en **Preload** in. Preload bepaalt of vooraf niets, alleen metadata of het videobestand wordt geladen. Controleer het formaat en handmatig starten buiten de editor. |
 
 ---
 
 #### Youtube video
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Youtube video | Deze beschrijving wordt aangevuld |
+Gebruik **Youtube video** om een video van YouTube in de pagina in te sluiten.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Bron** | Vul bij **Video link** de YouTube-link in. |
+| **Weergave** | Kies de beeldverhouding en stel de startpositie in seconden in. Bepaal of de besturing en volledig scherm beschikbaar zijn. |
+| **Afspelen** | Stel automatisch afspelen, herhalen, dempen, captions en annotaties naar wens in. Het uiteindelijke gedrag hangt ook af van YouTube en de browser; controleer de video buiten de editor. |
 
 ---
 
@@ -973,9 +1012,13 @@ Met het **Carrousel**-component kun je meerdere elementen als afzonderlijke slid
 
 #### Picture row
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Picture row | Deze beschrijving wordt aangevuld |
+Een **Picture row** is een Row met een achtergrondafbeelding. Je plaatst Columns met bijvoorbeeld tekst en knoppen over deze achtergrond.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Achtergrond** | Selecteer de afbeelding en kies de achtergrondmodus. Bij **Fixed** blijft de achtergrond vast staan tijdens het scrollen; bij **Scroll** beweegt deze mee met de pagina. |
+| **Inhoud** | Voeg Columns toe zoals bij Row/Column en plaats daarin de gewenste componenten. Stel ruimte en hoogte via de layout- en stylinginstellingen in. |
+| **Controle** | Controleer op iedere schermgrootte de uitsnede en de leesbaarheid van tekst over de foto. |
 
 ---
 
@@ -1019,9 +1062,13 @@ Partijen die wel worden ingeladen, maar niet beschikbaar zijn, worden automatisc
 
 #### Partijkaart
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Partijkaart | Deze beschrijving wordt aangevuld |
+Met een **Partijkaart** licht je één specifieke partij uit de webshop uit.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Partij** | Vul het **Partijnummer** in en voeg eventueel een begeleidende tekst met vertalingen toe. Gebruik een partij die beschikbaar is voor de bedoelde debiteuren. |
+| **Stijl** | Kies de stijlmodus. Bij **Option2** zijn extra instellingen voor de koopweergave en de afbeelding beschikbaar. Je kunt hiervoor ook de webshopinstellingen volgen. |
+| **Controle** | Controleer de kaart met een klantaccount. De getoonde partijgegevens en koopmogelijkheden hangen af van de beschikbaarheid en klantinstellingen. **DisplayStyleMode** heeft in de huidige logica nog geen effect. |
 
 ---
 
@@ -1064,9 +1111,13 @@ Gebruik dit component om CMS- (blog)pagina's vindbaar te maken binnen je website
 
 #### Icon link
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Icon link | Deze beschrijving wordt aangevuld |
+Een **Icon link** combineert een link met tekst en een pictogram, eventueel met een afbeelding.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Inhoud** | Vul de tekst in. Kies een icoonbestand via Icon URL of schakel **Use icon font** in en vul de ondersteunde icoonnaam in. |
+| **Bestemming** | Vul een URL in of selecteer een CMS-pagina. Voeg zo nodig vertalingen voor tekst en URL toe. |
+| **Opmaak** | Gebruik **Round border** voor een ronde omlijning en stel eventueel een afbeelding in. Controleer de link en het openen in hetzelfde of een nieuw tabblad. |
 
 ---
 
@@ -1080,49 +1131,73 @@ Gebruik dit component om CMS- (blog)pagina's vindbaar te maken binnen je website
 
 #### Voorraad navigatie
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Voorraad navigatie | Deze beschrijving wordt aangevuld |
+Met **Voorraad navigatie** laat je bezoekers via voorraadgroepen naar de onderliggende voorraden navigeren. De inhoud volgt de voor de gebruiker beschikbare voorraadgroepen.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Navigatie** | Kies de navigatiemodus: Default of GroupOnly. Met GroupOnly beperk je de navigatie tot de groepen. Stel eventueel een geselecteerde voorraad in. |
+| **Aanbiedingen** | Schakel **Verberg aanbiedingen** in als aanbiedingsgroepen buiten dit overzicht moeten blijven. |
+| **Opmaak en controle** | Stel lettergrootte, tekstkleur, uitlijning, afmetingen en de rand van het geselecteerde item in. Controleer met een klantaccount of de bedoelde groepen en voorraden beschikbaar zijn. |
 
 ---
 
 #### Shop navigation
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Shop navigation | Deze beschrijving wordt aangevuld |
+**Shop navigation** maakt automatisch een overzicht van de voorraad- en bestellijstgroepen die voor de huidige gebruiker beschikbaar zijn.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Selectie** | Kies het type partijen dat moet worden getoond of kies Alle. Stel de layout in op tegels of een lijst. |
+| **Snelkoppelingen** | Bepaal of links naar aanbiedingen en favorieten worden weergegeven. |
+| **Opmaak** | Stel de achtergrond, eventueel kleurverloop, titeltekst en kleuren voor aanbiedingen en favorieten in. De groepen komen uit de webshopconfiguratie; je voegt ze niet handmatig als CMS-items toe. Controleer met verschillende klantaccounts. |
 
 ---
 
 #### Aanbieding
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Aanbieding | Deze beschrijving wordt aangevuld |
+**Aanbieding** toont de aanbiedingen die voor de huidige debiteur beschikbaar zijn. Zonder beschikbare aanbiedingen wordt het component niet weergegeven.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Inhoud** | Stel het maximale aantal aanbiedingen in en bepaal of een partijafbeelding wordt getoond. Onderwerp, toelichting en geldigheidsdatum komen uit de aanbieding. |
+| **Tijd en wisselen** | Schakel eventueel een countdown in. Met Full countdown kies je de uitgebreidere weergave. Stel voor automatisch wisselen Autoplay en het aantal seconden in. |
+| **Opmaak** | Stel de tekst en kleuren van de navigatieknop, titel, subtitel en achtergrond in. De knop opent de bijbehorende aanbieding. Controleer met een debiteur die toegang heeft tot een actieve aanbieding. |
 
 ---
 
 #### Action link
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Action link | Deze beschrijving wordt aangevuld |
+Met **Action link** maak je een blok met meerdere componenten als geheel aanklikbaar, bijvoorbeeld een kaart met afbeelding en tekst.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Inhoud** | Voeg de gewenste componenten binnen Action link toe via de Navigator. |
+| **Bestemming** | Vul de URL in of selecteer een CMS-pagina en kies eventueel Openen in nieuw tabblad. Voeg waar nodig URL-vertalingen toe. |
+| **Controle** | Klik buiten de editor op verschillende plaatsen in het blok om de bestemming te controleren. Houd de inhoud eenvoudig en vermijd afzonderlijke links binnen hetzelfde klikvlak. |
 
 ---
 
 #### Add to home button
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Add to home button | Deze beschrijving wordt aangevuld |
+Met **Add to home button** kan een bezoeker de webshop als app toevoegen wanneer de browser hiervoor een installatieverzoek beschikbaar stelt.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Instellen** | Voeg de knop toe en stel tekst, vertalingen en knopopmaak in zoals bij Button. |
+| **Werking** | Een klik opent het beschikbare installatievenster van de browser. Als geen installatieverzoek beschikbaar is, kan een melding verschijnen. De knop alleen maakt de webshop niet installeerbaar. |
+| **Controle** | Controleer dit buiten de editor in een ondersteunde browser en met de appconfiguratie van de webshop. Na installatie of op een niet-ondersteund apparaat kan het installatievenster ontbreken. |
 
 ---
 
 #### Anchors toolbar
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Anchors toolbar | Deze beschrijving wordt aangevuld |
+Een **Anchors toolbar** maakt een navigatiebalk naar gemarkeerde onderdelen op dezelfde pagina.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Doelen** | Vul bij de doelcomponenten een **Anchor name** in en schakel **Anchor in navigation** in. Alleen componenten met beide instellingen komen in het overzicht. |
+| **Balk** | Voeg Anchors toolbar toe aan dezelfde pagina. Stel uitlijning, scheidingsteken en afstand tussen items in. |
+| **Controle** | Controleer buiten de editor of iedere link naar het juiste onderdeel leidt. Zonder gemarkeerde componenten zijn er geen navigatie-items. |
 
 ---
 
@@ -1311,41 +1386,61 @@ Naast een externe of relatieve URL kun je ook een CMS-pagina als linkdoel select
 
 #### Login form
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Login form | Deze beschrijving wordt aangevuld |
+Met **Login form** plaats je het inlogformulier op een CMS-pagina.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Weergave** | Kies Compact of FullWidth en bepaal of de kop wordt verborgen. |
+| **Na inloggen** | Kies bij **Return URL mode** Home, Stock of Custom. Vul alleen bij Custom de gewenste terugkeer-URL in. |
+| **Extra opties** | Bepaal of Onthoud mij zichtbaar is en of Wachtwoord herstellen wordt verborgen. Controleer het formulier als uitgelogde bezoeker en controleer de bestemming na inloggen. |
 
 ---
 
 #### Debiteur info
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Debiteur info | Deze beschrijving wordt aangevuld |
+**Debiteur info** toont één gegeven van de huidige debiteur of diens accountmanager. De inhoud wordt automatisch uit de klantgegevens opgehaald.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Gegeven** | Selecteer het gewenste veld, bijvoorbeeld naam, gebruikers-ID, telefoon, e-mailadres, contactpersoon of accountmanagergegevens. Gebruik meerdere componenten om meerdere velden te tonen. |
+| **Lege waarden** | Vul eventueel een Placeholder in of gebruik Verborgen wanneer leeg om een ontbrekend gegeven niet weer te geven. |
+| **Controle** | Controleer met een ingelogde debiteur. Plaats persoonlijke accountinformatie zo nodig alleen zichtbaar voor debiteuren via Zichtbaarheid. Dit component toont gegevens en wijzigt ze niet. |
 
 ---
 
 #### Uw account
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Uw account | Deze beschrijving wordt aangevuld |
+**Uw account** toont snelkoppelingen naar de service- en accountfuncties van de webshop, zoals klantgegevens en facturen.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Inhoud** | De beschikbare functies worden door webshopinstellingen en gebruikersrechten bepaald. Je voert de links niet handmatig in; bijvoorbeeld de factuurknop volgt de factuurrechten. |
+| **Opmaak** | Stel het tonen van iconen, uitlijning, knopkleuren, hoverkleur, rand, hoekafronding, afmetingen en binnen- en buitenruimte in. |
+| **Controle** | Controleer met de bedoelde klantaccounts welke knoppen verschijnen en of ze de juiste servicepagina openen. |
 
 ---
 
 #### Accountmanager
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Accountmanager | Deze beschrijving wordt aangevuld |
+Met **Accountmanager** toon je de accountmanager die aan de huidige debiteur is gekoppeld.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Welkomstbericht** | Vul het welkomstbericht in en voeg eventuele vertalingen toe. |
+| **Gegevens** | De accountmanager wordt uit de debiteurinstellingen opgehaald. Een andere manager koppelen gebeurt in de backoffice; het CMS-component kiest deze niet zelf. |
+| **Controle** | Controleer met een debiteur waaraan een accountmanager met contactgegevens is gekoppeld. De precieze presentatie van deze gegevens hangt af van het gebruikte webshopthema. |
 
 ---
 
 #### Registratieformulier
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Registratieformulier | Deze beschrijving wordt aangevuld |
+Dit is het ingebouwde **Registratieformulier** voor B2C-klantregistratie. De beschikbaarheid is afhankelijk van de Florishop B2C-licentie.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Basis** | Selecteer de **Template-debiteur** waarop de registratie moet worden gebaseerd. Zonder template-debiteur worden de normale formuliervelden niet opgebouwd. |
+| **Velden** | Kies onder Formuliervelden welke velden worden weergegeven en welke verplicht zijn. Verplichte velden worden ook getoond wanneer ze niet afzonderlijk zijn geselecteerd. |
+| **Meldingen** | Stel de e-mailontvangers in en kies of de aanvrager een mail krijgt. Vul de foutteksten voor telefoonnummer en e-mailadres in. Controleer vóór gebruik een volledige registratie, inclusief validatie en e-mailafhandeling. |
 
 ---
 
@@ -1353,9 +1448,13 @@ Naast een externe of relatieve URL kun je ook een CMS-pagina als linkdoel select
 
 #### Footer template
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Footer template | Deze beschrijving wordt aangevuld |
+**Footer template** is een kant-en-klare opbouw met kolommen voor bedrijfsgegevens, openingstijden, informatielinks en sociale media.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Toevoegen** | Open Footer bewerken, schakel de editor in en voeg via Templates de Footer template toe. |
+| **Aanpassen** | Bewerk de onderliggende Text- en Social icons-componenten. Vervang alle voorbeeldgegevens en voorbeeldlinks en voeg vertalingen toe. |
+| **Publiceren** | Controleer de kolomindeling op mobiel, sla op en publiceer de footer. Een ingevoegde template bestaat uit bewerkbare componenten. Gebruik Frame wanneer je op meerdere plaatsen naar één beheerde template wilt verwijzen. |
 
 ---
 
@@ -1363,73 +1462,109 @@ Naast een externe of relatieve URL kun je ook een CMS-pagina als linkdoel select
 
 #### Iframe
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Iframe | Deze beschrijving wordt aangevuld |
+Met **Iframe** toon je een andere webpagina binnen de CMS-pagina.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Bron** | Vul de URL van de in te sluiten pagina in. Stel de hoogte in pixels in; het frame gebruikt de volledige beschikbare breedte. |
+| **Authenticatie** | Onder Geavanceerd kunnen authenticatieheaders worden ingesteld als de gekoppelde toepassing die integratie ondersteunt. Gebruik hiervoor de gegevens van de beheerder van die toepassing. |
+| **Controle** | Controleer de pagina buiten de editor. De externe toepassing moet insluiten toestaan en eventueel vereiste aanmelding ondersteunen; een correcte URL alleen garandeert geen zichtbare inhoud. |
 
 ---
 
 #### Blog
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Blog | Deze beschrijving wordt aangevuld |
+**Blog** maakt een overzicht van blogpagina's op basis van geselecteerde blogcategorieën. De weergave van ieder item komt uit een template.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Selectie** | Maak eerst blogcategorieën en blogpagina's aan. Selecteer daarna de categorieën in het component en gebruik eventueel labels om de selectie te verfijnen. |
+| **Template** | Selecteer een geschikte blogtemplate met bijvoorbeeld titel, afbeelding, beschrijving, datum en link. De pagina-inhoud en metadata worden voor elk item ingevuld. |
+| **Aantal** | Stel Max items en eventueel Pagination in. Met **BlogPageOffset** kun je de eerste items overslaan, bijvoorbeeld wanneer het nieuwste bericht apart wordt uitgelicht. Controleer het resultaat met gepubliceerde blogpagina's. |
 
 ---
 
 #### Category overview
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Category overview | Deze beschrijving wordt aangevuld |
+**Category overview** toont pagina's uit geselecteerde CMS-categorieën met een herhaalde template-opmaak.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Selectie** | Selecteer één of meer categorieën en eventueel tags om de inhoud te bepalen. |
+| **Weergave** | Selecteer de itemtemplate en stel Max items in. Met BlogPageOffset kun je items aan het begin overslaan. |
+| **Beheren** | Bewerk de bronpagina's voor inhoud en metadata en de template voor de itemopmaak. Je voegt geen losse items als onderliggende componenten aan dit overzicht toe. Gebruik Blog voor een overzicht met blogcategorieën en bloglabels. |
 
 ---
 
 #### Frame
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Frame | Deze beschrijving wordt aangevuld |
+Een **Frame** toont de inhoud van een geselecteerde template. Zo kun je dezelfde beheerde inhoud op meerdere plaatsen gebruiken.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Koppelen** | Maak eerst de gewenste template aan. Voeg Frame toe en selecteer deze bij **Synchroniseren met template-ID**. |
+| **Wijzigen** | Bewerk de bron via het templatebeheer. Het Frame haalt de template bij het weergeven op; de weergegeven template-inhoud wordt niet als losse paginacomponenten in het Frame bewerkt. |
+| **Controle** | Controleer alle pagina's waarop de template via Frame wordt gebruikt na een wijziging. Zonder geldige template kan het Frame geen template-inhoud tonen. |
 
 ---
 
 #### Custom
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Custom | Deze beschrijving wordt aangevuld |
+Met **Custom** maak je een eigen component met HTML, JavaScript en SCSS. Dit onderdeel is bedoeld voor beheerders met kennis van webontwikkeling.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Inhoud en opmaak** | Bewerk de HTML voor de structuur, SCSS voor de vormgeving en JavaScript voor interactie via de bijbehorende editors. |
+| **Vertalingen en slots** | Beheer tekstvertalingen met de vertaalsleutels. Gebruik benoemde slots wanneer gewone CMS-componenten in de eigen opbouw moeten worden geplaatst; koppel hun Slotnaam aan de juiste plaats. |
+| **Controle** | Controleer na opslaan de werking buiten de editor en op verschillende schermgroottes. Houd code en selectors gericht op dit component om onbedoelde effecten elders op de pagina te voorkomen. |
 
 ---
 
 #### Keuze component
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Keuze component | Deze beschrijving wordt aangevuld |
+Met het **Keuze component** maak je een keuzehulp: de bezoeker kiest een antwoord en ziet de bijbehorende vervolginhoud. Het component is in de code als bèta gemarkeerd.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Opbouw** | Geef de keuze een herkenbare naam. Voeg de vraagtekst en één of meer **Button (Keuze)**-componenten binnen de keuze toe. |
+| **Antwoorden** | Voor iedere keuzeknop wordt een slot gemaakt. Voeg via de Navigator de bijbehorende antwoordinhoud aan dat slot toe. Koppel inhoud aan het juiste slot, niet alleen aan het algemene keuzevlak. |
+| **Gedrag** | Schakel **Vraag zichtbaar houden** in wanneer de vraag na het kiezen moet blijven staan. Controleer buiten de editor alle keuzepaden; antwoordslots zijn daar aanvankelijk verborgen. |
 
 ---
 
 #### Button (Keuze)
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Button (Keuze) | Deze beschrijving wordt aangevuld |
+**Button (Keuze)** is een antwoordknop binnen een Keuze-component. Een klik toont het aan deze knop gekoppelde antwoordslot.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Plaatsen** | Voeg de knop binnen het juiste Keuze-component toe en vul de antwoordtekst en vertalingen in. |
+| **Opmaak** | Stel de knopstijl en eventueel de chevron in zoals bij een gewone Button. |
+| **Vervolg** | Vul het gegenereerde antwoordslot met de gewenste vervolgcomponenten. Een URL is voor deze knop niet bedoeld: de opgeslagen URL wordt door de logica leeggemaakt. Controleer dat iedere knop het eigen antwoord toont. |
 
 ---
 
 #### Lottie player
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Lottie player | Deze beschrijving wordt aangevuld |
+Met **Lottie player** speel je een Lottie-animatie af binnen de pagina.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Bron** | Vul bij Lottie URL de directe URL naar het animatiebestand in. |
+| **Afspelen** | Stel Herhalen, Autoplay, Play on hover en Controls in. Met **Animation speed** bepaal je de snelheid: 1 is de normale snelheid. |
+| **Weergave** | Kies Full width om de beschikbare breedte te gebruiken. Controleer laden, formaat en de gekozen combinatie van afspeelinstellingen buiten de editor. |
 
 ---
 
 #### Suggestions
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Suggestions | Deze beschrijving wordt aangevuld |
+**Suggestions** toont partijsuggesties voor de huidige debiteur. De partijen worden op basis van het debiteurnummer uit de webshop opgehaald.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Aantal** | Stel bij Limiet het gewenste aantal suggesties in. |
+| **Weergave** | Kies de beschikbare weergavemodus en bepaal of de omschrijving wordt getoond. |
+| **Controle** | Controleer met een ingelogd klantaccount waarvoor suggesties beschikbaar zijn. Het component maakt zelf geen assortiment of aanbevelingsregels aan; de inhoud komt uit de bestaande webshoplogica. |
 
 ---
 
@@ -1437,105 +1572,161 @@ Naast een externe of relatieve URL kun je ook een CMS-pagina als linkdoel select
 
 #### Chart
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Chart | Deze beschrijving wordt aangevuld |
+Met **Chart** toon je queryresultaten als grafiek, bijvoorbeeld omzet per maand. Gebruik de onderstaande algemene dashboardinstellingen ook bij de andere querycomponenten waar deze beschikbaar zijn.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Grafiek** | Vul een titel in en kies het grafiektype. Voeg onder Datasets één of meer reeksen toe met een label, query en kleur. De eerste resultaatkolom levert de labels en de tweede de numerieke waarden. |
+| **Opmaak** | Stel hoogte, lettergrootte, legenda en eventueel een kleurgroep in. Gebruik voor vergelijkbare reeksen dezelfde categorieën en volgorde. |
+| **Geavanceerd** | **Refresh rate** is het verversinterval in minuten; 0 schakelt periodiek verversen uit. **Cache query result** bepaalt hoelang resultaten worden hergebruikt. Vaker verversen dan de cacheduur garandeert dus geen nieuw queryresultaat. |
+| **Filters en controle** | Gebruik filters via een Filter toolbar. Een trefwoord wordt in queries gebruikt als bijvoorbeeld `#JAAR#`; stem naam en gegevenstype met de query af. Laat queries opstellen voor de database van deze webshop en controleer de uitkomst met een bekende periode. |
 
 ---
 
 #### Piechart
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Piechart | Deze beschrijving wordt aangevuld |
+Gebruik **Piechart** om de verhouding tussen categorieën als cirkel- of donutgrafiek te tonen.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Gegevens** | Vul titel en query in. Laat de query per categorie een label in de eerste kolom en een numerieke waarde in de tweede kolom opleveren. |
+| **Opmaak** | Kies het grafiektype, de eenheid van de legenda, het aantal decimalen, de hoogte en de kleurgroep. Met de startindex bepaal je waar de kleurreeks begint. |
+| **Controle** | Stel eventueel verversing en caching in zoals bij Chart. Controleer of de categorieën en hun onderlinge verhoudingen overeenkomen met de queryresultaten. |
 
 ---
 
 #### Gauge
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Gauge | Deze beschrijving wordt aangevuld |
+Een **Gauge** toont één actuele waarde op een meterschaal, bijvoorbeeld de voortgang naar een doel.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Waarde** | Vul titel en Query current in. De query moet een numerieke waarde in het eerste veld van de eerste rij teruggeven. Kies indien nodig de remote server. |
+| **Schaal** | Stel minimum en maximum in. Geef groene en rode bereiken op als paren met puntkomma's, bijvoorbeeld `0;50` en `80;100` bij een schaal van 0 tot 100. |
+| **Opmaak en controle** | Stel hoogte, schaalverdeling, decimalen, tekstkleur en lettergroottes in. Stel eventueel verversing en caching in zoals bij Chart. Controleer of de gemeten waarde en de betekenis van de kleurzones kloppen. |
 
 ---
 
 #### Table view
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Table view | Deze beschrijving wordt aangevuld |
+Met **Table view** toon je queryresultaten in een tabel waarvan je de kolommen zelf configureert.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Bron** | Vul titel en query in en selecteer indien nodig een remote server. |
+| **Kolommen** | Voeg binnen Table view **TableColumn**-componenten toe. Koppel iedere kolom aan een resultaatkolom en stel koptekst, uitlijning, breedte en eventueel decimalen in. Gebruik **TableLink** voor een linkkolom. |
+| **Weergave** | Stel kopkleuren, tekstkleur en lettergrootte in. Met Hide header verberg je de tabelkop. Gebruik eventueel Conditional rules voor voorwaardelijke opmaak. |
+| **Controle** | Stel verversing en caching in zoals bij Chart. Controleer na elke querywijziging of de gekoppelde kolomnamen nog bestaan en of de rijen en links kloppen. |
 
 ---
 
 #### Progressbar
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Progressbar | Deze beschrijving wordt aangevuld |
+**Progressbar** toont een huidige waarde als deel van een totaal, bijvoorbeeld behaalde omzet ten opzichte van een doel.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Queries** | Vul Query current value en Query total value in. Beide moeten één numerieke waarde teruggeven in het eerste veld van de eerste rij. Het totaal moet groter zijn dan nul. |
+| **Weergave** | Stel titel, balkkleur, hoogte, lettergrootte en decimalen in. Met Show values toon je ook de huidige en totale waarde. |
+| **Berekening** | De balk toont maximaal 100%. De huidige en totale waarde worden eerst op de ingestelde decimalen afgerond. Stel eventueel verversing en caching in zoals bij Chart en controleer met bekende waarden. |
 
 ---
 
 #### Dashboard view
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Dashboard view | Deze beschrijving wordt aangevuld |
+Met **Dashboard view** laat je meerdere dashboardpagina's automatisch na elkaar zien, bijvoorbeeld op een presentatiescherm.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Pagina's** | Voeg binnen Dashboard view voor iedere pagina een **DashboardViewPage** toe. Vul per item de URL en een weergaveduur in seconden groter dan nul in. Alleen geldige items worden meegenomen. |
+| **Gebruiker** | De automatische frameweergave wordt gebruikt wanneer de debiteurinstelling **DashboardUser** is ingeschakeld. Voor andere gebruikers wordt de onderliggende componentinhoud weergegeven. |
+| **Controle** | Open de pagina met de bedoelde dashboardgebruiker. Controleer iedere URL, toegang tot de pagina's en de wisseltijd. |
 
 ---
 
 #### Embedded dashboard
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Embedded dashboard | Deze beschrijving wordt aangevuld |
+**Embedded dashboard** sluit een extern Qlik Sense-dashboard in en vraagt daarvoor een toegangsticket op.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Adressen** | Vul de basis-URL, het pad voor het ticketverzoek en het dashboardpad in. Stel de hoogte van het ingesloten dashboard in. |
+| **Koppeling** | Vul onder Geavanceerd het certificaat, certificaatwachtwoord, de vereiste headers en de request body in volgens de Qlik Sense-configuratie. Laat de Qlik-beheerder deze waarden aanleveren. |
+| **Controle** | Controleer of het ticketverzoek slaagt en het dashboard voor de bedoelde gebruiker laadt. Dit component vereist een ingerichte Qlik-koppeling; een dashboard-URL alleen is niet voldoende. |
 
 ---
 
 #### Filter toolbar
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Filter toolbar | Deze beschrijving wordt aangevuld |
+Een **Filter toolbar** bundelt invoer voor dashboardfilters en variabelen. De keuzes worden pas in queryresultaten zichtbaar wanneer de queries dezelfde trefwoorden gebruiken.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Opbouw** | Voeg Query filter, Preset value filter, Query filter date of Query variable binnen de toolbar toe. Gebruik per afzonderlijke variabele een herkenbare trefwoordnaam. |
+| **Toepassen** | Kies waarden en gebruik de knop met het vinkje om ze toe te passen. Via het vraagteken kun je actieve queryfilters bekijken. |
+| **Verbergen** | Met **RenderHidden** wordt de toolbar buiten de editor onzichtbaar, terwijl deze wel wordt opgebouwd; de ruimte blijft behouden. Gebruik dit alleen wanneer de ingestelde waarden zonder zichtbare bediening moeten werken. |
+| **Controle** | Controleer met minimaal twee verschillende selecties of de gekoppelde grafieken of tabellen daadwerkelijk andere resultaten tonen. |
 
 ---
 
 #### Searchterm
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Searchterm | Deze beschrijving wordt aangevuld |
+**Searchterm** toont geregistreerde zoektermen uit de webshopstatistieken. Het is een rapportagecomponent voor zoekgedrag.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Instellen** | Vul een titel in en kies het maximale aantal resultaten. |
+| **Gegevens** | De inhoud komt uit verzamelde zoekstatistieken. Je voert hier geen eigen lijst met zoektermen of query in. |
+| **Controle** | Controleer het overzicht nadat zoekactiviteit is geregistreerd. Gebruik de informatie om te beoordelen waar bezoekers naar zoeken. |
 
 ---
 
 #### Query filter
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Query filter | Deze beschrijving wordt aangevuld |
+Een **Query filter** vult een keuzelijst met waarden uit een query en stelt de gekozen waarde beschikbaar als dashboardtrefwoord.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Naam** | Voeg het component binnen Filter toolbar toe. Vul Keyword name voor de technische naam en Keyword label voor het zichtbare label in. |
+| **Keuzes** | Vul de query in: de eerste kolom bevat de waarde, een optionele tweede kolom de getoonde omschrijving. Kies indien nodig de remote server. |
+| **Startwaarde** | Stel eventueel Default value in en schakel Multi value in voor meerdere selecties. Gebruik in de ontvangende query hetzelfde trefwoord, bijvoorbeeld `#GROEP#`, met passende SQL-opbouw voor één of meerdere waarden. |
+| **Controle** | Pas een keuze toe via de toolbar en controleer het resultaat in de afhankelijke grafiek of tabel. |
 
 ---
 
 #### Preset value filter
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Preset value filter | Deze beschrijving wordt aangevuld |
+Met **Preset value filter** bied je een vaste keuzelijst aan voor een dashboardfilter. De opties voer je handmatig in.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Basis** | Voeg het component binnen Filter toolbar toe en vul Keyword name en Keyword label in. |
+| **Opties** | Voeg in Value list per optie een Label, Value en Position toe. Het label is de zichtbare tekst; de waarde wordt in de query gebruikt. |
+| **Gedrag** | Stel Default value in op een passende optie en kies of Multi value is toegestaan. Laat de query hetzelfde trefwoord gebruiken. Controleer via de toolbar of alle opties de bedoelde resultaten geven. |
 
 ---
 
 #### Query filter date
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Query filter date | Deze beschrijving wordt aangevuld |
+**Query filter date** voegt een datumkiezer aan een Filter toolbar toe en maakt de geselecteerde datum beschikbaar voor dashboardqueries.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Instellen** | Vul Keyword name en Keyword label in. Gebruik Default value voor de begindatum, bijvoorbeeld een datum in de vorm `2026-10-19`. |
+| **Query** | Verwijs in de query naar dezelfde trefwoordnaam. Stem de vergelijking en datumconversie af op het formaat dat de dashboardquery ontvangt. |
+| **Controle** | Kies een andere datum en pas deze toe met het vinkje in de toolbar. Controleer de resultaten voor een bekende datum; het invullen van het label alleen koppelt de datum niet aan een query. |
 
 ---
 
 #### Query variable
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Query variable | Deze beschrijving wordt aangevuld |
+Een **Query variable** berekent een dashboardvariabele uit een query, zodat de bezoeker de waarde niet handmatig hoeft te kiezen.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Instellen** | Voeg het component binnen Filter toolbar toe. Vul Keyword name, Keyword label en de berekenende query in. |
+| **Resultaat** | Alle resultaatvelden uit alle rijen worden samengevoegd tot een lijst met komma's. Laat de query daarom alleen de bedoelde waarden teruggeven. Bij een leeg resultaat wordt Default value gebruikt. |
+| **Gebruik** | Gebruik dezelfde trefwoordnaam in afhankelijke dashboardqueries en controleer via de toolbar de actieve variabelen en de bijbehorende resultaten. |
 
 ---
 
@@ -1543,38 +1734,59 @@ Naast een externe of relatieve URL kun je ook een CMS-pagina als linkdoel select
 
 #### Health chart
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Health chart | Deze beschrijving wordt aangevuld |
+**Health chart** toont een grafiek van technische webshopstatistieken. Je hoeft hiervoor geen eigen SQL-query in te voeren.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Meting** | Kies Users, Sessions of Memory bij Data type. Kies Maximum, Average of Minimum bij Data mode. |
+| **Weergave** | Vul titel, kleur en hoogte in. |
+| **Bron** | Zonder Remote URL worden lokale gegevens gebruikt. Vul voor een andere omgeving onder Geavanceerd Remote URL, gebruiker en wachtwoord in. Dit bronprincipe geldt ook voor de andere Health-componenten waar die instellingen beschikbaar zijn. |
+| **Controle** | Controleer of er meetgegevens voor de gekozen omgeving zijn en of een eventuele remote verbinding werkt. |
 
 ---
 
 #### Health check
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Health check | Deze beschrijving wordt aangevuld |
+**Health check** bundelt controles van de webshopomgeving in één overzicht.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Controles** | Vul een titel in en schakel de gewenste controles in: gebruikers, geheugen, uptime, schijfruimte, partijen en bestellijsten. |
+| **Bron** | Gebruik de lokale omgeving of stel onder Geavanceerd een remote omgeving in zoals beschreven bij Health chart. |
+| **Controle** | Controleer of de geselecteerde onderdelen gegevens tonen. Een uitgeschakelde controle wordt niet getoond; het ontbreken ervan betekent niet dat er geen probleem is. |
 
 ---
 
 #### Health errors
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Health errors | Deze beschrijving wordt aangevuld |
+**Health errors** toont geregistreerde foutmeldingen van de gekozen webshopomgeving.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Selectie** | Vul een titel in en kies Max results en Past days om aantal en terugkijkperiode te beperken. |
+| **Bron** | Stel zo nodig Remote URL en inloggegevens in onder Geavanceerd. Zonder Remote URL wordt de lokale omgeving gebruikt. |
+| **Gebruik** | Bekijk de beschikbare details van een fout voor verdere analyse. Het component toont geregistreerde fouten en verhelpt ze niet automatisch. Controleer bij een leeg overzicht ook de periode en de gekozen omgeving. |
 
 ---
 
 #### Health gauge
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Health gauge | Deze beschrijving wordt aangevuld |
+**Health gauge** toont een technische meting als meter, bijvoorbeeld het geheugen- of gebruikersgebruik.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Meting** | Vul een titel in en kies Users, Sessions of Memory bij Data type. |
+| **Weergave** | Stel de hoogte en het aantal schaalverdelingen in. De meter gebruikt de healthgegevens; je voert geen eigen query of algemene Gauge-bereiken in. |
+| **Bron en controle** | Gebruik lokale gegevens of stel een remote omgeving in zoals bij Health chart. Controleer of de gekozen meting beschikbaar is en bij de bedoelde omgeving hoort. |
 
 ---
 
 #### Health log
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Health log | Deze beschrijving wordt aangevuld |
+Met **Health log** toon je logregels van een gekozen technische categorie.
+
+| Instelling / stap | Uitleg |
+|:--|:--|
+| **Instellen** | Vul een titel in, selecteer Health category en stel Max results in om het overzicht te begrenzen. |
+| **Bron** | Zonder Remote URL wordt het lokale healthlog gebruikt. Vul voor een andere omgeving de remote instellingen in zoals bij Health chart. |
+| **Controle** | Controleer of de gekozen categorie logregels bevat. Healthloggegevens kunnen uit cache worden opgehaald, waardoor nieuwe gebeurtenissen niet altijd onmiddellijk verschijnen. |

@@ -108,14 +108,14 @@
 
 #### 3. Navigation
 - [Button](#button)
-- [Product List](#product-list)
-- [Product Card](#product-card)
+- [Product List](#productlist)
+- [Product Card](#product)
 - [Social Icons](#social-icons)
 - [Breadcrumbs](#breadcrumbs)
 - [Page search](#page-search)
 - [Icon Link](#icon-link)
 - [Banner](#banner)
-- [Inventory Navigation](#inventory-navigation)
+- [Inventory Navigation](#stock-navigation)
 - [Shop Navigation](#shop-navigation)
 - [Offer](#offer)
 - [Action Link](#action-link)
@@ -138,10 +138,10 @@
 
 #### 5. User
 - [Login Form](#login-form)
-- [Debtor Information](#debtor-information)
+- [Debtor Information](#debtor-info)
 - [Your Account](#your-account)
-- [Account Manager](#account-manager)
-- [Registration Form](#registration-form)
+- [Account Manager](#accountmanager)
+- [Registration Form](#registrationform)
 
 #### 6. Templates
 - [Footer Template](#footer-template)
@@ -153,23 +153,23 @@
 - [Frame](#frame)
 - [Custom](#custom)
 - [Choice Component](#choice-component)
-- [Choice Button](#choice-button)
+- [Choice Button](#button-keuze)
 - [Lottie Player](#lottie-player)
 - [Suggestions](#suggestions)
 
 #### 8. Dashboard
 - [Chart](#chart)
-- [Pie Chart](#pie-chart)
+- [Pie Chart](#piechart)
 - [Gauge](#gauge)
 - [Table View](#table-view)
-- [Progress Bar](#progress-bar)
+- [Progress Bar](#progressbar)
 - [Dashboard View](#dashboard-view)
 - [Embedded Dashboard](#embedded-dashboard)
 - [Filter Toolbar](#filter-toolbar)
-- [Search Term](#search-term)
+- [Search Term](#searchterm)
 - [Query Filter](#query-filter)
 - [Preset Value Filter](#preset-value-filter)
-- [Date Query Filter](#date-query-filter)
+- [Date Query Filter](#query-filter-date)
 - [Query Variable](#query-variable)
 
 #### 9. Health
@@ -245,7 +245,7 @@ Page categories and blog categories are similar in many ways. The main differenc
 |**5**|Fill in the following fields:<br><br>- **Blog Display Name (6):** Enter the name of the category as it should be displayed in the bar containing the stock and order list tabs.<br><br>- **Blog URL (7):** Enter the name of the category that will also be used in the URL.<br>**DO NOT USE SPACES!**<br><br>- **Size Mode — OPTIONAL (8):** Select whether you want to display a compact dropdown (**Small**) or a wide dropdown (**FullWidth**) in the navigation bar.<br><br>- **Navigation Order — OPTIONAL (9):** Determine the position of the category in the navigation bar. A value of **1** places the category first. This does not affect the order of the stock items; they will retain their original position.<br><br>- **Visible in Navigation — OPTIONAL (10):** Enable this option to make the category visible in the navigation bar.<br><br>- **Template — OPTIONAL (11):** Select a template that will automatically be applied when a new blog page is created within this category.<br><br>- **Submit (12):** Click **Submit** to create the blog category.<details><summary><b>Click here for the example image</b></summary><img src="media/3.5.png"></details>|
 |**6**|Click the orange icon (13) or **Unsaved Changes** (14).<details><summary><b>Click here for the example image</b></summary><img src="media/3.6.png"></details>|
 |**7**|To publish the category and make it available on the live webshop, click **Publish all** (15) or the publish icon (16). Then confirm the publication by clicking **Yes** (17).<details><summary><b>Click here for the example image</b></summary><img src="media/3.7.png"></details>|
-|:bulb:|**Note:** The new category will not be immediately visible in the webshop. It will only become visible once a blog page has been linked to this category. [See the next chapter](#blogpage) for more information.|
+|:bulb:|**Note:** The new category will not be immediately visible in the webshop. It will only become visible once a blog page has been linked to this category. [See the next chapter](#blog-page) for more information.|
 
 ---
 
@@ -453,13 +453,13 @@ The **Editor** is a WYSIWYG editor (*What You See Is What You Get*) in which cha
 | **2** | Activate the **CMS Editor** (2).<details><summary><b>Click here for the example image</b></summary><img src="media/16.1.2.png"></details> |
 | **3** | After the CMS Editor has been activated, several elements become visible. Selection boxes (3) appear around the components, the [Navigator](#navigator) (4) opens, and the [Aside Editor](#aside-editor) is displayed (5). Several options are also shown at the bottom of the screen:<br><br>**6 - [Pending changes](#pending-changes):** View the changes that have not yet been published.<br><br>**7 - Show/close [Navigator](#navigator):** Open or close the Navigator.<br><br>**8 - History:** Displays a timeline that allows you to navigate between different change steps. You can also see which CMS administrator made a change to the displayed page.<br><br>**9 - Responsive:** Opens a toolbar that allows you to preview the page on tablets and mobile devices.<br><br>**10 - Publish:** Publish the page to the live environment.<br><br>**11 - Save:** Save the changes you have made. **Note:** Saving changes does not publish them to the live environment.<br><br>**12 - Undo step:** Undo the most recently made change.<details><summary><b>Click here for the example image</b></summary><img src="media/16.1.3.png"></details> |
 | **4** | By clicking on a component (13), the corresponding selection boxes are highlighted. You can then make changes directly (14). The [Navigator](#navigator) also immediately shows where the selected component is located on the page (15).<details><summary><b>Click here for the example image</b></summary><img src="media/16.1.4.png"></details> |
-| **5** | By right-clicking on a component, you will see various options (16), depending on the selected component. Available actions include:<br><br>- **Upload:** Upload a `.json` file of a CMS [page](#pagina).<br>- **Download:** Download the CMS page as a `.json` file.<br>- **Duplicate:** Duplicate the selected component using `Ctrl + D`.<br>- **Copy:** Copy the selected component using `Ctrl + C`.<br>- **Paste:** Paste a copied component using `Ctrl + V`.<br>- **Save as [Template](#templates):** Save the selected component as a template.<br>- **Delete:** Delete the selected component.<br>- **Add:** Add a new component.<details><summary><b>Click here for the example image</b></summary><img src="media/16.1.5.png"></details> |
+| **5** | By right-clicking on a component, you will see various options (16), depending on the selected component. Available actions include:<br><br>- **Upload:** Upload a `.json` file of a CMS [page](#page).<br>- **Download:** Download the CMS page as a `.json` file.<br>- **Duplicate:** Duplicate the selected component using `Ctrl + D`.<br>- **Copy:** Copy the selected component using `Ctrl + C`.<br>- **Paste:** Paste a copied component using `Ctrl + V`.<br>- **Save as [Template](#templates):** Save the selected component as a template.<br>- **Delete:** Delete the selected component.<br>- **Add:** Add a new component.<details><summary><b>Click here for the example image</b></summary><img src="media/16.1.5.png"></details> |
 
 ---
 
 #### Navigator
 
-The **Navigator** displays the tree structure of your CMS [page](#pagina). With the convenient drag-and-drop functionality, you can easily adjust the structure and layout of the page.
+The **Navigator** displays the tree structure of your CMS [page](#page). With the convenient drag-and-drop functionality, you can easily adjust the structure and layout of the page.
 
 | Step | Explanation |
 |:--|:--|
@@ -471,12 +471,12 @@ The **Navigator** displays the tree structure of your CMS [page](#pagina). With 
 
 #### Component Dialog
 
-The **Component Dialog** is the library containing all available [CMS components](#componenten-1). These components serve as building blocks for creating and designing your CMS [pages](#pagina).
+The **Component Dialog** is the library containing all available [CMS components](#components-1). These components serve as building blocks for creating and designing your CMS [pages](#page).
 
 | Step | Explanation |
 |:--|:--|
 | **1** | In this example, we want to add a [Button](#button) component to a [Flex](#flex) component (1). Click the '+' icon next to the **Flex** component (2) to open the **Component Dialog**.<details><summary><b>Click here for the example image</b></summary><img src="media/16.3.1.png"></details> |
-| **2** | The **Component Dialog** is now open. Here, you will find dozens of components that you can use to build your CMS [page](#page). The components are divided into several categories (3):<br><br>**[Basic](#basic):** Contains components that can be used to build the basic structure of your page.<br><br>**[Dashboard](#dashboard):** Components that can be used to build analytical dashboards.<br><br>**[Form](#form):** Contains all the components needed to create digital forms.<br><br>**[Advanced](#advanced):** Components primarily intended for developers.<br><br>**[User](#user):** Components that apply to logged-in debtors.<br><br>**[Health](#health):** Components that can be used to build analytical Health screens.<br><br>**[Media](#media-1):** Components for adding and supporting media content.<br><br>**[Navigation](#navigatie):** Useful and dynamic components that allow visitors to navigate quickly and efficiently within and outside the webshop.<br><br>**[Templates](#templates):** An overview of saved templates that can be added to the page with a single click.<br><br>The number of available components is displayed for each category (4). You can search for a component by name (5), sort the results (6) alphabetically or by popularity, and change the display to a list view (7). When sorting by popularity, frequently used components are displayed at the top.<br><br>The name and category of each component are displayed in the overview (8). You can view more information about a component by clicking the 'i' icon (9). Add a component by clicking the '+' icon (10).<details><summary><b>Click here for the example image</b></summary><img src="media/16.3.2.png"></details> |
+| **2** | The **Component Dialog** is now open. Here, you will find dozens of components that you can use to build your CMS [page](#page). The components are divided into several categories (3):<br><br>**[Basic](#basic):** Contains components that can be used to build the basic structure of your page.<br><br>**[Dashboard](#dashboard):** Components that can be used to build analytical dashboards.<br><br>**[Form](#form):** Contains all the components needed to create digital forms.<br><br>**[Advanced](#advanced):** Components primarily intended for developers.<br><br>**[User](#user):** Components that apply to logged-in debtors.<br><br>**[Health](#health):** Components that can be used to build analytical Health screens.<br><br>**[Media](#media-1):** Components for adding and supporting media content.<br><br>**[Navigation](#navigation):** Useful and dynamic components that allow visitors to navigate quickly and efficiently within and outside the webshop.<br><br>**[Templates](#templates):** An overview of saved templates that can be added to the page with a single click.<br><br>The number of available components is displayed for each category (4). You can search for a component by name (5), sort the results (6) alphabetically or by popularity, and change the display to a list view (7). When sorting by popularity, frequently used components are displayed at the top.<br><br>The name and category of each component are displayed in the overview (8). You can view more information about a component by clicking the 'i' icon (9). Add a component by clicking the '+' icon (10).<details><summary><b>Click here for the example image</b></summary><img src="media/16.3.2.png"></details> |
 | **3** | After the [Button](#button) component has been added, it is immediately displayed in the [Editor](#editor) (11) and [Navigator](#navigator) (12). You can also directly adjust the component's settings via the [Aside Editor](#aside-editor) (13).<details><summary><b>Click here for the example image</b></summary><img src="media/16.3.3.png"></details> |
 
 ---
@@ -661,24 +661,24 @@ Give your [components](#components) a playful or modern appearance by using **Bo
 
 #### Height/Width
 
-Set the **Height** and **Width** of your [components](#componenten) to determine the dimensions of a component.
+Set the **Height** and **Width** of your [components](#components-1) to determine the dimensions of a component.
 
 | Step | Explanation |
 |:--|:--|
 | **1** | In this example, we have selected a [Panel](#panel) component (1). In the **Styling** tab (2), you can configure the **Height** (3) and **Width** (4) of the component.<details><summary><b>Click here for the example image</b></summary><img src="media/29.1.png"></details> |
 | **2** | To set the height, disable the **Auto** option (5). You can then enter a height value (6). Next, choose whether you want to set the height as a fixed height (**Normal**), maximum height (**Max**), or minimum height (**Min**) (7). In this example, we have set the minimum height to **50** (6) **ViewportPercent** (8). This means that the [Panel](#panel) component will always occupy at least 50% of the screen height. The following units are supported: `px` (Pixel), `rem` (1rem = 16 pixels), `%` (Percent), and `vh` (Viewport Percent). Changes are immediately visible in the [Editor](#editor) (9).<details><summary><b>Click here for the example image</b></summary><img src="media/29.2.png"></details> |
 | **3** | To set the width, disable the **Auto** option (10). You can then enter a width (**Width**) (11). Next, choose whether you want to set the width as a fixed width (**Normal**), maximum width (**Max**), or minimum width (**Min**) (12). In this example, we have set the maximum width to **300** (11) **Pixels** (13). This means that the [Panel](#panel) component will never be wider than 300 pixels. The following units are supported: `px` (Pixel), `rem` (1rem = 16 pixels), `%` (Percent), and `vh` (Viewport Percent). Changes are immediately visible in the [Editor](#editor) (14).<details><summary><b>Click here for the example image</b></summary><img src="media/29.3.png"></details> |
-| **4** | When you set the height or width type to **Max** or **Min**, an optional additional input field appears (15). This allows you to set the other boundary value in addition to a maximum or minimum height/width for the [component](#componenten). In this example, we have configured the [Panel](#panel) component to have a maximum width of 300 pixels, while never becoming narrower than 100 pixels.<details><summary><b>Click here for the example image</b></summary><img src="media/29.4.png"></details> |
+| **4** | When you set the height or width type to **Max** or **Min**, an optional additional input field appears (15). This allows you to set the other boundary value in addition to a maximum or minimum height/width for the [component](#components-1). In this example, we have configured the [Panel](#panel) component to have a maximum width of 300 pixels, while never becoming narrower than 100 pixels.<details><summary><b>Click here for the example image</b></summary><img src="media/29.4.png"></details> |
 
 ---
 
 #### Box Shadow
 
-Add depth and a visual effect to your [components](#componenten) by using **Box Shadow**.
+Add depth and a visual effect to your [components](#components-1) by using **Box Shadow**.
 
 | Step | Explanation |
 |:--|:--|
-| **1** | In this example, we have selected a [Panel](#panel) component (1). In the **Styling** tab (2), you can configure the **Box Shadow** (3) for the [component](#componenten).<details><summary><b>Click here for the example image</b></summary><img src="media/30.1.png"></details> |
+| **1** | In this example, we have selected a [Panel](#panel) component (1). In the **Styling** tab (2), you can configure the **Box Shadow** (3) for the [component](#components-1).<details><summary><b>Click here for the example image</b></summary><img src="media/30.1.png"></details> |
 | **2** | Set the horizontal (4) and vertical (5) offset of the shadow. You can then configure the blur (6) and spread (7) of the shadow. The following units are supported: `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh`, and `vw`. Next, select a [color](#color-picker) (8) and choose whether the shadow should be displayed inside or outside the component (9). Changes are immediately visible in the [Editor](#editor) (10). If the settings are not quite as desired, you can easily remove the configured box shadow using the delete button (11) or [undo](#editor) the change.<br><br>**Note:** The box shadow may sometimes be clipped. If this happens, check whether the **Overflow** setting of the component containing the component with the box shadow is set to **Visible**. For more information, see [Overflow](#overflow).<details><summary><b>Click here for the example image</b></summary><img src="media/30.2.png"></details> |
 
 ---
@@ -722,9 +722,12 @@ Give your [components](#components) a custom name to create more structure and p
 
 #### Slot Name
 
-| Item | Description |
-|---|---|
-| Advanced | This description will be added later |
+Use **Slot Name** to assign a component to a named position within a Custom or Choice component. This determines where the content appears.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Configure** | Select the child component and open **Advanced**. Enter the exact name of the intended slot. For a Choice component, add content through the generated slots in the Navigator. |
+| **Usage** | Leave this field empty for regular page content. A slot name does not create a new position; the parent component must support it. |
 
 ---
 
@@ -745,13 +748,13 @@ This allows data such as the **page title**, **page description**, **image**, an
 | Step | Explanation |
 |:--|:--|
 | **1** | In this example, we created a [Template](#templates) that we want to use dynamically for a [Blog](#blog) overview. We use Tags for this purpose.<details><summary><b>Click here for the example image</b></summary><img src="media/34.1.png"></details> |
-| **2** | We added a [Panel](#panel) component (1) with a background image. Under the **Advanced** tab (2), you can select **OverviewPanelImageTag** under **Tag** (3). The [Panel](#panel) component will then check the [Blog page](#blogpage) settings to see whether an image has been configured. This image is then automatically displayed in the [Blog](#blog) overview.<details><summary><b>Click here for the example image</b></summary><img src="media/34.2.png"></details> |
-| **3** | We then added a [Text](#text) component (4). Under **Tag**, we set **OverviewTitle** (5). The [Text](#text) component will then check the [Blog page](#blogpage) settings to see whether a **Page title** has been configured. This title is then automatically displayed in the [Blog](#blog) overview.<details><summary><b>Click here for the example image</b></summary><img src="media/34.3.png"></details> |
-| **4** | We added another [Text](#text) component (6). Under **Tag**, we set **OverviewDescription** (7). The [Text](#text) component will then check the [Blog page](#blogpage) settings to see whether a **Description** has been entered. This description is then automatically displayed in the [Blog](#blog) overview.<details><summary><b>Click here for the example image</b></summary><img src="media/34.4.png"></details> |
-| **5** | Finally, we added a [Button](#button) component (8). Under **Tag**, we set **OverviewButton** (9). The [Button](#button) component will then retrieve the configured URL from the [Blog page](#blogpage) settings. When a visitor clicks the button, they are directed to the correct [Blog page](#blogpage).<details><summary><b>Click here for the example image</b></summary><img src="media/34.5.png"></details> |
-| **6** | In this example, we show where you can configure the information mentioned above in the [Blog page](#blogpage) settings. Under the **Advanced** tab, you will find a field where you can upload an [image](#media) (10). The configured Tag ensures that this image is automatically displayed in the [Blog](#blog) overview. The page URL is automatically populated when creating the [Blog page](#blogpage).<details><summary><b>Click here for the example image</b></summary><img src="media/34.6.png"></details> |
+| **2** | We added a [Panel](#panel) component (1) with a background image. Under the **Advanced** tab (2), you can select **OverviewPanelImageTag** under **Tag** (3). The [Panel](#panel) component will then check the [Blog page](#blog-page) settings to see whether an image has been configured. This image is then automatically displayed in the [Blog](#blog) overview.<details><summary><b>Click here for the example image</b></summary><img src="media/34.2.png"></details> |
+| **3** | We then added a [Text](#text) component (4). Under **Tag**, we set **OverviewTitle** (5). The [Text](#text) component will then check the [Blog page](#blog-page) settings to see whether a **Page title** has been configured. This title is then automatically displayed in the [Blog](#blog) overview.<details><summary><b>Click here for the example image</b></summary><img src="media/34.3.png"></details> |
+| **4** | We added another [Text](#text) component (6). Under **Tag**, we set **OverviewDescription** (7). The [Text](#text) component will then check the [Blog page](#blog-page) settings to see whether a **Description** has been entered. This description is then automatically displayed in the [Blog](#blog) overview.<details><summary><b>Click here for the example image</b></summary><img src="media/34.4.png"></details> |
+| **5** | Finally, we added a [Button](#button) component (8). Under **Tag**, we set **OverviewButton** (9). The [Button](#button) component will then retrieve the configured URL from the [Blog page](#blog-page) settings. When a visitor clicks the button, they are directed to the correct [Blog page](#blog-page).<details><summary><b>Click here for the example image</b></summary><img src="media/34.5.png"></details> |
+| **6** | In this example, we show where you can configure the information mentioned above in the [Blog page](#blog-page) settings. Under the **Advanced** tab, you will find a field where you can upload an [image](#media) (10). The configured Tag ensures that this image is automatically displayed in the [Blog](#blog) overview. The page URL is automatically populated when creating the [Blog page](#blog-page).<details><summary><b>Click here for the example image</b></summary><img src="media/34.6.png"></details> |
 | **7** | Next, enter the **Description** (11). This description is automatically linked to the [Text](#text) component in the [Blog](#blog) overview through the configured Tag.<details><summary><b>Click here for the example image</b></summary><img src="media/34.7.png"></details> |
-| **8** | The [Blog](#blog) component (12) now automatically populates the [Template](#templates) with the data from the [Blog page](#blogpage) settings. This is done based on the configured Tags. The overview displays the [Image](#media) (13), [Title](#text) (14), [Description](#text) (15), and [Button](#button) (16).<details><summary><b>Click here for the example image</b></summary><img src="media/34.8.png"></details> |
+| **8** | The [Blog](#blog) component (12) now automatically populates the [Template](#templates) with the data from the [Blog page](#blog-page) settings. This is done based on the configured Tags. The overview displays the [Image](#media) (13), [Title](#text) (14), [Description](#text) (15), and [Button](#button) (16).<details><summary><b>Click here for the example image</b></summary><img src="media/34.8.png"></details> |
 
 ---
 
@@ -799,6 +802,8 @@ With **Highlight content**, you can make [components](#components) visible to sp
 ---
 
 ## Components
+
+The components below share the same workflow: open the required page, enable the **CMS Editor** and use the **+** icon on the appropriate parent component to add a component. Select it in the Navigator to edit its settings. Use **General settings**, **Styling**, **Advanced** and **Visibility** where available. Check translations and the desktop, tablet and mobile layouts. Save and publish changes to make them live. Also check interactive components outside the editor and use the intended customer account for customer-specific content.
 
 ### Basic
 
@@ -854,20 +859,23 @@ With the **Flex** component, you can position and align content in a flexible wa
 | **3** | We have added three [Columns](#rowcolumn) (6, 7, and 8) to the Flex component. Each column has been given a width of two columns and its own [color](#color-picker).<details><summary><b>Click here for the example image</b></summary><img src="media/39.3.png"></details> |
 | **4** | Through the **[General settings](#general-settings)** tab, you can configure the **Flex direction**. In this example, the [Columns](#rowcolumn) are placed below each other when the Flex direction is set to **Column** (9).<details><summary><b>Click here for the example image</b></summary><img src="media/39.4.png"></details><br><br>**Reverse column** (10): places the Columns in reverse order, from bottom to top.<details><summary><b>Click here for the example image</b></summary><img src="media/39.4.1.png"></details><br><br>**Row** (11): places the Columns next to each other from left to right.<details><summary><b>Click here for the example image</b></summary><img src="media/39.4.2.png"></details><br><br>**Reverse row** (12): places the Columns next to each other from right to left.<details><summary><b>Click here for the example image</b></summary><img src="media/39.4.3.png"></details> |
 | **5** | In this example, we keep the **Flex direction** set to **Row**. Note: when the Flex direction is set to **Column**, the main axis and cross axis respond in the opposite way. Through **Main axis alignment** (horizontal alignment), you determine how the [Columns](#rowcolumn) are positioned horizontally.<br><br>**Start** (13): aligns the Columns to the left.<details><summary><b>Click here for the example image</b></summary><img src="media/39.5.png"></details><br><br>**End** (14): aligns the Columns to the right.<details><summary><b>Click here for the example image</b></summary><img src="media/39.5.1.png"></details><br><br>**Center** (15): places the Columns in the center.<details><summary><b>Click here for the example image</b></summary><img src="media/39.5.2.png"></details><br><br>**Space between** (16): distributes the available space between the Columns.<details><summary><b>Click here for the example image</b></summary><img src="media/39.5.3.png"></details><br><br>**Space around** (17): distributes the available space around the Columns.<details><summary><b>Click here for the example image</b></summary><img src="media/39.5.4.png"></details><br><br>**Space evenly** (18): gives each Column exactly the same amount of space around it.<details><summary><b>Click here for the example image</b></summary><img src="media/39.5.5.png"></details><br><br>**Start (language-sensitive)** and **End (language-sensitive)** work the same as **Start** and **End**, but take the reading direction of different languages into account. |
-| **6** | To make the following options clearer, we give one of the three [Columns](#rowcolumn) (19) a [height](#height-width) of **300px**.<details><summary><b>Click here for the example image</b></summary><img src="media/39.6.png"></details> |
+| **6** | To make the following options clearer, we give one of the three [Columns](#rowcolumn) (19) a [height](#heightwidth) of **300px**.<details><summary><b>Click here for the example image</b></summary><img src="media/39.6.png"></details> |
 | **7** | Through **Cross axis alignment** (vertical alignment), you determine how the Columns are aligned vertically relative to each other.<br><br>**Stretch** (20): all Columns automatically receive the height of the tallest Column.<details><summary><b>Click here for the example image</b></summary><img src="media/39.7.png"></details><br><br>**Start** (21): aligns all Columns at the top.<details><summary><b>Click here for the example image</b></summary><img src="media/39.7.1.png"></details><br><br>**End** (22): aligns all Columns at the bottom.<details><summary><b>Click here for the example image</b></summary><img src="media/39.7.2.png"></details><br><br>**Center** (23): vertically centers all Columns.<details><summary><b>Click here for the example image</b></summary><img src="media/39.7.3.png"></details><br><br>**Start (language-sensitive)** and **End (language-sensitive)** work the same as **Start** and **End**, but take the reading direction of different languages into account. |
 | **8** | Through **Wrap** (24), you determine how the elements respond when the available space becomes smaller.<br><br>**Wrap** automatically moves elements to the next line when there is insufficient space.<br><br>**No wrap** keeps all elements next to each other, even when the available space is limited.<br><br>With **Spacing** (25), you determine the distance between the elements. The following units are supported: `px`, `em`, `rem`, `%`, `in`, `cm`, `mm`, `pt`, `pc`, `vh` and `vw`.<details><summary><b>Click here for the example image</b></summary><img src="media/39.8.png"></details> |
 | **9** | Expand the additional options (26) to configure horizontal and vertical spacing separately.<details><summary><b>Click here for the example image</b></summary><img src="media/39.9.png"></details> |
-| **10** | Enable **Fill objects** (27) to automatically fill all elements across the available space, regardless of configured [widths](#height-width).<details><summary><b>Click here for the example image</b></summary><img src="media/39.10.png"></details> |
-| **11** | Through the [Advanced settings](#4-advanced) (28), you can enable the **Inherit parent height** (29) option. This allows the Flex component to automatically inherit the height of the parent component. For example, when a [Panel](#panel) has a configured [height](#height-width) of **500px**, the Flex component inside this Panel will automatically receive the same height.<details><summary><b>Click here for the example image</b></summary><img src="media/39.11.png"></details><br><br>Read more about the additional settings in the [Advanced](#4-advanced) and [Visibility](#5-visibility) tabs. |
+| **10** | Enable **Fill objects** (27) to automatically fill all elements across the available space, regardless of configured [widths](#heightwidth).<details><summary><b>Click here for the example image</b></summary><img src="media/39.10.png"></details> |
+| **11** | Through the [Advanced settings](#4-advanced) (28), you can enable the **Inherit parent height** (29) option. This allows the Flex component to automatically inherit the height of the parent component. For example, when a [Panel](#panel) has a configured [height](#heightwidth) of **500px**, the Flex component inside this Panel will automatically receive the same height.<details><summary><b>Click here for the example image</b></summary><img src="media/39.11.png"></details><br><br>Read more about the additional settings in the [Advanced](#4-advanced) and [Visibility](#5-visibility) tabs. |
 
 ---
 
 #### Header
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Header | Deze beschrijving wordt aangevuld |
+Use **Header** for a heading with an optional subtitle, for example above an introduction or product overview.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Text** | Enter the **Title** and optional **Subtitle** under **General settings**. Add other languages through Translations. |
+| **Appearance** | Choose Small, Medium or Large. Configure text color, background and alignment under Styling. |
 
 ---
 
@@ -888,25 +896,36 @@ Translations can be edited via the **[Edit translations](#translations)** button
 
 #### Collapsible
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Collapsible | Deze beschrijving wordt aangevuld |
+Use **Collapsible** to create an expandable block. Visitors click its heading to show or hide the content beneath it. This is useful for frequently asked questions.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Heading** | Enter the clickable heading in **Content** and add translations where needed. |
+| **Content** | Use the plus icon in the Navigator to add components inside Collapsible, such as Text or Image. |
+| **Styling** | Set the heading background color. Use Styling for the content and container. Check outside the editor that the block opens and closes correctly. |
 
 ---
 
 #### Bullet list/Bullet
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Bullet list | Deze beschrijving wordt aangevuld |
+Use **Bullet List** for a list and add one **Bullet** inside it for each item.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **List** | Add Bullet List. Choose the bullet icon and set the text color and font size. |
+| **Items** | Use the list's plus icon to add Bullet components. Enter each Bullet's text and translations. Set its position with **Order**. |
+| **Check** | Review the complete list: the icon and styling belong to the list, while each Bullet holds its own text. |
 
 ---
 
 #### Spacer
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Spacer | Deze beschrijving wordt aangevuld |
+A **Spacer** adds empty vertical space between components.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Height** | Enter the required height in pixels. Separate heights can be configured for tablets and mobile devices. |
+| **Fallback** | Choose Small, Medium or Large as the fallback when no specific pixel height is set. Review the result with the Responsive tabs. |
 
 ---
 
@@ -914,7 +933,7 @@ Translations can be edited via the **[Edit translations](#translations)** button
 
 #### Image
 
-Upload an image using the convenient **Image** component. You can then optionally configure the [height and width](#height-width) and add rounded corners. **Tip:** set [Overflow](#overflow) to `Hidden` for a clean result.
+Upload an image using the convenient **Image** component. You can then optionally configure the [height and width](#heightwidth) and add rounded corners. **Tip:** set [Overflow](#overflow) to `Hidden` for a clean result.
 
 | Step | Explanation |
 |:--|:--|
@@ -926,41 +945,61 @@ Upload an image using the convenient **Image** component. You can then optionall
 
 #### Image overlay
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Image overlay | Deze beschrijving wordt aangevuld |
+Use **Image overlay** to place a decorative image over the parent block's content, such as a corner decoration.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Image** | Add the component inside the intended block and select an image with the media picker. |
+| **Position** | Choose top left, top right, bottom left or bottom right. Use **Transform** to flip it horizontally, vertically or both. |
+| **Check** | Check on desktop and mobile that the overlay does not cover important text or buttons. |
 
 ---
 
 #### Hotspot
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Hotspot | Deze beschrijving wordt aangevuld |
+A **Hotspot** is a clickable point on an image. Use it to link a specific location to more information or another page.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Position** | Add the Hotspot inside the relevant Image component. Set its horizontal and vertical position in the position editor; these are percentages of the image. |
+| **Content** | Optionally choose an icon and background color. Enter **Tooltip** text to display when visitors hover over the point. |
+| **Link** | Enter a URL or select a CMS page. Optionally enable opening in a new tab. Check the position and link on mobile as well. |
 
 ---
 
 #### SVG
 
-| Onderdeel | Beschrijving |
-|---|---|
-| SVG | Deze beschrijving wordt aangevuld |
+Use **SVG** for a scalable vector image, such as a logo or icon.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **File** | Select an SVG file with the media picker. |
+| **Color** | Optionally set the fill color. Check the selected file: its internal structure determines which parts adopt that color. |
+| **Link** | Optionally enter a URL or select a CMS page and configure whether the link opens in a new tab. |
 
 ---
 
 #### HTML video
 
-| Onderdeel | Beschrijving |
-|---|---|
-| HTML video | Deze beschrijving wordt aangevuld |
+Use **HTML video** to play a video file directly on the page.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Source** | Select a video from Media or enter a direct link to the video file. Optionally choose a **Poster image** as its preview. |
+| **Playback** | Configure Autoplay, Loop, Show controls and Mute. Browser settings may block autoplay; check this on the devices your visitors use. |
+| **Loading and size** | Set width, height and **Preload**. Preload controls whether nothing, only metadata or the video file is loaded in advance. Check sizing and manual playback outside the editor. |
 
 ---
 
 #### Youtube video
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Youtube video | Deze beschrijving wordt aangevuld |
+Use **YouTube video** to embed a YouTube video on the page.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Source** | Enter the YouTube URL in **Video link**. |
+| **Appearance** | Choose the aspect ratio and set the start position in seconds. Configure controls and fullscreen availability. |
+| **Playback** | Configure autoplay, looping, mute, captions and annotations as needed. Actual behavior also depends on YouTube and the browser; check playback outside the editor. |
 
 ---
 
@@ -972,15 +1011,19 @@ The **Carousel** component allows you to display multiple elements as individual
 |:--|:--|
 | **1** | In this example, we have selected a [Panel](#panel) (1) to which we add the **Carousel** component (2).<details><summary><b>Click here for the example image</b></summary><img src="media/40.1.png"></details> |
 | **2** | The **Carousel** component is now visible in the [Navigator](#navigator) (3) and in the Editor. In this example, we have added multiple [Panels](#panel) to the Carousel and given each one its own [identification name](#identification-name). Via the **[General settings](#general-settings)** tab (4), you can configure the following options:<br><br>**Lazy load slides** (5): Enable this option to load slides only when they become visible.<br><br>**Swiping** (6): Enable this option to navigate through the slides using a swipe gesture.<br><br>**Style** (7): Select a style for the chevrons (navigation arrows).<br><br>**Chevron position** (8): Determine how the navigation arrows are displayed. **Overlay** places the arrows over the slide, while **Indent** places the arrows next to the Carousel.<br><br>**Chevron** (9): Enable or disable the navigation arrows.<br><br>**Pagination** (10): Displays pagination dots below the Carousel to indicate the number of slides.<br><br>**Loop** (11): Enable or disable continuous looping of the Carousel, allowing users to keep swiping through the slides.<br><br>**Autoplay - interval in seconds** (12): Specify how many seconds a slide is displayed before the next slide is shown.<br><br>**Autoplay** (13): Enable or disable automatic playback of the slides.<br><br>**Height mode** (14): Determine how the height of the slides is handled. **Auto height** animates the next slide to a larger or smaller height when necessary. **Auto stretch** ensures that all slides have exactly the same height.<br><br>**Space between slides** (15): Specify the number of pixels between the slides.<details><summary><b>Click here for the example image</b></summary><img src="media/40.2.png"></details>Read more about the additional settings for [Component Styles](#component-styles). |
-| **3** | Via the **[Styling](#3-styling)** tab (16), you can configure the following options:<br><br>**[Height](#height-width)** (17): Set the height of the Carousel.<br><br>**Column alignment** (18): Align the slides to the left, right, or center.<br><br>**[Slide width](#height-width)** (19): Set the width of the slide.<br><br>**[Slide content width](#height-width)** (20): Set the width of the content within the slide.<br><br>**Visible columns (desktop)** (21): Specify how many slides are displayed simultaneously on desktop devices.<br><br>**Visible columns (tablet)** (22): Specify how many slides are displayed simultaneously on tablets.<br><br>**Visible columns (mobile)** (23): Specify how many slides are displayed simultaneously on mobile devices.<details><summary><b>Click here for the example image</b></summary><img src="media/40.3.png"></details><br><br>Read more about the additional settings in the [Advanced](#4-advanced) and [Visibility](#5-visibility) tabs. |
+| **3** | Via the **[Styling](#3-styling)** tab (16), you can configure the following options:<br><br>**[Height](#heightwidth)** (17): Set the height of the Carousel.<br><br>**Column alignment** (18): Align the slides to the left, right, or center.<br><br>**[Slide width](#heightwidth)** (19): Set the width of the slide.<br><br>**[Slide content width](#heightwidth)** (20): Set the width of the content within the slide.<br><br>**Visible columns (desktop)** (21): Specify how many slides are displayed simultaneously on desktop devices.<br><br>**Visible columns (tablet)** (22): Specify how many slides are displayed simultaneously on tablets.<br><br>**Visible columns (mobile)** (23): Specify how many slides are displayed simultaneously on mobile devices.<details><summary><b>Click here for the example image</b></summary><img src="media/40.3.png"></details><br><br>Read more about the additional settings in the [Advanced](#4-advanced) and [Visibility](#5-visibility) tabs. |
 
 ---
 
 #### Picture row
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Picture row | Deze beschrijving wordt aangevuld |
+A **Picture row** is a Row with a background image. Place Columns containing text or buttons over this background.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Background** | Select the image and background mode. **Fixed** keeps the background fixed while scrolling; **Scroll** lets it move with the page. |
+| **Content** | Add Columns as with Row/Column and place the required components inside them. Configure spacing and height through layout and styling settings. |
+| **Check** | Check cropping and text readability at every screen size. |
 
 ---
 
@@ -1024,9 +1067,13 @@ Products that are loaded but are not available are automatically hidden from the
 
 #### Product
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Partijkaart | Deze beschrijving wordt aangevuld |
+Use a **Stock card** to highlight one specific batch in the webshop.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Batch** | Enter the **Batch number** and optionally add accompanying text and translations. Use a batch available to the intended customers. |
+| **Style** | Choose the style mode. **Option2** exposes additional purchase and image settings, which can also follow the webshop settings. |
+| **Check** | Review the card with a customer account. Batch details and purchasing options depend on availability and customer settings. **DisplayStyleMode** currently has no effect in the implementation. |
 
 ---
 
@@ -1069,9 +1116,13 @@ Use this component to make CMS (blog) pages searchable on your website. This all
 
 #### Icon link
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Icon link | Deze beschrijving wordt aangevuld |
+An **Icon link** combines a link with text and an icon, optionally with an image.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Content** | Enter the text. Choose an icon file through Icon URL, or enable **Use icon font** and enter a supported icon name. |
+| **Destination** | Enter a URL or select a CMS page. Add text and URL translations where needed. |
+| **Appearance** | Use **Round border** for a rounded border and optionally select an image. Check the link and whether it opens in the same or a new tab. |
 
 ---
 
@@ -1085,49 +1136,73 @@ Use this component to make CMS (blog) pages searchable on your website. This all
 
 #### Stock navigation
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Voorraad navigatie | Deze beschrijving wordt aangevuld |
+Use **Stock navigation** to let visitors navigate through stock groups to their underlying stocks. Its content follows the stock groups available to the user.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Navigation** | Choose Default or GroupOnly navigation mode. GroupOnly restricts navigation to groups. Optionally configure a selected stock. |
+| **Offers** | Enable **Hide offers** to exclude offer groups from this overview. |
+| **Styling and check** | Set font size, text color, alignment, dimensions and the selected item's border. Check with a customer account that the intended groups and stocks are available. |
 
 ---
 
 #### Shop navigation
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Shop navigation | Deze beschrijving wordt aangevuld |
+**Shop navigation** automatically builds an overview of the stock and order list groups available to the current user.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Selection** | Choose the batch type to show, or select All. Choose a tile or list layout. |
+| **Shortcuts** | Choose whether to display links to offers and favorites. |
+| **Styling** | Set the background, optional gradient, title text color and colors for offers and favorites. Groups come from webshop configuration rather than manually added CMS items. Check with different customer accounts. |
 
 ---
 
 #### Offer
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Aanbieding | Deze beschrijving wordt aangevuld |
+**Offer** displays the offers available to the current customer. The component is not displayed when no offers are available.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Content** | Set the maximum number of offers and choose whether to show a batch image. Subject, description and expiry date come from the offer. |
+| **Timing and rotation** | Optionally enable the countdown. Full countdown selects the extended display. For automatic rotation, enable Autoplay and set the interval in seconds. |
+| **Styling** | Set the navigation button text and colors, title, subtitle and background colors. The button opens the associated offer. Check with a customer who has access to an active offer. |
 
 ---
 
 #### Action link
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Action link | Deze beschrijving wordt aangevuld |
+Use **Action link** to make an entire block containing several components clickable, such as an image-and-text card.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Content** | Use the Navigator to add the required components inside Action link. |
+| **Destination** | Enter a URL or select a CMS page and optionally enable opening in a new tab. Add URL translations where needed. |
+| **Check** | Outside the editor, click different parts of the block to check the destination. Keep the content simple and avoid separate links within the same clickable area. |
 
 ---
 
 #### Add to home button
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Add to home button | Deze beschrijving wordt aangevuld |
+**Add to home button** lets visitors install the webshop as an app when the browser provides an installation prompt.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Configure** | Add the button and configure text, translations and styling as with Button. |
+| **Behavior** | Clicking opens the browser's available installation prompt. A message may appear when no prompt is available. Adding the button alone does not make the webshop installable. |
+| **Check** | Check outside the editor in a supported browser with the webshop's app configuration. The prompt may be unavailable after installation or on an unsupported device. |
 
 ---
 
 #### Anchors toolbar
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Anchors toolbar | Deze beschrijving wordt aangevuld |
+An **Anchors toolbar** creates navigation to marked sections on the same page.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Targets** | Set an **Anchor name** on each target component and enable **Anchor in navigation**. Only components with both settings appear in the overview. |
+| **Toolbar** | Add Anchors toolbar to the same page. Set alignment, separator and spacing between items. |
+| **Check** | Outside the editor, check that each link leads to the correct section. Without marked components, there are no navigation items. |
 
 ---
 
@@ -1147,7 +1222,7 @@ You can also add components such as [Rows/Columns](#rowcolumn) inside a Form to 
 
 |Step|Description|
 |:--|:--|
-|**1**|In this example, we are working on a contact [page](#page) and want to add a form. In the [Navigator](#navigator), click the **'+'** icon behind the [Panel](#panel) component (1). This opens the [Components dialog](#components-dialog).<details><summary><b>Click here for the example image</b></summary><img src="media/52.1.png"></details>|
+|**1**|In this example, we are working on a contact [page](#page) and want to add a form. In the [Navigator](#navigator), click the **'+'** icon behind the [Panel](#panel) component (1). This opens the [Components dialog](#component-dialog).<details><summary><b>Click here for the example image</b></summary><img src="media/52.1.png"></details>|
 |**2**|In the dialog, navigate to the **Form** category (2) and add the **Form** component to the page by clicking the **'+'** icon (3).<details><summary><b>Click here for the example image</b></summary><img src="media/52.2.png"></details>|
 |**3**|The **Form** component is now visible (4) in the Navigator and can be configured immediately through the **General settings** tab (5). Click **Edit translations** (6) to enter text for multiple languages. For more information, see [Translations](#translations).<br><br>Next, enter the **Email subject** (7). This will be used as the subject line of the email sent to the addresses specified under **Recipients** (8). Use the add button (9) to add multiple email addresses.<br><br>To reduce spam, enable **Bot Prevention Mode** (10). The following options are available:<br><br>**Hidden input field:** Adds an invisible input field that visitors cannot see. If this field is filled in (typically by a bot), the form submission will be blocked.<br><br>**Time-based:** Bots often submit forms within milliseconds. If the form is submitted faster than the configured time (3 seconds by default), the submission will be blocked.<br><br>If you have your own Google account, you can also enable **Google reCAPTCHA** (11). <details><summary><b>Follow these steps:</b></summary>**Google reCAPTCHA configuration**<br><br>1. Sign in to your Google account.<br>2. If your account does not yet have a project, create one at: https://console.cloud.google.com/projectcreate.<br>3. Create a new reCAPTCHA instance at: https://www.google.com/recaptcha/admin/create.<br>3a. Enter a recognizable **Label**, for example: *[Company Name] reCAPTCHA*.<br>3b. Leave the type set to **Score based (v3) - Verify requests with a score**. This type is supported by the webshop.<br>3c. Under **Domains**, enter your domain name, for example: *yourdomain.com*.<br>3d. Select the newly created or an existing Google Cloud Project.<br>3e. Click **Submit**.<br>4. On the next page, you will see the **Site Key** and **Secret Key**. Store these safely.<br>5. *(Optional)* Click **View in Cloud Console** to open the reCAPTCHA management console.<br>6. Configure the following webshop settings:<br>6a. **RECAPTCHAACTIVE** → Enable this setting.<br>6b. **RECAPTCHASITEKEY** → Enter the Site Key.<br>6c. **RECAPTCHASECRETKEY** → Enter the Secret Key.<br>7. Restart the webshop after saving the settings.<br>8. In CMS edit mode, enable **Use reCAPTCHA** for every form that should use reCAPTCHA.<br>9. Save the CMS changes, publish them, and refresh the page.<br>10. Google reCAPTCHA is now active. When a form is submitted, Google analyzes user behavior, browser information, and other technical details to calculate a score. If the score is too low, the submission is blocked and the visitor receives an error message.<br><br>**Note 1:** This version of reCAPTCHA does **not** use a checkbox. Instead, it calculates a score in the background.<br>**Note 2:** Pages containing forms will automatically display a **"Protected by reCAPTCHA"** badge in the bottom-right corner.</details><br><br>Forms can also be sent using an XSL template to one or more email addresses. In that case, make sure the webshop SMTP settings are configured correctly and that an XSL template (12) is available for the active theme. The same applies to the **Autoreply XSL** (13). Read more about using [Component Styles](#component-styles) (14).<details><summary><b>Click here for the example image</b></summary><img src="media/52.3.png"></details>|
 |**4**|The confirmation options (15) can also be configured easily. Under **Confirmation feedback** (16), choose whether to display a thank-you message using **ShowDialog**, or redirect the visitor to a [CMS page](#page). When **CMSPage** is selected, choose the destination page via **CMS Page** (17). If you choose **ShowDialog**, you can enter a title (18) and message (19) that will be displayed after a successful submission.<details><summary><b>Click here for the example image</b></summary><img src="media/52.4.png"></details>|
@@ -1281,8 +1356,8 @@ This is particularly useful when processing registration forms, where additional
 
 |Step|Explanation|
 |:--|:--|
-|**1**|In this example, we have added three **Hidden input** components to the [Form](#formulier-1).<br><br>The first example shows a **Hidden input** (1) with a **Name** and **Value** that refer to a template customer (2).<br><br>The second example shows a **Hidden input** (3) with **DEBNR** as the value (4). The third example shows a **Hidden input** (5) with **DEBKEY** as the **Name** (6).<br><br>**Note:** Always use existing columns from the back office. Deviating from these is not supported.<details><summary><b>Click here for the example image</b></summary><img src="media/61.1.png"></details><details><summary><b>Click here for the example image</b></summary><img src="media/61.2.png"></details><details><summary><b>Click here for the example image</b></summary><img src="media/61.3.png"></details>|
-|**2**|Configure the [Form](#formulier-1) so that the data is stored using **Database**, **ExcelFile**, or **ExcelAsMailAttachment** and sent to the recipient.<br><br>When the recipient opens the Excel file from the email, the **Hidden input** fields can be populated with the corresponding data.<br><br>The Excel file can then be imported into the Florisoft back office via **Constants** (7) → **Import** (8) → **Customers** (9).<br><br>Based on the imported data, a new customer is then created using a predefined template Debtor ([Read more about Debtor settings](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/Florisoft%20manual%20debtors%2C%20stock%20%26%20order%20lists.md)). In the customer settings of this new customer, the **DEBNR** and **DEBKEY** fields are populated with the values entered in the Excel file by the recipient of the registration form.<details><summary><b>Click here for the example image</b></summary><img src="media/61.4.png"></details>|
+|**1**|In this example, we have added three **Hidden input** components to the [Form](#forms).<br><br>The first example shows a **Hidden input** (1) with a **Name** and **Value** that refer to a template customer (2).<br><br>The second example shows a **Hidden input** (3) with **DEBNR** as the value (4). The third example shows a **Hidden input** (5) with **DEBKEY** as the **Name** (6).<br><br>**Note:** Always use existing columns from the back office. Deviating from these is not supported.<details><summary><b>Click here for the example image</b></summary><img src="media/61.1.png"></details><details><summary><b>Click here for the example image</b></summary><img src="media/61.2.png"></details><details><summary><b>Click here for the example image</b></summary><img src="media/61.3.png"></details>|
+|**2**|Configure the [Form](#forms) so that the data is stored using **Database**, **ExcelFile**, or **ExcelAsMailAttachment** and sent to the recipient.<br><br>When the recipient opens the Excel file from the email, the **Hidden input** fields can be populated with the corresponding data.<br><br>The Excel file can then be imported into the Florisoft back office via **Constants** (7) → **Import** (8) → **Customers** (9).<br><br>Based on the imported data, a new customer is then created using a predefined template Debtor ([Read more about Debtor settings](https://github.com/florisoft/User.Manuals/blob/main/FLORISHOP%20MANUALS/Florisoft%20manual%20debtors%2C%20stock%20%26%20order%20lists.md)). In the customer settings of this new customer, the **DEBNR** and **DEBKEY** fields are populated with the values entered in the Excel file by the recipient of the registration form.<details><summary><b>Click here for the example image</b></summary><img src="media/61.4.png"></details>|
 
 ---
 
@@ -1316,41 +1391,61 @@ In addition to an external or relative URL, you can select a CMS page as the lin
 
 #### Login form
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Login form | Deze beschrijving wordt aangevuld |
+Use **Login form** to place the webshop login form on a CMS page.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Appearance** | Choose Compact or FullWidth and whether to hide the heading. |
+| **After login** | Choose Home, Stock or Custom under **Return URL mode**. Enter the return URL when using Custom. |
+| **Additional options** | Choose whether to show Remember me and hide password recovery. Check the form as a logged-out visitor and verify the destination after login. |
 
 ---
 
 #### Debtor info
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Debiteur info | Deze beschrijving wordt aangevuld |
+**Debtor info** displays one detail of the current customer or their account manager. Content is retrieved automatically from customer data.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Detail** | Select a field such as name, user ID, phone, email, contact person or account manager details. Use multiple components to show multiple fields. |
+| **Empty values** | Optionally enter a Placeholder or use Hide when empty to suppress missing details. |
+| **Check** | Check with a logged-in customer. Where needed, restrict personal account information to customers through Visibility. This component displays data without editing it. |
 
 ---
 
 #### Your account
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Uw account | Deze beschrijving wordt aangevuld |
+**Your account** displays shortcuts to webshop service and account functions, such as customer details and invoices.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Content** | Available functions depend on webshop settings and user permissions. Links are generated automatically; for example, the invoice button follows invoice permissions. |
+| **Styling** | Configure icons, alignment, button colors, hover color, border, corner radius, dimensions, padding and margins. |
+| **Check** | Use the intended customer accounts to check which buttons appear and whether they open the correct service pages. |
 
 ---
 
 #### Accountmanager
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Accountmanager | Deze beschrijving wordt aangevuld |
+Use **Accountmanager** to display the account manager assigned to the current customer.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Welcome message** | Enter the welcome message and any translations. |
+| **Data** | The account manager is retrieved from customer settings. Assign a different manager in the backoffice; the CMS component does not select one independently. |
+| **Check** | Check with a customer who has an account manager with contact details assigned. The exact presentation depends on the webshop theme. |
 
 ---
 
 #### Registrationform
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Registratieformulier | Deze beschrijving wordt aangevuld |
+This is the built-in **Registration form** for B2C customer registration. Availability depends on the Florishop B2C license.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Setup** | Select the **Template debtor** used as the basis for registration. Without a template debtor, the regular form fields are not built. |
+| **Fields** | Under Form fields, choose which fields are displayed and which are required. Required fields are displayed even when not separately selected. |
+| **Messages** | Configure email recipients and whether the applicant receives an email. Enter error messages for phone number and email. Before use, check a complete registration, including validation and email handling. |
 
 ---
 
@@ -1358,9 +1453,13 @@ In addition to an external or relative URL, you can select a CMS page as the lin
 
 #### Footer template
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Footer template | Deze beschrijving wordt aangevuld |
+**Footer template** is a ready-made layout with columns for company details, opening hours, information links and social media.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Add** | Open Edit Footer, enable the editor and insert Footer template through Templates. |
+| **Customize** | Edit the underlying Text and Social icons components. Replace all example details and links and add translations. |
+| **Publish** | Check the columns on mobile, save and publish the footer. An inserted template consists of editable components. Use Frame when multiple locations should refer to one managed template. |
 
 ---
 
@@ -1368,73 +1467,109 @@ In addition to an external or relative URL, you can select a CMS page as the lin
 
 #### Iframe
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Iframe | Deze beschrijving wordt aangevuld |
+Use **Iframe** to display another web page inside the CMS page.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Source** | Enter the page URL to embed. Set the height in pixels; the frame uses the available width. |
+| **Authentication** | Authentication headers can be configured under Advanced when the linked application supports that integration. Use the details supplied by its administrator. |
+| **Check** | Check outside the editor. The external application must allow embedding and support any required login; a correct URL alone does not guarantee visible content. |
 
 ---
 
 #### Blog
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Blog | Deze beschrijving wordt aangevuld |
+**Blog** builds an overview of blog pages from selected blog categories. A template determines each item's appearance.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Selection** | Create blog categories and pages first. Select the categories in the component and optionally use labels to refine the selection. |
+| **Template** | Select a suitable blog template containing elements such as title, image, description, date and link. Page content and metadata populate each item. |
+| **Count** | Set Max items and optionally Pagination. **BlogPageOffset** skips the first items, for example when the latest article is highlighted separately. Check the result with published blog pages. |
 
 ---
 
 #### Category overview
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Category overview | Deze beschrijving wordt aangevuld |
+**Category overview** displays pages from selected CMS categories using a repeated template layout.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Selection** | Select one or more categories and optionally tags to determine the content. |
+| **Appearance** | Select the item template and set Max items. Use BlogPageOffset to skip initial items. |
+| **Management** | Edit source pages for content and metadata and the template for item styling. Individual items are not added as child components of this overview. Use Blog for blog categories and blog labels. |
 
 ---
 
 #### Frame
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Frame | Deze beschrijving wordt aangevuld |
+A **Frame** displays content from a selected template, allowing the same managed content to be used in several locations.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Link** | Create the required template first. Add Frame and select it under **Synchronize with template ID**. |
+| **Edit** | Edit the source through template management. Frame retrieves the template when rendered; its displayed content is not edited as separate page components inside the Frame. |
+| **Check** | After changing a template, check every page that uses it through Frame. Without a valid template, the Frame cannot display template content. |
 
 ---
 
 #### Custom
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Custom | Deze beschrijving wordt aangevuld |
+Use **Custom** to build a component with HTML, JavaScript and SCSS. This is intended for administrators familiar with web development.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Content and styling** | Edit HTML for structure, SCSS for styling and JavaScript for interaction in the corresponding editors. |
+| **Translations and slots** | Manage translations using text keys. Use named slots to place regular CMS components inside the custom structure and assign their Slot Name accordingly. |
+| **Check** | After saving, check behavior outside the editor and at different screen sizes. Scope code and selectors to this component to avoid unintended effects elsewhere on the page. |
 
 ---
 
 #### Choice Component
 
-| Item | Description |
-|---|---|
-| Choice Component | This description will be added later |
+Use **Choice Component** to build a choice guide: visitors select an answer and see its associated follow-up content. The component is marked as beta in the code.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Structure** | Give the choice a recognizable name. Add the question text and one or more **Button (Keuze)** components inside it. |
+| **Answers** | A slot is generated for each choice button. Use the Navigator to add the associated answer content to that slot. Assign content to the correct slot rather than only to the general choice area. |
+| **Behavior** | Enable **Keep question visible** if the question should remain after selection. Check every path outside the editor; answer slots are initially hidden there. |
 
 ---
 
 #### Button (Keuze)
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Button (Keuze) | Deze beschrijving wordt aangevuld |
+**Button (Keuze)** is an answer button inside a Choice component. Clicking it reveals the answer slot associated with that button.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Placement** | Add the button inside the correct Choice component and enter the answer text and translations. |
+| **Styling** | Configure button styling and the optional chevron as with a regular Button. |
+| **Follow-up** | Fill the generated answer slot with the required follow-up components. This button does not use a URL: the implementation clears its saved URL. Check that each button shows its own answer. |
 
 ---
 
 #### Lottie player
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Lottie player | Deze beschrijving wordt aangevuld |
+Use **Lottie player** to play a Lottie animation on the page.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Source** | Enter the direct animation file URL under Lottie URL. |
+| **Playback** | Configure Loop, Autoplay, Play on hover and Controls. **Animation speed** controls playback speed: 1 is normal speed. |
+| **Appearance** | Choose Full width to use the available width. Check loading, size and the selected playback settings outside the editor. |
 
 ---
 
 #### Suggestions
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Suggestions | Deze beschrijving wordt aangevuld |
+**Suggestions** displays batch suggestions for the current customer. Batches are retrieved from the webshop using the customer number.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Count** | Set the required number of suggestions with Limit. |
+| **Appearance** | Choose an available display mode and whether to show descriptions. |
+| **Check** | Check with a logged-in customer account that has available suggestions. The component does not create an assortment or recommendation rules; content comes from existing webshop logic. |
 
 ---
 
@@ -1442,105 +1577,161 @@ In addition to an external or relative URL, you can select a CMS page as the lin
 
 #### Chart
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Chart | Deze beschrijving wordt aangevuld |
+Use **Chart** to display query results as a chart, such as monthly sales. The general dashboard settings below also apply to other query components where available.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Chart** | Enter a title and choose the chart type. Under Datasets, add one or more series with a label, query and color. The first result column supplies labels and the second supplies numeric values. |
+| **Styling** | Set height, font size, legend and optionally a color group. Use matching categories and ordering for comparable series. |
+| **Advanced** | **Refresh rate** is the refresh interval in minutes; 0 disables periodic refresh. **Cache query result** controls how long results are reused. Refreshing more often than the cache lifetime does not guarantee a new query result. |
+| **Filters and check** | Use filters through a Filter toolbar. Queries reference keywords such as `#YEAR#`; match the name and data type to the query. Have queries prepared for this webshop's database and verify results against a known period. |
 
 ---
 
 #### Piechart
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Piechart | Deze beschrijving wordt aangevuld |
+Use **Piechart** to show proportions between categories as a pie or doughnut chart.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Data** | Enter the title and query. Return one label in the first column and a numeric value in the second column for each category. |
+| **Styling** | Choose the chart type, legend unit, decimal places, height and color group. The color start index determines where the color sequence begins. |
+| **Check** | Optionally configure refresh and caching as described for Chart. Check categories and proportions against the query results. |
 
 ---
 
 #### Gauge
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Gauge | Deze beschrijving wordt aangevuld |
+A **Gauge** displays one current value on a dial, such as progress towards a target.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Value** | Enter the title and Query current. The query must return a numeric value in the first field of the first row. Select a remote server if required. |
+| **Scale** | Set minimum and maximum values. Enter green and red ranges as semicolon-separated pairs, such as `0;50` and `80;100` on a scale from 0 to 100. |
+| **Styling and check** | Set height, tick count, decimals, text color and font sizes. Optionally configure refresh and caching as described for Chart. Check the measured value and the meaning of the color zones. |
 
 ---
 
 #### Table view
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Table view | Deze beschrijving wordt aangevuld |
+Use **Table view** to show query results in a table with configurable columns.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Source** | Enter the title and query and select a remote server if needed. |
+| **Columns** | Add **TableColumn** components inside Table view. Link each one to a result column and set its header text, alignment, width and optional decimals. Use **TableLink** for a link column. |
+| **Appearance** | Set header colors, text color and font size. Hide header suppresses the table header. Optionally use Conditional rules for conditional styling. |
+| **Check** | Configure refresh and caching as described for Chart. After changing a query, check that mapped column names still exist and that rows and links are correct. |
 
 ---
 
 #### Progressbar
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Progressbar | Deze beschrijving wordt aangevuld |
+**Progressbar** displays a current value as a proportion of a total, such as sales against a target.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Queries** | Enter Query current value and Query total value. Both must return a numeric value in the first field of the first row. The total must be greater than zero. |
+| **Appearance** | Set title, bar color, height, font size and decimals. Show values also displays the current and total values. |
+| **Calculation** | The bar is capped at 100%. Current and total values are rounded to the selected decimals first. Optionally configure refresh and caching as described for Chart and check with known values. |
 
 ---
 
 #### Dashboard view
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Dashboard view | Deze beschrijving wordt aangevuld |
+Use **Dashboard view** to rotate automatically between dashboard pages, for example on a display screen.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Pages** | Add a **DashboardViewPage** inside Dashboard view for each page. Enter its URL and a duration in seconds greater than zero. Only valid items are included. |
+| **User** | Automatic frame rotation is used when the customer's **DashboardUser** setting is enabled. Other users see the child component content. |
+| **Check** | Open the page with the intended dashboard user. Check every URL, access to the pages and the rotation interval. |
 
 ---
 
 #### Embedded dashboard
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Embedded dashboard | Deze beschrijving wordt aangevuld |
+**Embedded dashboard** embeds an external Qlik Sense dashboard and requests an access ticket for it.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Addresses** | Enter the base URL, ticket request path and dashboard path. Set the embedded dashboard height. |
+| **Integration** | Under Advanced, enter the certificate, certificate password, required headers and request body according to the Qlik Sense configuration. Obtain these values from the Qlik administrator. |
+| **Check** | Check that the ticket request succeeds and the dashboard loads for the intended user. This component requires a configured Qlik integration; a dashboard URL alone is insufficient. |
 
 ---
 
 #### Filter toolbar
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Filter toolbar | Deze beschrijving wordt aangevuld |
+A **Filter toolbar** groups dashboard filters and variables. Selections affect query results when those queries reference the same keywords.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Structure** | Add Query filter, Preset value filter, Query filter date or Query variable inside the toolbar. Use a recognizable keyword name for each distinct variable. |
+| **Apply** | Choose values and use the checkmark button to apply them. The question mark displays active query filters. |
+| **Hide** | **RenderHidden** makes the toolbar invisible outside the editor while still rendering it; its layout space remains. Use this when configured values should work without visible controls. |
+| **Check** | Use at least two different selections to check that connected charts or tables actually display different results. |
 
 ---
 
 #### Searchterm
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Searchterm | Deze beschrijving wordt aangevuld |
+**Searchterm** displays recorded search terms from webshop statistics. It is a reporting component for search behavior.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Configure** | Enter a title and choose the maximum number of results. |
+| **Data** | Content comes from collected search statistics. You do not enter a manual search-term list or query here. |
+| **Check** | Review the overview once search activity has been recorded. Use it to understand what visitors search for. |
 
 ---
 
 #### Query filter
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Query filter | Deze beschrijving wordt aangevuld |
+A **Query filter** fills a selection list from a query and exposes the selected value as a dashboard keyword.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Name** | Add the component inside Filter toolbar. Enter Keyword name as the technical name and Keyword label as the visible label. |
+| **Choices** | Enter the query: the first column contains the value and an optional second column contains its display text. Choose a remote server if required. |
+| **Initial value** | Optionally set Default value and enable Multi value for multiple selections. Use the same keyword, such as `#GROUP#`, in the receiving query, with SQL structured appropriately for single or multiple values. |
+| **Check** | Apply a selection through the toolbar and check the dependent chart or table. |
 
 ---
 
 #### Preset value filter
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Preset value filter | Deze beschrijving wordt aangevuld |
+Use **Preset value filter** to provide a fixed selection list for a dashboard filter. Options are entered manually.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Setup** | Add the component inside Filter toolbar and enter Keyword name and Keyword label. |
+| **Options** | For each Value list item, enter Label, Value and Position. The label is visible text; the value is used in the query. |
+| **Behavior** | Set Default value to an appropriate option and choose whether Multi value is allowed. Reference the same keyword in the query. Use the toolbar to check that every option produces the intended results. |
 
 ---
 
 #### Query filter date
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Query filter date | Deze beschrijving wordt aangevuld |
+**Query filter date** adds a date picker to a Filter toolbar and makes the selected date available to dashboard queries.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Configure** | Enter Keyword name and Keyword label. Set the initial date through Default value, for example `2026-10-19`. |
+| **Query** | Reference the same keyword name in the query. Match comparisons and date conversions to the format received by the dashboard query. |
+| **Check** | Select another date and apply it with the toolbar checkmark. Check results for a known date; entering a label alone does not link the date to a query. |
 
 ---
 
 #### Query variable
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Query variable | Deze beschrijving wordt aangevuld |
+A **Query variable** calculates a dashboard variable from a query so visitors do not need to choose its value manually.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Configure** | Add the component inside Filter toolbar. Enter Keyword name, Keyword label and the calculating query. |
+| **Result** | All result fields from all rows are combined into a comma-separated list. Return only the intended values. Default value is used when the result is empty. |
+| **Usage** | Reference the same keyword in dependent dashboard queries and use the toolbar to check active variables and their results. |
 
 ---
 
@@ -1548,38 +1739,59 @@ In addition to an external or relative URL, you can select a CMS page as the lin
 
 #### Health chart
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Health chart | Deze beschrijving wordt aangevuld |
+**Health chart** displays a chart of technical webshop statistics without requiring a custom SQL query.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Metric** | Choose Users, Sessions or Memory under Data type. Choose Maximum, Average or Minimum under Data mode. |
+| **Appearance** | Enter the title, color and height. |
+| **Source** | Without a Remote URL, local data is used. For another environment, enter Remote URL, user and password under Advanced. This source principle also applies to other Health components where those settings are available. |
+| **Check** | Check that measurements exist for the selected environment and that any remote connection works. |
 
 ---
 
 #### Health check
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Health check | Deze beschrijving wordt aangevuld |
+**Health check** combines checks on the webshop environment in one overview.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Checks** | Enter a title and enable the required checks: users, memory, uptime, disk space, batches and order lists. |
+| **Source** | Use the local environment or configure a remote environment under Advanced as described for Health chart. |
+| **Check** | Verify that the selected checks display data. Disabled checks are omitted; their absence does not mean there is no problem. |
 
 ---
 
 #### Health errors
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Health errors | Deze beschrijving wordt aangevuld |
+**Health errors** displays recorded errors from the selected webshop environment.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Selection** | Enter a title and choose Max results and Past days to limit the result count and lookback period. |
+| **Source** | If required, configure Remote URL and credentials under Advanced. Without a Remote URL, the local environment is used. |
+| **Usage** | Review available error details for further analysis. The component displays recorded errors without automatically resolving them. If the overview is empty, also check the period and selected environment. |
 
 ---
 
 #### Health gauge
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Health gauge | Deze beschrijving wordt aangevuld |
+**Health gauge** displays a technical metric as a dial, such as memory or user usage.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Metric** | Enter a title and choose Users, Sessions or Memory under Data type. |
+| **Appearance** | Set the height and tick count. The dial uses health data; you do not enter a custom query or the regular Gauge's ranges. |
+| **Source and check** | Use local data or configure a remote environment as described for Health chart. Check that the selected measurement is available and belongs to the intended environment. |
 
 ---
 
 #### Health log
 
-| Onderdeel | Beschrijving |
-|---|---|
-| Health log | Deze beschrijving wordt aangevuld |
+Use **Health log** to display log entries from a selected technical category.
+
+| Setting / step | Explanation |
+|:--|:--|
+| **Configure** | Enter a title, select Health category and set Max results to limit the overview. |
+| **Source** | Without a Remote URL, the local health log is used. Configure remote settings as described for Health chart to use another environment. |
+| **Check** | Check that the selected category contains log entries. Health log data may be retrieved from cache, so new events may not appear immediately. |
