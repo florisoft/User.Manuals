@@ -197,6 +197,8 @@ When `AllowReverseLoading` is active, the employee starts with the product inste
 
 Opening or selecting a trolley does not register the product. The trolley confirmation scan is mandatory. After a valid scan, the product is linked and the app returns to the scan page for the next product.
 
+Do you need to add products to a trolley with status **Complete**? When `AllowReverseLoadingOnCompletedTrolleys` is enabled, you can also scan the barcode of a completed trolley to place the pending product on it. When this setting is disabled, reverse loading only allows placement on active trolleys. The other validations still apply.
+
 You can cancel the pending product through the banner. Scanning a new product always replaces the current pending scan.
 
 ## External supplier barcodes
@@ -289,7 +291,7 @@ For manual registration, `ToProcessQuantityMode` determines whether the employee
 
 For scan registration, the `ValidBarcodeDecodeOptions` under `ProductHandling` determine which product and box barcodes are valid. `ShowProductDetailsOnScan` controls whether the details open before processing. Before Florisoft places the item on the trolley, it performs the checks from `EnabledOrderLineValidationOptions`. After successful placement, the operations in `EnabledAdditionalActions` can run, such as registering the barcode as processed.
 
-Enable `AllowReverseLoading` when the workflow must start with a product scan. The employee then scans the product first and confirms the correct trolley afterwards. For external KOWADI barcodes, `ExternalBarcodePrefixes` defines the recognised prefixes. When such a scan creates a new external box, Florisoft uses the packaging code from `DefaultExternalPackagingCode`.
+Enable `AllowReverseLoading` when the workflow must start with a product scan. The employee then scans the product first and confirms the correct trolley afterwards. To also allow products to be placed on completed trolleys, enable `AllowReverseLoadingOnCompletedTrolleys` under `Apps → Logistics → Packing → TrolleyLoading → ProductHandling → PutOnTrolley`. For external KOWADI barcodes, `ExternalBarcodePrefixes` defines the recognised prefixes. When such a scan creates a new external box, Florisoft uses the packaging code from `DefaultExternalPackagingCode`.
 
 ### Labels and add-ons
 
