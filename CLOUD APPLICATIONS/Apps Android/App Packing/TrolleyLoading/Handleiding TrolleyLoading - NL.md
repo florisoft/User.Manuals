@@ -197,6 +197,8 @@ Als `AllowReverseLoading` actief is, begint de medewerker met het product in pla
 
 Alleen het openen of selecteren van een kar registreert het product nog niet. De karbevestigingsscan is verplicht. Na een geldige scan wordt het product gekoppeld en keert de app terug naar de scanpagina voor het volgende product.
 
+Wilt u nog producten toevoegen aan een kar met status **Compleet**? Als `AllowReverseLoadingOnCompletedTrolleys` actief is, kunt u ook de barcode van een complete kar scannen om het wachtende product op die kar te plaatsen. Als deze instelling uit staat, kunt u bij omgekeerd opbouwen alleen op actieve karren plaatsen. De overige controles blijven gelden.
+
 U kunt het wachtende product via de banner annuleren. Een nieuwe productscan vervangt altijd de bestaande wachtende scan.
 
 ## Externe leveranciersbarcodes
@@ -289,7 +291,7 @@ Bij een handmatige registratie bepaalt `ToProcessQuantityMode` of de medewerker 
 
 Voor scanregistratie kiest u met de `ValidBarcodeDecodeOptions` onder `ProductHandling` welke product- en doosbarcodes geldig zijn. `ShowProductDetailsOnScan` bepaalt of na de scan eerst het detail wordt geopend. Voordat Florisoft het item op de kar zet, worden de controles uit `EnabledOrderLineValidationOptions` uitgevoerd. Na een geslaagde plaatsing kunnen de handelingen uit `EnabledAdditionalActions` volgen, bijvoorbeeld het registreren van de barcode als verwerkt.
 
-Wanneer de werkwijze met een productscan moet beginnen, activeert u `AllowReverseLoading`. De medewerker scant dan eerst het product en bevestigt daarna de juiste kar. Voor externe KOWADI-barcodes legt `ExternalBarcodePrefixes` vast welke voorvoegsels worden herkend. Als zo'n scan een nieuwe externe doos aanmaakt, gebruikt Florisoft de fustcode uit `DefaultExternalPackagingCode`.
+Wanneer de werkwijze met een productscan moet beginnen, activeert u `AllowReverseLoading`. De medewerker scant dan eerst het product en bevestigt daarna de juiste kar. Om daarbij ook producten op complete karren te kunnen plaatsen, activeert u daarnaast `AllowReverseLoadingOnCompletedTrolleys` onder `Apps → Logistics → Packing → TrolleyLoading → ProductHandling → PutOnTrolley`. Voor externe KOWADI-barcodes legt `ExternalBarcodePrefixes` vast welke voorvoegsels worden herkend. Als zo'n scan een nieuwe externe doos aanmaakt, gebruikt Florisoft de fustcode uit `DefaultExternalPackagingCode`.
 
 ### Labels en add-ons
 
