@@ -198,6 +198,18 @@ Ensures that when **stock** is mutated, the linked **stored parcel** is also upd
 #### `StockMutationAsCountingFallBack`
 Used when `StockMutationAsCounting` is active but cannot be applied to a specific case. The fallback logic is then triggered.
 
+#### `ReducePickItemsOnStockDecrease`
+Use this policy to determine whether a stock decrease may also reduce existing pick orders that still have quantity to pick when free stock is insufficient.
+
+- **Off (default):** the app does not reduce existing pick orders.
+- **On:** the app uses free stock first. If a shortage remains, it reduces eligible open pick orders for the same V-parcel, from newest to oldest.
+
+Only pick orders with a stock code in `Backoffice_Logistics_Stock_Counting_OrderPickStockCodes` are eligible. Pick orders for a customer configured with **Exclude pick orders from stock counting** are not corrected.
+
+For every reduced pick order, the app automatically creates a distribution control. Also configure a valid `Apps_Inventory_StockCorrectionExceptionReasonId`; without a valid reason, the app cannot register the related exception.
+
+> ⚠️ Enable this policy only when your process permits a stock correction to reduce open pick orders. Always check the changed pick orders and the created distribution controls after a correction.
+
 ---
 
 ### `QualityIssue`
@@ -299,6 +311,9 @@ The `Apps_Inventory_StockCounting_StockCountingStrategy` policy determines wheth
 
 - `Default stockcounting based`: each selected parcel is counted and processed separately.
 - `stockcounting based on v-stock items`: searching and scanning continue to work at parcel level, but after selection the app internally translates the parcel to the related VPartijNr. Parcels with the same VPartijNr are shown in the mutation screen as one consolidated result.
+- `stockcounting based on unique carriers`: the app processes the scanned or selected unique carrier and its linked logistics parcel. The location and quantity on the detail page belong to the carrier; other displayed properties belong to the parent parcel. The parent parcel is only marked as checked after all associated carriers have been confirmed.
+
+With `stockcounting based on unique carriers`, the carrier must have status `Arrived`. Also configure `UniqueCarrierLabelPrinter` and `UniqueCarrierLabelLayout` if users must be able to print labels for unique carriers.
 
 With `stockcounting based on v-stock items`, only parcels within the configured stock policy/`AvailableStocks` are included. The sorting of that policy determines the processing order. Quantity increases or decreases are distributed across the underlying parcels according to that order. Detail changes, check marks, and quality issues are applied to the underlying parcels within the policy. Printing is based on the first underlying parcel according to the policy order.
 

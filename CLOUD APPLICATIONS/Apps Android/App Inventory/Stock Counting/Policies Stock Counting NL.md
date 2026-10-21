@@ -200,6 +200,18 @@ Deze policy zorgt ervoor dat bij het muteren van de voorraad, ook de gekoppelde 
 #### `StockMutationAsCountingFallBack`
 Deze fallback-instelling is van toepassing wanneer `StockMutationAsCounting` actief is, maar niet kan worden toegepast op een specifieke mutatie. In dat geval wordt het fallback-gedrag toegepast.
 
+#### `ReducePickItemsOnStockDecrease`
+Met deze policy bepaalt u of een voorraadverlaging ook bestaande, nog te picken pickorders mag verlagen wanneer de vrije voorraad niet toereikend is.
+
+- **Uit (standaard):** de app verlaagt geen bestaande pickorders.
+- **Aan:** de app verwerkt eerst de vrije voorraad. Is daarna nog een tekort over, dan verlaagt zij geschikte open pickorders van dezelfde V-partij, van nieuw naar oud.
+
+Alleen pickorders met een voorraadcode uit `Backoffice_Logistics_Stock_Counting_OrderPickStockCodes` komen in aanmerking. Pickorders van een debiteur waarvoor **Pickorders niet meetellen in voorraad opname** is ingesteld, blijven buiten de correctie.
+
+Voor iedere verlaagde pickorder maakt de app automatisch een verdeelcontrole aan. Configureer daarvoor ook een geldige `Apps_Inventory_StockCorrectionExceptionReasonId`. Zonder geldige reden kan de app de bijbehorende uitzondering niet registreren.
+
+> ⚠️ Schakel deze policy alleen in wanneer uw proces toestaat dat een voorraadcorrectie open pickorders verlaagt. Controleer na een correctie altijd de gewijzigde pickorders en de aangemaakte verdeelcontroles.
+
 ---
 
 ### `QualityIssue`
@@ -299,6 +311,9 @@ De policy `Apps_Inventory_StockCounting_StockCountingStrategy` bepaalt of Stock 
 
 - `Standaard telling op partijbasis`: iedere geselecteerde partij wordt afzonderlijk geteld en verwerkt.
 - `Telling op v-partij basis`: zoeken en scannen blijven op partijniveau werken, maar na selectie vertaalt de app de partij intern naar het bijbehorende VPartijNr. Partijen met hetzelfde VPartijNr worden in het mutatiescherm als een geconsolideerd resultaat verwerkt.
+- `Telling op unieke drager`: de app verwerkt de gescande of geselecteerde unieke drager en de gekoppelde logistieke partij. De locatie en hoeveelheid in het detailscherm horen bij de drager; overige getoonde eigenschappen horen bij de hoofdpartij. De hoofdpartij wordt pas als gecontroleerd gemarkeerd nadat alle bijbehorende dragers zijn bevestigd.
+
+Bij `Telling op unieke drager` moet de drager de status `Arrived` hebben. Configureer daarnaast `UniqueCarrierLabelPrinter` en `UniqueCarrierLabelLayout` wanneer gebruikers labels voor unieke dragers moeten kunnen printen.
 
 Bij `Telling op v-partij basis` tellen alleen partijen mee die binnen de ingestelde voorraad-policy/`AvailableStocks` vallen. De sortering van die policy bepaalt de verwerkingsvolgorde. Aantal verhogen of verlagen wordt volgens die volgorde verdeeld over de onderliggende partijen. Detailwijzigingen, controle-vinkjes en kwaliteitsissues worden toegepast op de onderliggende partijen binnen de policy. Printen gebeurt op basis van de eerste onderliggende partij volgens de policy-volgorde.
 

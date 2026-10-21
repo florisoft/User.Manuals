@@ -106,6 +106,14 @@ Relevant settings:
 - `StockMutationSettings_StockCountingXorder`: links mutations to internal orders if needed.
 - `StockMutationSettings_StockQuantityMutAlsoStoredStockItem`: synchronizes changes with `StoredStockItem` where applicable.
 
+### Correct open pick orders when stock is insufficient
+
+Use `StockMutationSettings_ReducePickItemsOnStockDecrease` to determine whether Consolidation may reduce existing open pick orders when free stock is insufficient for the entered stock correction.
+
+When this policy is enabled, free stock is processed first. Any remaining shortage is then distributed across eligible open pick orders for the same V-parcel, from newest to oldest. Only pick orders with a stock code in `Backoffice_Logistics_Stock_Counting_OrderPickStockCodes` are eligible. Pick orders for customers configured to **Exclude pick orders from stock counting** are skipped.
+
+For every pick order reduced this way, the app creates a distribution control. Therefore, configure a valid `Apps_Inventory_StockCorrectionExceptionReasonId`. After the correction, check the new total, the remaining quantity to pick, and the created distribution controls.
+
 Practical use: enter the new quantity, add a reason if needed, and confirm. If the mutation settings are enabled, discrepancies entered during Consolidation are processed directly as mutations instead of temporary counts. This can result in immediate postings. The configured customer code determines which debtor discrepancies are posted to, unless a stock-specific customer code is configured. Optionally, automatic internal xorders, or picking orders, can be created for further processing. If your environment works with stored parcels, those are synchronized as well when the option is enabled. Note: these settings can have financial consequences. Always test them in a test environment first and consult your finance or implementation team.
 
 ### CC Sales Unit

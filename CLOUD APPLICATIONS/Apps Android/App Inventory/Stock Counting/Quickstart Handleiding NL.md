@@ -77,6 +77,7 @@ De verwerking hangt af van de policy `Apps_Inventory_StockCounting_StockCounting
 
 - Met `Standaard telling op partijbasis` wordt de geselecteerde partij als afzonderlijke partij geteld.
 - Met `Telling op v-partij basis` blijft zoeken en scannen op partijniveau werken, maar wordt de selectie intern vertaald naar het bijbehorende VPartijNr. Partijen met hetzelfde VPartijNr binnen de geconfigureerde voorraden worden daarna als een geconsolideerde telling verwerkt.
+- Met `Telling op unieke drager` telt u per fysieke unieke drager. Scan de unieke drager direct, of selecteer eerst de partij en daarna de drager. De app toont de drager-ID, locatie en hoeveelheid van die drager. De hoofdpartij is pas volledig gecontroleerd wanneer alle bijbehorende dragers zijn bevestigd.
 
 > **Let op:** bij `Telling op v-partij basis` moeten alle voorraadregels met hetzelfde VPartijNr dezelfde `INHKOLLI` hebben. Dit geldt ook wanneer een barcode met het PARTIJNR wordt gescand. Zie [`StockCountingStrategy` in de policyhandleiding](Policies%20Stock%20Counting%20NL.md#stockcountingstrategy) voor de volledige uitleg.
 
@@ -85,6 +86,8 @@ De verwerking hangt af van de policy `Apps_Inventory_StockCounting_StockCounting
 Klik op **Select stock item** om het detail van de partij te openen. Als u de partij via scannen heeft geselecteerd, wordt dit scherm automatisch geopend.
 
 Bij `Telling op v-partij basis` kan het detailscherm meerdere administratieve partijen onder hetzelfde VPartijNr als een geconsolideerd resultaat openen.
+
+Bij `Telling op unieke drager` opent de app direct de enige gevonden drager. Zijn er meerdere dragers, kies dan de juiste drager uit de lijst. Pas hoeveelheid of locatie alleen voor die geselecteerde drager aan en bevestig de telling. De hoofdpartij blijft zichtbaar als context; overige partijeigenschappen blijven eigenschappen van de hoofdpartij.
 
 <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/6.png"></details>
 
@@ -137,6 +140,8 @@ Klik op het printsjabloon, geef het gewenste aantal labels op en klik op **Print
 
 Bij `Telling op v-partij basis` wordt geprint op basis van de eerste onderliggende partij volgens de volgorde van de voorraad-policy.
 
+Bij `Telling op unieke drager` kunt u een label voor de geopende drager printen wanneer hiervoor een unieke-dragerprinter en -lay-out zijn ingesteld. De afdruk gebruikt de gegevens van de geselecteerde drager.
+
 <details><summary><b>Klik hier voor uw voorbeeld!</b></summary><img src="Media/Doorloop/8.png"></details>
 
 ### Stap 7: Voorraad bevestigen en doorgaan
@@ -168,7 +173,7 @@ Aan het einde van de controle is zichtbaar of alle voorraadregels zijn gecontrol
 
 ## Versiebeheer & Ontwikkelfase
 
-> **Laatste update:** 23 juli 2026
+> **Laatste update:** 20 oktober 2026
 > **Huidige ontwikkelfase:** Dev phase 2 afgerond
 
 Deze handleiding is gebaseerd op de actuele Inventory App en wordt periodiek bijgewerkt bij nieuwe functionaliteit of gewijzigde policies.

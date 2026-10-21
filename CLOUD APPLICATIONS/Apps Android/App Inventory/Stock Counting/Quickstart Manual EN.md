@@ -72,6 +72,7 @@ Processing depends on the `Apps_Inventory_StockCounting_StockCountingStrategy` p
 
 - With `Default stockcounting based`, the selected parcel is counted as an individual parcel.
 - With `stockcounting based on v-stock items`, searching and scanning still work at parcel level, but the selected parcel is internally translated to the related VPartijNr. Parcels with the same VPartijNr within the configured stock locations are then processed as one consolidated count.
+- With `stockcounting based on unique carriers`, you count each physical unique carrier. Scan the unique carrier directly, or select the parcel first and then the carrier. The app shows that carrier's ID, location and quantity. The parent parcel is only fully checked after all of its associated carriers have been confirmed.
 
 > **Important:** with `stockcounting based on v-stock items`, all stock records with the same VPartijNr must have the same `INHKOLLI`. This also applies when a barcode containing the PARTIJNR is scanned. See [`StockCountingStrategy` in the policy manual](Policies%20Stock%20Counting%20EN.md#stockcountingstrategy) for the full explanation.
 
@@ -80,6 +81,8 @@ Processing depends on the `Apps_Inventory_StockCounting_StockCountingStrategy` p
 Click **Select stock item** to open the parcel detail. If the parcel was selected via scanning, this screen will open automatically.
 
 With `stockcounting based on v-stock items`, the detail screen can open multiple administrative parcels under the same VPartijNr as one consolidated result.
+
+With `stockcounting based on unique carriers`, the app opens the only available carrier directly. If there are multiple carriers, select the correct one from the list. Change the quantity or location only for the selected carrier and confirm the count. The parent parcel remains visible for context; other parcel properties remain properties of the parent parcel.
 
 <details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/6.png"></details>
 
@@ -131,6 +134,8 @@ Click the print template, enter the desired quantity, and click **Print**. You c
 
 With `stockcounting based on v-stock items`, printing is based on the first underlying parcel according to the stock policy order.
 
+With `stockcounting based on unique carriers`, you can print a label for the opened carrier when a unique-carrier printer and layout are configured. The print uses the selected carrier's details.
+
 <details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/8.png"></details>
 
 ### Step 7: Confirm Stock and Continue
@@ -162,7 +167,7 @@ At the end of the inspection, it is clear whether all stock lines have been chec
 
 ## Version Control & Development Phase
 
-> **Last update:** July 23, 2026
+> **Last update:** October 20, 2026
 > **Current development phase:** Dev phase 2 completed
 
 This manual is based on the current Inventory App and will be periodically updated to reflect new functionality or changes in policies.

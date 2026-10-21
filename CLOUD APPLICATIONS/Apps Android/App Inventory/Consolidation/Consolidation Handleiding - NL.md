@@ -106,6 +106,14 @@ Relevante instellingen:
 - `StockMutationSettings_StockCountingXorder`: koppel mutaties aan interne orders indien nodig.
 - `StockMutationSettings_StockQuantityMutAlsoStoredStockItem`: synchroniseer wijzigingen met `StoredStockItem` waar van toepassing.
 
+### Open pickorders corrigeren bij een tekort
+
+Met `StockMutationSettings_ReducePickItemsOnStockDecrease` bepaalt u of Consolidation bestaande open pickorders mag verlagen wanneer vrije voorraad niet voldoende is voor de ingevoerde voorraadcorrectie.
+
+Als deze policy aan staat, wordt eerst de vrije voorraad verwerkt. Een resterend tekort wordt vervolgens verdeeld over geschikte open pickorders van dezelfde V-partij, van nieuw naar oud. Alleen pickorders met een voorraadcode uit `Backoffice_Logistics_Stock_Counting_OrderPickStockCodes` komen in aanmerking. Pickorders van debiteuren waarvoor **Pickorders niet meetellen in voorraad opname** aan staat, worden overgeslagen.
+
+Voor iedere pickorder die hierdoor wordt verlaagd, maakt de app een verdeelcontrole aan. Stel daarom een geldige `Apps_Inventory_StockCorrectionExceptionReasonId` in. Controleer na de correctie het nieuwe totaal, de nog te picken hoeveelheid en de aangemaakte verdeelcontroles.
+
 
 Praktisch: voer de nieuwe hoeveelheid in, vul indien nodig een reden in en bevestig. Als de mutatie-instellingen geactiveerd zijn, worden afwijkingen die tijdens Consolidation worden ingevoerd direct als mutaties verwerkt (in plaats van als tijdelijke tellingen). Dit kan leiden tot directe boekingen; de ingestelde klantcode bepaalt op welke debiteur afwijkingen worden geboekt, tenzij een voorraad-specifieke klantcode is ingesteld. Optioneel kunnen automatische interne xorders (pickorders) aangemaakt worden voor verdere verwerking. Als uw omgeving werkt met opgeslagen partijen, worden ook die gesynchroniseerd wanneer de optie actief is. Let op: deze instellingen kunnen financiële gevolgen hebben — test daarom altijd eerst in een testomgeving en overleg met uw finance/implementatie-team.
 
