@@ -112,6 +112,14 @@ Op het scherm **Overzicht** ziet de picker onder andere:
 - de klant- en ordernummers;
 - eventuele order- en pickinstructies.
 
+### Export klaarmaken
+
+Wanneer voor een verkooporder met een bijbehorende **orderkop** **Export klaarmaken** is aangevinkt, toont de Picking App bij die order een waarschuwing met **Export klaarmaken**. De picker ziet deze instructie in het werkopdrachtoverzicht en bij de betreffende pickregel.
+
+> **Let op:** Zonder bijpassende orderkop verschijnt deze melding niet.
+
+De melding is gekoppeld aan de individuele order. Zet het vinkje daarom bij het aanmaken of wijzigen van de verkooporder; het vinkje bij de debiteur is hoogstens een standaardwaarde voor nieuwe orders en wijzigt bestaande orders niet.
+
 Controleer de gegevens en tik op de knop met de **pijl** om de werkopdracht te activeren. Door de medewerkersgroepen te wijzigen vraagt de gebruiker een opdracht voor de nieuwe selectie op. Gebruik **Verversen** wanneer deze knop op het scherm wordt getoond.
 
 ### Handmatige toewijzing

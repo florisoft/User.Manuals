@@ -112,6 +112,14 @@ The **Overview** screen shows information such as:
 - customer and order numbers;
 - any order and picking instructions.
 
+### Prepare for export
+
+When **Prepare for export** is selected for a sales order with a corresponding **order header**, the Picking App shows a **Prepare for export** warning for that order. The picker sees this instruction in the work-order overview and for the related pick item.
+
+> **Note:** Without a matching order header, this warning is not shown.
+
+The warning is linked to the individual order. Therefore, select the checkbox when creating or changing the sales order; the checkbox on the customer is only a default for new orders and does not change existing orders.
+
 Check the information and tap the **arrow** button to activate the work order. Changing the employee groups requests an assignment for the new selection. Use **Refresh** when that button is shown.
 
 ### Manual assignment
