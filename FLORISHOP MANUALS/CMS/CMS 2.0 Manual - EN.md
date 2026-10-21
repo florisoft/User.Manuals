@@ -581,7 +581,7 @@ Use these tabs to ensure that your website looks clean and professional not only
 |:--|:--|
 | **1** | When you select a component (1), the responsive tabs (2) appear in the [Aside Editor](#aside-editor). Enter the desired settings for desktop devices.<details><summary><b>Click here for the example image</b></summary><img src="media/23.1.png"></details> |
 | **2** | To define different behavior for tablet devices (3), enter a different value via the **Styling** tab (4).<details><summary><b>Click here for the example image</b></summary><img src="media/23.2.png"></details> |
-| **3** | To define different behavior for mobile devices (5), enter a different value via the **Styling** tab (6). Use the [Responsive button](#editor) (7) to check how the [Text](#text) component responds on mobile and tablet devices.<details><summary><b>Click here for the example image</b></summary><img src="media/23.3.png"></details> |
+| **3** | To define different behavior for mobile devices (5), enter a different value via the **Styling** tab (6). Use the [Responsive button](#editor) (7) to check how the [Text](#text) component responds on mobile and tablet devices. When editing rich text, the CMS editor applies the configured typography for the selected responsive view. Use this to verify the font sizes of paragraphs and headings for desktop, tablet, and mobile.<details><summary><b>Click here for the example image</b></summary><img src="media/23.3.png"></details> |
 
 ---
 
@@ -592,6 +592,8 @@ Every component has a **General Settings** tab. The available settings may diffe
 #### Translations
 
 When you can enter text within a [component](#components) or in the [page settings](#page), you can easily add translations for different languages using the **Edit translations** button.
+
+The CMS editor first uses the configured CMS language. If none is configured, it uses the default CMS language, followed by the current interface language. Before editing, verify that the correct CMS language is active.
 
 | Step | Explanation |
 |:--|:--|

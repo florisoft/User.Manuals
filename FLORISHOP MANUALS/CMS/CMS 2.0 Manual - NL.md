@@ -575,7 +575,7 @@ Met deze tabs kun je ervoor zorgen dat jouw website er niet alleen op desktop, m
 |:--|:--|
 | **1** | Wanneer je een component selecteert (1), verschijnen de **Responsive tabs** (2) in de [Aside Editor](#aside-editor). Stel hier de gewenste waarden in voor desktopapparaten.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/23.1.png"></details> |
 | **2** | Wil je voor tablets afwijkend gedrag instellen (3), dan kun je hiervoor via het tabblad **Styling** (4) een afwijkende waarde opgeven.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/23.2.png"></details> |
-| **3** | Wil je voor mobiele apparaten afwijkend gedrag instellen (5), dan kun je hiervoor via het tabblad **Styling** (6) een afwijkende waarde opgeven. Via de [Responsive-knop](#editor) (7) kun je vervolgens controleren hoe het [Tekst](#text)-component zich gedraagt op tablets en mobiele apparaten.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/23.3.png"></details> |
+| **3** | Wil je voor mobiele apparaten afwijkend gedrag instellen (5), dan kun je hiervoor via het tabblad **Styling** (6) een afwijkende waarde opgeven. Via de [Responsive-knop](#editor) (7) kun je vervolgens controleren hoe het [Tekst](#text)-component zich gedraagt op tablets en mobiele apparaten. Bij het bewerken van uitgebreide tekst past de CMS-editor de ingestelde typografie toe op de gekozen responsieve weergave. Controleer zo de lettergroottes van alinea's en koppen voor desktop, tablet en mobiel.<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/23.3.png"></details> |
 
 ---
 
@@ -586,6 +586,8 @@ Elk component beschikt over een tabblad **Algemene instellingen**. De beschikbar
 #### Vertalingen
 
 Wanneer je tekst kunt invoeren binnen een [component](#componenten) of bij de [pagina-instellingen](#pagina), kun je via de knop **Vertalingen bewerken** eenvoudig vertalingen voor verschillende talen toevoegen.
+
+De CMS-editor gebruikt eerst de ingestelde CMS-taal. Als deze niet is ingesteld, wordt de standaard-CMS-taal gebruikt; daarna volgt de taal van de huidige interface. Controleer vóór het bewerken of de juiste CMS-taal actief is.
 
 | Stap | Uitleg |
 |:--|:--|
