@@ -279,7 +279,7 @@ Gebruik deze mogelijkheid alleen wanneer de barcode ontbreekt of niet kan worden
 
 ## Stap 8 – Een alternatieve locatie gebruiken
 
-`AllowAlternativeLocationSelection` onder **Alternative Location** bepaalt of de picker voorraad van een andere locatie mag selecteren. De standaardwaarde is aan.
+`AllowAlternativeLocationSelection` onder **Alternative Location** bepaalt of de picker voorraad van een andere locatie mag selecteren. De standaardwaarde is aan. De actie is alleen zinvol wanneer het pickitem beschikbare logistieke voorraadregels bevat. Als `UseLogisticParcels` actief is en geen passende logistieke partij beschikbaar is, verwerkt Florisoft de resterende hoeveelheid automatisch als verdeelcontrole met de reden die in `ExceptionReasonMissingInventory` is ingesteld.
 
 1. Houd de artikelregel ingedrukt of veeg over de regel.
 2. Tik op het **locatiesymbool**.
@@ -288,7 +288,7 @@ Gebruik deze mogelijkheid alleen wanneer de barcode ontbreekt of niet kan worden
 5. Bevestig de gekozen locatie.
 6. Controleer het detailscherm en registreer de pick.
 
-Florisoft boekt de pick op de geselecteerde locatie en unieke drager. Wanneer `AllowAlternativeLocationSelection` uit staat, kan de gebruiker de alternatieve keuze niet bevestigen.
+Florisoft boekt de pick op de geselecteerde locatie en unieke drager. Wanneer `AllowAlternativeLocationSelection` uit staat, kan de gebruiker de alternatieve keuze niet bevestigen. Zijn er geen toewijsbare logistieke partijen, dan is er geen alternatieve locatie om te kiezen en wordt de resterende hoeveelheid volgens de hierboven beschreven verdeelcontrole verwerkt.
 
 ---
 
