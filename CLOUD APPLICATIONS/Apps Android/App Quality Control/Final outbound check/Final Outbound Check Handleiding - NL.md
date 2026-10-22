@@ -246,6 +246,13 @@ Schakel `CMR` in bij `Addons_EnableAddons`. De actie is beschikbaar bij een klan
 
 Kies **CMR afdrukken** om de afdruk in de bestaande wachtrij te plaatsen. De Backoffice-printer, lay-out en het bijbehorende timerproces verwerken de opdracht. De melding dat de afdruk is ingepland bevestigt de wachtrijopdracht; controleer vervolgens de daadwerkelijke afdruk. Is een order al ingepland of geprint, dan volgt de bestaande terugmelding; bij een hub kan een deel van de orders al verwerkt zijn.
 
+Voor een hub bepaalt `Apps_Logistics_Labeling_CMRPrintHubQueueMode` hoe de wachtrij wordt gevuld:
+
+| Waarde | Werking |
+| --- | --- |
+| `PerCustomerOrder` | Standaard. Maak per klantorder één wachtrijregel. |
+| `HubOrder` | Maak één wachtrijregel voor alle nog niet geprinte klantorders van dezelfde hub en hetzelfde ordernummer. |
+
 Wanneer regels of dozen nog niet volledig gecontroleerd zijn, vraagt de huidige app of u de CMR toch wilt afdrukken. Dit is een waarschuwing met een keuze om door te gaan, geen automatische blokkade.
 
 De policy `RequireSignature` is bedoeld voor een handtekening bij het printen/mailen van de CMR. In de huidige Final Outbound Check-flow wordt deze policy niet gebruikt om een digitale handtekening te vragen of af te dwingen. Gebruik deze instelling daarom niet als garantie dat een handtekening vereist is.

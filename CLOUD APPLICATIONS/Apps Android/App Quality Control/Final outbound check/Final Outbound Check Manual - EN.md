@@ -246,6 +246,13 @@ Enable `CMR` in `Addons_EnableAddons`. The action is available for a customer or
 
 Choose **Print CMR** to place the print request in the existing queue. The Backoffice printer, layout and associated timer process handle it. The scheduled-print message confirms queueing; subsequently check the actual print. Orders already queued or printed produce the existing feedback; part of a hub's orders may already have been processed.
 
+For a hub, `Apps_Logistics_Labeling_CMRPrintHubQueueMode` determines how the queue is populated:
+
+| Value | Behavior |
+| --- | --- |
+| `PerCustomerOrder` | Default. Create one queue record per customer order. |
+| `HubOrder` | Create one queue record for all unprinted customer orders in the same hub with the same order number. |
+
 If lines or boxes have not been fully checked, the current app asks whether to print the CMR anyway. This warning permits confirmation to continue, rather than automatically blocking printing.
 
 The `RequireSignature` policy is intended for a signature when printing/emailing the CMR. The current Final Outbound Check flow does not use this policy to request or enforce a digital signature. Do not rely on this setting as a guarantee that a signature is required.
