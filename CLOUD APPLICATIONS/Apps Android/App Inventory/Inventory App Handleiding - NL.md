@@ -10,8 +10,7 @@ De app bestaat uit de volgende onderdelen:
 
 Met de Stock Counting app controleert u de voorraden en zorgt u ervoor dat de voorraadstanden synchroon blijven met de gegevens in Florisoft.
 
-- [Policy-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Inventory/Stock%20Counting/Policies%20Stock%20Counting%20NL.md)  
-- [Quickstart-handleiding](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Inventory/Stock%20Counting/Quickstart%20Handleiding%20NL.md)  
+- [Volledige handleiding en policies (NL)](Stock%20Counting/Stock%20Counting%20Handleiding%20-%20NL.md)
 
 ## Slotting
 

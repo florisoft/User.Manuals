@@ -10,8 +10,7 @@ The app consists of the following parts:
 
 With the Stock Counting app, you check stock and make sure stock levels remain synchronized with the data in Florisoft.
 
-- [Policy manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Inventory/Stock%20Counting/Policies%20Stock%20Counting%20EN.md)  
-- [Quickstart manual](https://github.com/florisoft/User.Manuals/blob/main/CLOUD%20APPLICATIONS/Apps%20Android/App%20Inventory/Stock%20Counting/Quickstart%20Manual%20EN.md)  
+- [Full manual and policies (EN)](Stock%20Counting/Stock%20Counting%20Manual%20-%20EN.md)
 
 ## Slotting
 
