@@ -44,6 +44,8 @@ De lijst wordt vooraf beperkt door de policies. Daardoor kunnen bijvoorbeeld all
 
 ### Stap 2: de order controleren en het werk plannen
 
+Als inpakinstructies zijn ingeschakeld, verschijnt bij het handmatig selecteren van een klant of order één melding met de instructies voor de geselecteerde orders. Lees de instructies en sluit de melding om verder op te bouwen. Er wordt geen leesbevestiging vastgelegd. Bij klantgroepering staan verschillende instructies onder elkaar; dezelfde tekst wordt eenmaal getoond. Bij lege instructies of een hub verschijnt geen melding.
+
 Het orderdetail toont de actieve klant of hub en de voortgang. Bij verwerking per ordernummer ziet u het betreffende ordernummer; bij klant- of hubgroepering werkt u met de onderliggende orders samen. U ziet hoeveel karren compleet zijn en hoeveel colli al zijn opgebouwd.
 
 Via het menu zijn, afhankelijk van de configuratie, de volgende read-only overzichten beschikbaar:
@@ -224,6 +226,8 @@ De inrichting begint met `ValidTrolleyPackagingCodes`. Hier legt u vast welke fu
 Wanneer verschillende klanten via een hub worden verwerkt, bepaalt `EnableHubGrouping` of de orders per hub worden samengevoegd. Daarna kunt u de inhoud van de order verder beperken. `FilterStockCodes` zorgt ervoor dat alleen regels uit de ingestelde voorraden zichtbaar zijn en `FilterDepartmentCodes` doet dit op basis van afdeling. Deze filters verbergen de regels in de overzichten. Wilt u ook voorkomen dat een verborgen regel alsnog wordt gescand, neem dan de bijbehorende controles op in `EnabledOrderLineValidationOptions`. Nieuwe karren en externe dozen krijgen de afdeling uit `DefaultDepartmentId` wanneer die instelling is ingevuld.
 
 ### OrderOverview
+
+Wilt u de medewerker vóór het opbouwen wijzen op bijzondere inpakafspraken? Zet dan `Apps → Logistics → Packing → TrolleyLoading → OrderOverview → ShowPackingInstructions` aan. Gebruik **Debiteur → Factuur → Factuurtekst → Inpak instructies** als klantstandaard. Deze tekst wordt overgenomen op de orderkop en kan daar voor een afwijkende order worden aangepast. TrolleyLoading toont de instructie uit de orderkop; de instructie bij **Stickers → Verdeelstickers** wordt hiervoor niet gebruikt. Sla wijzigingen op en laad de app opnieuw voordat u de instructies controleert.
 
 Bij het openen van TrolleyLoading stelt Florisoft eerst het orderoverzicht samen. `DateFilterType` bepaalt of daarvoor bijvoorbeeld de orderdatum, besteldatum, vertrekdatum of leverdatum wordt gebruikt. Met `FilterDateFromDays` en `FilterDateToDays` stelt u de standaardperiode rond vandaag in. Orders waarbij het gekozen datumveld leeg is, worden alleen meegenomen als `AllowOrdersWithEmptyDates` actief is. Wanneer een medewerker zelf een datum in de kalender kiest, zorgt `EnableFilterOnSelectedDate` ervoor dat uitsluitend orders van die ene datum worden getoond.
 

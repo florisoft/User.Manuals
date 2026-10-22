@@ -44,6 +44,8 @@ Policies filter the list before it is displayed. For example, only trolley-build
 
 ### Step 2: check the order and plan the work
 
+If packing instructions are enabled, manually selecting a customer or order displays one message with the instructions for the selected orders. Read the instructions and close the message to continue loading. No read confirmation is recorded. With customer grouping, different instructions appear below each other; identical text is shown only once. No message appears for empty instructions or a hub.
+
 The order details show the active customer or hub and progress. When processing per order number, the corresponding order number is shown; with customer or hub grouping, you work with the underlying orders together. You can see how many trolleys are complete and how many colli have already been processed.
 
 Depending on the configuration, the menu contains the following read-only overviews:
@@ -224,6 +226,8 @@ Configuration starts with `ValidTrolleyPackagingCodes`, which defines the packag
 When several customers are processed through a hub, `EnableHubGrouping` determines whether their orders are grouped by hub. The order contents can then be narrowed further. `FilterStockCodes` shows only lines belonging to the configured stock codes, while `FilterDepartmentCodes` filters by department. These settings hide lines from the overviews. To prevent a hidden line from still being processed through a scan, include the corresponding validations in `EnabledOrderLineValidationOptions`. New trolleys and external boxes use the department from `DefaultDepartmentId` when it has been configured.
 
 ### OrderOverview
+
+To draw the employee's attention to special packing arrangements before loading, enable `Apps → Logistics → Packing → TrolleyLoading → OrderOverview → ShowPackingInstructions`. Set the customer default under **Customer → Invoice → Invoice text → Packing instructions** in the Backoffice. This text is copied to the order header, where it can be changed for an individual order. TrolleyLoading displays the instruction from the order header; the instruction under **Labels → Distribution labels** is not used for this feature. Save changes and reload the app before checking the instructions.
 
 When TrolleyLoading starts, Florisoft first builds the order overview. `DateFilterType` determines whether this uses the order date, requested date, departure date, or delivery date, for example. `FilterDateFromDays` and `FilterDateToDays` define the default period around today. Orders whose selected date field is empty are only included when `AllowOrdersWithEmptyDates` is active. When an employee selects a date in the calendar, `EnableFilterOnSelectedDate` ensures that only orders for that date are shown.
 
