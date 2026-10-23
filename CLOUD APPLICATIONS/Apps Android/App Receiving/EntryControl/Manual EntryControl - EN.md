@@ -154,7 +154,10 @@ The **Review item** screen shows:
 - characteristics S1, S2 and S3;
 - number of boxes × content, with the total number of stems;
 - shipment number;
+- clock transaction, when it is included in the details policy. Its value consists of the auction number followed by the transaction number, including any leading zeroes;
 - the quantity still to process.
+
+The details policy determines which additional data is visible and in which order. This information is for checking only and cannot be changed in EntryControl.
 
 When the screen opens, Florisoft proposes the full remaining quantity. The input accepts a minimum of zero and a maximum of the remaining quantity. The **check-mark** button only becomes active for a quantity above zero.
 

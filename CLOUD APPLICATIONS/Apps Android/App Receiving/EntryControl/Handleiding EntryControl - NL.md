@@ -154,7 +154,10 @@ Het scherm **Controleer artikel** toont:
 - kenmerken S1, S2 en S3;
 - aantal kolli × inhoud, met het totale aantal stelen;
 - verschepingsnummer;
+- kloktransactie, wanneer deze in de details-policy is opgenomen. De waarde bestaat uit het kloknummer gevolgd door het transactienummer, inclusief eventuele voorloopnullen;
 - de nog te verwerken hoeveelheid.
+
+De zichtbare aanvullende gegevens en hun volgorde worden bepaald met de details-policy. U kunt deze gegevens alleen controleren; ze zijn niet te wijzigen in EntryControl.
 
 Bij het openen vult Florisoft standaard de volledige resterende hoeveelheid in. Het invoerveld accepteert minimaal nul en maximaal de resterende hoeveelheid. De knop met het **vinkje** wordt pas actief bij een hoeveelheid groter dan nul.
 
