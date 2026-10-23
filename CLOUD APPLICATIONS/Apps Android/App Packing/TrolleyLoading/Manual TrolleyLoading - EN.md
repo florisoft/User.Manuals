@@ -181,11 +181,18 @@ The **Actions** menu can contain the following functions. `AvailableTrolleyActio
 | **Change trolley** | Changes the trolley packaging code. If the new code requires a barcode, it must be scanned or entered immediately. |
 | **Reprint trolley label** | Prints the label of the existing trolley again. |
 | **Print address label** | Starts the address-label workflow for the active customer or hub when the licence and add-on are active. |
+| **Print CMR** | Schedules CMR printing for the active customer or hub order. |
 | **Delete trolley** | Removes all products and boxes from the trolley and removes the trolley from the order. |
 | **Empty trolley** | Removes all products and boxes but preserves the trolley itself. |
 | **Start correction mode** | Removes processed products or packages one by one by scanning them. |
 
 The app always asks for confirmation before emptying or deleting a trolley. The progress of the affected order lines is restored.
+
+### Print a CMR
+
+Add `PrintCMR` to `AvailableTrolleyActions` to make the **Print CMR** action available. Choose the action for the active customer or hub order to place the CMR request in the existing queue. The message confirms that the request is scheduled; the Backoffice printer, CMR layout, and associated timer process then handle the actual print.
+
+For a hub, `Apps_Logistics_Labeling_CMRPrintHubQueueMode` determines how the queue is populated: `PerCustomerOrder` creates one record per customer order, while `HubOrder` creates one record for the unprinted customer orders in the same hub with the same order number. Always check the actual CMR print after scheduling. Orders that are already queued or printed show the existing feedback; for a hub, part of the orders may already have been processed.
 
 ## Reverse trolley loading
 
@@ -327,7 +334,7 @@ Read the validation message. The product may already be fully processed, its bar
 
 **Why is a trolley action not visible?**
 
-Check `AvailableTrolleyActions`. For **Print address label**, the correct licence must also be active and `EnableAddons` must contain `AdressLabel`.
+Check `AvailableTrolleyActions`. For **Print CMR**, add the `PrintCMR` option and verify that the CMR printer, layout, and timer are configured. For **Print address label**, the correct licence must also be active and `EnableAddons` must contain `AdressLabel`.
 
 **Why is no label printed?**
 

@@ -181,11 +181,18 @@ Het menu **Acties** kan de volgende functies bevatten. `AvailableTrolleyActions`
 | **Kar wijzigen** | Wijzigt de karfustcode. Als de nieuwe fustcode een barcode vereist, moet deze direct worden gescand of ingevoerd. |
 | **Karsticker herprinten** | Drukt het label van de bestaande kar opnieuw af. |
 | **Adreslabel afdrukken** | Start de adreslabelworkflow voor de actieve klant of hub, als licentie en add-on actief zijn. |
+| **CMR afdrukken** | Plant een CMR-afdruk voor de actieve klant- of huborder in. |
 | **Kar verwijderen** | Haalt alle producten en dozen van de kar en verwijdert de kar uit de order. |
 | **Kar leegmaken** | Haalt alle producten en dozen van de kar, maar behoudt de kar zelf. |
 | **Correctiemodus starten** | Verwijdert reeds opgebouwde producten of verpakkingen één voor één door ze te scannen. |
 
 Voor leegmaken en verwijderen vraagt de app altijd om bevestiging. De voortgang van de betreffende orderregels wordt hersteld.
+
+### CMR afdrukken
+
+Voeg `PrintCMR` toe aan `AvailableTrolleyActions` om de actie **CMR afdrukken** beschikbaar te maken. Kies deze actie bij de actieve klant- of huborder om de CMR-opdracht in de bestaande wachtrij te plaatsen. De melding bevestigt dat de opdracht is ingepland; de Backoffice-printer, CMR-lay-out en het bijbehorende timerproces verwerken de daadwerkelijke afdruk daarna.
+
+Bij een hub bepaalt `Apps_Logistics_Labeling_CMRPrintHubQueueMode` hoe de wachtrij wordt gevuld: `PerCustomerOrder` maakt een regel per klantorder en `HubOrder` maakt één regel voor de nog niet geprinte klantorders van dezelfde hub met hetzelfde ordernummer. Controleer na het inplannen altijd de daadwerkelijke CMR-afdruk. Is een order al ingepland of geprint, dan toont de app de bestaande terugmelding; bij een hub kan een deel van de orders al verwerkt zijn.
 
 ## Omgekeerd karren opbouwen
 
@@ -327,7 +334,7 @@ Lees de getoonde validatiemelding. Het product kan al volledig zijn opgebouwd, d
 
 **Waarom zie ik een karactie niet?**
 
-Controleer `AvailableTrolleyActions`. Voor **Adreslabel afdrukken** moet bovendien de juiste licentie actief zijn en moet `EnableAddons` de add-on `AdressLabel` bevatten.
+Controleer `AvailableTrolleyActions`. Voeg voor **CMR afdrukken** de optie `PrintCMR` toe en controleer of de CMR-printer, lay-out en timer zijn ingericht. Voor **Adreslabel afdrukken** moet bovendien de juiste licentie actief zijn en moet `EnableAddons` de add-on `AdressLabel` bevatten.
 
 **Waarom wordt geen label afgedrukt?**
 
