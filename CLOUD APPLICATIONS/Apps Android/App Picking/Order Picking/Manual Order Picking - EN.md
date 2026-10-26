@@ -352,6 +352,12 @@ After a valid scan, Florisoft first completes the work order. Only if completion
 
 Configure the instruction barcode, the required action, and the necessary printer and layout in advance. This printing action at completion is separate from automatic printing when a work order is activated, as described in step 4.
 
+### Select the packing-list printer through a policy situation
+
+To use a different packing-list printer for each work situation, enable `WorkOrderPrinterPrompt` under **Order Picking → Finalize Work Order**. This policy is disabled by default.
+
+When the work order is completed, the app first asks the user to scan the QR or barcode of a policy situation. Configure the required packing-list printer in that situation. After a valid scan, Florisoft activates the situation, completes the work order and sends the packing list to that situation's printer.
+
 > `Manual` is specified in the Order Picking use case, but the currently reviewed app code still completes the work order through a completion scan. Use this policy value only when the manual variant is available in the app version being used.
 
 After successful completion, Florisoft shows a summary. Each order group shows the quantities actually picked. Products for which an exception has been registered appear only below the totals of their own order group; other products are not shown there as exceptions. The exception quantity is not included in the picked quantity.
@@ -422,7 +428,7 @@ Check the location and unique carrier. Select an alternative location or registe
 
 ### Printing does not work
 
-Check whether automatic printing at activation is enabled and the correct action is selected. For pick-item labels, check `PrintPickItemLabels`, `PickItemLabelPrinter`, `PickItemLabelLayout` and that the Job Agent is reachable. If labels are incorrectly printed again, or are not printed again, during **Deliver via PDA**, check `Backoffice_Logistics_OrderPick_AllowedToPrintStickersToPDA`. The message that a job was sent to a printer confirms only submission; always check the physical result when setting up or changing a printer. For a packing list, check the printer and layout, whether printing from the PDA is permitted, and the selected packing-list grouping. For printing after the completion scan, also check the configured instruction barcode and its associated print action.
+Check whether automatic printing at activation is enabled and the correct action is selected. For pick-item labels, check `PrintPickItemLabels`, `PickItemLabelPrinter`, `PickItemLabelLayout` and that the Job Agent is reachable. If labels are incorrectly printed again, or are not printed again, during **Deliver via PDA**, check `Backoffice_Logistics_OrderPick_AllowedToPrintStickersToPDA`. The message that a job was sent to a printer confirms only submission; always check the physical result when setting up or changing a printer. For a packing list, check the printer and layout, whether printing from the PDA is permitted, and the selected packing-list grouping. For printing after the completion scan, also check the configured instruction barcode and its associated print action. When scanning a printer policy is required, also check `WorkOrderPrinterPrompt` and the QR or barcode for the policy situation.
 
 ### An additional action is unavailable
 

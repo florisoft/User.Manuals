@@ -352,6 +352,12 @@ Bij een geldige scan rondt Florisoft eerst de werkopdracht af. Alleen wanneer da
 
 Zorg dat de instructiebarcode, de gewenste actie en de benodigde printer en lay-out vooraf zijn ingericht. Deze printactie bij het afronden staat los van automatisch printen bij het activeren van een werkopdracht, zoals beschreven in stap 4.
 
+### Paklijstprinter via een policy-situatie kiezen
+
+Wilt u bij het afronden per werksituatie een andere paklijstprinter gebruiken, zet dan `WorkOrderPrinterPrompt` onder **Order Picking → Finalize Work Order** aan. Deze policy staat standaard uit.
+
+Bij het afronden vraagt de app dan eerst om de QR- of barcode van een policy-situatie te scannen. Richt in die situatie de gewenste paklijstprinter in. Na een geldige scan activeert Florisoft die situatie, rondt de werkopdracht af en stuurt de paklijst naar de printer uit die situatie.
+
 > `Manual` is in de Order Picking-use-case beschreven, maar in de huidige gecontroleerde appcode wordt de werkopdracht nog via een afrondscan voltooid. Gebruik deze policywaarde pas wanneer de handmatige variant in de gebruikte appversie beschikbaar is.
 
 Na een geslaagde afronding toont Florisoft een samenvatting. Per ordergroep staan daar de werkelijk gepickte aantallen. Producten waarvoor een exceptie is geregistreerd, staan uitsluitend onder de totalen van hun eigen ordergroep; andere producten worden daar niet als exceptie getoond. De exceptiehoeveelheid telt niet mee als gepickte hoeveelheid.
@@ -422,7 +428,7 @@ Controleer de locatie en unieke drager. Kies indien beschikbaar een alternatieve
 
 ### Printen werkt niet
 
-Controleer of automatisch printen bij het activeren is ingeschakeld en of de juiste actie is gekozen. Voor pickorderstickers controleert u `PrintPickItemLabels`, `PickItemLabelPrinter`, `PickItemLabelLayout` en de bereikbaarheid van de Job Agent. Worden stickers bij **Uitleveren via PDA** ten onrechte wel of niet opnieuw geprint, controleer dan `Backoffice_Logistics_OrderPick_AllowedToPrintStickersToPDA`. De melding dat een opdracht naar een printer is gestuurd bevestigt alleen de verzending; controleer bij een nieuwe of gewijzigde printer altijd het fysieke resultaat. Voor een paklijst controleert u de printer en lay-out, of printen vanaf de PDA is toegestaan en welke paklijstgroepering is gekozen. Controleer bij printen na de afrondscan ook de ingestelde instructiebarcode en de daaraan gekoppelde printactie.
+Controleer of automatisch printen bij het activeren is ingeschakeld en of de juiste actie is gekozen. Voor pickorderstickers controleert u `PrintPickItemLabels`, `PickItemLabelPrinter`, `PickItemLabelLayout` en de bereikbaarheid van de Job Agent. Worden stickers bij **Uitleveren via PDA** ten onrechte wel of niet opnieuw geprint, controleer dan `Backoffice_Logistics_OrderPick_AllowedToPrintStickersToPDA`. De melding dat een opdracht naar een printer is gestuurd bevestigt alleen de verzending; controleer bij een nieuwe of gewijzigde printer altijd het fysieke resultaat. Voor een paklijst controleert u de printer en lay-out, of printen vanaf de PDA is toegestaan en welke paklijstgroepering is gekozen. Controleer bij printen na de afrondscan ook de ingestelde instructiebarcode en de daaraan gekoppelde printactie. Is de scan voor een printer-policy verplicht, controleer dan ook `WorkOrderPrinterPrompt` en de QR- of barcode van de policy-situatie.
 
 ### Een extra handeling is niet beschikbaar
 
