@@ -318,7 +318,7 @@ Meer informatie over het instellen en toewijzen van policies vindt u in de [hand
 
 **Waarom zie ik een order niet?**
 
-Controleer de gekozen datum en zoekfilters. Controleer daarna `FilterOptions`, `ExcludedOrderNumbers`, `ExcludedCustomerCodes`, de voorraad- en afdelingsfilters en `FilterByDefaultTrolleyLocations`. Controleer bij deze laatste policy of de standaard karopbouwlocatie (`DEBITEUR.DEFKARLOC`) van de debiteur in de policylijst voorkomt. Een order zonder zichtbare op te bouwen regels wordt niet getoond.
+Controleer de gekozen datum en zoekfilters. Controleer daarna `FilterOptions`, `ExcludedOrderNumbers`, `ExcludedCustomerCodes`, de voorraad- en afdelingsfilters en `FilterByDefaultTrolleyLocations`. Controleer bij deze laatste policy of de standaard karopbouwlocatie (`DEBITEUR.DEFKARLOC`) van de debiteur in de policylijst voorkomt. Controleer ook bij de gebruikte fustcode via **Tabellen → Artikelen → Fustgegevens → Fustsoorten → Logistiek** of **Toon in Karopbouw** is aangevinkt. Staat deze optie uit, dan worden orderregels met dit fust niet onder **Op te bouwen** getoond, ook wanneer er geen appfilters actief zijn. Een order zonder zichtbare op te bouwen regels wordt niet getoond.
 
 **Waarom kan ik geen nieuwe kar aanmaken?**
 

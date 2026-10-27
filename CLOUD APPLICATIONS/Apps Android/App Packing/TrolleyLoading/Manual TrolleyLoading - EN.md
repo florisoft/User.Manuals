@@ -318,7 +318,7 @@ For more information about configuring and assigning policies, see the [Policy M
 
 **Why is an order not visible?**
 
-Check the selected date and search filters. Then check `FilterOptions`, `ExcludedOrderNumbers`, `ExcludedCustomerCodes`, the stock and department filters, and `FilterByDefaultTrolleyLocations`. For the latter policy, verify that the customer's default trolley-building location (`DEBITEUR.DEFKARLOC`) occurs in the policy list. An order without visible items to process is not shown.
+Check the selected date and search filters. Then check `FilterOptions`, `ExcludedOrderNumbers`, `ExcludedCustomerCodes`, the stock and department filters, and `FilterByDefaultTrolleyLocations`. For the latter policy, verify that the customer's default trolley-building location (`DEBITEUR.DEFKARLOC`) occurs in the policy list. Also check the packaging code through **Tables → Articles → Packaging data → Packaging types → Logistics** and make sure **Show in Trolley Loading** is enabled. When this option is disabled, order lines with that packaging code are not shown under **To process**, even when no app filters are active. An order without visible items to process is not shown.
 
 **Why can I not create a new trolley?**
 
