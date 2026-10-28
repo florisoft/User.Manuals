@@ -133,7 +133,15 @@ With `Manual`, the **Work orders** screen opens first. The user can filter the l
 
 `WorkOrderUrgencyThreshold` determines when the departure time is shown as urgent. The default threshold is 30 minutes. When the remaining time falls within that threshold, the assignment receives a prominent urgency marker.
 
-The `Backoffice_Logistics_OrderPick_AuthorizeInvoiceHeaderUrgent` Backoffice policy enables the **XOrder header priority** button in the pick-orders screen. An authorised user can use it to change the priority marker on the `XORDERKOP`. The app displays this marker as an urgent work order and sorts priority assignments before non-priority assignments. `WorkOrderUrgencyThreshold` then determines whether the remaining departure time has passed the urgency threshold and therefore how prominently the urgency is displayed.
+The `Backoffice_Logistics_OrderPick_AuthorizeInvoiceHeaderUrgent` Backoffice policy enables the **Work order priority** button in the pick-orders screen. An authorised user can use it to change the priority marker on the `XORDERKOP`. The app displays this marker as an urgent work order and sorts priority assignments before non-priority assignments. `WorkOrderUrgencyThreshold` then determines whether the remaining departure time has passed the urgency threshold and therefore how prominently the urgency is displayed.
+
+### Manual processing sequence
+
+To assign automatic work orders in a manually defined order, set `AutomaticWorkOrderAssignmentOrder` to `Sequence`. The default value, `UrgencyAndDeparture`, retains the existing urgency and departure-time ordering.
+
+With `Sequence` enabled, open **Work order priority** in Backoffice and sort the list by **Sequence**. Select one or more work orders and use the arrows to move them one position, to the top or to the bottom. Florisoft saves the changed sequence; during automatic assignment, the work order with the lowest sequence is prioritised.
+
+The arrows can only be used while the list is sorted by **Sequence** and no search filter is active. Outside that situation, the arrows remain visible but cannot be used. In this ordering variant, **Sequence** and **Urgency** cannot be edited directly. Set the policy back to `UrgencyAndDeparture` to use the existing urgency and departure-time ordering again.
 
 Use `Backoffice_Logistics_OrderPick_PriorityScreen_FilterOnlyDeliveredViaPDA` to limit the Backoffice priority screen to pick orders delivered via the PDA. When enabled, other pick orders are excluded from this overview. Use this filter when priorities on this screen are managed exclusively for the PDA picking flow; otherwise, a planner may expect an existing pick order to appear here.
 

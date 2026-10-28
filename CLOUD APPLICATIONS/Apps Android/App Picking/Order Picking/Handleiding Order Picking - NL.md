@@ -133,7 +133,15 @@ Bij `Manual` opent eerst het scherm **Werkopdrachten**. De gebruiker kan de lijs
 
 `WorkOrderUrgencyThreshold` bepaalt wanneer de vertrektijd als urgent wordt weergegeven. De standaardgrens is 30 minuten. Zodra de resterende tijd binnen deze grens valt, krijgt de opdracht een opvallende urgentiemarkering.
 
-De Backoffice-policy `Backoffice_Logistics_OrderPick_AuthorizeInvoiceHeaderUrgent` maakt in het pickorderscherm de knop **XOrderkop prio** beschikbaar. Een bevoegde gebruiker kan hiermee de prioriteitsmarkering van de `XORDERKOP` aanpassen. Deze markering wordt in de app als urgente werkopdracht weergegeven en opdrachten met prioriteit worden vóór niet-prioritaire opdrachten gesorteerd. `WorkOrderUrgencyThreshold` bepaalt vervolgens of de resterende vertrektijd de urgentiegrens heeft overschreden en daarmee hoe opvallend de urgentie wordt getoond.
+De Backoffice-policy `Backoffice_Logistics_OrderPick_AuthorizeInvoiceHeaderUrgent` maakt in het pickorderscherm de knop **Werkopdracht prioriteit** beschikbaar. Een bevoegde gebruiker kan hiermee de prioriteitsmarkering van de `XORDERKOP` aanpassen. Deze markering wordt in de app als urgente werkopdracht weergegeven en opdrachten met prioriteit worden vóór niet-prioritaire opdrachten gesorteerd. `WorkOrderUrgencyThreshold` bepaalt vervolgens of de resterende vertrektijd de urgentiegrens heeft overschreden en daarmee hoe opvallend de urgentie wordt getoond.
+
+### Handmatige verwerkingsvolgorde
+
+Wilt u automatische werkopdrachten in een zelf bepaalde volgorde laten toewijzen, stel dan `AutomaticWorkOrderAssignmentOrder` in op `Sequence`. De standaardwaarde `UrgencyAndDeparture` behoudt de bestaande volgorde op spoed en vertrektijd.
+
+Open bij `Sequence` in Backoffice **Werkopdracht prioriteit** en sorteer de lijst op **Volgorde**. Selecteer één of meer werkopdrachten en gebruik de pijlen om deze één positie, naar boven of naar onder te verplaatsen. Florisoft slaat de aangepaste volgorde op; bij automatische toewijzing krijgt de werkopdracht met de laagste volgorde voorrang.
+
+De pijlen zijn alleen bruikbaar wanneer de lijst op **Volgorde** is gesorteerd en geen zoekfilter actief is. Buiten die situatie blijven de pijlen zichtbaar maar kunnen ze niet worden gebruikt. Bij deze volgordevariant zijn **Volgorde** en **Spoed** niet rechtstreeks bewerkbaar. Zet de policy terug op `UrgencyAndDeparture` wanneer u weer volgens de bestaande spoed- en vertreksortering wilt werken.
 
 Met `Backoffice_Logistics_OrderPick_PriorityScreen_FilterOnlyDeliveredViaPDA` beperkt u het Backoffice-prioriteitsscherm tot pickorders die via de PDA worden uitgeleverd. Ingeschakeld houdt deze policy overige pickorders buiten dit overzicht. Gebruik de filter wanneer de prioriteiten op dit scherm uitsluitend voor de PDA-pickflow worden beheerd; anders kan een planner verwachten dat een bestaande pickorder ontbreekt.
 
