@@ -171,7 +171,7 @@ Annuleert de medewerker de scan of bevat de QR-code geen printersituatie, dan wo
 
 ### Pickorderstickers automatisch printen
 
-Kies `PrintPickItemLabels` in `ActivateWorkOrderAdditionalActions` om na activatie automatisch stickers voor de pickitems van de werkopdracht af te drukken. Richt vooraf onder **Order Picking → PickItemLabelPrintSettings** de volgende policies in:
+Kies `PrintPickItemLabels` in `ActivateWorkOrderAdditionalActions` om na de eerste claim vanuit **Open** automatisch stickers voor de nog te verwerken pickitems van de werkopdracht af te drukken. Het hervatten van een al geclaimde werkopdracht verstuurt geen nieuwe automatische printopdracht. Na het vrijgeven en opnieuw claimen wordt de actie opnieuw uitgevoerd voor de dan nog resterende pickitems. Richt vooraf onder **Order Picking → PickItemLabelPrintSettings** de volgende policies in:
 
 - `PickItemLabelPrinter`: de printer voor pickorderstickers;
 - `PickItemLabelLayout`: de lay-out voor pickorderstickers.

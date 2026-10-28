@@ -171,7 +171,7 @@ If the picker cancels the scan or the QR code contains no printer situation, the
 
 ### Automatically print pick-item labels
 
-Select `PrintPickItemLabels` in `ActivateWorkOrderAdditionalActions` to automatically print labels for the work order's pick items after activation. Configure the following policies under **Order Picking → PickItemLabelPrintSettings** first:
+Select `PrintPickItemLabels` in `ActivateWorkOrderAdditionalActions` to automatically print labels for the work order's remaining pick items after its first claim from **Open**. Resuming an already claimed work order does not send another automatic print job. After releasing and claiming it again, the action runs again for the pick items that remain. Configure the following policies under **Order Picking → PickItemLabelPrintSettings** first:
 
 - `PickItemLabelPrinter`: the printer for pick-item labels;
 - `PickItemLabelLayout`: the layout for pick-item labels.
