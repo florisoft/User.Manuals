@@ -251,11 +251,12 @@ The policies under **OrderActivation → OrderCreation** determine which input i
 - `RequireOrderNumberForCustomers` contains the customers for whom an order number or order name is mandatory;
 - `DeliveryOrderSuffix` adds the configured suffix to delivery orders;
 - `OrderNumberDeterminationType` determines how Florisoft assigns the new order number;
-- `FinancialAdministration` determines which financial administration is stored on the order header when creating an order.
+- `FinancialAdministration` determines which financial administration is stored on the order header when creating an order;
+- `OrderCreation_FinancialAdministrationCodeByCustomers` contains the customer codes for which the customer's financial administration must be stored on the new order header.
 
 Enter the requested details and confirm the order. A mandatory order number must be valid and unique according to the selected numbering method.
 
-Set `FinancialAdministration` only when new orders must always use a specific financial administration. The configured value is stored on the order header, even when the customer has a different financial administration. Leave the policy empty when the customer financial administration must remain leading. Without a configured policy, an order is not created when the employee and customer financial administrations differ; the app identifies the user, customer and administrations that do not match. If the customer has no financial administration, the order may be created and processed further.
+Set `FinancialAdministration` only when new orders must always use a specific financial administration. The configured value is stored on the order header, even when the customer has a different financial administration. Use `OrderCreation_FinancialAdministrationCodeByCustomers` when this must be different only for specific customers: for the listed customer codes, the customer's financial administration is stored on the new order header and used when activating and querying the order. Leave this list empty when no customer-specific exception is needed. Without a configured policy, an order is not created when the employee and customer financial administrations differ; the app identifies the user, customer and administrations that do not match. If the customer has no financial administration, the order may be created and processed further.
 
 ### Order sessions
 

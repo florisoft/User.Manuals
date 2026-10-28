@@ -251,11 +251,12 @@ De policies onder **OrderActivation → OrderCreation** bepalen welke invoer wor
 - `RequireOrderNumberForCustomers` bevat de klanten waarvoor een ordernummer of ordernaam verplicht is;
 - `DeliveryOrderSuffix` voegt de ingestelde suffix aan leverorders toe;
 - `OrderNumberDeterminationType` bepaalt hoe Florisoft het nieuwe ordernummer vaststelt;
-- `FinancialAdministration` bepaalt welke financiële administratie bij het aanmaken op de orderkop wordt opgeslagen.
+- `FinancialAdministration` bepaalt welke financiële administratie bij het aanmaken op de orderkop wordt opgeslagen;
+- `OrderCreation_FinancialAdministrationCodeByCustomers` bevat de debiteurcodes waarvoor de financiële administratie van de debiteur op de nieuwe orderkop moet worden opgeslagen.
 
 Vul de gevraagde gegevens in en bevestig de order. Een verplicht ordernummer moet geldig en uniek zijn volgens de gekozen nummerbepaling.
 
-Stel `FinancialAdministration` alleen in wanneer nieuwe orders altijd onder een specifieke financiële administratie moeten vallen. De ingestelde waarde wordt op de orderkop opgeslagen, ook wanneer de klant een andere financiële administratie heeft. Laat de policy leeg wanneer de financiële administratie van de debiteur leidend moet blijven. Zonder ingestelde policy wordt een order bij een verschil tussen de financiële administratie van medewerker en klant niet aangemaakt; de app toont dan welke gebruiker, klant en administraties niet overeenkomen. Heeft de klant geen financiële administratie, dan mag de order wel worden aangemaakt en verder verwerkt.
+Stel `FinancialAdministration` alleen in wanneer nieuwe orders altijd onder een specifieke financiële administratie moeten vallen. De ingestelde waarde wordt op de orderkop opgeslagen, ook wanneer de klant een andere financiële administratie heeft. Gebruik `OrderCreation_FinancialAdministrationCodeByCustomers` wanneer dit alleen voor specifieke debiteuren anders moet: voor de opgenomen debiteurcodes wordt de financiële administratie van de debiteur op de nieuwe orderkop opgeslagen en gebruikt bij het activeren en opvragen van de order. Laat deze lijst leeg wanneer geen uitzondering per debiteur nodig is. Zonder ingestelde policy wordt een order bij een verschil tussen de financiële administratie van medewerker en klant niet aangemaakt; de app toont dan welke gebruiker, klant en administraties niet overeenkomen. Heeft de klant geen financiële administratie, dan mag de order wel worden aangemaakt en verder verwerkt.
 
 ### Ordersessies
 
