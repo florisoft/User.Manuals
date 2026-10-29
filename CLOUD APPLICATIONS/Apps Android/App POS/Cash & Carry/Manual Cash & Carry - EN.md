@@ -262,9 +262,11 @@ Set `FinancialAdministration` only when new orders must always use a specific fi
 
 ### Order sessions
 
-The Cash & Carry use-case description includes an optional order-session mode. This allows multiple sales moments on the same order to be processed separately. New order lines and packaging registrations then receive the active session number, while the payment step can show the entire order.
+Order sessions let you process multiple sales moments on the same order separately. Enable the `UseOrderSessions` policy under **OrderActivation** to use them.
 
-The corresponding settings `UseOrderSessions` and `FilterCartByActiveSession` are included in the use-case description, but are not offered as configurable Cash & Carry policies in every app version. Use this method only when order sessions are available and tested in the release you use.
+After opening an order, select an existing session to continue it or start a new session. If there are no previous sessions, the shopping cart opens directly with a new session. The cart shows only the active session's lines; new products and packaging are associated with that session.
+
+A printed packing list contains only the active session's lines and packaging. The payment overview shows the full order. Without order sessions, the packing list contains the relevant lines for the full order. Verify the configuration with a test order and use an app and server version that supports this feature.
 
 ---
 

@@ -262,9 +262,11 @@ Stel `FinancialAdministration` alleen in wanneer nieuwe orders altijd onder een 
 
 ### Ordersessies
 
-In de Cash & Carry-usecase is een optionele ordersessiemodus beschreven. Hiermee kunnen meerdere verkoopmomenten op dezelfde order gescheiden worden verwerkt. Nieuwe orderregels en fustregistraties krijgen dan het actieve sessienummer, terwijl de betaalstap de volledige order kan tonen.
+Met ordersessies kunt u meerdere verkoopmomenten op dezelfde order gescheiden verwerken. Schakel hiervoor de policy `UseOrderSessions` onder **OrderActivation** in.
 
-De bijbehorende instellingen `UseOrderSessions` en `FilterCartByActiveSession` staan wel in de usecasebeschrijving, maar worden niet in iedere appversie als instelbare Cash & Carry-policy aangeboden. Gebruik deze werkwijze alleen wanneer ordersessies in uw gebruikte release beschikbaar en getest zijn.
+Kies na het openen van een order een bestaande sessie om verder te werken, of start een nieuwe sessie. Zijn er nog geen sessies, dan opent de winkelwagen direct met een nieuwe sessie. De winkelwagen toont alleen de regels van de actieve sessie; nieuwe producten en fust worden aan die sessie gekoppeld.
+
+Een afgedrukte paklijst bevat alleen de regels en het fust van de actieve sessie. Het betaaloverzicht toont de volledige order. Zonder ordersessies bevat de paklijst de relevante regels van de volledige order. Controleer de inrichting met een testorder en gebruik een app- en serverversie waarin deze functie beschikbaar is.
 
 ---
 
