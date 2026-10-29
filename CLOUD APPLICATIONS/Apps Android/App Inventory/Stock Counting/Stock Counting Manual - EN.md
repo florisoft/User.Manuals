@@ -296,7 +296,7 @@ The `PrintSettings` policy group contains:
 | --- | --- |
 | `AvailablePrinters` | Enables price labels and stock labels using `Price` and/or `Stock`. Select both to offer both label types. |
 | `PriceLabelPrinter` | Printer for price labels. |
-| `PriceLabelLayout` | Layout for price labels. |
+| `PriceLabelLayout` | Choose the layout for price labels. Layouts of list types 70 and 83 are available. |
 | `PriceLabelPrinterDescription` | Price-label printer description shown in the app. |
 | `StockLabelPrinter` | Printer for stock labels. |
 | `StockLabelLayout` | Layout for stock labels. |

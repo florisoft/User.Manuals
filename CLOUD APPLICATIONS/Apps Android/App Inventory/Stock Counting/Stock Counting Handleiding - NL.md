@@ -296,7 +296,7 @@ De policy-groep `PrintSettings` bevat:
 | --- | --- |
 | `AvailablePrinters` | Maakt met `Price` en/of `Stock` prijslabels en voorraadlabels beschikbaar. Selecteer beide voor beide labelsoorten. |
 | `PriceLabelPrinter` | Printer voor prijslabels. |
-| `PriceLabelLayout` | Lay-out voor prijslabels. |
+| `PriceLabelLayout` | Kies de lay-out voor prijslabels. Lay-outs van lijstsoort 70 en 83 zijn beschikbaar. |
 | `PriceLabelPrinterDescription` | Omschrijving van de prijslabelprinter in de app. |
 | `StockLabelPrinter` | Printer voor voorraadlabels. |
 | `StockLabelLayout` | Lay-out voor voorraadlabels. |
