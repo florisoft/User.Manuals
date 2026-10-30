@@ -20,7 +20,7 @@ Using TrolleyLoading requires at least:
 - the correct barcode decoders for the order, product, box, and trolley labels being used;
 - a scanner when scan workflows are used.
 
-To print trolley labels and completed-trolley lists automatically, a printer and print layout must also be configured. Address labels and exception registration additionally require the corresponding add-on and licence.
+To print trolley labels and completed-trolley lists automatically, a printer and print layout must also be configured. For an FSQR trolley label, select an FSQR configuration containing the trolley ID and use the `FSQR` variable in the label layout. This also applies to trolley labels printed from transport planning. Address labels and exception registration additionally require the corresponding add-on and licence.
 
 ## Workflow
 
@@ -59,7 +59,7 @@ Use these overviews to plan how the products will be divided between the availab
 
 Existing trolleys are listed in the order details. Each trolley shows its status and progress. Completed trolleys have the status **Complete**.
 
-Open an existing trolley by selecting it or scanning its barcode.
+Open an existing trolley by selecting it or scanning its barcode. You can also use an FSQR code containing the trolley ID when the FSQR decoder is enabled for that screen.
 
 Create a new trolley as follows:
 

@@ -20,7 +20,7 @@ Voor het gebruik van TrolleyLoading zijn minimaal nodig:
 - de juiste barcodedecoders voor de gebruikte order-, product-, doos- en karstickers;
 - een scanner wanneer de scanflows worden gebruikt.
 
-Voor het automatisch afdrukken van karlabels en karklaarlijsten moeten ook een printer en afdruklay-out zijn ingesteld. Adreslabels en uitzonderingsregistratie vereisen daarnaast de bijbehorende add-on en licentie.
+Voor het automatisch afdrukken van karlabels en karklaarlijsten moeten ook een printer en afdruklay-out zijn ingesteld. Voor een FSQR-karlabel kiest u een FSQR-configuratie met het kar-ID en gebruikt u de variabele `FSQR` in de labelopmaak. Dit geldt ook voor karlabels vanuit de transportplanning. Adreslabels en uitzonderingsregistratie vereisen daarnaast de bijbehorende add-on en licentie.
 
 ## Werkwijze
 
@@ -59,7 +59,7 @@ Gebruik deze overzichten om de verdeling over de beschikbare karren te plannen. 
 
 Bestaande karren staan in het orderdetail. De status en voortgang zijn per kar zichtbaar. Afgeronde karren krijgen de status **Compleet**.
 
-Een bestaande kar opent u door deze te selecteren of door de karbarcode te scannen.
+Een bestaande kar opent u door deze te selecteren of door de karbarcode te scannen. Dit kan ook met een FSQR-code die het kar-ID bevat, mits de FSQR-decoder voor het betreffende scherm is ingeschakeld.
 
 Een nieuwe kar maakt u als volgt aan:
 

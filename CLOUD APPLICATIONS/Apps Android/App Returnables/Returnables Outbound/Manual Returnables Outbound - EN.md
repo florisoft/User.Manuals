@@ -32,7 +32,7 @@ The shared `AvailableCustomerFilterOptions` policy can make these filters availa
 - `WithInvoice`: customers with an open invoice;
 - `WithActiveSessions`: customers with active returnables sessions.
 
-The shared `ValidBarcodeDecodeOptions` policy determines which barcode types are accepted on the start page. Depending on the configuration, the app can process order-line, FSQR session and trolley barcodes. A supported trolley barcode can import the packaging linked to that trolley into the count.
+The shared `ValidBarcodeDecodeOptions` policy determines which barcode types are accepted on the start page. Depending on the configuration, the app can process order-line, FSQR session and trolley barcodes. A supported trolley barcode, including an FSQR code containing the trolley ID, can import the packaging linked to that trolley into the count.
 
 After an unexpected device failure, the same user can reopen their own active session. An active session owned by another user remains unavailable. A scanned session is opened only when its type is correct and the linked order still exists. If a reopened session has no batches, the counting page creates the first batch.
 

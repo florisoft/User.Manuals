@@ -32,7 +32,7 @@ De gedeelde policy `AvailableCustomerFilterOptions` bepaalt welke filters beschi
 - `WithInvoice`: klanten met een openstaande factuur;
 - `WithActiveSessions`: klanten met openstaande returnables-sessies.
 
-De gedeelde policy `ValidBarcodeDecodeOptions` bepaalt welke soorten barcodes in het startscherm worden herkend. Afhankelijk van de configuratie kan de app onder meer orderregel-, FSQR-sessie- en karbarcodes verwerken. Bij een ondersteunde karbarcode kan de app het aan de kar gekoppelde fust overnemen in de telling.
+De gedeelde policy `ValidBarcodeDecodeOptions` bepaalt welke soorten barcodes in het startscherm worden herkend. Afhankelijk van de configuratie kan de app onder meer orderregel-, FSQR-sessie- en karbarcodes verwerken. Bij een ondersteunde karbarcode, waaronder een FSQR-code met kar-ID, kan de app het aan de kar gekoppelde fust overnemen in de telling.
 
 Na onverwachte PDA-uitval kan dezelfde gebruiker de eigen actieve sessie opnieuw openen. Een actieve sessie van een andere gebruiker blijft geblokkeerd. Een gescande sessie wordt alleen geopend wanneer het type klopt en de gekoppelde order nog bestaat. Als een heropende sessie nog geen batches bevat, maakt de telpagina een eerste batch aan.
 
