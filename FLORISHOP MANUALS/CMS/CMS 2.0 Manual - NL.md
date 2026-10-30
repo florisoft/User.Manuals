@@ -569,7 +569,7 @@ Via deze tab kun je de [Editor](#editor) naar jouw persoonlijke voorkeuren confi
 
 #### Responsive tabs
 
-Met deze tabs kun je ervoor zorgen dat jouw website er niet alleen op desktop, maar ook op tablets en mobiele apparaten netjes en professioneel uitziet.
+Met deze tabs kun je ervoor zorgen dat jouw website er niet alleen op desktop, maar ook op tablets en mobiele apparaten netjes en professioneel uitziet. Welke instellingen per apparaat beschikbaar zijn, verschilt per component. Laat je een tablet- of mobiele waarde leeg, dan wordt de desktopwaarde gebruikt.
 
 | Stap | Uitleg |
 |:--|:--|
@@ -1106,7 +1106,7 @@ Gebruik dit component om CMS- (blog)pagina's vindbaar te maken binnen je website
 
 | Stap | Uitleg |
 |:--|:--|
-| **1** | In dit voorbeeld hebben we het component **Pagina zoekbalk** toegevoegd aan een [Column](#rowcolumn)-component (1). Het component is nu zowel zichtbaar in de [Navigator](#navigator) (2) als in de [Editor](#editor) (3). Via het tabblad **[Algemene instellingen](#algemene-instellingen)** (4) kun je het component verder configureren.<br><br>**[Vertalingen bewerken](#vertalingen)** (5)<br><br>**Placeholder** (6) – Vul hier de tekst in die als voorbeeldtekst in het zoekveld wordt weergegeven.<br><br>**Categorie dropdown tonen** (7) – Schakel deze optie in of uit om een dropdown naast het zoekveld weer te geven. Wanneer deze optie is ingeschakeld, verschijnen de velden **Tussenruimte** (8) en **Dropdown breedte (%)** (9). Hiermee kun je de ruimte tussen de dropdown en het zoekveld bepalen en de breedte van de dropdown instellen als percentage.<br><br>**Doorzoekbare categorieën** (10) – Selecteer welke [Pagina Categorieën](#categorieën) of [Blog Categorieën](#blog-categorieën) in de dropdown mogen worden weergegeven.<br><br>**[Component Style](#component-styles)** (11).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/47.1.png"></details> |
+| **1** | In dit voorbeeld hebben we het component **Pagina zoekbalk** toegevoegd aan een [Column](#rowcolumn)-component (1). Het component is nu zowel zichtbaar in de [Navigator](#navigator) (2) als in de [Editor](#editor) (3). Via het tabblad **[Algemene instellingen](#algemene-instellingen)** (4) kun je het component verder configureren.<br><br>**[Vertalingen bewerken](#vertalingen)** (5)<br><br>**Placeholder** (6) – Vul hier de tekst in die als voorbeeldtekst in het zoekveld wordt weergegeven.<br><br>**Zoekgebied** – Selecteer optioneel een CMS- of blogpagina. De zoekbalk doorzoekt dan alleen deze pagina en de onderliggende pagina's. Bij een ingesteld zoekgebied worden categorieën niet gebruikt.<br><br>**Categorie dropdown tonen** (7) – Schakel deze optie in of uit om een dropdown naast het zoekveld weer te geven. Wanneer deze optie is ingeschakeld, verschijnen de velden **Tussenruimte** (8) en **Dropdown breedte (%)** (9). Hiermee kun je de ruimte tussen de dropdown en het zoekveld bepalen en de breedte van de dropdown instellen als percentage.<br><br>**Doorzoekbare categorieën** (10) – Selecteer welke [Pagina Categorieën](#categorieën) of [Blog Categorieën](#blog-categorieën) in de dropdown mogen worden weergegeven.<br><br>Bij meerdere zoekwoorden worden woorden afzonderlijk gezocht; pagina's die meer woorden bevatten, komen hoger in de resultaten.<br><br>**[Component Style](#component-styles)** (11).<details><summary><b>Klik hier voor de voorbeeldafbeelding</b></summary><img src="media/47.1.png"></details> |
 | **2** | Lees meer over de aanvullende instellingen in de tabbladen [Styling](#3-styling), [Geavanceerd](#4-geavanceerd) en [Zichtbaarheid](#5-zichtbaarheid). |
 
 ---
@@ -1441,7 +1441,7 @@ Dit is het ingebouwde **Registratieformulier** voor B2C-klantregistratie. De bes
 | Instelling / stap | Uitleg |
 |:--|:--|
 | **Basis** | Selecteer de **Template-debiteur** waarop de registratie moet worden gebaseerd. Zonder template-debiteur worden de normale formuliervelden niet opgebouwd. |
-| **Velden** | Kies onder Formuliervelden welke velden worden weergegeven en welke verplicht zijn. Verplichte velden worden ook getoond wanneer ze niet afzonderlijk zijn geselecteerd. |
+| **Velden** | Kies onder Formuliervelden per veld of het wordt **getoond** en of het **verplicht** is. Een verplicht veld verschijnt alleen in het registratieformulier wanneer het ook op tonen staat. |
 | **Meldingen** | Stel de e-mailontvangers in en kies of de aanvrager een mail krijgt. Vul de foutteksten voor telefoonnummer en e-mailadres in. Controleer vóór gebruik een volledige registratie, inclusief validatie en e-mailafhandeling. |
 
 ---
@@ -1476,7 +1476,7 @@ Met **Iframe** toon je een andere webpagina binnen de CMS-pagina.
 
 #### Blog
 
-**Blog** maakt een overzicht van blogpagina's op basis van geselecteerde blogcategorieën. De weergave van ieder item komt uit een template.
+**Blog** maakt een overzicht van blogpagina's op basis van geselecteerde blogcategorieën. De weergave van ieder item komt uit een template. Blogpagina's die nog concept zijn, worden niet in het overzicht getoond.
 
 | Instelling / stap | Uitleg |
 |:--|:--|

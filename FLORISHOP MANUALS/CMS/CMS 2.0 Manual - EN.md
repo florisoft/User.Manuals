@@ -575,7 +575,7 @@ You can use this tab to configure the [Editor](#editor) according to your person
 
 #### Responsive tabs
 
-Use these tabs to ensure that your website looks clean and professional not only on desktop devices, but also on tablets and mobile devices.
+Use these tabs to ensure that your website looks clean and professional not only on desktop devices, but also on tablets and mobile devices. The settings available per device vary by component. When a tablet or mobile value is left empty, the desktop value is used.
 
 | Step | Explanation |
 |:--|:--|
@@ -1111,7 +1111,7 @@ Use this component to make CMS (blog) pages searchable on your website. This all
 
 | Step | Description |
 |:--|:--|
-| **1** | In this example, we have added the **Page Search** component to a [Column](#rowcolumn) component (1). The component is now visible in both the [Navigator](#navigator) (2) and the [Editor](#editor) (3). You can further configure the component via the **[General settings](#general-settings)** (4).<br><br>**[Edit translations](#translations)** (5)<br><br>**Placeholder** (6) – Enter the text that should be displayed as placeholder text in the search field.<br><br>**Show category dropdown** (7) – Enable or disable this option to display a dropdown next to the search field. When this option is enabled, the **Spacing** (8) and **Dropdown width (%)** (9) fields appear. These settings allow you to determine the spacing between the dropdown and the search field and set the width of the dropdown as a percentage.<br><br>**Searchable categories** (10) – Select which [Page Categories](#categories) or [Blog Categories](#blog-categories) may be displayed in the dropdown.<br><br>**[Component Style](#component-styles)** (11).<details><summary><b>Click here for the example image</b></summary><img src="media/47.1.png"></details> |
+| **1** | In this example, we have added the **Page Search** component to a [Column](#rowcolumn) component (1). The component is now visible in both the [Navigator](#navigator) (2) and the [Editor](#editor) (3). You can further configure the component via the **[General settings](#general-settings)** (4).<br><br>**[Edit translations](#translations)** (5)<br><br>**Placeholder** (6) – Enter the text that should be displayed as placeholder text in the search field.<br><br>**Search scope** – Optionally select a CMS or blog page. The search bar then searches only that page and its child pages. When a search scope is set, categories are not used.<br><br>**Show category dropdown** (7) – Enable or disable this option to display a dropdown next to the search field. When this option is enabled, the **Spacing** (8) and **Dropdown width (%)** (9) fields appear. These settings allow you to determine the spacing between the dropdown and the search field and set the width of the dropdown as a percentage.<br><br>**Searchable categories** (10) – Select which [Page Categories](#categories) or [Blog Categories](#blog-categories) may be displayed in the dropdown.<br><br>With multiple search words, each word is searched separately; pages that contain more words appear higher in the results.<br><br>**[Component Style](#component-styles)** (11).<details><summary><b>Click here for the example image</b></summary><img src="media/47.1.png"></details> |
 | **2** | Learn more about the additional settings in the [Styling](#3-styling), [Advanced](#4-advanced), and [Visibility](#5-visibility) tabs. |
 
 ---
@@ -1446,7 +1446,7 @@ This is the built-in **Registration form** for B2C customer registration. Availa
 | Setting / step | Explanation |
 |:--|:--|
 | **Setup** | Select the **Template debtor** used as the basis for registration. Without a template debtor, the regular form fields are not built. |
-| **Fields** | Under Form fields, choose which fields are displayed and which are required. Required fields are displayed even when not separately selected. |
+| **Fields** | Under Form fields, choose for each field whether it is **shown** and whether it is **required**. A required field only appears in the registration form when it is also set to be shown. |
 | **Messages** | Configure email recipients and whether the applicant receives an email. Enter error messages for phone number and email. Before use, check a complete registration, including validation and email handling. |
 
 ---
@@ -1481,7 +1481,7 @@ Use **Iframe** to display another web page inside the CMS page.
 
 #### Blog
 
-**Blog** builds an overview of blog pages from selected blog categories. A template determines each item's appearance.
+**Blog** builds an overview of blog pages from selected blog categories. A template determines each item's appearance. Blog pages that are still drafts are not shown in the overview.
 
 | Setting / step | Explanation |
 |:--|:--|
