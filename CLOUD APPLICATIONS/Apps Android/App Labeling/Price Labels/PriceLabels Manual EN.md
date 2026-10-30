@@ -86,8 +86,9 @@ Press the print button to print price labels.
 
 The printer and layout are determined in advance by policies:
 - `PriceLabelPrinter` determines which printer is used.
-- `PriceLabelLayout` determines which price label layout is used.
-- `PriceLabelPrinterPerCustomer` determines whether the price label settings of the debtor are used instead of the default settings.
+- `PriceLabelLayout` contains the default price label layout.
+- `PriceLabelLayouts` sets the order of the customer and default layouts. Put `CustomerLayout` before `PriceLabelLayout` to use the debtor layout and fall back to the default layout when the customer layout is empty. Without a configured order, the existing layout selection applies.
+- `PriceLabelPrinterPerCustomer` determines whether the debtor price label printer is used instead of the default printer.
 
 To use the quantity from the trolley-loading barcode, ask your administrator to set `DefaultQuantityToPrint` to `BarcodeValue`. The full policy name is `Apps_Logistics_Labeling_PriceLabel_DefaultQuantityToPrint`; it replaces `TotalPriceLabelsDisplayType`.
 

@@ -88,8 +88,9 @@ Druk op de printknop om prijsstickers af te drukken.
 
 De printer en layout worden vooraf bepaald door policies:
 - `PriceLabelPrinter` bepaalt welke printer wordt gebruikt.
-- `PriceLabelLayout` bepaalt welke prijssticker-layout wordt gebruikt.
-- `PriceLabelPrinterPerCustomer` bepaalt of de prijslabelinstellingen van de debiteur worden gebruikt in plaats van de standaardinstellingen.
+- `PriceLabelLayout` bevat de standaard prijssticker-layout.
+- `PriceLabelLayouts` bepaalt de volgorde van de klantlayout en de standaardlayout. Zet `CustomerLayout` vóór `PriceLabelLayout` om de debiteurlayout te gebruiken en terug te vallen op de standaardlayout als de klantlayout leeg is. Zonder ingestelde volgorde geldt de bestaande layoutkeuze.
+- `PriceLabelPrinterPerCustomer` bepaalt of de prijsstickerprinter van de debiteur wordt gebruikt in plaats van de standaardprinter.
 
 Wilt u het aantal uit de karopbouwbarcode gebruiken? Laat uw beheerder `DefaultQuantityToPrint` op `BarcodeValue` instellen. De volledige policynaam is `Apps_Logistics_Labeling_PriceLabel_DefaultQuantityToPrint`; deze vervangt `TotalPriceLabelsDisplayType`.
 
