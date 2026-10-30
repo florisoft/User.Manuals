@@ -204,6 +204,8 @@ Als `AllowReverseLoading` actief is, begint de medewerker met het product in pla
 4. controleer de banner met het wachtende product en het nog op te bouwen aantal;
 5. scan de barcode van de juiste kar om de koppeling te bevestigen.
 
+Wilt u direct een bestaande kar openen? Scan de karbarcode op de scanpagina. De bijbehorende kar en de kar-/orderdetailweergave worden geopend.
+
 Alleen het openen of selecteren van een kar registreert het product nog niet. De karbevestigingsscan is verplicht. Na een geldige scan wordt het product gekoppeld en keert de app terug naar de scanpagina voor het volgende product.
 
 Wilt u nog producten toevoegen aan een kar met status **Compleet**? Als `AllowReverseLoadingOnCompletedTrolleys` actief is, kunt u ook de barcode van een complete kar scannen om het wachtende product op die kar te plaatsen. Als deze instelling uit staat, kunt u bij omgekeerd opbouwen alleen op actieve karren plaatsen. De overige controles blijven gelden.

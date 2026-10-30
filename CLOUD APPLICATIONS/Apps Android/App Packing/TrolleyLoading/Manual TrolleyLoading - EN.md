@@ -204,6 +204,8 @@ When `AllowReverseLoading` is active, the employee starts with the product inste
 4. check the banner containing the pending product and remaining quantity;
 5. scan the correct trolley barcode to confirm the link.
 
+To open an existing trolley directly, scan its barcode on the scan page. The associated trolley and its trolley/order details open.
+
 Opening or selecting a trolley does not register the product. The trolley confirmation scan is mandatory. After a valid scan, the product is linked and the app returns to the scan page for the next product.
 
 Do you need to add products to a trolley with status **Complete**? When `AllowReverseLoadingOnCompletedTrolleys` is enabled, you can also scan the barcode of a completed trolley to place the pending product on it. When this setting is disabled, reverse loading only allows placement on active trolleys. The other validations still apply.
