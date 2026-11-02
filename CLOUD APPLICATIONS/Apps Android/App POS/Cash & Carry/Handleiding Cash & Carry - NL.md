@@ -33,6 +33,8 @@ Open in de Backoffice het **constantenscherm** en ga via **Systeem → Users →
 
 De onderliggende groepen **OrderActivation**, **ShoppingCart**, **StockItemSelection**, **Returnables**, **Payment** en **PackageListPrintSettings** bevatten de instellingen voor de betreffende processtappen. Onder **OrderActivation** en **ShoppingCart** staan nog verdere subgroepen voor klant-, order- en regelinstellingen.
 
+Onder **StockItemSelection** bepaalt `AllowedStockCodes` uit welke voorraden kan worden verkocht. Onder **ShoppingCart** staan de instellingen voor verkopen onder nul, de prijsweergave, aanvullende distributietypen, fustregistratie en het vullen van het paklijstnummer. `ProductQuantityDisplayType` staat op het niveau **CashCarry**.
+
 Meer informatie over het maken, koppelen en prioriteren van policies staat in de [handleiding Policy Management](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Handleiding%20Policy%20Management%20NL.md).
 
 > Een lege policywaarde kan terugvallen op een bestaande Backoffice-instelling of op standaardgedrag. Test een gewijzigde inrichting daarom eerst met een aparte testpolicy, een testklant en een representatieve order.

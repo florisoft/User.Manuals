@@ -33,6 +33,8 @@ In the Backoffice, open the **constants screen** and navigate through **System â
 
 The underlying groups **OrderActivation**, **ShoppingCart**, **StockItemSelection**, **Returnables**, **Payment** and **PackageListPrintSettings** contain the settings for the corresponding process steps. **OrderActivation** and **ShoppingCart** contain additional subgroups for customer, order and order-line settings.
 
+Under **StockItemSelection**, `AllowedStockCodes` determines which stocks can be used for sales. **ShoppingCart** contains the settings for selling below zero, price display, additional distribution types, packaging registration and filling the packing-list number. `ProductQuantityDisplayType` remains at **CashCarry** level.
+
 More information about creating, linking and prioritising policies is available in the [Policy Management manual](https://github.com/florisoft/User.Manuals/blob/main/BASIS/Policy%20Management/Handleiding%20Policy%20Management%20NL.md).
 
 > An empty policy value may fall back to an existing Backoffice setting or to default behaviour. Therefore, first test a changed configuration with a separate test policy, a test customer and a representative order.
