@@ -68,6 +68,8 @@ Controleer de combinatie van `InboundAreaId` en `AvailableStocks` met werkelijke
 
 Het startscherm vraagt om een inkomend artikel te scannen. Onderaan staat de keuze **Direct printen**.
 
+Met de policy `DefaultToColliQuantityOnScan` gebruikt u bij het scannen één verpakkingseenheid als standaardaantal. Zo kunnen medewerkers dozen afzonderlijk verwerken. De hoeveelheid die een barcode zelf bepaalt, kan hiervan afwijken. Controleer de werkwijze met de gebruikte barcodes voordat medewerkers hiermee werken.
+
 ### Direct printen uitgeschakeld
 
 Wanneer **Direct printen** uitstaat:
@@ -82,9 +84,9 @@ Deze werkwijze is geschikt wanneer de medewerker de gegevens of de ontvangen hoe
 
 ### Direct printen ingeschakeld
 
-Wanneer **Direct printen** aanstaat, verwerkt Florisoft na een geldige scan direct de volledige resterende hoeveelheid. Het detailscherm en de handmatige hoeveelheidscontrole worden overgeslagen. Als meerdere inkomende artikelen bij de barcode horen, moet de medewerker eerst het juiste artikel selecteren.
+Wanneer **Direct printen** aanstaat, verwerkt Florisoft na een geldige scan direct de bepaalde hoeveelheid. Zonder de instelling voor één verpakkingseenheid kan dit de volledige resterende hoeveelheid zijn. Het detailscherm en de handmatige hoeveelheidscontrole worden overgeslagen. Als meerdere inkomende artikelen bij de barcode horen, moet de medewerker eerst het juiste artikel selecteren.
 
-Gebruik **Direct printen** alleen wanneer de fysieke levering overeenkomt met de volledige openstaande hoeveelheid. Schakel de optie uit bij een deelontvangst of wanneer controle vóór registratie nodig is.
+Gebruik **Direct printen** alleen wanneer de te verwerken hoeveelheid overeenkomt met de fysieke ontvangst. Schakel de optie uit wanneer controle vóór registratie nodig is.
 
 Na de scan toont de app tijdelijk een laadscherm. Scan het volgende artikel pas nadat de verwerking en eventuele melding zijn afgerond.
 
@@ -159,7 +161,7 @@ Het scherm **Controleer artikel** toont:
 
 De zichtbare aanvullende gegevens en hun volgorde worden bepaald met de details-policy. U kunt deze gegevens alleen controleren; ze zijn niet te wijzigen in EntryControl.
 
-Bij het openen vult Florisoft standaard de volledige resterende hoeveelheid in. Het invoerveld accepteert minimaal nul en maximaal de resterende hoeveelheid. De knop met het **vinkje** wordt pas actief bij een hoeveelheid groter dan nul.
+Bij het openen stelt Florisoft een hoeveelheid voor. Afhankelijk van de scan en de policy kan dit één verpakkingseenheid of de resterende hoeveelheid zijn. Het invoerveld accepteert minimaal nul en maximaal de resterende hoeveelheid. De knop met het **vinkje** wordt pas actief bij een hoeveelheid groter dan nul.
 
 Controleer het fysieke artikel, de kenmerken, het fust en de hoeveelheid voordat u bevestigt. Gebruik de **homeknop** om zonder registratie terug te keren naar het startscherm. Gebruik het **vergrootglas** om een ander artikel te zoeken.
 
@@ -169,7 +171,7 @@ Controleer het fysieke artikel, de kenmerken, het fust en de hoeveelheid voordat
 
 ### Volledige ontvangst
 
-Laat de voorgestelde resterende hoeveelheid staan en tik op het **vinkje**. Na een geslaagde verwerking keert Florisoft terug naar het startscherm. Het artikel is volledig verwerkt wanneer de geregistreerde hoeveelheid gelijk is aan de totale verwachte hoeveelheid.
+Vul de volledige resterende hoeveelheid in en tik op het **vinkje**. Na een geslaagde verwerking keert Florisoft terug naar het startscherm. Het artikel is volledig verwerkt wanneer de geregistreerde hoeveelheid gelijk is aan de totale verwachte hoeveelheid.
 
 ### Gedeeltelijke ontvangst
 

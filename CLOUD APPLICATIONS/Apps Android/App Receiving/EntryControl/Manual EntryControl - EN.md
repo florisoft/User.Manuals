@@ -68,6 +68,8 @@ Check the combination of `InboundAreaId` and `AvailableStocks` with actual inbou
 
 The start screen requests an inbound-item scan. The **Print directly** option is shown at the bottom.
 
+The `DefaultToColliQuantityOnScan` policy lets you use one packing unit as the default quantity when scanning. This allows employees to process boxes individually. A quantity determined by the barcode itself can differ. Check the workflow with the barcodes used before employees start working with it.
+
 ### Print directly disabled
 
 When **Print directly** is disabled:
@@ -82,9 +84,9 @@ This method is suitable when the employee must check the data or received quanti
 
 ### Print directly enabled
 
-When **Print directly** is enabled, Florisoft immediately processes the full remaining quantity after a valid scan. The details screen and manual quantity check are skipped. If multiple inbound items belong to the barcode, the employee must first select the correct item.
+When **Print directly** is enabled, Florisoft immediately processes the determined quantity after a valid scan. Without the one-packing-unit setting this may be the full remaining quantity. The details screen and manual quantity check are skipped. If multiple inbound items belong to the barcode, the employee must first select the correct item.
 
-Only use **Print directly** when the physical delivery matches the full outstanding quantity. Disable the option for a partial receipt or when a check is required before registration.
+Only use **Print directly** when the quantity to be processed matches the physical receipt. Disable the option when a check is required before registration.
 
 The app temporarily displays a loading screen after the scan. Do not scan the next item until processing and any message have finished.
 
@@ -159,7 +161,7 @@ The **Review item** screen shows:
 
 The details policy determines which additional data is visible and in which order. This information is for checking only and cannot be changed in EntryControl.
 
-When the screen opens, Florisoft proposes the full remaining quantity. The input accepts a minimum of zero and a maximum of the remaining quantity. The **check-mark** button only becomes active for a quantity above zero.
+When the screen opens, Florisoft proposes a quantity. Depending on the scan and policy, this can be one packing unit or the remaining quantity. The input accepts a minimum of zero and a maximum of the remaining quantity. The **check-mark** button only becomes active for a quantity above zero.
 
 Check the physical item, characteristics, packaging and quantity before confirming. Use the **home button** to return to the start screen without registering. Use the **magnifying glass** to search for another item.
 
@@ -169,7 +171,7 @@ Check the physical item, characteristics, packaging and quantity before confirmi
 
 ### Full receipt
 
-Leave the proposed remaining quantity unchanged and tap the **check mark**. After successful processing, Florisoft returns to the start screen. The item is fully processed when the registered quantity equals the total expected quantity.
+Enter the full remaining quantity and tap the **check mark**. After successful processing, Florisoft returns to the start screen. The item is fully processed when the registered quantity equals the total expected quantity.
 
 ### Partial receipt
 
