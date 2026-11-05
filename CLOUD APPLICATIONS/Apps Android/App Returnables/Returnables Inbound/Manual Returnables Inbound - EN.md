@@ -67,7 +67,9 @@ Depending on the policies, the app may request:
 - an email choice (`MailPackingListOption`);
 - a signature when a packing list is printed or emailed (`RequireSignature`).
 
-After successful completion, the incoming returnable packaging is registered directly in the returnables administration for the selected customer and order. The total incoming quantity is recorded as a negative returnables line on the linked invoice. Registration in the returnables administration is standard behaviour and is not controlled by a separate policy. The session is then closed. The order must belong to an existing invoice.
+After successful completion, incoming returnable packaging is registered directly in the returnables administration. Without alternative settings, this uses the selected customer and order. The total incoming quantity is recorded as a negative returnables line on the invoice. Registration in the returnables administration is standard behaviour and is not controlled by a separate policy. The session is then closed. The order must belong to an existing invoice.
+
+To invoice returnables to a different customer, configure the returnables invoice customer on the original customer (`DEBITEUR.FSTIUDEBNR`). On completion, the invoice lines are registered on an order of that customer. The original customer remains the origin and the session stays with the original order. The returnables administration destination can be configured separately.
 
 Printing and emailing use `PackageListPrinter` and `PackageListPrintLayout`. Report layouts with list type `FustAdminPaklijst` or `Paklijst_divers` can be selected for `PackageListPrintLayout`. An empty selection list means that no suitable report layout is available yet.
 

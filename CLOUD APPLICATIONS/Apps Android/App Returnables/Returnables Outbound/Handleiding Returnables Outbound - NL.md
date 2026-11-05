@@ -96,6 +96,8 @@ De policy `PackageManagementRegistrationStrategy` bepaalt wat er bij afronden me
 - `PackageApproval`: de registratie gaat via het goedkeuringsproces voor fust;
 - `PackageAdministration`: de aantallen worden rechtstreeks in de fustadministratie verwerkt. Dit is de standaardstrategie in de applicatie.
 
+Voor een afzonderlijke fustfactuur kunt u bij de oorspronkelijke debiteur een fustfactuurdebiteur instellen (`DEBITEUR.FSTIUDEBNR`). Bij `PackageAdministration` komen de fustfactuurregels op een order van die debiteur. De oorspronkelijke debiteur blijft als herkomst op de regels staan en de sessie blijft bij de oorspronkelijke order. De bestemming van de fustadministratie kan afzonderlijk zijn ingesteld.
+
 Na een succesvolle verwerking wordt de sessie gesloten.
 
 ### Doorgaan met de andere fustrichting

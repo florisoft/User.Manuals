@@ -88,6 +88,8 @@ When `AssetManagementPackageReceiptLayout` is configured for the customer, the a
 - `PackageApproval`: send the registration through the package approval process;
 - `PackageAdministration`: register the quantities directly in package administration. This is the application's default strategy.
 
+To invoice returnables to a different customer, configure the returnables invoice customer on the original customer (`DEBITEUR.FSTIUDEBNR`). With `PackageAdministration`, invoice lines are registered on an order of that customer. The original customer remains the origin and the session stays with the original order. The returnables administration destination can be configured separately.
+
 The session is closed after successful processing.
 
 ### Continue in the other returnables direction
