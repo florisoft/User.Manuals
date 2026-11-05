@@ -32,7 +32,7 @@ Praktisch voorbeeld: bij geconsolideerde ontvangst plaatsen medewerkers partijen
 
 ## Stappen in de workflow (kort overzicht)
 
-1) Locatie identificeren — scan de barcode van de doel-locatie en controleer of de locatie geldig is.
+1) Locatie identificeren — scan de barcode van de doel-locatie of voer de locatiecode handmatig in als dit is ingeschakeld.
 
 2) Partijen selecteren — kies de beschikbare partijen of scan partijnummers.
 
@@ -44,17 +44,20 @@ De volgende secties geven per stap aan welke instellingen en policies van belang
 
 ## Stap 1 — Locatie identificeren
 
-Start altijd met het scannen van de doel-locatie. De app controleert of de locatie bestaat en of deze gebruikt mag worden.
+Scan de doel-locatie of voer de locatiecode handmatig in. Handmatige invoer is handig wanneer u geen scanner gebruikt of de barcode niet leesbaar is. Schakel hiervoor de policy `Apps_Inventory_Consolidation_EnableLocationInput` in via Policy Beheer.
+
+Kies **Set Location** op het beginscherm of het locatiescherm, voer de code in en bevestig. De app opent de locatie en toont de gekoppelde partijen. Via dezelfde knop kunt u een andere locatie openen. Een ongeldige code opent geen andere locatie.
 
 Belangrijke instellingen:
 
 - `CheckPredefinedLocationCodes`
+- `EnableLocationInput`
 - `ClearLocationIsAllowed`
 - `LocationDisplayType`
 
 Wanneer de controle op vooraf gedefinieerde locaties (zie boven) is ingeschakeld controleert de app of de gescande locatie voorkomt in de centrale Partij Locatie-tabel; alleen geregistreerde locaties zijn dan bruikbaar. Dit is aanbevolen voor bedrijven met vaste locaties omdat het invoerfouten voorkomt en consistentie verhoogt. Als de reset-optie is toegestaan verschijnt in het menu een actie om een locatie in één keer te resetten (leegmaken); deze actie is zichtbaar nadat een locatie is gescand. De weergave-instelling bepaalt of de app de locatiecode of de locatieomschrijving toont — kies wat uw gebruikers het meest helpt bij herkenning.
 
-Na het scannen komt u op het locatie-overzicht met de lijst van gekoppelde partijen.
+Na het identificeren komt u op het locatie-overzicht met de lijst van gekoppelde partijen.
 
 ---
 

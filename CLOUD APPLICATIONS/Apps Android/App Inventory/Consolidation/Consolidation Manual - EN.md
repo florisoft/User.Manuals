@@ -32,7 +32,7 @@ Practical example: with consolidated receiving, employees place parcels directly
 
 ## Workflow steps (short overview)
 
-1) Identify the location - scan the barcode of the target location and check whether the location is valid.
+1) Identify the location - scan the barcode of the target location or enter its code manually when enabled.
 
 2) Select parcels - choose the available parcels or scan parcel numbers.
 
@@ -44,17 +44,20 @@ The following sections describe which settings and policies are important for ea
 
 ## Step 1 - Identify the location
 
-Always start by scanning the target location. The app checks whether the location exists and whether it may be used.
+Scan the target location or enter its code manually. Manual entry is useful when you do not use a scanner or the barcode is unreadable. To enable it, turn on the `Apps_Inventory_Consolidation_EnableLocationInput` policy in Policy Management.
+
+Choose **Set Location** on the home screen or location screen, enter the code and confirm. The app opens the location and displays its linked parcels. Use the same button to open another location. An invalid code does not open a different location.
 
 Important settings:
 
 - `CheckPredefinedLocationCodes`
+- `EnableLocationInput`
 - `ClearLocationIsAllowed`
 - `LocationDisplayType`
 
 When validation against predefined locations is enabled, the app checks whether the scanned location exists in the central Parcel Location table; only registered locations can then be used. This is recommended for companies with fixed locations because it prevents input errors and improves consistency. If the reset option is allowed, the menu shows an action to reset, or empty, a location in one step; this action is visible after a location has been scanned. The display setting determines whether the app shows the location code or the location description - choose the option that helps your users recognize locations most easily.
 
-After scanning, the app opens the location overview with the list of linked parcels.
+After identifying the location, the app opens the location overview with the list of linked parcels.
 
 ---
 
