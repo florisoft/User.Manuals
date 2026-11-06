@@ -104,7 +104,7 @@ De scan zoekt alleen binnen de voorraden uit `AvailableStocks`. De uiteindelijke
 
 Gebruik de knop met het **vergrootglas** op het startscherm wanneer een barcode ontbreekt, beschadigd is of niet kan worden gebruikt.
 
-Het scherm **Zoek inkomend artikel** toont de verwachte inkomende artikelen uit de actieve inslagzone en toegestane voorraden. De lijst is op omschrijving en daarna op partijnummer gesorteerd. Per regel ziet u:
+Het scherm **Zoek inkomend artikel** toont de verwachte inkomende artikelen uit de actieve inslagzone en toegestane voorraden. Met de policy `InboundItemSortingStrategy` kunt u artikelen van dezelfde leverancier bij elkaar tonen: kies **Leverancierscode** om eerst op leverancierscode en daarbinnen op omschrijving te sorteren. Als de instelling leeg is of **Geen** is gekozen, sorteert de lijst op omschrijving. Per regel ziet u:
 
 - de productfoto, wanneer beschikbaar;
 - de omschrijving;

@@ -104,7 +104,7 @@ The scan only searches stocks from `AvailableStocks`. The final item selection a
 
 Use the **magnifying-glass** button on the start screen when a barcode is missing, damaged or unusable.
 
-The **Search inbound item** screen shows expected inbound items from the active inbound area and permitted stocks. The list is sorted by description and then by stock-item number. Each row shows:
+The **Search inbound item** screen shows expected inbound items from the active inbound area and permitted stocks. The `InboundItemSortingStrategy` policy can group items from the same supplier: select **Supplier code** to sort by supplier code first and by description within each supplier. When the setting is empty or **None** is selected, the list is sorted by description. Each row shows:
 
 - the product picture, when available;
 - the description;
