@@ -36,7 +36,7 @@ Which barcodes the app accepts depends on the configured policies:
 - `EnabledBarcodeTypes` determines which barcode types the scanner can read. The full name of this policy is `Apps_Logistics_Labeling_PriceLabel_BarcodeSettings_EnabledBarcodeTypes`.
 - `ValidBarcodeDecodeOptions` determines which barcode contents the Price Labels flow can recognize and process.
 
-When `EnabledBarcodeTypes` is empty, the app uses the default profile containing **Interleaved 2 of 5, Code 128, Code 39, QR Code, EAN-13, Data Matrix, and UPC-A**. As soon as you select one or more types, that selection replaces the default profile. The scanner then reads only the selected types. For example, you can disable EAN-13 when a label contains multiple barcodes and only another barcode should be scanned.
+When `EnabledBarcodeTypes` is empty, the app uses the default profile containing **Interleaved 2 of 5, Code 128, Code 39, QR Code, EAN-13, Data Matrix, and UPC-A**. As soon as you select one or more types, that selection replaces the default profile. The scanner then reads only the selected types. For example, you can disable EAN-13 when a label contains multiple barcodes and only another barcode should be scanned. For FSQR, select `FSQR` in `ValidBarcodeDecodeOptions` and ensure QR Code is enabled in `EnabledBarcodeTypes`.
 
 A barcode is processed only when its physical barcode type is enabled through `EnabledBarcodeTypes` and its contents are allowed through `ValidBarcodeDecodeOptions`. Ask your administrator to adjust these policies if a required type cannot be scanned.
 
