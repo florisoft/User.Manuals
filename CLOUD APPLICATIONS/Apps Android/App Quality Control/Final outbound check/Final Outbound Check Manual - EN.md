@@ -225,6 +225,7 @@ To review the check from this screen, tap **Check** beside the progress display 
 | `AdressLabel` | Print an address label for the customer or hub. Requires Address Label access and the associated Shipping policies. Unavailable from a separate picking-list scope. |
 | `Returnables` | Register outgoing returnables through Returnables Outbound. The integration must be available and a valid returnables customer/order context must be resolved. |
 | `ApproveInvoices` | Approve invoices within the active selection for further processing. |
+| `MarkCustomerReady` | Mark orders in the active selection as customer ready. |
 | `CMR` | Schedule CMR printing for a customer/hub grouped by one order number. |
 
 For Address Label, configure the printer and report under **Apps → Logistics → Shipping → AddressLabels → PrinterSetting**. `ReportName` only accepts layouts of list type `Stickers` or `AdresSticker`. Consult the [Address Label manual](../../App%20Shipping/Adress%20Label/Manual%20Address%20Label%20-%20EN.md).
@@ -256,6 +257,14 @@ For a hub, `Apps_Logistics_Labeling_CMRPrintHubQueueMode` determines how the que
 If lines or boxes have not been fully checked, the current app asks whether to print the CMR anyway. This warning permits confirmation to continue, rather than automatically blocking printing.
 
 The `RequireSignature` policy is intended for a signature when printing/emailing the CMR. The current Final Outbound Check flow does not use this policy to request or enforce a digital signature. Do not rely on this setting as a guarantee that a signature is required.
+
+### Mark a customer ready
+
+Choose **Customer ready** under additional actions to mark all orders in the active selection as ready. Enable `MarkCustomerReady` in `Addons_EnableAddons` and allow customer-ready registration for the customers involved.
+
+In invoice maintenance, the customer-ready flag, KK timestamp and KK user columns show the registration. The separate customer-ready date/time column is populated by a timer. Invoice approval and final-check status remain unchanged.
+
+If an order is already ready or a customer does not allow registration, the whole selection is rejected.
 
 ### Approve invoices
 

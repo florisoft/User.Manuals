@@ -225,6 +225,7 @@ U hoeft het scherm niet te verlaten om nog iets na te kijken: tik op **Check** b
 | `AdressLabel` | Een adreslabel voor de klant of hub printen. Vereist toegang tot Address Label en de bijbehorende Shipping-policies. Niet beschikbaar vanuit een afzonderlijke paklijstscope. |
 | `Returnables` | Uitgaand fust registreren via Returnables Outbound. De integratie moet beschikbaar zijn en er moet een geldige fustdebiteur/ordercontext kunnen worden bepaald. |
 | `ApproveInvoices` | De facturen binnen de actieve selectie akkoord geven voor verdere verwerking. |
+| `MarkCustomerReady` | Orders binnen de actieve selectie klantklaar melden. |
 | `CMR` | Een CMR-afdruk inplannen voor een klant/hub met groepering op één ordernummer. |
 
 Voor Address Label moeten onder **Apps → Logistics → Shipping → AddressLabels → PrinterSetting** ook de printer en het rapport zijn ingericht. `ReportName` accepteert alleen lay-outs van lijstsoort `Stickers` of `AdresSticker`. Raadpleeg de [handleiding Address Label](../../App%20Shipping/Adress%20Label/Handleiding%20Address%20Label%20-%20NL.md).
@@ -256,6 +257,14 @@ Voor een hub bepaalt `Apps_Logistics_Labeling_CMRPrintHubQueueMode` hoe de wacht
 Wanneer regels of dozen nog niet volledig gecontroleerd zijn, vraagt de huidige app of u de CMR toch wilt afdrukken. Dit is een waarschuwing met een keuze om door te gaan, geen automatische blokkade.
 
 De policy `RequireSignature` is bedoeld voor een handtekening bij het printen/mailen van de CMR. In de huidige Final Outbound Check-flow wordt deze policy niet gebruikt om een digitale handtekening te vragen of af te dwingen. Gebruik deze instelling daarom niet als garantie dat een handtekening vereist is.
+
+### Klant klaar melden
+
+Kies **Klant klaar** bij de aanvullende acties om alle orders binnen de actieve selectie klantklaar te melden. Schakel hiervoor `MarkCustomerReady` in bij `Addons_EnableAddons` en sta klantklaar melden toe bij de betrokken klanten.
+
+De datum, tijd en gebruiker zijn in Onderhoud facturen zichtbaar via **Klant klaar**, **KK timestamp** en **KK gebruiker**. De aparte kolom **Klant klaar datum/tijd** wordt door een timer gevuld. Factuurakkoord en eindcontrolestatus wijzigen niet.
+
+Is een order al klantklaar of staat een klant dit niet toe, dan wordt de volledige selectie afgewezen.
 
 ### Facturen akkoord geven
 
