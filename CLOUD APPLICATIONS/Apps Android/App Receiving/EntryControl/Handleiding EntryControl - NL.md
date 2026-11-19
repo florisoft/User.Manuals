@@ -135,8 +135,11 @@ EntryControl ondersteunt de volgende waarden:
 - `StockIds`: filter op één of meer voorraadcodes;
 - `PackagingIds`: filter op één of meer fustcodes;
 - `SupplierIds`: filter op één of meer leveranciers;
-- `ShipmentNumber`: filter op tekst die in het verschepingsnummer voorkomt, zonder onderscheid tussen hoofdletters en kleine letters.
+- `ShipmentReference` (**Verschepingsreferentie**): zoek op een volledige referentie of een deel daarvan, zonder onderscheid tussen hoofdletters en kleine letters;
+- `ShipmentId` (**Verschepings ID**): zoek op het volledige numerieke ID; alleen een exacte overeenkomst wordt getoond. Zo vindt `123` geen ID `1234`;
 - `ExcludeCompleted`: toon de keuze **Verberg afgehandeld**.
+
+De verschepingsreferentie en het verschepings-ID zijn afzonderlijke gegevens. Controleer welke waarde bij de partij hoort en gebruik het bijbehorende filter.
 
 Open het filter, vul de gewenste waarden in en kies **Toepassen**. Het getal bij de filterknop toont hoeveel filtervelden actief zijn. Meerdere ingevulde filtersoorten gelden tegelijk; een resultaat moet dus aan alle actieve filtersoorten voldoen. Binnen één meervoudige selectie, bijvoorbeeld twee voorraden, mag een artikel aan één van de geselecteerde waarden voldoen.
 
@@ -155,7 +158,7 @@ Het scherm **Controleer artikel** toont:
 - fustcode;
 - kenmerken S1, S2 en S3;
 - aantal kolli × inhoud, met het totale aantal stelen;
-- verschepingsnummer;
+- verschepingsreferentie en verschepings-ID, wanneer deze in de details-policy zijn opgenomen;
 - kloktransactie, wanneer deze in de details-policy is opgenomen. De waarde bestaat uit het kloknummer gevolgd door het transactienummer, inclusief eventuele voorloopnullen;
 - de nog te verwerken hoeveelheid.
 

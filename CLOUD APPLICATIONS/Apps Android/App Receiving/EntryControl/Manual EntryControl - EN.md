@@ -135,8 +135,11 @@ EntryControl supports the following values:
 - `StockIds`: filter by one or more stock codes;
 - `PackagingIds`: filter by one or more packaging codes;
 - `SupplierIds`: filter by one or more suppliers;
-- `ShipmentNumber`: filter by text contained in the shipment number, without distinguishing uppercase and lowercase letters.
+- `ShipmentReference` (**Shipment reference**): search for a complete reference or part of it, without distinguishing uppercase and lowercase letters;
+- `ShipmentId` (**Shipment ID**): search for the complete numeric ID; only an exact match is shown. For example, `123` does not match ID `1234`;
 - `ExcludeCompleted`: offers the **Hide completed** option.
+
+The shipment reference and shipment ID are separate values. Check which value belongs to the inbound item and use the corresponding filter.
 
 Open the filter, enter or select the required values and select **Apply**. The number beside the filter button shows how many filter fields are active. Multiple filter types apply together, so a result must satisfy every active filter type. Within one multiple selection, such as two stocks, an item may match either selected value.
 
@@ -155,7 +158,7 @@ The **Review item** screen shows:
 - packaging code;
 - characteristics S1, S2 and S3;
 - number of boxes × content, with the total number of stems;
-- shipment number;
+- shipment reference and shipment ID, when included in the details policy;
 - clock transaction, when it is included in the details policy. Its value consists of the auction number followed by the transaction number, including any leading zeroes;
 - the quantity still to process.
 
