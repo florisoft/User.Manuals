@@ -66,6 +66,12 @@ Bij het aanmaken of uitleveren van pickorders bepalen twee Backoffice-policies w
 
 De gekozen groep wordt op de werkopdracht opgeslagen. Selecteert de picker in de app één of meer groepen, dan worden alleen werkopdrachten met één van die groepen geladen. Als geen groep is geselecteerd, past de app geen groepsbeperking toe. Gebruik een standaardgroep daarom vooral om nieuwe werkopdrachten consequent aan de juiste ploeg of afdeling toe te wijzen; de koppeling van medewerkers aan die groep bepaalt vervolgens wie deze groep in de app kan kiezen.
 
+### Werkopdrachten per debiteur en locatiecluster
+
+Wilt u pickopdrachten per magazijngebied verdelen, koppel dan in het constantenscherm bij **Cluster** de gewenste **Verkopersgroep** aan ieder locatiecluster. Zorg dat de betrokken locaties aan het juiste cluster zijn gekoppeld en dat de medewerkers aan de betreffende verkopersgroep zijn verbonden.
+
+Schakel `Pickorders_Entry_ShowOrderingMethod` in om de keuze voor de uitleverwijze te tonen. Kies bij **Uitleveren via PDA** voor **1 order per debiteur - cluster**. Florisoft groepeert de geselecteerde regels per debiteur en locatiecluster en neemt de verkopersgroep van het cluster over op de nieuwe werkopdracht. Controleer de gemaakte opdrachten en hun groepen in de Order Picking-app.
+
 De app toont alleen deze generieke flow wanneer `UseCaseKind` op `GenericPicking` staat. Is `PalletPicking` geselecteerd, dan start een andere usecase waarop deze handleiding niet van toepassing is.
 
 ---

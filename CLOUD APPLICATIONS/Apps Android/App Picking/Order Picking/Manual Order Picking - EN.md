@@ -66,6 +66,12 @@ Two Backoffice policies determine which group is recorded when pick orders are e
 
 The selected group is stored on the work order. When the picker selects one or more groups in the app, only work orders assigned to one of those groups are loaded. When no group is selected, the app applies no group restriction. Use a default group to assign new work orders consistently to the correct team or department; the employee-to-group links then determine who can select that group in the app.
 
+### Work orders per customer and location cluster
+
+To divide picking assignments by warehouse area, link the required **Sales Group** to each location cluster under **Cluster** in the constants screen. Ensure that locations are linked to the correct cluster and employees to the relevant salesperson group.
+
+Enable `Pickorders_Entry_ShowOrderingMethod` to display the delivery grouping choice. When using **Deliver via PDA**, select **1 order per debtor - cluster**. Florisoft groups the selected lines by customer and location cluster and copies the cluster's salesperson group to the new work order. Check the resulting work orders and their groups in the Order Picking app.
+
 The app shows this generic workflow only when `UseCaseKind` is set to `GenericPicking`. Selecting `PalletPicking` starts a different use case to which this manual does not apply.
 
 ---
