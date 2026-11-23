@@ -39,7 +39,7 @@ Scannen van de barcode van een orderregel, bijvoorbeeld een pickordersticker. Hi
 
 Op het startscherm kunt u ook een **klantbarcode**, **doosbarcode** of **paklijstbarcode** gebruiken om de bijbehorende controle te vinden. Voor een paklijst moet `EnablePickingListProcessing` aan staan. Een losse partij- of V-partijbarcode wordt gebruikt binnen een al geopende controle, niet om vanuit dit startscherm een order te openen.
 
-De startscan selecteert de controle en telt de gescande orderregel of doos nog niet als gecontroleerd. Scan daarvoor opnieuw in het actieve controleoverzicht. Bij één passende selectie opent de app deze direct; bij meerdere kiest u eerst de juiste. Is de gekozen selectie al volledig gecontroleerd, dan kan de app direct het overzicht met aanvullende acties openen. Tik daar op **Check** om de controleregels alsnog te bekijken.
+Met de policy `AllowScopeSwitchByProductScan` kunt u producten voor verschillende klanten achter elkaar controleren: een ondersteunde productbarcode opent de bijbehorende selectie en controleert het product direct volgens de ingestelde telstrategie. Zonder deze policy selecteert de startscan de controle en moet u de orderregel opnieuw scannen in het actieve controleoverzicht. Een startscan van een doos telt de doos nog niet als gecontroleerd. Bij één passende selectie opent de app deze direct; bij meerdere kiest u eerst de juiste. Is de gekozen selectie al volledig gecontroleerd, dan kan de app direct het overzicht met aanvullende acties openen. Tik daar op **Check** om de controleregels alsnog te bekijken.
 
 <details><summary><b>Klik hier voor een voorbeeld!</b></summary><img src="Media/Doorloop/2.png"></details>
 
@@ -108,7 +108,7 @@ Bij `Barcode` moet de barcode een aantal bevatten. Ontbreekt dat, dan toont de a
 
 Bij de huidige verwerking van meerdere scanresultaten wordt na de keuze van een orderregel geen barcodeaantal meegegeven. Daardoor kan bij telstrategie `Barcode` ook na een geldige scan de melding over een ontbrekend aantal verschijnen. Gebruik dan een passende scanroute met één resultaat of registreer de controle handmatig.
 
-Een barcode zonder resultaat binnen de actieve selectie wordt afgekeurd. Zijn alle overeenkomende regels al gecontroleerd, dan meldt de app dat de controle al is afgerond. De selecties **To check** en **Checked** tonen respectievelijk open en gecontroleerde regels; gedeeltelijk gecontroleerde regels kunnen in beide lijsten voorkomen. Gebruik de verversactie om de actuele stand opnieuw op te halen.
+Een barcode zonder resultaat binnen de actieve selectie wordt afgekeurd, tenzij een ondersteunde productbarcode met `AllowScopeSwitchByProductScan` een andere beschikbare selectie vindt. Zijn alle overeenkomende regels al gecontroleerd, dan meldt de app dat de controle al is afgerond. De selecties **To check** en **Checked** tonen respectievelijk open en gecontroleerde regels; gedeeltelijk gecontroleerde regels kunnen in beide lijsten voorkomen. Gebruik de verversactie om de actuele stand opnieuw op te halen.
 
 ### Acties bij een orderregel
 
@@ -120,7 +120,7 @@ Het te controleren aantal kan lager zijn dan het oorspronkelijke orderaantal doo
 
 ### Tijdens de controle van selectie wisselen
 
-Scan vanuit het controleoverzicht een klantbarcode om een andere klantselectie op te zoeken, of een paklijstbarcode om naar die paklijst te gaan wanneer paklijstverwerking is ingericht. Bij een onvolledige controle kan eerst de waarschuwing van `ShowWarningIfIncomplete` verschijnen. Kies **Nee** om bij de huidige controle te blijven of bevestig om door te gaan. De al geregistreerde voortgang blijft bewaard.
+Met `AllowScopeSwitchByProductScan` kunt u vanuit het controleoverzicht een product van een andere klant scannen. De app opent de bijbehorende selectie en verwerkt de scan direct. Zijn er meerdere passende selecties, kies dan eerst de juiste; opnieuw scannen is niet nodig. Een al gecontroleerd product verhoogt de telling niet. Scan anders een klantbarcode om een andere klantselectie op te zoeken, of een paklijstbarcode om naar die paklijst te gaan wanneer paklijstverwerking is ingericht. Bij een onvolledige controle kan eerst de waarschuwing van `ShowWarningIfIncomplete` verschijnen. Kies **Nee** om bij de huidige controle te blijven of bevestig om door te gaan. De al geregistreerde voortgang blijft bewaard.
 
 Wanneer `StoreScannedBarcodes` aan staat, richt u ook het opruimen van de tabel in via **Constanten → Timer → Tabellen opschonen**. Voeg `BARCODES` toe en kies een passende bewaartermijn, bijvoorbeeld 90 dagen. Dit is een ander proces dan het opschonen van fotobestanden.
 

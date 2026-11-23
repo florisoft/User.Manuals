@@ -39,7 +39,7 @@ Scan the barcode of an order line, for example, a pickorder sticker. The correct
 
 On the start screen, you can also use a **customer barcode**, **box barcode** or **picking-list barcode** to find its check. A picking list requires `EnablePickingListProcessing`. A standalone parcel or V-parcel barcode is used within an already opened check, rather than to open an order from this start screen.
 
-The initial scan selects the check and does not yet count the scanned order line or box as checked. Scan it again in the active check overview to do so. One matching selection opens directly; with multiple matches, select the correct one first. If the selected scope is already complete, the app may open additional actions directly. Tap **Check** there to view its check lines.
+With the `AllowScopeSwitchByProductScan` policy, you can check products for different customers in succession: a supported product barcode opens the matching selection and checks the product immediately using the configured counting strategy. Without this policy, the initial scan selects the check and you must scan the order line again in the active check overview. An initial box scan does not yet count the box as checked. One matching selection opens directly; with multiple matches, select the correct one first. If the selected scope is already complete, the app may open additional actions directly. Tap **Check** there to view its check lines.
 
 <details><summary><b>Click here for an example!</b></summary><img src="Media/Doorloop/2.png"></details>
 
@@ -107,7 +107,7 @@ With `Barcode`, the barcode must contain a quantity. If it does not, the app rep
 
 The current multiple-result flow does not pass a barcode quantity after an order line is selected. With the `Barcode` counting strategy, this can therefore produce the missing-quantity message even after a valid scan. Use an appropriate scan route with one result or register the check manually.
 
-A barcode without a result within the active selection is rejected. If all matching lines have already been checked, the app reports that the check is complete. **To check** and **Checked** show open and checked lines respectively; partially checked lines can appear in both lists. Use the refresh action to retrieve the current state.
+A barcode without a result within the active selection is rejected unless a supported product barcode finds another available selection with `AllowScopeSwitchByProductScan` enabled. If all matching lines have already been checked, the app reports that the check is complete. **To check** and **Checked** show open and checked lines respectively; partially checked lines can appear in both lists. Use the refresh action to retrieve the current state.
 
 ### Actions on an order line
 
@@ -119,7 +119,7 @@ The quantity requiring inspection can be lower than the original order quantity 
 
 ### Change selection during a check
 
-From the check overview, scan a customer barcode to find another customer selection, or a picking-list barcode to move to that list when picking-list processing is configured. An incomplete check can first trigger the `ShowWarningIfIncomplete` warning. Choose **No** to remain on the current check, or confirm to continue. Previously recorded progress is retained.
+With `AllowScopeSwitchByProductScan`, scan a product for another customer from the check overview. The app opens the matching selection and processes the scan immediately. If several selections match, choose the correct one first; no second scan is needed. An already checked product does not increase the count. Alternatively, scan a customer barcode to find another customer selection, or a picking-list barcode to move to that list when picking-list processing is configured. An incomplete check can first trigger the `ShowWarningIfIncomplete` warning. Choose **No** to remain on the current check, or confirm to continue. Previously recorded progress is retained.
 
 When `StoreScannedBarcodes` is enabled, also configure table cleanup through **Constants → Timer → Clean Up Tables**. Add `BARCODES` and select a suitable retention period, for example 90 days. This is a separate process from cleaning up photo files.
 
