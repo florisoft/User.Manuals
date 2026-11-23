@@ -36,7 +36,9 @@ Voordat u een configuratie wijzigt, bepaal:
 - waar de sticker wordt afgedrukt en in welk Florisoft-scherm deze wordt gescand;
 - welke gegevens de afdruk aan de QR-code meegeeft en welke gegevens het scanscherm nodig heeft.
 
-De instellingen en ondersteuning kunnen verschillen per toepassing en Florisoft-versie. Voor de inrichting is toegang nodig tot de constanten, de policy van het printproces en de afdruklayout. Een policy bepaalt welke configuratie het printproces gebruikt. Een afdruklayout bepaalt hoe de sticker eruitziet. Een decoder is de functie die de gescande code uitleest. Een geselecteerd veld krijgt alleen een waarde als het printproces die aanlevert; lege waarden worden overgeslagen. Test wijzigingen met de echte printer, stickers en scanner. Maak eerst een kopie van een bestaande layout.
+Vul vóór het gebruik van FSQR de systeeminstelling `FSQRClientCode` onder `SETUP` met de juiste clientcode. De standaardwaarde is leeg. De code wordt aan de FSQR toegevoegd; controleer bij een proeflabel of deze correct is. Overleg bij twijfel over de juiste waarde met Florisoft.
+
+De instellingen en ondersteuning kunnen verschillen per toepassing en Florisoft-versie. Voor de inrichting is toegang nodig tot de constanten, de policy van het printproces en de afdruklayout. Een policy bepaalt welke configuratie het printproces gebruikt. Een afdruklayout bepaalt hoe de sticker eruitziet. Een decoder is de functie die de gescande code uitleest. Een geselecteerd veld krijgt alleen een waarde als het printproces die aanlevert; lege waarden worden overgeslagen, behalve de clientcode: die wordt ook bij een lege instelling opgenomen. Test wijzigingen met de echte printer, stickers en scanner. Maak eerst een kopie van een bestaande layout.
 
 ## Een FSQR-configuratie maken
 
@@ -148,7 +150,7 @@ Dit voorbeeld is bedoeld voor beheerders die een nieuwe-karsticker inrichten.
 | Geen QR op de afdruk | Controleer of afdrukken actief is, de juiste layout wordt gebruikt en de QR-code naar de juiste variabele verwijst. Controleer ook of de configuratie aan de juiste policy is gekoppeld. |
 | QR leesbaar, maar de app herkent niets | Controleer de toegestane decoder voor het scherm, de aanwezige veldwaarde en of dat scherm deze toepassing ondersteunt. |
 | Verkeerd object of onverwachte actie | Controleer de inhoud en test welke waarde de ontvanger gebruikt, vooral bij meerdere velden. Controleer ook de policy-situatie en actuele gegevens. |
-| Een gekozen veld ontbreekt | Controleer of het printproces de waarde levert en of deze voor de actuele afdruk is gevuld. Een leeg veld wordt niet opgenomen. |
+| Een gekozen veld ontbreekt | Controleer of het printproces de waarde levert en of deze voor de actuele afdruk is gevuld. Een leeg veld wordt niet opgenomen, behalve de clientcode. |
 | Slecht scanbaar | Controleer afdrukkwaliteit, formaat, contrast en plaatsing. Test met de echte printer, scanner en representatieve inhoud. |
 
 Wijzigt u een bestaande productieconfiguratie of layout, test dan alle processen die deze delen voordat u de wijziging in gebruik neemt.

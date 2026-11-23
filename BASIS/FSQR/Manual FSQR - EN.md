@@ -36,7 +36,9 @@ Before changing a configuration, determine:
 - where the label is printed and which Florisoft screen will scan it;
 - which values the print process puts in the QR code and which values the scanning screen needs.
 
-Settings and support can vary by application and Florisoft version. Configuration requires access to constants, the print process policy and the print layout. A policy determines which configuration the print process uses. A print layout determines how the label looks. A decoder is the function that reads the scanned code. A selected field receives a value only when the print process supplies it; empty values are omitted. Test changes with the actual printer, labels and scanner. Make a copy of an existing layout first.
+Before using FSQR, enter the correct client code in the `FSQRClientCode` system setting under `SETUP`. The default value is empty. The code is added to the FSQR; check a test label to make sure it is correct. If you are unsure which value to use, consult Florisoft.
+
+Settings and support can vary by application and Florisoft version. Configuration requires access to constants, the print process policy and the print layout. A policy determines which configuration the print process uses. A print layout determines how the label looks. A decoder is the function that reads the scanned code. A selected field receives a value only when the print process supplies it; empty values are omitted, except for the client code, which is included even when the setting is empty. Test changes with the actual printer, labels and scanner. Make a copy of an existing layout first.
 
 ## Create an FSQR configuration
 
@@ -148,7 +150,7 @@ This example is for administrators configuring a new-trolley label.
 | No QR code on the printout | Check that printing is enabled, the correct layout is used, and the QR code refers to the correct variable. Check that the configuration is linked to the correct policy. |
 | QR code is readable but the app recognizes nothing | Check the permitted decoder for the screen, the field value in the code, and whether the screen supports that use. |
 | Wrong object or unexpected action | Check the content and which value the receiver uses, especially with multiple fields. Also check the policy situation and current data. |
-| A selected field is missing | Check that the print process supplies the value and that it is populated for this print. Empty fields are omitted. |
+| A selected field is missing | Check that the print process supplies the value and that it is populated for this print. Empty fields are omitted, except for the client code. |
 | Difficult to scan | Check print quality, size, contrast and placement. Test with the real printer and scanner and representative content. |
 
 When changing an existing production configuration or layout, test all processes that share it before putting the change into use.
