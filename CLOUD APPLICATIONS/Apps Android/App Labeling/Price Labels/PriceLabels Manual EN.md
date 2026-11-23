@@ -80,7 +80,7 @@ Use this check when only orders with handling may be processed in the Price Labe
 
 ---
 
-## Step 4: Print price labels (Policies: `DefaultQuantityToPrint`, `AskPriceLabelCopyQuantity`, `PriceLabelPrinter`, `PriceLabelLayout`, `PriceLabelPrinterPerCustomer`)
+## Step 4: Print price labels (Policies: `DefaultQuantityToPrint`, `SubtractPrintedQuantity`, `RequirePrintLabelQuantityInput`, `PriceLabelPrinter`, `PriceLabelLayout`, `PriceLabelPrinterPerCustomer`)
 
 Press the print button to print price labels.
 
@@ -96,7 +96,9 @@ With `BarcodeValue`, the barcode quantity is used for the print request and the 
 
 A barcode quantity of 0 is rejected as invalid. The app defaults to 1 only when a supported barcode has no quantity value at all. A trolley-loading barcode whose quantity field contains 0 therefore does not fall back to 1.
 
-If `AskPriceLabelCopyQuantity` is enabled, the app asks for the quantity and you can replace the suggested value with a positive number. If this policy is disabled, the app submits the configured default quantity directly.
+To reprint the same order item using the full calculated quantity, leave `SubtractPrintedQuantity` disabled. This policy is disabled by default. When enabled, the app subtracts previously printed labels from quantities based on stems, colli or bunches. With `BarcodeValue`, the barcode quantity remains leading.
+
+Your administrator uses `RequirePrintLabelQuantityInput` to choose when the app asks for a quantity: never (`Never`), always (`Always`), or only when the calculated remaining quantity is zero (`OnlyWhenFullyPrinted`). You can enter a positive number in the quantity dialog. The separate `CheckIfPriceLabelPrinted` policy controls whether the app asks for reprint confirmation.
 
 When the question is shown, enter the required number and confirm printing.
 
@@ -130,7 +132,7 @@ A: The app uses the default profile containing Interleaved 2 of 5, Code 128, Cod
 
 **Q: Why does the app ask how many price labels I want to print?**
 
-A: This happens when the `AskPriceLabelCopyQuantity` policy is enabled. The app suggests the quantity determined by `DefaultQuantityToPrint`; you can enter a different positive number.
+A: This depends on the `RequirePrintLabelQuantityInput` policy. The app suggests a quantity; you can enter a different positive number.
 
 **Q: Why do I get a message that a price label has already been printed?**
 

@@ -82,7 +82,7 @@ Gebruik deze controle wanneer alleen orders met handling verwerkt mogen worden i
 
 ---
 
-## Stap 4: Prijsstickers printen (Policies: `DefaultQuantityToPrint`, `AskPriceLabelCopyQuantity`, `PriceLabelPrinter`, `PriceLabelLayout`, `PriceLabelPrinterPerCustomer`)
+## Stap 4: Prijsstickers printen (Policies: `DefaultQuantityToPrint`, `SubtractPrintedQuantity`, `RequirePrintLabelQuantityInput`, `PriceLabelPrinter`, `PriceLabelLayout`, `PriceLabelPrinterPerCustomer`)
 
 Druk op de printknop om prijsstickers af te drukken.
 
@@ -98,7 +98,9 @@ Bij `BarcodeValue` wordt de hoeveelheid uit de barcode gebruikt voor de printopd
 
 Een barcode met hoeveelheid 0 wordt afgewezen als ongeldig. Alleen wanneer een ondersteunde barcode helemaal geen hoeveelheidswaarde bevat, gebruikt de app 1 als standaard. Een karopbouwbarcode met een hoeveelheidsveld waarin 0 staat, valt dus niet terug op 1.
 
-Als `AskPriceLabelCopyQuantity` is ingeschakeld, vraagt de app om het aantal en kunt u de voorgestelde hoeveelheid vervangen door een positief aantal. Als deze policy is uitgeschakeld, gebruikt de app de ingestelde standaardhoeveelheid direct.
+Wilt u dezelfde orderregel opnieuw printen met het volledige berekende aantal? Laat `SubtractPrintedQuantity` uitgeschakeld. Deze policy staat standaard uit. Als de policy is ingeschakeld, trekt de app eerder geprinte stickers af bij aantallen op basis van stuks, colli of bossen. Bij `BarcodeValue` blijft de barcodehoeveelheid leidend.
+
+Met `RequirePrintLabelQuantityInput` bepaalt uw beheerder wanneer de app om een aantal vraagt: nooit (`Never`), altijd (`Always`) of alleen wanneer het berekende resterende aantal nul is (`OnlyWhenFullyPrinted`). In de aantaldialoog kunt u een positief aantal invoeren. De policy `CheckIfPriceLabelPrinted` regelt afzonderlijk of de app om een herprintbevestiging vraagt.
 
 Wanneer de vraag wordt getoond, vult u het gewenste aantal in en bevestigt u het printen.
 
@@ -132,7 +134,7 @@ A: Dan gebruikt de app het standaardprofiel met Interleaved 2 of 5, Code 128, Co
 
 **V: Waarom vraagt de app hoeveel prijsstickers ik wil printen?**
 
-A: Dit gebeurt wanneer de policy `AskPriceLabelCopyQuantity` is ingeschakeld. De app stelt de hoeveelheid volgens `DefaultQuantityToPrint` voor; u kunt een ander positief aantal invullen.
+A: Dit hangt af van de policy `RequirePrintLabelQuantityInput`. De app stelt een aantal voor; u kunt een ander positief aantal invullen.
 
 **V: Waarom krijg ik een melding dat er al een prijssticker is geprint?**
 
