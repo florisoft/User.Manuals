@@ -195,6 +195,8 @@ Met het veld **Webshopzichtbaarheid** bepaalt u of de partij op de webshop zicht
 
 **Partijmarkering** kiest u uit de centraal beschikbare markeringen. De keuzelijst toont de omschrijving en, indien ingesteld, de bijbehorende kleur. Ook hiervoor moet `StockItemMark` zichtbaar én bewerkbaar zijn. Het veld **Fustcode** gebruikt eveneens een keuzelijst; **Kwaliteitscode** is een tekstveld.
 
+U kunt de keuzelijst beperken tot de markeringen die uw medewerkers nodig hebben en zelf de volgorde bepalen. Kies hiervoor in Policy Beheer onder **Apps → Inventory → Stock Counting** bij `AvailableStockItemMarks` de gewenste partijmarkeringen en zet ze in de gewenste volgorde. De app toont alleen deze markeringen in die volgorde. Laat de lijst leeg om alle markeringen te tonen. Sla de policy op en laad de app opnieuw.
+
 ### Totaal en colli samenhangend aanpassen
 
 Wijzigt u **Totaal**, dan berekent de app het aantal colli en het restant opnieuw met de colli-inhoud. Wijzigt u **Kolli**, **Inhoud kolli** of **Restant**, dan berekent de app het totaal opnieuw als colli × inhoud + restant.

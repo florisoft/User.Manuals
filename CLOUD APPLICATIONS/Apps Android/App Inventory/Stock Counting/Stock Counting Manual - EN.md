@@ -195,6 +195,8 @@ The **Webshop visibility** field controls whether the parcel is visible on the w
 
 Select a **Parcel mark** from the centrally available marks. The selector shows the description and its color, if configured. `StockItemMark` must also be visible and editable. **Packaging code** also uses a selector; **Quality code** is a text field.
 
+You can limit the selector to the marks your employees need and choose their order. In Policy Management, go to **Apps → Inventory → Stock Counting**, select the desired parcel marks in `AvailableStockItemMarks` and arrange them in the required order. The app shows only those marks in that order. Leave the list empty to show all marks. Save the policy and reload the app.
+
 ### Adjust total and colli consistently
 
 Changing **Total** recalculates the number of colli and the remainder using the colli content. Changing **Colli**, **Colli content** or **Remainder** recalculates the total as colli × content + remainder.
