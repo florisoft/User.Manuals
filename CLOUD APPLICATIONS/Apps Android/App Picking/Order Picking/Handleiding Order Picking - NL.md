@@ -219,9 +219,9 @@ De policy `LocationDisplayType` bepaalt welke locatie-informatie wordt getoond:
 
 ### Volgorde van de pickitems
 
-Het pickitemscherm sorteert de regels standaard op locatiecode. Hierdoor worden de locaties in een logische volgorde getoond.
+De lijst met nog te verwerken pickitems volgt de ingestelde printvolgorde van de verdeelstickers. Zo kan de picker de stickers in dezelfde volgorde gebruiken als de regels in de app. Een gekoppelde looproute gaat niet vóór deze sorteervolgorde.
 
-Is aan de werkopdracht een looproute gekoppeld, dan volgt Florisoft in plaats daarvan de locatievolgorde van die looproute. Zo kan de picker de artikelen verzamelen in de volgorde waarin de locaties in het magazijn worden bezocht. Locaties die niet in de looproute zijn opgenomen, verschijnen na de locaties uit de route en worden onderling op locatiecode gesorteerd.
+De bestaande instelling voor het overslaan van de verdeelstickersortering kan de sortering uitschakelen; in dat geval is dezelfde volgorde als de stickers niet gegarandeerd.
 
 `StockItemIdentifier` bepaalt welk partij-identificatienummer zichtbaar is. Beschikbare waarden zijn `None` (standaard), `StockItemNr` en `VStockItemNr`.
 

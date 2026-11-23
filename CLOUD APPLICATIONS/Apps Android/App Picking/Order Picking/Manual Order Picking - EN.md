@@ -219,9 +219,9 @@ The `LocationDisplayType` policy determines which location information is shown:
 
 ### Pick-item order
 
-By default, the pick-item screen sorts the lines by location code. This displays the locations in a logical order.
+The list of remaining pick items follows the configured print order of the distribution labels. This lets the picker use the labels in the same order as the items in the app. A linked walking route does not override this order.
 
-If a walking route is linked to the work order, Florisoft follows the location sequence defined by that route instead. This allows the picker to collect the products in the order in which the warehouse locations are visited. Locations that are not included in the walking route appear after the route locations and are sorted by location code.
+The existing setting for skipping distribution-label sorting can disable sorting; in that case, the same order as the labels is not guaranteed.
 
 `StockItemIdentifier` determines which parcel identifier is visible. Available values are `None` (default), `StockItemNr` and `VStockItemNr`.
 
