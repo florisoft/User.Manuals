@@ -113,7 +113,7 @@ Het scherm **Zoek inkomend artikel** toont de verwachte inkomende artikelen uit 
 - de totale hoeveelheid;
 - een groene statusmarkering wanneer de verwerkte hoeveelheid gelijk is aan of groter is dan de totale hoeveelheid.
 
-De policy `InboundItemQuantityDisplay` bepaalt hoe de resterende hoeveelheid rechts in iedere regel wordt getoond. Kies **Stelen** wanneer medewerkers alleen het aantal stelen moeten zien. Kies **Inhoud kolli restant** wanneer zij het aantal volledige kolli, de inhoud per kolli en een eventueel restant moeten kunnen aflezen, bijvoorbeeld `10 × 10 + 4`.
+De policy `InboundItemQuantityDisplay` bepaalt hoe de resterende hoeveelheid rechts in iedere regel wordt getoond. Kies **Stelen** wanneer medewerkers alleen het aantal stelen moeten zien. Kies **Inhoud kolli restant** wanneer zij het aantal volledige kolli, de inhoud per kolli en een eventueel restant moeten kunnen aflezen, bijvoorbeeld `10 × 10 + 4`. In deze weergave toont de voortgang op de zoek- en detailpagina het aantal volledig ontvangen kolli. Bij 4 kolli en 20 stelen ontvangen van 5 × 100 is de voortgang bijvoorbeeld `4/5`.
 
 Voer minimaal drie tekens in om de lijst met een zoekterm te verversen. Tekst zoekt zonder onderscheid tussen hoofdletters en kleine letters in de omschrijving. Een numerieke zoekterm vergelijkt ook de laatste vier cijfers van het partijnummer. Maak het zoekveld leeg om de volledige toegestane lijst opnieuw te laden.
 
@@ -166,6 +166,8 @@ De zichtbare aanvullende gegevens en hun volgorde worden bepaald met de details-
 
 Bij het openen stelt Florisoft een hoeveelheid voor. Afhankelijk van de scan en de policy kan dit één verpakkingseenheid of de resterende hoeveelheid zijn. Het invoerveld accepteert minimaal nul en maximaal de resterende hoeveelheid. De knop met het **vinkje** wordt pas actief bij een hoeveelheid groter dan nul.
 
+Bij de weergave **Inhoud kolli restant** voert u kolli en stelen afzonderlijk in. Als de inhoud bos is gevuld, verhogen en verlagen de plus- en minknop bij stelen het aantal met die bosinhoud. Bevestig een getypte waarde met **Done/Enter**; dit meldt de ontvangst niet direct binnen.
+
 Controleer het fysieke artikel, de kenmerken, het fust en de hoeveelheid voordat u bevestigt. Gebruik de **homeknop** om zonder registratie terug te keren naar het startscherm. Gebruik het **vergrootglas** om een ander artikel te zoeken.
 
 ---
@@ -178,7 +180,7 @@ Vul de volledige resterende hoeveelheid in en tik op het **vinkje**. Na een gesl
 
 ### Gedeeltelijke ontvangst
 
-Voer bij een deelontvangst een hoeveelheid in die lager is dan de resterende hoeveelheid en tik op het **vinkje**. Florisoft verwerkt alleen dit aantal. Het detailscherm blijft geopend, verlaagt de resterende hoeveelheid en zet het invoerveld op nul.
+Voer bij een deelontvangst een hoeveelheid in die lager is dan de resterende hoeveelheid en tik op het **vinkje**. Florisoft verwerkt alleen dit aantal. Het detailscherm blijft geopend, verlaagt de resterende hoeveelheid en vult het restant in zodat u dit aansluitend kunt verwerken.
 
 U kunt daarna:
 
@@ -191,6 +193,10 @@ Registreer nooit meer dan fysiek is ontvangen. Een eenmaal geslaagde verwerking 
 ---
 
 ## Stap 7 – Labels afdrukken en controleren
+
+### Stickers opnieuw printen
+
+Open de volledig ontvangen partij en tik in het detailscherm op de printerknop. De app meldt dat de stickers al zijn geprint en vraagt of u opnieuw wilt printen. Kies **Ja** om te herprinten of **Nee** om te annuleren. Controleer de melding en de stickers bij de ingestelde printer. De ontvangst wordt niet opnieuw geregistreerd.
 
 EntryControl gebruikt bij iedere bevestigde verwerking de printflow voor verdeelstickers. De policies onder `ProcessInboundItem` bepalen de uitvoer.
 

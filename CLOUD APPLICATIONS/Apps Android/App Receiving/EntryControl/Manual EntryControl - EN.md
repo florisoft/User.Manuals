@@ -113,7 +113,7 @@ The **Search inbound item** screen shows expected inbound items from the active 
 - the total quantity;
 - a green status indicator when the processed quantity is equal to or greater than the total quantity.
 
-The `InboundItemQuantityDisplay` policy determines how the remaining quantity is shown at the right of each row. Choose **Stems** when employees only need to see the number of stems. Choose **Content, boxes, remainder** when they need to see the number of complete boxes, the content per box and any remainder, for example `10 × 10 + 4`.
+The `InboundItemQuantityDisplay` policy determines how the remaining quantity is shown at the right of each row. Choose **Stems** when employees only need to see the number of stems. Choose **Content, boxes, remainder** when they need to see the number of complete boxes, the content per box and any remainder, for example `10 × 10 + 4`. In this view, progress on the search and detail pages shows the number of completely received boxes. For example, receiving 4 boxes and 20 stems out of 5 × 100 shows progress of `4/5`.
 
 Enter at least three characters to refresh the list with a search term. Text searches the description without distinguishing uppercase and lowercase letters. A numeric search term also compares the final four digits of the stock-item number. Clear the search field to load the complete permitted list again.
 
@@ -166,6 +166,8 @@ The details policy determines which additional data is visible and in which orde
 
 When the screen opens, Florisoft proposes a quantity. Depending on the scan and policy, this can be one packing unit or the remaining quantity. The input accepts a minimum of zero and a maximum of the remaining quantity. The **check-mark** button only becomes active for a quantity above zero.
 
+In the **Content, boxes, remainder** view, enter boxes and stems separately. When stems per bunch is populated, the plus and minus buttons for stems change the quantity by that bunch content. Confirm a typed value with **Done/Enter**; this does not immediately register the receipt.
+
 Check the physical item, characteristics, packaging and quantity before confirming. Use the **home button** to return to the start screen without registering. Use the **magnifying glass** to search for another item.
 
 ---
@@ -178,7 +180,7 @@ Enter the full remaining quantity and tap the **check mark**. After successful p
 
 ### Partial receipt
 
-For a partial receipt, enter a quantity below the remaining quantity and tap the **check mark**. Florisoft only processes this amount. The details screen remains open, reduces the remaining quantity and resets the input to zero.
+For a partial receipt, enter a quantity below the remaining quantity and tap the **check mark**. Florisoft only processes this amount. The details screen remains open, reduces the remaining quantity and fills in the remainder so it can be processed next.
 
 You can then:
 
@@ -191,6 +193,10 @@ Never register more than was physically received. Successful processing may alre
 ---
 
 ## Step 7 – Print and check labels
+
+### Reprint labels
+
+Open the fully received inbound item and tap the printer button on its detail page. The app warns that the labels have already been printed and asks whether to print them again. Choose **Yes** to reprint or **No** to cancel. Check the message and the labels at the configured printer. The receipt is not registered again.
 
 EntryControl invokes the distribution-label printing workflow for every confirmed processing action. The policies under `ProcessInboundItem` determine the output.
 
