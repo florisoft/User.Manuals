@@ -294,6 +294,8 @@ Bij het aanmaken van een kar wordt eerst gecontroleerd of een eigen barcode nodi
 
 Na het opslaan voert Florisoft de acties uit `AdditionalActions` uit, bijvoorbeeld de registratie van een slotplaat. Voor een hub bepaalt `RegisterTrolleyOnInvoice` of de kar ook op de fustfactuur wordt gezet. Daarna stuurt `CreateNewTrolleyAndOpenDetails` de medewerker rechtstreeks naar de nieuwe kar of terug naar het karoverzicht.
 
+Wilt u een nieuwe kar bij een gewone klantorder als fustregel op de eigen order registreren? Zet dan onder `TrolleyHandling → NewTrolley` zowel `RegisterTrolleyOnInvoice` als `RegisterTrolleyOnInvoiceForCustomerOrders` aan. Voor hubkarren blijven de ingestelde fustinstellingen van de hub gelden. Met `RegisterExtraElementsOnInvoice` kunnen ook extra fustelementen op de factuur worden geregistreerd. Stem de factuurinstellingen voor karren en dozen af om dubbele regels te voorkomen.
+
 Tijdens het opbouwen kunnen extra platen, rekken of andere fustelementen nodig zijn. De medewerker kan alleen kiezen uit `ValidPackagingCodesForExtraTrolleyElements`. Als `RegisterExtraElementsOnInvoice` actief is, worden deze aantallen ook op de factuur geregistreerd. Wanneer een verwijderactie alle inhoud van een kar haalt, bepaalt `RemoveEmptyTrolley` of de lege kar zelf eveneens uit de order verdwijnt.
 
 ### ProductHandling en PutOnTrolley

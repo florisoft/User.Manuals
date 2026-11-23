@@ -294,6 +294,8 @@ When a trolley is created, Florisoft first determines whether a custom barcode i
 
 After saving, Florisoft performs the operations in `AdditionalActions`, such as lock plate registration. For a hub, `RegisterTrolleyOnInvoice` determines whether the trolley is also recorded on the returnables invoice. `CreateNewTrolleyAndOpenDetails` then sends the employee directly to the new trolley or back to the trolley overview.
 
+To register a new trolley for a regular customer order as a returnable packaging line on that order, enable both `RegisterTrolleyOnInvoice` and `RegisterTrolleyOnInvoiceForCustomerOrders` under `TrolleyHandling → NewTrolley`. Hub trolleys continue to use the configured hub returnables settings. `RegisterExtraElementsOnInvoice` can also register additional packaging elements on the invoice. Coordinate the invoice settings for trolleys and boxes to prevent duplicate lines.
+
 Additional shelves, racks, or other packaging elements may be needed while building. Employees can only choose values from `ValidPackagingCodesForExtraTrolleyElements`. When `RegisterExtraElementsOnInvoice` is active, those quantities are also registered on the invoice. If a removal operation takes all contents off a trolley, `RemoveEmptyTrolley` determines whether the empty trolley itself is removed from the order as well.
 
 ### ProductHandling and PutOnTrolley
