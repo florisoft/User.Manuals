@@ -301,10 +301,10 @@ Use this option only when a barcode is missing or cannot be scanned. The picker 
 
 ## Step 8 – Use an alternative location
 
-`AllowAlternativeLocationSelection` under **Alternative Location** determines whether the picker may select stock from another location. It is enabled by default. The action is meaningful only when the pick item has available logistic stock records. When `UseLogisticParcels` is enabled and no matching logistic parcel is available, Florisoft automatically processes the remaining quantity as a distribution check using the reason configured in `ExceptionReasonMissingInventory`.
+An alternative location is available when `UseLogisticParcels` under **Picking** is enabled. When this policy is disabled, the location action is hidden and pressing and holding does not open alternative locations. `AllowAlternativeLocationSelection` under **Alternative Location** determines whether the picker may select stock from another location. It is enabled by default. The action is meaningful only when the pick item has available logistic stock records. When `UseLogisticParcels` is enabled and no matching logistic parcel is available, Florisoft automatically processes the remaining quantity as a distribution check using the reason configured in `ExceptionReasonMissingInventory`.
 
-1. Press and hold the product line or swipe across it.
-2. Tap the **location icon**.
+1. Press and hold the product line, or swipe across it and tap the **location icon**.
+2. View the available alternative locations.
 3. Select a stock record. The app shows its location, unique carrier and available quantity.
 4. Tap the **check mark**.
 5. Confirm the selected location.
