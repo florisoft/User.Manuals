@@ -177,6 +177,15 @@ The `LinkBox.DepartmentId` policy contains the ID of the box-packing department 
 
 ---
 
+### Final checking during or after packing
+
+Use **Apps → Logistics → Packing → BoxPacking → LinkBox → EnabledAdditionalActions** to determine when the final check takes place:
+
+- `FinalOutboundCheck`: register the packed quantity as final checked immediately, including the employee and date/time.
+- Empty list: register packing only and perform the final check separately later.
+
+The default is an empty list. After an update, `FinalOutboundCheck` may be enabled automatically for existing configurations to preserve their previous behaviour.
+
 ## Step 6 – Change the active box packaging code
 
 When incorrect packaging was selected or different packaging is needed:

@@ -177,6 +177,15 @@ De policy `LinkBox.DepartmentId` bevat de ID van de doos-inpakafdeling die bij h
 
 ---
 
+### Eindcontrole tijdens of na het inpakken
+
+Met **Apps → Logistics → Packing → BoxPacking → LinkBox → EnabledAdditionalActions** bepaalt u wanneer de eindcontrole plaatsvindt:
+
+- `FinalOutboundCheck`: registreer de ingepakte hoeveelheid direct als eindgecontroleerd, met medewerker en datum/tijd.
+- Lege lijst: registreer alleen het inpakken en voer de eindcontrole later afzonderlijk uit.
+
+De standaard is een lege lijst. Na een update kan `FinalOutboundCheck` voor bestaande configuraties automatisch zijn ingeschakeld om het eerdere gedrag te behouden.
+
 ## Stap 6 – De fustcode van de actieve doos wijzigen
 
 Wanneer een verkeerde verpakking is gekozen of een andere verpakking nodig is:
