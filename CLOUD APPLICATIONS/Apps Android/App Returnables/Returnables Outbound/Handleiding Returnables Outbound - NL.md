@@ -25,7 +25,9 @@ Bij handmatige selectie:
 3. Selecteer een bestaande order of maak een nieuwe order aan.
 4. Kies een bestaande outbound-sessie of maak een nieuwe sessie.
 
-Als er precies één sessie bij een gescande order bestaat, opent de app deze direct. Bij meerdere sessies kiest u de juiste sessie. Als er nog geen sessie bestaat, maakt de app er een aan.
+Als er bij een gescande order precies één sessie bestaat en deze open is, opent de app deze direct. Bij meerdere sessies kiest u de juiste sessie. Als er nog geen sessie bestaat, maakt de app er een aan.
+
+Om een eerdere registratie terug te zien, kan uw beheerder `ShowClosedSessions` inschakelen. Gesloten sessies verschijnen dan met een groene statusaanduiding in het sessieoverzicht. Kies een gesloten sessie om direct de totalen en geregistreerde fustcodes te bekijken. De gegevens zijn alleen-lezen: u kunt aantallen en regels niet wijzigen of verwijderen.
 
 De gedeelde policy `AvailableCustomerFilterOptions` bepaalt welke filters beschikbaar zijn:
 
@@ -135,10 +137,14 @@ De policies staan op de volgende plaatsen:
 | `Apps` | `PackagingPicturesFolderPath` |
 | `Apps → Logistics → Picking → OrderPicking → Addons` | Voeg `Returnables` toe aan `EnableAddons` om de actie na de pickorder-eindcontrole te tonen. |
 | `Apps → Logistics → Returnables` | `AvailableCustomerFilterOptions`, `ValidBarcodeDecodeOptions`, `AllowSwitchingDirection` |
+| `Apps → Logistics → Returnables → Outbound → SessionSettings` | `ShowClosedSessions` |
 | `Apps → Logistics → Returnables → Outbound → PackagingCounting` | `StandardPackageCodes`, `SortPackagingType`, `AllowAdditionalPackaging`, `ShowQuickInput`, `ValidBarcodeDecodeOptions` |
 | `Apps → Logistics → Returnables → Outbound → FinalizeSession` | `RequireReferenceCode`, `RequireSignature`, `PrintPackingListOption`, `MailPackingListOption`, `PackageManagementRegistrationStrategy` |
 | `Apps → Logistics → Returnables → Outbound → PrinterSettings` | `PackageListPrinter`, `PackageListPrintLayout` |
+| `Apps → Logistics → Returnables → Outbound → OrderPackingList` | `PackageListPrinter`, `PackageListPrintLayout` |
 | `Backoffice → Financial → Invoicing` | `Returnables_PrintNotAllowedWhenActive` |
+
+Voor de paklijst van de volledige order na de laatste kar stelt u onder `OrderPackingList` de printer en lay-out in. Bij `PackageListPrintLayout` kunt u rapportlay-outs van de lijstsoorten `Paklijst_factuur` en `Paklijst_divers` selecteren. Is de keuzelijst leeg, dan is nog geen geschikte rapportlay-out beschikbaar.
 
 Voor de koppeling vanuit Final Outbound Check voegt u `Returnables` toe aan `Apps → Logistics → QualityControl → FinalOutboundCheck → Addons → EnableAddons`.
 
@@ -154,7 +160,7 @@ Ja, als `AllowAdditionalPackaging` is ingeschakeld en de fustcode in Florisoft b
 
 Controleer of er een positief totaal is en of een verplichte referentie is ingevuld. Controleer daarnaast of de order en sessie nog geldig zijn.
 
-**Waarom kan ik bij `PackageListPrintLayout` niets selecteren?**
+**Waarom kan ik bij `PrinterSettings → PackageListPrintLayout` niets selecteren?**
 
 Controleer of in Florisoft een rapportlay-out van lijstsoort `FustAdminPaklijst` of `Paklijst_divers` beschikbaar is. Alleen lay-outs van deze lijstsoorten worden in de keuzelijst getoond.
 

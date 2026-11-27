@@ -25,7 +25,9 @@ When selecting manually:
 3. Select an existing order or create a new order.
 4. Select an existing outbound session or create a new one.
 
-If exactly one session exists for a scanned order, the app opens it directly. If several sessions exist, select the correct one. If no session exists, the app creates one.
+If a scanned order has exactly one session and that session is open, the app opens it directly. If several sessions exist, select the correct one. If no session exists, the app creates one.
+
+To review an earlier registration, your administrator can enable `ShowClosedSessions`. Closed sessions then appear with a green status indicator in the session overview. Select a closed session to open its totals and registered package codes directly. The information is read-only: quantities and lines cannot be changed or removed.
 
 The shared `AvailableCustomerFilterOptions` policy can make these filters available:
 
@@ -125,10 +127,14 @@ Open the Backoffice constants screen and go to **System → Users → Policy Man
 | `Apps` | `PackagingPicturesFolderPath` |
 | `Apps → Logistics → Picking → OrderPicking → Addons` | Add `Returnables` to `EnableAddons` to show the action after the pick-order final inspection. |
 | `Apps → Logistics → Returnables` | `AvailableCustomerFilterOptions`, `ValidBarcodeDecodeOptions`, `AllowSwitchingDirection` |
+| `Apps → Logistics → Returnables → Outbound → SessionSettings` | `ShowClosedSessions` |
 | `Apps → Logistics → Returnables → Outbound → PackagingCounting` | `StandardPackageCodes`, `SortPackagingType`, `AllowAdditionalPackaging`, `ShowQuickInput`, `ValidBarcodeDecodeOptions` |
 | `Apps → Logistics → Returnables → Outbound → FinalizeSession` | `RequireReferenceCode`, `RequireSignature`, `PrintPackingListOption`, `MailPackingListOption`, `PackageManagementRegistrationStrategy` |
 | `Apps → Logistics → Returnables → Outbound → PrinterSettings` | `PackageListPrinter`, `PackageListPrintLayout` |
+| `Apps → Logistics → Returnables → Outbound → OrderPackingList` | `PackageListPrinter`, `PackageListPrintLayout` |
 | `Backoffice → Financial → Invoicing` | `Returnables_PrintNotAllowedWhenActive` |
+
+For the complete order packing list after the last trolley, configure the printer and layout under `OrderPackingList`. For `PackageListPrintLayout`, you can select report layouts with list type `Paklijst_factuur` or `Paklijst_divers`. An empty selection list means that no suitable report layout is available yet.
 
 For the integration from Final Outbound Check, add `Returnables` to `Apps → Logistics → QualityControl → FinalOutboundCheck → Addons → EnableAddons`.
 
@@ -136,6 +142,6 @@ See the [Policy Management manual](https://github.com/florisoft/User.Manuals/blo
 
 ## Troubleshooting
 
-**Why is the `PackageListPrintLayout` selection list empty?**
+**Why is the `PrinterSettings → PackageListPrintLayout` selection list empty?**
 
 Check that Florisoft contains a report layout with list type `FustAdminPaklijst` or `Paklijst_divers`. Only layouts with either of these list types are shown in the selection list.
